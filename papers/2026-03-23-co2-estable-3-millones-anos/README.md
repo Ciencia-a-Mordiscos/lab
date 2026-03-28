@@ -19,7 +19,9 @@ Los datos provienen de los Supplementary Materials del paper, disponibles públi
 
 ## Reproducir
 
-Abre el notebook en Google Colab o ejecútalo localmente:
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb)
+
+O ejecútalo localmente:
 
 ```bash
 pip install pandas matplotlib numpy

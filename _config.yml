@@ -1,0 +1,26 @@
+title: El Lab — Ciencia a Mordiscos
+author: Ciencia a Mordiscos
+logo: ""
+
+execute:
+  execute_notebooks: "off"  # No ejecutar notebooks en build (usamos outputs pre-generados o Colab)
+
+html:
+  favicon: ""
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: true
+  extra_footer: |
+    <p>
+      <a href="https://youtube.com/@CienciaaMordiscos">YouTube</a> ·
+      <a href="https://tiktok.com/@cienciaamordiscos">TikTok</a> ·
+      <a href="https://ko-fi.com/samumirandam">Ko-fi</a>
+    </p>
+    <p>CC-BY 4.0 · Ciencia a Mordiscos</p>
+
+repository:
+  url: https://github.com/Ciencia-a-Mordiscos/lab
+  branch: main
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"

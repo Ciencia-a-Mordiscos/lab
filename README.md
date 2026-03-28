@@ -8,9 +8,9 @@ Aqui la ciencia que contamos en video se puede **tocar, verificar y explorar**.
 
 Hallazgos de Nature, Science y mas, replicados en notebooks de Python.
 
-| Fecha | Paper | Categoria | Notebook |
-|-------|-------|-----------|----------|
-| 2026-03-23 | [El CO2 No Cambio en 3 Millones de Anos](papers/2026-03-23-co2-estable-3-millones-anos/) | Geologia | [Abrir](papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) |
+| Fecha | Paper | Categoria | Notebook | Colab |
+|-------|-------|-----------|----------|-------|
+| 2026-03-23 | [El CO2 No Cambio en 3 Millones de Anos](papers/2026-03-23-co2-estable-3-millones-anos/) | Geologia | [Abrir](papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) |
 
 ## Como usar
 
