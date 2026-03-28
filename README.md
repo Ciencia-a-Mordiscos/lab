@@ -1,23 +1,23 @@
 # El Lab — Ciencia a Mordiscos
 
-Investigaciones reproducibles del canal de divulgacion cientifica [Ciencia a Mordiscos](https://youtube.com/@CienciaaMordiscos).
+La ciencia que contamos en video, aquí se puede **tocar, verificar y explorar**.
 
-Aqui la ciencia que contamos en video se puede **tocar, verificar y explorar**.
+Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://youtube.com/@CienciaaMordiscos). Cada notebook replica hallazgos de papers reales con datos públicos.
+
+![CO₂ en 3 millones de años](papers/2026-03-23-co2-estable-3-millones-anos/figuras/co2_3_millones_anos.png)
 
 ## Papers
 
-Hallazgos de Nature, Science y mas, replicados en notebooks de Python.
-
-| Fecha | Paper | Categoria | Notebook | Colab |
+| Fecha | Paper | Categoría | Notebook | Colab |
 |-------|-------|-----------|----------|-------|
-| 2026-03-23 | [El CO2 No Cambio en 3 Millones de Anos](papers/2026-03-23-co2-estable-3-millones-anos/) | Geologia | [Abrir](papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) |
+| 2026-03-23 | [CO₂ estable 3 millones de años](papers/2026-03-23-co2-estable-3-millones-anos/) | Geología | [Abrir](papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) |
 
-## Como usar
+## Cómo usar
 
-Cada notebook se puede ejecutar localmente o en [Google Colab](https://colab.research.google.com):
+**Opción rápida:** Click en el badge "Abrir en Colab" → Runtime → Run all. No necesitas instalar nada.
 
+**Local:**
 ```bash
-# Local
 git clone https://github.com/Ciencia-a-Mordiscos/lab.git
 cd lab/papers/2026-03-23-co2-estable-3-millones-anos
 pip install pandas matplotlib numpy
@@ -32,4 +32,4 @@ jupyter execute notebook.ipynb
 
 ## Licencia
 
-Los notebooks y el codigo son [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Los datos de cada paper mantienen su licencia original (generalmente CC-BY o dominio publico), citada en cada `metadata.yml`.
+Notebooks y código: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Los datos de cada paper mantienen su licencia original (generalmente CC-BY o dominio público), citada en cada `metadata.yml`.
