@@ -5,7 +5,7 @@ parts:
   - caption: Papers
     chapters:
       - file: papers/2026-03-23-co2-estable-3-millones-anos/README
-        title: "CO2 estable 3 millones de anos"
+        title: "CO₂ estable 3 millones de años"
         sections:
           - file: papers/2026-03-23-co2-estable-3-millones-anos/notebook
             title: Notebook
