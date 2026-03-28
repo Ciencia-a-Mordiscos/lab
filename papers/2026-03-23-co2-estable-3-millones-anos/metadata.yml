@@ -1,0 +1,30 @@
+titulo: "El CO2 No Cambió en 3 Millones de Años y Nadie lo Sabía"
+fecha: 2026-03-23
+categoria: geologia
+tags: [co2, metano, hielo-antartico, cambio-climatico, paleoclima, plioceno, pleistoceno]
+formato: corto
+
+video_youtube: "https://youtube.com/shorts/OXIDk92qBKc"
+
+fuentes:
+  - doi: "10.1038/s41586-025-10032-y"
+    titulo: "Broadly stable atmospheric CO2 and CH4 levels over the past 3 million years"
+    journal: Nature
+    autores: "Marks Peterson, J. et al."
+    verificado: true
+  - doi: "10.15784/601878"
+    titulo: "ALHIC1901 CO2 CH4 d13CO2 data"
+    tipo: dataset
+    repositorio: "US Antarctic Program Data Center"
+
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "allan_hills_co2_ch4.csv"
+    descripcion: "158 mediciones CO2/CH4 del núcleo ALHIC1901 (456-2868 ka)"
+    fuente: "Nature Supplementary Materials (MOESM1)"
+  - nombre: "edc_composite_co2.csv"
+    descripcion: "1,270 puntos composite EPICA Dome C (10-808 ka)"
+    fuente: "Nature Supplementary Materials (MOESM4)"
+
+estado: publicado
