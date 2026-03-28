@@ -51,7 +51,7 @@ legend.loc:         upper left
 
 # ── Font ────────────────────────────────────────
 font.family:        sans-serif
-font.sans-serif:    Liberation Sans, DejaVu Sans, sans-serif
+font.sans-serif:    DejaVu Sans, Liberation Sans, sans-serif
 font.size:          11
 
 # ── Export ──────────────────────────────────────
