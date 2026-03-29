@@ -1,16 +1,14 @@
 /* ══════════════════════════════════════════════════════════
    El Lab — Ciencia a Mordiscos
-   Custom theme aligned with Media Kit
-   Palette: Navy #0D1B2A | Accent #4A96CA | Warm #C9A84C | Info #4DB8A4
+   Light theme with Media Kit accents
+   Navy #0D1B2A (header/sidebar) | Accent #4A96CA | Warm #C9A84C
    ══════════════════════════════════════════════════════════ */
 
-/* ── Fonts (Google Fonts) ─────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
-/* ── Root variables ───────────────────────────────────── */
 :root {
   --cam-navy: #0D1B2A;
-  --cam-navy-light: #12263B;
+  --cam-navy-light: #1B2E4B;
   --cam-cream: #F5EDD8;
   --cam-accent: #4A96CA;
   --cam-accent-light: #6BBDE5;
@@ -18,10 +16,9 @@
   --cam-warm-light: #DFC06E;
   --cam-info: #4DB8A4;
 
-  /* Override sphinx-book-theme variables */
   --pst-color-primary: var(--cam-accent);
-  --pst-color-link: var(--cam-accent);
-  --pst-color-link-hover: var(--cam-accent-light);
+  --pst-color-link: #2A7AB5;
+  --pst-color-link-hover: var(--cam-accent);
 }
 
 /* ── Typography ───────────────────────────────────────── */
@@ -35,13 +32,13 @@ h1, h2, h3, .sidebar-brand-text {
 
 code, pre, .highlight {
   font-family: 'JetBrains Mono', 'Courier New', monospace;
-  font-size: 0.9em;
+  font-size: 0.88em;
 }
 
-/* ── Sidebar ──────────────────────────────────────────── */
+/* ── Sidebar (navy — identidad de marca) ──────────────── */
 .bd-sidebar-primary {
   background-color: var(--cam-navy) !important;
-  border-right: 1px solid rgba(74, 150, 202, 0.15);
+  border-right: none;
 }
 
 .bd-sidebar-primary .sidebar-brand-text {
@@ -50,9 +47,8 @@ code, pre, .highlight {
 }
 
 .bd-sidebar-primary .nav-link,
-.bd-sidebar-primary .toc-entry a,
-.bd-sidebar-primary .caption-text {
-  color: rgba(245, 237, 216, 0.75) !important;
+.bd-sidebar-primary .toc-entry a {
+  color: rgba(245, 237, 216, 0.7) !important;
 }
 
 .bd-sidebar-primary .nav-link:hover,
@@ -69,7 +65,7 @@ code, pre, .highlight {
   letter-spacing: 0.08em;
 }
 
-/* ── Header / top bar ─────────────────────────────────── */
+/* ── Header (navy + línea dorada) ─────────────────────── */
 .bd-header {
   background-color: var(--cam-navy) !important;
   border-bottom: 2px solid var(--cam-warm);
@@ -79,9 +75,9 @@ code, pre, .highlight {
   color: var(--cam-cream) !important;
 }
 
-/* ── Main content (dark, consistent with Media Kit) ───── */
+/* ── Main content (CLARO — legible para contenido técnico) */
 .bd-main {
-  background-color: var(--cam-navy-light);
+  background-color: #FFFFFF;
 }
 
 .bd-article-container {
@@ -89,69 +85,49 @@ code, pre, .highlight {
 }
 
 .bd-content {
-  color: var(--cam-cream);
+  color: #2C3E50;
+  line-height: 1.7;
 }
 
-/* Article headings */
+/* Headings con acento de marca */
 .bd-content h1 {
-  color: var(--cam-cream);
+  color: var(--cam-navy);
   border-bottom: 2px solid var(--cam-warm);
   padding-bottom: 0.3em;
 }
 
 .bd-content h2 {
-  color: rgba(245, 237, 216, 0.9);
-  border-bottom: 1px solid rgba(74, 150, 202, 0.25);
+  color: var(--cam-navy-light);
+  border-bottom: 1px solid rgba(74, 150, 202, 0.2);
   padding-bottom: 0.2em;
 }
 
 .bd-content h3 {
-  color: rgba(245, 237, 216, 0.85);
+  color: var(--cam-navy-light);
 }
 
-/* Links */
+/* Links — accent blue */
 .bd-content a {
-  color: var(--cam-accent-light);
+  color: #2A7AB5;
 }
 
 .bd-content a:hover {
-  color: var(--cam-warm-light);
+  color: var(--cam-accent);
 }
 
-/* Paragraphs */
-.bd-content p, .bd-content li {
-  color: rgba(245, 237, 216, 0.85);
-  line-height: 1.7;
-}
-
-/* Strong/bold */
+/* Strong */
 .bd-content strong {
-  color: var(--cam-cream);
+  color: var(--cam-navy);
 }
 
-/* Horizontal rules */
-.bd-content hr {
-  border-color: rgba(74, 150, 202, 0.2);
-}
-
-/* ── Code cells (dark background) ─────────────────────── */
+/* ── Code cells ───────────────────────────────────────── */
 div.cell_input {
   border-left: 3px solid var(--cam-accent);
   border-radius: 0;
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-div.cell_input pre, div.cell_input code {
-  color: var(--cam-cream) !important;
 }
 
 div.cell_output {
   border-left: 3px solid var(--cam-info);
-  background-color: rgba(0, 0, 0, 0.15);
-}
-
-div.cell_output pre, div.cell_output .output_text {
-  color: rgba(245, 237, 216, 0.8) !important;
 }
 
 /* ── Tables ───────────────────────────────────────────── */
@@ -161,7 +137,7 @@ div.cell_output pre, div.cell_output .output_text {
 }
 
 .bd-content th {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--cam-navy);
   color: var(--cam-cream);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -171,26 +147,27 @@ div.cell_output pre, div.cell_output .output_text {
 
 .bd-content td {
   padding: 0.5em 0.8em;
-  border-bottom: 1px solid rgba(74, 150, 202, 0.15);
-  color: rgba(245, 237, 216, 0.8);
+  border-bottom: 1px solid #E8E8E8;
 }
 
 .bd-content tr:hover td {
-  background-color: rgba(74, 150, 202, 0.08);
+  background-color: rgba(74, 150, 202, 0.05);
 }
 
-/* ── Blockquotes (for verification notes) ─────────────── */
+/* ── Blockquotes (notas de verificación) ──────────────── */
 .bd-content blockquote {
   border-left: 4px solid var(--cam-warm);
-  background-color: rgba(201, 168, 76, 0.1);
+  background-color: rgba(201, 168, 76, 0.06);
   padding: 0.8em 1.2em;
   margin: 1em 0;
   border-radius: 0 4px 4px 0;
 }
 
-.bd-content blockquote p {
-  margin: 0;
-  color: rgba(245, 237, 216, 0.85);
+/* ── Notebook output images ───────────────────────────── */
+.cell_output img,
+.cell_output .output_png img {
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(13, 27, 42, 0.1);
 }
 
 /* ── Footer ───────────────────────────────────────────── */
@@ -203,30 +180,14 @@ div.cell_output pre, div.cell_output .output_text {
   color: var(--cam-accent-light) !important;
 }
 
-/* ── Right sidebar (TOC) ──────────────────────────────── */
-.bd-sidebar-secondary {
-  background-color: var(--cam-navy);
-}
-
-.bd-sidebar-secondary .toc-entry a {
-  color: rgba(245, 237, 216, 0.6) !important;
-}
-
-.bd-sidebar-secondary .toc-entry a:hover,
-.bd-sidebar-secondary .toc-entry a.active {
-  color: var(--cam-accent-light) !important;
-}
-
-/* ── Notebook output images ───────────────────────────── */
-.cell_output img,
-.cell_output .output_png img {
-  border-radius: 6px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-}
-
 /* ── Launch buttons (Colab) ───────────────────────────── */
 .dropdown-buttons .launch-button {
   background-color: var(--cam-accent) !important;
   color: white !important;
   border-radius: 4px;
+}
+
+/* ── HR dividers ──────────────────────────────────────── */
+.bd-content hr {
+  border-color: rgba(74, 150, 202, 0.15);
 }
