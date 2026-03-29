@@ -15,6 +15,7 @@
   --cam-accent: #4A96CA;
   --cam-accent-light: #6BBDE5;
   --cam-warm: #C9A84C;
+  --cam-warm-light: #DFC06E;
   --cam-info: #4DB8A4;
 
   /* Override sphinx-book-theme variables */
@@ -78,45 +79,79 @@ code, pre, .highlight {
   color: var(--cam-cream) !important;
 }
 
-/* ── Main content ─────────────────────────────────────── */
+/* ── Main content (dark, consistent with Media Kit) ───── */
 .bd-main {
-  background-color: #FAFAFA;
+  background-color: var(--cam-navy-light);
 }
 
 .bd-article-container {
   max-width: 900px;
 }
 
+.bd-content {
+  color: var(--cam-cream);
+}
+
 /* Article headings */
 .bd-content h1 {
-  color: var(--cam-navy);
+  color: var(--cam-cream);
   border-bottom: 2px solid var(--cam-warm);
   padding-bottom: 0.3em;
 }
 
 .bd-content h2 {
-  color: var(--cam-navy-light);
-  border-bottom: 1px solid rgba(74, 150, 202, 0.2);
+  color: rgba(245, 237, 216, 0.9);
+  border-bottom: 1px solid rgba(74, 150, 202, 0.25);
   padding-bottom: 0.2em;
+}
+
+.bd-content h3 {
+  color: rgba(245, 237, 216, 0.85);
 }
 
 /* Links */
 .bd-content a {
-  color: var(--cam-accent);
-}
-
-.bd-content a:hover {
   color: var(--cam-accent-light);
 }
 
-/* ── Code cells ───────────────────────────────────────── */
+.bd-content a:hover {
+  color: var(--cam-warm-light);
+}
+
+/* Paragraphs */
+.bd-content p, .bd-content li {
+  color: rgba(245, 237, 216, 0.85);
+  line-height: 1.7;
+}
+
+/* Strong/bold */
+.bd-content strong {
+  color: var(--cam-cream);
+}
+
+/* Horizontal rules */
+.bd-content hr {
+  border-color: rgba(74, 150, 202, 0.2);
+}
+
+/* ── Code cells (dark background) ─────────────────────── */
 div.cell_input {
   border-left: 3px solid var(--cam-accent);
   border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+div.cell_input pre, div.cell_input code {
+  color: var(--cam-cream) !important;
 }
 
 div.cell_output {
   border-left: 3px solid var(--cam-info);
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+div.cell_output pre, div.cell_output .output_text {
+  color: rgba(245, 237, 216, 0.8) !important;
 }
 
 /* ── Tables ───────────────────────────────────────────── */
@@ -126,7 +161,7 @@ div.cell_output {
 }
 
 .bd-content th {
-  background-color: var(--cam-navy);
+  background-color: rgba(0, 0, 0, 0.3);
   color: var(--cam-cream);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -136,17 +171,18 @@ div.cell_output {
 
 .bd-content td {
   padding: 0.5em 0.8em;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid rgba(74, 150, 202, 0.15);
+  color: rgba(245, 237, 216, 0.8);
 }
 
 .bd-content tr:hover td {
-  background-color: rgba(74, 150, 202, 0.05);
+  background-color: rgba(74, 150, 202, 0.08);
 }
 
 /* ── Blockquotes (for verification notes) ─────────────── */
 .bd-content blockquote {
   border-left: 4px solid var(--cam-warm);
-  background-color: rgba(201, 168, 76, 0.08);
+  background-color: rgba(201, 168, 76, 0.1);
   padding: 0.8em 1.2em;
   margin: 1em 0;
   border-radius: 0 4px 4px 0;
@@ -154,7 +190,7 @@ div.cell_output {
 
 .bd-content blockquote p {
   margin: 0;
-  color: #333;
+  color: rgba(245, 237, 216, 0.85);
 }
 
 /* ── Footer ───────────────────────────────────────────── */
@@ -167,11 +203,25 @@ div.cell_output {
   color: var(--cam-accent-light) !important;
 }
 
+/* ── Right sidebar (TOC) ──────────────────────────────── */
+.bd-sidebar-secondary {
+  background-color: var(--cam-navy);
+}
+
+.bd-sidebar-secondary .toc-entry a {
+  color: rgba(245, 237, 216, 0.6) !important;
+}
+
+.bd-sidebar-secondary .toc-entry a:hover,
+.bd-sidebar-secondary .toc-entry a.active {
+  color: var(--cam-accent-light) !important;
+}
+
 /* ── Notebook output images ───────────────────────────── */
 .cell_output img,
 .cell_output .output_png img {
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(13, 27, 42, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* ── Launch buttons (Colab) ───────────────────────────── */
