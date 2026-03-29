@@ -1,0 +1,182 @@
+/* ══════════════════════════════════════════════════════════
+   El Lab — Ciencia a Mordiscos
+   Custom theme aligned with Media Kit
+   Palette: Navy #0D1B2A | Accent #4A96CA | Warm #C9A84C | Info #4DB8A4
+   ══════════════════════════════════════════════════════════ */
+
+/* ── Fonts (Google Fonts) ─────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── Root variables ───────────────────────────────────── */
+:root {
+  --cam-navy: #0D1B2A;
+  --cam-navy-light: #12263B;
+  --cam-cream: #F5EDD8;
+  --cam-accent: #4A96CA;
+  --cam-accent-light: #6BBDE5;
+  --cam-warm: #C9A84C;
+  --cam-info: #4DB8A4;
+
+  /* Override sphinx-book-theme variables */
+  --pst-color-primary: var(--cam-accent);
+  --pst-color-link: var(--cam-accent);
+  --pst-color-link-hover: var(--cam-accent-light);
+}
+
+/* ── Typography ───────────────────────────────────────── */
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, .sidebar-brand-text {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+code, pre, .highlight {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+/* ── Sidebar ──────────────────────────────────────────── */
+.bd-sidebar-primary {
+  background-color: var(--cam-navy) !important;
+  border-right: 1px solid rgba(74, 150, 202, 0.15);
+}
+
+.bd-sidebar-primary .sidebar-brand-text {
+  color: var(--cam-cream) !important;
+  font-weight: 800;
+}
+
+.bd-sidebar-primary .nav-link,
+.bd-sidebar-primary .toc-entry a,
+.bd-sidebar-primary .caption-text {
+  color: rgba(245, 237, 216, 0.75) !important;
+}
+
+.bd-sidebar-primary .nav-link:hover,
+.bd-sidebar-primary .nav-link.active {
+  color: var(--cam-accent-light) !important;
+}
+
+.bd-sidebar-primary .caption-text {
+  color: var(--cam-warm) !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Header / top bar ─────────────────────────────────── */
+.bd-header {
+  background-color: var(--cam-navy) !important;
+  border-bottom: 2px solid var(--cam-warm);
+}
+
+.bd-header a {
+  color: var(--cam-cream) !important;
+}
+
+/* ── Main content ─────────────────────────────────────── */
+.bd-main {
+  background-color: #FAFAFA;
+}
+
+.bd-article-container {
+  max-width: 900px;
+}
+
+/* Article headings */
+.bd-content h1 {
+  color: var(--cam-navy);
+  border-bottom: 2px solid var(--cam-warm);
+  padding-bottom: 0.3em;
+}
+
+.bd-content h2 {
+  color: var(--cam-navy-light);
+  border-bottom: 1px solid rgba(74, 150, 202, 0.2);
+  padding-bottom: 0.2em;
+}
+
+/* Links */
+.bd-content a {
+  color: var(--cam-accent);
+}
+
+.bd-content a:hover {
+  color: var(--cam-accent-light);
+}
+
+/* ── Code cells ───────────────────────────────────────── */
+div.cell_input {
+  border-left: 3px solid var(--cam-accent);
+  border-radius: 0;
+}
+
+div.cell_output {
+  border-left: 3px solid var(--cam-info);
+}
+
+/* ── Tables ───────────────────────────────────────────── */
+.bd-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bd-content th {
+  background-color: var(--cam-navy);
+  color: var(--cam-cream);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.85em;
+  padding: 0.6em 0.8em;
+}
+
+.bd-content td {
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.bd-content tr:hover td {
+  background-color: rgba(74, 150, 202, 0.05);
+}
+
+/* ── Blockquotes (for verification notes) ─────────────── */
+.bd-content blockquote {
+  border-left: 4px solid var(--cam-warm);
+  background-color: rgba(201, 168, 76, 0.08);
+  padding: 0.8em 1.2em;
+  margin: 1em 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.bd-content blockquote p {
+  margin: 0;
+  color: #333;
+}
+
+/* ── Footer ───────────────────────────────────────────── */
+.bd-footer {
+  background-color: var(--cam-navy);
+  color: rgba(245, 237, 216, 0.6);
+}
+
+.bd-footer a {
+  color: var(--cam-accent-light) !important;
+}
+
+/* ── Notebook output images ───────────────────────────── */
+.cell_output img,
+.cell_output .output_png img {
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(13, 27, 42, 0.1);
+}
+
+/* ── Launch buttons (Colab) ───────────────────────────── */
+.dropdown-buttons .launch-button {
+  background-color: var(--cam-accent) !important;
+  color: white !important;
+  border-radius: 4px;
+}

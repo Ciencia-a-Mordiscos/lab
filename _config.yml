@@ -3,13 +3,15 @@ author: Ciencia a Mordiscos
 logo: ""
 
 execute:
-  execute_notebooks: "off"  # No ejecutar notebooks en build (usamos outputs pre-generados o Colab)
+  execute_notebooks: "off"
 
 html:
   favicon: ""
   use_issues_button: true
   use_repository_button: true
   use_edit_page_button: true
+  extra_css:
+    - _static/custom.css
   extra_footer: |
     <p>
       <a href="https://youtube.com/@CienciaaMordiscos">YouTube</a> ·
@@ -24,3 +26,7 @@ repository:
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
+
+sphinx:
+  config:
+    html_static_path: ["_static"]

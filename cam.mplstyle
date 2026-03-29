@@ -1,6 +1,6 @@
 # Ciencia a Mordiscos — Estilo editorial para notebooks
-# Usage: plt.style.use('cam.mplstyle') o desde GitHub raw URL
-# Inspirado en 538, Our World in Data, The Pudding
+# Alineado con Media Kit: Navy #0D1B2A | Accent #4A96CA | Warm #C9A84C | Info #4DB8A4
+# Usage: plt.style.use('cam.mplstyle')
 
 # ── Figure ──────────────────────────────────────
 figure.figsize:     12, 5
@@ -8,9 +8,9 @@ figure.dpi:         150
 figure.facecolor:   FAFAFA
 figure.edgecolor:   FAFAFA
 
-# ── Color cycle ─────────────────────────────────
-# Azul CaM, rojo contraste, emerald, amber, violeta, cyan
-axes.prop_cycle: cycler('color', ['2563eb', 'dc2626', '059669', 'd97706', '7c3aed', '0891b2', 'db2777', '4f46e5'])
+# ── Color cycle (Media Kit aligned) ─────────────
+# Accent, warm, info, navy, accent-light, red
+axes.prop_cycle: cycler('color', ['4A96CA', 'C9A84C', '4DB8A4', '0D1B2A', '6BBDE5', 'C0392B', 'DFC06E', '2C3E50'])
 
 # ── Axes ────────────────────────────────────────
 axes.facecolor:     FAFAFA
