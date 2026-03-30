@@ -8,36 +8,37 @@ Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los 
 
 ---
 
-## ¿Qué hay aquí?
+## Notebooks
 
-Cada entrada del Lab toma un paper científico real y lo convierte en un **notebook reproducible**: código Python que carga los datos originales, genera las gráficas, y te deja explorar.
+Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible**: código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar — abre cualquier notebook en Google Colab y dale "Ejecutar todo".
 
-No tienes que saber programar — puedes abrir cualquier notebook en Google Colab (gratis, sin instalar nada) y darle "Ejecutar todo". Pero si sabes, puedes modificar el código, cambiar parámetros, y verificar todo por tu cuenta.
+| Paper | Categoría | Revista | Qué hay dentro |
+|-------|-----------|---------|----------------|
+| [Océano dispara olas de calor](papers/2026-03-28-oceano-dispara-olas-de-calor/README) | Ecología | Nature Geoscience | 42 años de olas de calor húmedo, mapa global de tendencias, comparación por décadas |
+| [CO₂ estable 3 millones de años](papers/2026-03-23-co2-estable-3-millones-anos/README) | Geología | Nature | Hielo antártico de 3 Ma, ciclos glaciales, correlación CO₂-CH₄, histograma de anomalía |
 
 ### Lo que nos diferencia
 
 - **Datos reales** — descargados directamente de los papers y repositorios públicos
 - **Verificable** — cada notebook incluye una tabla de "¿qué soportan los datos?" con limitaciones explícitas
-- **Transparente** — si una correlación es débil, lo decimos. Si hay un outlier sospechoso, lo mostramos. No escondemos lo incómodo
+- **Transparente** — si una correlación es débil, lo decimos. Si hay un outlier sospechoso, lo mostramos
 - **Reproducible** — un click en Colab y puedes ejecutar todo tú mismo
-
----
-
-## Papers
-
-```{tableofcontents}
-```
 
 ---
 
 ## ¿Cómo funciona?
 
-1. **Elige un paper** de la lista
-2. **Click en "Abrir en Colab"** (el botón azul) o lee directo aquí
+1. **Elige un paper** de la tabla
+2. **Click en "Abrir en Colab"** (el botón azul en cada notebook) o lee directo aquí
 3. **Ejecuta** con Runtime → Run all
 4. **Explora** — cambia valores, haz zoom, cuestiona los datos
 
 Cada notebook tiene una sección **"Ahora tú"** con ideas para explorar y código pre-escrito para arrancar.
+
+---
+
+```{tableofcontents}
+```
 
 ---
 
