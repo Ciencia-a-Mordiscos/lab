@@ -10,6 +10,7 @@ Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://youtube.co
 
 | Fecha | Paper | Categoría | Notebook | Colab |
 |-------|-------|-----------|----------|-------|
+| 2026-03-28 | [Océano dispara olas de calor](papers/2026-03-28-oceano-dispara-olas-de-calor/) | Ecología | [Abrir](papers/2026-03-28-oceano-dispara-olas-de-calor/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-oceano-dispara-olas-de-calor/notebook.ipynb) |
 | 2026-03-23 | [CO₂ estable 3 millones de años](papers/2026-03-23-co2-estable-3-millones-anos/) | Geología | [Abrir](papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb) |
 
 ## Cómo usar

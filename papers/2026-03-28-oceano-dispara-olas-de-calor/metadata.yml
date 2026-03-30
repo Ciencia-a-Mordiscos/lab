@@ -1,0 +1,30 @@
+titulo: "Nadie Sabe Que el Océano Dispara las Peores Olas de Calor"
+fecha: 2026-03-28
+categoria: ecologia
+tags: [olas-de-calor, oceano, calentamiento-costero, clima, redes-complejas, humedad, tropicos]
+formato: corto
+
+video_youtube: "https://youtube.com/shorts/47ZWz1uCVsk"
+
+fuentes:
+  - doi: "10.1038/s41561-026-01952-z"
+    titulo: "Large-scale aggregation of humid heatwaves exacerbated by coastal oceanic warming"
+    journal: Nature Geoscience
+    autores: "Cai, F. et al."
+    verificado: true
+  - doi: "10.5281/zenodo.18061821"
+    titulo: "Processed heatwave concurrence data"
+    tipo: dataset
+    repositorio: Zenodo
+
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "heatwave_annual_global.csv"
+    descripcion: "42 años de grado medio de concurrencia global (1982-2023)"
+    fuente: "Zenodo (procesado de ERA5 + OISST)"
+  - nombre: "heatwave_mean_grid.csv"
+    descripcion: "3,849 celdas con intensidad media y tendencia (grilla 2x2°)"
+    fuente: "Zenodo (procesado de ERA5)"
+
+estado: publicado
