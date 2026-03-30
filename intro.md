@@ -12,6 +12,14 @@ Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los 
 
 Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible**: código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar — abre cualquier notebook en Google Colab y dale "Ejecutar todo".
 
+### 🧊 Rocas atrapadas en el hielo de Groenlandia
+
+**Geología** · Nature Geoscience · 4,946 ubicaciones de escombros rocosos en el manto de hielo, 11 modelos de extensión durante el último interglacial, radar 3D aerotransportado
+
+[Ver notebook](papers/2026-03-28-rocas-hielo-groenlandia/notebook) · [Leer más](papers/2026-03-28-rocas-hielo-groenlandia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-rocas-hielo-groenlandia/notebook.ipynb)
+
+---
+
 ### 🧫 Cáncer despierta armas contra tu cerebro
 
 **Medicina** · Nature · Tumores TNBC expresan receptores NMDA del cerebro, anticuerpos anti-tumor causan encefalitis autoinmune — trade-off inmunidad vs neurotoxicidad

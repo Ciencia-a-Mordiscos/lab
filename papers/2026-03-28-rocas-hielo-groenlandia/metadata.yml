@@ -1,0 +1,28 @@
+titulo: "Rocas atrapadas dentro del hielo de Groenlandia"
+fecha: 2026-03-28
+categoria: geologia
+tags: [groenlandia, hielo, radar, interglacial, escombros, glaciologia]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=7RyzExZhEUs"
+fuentes:
+  - doi: "10.1038/s41561-026-01950-1"
+    titulo: "Entrained debris records regrowth of the Greenland Ice Sheet after the last interglacial"
+    journal: Nature Geoscience
+    autores: "Holschuh, Christianson, Anandakrishnan et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "trenes_escombros.csv"
+    descripcion: "4,946 ubicaciones de escombros en Groenlandia norte"
+    fuente: "Harvard Dataverse (DebrisTrains_identified_in_MusicVolumes.mat)"
+  - nombre: "perdida_potencia.csv"
+    descripcion: "51 zonas de pérdida de potencia del radar"
+    fuente: "Harvard Dataverse (Identified_PowerLossFeatures.mat)"
+  - nombre: "extensiones_hielo_mis5e.csv"
+    descripcion: "11 modelos de extensión del hielo MIS 5e"
+    fuente: "Harvard Dataverse (Literature_ModelExtents.mat)"
+  - nombre: "escombros_literatura.csv"
+    descripcion: "5 referencias previas"
+    fuente: "Harvard Dataverse (Entrainment_in_Literature.xlsx)"
+estado: publicado
