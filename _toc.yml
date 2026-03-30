@@ -4,6 +4,11 @@ root: intro
 parts:
   - caption: Papers
     chapters:
+      - file: papers/2026-03-30-hambre-despues-estudiar/README
+        title: "Hambre después de estudiar"
+        sections:
+          - file: papers/2026-03-30-hambre-despues-estudiar/notebook
+            title: Notebook
       - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
         title: "Hormona alimenta tumores en niños"
         sections:

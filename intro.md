@@ -12,6 +12,14 @@ Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los 
 
 Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible**: código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar — abre cualquier notebook en Google Colab y dale "Ejecutar todo".
 
+### 🧠 Hambre después de estudiar
+
+**Neurociencia** · Nature · Memoria en *Drosophila* por tipo de entrenamiento, silenciamiento Gr43a, preferencia por sucrosa post-aprendizaje
+
+[Ver notebook](papers/2026-03-30-hambre-despues-estudiar/notebook) · [Leer más](papers/2026-03-30-hambre-despues-estudiar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-30-hambre-despues-estudiar/notebook.ipynb)
+
+---
+
 ### 🧬 Hormona alimenta tumores en niños
 
 **Medicina** · Nature · Respuesta dosis-efecto de testosterona en 6 líneas PFA, comparación de hormonas, control en otros tumores cerebrales

@@ -1,0 +1,32 @@
+titulo: "Nadie Sabe Por Qué Te Da Tanta Hambre Después de Estudiar"
+fecha: 2026-03-30
+categoria: neurociencia
+tags: [memoria, hambre, drosophila, fructosa, Gr43a, entrenamiento-espaciado, emotional-eating, consolidacion]
+formato: corto
+
+video_youtube: "https://youtube.com/shorts/e14oe0wa2bY"
+
+fuentes:
+  - doi: "10.1038/s41586-026-10306-z"
+    titulo: "Internal sugar sensing drives non-homeostatic hunger during memory consolidation"
+    journal: Nature
+    autores: "Ichinose, T. et al."
+    verificado: true
+
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "memoria_tipo_entrenamiento.csv"
+    descripcion: "Índice de memoria 24h en 4 condiciones (spaced/massed × fed/starved)"
+    fuente: "Supplementary Materials — Source Data Fig. 1b"
+  - nombre: "silenciar_gr43a.csv"
+    descripcion: "Memoria tras silenciar neuronas Gr43a (3 réplicas, 3 genotipos)"
+    fuente: "Supplementary Materials — Source Data Fig. 1a"
+  - nombre: "preferencia_sucrosa.csv"
+    descripcion: "Preferencia por sucrosa post-entrenamiento asociativo vs no-asociativo"
+    fuente: "Supplementary Materials — Source Data Fig. 4b"
+  - nombre: "preferencia_knockdown_gr43a.csv"
+    descripcion: "Preferencia por sucrosa con knockdown de Gr43a"
+    fuente: "Supplementary Materials — Source Data Fig. 4d"
+
+estado: publicado
