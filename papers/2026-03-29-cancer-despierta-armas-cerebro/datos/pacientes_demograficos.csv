@@ -1,0 +1,64 @@
+study_id,source,age,sex,diagnosis,specimen_type,profiling,figure
+FR0001D525,origene,54,F,Triple-negative breast cancer,frozen_section,Visium HD,Fig. 1c
+FR0001D525,origene,54,F,Triple-negative breast cancer,frozen_section,Immunofluoresence,Fig. 1f
+H22409T,biochain,64,F,Triple-negative breast cancer,frozen_section,Immunofluoresence,Fig. 6d
+H22589T,biochain,36,F,Triple-negative breast cancer,frozen_section,Immunofluoresence,Fig. 6d
+H50521T,biochain,66,F,Triple-negative breast cancer,frozen_section,Immunofluoresence,Fig. 6d
+OX1,oxford,21,F,Anti-NMDA receptor encephalitis,PBMCs,B-cell receptor sequencing,Ext. Fig. 1g
+Northwell38,northwell,49,F,Triple-negative breast cancer,viably_frozen_tissue,Flow cytometry; 10X scRNA-seq,Fig. 6f-g
+Northwell7,northwell,64,F,Triple-negative breast cancer,viably_frozen_tissue,Flow cytometry,Fig. 6f
+Northwell6,northwell,61,F,Triple-negative breast cancer,viably_frozen_tissue,Flow cytometry,Fig. 6f
+Northwell34,northwell,58,F,Triple-negative breast cancer,viably_frozen_tissue,Flow cytometry,Fig. 6f
+Northwell37,northwell,49,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell16,northwell,73,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell38,northwell,49,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell24,northwell,47,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell14,northwell,35,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell20,northwell,70,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+H22409T,biochain,64,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell6,northwell,61,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell42,northwell,59,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell30,northwell,64,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell13,northwell,81,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell2,northwell,54,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell39,northwell,86,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell35,northwell,79,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell12,northwell,26,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell32,northwell,58,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+H29443T,biochain,62,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+H22589T,biochain,36,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell17,northwell,64,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell33,northwell,61,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell10,northwell,57,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell11,northwell,58,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell29,northwell,44,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell46,northwell,83,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell31,northwell,52,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell26,northwell,67,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell22,northwell,81,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell45,northwell,83,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+H22788T,biochain,66,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+H50521T,biochain,66,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell1,northwell,60,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell15,northwell,88,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell18,northwell,85,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell19,northwell,89,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell21,northwell,49,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell23,northwell,49,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell27,northwell,81,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell28,northwell,66,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell3,northwell,70,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell34,northwell,58,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell36,northwell,57,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell4,northwell,66,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell41,northwell,54,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell43,northwell,74,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell44,northwell,54,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell47,northwell,83,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell48,northwell,89,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell5,northwell,76,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell7,northwell,64,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell8,northwell,71,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell9,northwell,69,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell25,northwell,60,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b
+Northwell40,northwell,55,F,Triple-negative breast cancer,plasma,ELISA for anti-NMDAR antibodies,Fig. 6b

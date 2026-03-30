@@ -1,0 +1,28 @@
+titulo: "Un tumor de mama que despierta anticuerpos contra tu cerebro"
+fecha: 2026-03-29
+categoria: medicina
+tags: [cancer, inmunologia, neurociencia, autoinmunidad, nmdar, encefalitis]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=20DRfz2D5Bg"
+fuentes:
+  - doi: "10.1038/s41586-026-10278-0"
+    titulo: "Tumour NMDA receptor expression links anti-cancer and autoimmunity"
+    journal: Nature
+    autores: "Bhatt, Bhargava, Bhatt et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "crecimiento_tumor_nmdar.csv"
+    descripcion: "Volumen tumoral NMDAR-expressing, 3 ratones, 6 timepoints"
+    fuente: "Supplementary Table 6 (Fig1g)"
+  - nombre: "tumor_veh_vs_dox.csv"
+    descripcion: "Crecimiento tumoral VEH vs DOX, 10 ratones"
+    fuente: "Supplementary Table 6 (EDFig3d)"
+  - nombre: "anticuerpos_sk3d_vs_mgo53.csv"
+    descripcion: "Transferencia pasiva anticuerpos, 7 ratones"
+    fuente: "Supplementary Table 6 (EDFig12d)"
+  - nombre: "pacientes_demograficos.csv"
+    descripcion: "Metadatos de 63 muestras TNBC"
+    fuente: "Supplementary Table 3"
+estado: publicado
