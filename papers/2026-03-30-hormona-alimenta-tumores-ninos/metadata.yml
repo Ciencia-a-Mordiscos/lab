@@ -1,0 +1,32 @@
+titulo: "Nadie Sabía que Esta Hormona Alimenta Tumores en Niños"
+fecha: 2026-03-30
+categoria: medicina
+tags: [cancer-infantil, ependimoma, androgenos, testosterona, PFA, cerebro, hormonas, diferencias-sexuales]
+formato: corto
+
+video_youtube: "https://youtube.com/shorts/fSOCN38a_v8"
+
+fuentes:
+  - doi: "10.1038/s41586-026-10264-6"
+    titulo: "Androgen signalling drives sex differences in PFA ependymoma"
+    journal: Nature
+    autores: "Cai, F. et al."
+    verificado: true
+
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "testosterone_dosis_pfa.csv"
+    descripcion: "Crecimiento normalizado de 6 líneas PFA a 6 dosis de testosterona (0-1000 nM)"
+    fuente: "Supplementary Materials — Source Data Fig. 5f"
+  - nombre: "hormonas_crecimiento_pfa.csv"
+    descripcion: "Comparación de testosterona, DHT, progesterona y estradiol a 50 nM en PFA9 y PFA4"
+    fuente: "Supplementary Materials — Source Data ExtFig. 10h, 10i"
+  - nombre: "testosterone_otros_tumores.csv"
+    descripcion: "Control negativo: testosterona en ST-EPN y DIPG (4 líneas celulares)"
+    fuente: "Supplementary Materials — Source Data ExtFig. 11a"
+  - nombre: "pvalues_sexo_tipos_celulares.csv"
+    descripcion: "P-values de proporciones celulares por sexo"
+    fuente: "Supplementary Materials — Source Data Fig. 3"
+
+estado: publicado

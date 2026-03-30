@@ -1,0 +1,11 @@
+cell_type,significance,p_value
+1 Mm−NSCs,*,0.012
+3 Mm-NSCs/GP/PFA-GP-like,**,0.0096
+Fig. 3h.,,
+Two-sided Student’s t-test,Summary,P value
+Node2,*,0.034
+Node4,**,0.003
+Fig. 3i.,,
+Two-sided Student’s t-test,Summary,P value
+2 VZ progenitors,**,0.0082
+3 Gliogenic progenitors,*,0.049

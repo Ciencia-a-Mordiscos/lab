@@ -30,3 +30,4 @@ launch_buttons:
 sphinx:
   config:
     html_static_path: ["_static"]
+    copyright: "2026, Ciencia a Mordiscos"

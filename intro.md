@@ -12,10 +12,27 @@ Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los 
 
 Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible**: código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar — abre cualquier notebook en Google Colab y dale "Ejecutar todo".
 
-| Paper | Categoría | Revista | Qué hay dentro |
-|-------|-----------|---------|----------------|
-| [Océano dispara olas de calor](papers/2026-03-28-oceano-dispara-olas-de-calor/README) | Ecología | Nature Geoscience | 42 años de olas de calor húmedo, mapa global de tendencias, comparación por décadas |
-| [CO₂ estable 3 millones de años](papers/2026-03-23-co2-estable-3-millones-anos/README) | Geología | Nature | Hielo antártico de 3 Ma, ciclos glaciales, correlación CO₂-CH₄, histograma de anomalía |
+### 🧬 Hormona alimenta tumores en niños
+
+**Medicina** · Nature · Respuesta dosis-efecto de testosterona en 6 líneas PFA, comparación de hormonas, control en otros tumores cerebrales
+
+[Ver notebook](papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook) · [Leer más](papers/2026-03-30-hormona-alimenta-tumores-ninos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook.ipynb)
+
+---
+
+### 🌊 Océano dispara olas de calor
+
+**Ecología** · Nature Geoscience · 42 años de olas de calor húmedo, mapa global de tendencias, comparación por décadas
+
+[Ver notebook](papers/2026-03-28-oceano-dispara-olas-de-calor/notebook) · [Leer más](papers/2026-03-28-oceano-dispara-olas-de-calor/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-oceano-dispara-olas-de-calor/notebook.ipynb)
+
+---
+
+### 🧊 CO₂ estable 3 millones de años
+
+**Geología** · Nature · Hielo antártico de 3 Ma, ciclos glaciales, correlación CO₂-CH₄, histograma de anomalía
+
+[Ver notebook](papers/2026-03-23-co2-estable-3-millones-anos/notebook) · [Leer más](papers/2026-03-23-co2-estable-3-millones-anos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb)
 
 ### Lo que nos diferencia
 
