@@ -18,7 +18,7 @@ axes.grid:          True
 axes.grid.axis:     y
 axes.titlesize:     16
 axes.titleweight:   bold
-axes.titlepad:      16
+axes.titlepad:      24
 axes.labelsize:     12
 axes.labelpad:      8
 axes.spines.top:    False
@@ -45,7 +45,7 @@ ytick.major.width:  0
 # ── Legend ──────────────────────────────────────
 legend.frameon:     False
 legend.fontsize:    10
-legend.loc:         upper left
+legend.loc:         upper right
 
 # ── Font ────────────────────────────────────────
 font.family:        sans-serif
