@@ -2,43 +2,55 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Papers
+  - caption: Ecología
     chapters:
       - file: papers/2026-03-28-carbono-bosques-virgenes/README
         title: "Carbono de bosques vírgenes"
         sections:
           - file: papers/2026-03-28-carbono-bosques-virgenes/notebook
             title: Notebook
-      - file: papers/2026-03-28-rocas-hielo-groenlandia/README
-        title: "Rocas del hielo de Groenlandia"
-        sections:
-          - file: papers/2026-03-28-rocas-hielo-groenlandia/notebook
-            title: Notebook
-      - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
-        title: "Cáncer despierta armas contra cerebro"
-        sections:
-          - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
-            title: Notebook
-      - file: papers/2026-03-30-hambre-despues-estudiar/README
-        title: "Hambre después de estudiar"
-        sections:
-          - file: papers/2026-03-30-hambre-despues-estudiar/notebook
-            title: Notebook
-      - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
-        title: "Hormona alimenta tumores en niños"
-        sections:
-          - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook
-            title: Notebook
       - file: papers/2026-03-28-oceano-dispara-olas-de-calor/README
         title: "Océano dispara olas de calor"
         sections:
           - file: papers/2026-03-28-oceano-dispara-olas-de-calor/notebook
+            title: Notebook
+
+  - caption: Geología
+    chapters:
+      - file: papers/2026-03-28-rocas-hielo-groenlandia/README
+        title: "Rocas del hielo de Groenlandia"
+        sections:
+          - file: papers/2026-03-28-rocas-hielo-groenlandia/notebook
             title: Notebook
       - file: papers/2026-03-23-co2-estable-3-millones-anos/README
         title: "CO₂ estable 3 millones de años"
         sections:
           - file: papers/2026-03-23-co2-estable-3-millones-anos/notebook
             title: Notebook
+
+  - caption: Medicina
+    chapters:
+      - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
+        title: "Cáncer despierta armas contra cerebro"
+        sections:
+          - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
+            title: Notebook
+      - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
+        title: "Hormona alimenta tumores en niños"
+        sections:
+          - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook
+            title: Notebook
+
+  - caption: Neurociencia
+    chapters:
+      - file: papers/2026-03-30-hambre-despues-estudiar/README
+        title: "Hambre después de estudiar"
+        sections:
+          - file: papers/2026-03-30-hambre-despues-estudiar/notebook
+            title: Notebook
+
+  - caption: Arqueología
+    chapters:
       - file: papers/2026-03-27-monte-verde-fecha-mal/README
         title: "Monte Verde: la fecha estaba mal"
         sections:
