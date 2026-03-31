@@ -31,7 +31,6 @@ launch_buttons:
 sphinx:
   config:
     html_static_path: ["_static"]
-    templates_path: ["_templates"]
     copyright: "2026, Ciencia a Mordiscos"
     language: "es"
     html_js_files:
