@@ -1,0 +1,6 @@
+sample,tipo,total_nucleobases_pmol_g,error,pu_py_ratio,nota
+Ryugu A0480,asteroide,507,21,1.0,Hayabusa2 face A
+Ryugu C0370,asteroide,1577,35,1.0,Hayabusa2 face C (3x A0480)
+Bennu,asteroide,3404,256,0.42,"OSIRIS-REx, pirimidinas dominan"
+Orgueil,meteorito CI1,1100,100,0.1,"CI carbonáceo, pirimidinas dominan"
+Murchison,meteorito CM2,11497,739,3.36,"CM carbonáceo, purinas dominan"

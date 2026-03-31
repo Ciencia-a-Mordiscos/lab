@@ -1,0 +1,6 @@
+nucleobase,formula,tipo,en_ADN,en_ARN,detectada_ryugu,detectada_bennu,detectada_murchison
+Adenina,C₅H₅N₅,Purina,True,True,True,True,True
+Guanina,C₅H₅N₅O,Purina,True,True,True,True,True
+Citosina,C₄H₅N₃O,Pirimidina,True,True,True,True,True
+Timina,C₅H₆N₂O₂,Pirimidina,True,False,True,True,True
+Uracilo,C₄H₄N₂O₂,Pirimidina,False,True,True,True,True

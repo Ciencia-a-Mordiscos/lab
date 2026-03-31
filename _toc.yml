@@ -84,3 +84,11 @@ parts:
         sections:
           - file: papers/2026-03-26-musica-preferencias-animales/notebook
             title: Notebook
+
+  - caption: Astronomía
+    chapters:
+      - file: papers/2026-03-20-adn-bases-asteroide-ryugu/README
+        title: "Las 5 bases del ADN en un asteroide"
+        sections:
+          - file: papers/2026-03-20-adn-bases-asteroide-ryugu/notebook
+            title: Notebook

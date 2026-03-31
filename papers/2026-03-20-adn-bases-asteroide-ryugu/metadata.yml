@@ -1,0 +1,19 @@
+titulo: "Las 5 Bases del ADN en un Asteroide"
+fecha: 2026-03-20
+categoria: astronomia
+tags: [asteroide, Ryugu, nucleobases, ADN, Hayabusa2, Bennu, prebiótico, astrobiología]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=8gJTRw-XgQ0"
+fuentes:
+  - doi: "10.1038/s41550-026-02791-z"
+    titulo: "All five canonical nucleobases in samples returned from asteroid Ryugu"
+    journal: Nature Astronomy
+    autores: "Oba, Koga et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "nucleobases_resumen.csv"
+    descripcion: "Concentraciones totales y ratios Pu/Py en 5 muestras extraterrestres"
+    fuente: "Texto del paper (Table 1, Fig. 3)"
+estado: publicado
