@@ -12,6 +12,14 @@ Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los 
 
 Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible**: código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar — abre cualquier notebook en Google Colab y dale "Ejecutar todo".
 
+### 🌲 Carbono de los bosques vírgenes de Suecia
+
+**Ecología** · Science · 324 parcelas primarias vs 28,580 secundarias, carbono en vegetación + madera muerta + suelo, análisis pareado por humedad
+
+[Ver notebook](papers/2026-03-28-carbono-bosques-virgenes/notebook) · [Leer más](papers/2026-03-28-carbono-bosques-virgenes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-carbono-bosques-virgenes/notebook.ipynb)
+
+---
+
 ### 🧊 Rocas atrapadas en el hielo de Groenlandia
 
 **Geología** · Nature Geoscience · 4,946 ubicaciones de escombros rocosos en el manto de hielo, 11 modelos de extensión durante el último interglacial, radar 3D aerotransportado

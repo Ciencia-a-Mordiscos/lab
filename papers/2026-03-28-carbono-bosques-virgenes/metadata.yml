@@ -1,0 +1,22 @@
+titulo: "Los bosques vírgenes de Suecia almacenan ~72% más carbono"
+fecha: 2026-03-28
+categoria: ecologia
+tags: [carbono, bosques, suecia, boreal, suelo, manejo-forestal, cambio-climatico]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=ZspFSOCVxio"
+fuentes:
+  - doi: "10.1126/science.adz8554"
+    titulo: "Primary boreal forests store substantially more carbon than managed secondary forests"
+    journal: Science
+    autores: "Sabatini, Anderegg, Angelstam et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "vegetacion_pareado.csv"
+    descripcion: "28,904 parcelas — biomasa viva y madera muerta (kg C/m²)"
+    fuente: "Zenodo (PairedAnalysis_VEG.csv)"
+  - nombre: "suelo_pareado.csv"
+    descripcion: "1,115 parcelas — SOC 0-60cm y capa orgánica (kg C/m²)"
+    fuente: "Zenodo (PairedAnalysis_SOC.csv)"
+estado: publicado
