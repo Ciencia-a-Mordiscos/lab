@@ -31,23 +31,8 @@ launch_buttons:
 sphinx:
   config:
     html_static_path: ["_static"]
-    html_extra_path: ["_extra"]
+    templates_path: ["_templates"]
     copyright: "2026, Ciencia a Mordiscos"
     language: "es"
-    extensions:
-      - sphinx_sitemap
-    html_baseurl: "https://cienciaamordiscos.com/"
     html_js_files:
       - ["https://analytics.trellium.dev/script.js", {"data-website-id": "5ab57070-6c00-41d5-9bca-4e8164716505", "async": "async", "defer": "defer"}]
-    html_meta:
-      "description": "Notebooks reproducibles de papers científicos. Datos reales de Nature, Science y más. Código Python, gráficas verificables, todo abierto."
-      "og:title": "Ciencia a Mordiscos"
-      "og:description": "La ciencia que contamos en video, aquí se puede tocar. Notebooks reproducibles con datos reales de papers científicos."
-      "og:type": "website"
-      "og:url": "https://cienciaamordiscos.com"
-      "og:image": "https://cienciaamordiscos.com/_images/dataciones_por_estrato.png"
-      "twitter:card": "summary_large_image"
-      "twitter:title": "Ciencia a Mordiscos"
-      "twitter:description": "Notebooks reproducibles con datos reales de papers científicos."
-      "twitter:image": "https://cienciaamordiscos.com/_images/dataciones_por_estrato.png"
-      "robots": "index, follow"

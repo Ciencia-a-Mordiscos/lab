@@ -1,2 +1,1 @@
 jupyter-book>=0.15,<1.0
-sphinx-sitemap>=2.6
