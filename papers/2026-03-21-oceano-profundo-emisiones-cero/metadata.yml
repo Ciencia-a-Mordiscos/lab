@@ -1,0 +1,22 @@
+titulo: "El Océano Profundo Destruye la Promesa de Emisiones Cero"
+fecha: 2026-03-21
+categoria: ecologia
+tags: [clima, océano profundo, net-zero, emisiones, temperatura, CMIP6, modelo, rebound]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=dVfrDJzvF_Y"
+fuentes:
+  - doi: "10.1038/s41561-026-01934-1"
+    titulo: "Deep ocean control of global temperature after net-zero emissions"
+    journal: Nature Geoscience
+    autores: "Lee et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cmip_temperatura_superficie.csv"
+    descripcion: "14 modelos CMIP6 — anomalía de temperatura de superficie 2000-2299"
+    fuente: "Zenodo (Lee et al.)"
+  - nombre: "cmip_rebound_resumen.csv"
+    descripcion: "Resumen de rebound por modelo (pico, mínimo, magnitud)"
+    fuente: "Derivado de Global.tas.Z_yr.nc"
+estado: publicado

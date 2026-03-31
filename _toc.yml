@@ -29,6 +29,11 @@ parts:
         sections:
           - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook
             title: Notebook
+      - file: papers/2026-03-21-oceano-profundo-emisiones-cero/README
+        title: "Océano profundo vs emisiones cero"
+        sections:
+          - file: papers/2026-03-21-oceano-profundo-emisiones-cero/notebook
+            title: Notebook
 
   - caption: Geología
     chapters:
