@@ -1,0 +1,25 @@
+titulo: "El Océano Esconde 248 Químicos Sintéticos que Nadie Esperaba"
+fecha: 2026-03-21
+categoria: ecologia
+tags: [contaminación, océano, xenobióticos, químicos, fármacos, pesticidas, espectrometría, meta-análisis]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=zbwjncU6ECs"
+fuentes:
+  - doi: "10.1038/s41561-026-01928-z"
+    titulo: "Xenobiotics are widely distributed across marine ecosystems"
+    journal: Nature Geoscience
+    autores: "Gauglitz, Schmid et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "xenobioticos_frecuencia.csv"
+    descripcion: "58 xenobióticos con frecuencia de detección por ecosistema marino"
+    fuente: "Supplementary Materials (MOESM5)"
+  - nombre: "contribucion_por_muestra.csv"
+    descripcion: "2,321 mediciones de contribución xenobiótica al material orgánico disuelto"
+    fuente: "Supplementary Materials (MOESM5)"
+  - nombre: "datasets.csv"
+    descripcion: "20 datasets del meta-análisis con ecosistema y tamaño"
+    fuente: "Supplementary Materials (MOESM2)"
+estado: publicado

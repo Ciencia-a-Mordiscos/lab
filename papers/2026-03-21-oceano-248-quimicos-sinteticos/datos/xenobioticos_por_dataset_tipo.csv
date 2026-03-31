@@ -1,0 +1,85 @@
+dataset,type,n_xenobiotics
+Aruba 2019,urban,30
+Aruba 2019,drug,13
+Aruba 2019,pesticide,0
+Aruba 2019,unknown,0
+Baltic Sea 2021,urban,73
+Baltic Sea 2021,drug,10
+Baltic Sea 2021,pesticide,6
+Baltic Sea 2021,unknown,0
+California Current 2017,urban,30
+California Current 2017,drug,4
+California Current 2017,pesticide,3
+California Current 2017,unknown,0
+California Current 2019,urban,47
+California Current 2019,drug,16
+California Current 2019,pesticide,3
+California Current 2019,unknown,0
+California Current 2020,urban,36
+California Current 2020,drug,10
+California Current 2020,pesticide,1
+California Current 2020,unknown,0
+California Current 2021,urban,38
+California Current 2021,drug,11
+California Current 2021,pesticide,3
+California Current 2021,unknown,0
+Caribbean Netherlands 2022,urban,45
+Caribbean Netherlands 2022,drug,16
+Caribbean Netherlands 2022,pesticide,5
+Caribbean Netherlands 2022,unknown,0
+Curacao 2018,urban,93
+Curacao 2018,drug,19
+Curacao 2018,pesticide,6
+Curacao 2018,unknown,0
+Curacao 2021/22,urban,29
+Curacao 2021/22,drug,5
+Curacao 2021/22,pesticide,2
+Curacao 2021/22,unknown,0
+Gulf of Maine 2022,urban,38
+Gulf of Maine 2022,drug,13
+Gulf of Maine 2022,pesticide,2
+Gulf of Maine 2022,unknown,0
+Hawaii 2019,urban,48
+Hawaii 2019,drug,12
+Hawaii 2019,pesticide,2
+Hawaii 2019,unknown,0
+Moorea 2017,urban,22
+Moorea 2017,drug,7
+Moorea 2017,pesticide,1
+Moorea 2017,unknown,0
+Moorea 2022,urban,44
+Moorea 2022,drug,12
+Moorea 2022,pesticide,1
+Moorea 2022,unknown,0
+North Pacific 2018,urban,23
+North Pacific 2018,drug,4
+North Pacific 2018,pesticide,1
+North Pacific 2018,unknown,0
+Northern San Diego Coast 2017/18,urban,59
+Northern San Diego Coast 2017/18,drug,9
+Northern San Diego Coast 2017/18,pesticide,7
+Northern San Diego Coast 2017/18,unknown,0
+Northern San Diego Coast 2020,urban,55
+Northern San Diego Coast 2020,drug,26
+Northern San Diego Coast 2020,pesticide,9
+Northern San Diego Coast 2020,unknown,0
+Pacific OMZ 2018,urban,18
+Pacific OMZ 2018,drug,6
+Pacific OMZ 2018,pesticide,1
+Pacific OMZ 2018,unknown,0
+Patagonia 2018,urban,33
+Patagonia 2018,drug,9
+Patagonia 2018,pesticide,3
+Patagonia 2018,unknown,0
+Puerto Rico 2022,urban,44
+Puerto Rico 2022,drug,14
+Puerto Rico 2022,pesticide,2
+Puerto Rico 2022,unknown,0
+South Africa 2018/19,urban,64
+South Africa 2018/19,drug,44
+South Africa 2018/19,pesticide,15
+South Africa 2018/19,unknown,0
+Southern San Diego Coast 2019,urban,95
+Southern San Diego Coast 2019,drug,54
+Southern San Diego Coast 2019,pesticide,10
+Southern San Diego Coast 2019,unknown,0

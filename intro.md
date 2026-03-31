@@ -100,6 +100,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ---
 
+### 🧪 248 químicos sintéticos en el océano
+
+**Ecología** · Nature Geoscience · 2,315 muestras de agua de mar, 21 datasets, 248 xenobióticos — ftalatos, protector solar, fármacos y pesticidas desde arrecifes hasta mar abierto
+
+[Ver notebook](papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook) · [Leer más](papers/2026-03-21-oceano-248-quimicos-sinteticos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook.ipynb)
+
+---
+
 ## ¿Cómo funciona?
 
 1. **Elige un paper** de la lista

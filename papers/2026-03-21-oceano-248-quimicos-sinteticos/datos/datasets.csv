@@ -1,0 +1,21 @@
+dataset,ecosystem,year,n_samples
+Aruba 2019,Coral Reef,2019,23
+Baltic Sea 2021,Coastal,2021,70
+California Current 2017,Open Ocean,2017,228
+California Current 2019,Open Ocean,2019,359
+California Current 2020,Open Ocean,2020,84
+Caribbean Netherlands 2022,Coral Reef,2022,69
+Curacao 2018,Coral Reef,2018,50
+Curacao 2021/22,Coral Reef,2021,275
+Gulf of Maine 2022,Coastal,2022,221
+Hawaii 2019,Coral Reef,2019,59
+Moorea 2017,Coral Reef,2017,40
+Moorea 2022,Coral Reef,2022,106
+North Pacific 2018,Open Ocean,2018,30
+Northern San Diego Coast 2017/18,Coastal,2018,180
+Northern San Diego Coast 2020,Coastal,2020,57
+Pacific OMZ 2018,Open Ocean,2018,157
+Patagonia 2018,Coastal,2019,17
+Puerto Rico 2022,Coral Reef,2022,72
+South Africa 2018/19,Coastal,2019,52
+Southern San Diego Coast 2019,Coastal,2019,150
