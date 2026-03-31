@@ -1,0 +1,28 @@
+titulo: "Tu Música Favorita Esconde un Origen que Nadie Esperaba"
+fecha: 2026-03-26
+categoria: biologia
+tags: [acústica, evolución, preferencias, Darwin, música, animales]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=29gpV1ttp6s"
+fuentes:
+  - doi: "10.1126/science.aea1202"
+    titulo: "Humans share acoustic preferences with other animals"
+    journal: Science
+    autores: "James et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "acuerdo_por_especie.csv"
+    descripcion: "Acuerdo humano-animal por especie (16 especies)"
+    fuente: "Agregado de animal-sounds-data.csv"
+  - nombre: "acuerdo_por_rasgo.csv"
+    descripcion: "Acuerdo por rasgo acústico (10 rasgos)"
+    fuente: "Agregado de animal-sounds-data.csv"
+  - nombre: "estimulos_fuerza_vs_acuerdo.csv"
+    descripcion: "106 estímulos: fuerza animal vs acuerdo humano"
+    fuente: "Agregado de animal-sounds-data.csv"
+  - nombre: "features_acusticos.csv"
+    descripcion: "168 estímulos con 12 features acústicos"
+    fuente: "acoustic-features.xlsx del repo original"
+estado: publicado

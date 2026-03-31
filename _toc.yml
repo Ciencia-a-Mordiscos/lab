@@ -56,3 +56,11 @@ parts:
         sections:
           - file: papers/2026-03-27-monte-verde-fecha-mal/notebook
             title: Notebook
+
+  - caption: Biología
+    chapters:
+      - file: papers/2026-03-26-musica-preferencias-animales/README
+        title: "Música: preferencias compartidas con animales"
+        sections:
+          - file: papers/2026-03-26-musica-preferencias-animales/notebook
+            title: Notebook

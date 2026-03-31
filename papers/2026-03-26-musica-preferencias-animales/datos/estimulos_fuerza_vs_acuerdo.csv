@@ -1,0 +1,107 @@
+estimulo_id,especie,categoria,rasgo,fuerza_animal,acuerdo_humano,n_trials,audio_bueno
+a,Zebra finch,Bird,Manipulated,74.0,0.5073891625615764,203,animalSounds_001
+aaa,Zebra finch,Bird,Development,70.0,0.3669724770642202,218,animalSounds_065
+ab,Gelada,Mammal,Complexity,55.0,0.4201520912547528,526,animalSounds_096
+abc,Swamp sparrow,Bird,Development,64.0,0.6504854368932039,206,animalSounds_138
+ac,Song sparrow,Bird,Individuals,69.0,0.4519230769230769,208,animalSounds_180
+ap,Fruitfly,Insect,Rhythm,57.0,0.5201834862385321,1090,animalSounds_195
+ay,Tungara frog,Frog,Adornment,73.0,0.6577540106951871,561,animalSounds_202
+az,Tungara frog,Frog,Adornment,63.0,0.5874125874125874,572,animalSounds_202
+b,Pacific field cricket,Insect,Complexity,80.0,0.6610169491525424,1121,animalSounds_003
+bbb,Zebra finch,Bird,Development,70.0,0.4072398190045249,221,animalSounds_067
+bc,Gelada,Mammal,Complexity,55.0,0.4212454212454212,546,animalSounds_098
+bcd,Swamp sparrow,Bird,Development,64.0,0.4862385321100917,218,animalSounds_140
+bd,Tungara frog,Frog,Adornment,55.0,0.5502742230347349,547,animalSounds_202
+be,Tungara frog,Frog,Adornment,65.0,0.6666666666666666,522,animalSounds_203
+bg,Zebra finch,Bird,Context,72.0,0.4513274336283185,226,animalSounds_206
+ccc,Zebra finch,Bird,Development,70.0,0.2463054187192118,203,animalSounds_061
+cd,Gelada,Mammal,Complexity,55.0,0.6583011583011583,518,animalSounds_100
+cde,Swamp sparrow,Bird,Development,64.0,0.606694560669456,239,animalSounds_142
+ddd,Zebra finch,Bird,Development,70.0,0.4691358024691358,243,animalSounds_063
+de,Gelada,Mammal,Complexity,55.0,0.481283422459893,561,animalSounds_102
+def,Swamp sparrow,Bird,Development,64.0,0.4369369369369369,222,animalSounds_144
+eee,Zebra finch,Bird,Development,70.0,0.5681818181818182,220,animalSounds_065
+ef,Gelada,Mammal,Complexity,55.0,0.5051369863013698,584,animalSounds_104
+efg,Swamp sparrow,Bird,Development,64.0,0.5045871559633027,218,animalSounds_146
+f,Hourglass treefrog,Frog,Adornment,70.0,0.7205169628432956,619,animalSounds_011
+fff,Zebra finch,Bird,Development,70.0,0.4724770642201835,218,animalSounds_067
+fg,Gelada,Mammal,Complexity,55.0,0.2712477396021699,553,animalSounds_106
+fgh,Swamp sparrow,Bird,Development,64.0,0.4914529914529914,234,animalSounds_148
+g,Bow-winged grasshopper,Insect,Rate,71.0,0.3754612546125461,1084,animalSounds_013
+ggg,Zebra finch,Bird,Development,70.0,0.3347107438016529,242,animalSounds_061
+gh,Gelada,Mammal,Complexity,55.0,0.429097605893186,543,animalSounds_108
+ghi,Swamp sparrow,Bird,Development,64.0,0.3726415094339622,212,animalSounds_150
+h,Bow-winged grasshopper,Insect,AmplitudeModulation,93.0,0.5245143385753932,1081,animalSounds_015
+hhh,Zebra finch,Bird,Development,70.0,0.4625550660792951,227,animalSounds_063
+hi,Gelada,Mammal,Complexity,55.0,0.4103448275862069,580,animalSounds_110
+hij,Song sparrow,Bird,Individuals,82.0,0.7428571428571429,210,animalSounds_152
+i,Midwife toad,Frog,Frequency,72.0,0.5938009787928222,613,animalSounds_017
+iii,Zebra finch,Bird,Development,70.0,0.3623188405797101,207,animalSounds_065
+ij,Canary,Bird,Adornment,90.0,0.7210526315789474,190,animalSounds_112
+ijk,Song sparrow,Bird,Individuals,82.0,0.6197916666666666,192,animalSounds_154
+j,Pacific field cricket,Insect,Complexity,80.0,0.6781802864363943,1187,animalSounds_019
+jjj,Zebra finch,Bird,Development,70.0,0.4189189189189189,222,animalSounds_067
+jk,Canary,Bird,Rate,75.0,0.4245283018867924,212,animalSounds_112
+jkl,Song sparrow,Bird,Individuals,82.0,0.6045454545454545,220,animalSounds_156
+k,Pacific field cricket,Insect,Complexity,80.0,0.6410026857654432,1117,animalSounds_021
+kkk,Green tree frog,Frog,Rate,73.0,0.5122699386503068,652,animalSounds_071
+kl,Canary,Bird,Adornment,76.0,0.7863636363636364,220,animalSounds_114
+klm,Song sparrow,Bird,Individuals,82.0,0.6534653465346535,202,animalSounds_158
+l,Pacific field cricket,Insect,Complexity,80.0,0.8140138408304498,1156,animalSounds_023
+lm,Canary,Bird,Adornment,90.0,0.6909871244635193,233,animalSounds_115
+lmn,Song sparrow,Bird,Individuals,82.0,0.6296296296296297,189,animalSounds_160
+m,Pacific field cricket,Insect,Complexity,80.0,0.7964071856287425,1169,animalSounds_025
+mmm,Green tree frog,Frog,Rate,77.0,0.539906103286385,639,animalSounds_073
+mn,Canary,Bird,Rate,75.0,0.3306772908366533,251,animalSounds_115
+mno,Song sparrow,Bird,Individuals,82.0,0.4639639639639639,222,animalSounds_162
+nnn,Green tree frog,Frog,Frequency,75.0,0.5501618122977346,618,animalSounds_071
+nop,Song sparrow,Bird,Individuals,82.0,0.5192307692307693,208,animalSounds_164
+opq,Song sparrow,Bird,Individuals,82.0,0.3107569721115538,251,animalSounds_166
+p,Tungara frog,Frog,Individuals,80.0,0.4658753709198813,674,animalSounds_027
+ppp,Green tree frog,Frog,Frequency,75.0,0.5421875,640,animalSounds_075
+pqr,Song sparrow,Bird,Individuals,82.0,0.6009174311926605,218,animalSounds_168
+q,Tungara frog,Frog,Individuals,85.0,0.5289514866979655,639,animalSounds_027
+qqq,Gelada,Mammal,Complexity,55.0,0.521669341894061,623,animalSounds_076
+qr,Singing mouse,Mammal,Rate,78.0,0.484629294755877,553,animalSounds_120
+qrt,Song sparrow,Bird,Individuals,82.0,0.8453038674033149,181,animalSounds_170
+r,Tungara frog,Frog,Individuals,75.0,0.4647887323943662,639,animalSounds_028
+rrr,Gelada,Mammal,Complexity,55.0,0.4294234592445328,503,animalSounds_078
+rs,Singing mouse,Mammal,Rate,78.0,0.5372549019607843,510,animalSounds_122
+rts,Song sparrow,Bird,Individuals,69.0,0.3876651982378855,227,animalSounds_172
+s,Tungara frog,Frog,Individuals,75.0,0.5255972696245734,586,animalSounds_028
+sss,Gelada,Mammal,Complexity,55.0,0.22265625,512,animalSounds_080
+st,Singing mouse,Mammal,Rate,78.0,0.4633273703041144,559,animalSounds_124
+suv,Song sparrow,Bird,Individuals,69.0,0.472636815920398,201,animalSounds_156
+t,Tungara frog,Frog,Adornment,84.0,0.4617886178861788,615,animalSounds_031
+tsu,Song sparrow,Bird,Individuals,69.0,0.5423728813559322,236,animalSounds_154
+tt,Zebra finch,Bird,Individuals,67.0,0.6041666666666666,240,animalSounds_051
+ttt,Gelada,Mammal,Complexity,55.0,0.4189723320158103,506,animalSounds_082
+tu,Singing mouse,Mammal,Rate,78.0,0.5902527075812274,554,animalSounds_126
+uu,Zebra finch,Bird,Individuals,57.0,0.5230125523012552,239,animalSounds_053
+uuu,Gelada,Mammal,Complexity,55.0,0.6376306620209059,574,animalSounds_084
+uv,Singing mouse,Mammal,Rate,78.0,0.5851063829787234,564,animalSounds_128
+uvw,Song sparrow,Bird,Individuals,69.0,0.6869158878504673,214,animalSounds_160
+v,Tungara frog,Frog,Adornment,92.0,0.6313043478260869,575,animalSounds_034
+vv,Zebra finch,Bird,Context,73.0,0.507177033492823,209,animalSounds_055
+vvv,Gelada,Mammal,Complexity,55.0,0.4548672566371681,565,animalSounds_086
+vw,Singing mouse,Mammal,Rate,78.0,0.5449330783938815,523,animalSounds_130
+vwx,Song sparrow,Bird,Individuals,69.0,0.4406130268199233,261,animalSounds_162
+w,Tungara frog,Frog,Adornment,60.0,0.5579831932773109,595,animalSounds_033
+ww,Zebra finch,Bird,Context,71.0,0.502262443438914,221,animalSounds_057
+www,Gelada,Mammal,Complexity,55.0,0.3468697123519458,591,animalSounds_088
+wx,Swamp sparrow,Bird,Development,64.0,0.512,250,animalSounds_132
+wxy,Song sparrow,Bird,Individuals,69.0,0.5131578947368421,228,animalSounds_164
+x,Tungara frog,Frog,Adornment,76.0,0.6205211726384365,614,animalSounds_034
+xx,Zebra finch,Bird,Context,56.0,0.4708994708994709,189,animalSounds_059
+xxx,Gelada,Mammal,Complexity,55.0,0.5588235294117647,544,animalSounds_090
+xy,Swamp sparrow,Bird,Development,64.0,0.5866666666666667,225,animalSounds_134
+xyz,Song sparrow,Bird,Individuals,69.0,0.4780701754385965,228,animalSounds_166
+y,Tungara frog,Frog,Adornment,55.0,0.5996758508914101,617,animalSounds_034
+yy,Zebra finch,Bird,Development,70.0,0.5267857142857143,224,animalSounds_061
+yyy,Gelada,Mammal,Complexity,55.0,0.5293040293040293,546,animalSounds_092
+yz,Swamp sparrow,Bird,Development,64.0,0.525,200,animalSounds_136
+yza,Song sparrow,Bird,Individuals,69.0,0.4051282051282051,195,animalSounds_168
+z,Colorado dwarf frog,Frog,Adornment,75.0,0.5758620689655173,580,animalSounds_035
+zab,Song sparrow,Bird,Individuals,69.0,0.545045045045045,222,animalSounds_170
+zz,Zebra finch,Bird,Development,70.0,0.5586592178770949,179,animalSounds_063
+zzz,Gelada,Mammal,Complexity,55.0,0.6628131021194605,519,animalSounds_094
