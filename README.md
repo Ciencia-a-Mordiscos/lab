@@ -1,10 +1,10 @@
-# El Lab — Ciencia a Mordiscos
+# Ciencia a Mordiscos
 
 La ciencia que contamos en video, aquí se puede **tocar, verificar y explorar**.
 
-Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://youtube.com/@CienciaaMordiscos). Cada notebook replica hallazgos de papers reales con datos públicos.
+Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://cienciaamordiscos.com). Cada notebook replica hallazgos de papers reales con datos públicos.
 
-![CO₂ en 3 millones de años](papers/2026-03-23-co2-estable-3-millones-anos/figuras/co2_3_millones_anos.png)
+![Dataciones de Monte Verde](papers/2026-03-27-monte-verde-fecha-mal/figuras/dataciones_por_estrato.png)
 
 ## Papers
 

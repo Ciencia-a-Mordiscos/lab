@@ -1,4 +1,4 @@
-title: El Lab — Ciencia a Mordiscos
+title: Ciencia a Mordiscos
 author: Ciencia a Mordiscos
 logo: ""
 
@@ -31,3 +31,6 @@ sphinx:
   config:
     html_static_path: ["_static"]
     copyright: "2026, Ciencia a Mordiscos"
+    language: "es"
+    html_js_files:
+      - ["https://analytics.trellium.dev/script.js", {"data-website-id": "5ab57070-6c00-41d5-9bca-4e8164716505", "async": "async", "defer": "defer"}]

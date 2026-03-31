@@ -1,16 +1,16 @@
-# El Lab — Ciencia a Mordiscos
+# Ciencia a Mordiscos
 
 **La ciencia que contamos en video, aquí se puede tocar.**
 
-Somos [Ciencia a Mordiscos](https://youtube.com/@CienciaaMordiscos), un canal de divulgación científica. Cada semana convertimos papers de Nature, Science y otras revistas en videos cortos.
+![Dataciones de Monte Verde por estrato](papers/2026-03-27-monte-verde-fecha-mal/figuras/dataciones_por_estrato.png)
 
-Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los números, no puedes explorar por tu cuenta. **El Lab es donde sí puedes.**
+Convertimos papers de Nature, Science y otras revistas en videos cortos. Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los números, no puedes explorar por tu cuenta. **Aquí sí puedes.**
+
+Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible** — código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar: abre cualquier notebook en Google Colab y dale "Ejecutar todo".
 
 ---
 
 ## Notebooks
-
-Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible**: código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar — abre cualquier notebook en Google Colab y dale "Ejecutar todo".
 
 ### 🌲 Carbono de los bosques vírgenes de Suecia
 
@@ -74,7 +74,20 @@ Cada entrada toma un paper científico real y lo convierte en un **notebook repr
 
 [Ver notebook](papers/2026-03-27-monte-verde-fecha-mal/notebook) · [Leer más](papers/2026-03-27-monte-verde-fecha-mal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-27-monte-verde-fecha-mal/notebook.ipynb)
 
-### Lo que nos diferencia
+---
+
+## ¿Cómo funciona?
+
+1. **Elige un paper** de la lista
+2. **Click en "Abrir en Colab"** (el botón azul) o lee directo aquí
+3. **Ejecuta** con Runtime → Run all
+4. **Explora** — cambia valores, haz zoom, cuestiona los datos
+
+Cada notebook tiene una sección **"Ahora tú"** con ideas para explorar y código pre-escrito para arrancar.
+
+---
+
+## Lo que nos diferencia
 
 - **Datos reales** — descargados directamente de los papers y repositorios públicos
 - **Verificable** — cada notebook incluye una tabla de "¿qué soportan los datos?" con limitaciones explícitas
@@ -83,14 +96,11 @@ Cada entrada toma un paper científico real y lo convierte en un **notebook repr
 
 ---
 
-## ¿Cómo funciona?
+## Sobre el canal
 
-1. **Elige un paper** de la tabla
-2. **Click en "Abrir en Colab"** (el botón azul en cada notebook) o lee directo aquí
-3. **Ejecuta** con Runtime → Run all
-4. **Explora** — cambia valores, haz zoom, cuestiona los datos
+Ciencia a Mordiscos convierte papers científicos en videos de 90 segundos. Sin humo, sin clickbait falso — solo ciencia real contada de forma directa. Los datos siempre están en la descripción de cada video, y ahora también aquí, donde puedes abrirlos, ejecutarlos y cuestionar cada número.
 
-Cada notebook tiene una sección **"Ahora tú"** con ideas para explorar y código pre-escrito para arrancar.
+Creado por [Samu Miranda](https://ko-fi.com/samumirandam) desde Colombia.
 
 ---
 
@@ -99,4 +109,4 @@ Cada notebook tiene una sección **"Ahora tú"** con ideas para explorar y códi
 
 ---
 
-*[Ciencia a Mordiscos](https://youtube.com/@CienciaaMordiscos) · [TikTok](https://tiktok.com/@cienciaamordiscos) · [Ko-fi](https://ko-fi.com/samumirandam)*
+*[YouTube](https://youtube.com/@CienciaaMordiscos) · [TikTok](https://tiktok.com/@cienciaamordiscos) · [Ko-fi](https://ko-fi.com/samumirandam)*
