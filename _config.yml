@@ -1,7 +1,7 @@
 title: Ciencia a Mordiscos
 author: Ciencia a Mordiscos
 description: Notebooks reproducibles de papers científicos. Datos reales, código Python, gráficas verificables.
-logo: ""
+logo: _static/favicon.png
 
 execute:
   execute_notebooks: "off"
