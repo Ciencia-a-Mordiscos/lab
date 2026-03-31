@@ -1,0 +1,28 @@
+titulo: "Nadie Sabía que 3172 Ríos Esconden el Pulso del Océano"
+fecha: 2026-03-22
+categoria: ecologia
+tags: [mareas, ríos, satélite, SWOT, oceanografía, hidrología, global]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=wLwm8P0S1LY"
+fuentes:
+  - doi: "10.1038/s41586-026-10287-z"
+    titulo: "Tidal dynamics across thousands of coastal rivers from SWOT"
+    journal: Nature
+    autores: "Pietsch et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "rios_mareas.csv"
+    descripcion: "41,910 tramos SWORD con clasificación tidal y amplitud"
+    fuente: "Zenodo (10.5281/zenodo.15223861)"
+  - nombre: "tipo_marea_por_rio.csv"
+    descripcion: "8,421 tramos con componentes M2/O1 y tipo de marea"
+    fuente: "Zenodo (10.5281/zenodo.15223861)"
+  - nombre: "resumen_continentes.csv"
+    descripcion: "Resumen por continente (9 regiones SWORD)"
+    fuente: "Agregado de rios_mareas.csv"
+  - nombre: "distribucion_amplitudes.csv"
+    descripcion: "Histograma de amplitudes (50 bins)"
+    fuente: "Agregado de rios_mareas.csv"
+estado: publicado

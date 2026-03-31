@@ -92,6 +92,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ---
 
+### 🌊 165,000 km de ríos donde el océano manda
+
+**Ecología** · Nature · 41,910 tramos SWORD, satélite SWOT — 49.9% tidal, amplitud mediana 0.78 m, 3 tipos de marea (semidiurna/mixta/diurna)
+
+[Ver notebook](papers/2026-03-22-rios-mareas-swot-satelite/notebook) · [Leer más](papers/2026-03-22-rios-mareas-swot-satelite/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-22-rios-mareas-swot-satelite/notebook.ipynb)
+
+---
+
 ## ¿Cómo funciona?
 
 1. **Elige un paper** de la lista

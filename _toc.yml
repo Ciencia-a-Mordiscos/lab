@@ -19,6 +19,11 @@ parts:
         sections:
           - file: papers/2026-03-24-termofilizacion-cumbres-alpinas/notebook
             title: Notebook
+      - file: papers/2026-03-22-rios-mareas-swot-satelite/README
+        title: "Ríos con mareas: SWOT satelital"
+        sections:
+          - file: papers/2026-03-22-rios-mareas-swot-satelite/notebook
+            title: Notebook
 
   - caption: Geología
     chapters:
