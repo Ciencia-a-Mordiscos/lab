@@ -4,9 +4,9 @@
 
 ![Dataciones de Monte Verde por estrato](papers/2026-03-27-monte-verde-fecha-mal/figuras/dataciones_por_estrato.png)
 
-Convertimos papers de Nature, Science y otras revistas en videos cortos. Pero un video tiene límites: no puedes ver los datos, no puedes cuestionar los números, no puedes explorar por tu cuenta. **Aquí sí puedes.**
+Un video de 90 segundos engancha. Pero no puedes ver los datos, no puedes cuestionar los números, no puedes explorar por tu cuenta.
 
-Cada entrada toma un paper científico real y lo convierte en un **notebook reproducible** — código Python que carga los datos originales, genera las gráficas, y te deja explorar. No necesitas saber programar: abre cualquier notebook en Google Colab y dale "Ejecutar todo".
+Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, carga los datos originales, genera las gráficas, y te deja cambiar lo que quieras. No necesitas saber programar — abre en Google Colab, dale "Ejecutar todo", y los datos hablan solos.
 
 ---
 
@@ -79,11 +79,11 @@ Cada entrada toma un paper científico real y lo convierte en un **notebook repr
 ## ¿Cómo funciona?
 
 1. **Elige un paper** de la lista
-2. **Click en "Abrir en Colab"** (el botón azul) o lee directo aquí
-3. **Ejecuta** con Runtime → Run all
-4. **Explora** — cambia valores, haz zoom, cuestiona los datos
+2. **Click en "Abrir en Colab"** — el botón azul de cada notebook
+3. **Runtime → Run all**
+4. **Explora** — cambia valores, haz zoom, cuestiona cada número
 
-Cada notebook tiene una sección **"Ahora tú"** con ideas para explorar y código pre-escrito para arrancar.
+Cada notebook tiene una sección **"Ahora tú"** con preguntas para explorar y código listo para arrancar.
 
 ---
 
@@ -93,14 +93,6 @@ Cada notebook tiene una sección **"Ahora tú"** con ideas para explorar y códi
 - **Verificable** — cada notebook incluye una tabla de "¿qué soportan los datos?" con limitaciones explícitas
 - **Transparente** — si una correlación es débil, lo decimos. Si hay un outlier sospechoso, lo mostramos
 - **Reproducible** — un click en Colab y puedes ejecutar todo tú mismo
-
----
-
-## Sobre el canal
-
-Ciencia a Mordiscos convierte papers científicos en videos de 90 segundos. Sin humo, sin clickbait falso — solo ciencia real contada de forma directa. Los datos siempre están en la descripción de cada video, y ahora también aquí, donde puedes abrirlos, ejecutarlos y cuestionar cada número.
-
-Creado por [Samu Miranda](https://ko-fi.com/samumirandam) desde Colombia.
 
 ---
 
