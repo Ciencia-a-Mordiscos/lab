@@ -1,0 +1,25 @@
+titulo: "Las Cumbres Cambian 5 Veces Más Rápido y Nadie lo Esperaba"
+fecha: 2026-03-24
+categoria: ecologia
+tags: [termofilización, cambio climático, cumbres alpinas, bosques, praderas, deuda climática, Europa]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=eKxXV4bGJzY"
+fuentes:
+  - doi: "10.1038/s41586-025-09622-7"
+    titulo: "Divergent thermophilization trajectories across European ecosystems"
+    journal: Nature
+    autores: "Yue et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "parcelas.csv"
+    descripcion: "6,067 parcelas con termofilización y deuda climática"
+    fuente: "Figshare (CC BY 4.0)"
+  - nombre: "termofilizacion_resumen.csv"
+    descripcion: "Resumen por ecosistema y percentil"
+    fuente: "Agregado de Thermophilization_total.csv"
+  - nombre: "deuda_climatica_resumen.csv"
+    descripcion: "Deuda climática por ecosistema"
+    fuente: "Agregado de Thermophilization_total.csv"
+estado: publicado
