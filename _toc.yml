@@ -39,3 +39,8 @@ parts:
         sections:
           - file: papers/2026-03-23-co2-estable-3-millones-anos/notebook
             title: Notebook
+      - file: papers/2026-03-27-monte-verde-fecha-mal/README
+        title: "Monte Verde: la fecha estaba mal"
+        sections:
+          - file: papers/2026-03-27-monte-verde-fecha-mal/notebook
+            title: Notebook

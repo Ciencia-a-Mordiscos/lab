@@ -1,0 +1,22 @@
+titulo: "Monte Verde no es un sitio arqueológico antiguo"
+fecha: 2026-03-27
+categoria: arqueologia
+tags: [arqueología, datación, radiocarbono, luminiscencia, monte-verde, chile, sudamérica, pre-clovis]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=04c87eYoTV4"
+fuentes:
+  - doi: "10.1126/science.adw9217"
+    titulo: "Monte Verde is not an early archaeological site"
+    journal: Science
+    autores: "Fiedel, Mariman-Lincoñir et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "dataciones_c14.csv"
+    descripcion: "23 dataciones de radiocarbono de Monte Verde (Tables 1)"
+    fuente: "Paper Table 1"
+  - nombre: "dataciones_luminiscencia.csv"
+    descripcion: "6 dataciones de luminiscencia IR50 (Table 2)"
+    fuente: "Paper Table 2"
+estado: publicado
