@@ -1,0 +1,25 @@
+titulo: "2.795 arrecifes: ¿sirve protegerlos?"
+fecha: 2026-03-16
+categoria: ecologia
+tags: [arrecifes, mpa, conservacion, peces, biodiversidad, tropico, piscivoros]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=pT8m2PGyfwI"
+fuentes:
+  - doi: "10.1038/s41559-026-03008-2"
+    titulo: "Marine protected areas marginally offset anthropogenic declines in tropical reef fish contributions to nature and people"
+    journal: Nature Ecology & Evolution
+    autores: "Flandrin et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "sitios_arrecifes.csv"
+    descripcion: "2.795 sitios con coordenadas, protección y biomasa de piscívoros"
+    fuente: "Zenodo (10.5281/zenodo.17602130) — Reef Life Survey"
+  - nombre: "contribuciones_por_proteccion.csv"
+    descripcion: "Medias estandarizadas de 12 contribuciones por tipo de protección"
+    fuente: "Agregado desde datos Zenodo"
+  - nombre: "surveys_contribuciones.csv"
+    descripcion: "6.936 surveys con biomasa, riqueza y scores NN/NP"
+    fuente: "Zenodo — outputs del modelo"
+estado: publicado
