@@ -140,6 +140,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ---
 
+### ⭐ Estrellas naciendo fuera de la Vía Láctea
+
+**Astronomía** · Nature Astronomy · 32 estrellas en 2 cúmulos abiertos (Emei-1 y Emei-2) dentro del Complejo H, Gaia DR3, isócronas PARSEC 11,2 Myr, metalicidad 0,05 Z⊙, distancia 13,8 kpc
+
+[Ver notebook](papers/2026-03-19-estrellas-fuera-via-lactea/notebook) · [Leer más](papers/2026-03-19-estrellas-fuera-via-lactea/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-19-estrellas-fuera-via-lactea/notebook.ipynb)
+
+---
+
 ## ¿Cómo funciona?
 
 1. **Elige un paper** de la lista

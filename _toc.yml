@@ -97,6 +97,11 @@ parts:
         sections:
           - file: papers/2026-03-20-adn-bases-asteroide-ryugu/notebook
             title: Notebook
+      - file: papers/2026-03-19-estrellas-fuera-via-lactea/README
+        title: "Estrellas naciendo fuera de la Vía Láctea"
+        sections:
+          - file: papers/2026-03-19-estrellas-fuera-via-lactea/notebook
+            title: Notebook
 
   - caption: Tecnología
     chapters:

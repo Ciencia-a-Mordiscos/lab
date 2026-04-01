@@ -1,0 +1,34 @@
+titulo: "Nadie Esperaba Estrellas Naciendo Fuera de la Vía Láctea"
+fecha: 2026-03-19
+categoria: astronomía
+tags: [gaia, cúmulos-abiertos, nubes-alta-velocidad, formación-estelar, complejo-h, medio-circungaláctico]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=nlptNKxW4Xg"
+fuentes:
+  - doi: "10.1038/s41550-026-02814-9"
+    titulo: "Star Formation in Circumgalactic High-Velocity Cloud Complex H"
+    journal: Nature Astronomy
+    autores: "He et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "estrellas_campo.csv"
+    descripcion: "4.839 estrellas Gaia DR3 del campo"
+    fuente: "Zenodo + Gaia Archive"
+  - nombre: "miembros_emei1.csv"
+    descripcion: "20 estrellas miembro de Emei-1"
+    fuente: "Zenodo"
+  - nombre: "miembros_emei2.csv"
+    descripcion: "12 estrellas miembro de Emei-2"
+    fuente: "Zenodo"
+  - nombre: "isocrona_emei1.csv"
+    descripcion: "Isócrona PARSEC 11,2 Myr para Emei-1"
+    fuente: "Zenodo"
+  - nombre: "isocrona_emei2.csv"
+    descripcion: "Isócrona PARSEC 11,2 Myr para Emei-2"
+    fuente: "Zenodo"
+  - nombre: "gradiente_velocidad.csv"
+    descripcion: "Gradiente de velocidad de grumos del Complejo H"
+    fuente: "Zenodo"
+estado: publicado
