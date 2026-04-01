@@ -1,0 +1,10 @@
+metrica,valor,unidad,notas
+reaches_observados,126674,reaches,Primer año SWOT (Oct 2023-Sep 2024)
+cobertura_rios_anchos,73,%,De ríos >30m del mundo
+drsa_global,313.1,km³,Rango anual de anomalía de almacenamiento
+drsa_global_error,129.5,km³,Incertidumbre de ΔRSA
+sigma_rsa,107.8,km³,Desviación estándar global RSA
+diff_vs_modelo,-28.2,%,SWOT vs MeanDRS escenario bajo
+pct_outliers_reaches,3.4,%,% de reaches considerados outliers
+pct_outliers_drsa,8.8,%,% de ΔRSA de los outliers
+rios_50m_pct_variabilidad,96,%,Ríos >50m capturan 96% variabilidad

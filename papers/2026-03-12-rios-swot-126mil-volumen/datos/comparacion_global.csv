@@ -1,0 +1,10 @@
+fuente,metrica,valor_km3,error_km3,notas
+SWOT (2023-2024),ΔRSA global,313.1,129.5,"Primer año, 126.674 reaches"
+SWOT (2023-2024),σ(RSA) global,107.8,,Desviación estándar
+SWOT (2023-2024),ΔRSA media por reach,0.013,0.0012,Media espacial
+SWOT (2023-2024),ΔRSA mediana por reach,0.003,0.0005,Mediana espacial
+MeanDRS bajo (1980-2009),ΔRSA global,436.7,,"30-year mean, low scenario"
+MeanDRS (rango σ),σ(RSA) bajo,288,,Low celerity scenario
+MeanDRS (rango σ),σ(RSA) alto,721,,High celerity scenario
+Simul. con llanuras inundación,variabilidad total,3680,,"Ref. 2, incluye floodplains"
+SWOT años más cercanos,ΔRSA 1984-1985,400,,Año más parecido en modelo

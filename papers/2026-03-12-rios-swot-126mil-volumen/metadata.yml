@@ -1,0 +1,28 @@
+titulo: "Un satélite midió 126.674 ríos y nadie esperaba el resultado"
+fecha: 2026-03-12
+categoria: ecologia
+tags: [ríos, SWOT, satélite, almacenamiento, hidrología, agua dulce, modelos]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=_oyYJWis70w"
+fuentes:
+  - doi: "10.1038/s41586-026-10218-y"
+    titulo: "Wide-swath altimetry maps bank shapes and storage changes in global rivers"
+    journal: Nature
+    autores: "Wade et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cuencas_rsa.csv"
+    descripcion: "ΔRSA de las 6 cuencas principales (km³)"
+    fuente: "Texto del paper (Open Access)"
+  - nombre: "comparacion_global.csv"
+    descripcion: "SWOT vs modelos MeanDRS"
+    fuente: "Texto del paper"
+  - nombre: "contexto_agua.csv"
+    descripcion: "Volumen agua dulce por reservorio"
+    fuente: "Texto del paper"
+  - nombre: "metricas_swot.csv"
+    descripcion: "Métricas clave del estudio SWOT"
+    fuente: "Texto del paper"
+estado: publicado

@@ -44,6 +44,11 @@ parts:
         sections:
           - file: papers/2026-03-16-arrecifes-mpa-solo-5-porciento/notebook
             title: Notebook
+      - file: papers/2026-03-12-rios-swot-126mil-volumen/README
+        title: "126.674 ríos: SWOT mide el agua del mundo"
+        sections:
+          - file: papers/2026-03-12-rios-swot-126mil-volumen/notebook
+            title: Notebook
 
   - caption: Geología
     chapters:
