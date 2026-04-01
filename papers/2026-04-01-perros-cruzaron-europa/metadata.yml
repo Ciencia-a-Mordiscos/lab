@@ -1,0 +1,25 @@
+titulo: "Nadie sabe cómo los mismos perros cruzaron toda Europa"
+fecha: 2026-04-01
+categoria: biología
+tags: [perros, domesticación, paleolítico, genómica, arqueología, Europa, Anatolia]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=62WFFzEFzNM"
+fuentes:
+  - doi: "10.1038/s41586-026-10170-x"
+    titulo: "A genetically homogeneous dog population in the Late Upper Palaeolithic"
+    journal: Nature
+    autores: "Scarsbrook et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "muestras.csv"
+    descripcion: "148 cánidos antiguos (Table 1) — especie, grupo, sitio, país, coordenadas, edad, haplotipo mitocondrial"
+    fuente: "Supplementary Table 1"
+  - nombre: "cronologia.csv"
+    descripcion: "240 muestras datadas de 11 estudios (Table 5)"
+    fuente: "Supplementary Table 5"
+  - nombre: "isotopos.csv"
+    descripcion: "12 muestras isotópicas δ¹³C/δ¹⁵N de Gough's Cave y Pınarbaşı (Table 6)"
+    fuente: "Supplementary Table 6"
+estado: publicado

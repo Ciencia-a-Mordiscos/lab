@@ -79,6 +79,11 @@ parts:
 
   - caption: Biología
     chapters:
+      - file: papers/2026-04-01-perros-cruzaron-europa/README
+        title: "Los mismos perros cruzaron toda Europa"
+        sections:
+          - file: papers/2026-04-01-perros-cruzaron-europa/notebook
+            title: Notebook
       - file: papers/2026-03-26-musica-preferencias-animales/README
         title: "Música: preferencias compartidas con animales"
         sections:

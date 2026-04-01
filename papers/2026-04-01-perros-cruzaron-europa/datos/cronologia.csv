@@ -1,0 +1,241 @@
+analysis_id,sample_id,date_mean_bp,date_info,site,paper
+D_GoughsCave1_14269,M13794,14269,VIE-1402,"Goughs Cave, UK",This study
+D_Padina1_11500-8300,PAD 11.70/170/1,,,"Padina, Serbia",This study
+D_Padina2_c8100,PAD 7.70/182/14,,,"Padina, Serbia",This study
+D_Padina3_8300-7900,PAD 7.70/224/1,,,"Padina, Serbia",This study
+D_Padina4_c8100,PAD 8.70/268/1,,,"Padina, Serbia",This study
+D_Padina5_c8100,PAD 8.70/243/1,,,"Padina, Serbia",This study
+D_Pinarbasi1_15787,D004924,15787,UCIAMS.297865,"Pinarbasi, Türkiye",This study
+D_Pinarbasi2_15837,AL2921/ D004922,15837,OxA-38685,"Pinarbasi, Türkiye",This study
+D_Pinarbasi3_15062,PB04 BIB 115 #4057 20L,12638,OxA-38686,"Pinarbasi, Türkiye",This study
+D_Pinarbasi4_14865,PB04 25/8/04,12551,OxA-38738,"Pinarbasi, Türkiye",This study
+D_Vlasac1_9500-8300 ,VL 224 x-find 5/1,,,"Vlasac, Serbia",This study
+D_Vlasac2_c8650,LMU_VLA_KOB_35a_A,,,"Vlasac, Serbia",This study
+D_Vlasac3_c8650,VL 216 x-find 7,,,"Vlasac, Serbia",This study
+D_Vlasac4_c8650,VL233X-FIND10,,,"Vlasac, Serbia",This study
+D_Wezmeh1_1532,WZ77,1532,VIE-1084,"Wezmeh, Iran",This study
+W_GrottaContinenza1_c12000,Taglio38,12000,,"Grotta Continenza, Italy",This study
+W_Wezmeh1_2708,WZ190,2708,VIE-1085,"Wezmeh, Iran",This study
+01.P09.B1.1077_Chukotka_Russia_A1b_1060,01.P09.B1.1077,1060,,"Pajpel'gak, Chukotka, Russia",Ameen et al. 2019
+03.P04.H1.1024_Chukotka_Russia_Xclade_1000,03.P04.H1.1024,1000,,"Pajpel'gak, Chukotka, Russia",Ameen et al. 2019
+08.P05.H2.961_Russia_A1b_1060,08.P05.H2.961,1060,,"Pajpel'gak, Chukotka, Russia",Ameen et al. 2019
+09.P05.H2.894_Russia_A1b_600,09.P05.H2.894,600,,"Pajpel'gak, Chukotka, Russia",Ameen et al. 2019
+2009-32-3316_Iceland_A2a_300,2009-32-3316,300,,"Alþingisreitur, Reykjavík, Iceland",Ameen et al. 2019
+31.KM90.2/2.307_Russia_A2b_600,31.KM90.2/2.307,600,,"Pajpel'gak, Chukotka, RUssia",Ameen et al. 2019
+560028-21_Alaska_A2b_1700,560028-21,1700,,"Uyak, Kodiak Island, Alaska, USA",Ameen et al. 2019
+5MT316_Colorado_A2b_1250,5MT316,1250,,"Grass Mesa, Colorado, USA",Ní Leathlobhair et al. 2018
+5MT501_Colorado_A2b_900,5MT501,900,,"Yellow Jacket Pueblo, Colorado, USA",Ní Leathlobhair et al. 2018
+5MT520_Colorado_A2b_1200,5MT520,1200,,"McPhee Pueblo, Colorado, USA",Ní Leathlobhair et al. 2018
+AL3007_Russia_Xclade_0,AL3007,0,,"Kamchatka, Russia",Bergstrom et al. 2020
+AM310A_Indiana_A2b_1000,AM310A,1000,,"Angel Mounds, Indiana",Ní Leathlobhair et al. 2018
+AM310B_Indiana_A2b_1000,AM310B,1000,,"Angel Mounds, Indiana",Ní Leathlobhair et al. 2018
+AM310C_Indiana_A2b_1000,AM310C,1000,,"Angel Mounds, Indiana",Ní Leathlobhair et al. 2018
+AM474_Indiana_A2b_1000,AM474,1000,,"Angel Mounds, Indiana",Ní Leathlobhair et al. 2018
+Basenji_A1a_0,Basenji,0,,USA,Thalmann et al. 2013
+BELA-37369_Alaska_A1b_212,BELA-37369,212,,"Cape Espenberg, Kotzebue Sound",Ameen et al. 2019
+BELA-37374_Alaska_A2b_620,BELA-37374,620,,"Cape Espenberg, Kotzebue Sound",Ameen et al. 2019
+BELA-37375_Alaska_A1b_620,BELA-37375,620,,"Cape Espenberg, Kotzebue Sound",Ameen et al. 2019
+BELA-52965_Alaska_A2b_400,BELA-52965,400,,"Cape Espenberg, Kotzebue Sound",Ameen et al. 2019
+CAO1_California_A2b_4000,CAO1,4000,,"Channel Islands, USA",Ní Leathlobhair et al. 2018
+CAW2_California_A2b_4000,CAW2,4000,,"Channel Islands, USA",Ní Leathlobhair et al. 2018
+CIAS_California_A2b_4000,CIAS,4000,,"Syuxtun, California, USA",Ní Leathlobhair et al. 2018
+CICVD_California_A2b_4000,CICVD,4000,,"Canada Verde Site, Santa Rosa Island, California, USA",Ní Leathlobhair et al. 2018
+CK-H8-M7_Alaska_825,CK-H8-M7,825,,"Cape Espenberg, Kotzebue Sound",Ameen et al. 2019
+Cox6_Alabama_A2b_2250,Cox6,2250,,"Cox site, Alabama, USA",Ní Leathlobhair et al. 2018
+D_Ajvide1_4800,C89,4700,Contextual date,"Gotland, Sweden",Bergstrom et al. 2020
+D_Ajvide2_4800,C90,4700,Contextual date,"Gotland, Sweden",Bergstrom et al. 2020
+D_AlymasPodunavlje1_4500,ALPO01,4500,Eneolithic,"Alymas-Podunavlje, Serbia",Bergstrom et al. 2020
+D_Amur2_93,TRF.02.21,75,1927 AD,"Nivkh, Russia",Feuerborn et al. 2021
+D_Apalle1_3100,C62,3112,Ua 8826 (2945 ± 75 BP),"Apalle, Sweden",Bergstrom et al. 2020
+D_Ashkelon1_2300,ASHQ01,2300,Persian,"Ashkelon, Israel",Bergstrom et al. 2020
+D_Ashkelon2_2300,ASHQ06,2300,Persian,"Ashkelon, Israel",Bergstrom et al. 2020
+D_Ashkelon3_2300,ASHQ08,2300,Persian,"Ashkelon, Israel",Bergstrom et al. 2020
+D_BelverdeDiCetona1_4000,AL2397,4000,,"Belvedere di Cetona, Italy",Bergstrom et al. 2020
+D_Bulgunnyakhtakh1_100,C32,100,,"Bulgunnyakhtakh lake, Yana-Indigirka lowland, 55 km north-west, Russia",Bergstrom et al. 2020
+D_CherryTreeCave1_4716,CTC,4700,,"Cherry Tree Cave (Kirschbaumhöhle), Germany",Botigue et al. 2017
+D_Chukotka2_95,TRF.02.49,85,,Russia,Feuerborn et al. 2021
+D_Fralsegardenm1_1150,C88,5000,,"Vastergotland, Sweden",Bergstrom et al. 2020
+D_Herxheim1_7081,HXH,7000,AMS dated,"Herxheim, Germany",Botigue et al. 2017
+D_IarteVI1_800,TRF.05.16,1000,11th Cent. AD,"Iarte 6, Russia",Feuerborn et al. 2021
+D_Ishkinino1_3275,TRF.04.04,3200,,Russia,Feuerborn et al. 2021
+D_Kamchatka1_93,TRF.02.01,80,1927 AD,"Tjukotka (Chukotka), Russia",Feuerborn et al. 2021
+D_Kamchatka2_60,TRF.02.53,50,,Russia,Feuerborn et al. 2021
+D_Krasnosamarskoe1_3800,C5,3800,Date range of site,"Krasnosamarskoe, Russia",Bergstrom et al. 2020
+D_Marizulo1_6230,OL4029,6230,,"Marizulo Cave, Spain",Bergstrom et al. 2020
+D_Marmara1_1565,AL2022,1565,OxA-36894,"Istanbul, Turkey",Bergstrom et al. 2020
+D_Newgrange1_4800,Newgrange,4800,UBA-25550,"Newgrange, Ireland",Frantz et al. 2016
+D_PadKalashkinova1_7000,C26,7000,Ox23910,"Pad' Kalashkinova, Russia",Bergstrom et al. 2020
+D_PadKalashkinova2_6900,OL4223,7000,,"Pad' Kalashnikova, Russia",Bergstrom et al. 2020
+D_Parknabinnia1_2733,Parknabinnia,2733,,"Parknabinnia, Ireland",Feuerborn et al. 2021
+D_Plocnik1_6839,AL2946,6838,OxA-36896,"Plocnik, Serbia",Bergstrom et al. 2020
+D_PortauChoix1_4157,AL3194,4020,,"Port au Choix, Newfoundland, Canada",Ramos-Madrigal et al. 2020 / Ní Leathlobhair et al. 2018
+D_Sakhalin1_140,TRF.01.51,140,1872 AD,"Sakhalin, Russia",Feuerborn et al. 2021
+D_ShamankaII1_7400,C27,7400,Ox20561,"Shamanka II, Russia",Bergstrom et al. 2020
+D_Skoteini1_6544,OL4222,6500,,"Skoteini cave, Greece",Bergstrom et al. 2020
+D_Sotin1_4900,SOTN01,4900,4220±40 (Beta-307577),"Sotin, Croatia",Bergstrom et al. 2020
+D_StoraForvar1_4000,C94,4032,Beta-440527 (3680 ± 30),"Stora Fovar, Sweden",Bergstrom et al. 2020
+D_TelGezer1_3500,TGEZ06,2300,Persian,"Tel Gezer, Israel",Bergstrom et al. 2020
+D_TelHreiz1_7000,THRZ02,7000,Neolithic,"Tel Hreiz, Israel",Bergstrom et al. 2020
+D_TepeGhelaGap1_5826,AL2571,5820,OxA-35324,"Tepe Ghela Gap, Iran",Bergstrom et al. 2020
+D_TiuteiSaleI1_1111,TRF.05.14,1100,,"Tiutei-Sale 1, Russia",Feuerborn et al. 2021
+D_UstPolui1_2000,TRF.05.04,2000,,Russia,Feuerborn et al. 2021
+D_UstPolui2_2000,TRF.05.05,2000,1927 AD,"Nenets, Russia",Feuerborn et al. 2021
+D_UstPolui4_2000,TRF.05.07,2000,260BC-140AD,"Ust'-Polui, Russia",Feuerborn et al. 2021
+D_UstPolui5_2000,TRF.05.08,2000,260BC-140AD,"Ust'-Polui, Russia",Feuerborn et al. 2021
+D_UstPolui6_2000,TRF.05.10,2000,260BC-140AD,"Ust'-Polui, Russia",Feuerborn et al. 2021
+D_UstVoikar1_857,TRF.05.17,850,,"Ust'-Voikar, Russia",Feuerborn et al. 2021
+D_Uza1_875,UZAA01,875,Islamic,"Uza, Israel",Bergstrom et al. 2020
+D_Uza2_1600,UZAA02,1600,Byzantine,"Uza, Israel",Bergstrom et al. 2020
+D_Veretye1_10930,OL4061,10930,,"Veretye 1, Russia",Bergstrom et al. 2020
+D_Veretye2_8750,TRF.04.09,10900,,Russia,Feuerborn et al. 2021
+D_Weyanoke1_960,AL3223,1035,OxA-35516,"Hatch Old Town, USA",Ní Leathlobhair et al. 2018
+D01_SiberianHusky_A1b_0,D01,0,,Sweden,Björnerfeldt et al. 2006
+D04_CockerSpaniel_A1a_0,D04,0,,Sweden,Björnerfeldt et al. 2006
+D05_WestHighlandWhiteTerrier_A1a_0,D05,0,,Sweden,Björnerfeldt et al. 2006
+D07_IrishSetter_A1a_0,D07,0,,Sweden,Björnerfeldt et al. 2006
+D102_GoldenRetriever_A1a_0,D102,0,,Sweden,Baranowska et al. 2009
+D11_SwedishElkhound_C_0,D11,0,,Sweden,Björnerfeldt et al. 2006
+D35_DobermanPinscher_B_0,D35,0,,USA,Webb and Allard 2009
+D40_Bolognese_B_0,D40,0,,USA,Webb and Allard 2009
+D41_Poodle_B_0,D41,0,,USA,Webb and Allard 2009
+D42_CardiganCorgi_B_0,D42,0,,USA,Webb and Allard 2009
+D44_BassetHound_B_0,D44,0,,USA,Webb and Allard 2009
+D46_WalkerHound_B_0,D46,0,,USA,Webb and Allard 2009
+D48_AustralianTerrier_B_0,D48,0,,USA,Webb and Allard 2009
+D49_BassetHound_B_0,D49,0,,USA,Webb and Allard 2009
+D50_CockerSpaniel_B_0,D50,0,,USA,Webb and Allard 2009
+D51_Cockapoo_B_0,D51,0,,USA,Webb and Allard 2009
+D55_BlueHeeler_C_0,D55,0,,USA,Webb and Allard 2009
+D56_Viszla_A1a_0,D56,0,,USA,Webb and Allard 2009
+D59_Keeshond_A1a_0,D59,0,,USA,Webb and Allard 2009
+D61_TibetanMastiff_A_0,D61,0,,USA,Webb and Allard 2009
+D65_Dachsund_A_0,D65,0,,USA,Webb and Allard 2009
+D66_Dachsund_A1a_0,D66,0,,USA,Webb and Allard 2009
+D67_Dachsund_A1a_0,D67,0,,USA,Webb and Allard 2009
+D68_Chihuahua_A1a_0,D68,0,,USA,Webb and Allard 2009
+D69_AmericanCockerSpaniel_A1a_0,D69,0,,USA,Webb and Allard 2009
+D72_Rottweiler_A1a_0,D72,0,,USA,Webb and Allard 2009
+D73_MiniatureDachsund_A1a_0,D73,0,,USA,Webb and Allard 2009
+D75_AustralianShepherd_A1a_0,D75,0,,USA,Webb and Allard 2009
+D78_EnglishMastiff_A1a_0,D78,0,,USA,Webb and Allard 2009
+D79_AustralianShepherd_A1a_0,D79,0,,USA,Webb and Allard 2009
+D80_CairnTerrier_A1a_0,D80,0,,USA,Webb and Allard 2009
+D81_Newfoundland_A1a_0,D81,0,,USA,Webb and Allard 2009
+D82_ToyPoodle_A1a_0,D82,0,,USA,Webb and Allard 2009
+D83_NeopolitanMastiff_A1a_0,D83,0,,USA,Webb and Allard 2009
+D84_Pomeranian_C_0,D84,0,,USA,Webb and Allard 2009
+D85_NeopolitanMastiff_A1a_0,D85,0,,USA,Webb and Allard 2009
+D86_CavalierKingCharlesSpaniel_A1a_0,D86,0,,USA,Webb and Allard 2009
+D87_BichonFrise_A1a_0,D87,0,,USA,Webb and Allard 2009
+D88_CockerSpaniel_A1a_0,D88,0,,USA,Webb and Allard 2009
+D89_EnglishShepherd_A1a_0,D89,0,,USA,Webb and Allard 2009
+D90_FrenchBulldog_A1a_0,D90,0,,USA,Webb and Allard 2009
+D91_Corgi_A1a_0,D91,0,,USA,Webb and Allard 2009
+D93_GreatDane_A1a_0,D93,0,,USA,Webb and Allard 2009
+D94_Akita_A1a_0,D94,0,,USA,Webb and Allard 2009
+D95_BrittanySpaniel_A1a_0,D95,0,,USA,Webb and Allard 2009
+D96_GoldenRetriever_A1a_0,D96,0,,USA,Webb and Allard 2009
+D97_GoldenRetriever_A1a_0,D97,0,,USA,Webb and Allard 2009
+D98_GoldenRetriever_B_0,D98,0,,USA,Webb and Allard 2009
+D99_GoldenRetriever_B_0,D99,0,,USA,Webb and Allard 2009
+Dingo_A1b_0,Dingo,0,,USA,Thalmann et al. 2013
+DQ480489.1_GermanShepherd_Sweden_C_0,DQ480489.1,0,,Sweden,Bjornerfeldt et al. 2006
+DQ480492.1_Jamthund_Sweden_D_0,DQ480492.1,0,,Sweden,Bjornerfeldt et al. 2006
+DQ480493.1_BlackRussianTerrier_Sweden_C_0,DQ480493.1,0,,Sweden,Bjornerfeldt et al. 2006
+DQ480502.1_Jamthund_Sweden_D_0,DQ480502.1,0,,Sweden,Bjornerfeldt et al. 2006
+DRG-99-0043_Alaska_1105,DRG-99-0043,1105,,"Deering, Kotzebue Sound, Alaska, USA",Ameen et al. 2019
+F3781_Russia_SiberianSea_100,F3781,100,,"Chukotka, Russia",Bergstrom et al. 2020
+HJCL-9.14_Labrador_150,HJCL-9.14,150,,"Uivak Point 1, Okak Bay, Labrador, Canada",Ameen et al. 2019
+JBG11_A2b_1200,JBG11,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG12_A2b_1200,JBG12,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG13_A2b_1200,JBG13,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG17_A2b_1200,JBG17,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG19_A2b_1200,JBG19,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG21_A2b_1200,JBG21,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG24_A2b_1200,JBG24,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG26_A2b_1200,JBG26,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG32_A2b_1200,JBG32,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG35_A2b_1200,JBG35,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG37_A2b_1200,JBG37,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG41_A2b_1200,JBG41,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG42_A2b_1200,JBG42,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG43_A2b_1200,JBG43,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG45_A2b_1200,JBG45,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG48_A2b_1200,JBG48,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG5_Illinois_A2b_1200,JBG5,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+JBG50_A2b_1200,JBG50,1200,,"Janey B. Goode, Illinois, USA",Ní Leathlobhair et al. 2018
+KBP3316.216_Kurils_840,KBP3316.216,840,,"Bukhta Zakat, Makanrushi Island, Kurils, Russia",Ameen et al. 2019
+KEDQ-2.M1_Nunavut_700,KEDQ-2.M1,700,,"Talaguak, Kimmirut (Lake Harbour), Baffin Island, Canada",Ameen et al. 2019
+KKDO-2270_Nunavut_675,KKDO-2270,675,,"Peale Point, Frobisher Bay, Baffin Island, Canada",Ameen et al. 2019
+KKJG-1.H8-M1_Nunavut_425,KKJG-1.H8-M1,425,,"Silumiut Island, Chesterfield Inlet, Canada",Ameen et al. 2019
+KNK2643X1839_Greenland_45,KNK2643X1839,45,,"Iita, Foulke Fjord, Inglefield Land, Greenland",Ameen et al. 2019
+KNK2644X1119_Greenland_75,KNK2644X1119,75,,"Foulke Fjord, Inglefield Land, Greenland",Ameen et al. 2019
+KNK2644X1120_Greenland_75,KNK2644X1120,75,,"Foulke Fjord, Inglefield Land, Greenland",Ameen et al. 2019
+KNK492X33_Greenland_592,KNK492X33,592,,"Qaqaitsut West, Paris Fjord, Greenland",Ameen et al. 2019
+KU290535_Tanzania_0,KU290535,0,,Tanzania,Strakova et al. 2016
+KU290838_Gambia_0,KU290838,0,,Gambia,Strakova et al. 2016
+KU290884_Malawi_0,KU290884,0,,Malawi,Strakova et al. 2016
+KU290890_Gambia_0,KU290890,0,,Gambia,Strakova et al. 2016
+LB2_Alabama_A2b_5000,LB2,5000,,"Little Bear, Alabama, USA",Ní Leathlobhair et al. 2018
+NHTN-1.2048H_NWTerritories_175,NHTN-1.2048H,175,,"Nuvuk, Cape Krusenstern, Coronation Gulf, Canada",Ameen et al. 2019
+NIHF-4.132C_Nunavut_650,NIHF-4.132C,650,,"Gutchiak, Eskimo Lakes, Mackenzie Delta, Canada",Ameen et al. 2019
+NIHF-4.1C_Nunavut_650,NIHF-4.1C,650,,"Tikilik, Igloolik Island, Canada",Ameen et al. 2019
+NIHF-4.PLM_Nunavut_650,NIHF-4.PLM,650,,"Tikilik, Igloolik Island, Canada",Ameen et al. 2019
+OATI-1.H1R_NWTerritories_345,OATI-1.H1R,345,,"Tuktoyaktuk Peninsula, Mackenzie Delta",Ameen et al. 2019
+P91/2013KMG-GeoSociety-M4a_Greenland_300,P91/2013KMG-GeoSociety-M4a,300,,"Geographical Society Island, East Greenland",Ameen et al. 2019
+PRD10_BColumbia_A2b_1500,PRD10,1500,,"Boardwalk, Prince Rupert Harbour, British Columbia, Canada",Ní Leathlobhair et al. 2018
+RBJR-1.642.56_Nunavut_650,RBJR-1.642.56,650,,"Porden Point, Grinnell Peninsula, Devon Island, Nunavut, Canada",Ameen et al. 2019
+SEL-33-0057b_Alaska_2200,SEL-33-0057b,2200,,"Chugachik Island, Upper Kachemak Bay, Cook Inlet, Alaska",Ameen et al. 2019
+SemiamhooBay_150,SemiamhooBay,150,,"Semiamhoo Bay, British Columbia, Canada",Lin et al. 2023
+TRF.02.25_Nenets_Rus_1927AD_80,TRF.02.25,80,1927 AD,"Nenets, Russia",Feuerborn et al. 2021
+TRF.02.26_Nenets_75,TRF.02.26,75,"Historical, 1926",Russia,Feuerborn et al. 2021
+TRF.02.54_Kamchatka_40,TRF.02.54,40,,Russia,Feuerborn et al. 2021
+UA1-1941-1856_Alaska_740,UA1-1941-1856,740,,"Ahteut, Kobuk River, USA",Ameen et al. 2019
+UA5231_Alaska_25,UA5231,25,,"Cape Dyer, North Slope, USA",Ameen et al. 2019
+WAL-B9-J19_Alaska_A2a_1125,WAL-B9-J19,1125,,"Walakpa, North Slope, USA",Ameen et al. 2019
+WAL-B9-J20_Alaska_A2a_1125,WAL-B9-J20,1125,,"Walakpa, North Slope, USA",Ameen et al. 2019
+EU408262_Chihuahua_0,EU408262_Chihuahua5P,0,,NA,"Webb and Allard, 2009"
+EU408267.1_CockerSpaniel3P_C_0,EU408267_CockerSpaniel3P,0,,USA,Webb and Allard 2009
+EU408279.1_Havanese3P_C_0,EU408279_Havanese3P,0,,USA,Webb and Allard 2009
+EU408288.1_NorwegianElkhound1P_Norway_D_0,EU408288_NorwegianElkhound1P,0,,Norway,Webb and Allard 2009
+EU408293.1_PitBullTerrier1M_C_0,EU408293_PitBullTerrier1M,0,,USA,Webb and Allard 2009
+EU789654.1_D5_m98_Kangal_Turkey_D_0,EU789654_D5_m98_Kangal,0,,Turkey,Pang et al. 2009
+EU789655.1_Galgo_Espanol_D6_R33_Spain_D_0,EU789655_Galgo_Espanol_D6_R33,0,,Spain,Pang et al. 2009
+EU789664_A65_m276_Thailand_0,EU789664_A65_m276,0,,Thailand,Pang et al. 2009
+EU789669_A65_5959_China_0,EU789669_A65_5959,0,,China,Pang et al. 2009
+EU789755_A64_Z134_Japan_0,EU789755_A64_Z134,0,,Japan,Pang et al. 2009
+E_Greenland_32135_Greenland_100,E_Greenland_32135,100,"Historical, 1911","Tasiilak, East Greenland",Ameen et al. 2019
+KU290537_326H_Ecuador_0,KU290537_326H,0,,Ecuador,Strakova et al. 2016
+KU290569.1_0_C365H_Paraguay_C_0,KU290569.1_C365H,0,,Paraguay,Strakova et al. 2016
+KU290587.1_383H_Suriname_C_0,KU290587.1_383H,0,,Suriname,Strakova et al. 2016
+KU290733_4H_Mexico_0,KU290733_4H,0,,Mexico,Strakova et al. 2016
+KU290894.1_0_C680H_SouthAfrica_C_0,KU290894.1_C680H,0,,SouthAfrica,Strakova et al. 2016
+KU291094_99H_Nicaragua_0,KU291094_99H,0,,Nicaragua,Strakova et al. 2016
+May10_Mexico_A2b_1000,May10_Mexico,1000,,"Mayapan, Yucatan, Mexico",Ní Leathlobhair et al. 2018
+May2_Mexico_A2b_1000,May2_Mexico,1000,,"Mayapan, Yucatan, Mexico",Ní Leathlobhair et al. 2018
+May3_Mexico_A2b_1000,May3_Mexico,1000,,"Mayapan, Yucatan, Mexico",Ní Leathlobhair et al. 2018
+May4_Mexico_A2b_1000,May4_Mexico,1000,,"Mayapan, Yucatan, Mexico",Ní Leathlobhair et al. 2018
+W_Greenland_32987_A2a_70,W_Greenland_32987,70,,"Uummannaq, Northwest Greenland",Ameen et al. 2019
+W_Greenland_67941_A1a_80,W_Greenland_67941,80,"Historical, 1918","Qeqertarssuatsiaq, Greenland",Ameen et al. 2019
+D_BonnOberkassel1_c14000,TH13,12210,KIA-4162,"Bonn-Oberkassel, Germany","Thalmann, et al. 2013"
+W_Kesserloch1_14358,TH11,14358,MAMS-23876,"Kesserloch Cave, Switzerland",Thalmann et al. 2013
+D_GrottaPaglicci1_14065,Paglicci_14000,12175,OxA-26316,"Grotta Paglicci, Italy","Boschin, et al. 2020"
+W_GrottaContinenza1_c12000,Taglio38,12000,,"Grotta Continenza, Italy",This study
+W_Kesserloch2_14582,TH15,14582,MAMS-23873,"Kesserloch Cave, Switzerland",Thalmann et al. 2013
+W_Kesserloch4_14143,TU13,12220,MAMS-23875,"Kesserloch Cave, Switzerland","Loog, et al. 2020"
+D_Kartstein1_c12500,TH14,12500,,"Kartstein Cave, Germany",Thalmann et al. 2013
+W_Kesserloch3_15039,TH7,15039,MAMS-23874,"Kesserloch Cave, Switzerland",Thalmann et al. 2013
+D_Kesserloch1_14159,TU11,14159,,"Kesserloch Cave, Switzerland",Loog et al. 2020
+D_Botai1_5169,AC14,5169,Beta-714186,"Botai, Kazakhstan",Zhang et al. 2025
+D_Irkutsk_7357,C27,7357,Ox20561,"Irkutsk, Russia",Bergstrom et al. 2020
+W_Auneau_10040,TU839,10040,Poz-70124,"Auneau, France",Baumann et al. 2021
+W_Auneau_9668,TU840,9668,Poz-70126,"Auneau, France",Baumann et al. 2021
+W_BallynamintraCave_13361,367,13361,OxA-35455,"Ballynamintra Cave, Ireland",Bergstrom et al. 2022
+W_BelayaGora_18274,IN18-005,14930,OxA-38195,"Belaya Gora, Siberia","Bergström, et al. 2022"
+W_EasternBeringia_21013,TH10,21013,AA42301,"Eastern Beringia, Alaska",Thalmann et al. 2013
+W_Gnirshöhle_15267,GN-133/TU1072,15267,ETH-98604,"Gnirshöhle, Germany",Baumann et al. 2021
+W_HohleFels_15453,JK2181,15453,ETH-75071,"Hohle Fels, Germany",Baumann et al. 2021
+W_Kesslerloch5_15039,TH7,12620,MAMS-23874,"Kesslerloch Cave, Switzerland","Thalmann, et al. 2013"
+W_PlunkettCave_13260,IRK,13260,OxA-38063,"Plunkett Cave, Ireland",Bergstrom et al. 2022
+W_Wezmeh1_2708,WZ190,2708,VIE-1085,"Wezmeh, Iran",This study
+Coyote_0,NC_008093,0,,"Nebraska, USA", Bjornerfeldt et al. 2006

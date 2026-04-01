@@ -1,0 +1,13 @@
+site,sample_id,species,reference,collagen_yield_pct,pct_c,pct_n,cn_ratio,d13c,d15n,nle_d15n,nle_d13c
+Gough's Cave,M49877a,Dog,This study,7.7,45.41,16.21,3.3,-19.1,5.7,14.31,-27.73
+Gough's Cave,M561,Dog,This study,8.8,43.6,15.56,3.3,-20.06,6.39,14.31,-27.73
+Gough's Cave,M13794a,Dog,This study,3.6,43.56,15.43,3.3,-19.15,5.2,14.31,-27.73
+Gough's Cave,M50012b,Wolf,This study,4.2,40.6,14.75,3.2,-19.19,5.81,14.31,-27.73
+Gough's Cave,M54143,Human,Richards et al. 2000,-,-,-,3.4,-18.5,7.1,14.31,-27.73
+Gough's Cave,M54056,Human,Richards et al. 2000,-,-,-,3.3,-18.6,6.5,14.31,-27.73
+Pınarbaşı,PB04 BIB 115 #4057 20L,Dog,This study,-,42.98,15.17,3.3,-22,11.86,14.31,-27.73
+Pınarbaşı,PB04 25/8/04,Dog,This study,7.2,40.49,13.83,3.4,-23.96,11.6,14.31,-27.73
+Pınarbaşı,PB04 BIF 123 #4081 23L,Dog,This study,-,41.54,14.53,3.3,-22.5,12.56,14.31,-27.73
+Pınarbaşı,PB04 BIF 31/8/04,Dog,This study,7.7,42.54,14.5,3.4,-22.67,12.61,14.31,-27.73
+Pınarbaşı,ZBC,Human,This study,20.5,37.31,13.01,3.4,-20.04,15.06,14.31,-27.73
+Pınarbaşı,ZBD,Human,This study,12.9,34.2,11.67,3.4,-19.74,14.21,14.31,-27.73
