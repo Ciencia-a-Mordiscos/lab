@@ -1,0 +1,25 @@
+titulo: "Nadie Esperaba lo que una Ola de Calor le Hizo a 32 Especies"
+fecha: 2026-03-17
+categoria: ecología
+tags: [ola-de-calor, meta-análisis, biodiversidad, incendios, norteamérica, heat-dome, cambio-climático]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=Ia61CV8VKvY"
+fuentes:
+  - doi: "10.1038/s41559-026-02987-6"
+    titulo: "Widespread ecological responses and cascading effects of the 2021 western North American heatwave"
+    journal: Nature Ecology & Evolution
+    autores: "Baum et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "effectsizes.csv"
+    descripcion: "41 tamaños de efecto para 25 especies"
+    fuente: "GitHub/Zenodo"
+  - nombre: "wildfire_stats_2021.csv"
+    descripcion: "Actividad de incendios MODIS 2021"
+    fuente: "GitHub/Zenodo"
+  - nombre: "wildfire_stats_2000_2020.csv"
+    descripcion: "Histórico de incendios 2000-2020"
+    fuente: "GitHub/Zenodo"
+estado: publicado
