@@ -20,6 +20,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ---
 
+### 🌫️ En 1 minuto esta IA destruye décadas de pronósticos del aire
+
+**Tecnología** · Nature · AI-GAMFS vs CAMS y GEOS-FP, 289 estaciones AERONET, 42 años MERRA-2, Vision Transformer + U-Net, AOD r = 0,978
+
+[Ver notebook](papers/2026-03-12-ia-pronostico-aerosoles/notebook) · [Leer más](papers/2026-03-12-ia-pronostico-aerosoles/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-12-ia-pronostico-aerosoles/notebook.ipynb)
+
+---
+
 ### 🐕 Los mismos perros cruzaron toda Europa
 
 **Biología** · Nature · 148 cánidos antiguos (74 perros, 73 lobos) de 25 países, genomas nucleares y mitocondriales, isótopos estables δ¹³C/δ¹⁵N

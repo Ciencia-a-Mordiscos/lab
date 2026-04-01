@@ -133,3 +133,8 @@ parts:
         sections:
           - file: papers/2026-03-20-reloj-predice-diabetes/notebook
             title: Notebook
+      - file: papers/2026-03-12-ia-pronostico-aerosoles/README
+        title: "IA destruye décadas de pronósticos del aire"
+        sections:
+          - file: papers/2026-03-12-ia-pronostico-aerosoles/notebook
+            title: Notebook

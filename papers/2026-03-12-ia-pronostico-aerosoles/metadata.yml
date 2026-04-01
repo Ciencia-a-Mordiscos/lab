@@ -1,0 +1,28 @@
+titulo: "En 1 minuto esta IA destruye décadas de pronósticos del aire"
+fecha: 2026-03-12
+categoria: tecnología
+tags: [ia, aerosoles, pronóstico, machine-learning, calidad-del-aire, cams, geos-fp, aeronet]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=vhKIxzk-eJo"
+fuentes:
+  - doi: "10.1038/s41586-026-10234-y"
+    titulo: "Machine-learning-driven global aerosol forecasting"
+    journal: Nature
+    autores: "Wei et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "rendimiento_aeronet.csv"
+    descripcion: "Correlación y RMSE de AI-GAMFS vs CAMS contra AERONET"
+    fuente: "Source Data for Figure 2"
+  - nombre: "mejora_vs_cams.csv"
+    descripcion: "% mejora sobre CAMS por componente aerosol"
+    fuente: "Source Data for Figure 3a"
+  - nombre: "rmse_vs_geosfp.csv"
+    descripcion: "RMSE concentraciones superficiales AI-GAMFS vs GEOS-FP"
+    fuente: "Source Data for Figure 3c"
+  - nombre: "rmse_estaciones.csv"
+    descripcion: "RMSE en 289 estaciones AERONET"
+    fuente: "Source Data for Figure 2c"
+estado: publicado
