@@ -108,6 +108,14 @@ parts:
           - file: papers/2026-03-19-estrellas-fuera-via-lactea/notebook
             title: Notebook
 
+  - caption: Química
+    chapters:
+      - file: papers/2026-03-17-pfas-fabrican-baterias-litio/README
+        title: "PFAS: los forever chemicals fabrican baterías"
+        sections:
+          - file: papers/2026-03-17-pfas-fabrican-baterias-litio/notebook
+            title: Notebook
+
   - caption: Tecnología
     chapters:
       - file: papers/2026-03-20-reloj-predice-diabetes/README

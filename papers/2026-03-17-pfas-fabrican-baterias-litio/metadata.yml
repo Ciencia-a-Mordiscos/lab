@@ -1,0 +1,34 @@
+titulo: "Los forever chemicals ahora fabrican baterías"
+fecha: 2026-03-17
+categoria: quimica
+tags: [pfas, litio, baterias, fluorinacion, contaminacion, grafeno, electroquimica]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=jJeBEpjSmww"
+fuentes:
+  - doi: "10.1038/s44221-026-00593-1"
+    titulo: "Electrothermal fluorination of PFAS for lithium recovery from brine"
+    journal: Nature Water
+    autores: "Yang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "termodinamica_dg.csv"
+    descripcion: "ΔG de fluorinación para 5 cloruros metálicos, 0-3000 °C"
+    fuente: "Supplementary Information, Source Data Fig. 1a"
+  - nombre: "degradacion_pfas.csv"
+    descripcion: "Eficiencia de degradación de 10 tipos de PFAS"
+    fuente: "Supplementary Information, Source Data Fig. 1g"
+  - nombre: "voltaje_fluor.csv"
+    descripcion: "Contenido de F orgánico e inorgánico por voltaje"
+    fuente: "Supplementary Information, Source Data Fig. 1f"
+  - nombre: "rendimiento_litio.csv"
+    descripcion: "Yield de Li vs ratio Na/Li por método de lavado"
+    fuente: "Supplementary Information, Source Data Fig. 2d"
+  - nombre: "solubilidad_fluoruros.csv"
+    descripcion: "Solubilidad en agua de cloruros y fluoruros"
+    fuente: "Supplementary Information, Source Data Fig. 2a"
+  - nombre: "voltaje_temperatura.csv"
+    descripcion: "Temperatura alcanzada vs voltaje aplicado"
+    fuente: "Supplementary Information, Source Data Fig. 1e"
+estado: publicado
