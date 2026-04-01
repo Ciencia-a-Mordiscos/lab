@@ -1,0 +1,22 @@
+titulo: "Tu reloj ya predice diabetes tipo 2"
+fecha: 2026-03-20
+categoria: tecnología
+tags: [wearables, diabetes, insulina, machine-learning, salud-digital, HOMA-IR]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=vB7xqNB999g"
+fuentes:
+  - doi: "10.1038/s41586-026-10179-2"
+    titulo: "Insulin resistance prediction from wearables and routine blood biomarkers"
+    journal: Nature
+    autores: "Dunn et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "participantes.csv"
+    descripcion: "1.165 participantes WEAR-ME — wearable features, biomarcadores, demografía, HOMA-IR"
+    fuente: "GitHub Google-Health (parquet → CSV)"
+  - nombre: "wearables_por_grupo.csv"
+    descripcion: "Resumen wearable por grupo de resistencia a la insulina"
+    fuente: "Agregado de participantes.csv"
+estado: publicado

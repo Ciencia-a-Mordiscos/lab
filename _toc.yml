@@ -97,3 +97,11 @@ parts:
         sections:
           - file: papers/2026-03-20-adn-bases-asteroide-ryugu/notebook
             title: Notebook
+
+  - caption: Tecnología
+    chapters:
+      - file: papers/2026-03-20-reloj-predice-diabetes/README
+        title: "Tu reloj ya predice diabetes tipo 2"
+        sections:
+          - file: papers/2026-03-20-reloj-predice-diabetes/notebook
+            title: Notebook
