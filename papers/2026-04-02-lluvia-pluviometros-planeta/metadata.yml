@@ -1,0 +1,22 @@
+titulo: "Nadie sabe realmente cuánto llueve en casi todo el planeta"
+fecha: 2026-04-02
+categoria: ecología
+tags: [precipitación, pluviómetros, wmo, clima, monitoreo, desigualdad, datos-climáticos]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=MqWTVSmBuVI"
+fuentes:
+  - doi: "10.1038/s41586-026-10300-5"
+    titulo: "Global gaps in precipitation monitoring networks hinder climate change impact assessment"
+    journal: Nature
+    autores: "Jia Su et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "pluviometros_por_continente.csv"
+    descripcion: "Serie temporal de pluviómetros activos por continente, 1830-2022"
+    fuente: "Supplementary MOESM4"
+  - nombre: "densidad_grid.csv"
+    descripcion: "Grid global 1°×1° con densidad de pluviómetros y clasificación WMO"
+    fuente: "Supplementary MOESM5"
+estado: publicado

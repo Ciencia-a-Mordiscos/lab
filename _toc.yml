@@ -4,6 +4,11 @@ root: intro
 parts:
   - caption: Ecología
     chapters:
+      - file: papers/2026-04-02-lluvia-pluviometros-planeta/README
+        title: "Nadie sabe cuánto llueve en el planeta"
+        sections:
+          - file: papers/2026-04-02-lluvia-pluviometros-planeta/notebook
+            title: Notebook
       - file: papers/2026-03-28-carbono-bosques-virgenes/README
         title: "Carbono de bosques vírgenes"
         sections:
