@@ -54,6 +54,11 @@ parts:
         sections:
           - file: papers/2026-03-12-rios-swot-126mil-volumen/notebook
             title: Notebook
+      - file: papers/2026-03-11-nivel-mar-132-millones/README
+        title: "Nadie midió bien el nivel del mar"
+        sections:
+          - file: papers/2026-03-11-nivel-mar-132-millones/notebook
+            title: Notebook
 
   - caption: Geología
     chapters:

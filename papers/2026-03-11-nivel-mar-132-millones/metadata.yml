@@ -1,0 +1,28 @@
+titulo: "Nadie midió bien el nivel del mar y 132 millones lo pagarán"
+fecha: 2026-03-11
+categoria: ecologia
+tags: [nivel-del-mar, geoide, MDT, riesgo-costero, meta-análisis, DEM, impacto-climático]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=5knq_zYVC04"
+fuentes:
+  - doi: "10.1038/s41586-026-10196-1"
+    titulo: "More than 99% of coastal hazard assessments misjudge sea level relative to coastal elevation"
+    journal: Nature
+    autores: "Vetter et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "offset_nivel_mar.csv"
+    descripcion: "Offset MDT vs geoide EGM96/EGM2008 por región"
+    fuente: "Supplementary Table 6 (MOESM3)"
+  - nombre: "impacto_por_region.csv"
+    descripcion: "Población y área en riesgo: EGM96 vs MDT por continente (CoastalDEM)"
+    fuente: "Supplementary Table 4 (MOESM4)"
+  - nombre: "evaluacion_literatura.csv"
+    descripcion: "Calidad de documentación de datum vertical por año"
+    fuente: "Supplementary Table 2 (MOESM2)"
+  - nombre: "impacto_por_dem.csv"
+    descripcion: "Comparación de impacto global por modelo de elevación digital"
+    fuente: "Supplementary Table 4 (MOESM4)"
+estado: publicado
