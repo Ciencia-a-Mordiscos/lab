@@ -138,3 +138,8 @@ parts:
         sections:
           - file: papers/2026-03-12-ia-pronostico-aerosoles/notebook
             title: Notebook
+      - file: papers/2026-04-02-ia-scientist-paper-autonomo/README
+        title: "¿Puede una IA revisar papers como un humano?"
+        sections:
+          - file: papers/2026-04-02-ia-scientist-paper-autonomo/notebook
+            title: Notebook

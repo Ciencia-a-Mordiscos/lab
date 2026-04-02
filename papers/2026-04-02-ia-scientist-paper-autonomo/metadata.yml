@@ -1,0 +1,22 @@
+titulo: "¿Puede una IA revisar papers científicos como lo haría un humano?"
+fecha: 2026-04-02
+categoria: tecnología
+tags: [ia, peer-review, llm, machine-learning, ciencia, iclr, benchmark]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=U1Tzpx5wbtM"
+fuentes:
+  - doi: "10.1038/s41586-026-10265-5"
+    titulo: "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery"
+    journal: Nature
+    autores: "Lu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "revisiones_comparadas.csv"
+    descripcion: "500 papers ICLR 2024 con scores humanos y de Claude/GPT-4o"
+    fuente: "github.com/SakanaAI/AI-Scientist/review_iclr_bench"
+  - nombre: "scores_por_decision.csv"
+    descripcion: "Scores medios por categoría de decisión"
+    fuente: "Agregación propia desde ratings_subset.tsv"
+estado: publicado
