@@ -136,6 +136,14 @@ parts:
           - file: papers/2026-03-17-pfas-fabrican-baterias-litio/notebook
             title: Notebook
 
+  - caption: Física
+    chapters:
+      - file: papers/2026-03-11-diamante-hexagonal-meteoritos/README
+        title: "Diamante hexagonal: el cristal de los meteoritos"
+        sections:
+          - file: papers/2026-03-11-diamante-hexagonal-meteoritos/notebook
+            title: Notebook
+
   - caption: Tecnología
     chapters:
       - file: papers/2026-03-20-reloj-predice-diabetes/README

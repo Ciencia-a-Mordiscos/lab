@@ -1,0 +1,25 @@
+titulo: "Crearon el diamante imposible que solo existía en meteoritos"
+fecha: 2026-03-11
+categoria: fisica
+tags: [diamante-hexagonal, lonsdaleita, dureza, XRD, TGA, alta-presion, carbono]
+formato: corto
+video_youtube: "https://youtube.com/watch?v=EXoqWqt_aeo"
+fuentes:
+  - doi: "10.1038/s41586-026-10212-4"
+    titulo: "Synthesis and properties of bulk hexagonal diamond"
+    journal: Nature
+    autores: "Xu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "dureza_hd.csv"
+    descripcion: "Dureza Vickers del diamante hexagonal (axial/radial, 5 cargas)"
+    fuente: "Source Data Fig. 4a (MOESM4)"
+  - nombre: "estabilidad_termica.csv"
+    descripcion: "TGA en aire: diamante hexagonal vs grafito HOPG"
+    fuente: "Source Data Fig. 4b (MOESM4)"
+  - nombre: "xrd_patrones.csv"
+    descripcion: "Difracción de rayos X: HD observado (radial/axial) y HOPG"
+    fuente: "Source Data Fig. 1a (MOESM4)"
+estado: publicado

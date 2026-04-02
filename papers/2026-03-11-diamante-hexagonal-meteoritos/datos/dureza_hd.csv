@@ -1,0 +1,11 @@
+direction,load_N,hardness_GPa,error_GPa,type
+axial,0.98,270.75103,21.95983,measured
+radial,0.98,279.76354,19.37323,measured
+axial,2.94,174.58659,13.81761,measured
+radial,2.94,162.20824,13.16182,measured
+axial,4.9,129.65885,8.47661,measured
+radial,4.9,132.54666,6.77225,measured
+axial,6.86,121.40085,8.83743,measured
+radial,6.86,113.10145,5.5373,measured
+axial,9.8,114.44017,6.39735,measured
+radial,9.8,106.62216,5.70077,measured
