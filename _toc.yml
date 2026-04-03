@@ -104,6 +104,11 @@ parts:
 
   - caption: Biología
     chapters:
+      - file: papers/2026-03-13-pez-imposible-436-millones-anos/README
+        title: "Pez imposible de 436 millones de años"
+        sections:
+          - file: papers/2026-03-13-pez-imposible-436-millones-anos/notebook
+            title: Notebook
       - file: papers/2026-04-01-perros-cruzaron-europa/README
         title: "Los mismos perros cruzaron toda Europa"
         sections:

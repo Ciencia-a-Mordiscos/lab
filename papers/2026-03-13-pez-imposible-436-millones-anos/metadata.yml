@@ -1,0 +1,22 @@
+titulo: "Descubrieron un Pez Imposible de 436 Millones de Años"
+fecha: 2026-03-13
+categoria: biología
+tags: [paleontología, filogenia, silúrico, osteíctio, fósil, vertebrados]
+formato: corto
+video_youtube: "https://www.youtube.com/watch?v=yJAgAv2eJGk"
+fuentes:
+  - doi: "10.1038/s41586-026-10125-2"
+    titulo: "Eosteus, the oldest osteichthyan"
+    journal: Nature
+    autores: "Zhu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "completitud_taxa.csv"
+    descripcion: "Completitud de caracteres morfológicos para 163 taxa"
+    fuente: "Supplementary Data 1 (Figshare)"
+  - nombre: "similitud_eosteus.csv"
+    descripcion: "Coincidencia de caracteres entre Eosteus y 162 otros taxa"
+    fuente: "Derivado de Supplementary Data 1"
+estado: publicado
