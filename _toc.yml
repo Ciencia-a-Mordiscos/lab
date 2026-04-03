@@ -75,15 +75,15 @@ parts:
 
   - caption: Medicina
     chapters:
-      - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
-        title: "Cáncer despierta armas contra cerebro"
-        sections:
-          - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
-            title: Notebook
       - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
         title: "Hormona alimenta tumores en niños"
         sections:
           - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook
+            title: Notebook
+      - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
+        title: "Cáncer despierta armas contra cerebro"
+        sections:
+          - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
             title: Notebook
 
   - caption: Neurociencia
@@ -104,11 +104,6 @@ parts:
 
   - caption: Biología
     chapters:
-      - file: papers/2026-03-13-pez-imposible-436-millones-anos/README
-        title: "Pez imposible de 436 millones de años"
-        sections:
-          - file: papers/2026-03-13-pez-imposible-436-millones-anos/notebook
-            title: Notebook
       - file: papers/2026-04-01-perros-cruzaron-europa/README
         title: "Los mismos perros cruzaron toda Europa"
         sections:
@@ -118,6 +113,11 @@ parts:
         title: "Música: preferencias compartidas con animales"
         sections:
           - file: papers/2026-03-26-musica-preferencias-animales/notebook
+            title: Notebook
+      - file: papers/2026-03-13-pez-imposible-436-millones-anos/README
+        title: "Pez imposible de 436 millones de años"
+        sections:
+          - file: papers/2026-03-13-pez-imposible-436-millones-anos/notebook
             title: Notebook
 
   - caption: Astronomía
@@ -151,6 +151,11 @@ parts:
 
   - caption: Tecnología
     chapters:
+      - file: papers/2026-04-02-ia-scientist-paper-autonomo/README
+        title: "¿Puede una IA revisar papers como un humano?"
+        sections:
+          - file: papers/2026-04-02-ia-scientist-paper-autonomo/notebook
+            title: Notebook
       - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/README
         title: "74 antibióticos imposibles de encontrar"
         sections:
@@ -165,9 +170,4 @@ parts:
         title: "IA destruye décadas de pronósticos del aire"
         sections:
           - file: papers/2026-03-12-ia-pronostico-aerosoles/notebook
-            title: Notebook
-      - file: papers/2026-04-02-ia-scientist-paper-autonomo/README
-        title: "¿Puede una IA revisar papers como un humano?"
-        sections:
-          - file: papers/2026-04-02-ia-scientist-paper-autonomo/notebook
             title: Notebook

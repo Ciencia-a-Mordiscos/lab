@@ -34,5 +34,7 @@ sphinx:
     html_extra_path: ["_extra"]
     copyright: "2026, Ciencia a Mordiscos"
     language: "es"
+    html_theme_options:
+      collapse_navigation: true
     html_js_files:
       - ["https://analytics.trellium.dev/script.js", {"data-website-id": "5ab57070-6c00-41d5-9bca-4e8164716505", "async": "async", "defer": "defer"}]
