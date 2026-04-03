@@ -151,6 +151,11 @@ parts:
 
   - caption: Tecnología
     chapters:
+      - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/README
+        title: "74 antibióticos imposibles de encontrar"
+        sections:
+          - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook
+            title: Notebook
       - file: papers/2026-03-20-reloj-predice-diabetes/README
         title: "Tu reloj ya predice diabetes tipo 2"
         sections:

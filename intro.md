@@ -44,6 +44,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ---
 
+### 🧬 Descubrieron 74 Antibióticos Imposibles de Encontrar
+
+**Tecnología** · Nature Biomedical Engineering · HMD-AMP detecta 100% de AMPs remotos (vs 0% otros métodos), 91 validados experimentalmente, 74 activos, 4 de amplio espectro, MIC 1-4 µg/mL
+
+[Ver notebook](papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook) · [Leer más](papers/2026-03-31-antibioticos-imposibles-ia-proteinas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook.ipynb)
+
+---
+
 ### 🌧️ Nadie sabe cuánto llueve en casi todo el planeta
 
 **Ecología** · Nature · 221.483 pluviómetros, 15.386 tiles globales, 68,7% sin cobertura, solo 13,4% cumple WMO

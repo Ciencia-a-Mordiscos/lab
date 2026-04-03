@@ -1,0 +1,73 @@
+amp,patogeno,mic
+Swine_3,Salmonella_enteritidis,4.0
+Swine_2,Salmonella_enteritidis,4.0
+Swine_35,Salmonella_enteritidis,8.0
+Swine_1,Salmonella_enteritidis,8.0
+Swine_33,Salmonella_enteritidis,16.0
+Swine_34,Salmonella_enteritidis,32.0
+Swine_32,Salmonella_enteritidis,16.0
+Swine_7,Salmonella_enteritidis,8.0
+Swine_5,Salmonella_enteritidis,32.0
+Cecropin P1,Salmonella_enteritidis,2.0
+c_AMP 1043,Salmonella_enteritidis,32.0
+Swine_31,Salmonella_enteritidis,32.0
+Swine_9,Salmonella_enteritidis,64.0
+Swine_4,Salmonella_enteritidis,64.0
+Swine_6,Salmonella_enteritidis,64.0
+Swine_8,Salmonella_enteritidis,64.0
+polymyxin B,Salmonella_enteritidis,2.0
+Vancomycin,Salmonella_enteritidis,64.0
+Swine_3,Staphylococcus_aureus,4.0
+Swine_2,Staphylococcus_aureus,4.0
+Swine_35,Staphylococcus_aureus,4.0
+Swine_1,Staphylococcus_aureus,4.0
+Swine_33,Staphylococcus_aureus,8.0
+Swine_34,Staphylococcus_aureus,8.0
+Swine_32,Staphylococcus_aureus,32.0
+Swine_7,Staphylococcus_aureus,4.0
+Swine_5,Staphylococcus_aureus,16.0
+Cecropin P1,Staphylococcus_aureus,64.0
+c_AMP 1043,Staphylococcus_aureus,64.0
+Swine_31,Staphylococcus_aureus,64.0
+Swine_9,Staphylococcus_aureus,16.0
+Swine_4,Staphylococcus_aureus,64.0
+Swine_6,Staphylococcus_aureus,64.0
+Swine_8,Staphylococcus_aureus,64.0
+polymyxin B,Staphylococcus_aureus,4.0
+Vancomycin,Staphylococcus_aureus,0.5
+Swine_3,Streptococcus_suits,4.0
+Swine_2,Streptococcus_suits,4.0
+Swine_35,Streptococcus_suits,2.0
+Swine_1,Streptococcus_suits,8.0
+Swine_33,Streptococcus_suits,16.0
+Swine_34,Streptococcus_suits,4.0
+Swine_32,Streptococcus_suits,4.0
+Swine_7,Streptococcus_suits,8.0
+Swine_5,Streptococcus_suits,16.0
+Cecropin P1,Streptococcus_suits,64.0
+c_AMP 1043,Streptococcus_suits,8.0
+Swine_31,Streptococcus_suits,16.0
+Swine_9,Streptococcus_suits,64.0
+Swine_4,Streptococcus_suits,64.0
+Swine_6,Streptococcus_suits,64.0
+Swine_8,Streptococcus_suits,64.0
+polymyxin B,Streptococcus_suits,8.0
+Vancomycin,Streptococcus_suits,0.125
+Swine_3,ETEC_K88,1.0
+Swine_2,ETEC_K88,2.0
+Swine_35,ETEC_K88,4.0
+Swine_1,ETEC_K88,8.0
+Swine_33,ETEC_K88,8.0
+Swine_34,ETEC_K88,8.0
+Swine_32,ETEC_K88,16.0
+Swine_7,ETEC_K88,64.0
+Swine_5,ETEC_K88,64.0
+Cecropin P1,ETEC_K88,1.0
+c_AMP 1043,ETEC_K88,32.0
+Swine_31,ETEC_K88,32.0
+Swine_9,ETEC_K88,64.0
+Swine_4,ETEC_K88,64.0
+Swine_6,ETEC_K88,64.0
+Swine_8,ETEC_K88,64.0
+polymyxin B,ETEC_K88,1.0
+Vancomycin,ETEC_K88,64.0

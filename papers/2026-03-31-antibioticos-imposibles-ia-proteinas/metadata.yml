@@ -1,0 +1,28 @@
+titulo: "Descubrieron 74 Antibióticos Imposibles de Encontrar"
+fecha: 2026-03-31
+categoria: tecnologia
+tags: [inteligencia-artificial, antibioticos, peptidos-antimicrobianos, resistencia-bacteriana, deep-learning, proteinas]
+formato: corto
+video_youtube: "https://www.youtube.com/watch?v=VbpoT1r9N5A"
+fuentes:
+  - doi: "10.1038/s41551-026-01630-w"
+    titulo: "Uncovering evolutionarily remote and highly potent antimicrobial peptides with protein language models"
+    journal: Nature Biomedical Engineering
+    autores: "Wang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "deteccion_amps_remotos.csv"
+    descripcion: "18 péptidos remotos con scores de 7 métodos de detección"
+    fuente: "Source Data fig3e"
+  - nombre: "mic_valores.csv"
+    descripcion: "MIC de 18 AMPs contra 4 patógenos"
+    fuente: "Source Data fig6a"
+  - nombre: "perfil_seguridad.csv"
+    descripcion: "Hemólisis y citotoxicidad de 3 AMPs"
+    fuente: "Source Data fig6b"
+  - nombre: "similitud_distribucion.csv"
+    descripcion: "7.646 AMPs candidatos con score de similitud"
+    fuente: "Source Data fig4b"
+estado: publicado
