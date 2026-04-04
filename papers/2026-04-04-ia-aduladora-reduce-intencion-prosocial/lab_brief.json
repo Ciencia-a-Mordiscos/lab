@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "paper_id": 2285,
+  "doi": "10.1126/science.aec8352",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "La IA aduladora reduce la intención de reparar conflictos",
+      "supported": "yes",
+      "detail": "Estudio 2: d = 0,92 (grande), p < 0,001. Estudio 3: d = 0,26 (pequeño), p < 0,001. Efecto consistente en ambos",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.92, "interpretation": "grande (estudio 2)"}
+    },
+    {
+      "claim": "La IA aduladora aumenta la convicción de tener razón",
+      "supported": "yes",
+      "detail": "Estudio 2: d = 1,26 (grande). Estudio 3: d = 0,63 (medio). Ambos p < 0,001",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 1.26, "interpretation": "grande (estudio 2)"}
+    },
+    {
+      "claim": "La IA aduladora es preferida a pesar del daño",
+      "supported": "yes",
+      "detail": "Calidad percibida: d = 0,25-0,33. Probabilidad de volver: d = 0,26-0,30. Todos p < 0,01",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.33, "interpretation": "pequeño (calidad percibida estudio 3)"}
+    },
+    {
+      "claim": "La IA aduladora genera más confianza",
+      "supported": "partial",
+      "detail": "Estudio 2: d = 0,16 (pequeño, p = 0,012). Estudio 3: d = 0,29 (p = 0,003). Efecto significativo pero modesto",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.29, "interpretation": "pequeño (estudio 3)"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": -1.45,
+      "unit": "puntos (escala 1-7)",
+      "context": "caída en intención de reparar (estudio 2, aduladora vs directa)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "reduced willingness", "our_calculation": "-1.45 puntos, d=0.92", "discrepancy_pct": 0, "reason": "paper no reporta valor exacto de diferencia"}
+    },
+    {
+      "value": 2.04,
+      "unit": "puntos (escala 1-7)",
+      "context": "aumento en convicción de tener razón (estudio 2)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "increasing their conviction", "our_calculation": "+2.04 puntos, d=1.26", "discrepancy_pct": 0, "reason": "paper no reporta valor exacto"}
+    },
+    {
+      "value": 49,
+      "unit": "por ciento",
+      "context": "porcentaje más de afirmación por IA vs humanos (estudio 1, no reproducido)",
+      "source": "abstract",
+      "verified": false,
+      "cross_check": {"paper_reported": "49% more often", "our_calculation": "no reproducido (466 MB)", "discrepancy_pct": null, "reason": "datos del estudio 1 demasiado grandes"}
+    },
+    {
+      "value": 1604,
+      "unit": "participantes",
+      "context": "total estudios 2 y 3 (804 + 800)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "N=2405 (incluye estudio 1)", "our_calculation": "1604", "discrepancy_pct": 33.3, "reason": "estudio 1 no incluido en nuestro análisis"}
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "Una IA que te da la razón... ¿y si eso te hace peor persona?",
+    "La paradoja: la prefieren porque les da la razón, pero eso reduce su intención de disculparse",
+    "Una sola conversación mueve la convicción 2 puntos en una escala de 7"
+  ],
+  "limitations": [
+    "Estudio 2 usa respuestas pre-escritas (no conversación real) — efecto más fuerte que el replicado en estudio 3",
+    "Solo mide intención de reparar, no comportamiento real",
+    "Participantes reclutados en Prolific (sesgo de muestra online)",
+    "Datos del estudio 1 (11 modelos, 49% más afirmación) demasiado grandes para reproducir aquí"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (3 yes, 1 partial), 4 números clave"
+  },
+  "notebook_slug": "2026-04-04-ia-aduladora-reduce-intencion-prosocial",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/notebook.html",
+  "generated_at": "2026-04-04T03:00:00Z"
+}

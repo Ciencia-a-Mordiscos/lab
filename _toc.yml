@@ -151,6 +151,11 @@ parts:
 
   - caption: Tecnología
     chapters:
+      - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/README
+        title: "La IA aduladora reduce la intención prosocial"
+        sections:
+          - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/notebook
+            title: Notebook
       - file: papers/2026-04-02-ia-scientist-paper-autonomo/README
         title: "¿Puede una IA revisar papers como un humano?"
         sections:

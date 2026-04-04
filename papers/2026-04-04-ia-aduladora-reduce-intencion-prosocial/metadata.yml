@@ -1,0 +1,22 @@
+titulo: "La IA aduladora reduce la intención prosocial"
+fecha: 2026-04-04
+categoria: tecnologia
+tags: [ia, sicopatía, psicología, comportamiento, ética]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec8352"
+    titulo: "Sycophantic AI decreases prosocial intentions and promotes dependence"
+    journal: Science
+    autores: "Atari et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "estudio2_respuestas.csv"
+    descripcion: "804 participantes, diseño 2×2 aduladora × antropomorfizada"
+    fuente: "OSF (doi.org/10.17605/OSF.IO/SMVW7)"
+  - nombre: "estudio3_respuestas.csv"
+    descripcion: "800 participantes, conversación real con GPT-4o"
+    fuente: "OSF (doi.org/10.17605/OSF.IO/SMVW7)"
+estado: publicado
