@@ -3,7 +3,7 @@ fecha: 2026-04-04
 categoria: tecnologia
 tags: [ia, sicopatía, psicología, comportamiento, ética]
 formato: corto
-video_youtube: "https://youtube.com/shorts/TEST_VIDEO_123"
+video_youtube: ""
 fuentes:
   - doi: "10.1126/science.aec8352"
     titulo: "Sycophantic AI decreases prosocial intentions and promotes dependence"
