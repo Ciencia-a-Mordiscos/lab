@@ -1,0 +1,25 @@
+titulo: "¿Se Puede Confiar en la Ciencia Social?"
+fecha: 2026-04-04
+categoria: tecnologia
+tags: [reproducibilidad, ciencia-social, meta-ciencia, open-data, p-values]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10203-5"
+    titulo: "Investigating the reproducibility of the social and behavioural sciences"
+    journal: Nature
+    autores: "Breznau et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "reproducibilidad_por_campo.csv"
+    descripcion: "Tasas de reproducibilidad por campo académico"
+    fuente: "OSF analyst package (RData → CSV)"
+  - nombre: "diferencias_p_values.csv"
+    descripcion: "Diferencias de p-value entre original y reproducción"
+    fuente: "OSF analyst package (RData → CSV)"
+  - nombre: "disponibilidad_datos.csv"
+    descripcion: "Disponibilidad de datos y código por disciplina"
+    fuente: "OSF analyst package (RData → CSV)"
+estado: publicado

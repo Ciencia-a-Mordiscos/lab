@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "paper_id": 2294,
+  "doi": "10.1038/s41586-026-10203-5",
+  "paper_type": "descriptive",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "~55% de los papers son precisamente reproducibles (ponderado por claims/paper)",
+      "supported": "yes",
+      "detail": "55,5% en nuestros datos vs 53,6% del paper (CI 45,8–60,7%). Diferencia por living repository (165 vs 143 papers)",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {"measure": "percentage", "value": 55.5, "interpretation": "poco más de la mitad"}
+    },
+    {
+      "claim": "~78% son al menos aproximadamente reproducibles",
+      "supported": "yes",
+      "detail": "77,6% vs 73,5% del paper (CI 66,4–80,0%). Consistente",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {"measure": "percentage", "value": 77.6, "interpretation": "tres cuartos"}
+    },
+    {
+      "claim": "Solo ~24% de los papers comparten datos",
+      "supported": "yes",
+      "detail": "El paper reporta 24,0% (144/600). En el repositorio OSF expandido (700 papers): 19,6% (137/700). Diferencia por papers adicionales post-publicación",
+      "certainty_tier": "T1",
+      "abstract_verb": "assess",
+      "effect_size": {"measure": "percentage", "value": 19.6, "interpretation": "uno de cada cinco"}
+    },
+    {
+      "claim": "93,8% de p-values reproducidos caen dentro de ±0,05",
+      "supported": "yes",
+      "detail": "395/421 claims. Mediana |Δp| = 0,0039",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {"measure": "percentage", "value": 93.8, "interpretation": "la inmensa mayoría"}
+    },
+    {
+      "claim": "Papers más recientes son más reproducibles",
+      "supported": "partial",
+      "detail": "Tendencia no lineal en medias crudas (valles en 2012 y 2017). El paper usa modelo ajustado",
+      "certainty_tier": "T2",
+      "abstract_verb": "observed",
+      "effect_size": {"measure": "trend", "value": null, "interpretation": "tendencia ruidosa"}
+    },
+    {
+      "claim": "Ciencia política y economía más reproducibles",
+      "supported": "yes",
+      "detail": "En approx+: ciencia política (88,0%) y economía (85,3%) superan a psicología (83,3%), consistente con el paper",
+      "certainty_tier": "T2",
+      "abstract_verb": "observed",
+      "effect_size": {"measure": "comparison", "value": null, "interpretation": "depende de la métrica y agregación"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 600,
+      "unit": "papers",
+      "context": "muestra estratificada de ciencias sociales/comportamiento",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "600", "our_calculation": "600", "discrepancy_pct": 0, "reason": "directo del abstract"}
+    },
+    {
+      "value": 55.5,
+      "unit": "por ciento",
+      "context": "papers precisamente reproducibles (ponderado inversamente por claims/paper)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "53.6%", "our_calculation": "55.5%", "discrepancy_pct": 3.5, "reason": "living repository con 165 vs 143 papers"}
+    },
+    {
+      "value": 19.6,
+      "unit": "por ciento",
+      "context": "papers con datos disponibles online",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "24.0%", "our_calculation": "19.6%", "discrepancy_pct": 18.3, "reason": "paper cuenta 144 autores que compartieron + 38 reconstruidos = 182. Nuestro dato es % de 700 con data_available=Yes"}
+    },
+    {
+      "value": 0.0039,
+      "unit": "diferencia absoluta de p-value",
+      "context": "mediana de |Δp| entre original y reproducción",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "within 0.05", "our_calculation": "mediana 0.0039, 93.8% dentro de 0.05", "discrepancy_pct": 0, "reason": "consistente con el umbral del paper"}
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "assess", "tier": "T1", "cam_attenuator": "afirmación directa ('evaluamos')"},
+    {"abstract_verb": "found", "tier": "T1", "cam_attenuator": "afirmación directa ('encontramos')"},
+    {"abstract_verb": "observed", "tier": "T1", "cam_attenuator": "afirmación directa ('observamos')"}
+  ],
+  "narrative_hooks": [
+    "600 papers de ciencias sociales. Solo el 20% te deja ver los datos. Y del resto, ¿cuántos sobreviven la prueba?",
+    "El 80% de la ciencia social es invisible: no comparten datos, no puedes verificar nada",
+    "Los p-values se reproducen con una precisión de 0,004 — pero primero necesitas que te den los datos"
+  ],
+  "limitations": [
+    "Repositorio OSF 'living' — incluye más papers (165) que el análisis publicado (143)",
+    "Claims no son independientes: papers con muchos claims pesan más sin ponderación inversa",
+    "Muestras por campo desiguales (n=5 en salud vs n=89 en psicología)",
+    "Datos COVID (2020) no son directamente comparables con la serie 2009-2018",
+    "Solo ciencias sociales y del comportamiento — no generalizable a ciencias naturales"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes), 2 parciales. Números claros y comunicables"
+  },
+  "notebook_slug": "2026-04-04-reproducibilidad-ciencias-sociales",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-04-reproducibilidad-ciencias-sociales/notebook.html",
+  "generated_at": "2026-04-04T12:45:00Z"
+}

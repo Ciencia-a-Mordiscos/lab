@@ -1,0 +1,11 @@
+campo,n_claims,n_papers,preciso_pct,aproximado_mas_pct,no_reproducible_pct
+political science,175,42,72.6,88.0,12.0
+economics,156,27,81.4,85.3,14.7
+psychology,96,26,51.0,83.3,16.7
+covid,28,27,53.6,85.7,14.3
+sociology,27,15,25.9,51.9,48.1
+marketing/org behavior,27,9,40.7,81.5,18.5
+criminology,24,4,70.8,100.0,0.0
+education,22,8,0.0,54.5,45.5
+management,13,5,38.5,46.2,53.8
+health,6,2,16.7,16.7,83.3

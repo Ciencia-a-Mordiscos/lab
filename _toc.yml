@@ -151,6 +151,11 @@ parts:
 
   - caption: Tecnología
     chapters:
+      - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/README
+        title: "¿Se puede confiar en la ciencia social?"
+        sections:
+          - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/notebook
+            title: Notebook
       - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/README
         title: "La IA aduladora reduce la intención prosocial"
         sections:
