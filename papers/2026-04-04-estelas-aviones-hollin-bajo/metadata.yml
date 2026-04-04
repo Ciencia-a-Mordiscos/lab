@@ -1,0 +1,25 @@
+titulo: "Las estelas de los aviones limpios siguen calentando el planeta"
+fecha: 2026-04-04
+categoria: ecologia
+tags: [aviación, estelas, contrails, lean-burn, hollín, clima, biocombustible]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10286-0"
+    titulo: "Substantial aircraft contrail formation at low soot emission levels"
+    journal: Nature
+    autores: "Voigt et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "curvas_acm_combustibles.csv"
+    descripcion: "Modelo ACM: cristales de hielo vs hollín para 3 combustibles"
+    fuente: "Zenodo (10.5281/zenodo.18830350)"
+  - nombre: "curvas_acm_temperaturas.csv"
+    descripcion: "Modelo ACM: sensibilidad a temperatura para 2 combustibles × 3 temperaturas"
+    fuente: "Zenodo (10.5281/zenodo.18830350)"
+  - nombre: "mediciones_vuelo.csv"
+    descripcion: "Mediciones in-flight detrás del A321neo"
+    fuente: "Paper texto"
+estado: publicado

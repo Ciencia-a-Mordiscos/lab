@@ -4,6 +4,11 @@ root: intro
 parts:
   - caption: Ecología
     chapters:
+      - file: papers/2026-04-04-estelas-aviones-hollin-bajo/README
+        title: "Estelas de aviones limpios siguen calentando"
+        sections:
+          - file: papers/2026-04-04-estelas-aviones-hollin-bajo/notebook
+            title: Notebook
       - file: papers/2026-04-02-lluvia-pluviometros-planeta/README
         title: "Nadie sabe cuánto llueve en el planeta"
         sections:

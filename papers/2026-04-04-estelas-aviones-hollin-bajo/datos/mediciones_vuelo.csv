@@ -1,0 +1,6 @@
+engine_mode,fuel,fsc_ppmm,parameter,description,value,uncertainty,range_low,range_high,stat_type,unit
+rich-burn,Jet A-1,192,EI_nv,Soot particles (d>14nm),1000000000000000.0,,800000000000000.0,1100000000000000.0,median,kg⁻¹ fuel
+lean-burn,Jet A-1,192,EI_nv,Soot particles (d>14nm),1000000000000.0,,500000000000.0,1900000000000.0,median,kg⁻¹ fuel
+lean-burn,Jet A-1,192,EI_t,Total particles (d>5nm),2100000000000000.0,,2000000000000000.0,3300000000000000.0,median,kg⁻¹ fuel
+lean-burn,Jet A-1,192,EI_ice,Contrail ice crystals,1600000000000000.0,300000000000000.0,,,mean,kg⁻¹ fuel
+lean-burn,HEFA-blend,75,EI_ice,Contrail ice crystals,500000000000000.0,200000000000000.0,,,mean,kg⁻¹ fuel

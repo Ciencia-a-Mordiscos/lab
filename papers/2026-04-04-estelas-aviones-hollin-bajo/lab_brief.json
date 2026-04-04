@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "paper_id": 2293,
+  "doi": "10.1038/s41586-026-10286-0",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los motores lean-burn reducen el hollín 1.000×",
+      "supported": "yes",
+      "detail": "EI_nv: 10¹⁵ → 10¹² kg⁻¹ (mediana). 3 órdenes de magnitud confirmados con mediciones in-flight",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1000,
+        "interpretation": "3 órdenes de magnitud"
+      }
+    },
+    {
+      "claim": "Las estelas siguen formándose con ~10¹⁵ cristales/kg en lean-burn",
+      "supported": "yes",
+      "detail": "EI_ice = 1,6 (±0,3) × 10¹⁵ (media) en lean-burn con Jet A-1 — comparable al nivel rich-burn",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio_ice_soot",
+        "value": 1600,
+        "interpretation": "cristales 1.600× más que hollín"
+      }
+    },
+    {
+      "claim": "Los cristales nuclean sobre partículas volátiles, no sobre hollín",
+      "supported": "yes",
+      "detail": "Ratio hielo/hollín = 1.600× en lean-burn; partículas totales (d>5nm) = 2,1 × 10¹⁵ dominadas por volátiles",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 2100,
+        "interpretation": "volátiles dominan partículas totales"
+      }
+    },
+    {
+      "claim": "El combustible bajo en azufre reduce los cristales ~3×",
+      "supported": "yes",
+      "detail": "EI_ice HEFA-blend (75 ppmm S) = 0,5 (±0,2) × 10¹⁵ (media) vs 1,6 × 10¹⁵ para Jet A-1 → 3,2×",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 3.2,
+        "interpretation": "reducción moderada"
+      }
+    },
+    {
+      "claim": "Los motores lean-burn por sí solos no reducen el efecto de calentamiento de las estelas",
+      "supported": "partial",
+      "detail": "Los datos sugieren que no es suficiente — el paper usa 'indicate' y 'suggesting'. Se necesitan cambios en combustible y venteo de aceite lubricante",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1000000000000000.0,
+      "unit": "partículas kg⁻¹",
+      "context": "Hollín en modo rich-burn (Jet A-1, mediana)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.0 × 10¹⁵",
+        "our_calculation": "1.0e+15",
+        "discrepancy_pct": 0,
+        "reason": "valor exacto del paper"
+      }
+    },
+    {
+      "value": 1000000000000.0,
+      "unit": "partículas kg⁻¹",
+      "context": "Hollín en modo lean-burn (Jet A-1, mediana) — 1.000× menos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.0 × 10¹²",
+        "our_calculation": "1.0e+12",
+        "discrepancy_pct": 0,
+        "reason": "valor exacto del paper"
+      }
+    },
+    {
+      "value": 1600000000000000.0,
+      "unit": "cristales kg⁻¹",
+      "context": "Cristales de hielo lean-burn Jet A-1 (media ± 0,3 × 10¹⁵)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.6 (±0.3) × 10¹⁵",
+        "our_calculation": "1.6e+15",
+        "discrepancy_pct": 0,
+        "reason": "valor exacto del paper"
+      }
+    },
+    {
+      "value": 500000000000000.0,
+      "unit": "cristales kg⁻¹",
+      "context": "Cristales de hielo lean-burn HEFA-blend (media ± 0,2 × 10¹⁵) — 3,2× menos que Jet A-1",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.5 (±0.2) × 10¹⁵",
+        "our_calculation": "5.0e+14",
+        "discrepancy_pct": 0,
+        "reason": "valor exacto del paper"
+      }
+    },
+    {
+      "value": 1000,
+      "unit": "ratio",
+      "context": "Reducción de hollín rich→lean (3 órdenes de magnitud)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "three orders of magnitude",
+        "our_calculation": "1000",
+        "discrepancy_pct": 0,
+        "reason": "match exacto"
+      }
+    },
+    {
+      "value": 3.2,
+      "unit": "ratio",
+      "context": "Reducción de cristales de hielo Jet A-1 → HEFA-blend (bajo azufre)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "approximately a factor of 3",
+        "our_calculation": "3.2",
+        "discrepancy_pct": 0,
+        "reason": "within paper's ~3×"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    },
+    {
+      "abstract_verb": "suggesting",
+      "tier": "T2",
+      "cam_attenuator": "todo apunta a que"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "podría / falta confirmar"
+    }
+  ],
+  "narrative_hooks": [
+    "1.000 veces menos hollín... y las estelas siguen ahí",
+    "Los motores limpios eliminaron el problema equivocado — los cristales de hielo encontraron otra semilla",
+    "El forzamiento radiativo de las estelas es comparable al CO₂ acumulado de toda la historia de la aviación"
+  ],
+  "limitations": [
+    "Mediciones detrás de un solo modelo de motor (LEAP-1A en A321neo)",
+    "Modo rich-burn forzado por FADEC — no refleja operación normal de crucero",
+    "Las curvas ACM son un modelo teórico; las mediciones reales son un solo punto por condición de combustible",
+    "Los valores HEFA-SPK puros vienen solo del modelo — no hay medición in-flight para ese combustible"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados yes + 1 partial, 6 números clave"
+  },
+  "notebook_slug": "2026-04-04-estelas-avion-motor-bajo-hollin",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-04-estelas-avion-motor-bajo-hollin/notebook.html",
+  "generated_at": "2026-04-04T17:21:17.241601Z"
+}
