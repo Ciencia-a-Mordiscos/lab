@@ -1,0 +1,144 @@
+{
+  "version": "1.0",
+  "paper_id": 2296,
+  "doi": "10.1038/s41586-025-09844-9",
+  "paper_type": "meta-analysis",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El 34% de los reanálisis coinciden con el original dentro de ±0,05 d",
+      "supported": "yes",
+      "detail": "Nuestro cálculo: 33,8% (134/396). Cross-check: <1% de diferencia con el paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "Con tolerancia 4× más amplia (±0,20), sube al 57%",
+      "supported": "yes",
+      "detail": "Nuestro cálculo: 56,6% (224/396). Cross-check: <1%",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "El 74% llegan a la misma conclusión cualitativa",
+      "supported": "yes",
+      "detail": "Nuestro cálculo: 73,6% (371/504). Conclusiones categorizadas por los propios analistas",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "Solo el 2% reportan un efecto opuesto al original",
+      "supported": "yes",
+      "detail": "Nuestro cálculo: 2,2% (11/504). El 24% restante es sin efecto / inconcluso",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "Los efectos pequeños son más robustos que los grandes",
+      "supported": "yes",
+      "detail": "d < 0,5: 41% dentro de ±0,05; d ≥ 0,8: 20%. Patrón consistente",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "Los estudios experimentales son más robustos que los observacionales",
+      "supported": "yes",
+      "detail": "Experimental: 44% dentro de ±0,05 d; Observacional: 28%",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 34,
+      "unit": "por ciento",
+      "context": "reanálisis dentro de ±0,05 Cohen's d del original",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "34%",
+        "our_calculation": "33.8%",
+        "discrepancy_pct": 0.6,
+        "reason": "diferencia de redondeo"
+      }
+    },
+    {
+      "value": 57,
+      "unit": "por ciento",
+      "context": "reanálisis dentro de ±0,20 Cohen's d (tolerancia 4× más amplia)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "57%",
+        "our_calculation": "56.6%",
+        "discrepancy_pct": 0.7,
+        "reason": "diferencia de redondeo"
+      }
+    },
+    {
+      "value": 74,
+      "unit": "por ciento",
+      "context": "reanálisis que llegan a la misma conclusión cualitativa",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "74%",
+        "our_calculation": "73.6%",
+        "discrepancy_pct": 0.5,
+        "reason": "diferencia de redondeo"
+      }
+    },
+    {
+      "value": 100,
+      "unit": "estudios",
+      "context": "papers de ciencias sociales y del comportamiento (2009-2018)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 504,
+      "unit": "reanálisis",
+      "context": "total de reanálisis independientes (después de filtro peer evaluation)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "hallazgo directo"
+    },
+    {
+      "abstract_verb": "indicates",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    }
+  ],
+  "narrative_hooks": [
+    "74%: eso es lo que queda cuando 504 personas analizan los mismos 100 estudios",
+    "Solo 1 de cada 3 reanálisis obtiene el mismo tamaño del efecto que el original",
+    "Los efectos grandes son los menos robustos — contra la intuición"
+  ],
+  "limitations": [
+    "Muestra estratificada (no aleatoria) — dominan ciencia política y economía",
+    "3-7 analistas por estudio — con más analistas, la variabilidad podría ser mayor",
+    "Estudio exploratorio (el paper lo dice explícitamente)",
+    "Repositorio vivo que puede diferir del paper publicado"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados, 5 números clave, tema meta-científico con muchos datos"
+  },
+  "notebook_slug": "2026-04-05-robustez-analitica-ciencias-sociales",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook.html",
+  "generated_at": "2026-04-05T17:45:00Z"
+}

@@ -1,0 +1,25 @@
+titulo: "¿Se Puede Confiar en un Solo Análisis?"
+fecha: 2026-04-05
+categoria: tecnologia
+tags: [robustez-analitica, meta-ciencia, ciencia-social, reanalisis, cohen-d, multi100]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-025-09844-9"
+    titulo: "Investigating the analytical robustness of the social and behavioural sciences"
+    journal: Nature
+    autores: "Kovács et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "efectos_original_vs_reanalisis.csv"
+    descripcion: "504 reanálisis con Cohen's d original y reanálisis, conclusión, disciplina"
+    fuente: "GitHub multi100 (processed data)"
+  - nombre: "robustez_por_paper.csv"
+    descripcion: "100 papers con % de acuerdo por analistas"
+    fuente: "Agregación desde multi100 processed data"
+  - nombre: "conclusiones_por_disciplina.csv"
+    descripcion: "Tasas de acuerdo por disciplina académica"
+    fuente: "Agregación desde multi100 processed data"
+estado: publicado

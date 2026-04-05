@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### 📊 ¿Se puede confiar en un solo análisis?
+
+**Tecnología** · Nature · Kovács et al. (2025), 504 reanálisis de 100 estudios sociales, solo 34% coinciden en tamaño del efecto (±0,05 d), 74% llegan a la misma conclusión
+
+[Ver notebook](papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook) · [Leer más](papers/2026-04-05-robustez-analitica-ciencias-sociales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook.ipynb)
+
+---
+
 ### ✈️ Las estelas de los aviones limpios siguen calentando el planeta
 
 **Ecología** · Nature · Voigt et al. (2026), motores lean-burn con bajo hollín forman estelas masivas, datos de mediciones in-flight y modelo ACM (Zenodo)

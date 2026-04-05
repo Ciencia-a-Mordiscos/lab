@@ -1,0 +1,9 @@
+disciplina,n_papers,n_reanalisis,n_misma,n_sin_efecto,n_opuesto,pct_misma
+ciencia_politica,37,185,127,55,3,68.6
+economia,30,147,113,32,2,76.9
+psicologia,17,87,71,15,1,81.6
+sociologia,8,45,26,16,3,57.8
+marketing,5,25,24,1,0,96.0
+criminologia,1,5,5,0,0,100.0
+demografia,1,5,2,1,2,40.0
+management,1,5,3,2,0,60.0
