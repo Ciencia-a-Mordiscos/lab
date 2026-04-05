@@ -156,6 +156,11 @@ parts:
 
   - caption: Tecnología
     chapters:
+      - file: papers/2026-04-05-replicabilidad-ciencias-sociales/README
+        title: "¿Se puede replicar la ciencia social?"
+        sections:
+          - file: papers/2026-04-05-replicabilidad-ciencias-sociales/notebook
+            title: Notebook
       - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/README
         title: "¿Se puede confiar en la ciencia social?"
         sections:

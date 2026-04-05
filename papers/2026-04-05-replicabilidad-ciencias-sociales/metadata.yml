@@ -1,0 +1,25 @@
+titulo: "¿Se Puede Replicar la Ciencia Social?"
+fecha: 2026-04-05
+categoria: tecnologia
+tags: [replicabilidad, ciencia-social, meta-ciencia, open-data, p-values, SCORE]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-025-10078-y"
+    titulo: "Investigating the replicability of the social and behavioural sciences"
+    journal: Nature
+    autores: "Protzko et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "efecto_original_vs_replica.csv"
+    descripcion: "274 claims con efecto original y replicado"
+    fuente: "OSF analyst package (RData → CSV)"
+  - nombre: "replicabilidad_por_campo.csv"
+    descripcion: "Tasa de replicación por disciplina"
+    fuente: "Agregación por campo desde analyst package"
+  - nombre: "metodos_evaluacion_replica.csv"
+    descripcion: "12 métodos de evaluación de replicación"
+    fuente: "Tabla repli_binary del analyst package"
+estado: publicado

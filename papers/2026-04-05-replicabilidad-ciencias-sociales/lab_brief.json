@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "paper_id": 2295,
+  "doi": "10.1038/s41586-025-10078-y",
+  "paper_type": "meta-analysis",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "~55% de los claims se replican",
+      "supported": "yes",
+      "detail": "151/274 = 55,1% (IC 95%: 49,2–60,9%). Cross-check exacto con el paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Los efectos se reducen a la mitad",
+      "supported": "yes",
+      "detail": "Mediana |r|: 0,24 (original) → 0,13 (réplica). Ratio de medianas = 0,54.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio_medians",
+        "value": 0.54,
+        "interpretation": "reducción a la mitad"
+      }
+    },
+    {
+      "claim": "La tasa varía entre disciplinas",
+      "supported": "yes",
+      "detail": "Rango 42,9–71,4% (n ≥ 5 claims por campo). Educación lidera, sociología cierra.",
+      "certainty_tier": "T1",
+      "abstract_verb": "observe",
+      "effect_size": null
+    },
+    {
+      "claim": "El resultado depende del método de evaluación",
+      "supported": "yes",
+      "detail": "12 métodos en datos públicos: 35–80% de éxito. Paper reporta 13: 29–75%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Las réplicas tenían poder estadístico suficiente",
+      "supported": "yes",
+      "detail": "Mediana 99,6% — dato del abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 274,
+      "unit": "claims",
+      "context": "total de claims replicados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "274",
+        "our_calculation": "274",
+        "discrepancy_pct": 0,
+        "reason": "exact match"
+      }
+    },
+    {
+      "value": 55.1,
+      "unit": "por ciento",
+      "context": "tasa de replicación (score criteria)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "55.1%",
+        "our_calculation": "55.1%",
+        "discrepancy_pct": 0,
+        "reason": "exact match"
+      }
+    },
+    {
+      "value": 0.24,
+      "unit": "|r|",
+      "context": "mediana efecto original (conv_r)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.25",
+        "our_calculation": "0.236",
+        "discrepancy_pct": 5.6,
+        "reason": "conv_r vs paper's Pearson r metric"
+      }
+    },
+    {
+      "value": 0.13,
+      "unit": "|r|",
+      "context": "mediana efecto réplica (conv_r)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.10",
+        "our_calculation": "0.127",
+        "discrepancy_pct": 27,
+        "reason": "conv_r vs paper's Pearson r metric"
+      }
+    },
+    {
+      "value": 164,
+      "unit": "papers",
+      "context": "papers únicos replicados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "164",
+        "our_calculation": "164",
+        "discrepancy_pct": 0,
+        "reason": "exact match"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "observe",
+      "tier": "T1",
+      "cam_attenuator": "observamos / se detectó"
+    },
+    {
+      "abstract_verb": "attempt",
+      "tier": "T1",
+      "cam_attenuator": "intentaron"
+    }
+  ],
+  "narrative_hooks": [
+    "55%. Eso es lo que queda cuando pones a prueba 274 hallazgos en ciencias sociales.",
+    "El efecto mediano se reduce a menos de la mitad al replicar — y esto con réplicas de potencia del 99,6%.",
+    "Según cómo definas 'replicar', la tasa va del 35% al 80%. La misma ciencia, 12 veredictos."
+  ],
+  "limitations": [
+    "Solo claims positivos (p < 0,05 original) — no sabemos la tasa base de aciertos",
+    "Campos con <10 claims tienen intervalos de confianza amplios",
+    "conv_r introduce ruido al convertir desde distintos estadísticos",
+    "Reducción de varianza compartida: ~71% (nuestro cálculo) vs 82,4% (paper)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 5+ números clave"
+  },
+  "notebook_slug": "2026-04-05-replicabilidad-ciencias-sociales",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-05-replicabilidad-ciencias-sociales/notebook.html",
+  "generated_at": "2026-04-05T17:19:55.516424Z"
+}
