@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "paper_id": 2159,
+  "doi": "10.1038/s41559-026-03013-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "Pérdida de biomasa hasta 43,4% en borde cálido",
+      "supported": "partial",
+      "detail": "Valor del modelo GAM del paper. Datos suplementarios muestran gradiente: pendiente media negativa (-0,06) en borde cálido",
+      "certainty_tier": "T2",
+      "abstract_verb": "linked",
+      "effect_size": {"measure": "slope", "value": -0.06, "interpretation": "pendiente media en borde cálido"}
+    },
+    {
+      "claim": "Ganancia hasta 176% en borde frío",
+      "supported": "partial",
+      "detail": "Valor del modelo GAM. Datos muestran pendiente positiva (+0,35) en posición -1,4",
+      "certainty_tier": "T2",
+      "abstract_verb": "linked",
+      "effect_size": {"measure": "slope", "value": 0.35, "interpretation": "pendiente media en borde frío"}
+    },
+    {
+      "claim": "Calentamiento a largo plazo se asocia con declive generalizado",
+      "supported": "yes",
+      "detail": "8 de 10 bins de posición térmica muestran pendientes negativas para tendencia a largo plazo. Solo 46,6% de poblaciones con efecto positivo",
+      "certainty_tier": "T1",
+      "abstract_verb": "associated",
+      "effect_size": {"measure": "pct_positive", "value": 46.6, "interpretation": "menos de la mitad de poblaciones gana"}
+    },
+    {
+      "claim": "Patrón ganadores-perdedores según posición térmica",
+      "supported": "yes",
+      "detail": "Spearman rho = -0,033 (p < 0,001) para anomalía térmica vs pendiente. Débil pero significativo con n = 26.428",
+      "certainty_tier": "T1",
+      "abstract_verb": "linked",
+      "effect_size": {"measure": "spearman_rho", "value": -0.033, "interpretation": "correlación débil pero significativa"}
+    },
+    {
+      "claim": "Olas de calor tienen mayor efecto a corto plazo",
+      "supported": "yes",
+      "detail": "5,6% significativo (temp diff) vs 3,9% (intensidad), 1,7% (temperatura), 0,5% (tendencia)",
+      "certainty_tier": "T1",
+      "abstract_verb": "linked",
+      "effect_size": {"measure": "pct_significant", "value": 5.6, "interpretation": "mayor porcentaje de efectos significativos"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 702037,
+      "unit": "estimaciones",
+      "context": "estimaciones de cambio de biomasa analizadas",
+      "source": "paper_abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "702,037",
+        "our_calculation": "105,299 regresiones en supplementary",
+        "discrepancy_pct": 85,
+        "reason": "supplementary contiene regresiones por población, no estimaciones individuales año-a-año"
+      }
+    },
+    {
+      "value": 176,
+      "unit": "por ciento",
+      "context": "ganancia máxima de biomasa en borde frío por olas de calor",
+      "source": "paper_abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "176%",
+        "our_calculation": "pendiente +0.35 en borde frío (posición -1.4)",
+        "discrepancy_pct": null,
+        "reason": "valor del modelo GAM, no directamente reproducible desde pendientes"
+      }
+    },
+    {
+      "value": 43.4,
+      "unit": "por ciento",
+      "context": "pérdida máxima de biomasa en borde cálido por olas de calor",
+      "source": "paper_abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "43.4%",
+        "our_calculation": "pendiente -0.06 en borde cálido",
+        "discrepancy_pct": null,
+        "reason": "valor del modelo GAM"
+      }
+    },
+    {
+      "value": 58.1,
+      "unit": "por ciento",
+      "context": "poblaciones con efecto positivo en borde frío (posición -1.4)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 48.9,
+      "unit": "por ciento",
+      "context": "poblaciones con efecto positivo en borde cálido (posición +0.6)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "associated with",
+      "tier": "T2",
+      "cam_attenuator": "asociado con / relacionado con — NO causal"
+    },
+    {
+      "abstract_verb": "linked to",
+      "tier": "T2",
+      "cam_attenuator": "vinculado a / ligado a — NO causal"
+    }
+  ],
+  "narrative_hooks": [
+    "702.037 estimaciones de biomasa. 1.566 especies. ¿Quién gana y quién pierde cuando el océano se calienta?",
+    "Las olas de calor crean ganadores y perdedores entre los peces — depende de dónde vivas respecto al límite de tu especie"
+  ],
+  "limitations": [
+    "Los datos suplementarios contienen pendientes por población, no predicciones GAM — los valores headline (176%, 43.4%, 19.8%) no son directamente reproducibles",
+    "Solo Hemisferio Norte — patrones pueden diferir en el sur",
+    "Spearman rho = -0.033 es significativo por el gran n, pero el tamaño del efecto es pequeño",
+    "Posiciones térmicas extremas (>|1.5|) tienen pocas observaciones (<100)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados, 5 números clave"
+  },
+  "notebook_slug": "2026-02-27-olas-calor-biomasa-peces-oceano",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook.html",
+  "generated_at": "2026-04-06T20:30:00Z"
+}

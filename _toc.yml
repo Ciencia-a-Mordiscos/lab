@@ -4,6 +4,11 @@ root: intro
 parts:
   - caption: Ecología
     chapters:
+      - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/README
+        title: "Olas de calor cambian 176% la vida oceánica"
+        sections:
+          - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook
+            title: Notebook
       - file: papers/2026-04-04-estelas-aviones-hollin-bajo/README
         title: "Estelas de aviones limpios siguen calentando"
         sections:

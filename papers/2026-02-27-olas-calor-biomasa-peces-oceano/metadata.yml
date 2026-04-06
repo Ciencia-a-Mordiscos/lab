@@ -1,0 +1,28 @@
+titulo: "Las Olas de Calor Cambian 176% la Vida en el Océano"
+fecha: 2026-02-27
+categoria: ecología
+tags: [olas-de-calor, biomasa, peces, océano, calentamiento, FISHGLOB]
+formato: corto
+video_youtube: "https://youtube.com/shorts/Pzn_RTumA3k"
+fuentes:
+  - doi: "10.1038/s41559-026-03013-5"
+    titulo: "Long-term ocean warming, interannual temperature variability and marine heatwaves"
+    journal: Nature Ecology & Evolution
+    autores: "Blowes et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "biomasa_por_posicion_termica.csv"
+    descripcion: "Pendiente media de biomasa por posición térmica y estresor"
+    fuente: "Supplementary Data S1 (MOESM4)"
+  - nombre: "resumen_por_estresor.csv"
+    descripcion: "Resumen global por estresor térmico"
+    fuente: "Supplementary Data S1 (MOESM4)"
+  - nombre: "distribucion_pendientes_temperatura.csv"
+    descripcion: "Distribución de pendientes por zona térmica"
+    fuente: "Supplementary Data S1 (MOESM4)"
+  - nombre: "especies_extremas_mhw.csv"
+    descripcion: "Top especies ganadoras y perdedoras ante anomalías térmicas"
+    fuente: "Supplementary Data S1 (MOESM4)"
+estado: publicado
