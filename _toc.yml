@@ -127,6 +127,11 @@ parts:
 
   - caption: Astronomía
     chapters:
+      - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/README
+        title: "TRAPPIST-1 b y c: rocas desnudas"
+        sections:
+          - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook
+            title: Notebook
       - file: papers/2026-03-20-adn-bases-asteroide-ryugu/README
         title: "Las 5 bases del ADN en un asteroide"
         sections:

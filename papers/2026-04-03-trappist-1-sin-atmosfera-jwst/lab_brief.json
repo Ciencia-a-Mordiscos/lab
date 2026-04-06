@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+  "paper_id": 2310,
+  "doi": "10.1038/s41550-026-02806-9",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "TRAPPIST-1 b tiene T diurna de ~490 K",
+      "supported": "yes",
+      "detail": "490 ± 17 K (abstract). Rango entre 4 análisis: 472–508 K, consistentes dentro de 2σ",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "TRAPPIST-1 b no tiene emisión nocturna significativa",
+      "supported": "yes",
+      "detail": "ZH: T_night = 220–243 K con error grande (±35–40 K). ED: T_night ≤ 217 K (uno consistente con 0 K)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "TRAPPIST-1 c tiene T diurna de ~369 K",
+      "supported": "yes",
+      "detail": "369 ± 23 K (abstract). Rango entre análisis: 349–388 K",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Presiones >1 bar descartadas para ambos",
+      "supported": "yes",
+      "detail": "Modelos con 10 bar predicen T_night = 300–340 K. Observado: ≤243 K (b), ~266 K (c). Gap de ~34 K (c) a ~97 K (b)",
+      "certainty_tier": "T1",
+      "abstract_verb": "disfavoured",
+      "effect_size": null
+    },
+    {
+      "claim": "TRAPPIST-1 c podría tener atmósfera tenue de O₂",
+      "supported": "partial",
+      "detail": "Consistent with either a tenuous O₂ atmosphere or equally airless reflective surface. Indistinguible con estos datos",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with",
+      "effect_size": null
+    },
+    {
+      "claim": "Los planetas perdieron sus atmósferas por radiación estelar",
+      "supported": "partial",
+      "detail": "El paper dice 'suggest divergent evolutionary pathways' — hipótesis, no medición directa",
+      "certainty_tier": "T3",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 490,
+      "unit": "kelvin",
+      "context": "Temperatura de brillo diurna TRAPPIST-1 b",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "490 ± 17 K",
+        "our_calculation": "Rango 472-508 K entre 4 análisis",
+        "discrepancy_pct": 0,
+        "reason": "Valor de consenso del abstract"
+      }
+    },
+    {
+      "value": 369,
+      "unit": "kelvin",
+      "context": "Temperatura de brillo diurna TRAPPIST-1 c",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "369 ± 23 K",
+        "our_calculation": "Rango 349-388 K entre 4 análisis",
+        "discrepancy_pct": 0,
+        "reason": "Valor de consenso del abstract"
+      }
+    },
+    {
+      "value": 40,
+      "unit": "años-luz",
+      "context": "Distancia a TRAPPIST-1",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 7,
+      "unit": "planetas",
+      "context": "Planetas rocosos en el sistema TRAPPIST-1",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (medición instrumental)"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "consistente con — hay alternativas"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T3",
+      "cam_attenuator": "los datos sugieren — NO afirmar directamente"
+    },
+    {
+      "abstract_verb": "disfavoured",
+      "tier": "T1",
+      "cam_attenuator": "descartado/desfavorecido — NO imposible"
+    }
+  ],
+  "narrative_hooks": [
+    "490 kelvin de día. Cero emisión de noche. Así se ve un planeta sin atmósfera.",
+    "TRAPPIST-1 es el sistema solar más estudiado fuera del nuestro — 7 planetas rocosos a 40 años-luz.",
+    "El JWST miró durante 52 horas seguidas y la respuesta es clara: rocas desnudas."
+  ],
+  "limitations": [
+    "Los análisis asumen rotación síncrona (siempre la misma cara hacia la estrella)",
+    "La conversión flujo → temperatura depende de la emissividad asumida",
+    "Una atmósfera extremadamente tenue (<0,1 bar) no es descartable",
+    "Los datos son de un solo filtro (15 μm) — más longitudes de onda refinarían las restricciones"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes + 2 partial, datos instrumentales claros"
+  },
+  "notebook_slug": "2026-04-03-trappist-1-sin-atmosfera-jwst",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook.html",
+  "generated_at": "2026-04-06T14:00:00Z"
+}

@@ -1,0 +1,9 @@
+planet,analysis,T_day,T_day_err,T_night,T_night_err
+b,ZH sinusoidal,489,18,243,40
+b,ZH quasi-Lambert,508,18,220,35
+b,ED Analysis #1,479,22,217,50
+b,ED Analysis #2,472,20,0,0
+c,ZH sinusoidal,349,28,283,43
+c,ZH quasi-Lambert,356,28,266,36
+c,ED Analysis #1,372,21,258,79
+c,ED Analysis #2,388,25,239,102

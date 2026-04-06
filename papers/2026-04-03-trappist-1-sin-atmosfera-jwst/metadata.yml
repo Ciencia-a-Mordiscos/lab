@@ -1,0 +1,22 @@
+titulo: "TRAPPIST-1 b y c: rocas desnudas a 40 años-luz"
+fecha: 2026-04-03
+categoria: astronomia
+tags: [exoplanetas, trappist-1, jwst, atmósfera, infrarrojo, curva-de-fase]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02806-9"
+    titulo: "No thick atmosphere around TRAPPIST-1 b and c from JWST thermal phase curves"
+    journal: Nature Astronomy
+    autores: "Ducrot et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "curva_fase_obs.csv"
+    descripcion: "Curva de fase JWST GO 3077 binned 15 min (207 puntos)"
+    fuente: "Supplementary Materials"
+  - nombre: "modelos_climaticos.csv"
+    descripcion: "12 escenarios atmosféricos VPL (SM Table 6)"
+    fuente: "Supplementary Materials"
+estado: publicado
