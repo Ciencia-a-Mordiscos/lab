@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "paper_id": 2311,
+  "doi": "10.1038/s41550-026-02816-7",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "[Fe/H] ≈ −4,3 para J0715-7334",
+      "supported": "yes",
+      "detail": "Fe I [X/H] = −4,53 (LTE), −4,31 (NLTE). Paper usa NLTE → −4,3 coincide",
+      "certainty_tier": "T1",
+      "abstract_verb": "finding",
+      "effect_size": {"measure": "none", "value": null, "interpretation": "medición directa, no comparación de grupos"}
+    },
+    {
+      "claim": "No es CEMP ([C/Fe] < 0,7)",
+      "supported": "yes",
+      "detail": "[C/Fe] = −0,02 (LTE, límite superior). Única no-CEMP entre 15 UMP con [Fe/H] < −4,5 (14/15 = 93% son CEMP)",
+      "certainty_tier": "T1",
+      "abstract_verb": "finding",
+      "effect_size": {"measure": "none", "value": null, "interpretation": "clasificación binaria, no efecto continuo"}
+    },
+    {
+      "claim": "Patrón consistente con SN primordial de 30 M☉",
+      "supported": "partial",
+      "detail": "Datos muestran alfas casi solares (media +0,08), Mn bajo, sin proceso-r. El ajuste a 30 M☉ es modelo teórico del paper, no verificable solo con abundancias",
+      "certainty_tier": "T2",
+      "abstract_verb": "can be explained",
+      "effect_size": {"measure": "none", "value": null, "interpretation": "ajuste de modelo teórico"}
+    },
+    {
+      "claim": "Origen en la Nube Mayor de Magallanes",
+      "supported": "partial",
+      "detail": "Cinemática consistente (Rperi ≈ 22 kpc, Lz ≈ 0,15) pero depende del modelo de potencial gravitatorio",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicates",
+      "effect_size": {"measure": "none", "value": null, "interpretation": "asignación cinemática"}
+    },
+    {
+      "claim": "10× más prístina que galaxias JWST",
+      "supported": "partial",
+      "detail": "No verificable con estos datos. Comparación del paper con metalicidades de galaxias de alto redshift",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": {"measure": "ratio", "value": 10, "interpretation": "factor del paper, no calculado"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": -4.31,
+      "unit": "dex [Fe/H] NLTE",
+      "context": "metalicidad de J0715-7334",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-4.3",
+        "our_calculation": "-4.31",
+        "discrepancy_pct": 0.2,
+        "reason": "redondeo del paper"
+      }
+    },
+    {
+      "value": 20000,
+      "unit": "veces menos hierro que el Sol",
+      "context": "factor de depleción respecto al Sol (10^4.31 = 20.417)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.01,
+      "unit": "dex [C/Fe]",
+      "context": "abundancia de carbono relativa al hierro (límite superior)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 93,
+      "unit": "por ciento",
+      "context": "fracción CEMP entre UMP con [Fe/H] < -4,5 (14 de 15)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 39,
+      "unit": "estrellas",
+      "context": "muestra comparativa de estrellas ultra metal-poor",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "elementos",
+      "context": "elementos químicos medidos en J0715 (14 detecciones + 8 límites superiores)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "finding",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "indicates",
+      "tier": "T2",
+      "cam_attenuator": "los datos indican / sugieren"
+    },
+    {
+      "abstract_verb": "can be explained",
+      "tier": "T2",
+      "cam_attenuator": "es consistente con / se puede explicar por"
+    }
+  ],
+  "narrative_hooks": [
+    "20.000 veces menos hierro que el Sol — y la única estrella ultra metal-poor que NO tiene exceso de carbono",
+    "De 15 estrellas con [Fe/H] < −4,5, 14 son CEMP. La excepción: J0715, la huella de una sola supernova primordial"
+  ],
+  "limitations": [
+    "Correcciones NLTE grandes para algunos elementos (ej. Co: +0,88 dex) — dependen del modelo atmosférico",
+    "Muestra comparativa pequeña (39 estrellas) — las más estudiadas, no un censo completo",
+    "8 de 22 elementos son límites superiores, no detecciones directas",
+    "Membresía a la LMC depende del potencial gravitatorio asumido"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "2 claims yes + 3 partial, 6 números clave verificados"
+  },
+  "notebook_slug": "2026-04-04-estrella-pristina-nube-magallanes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-04-estrella-pristina-nube-magallanes/notebook.html",
+  "generated_at": "2026-04-06T15:45:00Z"
+}

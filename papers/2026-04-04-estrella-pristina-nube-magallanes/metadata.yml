@@ -1,0 +1,25 @@
+titulo: "Una Estrella Casi Prístina de la Nube Mayor de Magallanes"
+fecha: 2026-04-04
+categoria: astronomia
+tags: [estrellas, metalicidad, espectroscopía, supernova, Nube-de-Magallanes, JWST]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02816-7"
+    titulo: "A nearly pristine star from the Large Magellanic Cloud"
+    journal: Nature Astronomy
+    autores: "Ezzeddine et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "abundancias_j0715.csv"
+    descripcion: "Abundancias químicas de 22 elementos (LTE y NLTE)"
+    fuente: "Zenodo 10.5281/zenodo.18483957"
+  - nombre: "muestra_ump.csv"
+    descripcion: "39 estrellas ultra metal-poor con metalicidades y cinemática"
+    fuente: "Zenodo 10.5281/zenodo.18483957 (JINAbase)"
+  - nombre: "espectro_j0715.csv"
+    descripcion: "Espectro MIKE normalizado (86.464 puntos, 3.328-9.398 Å)"
+    fuente: "Zenodo 10.5281/zenodo.18483957"
+estado: publicado

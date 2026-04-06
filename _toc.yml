@@ -127,6 +127,11 @@ parts:
 
   - caption: Astronomía
     chapters:
+      - file: papers/2026-04-04-estrella-pristina-nube-magallanes/README
+        title: "Estrella casi prístina de la Nube de Magallanes"
+        sections:
+          - file: papers/2026-04-04-estrella-pristina-nube-magallanes/notebook
+            title: Notebook
       - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/README
         title: "TRAPPIST-1 b y c: rocas desnudas"
         sections:
