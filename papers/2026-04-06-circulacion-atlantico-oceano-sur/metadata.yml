@@ -1,0 +1,25 @@
+titulo: "La corriente que mueve el calor del planeta se está debilitando"
+fecha: 2026-04-06
+categoria: geologia
+tags: [oceanografia, amoc, paleoclimatologia, corales, circulacion-oceanica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01959-6"
+    titulo: "Millennial-scale Atlantic overturning circulation led by the Southern Ocean"
+    journal: Nature Geoscience
+    autores: "Thresher et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "aaiw_proxy_mgca.csv"
+    descripcion: "Proxy Mg/Ca de circulación del Océano Sur (AAIW, corales bambú)"
+    fuente: "CSIRO Data Collection"
+  - nombre: "rahmstorf_amoc_index.csv"
+    descripcion: "Índice AMOC del Atlántico Norte (reconstrucción SST)"
+    fuente: "GitHub (AMOC Analysis)"
+  - nombre: "caesar_amoc_proxy.csv"
+    descripcion: "Proxy AMOC moderno"
+    fuente: "GitHub (AMOC Analysis)"
+estado: publicado

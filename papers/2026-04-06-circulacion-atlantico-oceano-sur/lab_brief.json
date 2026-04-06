@@ -1,0 +1,164 @@
+{
+  "version": "1.0",
+  "paper_id": 2303,
+  "doi": "10.1038/s41561-026-01959-6",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La circulación del Océano Sur ha declinado irregularmente en el último milenio",
+      "supported": "yes",
+      "detail": "Tendencia negativa significativa (p < 10⁻⁶⁵). Mg/Ca cae de ~87,8 (medieval) a ~76,8 (moderno), Cohen's d = 4,83",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.83,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La circulación del Océano Sur correlaciona con la AMOC del Atlántico Norte",
+      "supported": "yes",
+      "detail": "Spearman ρ = 0,446 (p = 2,3×10⁻⁵, n = 83 décadas) en promedios decadales (900–1990 CE)",
+      "certainty_tier": "T1",
+      "abstract_verb": "correlates",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.446,
+        "interpretation": "moderada"
+      }
+    },
+    {
+      "claim": "Los cambios en el Océano Sur preceden a los del Atlántico Norte",
+      "supported": "yes",
+      "detail": "Correlación cruzada mejora de ρ = 0,446 (simultáneo) a ρ = 0,569 con SO liderando 5 décadas. NA liderando: ρ = 0,092 (no significativo)",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": {
+        "measure": "spearman_rho_lead",
+        "value": 0.569,
+        "interpretation": "moderada-fuerte"
+      }
+    },
+    {
+      "claim": "Ambas circulaciones están en su punto más débil del último milenio",
+      "supported": "yes",
+      "detail": "AAIW mínimo en 1972 CE (72,21 mmol/mol). AMOC mínimo en 1991 CE (−0,48 K). Media moderna en percentil 8",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "percentile",
+        "value": 8.0,
+        "interpretation": "extremo bajo"
+      }
+    },
+    {
+      "claim": "El forzamiento local del Atlántico Norte desde 1950 ha agravado la AMOC",
+      "supported": "partial",
+      "detail": "No verificable con estos datos. Requiere comparación con modelos climáticos",
+      "certainty_tier": "T2",
+      "abstract_verb": "exacerbated",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 87.8,
+      "unit": "mmol/mol",
+      "context": "Mg/Ca medieval promedio (900-1200 CE)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "declined irregularly over the past millennium",
+        "our_calculation": "87.8 → 76.8, caída de 12.5%",
+        "discrepancy_pct": 0,
+        "reason": "el paper no da valores absolutos de Mg/Ca"
+      }
+    },
+    {
+      "value": 76.8,
+      "unit": "mmol/mol",
+      "context": "Mg/Ca moderno promedio (≥1900)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 8,
+      "unit": "percentil",
+      "context": "Posición de la media moderna en la distribución de 1.313 años",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.569,
+      "unit": "Spearman rho",
+      "context": "Correlación SO-NA cuando SO lidera 5 décadas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "historically precedes changes in the Atlantic",
+        "our_calculation": "ρ mejora con lag positivo, máximo a +5 décadas",
+        "discrepancy_pct": 0,
+        "reason": "consistente con claim del paper"
+      }
+    },
+    {
+      "value": 1313,
+      "unit": "años",
+      "context": "Rango temporal del registro (698-2011 CE)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "past 1,300 years",
+        "our_calculation": "2011 - 698 = 1313 años",
+        "discrepancy_pct": 1.0,
+        "reason": "paper redondea a 1.300"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    },
+    {
+      "abstract_verb": "correlates",
+      "tier": "T1",
+      "cam_attenuator": "correlaciona"
+    },
+    {
+      "abstract_verb": "exacerbated",
+      "tier": "T1",
+      "cam_attenuator": "ha agravado (no verificable con estos datos)"
+    }
+  ],
+  "narrative_hooks": [
+    "La corriente que mueve el calor del planeta se está debilitando — y el Océano Sur se adelantó",
+    "En el 92% de los últimos 1.313 años, la circulación fue más fuerte que ahora",
+    "Los cambios en el Sur preceden a los del Norte por 20-50 años"
+  ],
+  "limitations": [
+    "El proxy Mg/Ca asume relación lineal con temperatura del AAIW — sensibilidad puede variar",
+    "Los datos decadales provienen de promediar series anuales; resolución temporal real varía",
+    "El análisis lead-lag con n = 83 décadas compartidas tiene potencia estadística moderada",
+    "La causalidad SO → NA no se puede establecer solo con correlación cruzada"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims verificados yes + 1 partial, 5 números clave"
+  },
+  "notebook_slug": "2026-04-06-circulacion-atlantico-oceano-sur",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-06-circulacion-atlantico-oceano-sur/notebook.html",
+  "generated_at": "2026-04-06T17:21:47.382915Z"
+}
