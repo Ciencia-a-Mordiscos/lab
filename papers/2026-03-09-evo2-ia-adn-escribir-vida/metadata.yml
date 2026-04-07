@@ -1,0 +1,19 @@
+titulo: "9 Billones de Bases de ADN Enseñaron a una IA a Escribir Vida"
+fecha: 2026-03-09
+categoria: tecnologia
+tags: [ia, genómica, adn, evo2, variantes, brca1, foundation-model, benchmark]
+formato: corto
+video_youtube: "https://youtube.com/shorts/i-yFdSiK6m4"
+fuentes:
+  - doi: "10.1038/s41586-026-10176-5"
+    titulo: "Sequence modeling and design from molecular to genome scale with Evo 2"
+    journal: Nature
+    autores: "Nguyen et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "benchmarks_variantes.csv"
+    descripcion: "705 comparaciones de rendimiento (AUROC/AUPRC) de 25 modelos en 4 datasets de variantes genéticas"
+    fuente: "Supplementary Table 3"
+estado: publicado

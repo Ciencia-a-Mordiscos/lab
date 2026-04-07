@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "paper_id": 2191,
+  "doi": "10.1038/s41586-026-10176-5",
+  "paper_type": "computational",
+  "study_design": "computational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Evo 2 predice el impacto funcional de variantes sin entrenamiento específico",
+      "supported": "yes",
+      "detail": "AUROC mediana 0,893 en 49 tareas zero-shot — consistentemente por encima del azar",
+      "certainty_tier": "T1",
+      "abstract_verb": "learn",
+      "effect_size": {"measure": "auroc_median", "value": 0.893, "interpretation": "alto rendimiento generalista"}
+    },
+    {
+      "claim": "Evo 2 supera a todos los modelos especializados",
+      "supported": "no",
+      "detail": "AlphaMissense (0,958) y SpliceAI (0,992) lo superan en sus dominios respectivos",
+      "certainty_tier": "T1",
+      "abstract_verb": "learn",
+      "effect_size": null
+    },
+    {
+      "claim": "Evo 2 es competitivo en todas las categorías",
+      "supported": "yes",
+      "detail": "Top 3 en 55% de las tareas (27/49), mediana AUROC 0,893, rango 0,684–0,997",
+      "certainty_tier": "T1",
+      "abstract_verb": "learn",
+      "effect_size": {"measure": "auroc_median", "value": 0.893, "interpretation": "competitivo cross-domain"}
+    },
+    {
+      "claim": "Evo 2 es el mejor predictor de variantes BRCA1",
+      "supported": "yes",
+      "detail": "Evo 2 7B: AUROC 0,904 (#1), Evo 2 40B: 0,901 (#2) sobre 3.893 variantes",
+      "certainty_tier": "T1",
+      "abstract_verb": "predict",
+      "effect_size": {"measure": "auroc", "value": 0.904, "interpretation": "mejor modelo en BRCA1"}
+    },
+    {
+      "claim": "Evo 2 mejora drásticamente sobre Evo 1",
+      "supported": "yes",
+      "detail": "Mejora en 49/49 tareas (100%), mediana +0,328 puntos AUROC",
+      "certainty_tier": "T1",
+      "abstract_verb": "introduce",
+      "effect_size": {"measure": "auroc_improvement_median", "value": 0.328, "interpretation": "salto generacional masivo"}
+    },
+    {
+      "claim": "Los resultados aplican a diagnóstico clínico",
+      "supported": "partial",
+      "detail": "Son benchmarks in silico. Un AUROC de 0,90 clasifica bien pero no sustituye validación clínica",
+      "certainty_tier": "T2",
+      "abstract_verb": "predict",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9000000000000,
+      "unit": "pares de bases",
+      "context": "datos de entrenamiento de Evo 2",
+      "source": "paper",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.841,
+      "unit": "AUROC",
+      "context": "Evo 2 40B en ClinVar Coding SNV (14.313 variantes)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "accurately predict", "our_calculation": "0.841", "discrepancy_pct": null, "reason": "paper no reporta AUROC específico en abstract"}
+    },
+    {
+      "value": 0.987,
+      "unit": "AUROC",
+      "context": "Evo 2 40B en ClinVar Noncoding SNV (33.747 variantes)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.901,
+      "unit": "AUROC",
+      "context": "Evo 2 40B en BRCA1 Both SNV (3.893 variantes)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.328,
+      "unit": "puntos AUROC",
+      "context": "mejora mediana Evo 1 → Evo 2 40B (49/49 tareas)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "introduce", "tier": "T1", "cam_attenuator": "afirmación directa (acción)"},
+    {"abstract_verb": "learn", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "predict", "tier": "T1", "cam_attenuator": "\"predice\" / \"clasifica con [métrica]\" — NO \"diagnostica\""},
+    {"abstract_verb": "reveal", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "produce", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "generate", "tier": "T1", "cam_attenuator": "afirmación directa"}
+  ],
+  "narrative_hooks": [
+    "9 billones de letras de ADN — todo lo que la vida ha escrito — entrenaron un modelo que predice mutaciones dañinas sin que nadie le dijera cuáles lo eran",
+    "En el gen más estudiado del cáncer de mama (BRCA1), la IA generalista supera a todos los modelos especializados",
+    "Evo 2 mejoró sobre Evo 1 en 49 de 49 tareas — ni una excepción"
+  ],
+  "limitations": [
+    "Benchmarks in silico — no validación clínica directa",
+    "ClinVar y BRCA1 contienen variantes ya clasificadas; rendimiento en VUS (variantes de significado incierto) podría diferir",
+    "El ranking depende del dataset y tipo de variante; ningún modelo es universalmente superior",
+    "Los datos son de Supplementary Table 3 (benchmarks de predicción); no incluyen evaluaciones de generación de secuencias"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 5 números clave, narrativa densa de generalista vs especialista"
+  },
+  "notebook_slug": "2026-03-09-evo2-ia-adn-escribir-vida",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook.html",
+  "generated_at": "2026-04-07T09:15:00Z"
+}

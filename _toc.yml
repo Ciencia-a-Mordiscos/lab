@@ -176,6 +176,11 @@ parts:
 
   - caption: Tecnología
     chapters:
+      - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/README
+        title: "Evo 2: IA que lee todo el ADN de la vida"
+        sections:
+          - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook
+            title: Notebook
       - file: papers/2026-04-05-robustez-analitica-ciencias-sociales/README
         title: "¿Se puede confiar en un solo análisis?"
         sections:
