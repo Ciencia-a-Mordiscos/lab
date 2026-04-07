@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "paper_id": 2309,
+  "doi": "10.1038/s41559-026-03027-z",
+  "paper_type": "descriptive",
+  "study_design": "descriptive",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Las dos fases representan grupos genéticos distintos",
+      "supported": "yes",
+      "detail": "Ancestría farmer: 66,4% vs 71,0% (d=1,25, p=1,7×10⁻⁶). Varianza Levene p=1,9×10⁻⁶",
+      "certainty_tier": "T1",
+      "abstract_verb": "revealed",
+      "effect_size": {"measure": "cohen_d", "value": 1.25, "interpretation": "grande"}
+    },
+    {
+      "claim": "La Fase 2 es genéticamente más homogénea",
+      "supported": "yes",
+      "detail": "σ Fase 1 = 5,0 pp vs σ Fase 2 = 1,3 pp — ~3,9 veces menos variación",
+      "certainty_tier": "T1",
+      "abstract_verb": "revealed",
+      "effect_size": {"measure": "sigma_ratio", "value": 3.86, "interpretation": "diferencia drástica"}
+    },
+    {
+      "claim": "Hiato de ~300 años sin entierros entre fases",
+      "supported": "yes",
+      "detail": "Última datación Fase 1 (mediana): ~3.107 a.C. Primera Fase 2: ~2.791 a.C. → ~316 años",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Yersinia pestis detectada en ambas fases",
+      "supported": "yes",
+      "detail": "4 individuos: BUR212, BUR218, BUR345 (Fase 1) y BUR184 (Fase 2). BUR218 tiene la mayor cobertura (0,218)",
+      "certainty_tier": "T1",
+      "abstract_verb": "evidence",
+      "effect_size": null
+    },
+    {
+      "claim": "La Fase 2 tiene más individuos de posible origen no local (estroncio)",
+      "supported": "yes",
+      "detail": "13,6% (9/66) vs 2,7% (3/111) — 5× más proporción de posibles no locales. Sr d=0,66",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.66, "interpretation": "medio"}
+    },
+    {
+      "claim": "El cambio se explica por movimiento de ancestría desde el sur",
+      "supported": "partial",
+      "detail": "Los datos muestran más ancestría farmer y mayor homogeneidad en Fase 2, consistente con la hipótesis. Pero cubre un solo sitio — la dirección geográfica requiere comparación con otros yacimientos",
+      "certainty_tier": "T2",
+      "abstract_verb": "can be linked to",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {"value": 132, "unit": "genomas", "context": "individuos secuenciados de Bury", "source": "fact_sheet", "verified": true},
+    {"value": 106, "unit": "individuos", "context": "Fase 1 (pre-declive, ~3.200 a.C.)", "source": "fact_sheet", "verified": true},
+    {"value": 62, "unit": "individuos", "context": "Fase 2 (post-declive, ~2.600 a.C.)", "source": "fact_sheet", "verified": true},
+    {"value": 316, "unit": "años", "context": "hiato sin entierros entre fases", "source": "fact_sheet", "verified": true},
+    {"value": 66.4, "unit": "por ciento", "context": "ancestría farmer media Fase 1", "source": "fact_sheet", "verified": true},
+    {"value": 71.0, "unit": "por ciento", "context": "ancestría farmer media Fase 2", "source": "fact_sheet", "verified": true},
+    {"value": 1.25, "unit": "Cohen's d", "context": "tamaño del efecto ancestría Fase 1 vs 2", "source": "fact_sheet", "verified": true},
+    {"value": 4, "unit": "individuos", "context": "con Yersinia pestis detectada", "source": "fact_sheet", "verified": true},
+    {"value": 29, "unit": "miembros", "context": "pedigrí más grande Fase 1 (pedigree_1.A)", "source": "fact_sheet", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "revealed", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "can be linked to", "tier": "T2", "cam_attenuator": "los datos sugieren / es consistente con"},
+    {"abstract_verb": "offering a possible explanation", "tier": "T2", "cam_attenuator": "una posible explicación"}
+  ],
+  "narrative_hooks": [
+    "132 genomas de un cementerio neolítico. Una misma tumba, dos pueblos distintos.",
+    "Pasaron de un grupo mezclado a uno casi clonal. Algo barrió la diversidad genética.",
+    "En Francia no fueron los pastores de las estepas — fueron otros agricultores, venidos del sur.",
+    "Peste en el Neolítico, 4.000 años antes de la Muerte Negra."
+  ],
+  "limitations": [
+    "80 de 178 individuos tienen modelo de ancestría — requiere cobertura genómica suficiente",
+    "Solo 18 dataciones radiocarbónicas — límites exactos del hiato son aproximados",
+    "Umbral de estroncio (0,710) es aproximado para la Cuenca de París",
+    "Detección de patógenos depende de la cobertura — posibles falsos negativos",
+    "Un solo sitio (Bury) — la dirección geográfica del movimiento requiere más yacimientos"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 9 números clave, historia rica con múltiples dimensiones"
+  },
+  "notebook_slug": "2026-04-07-discontinuidad-paris-neolitico",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-07-discontinuidad-paris-neolitico/notebook.html",
+  "generated_at": "2026-04-07T17:45:00Z"
+}

@@ -1,0 +1,31 @@
+titulo: "Discontinuidad genética en la Cuenca de París al final del Neolítico"
+fecha: 2026-04-07
+categoria: arqueología
+tags: [adn-antiguo, neolítico, genómica, francia, peste, ancestría, migración, megalitos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03027-z"
+    titulo: "Population discontinuity in the Paris Basin linked to evidence of the Neolithic decline"
+    journal: Nature Ecology & Evolution
+    autores: "Tallman et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "individuos.csv"
+    descripcion: "178 individuos secuenciados — fase, sexo, haplogrupos, familia"
+    fuente: "Supplementary Table 2"
+  - nombre: "ancestria_distal.csv"
+    descripcion: "80 modelos de ancestría distal (agricultores vs cazadores-recolectores)"
+    fuente: "Supplementary Table 6"
+  - nombre: "dataciones.csv"
+    descripcion: "18 dataciones radiocarbónicas calibradas"
+    fuente: "Supplementary Table 3"
+  - nombre: "enfermedades.csv"
+    descripcion: "120 detecciones de patógenos en 71 individuos"
+    fuente: "Supplementary Table 9"
+  - nombre: "estroncio.csv"
+    descripcion: "190 mediciones de estroncio isotópico"
+    fuente: "Supplementary Table 11"
+estado: publicado
