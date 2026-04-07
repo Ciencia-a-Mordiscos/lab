@@ -1,0 +1,28 @@
+titulo: "Renovables Fortalecen a Ecuador Contra la Sequía"
+fecha: 2026-04-07
+categoria: ecologia
+tags: [energía, hidroeléctrica, sequía, ecuador, renovables, solar, eólica, crisis-energética]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00617-w"
+    titulo: "Variable renewables fortify Ecuador's power system against recurrences of drought-driven energy crises"
+    journal: Nature Water
+    autores: "Sterl, S., Pineda, L.E., et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "caudal_mensual_paute.csv"
+    descripcion: "Caudal mensual del río Paute (2011-2024)"
+    fuente: "Zenodo (REVUB model input)"
+  - nombre: "factores_capacidad_mensual.csv"
+    descripcion: "Factores de capacidad solar y eólica mensuales"
+    fuente: "Zenodo (REVUB model input)"
+  - nombre: "caudal_anual_paute.csv"
+    descripcion: "Media anual del caudal del Paute"
+    fuente: "Agregado de datos horarios"
+  - nombre: "caudal_total_mensual.csv"
+    descripcion: "Caudal total mensual de 6 plantas principales"
+    fuente: "Zenodo (REVUB model input)"
+estado: publicado

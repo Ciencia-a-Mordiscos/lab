@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "paper_id": 2312,
+  "doi": "10.1038/s44221-026-00617-w",
+  "paper_type": "computational",
+  "study_design": "computational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El caudal del Paute cayó drásticamente en 2024",
+      "supported": "yes",
+      "detail": "Media anual 74,5 m³/s vs histórica 129,4 m³/s (-42,4%, d = -3,91). 8 meses con déficit >30%",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -3.91,
+        "interpretation": "muy grande (n_hist=12)"
+      }
+    },
+    {
+      "claim": "La sequía empezó en 2023",
+      "supported": "yes",
+      "detail": "Media 2023: 96,5 m³/s (-25,5%). Dos años consecutivos por debajo del mínimo histórico",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Los CFs de solar/eólica no varían entre años",
+      "supported": "yes",
+      "detail": "Dataset usa TMY (año meteorológico típico). Variación inter-anual <1%. En la realidad habría algo más, pero argumento se sostiene",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Eólica y solar podrían compensar parcialmente el déficit",
+      "supported": "partial",
+      "detail": "CFs muestran 388-548 MW combinados en meses críticos, pero compensación real depende del modelo REVUB",
+      "certainty_tier": "T2",
+      "abstract_verb": "could",
+      "effect_size": null
+    },
+    {
+      "claim": "Crédito de capacidad indirecto del 59%",
+      "supported": "partial",
+      "detail": "Resultado del modelo REVUB (rango 50-65%), no reproducible con datos de entrada",
+      "certainty_tier": "T2",
+      "abstract_verb": "could",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 74.5,
+      "unit": "m³/s",
+      "context": "Caudal medio anual del río Paute en 2024",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "unprecedented drought",
+        "our_calculation": "74.5 m³/s (-42.4% vs historical 129.4)",
+        "discrepancy_pct": null,
+        "reason": "Paper no reporta caudal exacto, usa descripción cualitativa"
+      }
+    },
+    {
+      "value": -42.4,
+      "unit": "porcentaje",
+      "context": "Anomalía del caudal 2024 vs media histórica 2011-2022",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 12,
+      "unit": "horas",
+      "context": "Duración máxima de apagones diarios en Ecuador 2024",
+      "source": "paper",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 59,
+      "unit": "porcentaje",
+      "context": "Crédito de capacidad indirecto de renovables (rango 50-65%)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 53.6,
+      "unit": "porcentaje",
+      "context": "Factor de capacidad eólica promedio (Ecuador, TMY)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (datos observacionales)"
+    },
+    {
+      "abstract_verb": "could",
+      "tier": "T2",
+      "cam_attenuator": "\"podría\" — resultado de modelo"
+    },
+    {
+      "abstract_verb": "would",
+      "tier": "T2",
+      "cam_attenuator": "\"habría\" — condicional contrafactual"
+    }
+  ],
+  "narrative_hooks": [
+    "En 2024, Ecuador apagó las luces 12 horas al día — porque dependía del agua para el 70% de su electricidad",
+    "El río Paute perdió casi la mitad de su caudal en un año. Pero sol y viento no dependen de la lluvia",
+    "El viento sopla más fuerte justo cuando los ríos se debilitan: 'sinergia de año extremo'"
+  ],
+  "limitations": [
+    "Solo datos de entrada del modelo REVUB, no resultados de simulación",
+    "CFs usan año meteorológico típico — sin variación inter-anual real",
+    "La aproximación MW proporcional al caudal es simplificada",
+    "Serie hidrológica corta (n=14 años)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados, 5 números clave, estudio computacional con datos claros"
+  },
+  "notebook_slug": "2026-04-07-renovables-fortalecen-ecuador-sequia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-07-renovables-fortalecen-ecuador-sequia/notebook.html",
+  "generated_at": "2026-04-07T22:21:11.939568Z"
+}
