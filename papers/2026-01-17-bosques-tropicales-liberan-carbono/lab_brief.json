@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "paper_id": 29,
+  "doi": "10.1038/s41586-025-09497-8",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los bosques eran sumidero de carbono (1971–2000)",
+      "supported": "yes",
+      "detail": "Media simple: +0,64 Mg C ha⁻¹ yr⁻¹ (n=177). Paper: +0,62 ± 0,04. Cross-check: 4%",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "descriptive", "value": 0.64, "interpretation": "acumulación neta positiva"}
+    },
+    {
+      "claim": "Transición a fuente neta de carbono en 2010–2019",
+      "supported": "partial",
+      "detail": "Paper estima −0,93 con inferencia causal. Medias por década: −0,41 (2000s) y −1,02 (2010s). Dirección consistente, magnitud difiere por metodología",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "cohen_d_paired", "value": 0.84, "interpretation": "grande"}
+    },
+    {
+      "claim": "Ciclones causan pérdidas masivas de carbono",
+      "supported": "yes",
+      "detail": "Con ciclón: −1,55 (n=40) vs sin ciclón: +0,54 (n=219) Mg C ha⁻¹ yr⁻¹. Cohen's d = 0,74 (medio-grande)",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "cohen_d", "value": 0.74, "interpretation": "medio-grande"}
+    },
+    {
+      "claim": "Mortalidad aumenta, crecimiento no",
+      "supported": "yes",
+      "detail": "Mortalidad sube de 1,92 a 3,13 Mg C ha⁻¹ yr⁻¹. Crecimiento baja de 2,56 a 2,42. El driver es mortalidad",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "descriptive", "value": null, "interpretation": "mortalidad +63%, crecimiento −5%"}
+    },
+    {
+      "claim": "No hay fertilización por CO₂",
+      "supported": "yes",
+      "detail": "ρ(CO₂, crecimiento) = −0,07, p = 0,28, n = 259. Sin relación significativa",
+      "certainty_tier": "T2",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "spearman_rho", "value": -0.07, "interpretation": "sin correlación"}
+    },
+    {
+      "claim": "Temperaturas extremas impulsan la pérdida",
+      "supported": "yes",
+      "detail": "ρ(T anomalía 3mo max, netC) = −0,211, p < 0,001, n = 259. Correlación modesta pero significativa",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": {"measure": "spearman_rho", "value": -0.211, "interpretation": "correlación modesta"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.62,
+      "unit": "Mg C ha⁻¹ yr⁻¹",
+      "context": "balance de carbono periodo sumidero (1971–2000)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.62 ± 0.04",
+        "our_calculation": "0.64",
+        "discrepancy_pct": 4.0,
+        "reason": "media simple vs modelo causal"
+      }
+    },
+    {
+      "value": -0.93,
+      "unit": "Mg C ha⁻¹ yr⁻¹",
+      "context": "balance de carbono periodo fuente (2010–2019)",
+      "source": "paper",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "-0.93 ± 0.11",
+        "our_calculation": "-1.02 (media por década)",
+        "discrepancy_pct": 9.7,
+        "reason": "media simple por década vs modelo de inferencia causal"
+      }
+    },
+    {
+      "value": 0.74,
+      "unit": "Cohen's d",
+      "context": "impacto de ciclones en balance de carbono",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 48,
+      "unit": "años",
+      "context": "duración del estudio (1971–2019)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 20,
+      "unit": "parcelas",
+      "context": "número de parcelas monitoreadas en Queensland",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "podría"
+    }
+  ],
+  "narrative_hooks": [
+    "Estos bosques absorbían carbono durante 30 años. Ahora lo liberan.",
+    "48 años de censos forestales, parcela por parcela, revelan el momento exacto del cambio."
+  ],
+  "limitations": [
+    "Los datos son medias simples; el paper usa inferencia causal que ajusta por confusores",
+    "20 parcelas en Queensland — representan bosques tropicales húmedos australianos, no todos los trópicos",
+    "Correlaciones modestas (ρ < 0,3) — el clima explica solo una parte de la variación",
+    "La conversión biomasa→carbono usa fracción 0,47 (estándar pero no medida in situ)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados, 5 números clave, historia temporal rica"
+  },
+  "notebook_slug": "2026-01-17-bosques-tropicales-liberan-carbono",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook.html",
+  "generated_at": "2026-04-07T17:56:00Z"
+}

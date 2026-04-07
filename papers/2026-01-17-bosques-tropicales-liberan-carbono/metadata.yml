@@ -1,0 +1,28 @@
+titulo: "Los bosques tropicales ahora liberan carbono"
+fecha: 2026-01-17
+categoria: ecologia
+tags: [carbono, bosques-tropicales, australia, cambio-climatico, sumidero, mortalidad, ciclones, co2]
+formato: corto
+video_youtube: "https://youtube.com/shorts/PzrTo36okmQ"
+fuentes:
+  - doi: "10.1038/s41586-025-09497-8"
+    titulo: "Aboveground biomass in Australian tropical forests now net carbon source"
+    journal: Nature
+    autores: "Carle, Bauman, Evans et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "agb_plotwise.csv"
+    descripcion: "259 censos de biomasa aérea, 20 parcelas, 1971–2019"
+    fuente: "Figshare (CC BY 4.0)"
+  - nombre: "climate_plotwise.csv"
+    descripcion: "Variables climáticas por parcela e intervalo de censo"
+    fuente: "Figshare (CC BY 4.0)"
+  - nombre: "geographic_locations.csv"
+    descripcion: "Coordenadas y elevación de las 20 parcelas"
+    fuente: "Figshare (CC BY 4.0)"
+  - nombre: "cyclone_dates.csv"
+    descripcion: "Fechas de impacto de ciclones por parcela y año"
+    fuente: "Figshare (CC BY 4.0)"
+estado: publicado
