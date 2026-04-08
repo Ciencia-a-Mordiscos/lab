@@ -1,0 +1,37 @@
+titulo: "Agricultura circular con agua de mar y sol"
+fecha: 2026-04-08
+categoria: ecologia
+tags: [desalinización, agricultura, energía solar, agua, circular, sostenibilidad, soja]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00615-y"
+    titulo: "Solar-powered circular desalination agriculture enabled by amyloid fibril-based bioevaporators"
+    journal: Nature Water
+    autores: "Sun et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "altura_plantas.csv"
+    descripcion: "Crecimiento de soja bajo 3 métodos de riego (42 días)"
+    fuente: "Source Data + Figshare"
+  - nombre: "calidad_agua.csv"
+    descripcion: "Composición del agua (mar, RO, solar)"
+    fuente: "Source Data"
+  - nombre: "rendimiento_cultivos.csv"
+    descripcion: "Peso fresco/seco de 4 cultivos"
+    fuente: "Figshare"
+  - nombre: "rendimiento_soja.csv"
+    descripcion: "Biomasa y semilla de soja"
+    fuente: "Source Data"
+  - nombre: "estabilidad_operacion.csv"
+    descripcion: "Tasa purificación 30 días"
+    fuente: "Figshare"
+  - nombre: "remediacion_suelo.csv"
+    descripcion: "Conductividad y agua del suelo"
+    fuente: "Figshare"
+  - nombre: "germinacion_soja.csv"
+    descripcion: "Germinación por método de riego"
+    fuente: "Figshare"
+estado: publicado

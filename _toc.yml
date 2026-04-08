@@ -4,6 +4,11 @@ root: intro
 parts:
   - caption: Ecología
     chapters:
+      - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/README
+        title: "Agricultura circular con agua de mar y sol"
+        sections:
+          - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/notebook
+            title: Notebook
       - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/README
         title: "Bosques tropicales ahora liberan carbono"
         sections:

@@ -1,0 +1,10 @@
+tiempo,metodo,germinacion_pct,error
+24 h,solar,82.2,4.4
+24 h,ro,73.0,7
+24 h,agua_mar,0,0
+48 h,solar,95.5,4.5
+48 h,ro,93.3,6.7
+48 h,agua_mar,0,0
+72 h,solar,97.7,2.3
+72 h,ro,95.5,4.5
+72 h,agua_mar,0,0

@@ -1,0 +1,49 @@
+cultivo,metodo,replica,peso_fresco_g,peso_seco_g
+Brassica juncea,solar,1,12.63,0.93
+Brassica juncea,ro,1,5.62,0.32
+Brassica juncea,solar,2,11.65,0.88
+Brassica juncea,ro,2,5.91,0.35
+Brassica juncea,solar,3,15.12,1.09
+Brassica juncea,ro,3,5.64,0.33
+Brassica juncea,solar,4,12.83,0.96
+Brassica juncea,ro,4,7.66,0.47
+Brassica juncea,solar,5,13.11,0.98
+Brassica juncea,ro,5,2.68,0.15
+Brassica juncea,solar,6,14.72,1.03
+Brassica juncea,ro,6,2.97,0.21
+Celtuce,solar,1,6.36,0.34
+Celtuce,ro,1,3.75,0.22
+Celtuce,solar,2,7.72,0.53
+Celtuce,ro,2,1.81,0.11
+Celtuce,solar,3,9.85,0.72
+Celtuce,ro,3,3.22,0.17
+Celtuce,solar,4,10.87,0.76
+Celtuce,ro,4,2.14,0.12
+Celtuce,solar,5,2.39,0.14
+Celtuce,ro,5,2.01,0.12
+Celtuce,solar,6,7.28,0.49
+Celtuce,ro,6,4.27,0.24
+Lactuca sativa,solar,1,2.61,0.12
+Lactuca sativa,ro,1,3.55,0.15
+Lactuca sativa,solar,2,7.44,0.28
+Lactuca sativa,ro,2,2.31,0.13
+Lactuca sativa,solar,3,7.35,0.28
+Lactuca sativa,ro,3,1.62,0.11
+Lactuca sativa,solar,4,4.96,0.23
+Lactuca sativa,ro,4,1.05,0.09
+Lactuca sativa,solar,5,4.62,0.21
+Lactuca sativa,ro,5,2.94,0.14
+Lactuca sativa,solar,6,5.17,0.3
+Lactuca sativa,ro,6,0.97,0.08
+Soja (Glycine max),solar,#10,23.17,3.35
+Soja (Glycine max),ro,#10,15.3,2.32
+Soja (Glycine max),solar,#11,25.64,3.57
+Soja (Glycine max),ro,#11,15.88,2.25
+Soja (Glycine max),solar,#12,24.39,3.37
+Soja (Glycine max),ro,#12,10.11,2.71
+Soja (Glycine max),solar,#13,17.18,2.68
+Soja (Glycine max),ro,#13,8.23,2.04
+Soja (Glycine max),solar,#14,17.4,2.74
+Soja (Glycine max),ro,#14,8.21,1.96
+Soja (Glycine max),solar,#15,18.91,2.96
+Soja (Glycine max),ro,#15,18.55,2.54
