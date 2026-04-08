@@ -196,6 +196,11 @@ parts:
 
   - caption: Tecnología
     chapters:
+      - file: papers/2026-04-08-busgen-ecografia-mama-ia/README
+        title: "IA con imágenes inventadas vs 9 radiólogos"
+        sections:
+          - file: papers/2026-04-08-busgen-ecografia-mama-ia/notebook
+            title: Notebook
       - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/README
         title: "Evo 2: IA que lee todo el ADN de la vida"
         sections:

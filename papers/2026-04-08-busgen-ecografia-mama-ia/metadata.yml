@@ -1,0 +1,28 @@
+titulo: "¿Puede una IA entrenada con imágenes inventadas superar a 9 radiólogos?"
+fecha: 2026-04-08
+categoria: tecnologia
+tags: [ia, deep-learning, ecografia, cancer-mama, datos-sinteticos, foundation-model]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01639-1"
+    titulo: "A foundation generative model for breast ultrasound image analysis"
+    journal: Nature Biomedical Engineering
+    autores: "Chen et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "scaling_auc.csv"
+    descripcion: "AUC de clasificación por escala de datos de entrenamiento (sintéticos vs reales)"
+    fuente: "Supplementary Materials Fig. 4e"
+  - nombre: "roc_screening.csv"
+    descripcion: "Curva ROC del modelo BUS-DM para screening mamario"
+    fuente: "Supplementary Materials Fig. 4c"
+  - nombre: "readers_screening.csv"
+    descripcion: "Puntos operativos de 9 radiólogos en screening"
+    fuente: "Supplementary Materials Fig. 4c"
+  - nombre: "accuracy_readers.csv"
+    descripcion: "Accuracy de 9 radiólogos con y sin asistencia de IA"
+    fuente: "Supplementary Materials Fig. 4d"
+estado: publicado

@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### 🤖 ¿Puede una IA Entrenada con Imágenes Inventadas Superar a 9 Radiólogos?
+
+**Tecnología** · Nature Biomedical Engineering · Chen et al. (2026), BUSGen — primer modelo generativo fundacional para ecografía mamaria, pre-entrenado con 3,5 millones de imágenes. A partir de 25K imágenes sintéticas, el modelo supera a los entrenados con datos reales (AUC 0,932 vs 0,925). Evaluado contra 9 radiólogos certificados: +15,9 pp de sensibilidad
+
+[Ver notebook](papers/2026-04-08-busgen-ecografia-mama-ia/notebook) · [Leer más](papers/2026-04-08-busgen-ecografia-mama-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-08-busgen-ecografia-mama-ia/notebook.ipynb)
+
+---
+
 ### 🌊 Agricultura Circular con Agua de Mar y Sol
 
 **Ecología** · Nature Water · Sun et al. (2026), ensayo de campo de 3 meses en Hainan — desalinización solar + agricultura circular: las sojas crecen +134% vs evaporación natural, +49% más semilla que con ósmosis inversa industrial, el sistema elimina 99,99% del sodio y alimenta a 47 personas por 0,6 ha

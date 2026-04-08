@@ -1,0 +1,19 @@
+reader_id,stage,accuracy
+R1,Readers,0.704433497536946
+R1,Readers with AI-assistance,0.719211822660099
+R2,Readers,0.74384236453202
+R2,Readers with AI-assistance,0.778325123152709
+R3,Readers,0.704433497536946
+R3,Readers with AI-assistance,0.689655172413793
+R4,Readers,0.724137931034483
+R4,Readers with AI-assistance,0.753694581280788
+R5,Readers,0.669950738916256
+R5,Readers with AI-assistance,0.694581280788177
+R6,Readers,0.669950738916256
+R6,Readers with AI-assistance,0.679802955665025
+R7,Readers,0.665024630541872
+R7,Readers with AI-assistance,0.67487684729064
+R8,Readers,0.694581280788177
+R8,Readers with AI-assistance,0.70935960591133
+R9,Readers,0.660098522167488
+R9,Readers with AI-assistance,0.704433497536946
