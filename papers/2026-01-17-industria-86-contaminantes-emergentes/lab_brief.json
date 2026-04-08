@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "paper_id": 47,
+  "doi": "10.1038/s41893-025-01656-z",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Emisiones globales de ~5.143 kg en 2018",
+      "supported": "yes",
+      "detail": "Suma de 184 países = 5.142,5 kg. Estimación de modelo ML (XGBoost), no medición directa.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "effect_size": null
+    },
+    {
+      "claim": "IOS = 86,1% del total de emisiones",
+      "supported": "yes",
+      "detail": "3.788,5 kg. Porcentaje consistente en datos de 8 sectores. Sobre total global por países (5.142,5 kg) sería 73,7% — diferencia por 3 sectores sin desglose.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "effect_size": null
+    },
+    {
+      "claim": "ClPAHs = 94,3%, BrPAHs = 5,7%",
+      "supported": "yes",
+      "detail": "Datos de tipo de emisión coinciden exactamente con el abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "estimate",
+      "effect_size": null
+    },
+    {
+      "claim": "Oceanía + Asia Oriental + Latinoamérica > 66%",
+      "supported": "yes",
+      "detail": "Regional CSV: 3.020 kg de 4.400 kg regionales = 68,6%. CSV regional cubre 8 de 11 sectores.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "effect_size": null
+    },
+    {
+      "claim": "Australia lidera las emisiones globales",
+      "supported": "yes",
+      "detail": "1.392,6 kg = 27,1% del total. También lidera per cápita (47,1 g/cap).",
+      "certainty_tier": "T1",
+      "abstract_verb": "estimate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 5143,
+      "unit": "kg",
+      "context": "emisiones globales estimadas Cl/BrPAHs 2018",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "5,143 kg",
+        "our_calculation": "5,142.5 kg",
+        "discrepancy_pct": 0.01,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 86.1,
+      "unit": "por ciento",
+      "context": "contribución de sinterización de hierro (IOS)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "86.1%",
+        "our_calculation": "86.1%",
+        "discrepancy_pct": 0.0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 94.3,
+      "unit": "por ciento",
+      "context": "proporción de ClPAHs vs BrPAHs",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "94.3%",
+        "our_calculation": "94.3%",
+        "discrepancy_pct": 0.0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 1392.63,
+      "unit": "kg",
+      "context": "emisiones de Australia (top emisor)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 47.09,
+      "unit": "g/persona",
+      "context": "emisiones per cápita de Australia",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 184,
+      "unit": "países",
+      "context": "países analizados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "184",
+        "our_calculation": "184",
+        "discrepancy_pct": 0.0,
+        "reason": "exacto"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — presentamos"
+    },
+    {
+      "abstract_verb": "estimate",
+      "tier": "T2",
+      "cam_attenuator": "se estima / el modelo estima"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "los datos apuntan a"
+    },
+    {
+      "abstract_verb": "facilitate",
+      "tier": "T3",
+      "cam_attenuator": "podrían facilitar"
+    }
+  ],
+  "narrative_hooks": [
+    "5.143 kg de contaminantes emergentes — y una sola industria genera el 86%",
+    "Australia emite 236 veces más per cápita que la mediana global",
+    "La sinterización de hierro no tiene el factor de emisión más alto, pero procesa tanto mineral que domina el inventario global"
+  ],
+  "limitations": [
+    "Valores son estimaciones de modelo XGBoost, no mediciones directas en chimenea",
+    "Modelo entrenado con 81 países, predijo los restantes 103",
+    "Factores de emisión de literatura con alta variabilidad entre estudios",
+    "Solo emisiones industriales directas — no transporte, agricultura ni fuentes domésticas",
+    "Datos de 8 de 11 sectores con desglose individual"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 6 números clave, paper descriptivo con múltiples dimensiones"
+  },
+  "notebook_slug": "2026-01-17-industria-86-contaminantes-emergentes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-industria-86-contaminantes-emergentes/notebook.html",
+  "generated_at": "2026-04-08T20:20:21.541050Z"
+}

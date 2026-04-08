@@ -1,0 +1,31 @@
+titulo: "Una industria causa el 86% de estos contaminantes"
+fecha: 2026-01-17
+categoria: ecologia
+tags: [contaminantes, cl-brpahs, sinterizacion, hierro, emisiones, machine-learning, inventario-global]
+formato: corto
+video_youtube: "https://youtube.com/shorts/O4Pnh_ESM1M"
+fuentes:
+  - doi: "10.1038/s41893-025-01656-z"
+    titulo: "Global industrial emissions of chlorinated and brominated polycyclic aromatic hydrocarbons"
+    journal: Nature Sustainability
+    autores: "Yang, Y. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "emisiones_por_sector.csv"
+    descripcion: "Emisiones de Cl/BrPAHs por sector industrial (kg y %)"
+    fuente: "Zenodo (Figure 5d)"
+  - nombre: "emisiones_por_pais.csv"
+    descripcion: "Emisiones totales por país (184 países, kg)"
+    fuente: "Zenodo (Figure 4a)"
+  - nombre: "emisiones_per_capita.csv"
+    descripcion: "Emisiones per cápita por país (g/persona)"
+    fuente: "Zenodo (Figure 4c)"
+  - nombre: "factores_emision_stack_gas.csv"
+    descripcion: "Factores de emisión por sector (mg/kt)"
+    fuente: "Zenodo (Figure 2a)"
+  - nombre: "emisiones_regionales.csv"
+    descripcion: "Emisiones por región y tipo (stack gas vs i-PM)"
+    fuente: "Zenodo (Figure 5b)"
+estado: publicado
