@@ -1,0 +1,171 @@
+Taxon,Taxon2,Kingdom,Metric,Legacy,Relative_recovery_30,Relative_recovery_30_upper_confidence_interval,Relative_recovery_30_lower_confidence_interval,Resistance,Resistance_upper_confidence_interval,Resistance_lower_confidence_interval,Lambda,Lambda_upper_confidence_interval,Lambda_lower_confidence_interval,Recoverytime,Recoverytime_upper_confidence_interval,Recoverytime_lower_confidence_interval,R2,Trophic,TrophicLevel,Dispersal
+Bacteria 10 cm depth,Bacteria,Bacteria,Abundance,cacao,1.0,1.0,0.916,0.666,0.727,0.472,1.027,2.592,0.057,1.569,28.372,0.676,0.228,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,Abundance,pasture,0.962,1.0,0.883,0.905,0.988,0.822,0.033,0.059,0.016,0.0,47.45,0.0,0.003,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,alpha_q0,cacao,0.906,1.0,0.821,0.906,0.996,0.762,0.0,0.455,0.0,0.0,1.66736669561183e+16,0.0,-0.001,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,alpha_q0,pasture,1.0,1.0,1.0,0.77,0.847,0.689,15.6,18.2,1.171,0.053,0.976,0.026,0.125,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,alpha_q1,cacao,0.794,0.908,0.692,0.672,0.839,0.55,0.015,0.04,0.0,76.946,308428224084554.0,30.929,-0.057,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,alpha_q1,pasture,1.0,1.0,0.883,0.588,0.663,0.528,18.08,18.088,0.904,0.078,36.531,0.071,0.116,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,alpha_q2,cacao,0.9,1.0,0.713,0.702,0.997,0.509,0.037,0.079,0.006,29.935,3.73314798514551e+17,0.0,0.018,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,alpha_q2,pasture,0.741,1.0,0.563,0.658,0.941,0.506,0.009,17.771,0.001,132.998,7856380437844091.0,0.0,-0.161,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,braycurtis,cacao,0.883,0.888,0.839,0.883,0.888,0.839,0.0,0.0,0.0,2228517167393.14,3958913706919.48,21448498.254,-0.653,detritivor,0.0,aerial
+Bacteria 10 cm depth,Bacteria,Bacteria,braycurtis,pasture,0.893,0.924,0.873,0.802,0.825,0.797,0.021,0.033,0.014,33.04,45.922,21.841,0.065,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,Abundance,cacao,0.793,0.953,0.598,0.793,0.855,0.574,0.0,10.935,0.0,5.37e+18,1.43435225340176e+30,1.5401051647615e+18,-0.318,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,Abundance,pasture,0.97,0.988,0.94,0.429,0.462,0.395,0.125,0.156,0.103,20.698,25.578,16.597,0.578,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,alpha_q0,cacao,0.976,1.0,0.721,0.976,0.992,0.388,0.0,16.478,0.425,0.0,649.511,0.0,-0.295,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,alpha_q0,pasture,0.944,0.985,0.892,0.468,0.475,0.46,0.098,0.161,0.075,24.738,32.53,15.872,0.428,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,alpha_q1,cacao,0.937,1.0,0.727,0.937,0.995,0.548,0.0,15.211,0.0,0.0,8.1156679503607e+20,0.0,-0.14,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,alpha_q1,pasture,0.95,0.988,0.919,0.702,0.745,0.659,0.07,0.141,0.053,20.673,27.539,10.943,0.16,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,alpha_q2,cacao,0.987,1.0,0.797,0.987,0.987,0.797,0.0,16.1,0.0,0.0,63391882263464.3,0.0,-0.114,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,alpha_q2,pasture,0.999,1.0,0.985,0.915,0.917,0.739,0.151,0.104,0.104,0.0,12.063,0.0,0.019,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,braycurtis,cacao,0.673,0.754,0.602,0.673,0.745,0.602,0.0,0.004,0.0,5232500251.924,7249748902649.35,139156596.008,-0.126,detritivor,0.0,aerial
+Bacteria 50 cm depth,Bacteria,Bacteria,braycurtis,pasture,0.711,0.742,0.684,0.711,0.742,0.684,0.0,0.0,0.0,3466100006.696,436229732653.558,62487790.624,-0.104,detritivor,0.0,aerial
+Leaf-litter arthropods,Insects,Animalia,Abundance,cacao,0.586,0.857,0.479,0.486,0.741,0.357,0.014,0.055,0.0,174.636,4946878938176196.0,42.666,0.002,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,Abundance,pasture,1.0,1.0,0.795,0.32,0.516,0.133,15.739,16.742,1.548,0.194,4.29117053951553e+21,0.174,0.112,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,alpha_q0,cacao,0.77,1.0,0.598,0.593,0.858,0.54,0.028,0.418,0.0,69.653,9312039242531.81,1.941,-0.046,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,alpha_q0,pasture,0.879,1.0,0.781,0.75,0.794,0.604,0.03,10.576,0.006,40.65,4570550778342.18,0.235,0.006,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,alpha_q1,cacao,1.0,1.0,0.904,0.847,0.975,0.72,15.6,16.603,0.039,0.038,31.488,0.0,-0.029,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,alpha_q1,pasture,1.0,1.0,1.0,0.534,0.629,0.414,0.973,2.724,0.479,1.58,3.506,0.481,0.14,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,alpha_q2,cacao,0.95,1.0,0.703,0.95,0.973,0.682,0.0,0.014,0.0,0.0,9954469419001.51,0.0,-0.022,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,alpha_q2,pasture,1.0,1.0,1.0,0.312,0.482,0.231,1.072,15.5,0.311,1.799,6.552,0.106,0.164,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,braycurtis,cacao,0.495,0.534,0.467,0.458,0.489,0.386,0.002,0.008,0.0,724.505,5619156390.923,241.998,-0.023,detritivor,0.0,terrestrial
+Leaf-litter arthropods,Insects,Animalia,braycurtis,pasture,0.433,0.549,0.351,0.287,0.311,0.24,0.008,0.017,0.003,258.313,886.315,127.023,0.048,detritivor,0.0,terrestrial
+Saproxylic beetles,Beetles,Animalia,Abundance,cacao,1.0,1.0,1.0,0.029,0.031,0.027,0.535,0.629,0.318,4.249,7.285,3.684,0.103,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,Abundance,pasture,0.929,0.946,0.899,0.051,0.076,0.027,0.086,0.095,0.075,26.102,30.155,23.6,0.114,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,alpha_q0,cacao,0.99,0.998,0.972,0.313,0.375,0.25,0.14,0.195,0.106,13.786,18.149,9.754,0.308,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,alpha_q0,pasture,0.879,0.915,0.844,0.375,0.4,0.375,0.055,0.065,0.046,33.553,39.529,27.58,0.478,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,alpha_q1,cacao,0.876,0.995,0.817,0.44,0.48,0.424,0.05,0.154,0.037,34.356,46.161,10.713,0.036,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,alpha_q1,pasture,0.725,0.788,0.675,0.531,0.58,0.483,0.018,0.023,0.012,86.808,127.557,63.139,0.132,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,alpha_q2,cacao,0.794,0.848,0.754,0.485,0.514,0.457,0.031,0.041,0.025,53.583,66.636,40.247,0.023,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,alpha_q2,pasture,0.648,0.681,0.609,0.605,0.639,0.571,0.004,0.007,0.0,355.403,1519206020.482,194.783,0.002,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,braycurtis,cacao,0.809,0.861,0.769,0.809,0.861,0.769,0.0,0.0,0.0,17602803341.599,50125501216563.6,137013400.665,-0.222,detritivor,0.0,aerial
+Saproxylic beetles,Beetles,Animalia,braycurtis,pasture,0.981,0.999,0.953,0.174,0.259,0.089,0.125,0.315,0.096,16.901,22.079,8.668,-0.075,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,Abundance,cacao,1.0,1.0,1.0,0.286,0.464,0.214,15.2,15.393,14.26,0.129,0.153,0.113,0.148,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,Abundance,pasture,0.923,0.94,0.858,0.214,0.222,0.179,0.077,0.086,0.057,26.653,36.133,23.992,0.281,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,alpha_q0,cacao,1.0,1.0,1.0,0.6,0.7,0.4,9.504,9.505,8.266,0.146,0.2,0.129,0.282,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,alpha_q0,pasture,0.95,0.973,0.9,0.2,0.3,0.2,0.092,0.114,0.07,22.547,29.963,18.295,0.243,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,alpha_q1,cacao,0.976,0.994,0.957,0.63,0.667,0.427,0.091,0.15,0.072,14.372,18.145,10.312,0.246,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,alpha_q1,pasture,0.86,0.929,0.781,0.223,0.322,0.222,0.057,0.08,0.04,35.931,48.615,25.745,0.084,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,alpha_q2,cacao,0.898,0.982,0.87,0.634,0.734,0.438,0.043,0.09,0.035,30.443,37.771,10.884,0.191,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,alpha_q2,pasture,0.787,0.959,0.71,0.243,0.34,0.24,0.042,0.096,0.029,47.851,65.85,20.655,-0.011,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,braycurtis,cacao,0.996,0.998,0.989,0.224,0.304,0.112,0.178,0.212,0.142,11.493,14.404,10.05,0.493,detritivor,0.0,aerial
+Dung beetles,Beetles,Animalia,braycurtis,pasture,0.815,0.864,0.764,0.123,0.129,0.081,0.052,0.062,0.044,41.927,49.685,34.907,0.466,detritivor,0.0,aerial
+Nocturnal insects,Insects,Animalia,Abundance,cacao,1.0,1.0,1.0,0.842,0.956,0.728,15.8,16.06,11.268,0.029,0.068,0.0,-0.028,,,aerial
+Nocturnal insects,Insects,Animalia,Abundance,pasture,1.0,1.0,1.0,0.832,0.971,0.634,16.3,18.0,11.052,0.032,0.089,0.0,0.042,,,aerial
+Nocturnal insects,Insects,Animalia,alpha_q0,cacao,0.952,1.0,1.0,0.952,0.998,0.928,0.0,,,0.0,0.0,0.0,-0.018,,,aerial
+Nocturnal insects,Insects,Animalia,alpha_q0,pasture,1.0,1.0,1.0,0.888,0.903,0.844,15.2,15.82,14.5,0.007,0.029,0.0,-0.087,,,aerial
+Nocturnal insects,Insects,Animalia,alpha_q1,cacao,1.0,1.0,1.0,0.629,0.655,0.614,0.415,0.527,0.286,3.156,4.703,2.486,0.102,,,aerial
+Nocturnal insects,Insects,Animalia,alpha_q1,pasture,1.0,1.0,0.994,0.666,0.744,0.587,0.322,0.392,0.279,3.743,5.711,3.08,0.066,,,aerial
+Nocturnal insects,Insects,Animalia,alpha_q2,cacao,1.0,1.0,1.0,0.947,0.999,0.73,0.567,0.578,0.404,0.0,2.457,0.0,-0.113,,,aerial
+Nocturnal insects,Insects,Animalia,alpha_q2,pasture,0.884,1.0,0.743,0.884,0.915,0.743,0.0,0.185,0.0,9530000000000000.0,1.24279426417785e+19,0.0,-0.013,,,aerial
+Nocturnal insects,Insects,Animalia,braycurtis,cacao,0.537,0.574,0.51,0.244,0.248,0.239,0.016,0.019,0.014,123.649,139.937,105.941,-0.099,,,aerial
+Nocturnal insects,Insects,Animalia,braycurtis,pasture,0.486,0.508,0.462,0.202,0.223,0.181,0.015,0.016,0.013,141.526,158.035,128.811,0.382,,,aerial
+Moths,Moths,Animalia,Abundance,cacao,0.717,0.76,0.661,0.284,0.35,0.218,0.031,0.036,0.025,63.709,78.848,54.077,0.225,herbivor,2.0,aerial
+Moths,Moths,Animalia,Abundance,pasture,0.75,0.788,0.703,0.442,0.56,0.323,0.027,0.036,0.016,64.243,98.85,53.014,-0.064,herbivor,2.0,aerial
+Moths,Moths,Animalia,alpha_q0,cacao,0.712,0.754,0.67,0.545,0.657,0.433,0.015,0.025,0.005,98.973,248.556,70.408,0.072,herbivor,2.0,aerial
+Moths,Moths,Animalia,alpha_q0,pasture,0.749,0.777,0.731,0.731,0.761,0.701,0.002,0.006,0.0,429.329,1.16188076216465e+20,160.127,-0.001,herbivor,2.0,aerial
+Moths,Moths,Animalia,alpha_q1,cacao,0.889,1.0,0.778,0.889,0.983,0.761,0.0,0.002,0.0,83395349552042.0,3.12774559612423e+16,0.0,-0.165,herbivor,2.0,aerial
+Moths,Moths,Animalia,alpha_q1,pasture,1.0,1.0,1.0,0.873,0.889,0.859,0.358,0.408,0.335,1.037,1.434,0.638,0.006,herbivor,2.0,aerial
+Moths,Moths,Animalia,alpha_q2,cacao,1.0,1.0,1.0,0.787,0.813,0.763,11.659,12.48,4.689,0.085,0.217,0.069,-0.074,herbivor,2.0,aerial
+Moths,Moths,Animalia,alpha_q2,pasture,1.0,1.0,1.0,0.76,0.834,0.698,0.252,0.281,0.224,4.569,5.234,3.073,0.193,herbivor,2.0,aerial
+Moths,Moths,Animalia,braycurtis,cacao,0.814,0.843,0.791,0.564,0.668,0.46,0.028,0.04,0.016,51.963,73.237,42.513,0.23,herbivor,2.0,aerial
+Moths,Moths,Animalia,braycurtis,pasture,0.764,0.787,0.742,0.633,0.703,0.562,0.015,0.023,0.006,88.673,194.728,63.137,0.034,herbivor,2.0,aerial
+Bees,Bees,Animalia,Abundance,cacao,0.608,0.655,0.582,0.249,0.27,0.228,0.022,0.025,0.02,92.88,103.416,79.709,0.266,herbivor,2.0,aerial
+Bees,Bees,Animalia,Abundance,pasture,0.688,0.738,0.657,0.268,0.291,0.255,0.028,0.033,0.025,69.95,78.761,59.04,0.471,herbivor,2.0,aerial
+Bees,Bees,Animalia,alpha_q0,cacao,0.872,1.0,0.844,0.788,0.909,0.667,0.017,0.037,0.01,44.841,73.348,0.0,0.044,herbivor,2.0,aerial
+Bees,Bees,Animalia,alpha_q0,pasture,0.92,0.939,0.891,0.818,0.879,0.758,0.027,0.04,0.012,22.002,36.639,15.861,0.051,herbivor,2.0,aerial
+Bees,Bees,Animalia,alpha_q1,cacao,1.0,1.0,1.0,0.966,0.975,0.92,0.411,,,0.0,0.0,0.0,-0.018,herbivor,2.0,aerial
+Bees,Bees,Animalia,alpha_q1,pasture,0.988,1.0,0.954,0.988,0.988,0.857,0.0,0.942,0.038,0.0,9.488,0.0,-0.03,herbivor,2.0,aerial
+Bees,Bees,Animalia,alpha_q2,cacao,0.987,1.0,0.963,0.811,0.963,0.666,0.095,0.183,0.059,8.839,14.116,0.0,0.055,herbivor,2.0,aerial
+Bees,Bees,Animalia,alpha_q2,pasture,1.0,1.0,1.0,0.863,0.932,0.803,0.733,0.987,0.637,0.634,1.149,0.0,0.032,herbivor,2.0,aerial
+Bees,Bees,Animalia,braycurtis,cacao,0.969,0.982,0.95,0.422,0.466,0.378,0.097,0.116,0.081,18.082,21.586,15.093,0.427,herbivor,2.0,aerial
+Bees,Bees,Animalia,braycurtis,pasture,0.881,0.898,0.86,0.44,0.449,0.431,0.052,0.057,0.046,33.344,37.311,30.365,0.548,herbivor,2.0,aerial
+Ants,Ants,Animalia,Abundance,cacao,0.997,1.0,0.985,0.635,0.654,0.615,0.161,0.22,0.107,8.07,12.143,5.877,-0.014,omnivor,3.0,aerial
+Ants,Ants,Animalia,Abundance,pasture,0.961,0.968,0.951,0.731,0.769,0.692,0.065,0.071,0.057,15.288,17.482,13.933,0.259,omnivor,3.0,aerial
+Ants,Ants,Animalia,alpha_q0,cacao,0.997,1.0,0.985,0.635,0.654,0.615,0.161,0.22,0.107,8.07,12.143,5.877,-0.014,omnivor,3.0,aerial
+Ants,Ants,Animalia,alpha_q0,pasture,0.961,0.968,0.951,0.731,0.769,0.692,0.065,0.071,0.057,15.288,17.482,13.933,0.259,omnivor,3.0,aerial
+Ants,Ants,Animalia,alpha_q1,cacao,0.997,1.0,0.985,0.635,0.654,0.615,0.161,0.22,0.107,8.07,12.143,5.877,-0.014,omnivor,3.0,aerial
+Ants,Ants,Animalia,alpha_q1,pasture,0.961,0.968,0.951,0.731,0.769,0.692,0.065,0.071,0.057,15.288,17.482,13.933,0.259,omnivor,3.0,aerial
+Ants,Ants,Animalia,alpha_q2,cacao,0.997,1.0,0.985,0.635,0.654,0.615,0.161,0.22,0.107,8.07,12.143,5.877,-0.014,omnivor,3.0,aerial
+Ants,Ants,Animalia,alpha_q2,pasture,0.961,0.968,0.951,0.731,0.769,0.692,0.065,0.071,0.057,15.288,17.482,13.933,0.259,omnivor,3.0,aerial
+Ants,Ants,Animalia,braycurtis,cacao,0.866,0.883,0.848,0.344,0.393,0.295,0.053,0.06,0.046,35.51,39.003,32.585,0.572,omnivor,3.0,aerial
+Ants,Ants,Animalia,braycurtis,pasture,0.745,0.763,0.728,0.457,0.487,0.426,0.025,0.028,0.022,67.08,73.193,61.096,0.397,omnivor,3.0,aerial
+Frogs,Frogs,Animalia,Abundance,cacao,0.785,0.82,0.754,0.289,0.316,0.263,0.04,0.046,0.035,49.176,55.534,42.942,-0.135,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,Abundance,pasture,0.808,0.881,0.711,0.474,0.526,0.421,0.034,0.05,0.02,49.315,99.533,33.485,0.167,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,alpha_q0,cacao,0.988,1.0,0.933,0.333,0.375,0.3,0.134,0.246,0.078,14.122,24.913,7.582,0.386,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,alpha_q0,pasture,0.824,0.906,0.741,0.389,0.444,0.333,0.041,0.06,0.029,43.718,62.172,28.996,0.436,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,alpha_q1,cacao,0.955,0.975,0.928,0.392,0.414,0.369,0.086,0.106,0.072,20.881,25.368,16.968,0.545,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,alpha_q1,pasture,0.822,0.864,0.764,0.331,0.345,0.318,0.044,0.053,0.035,42.989,55.163,35.858,0.407,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,alpha_q2,cacao,0.92,0.943,0.884,0.44,0.47,0.411,0.065,0.077,0.053,26.562,32.883,22.505,0.542,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,alpha_q2,pasture,0.824,0.864,0.765,0.324,0.339,0.309,0.045,0.054,0.036,42.614,55.254,35.701,0.318,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,braycurtis,cacao,0.794,0.829,0.763,0.44,0.457,0.424,0.033,0.04,0.029,51.584,59.813,43.568,0.353,carnivor,4.0,terrestrial
+Frogs,Frogs,Animalia,braycurtis,pasture,0.85,0.89,0.818,0.215,0.224,0.207,0.055,0.065,0.049,37.398,42.211,31.521,0.747,carnivor,4.0,terrestrial
+Ground birds,Birds,Animalia,Abundance,cacao,1.0,1.0,0.457,1.0,1.0,0.308,0.1,0.369,0.0,0.0,82023962403916.6,0.0,-0.208,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,Abundance,pasture,1.0,1.0,1.0,0.0,0.0,0.0,3.0,3.0,1.637,0.768,4.583,0.768,-0.092,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,alpha_q0,cacao,1.0,1.0,1.0,1.0,1.0,0.5,0.1,1.8,1.8,0.0,0.894,0.0,-0.056,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,alpha_q0,pasture,1.0,1.0,1.0,0.0,0.0,0.0,3.1,3.2,2.344,0.743,1.097,0.72,0.074,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,alpha_q1,cacao,1.0,1.0,1.0,1.0,1.0,0.5,0.1,1.895,1.8,0.0,0.894,0.0,-0.017,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,alpha_q1,pasture,1.0,1.0,1.0,0.0,0.0,0.0,2.9,3.1,2.244,0.794,1.122,0.744,0.132,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,alpha_q2,cacao,1.0,1.0,1.0,1.0,1.0,0.5,0.1,1.895,1.8,0.0,0.894,0.0,-0.005,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,alpha_q2,pasture,1.0,1.0,1.0,0.0,0.0,0.0,2.9,2.95,2.18,0.794,1.143,0.781,0.148,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,braycurtis,cacao,0.556,0.614,0.478,0.0,0.0,0.0,0.027,0.032,0.022,85.098,107.584,72.716,0.439,frugivor,2.0,aerial
+Ground birds,Birds,Animalia,braycurtis,pasture,0.408,0.458,0.282,0.0,0.0,0.0,0.017,0.02,0.011,131.928,251.384,112.749,0.321,frugivor,2.0,aerial
+Birds,Birds,Animalia,Abundance,cacao,1.0,1.0,1.0,0.497,0.502,0.48,19.438,19.463,16.817,0.119,0.544,0.118,0.395,,,aerial
+Birds,Birds,Animalia,Abundance,pasture,0.935,0.987,0.87,0.559,0.637,0.498,0.081,0.144,0.045,25.47,39.054,16.025,0.008,,,aerial
+Birds,Birds,Animalia,alpha_q0,cacao,1.0,1.0,1.0,0.73,0.739,0.708,19.2,19.365,16.927,0.068,0.266,0.066,0.259,,,aerial
+Birds,Birds,Animalia,alpha_q0,pasture,0.992,0.997,0.975,0.778,0.802,0.754,0.118,0.16,0.085,8.882,13.92,7.173,0.092,,,aerial
+Birds,Birds,Animalia,alpha_q1,cacao,1.0,1.0,1.0,0.776,0.785,0.764,19.2,19.303,16.14,0.055,0.234,0.052,0.225,,,aerial
+Birds,Birds,Animalia,alpha_q1,pasture,1.0,1.0,0.997,0.778,0.788,0.766,5.434,15.914,0.149,0.193,7.034,0.063,0.105,,,aerial
+Birds,Birds,Animalia,alpha_q2,cacao,1.0,1.0,1.0,0.751,0.79,0.715,17.058,19.38,16.19,0.07,0.355,0.05,0.246,,,aerial
+Birds,Birds,Animalia,alpha_q2,pasture,1.0,1.0,0.998,0.751,0.777,0.727,17.873,17.908,0.172,0.067,6.954,0.059,0.155,,,aerial
+Birds,Birds,Animalia,braycurtis,cacao,0.964,0.969,0.957,0.537,0.564,0.511,0.085,0.092,0.078,17.976,19.344,17.037,0.579,,,aerial
+Birds,Birds,Animalia,braycurtis,pasture,0.888,0.9,0.877,0.532,0.546,0.518,0.048,0.051,0.044,32.334,34.751,29.965,0.483,,,aerial
+Frugivorous birds,Birds,Animalia,Abundance,cacao,0.458,0.625,0.458,0.458,0.625,0.458,0.0,0.0,0.0,1.67e+22,1.11227600453881e+24,344093549949444.0,-0.21,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,Abundance,pasture,0.579,0.826,0.536,0.579,0.789,0.433,0.0,2.345,0.0,1.54e+21,2.33655317298379e+22,384483006442677.0,-0.197,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,alpha_q0,cacao,1.0,1.0,1.0,0.333,0.333,0.286,14.6,14.68,12.1,0.13,0.24,0.129,-1.24,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,alpha_q0,pasture,0.5,0.664,0.5,0.5,0.598,0.465,0.0,2.449,0.0,1571496669456.44,1956748907612660.0,63.901,-0.001,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,alpha_q1,cacao,1.0,1.0,1.0,0.475,0.487,0.413,2.293,2.888,1.362,0.724,1.299,0.567,-1.138,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,alpha_q1,pasture,0.523,0.711,0.497,0.451,0.59,0.413,0.01,0.025,0.006,258.122,411.149,51.851,0.005,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,alpha_q2,cacao,1.0,1.0,1.0,0.5,0.518,0.438,1.146,1.555,0.997,1.405,1.709,1.162,-0.864,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,alpha_q2,pasture,0.596,0.736,0.564,0.545,0.682,0.499,0.007,0.023,0.003,304.219,824.155,55.127,0.007,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,braycurtis,cacao,0.993,0.999,0.91,0.0,0.0,0.0,0.165,0.257,0.08,13.92,28.71,9.058,0.157,frugivor,2.0,aerial
+Frugivorous birds,Birds,Animalia,braycurtis,pasture,0.733,0.925,0.596,0.499,0.588,0.342,0.021,0.047,0.007,76.693,219.367,23.728,0.046,frugivor,2.0,aerial
+Bats,Bats,Animalia,Abundance,cacao,1.0,1.0,1.0,0.75,0.816,0.684,0.763,0.839,0.716,1.201,1.482,0.801,-0.059,,,aerial
+Bats,Bats,Animalia,Abundance,pasture,1.0,1.0,0.999,0.711,0.816,0.605,0.318,1.167,0.236,3.342,4.616,2.1,-0.045,,,aerial
+Bats,Bats,Animalia,alpha_q0,cacao,0.997,1.0,1.0,0.957,1.0,0.917,0.087,,,0.0,0.0,0.0,0.008,,,aerial
+Bats,Bats,Animalia,alpha_q0,pasture,0.905,0.94,0.87,0.682,0.818,0.545,0.04,0.067,0.013,28.823,45.056,22.499,0.105,,,aerial
+Bats,Bats,Animalia,alpha_q1,cacao,1.0,1.0,1.0,0.967,0.986,0.92,14.9,,,0.0,0.0,0.0,-0.052,,,aerial
+Bats,Bats,Animalia,alpha_q1,pasture,0.832,0.854,0.795,0.627,0.666,0.587,0.027,0.032,0.021,49.629,62.574,42.19,0.109,,,aerial
+Bats,Bats,Animalia,alpha_q2,cacao,0.977,1.0,1.0,0.974,0.997,0.947,0.004,,,0.0,0.0,0.0,-0.001,,,aerial
+Bats,Bats,Animalia,alpha_q2,pasture,0.81,0.83,0.787,0.651,0.686,0.616,0.02,0.025,0.015,61.888,75.903,52.138,0.078,,,aerial
+Bats,Bats,Animalia,braycurtis,cacao,0.998,0.999,0.997,0.721,0.74,0.703,0.165,0.178,0.151,6.218,6.553,5.815,0.561,,,aerial
+Bats,Bats,Animalia,braycurtis,pasture,0.962,0.969,0.953,0.566,0.581,0.551,0.081,0.088,0.074,18.11,19.73,16.762,0.43,,,aerial
+Ground mammals,Mammals,Animalia,Abundance,cacao,1.0,1.0,0.991,0.281,0.5,0.063,17.6,17.8,0.286,0.112,8.429,0.09,0.031,,,terrestrial
+Ground mammals,Mammals,Animalia,Abundance,pasture,0.368,0.47,0.266,0.063,0.077,0.061,0.013,0.019,0.008,170.002,274.125,120.179,-0.116,,,terrestrial
+Ground mammals,Mammals,Animalia,alpha_q0,cacao,0.905,0.967,0.866,0.375,0.5,0.25,0.063,0.096,0.047,29.178,35.741,18.251,0.123,,,terrestrial
+Ground mammals,Mammals,Animalia,alpha_q0,pasture,0.587,0.681,0.5,0.25,0.286,0.25,0.02,0.027,0.014,101.295,157.072,72.938,-0.001,,,terrestrial
+Ground mammals,Mammals,Animalia,alpha_q1,cacao,0.955,0.981,0.934,0.505,0.644,0.367,0.08,0.104,0.063,20.039,23.768,14.275,0.286,,,terrestrial
+Ground mammals,Mammals,Animalia,alpha_q1,pasture,0.735,0.821,0.641,0.367,0.405,0.366,0.029,0.042,0.019,63.443,105.894,43.798,0.019,,,terrestrial
+Ground mammals,Mammals,Animalia,alpha_q2,cacao,0.988,0.993,0.982,0.626,0.77,0.481,0.115,0.135,0.097,11.435,13.155,8.517,0.238,,,terrestrial
+Ground mammals,Mammals,Animalia,alpha_q2,pasture,0.868,0.934,0.756,0.481,0.491,0.474,0.046,0.069,0.026,36.117,71.443,23.877,0.03,,,terrestrial
+Ground mammals,Mammals,Animalia,braycurtis,cacao,0.788,0.85,0.724,0.3,0.417,0.182,0.04,0.056,0.025,48.81,70.693,37.234,0.078,,,terrestrial
+Ground mammals,Mammals,Animalia,braycurtis,pasture,0.308,0.376,0.247,0.139,0.232,0.045,0.007,0.013,0.002,294.587,1167.792,175.96,-0.137,,,terrestrial
+Seedlings,Trees,Plantae,Abundance,cacao,0.535,0.641,0.387,0.0,0.0,0.0,0.026,0.034,0.016,90.113,141.981,67.485,0.027,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,Abundance,pasture,0.581,0.644,0.503,0.0,0.0,0.0,0.029,0.035,0.023,79.464,98.935,66.978,0.47,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,alpha_q0,cacao,0.489,0.571,0.407,0.0,0.0,0.0,0.022,0.028,0.017,102.864,132.479,81.859,-0.116,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,alpha_q0,pasture,0.589,0.652,0.513,0.0,0.0,0.0,0.03,0.035,0.024,77.632,96.155,65.562,0.471,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,alpha_q1,cacao,0.503,0.575,0.447,0.0,0.0,0.0,0.023,0.029,0.02,98.881,117.146,80.813,-0.234,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,alpha_q1,pasture,0.67,0.733,0.564,0.0,0.0,0.0,0.037,0.044,0.028,62.276,83.212,52.343,0.413,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,alpha_q2,cacao,0.522,0.589,0.473,0.0,0.0,0.0,0.025,0.03,0.021,93.511,108.07,77.905,-0.291,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,alpha_q2,pasture,0.725,0.79,0.595,0.0,0.0,0.0,0.043,0.052,0.03,53.471,76.475,44.26,0.362,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,braycurtis,cacao,0.7,0.76,0.642,0.0,0.0,0.0,0.04,0.048,0.034,57.328,67.25,48.405,0.257,autotroph,1.0,aerial
+Seedlings,Trees,Plantae,braycurtis,pasture,0.367,0.418,0.295,0.0,0.0,0.0,0.015,0.018,0.012,151.106,202.013,128.378,0.446,autotroph,1.0,aerial
+Trees,Trees,Plantae,Abundance,cacao,1.0,1.0,0.999,0.121,0.127,0.114,0.301,0.378,0.213,7.214,10.234,5.782,0.761,autotroph,1.0,aerial
+Trees,Trees,Plantae,Abundance,pasture,0.934,0.945,0.911,0.055,0.056,0.051,0.089,0.095,0.079,25.264,28.514,23.652,0.826,autotroph,1.0,aerial
+Trees,Trees,Plantae,alpha_q0,cacao,0.761,0.774,0.743,0.092,0.108,0.077,0.044,0.046,0.042,49.609,52.422,47.575,0.762,autotroph,1.0,aerial
+Trees,Trees,Plantae,alpha_q0,pasture,0.746,0.763,0.725,0.077,0.078,0.076,0.043,0.045,0.04,51.651,55.138,48.974,0.824,autotroph,1.0,aerial
+Trees,Trees,Plantae,alpha_q1,cacao,0.703,0.73,0.673,0.127,0.16,0.094,0.036,0.039,0.033,60.251,66.235,55.445,0.606,autotroph,1.0,aerial
+Trees,Trees,Plantae,alpha_q1,pasture,0.764,0.778,0.735,0.091,0.105,0.078,0.045,0.047,0.041,49.125,53.796,46.98,0.685,autotroph,1.0,aerial
+Trees,Trees,Plantae,alpha_q2,cacao,0.808,0.834,0.721,0.173,0.197,0.148,0.049,0.053,0.037,43.425,57.498,39.534,0.463,autotroph,1.0,aerial
+Trees,Trees,Plantae,alpha_q2,pasture,0.896,0.913,0.811,0.15,0.165,0.129,0.07,0.076,0.051,30.501,42.429,28.128,0.5,autotroph,1.0,aerial
+Trees,Trees,Plantae,braycurtis,cacao,0.526,0.559,0.502,0.015,0.015,0.014,0.024,0.027,0.023,93.665,100.62,85.303,0.6,autotroph,1.0,aerial
+Trees,Trees,Plantae,braycurtis,pasture,0.525,0.551,0.488,0.021,0.034,0.008,0.024,0.026,0.022,94.643,105.475,87.82,0.541,autotroph,1.0,aerial

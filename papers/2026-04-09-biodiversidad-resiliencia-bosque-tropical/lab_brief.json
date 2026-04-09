@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "paper_id": 2317,
+  "doi": "10.1038/s41586-026-10365-2",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Abundancia y diversidad recuperan >90% en 30 años",
+      "supported": "yes",
+      "detail": "Mediana abundancia: 94,8%, riqueza (q0): 93,2% (n=34 cada una). IQR abundancia: 72,5%–100%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Composición alcanza ~75% de similitud con bosque maduro",
+      "supported": "yes",
+      "detail": "Media braycurtis: 73,9%, mediana: 79,1% (IQR: 54,2%–88,7%, n=34). Paper reporta ~75%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Animales móviles resisten mejor que árboles/plántulas",
+      "supported": "yes",
+      "detail": "Murciélagos: 73% resistencia, insectos nocturnos: 84%. Plántulas: 0%, árboles: 9%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Velocidad de retorno contribuye 1–2,5× más que resistencia",
+      "supported": "yes",
+      "detail": "Rango en datos: 1,0× (composición-cacao) a 2,6× (riqueza-pasto). Paper: 1–2,5×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Mecanismos simples no explican variación entre taxa",
+      "supported": "partial",
+      "detail": "Gradiente resistencia-retorno visible, pero aves frugívoras (52% RR30) son caso atípico que rompe patrones simples.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 94.8,
+      "unit": "por ciento",
+      "context": "mediana recuperación abundancia a 30 años",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": ">90%",
+        "our_calculation": "94.8%",
+        "discrepancy_pct": 0,
+        "reason": "consistent"
+      }
+    },
+    {
+      "value": 93.2,
+      "unit": "por ciento",
+      "context": "mediana recuperación riqueza (q0) a 30 años",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": ">90%",
+        "our_calculation": "93.2%",
+        "discrepancy_pct": 0,
+        "reason": "consistent"
+      }
+    },
+    {
+      "value": 73.9,
+      "unit": "por ciento",
+      "context": "media recuperación composición (braycurtis)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~75%",
+        "our_calculation": "73.9%",
+        "discrepancy_pct": 1.5,
+        "reason": "paper uses different aggregation"
+      }
+    },
+    {
+      "value": 16,
+      "unit": "grupos taxonómicos",
+      "context": "de tres reinos en bosque tropical Ecuador",
+      "source": "abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "16",
+        "our_calculation": "17 (IncludeTaxon=1)",
+        "discrepancy_pct": 6.25,
+        "reason": "bacteria 10cm + 50cm may count as 1 in paper"
+      }
+    },
+    {
+      "value": 2.6,
+      "unit": "veces",
+      "context": "máximo ratio importancia lambda/resistencia (riqueza-pasto)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1-2.5×",
+        "our_calculation": "2.57×",
+        "discrepancy_pct": 2.8,
+        "reason": "paper rounds"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (observacional)"
+    },
+    {
+      "abstract_verb": "analyse",
+      "tier": "T1",
+      "cam_attenuator": "neutral — acción de investigación"
+    }
+  ],
+  "narrative_hooks": [
+    "¿Cuánto tarda un bosque tropical en volver a la vida? Menos de lo que piensas — pero no del todo.",
+    "Plántulas: 0% de resistencia a la tala. Y aún así, 30 años después están de vuelta.",
+    "No importa tanto resistir como regresar rápido."
+  ],
+  "limitations": [
+    "Diseño observacional (crono-secuencia) — la recuperación se infiere de sitios de diferente edad, no de seguimiento longitudinal",
+    "Datos del suplementario son promedios del modelo ajustado, no datos crudos de campo",
+    "Solo un sitio geográfico (Ecuador occidental) — generalización requiere cautela",
+    "Aves frugívoras (52% RR30) como caso atípico sugiere que factores no capturados influyen"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 5 números clave, historia rica con gradiente de recuperación"
+  },
+  "notebook_slug": "2026-04-09-biodiversidad-resiliencia-bosque-tropical",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook.html",
+  "generated_at": "2026-04-09T17:16:05.957074Z"
+}

@@ -12,6 +12,15 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Biodiversidad resiliente en un bosque tropical
+
+¿Cuánto tarda un bosque tropical en volver a la vida? 16 grupos taxonómicos en Ecuador — desde bacterias hasta murciélagos. La abundancia recupera >90% en 30 años, pero la composición de especies se queda en ~75%.
+
+[Notebook](papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook.ipynb) · [README](papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/README.md) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook.ipynb)
+
+---
+
+
 ### 🏭 Una Industria Causa el 86% de Estos Contaminantes
 
 **Ecología** · Nature Sustainability · Yang et al. (2025), inventario global de emisiones de Cl/BrPAHs usando XGBoost: 5.143 kg en 184 países, la sinterización de mineral de hierro genera el 86,1% del total. Australia lidera con 1.393 kg (27% global, 47 g/persona — 236× la mediana)

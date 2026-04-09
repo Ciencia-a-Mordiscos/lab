@@ -1,253 +1,248 @@
 format: jb-book
 root: intro
-
 parts:
-  - caption: Ecología
-    chapters:
-      - file: papers/2026-01-17-industria-86-contaminantes-emergentes/README
-        title: "Una industria causa el 86% de estos contaminantes"
-        sections:
-          - file: papers/2026-01-17-industria-86-contaminantes-emergentes/notebook
-            title: Notebook
-      - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/README
-        title: "Agricultura circular con agua de mar y sol"
-        sections:
-          - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/notebook
-            title: Notebook
-      - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/README
-        title: "Bosques tropicales ahora liberan carbono"
-        sections:
-          - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook
-            title: Notebook
-      - file: papers/2026-04-07-renovables-fortalecen-ecuador-sequia/README
-        title: "Renovables fortalecen a Ecuador contra la sequía"
-        sections:
-          - file: papers/2026-04-07-renovables-fortalecen-ecuador-sequia/notebook
-            title: Notebook
-      - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/README
-        title: "Olas de calor cambian 176% la vida oceánica"
-        sections:
-          - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook
-            title: Notebook
-      - file: papers/2026-04-04-estelas-aviones-hollin-bajo/README
-        title: "Estelas de aviones limpios siguen calentando"
-        sections:
-          - file: papers/2026-04-04-estelas-aviones-hollin-bajo/notebook
-            title: Notebook
-      - file: papers/2026-04-02-lluvia-pluviometros-planeta/README
-        title: "Nadie sabe cuánto llueve en el planeta"
-        sections:
-          - file: papers/2026-04-02-lluvia-pluviometros-planeta/notebook
-            title: Notebook
-      - file: papers/2026-03-28-carbono-bosques-virgenes/README
-        title: "Carbono de bosques vírgenes"
-        sections:
-          - file: papers/2026-03-28-carbono-bosques-virgenes/notebook
-            title: Notebook
-      - file: papers/2026-03-28-oceano-dispara-olas-de-calor/README
-        title: "Océano dispara olas de calor"
-        sections:
-          - file: papers/2026-03-28-oceano-dispara-olas-de-calor/notebook
-            title: Notebook
-      - file: papers/2026-03-24-termofilizacion-cumbres-alpinas/README
-        title: "Cumbres alpinas: termofilización 5x"
-        sections:
-          - file: papers/2026-03-24-termofilizacion-cumbres-alpinas/notebook
-            title: Notebook
-      - file: papers/2026-03-22-rios-mareas-swot-satelite/README
-        title: "Ríos con mareas: SWOT satelital"
-        sections:
-          - file: papers/2026-03-22-rios-mareas-swot-satelite/notebook
-            title: Notebook
-      - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/README
-        title: "248 químicos sintéticos en el océano"
-        sections:
-          - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook
-            title: Notebook
-      - file: papers/2026-03-21-oceano-profundo-emisiones-cero/README
-        title: "Océano profundo vs emisiones cero"
-        sections:
-          - file: papers/2026-03-21-oceano-profundo-emisiones-cero/notebook
-            title: Notebook
-      - file: papers/2026-03-17-ola-calor-32-especies/README
-        title: "Ola de calor vs 32 especies"
-        sections:
-          - file: papers/2026-03-17-ola-calor-32-especies/notebook
-            title: Notebook
-      - file: papers/2026-03-16-arrecifes-mpa-solo-5-porciento/README
-        title: "2.795 arrecifes: ¿sirve protegerlos?"
-        sections:
-          - file: papers/2026-03-16-arrecifes-mpa-solo-5-porciento/notebook
-            title: Notebook
-      - file: papers/2026-03-12-rios-swot-126mil-volumen/README
-        title: "126.674 ríos: SWOT mide el agua del mundo"
-        sections:
-          - file: papers/2026-03-12-rios-swot-126mil-volumen/notebook
-            title: Notebook
-      - file: papers/2026-03-11-nivel-mar-132-millones/README
-        title: "Nadie midió bien el nivel del mar"
-        sections:
-          - file: papers/2026-03-11-nivel-mar-132-millones/notebook
-            title: Notebook
-
-  - caption: Geología
-    chapters:
-      - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/README
-        title: "Circulación oceánica: la más débil en 1.300 años"
-        sections:
-          - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/notebook
-            title: Notebook
-      - file: papers/2026-03-28-rocas-hielo-groenlandia/README
-        title: "Rocas del hielo de Groenlandia"
-        sections:
-          - file: papers/2026-03-28-rocas-hielo-groenlandia/notebook
-            title: Notebook
-      - file: papers/2026-03-23-co2-estable-3-millones-anos/README
-        title: "CO₂ estable 3 millones de años"
-        sections:
-          - file: papers/2026-03-23-co2-estable-3-millones-anos/notebook
-            title: Notebook
-
-  - caption: Medicina
-    chapters:
-      - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
-        title: "Hormona alimenta tumores en niños"
-        sections:
-          - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook
-            title: Notebook
-      - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
-        title: "Cáncer despierta armas contra cerebro"
-        sections:
-          - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
-            title: Notebook
-
-  - caption: Neurociencia
-    chapters:
-      - file: papers/2026-03-30-hambre-despues-estudiar/README
-        title: "Hambre después de estudiar"
-        sections:
-          - file: papers/2026-03-30-hambre-despues-estudiar/notebook
-            title: Notebook
-
-  - caption: Arqueología
-    chapters:
-      - file: papers/2026-04-07-discontinuidad-paris-neolitico/README
-        title: "Discontinuidad genética en París al final del Neolítico"
-        sections:
-          - file: papers/2026-04-07-discontinuidad-paris-neolitico/notebook
-            title: Notebook
-      - file: papers/2026-03-27-monte-verde-fecha-mal/README
-        title: "Monte Verde: la fecha estaba mal"
-        sections:
-          - file: papers/2026-03-27-monte-verde-fecha-mal/notebook
-            title: Notebook
-
-  - caption: Biología
-    chapters:
-      - file: papers/2026-04-01-perros-cruzaron-europa/README
-        title: "Los mismos perros cruzaron toda Europa"
-        sections:
-          - file: papers/2026-04-01-perros-cruzaron-europa/notebook
-            title: Notebook
-      - file: papers/2026-03-26-musica-preferencias-animales/README
-        title: "Música: preferencias compartidas con animales"
-        sections:
-          - file: papers/2026-03-26-musica-preferencias-animales/notebook
-            title: Notebook
-      - file: papers/2026-03-13-pez-imposible-436-millones-anos/README
-        title: "Pez imposible de 436 millones de años"
-        sections:
-          - file: papers/2026-03-13-pez-imposible-436-millones-anos/notebook
-            title: Notebook
-
-  - caption: Astronomía
-    chapters:
-      - file: papers/2026-04-04-estrella-pristina-nube-magallanes/README
-        title: "Estrella casi prístina de la Nube de Magallanes"
-        sections:
-          - file: papers/2026-04-04-estrella-pristina-nube-magallanes/notebook
-            title: Notebook
-      - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/README
-        title: "TRAPPIST-1 b y c: rocas desnudas"
-        sections:
-          - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook
-            title: Notebook
-      - file: papers/2026-03-20-adn-bases-asteroide-ryugu/README
-        title: "Las 5 bases del ADN en un asteroide"
-        sections:
-          - file: papers/2026-03-20-adn-bases-asteroide-ryugu/notebook
-            title: Notebook
-      - file: papers/2026-03-19-estrellas-fuera-via-lactea/README
-        title: "Estrellas naciendo fuera de la Vía Láctea"
-        sections:
-          - file: papers/2026-03-19-estrellas-fuera-via-lactea/notebook
-            title: Notebook
-
-  - caption: Química
-    chapters:
-      - file: papers/2026-03-17-pfas-fabrican-baterias-litio/README
-        title: "PFAS: los forever chemicals fabrican baterías"
-        sections:
-          - file: papers/2026-03-17-pfas-fabrican-baterias-litio/notebook
-            title: Notebook
-
-  - caption: Física
-    chapters:
-      - file: papers/2026-03-11-diamante-hexagonal-meteoritos/README
-        title: "Diamante hexagonal: el cristal de los meteoritos"
-        sections:
-          - file: papers/2026-03-11-diamante-hexagonal-meteoritos/notebook
-            title: Notebook
-
-  - caption: Tecnología
-    chapters:
-      - file: papers/2026-04-08-busgen-ecografia-mama-ia/README
-        title: "IA con imágenes inventadas vs 9 radiólogos"
-        sections:
-          - file: papers/2026-04-08-busgen-ecografia-mama-ia/notebook
-            title: Notebook
-      - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/README
-        title: "Evo 2: IA que lee todo el ADN de la vida"
-        sections:
-          - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook
-            title: Notebook
-      - file: papers/2026-04-05-robustez-analitica-ciencias-sociales/README
-        title: "¿Se puede confiar en un solo análisis?"
-        sections:
-          - file: papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook
-            title: Notebook
-      - file: papers/2026-04-05-replicabilidad-ciencias-sociales/README
-        title: "¿Se puede replicar la ciencia social?"
-        sections:
-          - file: papers/2026-04-05-replicabilidad-ciencias-sociales/notebook
-            title: Notebook
-      - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/README
-        title: "¿Se puede confiar en la ciencia social?"
-        sections:
-          - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/notebook
-            title: Notebook
-      - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/README
-        title: "La IA aduladora reduce la intención prosocial"
-        sections:
-          - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/notebook
-            title: Notebook
-      - file: papers/2026-04-02-ia-scientist-paper-autonomo/README
-        title: "¿Puede una IA revisar papers como un humano?"
-        sections:
-          - file: papers/2026-04-02-ia-scientist-paper-autonomo/notebook
-            title: Notebook
-      - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/README
-        title: "74 antibióticos imposibles de encontrar"
-        sections:
-          - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook
-            title: Notebook
-      - file: papers/2026-03-20-reloj-predice-diabetes/README
-        title: "Tu reloj ya predice diabetes tipo 2"
-        sections:
-          - file: papers/2026-03-20-reloj-predice-diabetes/notebook
-            title: Notebook
-      - file: papers/2026-03-12-ia-pronostico-aerosoles/README
-        title: "IA destruye décadas de pronósticos del aire"
-        sections:
-          - file: papers/2026-03-12-ia-pronostico-aerosoles/notebook
-            title: Notebook
+- caption: Ecología
+  chapters:
+  - file: papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/README
+    title: Biodiversidad resiliente en bosque tropical
+    sections:
+    - file: papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook
+      title: Notebook
+  - file: papers/2026-01-17-industria-86-contaminantes-emergentes/README
+    title: Una industria causa el 86% de estos contaminantes
+    sections:
+    - file: papers/2026-01-17-industria-86-contaminantes-emergentes/notebook
+      title: Notebook
+  - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/README
+    title: Agricultura circular con agua de mar y sol
+    sections:
+    - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/notebook
+      title: Notebook
+  - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/README
+    title: Bosques tropicales ahora liberan carbono
+    sections:
+    - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook
+      title: Notebook
+  - file: papers/2026-04-07-renovables-fortalecen-ecuador-sequia/README
+    title: Renovables fortalecen a Ecuador contra la sequía
+    sections:
+    - file: papers/2026-04-07-renovables-fortalecen-ecuador-sequia/notebook
+      title: Notebook
+  - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/README
+    title: Olas de calor cambian 176% la vida oceánica
+    sections:
+    - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook
+      title: Notebook
+  - file: papers/2026-04-04-estelas-aviones-hollin-bajo/README
+    title: Estelas de aviones limpios siguen calentando
+    sections:
+    - file: papers/2026-04-04-estelas-aviones-hollin-bajo/notebook
+      title: Notebook
+  - file: papers/2026-04-02-lluvia-pluviometros-planeta/README
+    title: Nadie sabe cuánto llueve en el planeta
+    sections:
+    - file: papers/2026-04-02-lluvia-pluviometros-planeta/notebook
+      title: Notebook
+  - file: papers/2026-03-28-carbono-bosques-virgenes/README
+    title: Carbono de bosques vírgenes
+    sections:
+    - file: papers/2026-03-28-carbono-bosques-virgenes/notebook
+      title: Notebook
+  - file: papers/2026-03-28-oceano-dispara-olas-de-calor/README
+    title: Océano dispara olas de calor
+    sections:
+    - file: papers/2026-03-28-oceano-dispara-olas-de-calor/notebook
+      title: Notebook
+  - file: papers/2026-03-24-termofilizacion-cumbres-alpinas/README
+    title: 'Cumbres alpinas: termofilización 5x'
+    sections:
+    - file: papers/2026-03-24-termofilizacion-cumbres-alpinas/notebook
+      title: Notebook
+  - file: papers/2026-03-22-rios-mareas-swot-satelite/README
+    title: 'Ríos con mareas: SWOT satelital'
+    sections:
+    - file: papers/2026-03-22-rios-mareas-swot-satelite/notebook
+      title: Notebook
+  - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/README
+    title: 248 químicos sintéticos en el océano
+    sections:
+    - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook
+      title: Notebook
+  - file: papers/2026-03-21-oceano-profundo-emisiones-cero/README
+    title: Océano profundo vs emisiones cero
+    sections:
+    - file: papers/2026-03-21-oceano-profundo-emisiones-cero/notebook
+      title: Notebook
+  - file: papers/2026-03-17-ola-calor-32-especies/README
+    title: Ola de calor vs 32 especies
+    sections:
+    - file: papers/2026-03-17-ola-calor-32-especies/notebook
+      title: Notebook
+  - file: papers/2026-03-16-arrecifes-mpa-solo-5-porciento/README
+    title: '2.795 arrecifes: ¿sirve protegerlos?'
+    sections:
+    - file: papers/2026-03-16-arrecifes-mpa-solo-5-porciento/notebook
+      title: Notebook
+  - file: papers/2026-03-12-rios-swot-126mil-volumen/README
+    title: '126.674 ríos: SWOT mide el agua del mundo'
+    sections:
+    - file: papers/2026-03-12-rios-swot-126mil-volumen/notebook
+      title: Notebook
+  - file: papers/2026-03-11-nivel-mar-132-millones/README
+    title: Nadie midió bien el nivel del mar
+    sections:
+    - file: papers/2026-03-11-nivel-mar-132-millones/notebook
+      title: Notebook
+- caption: Geología
+  chapters:
+  - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/README
+    title: 'Circulación oceánica: la más débil en 1.300 años'
+    sections:
+    - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/notebook
+      title: Notebook
+  - file: papers/2026-03-28-rocas-hielo-groenlandia/README
+    title: Rocas del hielo de Groenlandia
+    sections:
+    - file: papers/2026-03-28-rocas-hielo-groenlandia/notebook
+      title: Notebook
+  - file: papers/2026-03-23-co2-estable-3-millones-anos/README
+    title: CO₂ estable 3 millones de años
+    sections:
+    - file: papers/2026-03-23-co2-estable-3-millones-anos/notebook
+      title: Notebook
+- caption: Medicina
+  chapters:
+  - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
+    title: Hormona alimenta tumores en niños
+    sections:
+    - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook
+      title: Notebook
+  - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
+    title: Cáncer despierta armas contra cerebro
+    sections:
+    - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
+      title: Notebook
+- caption: Neurociencia
+  chapters:
+  - file: papers/2026-03-30-hambre-despues-estudiar/README
+    title: Hambre después de estudiar
+    sections:
+    - file: papers/2026-03-30-hambre-despues-estudiar/notebook
+      title: Notebook
+- caption: Arqueología
+  chapters:
+  - file: papers/2026-04-07-discontinuidad-paris-neolitico/README
+    title: Discontinuidad genética en París al final del Neolítico
+    sections:
+    - file: papers/2026-04-07-discontinuidad-paris-neolitico/notebook
+      title: Notebook
+  - file: papers/2026-03-27-monte-verde-fecha-mal/README
+    title: 'Monte Verde: la fecha estaba mal'
+    sections:
+    - file: papers/2026-03-27-monte-verde-fecha-mal/notebook
+      title: Notebook
+- caption: Biología
+  chapters:
+  - file: papers/2026-04-01-perros-cruzaron-europa/README
+    title: Los mismos perros cruzaron toda Europa
+    sections:
+    - file: papers/2026-04-01-perros-cruzaron-europa/notebook
+      title: Notebook
+  - file: papers/2026-03-26-musica-preferencias-animales/README
+    title: 'Música: preferencias compartidas con animales'
+    sections:
+    - file: papers/2026-03-26-musica-preferencias-animales/notebook
+      title: Notebook
+  - file: papers/2026-03-13-pez-imposible-436-millones-anos/README
+    title: Pez imposible de 436 millones de años
+    sections:
+    - file: papers/2026-03-13-pez-imposible-436-millones-anos/notebook
+      title: Notebook
+- caption: Astronomía
+  chapters:
+  - file: papers/2026-04-04-estrella-pristina-nube-magallanes/README
+    title: Estrella casi prístina de la Nube de Magallanes
+    sections:
+    - file: papers/2026-04-04-estrella-pristina-nube-magallanes/notebook
+      title: Notebook
+  - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/README
+    title: 'TRAPPIST-1 b y c: rocas desnudas'
+    sections:
+    - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook
+      title: Notebook
+  - file: papers/2026-03-20-adn-bases-asteroide-ryugu/README
+    title: Las 5 bases del ADN en un asteroide
+    sections:
+    - file: papers/2026-03-20-adn-bases-asteroide-ryugu/notebook
+      title: Notebook
+  - file: papers/2026-03-19-estrellas-fuera-via-lactea/README
+    title: Estrellas naciendo fuera de la Vía Láctea
+    sections:
+    - file: papers/2026-03-19-estrellas-fuera-via-lactea/notebook
+      title: Notebook
+- caption: Química
+  chapters:
+  - file: papers/2026-03-17-pfas-fabrican-baterias-litio/README
+    title: 'PFAS: los forever chemicals fabrican baterías'
+    sections:
+    - file: papers/2026-03-17-pfas-fabrican-baterias-litio/notebook
+      title: Notebook
+- caption: Física
+  chapters:
+  - file: papers/2026-03-11-diamante-hexagonal-meteoritos/README
+    title: 'Diamante hexagonal: el cristal de los meteoritos'
+    sections:
+    - file: papers/2026-03-11-diamante-hexagonal-meteoritos/notebook
+      title: Notebook
+- caption: Tecnología
+  chapters:
+  - file: papers/2026-04-08-busgen-ecografia-mama-ia/README
+    title: IA con imágenes inventadas vs 9 radiólogos
+    sections:
+    - file: papers/2026-04-08-busgen-ecografia-mama-ia/notebook
+      title: Notebook
+  - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/README
+    title: 'Evo 2: IA que lee todo el ADN de la vida'
+    sections:
+    - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook
+      title: Notebook
+  - file: papers/2026-04-05-robustez-analitica-ciencias-sociales/README
+    title: ¿Se puede confiar en un solo análisis?
+    sections:
+    - file: papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook
+      title: Notebook
+  - file: papers/2026-04-05-replicabilidad-ciencias-sociales/README
+    title: ¿Se puede replicar la ciencia social?
+    sections:
+    - file: papers/2026-04-05-replicabilidad-ciencias-sociales/notebook
+      title: Notebook
+  - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/README
+    title: ¿Se puede confiar en la ciencia social?
+    sections:
+    - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/notebook
+      title: Notebook
+  - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/README
+    title: La IA aduladora reduce la intención prosocial
+    sections:
+    - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/notebook
+      title: Notebook
+  - file: papers/2026-04-02-ia-scientist-paper-autonomo/README
+    title: ¿Puede una IA revisar papers como un humano?
+    sections:
+    - file: papers/2026-04-02-ia-scientist-paper-autonomo/notebook
+      title: Notebook
+  - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/README
+    title: 74 antibióticos imposibles de encontrar
+    sections:
+    - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook
+      title: Notebook
+  - file: papers/2026-03-20-reloj-predice-diabetes/README
+    title: Tu reloj ya predice diabetes tipo 2
+    sections:
+    - file: papers/2026-03-20-reloj-predice-diabetes/notebook
+      title: Notebook
+  - file: papers/2026-03-12-ia-pronostico-aerosoles/README
+    title: IA destruye décadas de pronósticos del aire
+    sections:
+    - file: papers/2026-03-12-ia-pronostico-aerosoles/notebook
+      title: Notebook

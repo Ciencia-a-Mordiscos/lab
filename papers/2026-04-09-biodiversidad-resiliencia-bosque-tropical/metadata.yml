@@ -1,0 +1,25 @@
+titulo: "Biodiversidad resiliente en un bosque tropical"
+fecha: 2026-04-09
+categoria: ecologia
+tags: [biodiversidad, bosque-tropical, recuperacion, resistencia, velocidad-retorno, ecuador, cronose cuencia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10365-2"
+    titulo: "Biodiversity resilience in a tropical rainforest"
+    journal: Nature
+    autores: "Giunta et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "recuperacion_taxa.csv"
+    descripcion: "Recuperación, resistencia y velocidad de retorno por taxón, métrica y legado"
+    fuente: "Supplementary Materials (MOESM3)"
+  - nombre: "importancia_lambda_resistencia.csv"
+    descripcion: "Ratios de importancia relativa lambda vs resistencia"
+    fuente: "Supplementary Materials (MOESM9)"
+  - nombre: "parcelas.csv"
+    descripcion: "Metadatos de las 64 parcelas de estudio"
+    fuente: "Supplementary Materials (MOESM8)"
+estado: publicado
