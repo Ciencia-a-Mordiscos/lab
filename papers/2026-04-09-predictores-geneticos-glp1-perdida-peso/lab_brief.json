@@ -1,0 +1,162 @@
+{
+    "version": "1.0",
+    "paper_id": 2320,
+    "doi": "10.1038/s41586-026-10330-z",
+    "paper_type": "observational",
+    "study_design": "genome-wide association study (GWAS) + pharmacogenomics cohort",
+    "species": "Homo sapiens",
+    "verification_table": [
+        {
+            "claim": "Genotipo CC triplica riesgo de vómitos en tirzepatida",
+            "supported": "yes",
+            "detail": "CC 11,8% vs GG 3,9% = 3,0×. Chi-cuadrado = 44,5, p = 2,2e-10. n = 5.638 (tirzepatida).",
+            "certainty_tier": "T1",
+            "abstract_verb": "show",
+            "effect_size": "3,0× (ratio de prevalencias)"
+        },
+        {
+            "claim": "El efecto GIPR está restringido a tirzepatida (no semaglutida)",
+            "supported": "yes",
+            "detail": "Semaglutida: CC 9,4% vs GG 9,7% = 0,97×, p = 0,70 (no significativo). n = 10.379.",
+            "certainty_tier": "T1",
+            "abstract_verb": "show",
+            "effect_size": "0,97× (no significativo)"
+        },
+        {
+            "claim": "Variante rs10305420 (GLP1R) se asocia con mayor pérdida de peso",
+            "supported": "yes",
+            "detail": "Efecto = -0,64% IMC por alelo, p = 2,9e-10. El paper reporta -0,76 kg (conversión del modelo).",
+            "certainty_tier": "T1",
+            "abstract_verb": "identify",
+            "effect_size": "-0,64% IMC por alelo T"
+        },
+        {
+            "claim": "Modelo con genética apenas mejora predicción de pérdida de peso",
+            "supported": "yes",
+            "detail": "R² = 0,243 con genética vs 0,242 sin ella. ΔR² = 0,001. La genética disponible no es clínicamente relevante para eficacia.",
+            "certainty_tier": "T1",
+            "abstract_verb": "show",
+            "effect_size": "ΔR² = 0,001"
+        },
+        {
+            "claim": "Genética mejora predicción de vómitos (AUC +0,022)",
+            "supported": "yes",
+            "detail": "AUC vómitos: 0,679 con genética vs 0,657 sin ella. Δ = +0,022. Mejora modesta pero consistente con náusea (+0,011).",
+            "certainty_tier": "T1",
+            "abstract_verb": "show",
+            "effect_size": "ΔAUC = +0,022"
+        },
+        {
+            "claim": "Tirzepatida produce mayor pérdida de peso que semaglutida",
+            "supported": "yes",
+            "detail": "Mounjaro mujeres: -15,8% IMC. Wegovy mujeres: -11,2%. Diferencia consistente en ambos sexos.",
+            "certainty_tier": "T1",
+            "abstract_verb": "show",
+            "effect_size": "~4,6 pp diferencia en mujeres"
+        }
+    ],
+    "key_numbers": [
+        {
+            "value": 27885,
+            "unit": "participantes",
+            "context": "cohorte total (4.908 hombres + 22.977 mujeres)",
+            "source": "supplementary",
+            "verified": true,
+            "cross_check": {
+                "paper_reported": "27,885",
+                "our_calculation": "27,885 (suma de filas resumen_farmacos.csv)",
+                "discrepancy_pct": 0,
+                "reason": "match exacto"
+            }
+        },
+        {
+            "value": 3.0,
+            "unit": "veces",
+            "context": "ratio prevalencia vómitos CC vs GG en tirzepatida (11,8% / 3,9%)",
+            "source": "supplementary",
+            "verified": true,
+            "cross_check": {
+                "paper_reported": "~3×",
+                "our_calculation": "3,03×",
+                "discrepancy_pct": 1,
+                "reason": "redondeo"
+            }
+        },
+        {
+            "value": -0.64,
+            "unit": "% IMC por alelo",
+            "context": "efecto de rs10305420 (GLP1R) sobre pérdida de peso",
+            "source": "supplementary",
+            "verified": true,
+            "cross_check": {
+                "paper_reported": "-0.76 kg",
+                "our_calculation": "-0,64% IMC (coeficiente del modelo)",
+                "discrepancy_pct": null,
+                "reason": "unidades diferentes: paper reporta kg, modelo usa % IMC"
+            }
+        },
+        {
+            "value": 9,
+            "unit": "variantes genómicas significativas",
+            "context": "index SNPs en 6 fenotipos (GWAS p < 5e-8)",
+            "source": "supplementary",
+            "verified": true,
+            "cross_check": {
+                "paper_reported": "9 index variants",
+                "our_calculation": "9 (variantes_gwas.csv)",
+                "discrepancy_pct": 0,
+                "reason": "match exacto"
+            }
+        },
+        {
+            "value": -15.8,
+            "unit": "% cambio IMC",
+            "context": "mediana pérdida de peso, Mounjaro mujeres (mejor subgrupo)",
+            "source": "supplementary",
+            "verified": true,
+            "cross_check": {
+                "paper_reported": "reported in Extended Data",
+                "our_calculation": "-15,8% (resumen_farmacos.csv)",
+                "discrepancy_pct": 0,
+                "reason": "extraído directamente de Supplementary Table"
+            }
+        }
+    ],
+    "certeza_mapping": [
+        {
+            "abstract_verb": "show",
+            "tier": "T1",
+            "cam_attenuator": "afirmación directa (observacional)"
+        },
+        {
+            "abstract_verb": "identify",
+            "tier": "T1",
+            "cam_attenuator": "neutral — acción de investigación"
+        },
+        {
+            "abstract_verb": "predict",
+            "tier": "T2",
+            "cam_attenuator": "los datos sugieren — modelo predictivo, no causal"
+        }
+    ],
+    "narrative_hooks": [
+        "27.885 personas tomaron semaglutida o tirzepatida. Una sola variante en tu ADN puede triplicar el riesgo de vómitos — pero solo con uno de los dos fármacos.",
+        "¿Por qué algunos pierden el 20% de su peso con Ozempic y otros apenas un 2%? Un GWAS con casi 28.000 personas encontró las primeras respuestas genéticas.",
+        "Tu genoma decide si Mounjaro te hace vomitar. Con Wegovy, la misma variante no importa."
+    ],
+    "limitations": [
+        "Cohorte de 23andMe — participantes autorreportados, posible sesgo de selección (población europea mayoritaria)",
+        "Datos individuales no públicos (privacy-protected). Solo supplementary tables agregados + GWAS summary stats",
+        "Diseño observacional — la variante GIPR se ASOCIA con vómitos, no se demuestra causalidad",
+        "Modelo predictivo con R² = 0,243 para eficacia — el 76% de la varianza no está explicada",
+        "ΔR² genético = 0,001 — la genética disponible es estadísticamente significativa pero clínicamente marginal para predecir pérdida de peso"
+    ],
+    "suggested_word_range": {
+        "min": 230,
+        "max": 280,
+        "reason": "6 claims verificados, 5 números clave, interacción gen×fármaco rica para narrativa, GWAS + modelo predictivo"
+    },
+    "notebook_slug": "2026-04-09-predictores-geneticos-glp1-perdida-peso",
+    "lab_url": "https://cienciaamordiscos.com/papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/notebook.html",
+    "generated_at": "2026-04-09T12:50:00Z"
+}

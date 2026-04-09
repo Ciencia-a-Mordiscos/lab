@@ -1,0 +1,10 @@
+association,phenotype,rsid,chromosome,position,alleles,gene,pvalue,effect,stderr
+1,glp_side_effect_nausea_semaglutide_or_tirzepatide,rs9357296,chr6,39011352,A/G,[DNAH8],2.574554e-28,0.3082864,0.02792879
+2,glp_side_effect_vomiting_semaglutide_or_tirzepatide,rs11760106,chr6,39051898,G/T,[GLP1R],2.457518e-27,0.4481307,0.04146371
+3,glp_prct_bmi_change,rs10305420,chr6,39048860,C/T,[GLP1R],2.912191e-10,-0.6406057,0.10162849
+4,glp_side_effect_taste_semaglutide_or_tirzepatide,rs182734393,chr9,13779444,A/G,MPDZ---[]---NFIB,6.425635e-09,-2.8578245,0.4511009
+5,glp_side_effect_diarrhea_semaglutide_or_tirzepatide,rs565008469,chr13,44741529,A/T,TSC22D1---[]---NUFIP1,1.303858e-08,2.8286481,0.51770618
+6,glp_side_effect_face_sagging_semaglutide_or_tirzepatide,rs182776984,chr10,129072639,A/G,MKI67---[]---MGMT,1.558821e-08,-1.6345663,0.25253646
+7,glp_side_effect_stomach_pain_semaglutide_or_tirzepatide,rs8192836:T_TCA,chr7,139959007,D/I,[TBXAS1],3.13957e-08,1.8159798,0.3034328
+8,glp_prct_bmi_change,rs547461806,chr15,78020214,C/T,[TBC1D2B],3.802475e-08,-6.266289,1.13954445
+9,glp_side_effect_constipation_semaglutide_or_tirzepatide,rs188118656,chr14,64672791,A/G,PPP1R36--[]--PLEKHG3,4.969827e-08,8.6342395,4.8002627

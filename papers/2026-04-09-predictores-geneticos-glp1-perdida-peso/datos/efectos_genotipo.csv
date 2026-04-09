@@ -1,0 +1,13 @@
+efecto,genotipo,farmaco,casos,total,prevalencia_pct
+vomiting,CC,tirzepatide,33,280,11.8
+vomiting,CC,semaglutide,75,797,9.4
+vomiting,CG,tirzepatide,139,2452,5.7
+vomiting,CG,semaglutide,557,5963,9.3
+vomiting,GG,tirzepatide,210,5401,3.9
+vomiting,GG,semaglutide,1210,12448,9.7
+nausea,CC,tirzepatide,77,280,27.5
+nausea,CC,semaglutide,218,797,27.4
+nausea,CG,tirzepatide,514,2452,21.0
+nausea,CG,semaglutide,1621,5963,27.2
+nausea,GG,tirzepatide,914,5401,16.9
+nausea,GG,semaglutide,3325,12448,26.7

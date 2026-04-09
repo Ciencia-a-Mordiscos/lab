@@ -1,0 +1,13 @@
+phenotype,auc_with_genetics,auc_without_genetics,type
+muscle weakness,,0.553087,side_effect
+constipation,,0.569591,side_effect
+pleasure eating,,0.588831,side_effect
+taste,,0.600748,side_effect
+stomach pain,,0.61083,side_effect
+appetite,,0.614454,side_effect
+diarrhea,,0.624503,side_effect
+nausea,0.653693,0.642513,side_effect
+vomiting,0.679102,0.656887,side_effect
+butt sagging,,0.697208,side_effect
+face sagging,,0.702935,side_effect
+BMI loss %,0.24311,0.241688,efficacy_r2

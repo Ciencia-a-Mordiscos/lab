@@ -112,6 +112,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/README
+    title: 'GLP1: tu ADN decide los efectos secundarios'
+    sections:
+    - file: papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/notebook
+      title: Notebook
   - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
     title: Hormona alimenta tumores en niños
     sections:

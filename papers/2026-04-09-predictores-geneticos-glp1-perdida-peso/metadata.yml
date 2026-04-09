@@ -1,0 +1,37 @@
+titulo: "Predictores genéticos de pérdida de peso con GLP1"
+fecha: 2026-04-09
+categoria: medicina
+tags: [farmacogenomica, glp1, tirzepatida, semaglutida, gwas, obesidad, efectos-secundarios, medicina-precision]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10330-z"
+    titulo: "Genetic predictors of GLP1 receptor agonist weight loss and side effects"
+    journal: Nature
+    autores: "Aschebrook-Kilfoy et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "efectos_genotipo.csv"
+    descripcion: "Prevalencia de náusea y vómitos por genotipo GIPR rs1800437 × fármaco"
+    fuente: "Supplementary Table 14"
+  - nombre: "resumen_farmacos.csv"
+    descripcion: "Demografía, cambio de IMC y efectos secundarios por fármaco y sexo"
+    fuente: "Supplementary Tables 1-2, 15"
+  - nombre: "variantes_gwas.csv"
+    descripcion: "9 variantes con significancia genómica de 6 fenotipos"
+    fuente: "Supplementary Table 7"
+  - nombre: "modelo_eficacia.csv"
+    descripcion: "Coeficientes del modelo predictivo de eficacia"
+    fuente: "Supplementary Table 20"
+  - nombre: "rendimiento_modelo.csv"
+    descripcion: "AUC y R² con y sin componente genético para 12 fenotipos"
+    fuente: "Supplementary Table 19"
+  - nombre: "gwas_peso_cambio.csv"
+    descripcion: "Summary statistics del GWAS de cambio de peso (p < 1e-4)"
+    fuente: "GWAS Summary Statistics (MOESM4)"
+  - nombre: "gwas_resumen_fenotipos.csv"
+    descripcion: "Resumen de señales significativas por fenotipo"
+    fuente: "GWAS Summary Statistics (MOESM4)"
+estado: publicado
