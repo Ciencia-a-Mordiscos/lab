@@ -1,0 +1,25 @@
+titulo: "La importancia de la competencia y la facilitación para la diversidad arbórea global"
+fecha: 2026-04-10
+categoria: ecologia
+tags: [ecología, bosques, diversidad, latitud, competencia, facilitación, ForestGEO]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10349-2"
+    titulo: "The importance of competition and facilitation for global tree diversity"
+    journal: Nature
+    autores: "Detto et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "proporciones_relativas.csv"
+    descripcion: "Proporción relativa de facilitación por parcela (17), radio (8) y métrica (2)"
+    fuente: "Supplementary Table MOESM3"
+  - nombre: "proporciones_absolutas.csv"
+    descripcion: "Proporciones absolutas de competencia y facilitación por parcela"
+    fuente: "Supplementary Table MOESM4"
+  - nombre: "sitios_forestales.csv"
+    descripcion: "Metadatos de 17 parcelas ForestGEO"
+    fuente: "GitHub mdetto/Positive-Interactions"
+estado: publicado

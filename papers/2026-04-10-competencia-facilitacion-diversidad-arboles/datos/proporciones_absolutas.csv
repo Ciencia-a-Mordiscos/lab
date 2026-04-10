@@ -1,0 +1,137 @@
+plot,latitude,radius_m,standardized,interaction,metric,p_latitude,proportion
+Barro Colorado Island (BCI),10.4156,2,not standardized,positive,abundance,>0.05,0.209220
+Baishanzu,41.6342,2,not standardized,positive,abundance,>0.05,0.113772
+Chebaling,29.1729,2,not standardized,positive,abundance,>0.05,0.136612
+Dinghushan,26.3227,2,not standardized,positive,abundance,>0.05,0.111765
+Gutianshan,34.4797,2,not standardized,positive,abundance,>0.05,0.136000
+Heishiding,28.3736,2,not standardized,positive,abundance,>0.05,0.068293
+Jianfengling,27.2128,2,not standardized,positive,abundance,>0.05,0.250896
+Luquillo,21.7541,2,not standardized,positive,abundance,>0.05,0.161017
+Nanling,35.1059,2,not standardized,positive,abundance,>0.05,0.102326
+Palanan,18.3141,2,not standardized,positive,abundance,>0.05,0.128713
+Pasoh,3.7027,2,not standardized,positive,abundance,>0.05,0.066667
+Puer,36.3544,2,not standardized,positive,abundance,>0.05,0.070485
+Rabi,2.5922,2,not standardized,positive,abundance,>0.05,0.121019
+Tai Po Kau,24.2371,2,not standardized,positive,abundance,>0.05,0.090323
+Utah,64.6870,2,not standardized,positive,abundance,>0.05,0.071429
+Wanang,6.5113,2,not standardized,positive,abundance,>0.05,0.178707
+Yasuni,2.7351,2,not standardized,positive,abundance,>0.05,0.079689
+Barro Colorado Island (BCI),10.4156,2,not standardized,positive,richness,<0.05,0.230496
+Baishanzu,41.6342,2,not standardized,positive,richness,<0.05,0.275449
+Chebaling,29.1729,2,not standardized,positive,richness,<0.05,0.180328
+Dinghushan,26.3227,2,not standardized,positive,richness,<0.05,0.152941
+Gutianshan,34.4797,2,not standardized,positive,richness,<0.05,0.184000
+Heishiding,28.3736,2,not standardized,positive,richness,<0.05,0.200000
+Jianfengling,27.2128,2,not standardized,positive,richness,<0.05,0.286738
+Luquillo,21.7541,2,not standardized,positive,richness,<0.05,0.152542
+Nanling,35.1059,2,not standardized,positive,richness,<0.05,0.195349
+Palanan,18.3141,2,not standardized,positive,richness,<0.05,0.132013
+Pasoh,3.7027,2,not standardized,positive,richness,<0.05,0.103030
+Puer,36.3544,2,not standardized,positive,richness,<0.05,0.105727
+Rabi,2.5922,2,not standardized,positive,richness,<0.05,0.200637
+Tai Po Kau,24.2371,2,not standardized,positive,richness,<0.05,0.116129
+Utah,64.6870,2,not standardized,positive,richness,<0.05,0.285714
+Wanang,6.5113,2,not standardized,positive,richness,<0.05,0.176806
+Yasuni,2.7351,2,not standardized,positive,richness,<0.05,0.096210
+Barro Colorado Island (BCI),10.4156,2,not standardized,negative,abundance,<0.001,0.156028
+Baishanzu,41.6342,2,not standardized,negative,abundance,<0.001,0.413174
+Chebaling,29.1729,2,not standardized,negative,abundance,<0.001,0.213115
+Dinghushan,26.3227,2,not standardized,negative,abundance,<0.001,0.170588
+Gutianshan,34.4797,2,not standardized,negative,abundance,<0.001,0.408000
+Heishiding,28.3736,2,not standardized,negative,abundance,<0.001,0.375610
+Jianfengling,27.2128,2,not standardized,negative,abundance,<0.001,0.390681
+Luquillo,21.7541,2,not standardized,negative,abundance,<0.001,0.177966
+Nanling,35.1059,2,not standardized,negative,abundance,<0.001,0.418605
+Palanan,18.3141,2,not standardized,negative,abundance,<0.001,0.158416
+Pasoh,3.7027,2,not standardized,negative,abundance,<0.001,0.082424
+Puer,36.3544,2,not standardized,negative,abundance,<0.001,0.251101
+Rabi,2.5922,2,not standardized,negative,abundance,<0.001,0.210191
+Tai Po Kau,24.2371,2,not standardized,negative,abundance,<0.001,0.341935
+Utah,64.6870,2,not standardized,negative,abundance,<0.001,0.785714
+Wanang,6.5113,2,not standardized,negative,abundance,<0.001,0.165399
+Yasuni,2.7351,2,not standardized,negative,abundance,<0.001,0.102041
+Barro Colorado Island (BCI),10.4156,2,not standardized,negative,richness,<0.001,0.131206
+Baishanzu,41.6342,2,not standardized,negative,richness,<0.001,0.239521
+Chebaling,29.1729,2,not standardized,negative,richness,<0.001,0.218579
+Dinghushan,26.3227,2,not standardized,negative,richness,<0.001,0.117647
+Gutianshan,34.4797,2,not standardized,negative,richness,<0.001,0.280000
+Heishiding,28.3736,2,not standardized,negative,richness,<0.001,0.214634
+Jianfengling,27.2128,2,not standardized,negative,richness,<0.001,0.329749
+Luquillo,21.7541,2,not standardized,negative,richness,<0.001,0.135593
+Nanling,35.1059,2,not standardized,negative,richness,<0.001,0.288372
+Palanan,18.3141,2,not standardized,negative,richness,<0.001,0.145215
+Pasoh,3.7027,2,not standardized,negative,richness,<0.001,0.078788
+Puer,36.3544,2,not standardized,negative,richness,<0.001,0.176211
+Rabi,2.5922,2,not standardized,negative,richness,<0.001,0.200637
+Tai Po Kau,24.2371,2,not standardized,negative,richness,<0.001,0.219355
+Utah,64.6870,2,not standardized,negative,richness,<0.001,0.285714
+Wanang,6.5113,2,not standardized,negative,richness,<0.001,0.152091
+Yasuni,2.7351,2,not standardized,negative,richness,<0.001,0.096210
+Barro Colorado Island (BCI),10.4156,2,standardized,positive,abundance,<0.05,0.345340
+Baishanzu,41.6342,2,standardized,positive,abundance,<0.05,0.199981
+Chebaling,29.1729,2,standardized,positive,abundance,<0.05,0.255398
+Dinghushan,26.3227,2,standardized,positive,abundance,<0.05,0.244030
+Gutianshan,34.4797,2,standardized,positive,abundance,<0.05,0.235402
+Heishiding,28.3736,2,standardized,positive,abundance,<0.05,0.093010
+Jianfengling,27.2128,2,standardized,positive,abundance,<0.05,0.302935
+Luquillo,21.7541,2,standardized,positive,abundance,<0.05,0.383641
+Nanling,35.1059,2,standardized,positive,abundance,<0.05,0.168577
+Palanan,18.3141,2,standardized,positive,abundance,<0.05,0.374629
+Pasoh,3.7027,2,standardized,positive,abundance,<0.05,0.165482
+Puer,36.3544,2,standardized,positive,abundance,<0.05,0.189577
+Rabi,2.5922,2,standardized,positive,abundance,<0.05,0.275722
+Tai Po Kau,24.2371,2,standardized,positive,abundance,<0.05,0.247799
+Utah,64.6870,2,standardized,positive,abundance,<0.05,0.000000
+Wanang,6.5113,2,standardized,positive,abundance,<0.05,0.305961
+Yasuni,2.7351,2,standardized,positive,abundance,<0.05,0.288734
+Barro Colorado Island (BCI),10.4156,2,standardized,positive,richness,<0.001,0.398365
+Baishanzu,41.6342,2,standardized,positive,richness,<0.001,0.300176
+Chebaling,29.1729,2,standardized,positive,richness,<0.001,0.357121
+Dinghushan,26.3227,2,standardized,positive,richness,<0.001,0.307340
+Gutianshan,34.4797,2,standardized,positive,richness,<0.001,0.267865
+Heishiding,28.3736,2,standardized,positive,richness,<0.001,0.207455
+Jianfengling,27.2128,2,standardized,positive,richness,<0.001,0.336524
+Luquillo,21.7541,2,standardized,positive,richness,<0.001,0.363640
+Nanling,35.1059,2,standardized,positive,richness,<0.001,0.240143
+Palanan,18.3141,2,standardized,positive,richness,<0.001,0.332645
+Pasoh,3.7027,2,standardized,positive,richness,<0.001,0.246892
+Puer,36.3544,2,standardized,positive,richness,<0.001,0.266427
+Rabi,2.5922,2,standardized,positive,richness,<0.001,0.418340
+Tai Po Kau,24.2371,2,standardized,positive,richness,<0.001,0.337260
+Utah,64.6870,2,standardized,positive,richness,<0.001,0.000000
+Wanang,6.5113,2,standardized,positive,richness,<0.001,0.366210
+Yasuni,2.7351,2,standardized,positive,richness,<0.001,0.388615
+Barro Colorado Island (BCI),10.4156,2,standardized,negative,abundance,<0.001,0.268096
+Baishanzu,41.6342,2,standardized,negative,abundance,<0.001,0.505077
+Chebaling,29.1729,2,standardized,negative,abundance,<0.001,0.374171
+Dinghushan,26.3227,2,standardized,negative,abundance,<0.001,0.288479
+Gutianshan,34.4797,2,standardized,negative,abundance,<0.001,0.565535
+Heishiding,28.3736,2,standardized,negative,abundance,<0.001,0.470547
+Jianfengling,27.2128,2,standardized,negative,abundance,<0.001,0.421145
+Luquillo,21.7541,2,standardized,negative,abundance,<0.001,0.325227
+Nanling,35.1059,2,standardized,negative,abundance,<0.001,0.537495
+Palanan,18.3141,2,standardized,negative,abundance,<0.001,0.240986
+Pasoh,3.7027,2,standardized,negative,abundance,<0.001,0.171747
+Puer,36.3544,2,standardized,negative,abundance,<0.001,0.413905
+Rabi,2.5922,2,standardized,negative,abundance,<0.001,0.279764
+Tai Po Kau,24.2371,2,standardized,negative,abundance,<0.001,0.555152
+Utah,64.6870,2,standardized,negative,abundance,<0.001,0.790409
+Wanang,6.5113,2,standardized,negative,abundance,<0.001,0.291129
+Yasuni,2.7351,2,standardized,negative,abundance,<0.001,0.190414
+Barro Colorado Island (BCI),10.4156,2,standardized,negative,richness,<0.001,0.181659
+Baishanzu,41.6342,2,standardized,negative,richness,<0.001,0.475308
+Chebaling,29.1729,2,standardized,negative,richness,<0.001,0.373764
+Dinghushan,26.3227,2,standardized,negative,richness,<0.001,0.225660
+Gutianshan,34.4797,2,standardized,negative,richness,<0.001,0.456937
+Heishiding,28.3736,2,standardized,negative,richness,<0.001,0.317798
+Jianfengling,27.2128,2,standardized,negative,richness,<0.001,0.368373
+Luquillo,21.7541,2,standardized,negative,richness,<0.001,0.294396
+Nanling,35.1059,2,standardized,negative,richness,<0.001,0.418793
+Palanan,18.3141,2,standardized,negative,richness,<0.001,0.209376
+Pasoh,3.7027,2,standardized,negative,richness,<0.001,0.146729
+Puer,36.3544,2,standardized,negative,richness,<0.001,0.295636
+Rabi,2.5922,2,standardized,negative,richness,<0.001,0.250941
+Tai Po Kau,24.2371,2,standardized,negative,richness,<0.001,0.350238
+Utah,64.6870,2,standardized,negative,richness,<0.001,0.620792
+Wanang,6.5113,2,standardized,negative,richness,<0.001,0.240812
+Yasuni,2.7351,2,standardized,negative,richness,<0.001,0.208764

@@ -1,0 +1,273 @@
+plot,latitude,interaction,metric,radius_m,proportion
+Barro Colorado Island (BCI),10.4156,positive,abundance,2,0.521277
+Baishanzu,41.6342,positive,abundance,2,0.245509
+Chebaling,29.1729,positive,abundance,2,0.437158
+Dinghushan,26.3227,positive,abundance,2,0.435294
+Gutianshan,34.4797,positive,abundance,2,0.280000
+Heishiding,28.3736,positive,abundance,2,0.278049
+Jianfengling,27.2128,positive,abundance,2,0.390681
+Luquillo,21.7541,positive,abundance,2,0.432203
+Nanling,35.1059,positive,abundance,2,0.260465
+Palanan,18.3141,positive,abundance,2,0.478548
+Pasoh,3.7027,positive,abundance,2,0.487273
+Puer,36.3544,positive,abundance,2,0.286344
+Rabi,2.5922,positive,abundance,2,0.452229
+Tai Po Kau,24.2371,positive,abundance,2,0.245161
+Utah,64.6870,positive,abundance,2,0.071429
+Wanang,6.5113,positive,abundance,2,0.458175
+Yasuni,2.7351,positive,abundance,2,0.472303
+Barro Colorado Island (BCI),10.4156,positive,abundance,4,0.531915
+Baishanzu,41.6342,positive,abundance,4,0.263473
+Chebaling,29.1729,positive,abundance,4,0.415301
+Dinghushan,26.3227,positive,abundance,4,0.405882
+Gutianshan,34.4797,positive,abundance,4,0.224000
+Heishiding,28.3736,positive,abundance,4,0.297561
+Jianfengling,27.2128,positive,abundance,4,0.394265
+Luquillo,21.7541,positive,abundance,4,0.389831
+Nanling,35.1059,positive,abundance,4,0.255814
+Palanan,18.3141,positive,abundance,4,0.465347
+Pasoh,3.7027,positive,abundance,4,0.490909
+Puer,36.3544,positive,abundance,4,0.207048
+Rabi,2.5922,positive,abundance,4,0.436306
+Tai Po Kau,24.2371,positive,abundance,4,0.251613
+Utah,64.6870,positive,abundance,4,0.071429
+Wanang,6.5113,positive,abundance,4,0.475285
+Yasuni,2.7351,positive,abundance,4,0.467444
+Barro Colorado Island (BCI),10.4156,positive,abundance,6,0.524823
+Baishanzu,41.6342,positive,abundance,6,0.293413
+Chebaling,29.1729,positive,abundance,6,0.420765
+Dinghushan,26.3227,positive,abundance,6,0.394118
+Gutianshan,34.4797,positive,abundance,6,0.240000
+Heishiding,28.3736,positive,abundance,6,0.297561
+Jianfengling,27.2128,positive,abundance,6,0.383513
+Luquillo,21.7541,positive,abundance,6,0.389831
+Nanling,35.1059,positive,abundance,6,0.251163
+Palanan,18.3141,positive,abundance,6,0.488449
+Pasoh,3.7027,positive,abundance,6,0.499394
+Puer,36.3544,positive,abundance,6,0.193833
+Rabi,2.5922,positive,abundance,6,0.442675
+Tai Po Kau,24.2371,positive,abundance,6,0.277419
+Utah,64.6870,positive,abundance,6,0.071429
+Wanang,6.5113,positive,abundance,6,0.454373
+Yasuni,2.7351,positive,abundance,6,0.467444
+Barro Colorado Island (BCI),10.4156,positive,abundance,8,0.482270
+Baishanzu,41.6342,positive,abundance,8,0.281437
+Chebaling,29.1729,positive,abundance,8,0.426230
+Dinghushan,26.3227,positive,abundance,8,0.405882
+Gutianshan,34.4797,positive,abundance,8,0.248000
+Heishiding,28.3736,positive,abundance,8,0.297561
+Jianfengling,27.2128,positive,abundance,8,0.369176
+Luquillo,21.7541,positive,abundance,8,0.415254
+Nanling,35.1059,positive,abundance,8,0.255814
+Palanan,18.3141,positive,abundance,8,0.478548
+Pasoh,3.7027,positive,abundance,8,0.510303
+Puer,36.3544,positive,abundance,8,0.193833
+Rabi,2.5922,positive,abundance,8,0.426752
+Tai Po Kau,24.2371,positive,abundance,8,0.283871
+Utah,64.6870,positive,abundance,8,0.071429
+Wanang,6.5113,positive,abundance,8,0.442966
+Yasuni,2.7351,positive,abundance,8,0.461613
+Barro Colorado Island (BCI),10.4156,positive,abundance,10,0.471631
+Baishanzu,41.6342,positive,abundance,10,0.293413
+Chebaling,29.1729,positive,abundance,10,0.437158
+Dinghushan,26.3227,positive,abundance,10,0.388235
+Gutianshan,34.4797,positive,abundance,10,0.240000
+Heishiding,28.3736,positive,abundance,10,0.312195
+Jianfengling,27.2128,positive,abundance,10,0.369176
+Luquillo,21.7541,positive,abundance,10,0.423729
+Nanling,35.1059,positive,abundance,10,0.255814
+Palanan,18.3141,positive,abundance,10,0.478548
+Pasoh,3.7027,positive,abundance,10,0.507879
+Puer,36.3544,positive,abundance,10,0.185022
+Rabi,2.5922,positive,abundance,10,0.433121
+Tai Po Kau,24.2371,positive,abundance,10,0.290323
+Utah,64.6870,positive,abundance,10,0.071429
+Wanang,6.5113,positive,abundance,10,0.446768
+Yasuni,2.7351,positive,abundance,10,0.455782
+Barro Colorado Island (BCI),10.4156,positive,abundance,12,0.457447
+Baishanzu,41.6342,positive,abundance,12,0.287425
+Chebaling,29.1729,positive,abundance,12,0.453552
+Dinghushan,26.3227,positive,abundance,12,0.376471
+Gutianshan,34.4797,positive,abundance,12,0.216000
+Heishiding,28.3736,positive,abundance,12,0.326829
+Jianfengling,27.2128,positive,abundance,12,0.376344
+Luquillo,21.7541,positive,abundance,12,0.398305
+Nanling,35.1059,positive,abundance,12,0.255814
+Palanan,18.3141,positive,abundance,12,0.462046
+Pasoh,3.7027,positive,abundance,12,0.509091
+Puer,36.3544,positive,abundance,12,0.198238
+Rabi,2.5922,positive,abundance,12,0.417197
+Tai Po Kau,24.2371,positive,abundance,12,0.303226
+Utah,64.6870,positive,abundance,12,0.142857
+Wanang,6.5113,positive,abundance,12,0.446768
+Yasuni,2.7351,positive,abundance,12,0.459670
+Barro Colorado Island (BCI),10.4156,positive,abundance,14,0.468085
+Baishanzu,41.6342,positive,abundance,14,0.311377
+Chebaling,29.1729,positive,abundance,14,0.459016
+Dinghushan,26.3227,positive,abundance,14,0.394118
+Gutianshan,34.4797,positive,abundance,14,0.232000
+Heishiding,28.3736,positive,abundance,14,0.351220
+Jianfengling,27.2128,positive,abundance,14,0.383513
+Luquillo,21.7541,positive,abundance,14,0.406780
+Nanling,35.1059,positive,abundance,14,0.260465
+Palanan,18.3141,positive,abundance,14,0.448845
+Pasoh,3.7027,positive,abundance,14,0.517576
+Puer,36.3544,positive,abundance,14,0.220264
+Rabi,2.5922,positive,abundance,14,0.433121
+Tai Po Kau,24.2371,positive,abundance,14,0.296774
+Utah,64.6870,positive,abundance,14,0.142857
+Wanang,6.5113,positive,abundance,14,0.471483
+Yasuni,2.7351,positive,abundance,14,0.465500
+Barro Colorado Island (BCI),10.4156,positive,abundance,16,0.471631
+Baishanzu,41.6342,positive,abundance,16,0.305389
+Chebaling,29.1729,positive,abundance,16,0.437158
+Dinghushan,26.3227,positive,abundance,16,0.394118
+Gutianshan,34.4797,positive,abundance,16,0.208000
+Heishiding,28.3736,positive,abundance,16,0.336585
+Jianfengling,27.2128,positive,abundance,16,0.376344
+Luquillo,21.7541,positive,abundance,16,0.423729
+Nanling,35.1059,positive,abundance,16,0.269767
+Palanan,18.3141,positive,abundance,16,0.438944
+Pasoh,3.7027,positive,abundance,16,0.521212
+Puer,36.3544,positive,abundance,16,0.224670
+Rabi,2.5922,positive,abundance,16,0.436306
+Tai Po Kau,24.2371,positive,abundance,16,0.303226
+Utah,64.6870,positive,abundance,16,0.142857
+Wanang,6.5113,positive,abundance,16,0.458175
+Yasuni,2.7351,positive,abundance,16,0.464529
+Barro Colorado Island (BCI),10.4156,positive,richness,2,0.595745
+Baishanzu,41.6342,positive,richness,2,0.455090
+Chebaling,29.1729,positive,richness,2,0.502732
+Dinghushan,26.3227,positive,richness,2,0.523529
+Gutianshan,34.4797,positive,richness,2,0.392000
+Heishiding,28.3736,positive,richness,2,0.487805
+Jianfengling,27.2128,positive,richness,2,0.451613
+Luquillo,21.7541,positive,richness,2,0.516949
+Nanling,35.1059,positive,richness,2,0.432558
+Palanan,18.3141,positive,richness,2,0.488449
+Pasoh,3.7027,positive,richness,2,0.523636
+Puer,36.3544,positive,richness,2,0.387665
+Rabi,2.5922,positive,richness,2,0.531847
+Tai Po Kau,24.2371,positive,richness,2,0.406452
+Utah,64.6870,positive,richness,2,0.357143
+Wanang,6.5113,positive,richness,2,0.496198
+Yasuni,2.7351,positive,richness,2,0.499514
+Barro Colorado Island (BCI),10.4156,positive,richness,4,0.670213
+Baishanzu,41.6342,positive,richness,4,0.532934
+Chebaling,29.1729,positive,richness,4,0.573770
+Dinghushan,26.3227,positive,richness,4,0.505882
+Gutianshan,34.4797,positive,richness,4,0.488000
+Heishiding,28.3736,positive,richness,4,0.565854
+Jianfengling,27.2128,positive,richness,4,0.455197
+Luquillo,21.7541,positive,richness,4,0.542373
+Nanling,35.1059,positive,richness,4,0.488372
+Palanan,18.3141,positive,richness,4,0.475248
+Pasoh,3.7027,positive,richness,4,0.589091
+Puer,36.3544,positive,richness,4,0.436123
+Rabi,2.5922,positive,richness,4,0.563694
+Tai Po Kau,24.2371,positive,richness,4,0.451613
+Utah,64.6870,positive,richness,4,0.714286
+Wanang,6.5113,positive,richness,4,0.494297
+Yasuni,2.7351,positive,richness,4,0.549077
+Barro Colorado Island (BCI),10.4156,positive,richness,6,0.702128
+Baishanzu,41.6342,positive,richness,6,0.544910
+Chebaling,29.1729,positive,richness,6,0.562842
+Dinghushan,26.3227,positive,richness,6,0.564706
+Gutianshan,34.4797,positive,richness,6,0.552000
+Heishiding,28.3736,positive,richness,6,0.595122
+Jianfengling,27.2128,positive,richness,6,0.469534
+Luquillo,21.7541,positive,richness,6,0.593220
+Nanling,35.1059,positive,richness,6,0.530233
+Palanan,18.3141,positive,richness,6,0.518152
+Pasoh,3.7027,positive,richness,6,0.626667
+Puer,36.3544,positive,richness,6,0.515419
+Rabi,2.5922,positive,richness,6,0.598726
+Tai Po Kau,24.2371,positive,richness,6,0.567742
+Utah,64.6870,positive,richness,6,0.642857
+Wanang,6.5113,positive,richness,6,0.528517
+Yasuni,2.7351,positive,richness,6,0.544218
+Barro Colorado Island (BCI),10.4156,positive,richness,8,0.719858
+Baishanzu,41.6342,positive,richness,8,0.586826
+Chebaling,29.1729,positive,richness,8,0.568306
+Dinghushan,26.3227,positive,richness,8,0.564706
+Gutianshan,34.4797,positive,richness,8,0.672000
+Heishiding,28.3736,positive,richness,8,0.624390
+Jianfengling,27.2128,positive,richness,8,0.487455
+Luquillo,21.7541,positive,richness,8,0.584746
+Nanling,35.1059,positive,richness,8,0.600000
+Palanan,18.3141,positive,richness,8,0.557756
+Pasoh,3.7027,positive,richness,8,0.654545
+Puer,36.3544,positive,richness,8,0.585903
+Rabi,2.5922,positive,richness,8,0.621019
+Tai Po Kau,24.2371,positive,richness,8,0.632258
+Utah,64.6870,positive,richness,8,0.571429
+Wanang,6.5113,positive,richness,8,0.532319
+Yasuni,2.7351,positive,richness,8,0.560739
+Barro Colorado Island (BCI),10.4156,positive,richness,10,0.709220
+Baishanzu,41.6342,positive,richness,10,0.592814
+Chebaling,29.1729,positive,richness,10,0.568306
+Dinghushan,26.3227,positive,richness,10,0.570588
+Gutianshan,34.4797,positive,richness,10,0.744000
+Heishiding,28.3736,positive,richness,10,0.624390
+Jianfengling,27.2128,positive,richness,10,0.508961
+Luquillo,21.7541,positive,richness,10,0.610169
+Nanling,35.1059,positive,richness,10,0.604651
+Palanan,18.3141,positive,richness,10,0.557756
+Pasoh,3.7027,positive,richness,10,0.656970
+Puer,36.3544,positive,richness,10,0.629956
+Rabi,2.5922,positive,richness,10,0.649682
+Tai Po Kau,24.2371,positive,richness,10,0.664516
+Utah,64.6870,positive,richness,10,0.571429
+Wanang,6.5113,positive,richness,10,0.560837
+Yasuni,2.7351,positive,richness,10,0.575316
+Barro Colorado Island (BCI),10.4156,positive,richness,12,0.730496
+Baishanzu,41.6342,positive,richness,12,0.616766
+Chebaling,29.1729,positive,richness,12,0.546448
+Dinghushan,26.3227,positive,richness,12,0.564706
+Gutianshan,34.4797,positive,richness,12,0.736000
+Heishiding,28.3736,positive,richness,12,0.648780
+Jianfengling,27.2128,positive,richness,12,0.541219
+Luquillo,21.7541,positive,richness,12,0.601695
+Nanling,35.1059,positive,richness,12,0.632558
+Palanan,18.3141,positive,richness,12,0.537954
+Pasoh,3.7027,positive,richness,12,0.672727
+Puer,36.3544,positive,richness,12,0.678414
+Rabi,2.5922,positive,richness,12,0.662420
+Tai Po Kau,24.2371,positive,richness,12,0.709677
+Utah,64.6870,positive,richness,12,0.642857
+Wanang,6.5113,positive,richness,12,0.566540
+Yasuni,2.7351,positive,richness,12,0.571429
+Barro Colorado Island (BCI),10.4156,positive,richness,14,0.744681
+Baishanzu,41.6342,positive,richness,14,0.628743
+Chebaling,29.1729,positive,richness,14,0.595628
+Dinghushan,26.3227,positive,richness,14,0.600000
+Gutianshan,34.4797,positive,richness,14,0.736000
+Heishiding,28.3736,positive,richness,14,0.673171
+Jianfengling,27.2128,positive,richness,14,0.591398
+Luquillo,21.7541,positive,richness,14,0.644068
+Nanling,35.1059,positive,richness,14,0.627907
+Palanan,18.3141,positive,richness,14,0.577558
+Pasoh,3.7027,positive,richness,14,0.687273
+Puer,36.3544,positive,richness,14,0.713656
+Rabi,2.5922,positive,richness,14,0.675159
+Tai Po Kau,24.2371,positive,richness,14,0.709677
+Utah,64.6870,positive,richness,14,0.571429
+Wanang,6.5113,positive,richness,14,0.555133
+Yasuni,2.7351,positive,richness,14,0.579203
+Barro Colorado Island (BCI),10.4156,positive,richness,16,0.744681
+Baishanzu,41.6342,positive,richness,16,0.658683
+Chebaling,29.1729,positive,richness,16,0.562842
+Dinghushan,26.3227,positive,richness,16,0.635294
+Gutianshan,34.4797,positive,richness,16,0.744000
+Heishiding,28.3736,positive,richness,16,0.687805
+Jianfengling,27.2128,positive,richness,16,0.623656
+Luquillo,21.7541,positive,richness,16,0.601695
+Nanling,35.1059,positive,richness,16,0.618605
+Palanan,18.3141,positive,richness,16,0.551155
+Pasoh,3.7027,positive,richness,16,0.711515
+Puer,36.3544,positive,richness,16,0.744493
+Rabi,2.5922,positive,richness,16,0.671975
+Tai Po Kau,24.2371,positive,richness,16,0.729032
+Utah,64.6870,positive,richness,16,0.571429
+Wanang,6.5113,positive,richness,16,0.576046
+Yasuni,2.7351,positive,richness,16,0.587949

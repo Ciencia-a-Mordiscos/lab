@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### 🌳 2,7 millones de árboles: ¿compiten o cooperan?
+
+**Ecología** · Nature · Detto et al. (2026), datos de 17 parcelas ForestGEO (~2,7 millones de árboles, >5.400 especies). La facilitación relativa cae de 46% en el trópico a 7% en Utah (ρ = −0,82, p < 0,001). La competencia domina en 15/17 parcelas. Temperatura del suelo y riqueza de especies son los predictores clave.
+
+[Ver notebook](papers/2026-04-10-competencia-facilitacion-diversidad-arboles/notebook) · [Leer más](papers/2026-04-10-competencia-facilitacion-diversidad-arboles/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-10-competencia-facilitacion-diversidad-arboles/notebook.ipynb)
+
+---
+
 ### 🏔️ El agua que sostiene los ríos de Colorado tiene 15 años
 
 **Geología** · Nature Geoscience · Siirila-Woodburn et al. (2026), modelo hidrogeológico de alta resolución (ParFlow-CLM + EcoSLIM) en la cuenca del East River. Con +4 °C, el pico de nieve cae 21%, la edad media del agua subterránea sube y el sistema empieza a consumir reservas de décadas. 114 años de datos USGS confirman que el caudal ya lleva décadas bajando (p = 0,009).
