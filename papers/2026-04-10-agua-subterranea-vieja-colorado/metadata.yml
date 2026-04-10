@@ -1,0 +1,31 @@
+titulo: "El agua que sostiene los ríos de Colorado tiene 15 años"
+fecha: 2026-04-10
+categoria: geología
+tags: [agua subterránea, cambio climático, nieve, Colorado, hidrología, modelos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01945-y"
+    titulo: "Warming and snow loss increase reliance on old groundwater in a Colorado River headwater"
+    journal: Nature Geoscience
+    autores: "Siirila-Woodburn et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "swe_daily.csv"
+    descripcion: "Nieve diaria (SWE) por escenario de calentamiento"
+    fuente: "NERSC EcoSLIM Portal"
+  - nombre: "gw_storage_age_mu.csv"
+    descripcion: "Edad media del agua subterránea almacenada"
+    fuente: "NERSC EcoSLIM Portal"
+  - nombre: "streamflow_daily.csv"
+    descripcion: "Caudal simulado diario por escenario"
+    fuente: "NERSC EcoSLIM Portal"
+  - nombre: "ecoslim_source_fractions.csv"
+    descripcion: "Fracción de nieve/lluvia en el caudal"
+    fuente: "NERSC EcoSLIM Portal"
+  - nombre: "discharge_annual.csv"
+    descripcion: "Caudal histórico anual USGS 1911-2024"
+    fuente: "USGS/ESS-DIVE"
+estado: publicado

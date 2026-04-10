@@ -95,6 +95,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-04-10-agua-subterranea-vieja-colorado/README
+    title: 'Agua subterránea vieja en Colorado'
+    sections:
+    - file: papers/2026-04-10-agua-subterranea-vieja-colorado/notebook
+      title: Notebook
   - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/README
     title: 'Circulación oceánica: la más débil en 1.300 años'
     sections:

@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+  "paper_id": 2327,
+  "doi": "10.1038/s41561-026-01945-y",
+  "paper_type": "computational",
+  "study_design": "computational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El pico de SWE baja con el calentamiento",
+      "supported": "yes",
+      "detail": "Reducción media del 21% con +4 °C (rango 12%-43% según el año)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "La edad del agua subterránea almacenada aumenta con el calentamiento",
+      "supported": "yes",
+      "detail": "+0,65 años en promedio (baseline→+4 °C). Máxima diferencia en WY2018: +1,2 años",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "El caudal del East River ha bajado en las últimas décadas",
+      "supported": "yes",
+      "detail": "Tendencia significativa (p = 0,009, n = 114). Pre-1980: 9,7 m³/s → Post-1980: 9,0 m³/s, -6,6% (Cohen's d = 0,22)",
+      "certainty_tier": "T1",
+      "abstract_verb": "indicate",
+      "effect_size": {"measure": "cohen_d", "value": 0.22, "interpretation": "pequeño"}
+    },
+    {
+      "claim": "El agua intermedia (1-3 años) declina el doble de rápido",
+      "supported": "partial",
+      "detail": "Reportado por el paper (-12%/década con +4 °C). Nuestros datos confirman envejecimiento pero no desglosan por bins de edad",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "El agua vieja (>3 años) compensa la pérdida de agua joven",
+      "supported": "partial",
+      "detail": "El paper reporta CV = 0,05 para flujo de agua vieja. Nuestros datos confirman envejecimiento pero no tienen resolución por edad",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 21,
+      "unit": "por ciento",
+      "context": "reducción del pico de SWE con +4 °C",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no reportado directamente",
+        "our_calculation": "21%",
+        "discrepancy_pct": null,
+        "reason": "calculado de los datos del modelo"
+      }
+    },
+    {
+      "value": 0.65,
+      "unit": "años",
+      "context": "aumento de edad media GW almacenada (baseline→+4°C)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "up to 3 years older baseflow age",
+        "our_calculation": "0.65 years storage age",
+        "discrepancy_pct": null,
+        "reason": "paper reporta edad de flujo base (partículas), nosotros edad de almacenamiento"
+      }
+    },
+    {
+      "value": 6.6,
+      "unit": "por ciento",
+      "context": "reducción del caudal medio anual post-1980 vs pre-1980",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "2-3% por grado",
+        "our_calculation": "-6.6% (datos observacionales, no simulados)",
+        "discrepancy_pct": null,
+        "reason": "métricas diferentes: paper reporta ratio escorrentía, nosotros caudal absoluto"
+      }
+    },
+    {
+      "value": 15,
+      "unit": "años",
+      "context": "edad media del agua subterránea almacenada (baseline)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 114,
+      "unit": "años",
+      "context": "longitud del registro de caudal USGS (1911-2024)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "las simulaciones muestran"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    }
+  ],
+  "narrative_hooks": [
+    "El agua que bebes hoy en Colorado cayó como nieve hace 15 años",
+    "Con +4 °C, la nieve pico baja 21% y el acuífero envejece — como gastar ahorros en vez de vivir del ingreso mensual",
+    "114 años de datos confirman que el caudal ya lleva décadas bajando"
+  ],
+  "limitations": [
+    "Simulaciones cubren solo 7 años — tendencias a largo plazo son extrapolaciones",
+    "Datos de nieve son promedios de cuenca (3 bandas de elevación), no detalle espacial completo",
+    "Datos de caudal histórico USGS son de estación más abajo que el área modelada",
+    "Desglose por edad (joven/intermedia/vieja) requiere rastreo completo de partículas (24 TB), no disponible"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados directamente, 2 parciales, 5 números clave"
+  },
+  "notebook_slug": "2026-04-10-agua-subterranea-vieja-colorado",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-10-agua-subterranea-vieja-colorado/notebook.html",
+  "generated_at": "2026-04-10T12:25:00Z"
+}

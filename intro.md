@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### 🏔️ El agua que sostiene los ríos de Colorado tiene 15 años
+
+**Geología** · Nature Geoscience · Siirila-Woodburn et al. (2026), modelo hidrogeológico de alta resolución (ParFlow-CLM + EcoSLIM) en la cuenca del East River. Con +4 °C, el pico de nieve cae 21%, la edad media del agua subterránea sube y el sistema empieza a consumir reservas de décadas. 114 años de datos USGS confirman que el caudal ya lleva décadas bajando (p = 0,009).
+
+[Ver notebook](papers/2026-04-10-agua-subterranea-vieja-colorado/notebook) · [Leer más](papers/2026-04-10-agua-subterranea-vieja-colorado/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-10-agua-subterranea-vieja-colorado/notebook.ipynb)
+
+---
+
 ### 💊 GLP1: tu ADN decide los efectos secundarios
 
 **Medicina** · Nature · Aschebrook-Kilfoy et al. (2026), GWAS con 27.885 personas en tratamiento con semaglutida o tirzepatida. Una variante en GIPR (rs1800437) triplica el riesgo de vómitos con tirzepatida (CC 11,8% vs GG 3,9%, p = 2,2×10⁻¹⁰) pero no tiene efecto con semaglutida. Un modelo predictivo con genética mejora la predicción de vómitos (ΔAUC = +0,022) pero apenas mueve la eficacia (ΔR² = 0,001).
