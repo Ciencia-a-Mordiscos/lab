@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+  "paper_id": 76,
+  "doi": "10.1038/s41467-025-65116-0",
+  "paper_type": "descriptive",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Cocolitóforos de ~241 Ma, ~26 Ma más antiguos que el récord anterior",
+      "supported": "yes",
+      "detail": "MOESM4: nueva edad = 241,07 Ma vs anterior ~215 Ma = 26,07 Ma. Cross-check con paper: coincide",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": null
+    },
+    {
+      "claim": ">100 fósiles fantasma preservados en heces de zooplancton",
+      "supported": "partial",
+      "detail": "Reportado en abstract. Los supplementary no detallan el conteo exacto — no verificable con datos disponibles",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "La diversificación de calcificadores ocurrió tras la extinción end-Pérmico",
+      "supported": "partial",
+      "detail": "Correlación temporal: cocolitóforos, corales y esponjas aparecen post-252 Ma. No es evidencia causal directa",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggesting",
+      "effect_size": null
+    },
+    {
+      "claim": "La diversidad de cocolitóforos se mantuvo baja ~50 Ma",
+      "supported": "partial",
+      "detail": "El paper cuenta ~50 Ma desde post-Pérmico (~251 Ma) hasta post-Triásico (~201 Ma). Solo 3 especies en el registro disponible",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": null
+    },
+    {
+      "claim": "Las muestras con más AOM tienden a tener fantasmas",
+      "supported": "yes",
+      "detail": "Media AOM 73% con fantasmas vs 37% sin. n=8, patrón claro sin test estadístico formal",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 241.07,
+      "unit": "Ma",
+      "context": "Edad del fósil fantasma más antiguo de cocolitóforos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~241 Ma",
+        "our_calculation": "241.07 Ma",
+        "discrepancy_pct": 0,
+        "reason": "El ~241 del paper redondea 241.07 de MOESM4"
+      }
+    },
+    {
+      "value": 26,
+      "unit": "millones de años",
+      "context": "Extensión del registro fósil de cocolitóforos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~26 myrs",
+        "our_calculation": "26.07 Ma",
+        "discrepancy_pct": 0.3,
+        "reason": "Coincide"
+      }
+    },
+    {
+      "value": 100,
+      "unit": "fósiles fantasma",
+      "context": "Más de 100 encontrados en total",
+      "source": "abstract",
+      "verified": false,
+      "cross_check": null
+    },
+    {
+      "value": 2.55,
+      "unit": "µm",
+      "context": "Tamaño promedio de cocolitós (n=50)",
+      "source": "paper_text",
+      "verified": false,
+      "cross_check": null
+    },
+    {
+      "value": 73.2,
+      "unit": "por ciento",
+      "context": "AOM media en muestras con fantasmas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggesting",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    }
+  ],
+  "narrative_hooks": [
+    "241 millones de años. Huellas que nadie buscaba donde debía.",
+    "Fósiles fantasma dentro de heces de zooplancton fosilizadas.",
+    "26 millones de años más antiguos de lo que se creía."
+  ],
+  "limitations": [
+    "Edades de muestras austriacas son estimaciones por etapa geológica, no dataciones radiométricas",
+    "Solo 8 de 12 muestras examinadas para materia orgánica",
+    "Conteo de >100 fantasmas no verificable con los datos supplementary",
+    "3 localidades en los Alpes — sesgo geográfico"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "2 claims verificados + 3 parciales, 5 números clave"
+  },
+  "notebook_slug": "2026-01-17-fantasmas-cocolitoforos-triasico",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook.html",
+  "generated_at": "2026-04-11T15:15:00Z"
+}

@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ⛰️ Fantasmas de 241 millones de años revelan un secreto
+
+**Geología** · Nature Communications · Slater et al. (2025), fósiles fantasma de cocolitóforos en rocas del Triásico Medio (Suiza y Austria). El récord fósil se extiende ~26 millones de años hacia atrás (de ~215 Ma a ~241 Ma). Más de 100 huellas preservadas en heces de zooplancton fosilizadas. Las muestras con alta materia orgánica amorfa (media 73%) contienen los fantasmas.
+
+[Ver notebook](papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook) · [Leer más](papers/2026-01-17-fantasmas-cocolitoforos-triasico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook.ipynb)
+
+---
+
 ### 🦠 Comercio de fauna silvestre y patógenos zoonóticos
 
 **Ecología** · Science · Gippet et al. (2026), 6.456 especies de mamíferos silvestres cruzadas con 40 años de datos de comercio internacional (CITES, LEMIS). Las especies comerciadas tienen 1,5x más probabilidad de compartir patógenos con humanos (ajustado). El comercio ilegal dispara el riesgo: 72,4% de las especies ilegales son zoonóticas vs 30,6% de las solo legales (Cohen's h = 0,86).

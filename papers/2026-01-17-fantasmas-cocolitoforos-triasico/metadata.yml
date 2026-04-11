@@ -1,0 +1,25 @@
+titulo: "Fantasmas de 241 millones de años revelan un secreto"
+fecha: 2026-01-17
+categoria: geología
+tags: [cocolitóforos, fósiles fantasma, triásico, extinción, paleontología, calcificación, océano]
+formato: corto
+video_youtube: "https://youtube.com/shorts/oCiNL0ZYmfA"
+fuentes:
+  - doi: "10.1038/s41467-025-65116-0"
+    titulo: "'Ghost' fossils of early coccolithophores point to a Triassic diversification of marine calcifying organisms"
+    journal: Nature Communications
+    autores: "Slater et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "timeline_organismos.csv"
+    descripcion: "Primeras apariciones de 8 grupos calcificadores marinos"
+    fuente: "Supplementary Data 2"
+  - nombre: "palinofacies.csv"
+    descripcion: "Composición de materia orgánica por muestra"
+    fuente: "Supplementary Data 3"
+  - nombre: "muestras_completas.csv"
+    descripcion: "Catálogo de 12 muestras con localidad, edad y fósiles"
+    fuente: "Supplementary Data 1 + texto del paper"
+estado: publicado

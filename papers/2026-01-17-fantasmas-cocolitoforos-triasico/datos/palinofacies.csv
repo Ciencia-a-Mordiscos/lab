@@ -1,0 +1,13 @@
+muestra,codigo,examinada,fitoclastos_opacos,fitodebris_marron,fitodebris_claro,esporas,polen_sacado,polen_no_sacado,leiosferas,materia_organica_amorfa,total,tiene_fantasmas
+12,SFI 2492,Yes,367.0,155.0,6.0,0.0,0.0,0.0,0.0,27.0,555.0,False
+11,SFI 2490,Yes,28.0,490.0,2.0,0.0,1.0,0.0,0.0,73.0,594.0,False
+10,SFI 2470,Yes,140.0,235.0,5.0,1.0,1.0,4.0,1.0,181.0,568.0,True
+9,Seefeld 5b,No,,,,,,,,,,False
+8,Seefeld 5,Yes,2.0,29.0,10.0,0.0,0.0,0.0,0.0,508.0,549.0,False
+7,Seefeld 4b,No,,,,,,,,,,False
+6,Val Mara D1,Yes,34.0,26.0,7.0,4.0,19.0,6.0,8.0,568.0,672.0,True
+5,Val Mara D3,Yes,47.0,60.0,16.0,6.0,50.0,6.0,3.0,400.0,588.0,True
+4,Marl above Sceltrich beds,No,,,,,,,,,,False
+3,Sceltrich bed,No,,,,,,,,,,False
+2,Sceltrich bed 2,Yes,3.0,60.0,2.0,0.0,0.0,0.0,0.0,500.0,565.0,True
+1,Cava superiore 1,Yes,15.0,16.0,0.0,0.0,6.0,1.0,0.0,500.0,538.0,True

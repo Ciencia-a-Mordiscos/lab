@@ -1,0 +1,13 @@
+muestra,codigo,localidad,region,pais,edad_etapa,edad_estimada_ma,tiene_fantasmas,especies_encontradas
+1,Cava superiore 1,Monte San Giorgio,Southern Alps,Suiza,Ladinian,241.07,True,"C. primulus, indeterminados"
+2,Sceltrich bed 2,Monte San Giorgio,Southern Alps,Suiza,Ladinian,240.4,True,indeterminados
+3,Sceltrich bed,Monte San Giorgio,Southern Alps,Suiza,Ladinian,240.1,False,
+4,Marl above Sceltrich beds,Monte San Giorgio,Southern Alps,Suiza,Ladinian,240.0,False,
+5,Val Mara D3,Monte San Giorgio,Southern Alps,Suiza,Ladinian,239.6,True,indeterminados
+6,Val Mara D1,Monte San Giorgio,Southern Alps,Suiza,Ladinian,239.51,True,">70 C. primulus, 1 ?A. koessenensis, indeterminados"
+7,Seefeld 4b,Seefeld,Northern Calcareous Alps,Austria,Norian,218.0,False,"1 A. koessenensis, 1 C. minutus (body fossils)"
+8,Seefeld 5,Seefeld,Northern Calcareous Alps,Austria,Norian,217.0,False,
+9,Seefeld 5b,Seefeld,Northern Calcareous Alps,Austria,Norian,217.0,False,
+10,SFI 2470,Seefeld,Northern Calcareous Alps,Austria,Norian,216.0,True,"2 C. primulus, indeterminados"
+11,SFI 2490,Hahntennjoch,Northern Calcareous Alps,Austria,Norian,216.0,False,
+12,SFI 2492,Hahntennjoch,Northern Calcareous Alps,Austria,Norian,215.0,False,
