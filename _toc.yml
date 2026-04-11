@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-04-11-comercio-fauna-patogenos-zoonoticos/README
+    title: "Comercio de fauna y patógenos zoonóticos"
+    sections:
+    - file: papers/2026-04-11-comercio-fauna-patogenos-zoonoticos/notebook
+      title: Notebook
   - file: papers/2026-04-10-competencia-facilitacion-diversidad-arboles/README
     title: "Competencia y facilitación en árboles globales"
     sections:

@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "paper_id": 2328,
+  "doi": "10.1126/science.adw5518",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "Las especies comerciadas son 1,5x más propensas a compartir patógenos con humanos",
+      "supported": "partial",
+      "detail": "Datos crudos muestran 6,4x (41,1% vs 6,4%). El 1,5x es el efecto ajustado por GLMMs — no replicable sin el modelo completo",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.59, "interpretation": "medio (crudo, no ajustado)"}
+    },
+    {
+      "claim": "El comercio ilegal exacerba la compartición de patógenos",
+      "supported": "yes",
+      "detail": "72,4% de ilegales son zoonóticas vs 30,6% de solo legales — 2,4x más",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_h", "value": 0.86, "interpretation": "grande"}
+    },
+    {
+      "claim": "+1 patógeno por cada 10 años en comercio",
+      "supported": "partial",
+      "detail": "Tendencia visible (1,7→9,1 patógenos de 0-5 a 26-40 años), pero ρ=0,234 indica correlación modesta. El claim proviene del modelo ajustado",
+      "certainty_tier": "T1",
+      "abstract_verb": "predicts",
+      "effect_size": {"measure": "spearman_rho", "value": 0.234, "interpretation": "correlación modesta"}
+    },
+    {
+      "claim": "Comercio de animales vivos exacerba transmisión",
+      "supported": "partial",
+      "detail": "Especies comerciadas como vivos Y productos: 70,6% zoonóticas. Solo vivos: 28,0% (n=25, muestra chica). Efecto aparece en la combinación",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 6456,
+      "unit": "especies",
+      "context": "mamíferos silvestres extantes analizados (sin domésticos ni extintos)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "~6500", "our_calculation": "6456", "discrepancy_pct": 0.7, "reason": "filtro exacto de domésticos/extintos"}
+    },
+    {
+      "value": 2079,
+      "unit": "especies",
+      "context": "comerciadas legal o ilegalmente (32,2% del total)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 1.5,
+      "unit": "fold",
+      "context": "probabilidad ajustada (GLMM) de compartir patógenos: comerciadas vs no comerciadas",
+      "source": "paper_abstract",
+      "verified": false,
+      "cross_check": {"paper_reported": "1.5-fold", "our_calculation": "6.4x crudo", "discrepancy_pct": null, "reason": "raw vs GLMM adjusted — confounders: research effort, phylogeny"}
+    },
+    {
+      "value": 72.4,
+      "unit": "por ciento",
+      "context": "especies comerciadas ilegalmente que son zoonóticas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 6.84,
+      "unit": "patógenos (media)",
+      "context": "media de patógenos zoonóticos por especie comerciada ilegalmente",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.234,
+      "unit": "Spearman rho",
+      "context": "correlación entre años en comercio y número de patógenos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "predicts", "tier": "T1", "cam_attenuator": "predice (contexto modelo estadístico)"},
+    {"abstract_verb": "remains unclear", "tier": "T3", "cam_attenuator": "aún no está claro"}
+  ],
+  "narrative_hooks": [
+    "1 de cada 3 mamíferos silvestres del planeta ha pasado por alguna forma de comercio",
+    "El 72,4% de las especies comerciadas ilegalmente comparten patógenos con humanos",
+    "Por cada 10 años en comercio, una especie comparte un patógeno más con nosotros"
+  ],
+  "limitations": [
+    "No se pueden replicar los GLMMs del paper sin filogenia — los datos crudos sobreestiman el efecto",
+    "Diseño observacional: correlación no implica causalidad",
+    "La base CLOVER captura patógenos conocidos — sesgo de investigación (más estudio = más patógenos detectados)",
+    "Datos de comercio ilegal provienen de incautaciones — subestiman el comercio real"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "2 claims yes, 2 partial — datos ricos con múltiples ángulos"
+  },
+  "notebook_slug": "2026-04-11-comercio-fauna-patogenos-zoonoticos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-11-comercio-fauna-patogenos-zoonoticos/notebook.html",
+  "generated_at": "2026-04-11T12:30:00Z"
+}

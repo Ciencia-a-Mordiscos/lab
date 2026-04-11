@@ -1,0 +1,19 @@
+titulo: "El comercio de fauna silvestre y los patógenos que compartimos"
+fecha: 2026-04-11
+categoria: ecologia
+tags: [zoonosis, comercio-fauna, patogenos, mamiferos, cites, salud-publica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adw5518"
+    titulo: "Wildlife trade drives animal-to-human pathogen transmission over 40 years"
+    journal: Science
+    autores: "Gippet et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "mamiferos_comercio_patogenos.csv"
+    descripcion: "6.456 mamíferos silvestres — comercio (legal/ilegal/vivo/producto), patógenos zoonóticos, taxonomía, biogeografía"
+    fuente: "DataTableS1 — GitHub repo"
+estado: publicado
