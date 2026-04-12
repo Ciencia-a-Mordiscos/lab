@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "paper_id": 2329,
+  "doi": "10.1126/science.adw8526",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "Las especies regenerativas expresan menos sensores de oxígeno (EGLN1, VHL, HIF1AN)",
+      "supported": "yes",
+      "detail": "EGLN1: 2,3× menos (d=2,90, n=4 vs 4). VHL: 29× menos (d=6,57, n=4 vs 3). HIF1AN: 5,7× menos (n=4 vs 1). Patrón consistente",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "effect_size": {"measure": "cohen_d", "value": 2.9, "interpretation": "grande (EGLN1)"}
+    },
+    {
+      "claim": "HIF1A se expresa en ambos tipos de especies",
+      "supported": "yes",
+      "detail": "Ratón: 62,6%. Xenopus: 58,8%. La diferencia está en la degradación, no en la producción",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "effect_size": null
+    },
+    {
+      "claim": "Bajar el oxígeno induce curación rápida en ratón",
+      "supported": "yes",
+      "detail": "Claim experimental del paper (abstract usa 'induced'). No verificable con datos scRNA-seq disponibles",
+      "certainty_tier": "T1",
+      "abstract_verb": "induced",
+      "effect_size": null
+    },
+    {
+      "claim": "Los factores AER remodelan la composición celular del ratón",
+      "supported": "yes",
+      "detail": "CT_1: +18,3pp. CT_6: -17,5pp. Cambios dramáticos verificados en datos de 10.467 células",
+      "certainty_tier": "T1",
+      "abstract_verb": "accompanied",
+      "effect_size": null
+    },
+    {
+      "claim": "El sensado de oxígeno es mecanismo targetable para desbloquear regeneración",
+      "supported": "partial",
+      "detail": "Datos muestran correlación entre baja expresión de sensores y capacidad regenerativa. El salto a terapia en mamíferos adultos no demostrado",
+      "certainty_tier": "T2",
+      "abstract_verb": "can unlock",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 55.4,
+      "unit": "por ciento",
+      "context": "células de ratón que expresan EGLN1 (sensor de oxígeno)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "decreased", "our_calculation": "55.4% vs 23.8%", "discrepancy_pct": 0, "reason": "paper no reporta porcentaje exacto"}
+    },
+    {
+      "value": 0.8,
+      "unit": "por ciento",
+      "context": "células de Xenopus que expresan VHL (destructor de HIF1A)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "decreased", "our_calculation": "0.8% vs 22.2% ratón", "discrepancy_pct": 0, "reason": "29× diferencia"}
+    },
+    {
+      "value": 1.15,
+      "unit": "cohen_d",
+      "context": "diferencia glucólisis ALI vs 96w en ratón",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "identify", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "induced", "tier": "T1", "cam_attenuator": "afirmación directa (experimental)"},
+    {"abstract_verb": "associated", "tier": "T2", "cam_attenuator": "se asocia con — no implica causalidad"},
+    {"abstract_verb": "can unlock", "tier": "T2", "cam_attenuator": "potencial / proyección futura"}
+  ],
+  "narrative_hooks": [
+    "Tu dedo no vuelve a crecer. El de una rana, sí. ¿La diferencia? Podría ser solo... oxígeno.",
+    "La rana prácticamente no tiene la maquinaria para destruir HIF1A — menos del 1% de sus células expresan VHL"
+  ],
+  "limitations": [
+    "Datos de embriones, no adultos — relevancia para regeneración adulta requiere validación",
+    "Tipos celulares CT_1 a CT_15 son clústeres computacionales sin identidad biológica definida",
+    "Comparación entre especies usa ortólogos con regulación diferencial no capturada por scRNA-seq",
+    "n=1 para humano y pollo (un solo estadio embrionario), n=1 para HIF1AN en Xenopus"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims yes + 1 partial, múltiples números clave verificados"
+  },
+  "notebook_slug": "2026-04-12-oxigeno-regeneracion-extremidades-vertebrados",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-12-oxigeno-regeneracion-extremidades-vertebrados/notebook.html",
+  "generated_at": "2026-04-12T12:45:00Z"
+}

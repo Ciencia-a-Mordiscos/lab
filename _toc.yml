@@ -168,6 +168,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-04-12-oxigeno-regeneracion-extremidades-vertebrados/README
+    title: "Oxígeno y regeneración de extremidades"
+    sections:
+    - file: papers/2026-04-12-oxigeno-regeneracion-extremidades-vertebrados/notebook
+      title: Notebook
   - file: papers/2026-04-10-conflicto-letal-chimpances-fision/README
     title: "Conflicto letal en chimpancés de Ngogo"
     sections:

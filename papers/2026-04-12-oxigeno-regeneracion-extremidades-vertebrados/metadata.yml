@@ -1,0 +1,28 @@
+titulo: "¿Por qué un ajolote regenera su pata y tú no?"
+fecha: 2026-04-12
+categoria: biologia
+tags: [regeneración, oxígeno, HIF1A, scRNA-seq, ajolote, xenopus, extremidades]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adw8526"
+    titulo: "Species-specific oxygen sensing governs the initiation of vertebrate limb regeneration"
+    journal: Science
+    autores: "Tsissios et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "sensores_por_especie.csv"
+    descripcion: "Expresión promedio de 6 genes del pathway HIF1A en 5 especies"
+    fuente: "GitHub BICC-UNIL-EPFL (scRNA-seq procesado)"
+  - nombre: "sensores_oxigeno_especies.csv"
+    descripcion: "Expresión por gen × especie × estadio (68 mediciones)"
+    fuente: "GitHub BICC-UNIL-EPFL"
+  - nombre: "metabolismo_por_celula.csv"
+    descripcion: "Scores AUCell glucólisis y fosforilación oxidativa (21.701 células)"
+    fuente: "GitHub BICC-UNIL-EPFL"
+  - nombre: "composicion_celular_tratamiento.csv"
+    descripcion: "Composición celular de extremidades de ratón bajo tratamiento AER"
+    fuente: "GitHub BICC-UNIL-EPFL"
+estado: publicado
