@@ -1,0 +1,25 @@
+titulo: "Conflicto letal tras la fisión de un grupo de chimpancés salvajes"
+fecha: 2026-04-10
+categoria: biologia
+tags: [chimpancés, primates, comportamiento, redes sociales, fisión, conflicto, etología]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adz4944"
+    titulo: "Lethal conflict after group fission in wild chimpanzees"
+    journal: Science
+    autores: "Sandel et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "grupo_composicion.csv"
+    descripcion: "Composición del grupo Western vs Central-East por año"
+    fuente: "Derivado de Zenodo 18603419 (cluster_membership_by_year.csv)"
+  - nombre: "red_social.csv"
+    descripcion: "Métricas de red social (avg_degree, density, edges) por año"
+    fuente: "Computado de Zenodo 18626723 (matrices de adyacencia)"
+  - nombre: "cluster_membership_by_year.csv"
+    descripcion: "Membresía individual por clúster espacial y año"
+    fuente: "Zenodo 18603419"
+estado: publicado

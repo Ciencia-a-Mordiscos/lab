@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "paper_id": 2334,
+  "doi": "10.1126/science.adz4944",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "chimpanzee",
+  "verification_table": [
+    {
+      "claim": "La red social se fractura en 2015 — el grado promedio cae un 33% en un año",
+      "supported": "yes",
+      "detail": "avg_degree cae de 31,88 (2014) a 21,26 (2015). Spearman ρ=-1,000 post-2015, p<0,001, n=7",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "effect_size": {"measure": "spearman_rho", "value": -1.0, "interpretation": "correlación perfecta negativa post-quiebre"}
+    },
+    {
+      "claim": "La conectividad cae un 67,7% desde el pico histórico",
+      "supported": "yes",
+      "detail": "avg_degree de 35,77 (1999) a 11,54 (2022). Mann-Whitney pre vs post: p=0,002, Cohen's d=4,99 (efecto masivo)",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "effect_size": {"measure": "cohen_d", "value": 4.99, "interpretation": "masivo"}
+    },
+    {
+      "claim": "La comunidad pasa de 124 a 78 individuos (−37,1%)",
+      "supported": "yes",
+      "detail": "grupo_composicion.csv: 2019=124, 2022=78. Consistente con conflicto letal sostenido",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    },
+    {
+      "claim": "24 ataques, ≥7 machos adultos y 17 crías muertas (2018-2024)",
+      "supported": "partial",
+      "detail": "Del abstract del paper. No tenemos datos granulares de ataques (Dryad bloqueado). Datos de red y población son consistentes",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    },
+    {
+      "claim": "Primer caso documentado de fisión letal en primates con datos completos",
+      "supported": "partial",
+      "detail": "El paper lo enmarca así. Gombe (1970s) es precedente pero con observaciones limitadas y provisión de comida",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {"value": 200, "unit": "individuos", "context": "tamaño aproximado de la comunidad en su pico (incluye no rastreados)", "source": "paper_text", "verified": true, "cross_check": {"paper_reported": "nearly 200", "our_calculation": "124 rastreados", "discrepancy_pct": 38, "reason": "membership solo incluye individuos con datos de GPS/comportamiento"}},
+    {"value": 35.77, "unit": "conexiones/individuo", "context": "pico de avg_degree (1999)", "source": "fact_sheet", "verified": true},
+    {"value": 11.54, "unit": "conexiones/individuo", "context": "mínimo post-fisión (2022)", "source": "fact_sheet", "verified": true},
+    {"value": 67.7, "unit": "porcentaje", "context": "caída de avg_degree desde pico a 2022", "source": "fact_sheet", "verified": true},
+    {"value": 24, "unit": "ataques", "context": "ataques letales entre 2018 y 2024", "source": "paper_abstract", "verified": true},
+    {"value": 7, "unit": "machos adultos", "context": "mínimo de machos ≥12 años asesinados", "source": "paper_abstract", "verified": true},
+    {"value": 17, "unit": "crías", "context": "crías muertas (14 observadas + 3 inferidas)", "source": "paper_abstract", "verified": true},
+    {"value": 37.1, "unit": "porcentaje", "context": "caída de población 2019-2022 (124→78)", "source": "fact_sheet", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "report", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "describe", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "indicate", "tier": "T2", "cam_attenuator": "los datos sugieren"}
+  ],
+  "narrative_hooks": [
+    "200 chimpancés — el grupo salvaje más grande conocido — se partió en dos. Luego empezó una guerra.",
+    "Cada chimpancé compartía tiempo con 30 compañeros. Para 2022, solo le quedaban 11.",
+    "Los que se mataron entre sí antes habían cazado juntos, patrullado territorio juntos, acicalado mutuamente."
+  ],
+  "limitations": [
+    "Datos de red cubren 1998-2022 (sin 2020, sin 2023-2024). Agresión letal continúa hasta 2024.",
+    "Membresía rastreable (124) < total comunidad (~200). Incluye solo individuos con datos GPS/comportamiento.",
+    "Datos de ataques/patrullas del Dryad bloqueados; cifras de conflicto vienen del abstract.",
+    "Redes usan umbral binario (threshold 0); con umbrales más altos la fragmentación puede variar."
+  ],
+  "suggested_word_range": {"min": 190, "max": 250, "reason": "3 claims verificados + 2 parciales, 8 números clave, historia narrativa fuerte"},
+  "notebook_slug": "2026-04-10-conflicto-letal-chimpances-fision",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-10-conflicto-letal-chimpances-fision/notebook.html",
+  "generated_at": "2026-04-12T12:20:00Z"
+}
