@@ -132,6 +132,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-01-17-nanobodies-antivenom-serpientes/README
+    title: "8 moléculas contra 17 serpientes letales"
+    sections:
+    - file: papers/2026-01-17-nanobodies-antivenom-serpientes/notebook
+      title: Notebook
   - file: papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/README
     title: 'GLP1: tu ADN decide los efectos secundarios'
     sections:

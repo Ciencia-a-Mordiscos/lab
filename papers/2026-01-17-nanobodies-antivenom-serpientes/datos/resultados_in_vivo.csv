@@ -1,0 +1,19 @@
+especie,subgenero,pre_incubacion,rescate,rescate_detalle,rescate_score
+Dendroaspis angusticeps,Dendroaspis (mambas),Sin protección,Sin protección,Sin efecto protector,0
+Dendroaspis jamesoni,Dendroaspis (mambas),Protegido,Muerte retrasada,"0,5 h → 1 h",1
+Dendroaspis polylepis,Dendroaspis (mambas),Protegido,Muerte retrasada,"0,5 h → 2 h",1
+Dendroaspis viridis,Dendroaspis (mambas),Protegido,Protegido (signos),"5/5 supervivencia, signos de envenenamiento",3
+Hemachatus haemachatus,Hemachatus (rinkhals),Protegido,Protegido total,"5/5 supervivencia, sin signos",4
+Naja anchietae,Naja (Uraeus),Protegido,No testeado,,-1
+Naja annulifera,Naja (Uraeus),Protegido,Protegido total,"5/5 supervivencia, sin signos",4
+Naja ashei,Naja (Afronaja),Protegido,No testeado,,-1
+Naja haje,Naja (Uraeus),Protegido,Protegido total,"5/5 supervivencia, sin signos",4
+Naja katiensis,Naja (Afronaja),Protegido,No testeado,,-1
+Naja melanoleuca,Naja (Boulengerina),Protegido,Parcial,"3/5 supervivencia, muerte retrasada en 2",2
+Naja mossambica,Naja (Afronaja),Protegido,No testeado,,-1
+Naja nigricincta,Naja (Afronaja),Protegido,No testeado,,-1
+Naja nigricollis,Naja (Afronaja),Protegido,No testeado,,-1
+Naja nivea,Naja (Uraeus),Protegido,Protegido total,"5/5 supervivencia, sin signos",4
+Naja nubiae,Naja (Afronaja),Protegido,Protegido total,"5/5 supervivencia, sin signos",4
+Naja pallida,Naja (Afronaja),Protegido,No testeado,,-1
+Naja senegalensis,Naja (Uraeus),Protegido,Protegido total,"5/5 supervivencia, sin signos",4

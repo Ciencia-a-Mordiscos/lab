@@ -1,0 +1,25 @@
+titulo: "8 moléculas contra 17 serpientes letales"
+fecha: 2026-01-17
+categoria: medicina
+tags: [nanobodies, antivenom, serpientes, elapidos, toxinología, inmunología]
+formato: corto
+video_youtube: "https://youtube.com/shorts/XnIsVcl8hoQ"
+fuentes:
+  - doi: "10.1038/s41586-025-09661-0"
+    titulo: "Nanobody-based recombinant antivenom for cobra, mamba and rinkhals bites"
+    journal: Nature
+    autores: "Ahmadi et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "composicion_veneno.csv"
+    descripcion: "Proteómica de venenos: 133 entradas de toxinas en 16 especies elapidas africanas"
+    fuente: "Supplementary Table 1"
+  - nombre: "resultados_in_vivo.csv"
+    descripcion: "Resultados de neutralización in vivo para 18 especies"
+    fuente: "Texto del paper"
+  - nombre: "nanobodies.csv"
+    descripcion: "Los 8 nanobodies del antiveneno recombinante"
+    fuente: "Texto del paper"
+estado: publicado

@@ -1,0 +1,134 @@
+especie,subgenero,sindrome,fraccion,etiqueta,prevalencia_pct,toxina_uniprot,familia_toxina,familia_mayor
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj1,sNTx-1,74.26,P01417,sNTx (α-neurotoxina corta),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj1,sNTx-1,14.46,P18328,AgTx (toxina aminérgica),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj1,sNTx-1,5.61,P60237,AgTx (toxina aminérgica),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj6B,KUN-1,57.71,P01407,AgTx (toxina aminérgica),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj6B,KUN-1,35.05,P00979,KUN (inhibidor Kunitz),KUN
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj6B,KUN-1,4.13,P0DQP2,AgTx (toxina aminérgica),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj10,AgTx-1,41.38,P0DQP2,AgTx (toxina aminérgica),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj10,AgTx-1,30.27,P01407,AgTx (toxina aminérgica),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj10,AgTx-1,22.3,P25682,Og XI (grupo huérfano XI),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj13A,Og XI-1,89.89,P01405,Og XI (grupo huérfano XI),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj13A,Og XI-1,3.48,P01407,AgTx (toxina aminérgica),3FTx
+Dendroaspis jamesoni,Dendroaspis (mambas),Neurotóxico,Dj13A,Og XI-1,1.18,C0HJB0,Mambalgin,3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp4,sNTx-2,72.37,P01416,sNTx (α-neurotoxina corta),3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp4,sNTx-2,19.15,Q53B57,lNTx (α-neurotoxina larga),3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp4,sNTx-2,4.16,P00981,KUN (inhibidor Kunitz),KUN
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp5,lNTx-1,42.85,P00981,KUN (inhibidor Kunitz),KUN
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp5,lNTx-1,19.44,P01416,sNTx (α-neurotoxina corta),3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp5,lNTx-1,18.9,Q53B57,lNTx (α-neurotoxina larga),3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp6,lNTx-2,31.52,P00981,KUN (inhibidor Kunitz),KUN
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp6,lNTx-2,26.51,P00984,KUN (inhibidor Kunitz),KUN
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp6,lNTx-2,20.26,P01390,lNTx (α-neurotoxina larga),3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp7,lNTx-3,30.71,C0HJD7,lNTx (α-neurotoxina larga),3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp7,lNTx-3,24.57,P01390,lNTx (α-neurotoxina larga),3FTx
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp7,lNTx-3,16.81,P00981,KUN (inhibidor Kunitz),KUN
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp8,KUN-2,84.44,P00979,KUN (inhibidor Kunitz),KUN
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp8,KUN-2,5.55,P14556,PLA₂ (fosfolipasa A₂),PLA₂
+Dendroaspis polylepis,Dendroaspis (mambas),Neurotóxico,Dp8,KUN-2,3.14,P00981,KUN (inhibidor Kunitz),KUN
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv1,sNTx-3,94.33,P01417,sNTx (α-neurotoxina corta),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv1,sNTx-3,3.66,P00986,KUN (inhibidor Kunitz),KUN
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv5A,sNTx-4,33.9,P01419,sNTx (α-neurotoxina corta),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv5A,sNTx-4,28.65,C0HJD7,lNTx (α-neurotoxina larga),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv5A,sNTx-4,24.48,A8N285,lNTx (α-neurotoxina larga),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv9,AgTx-2,72.46,P01407,AgTx (toxina aminérgica),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv9,AgTx-2,12.69,P25682,Og XI (grupo huérfano XI),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv9,AgTx-2,7.55,P01431,sNTx (α-neurotoxina corta),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv10,Other3FTx-1,52.19,P25683,Bloqueador Ca²⁺,3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv10,Other3FTx-1,16.87,P18329,Og (grupo huérfano),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv10,Other3FTx-1,7.88,P17696,AgTx (toxina aminérgica),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv13,Og XI-2,66.59,P01405,Og XI (grupo huérfano XI),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv13,Og XI-2,10.77,P17696,AgTx (toxina aminérgica),3FTx
+Dendroaspis viridis,Dendroaspis (mambas),Neurotóxico,Dv13,Og XI-2,8.08,P01407,AgTx (toxina aminérgica),3FTx
+Hemachatus haemachatus,Hemachatus (rinkhals),Daño tisular local,Hh1,sNTx-5,67.98,P01433,sNTx (α-neurotoxina corta),3FTx
+Hemachatus haemachatus,Hemachatus (rinkhals),Daño tisular local,Hh1,sNTx-5,21.19,P14556,PLA₂ (fosfolipasa A₂),PLA₂
+Hemachatus haemachatus,Hemachatus (rinkhals),Daño tisular local,Hh1,sNTx-5,4.69,P01431,sNTx (α-neurotoxina corta),3FTx
+Hemachatus haemachatus,Hemachatus (rinkhals),Daño tisular local,Hh9,CTx-1,88.02,P24777,CTx (citotoxina),3FTx
+Hemachatus haemachatus,Hemachatus (rinkhals),Daño tisular local,Hh9,CTx-1,2.94,P01473,Og (grupo huérfano),3FTx
+Hemachatus haemachatus,Hemachatus (rinkhals),Daño tisular local,Hh9,CTx-1,2.7,P24778,Og XI (grupo huérfano XI),3FTx
+Naja ashei,Naja (Afronaja),Daño tisular local,Na13,CTx-2,74.17,P01468,CTx (citotoxina),3FTx
+Naja ashei,Naja (Afronaja),Daño tisular local,Na13,CTx-2,18.3,P01456,CTx (citotoxina),3FTx
+Naja ashei,Naja (Afronaja),Daño tisular local,Na13,CTx-2,6.96,P0DSN1,CTx (citotoxina),3FTx
+Naja katiensis,Naja (Afronaja),Daño tisular local,Nk8,CTx-3,44.83,P01468,CTx (citotoxina),3FTx
+Naja katiensis,Naja (Afronaja),Daño tisular local,Nk8,CTx-3,28.43,P01456,CTx (citotoxina),3FTx
+Naja katiensis,Naja (Afronaja),Daño tisular local,Nk8,CTx-3,10.08,P0DSN1,CTx (citotoxina),3FTx
+Naja mossambica,Naja (Afronaja),Daño tisular local,Nmo3,CTx-4,54.75,P01468,CTx (citotoxina),3FTx
+Naja mossambica,Naja (Afronaja),Daño tisular local,Nmo3,CTx-4,16.15,P01456,CTx (citotoxina),3FTx
+Naja mossambica,Naja (Afronaja),Daño tisular local,Nmo3,CTx-4,12.89,P25517,CTx (citotoxina),3FTx
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig5,CTx-5,66.13,P01468,CTx (citotoxina),3FTx
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig5,CTx-5,16.38,P01400,Og (grupo huérfano),3FTx
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig5,CTx-5,2.98,P01456,CTx (citotoxina),3FTx
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig11,PLA2-1,50.99,P00605,PLA₂ (fosfolipasa A₂),PLA₂
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig11,PLA2-1,26.36,P14556,PLA₂ (fosfolipasa A₂),PLA₂
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig11,PLA2-1,10.11,P0DSN1,CTx (citotoxina),3FTx
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig13,CTx-6,68.59,P01468,CTx (citotoxina),3FTx
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig13,CTx-6,24.66,P01456,CTx (citotoxina),3FTx
+Naja nigricincta,Naja (Afronaja),Daño tisular local,Nnig13,CTx-6,3.08,P0DSN1,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn13,CTx-7,39.47,P01452,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn13,CTx-7,30.05,P25517,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn13,CTx-7,29.59,P01456,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn19,PLA2-2,46.35,P00605,PLA₂ (fosfolipasa A₂),PLA₂
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn19,PLA2-2,23.32,P01456,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn19,PLA2-2,13.36,P01468,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn25,CTx-8,69.44,P01468,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn25,CTx-8,24.22,P01456,CTx (citotoxina),3FTx
+Naja nigricollis,Naja (Afronaja),Daño tisular local,Nn25,CTx-8,5.81,P0DSN1,CTx (citotoxina),3FTx
+Naja nubiae,Naja (Afronaja),Daño tisular local,Nu6,PLA2-3,40.84,P14556,PLA₂ (fosfolipasa A₂),PLA₂
+Naja nubiae,Naja (Afronaja),Daño tisular local,Nu6,PLA2-3,22.11,P0DSN1,CTx (citotoxina),3FTx
+Naja nubiae,Naja (Afronaja),Daño tisular local,Nu6,PLA2-3,16.71,P01456,CTx (citotoxina),3FTx
+Naja nubiae,Naja (Afronaja),Daño tisular local,Nu11,CTx-9,81.72,P01468,CTx (citotoxina),3FTx
+Naja nubiae,Naja (Afronaja),Daño tisular local,Nu11,CTx-9,14.61,P01456,CTx (citotoxina),3FTx
+Naja nubiae,Naja (Afronaja),Daño tisular local,Nu11,CTx-9,3.28,P0DSN1,CTx (citotoxina),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm3,sNTx-6,35.18,P01424,sNTx (α-neurotoxina corta),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm3,sNTx-6,33.49,Q9YGJ6,sNTx (α-neurotoxina corta),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm3,sNTx-6,26.37,P68418,sNTx (α-neurotoxina corta),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm8,lNTx-4,66.93,P0DQQ2,lNTx (α-neurotoxina larga),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm8,lNTx-4,24.52,P01400,Og (grupo huérfano),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm8,lNTx-4,3.43,P01388,lNTx (α-neurotoxina larga),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm13,CTx-11,32.62,P01448,CTx (citotoxina),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm13,CTx-11,22.27,P01456,CTx (citotoxina),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm13,CTx-11,21.01,P00986,KUN (inhibidor Kunitz),KUN
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm17,CTx-12,58.61,P01448,CTx (citotoxina),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm17,CTx-12,31.07,P01456,CTx (citotoxina),3FTx
+Naja melanoleuca,Naja (Boulengerina),Neurotóxico,Nm17,CTx-12,7.84,P00600,PLA₂ (fosfolipasa A₂),PLA₂
+Naja anchietae,Naja (Uraeus),Neurotóxico,Nanc6,CTx-13,96.49,P01456,CTx (citotoxina),3FTx
+Naja anchietae,Naja (Uraeus),Neurotóxico,Nanc6,CTx-13,1.12,P82462,AgTx (toxina aminérgica),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan3,sNTx-7,98.38,P01421,sNTx (α-neurotoxina corta),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan10,CTx-14,97.22,P01456,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan11,CTx-15,48.43,P01463,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan11,CTx-15,35.37,P01456,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan11,CTx-15,4.6,P01468,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan13,CTx-16,37.59,P01456,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan13,CTx-16,28.85,P01463,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan13,CTx-16,22.15,P01462,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan15,CTx-17,52.14,P01463,CTx (citotoxina),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan15,CTx-17,13.03,P62394,Og (grupo huérfano),3FTx
+Naja annulifera,Naja (Uraeus),Neurotóxico,Nan15,CTx-17,10.24,P01456,CTx (citotoxina),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh1,sNTx-8,54.85,P68418,sNTx (α-neurotoxina corta),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh1,sNTx-8,39.49,P01421,sNTx (α-neurotoxina corta),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh1,sNTx-8,2.81,P01422,sNTx (α-neurotoxina corta),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh2,sNTx-9,38.48,P01422,sNTx (α-neurotoxina corta),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh2,sNTx-9,28.24,P01423,sNTx (α-neurotoxina corta),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh2,sNTx-9,26.74,P68418,sNTx (α-neurotoxina corta),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh3,lNTx-5,68.3,P01389,lNTx (α-neurotoxina larga),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh3,lNTx-5,17.82,P0DQQ2,lNTx (α-neurotoxina larga),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh3,lNTx-5,5.14,P01400,Og (grupo huérfano),3FTx
+Naja haje,Naja (Uraeus),Neurotóxico,Nh4,Other3FTx-3,98.0,P25678,Og (grupo huérfano),3FTx
+Naja nivea,Naja (Uraeus),Neurotóxico,Nnv3,sNTx-10,47.95,P01421,sNTx (α-neurotoxina corta),3FTx
+Naja nivea,Naja (Uraeus),Neurotóxico,Nnv3,sNTx-10,43.83,P01390,lNTx (α-neurotoxina larga),3FTx
+Naja nivea,Naja (Uraeus),Neurotóxico,Nnv3,sNTx-10,3.47,P01400,Og (grupo huérfano),3FTx
+Naja nivea,Naja (Uraeus),Neurotóxico,Nnv13,CTx-18,46.32,P01463,CTx (citotoxina),3FTx
+Naja nivea,Naja (Uraeus),Neurotóxico,Nnv13,CTx-18,26.26,P01456,CTx (citotoxina),3FTx
+Naja nivea,Naja (Uraeus),Neurotóxico,Nnv13,CTx-18,8.79,P01468,CTx (citotoxina),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns3,sNTx-11,41.34,P01400,Og (grupo huérfano),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns3,sNTx-11,20.47,P01421,sNTx (α-neurotoxina corta),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns3,sNTx-11,10.15,P01389,lNTx (α-neurotoxina larga),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns4,lNTx-6,36.84,P01389,lNTx (α-neurotoxina larga),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns4,lNTx-6,36.12,P01390,lNTx (α-neurotoxina larga),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns4,lNTx-6,11.87,P01400,Og (grupo huérfano),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns13,CTx-19,59.03,P01456,CTx (citotoxina),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns13,CTx-19,25.61,P01457,CTx (citotoxina),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns13,CTx-19,9.52,P25687,AVIT (prokinecticina),AVIT
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns15,CTx-20,54.33,P01462,CTx (citotoxina),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns15,CTx-20,18.21,P01456,CTx (citotoxina),3FTx
+Naja senegalensis,Naja (Uraeus),Neurotóxico,Ns15,CTx-20,5.11,P01468,CTx (citotoxina),3FTx

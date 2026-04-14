@@ -1,0 +1,130 @@
+{
+  "version": "1.0",
+  "paper_id": 332,
+  "doi": "10.1038/s41586-025-09661-0",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "Las toxinas de tres dedos (3FTx) dominan los venenos elapidas",
+      "supported": "yes",
+      "detail": "115/133 entradas (86,5%) son 3FTx. Las 4 familias restantes suman 13,5%",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Afronaja produce venenos citotóxicos, Uraeus neurotóxicos",
+      "supported": "yes",
+      "detail": "28/33 entradas Afronaja son CTx. Uraeus: sNTx (9/41), CTx (18/41), Og (6), lNTx (6)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "El antiveneno protege contra 17/18 especies en pre-incubación",
+      "supported": "yes",
+      "detail": "Dato del paper — requiere curvas de supervivencia Kaplan-Meier no disponibles",
+      "certainty_tier": "T1",
+      "abstract_verb": "effectively prevented",
+      "effect_size": null
+    },
+    {
+      "claim": "El antiveneno supera al comercial en modelos murinos",
+      "supported": "yes",
+      "detail": "Preclínico — en rescate y dermonecrosis, superior en N. nigricollis. Pendiente validación clínica",
+      "certainty_tier": "T2",
+      "abstract_verb": "shows considerable promise",
+      "effect_size": null
+    },
+    {
+      "claim": "8 nanobodies cubren 7 subfamilias de toxinas",
+      "supported": "yes",
+      "detail": "sNTx + lNTx + CTx + AgTx + OgXI + PLA₂ + KUN = 7 coincide con datos",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 18,
+      "unit": "especies",
+      "context": "serpientes elapidas africanas médicamente relevantes",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "nanobodies",
+      "context": "en el antiveneno recombinante",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17,
+      "unit": "especies protegidas",
+      "context": "en modelo de pre-incubación (excepto D. angusticeps)",
+      "source": "paper_text",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "subfamilias",
+      "context": "de toxinas neutralizadas por el cocktail",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 86.5,
+      "unit": "porcentaje",
+      "context": "de entradas proteómicas que son 3FTx",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 133,
+      "unit": "entradas",
+      "context": "de toxinas en proteómica de 16 especies",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "effectively prevented",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (para modelo murino)"
+    },
+    {
+      "abstract_verb": "markedly reduced",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa atenuada"
+    },
+    {
+      "abstract_verb": "shows considerable promise",
+      "tier": "T2",
+      "cam_attenuator": "muestra potencial — NO 'demuestra que cura'"
+    }
+  ],
+  "narrative_hooks": [
+    "8 nanobodies de una alpaca y una llama vs 17 serpientes letales de África",
+    "Los venenos son opuestos — parálisis vs destrucción de tejido — pero un solo cocktail cubre ambos",
+    "Superó al antiveneno comercial de plasma en ratones"
+  ],
+  "limitations": [
+    "Solo proteómica cuantitativa disponible — resultados in vivo cualitativos del texto",
+    "D. angusticeps sin datos de proteómica en supplementary",
+    "Ensayos in vivo en ratones — extrapolación a humanos requiere ensayos clínicos",
+    "Modelo de rescate (5 min post-inyección) más favorable que mordedura real"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 6 números clave, tema de salud pública con impacto"
+  },
+  "notebook_slug": "2026-01-17-nanobodies-antivenom-serpientes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-nanobodies-antivenom-serpientes/notebook.html",
+  "generated_at": "2026-04-14T20:23:03.862103Z"
+}

@@ -1,0 +1,9 @@
+nanobody,diana,familia_mayor,efecto_clinico
+VHH2 a-sNTx,sNTx (neurotoxina corta),3FTx,Parálisis neuromuscular
+VHH5 a-lNTx,lNTx (neurotoxina larga),3FTx,Parálisis neuromuscular
+VHH1 a-CTx,CTx (citotoxina),3FTx,Dermonecrosis
+VHH4 a-CTx,CTx (citotoxina),3FTx,Dermonecrosis
+VHH7 a-AgTx,AgTx (toxina aminérgica),3FTx,Efectos muscarínicos
+VHH23 a-OgXI,Og XI (grupo huérfano),3FTx,Citotoxicidad
+VHH20 a-PLA₂,PLA₂ (fosfolipasa),PLA₂,Dermonecrosis + hemólisis
+VHH10 a-KUN,KUN (inhibidor Kunitz),KUN,Inhibición de proteasas
