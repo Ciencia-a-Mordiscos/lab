@@ -1,0 +1,25 @@
+parametro,valor,error,unidad,fuente,nota
+presion_experimento_gpa,8,,GPa,paper_texto,"Run SCO-3, presión principal"
+presion_maxima_gpa,42,,GPa,paper_texto,"Run SCO-13b, bridgmanita se funde"
+temperatura_min_k,2725,,K,paper_texto,"SCO-13a, bajo melting"
+temperatura_max_k,3924,,K,paper_texto,"SCO-13b, sobre melting"
+h2_inicial_wt_pct,5.1,0.6,wt%,paper_calculo,4.5-5.7 wt% H₂ en volumen calentado
+silicato_inicial_wt_pct,76,,wt%,paper_texto,~76 wt% silicato
+fe_metal_inicial_wt_pct,19,,wt%,paper_texto,"~19 wt% Fe metal, 20 wt% nominal"
+h2o_producido_wt_pct,18.1,0.5,wt%,paper_texto,Resultado principal del experimento
+y_fesi_medido,0.27,,adimensional,paper_texto,y en Fe₁₋ᵧSiᵧ a 8 GPa
+si_reducido_pct,32,,%,paper_texto,32% del Si⁴⁺ reducido a aleación
+si_max_reducible_pct,86,,%,paper_texto,Máximo si y=0.5 (todo Fe consumido)
+masa_planeta_me,5,,M_E,paper_modelo,Planeta modelo sub-Neptuno
+envolvente_wt_pct,10,,wt%,paper_modelo,Envolvente H₂+He (Fig. 3)
+nucleo_exterior_reacciona_pct,5,,%,paper_texto,Solo el 5% exterior del núcleo
+h2o_subneptuno_min_wt_pct,2,,wt%,supp_code_2,Mg/Si=2 (olivino)
+h2o_subneptuno_max_wt_pct,4,,wt%,paper_texto,Rango 2-4 wt% del paper
+h2o_mgsi_2,2.0,,wt%,supp_code_2,Mg/Si=2 (olivino Mg₂SiO₄)
+h2o_mgsi_0.5,3.6,,wt%,supp_code_2,"Mg/Si=0.5 (MgSi₂O₅, más silicio)"
+h2o_modelo_bajo_wt_pct,0.01,,wt%,ref_9,"Predicción previa (baja presión, 10⁻² wt%)"
+x_h2o_chachan,0.2,,mol_frac,ref_4,Predicción Chachan & Stevenson (SiH₄ boundary)
+x_h2o_vazan_low,0.0001,,mol_frac,ref_5,"Predicción Vazan (Si reduction, min)"
+x_h2o_vazan_high,0.001,,mol_frac,ref_5,"Predicción Vazan (Si reduction, max)"
+x_h2o_mixing_stop,0.3,,mol_frac,paper_texto,Mezcla convectiva se detiene en X(H₂O)≈0.3
+temp_ceb_mixing_stop_k,3500,,K,paper_texto,CEB temp donde mixing se detiene

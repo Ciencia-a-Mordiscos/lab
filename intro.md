@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### 🪐 Planetas húmedos sin migrar desde lejos
+
+**Astronomía** · Nature · Luo et al. (2025), experimentos de alta presión (8–42 GPa, 2.725–3.924 K) que simulan el interior de sub-Neptunos. Al comprimir una mezcla primordial (~5% H₂ + ~76% silicato + ~19% Fe), el hidrógeno reduce el silicato y produce 18,1 ± 0,5 wt% de H₂O — ~1.800× más que las predicciones previas (0,01 wt%). Una aleación Fe₀,₇₃Si₀,₂₇ confirma la reducción. Un sub-Neptuno de 5 M⊕ con 5% de envolvente podría generar 2–4 wt% H₂O sin migrar desde órbitas lejanas.
+
+[Ver notebook](papers/2026-04-15-agua-sub-neptunos-reaccion-magma/notebook) · [Leer más](papers/2026-04-15-agua-sub-neptunos-reaccion-magma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-agua-sub-neptunos-reaccion-magma/notebook.ipynb)
+
+---
+
 ### 🌍 ¿De qué está hecha la Tierra? De nada que conozcamos
 
 **Astronomía** · Nature Astronomy · Render et al. (2026), 10 anomalías isotópicas nucleosintéticas en 17 cuerpos del Sistema Solar. La Tierra es el endmember del array no-carbonáceo: z₀ = −2,37, más extremo que cualquier meteorito conocido. 0% de material del Sistema Solar exterior. Mercurio y Venus serían aún más extremos.

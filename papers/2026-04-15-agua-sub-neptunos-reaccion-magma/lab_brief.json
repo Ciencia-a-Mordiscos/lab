@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "paper_id": 336,
+  "doi": "10.1038/s41586-025-09630-7",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La reacción H₂ + silicato produce 18,1 wt% de agua a 8 GPa",
+      "supported": "yes",
+      "detail": "Dato experimental directo. 18,1 ± 0,5 wt% medido en celda de diamante",
+      "certainty_tier": "T1",
+      "abstract_verb": "report/found",
+      "effect_size": null
+    },
+    {
+      "claim": "Los modelos previos subestimaban la producción de agua en ~1.800×",
+      "supported": "yes",
+      "detail": "18,1 wt% vs 10⁻² wt% predicho por extrapolaciones de baja presión",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1810,
+        "interpretation": "tres órdenes de magnitud"
+      }
+    },
+    {
+      "claim": "Un sub-Neptuno 5 M⊕ puede producir 2–4 wt% H₂O con 5% del núcleo",
+      "supported": "yes",
+      "detail": "Supplementary Code 2. 2,0 wt% (Mg/Si=2), 3,6 wt% (Mg/Si=0,5)",
+      "certainty_tier": "T2",
+      "abstract_verb": "can generate",
+      "effect_size": null
+    },
+    {
+      "claim": "El agua se redistribuye por la envolvente vía mezcla convectiva",
+      "supported": "partial",
+      "detail": "Source Data Fig. 3: modelo de evolución. Eficiencia de mezcla es parámetro libre",
+      "certainty_tier": "T2",
+      "abstract_verb": "can generate",
+      "effect_size": null
+    },
+    {
+      "claim": "Detectar agua no implica que el planeta migró",
+      "supported": "partial",
+      "detail": "Paper dice 'may not be the optimal evidence' — cuestionamiento, no refutación",
+      "certainty_tier": "T3",
+      "abstract_verb": "may not be",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 18.1,
+      "unit": "wt% H₂O",
+      "context": "agua producida en experimento",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "a few tens of weight per cent",
+        "our_calculation": "18.1",
+        "discrepancy_pct": 0,
+        "reason": "dato directo"
+      }
+    },
+    {
+      "value": 0.01,
+      "unit": "wt% H₂O",
+      "context": "predicción previa (baja presión)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "10⁻²",
+        "our_calculation": "0.01",
+        "discrepancy_pct": 0,
+        "reason": "dato directo"
+      }
+    },
+    {
+      "value": 1810,
+      "unit": "ratio",
+      "context": "mejora vs predicción previa",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 8,
+      "unit": "GPa",
+      "context": "presión del experimento principal",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 32,
+      "unit": "%",
+      "context": "Si⁴⁺ reducido (de 86% máximo)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "can generate",
+      "tier": "T2",
+      "cam_attenuator": "puede / podría"
+    },
+    {
+      "abstract_verb": "may not be",
+      "tier": "T3",
+      "cam_attenuator": "podría no ser / falta confirmar"
+    },
+    {
+      "abstract_verb": "implying",
+      "tier": "T2",
+      "cam_attenuator": "es consistente con / sugiere"
+    }
+  ],
+  "narrative_hooks": [
+    "Un sub-Neptuno podría fabricar su propia agua — sin traerla de lejos",
+    "18,1% de agua producida en el laboratorio — 1.800 veces más que las predicciones"
+  ],
+  "limitations": [
+    "Experimento usó olivino de San Carlos + Fe como análogo del manto, no composiciones reales de sub-Neptunos",
+    "Solo se redujo el 32% del Si (y=0,27); el máximo teórico (86%) requiere consumir todo el Fe",
+    "La eficiencia de mezcla convectiva en el modelo es un parámetro ajustable",
+    "Los datos de evolución planetaria (Fig. 3) son de un modelo, no de observaciones directas"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes, 2 partial"
+  },
+  "notebook_slug": "2026-04-15-agua-sub-neptunos-reaccion-magma",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-15-agua-sub-neptunos-reaccion-magma/notebook.html",
+  "generated_at": "2026-04-15T20:19:32.819286+00:00"
+}

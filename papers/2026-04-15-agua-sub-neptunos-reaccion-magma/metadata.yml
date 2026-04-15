@@ -1,0 +1,25 @@
+titulo: "Planetas húmedos sin migrar desde lejos"
+fecha: 2026-04-15
+categoria: astronomia
+tags: [sub-neptunos, exoplanetas, agua, alta-presion, magma, hidrogeno, diamond-anvil-cell]
+formato: corto
+video_youtube: "https://youtube.com/shorts/P2ZOHqKeDFE"
+fuentes:
+  - doi: "10.1038/s41586-025-09630-7"
+    titulo: "Building wet planets through high-pressure magma–hydrogen reactions"
+    journal: Nature
+    autores: "Horn et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "evolucion_planetaria.csv"
+    descripcion: "Source Data Fig. 3 — evolución de Z vs masa interna"
+    fuente: "Supplementary Materials (MOESM4)"
+  - nombre: "reacciones_experimentales.csv"
+    descripcion: "Parámetros experimentales compilados del paper"
+    fuente: "Paper texto + Supplementary Code"
+  - nombre: "agua_por_composicion.csv"
+    descripcion: "Producción de agua por ratio Mg/Si"
+    fuente: "Supplementary Code 2"
+estado: publicado

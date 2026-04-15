@@ -1,0 +1,4 @@
+mgsi_ratio,mineral,h2o_fesi_wt_pct,reaccion
+2.0,Mg₂SiO₄ (olivino),2.0,Mg₂SiO₄ + 2H₂ + Fe → 2MgO + FeSi + 2H₂O
+1.0,MgSiO₃ (enstatita),,MgSiO₃ + 2H₂ + Fe → MgO + FeSi + 2H₂O
+0.5,MgSi₂O₅,3.6,MgSi₂O₅ + 4H₂ + Fe → MgO + FeSi₂ + 4H₂O
