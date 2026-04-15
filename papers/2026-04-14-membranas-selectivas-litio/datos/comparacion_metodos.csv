@@ -1,0 +1,7 @@
+metodo,recovery_min_pct,recovery_max_pct,energy_min_kwh_kg,energy_max_kwh_kg,cost_usd_kg_min,cost_usd_kg_max
+Electroquímico,90,95,10.21,10.21,,
+Extracción con solventes,70,95,1.88,2.00,12.27,12.27
+Intercambio iónico,85,95,2.00,3.50,11.00,15.16
+Precipitación,91,91,35,48,5,7
+Adsorción,80,95,2.00,3.00,14.92,14.92
+ISGC (este trabajo),,,1.02,1.02,,

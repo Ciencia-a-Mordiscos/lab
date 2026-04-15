@@ -222,6 +222,11 @@ parts:
       title: Notebook
 - caption: Química
   chapters:
+  - file: papers/2026-04-14-membranas-selectivas-litio/README
+    title: "Membranas selectivas de litio: 60× más selectivas"
+    sections:
+    - file: papers/2026-04-14-membranas-selectivas-litio/notebook
+      title: Notebook
   - file: papers/2026-03-17-pfas-fabrican-baterias-litio/README
     title: 'PFAS: los forever chemicals fabrican baterías'
     sections:

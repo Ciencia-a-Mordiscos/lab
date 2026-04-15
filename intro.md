@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ⚗️ Membranas selectivas de litio: 60 veces más que la competencia
+
+**Química** · Nature Water · Chen et al. (2026), membrana ISGC (polímero + ZIF-8 30%) logra selectividad K⁺/Li⁺ = 410,1 en salmueras multi-iónicas — 60× la mediana de los 10 competidores comparados. Poro óptimo a 2,686 Å (entre Li⁺ hidratado y K⁺ hidratado). Consumo energético: 1,02 kWh/kg, el menor entre 6 métodos de extracción. CAPEX total: 2.528 USD.
+
+[Ver notebook](papers/2026-04-14-membranas-selectivas-litio/notebook) · [Leer más](papers/2026-04-14-membranas-selectivas-litio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-14-membranas-selectivas-litio/notebook.ipynb)
+
+---
+
 ### ☀️ Celdas solares de perovskita: cuando la IA fabrica mejor que el humano
 
 **Tecnología** · Nature (2026) · 756 celdas solares fabricadas por una plataforma autónoma de IA (optimización bayesiana + ML) vs. 36 controles manuales. Las 20 condiciones automatizadas superan al control: +2,9 pp de eficiencia (22,4% → 25,3%), Cohen's d = 6,54. La ganancia viene del voltaje (VOC) y el factor de llenado (FF), no de la corriente.

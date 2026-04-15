@@ -1,0 +1,31 @@
+titulo: "Membranas selectivas de litio: 60× más que la mediana"
+fecha: 2026-04-14
+categoria: química
+tags: [litio, membranas, MOF, ZIF, selectividad iónica, extracción, baterías, Li2CO3]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00633-w"
+    titulo: "Scalable glass composite membranes for highly selective lithium enrichment"
+    journal: Nature Water
+    autores: "Wu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "selectividad_membranas.csv"
+    descripcion: "Selectividad iónica de 11 materiales de membrana"
+    fuente: "Supplementary Table S3"
+  - nombre: "especies_ionicas.csv"
+    descripcion: "Diámetros bare e hidratados de 6 especies iónicas"
+    fuente: "Supplementary Table S2"
+  - nombre: "pals_membranas.csv"
+    descripcion: "Estructura de poro PALS para 5 composiciones"
+    fuente: "Supplementary Table S1"
+  - nombre: "comparacion_metodos.csv"
+    descripcion: "Comparación energética de 6 métodos de extracción"
+    fuente: "Supplementary Table S6"
+  - nombre: "capex.csv"
+    descripcion: "Desglose CAPEX del sistema piloto"
+    fuente: "Supplementary Table S4"
+estado: publicado

@@ -1,0 +1,168 @@
+{
+  "version": "1.0",
+  "paper_id": 2339,
+  "doi": "10.1038/s44221-026-00633-w",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "ISGC logra selectividad K⁺/Li⁺ de 410 en multi-ion brines",
+      "supported": "yes",
+      "detail": "Table S3: K⁺/Li⁺ = 410,1. Abstract confirma 'reaching 410 for K⁺/Li⁺'",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "ISGC supera a los 10 competidores comparados en K⁺/Li⁺",
+      "supported": "yes",
+      "detail": "4,8× vs el mejor (UIO-66/ZIF-8 = 85). 60× vs mediana (6,8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieve",
+      "effect_size": null
+    },
+    {
+      "claim": "Na⁺/Li⁺ de ISGC iguala al mejor competidor",
+      "supported": "yes",
+      "detail": "ISGC 80,17 vs UIO-66/ZIF-8 80,0 — diferencia <1%",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieve",
+      "effect_size": null
+    },
+    {
+      "claim": "El litio hidratado es el catión monovalente más grande",
+      "supported": "yes",
+      "detail": "Table S2: Li⁺ hydrated = 0,764 nm > Na⁺ (0,716) > K⁺ (0,662)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "30% ZIF-8 es la composición óptima",
+      "supported": "yes",
+      "detail": "Table S1: a 40% el radio salta 1,7× (de 2,686 a 4,592 Å)",
+      "certainty_tier": "T1",
+      "abstract_verb": "confirm",
+      "effect_size": null
+    },
+    {
+      "claim": "ISGC consume 1,02 kWh/kg de Li₂CO₃",
+      "supported": "yes",
+      "detail": "Table S6 y abstract coinciden: 1,02 kWh/kg",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "ISGC es el método más eficiente energéticamente",
+      "supported": "partial",
+      "detail": "Más bajo que los 5 métodos comparados (siguiente: 1,88 kWh/kg), pero la comparación no incluye todos los métodos existentes",
+      "certainty_tier": "T2",
+      "abstract_verb": "position",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 410.1,
+      "unit": "selectividad K⁺/Li⁺",
+      "context": "multi-ion brines, membrana ISGC",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "410",
+        "our_calculation": "410.1",
+        "discrepancy_pct": 0.02,
+        "reason": "redondeo en abstract"
+      }
+    },
+    {
+      "value": 80.17,
+      "unit": "selectividad Na⁺/Li⁺",
+      "context": "multi-ion brines, membrana ISGC",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "80",
+        "our_calculation": "80.17",
+        "discrepancy_pct": 0.21,
+        "reason": "redondeo en abstract"
+      }
+    },
+    {
+      "value": 1.02,
+      "unit": "kWh/kg Li₂CO₃",
+      "context": "consumo energético ISGC",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.02",
+        "our_calculation": "1.02",
+        "discrepancy_pct": 0,
+        "reason": "coincide exacto"
+      }
+    },
+    {
+      "value": 4.8,
+      "unit": "ratio",
+      "context": "ISGC K⁺/Li⁺ vs mejor competidor (UIO-66/ZIF-8)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 60,
+      "unit": "ratio",
+      "context": "ISGC K⁺/Li⁺ vs mediana del campo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.764,
+      "unit": "nm",
+      "context": "diámetro hidratado Li⁺ — el más grande de los monovalentes",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "achieved",
+      "tier": "T1",
+      "cam_attenuator": "resultado medido"
+    },
+    {
+      "abstract_verb": "confirmed",
+      "tier": "T1",
+      "cam_attenuator": "confirmó / verificó"
+    },
+    {
+      "abstract_verb": "positions",
+      "tier": "T2",
+      "cam_attenuator": "posiciona como / abre la puerta a"
+    }
+  ],
+  "narrative_hooks": [
+    "60 veces más selectiva que la mediana — y lo hace con solo 1,02 kWh por kg de Li₂CO₃",
+    "El ión más pequeño desnudo se convierte en el más grande hidratado — y eso es lo que explota esta membrana",
+    "A 30% ZIF-8 los poros son perfectos. A 40% se disparan — y la selectividad colapsa"
+  ],
+  "limitations": [
+    "Datos de Supplementary Tables solamente — figuras del paper no accesibles (paywall)",
+    "Selectividad de 410 medida con salmueras sintéticas en laboratorio — brines naturales pueden diferir",
+    "Comparación de métodos (Table S6) incluye solo 5 métodos convencionales seleccionados por los autores"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados yes + 1 partial, 6 números clave"
+  },
+  "notebook_slug": "2026-04-14-membranas-selectivas-litio",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-14-membranas-selectivas-litio/notebook.html",
+  "generated_at": "2026-04-15T12:45:00Z"
+}
