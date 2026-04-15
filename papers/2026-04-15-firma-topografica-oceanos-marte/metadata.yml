@@ -1,0 +1,25 @@
+titulo: "¿Tuvo Marte un océano? La firma que dejó en el suelo"
+fecha: 2026-04-15
+categoria: geología
+tags: [marte, océano, topografía, plataforma costera, shorelines, deltas, geomorfología planetaria]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10381-2"
+    titulo: "Identifying the topographic signature of early Martian oceans"
+    journal: Nature
+    autores: "Benjamin et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "shelf_elevacion_hist.csv"
+    descripcion: "Histograma de elevación de la plataforma costera marciana"
+    fuente: "Zenodo 10.5281/zenodo.18868496"
+  - nombre: "shorelines.csv"
+    descripcion: "Shorelines Arabia y Deuteronilus (subsample)"
+    fuente: "Zenodo 10.5281/zenodo.18868496"
+  - nombre: "deltas.csv"
+    descripcion: "48 depósitos de delta"
+    fuente: "Zenodo 10.5281/zenodo.18868496"
+estado: publicado

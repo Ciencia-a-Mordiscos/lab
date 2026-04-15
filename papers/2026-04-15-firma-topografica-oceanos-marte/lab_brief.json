@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "paper_id": 2345,
+  "doi": "10.1038/s41586-026-10381-2",
+  "paper_type": "descriptive",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Existe una zona plana entre −3.800 m y −1.800 m en Marte",
+      "supported": "yes",
+      "detail": "408.690 puntos en Zenodo. Coincide con el rango reportado en el paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Las shorelines propuestas varían kilómetros de elevación",
+      "supported": "yes",
+      "detail": "Arabia: 6,7 km de rango. Deuteronilus: 3,1 km. Verificado en datos",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "La plataforma se concentra en el hemisferio norte",
+      "supported": "yes",
+      "detail": "97,4% de los puntos están al norte del ecuador",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Los deltas convergen hacia la plataforma",
+      "supported": "yes",
+      "detail": "37/48 (77%) caen dentro del rango −3.800 a −1.800 m",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "La plataforma es evidencia de un océano marciano",
+      "supported": "partial",
+      "detail": "El paper usa 'potentially' y 'support' — no es prueba definitiva. Flujos de lava podrían explicar zonas planas localmente",
+      "certainty_tier": "T2",
+      "abstract_verb": "support",
+      "effect_size": null
+    },
+    {
+      "claim": "El océano cubría 1/3 de la superficie",
+      "supported": "partial",
+      "detail": "Dato del paper, no verificable con los datos de elevación disponibles",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 408690,
+      "unit": "puntos",
+      "context": "puntos de la plataforma costera marciana en Zenodo",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~408K",
+        "our_calculation": "408690",
+        "discrepancy_pct": 0,
+        "reason": "conteo directo del shapefile"
+      }
+    },
+    {
+      "value": -3800,
+      "unit": "metros",
+      "context": "límite inferior de la plataforma costera marciana",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "approximately -3800 m",
+        "our_calculation": "-3800 m",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": -1800,
+      "unit": "metros",
+      "context": "límite superior de la plataforma costera marciana",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "approximately -1800 m",
+        "our_calculation": "-1800 m",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 77,
+      "unit": "por ciento",
+      "context": "deltas que caen dentro de la zona de la plataforma",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "within the putative coastal shelf zone",
+        "our_calculation": "37/48 = 77%",
+        "discrepancy_pct": 0,
+        "reason": "cálculo directo"
+      }
+    },
+    {
+      "value": 5.1,
+      "unit": "ratio",
+      "context": "plataforma marciana es 5,1x más ancha que la terrestre en rango de elevación",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "2000 m vs 395 m",
+        "our_calculation": "2000/395 = 5.06",
+        "discrepancy_pct": 0,
+        "reason": "cálculo directo"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (para la Tierra)"
+    },
+    {
+      "abstract_verb": "potentially",
+      "tier": "T3",
+      "cam_attenuator": "podría marcar"
+    },
+    {
+      "abstract_verb": "support",
+      "tier": "T2",
+      "cam_attenuator": "los resultados respaldan"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    }
+  ],
+  "narrative_hooks": [
+    "Las líneas de costa propuestas en Marte varían casi 7 km de elevación. La pista real del océano no está en una playa — está en una zona plana de 2.000 m de rango que rodea todo el planeta."
+  ],
+  "limitations": [
+    "Los datos topográficos no son una prueba directa de agua — la forma plana podría tener otros orígenes (vulcanismo)",
+    "Las coordenadas de la plataforma vienen del análisis de slope/curvature del paper, no de una medición directa de agua",
+    "Solo analizamos distribución de elevación — el análisis de slope y curvature del paper no está en los datos descargados (están en el ZIP de 2,8 GB)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados yes, 2 partial, 5 números clave"
+  },
+  "notebook_slug": "2026-04-15-firma-topografica-oceanos-marte",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-15-firma-topografica-oceanos-marte/notebook.html",
+  "generated_at": "2026-04-15T20:00:00Z"
+}

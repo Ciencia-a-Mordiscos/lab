@@ -105,6 +105,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-04-15-firma-topografica-oceanos-marte/README
+    title: "¿Tuvo Marte un océano?"
+    sections:
+    - file: papers/2026-04-15-firma-topografica-oceanos-marte/notebook
+      title: Notebook
   - file: papers/2026-01-17-fantasmas-cocolitoforos-triasico/README
     title: "Fantasmas de 241 millones de años"
     sections:
