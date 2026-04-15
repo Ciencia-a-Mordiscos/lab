@@ -1,0 +1,19 @@
+titulo: "Celdas solares de perovskita: cuando la IA fabrica mejor que el humano"
+fecha: 2026-04-14
+categoria: tecnologia
+tags: [ia, machine-learning, perovskita, celdas-solares, automatizacion, energia-renovable, bayesiana]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10482-y"
+    titulo: "Autonomous closed-loop framework for reproducible perovskite solar cells"
+    journal: Nature
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "celdas_solares.csv"
+    descripcion: "756 dispositivos (21 condiciones × 36), 4 parámetros solares (VOC, FF, JSC, PCE)"
+    fuente: "Supplementary Figures S4-S23"
+estado: publicado

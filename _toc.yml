@@ -236,6 +236,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/README
+    title: "Celdas solares de perovskita: cuando la IA fabrica mejor"
+    sections:
+    - file: papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/notebook
+      title: Notebook
   - file: papers/2026-04-08-busgen-ecografia-mama-ia/README
     title: IA con imágenes inventadas vs 9 radiólogos
     sections:

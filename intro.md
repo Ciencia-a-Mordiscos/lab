@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ☀️ Celdas solares de perovskita: cuando la IA fabrica mejor que el humano
+
+**Tecnología** · Nature (2026) · 756 celdas solares fabricadas por una plataforma autónoma de IA (optimización bayesiana + ML) vs. 36 controles manuales. Las 20 condiciones automatizadas superan al control: +2,9 pp de eficiencia (22,4% → 25,3%), Cohen's d = 6,54. La ganancia viene del voltaje (VOC) y el factor de llenado (FF), no de la corriente.
+
+[Ver notebook](papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/notebook) · [Leer más](papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/notebook.ipynb)
+
+---
+
 ### 🐍 8 moléculas contra 17 serpientes letales
 
 **Medicina** · Nature · Ahmadi et al. (2025), proteómica de venenos de 16 elapidos africanos (133 entradas de toxinas). Las cobras escupidoras (Afronaja) producen citotoxinas (CTx, 85% de sus 3FTx) que destruyen tejido, mientras mambas y cobras de capa producen neurotoxinas (sNTx, lNTx). Un cocktail de 8 nanobodies de alpaca cubre 7 subfamilias de toxinas, protegiendo contra 17/18 especies en ratones — superando al antiveneno comercial de plasma en modelos preclínicos.

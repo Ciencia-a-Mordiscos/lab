@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "paper_id": 2342,
+  "doi": "10.1038/s41586-026-10482-y",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La plataforma automatizada mejora la eficiencia respecto al control manual",
+      "supported": "yes",
+      "detail": "+2,9 pp (22,4% → 25,3%), Cohen's d = 6,54, Mann-Whitney p = 3 × 10⁻¹³. Las distribuciones no se solapan.",
+      "certainty_tier": "T1",
+      "abstract_verb": "enabled",
+      "effect_size": {"measure": "cohen_d", "value": 6.54, "interpretation": "enorme"}
+    },
+    {
+      "claim": "Las 20 condiciones automatizadas superan al control manual",
+      "supported": "yes",
+      "detail": "20/20 con PCE medio > 22,4%. Incluso la peor (S21: 22,5%) supera la media manual.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "effect_size": null
+    },
+    {
+      "claim": "VOC y FF son los principales impulsores de la mejora",
+      "supported": "yes",
+      "detail": "Spearman: FF ρ = 0,879, VOC ρ = 0,861, JSC ρ = 0,577. Todos p < 10⁻⁶⁸.",
+      "certainty_tier": "T1",
+      "abstract_verb": "enabled",
+      "effect_size": null
+    },
+    {
+      "claim": "La fabricación automatizada es más reproducible",
+      "supported": "yes",
+      "detail": "CV control 2,33% vs CV mejor auto 1,40% (ratio 1,67×). Distribuciones automatizadas más estrechas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "effect_size": null
+    },
+    {
+      "claim": "PCE récord de 27,22%",
+      "supported": "partial",
+      "detail": "No incluido en datos suplementarios. Máximo en dataset: 25,96%. El campeón individual probablemente fue seleccionado de un lote mayor.",
+      "certainty_tier": "T1",
+      "abstract_verb": "yielded",
+      "effect_size": null
+    },
+    {
+      "claim": "Reproducibilidad ~5× la de fabricación manual",
+      "supported": "partial",
+      "detail": "Nuestro análisis del CV muestra 1,67× (para mejor condición). El paper probablemente usa yield rate u otra métrica.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 22.41,
+      "unit": "porcentaje PCE",
+      "context": "PCE medio del control (fabricación manual), n=36",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "no especificado", "our_calculation": "22.41%", "discrepancy_pct": null, "reason": "n/a"}
+    },
+    {
+      "value": 25.32,
+      "unit": "porcentaje PCE",
+      "context": "PCE medio de la mejor condición automatizada (S5), n=36",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "27.22% (campeón individual)", "our_calculation": "25.32% (media batch)", "discrepancy_pct": null, "reason": "diferentes métricas: media de batch vs campeón individual"}
+    },
+    {
+      "value": 6.54,
+      "unit": "Cohen's d",
+      "context": "tamaño del efecto entre control manual y mejor condición automatizada",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 756,
+      "unit": "dispositivos",
+      "context": "total de celdas solares en el dataset (21 condiciones × 36)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 2.92,
+      "unit": "puntos porcentuales",
+      "context": "mejora absoluta en PCE (control → mejor auto)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "presentan / introducen"
+    },
+    {
+      "abstract_verb": "enabled",
+      "tier": "T1",
+      "cam_attenuator": "permitió / logró"
+    },
+    {
+      "abstract_verb": "achieved",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "establishes",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "756 celdas solares fabricadas sin manos humanas superan consistentemente a las manuales",
+    "La IA no solo descubrió la molécula — también aprendió a fabricar mejor que el humano",
+    "Cohen's d de 6,54: las distribuciones de eficiencia ni siquiera se tocan"
+  ],
+  "limitations": [
+    "Datos suplementarios contienen 756 dispositivos pero NO el campeón de 27,22%",
+    "Sin identificación de qué molécula/parámetro se probó en cada condición (S4-S23)",
+    "Sin datos de estabilidad (98,7% después de 1.200 horas no está en el dataset)",
+    "La métrica de '5× reproducibilidad' del paper no se puede replicar exactamente con estos datos"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados con yes, 2 partial"
+  },
+  "notebook_slug": "2026-04-14-celulas-solares-perovskita-ia-autonoma",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/notebook.html",
+  "generated_at": "2026-04-15T12:20:00-05:00"
+}
