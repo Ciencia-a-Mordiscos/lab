@@ -154,6 +154,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-04-15-codigo-neural-percepcion-imaginacion/README
+    title: "Código neural compartido: ver e imaginar"
+    sections:
+    - file: papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook
+      title: Notebook
   - file: papers/2026-03-30-hambre-despues-estudiar/README
     title: Hambre después de estudiar
     sections:

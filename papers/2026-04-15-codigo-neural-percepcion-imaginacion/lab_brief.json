@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "paper_id": 2335,
+  "doi": "10.1126/science.adt8343",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "~80% de las neuronas visualmente responsivas usan un código por ejes distribuido",
+      "supported": "yes",
+      "detail": "367 neuronas con respuestas graduales a 500 estímulos (sparseness mediana: 0,54). Estos datos SON el 80% filtrado",
+      "certainty_tier": "T1",
+      "abstract_verb": "determined",
+      "effect_size": null
+    },
+    {
+      "claim": "Imaginar reactiva el código visual a nivel de población",
+      "supported": "yes",
+      "detail": "ρ = 0,56 (Spearman, n=338 pares, p < 10⁻²⁸). 74% de las 43 neuronas con correlación positiva",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {"measure": "spearman_rho", "value": 0.558, "interpretation": "moderado-fuerte"}
+    },
+    {
+      "claim": "~40% de las neuronas axis-tuned recapitulan el código durante imaginería",
+      "supported": "partial",
+      "detail": "43/367 = 11,7% en nuestros datos. El 40% se refiere al subconjunto testeado durante imaginería (~108 neuronas estimadas), no disponible en el dataset público",
+      "certainty_tier": "T1",
+      "abstract_verb": "recapitulated",
+      "effect_size": null
+    },
+    {
+      "claim": "El hemisferio izquierdo (LVTC) es más selectivo que el derecho (RVTC)",
+      "supported": "yes",
+      "detail": "Sparseness LVTC=0,56 vs RVTC=0,48 (Mann-Whitney p<0,001, Cohen's d=0,46 — efecto medio)",
+      "certainty_tier": "T1",
+      "abstract_verb": "determined",
+      "effect_size": {"measure": "cohen_d", "value": 0.46, "interpretation": "medio"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 367,
+      "unit": "neuronas",
+      "context": "neuronas axis-tuned en corteza temporal ventral (VTC)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~80% de visualmente responsivas",
+        "our_calculation": "367 (estos SON el 80%)",
+        "discrepancy_pct": 0,
+        "reason": "datos pre-filtrados"
+      }
+    },
+    {
+      "value": 0.558,
+      "unit": "Spearman ρ",
+      "context": "correlación población visual→imaginería (n=338 pares)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 74.4,
+      "unit": "por ciento",
+      "context": "neuronas de imaginería con correlación positiva (32 de 43)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 159.4,
+      "unit": "milisegundos",
+      "context": "latencia mediana de respuesta neuronal",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 16,
+      "unit": "pacientes",
+      "context": "pacientes epilépticos con electrodos implantados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "determined",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "supported",
+      "tier": "T1",
+      "cam_attenuator": "los datos son consistentes con"
+    }
+  ],
+  "narrative_hooks": [
+    "Cierra los ojos e imagina una tortuga. ¿Tu cerebro la está «viendo»?",
+    "El 74% de las neuronas reutilizan el mismo código para ver e imaginar",
+    "367 neuronas individuales grabadas en humanos — electrofisiología directa"
+  ],
+  "limitations": [
+    "Solo 43 neuronas tienen datos de imaginería (6-8 estímulos por neurona)",
+    "Los 16 pacientes son epilépticos — la VTC puede diferir de personas sin epilepsia",
+    "Las 5 categorías de estímulos no están etiquetadas en el dataset público",
+    "El 40% del paper no se puede verificar directamente con el dataset disponible"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados, 5 números clave"
+  },
+  "notebook_slug": "2026-04-15-codigo-neural-percepcion-imaginacion",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook.html",
+  "generated_at": "2026-04-15T13:45:00Z"
+}

@@ -1,0 +1,28 @@
+titulo: "Tu cerebro reutiliza el mismo código para ver e imaginar"
+fecha: 2026-04-15
+categoria: neurociencia
+tags: [neurociencia, imaginería, VTC, electrofisiología, percepción, código-neural, neuronas-individuales]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adt8343"
+    titulo: "A shared code for perceiving and imagining objects in human ventral temporal cortex"
+    journal: Science
+    autores: "Wadia et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "neuronas_visuales.csv"
+    descripcion: "367 neuronas axis-tuned con metadata y tasas de disparo por categoría"
+    fuente: "OSF (doi:10.17605/OSF.IO/G9XH6)"
+  - nombre: "vision_vs_imagineria.csv"
+    descripcion: "338 pares estímulo-neurona con respuestas visual, encoding e imaginería"
+    fuente: "OSF (doi:10.17605/OSF.IO/G9XH6)"
+  - nombre: "correlaciones_neuronas.csv"
+    descripcion: "43 neuronas con correlaciones Spearman visual→imaginería"
+    fuente: "OSF (doi:10.17605/OSF.IO/G9XH6)"
+  - nombre: "perfil_ejemplo.csv"
+    descripcion: "Perfiles de respuesta de 3 neuronas selectivas a 500 estímulos"
+    fuente: "OSF (doi:10.17605/OSF.IO/G9XH6)"
+estado: publicado
