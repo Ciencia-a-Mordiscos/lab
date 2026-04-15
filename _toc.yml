@@ -205,7 +205,12 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
-  - file: papers/2026-04-04-estrella-pristina-nube-magallanes/README
+  - file: papers/2026-04-15-acrecion-homogenea-tierra-sistema-solar/README
+    title: "Acreción homogénea de la Tierra"
+    sections:
+    - file: papers/2026-04-15-acrecion-homogenea-tierra-sistema-solar/notebook
+      title: Notebook
+    - file: papers/2026-04-04-estrella-pristina-nube-magallanes/README
     title: Estrella casi prístina de la Nube de Magallanes
     sections:
     - file: papers/2026-04-04-estrella-pristina-nube-magallanes/notebook

@@ -1,0 +1,22 @@
+titulo: "¿De qué está hecha la Tierra? De nada que conozcamos"
+fecha: 2026-04-15
+categoria: astronomía
+tags: [sistema-solar, isotópos, meteoritos, tierra, acreción, cosmoquímica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02824-7"
+    titulo: "Homogeneous accretion of the Earth in the inner Solar System"
+    journal: Nature Astronomy
+    autores: "Render et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "input_mlr.csv"
+    descripcion: "17 cuerpos × 11 anomalías isotópicas nucleosintéticas con incertidumbres"
+    fuente: "OSF (DH9AK)"
+  - nombre: "bayesian_fig1.csv"
+    descripcion: "Coordenadas bayesianas (z₀, z₁) de 14 cuerpos del Sistema Solar"
+    fuente: "OSF (DH9AK)"
+estado: publicado

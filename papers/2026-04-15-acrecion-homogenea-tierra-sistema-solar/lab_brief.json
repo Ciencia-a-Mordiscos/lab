@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "paper_id": 2287,
+  "doi": "10.1038/s41550-026-02824-7",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La Tierra se formó exclusivamente de material del Sistema Solar interior",
+      "supported": "yes",
+      "detail": "z₀ = −2,371 y z₁ = −1,964 — la Tierra es el endmember del array NC. La extensión lineal pasa por la Tierra dentro de 1 SD",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "n/a", "value": null, "interpretation": "análisis descriptivo, no comparación de grupos"}
+    },
+    {
+      "claim": "Existe una dicotomía clara CC vs NC en el Sistema Solar",
+      "supported": "yes",
+      "detail": "Gap de ~3 unidades en z₀ entre el carbonáceo más cercano (CI, z₀ = +1,21) y el no-carbonáceo más lejano (H, z₀ = −1,84)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "n/a", "value": null, "interpretation": "separación visible en el espacio bayesiano"}
+    },
+    {
+      "claim": "Mercurio y Venus tendrían composiciones más extremas que la Tierra",
+      "supported": "partial",
+      "detail": "Predicción del modelo (extrapolación del array NC más allá de la Tierra). No hay datos isotópicos directos de Mercurio o Venus",
+      "certainty_tier": "T3",
+      "abstract_verb": "imply",
+      "effect_size": {"measure": "n/a", "value": null, "interpretation": "extrapolación sin verificación"}
+    },
+    {
+      "claim": "La composición de la Tierra no coincide con ninguna condrita conocida",
+      "supported": "yes",
+      "detail": "z₀ = −2,37 está fuera del rango de todas las condritas NC (−2,20 a −1,84)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "n/a", "value": null, "interpretation": "endmember del array"}
+    },
+    {
+      "claim": "Marte se formó de material del Sistema Solar interior",
+      "supported": "yes",
+      "detail": "z₀ = −1,93 — dentro del rango de condritas NC (entre LL y EH)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "n/a", "value": null, "interpretation": "Marte cae en el rango NC"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0,
+      "unit": "por ciento",
+      "context": "material del Sistema Solar exterior en la Tierra",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0% (exclusivamente interior)",
+        "our_calculation": "Tierra es endmember NC (z₀ más negativo que cualquier condrita NC)",
+        "discrepancy_pct": 0,
+        "reason": "consistente con el paper"
+      }
+    },
+    {
+      "value": -2.371,
+      "unit": "unidades bayesianas z₀",
+      "context": "posición de la Tierra en componente principal 1",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "endmember del array NC",
+        "our_calculation": "−2,371 ± 0,143",
+        "discrepancy_pct": 0,
+        "reason": "valor directo del dataset"
+      }
+    },
+    {
+      "value": 10,
+      "unit": "anomalías isotópicas",
+      "context": "número de sistemas isotópicos analizados (11 mediciones, 10 elementos)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "10 nucleosynthetic isotope anomalies",
+        "our_calculation": "11 columnas en CSV (94Mo + 95Mo = 1 elemento)",
+        "discrepancy_pct": 0,
+        "reason": "Mo tiene 2 isótopos en el dataset"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "imply",
+      "tier": "T3",
+      "cam_attenuator": "es consistente con / sugiere"
+    }
+  ],
+  "narrative_hooks": [
+    "La Tierra no se parece a ningún meteorito. Ni a los del interior, ni a los del exterior.",
+    "0% de material exterior — la Tierra es 100% Sistema Solar interior",
+    "Si extiendes la línea de los meteoritos interiores, la Tierra es el siguiente punto"
+  ],
+  "limitations": [
+    "El análisis bayesiano asume relaciones lineales entre anomalías isotópicas",
+    "Predicción para Mercurio y Venus es extrapolación sin verificación",
+    "Usa composición de la Tierra silicatada (BSE), no incluye el núcleo",
+    "Muestra limitada: 14 cuerpos en el análisis bayesiano"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (4 yes + 1 partial), 3 números clave"
+  },
+  "notebook_slug": "2026-04-15-acrecion-homogenea-tierra-sistema-solar",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-15-acrecion-homogenea-tierra-sistema-solar/notebook.html",
+  "generated_at": "2026-04-15T14:05:00Z"
+}
