@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "0.1 segundos — Tiempo de respuesta del gripper acústico",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "35 N/N — Ratio fuerza/peso del músculo acústico",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "714 veces — Factor de escala vs mediana nadadores acústicos (50 mm / 0.07 mm)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "0.8 BL/s — Velocidad relativa del stingraybot a 50 mm",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "Tiempo de respuesta de 100 ms en agarre",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "Único actuador acústico entre 19 pinzas comparadas",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "Ratio fuerza/peso de 35, posición 8 de 15 en benchmark",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "714 veces más grande que la mediana de nadadores acústicos",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "Velocidad competitiva entre nadadores grandes (>10 mm)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "Paradigma acústico nuevo (inalámbrico, biocompatible, programable)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "Ultrasound-driven programmable artificial muscles",
+      "url": "https://doi.org/10.1038/s41586-025-09650-3",
+      "fecha_publicacion": "2025-10-30",
+      "fecha_consulta": "2026-04-16",
+      "rol": "primaria",
+      "fetched": true
+    },
+    {
+      "id": "s2",
+      "medio": "Nature (Supplementary Information)",
+      "tipo": "dataset",
+      "titulo": "Supplementary Tables 1-3: Benchmark comparison data (grippers, force-to-weight, swimmers)",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09650-3/MediaObjects/41586_2025_9650_MOESM1_ESM.pdf",
+      "fecha_publicacion": "2025-10-30",
+      "fecha_consulta": "2026-04-16",
+      "rol": "base",
+      "fetched": true
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Ultrasound-driven programmable artificial muscles](https://doi.org/10.1038/s41586-025-09650-3)  \n*Nature, 2025-10-30*\n\n**Datos**: [Supplementary Tables 1-3: Benchmark comparison data (grippers, force-to-weight, swimmers)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-025-09650-3/MediaObjects/41586_2025_9650_MOESM1_ESM.pdf)\n\n*10 afirmaciones verificadas contra estas fuentes*"
+  }
+}

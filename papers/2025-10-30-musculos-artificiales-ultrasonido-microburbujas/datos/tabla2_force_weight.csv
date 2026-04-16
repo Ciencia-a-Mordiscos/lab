@@ -1,0 +1,16 @@
+category,size_mm,force_to_weight_ratio_N_N,ref,is_this_work
+Acoustic,5,35,Our work,yes
+Chemical,15,2.61,[S23] X Yang (2020),no
+Dielectric,112,1,[S24] SD Gravert (2024),no
+Dielectric,100,8,[S25] Y Xu (2025),no
+Dielectric,20,127,[S26] ID Sirbu (2021),no
+Light,0.7,0.4,[S27] Y Wang (2022),no
+Light,80,268,[S28] W Ai (2024),no
+Light,33.7,114.9,[S29] H Liu (2022),no
+Magnetic,60,1004,[S30] M Seong (2024),no
+Magnetic,30,64,[S31] Q Ze (2022),no
+Pneumatic,100,46.4,[S32] Z Zhang (2019),no
+Pneumatic,70,34,[S33] S Zhuo (2020),no
+Pneumatic,120,5.9,[S34] SM Mirvakili (2020),no
+Thermal,10,10,[S35] BE Schubert (2013),no
+Thermal,10,450,[S36] Y Yao (2024),no

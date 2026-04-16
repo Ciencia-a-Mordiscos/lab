@@ -1,0 +1,20 @@
+category,response_time_s,gripping_ability_object_gripper,ref,is_this_work
+Acoustic,0.1,0.5,Our work,yes
+Light,0.2,0.2,[S5] OM Wani (2017),no
+Light,60,0.33,[S6] C Ma (2016),no
+Light,35,0.16,[S7] X Zhang (2021),no
+Thermal,600,1,[S8] W Wei (2018),no
+Thermal,552,0.833,[S9] AK Mishra (2020),no
+Thermal,15,0.786,[S10] TG Leong (2009),no
+Thermal,8,0.63,[S11] Y Roh (2021),no
+Thermal,1.8,1,[S12] H Shahsavan (2017),no
+Thermal,1.2,0.2,[S13] S Li (2021),no
+Thermal,4,0.23,[S14] JC Breger (2015),no
+Thermal,63,0.8,[S15] C Yao (2015),no
+Magnetic,0.035,0.8,[S16] X Wang (2020),no
+Magnetic,0.02,0.45,[S17] M Lukas (2024),no
+Magnetic,22,0.3,[S18] H Gu (2023),no
+Magnetic,1,0.28,[S19] Y Jiang (2023),no
+Pneumatic,0.62,0.37,[S20] Z Zhang (2023),no
+Pneumatic,40,0.15,[S21] X Guo (2024),no
+Pneumatic,0.065,0.6,[S22] WY Choi (2025),no

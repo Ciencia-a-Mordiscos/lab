@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "paper_id": 343,
+  "doi": "10.1038/s41586-025-09650-3",
+  "paper_type": "benchmark_comparison",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Tiempo de respuesta de 100 ms en agarre",
+      "supported": "yes",
+      "detail": "Tabla 1: 0,1 s. Abstract dice sub-100 ms — datos muestran exactamente 100 ms (borderline)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Único actuador acústico entre 19 pinzas comparadas",
+      "supported": "yes",
+      "detail": "1 de 19 entradas en Tabla 1. Sin precedente acústico en la comparativa",
+      "certainty_tier": "T1",
+      "abstract_verb": "introduce",
+      "effect_size": null
+    },
+    {
+      "claim": "Ratio fuerza/peso de 35, posición 8 de 15 en benchmark",
+      "supported": "yes",
+      "detail": "Tabla 2: F/W = 35, posición 8 de 15, rango medio",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "714 veces más grande que la mediana de nadadores acústicos",
+      "supported": "yes",
+      "detail": "Mediana otros acústicos: 0,07 mm. Este trabajo: 50 mm. 50/0,07 = 714",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Velocidad competitiva entre nadadores grandes (>10 mm)",
+      "supported": "yes",
+      "detail": "0,8 BL/s supera a 7 de 11 nadadores >10 mm. Pierde contra 4 más rápidos",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Paradigma acústico nuevo (inalámbrico, biocompatible, programable)",
+      "supported": "partial",
+      "detail": "Verificado como nuevo paradigma en benchmarks. Claims de biocompatibilidad y programabilidad vienen del texto principal, no verificables solo con datos suplementarios",
+      "certainty_tier": "T2",
+      "abstract_verb": "introduce",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.1,
+      "unit": "segundos",
+      "context": "Tiempo de respuesta del gripper acústico",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "sub-100 ms",
+        "our_calculation": "0.1 s = 100 ms",
+        "discrepancy_pct": 0,
+        "reason": "borderline — abstract dice sub-100, datos muestran exactamente 100"
+      }
+    },
+    {
+      "value": 35,
+      "unit": "N/N",
+      "context": "Ratio fuerza/peso del músculo acústico",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~7.6 µN/mm²",
+        "our_calculation": "F/W = 35 (Tabla 2)",
+        "discrepancy_pct": 0,
+        "reason": "Métricas diferentes: paper reporta fuerza/área, Tabla 2 reporta F/W ratio"
+      }
+    },
+    {
+      "value": 714,
+      "unit": "veces",
+      "context": "Factor de escala vs mediana nadadores acústicos (50 mm / 0.07 mm)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "from micrometre to centimetre scale",
+        "our_calculation": "714× (mediana 0.07 mm → 50 mm)",
+        "discrepancy_pct": 0,
+        "reason": "Paper describe rango general, cálculo usa mediana de benchmark"
+      }
+    },
+    {
+      "value": 0.8,
+      "unit": "BL/s",
+      "context": "Velocidad relativa del stingraybot a 50 mm",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.8 BL/s",
+        "our_calculation": "0.8 BL/s (Tabla 3)",
+        "discrepancy_pct": 0,
+        "reason": "Coincide exactamente"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "introduce", "tier": "T1", "cam_attenuator": "sin atenuador — afirmación directa"},
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "sin atenuador — afirmación directa"},
+    {"abstract_verb": "support", "tier": "T2", "cam_attenuator": "respaldan / validan"},
+    {"abstract_verb": "could offer", "tier": "T3", "cam_attenuator": "podría ofrecer — NO presentar como hecho"}
+  ],
+  "narrative_hooks": [
+    "10.000 burbujas más pequeñas que un cabello humano forman un músculo controlado por ultrasonido",
+    "714 veces más grande que cualquier nadador acústico anterior — 4 órdenes de magnitud de salto en escala",
+    "No gana en ningún benchmark, pero es el único paradigma acústico: inalámbrico, a través de tejido"
+  ],
+  "limitations": [
+    "Datos de benchmark (supplementary), no datos experimentales primarios",
+    "Métricas de cada estudio pueden no ser directamente comparables (diferentes condiciones)",
+    "Primera generación — rendimiento medio, coherente con tecnología nueva",
+    "Claims de biocompatibilidad y programabilidad no verificables desde estos datos"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 4 números clave, benchmark con múltiples dimensiones"
+  },
+  "notebook_slug": "2025-10-30-musculos-artificiales-ultrasonido-microburbujas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/notebook.html",
+  "generated_at": "2026-04-16T15:30:00Z"
+}

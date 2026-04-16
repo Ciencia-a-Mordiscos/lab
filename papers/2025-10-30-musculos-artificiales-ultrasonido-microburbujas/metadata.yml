@@ -1,0 +1,25 @@
+titulo: "10.000 burbujas programables — músculos artificiales controlados con ultrasonido"
+fecha: 2026-04-16
+categoria: tecnología
+tags: [músculos artificiales, ultrasonido, microburbujas, robótica blanda, benchmark, actuadores]
+formato: corto
+video_youtube: "https://youtube.com/shorts/ISymIIoImuI"
+fuentes:
+  - doi: "10.1038/s41586-025-09650-3"
+    titulo: "Ultrasound-driven programmable artificial muscles"
+    journal: Nature
+    autores: "Shi et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "tabla1_grippers.csv"
+    descripcion: "19 pinzas robóticas — tiempo de respuesta vs capacidad de agarre"
+    fuente: "Supplementary Table 1"
+  - nombre: "tabla2_force_weight.csv"
+    descripcion: "15 actuadores — ratio fuerza/peso vs tamaño"
+    fuente: "Supplementary Table 2"
+  - nombre: "tabla3_swimmers.csv"
+    descripcion: "40 nadadores robóticos — longitud vs velocidad relativa"
+    fuente: "Supplementary Table 3"
+estado: publicado

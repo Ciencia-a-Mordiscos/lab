@@ -266,6 +266,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/README
+    title: "Músculos artificiales con ultrasonido: 714× de salto en escala"
+    sections:
+    - file: papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/notebook
+      title: Notebook
   - file: papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/README
     title: "Celdas solares de perovskita: cuando la IA fabrica mejor"
     sections:
