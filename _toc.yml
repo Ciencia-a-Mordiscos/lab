@@ -183,6 +183,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/README
+    title: "ADN antiguo: selección direccional en Eurasia"
+    sections:
+    - file: papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/notebook
+      title: Notebook
   - file: papers/2026-04-12-oxigeno-regeneracion-extremidades-vertebrados/README
     title: "Oxígeno y regeneración de extremidades"
     sections:

@@ -1,0 +1,22 @@
+titulo: "ADN antiguo revela selección direccional masiva en Eurasia occidental"
+fecha: 2026-04-16
+categoria: biologia
+tags: [adn-antiguo, seleccion-natural, genetica-poblaciones, eurasia, evolucion-humana, poligenic-scores]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10358-1"
+    titulo: "Ancient DNA reveals pervasive directional selection across West Eurasia"
+    journal: Nature
+    autores: "Reich et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "seleccion_poligeica.csv"
+    descripcion: "696 tests poligénicos de selección (Supplementary Table 5)"
+    fuente: "Supplementary Materials"
+  - nombre: "individuos_antiguos.csv"
+    descripcion: "22.274 individuos antiguos con fecha BP, región y cobertura (Supplementary Table 1)"
+    fuente: "Supplementary Materials"
+estado: publicado

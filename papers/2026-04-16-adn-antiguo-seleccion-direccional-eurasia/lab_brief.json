@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "paper_id": 2346,
+  "doi": "10.1038/s41586-026-10358-1",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Cientos de alelos bajo selección direccional en los últimos 10.000 años",
+      "supported": "yes",
+      "detail": "77 señales poligénicas Bonferroni-significativas entre 696 testadas. Señales individuales (STable4, 9,7M variantes) no disponibles en XLSX",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": null
+    },
+    {
+      "claim": "Disminución en grasa corporal predicha",
+      "supported": "yes",
+      "detail": "16 medidas de grasa Bonferroni-significativas, todas con γ negativo. Más fuerte: grasa pierna izquierda (γ = -1,19, p = 3,6e-20)",
+      "certainty_tier": "T1",
+      "abstract_verb": "document",
+      "effect_size": {"measure": "gamma", "value": -1.04, "interpretation": "body fat percentage, fuertemente negativo"}
+    },
+    {
+      "claim": "Disminución en esquizofrenia predicha",
+      "supported": "yes",
+      "detail": "γ = -0,74, p = 2,5e-09 (Bonferroni-significativo)",
+      "certainty_tier": "T1",
+      "abstract_verb": "document",
+      "effect_size": {"measure": "gamma", "value": -0.737, "interpretation": "moderadamente negativo"}
+    },
+    {
+      "claim": "Aumento en rendimiento cognitivo",
+      "supported": "partial",
+      "detail": "Inteligencia fluida: γ = +0,69, p = 1,5e-08 (significativo). Pero 'cognitive performance' genérico tiene p = 0,018 a 0,67 según la fuente. El paper reconoce que se mide en sociedades industrializadas",
+      "certainty_tier": "T2",
+      "abstract_verb": "document",
+      "effect_size": {"measure": "gamma", "value": 0.691, "interpretation": "fluid intelligence, moderadamente positivo"}
+    },
+    {
+      "claim": "Pigmentación: señal más fuerte de todas",
+      "supported": "yes",
+      "detail": "Color de piel: γ = -1,80, p = 5,7e-74 — 5,4σ de la media de las 696 señales",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "gamma", "value": -1.797, "interpretation": "extremadamente fuerte, outlier a 5,4σ"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 15836,
+      "unit": "genomas",
+      "context": "individuos de Eurasia occidental analizados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "15,836", "our_calculation": "20,374 en unrelated set", "discrepancy_pct": 28.7, "reason": "Nuestro set incluye modern individuals y usa filtros menos estrictos que el paper"}
+    },
+    {
+      "value": 77,
+      "unit": "señales",
+      "context": "fenotipos Bonferroni-significativos de 696 testeados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": -1.797,
+      "unit": "gamma",
+      "context": "coeficiente de selección para color de piel — la señal más fuerte",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 5.4,
+      "unit": "sigma",
+      "context": "distancia del γ de pigmentación a la media de los 696 fenotipos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 16,
+      "unit": "señales",
+      "context": "medidas de grasa corporal Bonferroni-significativas, todas negativas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "find", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "document", "tier": "T1", "cam_attenuator": "\"documentan\""},
+    {"abstract_verb": "estimate", "tier": "T2", "cam_attenuator": "\"estiman\""},
+    {"abstract_verb": "remains unclear", "tier": "T3-T4", "cam_attenuator": "\"aún no se sabe\" / \"falta por determinar\""},
+    {"abstract_verb": "predict", "tier": "T2", "cam_attenuator": "\"predicen\" — asociaciones modernas, no causal"}
+  ],
+  "narrative_hooks": [
+    "15.836 genomas. 10.000 años de selección natural.",
+    "La piel lo cambia todo: la señal de pigmentación es 5,4σ más extrema que la media",
+    "16 medidas de grasa corporal — todas en la misma dirección: abajo",
+    "El propio paper pone un freno: los rasgos cognitivos se midieron en sociedades industrializadas"
+  ],
+  "limitations": [
+    "Los rasgos predichos (grasa, cognición, esquizofrenia) son asociaciones genéticas modernas — su significado fenotípico en el pasado es desconocido",
+    "STable4 (9,7M variantes individuales) no disponible en el XLSX — análisis limitado a 696 señales poligénicas",
+    "8.122 de 20.374 individuos no emparentados tienen país anonimizado",
+    "Discrepancia N: set no emparentado XLSX (20.374) vs paper (15.836) — filtros de calidad adicionales"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims verificados yes + 1 partial, 5 números clave, paper de alto impacto"
+  },
+  "notebook_slug": "2026-04-16-adn-antiguo-seleccion-direccional-eurasia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/notebook.html",
+  "generated_at": "2026-04-16T12:20:00Z"
+}
