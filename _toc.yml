@@ -215,6 +215,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-04-17-jet-cygnus-x1-viento-estelar/README
+    title: "Jet de Cygnus X-1 doblado por viento estelar"
+    sections:
+    - file: papers/2026-04-17-jet-cygnus-x1-viento-estelar/notebook
+      title: Notebook
   - file: papers/2026-04-15-agua-sub-neptunos-reaccion-magma/README
     title: "Planetas húmedos sin migrar desde lejos"
     sections:

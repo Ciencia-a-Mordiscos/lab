@@ -1,0 +1,28 @@
+titulo: "¿Cuánta energía esconde el chorro de un agujero negro?"
+fecha: 2026-04-17
+categoria: astronomía
+tags: [agujero-negro, jet, cygnus-x1, vlbi, bayesiano, viento-estelar, potencia-cinética]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02828-3"
+    titulo: "A jet bent by a stellar wind in the black hole X-ray binary Cygnus X-1"
+    journal: Nature Astronomy
+    autores: "Miller-Jones et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "posteriors_all_cases.csv"
+    descripcion: "54.490 muestras posteriores de 3 modelos bayesianos (log₁₀ L_jet, β, ángulo apertura, inclinación)"
+    fuente: "Zenodo"
+  - nombre: "model_comparison.csv"
+    descripcion: "Resumen de 3 modelos: evidencia bayesiana, medianas, descripciones"
+    fuente: "Zenodo"
+  - nombre: "observaciones.csv"
+    descripcion: "19 épocas VLBI (1998–2016) con instrumentos y duraciones"
+    fuente: "Zenodo"
+  - nombre: "jet_components.csv"
+    descripcion: "5 componentes modelados del jet (posiciones, flujos)"
+    fuente: "Zenodo"
+estado: publicado

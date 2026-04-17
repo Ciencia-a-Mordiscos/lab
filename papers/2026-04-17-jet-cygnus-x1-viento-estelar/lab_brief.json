@@ -1,0 +1,147 @@
+{
+  "version": "1.0",
+  "paper_id": 2354,
+  "doi": "10.1038/s41550-026-02828-3",
+  "paper_type": "observational_modeling",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La potencia del jet es log₁₀(L_jet) = 37,28 erg/s (Caso 2)",
+      "supported": "yes",
+      "detail": "Mediana de 19.259 muestras posteriores. P16–P84: 37,05–37,40. Cross-check con paper (37,3): diferencia <0,1%",
+      "certainty_tier": "T1",
+      "abstract_verb": "determine",
+      "effect_size": null
+    },
+    {
+      "claim": "El jet viaja a ~68% de la velocidad de la luz",
+      "supported": "yes",
+      "detail": "β mediana = 0,679 (P16 0,573, P84 0,757). Consistente con el rango reportado",
+      "certainty_tier": "T1",
+      "abstract_verb": "determine",
+      "effect_size": null
+    },
+    {
+      "claim": "El jet está desalineado ~5° respecto al eje orbital",
+      "supported": "yes",
+      "detail": "5,20° (P16 4,14°, P84 6,22°). Confirmado por factor de Bayes 1.116 de Caso 2 vs Caso 1",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    },
+    {
+      "claim": "L_jet es comparable a L_X",
+      "supported": "yes",
+      "detail": "L_jet ~1,9 × 10³⁷ vs L_X ~2–5 × 10³⁷ erg/s → ratio 0,4–1,0",
+      "certainty_tier": "T1",
+      "abstract_verb": "determine",
+      "effect_size": null
+    },
+    {
+      "claim": "La expansión no cónica no mejora el ajuste",
+      "supported": "yes",
+      "detail": "Factor de Bayes Caso 2 vs Caso 3 = 7,1 → preferencia sustancial por modelo más simple",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 37.28,
+      "unit": "log₁₀(erg/s)",
+      "context": "Potencia cinética del jet, modelo preferido (Caso 2)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "37.3 (+0.1/-0.2)",
+        "our_calculation": "37.28",
+        "discrepancy_pct": 0.056,
+        "reason": "Mediana vs valor redondeado"
+      }
+    },
+    {
+      "value": 0.679,
+      "unit": "c (fracción de velocidad de la luz)",
+      "context": "Velocidad del jet β, modelo preferido (Caso 2)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~0.68",
+        "our_calculation": "0.679",
+        "discrepancy_pct": 0.15,
+        "reason": "Redondeo"
+      }
+    },
+    {
+      "value": 5.2,
+      "unit": "grados",
+      "context": "Desalineamiento jet-eje orbital, Caso 2",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~5°",
+        "our_calculation": "5.20",
+        "discrepancy_pct": 4.0,
+        "reason": "Mediana exacta vs valor redondeado"
+      }
+    },
+    {
+      "value": 1116,
+      "unit": "factor de Bayes",
+      "context": "BF Caso 2 vs Caso 1 (decisivo)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "decisively preferred",
+        "our_calculation": "exp(7.02) ≈ 1119",
+        "discrepancy_pct": 0.3,
+        "reason": "Incertidumbre en logZ"
+      }
+    },
+    {
+      "value": 19,
+      "unit": "épocas VLBI",
+      "context": "Observaciones entre 1998 y 2016 (16 VLBA + 3 EVN)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "determine",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "places",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "Nadie había medido en directo cuánta energía carga el jet de un agujero negro — hasta que el viento de una estrella lo dobló",
+    "El jet de Cygnus X-1 carga tanta energía como toda la radiación X que produce el agujero negro"
+  ],
+  "limitations": [
+    "Un solo sistema binario — generalización a otros jets requiere cautela",
+    "Modelo de viento estelar con tasa de pérdida de masa fija (2,57 × 10⁻⁶ M☉/año)",
+    "19 épocas abarcan diferentes estados espectrales sin modelar separadamente",
+    "Resultados dependen de las distribuciones previas elegidas en la inferencia bayesiana"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 5 números clave"
+  },
+  "notebook_slug": "2026-04-17-jet-cygnus-x1-viento-estelar",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-17-jet-cygnus-x1-viento-estelar/notebook.html",
+  "generated_at": "2026-04-17T12:30:00Z"
+}

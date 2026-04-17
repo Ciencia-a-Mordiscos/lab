@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "37.28 log₁₀(erg/s) — Potencia cinética del jet, modelo preferido (Caso 2)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "0.679 c (fracción de velocidad de la luz) — Velocidad del jet β, modelo preferido (Caso 2)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "5.2 grados — Desalineamiento jet-eje orbital, Caso 2",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "1116 factor de Bayes — BF Caso 2 vs Caso 1 (decisivo)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "19 épocas VLBI — Observaciones entre 1998 y 2016 (16 VLBA + 3 EVN)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "La potencia del jet es log₁₀(L_jet) = 37,28 erg/s (Caso 2)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "El jet viaja a ~68% de la velocidad de la luz",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "El jet está desalineado ~5° respecto al eje orbital",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "L_jet es comparable a L_X",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "La expansión no cónica no mejora el ajuste",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature Astronomy",
+      "tipo": "paper",
+      "titulo": "A jet bent by a stellar wind in the black hole X-ray binary Cygnus X-1",
+      "url": "https://doi.org/10.1038/s41550-026-02828-3",
+      "fecha_publicacion": "2026-04-17",
+      "fecha_consulta": "2026-04-17",
+      "articulo_id": null,
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "A jet bent by a stellar wind in the black hole X-ray binary Cygnus X-1: jet model and final data products",
+      "url": "https://zenodo.org/records/18390870",
+      "fecha_publicacion": "2026-04-17",
+      "fecha_consulta": "2026-04-17",
+      "articulo_id": null,
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [A jet bent by a stellar wind in the black hole X-ray binary Cygnus X-1](https://doi.org/10.1038/s41550-026-02828-3)  \n*Nature Astronomy, 2026-04-17*\n\n**Datos**: [A jet bent by a stellar wind in the black hole X-ray binary Cygnus X-1: jet model and final data products](https://zenodo.org/records/18390870)\n\n*10 afirmaciones verificadas contra estas fuentes*"
+  }
+}

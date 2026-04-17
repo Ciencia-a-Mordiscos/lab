@@ -1,0 +1,4 @@
+case,ndim,nsamples_raw,nsamples_resampled,logZ,logZ_err,log10_Ljet_median,log10_Ljet_p16,log10_Ljet_p84,beta_median,description
+1,6,16035,16035,-92.65,0.08,36.94,36.44,37.16,0.475,Jet parallel to binary vector
+2,6,19259,19259,-85.63,0.13,37.28,37.05,37.40,0.679,Adds misalignment angle
+3,7,19196,19196,-87.59,0.15,37.26,37.01,37.39,0.664,Full model with expansion profile
