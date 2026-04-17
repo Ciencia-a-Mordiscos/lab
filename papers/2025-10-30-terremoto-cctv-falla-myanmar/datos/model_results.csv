@@ -1,0 +1,3 @@
+scenario,vr_fraction_cs,vr_m_per_s,stress_drop_mpa,min_stress_mpa,breakdown_work_mj_per_m2,critical_slip_m,final_slip_m,cohesive_zone_m,pulse_length_m,xc_over_l
+slow,0.75,2700,28.2,-12.7,38.2,2.94,3.00,3124.2,3780.0,0.827
+fast,0.90,3240,5.7,-2.6,7.7,2.94,3.00,3749.1,4536.0,0.827

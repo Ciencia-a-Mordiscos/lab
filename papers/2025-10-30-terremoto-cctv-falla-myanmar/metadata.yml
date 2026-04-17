@@ -1,0 +1,28 @@
+titulo: "Una cámara grabó un terremoto desde la falla"
+fecha: 2025-10-30
+categoria: geología
+tags: [terremotos, sismología, falla-sagaing, ruptura, cctv, myanmar, pulso-sísmico, deslizamiento]
+formato: corto
+video_youtube: "https://youtube.com/shorts/FA2IZR8w6J8"
+fuentes:
+  - doi: "10.1126/science.adz1705"
+    titulo: "Direct estimation of earthquake source properties from a single CCTV camera"
+    journal: Science
+    autores: "Bhat et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "slip_vs_time.csv"
+    descripcion: "Desplazamiento acumulado vs tiempo (90 Hz equivalente)"
+    fuente: "Zenodo 10.5281/zenodo.16785672"
+  - nombre: "sliprate_vs_time.csv"
+    descripcion: "Velocidad de deslizamiento vs tiempo derivada del video"
+    fuente: "Zenodo 10.5281/zenodo.16785672"
+  - nombre: "model_results.csv"
+    descripcion: "Propiedades mecánicas para 2 escenarios de ruptura"
+    fuente: "Zenodo 10.5281/zenodo.16785672"
+  - nombre: "material_parameters.csv"
+    descripcion: "Parámetros del material y mediciones clave del paper"
+    fuente: "Zenodo 10.5281/zenodo.16785672"
+estado: publicado

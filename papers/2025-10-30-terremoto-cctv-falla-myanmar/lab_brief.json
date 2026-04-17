@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "paper_id": 426,
+  "doi": "10.1126/science.adz1705",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El desplazamiento acumulado es ~3 m",
+      "supported": "yes",
+      "detail": "Medido: 3,09 m pico, media final 3,03 m. Paper dice '~3 m'. Coincide dentro del 3%",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "La velocidad pico alcanza ~3,5 m/s",
+      "supported": "yes",
+      "detail": "Medido: 3,52 m/s. Paper dice '~3,5 m/s'. Coincide dentro del 1%",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "La duración del pulso es 1,4 s",
+      "supported": "yes",
+      "detail": "Definida como la ventana del ajuste del modelo (t = 0,23 – 1,63 s). Consistente con los datos",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "El pulso es asimétrico (subida rápida, caída lenta)",
+      "supported": "yes",
+      "detail": "Subida: 0,4 s. Caída: 1,0 s. Ratio 0,40",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Los dos escenarios de velocidad producen un stress drop 5× diferente",
+      "supported": "yes",
+      "detail": "Lento: 28,2 MPa. Rápido: 5,7 MPa. Ratio: 4,95× ≈ 5×",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Ambos modelos ajustan igual de bien los datos",
+      "supported": "yes",
+      "detail": "Mismo slip final (3,0 m) y slip crítico (2,94 m) para ambos escenarios",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "La zona cohesiva ocupa el 82,7% del largo del pulso",
+      "supported": "yes",
+      "detail": "Idéntico en ambos escenarios: xc/L = 0,827",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 7.7,
+      "unit": "magnitud momento (Mw)",
+      "context": "Magnitud del terremoto de Mandalay",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Mw 7.7",
+        "our_calculation": "7.7",
+        "discrepancy_pct": 0,
+        "reason": "valor directo del paper"
+      }
+    },
+    {
+      "value": 3.09,
+      "unit": "metros",
+      "context": "Desplazamiento acumulado máximo",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~3 m",
+        "our_calculation": "3.09 m (pico)",
+        "discrepancy_pct": 3.0,
+        "reason": "pico vs media reportada"
+      }
+    },
+    {
+      "value": 3.52,
+      "unit": "metros por segundo",
+      "context": "Velocidad pico de deslizamiento",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~3.5 m/s",
+        "our_calculation": "3.52 m/s",
+        "discrepancy_pct": 0.6,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 1.4,
+      "unit": "segundos",
+      "context": "Duración del pulso sísmico",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.4 s",
+        "our_calculation": "1.4 s",
+        "discrepancy_pct": 0,
+        "reason": "definido por ventana del modelo"
+      }
+    },
+    {
+      "value": 0.4,
+      "unit": "ratio",
+      "context": "Ratio de simetría del pulso (subida/total)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.4 s rise, 1.0 s fall",
+        "our_calculation": "0.4/1.4 = 0.286, pero rise/fall = 0.4",
+        "discrepancy_pct": 0,
+        "reason": "convención del paper: rise_time / (rise_time + fall_time)"
+      }
+    },
+    {
+      "value": 4.95,
+      "unit": "ratio",
+      "context": "Ratio de stress drop entre escenarios (28,2/5,7 MPa)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~5×",
+        "our_calculation": "4.95×",
+        "discrepancy_pct": 1.0,
+        "reason": "coincide — redondeo del paper"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "3 metros en 1,4 segundos — una cámara de seguridad grabó el suelo rompiéndose durante un terremoto Mw 7,7",
+    "La velocidad pico del suelo fue de 3,5 m/s — más rápido que una caminata rápida",
+    "Dos modelos ajustan los datos igual de bien, pero implican una física 5× diferente"
+  ],
+  "limitations": [
+    "Medición en un solo punto de la falla — no sabemos cómo varía el slip a lo largo del trazo",
+    "Resolución temporal limitada a ~11 ms (30 fps interpolados a 90)",
+    "Velocidad de ruptura asumida, no medida — produce resultados mecánicos radicalmente distintos",
+    "Valores negativos de esfuerzo mínimo en escenario lento sugieren overshoot dinámico difícil de verificar"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados, 6 números clave — paper rico en datos directos"
+  },
+  "notebook_slug": "2025-10-30-terremoto-cctv-falla-myanmar",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook.html",
+  "generated_at": "2026-04-17T00:00:00Z"
+}

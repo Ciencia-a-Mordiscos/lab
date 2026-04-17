@@ -105,6 +105,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/README
+    title: "Una cámara grabó un terremoto desde la falla"
+    sections:
+    - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook
+      title: Notebook
   - file: papers/2026-04-15-firma-topografica-oceanos-marte/README
     title: "¿Tuvo Marte un océano?"
     sections:

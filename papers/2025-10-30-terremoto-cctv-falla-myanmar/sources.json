@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "7.7 magnitud momento (Mw) — Magnitud del terremoto de Mandalay",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "3.09 metros — Desplazamiento acumulado máximo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "3.52 metros por segundo — Velocidad pico de deslizamiento",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "1.4 segundos — Duración del pulso sísmico",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "0.4 ratio — Ratio de simetría del pulso (subida/total)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "4.95 ratio — Ratio de stress drop entre escenarios (28,2/5,7 MPa)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "El desplazamiento acumulado es ~3 m",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "La velocidad pico alcanza ~3,5 m/s",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "La duración del pulso es 1,4 s",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "El pulso es asimétrico (subida rápida, caída lenta)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "Los dos escenarios de velocidad producen un stress drop 5× diferente",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "Ambos modelos ajustan igual de bien los datos",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c13",
+      "text": "La zona cohesiva ocupa el 82,7% del largo del pulso",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Science",
+      "tipo": "paper",
+      "titulo": "Direct estimation of earthquake source properties from a single CCTV camera",
+      "url": "https://doi.org/10.1126/science.adz1705",
+      "fecha_publicacion": "2025-10-30",
+      "fecha_consulta": "2026-04-17",
+      "articulo_id": null,
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Data and models for Direct Estimation of Earthquake Source Properties from a Single CCTV Camera",
+      "url": "https://doi.org/10.5281/zenodo.16785672",
+      "fecha_publicacion": "2025-08-09",
+      "fecha_consulta": "2026-04-17",
+      "articulo_id": null,
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Direct estimation of earthquake source properties from a single CCTV camera](https://doi.org/10.1126/science.adz1705)  \n*Science, 2025-10-30*\n\n**Datos**: [Zenodo repository](https://doi.org/10.5281/zenodo.16785672)\n\n*13 afirmaciones verificadas contra estas fuentes*"
+  }
+}

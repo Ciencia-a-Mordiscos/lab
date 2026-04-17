@@ -1,0 +1,10 @@
+parameter,value,unit
+shear_modulus,35,GPa
+shear_wave_speed,3600,m/s
+p_wave_speed,6235,m/s
+poisson_ratio,0.25,
+pulse_duration,1.4,s
+rupture_arrival,0.2333,s
+peak_slip_rate,3.52,m/s
+cumulative_slip,3.06,m
+magnitude_mw,7.7,
