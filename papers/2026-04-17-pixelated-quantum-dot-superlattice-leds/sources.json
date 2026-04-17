@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "30.9 por ciento — EQE máximo superretícula",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "117144 cd/m² — luminancia máxima",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "12411 horas — T50 extrapolado a 100 cd/m²",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "5080 PPI — resolución de píxeles",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "4.47 Cohen's d — EQE assembled vs spincoated (40 dispositivos)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "1460 factor — mejora T50 vs mejor pixelado previo",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "17 factor — ratio movilidad a 298 K",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "EQE de 30,9% (récord para PeQD LEDs)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "Luminancia de 117.144 cd/m²",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "T50 de 12.411 h (~1,4 años)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c11",
+      "text": "1.000× más que pixelado previo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "Movilidad 17× mayor a 298 K",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c13",
+      "text": "Transporte de banda en superretícula",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c14",
+      "text": "5.080 PPI",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "Pixelated quantum-dot superlattice LEDs",
+      "url": "https://doi.org/10.1038/s41586-026-10392-z",
+      "fecha_publicacion": "2026-04-15",
+      "fecha_consulta": "2026-04-17",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Figshare",
+      "tipo": "dataset",
+      "titulo": "Datasets for Pixelated perovskite-quantum-dot superlattice LEDs",
+      "url": "https://doi.org/10.6084/m9.figshare.31385845.v1",
+      "fecha_publicacion": "2026-02-22",
+      "fecha_consulta": "2026-04-17",
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Pixelated quantum-dot superlattice LEDs](https://doi.org/10.1038/s41586-026-10392-z)  \n*Nature, 2026-04-15*\n\n**Datos**: [Datasets for Pixelated perovskite-quantum-dot superlattice LEDs](https://doi.org/10.6084/m9.figshare.31385845.v1)\n\n*14 afirmaciones verificadas contra estas fuentes*"
+  }
+}

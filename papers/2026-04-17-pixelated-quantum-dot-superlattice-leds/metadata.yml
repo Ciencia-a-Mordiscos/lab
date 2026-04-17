@@ -1,0 +1,31 @@
+titulo: "LEDs de superretículas de quantum dots pixeladas"
+fecha: 2026-04-17
+categoria: tecnologia
+tags: [quantum-dots, perovskita, LEDs, superreticula, pantallas, nanotecnologia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10392-z"
+    titulo: "Pixelated quantum-dot superlattice LEDs"
+    journal: Nature
+    autores: "Kim et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "eqe_vs_j.csv"
+    descripcion: "EQE vs densidad de corriente"
+    fuente: "Supplementary / Zenodo"
+  - nombre: "eqe_distribution.csv"
+    descripcion: "Distribución EQE de 40 dispositivos"
+    fuente: "Supplementary / Zenodo"
+  - nombre: "mobility_vs_temperature.csv"
+    descripcion: "Movilidad vs temperatura"
+    fuente: "Supplementary / Zenodo"
+  - nombre: "t50_benchmark.csv"
+    descripcion: "Ley de aceleración T50"
+    fuente: "Supplementary / Zenodo"
+  - nombre: "lifetime_vs_eqe.csv"
+    descripcion: "Benchmark T50 vs EQE"
+    fuente: "Supplementary / Zenodo"
+estado: publicado

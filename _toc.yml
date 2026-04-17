@@ -271,6 +271,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-17-pixelated-quantum-dot-superlattice-leds/README
+    title: "LEDs de superretículas de quantum dots pixeladas"
+    sections:
+    - file: papers/2026-04-17-pixelated-quantum-dot-superlattice-leds/notebook
+      title: Notebook
   - file: papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/README
     title: "Músculos artificiales con ultrasonido: 714× de salto en escala"
     sections:

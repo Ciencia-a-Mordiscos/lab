@@ -1,0 +1,213 @@
+{
+  "version": "1.0",
+  "paper_id": 2350,
+  "doi": "10.1038/s41586-026-10392-z",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "EQE de 30,9% (récord para PeQD LEDs)",
+      "supported": "yes",
+      "detail": "Pico medido a 16,9 mA/cm². 40 dispositivos: media 27,3%, σ = 1,3%. Cohen's d = 4,47 vs spin-coated",
+      "certainty_tier": "T1",
+      "abstract_verb": "yield",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.47,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Luminancia de 117.144 cd/m²",
+      "supported": "yes",
+      "detail": "Dato de la curva J-V-L (vs 84.312 cd/m² en spin-coated, +39%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "yield",
+      "effect_size": null
+    },
+    {
+      "claim": "T50 de 12.411 h (~1,4 años)",
+      "supported": "partial",
+      "detail": "Extrapolado vía ley de aceleración (T50 ∝ L₀^−1,67, R² = 0,998). No medido directamente a 100 cd/m²",
+      "certainty_tier": "T2",
+      "abstract_verb": "extrapolated",
+      "effect_size": null
+    },
+    {
+      "claim": "1.000× más que pixelado previo",
+      "supported": "yes",
+      "detail": "12.411 / 8,5 = 1.460×. El paper dice '>1.000-fold' — confirmado",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Movilidad 17× mayor a 298 K",
+      "supported": "yes",
+      "detail": "0,293 vs 0,017 cm²/V·s a la misma temperatura",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit",
+      "effect_size": null
+    },
+    {
+      "claim": "Transporte de banda en superretícula",
+      "supported": "yes",
+      "detail": "Movilidad aumenta al enfriar (firma clásica). Pico a 188 K: 2,57 cm²/V·s",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit",
+      "effect_size": null
+    },
+    {
+      "claim": "5.080 PPI",
+      "supported": "yes",
+      "detail": "Dato fijo del paper (resolución máxima demostrada)",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 30.9,
+      "unit": "por ciento",
+      "context": "EQE máximo superretícula",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "30.9%",
+        "our_calculation": "30.89%",
+        "discrepancy_pct": 0,
+        "reason": "match"
+      }
+    },
+    {
+      "value": 117144,
+      "unit": "cd/m²",
+      "context": "luminancia máxima",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "117,144",
+        "our_calculation": "117144",
+        "discrepancy_pct": 0,
+        "reason": "match"
+      }
+    },
+    {
+      "value": 12411,
+      "unit": "horas",
+      "context": "T50 extrapolado a 100 cd/m²",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "12,411 h",
+        "our_calculation": "12411",
+        "discrepancy_pct": 0,
+        "reason": "match (dato directo)"
+      }
+    },
+    {
+      "value": 5080,
+      "unit": "PPI",
+      "context": "resolución de píxeles",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "5,080",
+        "our_calculation": "5080",
+        "discrepancy_pct": 0,
+        "reason": "match"
+      }
+    },
+    {
+      "value": 4.47,
+      "unit": "Cohen's d",
+      "context": "EQE assembled vs spincoated (40 dispositivos)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "n/a",
+        "our_calculation": "4.47",
+        "discrepancy_pct": null,
+        "reason": "calculado por nosotros"
+      }
+    },
+    {
+      "value": 1460,
+      "unit": "factor",
+      "context": "mejora T50 vs mejor pixelado previo",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": ">1000",
+        "our_calculation": "1460",
+        "discrepancy_pct": null,
+        "reason": "confirma claim"
+      }
+    },
+    {
+      "value": 17,
+      "unit": "factor",
+      "context": "ratio movilidad a 298 K",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "n/a",
+        "our_calculation": "16.8",
+        "discrepancy_pct": 1,
+        "reason": "redondeado"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "yield",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "exhibit",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "extrapolated",
+      "tier": "T2",
+      "cam_attenuator": "vida media extrapolada — no medido directamente"
+    }
+  ],
+  "narrative_hooks": [
+    "5.080 PPI — 12× más que tu teléfono. Y duran 1.000× más.",
+    "La movilidad SUBE al enfriar — firma de transporte de banda, no hopping."
+  ],
+  "limitations": [
+    "T50 a 100 cd/m² es extrapolación (no medición directa)",
+    "Comparación de movilidad pico (148×) mezcla temperaturas; la justa a 298 K da 17×",
+    "Benchmarks comparan con datos de distintos grupos — condiciones varían",
+    "Datos de un solo grupo; falta replicación independiente"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados, 7 números clave"
+  },
+  "notebook_slug": "2026-04-17-pixelated-quantum-dot-superlattice-leds",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-17-pixelated-quantum-dot-superlattice-leds/notebook.html",
+  "generated_at": "2026-04-17T12:59:10Z"
+}
