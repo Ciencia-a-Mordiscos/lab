@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Reparar una mitocondria enferma — célula por célula
+
+**Medicina** · Nature · Un equipo desarrolló **MitoCatch**, un sistema que dirige mitocondrias sanas solo a las células enfermas. Lo probaron en 127 neuronas derivadas de un paciente con ceguera hereditaria (LHON). En las tratadas, la mediana de ADN mitocondrial sano saltó de 0% a **43,5%** (IQR 25,9 – 65,6). Sin los *binders*, la captación es literalmente cero (n=19).
+
+[Ver notebook](papers/2026-04-15-transplante-mitocondrial-dirigido/notebook) · [Leer más](papers/2026-04-15-transplante-mitocondrial-dirigido/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-transplante-mitocondrial-dirigido/notebook.ipynb)
+
+---
+
 ### Una cámara grabó un terremoto desde la falla
 
 **Geología** · Science · Una cámara CCTV a metros de la falla de Sagaing grabó la ruptura superficial durante el terremoto Mw 7,7 de Mandalay (Myanmar, 28 de marzo de 2025). Del video extrajeron la primera medición directa de la velocidad de deslizamiento: un pulso de 1,4 s, velocidad pico de 3,5 m/s y ~3 m de desplazamiento acumulado. Dos modelos con distinta velocidad de ruptura ajustan los datos igual de bien, pero implican un stress drop 5× diferente.

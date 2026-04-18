@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "paper_id": 2347,
+  "doi": "10.1038/s41586-026-10391-0",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human iPSC-derived neurons (LHON patient) + in vivo mouse (heredado del paper, no analizado aquí)",
+  "verification_table": [
+    {
+      "claim": "MitoCatch entrega mtDNA sano a neuronas LHON",
+      "supported": "yes",
+      "detail": "Mediana 43,5% (IQR 25,9–65,6) vs mediana 0% control sin transplante. n=30 tratadas, n=12 control.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we show / demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.08,
+        "interpretation": "enorme"
+      },
+      "p_value": 4.59e-07,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Sin los binders no hay captación de mitocondrias",
+      "supported": "yes",
+      "detail": "Mitos vacíos transplantados: mediana 0%, media 0,0%, n=19. Cero células por encima del umbral.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.26,
+        "interpretation": "enorme"
+      },
+      "p_value": 1.79e-09,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los mitos están internalizados (no pegados por fuera de la célula)",
+      "supported": "yes",
+      "detail": "Proteasa no reduce el rescate: 34,3% tras proteasa vs 43,5% sin ella, p=0,41, n=39 y 30.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.11,
+        "interpretation": "trivial (como se esperaba)"
+      },
+      "p_value": 0.407,
+      "supported_by_data": true
+    },
+    {
+      "claim": "23 de 30 neuronas tratadas (77%) superan el 25% de ADN wildtype",
+      "supported": "yes",
+      "detail": "Calculado directamente sobre el dataset.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we show",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Es una terapia aplicable para enfermedades mitocondriales",
+      "supported": "partial",
+      "detail": "Los autores la enmarcan como 'potential strategy'. El experimento disponible es in vitro; in vivo en ratones se reporta pero no está en este dataset. Sin ensayo clínico.",
+      "certainty_tier": "T3",
+      "abstract_verb": "potential strategy",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 127,
+      "unit": "neuronas",
+      "context": "total de células iPSC analizadas del paciente LHON",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 43.49,
+      "unit": "por ciento",
+      "context": "mediana de %G (mtDNA wildtype) en grupo MitoCatch (n=30)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 47.67,
+      "unit": "por ciento",
+      "context": "media de %G en grupo MitoCatch (n=30)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0,
+      "unit": "por ciento",
+      "context": "mediana de %G en control sin transplante (n=12) y en mitos vacíos transplantados (n=19)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.08,
+      "unit": "Cohen's d",
+      "context": "efecto MitoCatch vs control sin transplante (pooled, grupos independientes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.77,
+      "unit": "proporción",
+      "context": "23 de 30 neuronas tratadas (77%) superan el 25% de mtDNA wildtype",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 34.26,
+      "unit": "por ciento",
+      "context": "mediana %G tras proteasa (n=39) — cerca de MitoCatch sin proteasa, validando internalización",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we developed (MitoCatch)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "we show (internalized)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate (targeted transplantation)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "promoted (survival)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — NO cubierto por nuestro dataset (medimos heteroplasmia, no supervivencia)"
+    },
+    {
+      "abstract_verb": "potential strategy",
+      "tier": "T3",
+      "cam_attenuator": "'estrategia potencial', 'candidata a terapia' — NO presentar como tratamiento aprobado"
+    }
+  ],
+  "narrative_hooks": [
+    "127 neuronas de un paciente con ceguera hereditaria. En las tratadas con MitoCatch, cerca del 44% del ADN mitocondrial pasó a ser versión sana.",
+    "Sin los binders, la captación es literalmente cero: 19 células control, 0% de rescate.",
+    "La proteasa degrada proteínas de la superficie. Si los mitos fueran externos, el rescate colapsaría. Se mantiene — los mitos están adentro."
+  ],
+  "limitations": [
+    "Los datos miden solo heteroplasmia en la posición 11778 del mtDNA — no supervivencia neuronal ni recuperación visual.",
+    "Condiciones pooled entre múltiples rondas experimentales; el efecto real podría variar entre rondas.",
+    "Sin corrección por tests múltiples; los p-values son nominales.",
+    "Diseño in vitro sobre neuronas derivadas de iPSC. El in vivo en ratones se reporta en el paper pero no está en este dataset."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims (4 yes + 1 partial) y 7 key_numbers — script denso con validaciones de especificidad e internalización"
+  },
+  "notebook_slug": "2026-04-15-transplante-mitocondrial-dirigido",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-15-transplante-mitocondrial-dirigido/notebook.html",
+  "generated_at": "2026-04-18T17:20:51.408720+00:00"
+}

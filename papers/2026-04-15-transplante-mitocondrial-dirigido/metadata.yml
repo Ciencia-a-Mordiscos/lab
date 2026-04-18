@@ -1,0 +1,19 @@
+titulo: "Reparar una mitocondria enferma — célula por célula"
+fecha: 2026-04-15
+categoria: medicina
+tags: [mitocondrias, LHON, transplante, neurociencia, terapia-genica, heteroplasmia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10391-0"
+    titulo: "Cell-type-targeted mitochondrial transplantation rescues cell degeneration"
+    journal: Nature
+    autores: "MitoCatch consortium et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "nt_count_11778_matrix.csv"
+    descripcion: "Conteos de nucleótidos A (alelo mutante) y G (alelo sano) en la posición 11778 del mtDNA, por célula y condición experimental. 127 neuronas iPSC de un paciente LHON, 6 grupos, 2 rondas por condición tratada."
+    fuente: "Zenodo 10.5281/zenodo.17909630"
+estado: publicado
