@@ -1,0 +1,28 @@
+titulo: "64 canales de ARN en una sola imagen"
+fecha: 2025-10-30
+categoria: biologia
+tags: [biotecnologia, imagen-espacial, ARN, codificacion, microscopia, bioinformatica]
+formato: corto
+video_youtube: "https://youtube.com/shorts/btbnjawFd44"
+fuentes:
+  - doi: "10.1038/s41587-025-02883-7"
+    titulo: "High-plex spatial RNA imaging in one round with conventional microscopes using color-intensity barcoding"
+    journal: "Nature Biotechnology"
+    autores: "Huang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "barcodes_64.csv"
+    descripcion: "64 codewords del panel 64-plex (d0-d3, digit_sum, n_nonzero)"
+    fuente: "Supplementary Data 4 (MOESM4_ESM.xlsx)"
+  - nombre: "barcodes_31.csv"
+    descripcion: "31 codewords del panel 31-plex (versión previa)"
+    fuente: "Supplementary Data 4 (MOESM4_ESM.xlsx)"
+  - nombre: "gene_panels.csv"
+    descripcion: "Paneles de genes por tejido (Cerebro / Embrión)"
+    fuente: "Supplementary Data 4 (MOESM4_ESM.xlsx)"
+  - nombre: "hcc_probes.csv"
+    descripcion: "Sondas por gen en el panel HCC (31 genes, 91 sondas)"
+    fuente: "Supplementary Data 4 (MOESM4_ESM.xlsx)"
+estado: publicado

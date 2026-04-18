@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### 64 canales de ARN en una sola imagen
+
+**Biología** · Nature Biotechnology · Los microscopios de fluorescencia solo distinguen 4 colores, pero PRISM logra imagen espacial de **64 ARNs en una sola ronda** codificando cada uno con una combinación de 4 canales e intensidad. El equipo elige 64 codewords de un espacio de **1.296** posibles (4,9%) con separación mínima de **√2 ≈ 1,414** — la distancia que un píxel ruidoso no puede cruzar.
+
+[Ver notebook](papers/2025-10-30-prism-64-barcodes/notebook) · [Leer más](papers/2025-10-30-prism-64-barcodes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-prism-64-barcodes/notebook.ipynb)
+
+---
+
 ### Reparar una mitocondria enferma — célula por célula
 
 **Medicina** · Nature · Un equipo desarrolló **MitoCatch**, un sistema que dirige mitocondrias sanas solo a las células enfermas. Lo probaron en 127 neuronas derivadas de un paciente con ceguera hereditaria (LHON). En las tratadas, la mediana de ADN mitocondrial sano saltó de 0% a **43,5%** (IQR 25,9 – 65,6). Sin los *binders*, la captación es literalmente cero (n=19).

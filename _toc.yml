@@ -193,6 +193,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2025-10-30-prism-64-barcodes/README
+    title: "64 canales de ARN en una sola imagen"
+    sections:
+    - file: papers/2025-10-30-prism-64-barcodes/notebook
+      title: Notebook
   - file: papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/README
     title: "ADN antiguo: selección direccional en Eurasia"
     sections:

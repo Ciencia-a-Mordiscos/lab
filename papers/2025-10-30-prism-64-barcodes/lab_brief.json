@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "paper_id": 443,
+  "doi": "10.1038/s41587-025-02883-7",
+  "paper_type": "methods",
+  "study_design": "demonstrative",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "PRISM ofrece hasta 64 codewords distinguibles en una sola ronda de imagen",
+      "supported": "yes",
+      "detail": "64 codewords únicos verificados en el Supplementary Data 4; separación geométrica por capas (r=5, 7, 10)",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieves"
+    },
+    {
+      "claim": "El espacio posible con 4 canales y 6 niveles es 1.296 combinaciones",
+      "supported": "yes",
+      "detail": "6⁴ = 1.296; PRISM elige 64 (4,9%) y 31 (2,4%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "introduce"
+    },
+    {
+      "claim": "El panel 64-plex tiene mejor separación mínima (√2) que el 31-plex (1,0)",
+      "supported": "yes",
+      "detail": "135/2.016 pares a distancia √2 en 64-plex; 15/465 pares a distancia 1,0 en 31-plex",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieves"
+    },
+    {
+      "claim": "El panel HCC tumoral usa más sondas por gen (2,94) que los paneles de cerebro y embrión (1,0)",
+      "supported": "yes",
+      "detail": "30/31 genes HCC con 3 sondas; cerebro y embrión con 1 sonda/gen",
+      "certainty_tier": "T1",
+      "abstract_verb": "validate"
+    },
+    {
+      "claim": "Los 30 genes del panel embrión 30-plex están preservados en el panel embrión 64-plex",
+      "supported": "yes",
+      "detail": "30/30 genes coinciden (comparación insensible a mayúsculas)",
+      "certainty_tier": "T1",
+      "abstract_verb": "generating"
+    },
+    {
+      "claim": "Los datos muestran un rol de los fibroblastos tumorales (CAFs) en la heterogeneidad inmune del HCC",
+      "supported": "partial",
+      "detail": "Observacional — no causal. Los datos del Supplementary Data 4 son solo diseño del panel",
+      "certainty_tier": "T1-observacional",
+      "abstract_verb": "show"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 64,
+      "unit": "codewords",
+      "context": "tamaño del panel 64-plex",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 31,
+      "unit": "codewords",
+      "context": "tamaño del panel 31-plex",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1296,
+      "unit": "combinaciones",
+      "context": "espacio total posible (6⁴)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.9,
+      "unit": "por ciento",
+      "context": "fracción del espacio usada en 64-plex",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.414,
+      "unit": "unidades de intensidad",
+      "context": "distancia mínima entre codewords en 64-plex (=√2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.0,
+      "unit": "unidades de intensidad",
+      "context": "distancia mínima entre codewords en 31-plex",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 135,
+      "unit": "pares",
+      "context": "pares a distancia mínima en 64-plex (de 2.016 totales)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.94,
+      "unit": "sondas por gen",
+      "context": "media de sondas por gen en el panel HCC (91 sondas / 31 genes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "capas",
+      "context": "número de capas (radios) usadas por PRISM: r=5, r=7, r=10, de 21 posibles",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "achieves",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "validate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "generating",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show [CAFs role]",
+      "tier": "T1-observacional",
+      "cam_attenuator": "los datos muestran / se observa"
+    }
+  ],
+  "narrative_hooks": [
+    "1.296 combinaciones posibles, 64 elegidas — así se etiqueta cada ARN con solo 4 colores",
+    "La separación mínima entre codewords (√2) es la frontera que un píxel ruidoso no puede cruzar",
+    "PRISM ocupa solo 3 de las 21 capas posibles — el arte está en separar, no en caber"
+  ],
+  "limitations": [
+    "Los datos públicos del Supplementary Data 4 contienen el diseño del código, no las imágenes ni los perfiles celulares (150 MB - 19 GB en Zenodo)",
+    "La validación biológica (atlas 3D de embrión, paisaje tumor-normal, atlas de cerebro) se basa en análisis de imagen no reproducido aquí",
+    "El panel 64-plex restringe d3 a {0, 2, 5} sin justificación explícita en el paper",
+    "La afirmación sobre los CAFs es observacional — no causal"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims 'yes' + 1 'partial' + 9 números clave — script estándar"
+  },
+  "notebook_slug": "2025-10-30-prism-64-barcodes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-10-30-prism-64-barcodes/notebook.html",
+  "generated_at": "2026-04-18T20:21:12.751780Z"
+}
