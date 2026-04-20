@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "paper_id": 477,
+  "doi": "10.1126/science.adw6202",
+  "paper_type": "experimental",
+  "study_design": "observacional",
+  "species": "bats",
+  "verification_table": [
+    {
+      "claim": "Las células HD representan la dirección de forma estable a lo largo de la isla",
+      "supported": "yes",
+      "detail": "Intra-sesión ΔHD mediana real 50,5° vs shuffle 83,3°; fracción <30° = 34,0% real vs 18,3% shuffle (ratio 1,86×).",
+      "certainty_tier": "T1",
+      "abstract_verb": "represented stably",
+      "effect_size": {
+        "measure": "ratio_concentracion",
+        "value": 1.86,
+        "interpretation": "moderado"
+      }
+    },
+    {
+      "claim": "La sintonía direccional se estabiliza a lo largo de varias noches",
+      "supported": "yes",
+      "detail": "Mediana noche 1: 1,72°/s → noche 6: 0,20°/s (reducción 8,4×). Spearman ρ=-0,60 (p<1e-8). Cohen d pooled=1,43 (grande). Diseño observacional.",
+      "certainty_tier": "T1",
+      "abstract_verb": "stabilized over several nights",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.43,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La dirección preferida es invariante a la posición de la luna",
+      "supported": "yes",
+      "detail": "|Δ pref dir| mediana 17,9° en rango 0-180°. Mediana normalizada +0,03 vs shuffle SD 0,90 (IC95% ±1,7). Resultado nulo: los datos sugieren independencia, no la prueban.",
+      "certainty_tier": "T3",
+      "abstract_verb": "irrespective of the Moon",
+      "effect_size": {
+        "measure": "null_result",
+        "value": 0.034,
+        "interpretation": "cambio dentro del chance"
+      }
+    },
+    {
+      "claim": "Primer registro de neuronas de navegación en condiciones de campo",
+      "supported": "partial",
+      "detail": "Contextual — no verificable desde CSVs, pero coherente con la literatura de head-direction cells.",
+      "certainty_tier": "T1",
+      "abstract_verb": "had not previously been studied",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 97,
+      "unit": "células HD",
+      "context": "total de neuronas registradas en presubículo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.716,
+      "unit": "grados/segundo",
+      "context": "drift mediano de la dirección preferida en la noche 1 (n=33 registros)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~1.7°/s",
+        "our_calculation": "1,716°/s",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 0.204,
+      "unit": "grados/segundo",
+      "context": "drift mediano en la noche 6 (n=6 registros)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~0.2°/s",
+        "our_calculation": "0,204°/s",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 8.4,
+      "unit": "factor",
+      "context": "reducción entre medianas noche 1 y noche 6",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.596,
+      "unit": "Spearman rho",
+      "context": "correlación entre número de noche y drift (N=77)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.43,
+      "unit": "Cohen d pooled",
+      "context": "tamaño del efecto noche 1 vs noche 6",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17.87,
+      "unit": "grados",
+      "context": "|Δ dirección preferida| mediana entre sesiones luna arriba vs abajo (n=20)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 20,
+      "unit": "células",
+      "context": "10 con luna arriba + 10 con luna abajo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.858,
+      "unit": "vector de Rayleigh",
+      "context": "célula ejemplo 38 — concentración direccional",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.83,
+      "unit": "vector de Rayleigh",
+      "context": "célula ejemplo 44 — concentración direccional",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "imply",
+      "tier": "T3",
+      "cam_attenuator": "los datos sugieren / apuntan a / es consistente con"
+    },
+    {
+      "abstract_verb": "represented stably",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'se mantuvieron estables'"
+    },
+    {
+      "abstract_verb": "stabilized over several nights",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'se estabilizó'"
+    },
+    {
+      "abstract_verb": "We conducted / We recorded",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'el equipo registró'"
+    }
+  ],
+  "narrative_hooks": [
+    "La dirección preferida de las neuronas brújula drifteaba 1,72°/s la primera noche y solo 0,20°/s en la sexta — se afina con la experiencia.",
+    "97 células en el presubículo cubren los 360° como los rayos de una rosa de los vientos.",
+    "La luna no parece mover la brújula: el cambio con o sin ella cae dentro del chance."
+  ],
+  "limitations": [
+    "Diseño observacional: los splits luna-arriba/abajo y noche 1 vs noche 6 no son manipulaciones experimentales, son comparaciones entre condiciones naturales.",
+    "El Supplementary accesible no reporta el número de murciélagos individuales, así que no se puede evaluar pseudo-replication por animal desde los CSVs.",
+    "El paper concluye con 'imply' (la brújula es aprendida y fiable); los datos sugieren eso, pero no lo demuestran — haría falta manipular la experiencia, no solo medirla.",
+    "El efecto luna es un resultado NULO: los datos son consistentes con independencia pero no la prueban formalmente."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 1 partial, 10 key numbers densos"
+  },
+  "notebook_slug": "2025-10-16-brujula-cerebral-murcielagos-isla",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook.html",
+  "generated_at": "2026-04-20T15:22:13.096112"
+}

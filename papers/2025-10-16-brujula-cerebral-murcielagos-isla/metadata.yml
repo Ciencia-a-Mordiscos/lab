@@ -1,0 +1,51 @@
+titulo: "La brújula del cerebro: 97 neuronas en murciélagos volando sobre una isla"
+fecha: 2025-10-16
+categoria: neurociencia
+tags: [navegacion, head-direction-cells, murcielagos, presubiculo, electrofisiologia-campo]
+formato: corto
+video_youtube: "https://youtube.com/shorts/-g9NA2iroYM"
+fuentes:
+  - doi: "10.1126/science.adw6202"
+    titulo: "Head-direction cells as a neural compass in bats navigating outdoors on a remote oceanic island"
+    journal: Science
+    autores: "Palgi et al."
+    verificado: true
+  - doi: "10.5281/zenodo.15646845"
+    titulo: "Data for 'Head-direction cells as a neural compass in bats navigating outdoors on a remote oceanic island'"
+    journal: Zenodo
+    autores: "Palgi S. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "todas_hd_cells_tuning.csv"
+    descripcion: "97 células × 16 bins z-scored + dirección preferida (6 con NaN, dropna → 91)"
+    fuente: "Zenodo — data_Fig2.mat (pnlH)"
+  - nombre: "direcciones_preferidas.csv"
+    descripcion: "Dirección preferida canónica de las 97 células"
+    fuente: "Zenodo — data_Fig2.mat (pnlG)"
+  - nombre: "ejemplo_neuronas_brujula.csv"
+    descripcion: "2 células hero (38 y 44) con firing rate, vector de Rayleigh y ajuste von Mises"
+    fuente: "Zenodo — data_Fig2.mat (pnlAB)"
+  - nombre: "estabilidad_por_noche.csv"
+    descripcion: "Drift de la dirección preferida por noche (1-6), 77 registros"
+    fuente: "Zenodo — data_Fig5.mat (pnlD)"
+  - nombre: "luna_delta_preferida.csv"
+    descripcion: "Δ dirección preferida entre sesiones luna arriba vs abajo (20 células)"
+    fuente: "Zenodo — data_Fig4.mat (pnlE)"
+  - nombre: "luna_delta_normalizada.csv"
+    descripcion: "Versión normalizada del Δ luna para shuffle comparison"
+    fuente: "Zenodo — data_Fig4.mat (pnlF.data)"
+  - nombre: "luna_shuffle.csv"
+    descripcion: "Distribución shuffle (460 valores) del Δ normalizado"
+    fuente: "Zenodo — data_Fig4.mat (pnlF.shuffle)"
+  - nombre: "delta_hd_real.csv"
+    descripcion: "Δ preferida (1ra vs 2da mitad) para 53 células"
+    fuente: "Zenodo — data_Fig2.mat (pnlF.data)"
+  - nombre: "delta_hd_shuffle.csv"
+    descripcion: "Shuffle del Δ intra-sesión (2756 valores)"
+    fuente: "Zenodo — data_Fig2.mat (pnlF.shuffles)"
+  - nombre: "mediana_r_espacial_por_noche.csv"
+    descripcion: "Correlación espacial mediana por noche (60 registros)"
+    fuente: "Zenodo — data_Fig5.mat (pnlE)"
+estado: publicado

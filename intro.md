@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### La brújula del cerebro en murciélagos
+
+**Neurociencia** · Science · Palgi et al. (2025) registraron **97 neuronas brújula** en el presubículo de murciélagos volando libres sobre la selva de Zanzíbar — sin jaula, sin pistas controladas. La dirección preferida de esas neuronas drifteaba **1,72°/s la primera noche** y solo **0,20°/s la sexta**: una estabilización 8,4× con la experiencia (Spearman ρ = −0,60, p < 1e-8). Los datos sugieren que la brújula funciona igual con o sin luna.
+
+[Ver notebook](papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook) · [Leer más](papers/2025-10-16-brujula-cerebral-murcielagos-isla/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook.ipynb)
+
+---
+
 ### 64 canales de ARN en una sola imagen
 
 **Biología** · Nature Biotechnology · Los microscopios de fluorescencia solo distinguen 4 colores, pero PRISM logra imagen espacial de **64 ARNs en una sola ronda** codificando cada uno con una combinación de 4 canales e intensidad. El equipo elige 64 codewords de un espacio de **1.296** posibles (4,9%) con separación mínima de **√2 ≈ 1,414** — la distancia que un píxel ruidoso no puede cruzar.

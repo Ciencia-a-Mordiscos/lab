@@ -169,6 +169,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2025-10-16-brujula-cerebral-murcielagos-isla/README
+    title: "La brújula del cerebro en murciélagos"
+    sections:
+    - file: papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook
+      title: Notebook
   - file: papers/2026-04-15-codigo-neural-percepcion-imaginacion/README
     title: "Código neural compartido: ver e imaginar"
     sections:

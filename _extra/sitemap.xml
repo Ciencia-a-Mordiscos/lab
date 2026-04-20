@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
   <ns0:url>
+    <ns0:loc>https://cienciaamordiscos.com/papers/2025-10-16-brujula-cerebral-murcielagos-isla/README.html</ns0:loc>
+    <ns0:lastmod>2026-04-20</ns0:lastmod>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://cienciaamordiscos.com/papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook.html</ns0:loc>
+    <ns0:lastmod>2026-04-20</ns0:lastmod>
+    <ns0:priority>0.9</ns0:priority>
+  </ns0:url>
+  <ns0:url>
     <ns0:loc>https://cienciaamordiscos.com/papers/2026-04-15-agua-sub-neptunos-reaccion-magma/README.html</ns0:loc>
     <ns0:lastmod>2026-04-15</ns0:lastmod>
     <ns0:priority>0.8</ns0:priority>

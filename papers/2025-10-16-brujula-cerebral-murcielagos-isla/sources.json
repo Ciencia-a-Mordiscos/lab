@@ -1,0 +1,170 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Las células HD representan la dirección de forma estable a lo largo de la isla",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "La sintonía direccional se estabiliza a lo largo de varias noches",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "La dirección preferida es invariante a la posición de la luna",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c4",
+      "text": "Primer registro de neuronas de navegación en condiciones de campo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "contexto",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "97 células HD — total de neuronas registradas en presubículo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "1.716 grados/segundo — drift mediano de la dirección preferida en la noche 1 (n=33 registros)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "0.204 grados/segundo — drift mediano en la noche 6 (n=6 registros)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "8.4 factor — reducción entre medianas noche 1 y noche 6",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "-0.596 Spearman rho — correlación entre número de noche y drift (N=77)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "1.43 Cohen d pooled — tamaño del efecto noche 1 vs noche 6",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "17.87 grados — |Δ dirección preferida| mediana entre sesiones luna arriba vs abajo (n=20)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "20 células — 10 con luna arriba + 10 con luna abajo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c13",
+      "text": "0.858 vector de Rayleigh — célula ejemplo 38 — concentración direccional",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c14",
+      "text": "0.83 vector de Rayleigh — célula ejemplo 44 — concentración direccional",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Science",
+      "tipo": "paper",
+      "titulo": "Head-direction cells as a neural compass in bats navigating outdoors on a remote oceanic island",
+      "url": "https://doi.org/10.1126/science.adw6202",
+      "fecha_publicacion": "2025-10-16",
+      "fecha_consulta": "2026-04-20",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Data for 'Head-direction cells as a neural compass in bats navigating outdoors on a remote oceanic island'",
+      "url": "https://doi.org/10.5281/zenodo.15646845",
+      "fecha_publicacion": "2025-06-12",
+      "fecha_consulta": "2026-04-20",
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Head-direction cells as a neural compass in bats navigating outdoors on a remote oceanic island](https://doi.org/10.1126/science.adw6202)  \n*Science, 2025-10-16*\n\n**Datos**: [Data for 'Head-direction cells as a neural compass in bats navigating outdoors on a remote oceanic island'](https://doi.org/10.5281/zenodo.15646845)  \n*Zenodo, 2025-06-12*\n\n*14 afirmaciones verificadas contra estas fuentes*"
+  }
+}
