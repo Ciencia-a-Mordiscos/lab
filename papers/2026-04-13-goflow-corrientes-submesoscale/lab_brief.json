@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "paper_id": 2338,
+  "doi": "10.1038/s41561-026-01943-0",
+  "paper_type": "methods_research",
+  "study_design": "computational_validation",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "GOFLOW reconstruye velocidades superficiales (u, v) con alta fidelidad desde imágenes térmicas satelitales",
+      "supported": "yes",
+      "detail": "r medio = 0,967 (u) y 0,968 (v) en 41 snapshots del test set. Rango estrecho (min 0,958, max 0,976). Test filtrado Butterworth 18 h en Gulf Stream.",
+      "certainty_tier": "T1",
+      "abstract_verb": "accurately reconstructs",
+      "effect_size": {
+        "measure": "pearson_r",
+        "value": 0.967,
+        "interpretation": "muy alta"
+      }
+    },
+    {
+      "claim": "GOFLOW preserva la asimetría positiva de la vorticidad (hallmark submesoscale)",
+      "supported": "yes",
+      "detail": "Skew verdad = +0,947, skew predicción = +0,602. Ambos positivos — asimetría preservada en signo y magnitud de cola pesada.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal characteristic asymmetries",
+      "effect_size": {
+        "measure": "skew_ratio",
+        "value": 0.636,
+        "interpretation": "preservación parcial"
+      }
+    },
+    {
+      "claim": "Vorticidad reconstruida con correlación moderada-alta y varianza ligeramente reducida",
+      "supported": "yes",
+      "detail": "r medio = 0,77 (IQR 0,76–0,77, rango 0,76–0,78); std verdad = 0,259, std predicción = 0,215 (reducción del 17%).",
+      "certainty_tier": "T1",
+      "abstract_verb": "accurately reconstructs",
+      "effect_size": {
+        "measure": "pearson_r",
+        "value": 0.769,
+        "interpretation": "moderada-alta"
+      }
+    },
+    {
+      "claim": "La reconstrucción de divergencia es menos precisa que la de vorticidad",
+      "supported": "partial",
+      "detail": "r = 0,134 (muy baja). Skew verdad = -0,595; skew predicción = +1,823 (signo invertido en este subset filtrado). El paper lo enmarca como limitación ('somewhat less accurately reproduced').",
+      "certainty_tier": "T2",
+      "abstract_verb": "is somewhat less accurately reproduced",
+      "effect_size": {
+        "measure": "pearson_r",
+        "value": 0.134,
+        "interpretation": "muy baja"
+      }
+    },
+    {
+      "claim": "Deformación reconstruida con calidad razonable y asimetría positiva preservada",
+      "supported": "yes",
+      "detail": "r medio = 0,577 (moderada); skew verdad = +2,218, skew predicción = +3,117 (mismo signo; deformación es ≥0 por definición).",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal characteristic asymmetries",
+      "effect_size": {
+        "measure": "pearson_r",
+        "value": 0.577,
+        "interpretation": "moderada"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.967,
+      "unit": "correlación Pearson r",
+      "context": "reconstrucción de velocidad zonal u",
+      "source": "correlacion_por_snapshot.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "near-unity",
+        "our_calculation": "0.967",
+        "discrepancy_pct": 0,
+        "reason": "consistente con claim del paper"
+      }
+    },
+    {
+      "value": 0.968,
+      "unit": "correlación Pearson r",
+      "context": "reconstrucción de velocidad meridional v",
+      "source": "correlacion_por_snapshot.csv",
+      "verified": true
+    },
+    {
+      "value": 0.769,
+      "unit": "correlación Pearson r",
+      "context": "reconstrucción de vorticidad ζ/f",
+      "source": "correlacion_por_snapshot.csv",
+      "verified": true
+    },
+    {
+      "value": 0.134,
+      "unit": "correlación Pearson r",
+      "context": "reconstrucción de divergencia δ/f (limitación admitida por el paper)",
+      "source": "correlacion_por_snapshot.csv",
+      "verified": true
+    },
+    {
+      "value": 0.577,
+      "unit": "correlación Pearson r",
+      "context": "reconstrucción de deformación α/f",
+      "source": "correlacion_por_snapshot.csv",
+      "verified": true
+    },
+    {
+      "value": -17.0,
+      "unit": "por ciento",
+      "context": "reducción de desviación estándar en vorticidad (GOFLOW vs LLC4320)",
+      "source": "estadisticas_campos.csv",
+      "verified": true
+    },
+    {
+      "value": 41,
+      "unit": "snapshots",
+      "context": "tamaño del test set del Gulf Stream filtrado Butterworth 18 h",
+      "source": "correlacion_por_snapshot.csv",
+      "verified": true
+    },
+    {
+      "value": 2686976,
+      "unit": "píxeles",
+      "context": "n total por variable en las estadísticas globales",
+      "source": "estadisticas_campos.csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "accurately reconstructs",
+      "tier": "T1",
+      "cam_attenuator": "alta fidelidad / correlación alta"
+    },
+    {
+      "abstract_verb": "reveal characteristic asymmetries",
+      "tier": "T1",
+      "cam_attenuator": "preserva / captura"
+    },
+    {
+      "abstract_verb": "is somewhat less accurately reproduced",
+      "tier": "T2",
+      "cam_attenuator": "con atenuador explícito (el paper lo admite)"
+    },
+    {
+      "abstract_verb": "represents a notable advance",
+      "tier": "T2",
+      "cam_attenuator": "ventaja vs altimetría"
+    }
+  ],
+  "narrative_hooks": [
+    "Un satélite ve temperatura. Puede ver las corrientes del océano con una red neuronal que aprende de tres snapshots térmicos separados por una hora.",
+    "r = 0,97 para velocidades (u, v): casi idéntico a la verdad del modelo.",
+    "Pero la divergencia se desploma a r = 0,13 — y hasta el signo de la asimetría se invierte en el subset filtrado. El paper lo admite."
+  ],
+  "limitations": [
+    "El test set publicado está filtrado con Butterworth 18 h — elimina marea pero puede afectar la divergencia.",
+    "Entrenamiento con 1 año del Atlántico 20–45°N; generalización a otras regiones no verificada aquí.",
+    "LLC4320 no resuelve sub-kilómetro; la 'verdad' es aproximación del océano real.",
+    "Pearson punto a punto no penaliza desplazamientos espaciales pequeños: estructura correcta movida 2 km baja r.",
+    "Requiere frentes térmicos visibles (gradientes SST); zonas homogéneas caen fuera del dominio."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes + 1 partial; 8 números clave"
+  },
+  "notebook_slug": "2026-04-13-goflow-corrientes-submesoscale",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-13-goflow-corrientes-submesoscale/notebook.html",
+  "generated_at": "2026-04-21T21:47:53.843263Z"
+}

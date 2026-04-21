@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-04-13-goflow-corrientes-submesoscale/README
+    title: "Un satélite ve temperatura. ¿Puede ver las corrientes del océano?"
+    sections:
+    - file: papers/2026-04-13-goflow-corrientes-submesoscale/notebook
+      title: Notebook
   - file: papers/2026-04-11-comercio-fauna-patogenos-zoonoticos/README
     title: "Comercio de fauna y patógenos zoonóticos"
     sections:

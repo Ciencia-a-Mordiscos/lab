@@ -1,0 +1,28 @@
+titulo: "Un satélite ve temperatura. ¿Puede ver las corrientes del océano?"
+fecha: 2026-04-13
+categoria: ecología
+tags: [oceanografia, machine-learning, submesoscale, teledeteccion, gulf-stream, u-net]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01943-0"
+    titulo: "An unprecedented view of ocean currents from geostationary satellites"
+    journal: "Nature Geoscience"
+    autores: "Lenain et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "estadisticas_campos.csv"
+    descripcion: "Estadísticas globales (media, std, skewness, percentiles) para vorticidad, divergencia y deformación en LLC4320 vs GOFLOW. Agregado desde 2.686.976 píxeles por variable."
+    fuente: "Zenodo 15815704 (subset filtrado Butterworth 18 h)"
+  - nombre: "pdf_campos.csv"
+    descripcion: "PDFs con 80 bins para comparar distribuciones LLC4320 vs GOFLOW en ζ/f, δ/f, α/f."
+    fuente: "Zenodo 15815704"
+  - nombre: "correlacion_por_snapshot.csv"
+    descripcion: "Pearson r y RMSE por snapshot y variable (41 snapshots × 5 variables)."
+    fuente: "Zenodo 15815704"
+  - nombre: "snapshot_representativo.csv"
+    descripcion: "Snapshot t=40 downsampled a 128×128 con vorticidad, divergencia y gradiente SST."
+    fuente: "Zenodo 15815704"
+estado: publicado
