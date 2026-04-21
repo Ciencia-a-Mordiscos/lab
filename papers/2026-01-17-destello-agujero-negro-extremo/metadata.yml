@@ -1,0 +1,28 @@
+titulo: "El destello más potente jamás visto de un agujero negro"
+fecha: 2026-01-17
+categoria: astronomia
+tags: [agujero-negro, agn, transient, tde, fotometria, ztf, wise]
+formato: corto
+video_youtube: "https://youtube.com/shorts/CxsyuCwu7s0"
+fuentes:
+  - doi: "10.1038/s41550-025-02699-0"
+    titulo: "An extremely luminous flare recorded from a supermassive black hole"
+    journal: Nature Astronomy
+    autores: "Hinkle et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ztf_photometry.csv"
+    descripcion: "Fotometría Zwicky Transient Facility (ZTF g+r, 2952 obs, 2018-2024)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "atlas_photometry.csv"
+    descripcion: "Fotometría ATLAS (o+c, 2266 obs, 2015-2024)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "crts_photometry.csv"
+    descripcion: "Fotometría Catalina Real-Time Transient Survey V-band (119 obs, 2016-2020)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "wise_photometry.csv"
+    descripcion: "Fotometría infrarroja WISE W1+W2 (52 obs, 2010-2023)"
+    fuente: "Supplementary Materials del paper"
+estado: publicado

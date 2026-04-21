@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "paper_id": 523,
+  "doi": "10.1038/s41550-025-02699-0",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El sistema AGN J224554.84+374326.5 brilló más de 40 veces sobre su nivel normal en 2018",
+      "supported": "yes",
+      "detail": "ZTF g muestra factor 151x entre pico y punto más débil; CRTS V (filtro rojo) da 18.9x (baseline mean 21,66 → peak 18,47). El paper afirma '>40x' en UV/óptico, consistente con ZTF g (filtro más azul). La variación por filtro es real: el polvo y la galaxia anfitriona contribuyen distinto en rojo vs azul.",
+      "certainty_tier": "T1",
+      "abstract_verb": "brightened",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El destello sigue activo seis años después del pico (2024 > baseline)",
+      "supported": "yes",
+      "detail": "ZTF g 2024: mediana mag 21,4 (rango 20,6-24,2); CRTS V baseline pre-2018: mediana mag ~21,8. El sistema no ha vuelto a niveles pre-2018.",
+      "certainty_tier": "T1",
+      "abstract_verb": "has slowly faded",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El eco infrarrojo (WISE) es mucho menor que la amplitud óptica",
+      "supported": "yes",
+      "detail": "WISE W1: baseline pre-2014 15,83 mag → peak post-2018 15,16 mag = factor 1,87x. WISE W2: 14,78 → 14,06 = factor 1,95x. ZTF g: 151x. Razón óptico/IR = ~81x. Consistente con reprocesamiento por polvo circundante.",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El mecanismo más probable es la disrupción por marea de una estrella masiva (>30 Msun) en órbita prograda en disco AGN",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como 'we favour' (T2, atenuador: 'se inclinan por'). Los autores plantean tres candidatos: TDE de estrella masiva, lente gravitacional de AGN o supernova, y supernova pair-instability. NUNCA afirmar TDE como hecho. Los datos públicos de fotometría no distinguen entre mecanismos.",
+      "certainty_tier": "T2",
+      "abstract_verb": "favour",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El destello emitió ~10^54 erg en UV+óptico (≈1 masa solar en radiación EM)",
+      "supported": "partial",
+      "detail": "Valor calculado por los autores integrando UV+óptico sobre la duración del evento; no es directamente verificable con los CSVs públicos de fotometría por filtro. Aceptado del paper como T1 en su métrica agregada.",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Este destello es 30 veces más potente que el transitorio AGN más potente previamente registrado",
+      "supported": "partial",
+      "detail": "Afirmación del paper, no verificable con los CSVs (requiere catálogo de transientes AGN previos). Aceptado como T1 en la métrica agregada del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "30 times more powerful",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 40,
+      "unit": "x (factor de amplitud)",
+      "context": "paper abstract: 'brightened by more than a factor of 40 in 2018' (UV/óptico integrado)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "más de 40x",
+        "our_calculation": "ZTF g: 151x (peak→faintest); CRTS V: 18.9x (baseline mean→peak)",
+        "reason": "La variación con filtro es consistente: más azul = más amplitud. Paper integra UV+óptico, nuestros datos son por filtro."
+      }
+    },
+    {
+      "value": 151,
+      "unit": "x (factor de flujo)",
+      "context": "ZTF g peak (19,06 mag, 2018,49) vs faintest observado (24,51 mag, 2021,72) — Δmag 5,45",
+      "source": "cálculo propio desde ztf_photometry.csv",
+      "verified": true
+    },
+    {
+      "value": 1.87,
+      "unit": "x (factor de amplitud)",
+      "context": "WISE W1 baseline pre-2014 (15,83 mag) → peak post-2018 (15,16 mag)",
+      "source": "cálculo propio desde wise_photometry.csv",
+      "verified": true
+    },
+    {
+      "value": 1.95,
+      "unit": "x (factor de amplitud)",
+      "context": "WISE W2 baseline pre-2014 (14,78 mag) → peak post-2018 (14,06 mag)",
+      "source": "cálculo propio desde wise_photometry.csv",
+      "verified": true
+    },
+    {
+      "value": 30,
+      "unit": "x (factor)",
+      "context": "veces más potente que el transitorio AGN más potente previo (paper)",
+      "source": "paper",
+      "verified": false
+    },
+    {
+      "value": 1e54,
+      "unit": "erg",
+      "context": "energía total emitida en UV+óptico — equivale a ~1 masa solar convertida en radiación EM",
+      "source": "paper",
+      "verified": false
+    },
+    {
+      "value": 2.6,
+      "unit": "redshift (z)",
+      "context": "la luz tardó ~11 mil millones de años en llegar; el destello ocurrió cuando el universo tenía ~3 mil millones de años",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 2018.49,
+      "unit": "año decimal",
+      "context": "pico ZTF g (19,06 mag)",
+      "source": "cálculo propio desde ztf_photometry.csv",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "años",
+      "context": "duración del declive observado desde el pico (2018-2024, todavía no retorna a baseline)",
+      "source": "cálculo propio desde ztf_photometry.csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "describe", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "discovery", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "brightened", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "has slowly faded", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "we discuss potential mechanisms", "tier": "T2", "cam_attenuator": "'los autores plantean varios mecanismos posibles'"},
+    {"abstract_verb": "we favour the tidal disruption", "tier": "T2", "cam_attenuator": "'la hipótesis preferida es X' / 'se inclinan por X' — NUNCA afirmar como hecho"}
+  ],
+  "narrative_hooks": [
+    "Un agujero negro brilló 40 veces más de lo normal en 2018. Seis años después, todavía se está apagando.",
+    "Una masa solar entera convertida en luz — 30 veces más potente que cualquier destello AGN previamente registrado",
+    "La luz tardó 11 mil millones de años en llegar: el destello ocurrió cuando el universo tenía menos de 3 mil millones de años",
+    "En óptico brilló 151 veces; en infrarrojo apenas 1,9. La razón: el polvo reemite, no refleja"
+  ],
+  "limitations": [
+    "La fotometría pública no está corregida por contaminación de la galaxia anfitriona — los ratios absolutos son cota superior",
+    "CRTS V y ATLAS o no son filtros directamente comparables a ZTF g/r — evitar mezclar magnitudes absolutas entre sondeos",
+    "El baseline pre-2018 solo está densamente cubierto por WISE (infrarrojo) y CRTS (119 obs óptico); ZTF empieza en 2018",
+    "Los tres mecanismos propuestos (TDE estelar masivo, lente gravitacional, supernova pair-instability) son hipótesis; los datos públicos no permiten discriminar entre ellos"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados directamente + 3 aceptados del paper; 9 key numbers con datos numéricos ricos para la narrativa"
+  },
+  "notebook_slug": "2026-01-17-destello-agujero-negro-extremo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-destello-agujero-negro-extremo/notebook.html",
+  "generated_at": "2026-04-21T16:20:00Z"
+}
