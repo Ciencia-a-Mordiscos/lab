@@ -1,0 +1,22 @@
+titulo: "151 vertederos del mundo, 1085 detecciones satelitales"
+fecha: 2026-01-17
+categoria: ecologia
+tags: [metano, vertederos, clima, satelite, ghgsat, climate-trace, emisiones, gei]
+formato: corto
+video_youtube: "https://youtube.com/shorts/bm-rFecc720"
+fuentes:
+  - doi: "10.1038/s41586-025-09683-8"
+    titulo: "Global satellite survey reveals uncertainty in landfill methane emissions"
+    journal: Nature
+    autores: "Dogniaux et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "vertederos_151.csv"
+    descripcion: "Resumen site-level de 151 vertederos (lat, lon, país, Q_GHGSat, Q_reportado, Q_ClimateTRACE)"
+    fuente: "Supplementary Table 4 del paper, transcrito desde MOESM"
+  - nombre: "plumas_detectadas_1085.csv"
+    descripcion: "1085 detecciones individuales de plumas de metano por GHGSat (2021-2022)"
+    fuente: "Zenodo 10.5281/zenodo.16641834"
+estado: publicado

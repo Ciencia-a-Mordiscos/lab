@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### 151 vertederos del mundo, 1085 detecciones satelitales
+
+**Ecología** · Nature · Dogniaux et al. (2025) observaron 151 vertederos en 6 continentes con el satélite **GHGSat** durante 2021-2022 y cruzaron las emisiones medidas con los reportes nacionales y el inventario **Climate TRACE**. El resultado: **a escala de instalación, las tres estimaciones no se correlacionan** (Spearman ρ=0,12, p=0,21, n=109). En un vertedero de Turquía el satélite ve **240 veces más metano** del que estima el modelo; en dos vertederos de Corea del Sur, el modelo estima **76 y 186 veces más** de lo que mide el satélite. Solo **41 de 109 sitios (38%)** acuerdan dentro de un factor 2.
+
+[Ver notebook](papers/2026-01-17-metano-151-vertederos-satelite/notebook) · [Leer más](papers/2026-01-17-metano-151-vertederos-satelite/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-metano-151-vertederos-satelite/notebook.ipynb)
+
+---
+
 ### Un termitero inspira cómo recuperar 83% del vapor industrial
 
 **Tecnología** · Nature Water · Zhang et al. (2026) copiaron la arquitectura pasiva de los termiteros africanos —cámaras, chimeneas y canales que enfrían sin perder humedad— para recuperar el vapor que las torres de enfriamiento industriales tiran al aire. El sistema de **cuatro capas apiladas** retiene **83,5%** del vapor a los 24 minutos, contra 27,2% sin tratamiento. **Una sola capa** (el recubrimiento de microesferas FAUTO) carga con +43,7 puntos porcentuales de la mejora; las otras tres capas juntas apenas suman +12,6 pp. Proyectado a una planta de 300 MW en China: **2,7×10⁸ toneladas de agua recuperadas al año** — equivalente al consumo doméstico de 2,2 millones de hogares.

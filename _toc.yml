@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-01-17-metano-151-vertederos-satelite/README
+    title: "151 vertederos del mundo, 1085 detecciones satelitales"
+    sections:
+    - file: papers/2026-01-17-metano-151-vertederos-satelite/notebook
+      title: Notebook
   - file: papers/2026-04-13-goflow-corrientes-submesoscale/README
     title: "Un satélite ve temperatura. ¿Puede ver las corrientes del océano?"
     sections:

@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "paper_id": 545,
+  "doi": "10.1038/s41586-025-09683-8",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Sin correlación entre GHGSat y Climate TRACE a escala de instalación",
+      "supported": "yes",
+      "detail": "Spearman ρ=0,12 (p=0,21, n=109). Pearson log-log r=0,10 (p=0,32). p > 0,05 en todos los tests — indistinguible de cero.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "spearman_rho", "value": 0.121, "interpretation": "nula"}
+    },
+    {
+      "claim": "Sin correlación entre GHGSat y reportes nacionales",
+      "supported": "yes",
+      "detail": "Spearman ρ=0,15 (p=0,38, n=37). Pearson log-log r=0,08 (p=0,65). La muestra es pequeña pero el patrón es claro.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "spearman_rho", "value": 0.149, "interpretation": "nula"}
+    },
+    {
+      "claim": "Las diferencias entre satélite y modelo llegan a 240x en casos extremos",
+      "supported": "yes",
+      "detail": "Site 118 (Turquía): GHGSat=7,21 t/h, CT=0,03 t/h → ratio 240. Site 87 (Corea del Sur): CT/GHGSat=186. Site 86 (Corea del Sur): CT/GHGSat=76.",
+      "certainty_tier": "T1",
+      "abstract_verb": "observe"
+    },
+    {
+      "claim": "38% de sitios acuerdan dentro de factor 2",
+      "supported": "yes",
+      "detail": "41 de 109 sitios pareados (37,6%), calculado sobre |log10(ratio)| < log10(2).",
+      "certainty_tier": "T1",
+      "abstract_verb": "find"
+    },
+    {
+      "claim": "Mediana global de plumas detectadas: 2,42 t/h",
+      "supported": "yes",
+      "detail": "Calculado sobre las 1085 detecciones. Coincide con Supplementary Table 3 del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 151,
+      "unit": "vertederos",
+      "context": "sitios observados por GHGSat en 6 continentes, 47 países",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1085,
+      "unit": "detecciones",
+      "context": "plumas positivas de metano (de 1519 observaciones totales, umbral 100 kg/h)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.12,
+      "unit": "Spearman rho",
+      "context": "correlación GHGSat vs Climate TRACE (n=109 sitios, p=0,21)",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 240,
+      "unit": "veces",
+      "context": "ratio GHGSat/Climate TRACE en site 118 (Turquía) — caso extremo de discrepancia",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 186,
+      "unit": "veces",
+      "context": "ratio Climate TRACE/GHGSat en site 87 (Corea del Sur) — modelo sobreestima",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 38,
+      "unit": "por ciento",
+      "context": "sitios que acuerdan dentro de factor 2x entre GHGSat y Climate TRACE (41/109)",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 2.42,
+      "unit": "toneladas por hora",
+      "context": "mediana global de plumas detectadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 80,
+      "unit": "veces",
+      "context": "potencia de calentamiento del metano vs CO2 a 20 años (GWP20, contexto educativo)",
+      "source": "paper_claim",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "por ciento",
+      "context": "fracción del metano antropogénico global que aportan los residuos sólidos",
+      "source": "paper_claim",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "present", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "find", "tier": "T1", "cam_attenuator": "afirmación directa: 'encontramos'"},
+    {"abstract_verb": "reveals", "tier": "T1", "cam_attenuator": "afirmación directa: 'muestra' / 'revela'"},
+    {"abstract_verb": "observe", "tier": "T1", "cam_attenuator": "afirmación directa: 'observamos'"},
+    {"abstract_verb": "warranting", "tier": "T2", "cam_attenuator": "'exige más investigación'"}
+  ],
+  "narrative_hooks": [
+    "151 vertederos del mundo, 1085 detecciones. Lo que reportan los países no coincide con lo que ven los satélites.",
+    "En Turquía el satélite ve 240 veces más metano del que estima el modelo.",
+    "La correlación es ρ=0,12 — estadísticamente indistinguible de cero."
+  ],
+  "limitations": [
+    "GHGSat solo detecta plumas ≥ 100 kg/h; emisiones por debajo del umbral no se ven (434 no-detecciones de 1519 observaciones).",
+    "Comparación cruza años: observaciones 2021-2022 vs Climate TRACE 2024.",
+    "Estudio observacional: muestra el desacuerdo, no identifica la causa. Las hipótesis sobre operación, geometría o tipo de residuo exigen más investigación.",
+    "Muestra no aleatoria: 151 sitios son 0,75% de los ~20.000 grandes vertederos globales, priorizados por señal SRON."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados + 9 números clave — script denso"
+  },
+  "notebook_slug": "2026-01-17-metano-151-vertederos-satelite",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-metano-151-vertederos-satelite/notebook.html",
+  "generated_at": "2026-04-22T15:20:00Z"
+}
