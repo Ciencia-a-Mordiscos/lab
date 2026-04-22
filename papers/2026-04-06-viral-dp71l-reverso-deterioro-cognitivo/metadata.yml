@@ -1,0 +1,31 @@
+titulo: "Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo"
+fecha: 2026-04-06
+categoria: neurociencia
+tags:
+  - integrated-stress-response
+  - traduccion
+  - memoria
+  - ribo-seq
+  - rna-seq
+  - raton
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aea8782"
+    titulo: "Harnessing viral strategies to reverse cognitive dysfunction through the integrated stress response"
+    journal: Science
+    autores: "Reineke et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "isr_targets_summary.csv"
+    descripcion: "6 dianas canónicas del ISR con cambios % en RNA y eficiencia traduccional + p-valores"
+    fuente: "GSE310398 (derivado del análisis primario)"
+  - nombre: "te_analysis.csv"
+    descripcion: "Análisis de eficiencia traduccional por gen (TE = Ribo_RPKM/RNA_RPKM), 10.910 genes expresados"
+    fuente: "GSE310398 (derivado del análisis primario)"
+  - nombre: "rpkm_per_sample.csv"
+    descripcion: "RPKM por gen por muestra (12 muestras: 2 ensayos × 2 genotipos × 3 réplicas)"
+    fuente: "GEO GSE310398"
+estado: publicado

@@ -1,0 +1,159 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "El ratón mutante Ppp1r15b R658C tiene el ISR persistentemente activo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "ATF4 sube su eficiencia traduccional ~53% en el cerebro mutante",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "CHOP (Ddit3) sube como diana downstream de ATF4 (+41% TE, +48% RNA)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "El cambio traduccional es selectivo, no global: solo 1.6% de los 10908 genes (180) cambian significativamente",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "ATF5 también responde transcripcionalmente al ISR (+170% RNA), pero el cambio en TE no alcanza significancia con n=3",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c6",
+      "text": "DP71L (proteína viral) revierte los déficits cognitivos en modelos de Down, Alzheimer y envejecimiento",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c7",
+      "text": "53 por ciento — aumento de eficiencia traduccional de ATF4 en mutante vs WT",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "41 por ciento — aumento de eficiencia traduccional de CHOP/Ddit3 en mutante vs WT",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "170 por ciento — aumento del mRNA de ATF5 en mutante vs WT",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "180 genes — número de genes con cambio significativo (p<0.05) en eficiencia traduccional, sobre 10908 expresados (1.6%)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "12 muestras — diseño experimental: 2 ensayos (RNA-seq, Ribo-seq) x 2 genotipos x 3 réplicas",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "4.97 cohen_d — tamaño del efecto ATF4 mutante vs WT (efecto enorme — cero solapamiento entre las 3 réplicas)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Science",
+      "tipo": "paper",
+      "titulo": "Harnessing viral strategies to reverse cognitive dysfunction through the integrated stress response",
+      "url": "https://doi.org/10.1126/science.aea8782",
+      "fecha_publicacion": "2026-04-06",
+      "fecha_consulta": "2026-04-22",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "GEO (NCBI)",
+      "tipo": "dataset",
+      "titulo": "Harnessing Viral Strategies to modulate the ISR and Reverse Cognitive Dysfunction (GSE310398)",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310398",
+      "fecha_publicacion": "2026-04-09",
+      "fecha_consulta": "2026-04-22",
+      "rol": "base"
+    },
+    {
+      "id": "s3",
+      "medio": "Protein Data Bank",
+      "tipo": "dataset",
+      "titulo": "Phosphatase complex PP1A-DP71L-p-eIF2alpha-G-actin-DNaseI (PDB 9NB9)",
+      "url": "https://www.rcsb.org/structure/9NB9",
+      "fecha_publicacion": "2026-04-06",
+      "fecha_consulta": "2026-04-22",
+      "rol": "enriquecimiento"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Harnessing viral strategies to reverse cognitive dysfunction through the integrated stress response](https://doi.org/10.1126/science.aea8782)  \n*Science, 2026-04-06*\n\n**Datos**: [Harnessing Viral Strategies to modulate the ISR and Reverse Cognitive Dysfunction (GSE310398)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310398)  \n*GEO (NCBI), 2026-04-09*\n\n**Estructura cryo-EM (contexto)**: [Phosphatase complex PP1A-DP71L-p-eIF2alpha-G-actin-DNaseI (PDB 9NB9)](https://www.rcsb.org/structure/9NB9)\n\n*12 afirmaciones verificadas contra estas fuentes*"
+  }
+}

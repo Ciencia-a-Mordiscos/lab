@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "paper_id": 2307,
+  "doi": "10.1126/science.aea8782",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "El ratón mutante Ppp1r15b R658C tiene el ISR persistentemente activo",
+      "supported": "yes",
+      "detail": "Las dianas canónicas del ISR (ATF4, CHOP) suben en eficiencia traduccional con p<0.05; firma molecular esperada del ISR encendido",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "ATF4 sube su eficiencia traduccional ~53% en el cerebro mutante",
+      "supported": "yes",
+      "detail": "WT 0.405 vs mut 0.620; p=0.005 (Welch); Cohen's d ≈ 4.97 (enorme); cero solapamiento entre las 3 réplicas",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.97,
+        "interpretation": "enorme"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "CHOP (Ddit3) sube como diana downstream de ATF4 (+41% TE, +48% RNA)",
+      "supported": "yes",
+      "detail": "p=0.049 (Welch n=3); aumento transcripcional + traduccional consistente con activación vía ATF4",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.5,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El cambio traduccional es selectivo, no global: solo 1.6% de los 10908 genes (180) cambian significativamente",
+      "supported": "yes",
+      "detail": "Media log2FC_TE ≈ 0.026; mediana 0.022; firma ISR concentrada en genes con uORFs",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "ATF5 también responde transcripcionalmente al ISR (+170% RNA), pero el cambio en TE no alcanza significancia con n=3",
+      "supported": "partial",
+      "detail": "TE +33% pero p=0.22; RNA sí sube significativamente",
+      "certainty_tier": "T2",
+      "abstract_verb": "characterize",
+      "supported_by_data": true
+    },
+    {
+      "claim": "DP71L (proteína viral) revierte los déficits cognitivos en modelos de Down, Alzheimer y envejecimiento",
+      "supported": "partial",
+      "detail": "Afirmación central del paper; los experimentos conductuales NO están en GSE310398. Este notebook solo verifica la firma molecular del mutante, no el rescate viral",
+      "certainty_tier": "T1",
+      "abstract_verb": "reverse",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 53,
+      "unit": "por ciento",
+      "context": "aumento de eficiencia traduccional de ATF4 en mutante vs WT",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "+53% (CSV pre-computado)",
+        "our_calculation": "+53% (recálculo Welch sobre n=3)",
+        "discrepancy_pct": 0.0,
+        "reason": "valores exactos de fact_sheet"
+      }
+    },
+    {
+      "value": 41,
+      "unit": "por ciento",
+      "context": "aumento de eficiencia traduccional de CHOP/Ddit3 en mutante vs WT",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 170,
+      "unit": "por ciento",
+      "context": "aumento del mRNA de ATF5 en mutante vs WT",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 180,
+      "unit": "genes",
+      "context": "número de genes con cambio significativo (p<0.05) en eficiencia traduccional, sobre 10908 expresados (1.6%)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "muestras",
+      "context": "diseño experimental: 2 ensayos (RNA-seq, Ribo-seq) x 2 genotipos x 3 réplicas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.97,
+      "unit": "cohen_d",
+      "context": "tamaño del efecto ATF4 mutante vs WT (efecto enorme — cero solapamiento entre las 3 réplicas)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "characterize",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "investigate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reverse",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (pero notar: experimentos de rescate NO en este dataset)"
+    }
+  ],
+  "narrative_hooks": [
+    "Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo",
+    "ATF4 se traduce 53% más en el cerebro mutante — la firma del ISR encendido",
+    "Las 3 réplicas no se solapan: el efecto es robusto, no estadística forzada",
+    "Solo 1,6% de 10.908 genes cambian: el ISR es un escalpelo molecular, no un mazo"
+  ],
+  "limitations": [
+    "n=3 réplicas biológicas por genotipo — limita potencia estadística para efectos modestos",
+    "RPKM normalizado por biblioteca: la represión traduccional global del ISR no se ve (requiere spike-ins, no disponibles)",
+    "El paper original (Reineke 2026, Science) está bajo paywall — los valores provienen del dataset primario, no de las figuras del paper",
+    "GSE310398 cubre solo la firma molecular del mutante. Los experimentos de rescate con DP71L (tema central del paper) NO están en este dataset"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes/partial verificados + 6 números clave — script denso"
+  },
+  "notebook_slug": "2026-04-06-viral-dp71l-reverso-deterioro-cognitivo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook.html",
+  "generated_at": "2026-04-22T17:34:45.835652Z"
+}

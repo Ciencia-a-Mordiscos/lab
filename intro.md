@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo
+
+**Neurociencia** · Science · Reineke et al. (2026) muestran que una variante humana del gen **PPP1R15B (R658C)** mantiene encendida una respuesta de estrés celular llamada **ISR** — y eso solo basta para deteriorar la memoria. La proteína viral **DP71L** la apaga y revierte los déficits cognitivos en ratones con Down, Alzheimer y envejecimiento. Este notebook usa el dataset público **GSE310398** para verificar la firma molecular: **ATF4 sube su eficiencia traduccional 53% en el cerebro mutante** (p ≈ 0,005, Cohen's d ≈ 5), **CHOP +41%**, y solo **1,6% de los 10.908 genes expresados** cambian — el ISR es un escalpelo molecular, no un mazo.
+
+[Ver notebook](papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook) · [Leer más](papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook.ipynb)
+
+---
+
 ### Un satélite ve temperatura. ¿Puede ver las corrientes del océano?
 
 **Ecología** · Nature Geoscience · Lenain et al. (2026) introducen **GOFLOW**, una red neuronal U-Net que recibe tres imágenes térmicas consecutivas de satélite geostacionario (GOES-East, 1 hora de separación) y devuelve el campo de velocidad superficial del océano. Validada contra la simulación de referencia LLC4320 en **41 snapshots del Gulf Stream**, alcanza correlación **r ≈ 0,97** para velocidades (u, v) y preserva la asimetría positiva de la vorticidad — el hallmark del régimen submesoscale. La divergencia, en cambio, es la variable más difícil: los autores lo admiten ("somewhat less accurately reproduced") y aquí se ve explícito en los datos.
