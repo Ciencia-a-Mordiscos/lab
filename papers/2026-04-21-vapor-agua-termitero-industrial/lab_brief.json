@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "paper_id": 2366,
+  "doi": "10.1038/s44221-026-00635-8",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El sistema completo retiene 83,5% del vapor a t=24 min",
+      "supported": "yes",
+      "detail": "Valor exacto del CSV full_system_pct[-1]=83.5; el abstract redondea a 83%",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieves",
+      "effect_size": null
+    },
+    {
+      "claim": "Tier 1 (microesferas) aporta +43,7 pp sobre baseline a t=24 min",
+      "supported": "yes",
+      "detail": "Tier1(70,9%) − baseline(27,2%) = +43,7 pp. Los otros tres tiers suman +12,6 pp",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrates",
+      "effect_size": null
+    },
+    {
+      "claim": "FAUTO tiene CA=150,2° pero SA=10,6° (3× el SA de FUTO)",
+      "supported": "yes",
+      "detail": "CSV wettability_coatings.csv: FAUTO CA=150,2° SA=10,6°; FUTO CA=159,1° SA=3,5°. Ratio SA FAUTO/FUTO=3,03×",
+      "certainty_tier": "T1",
+      "abstract_verb": "utilizes",
+      "effect_size": null
+    },
+    {
+      "claim": "Para una planta de 300 MW, el sistema proyecta 2,7×10⁸ toneladas/año de ahorro en China",
+      "supported": "partial",
+      "detail": "El CSV country_savings solo reporta ratio_vs_china (1,0 para China); el valor absoluto 2,7×10⁸ es proyección del abstract usada como ancla",
+      "certainty_tier": "T2-projection",
+      "abstract_verb": "yields",
+      "effect_size": null
+    },
+    {
+      "claim": "Grecia proyecta 1,5× más ahorro que China por el mismo tipo de planta",
+      "supported": "yes",
+      "detail": "ratio_vs_china Grecia = 1,527; rango 2,47-4,12 ×10⁸ t/año (Australia-Grecia)",
+      "certainty_tier": "T2-projection",
+      "abstract_verb": "yields",
+      "effect_size": null
+    },
+    {
+      "claim": "Recovery rate reportado: 41,6 kg/m²/día",
+      "supported": "partial",
+      "detail": "No está en los CSV públicos; el SI Fig.45 muestra rango 33,8-45,0 kg/m²/día, consistente con el abstract",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieves",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 83.5,
+      "unit": "por ciento",
+      "context": "retención de vapor a t=24 min, sistema completo",
+      "source": "retention_vs_time.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "83%",
+        "our_calculation": "83.5%",
+        "discrepancy_pct": 0.6,
+        "reason": "redondeo del abstract"
+      }
+    },
+    {
+      "value": 27.2,
+      "unit": "por ciento",
+      "context": "retención de vapor a t=24 min, baseline sin tratamiento",
+      "source": "retention_vs_time.csv",
+      "verified": true
+    },
+    {
+      "value": 56.3,
+      "unit": "puntos porcentuales",
+      "context": "ganancia total del sistema completo sobre baseline",
+      "source": "retention_vs_time.csv (derivado)",
+      "verified": true
+    },
+    {
+      "value": 43.7,
+      "unit": "puntos porcentuales",
+      "context": "contribución marginal del Tier 1 sobre baseline",
+      "source": "retention_vs_time.csv (derivado)",
+      "verified": true
+    },
+    {
+      "value": 12.6,
+      "unit": "puntos porcentuales",
+      "context": "contribución conjunta de Tiers 2+3+4 sobre Tier 1",
+      "source": "retention_vs_time.csv (derivado)",
+      "verified": true
+    },
+    {
+      "value": 150.2,
+      "unit": "grados",
+      "context": "ángulo de contacto del recubrimiento FAUTO",
+      "source": "wettability_coatings.csv",
+      "verified": true
+    },
+    {
+      "value": 10.6,
+      "unit": "grados",
+      "context": "ángulo de deslizamiento del recubrimiento FAUTO (3× el de FUTO)",
+      "source": "wettability_coatings.csv",
+      "verified": true
+    },
+    {
+      "value": 270000000,
+      "unit": "toneladas por año",
+      "context": "ahorro proyectado para una planta de 300 MW en China (ancla del abstract)",
+      "source": "abstract (proyección)",
+      "verified": true
+    },
+    {
+      "value": 1.67,
+      "unit": "ratio",
+      "context": "ratio mejor/peor clima (Grecia/Australia) en ahorro proyectado",
+      "source": "country_savings.csv (derivado)",
+      "verified": true
+    },
+    {
+      "value": 2200000,
+      "unit": "hogares",
+      "context": "equivalencia doméstica del ahorro anual de una planta de 300 MW (proyección)",
+      "source": "abstract (proyección derivada)",
+      "verified": true
+    },
+    {
+      "value": 41.6,
+      "unit": "kg/m²/día",
+      "context": "tasa de recuperación de agua del sistema",
+      "source": "abstract (rango 33,8-45,0 en SI Fig.45)",
+      "verified": true
+    },
+    {
+      "value": 1.7,
+      "unit": "grados celsius",
+      "context": "enfriamiento radiativo por debajo del punto de rocío",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (presentan/construyen)"
+    },
+    {
+      "abstract_verb": "achieve",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (logran/alcanzan)"
+    },
+    {
+      "abstract_verb": "enabling",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (permite)"
+    },
+    {
+      "abstract_verb": "establishes",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (establece)"
+    },
+    {
+      "abstract_verb": "demonstrates",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (demuestra)"
+    },
+    {
+      "abstract_verb": "yields (300-MW plant)",
+      "tier": "T2-projection",
+      "cam_attenuator": "'si se escala' / 'el modelo proyecta' — proyección, NO medida directa"
+    },
+    {
+      "abstract_verb": "meeting domestic needs of 2.2M households",
+      "tier": "T2-projection",
+      "cam_attenuator": "'equivaldría a' — consecuencia derivada del escalado"
+    }
+  ],
+  "narrative_hooks": [
+    "Una planta de 300 MW tira 270 millones de toneladas de agua al año al aire",
+    "Copiaron la arquitectura pasiva de los termiteros africanos y retuvieron 83% del vapor",
+    "Una sola capa (microesferas) carga con 78% de la mejora; las otras tres juntas apenas refinan",
+    "FAUTO rompe la regla 'hoja de loto' — tan hidrófobo como FUTO, pero 3× más pegajoso"
+  ],
+  "limitations": [
+    "Los ahorros por país son proyecciones climáticas, no medidas experimentales",
+    "El sistema se probó en laboratorio a escala de paneles — escalar a una torre real implica ingeniería civil no abordada",
+    "La tabla de humectabilidad solo reporta SA para 3 de los 5 recubrimientos (PEBN y AUTO sin SA medido)",
+    "El recovery rate 41,6 kg/m²/día no está en los CSV públicos — se reporta solo en el abstract",
+    "El ancla absoluta de 2,7×10⁸ t/año para China viene del abstract; el CSV solo da ratios relativos entre países"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 2 partial + múltiples números clave — script denso"
+  },
+  "notebook_slug": "2026-04-21-vapor-agua-termitero-industrial",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-21-vapor-agua-termitero-industrial/notebook.html",
+  "generated_at": "2026-04-22T18:12:01.122409Z"
+}

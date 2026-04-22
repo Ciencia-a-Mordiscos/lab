@@ -306,6 +306,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-21-vapor-agua-termitero-industrial/README
+    title: "Un termitero inspira cómo recuperar 83% del vapor industrial"
+    sections:
+    - file: papers/2026-04-21-vapor-agua-termitero-industrial/notebook
+      title: Notebook
   - file: papers/2026-04-17-pixelated-quantum-dot-superlattice-leds/README
     title: "LEDs de superretículas de quantum dots pixeladas"
     sections:

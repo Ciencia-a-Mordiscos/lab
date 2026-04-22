@@ -1,0 +1,28 @@
+titulo: "Un termitero inspira cómo recuperar 83% del vapor industrial"
+fecha: 2026-04-21
+categoria: tecnologia
+tags: [ingenieria, biomimetica, agua, torres-enfriamiento, materiales]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00635-8"
+    titulo: "A bioinspired hierarchical architecture for the high-yield recovery of industrial water vapour"
+    journal: "Nature Water"
+    autores: "Zhang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "retention_vs_time.csv"
+    descripcion: "Retención de vapor vs tiempo (0-24 min) para 5 sistemas: baseline, tier1, tier1+2, tier1+2+3, sistema completo"
+    fuente: "Supplementary Information (Fig. 5g, Source Data MOESM6)"
+  - nombre: "wettability_coatings.csv"
+    descripcion: "Ángulos de contacto y deslizamiento de 5 recubrimientos"
+    fuente: "Supplementary Table 4 (MOESM1 PDF, p.62)"
+  - nombre: "country_savings.csv"
+    descripcion: "Ratio de ahorro de agua para 14 países con generación térmica significativa"
+    fuente: "Supplementary Fig. 5l (Source Data MOESM6)"
+  - nombre: "thermal_conductivity.csv"
+    descripcion: "Conductividad térmica de 5 muestras a 7 temperaturas (273-333 K)"
+    fuente: "Supplementary Information (MOESM data)"
+estado: publicado
