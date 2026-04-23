@@ -179,6 +179,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2025-11-05-nextbrain-atlas-333-regiones/README
+    title: "333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro"
+    sections:
+    - file: papers/2025-11-05-nextbrain-atlas-333-regiones/notebook
+      title: Notebook
   - file: papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/README
     title: "Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo"
     sections:

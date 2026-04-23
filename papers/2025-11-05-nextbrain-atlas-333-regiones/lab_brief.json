@@ -1,0 +1,265 @@
+{
+  "version": "1.0",
+  "paper_id": 556,
+  "doi": "10.1038/s41586-025-09708-2",
+  "paper_type": "computational",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El error de registro 3D baja un 31% (de 1,44 a 0,99 mm de media) usando NextBrain frente al pipeline anterior",
+      "supported": "yes",
+      "detail": "Tabla 1 del paper, n=5 hemisferios. Cohen's d pareado = 2,51 (descriptivo, n=5 medias-por-caso). Test inferencial del paper: Wilcoxon pareado sobre 250 puntos individuales, p = 4 × 10⁻²².",
+      "certainty_tier": "T1",
+      "abstract_verb": "developed",
+      "effect_size": {
+        "measure": "cohen_d_paired",
+        "value": 2.51,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los 5 hemisferios mejoran consistentemente con NextBrain (5 de 5 casos)",
+      "supported": "yes",
+      "detail": "Reducción mínima 10,6% (Caso 1), máxima 43,3% (Caso 3). Ningún hemisferio empeora. Calculado directamente sobre Tabla 1.",
+      "certainty_tier": "T1",
+      "abstract_verb": "developed",
+      "effect_size": {
+        "measure": "consistency_ratio",
+        "value": 1.0,
+        "interpretation": "5/5"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "NextBrain clasifica Alzheimer vs control mejor que FreeSurfer y Allen MNI en ADNI (n=383)",
+      "supported": "partial",
+      "detail": "AUROC 0,953 (NextBrain) vs 0,929 (Allen) vs 0,911 (FreeSurfer). DeLong NextBrain vs Allen p=0,01. NO es diagnóstico — AUROC mide capacidad de ranking; accuracy binaria 90,3% (~10% de error).",
+      "certainty_tier": "T1",
+      "abstract_verb": "showcase",
+      "effect_size": {
+        "measure": "auroc_delta",
+        "value": 0.024,
+        "interpretation": "modesto pero significativo (DeLong p=0,01)"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El Dice mediana cae al pasar de 200 µm a 1 mm (de 0,667 a 0,590)",
+      "supported": "yes",
+      "detail": "Caída absoluta de 0,077 (11,5% relativo). Esperable: a baja resolución regiones pequeñas se vuelven indistinguibles.",
+      "certainty_tier": "T1",
+      "abstract_verb": "showcase",
+      "effect_size": {
+        "measure": "dice_drop",
+        "value": 0.077,
+        "interpretation": "moderada"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El atlas tiene 333 ROIs (264 en versión simplificada), construido a partir de 5 hemisferios y ~10.000 secciones histológicas",
+      "supported": "yes",
+      "detail": "Reportado en abstract y métodos. Anotación manual.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 333,
+      "unit": "regiones",
+      "context": "ROIs delineadas en NextBrain",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 264,
+      "unit": "regiones",
+      "context": "ROIs en versión simplificada",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "hemisferios",
+      "context": "muestra de validación geométrica",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 10000,
+      "unit": "secciones histológicas",
+      "context": "total a través de los 5 hemisferios",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 250,
+      "unit": "landmarks",
+      "context": "puntos anatómicos para test pareado de Wilcoxon (50 por caso × 5 casos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.44,
+      "unit": "mm",
+      "context": "error de registro pipeline anterior (media)",
+      "source": "tabla1",
+      "verified": true
+    },
+    {
+      "value": 0.99,
+      "unit": "mm",
+      "context": "error de registro NextBrain (media)",
+      "source": "tabla1",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0,99",
+        "our_calculation": "0,986",
+        "discrepancy_pct": 0.4,
+        "reason": "redondeo a 2 decimales"
+      }
+    },
+    {
+      "value": 31.25,
+      "unit": "por ciento",
+      "context": "reducción media de error de registro",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "31% (Tabla 1)",
+        "our_calculation": "31,5%",
+        "discrepancy_pct": 1.6,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": "4 × 10⁻²²",
+      "unit": "p-value",
+      "context": "Wilcoxon pareado del paper sobre 250 puntos",
+      "source": "tabla1",
+      "verified": true
+    },
+    {
+      "value": 2.51,
+      "unit": "cohen d pareado",
+      "context": "calculado sobre 5 medias-por-caso (descriptivo)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 0.667,
+      "unit": "dice mediana",
+      "context": "ex vivo a 200 µm",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 0.59,
+      "unit": "dice mediana",
+      "context": "in vivo a 1 mm",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 383,
+      "unit": "escáneres",
+      "context": "muestra ADNI total (168 AD + 215 control)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 0.953,
+      "unit": "AUROC",
+      "context": "NextBrain en ADNI AD vs control",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 0.929,
+      "unit": "AUROC",
+      "context": "Allen MNI en el mismo benchmark",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 0.911,
+      "unit": "AUROC",
+      "context": "FreeSurfer 7.0 en el mismo benchmark",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 90.3,
+      "unit": "por ciento",
+      "context": "accuracy binaria de NextBrain",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 4.9,
+      "unit": "puntos porcentuales",
+      "context": "mejora de accuracy NextBrain vs FreeSurfer",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.01,
+      "unit": "p-value DeLong",
+      "context": "NextBrain vs Allen MNI",
+      "source": "paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "developed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "created",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "showcase",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "holds promise",
+      "tier": "T2",
+      "cam_attenuator": "promete / podría"
+    }
+  ],
+  "narrative_hooks": [
+    "5 cerebros, 10.000 secciones, 333 regiones",
+    "El error baja 31% en los 5 hemisferios — sin un solo caso donde el método anterior gane",
+    "AUROC 0,953 distinguiendo Alzheimer de control — pero clasificar NO es diagnosticar"
+  ],
+  "limitations": [
+    "n = 5 hemisferios para la validación geométrica — limita la generalización a la diversidad anatómica humana",
+    "Datos crudos (~100 GB) en Figshare exceden el presupuesto del entorno reproducible; valores aquí provienen de Tabla 1 + texto del paper Open Access",
+    "ADNI evalúa 3 métodos sobre el mismo dataset — un test independiente requiere replicar en otra cohorte",
+    "Los hallazgos sobre envejecimiento aHCP que el paper menciona son correlaciones de Spearman, NO causales: NextBrain detecta diferencias volumétricas asociadas a edad/enfermedad, no las causa ni las cura",
+    "Cohen's d = 2,51 es descriptivo (n = 5 medias-por-caso); la inferencia estadística viene del Wilcoxon del paper sobre los 250 puntos individuales"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes — estándar"
+  },
+  "notebook_slug": "2025-11-05-nextbrain-atlas-333-regiones",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-11-05-nextbrain-atlas-333-regiones/notebook.html",
+  "generated_at": "2026-04-23T20:23:07.394688+00:00"
+}

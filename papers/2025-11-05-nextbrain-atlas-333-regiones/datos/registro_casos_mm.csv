@@ -1,0 +1,11 @@
+caso,metodo,error_mm_media,error_mm_sd,p_wilcoxon_caso
+Caso 1,nueva,1.27,0.59,0.00088
+Caso 1,previa,1.42,0.72,0.00088
+Caso 2,nueva,0.98,0.55,5.6e-05
+Caso 2,previa,1.49,0.65,5.6e-05
+Caso 3,nueva,0.8,0.32,2e-07
+Caso 3,previa,1.41,0.68,2e-07
+Caso 4,nueva,1.05,0.5,0.00015
+Caso 4,previa,1.49,0.7,0.00015
+Caso 5,nueva,0.83,0.57,6.2e-07
+Caso 5,previa,1.39,0.66,6.2e-07

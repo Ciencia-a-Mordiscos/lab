@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### 333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro
+
+**Neurociencia** · Nature · Iglesias et al. (2025) tomaron **5 hemisferios cerebrales completos**, los seccionaron en cerca de **10.000 láminas histológicas**, las alinearon en 3D con métodos de IA y delinearon manualmente **333 regiones de interés**. El error medio de registro 3D **baja un 31% (de 1,44 a 0,99 mm)** frente al pipeline anterior — y los 5 hemisferios mejoran a la vez, sin un solo caso donde el método previo gane. En la prueba clínica con 383 escáneres ADNI, **NextBrain clasifica Alzheimer vs control con AUROC 0,953 (acierto 90,3%)**, por encima de FreeSurfer (0,911) y Allen MNI (0,929). Pero atención: **AUROC no es diagnóstico** — es capacidad de ranking.
+
+[Ver notebook](papers/2025-11-05-nextbrain-atlas-333-regiones/notebook) · [Leer más](papers/2025-11-05-nextbrain-atlas-333-regiones/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-05-nextbrain-atlas-333-regiones/notebook.ipynb)
+
+---
+
 ### 128 Genomas Indígenas Americanos: Dos Pistas Inesperadas
 
 **Biología** · Nature · Castro e Silva et al. (2026) presentan el **mayor conjunto de genomas indígenas americanos secuenciados hasta hoy**: 128 individuos de 45 poblaciones, 8 países. Dos pistas inesperadas en los datos: **(1)** el aislamiento por distancia *global* (Spearman ρ = 0,50) es una **paradoja de Simpson** — dentro de Sudamérica la correlación cae a 0,15 y entre Norte y Sudamérica es *negativa* (ρ = −0,29); **(2)** la señal genética compartida con Papúa/Australia (*Ypykuéra*) aparece en muestras pre-colombinas de **~6.800 años** y está concentrada en unos pocos individuos antiguos.

@@ -1,0 +1,25 @@
+titulo: "333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro"
+fecha: 2025-11-05
+categoria: neurociencia
+tags: [atlas, neuroimagen, MRI, histologia, alzheimer, segmentacion, IA, validacion]
+formato: corto
+video_youtube: "https://youtube.com/shorts/N0jvqX4wV6o"
+fuentes:
+  - doi: "10.1038/s41586-025-09708-2"
+    titulo: "A probabilistic histological atlas of the human brain for MRI segmentation"
+    journal: Nature
+    autores: "Iglesias et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "registro_casos_mm.csv"
+    descripcion: "Error de registro 3D por caso (n=5 hemisferios) × método (NextBrain vs pipeline anterior). Media, SD y p-value Wilcoxon por caso."
+    fuente: "Tabla 1 del paper"
+  - nombre: "auroc_alzheimer.csv"
+    descripcion: "AUROC y accuracy de clasificación AD vs control en ADNI (n=383) para 3 métodos: FreeSurfer 7.0, Allen MNI, NextBrain."
+    fuente: "Texto del paper, sección Alzheimer's disease"
+  - nombre: "dice_mediana.csv"
+    descripcion: "Dice mediana a dos resoluciones (200 µm ex vivo y 1 mm in vivo)."
+    fuente: "Texto del paper, sección segmentation accuracy"
+estado: publicado

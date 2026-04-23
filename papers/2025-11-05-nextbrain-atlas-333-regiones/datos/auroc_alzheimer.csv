@@ -1,0 +1,4 @@
+metodo,auroc,accuracy_pct,nota
+FreeSurfer 7.0,0.911,85.4,baseline sin subregiones
+Allen MNI,0.929,86.9,histologico no probabilistico
+NextBrain,0.953,90.3,"probabilistico, 333 ROIs"
