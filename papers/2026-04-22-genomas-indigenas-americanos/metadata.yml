@@ -1,0 +1,28 @@
+titulo: "128 Genomas Indígenas Americanos: Dos Pistas Inesperadas"
+fecha: 2026-04-23
+categoria: biologia
+tags: [genomica, poblacion, america, roh, simpson, australasia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10406-w"
+    titulo: "The evolutionary history and unique genetic diversity of Indigenous Americans"
+    journal: Nature
+    autores: "Castro e Silva et al. (corresponding: Tábita Hünemeier)"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "tabla1_128_genomas.csv"
+    descripcion: "Metadatos de los 128 individuos nuevos (población, cluster, familia lingüística, país, coordenadas)"
+    fuente: "Supplementary MOESM3 del paper (Tabla 1)"
+  - nombre: "tabla4_roh_mundial.csv"
+    descripcion: "FROH por individuo para 3.710 genomas mundiales (1000G + indígenas)"
+    fuente: "Supplementary MOESM3 del paper (Tabla 4)"
+  - nombre: "tabla7_distancias.csv"
+    descripcion: "1.378 pares de poblaciones con distancia geográfica y genética (outgroup-f3)"
+    fuente: "Supplementary MOESM3 del paper (Tabla 7)"
+  - nombre: "tabla12_australasian_counts.csv"
+    descripcion: "Tests D con |Z|>3 por población (36 antiguas, 114 contemporáneas)"
+    fuente: "Supplementary MOESM3 del paper (Tabla 12)"
+estado: publicado

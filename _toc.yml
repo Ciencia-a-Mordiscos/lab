@@ -213,6 +213,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-04-22-genomas-indigenas-americanos/README
+    title: "128 Genomas Indígenas Americanos: Dos Pistas Inesperadas"
+    sections:
+    - file: papers/2026-04-22-genomas-indigenas-americanos/notebook
+      title: Notebook
   - file: papers/2025-10-30-prism-64-barcodes/README
     title: "64 canales de ARN en una sola imagen"
     sections:

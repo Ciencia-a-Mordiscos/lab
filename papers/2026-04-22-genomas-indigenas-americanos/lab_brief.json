@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "paper_id": 2379,
+  "doi": "10.1038/s41586-026-10406-w",
+  "paper_type": "research",
+  "study_design": "observacional",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "128 genomas nuevos de 45 poblaciones en 8 países de América Latina",
+      "supported": "yes",
+      "detail": "Tabla 1 lo confirma cuenta por cuenta: Argentina, Bolivia, Brazil, Colombia, Ecuador, Mexico, Paraguay, Peru",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": null
+    },
+    {
+      "claim": "Los pueblos indígenas americanos tienen FROH más alto que europeos (huella de cuellos de botella)",
+      "supported": "yes",
+      "detail": "Mediana 0,054 vs 0,044 (razón 1,23x). Cohen's d=0,64 (medio). Mann-Whitney (1-sided) p=1,2×10⁻³² con n=1.709. Mismo panel SNP y flujo",
+      "certainty_tier": "T1",
+      "abstract_verb": "show/reflecting",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.64,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "El aislamiento por distancia global (ρ=0,50) es una paradoja de Simpson — dentro de subregiones la correlación es débil o negativa",
+      "supported": "partial",
+      "detail": "Spearman global ρ=0,50 (n=1.378); dentro de Sudamérica ρ=0,15; entre Norte y Sudamérica ρ=−0,29. El patrón agregado emerge de combinar categorías, no de aislamiento por distancia real",
+      "certainty_tier": "T1",
+      "abstract_verb": "show evidence of at least three dispersals",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.497,
+        "interpretation": "medio (pero engañoso)"
+      }
+    },
+    {
+      "claim": "La señal australasiática aparece más fuerte en poblaciones antiguas que en contemporáneas, pero dominada por outliers",
+      "supported": "partial",
+      "detail": "Mediana antiguas 8,5 vs contemporáneas 5,5; Cohen's d=1,07 (grande) pero Mann-Whitney 2-sided p=0,34 (no significativo). 13 de 36 antiguas están por encima del máximo contemporáneo (36)",
+      "certainty_tier": "T2",
+      "abstract_verb": "identified",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.07,
+        "interpretation": "grande pero p no-significativo"
+      }
+    },
+    {
+      "claim": "La señal australasiática está presente en muestras pre-colombinas de ~6.800 años",
+      "supported": "yes",
+      "detail": "Argentina_LagunaChica_6800BP aparece con 81 tests Z>3, consistente con que la huella es antigua, no post-colonial",
+      "certainty_tier": "T1",
+      "abstract_verb": "detected ... maintained by selection for more than 10,000 years",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 128,
+      "unit": "genomas",
+      "context": "genomas indígenas nuevos de alta cobertura",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 45,
+      "unit": "poblaciones",
+      "context": "pueblos indígenas representados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 8,
+      "unit": "países",
+      "context": "cobertura geográfica",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 1.23,
+      "unit": "veces",
+      "context": "razón de mediana FROH indígena vs europea",
+      "source": "calculated",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~1.2x",
+        "our_calculation": "1.226",
+        "discrepancy_pct": 2.2,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 0.64,
+      "unit": "Cohen's d",
+      "context": "efecto medio FROH indígena vs europea",
+      "source": "calculated",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.497,
+      "unit": "Spearman ρ",
+      "context": "correlación global distancia-genética (n=1378)",
+      "source": "calculated",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~0.50",
+        "our_calculation": "0.497",
+        "discrepancy_pct": 0.6,
+        "reason": "match"
+      }
+    },
+    {
+      "value": -0.286,
+      "unit": "Spearman ρ",
+      "context": "correlación NA-SA negativa (n=322)",
+      "source": "calculated",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 81,
+      "unit": "tests Z>3",
+      "context": "señal australasiática en Argentina_LagunaChica_6800BP",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show evidence",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, evitar causales (observacional)"
+    },
+    {
+      "abstract_verb": "identified",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "detected",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reflecting",
+      "tier": "T2",
+      "cam_attenuator": "con atenuador — 'consistente con', 'refleja'"
+    },
+    {
+      "abstract_verb": "appears to have been maintained",
+      "tier": "T2",
+      "cam_attenuator": "con hedge claro — 'parece haberse mantenido'"
+    }
+  ],
+  "narrative_hooks": [
+    "128 genomas. Dos pistas inesperadas.",
+    "El aislamiento por distancia que no existía: una paradoja de Simpson en los genomas americanos.",
+    "Muestras de 6.800 años todavía llevan la huella australasiática — la ancestría Y es pre-colombina."
+  ],
+  "limitations": [
+    "Datos agregados publicados; los genomas individuales están en EGA bajo acceso controlado (EGAD50000002396)",
+    "Estimaciones de FROH sensibles a coverage y filtrado, aunque los autores usaron el mismo flujo para todos",
+    "Comparación antiguas vs contemporáneas en señal australasiática tiene n asimétricos (36 vs 114) y varianza desigual — por eso p=0,34 pese a d=1,07",
+    "El modelo de 3+ dispersiones viene de qpAdm en el paper (no replicable con los agregados disponibles)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 2 partial — estándar con matices"
+  },
+  "notebook_slug": "2026-04-22-genomas-indigenas-americanos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-22-genomas-indigenas-americanos/notebook.html",
+  "generated_at": "2026-04-23T17:21:02.062493+00:00"
+}
