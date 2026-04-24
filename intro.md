@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Ultrasonido tomográfico del corte completo del cuerpo
+
+**Medicina** · Nature Biomedical Engineering · Yang et al. (2026) construyen un aro de **60 cm con 512 receptores** y un transmisor que gira. El sujeto se sienta con el torso en un tanque de agua, y el sistema genera una imagen del corte transversal completo — como una TAC, pero con ultrasonido y sin radiación. Lo validan en cadena: líquido conocido (5 mezclas etanol-agua, error promedio 0,52%), fantasma de grasa sintética (sobreestima ~3%), y humanos contra MRI 3T (**Pearson r = 0,987, diferencia máxima 3 mm en n=6 líneas**). Y algo incómodo: un caliper de consulta subestima la grasa **40,6%** en un voluntario promedio — pellizcar comprime 1,3 cm de tejido que la imagen sí ve.
+
+[Ver notebook](papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook) · [Leer más](papers/2026-04-24-ultrasonido-tomografia-corte-completo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook.ipynb)
+
+---
+
 ### Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa
 
 **Tecnología** · Nature · D'Ambrosio et al. (2026) construyeron **Ace**, un robot autónomo de Sony con dos brazos KUKA y un controlador entrenado con aprendizaje por refuerzo. En abril de 2025 lo enfrentaron bajo reglas oficiales ITTF a siete humanos — **cinco élite de club amateur y dos profesionales japoneses**. Contra los élite **ganó 3 de 5 partidos (7/13 sets)**. Contra los profesionales **perdió ambos (1/7 sets)**. Abrimos los **4.024 eventos** grabados (99 rallies, 1.953 golpes) y vemos la brecha: el techo operativo de Ace vive en **13,3 m/s** (su percentil 95); el **26% de los golpes humanos viven por encima** de ese umbral. Entre élite y pro hay un salto que los datos no esconden.

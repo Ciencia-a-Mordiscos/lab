@@ -1,0 +1,7 @@
+linea,ust_cm,mri_cm,diferencia_mm,plano
+L1,1.8,2.0,2,plano_a_8cm
+L2,1.0,1.0,0,plano_a_8cm
+L3,1.8,1.6,2,plano_a_11cm
+L4,3.6,3.4,2,plano_a_11cm
+L5,1.5,1.8,3,plano_a_14cm
+L6,4.7,5.0,3,plano_a_14cm

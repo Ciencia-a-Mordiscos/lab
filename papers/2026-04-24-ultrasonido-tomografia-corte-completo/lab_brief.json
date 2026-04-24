@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "paper_id": 2389,
+  "doi": "10.1038/s41551-026-01660-4",
+  "paper_type": "methods-technology",
+  "study_design": "validation-with-phantom-and-cross-modality-comparison",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Errores típicos de velocidad del sonido < 1% en etanol-agua",
+      "supported": "yes",
+      "detail": "4 de 5 concentraciones bajo 1% en ambos métodos. Media unmasked 0,52%, masked 0,85%. El paper enmarca como *typical errors of less than 1%*.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Error máximo 1,52% (unmasked) y 2,84% (masked) en etanol",
+      "supported": "yes",
+      "detail": "Coincidencia exacta con las tablas del Supplementary.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Fantasma de grasa sintética: sobreestimación ~3%",
+      "supported": "yes",
+      "detail": "Promedio +3,0% (delgado +5%, grueso +1%). Consistente con la física: velocidad en manteca (~1440 m/s) < agua (~1483 m/s).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "UST concuerda con MRI dentro de 3 mm de diferencia máxima (r=0,987, n=6)",
+      "supported": "yes",
+      "detail": "Diferencia máxima = 3 mm en 2 de 6 líneas. Pearson r=0,987 (R²=0,975, p=0,0002). Shapiro-Wilk no descarta normalidad. Bland-Altman del paper reporta LoA [-5,2, +3,9] mm — la r alta no captura esa dispersión.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Calipers de pellizco subestiman el grosor de grasa por compresión tisular",
+      "supported": "partial",
+      "detail": "En el voluntario de 27 años, caliper 1,9 cm vs UST 3,2 cm (subestimación 40,6%). Solo 2 sujetos — el patrón es plausible y físicamente coherente, pero no cuantificado poblacionalmente.",
+      "certainty_tier": "T2",
+      "abstract_verb": "enable",
+      "supported_by_data": true
+    },
+    {
+      "claim": "UST es herramienta práctica potencial para necesidades clínicas no cubiertas",
+      "supported": "partial",
+      "detail": "El abstract dice *potential practical tool* — no listo para clínica, requiere tanque de agua de 60 cm. La validación es prometedora; el despliegue clínico es pregunta abierta.",
+      "certainty_tier": "T2",
+      "abstract_verb": "potential",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 512,
+      "unit": "receptores",
+      "context": "elementos del aro circular de ultrasonido",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 60,
+      "unit": "cm",
+      "context": "diámetro del aro receptor (tanque de agua requerido, no portátil)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 0.52,
+      "unit": "por ciento",
+      "context": "error promedio absoluto UST unmasked en 5 mezclas etanol-agua",
+      "source": "supplementary_table_4",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "typical errors of less than 1%",
+        "our_calculation": "mean=0.52% (unmasked), mean=0.85% (masked)",
+        "discrepancy_pct": 0.0,
+        "reason": "consistent with 'typical <1%' claim"
+      }
+    },
+    {
+      "value": 2.84,
+      "unit": "por ciento",
+      "context": "error máximo absoluto UST masked (en 50% etanol, donde la velocidad del sonido cambia de régimen)",
+      "source": "supplementary_table_4",
+      "verified": true
+    },
+    {
+      "value": 3.0,
+      "unit": "por ciento",
+      "context": "sobreestimación promedio del fantasma de grasa (manteca sobre agar)",
+      "source": "supplementary_fig_15",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~3% overestimation expected",
+        "our_calculation": "(1.05-1.00)/1 + (2.02-2.00)/2 → mean 3.0%",
+        "discrepancy_pct": 0.0,
+        "reason": "exact match"
+      }
+    },
+    {
+      "value": 0.987,
+      "unit": "Pearson r",
+      "context": "correlación UST vs MRI 3T en 6 líneas de perfil de grasa abdominal (n=6)",
+      "source": "supplementary_fig_16",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Pearson r = 0.987",
+        "our_calculation": "r=0.9875, R²=0.9751, p=0.0002 (Shapiro-Wilk p=0.20 UST, p=0.28 MRI, no descarta normalidad)",
+        "discrepancy_pct": 0.05,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 3,
+      "unit": "mm",
+      "context": "diferencia máxima UST-MRI (paper's claim 'up to 3 mm')",
+      "source": "supplementary_fig_16",
+      "verified": true
+    },
+    {
+      "value": 40.6,
+      "unit": "por ciento",
+      "context": "subestimación del caliper de pellizco vs UST en voluntario 27M (1,9 cm vs 3,2 cm)",
+      "source": "supplementary_text_adipose_section",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "calipers measuring 1.9 cm compared to approximately 3.2 cm in the UST image",
+        "our_calculation": "(3.2-1.9)/3.2 = 40.625%",
+        "discrepancy_pct": 0.0,
+        "reason": "exact"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'los autores demuestran'"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'muestran fuerte acuerdo'"
+    },
+    {
+      "abstract_verb": "observe",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'observan'"
+    },
+    {
+      "abstract_verb": "enable",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'permite'"
+    },
+    {
+      "abstract_verb": "explore",
+      "tier": "T2",
+      "cam_attenuator": "exploratorio — 'exploran dos aplicaciones'"
+    },
+    {
+      "abstract_verb": "potential",
+      "tier": "T2",
+      "cam_attenuator": "descalador — 'herramienta potencial', NO 'listo para clínica'"
+    }
+  ],
+  "narrative_hooks": [
+    "1,9 cm con un caliper. 3,2 cm en la imagen. ¿Cuál le cree su médico?",
+    "El pellizco comprime 1,3 cm de grasa — el ultrasonido no.",
+    "Un aro de 60 cm con 512 receptores genera un corte transversal completo, como una TAC sin radiación.",
+    "Coincide con la resonancia dentro de 3 milímetros."
+  ],
+  "limitations": [
+    "Reproducimos las TABLAS de validación del Supplementary, no la reconstrucción de imagen (código propietario, 14 GB de sinogramas crudos).",
+    "n pequeños: 5 concentraciones etanol, 2 espesores fantasma, 6 líneas MRI, 2 voluntarios calipers.",
+    "La comparación UST-MRI es en el mismo sujeto con postura distinta (sentado vs supino) — parte de los 3 mm viene de eso.",
+    "El 40,6% de subestimación del caliper es un solo caso; el patrón es plausible pero no cuantificado poblacionalmente.",
+    "El sistema requiere un tanque de agua de 60 cm — no es portátil."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados como 'yes', 2 'partial'; 8 números clave; script estándar de 2 voces."
+  },
+  "notebook_slug": "2026-04-24-ultrasonido-tomografia-corte-completo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook.html",
+  "generated_at": "2026-04-24T17:49:06.095194Z"
+}

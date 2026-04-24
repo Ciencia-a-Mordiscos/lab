@@ -152,6 +152,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-04-24-ultrasonido-tomografia-corte-completo/README
+    title: "Ultrasonido tomográfico del corte completo del cuerpo"
+    sections:
+    - file: papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook
+      title: Notebook
   - file: papers/2026-04-15-transplante-mitocondrial-dirigido/README
     title: "Reparar una mitocondria enferma — célula por célula"
     sections:

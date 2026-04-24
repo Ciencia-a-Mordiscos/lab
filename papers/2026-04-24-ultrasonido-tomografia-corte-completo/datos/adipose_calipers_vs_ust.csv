@@ -1,0 +1,5 @@
+sujeto,edad,sexo,metodo,grosor_cm,incertidumbre_cm
+voluntaria_25f,25,F,caliper,1.30,NA
+voluntaria_25f,25,F,ust,1.59,0.06
+voluntario_27m,27,M,caliper,1.90,NA
+voluntario_27m,27,M,ust,3.20,NA

@@ -1,0 +1,34 @@
+titulo: "Ultrasonido tomográfico del corte completo del cuerpo"
+fecha: 2026-04-24
+categoria: medicina
+tags:
+  - ultrasonido
+  - tomografia
+  - imagen-medica
+  - validacion
+  - resonancia-magnetica
+  - grasa-subcutanea
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01660-4"
+    titulo: "Whole cross-sectional human ultrasound tomography"
+    journal: Nature Biomedical Engineering
+    autores: "Yang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ethanol_validacion.csv"
+    descripcion: "5 mezclas etanol-agua (5-60%), velocidad del sonido UST unmasked/masked vs referencia"
+    fuente: "Supplementary Information MOESM1 — Supp. Table 4"
+  - nombre: "adipose_fantasma.csv"
+    descripcion: "Fantasma de manteca sobre agar, 2 espesores con ground truth por cinta"
+    fuente: "Supplementary Information MOESM1 — Supp. Fig. 15"
+  - nombre: "adipose_ust_vs_mri.csv"
+    descripcion: "Grosor de grasa abdominal UST vs MRI 3T en 6 líneas de perfil, 3 planos"
+    fuente: "Supplementary Information MOESM1 — Supp. Fig. 16"
+  - nombre: "adipose_calipers_vs_ust.csv"
+    descripcion: "Caliper de pliegue vs UST en 2 voluntarios (25F, 27M)"
+    fuente: "Supplementary Information MOESM1 — sección Adipose thickness estimation"
+estado: publicado
