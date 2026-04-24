@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "66 modelos — LLMs analizados (12 familias, 70M a 47B parámetros)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "0.83 rho (Spearman) — Correlación cross-models entre alineación con humanos y desempeño global (n=66)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "0.98 rho (Spearman) — Correlación within-model (Llama-3-70B) entre alineación y accuracy a través de 8 niveles de demos in-context",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "0.49 rho (Spearman) — Correlación entre tamaño del modelo y alineación. Moderada — NO lineal",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "0.737 alineación — Llama-3 8B, máxima alineación del corpus. NO es el más grande",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "0.723 alineación — Mistral 8x7B (47 mil millones de parámetros), segundo más alineado",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "663 ratio (mayor:menor) — Rango de tamaños: 70M (Pythia) a 46,7B (Mistral)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "0.95 mediana del noise ceiling — Consistencia humana entre split-halves, mediana sobre 52 ejes (IQR 0,93–0,97)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "52 ejes semánticos — 9 dominios × 17 atributos, usados para medir alineación modelo-humano",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "Alineación con la estructura conceptual humana predice el desempeño global de un LLM",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c11",
+      "text": "Dentro de un mismo modelo, más demostraciones in-context convergen la representación y suben la precisión en paralelo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c12",
+      "text": "El tamaño del modelo NO determina la alineación con humanos",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c13",
+      "text": "Los humanos son muy consistentes entre sí al juzgar atributos conceptuales",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c14",
+      "text": "Las representaciones convergentes se alinean con patrones neuronales humanos (fMRI)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "contexto",
+      "certeza": "inferida"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Proceedings of the National Academy of Sciences",
+      "tipo": "paper",
+      "titulo": "Revealing emergent human-like conceptual representations from language prediction",
+      "url": "https://doi.org/10.1073/pnas.2512514122",
+      "fecha_publicacion": "2025-10-31",
+      "fecha_consulta": "2026-04-24",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Code and Data — Revealing emergent human-like conceptual representations from language prediction",
+      "url": "https://doi.org/10.5281/zenodo.17092983",
+      "fecha_publicacion": "2025-09-10",
+      "fecha_consulta": "2026-04-24",
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Revealing emergent human-like conceptual representations from language prediction](https://doi.org/10.1073/pnas.2512514122)  \n*Proceedings of the National Academy of Sciences, 2025-10-31*\n\n**Datos**: [Code and Data — Revealing emergent human-like conceptual representations from language prediction](https://doi.org/10.5281/zenodo.17092983)  \n*Zenodo, 2025-09-10*\n\n*14 afirmaciones verificadas contra estas fuentes*"
+  }
+}

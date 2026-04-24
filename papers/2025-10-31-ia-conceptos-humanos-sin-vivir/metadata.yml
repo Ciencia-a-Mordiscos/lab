@@ -1,0 +1,37 @@
+titulo: "¿Puede una IA entender el mundo sin haberlo vivido?"
+fecha: 2025-10-31
+categoria: tecnologia
+tags:
+  - ia
+  - llm
+  - cognicion
+  - representaciones
+  - benchmarks
+  - convergencia
+formato: corto
+video_youtube: "https://youtube.com/shorts/4ZfHcofzrLo"
+fuentes:
+  - doi: "10.1073/pnas.2512514122"
+    titulo: "Revealing emergent human-like conceptual representations from language prediction"
+    journal: "Proceedings of the National Academy of Sciences"
+    autores: "Xu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "modelos_alineacion.csv"
+    descripcion: "66 LLMs con alineación, exact match, 8 benchmarks y desempeño global"
+    fuente: "Zenodo 17092983"
+  - nombre: "convergencia_demos_llama3_70b.csv"
+    descripcion: "Convergencia in-context de Llama-3-70B en 8 puntos (1 a 96 demostraciones)"
+    fuente: "Zenodo 17092983"
+  - nombre: "noise_ceiling_humano.csv"
+    descripcion: "Consistencia split-half humana en 52 ejes semánticos"
+    fuente: "Zenodo 17092983"
+  - nombre: "spose_dimensiones.csv"
+    descripcion: "66 dimensiones SPoSE del dataset THINGS (Hebart et al. 2020)"
+    fuente: "Zenodo 17092983"
+  - nombre: "probing_escala.csv"
+    descripcion: "Accuracy de 36 LLMs en probing a 24 demostraciones"
+    fuente: "Zenodo 17092983"
+estado: publicado

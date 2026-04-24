@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "paper_id": 592,
+  "doi": "10.1073/pnas.2512514122",
+  "paper_type": "experimental_computacional",
+  "study_design": "computacional_comparativo",
+  "species": "human (behavioral + neural) + LLM",
+  "verification_table": [
+    {
+      "claim": "Alineación con la estructura conceptual humana predice el desempeño global de un LLM",
+      "supported": "yes",
+      "detail": "Spearman ρ = 0,83, n = 66 modelos, p << 0,001. Cross-models.",
+      "certainty_tier": "T1",
+      "abstract_verb": "predict",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.83,
+        "interpretation": "alta"
+      }
+    },
+    {
+      "claim": "Dentro de un mismo modelo, más demostraciones in-context convergen la representación y suben la precisión en paralelo",
+      "supported": "yes",
+      "detail": "Spearman ρ = 0,98 entre alineación y accuracy de Llama-3-70B a través de 1, 3, 6, 12, 24, 48, 72, 96 demostraciones (n = 8, p < 0,001). Within-model.",
+      "certainty_tier": "T1",
+      "abstract_verb": "converge",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.98,
+        "interpretation": "muy alta"
+      }
+    },
+    {
+      "claim": "El tamaño del modelo NO determina la alineación con humanos",
+      "supported": "yes",
+      "detail": "El modelo más alineado (Llama-3 8B, alineación 0,737) no es el más grande (Mistral 8x7B = 47B params, alineación 0,723). Correlación tamaño↔alineación solo ρ = 0,49.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.49,
+        "interpretation": "moderada"
+      }
+    },
+    {
+      "claim": "Los humanos son muy consistentes entre sí al juzgar atributos conceptuales",
+      "supported": "yes",
+      "detail": "Mediana del noise ceiling = 0,95 sobre 52 ejes (IQR 0,93–0,97). Máximo: animales/tamaño (0,99). Mínimo: nombres/inteligencia (0,78).",
+      "certainty_tier": "T1",
+      "abstract_verb": "capture",
+      "effect_size": {
+        "measure": "median_noise_ceiling",
+        "value": 0.95,
+        "interpretation": "alta consistencia"
+      }
+    },
+    {
+      "claim": "Las representaciones convergentes se alinean con patrones neuronales humanos (fMRI)",
+      "supported": "partial",
+      "detail": "El paper lo presenta como 'aportan evidencia consistente con' patrones neuronales. Este notebook NO reproduce ese componente — requiere datos fMRI no descargados. T2 en el abstract ('providing evidence for').",
+      "certainty_tier": "T2",
+      "abstract_verb": "providing evidence for",
+      "effect_size": {
+        "measure": "no_reproducido",
+        "value": null,
+        "interpretation": "claim externo, no verificado aquí"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 66,
+      "unit": "modelos",
+      "context": "LLMs analizados (12 familias, 70M a 47B parámetros)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.83,
+      "unit": "rho (Spearman)",
+      "context": "Correlación cross-models entre alineación con humanos y desempeño global (n=66)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "reliably predicts",
+        "our_calculation": "ρ=0,83",
+        "discrepancy_pct": 0,
+        "reason": "el paper usa lenguaje cualitativo; ρ=0,83 es cuantificación directa"
+      }
+    },
+    {
+      "value": 0.98,
+      "unit": "rho (Spearman)",
+      "context": "Correlación within-model (Llama-3-70B) entre alineación y accuracy a través de 8 niveles de demos in-context",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.49,
+      "unit": "rho (Spearman)",
+      "context": "Correlación entre tamaño del modelo y alineación. Moderada — NO lineal",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.737,
+      "unit": "alineación",
+      "context": "Llama-3 8B, máxima alineación del corpus. NO es el más grande",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.723,
+      "unit": "alineación",
+      "context": "Mistral 8x7B (47 mil millones de parámetros), segundo más alineado",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 663,
+      "unit": "ratio (mayor:menor)",
+      "context": "Rango de tamaños: 70M (Pythia) a 46,7B (Mistral)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.95,
+      "unit": "mediana del noise ceiling",
+      "context": "Consistencia humana entre split-halves, mediana sobre 52 ejes (IQR 0,93–0,97)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 52,
+      "unit": "ejes semánticos",
+      "context": "9 dominios × 17 atributos, usados para medir alineación modelo-humano",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (hallazgo): 'encontraron que', 'descubrieron'"
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'establecen', 'demuestran'"
+    },
+    {
+      "abstract_verb": "derive",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'derivan', 'extraen'"
+    },
+    {
+      "abstract_verb": "predict",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'predice', 'anticipa'"
+    },
+    {
+      "abstract_verb": "capture",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'captura', 'reflejan'"
+    },
+    {
+      "abstract_verb": "align",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (correlato): 'se alinean con', 'coinciden con'"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "atenuado: 'los datos sugieren', 'todo apunta a' — usar para la frase final del abstract sobre LLMs como ventana"
+    },
+    {
+      "abstract_verb": "providing evidence for",
+      "tier": "T2",
+      "cam_attenuator": "atenuado: 'aportan evidencia consistente con', NO 'demuestran biológicamente'"
+    }
+  ],
+  "narrative_hooks": [
+    "El modelo más alineado con humanos no es el más grande — Llama-3 8B gana a Mistral de 47B.",
+    "La estructura conceptual predice el desempeño mejor que el tamaño.",
+    "La representación converge antes que la precisión: primero el modelo 'piensa' como humano, después acierta."
+  ],
+  "limitations": [
+    "Diseño computacional-comparativo: los modelos no se manipulan, se comparan tal como vienen entrenados. No podemos afirmar causalidad.",
+    "El notebook reproduce 2 de los 3 claims del paper (convergencia + predicción de performance). El claim neural/fMRI NO está aquí — requiere descargar datos de imagen cerebral adicionales.",
+    "Dos regímenes distintos conviven en los datos: cross-models (n=66) vs within-model Llama-3-70B (n=8 demos). Las magnitudes de ρ no son comparables directamente.",
+    "Spearman opera sobre rangos: ρ² NO se debe interpretar como 'varianza explicada' (esa interpretación es exclusiva de Pearson)."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados como 'yes' y 9 key_numbers — script estándar"
+  },
+  "notebook_slug": "2025-10-31-ia-conceptos-humanos-sin-vivir",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook.html",
+  "generated_at": "2026-04-24T20:21:05Z"
+}

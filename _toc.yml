@@ -326,6 +326,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/README
+    title: "¿Puede una IA entender el mundo sin haberlo vivido?"
+    sections:
+    - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook
+      title: Notebook
   - file: papers/2026-04-24-robot-tenis-mesa-elite/README
     title: "Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa"
     sections:
