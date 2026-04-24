@@ -1,0 +1,254 @@
+{
+  "version": "1.0",
+  "paper_id": 2382,
+  "doi": "10.1038/s41586-026-10338-5",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "robot_vs_human",
+  "verification_table": [
+    {
+      "claim": "Ace ganó 3 de 5 partidos contra jugadores élite bajo reglas oficiales ITTF",
+      "supported": "yes",
+      "detail": "7/13 sets ganados. Fuente: Results section del paper (Fig. 3a).",
+      "certainty_tier": "T1",
+      "abstract_verb": "won",
+      "effect_size": null
+    },
+    {
+      "claim": "Ace perdió los 2 partidos contra profesionales",
+      "supported": "yes",
+      "detail": "1/7 sets ganados. Fuente: Results section.",
+      "certainty_tier": "T1",
+      "abstract_verb": "lost",
+      "effect_size": null
+    },
+    {
+      "claim": "Humanos pegan más rápido que Ace en mediana (efecto medio)",
+      "supported": "yes",
+      "detail": "Mediana humana 9,1 m/s vs Ace 7,8 m/s. Mann-Whitney (one-sided greater) p = 6,4e-23. Cohen's d pooled = 0,587 (efecto medio).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.587,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "Humanos producen más spin que Ace (efecto medio)",
+      "supported": "yes",
+      "detail": "Mediana humana 289 rad/s vs Ace 248 rad/s. Fact Sheet: Mann-Whitney p = 2,0e-16. Cohen's d pooled = 0,531.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.531,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "Ace devuelve consistentemente golpes hasta ~14 m/s",
+      "supported": "yes",
+      "detail": "p95 de Ace = 13,3 m/s — coincide con el claim del paper (se declaran 14 m/s).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "El 26% de los golpes humanos viven por encima del techo operativo de Ace",
+      "supported": "partial",
+      "detail": "255 de 983 golpes humanos (25,9%) superan el p95 de Ace (13,3 m/s). 'Fuera de alcance' es atajo narrativo: el paper reporta tasa de retorno >75% hasta 14 m/s y caída clara arriba de 16 m/s — no significa fallo total arriba de 13,3.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3,
+      "unit": "partidos ganados de 5",
+      "context": "vs jugadores élite",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3/5",
+        "our_calculation": "3/5",
+        "discrepancy_pct": 0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 7,
+      "unit": "sets ganados de 13",
+      "context": "vs jugadores élite",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "7/13",
+        "our_calculation": "7/13",
+        "discrepancy_pct": 0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 0,
+      "unit": "partidos ganados de 2",
+      "context": "vs profesionales",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0/2",
+        "our_calculation": "0/2",
+        "discrepancy_pct": 0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 1,
+      "unit": "set ganado de 7",
+      "context": "vs profesionales",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1/7",
+        "our_calculation": "1/7",
+        "discrepancy_pct": 0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 4024,
+      "unit": "eventos",
+      "context": "dataset total (golpes+rebotes+redes, 99 rallies)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "4024",
+        "our_calculation": "1953+2020+51=4024",
+        "discrepancy_pct": 0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 1953,
+      "unit": "golpes registrados",
+      "context": "970 de Ace + 983 humanos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 9.1,
+      "unit": "m/s",
+      "context": "velocidad mediana golpe humano",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 7.8,
+      "unit": "m/s",
+      "context": "velocidad mediana golpe Ace",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 13.3,
+      "unit": "m/s",
+      "context": "p95 de velocidad de Ace (techo operativo)",
+      "source": "computed_in_notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "14 m/s consistently",
+        "our_calculation": "13.32 p95",
+        "discrepancy_pct": 4.9,
+        "reason": "paper redondea y reporta 'consistently'"
+      }
+    },
+    {
+      "value": 27.9,
+      "unit": "m/s",
+      "context": "golpe humano más rápido (~100 km/h)",
+      "source": "computed_in_notebook",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 25.9,
+      "unit": "por ciento",
+      "context": "golpes humanos por encima del p95 de Ace (255 de 983)",
+      "source": "computed_in_notebook",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.59,
+      "unit": "Cohen's d pooled",
+      "context": "efecto medio en velocidad humano vs Ace",
+      "source": "computed_in_notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "not reported in abstract",
+        "our_calculation": "0.587",
+        "discrepancy_pct": 0,
+        "reason": "nuestro cálculo"
+      }
+    },
+    {
+      "value": 7,
+      "unit": "humanos",
+      "context": "5 élite de club amateur + 2 profesionales japoneses (Minami Ando, Kakeru Sone)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we present (first autonomous system)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa ('es el primer robot...competitivo')"
+    },
+    {
+      "abstract_verb": "won (3/5 matches)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa ('ganó 3 de 5 partidos')"
+    },
+    {
+      "abstract_verb": "returns shots up to 14 m/s consistently",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa ('hasta 14 m/s')"
+    },
+    {
+      "abstract_verb": "notable drop above 16 m/s",
+      "tier": "T2",
+      "cam_attenuator": "con atenuador ('empieza a fallar arriba de 16')"
+    },
+    {
+      "abstract_verb": "achieves >75% return rate up to 450 rad/s spin",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con umbral específico"
+    }
+  ],
+  "narrative_hooks": [
+    "3 de cada 5 partidos contra jugadores élite. 0 contra profesionales. Lo dicen los datos: entre élite de club y pro japonés hay un salto que el robot no cruza.",
+    "Ace cubre el 74% del juego humano. El 26% restante — los golpes por encima de 13,3 m/s — siguen fuera de alcance.",
+    "El golpe humano más rápido llegó a 27,9 m/s — unos 100 km/h. El techo operativo de Ace vive a menos de la mitad.",
+    "El robot no pegó más fuerte que los humanos: pegó más consistente. Mediana 7,8 m/s vs 9,1 m/s — humanos ganan en media y en cola."
+  ],
+  "limitations": [
+    "Muestra pequeña: 5 élite + 2 profesionales. No se puede generalizar a 'todos los profesionales del mundo'.",
+    "El dataset registra estado de la pelota DESPUÉS del golpe, no el gesto del jugador (sin posición del cuerpo ni grip).",
+    "'Ganar un golpe' ≠ 'devolverlo'. El paper reporta tasa de retorno, no tasa de ganar punto.",
+    "Evaluación de un solo tramo de testing (abril 2025); no hay longitudinal."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados + 13 números clave + hallazgo con matiz (gana élite, pierde pros) que requiere articulación"
+  },
+  "notebook_slug": "2026-04-24-robot-tenis-mesa-elite",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-24-robot-tenis-mesa-elite/notebook.html",
+  "generated_at": "2026-04-24T17:20:57.886596Z"
+}

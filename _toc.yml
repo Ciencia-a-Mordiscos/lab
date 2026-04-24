@@ -321,6 +321,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-24-robot-tenis-mesa-elite/README
+    title: "Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa"
+    sections:
+    - file: papers/2026-04-24-robot-tenis-mesa-elite/notebook
+      title: Notebook
   - file: papers/2026-04-21-vapor-agua-termitero-industrial/README
     title: "Un termitero inspira cómo recuperar 83% del vapor industrial"
     sections:

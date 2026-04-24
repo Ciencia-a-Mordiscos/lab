@@ -1,0 +1,22 @@
+titulo: "Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa"
+fecha: 2026-04-24
+categoria: tecnologia
+tags: [robotica, ia, aprendizaje-por-refuerzo, tenis-de-mesa, sony]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10338-5"
+    titulo: "Outplaying elite table tennis players with an autonomous robot"
+    journal: Nature
+    autores: "D'Ambrosio et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "match_data.csv"
+    descripcion: "4.024 eventos (golpes, rebotes, redes) con posición/velocidad/spin 3D"
+    fuente: "GitHub SonyResearch/ace_public"
+  - nombre: "shots_clean.csv"
+    descripcion: "1.953 golpes pre-procesados (magnitudes de velocidad y spin) con metadata por jugador"
+    fuente: "Derivado de match_data.csv"
+estado: publicado
