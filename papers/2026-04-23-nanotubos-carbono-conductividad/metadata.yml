@@ -1,0 +1,34 @@
+titulo: "Nanotubos intercalados con AlCl₄⁻: una fibra de carbono al 41% del cobre"
+fecha: 2026-04-23
+categoria: tecnologia
+tags: [nanotubos, conductividad, materiales, intercalacion, dopaje, cables, dft, raman]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb0673"
+    titulo: "Intercalated carbon nanotube fibers with high specific electrical conductivity"
+    journal: Science
+    autores: "de Isidro-Gómez et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "conductividad_pristine_vs_intercalado.csv"
+    descripcion: "Conductividad pristine vs CNTIC (Tabla S5)"
+    fuente: "Supplementary Material del paper"
+  - nombre: "dft_charges.csv"
+    descripcion: "Cargas DFT atómicas en 4 unidades AlCl₄⁻ (Tabla S1)"
+    fuente: "Supplementary Material del paper"
+  - nombre: "raman_peak_shifts.csv"
+    descripcion: "Desplazamientos de picos Raman a 3 energías de laser (Tabla S3)"
+    fuente: "Supplementary Material del paper"
+  - nombre: "comparacion_intercalantes.csv"
+    descripcion: "Comparación con 10 intercalantes en literatura (Tabla S4)"
+    fuente: "Supplementary Material del paper"
+  - nombre: "cable_materials.csv"
+    descripcion: "Materiales para cables: Al, acero, fibra de carbono, CNTIC (Tabla S6)"
+    fuente: "Supplementary Material del paper"
+  - nombre: "comparacion_cables_18mm.csv"
+    descripcion: "Proyección cable CNTIC 18mm vs cables ACSR comerciales (Tabla S7)"
+    fuente: "Supplementary Material del paper"
+estado: publicado

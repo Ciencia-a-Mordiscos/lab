@@ -1,0 +1,11 @@
+intercalante,host,delta_G_cm_inv,EF_eV,charge_transfer_dft_e_per_intercalant,mass_fraction_pct,volumetric_fraction_pct,sigma_ratio_min,sigma_ratio_max,stoichiometry,method,reference
+AlCl4_CNTIC_this_work,DWCNT_lattice,18.1-27.3,-4.99,0.643,,8.6,6.6,17.4,C9·AlCl4,Vapor,this_work
+AlCl3,Graphite,12.6,,,21.2-27.0,13.8-17.6,,,C9Al·Cl6,Vapor,23
+FeCl3,FWCNTs,25,-5.22,,,,6.6,6.6,,Vapor,13
+Br3_Br2,DWCNT_lattice,6.2-8.1,-4.77,0.13,25.0-30.7,13.0-16.0,8.4,8.4,C7Br,Vapor,14
+I3,DWCNT_lattice,10,-5.5,0.38,,14.9,6,6,,Vapor,11
+HClSO3,DWCNT_lattice,8.1,-5.2,0.256,28.6,26.4,6.8,6.8,C24(HSO3·Cl),Vapor,15
+AlCl3_graphite_electrochem,Graphite,28,-5.17,0.256,,,,,,Electrochemical,22
+AlCl4_SWCNT_simulation,SWCNT,7,-4.59,0.835,,,,,,Simulation,24
+AlCl4_defective_MWCNT,Defective_MWCNT,20,-5.16,,,,,,,Electrochemical,27
+Li,FWCNTS,10,-3.89,,,,5,5,LiCx,Electrochemical,47

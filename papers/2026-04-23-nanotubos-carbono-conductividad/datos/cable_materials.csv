@@ -1,0 +1,5 @@
+material,role,density_kg_m3,strength_GPa,modulus_GPa,specific_strength_GPa_SG,specific_modulus_GPa_SG,electrical_conductivity_MS_m,specific_electrical_conductivity_S_m2_kg
+Al_1350-H19,ACSR_shell,2700,0.2,68,0.074,25.19,35.45,13130
+Steel,ACSR_core,7780,1.4,207,0.180,26.61,6.0,750
+CF_composite,ACCC_core,1600,2.55,150,1.59,93.75,0.036,22
+CNTIC_this_work,proposed_core,1409,1.37,51.87,0.975,36.81,24.44,17350

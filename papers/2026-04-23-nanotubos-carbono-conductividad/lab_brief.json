@@ -1,0 +1,245 @@
+{
+  "version": "1.0",
+  "paper_id": 2397,
+  "doi": "10.1126/science.aeb0673",
+  "paper_type": "experimental",
+  "study_design": "experimental_with_modeling_projection",
+  "species": "n/a (materials science)",
+  "verification_table": [
+    {
+      "claim": "El AlCl4- acepta ~0.65 electrones por anión (transferencia de carga DFT)",
+      "supported": "yes",
+      "detail": "DFT del paper: net charge mean = -0.650 |e| sobre n=4 unidades AlCl4- en el unit cell simulado. Coincide exactamente con el 0.65 reportado en el abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "accepting",
+      "effect_size": {
+        "measure": "delta_charge",
+        "value": 0.35,
+        "interpretation": "0.35 e- por encima del -1.000 estequiométrico — magnitud significativa para dopaje no covalente"
+      }
+    },
+    {
+      "claim": "La conductividad sube por un factor de ~17 con la intercalación",
+      "supported": "yes",
+      "detail": "Top 1 / pristine = 24.44 / 1.40 = 17.46x. Media CNTIC / pristine = 15.73 / 1.40 = 11.24x. El 'factor 17' del título usa la mejor muestra individual; la media es 11x.",
+      "certainty_tier": "T1",
+      "abstract_verb": "produces an increase",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 17.46,
+        "interpretation": "factor 17.5x sobre la fibra sin intercalar"
+      }
+    },
+    {
+      "claim": "La mejor muestra alcanza 41% de la conductividad del cobre",
+      "supported": "yes",
+      "detail": "24.44 MS/m / 58.7 MS/m = 41.6%. Coincide con el 41% reportado en el abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "is 41% of",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 0.416,
+        "interpretation": "41.6% del cobre puro 100% IACS"
+      }
+    },
+    {
+      "claim": "La conductividad específica del CNTIC supera a la del aluminio",
+      "supported": "yes",
+      "detail": "CNTIC: 17,350 S·m²/kg vs Al 1350-H19: 13,130 S·m²/kg = factor 1.32. Sigue por debajo del cobre (6,600 S·m²/kg superior — wait, cobre es 6,600 efectivamente menor que CNTIC). Punto: en cables aéreos donde el peso domina, CNTIC gana.",
+      "certainty_tier": "T1",
+      "abstract_verb": "is superior to",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1.32,
+        "interpretation": "1.32x sobre aluminio puro"
+      }
+    },
+    {
+      "claim": "El cable CNTIC propuesto pesa 60% menos y aguanta 5 veces más que un cable comercial Wolf",
+      "supported": "partial",
+      "detail": "Tabla S7: CNTIC 295 kg/km vs Wolf 726 kg/km = 40.6% del peso (59.4% reducción). Breaking load: 349 kN vs 69.2 kN = factor 5.04x. Coincide con el 'five times stronger and half the weight' del abstract. PERO el cable CNTIC es proyección a partir de la conductividad específica medida, NO un cable construido.",
+      "certainty_tier": "T2",
+      "abstract_verb": "are five times stronger",
+      "effect_size": {
+        "measure": "ratio_weight",
+        "value": 0.406,
+        "interpretation": "40.6% del peso del Wolf — cable proyectado, no construido"
+      }
+    },
+    {
+      "claim": "El cable retiene 80% de su conductividad protegido con cubierta polimérica",
+      "supported": "no",
+      "detail": "Reportado en el abstract pero NO aparece en las 6 tablas extraídas del Supplementary Material. No verificable desde los datos disponibles.",
+      "certainty_tier": "T2",
+      "abstract_verb": "retaining 80%",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 24.44,
+      "unit": "MS/m",
+      "context": "conductividad de la mejor muestra individual CNTIC",
+      "source": "tabla_S5",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "24.5 MS/m (abstract)",
+        "our_calculation": "24.44 MS/m (Tabla S5)",
+        "discrepancy_pct": 0.24,
+        "reason": "redondeo en el abstract"
+      }
+    },
+    {
+      "value": 1.4,
+      "unit": "MS/m",
+      "context": "conductividad de la fibra pristine sin intercalar (baseline)",
+      "source": "tabla_S5",
+      "verified": true
+    },
+    {
+      "value": 17.46,
+      "unit": "ratio",
+      "context": "factor de mejora top1/pristine",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no dado explícitamente",
+        "our_calculation": "24.44/1.40 = 17.46",
+        "discrepancy_pct": 0,
+        "reason": "narrativa del título 'multiplicó por 17'"
+      }
+    },
+    {
+      "value": 41.6,
+      "unit": "por ciento",
+      "context": "porcentaje del cobre puro alcanzado por la mejor muestra",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "41% (abstract)",
+        "our_calculation": "41.6%",
+        "discrepancy_pct": 1.5,
+        "reason": "redondeo + cobre puro 58.7 MS/m"
+      }
+    },
+    {
+      "value": 0.65,
+      "unit": "electrones por anión",
+      "context": "transferencia de carga del nanotubo al AlCl4- (DFT)",
+      "source": "tabla_S1_DFT",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.65 (abstract)",
+        "our_calculation": "0.650 (media de las 4 unidades)",
+        "discrepancy_pct": 0,
+        "reason": "coincidencia exacta"
+      }
+    },
+    {
+      "value": 17350,
+      "unit": "S·m²/kg",
+      "context": "conductividad específica del CNTIC",
+      "source": "tabla_S6",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "17,345 S·m²/kg (abstract)",
+        "our_calculation": "17,350 (Tabla S6)",
+        "discrepancy_pct": 0.03,
+        "reason": "redondeo a 5 cifras significativas"
+      }
+    },
+    {
+      "value": 1.32,
+      "unit": "ratio",
+      "context": "conductividad específica CNTIC vs aluminio",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 5.04,
+      "unit": "ratio",
+      "context": "carga de rotura cable CNTIC vs cable Wolf comercial",
+      "source": "tabla_S7",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "five times stronger (abstract)",
+        "our_calculation": "349 / 69.2 = 5.04x",
+        "discrepancy_pct": 0.8,
+        "reason": "coincide con 'five times stronger'"
+      }
+    },
+    {
+      "value": 59.4,
+      "unit": "por ciento",
+      "context": "reducción de peso del cable CNTIC propuesto vs Wolf",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "half the weight (abstract)",
+        "our_calculation": "59.4% menos",
+        "discrepancy_pct": 18,
+        "reason": "el abstract redondea a 'half'; el cálculo exacto da 59% reducción"
+      }
+    },
+    {
+      "value": 17,
+      "unit": "por ciento",
+      "context": "fracción volumétrica del intercalante AlCl4- en la fibra",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (datos del propio equipo, replicados con DFT + Raman + medición eléctrica)"
+    },
+    {
+      "abstract_verb": "produces an increase",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "is 41% of that of copper",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con cifra"
+    },
+    {
+      "abstract_verb": "is superior to that of metals",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, restringida a 'specific conductivity' (por kg)"
+    },
+    {
+      "abstract_verb": "are five times stronger",
+      "tier": "T2",
+      "cam_attenuator": "con atenuador del cable proyectado: 'el cable propuesto sería cinco veces más fuerte'"
+    },
+    {
+      "abstract_verb": "retaining 80% protected from moisture",
+      "tier": "T2",
+      "cam_attenuator": "con hedge: 'el equipo reporta que con cubierta polimérica retiene 80%'"
+    }
+  ],
+  "narrative_hooks": [
+    "1.4 → 24.5 MS/m. La misma fibra. ¿Qué cambió?",
+    "Un átomo de aluminio metido entre dos nanotubos multiplica la conductividad por 17",
+    "El AlCl4- pidió un electrón pero los nanotubos le dieron 1.65",
+    "41% del cobre con la mitad del peso — y se puede hacer en un horno"
+  ],
+  "limitations": [
+    "El 'top 1' (24.4 MS/m) representa el techo del mecanismo, no la media de fabricación. Para hablar de viabilidad industrial, la métrica honesta es la media (~16 MS/m).",
+    "El cable de 18 mm comparado con cables comerciales es una proyección a partir de la conductividad específica medida en fibras pequeñas, no un cable construido y testeado.",
+    "El método de partición de carga (Bader) tiene su propio modelo — Mulliken o Hirshfeld pueden dar diferencias del 10-20% en la cifra de 0.65 e-.",
+    "Estabilidad del dopaje reportada solo en condiciones secas. Sin cubierta polimérica, el AlCl4- se hidroliza con humedad atmosférica.",
+    "La cifra de '80% de conductividad retenida con polímero' no aparece en las tablas del Supplementary que extrajimos — solo en el abstract."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims supported='yes' + 2 'partial/no' + 10 key_numbers verificados. Densidad típica de un short estándar."
+  },
+  "notebook_slug": "2026-04-23-nanotubos-carbono-conductividad",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-23-nanotubos-carbono-conductividad/notebook.html",
+  "generated_at": "2026-04-25T17:53:36.628854Z"
+}

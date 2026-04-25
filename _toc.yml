@@ -331,6 +331,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-23-nanotubos-carbono-conductividad/README
+    title: "Nanotubos al 41% del cobre con la mitad del peso"
+    sections:
+    - file: papers/2026-04-23-nanotubos-carbono-conductividad/notebook
+      title: Notebook
   - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/README
     title: "¿Puede una IA entender el mundo sin haberlo vivido?"
     sections:
