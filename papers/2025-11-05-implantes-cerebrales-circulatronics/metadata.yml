@@ -1,0 +1,25 @@
+titulo: "Un implante cerebral sin cirugía: 5.8x más células donde hay inflamación"
+fecha: 2025-11-05
+categoria: neurociencia
+tags: [neurociencia, neuroingeniería, optogenética, biomateriales, ratones]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41587-025-02809-3"
+    titulo: "A nonsurgical brain implant enabled through a cell–electronics hybrid for focal neuromodulation"
+    journal: Nature Biotechnology
+    autores: "Yadav et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "biodistribucion_fig4f.csv"
+    descripcion: "Densidad de células en zona inflamada por condición experimental (n=4-5 por grupo)"
+    fuente: "Source Data MOESM3, sheet 'Fig. 4f'"
+  - nombre: "persistencia_fig5f.csv"
+    descripcion: "Densidad de SWEDs en zona inflamada en 4 timepoints hasta 6 meses (n=2-3 por timepoint)"
+    fuente: "Source Data MOESM3, sheet 'Fig. 5f'"
+  - nombre: "pv_power_fig2g.csv"
+    descripcion: "Potencia eléctrica generada por fotodiodos a 11 intensidades de luz NIR, con y sin cráneo de ratón"
+    fuente: "Source Data MOESM3, sheet 'Fig. 2g'"
+estado: publicado

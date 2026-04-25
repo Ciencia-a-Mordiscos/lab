@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Un implante cerebral sin cirugía: 5.8x más células donde hay inflamación
+
+**Neurociencia** · *Nature Biotechnology* · Yadav et al. (2025) diseñan un implante cerebral **sin cirugía**: macrófagos recubiertos con proteína conductora cargados con fotodiodos del tamaño de bacterias (SWEDs), inyectados en sangre y activados con luz infrarroja desde fuera del cráneo. Los datos del Source Data MOESM3 (Fig 4f, 5f, 2g) muestran que los híbridos con luz se concentran **5,76× más** que el control completo en la zona inflamada (315 vs 55 cells/mm²) — Cohen's d = 4,24, p = 0,029 (Mann-Whitney, n=4 vs n=4). Bootstrap de 10.000 re-muestreos: el 100% supera el umbral de "efecto grande". Los SWEDs persisten 6 meses sin decaimiento detectable (aunque n=2-3 limita el test formal: U=1, p=0,40 entre 1d y 6m). Y el cráneo de ratón apenas atenúa la luz NIR — solo **11,6% de pérdida** a 46 mW/mm². Prueba de concepto en ratones con inflamación inducida por LPS — distancia regulatoria significativa antes de aplicación clínica.
+
+[Ver notebook](papers/2025-11-05-implantes-cerebrales-circulatronics/notebook) · [Leer más](papers/2025-11-05-implantes-cerebrales-circulatronics/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-05-implantes-cerebrales-circulatronics/notebook.ipynb)
+
+---
+
 ### Nanotubos al 41% del cobre con la mitad del peso
 
 **Tecnología** · *Science* · de Isidro-Gómez et al. (2026) reportan fibras de nanotubos de carbono dobles intercaladas con aniones de tetracloroaluminato (AlCl₄⁻) en los huecos entre tubos. Los aniones aceptan **0,65 electrones por unidad** (DFT del paper, n=4 unidades en el unit cell — coincidencia exacta con el abstract), dejando huecos en el nanotubo exterior que aumentan los portadores de carga. Resultado: la conductividad pasa de **1,4 a 24,4 MS/m** en la mejor muestra individual — un factor 17,5× sobre la fibra pristine, y **41,6% del cobre puro**. La media del proceso ronda los 16 MS/m. Lo más relevante para aplicaciones: la conductividad específica (17.350 S·m²/kg) **supera a la del aluminio comercial (13.130) por factor 1,32**. Trabajamos con las 6 tablas del Supplementary del paper. ⚠️ El cable de 18 mm propuesto es proyección, no construido.

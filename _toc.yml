@@ -184,6 +184,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2025-11-05-implantes-cerebrales-circulatronics/README
+    title: "Implante cerebral sin cirugía: 5.8x más células donde hay inflamación"
+    sections:
+    - file: papers/2025-11-05-implantes-cerebrales-circulatronics/notebook
+      title: Notebook
   - file: papers/2025-11-05-nextbrain-atlas-333-regiones/README
     title: "333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro"
     sections:

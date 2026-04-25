@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "paper_id": 609,
+  "doi": "10.1038/s41587-025-02809-3",
+  "paper_type": "experimental",
+  "study_design": "experimental_in_vivo",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "Híbridos con luz se concentran ~5.8x más que el control completo en la zona inflamada del cerebro",
+      "supported": "yes",
+      "detail": "315 vs 55 cells/mm² (Fig 4f). Ratio = 5.76. n=4 vs n=4.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 5.76,
+        "interpretation": "alto"
+      }
+    },
+    {
+      "claim": "Cohen's d entre híbridos+luz y control completo = 4.24, Mann-Whitney p = 0.029",
+      "supported": "yes",
+      "detail": "Computed from Fig 4f. Bootstrap IC 95%: [3.09, 14.00], 100% de re-muestreos > 0.8.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.24,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "Densidad de SWEDs sin decaimiento detectable durante 6 meses en la zona inflamada",
+      "supported": "partial",
+      "detail": "749 (1d) → 947 (6m) SWEDs/mm² (ratio 1.26). Mann-Whitney 1d vs 6m: U=1, p=0.40, n=3 vs n=2 — el n no permite concluir estabilidad formal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1.26,
+        "interpretation": "estable"
+      }
+    },
+    {
+      "claim": "El cráneo de ratón apenas atenúa la luz NIR: 11.6% reducción a 46 mW/mm²",
+      "supported": "yes",
+      "detail": "0.545 → 0.482 nW (Fig 2g). 11 intensidades medidas con/sin cráneo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "designed",
+      "effect_size": {
+        "measure": "pct_reduction",
+        "value": 11.6,
+        "interpretation": "bajo"
+      }
+    },
+    {
+      "claim": "Estimulación con precisión de 30 µm alrededor de la región inflamada",
+      "supported": "yes",
+      "detail": "Reportado literalmente en el abstract. No recalculado en el notebook.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 5.76,
+      "unit": "veces",
+      "context": "razón híbridos+luz vs control completo en zona inflamada",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "5.8x (abstract phrasing)",
+        "our_calculation": "5.76",
+        "discrepancy_pct": 0.7,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 315.23,
+      "unit": "cells/mm²",
+      "context": "media híbridos con luz, zona inflamada",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 54.7,
+      "unit": "cells/mm²",
+      "context": "media control completo (células sin dispositivo, sin luz)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.24,
+      "unit": "cohen_d",
+      "context": "tamaño de efecto híbridos+luz vs control",
+      "source": "computed",
+      "verified": true
+    },
+    {
+      "value": 0.029,
+      "unit": "p_value",
+      "context": "Mann-Whitney U=16 two-sided, n=4 vs n=4",
+      "source": "computed",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "meses",
+      "context": "duración máxima medida de persistencia de SWEDs",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.6,
+      "unit": "por ciento",
+      "context": "reducción de potencia PV con cráneo de ratón a 46 mW/mm²",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 30,
+      "unit": "micrometros",
+      "context": "precisión espacial de la estimulación reportada en el abstract",
+      "source": "abstract_literal",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "designed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "built",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "5.8 veces más células en la zona inflamada del cerebro — sin cirugía, sin abrir el cráneo",
+    "Macrófagos cargados con fotodiodos del tamaño de bacterias: el cuerpo ya tiene los mensajeros",
+    "Seis meses después, los fotodiodos siguen ahí — y el cráneo apenas bloquea la luz que los enciende"
+  ],
+  "limitations": [
+    "Estudio en RATONES, no humanos — el cráneo humano es 5-10x más grueso y atenúa mucho más la luz NIR",
+    "n pequeño en biodistribución (n=4-5) y en persistencia (n=2-3 por timepoint)",
+    "Inflamación inducida con LPS — modelo experimental, no enfermedad real (Alzheimer/Parkinson/epilepsia)",
+    "Prueba de concepto — distancia regulatoria significativa antes de aplicación clínica",
+    "Persistencia 'estable' a 6 meses no está formalmente testeada (Mann-Whitney 1d vs 6m: p=0.40 con n=3 vs n=2)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims soportados, 8 números clave — densidad estándar"
+  },
+  "notebook_slug": "2025-11-05-implantes-cerebrales-circulatronics",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-11-05-implantes-cerebrales-circulatronics/notebook.html",
+  "generated_at": "2026-04-25T18:21:47.850531Z"
+}
