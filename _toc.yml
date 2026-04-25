@@ -223,6 +223,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-04-25-octopodos-gigantes-cretacico/README
+    title: "Pulpos gigantes del Cretácico: ¿quiénes eran?"
+    sections:
+    - file: papers/2026-04-25-octopodos-gigantes-cretacico/notebook
+      title: Notebook
   - file: papers/2026-04-22-genomas-indigenas-americanos/README
     title: "128 Genomas Indígenas Americanos: Dos Pistas Inesperadas"
     sections:

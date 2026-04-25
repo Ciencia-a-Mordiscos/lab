@@ -1,0 +1,22 @@
+titulo: "Pulpos gigantes del Cretácico: ¿quiénes eran?"
+fecha: 2026-04-25
+categoria: biologia
+tags: [paleontologia, cefalopodos, cretacico, octopoda, morfometria, cirrata, pcoa]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aea6285"
+    titulo: "Earliest octopuses were giant top predators in Cretaceous oceans"
+    journal: Science
+    autores: "Ikegami et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "morphospace_pcoa.csv"
+    descripcion: "Coordenadas PCoA (PC1, PC2) de 21 taxa sobre matriz Gower de 19 caracteres mandibulares"
+    fuente: "Figshare — doi.org/10.6084/m9.figshare.29561630 (CC BY 4.0)"
+  - nombre: "distancia_gower_a_fosiles.csv"
+    descripcion: "Distancia Gower de cada cefalópodo moderno a los 2 fósiles cretácicos"
+    fuente: "Figshare — doi.org/10.6084/m9.figshare.29561630 (CC BY 4.0)"
+estado: publicado

@@ -1,0 +1,147 @@
+{
+  "version": "1.0",
+  "paper_id": 2396,
+  "doi": "10.1126/science.aea6285",
+  "paper_type": "observational",
+  "study_design": "observacional_descriptivo",
+  "species": "cephalopoda_fossil",
+  "verification_table": [
+    {
+      "claim": "Los fósiles cretácicos caen dentro del rango morfológico de los cirrados modernos en el morphospace PCoA",
+      "supported": "yes",
+      "detail": "PC1 fósiles entre -0,144 y -0,116; rango cirrados modernos -0,162 a -0,046. Total varianza 2D: 81,1% (PC1=50,1% + PC2=30,9%). Mardia fit reportado por el paper: 0,921",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Los cirrados modernos están más cerca morfológicamente de los fósiles que los no-cirrados, sin solape entre grupos",
+      "supported": "yes",
+      "detail": "Mediana cirrada 0,129 vs no-cirrada 0,351 (ratio 2,72×). Mann-Whitney U=0, p=0,0003; Cohen's d=4,5 (efecto enorme). 9 de 9 cirrados están más cerca que cualquiera de los 10 no-cirrados (gap absoluto 0,046)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "cohen_d", "value": 4.5, "interpretation": "enorme"}
+    },
+    {
+      "claim": "Los fósiles representan los cirrados (Cirrata) más antiguos conocidos",
+      "supported": "partial",
+      "detail": "Los datos morfológicos apuntan en esa dirección, pero la asignación filogenética viene de un análisis cladístico aparte en el paper. Los CSVs muestran afinidad morfológica, no filogenia formal",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    },
+    {
+      "claim": "Los pulpos cretácicos medían entre 7 y 19 metros de longitud",
+      "supported": "partial",
+      "detail": "Dato del paper, derivado de medidas de mandíbula (Fig 4 del artículo). NO está en los CSVs descargados — los datos públicos analizan forma, no tamaño. Citar como dato del paper, no como cálculo propio",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    },
+    {
+      "claim": "Eran apex predators del Cretácico Tardío (100-72 Ma)",
+      "supported": "partial",
+      "detail": "Inferencia ecológica del paper basada en tamaño + morfología funcional. Los CSVs no tienen marcadores tróficos. La rareza de invertebrados como apex marinos en los últimos 370 Ma es contexto del paper",
+      "certainty_tier": "T3",
+      "abstract_verb": "propose",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 21,
+      "unit": "taxa",
+      "context": "Total de cefalópodos en el análisis: 19 modernos + 2 fósiles cretácicos",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 19,
+      "unit": "caracteres",
+      "context": "Caracteres morfológicos mandibulares medidos en cada taxon",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 81.1,
+      "unit": "por ciento",
+      "context": "Varianza explicada por las 2 primeras coordenadas PCoA (PC1=50,1% + PC2=30,9%)",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 4.5,
+      "unit": "Cohen's d",
+      "context": "Tamaño del efecto entre distancias Gower de cirrados vs no-cirrados a los fósiles. Efecto enorme",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no aplica — el paper reporta gap cualitativo y disparity bajo",
+        "our_calculation": "d=4,5 sobre n=9 cirrados vs n=10 no-cirrados",
+        "discrepancy_pct": 0,
+        "reason": "test no reportado en paper original; calculado desde CSV"
+      }
+    },
+    {
+      "value": 2.72,
+      "unit": "veces",
+      "context": "Razón entre mediana de distancias no-cirradas (0,351) y cirradas (0,129) a los fósiles",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 9,
+      "unit": "de 9",
+      "context": "Cirrados modernos más cerca de los fósiles que cualquier no-cirrado. Sin solape (gap absoluto 0,046)",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 19,
+      "unit": "metros",
+      "context": "Tamaño máximo estimado de los pulpos cretácicos. Dato del paper, derivado de mandíbula — no de los CSVs",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 370,
+      "unit": "millones de años",
+      "context": "Tiempo durante el cual los apex marinos han sido vertebrados. Contexto del paper",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "millones de años",
+      "context": "Edad inicial (Cenomaniano) de los fósiles cretácicos en el Pacífico (actual Columbia Británica)",
+      "source": "paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "describe", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "suggest", "tier": "T2", "cam_attenuator": "todo apunta a que / la evidencia indica"},
+    {"abstract_verb": "propose", "tier": "T3", "cam_attenuator": "los autores plantean / es plausible"}
+  ],
+  "narrative_hooks": [
+    "Hace 100 millones de años los océanos tenían pulpos de 19 metros depredando como apex marinos",
+    "9 de 9 cirrados modernos están más cerca morfológicamente del fósil que CUALQUIER incirrado",
+    "Durante 370 millones de años los apex marinos han sido vertebrados — los pulpos cretácicos son la excepción más grande",
+    "Mandíbulas cretácicas que parecen las de los pulpos Dumbo modernos, no las del Octopus común"
+  ],
+  "limitations": [
+    "Solo 19 caracteres morfológicos restringidos a la mandíbula — la similitud puede reflejar convergencia funcional",
+    "21 taxa es una muestra modesta; los 9 cirrados modernos cubren casi todo el linaje pero los incirrados quedan submuestreados",
+    "PCoA es proyección lineal — el 18,9% de varianza queda fuera del plano 2D",
+    "Solo 2 fósiles (n=2): generalizar a todos los pulpos del Cretácico requiere cautela",
+    "El tamaño 7-19 m viene del cálculo del paper sobre dimensiones de mandíbula, no de medición directa de cuerpo blando (no preservado)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "2 claims yes + 3 claims partial + 9 key_numbers verificados — script estándar"
+  },
+  "notebook_slug": "2026-04-25-octopodos-gigantes-cretacico",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-25-octopodos-gigantes-cretacico/notebook.html",
+  "generated_at": "2026-04-25T12:30:00-05:00"
+}
