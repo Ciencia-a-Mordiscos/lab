@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Una red biohíbrida que se mueve y captura nanoplásticos
+
+**Tecnología** · *Nature Water* · Fan et al. (2026) construyen una red diminuta — fibrillas amiloides de **lisozima** (la proteína de la clara del huevo) decoradas con nanopartículas de óxido de hierro: las **LAF-IONPs**. Bajo un campo magnético alterno, la red se sacude y caza nanoplásticos. Los datos de los Source Data MOESM8/10/11 muestran que el truco está en el movimiento: estática captura solo **40,1%**, dinámica **99,3%** (×2,47, Cohen d ≈ 71). La eficiencia se mantiene entre **94,6%** (10 mg/L) y **99,6%** (500 mg/L), aguanta **100 ciclos** de reuso cayendo apenas **4,3 puntos porcentuales** (de 100,1% a 95,8%), y reduce un **91,5%** del plástico bioacumulado en ratones C57BL/6. ⚠️ Solo ratones — no hay datos clínicos humanos; las eficiencias del 99% son sobre agua sintética con poliestireno puro.
+
+[Ver notebook](papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook) · [Leer más](papers/2026-04-23-nanonets-amiloide-nanoplasticos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook.ipynb)
+
+---
+
 ### La cooperación cae cada vez más rápido
 
 **Psicología** · *Nature* · Sabin et al. (2026) siguen durante 5 años a 7.108 prestatarios en Sierra Leona — 47.931 pagos de microcréditos en grupo (joint-liability). Los datos de los Source Data MOESM4-MOESM10 muestran que la cooperación cae cada vez más rápido: el ciclo 4 cae **3,37×** más empinado que el ciclo 1 (-19,07 pp vs -5,66 pp en 6 rondas). Cuando el préstamo reinicia, la cooperación rebota — y el rebote crece: reinicio 1 = -0,33σ, reinicio 2 = +5,47σ, reinicio 3 = **+15,9σ** (5,4× su error estándar). Y la motivación económica, la que la teoría racional clásica predice como dominante, es la **menos** mencionada por los entrevistados (17,2% vs 54,7% solidaridad). ⚠️ Diseño observacional con atrición fuerte (-81% de los grupos no llegan al ciclo 4): el patrón es robusto, la causa sigue abierta.

@@ -1,0 +1,34 @@
+titulo: "Una red biohíbrida que se mueve y captura nanoplásticos"
+fecha: 2026-04-23
+categoria: tecnologia
+tags: [nanoplasticos, amiloide, magnetico, agua, reciclable, in-vivo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00620-1"
+    titulo: "Recyclable amyloid-based magnetic nanonets for active capture and removal of nanoplastics from water"
+    journal: "Nature Water"
+    autores: "Fan et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "eficiencia_vs_concentracion.csv"
+    descripcion: "Eficiencia (%) por concentración inicial PS-NP (10-1000 mg/L), n=3"
+    fuente: "Fig 4f Source Data (Nature Water, MOESM8)"
+  - nombre: "eficiencia_vs_tamano.csv"
+    descripcion: "Eficiencia (%) por tamaño PS-NP (30/100/200 nm), n=3"
+    fuente: "Fig 4f Source Data (Nature Water, MOESM8)"
+  - nombre: "estatico_vs_dinamico.csv"
+    descripcion: "Eficiencia (%) estático vs dinámico, n=3"
+    fuente: "Fig 7c Source Data (Nature Water, MOESM11)"
+  - nombre: "ciclos_100.csv"
+    descripcion: "Eficiencia (%) durante 100 ciclos de reciclado, n=3 por cada 10 ciclos"
+    fuente: "Fig 7e Source Data (Nature Water, MOESM11)"
+  - nombre: "in_vivo_fluorescencia.csv"
+    descripcion: "Fluorescencia (a.u.) en tejido de ratones C57BL/6, 3 grupos x 3 individuos"
+    fuente: "Fig 6f Source Data (Nature Water, MOESM10)"
+  - nombre: "aguas_reales_ciclos.csv"
+    descripcion: "Capacidad adsorción normalizada (Q/Q1) en 4 aguas reales x 5 ciclos x 3 réplicas"
+    fuente: "Fig 7 Source Data (Nature Water, MOESM11)"
+estado: publicado

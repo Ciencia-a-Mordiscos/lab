@@ -336,6 +336,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-23-nanonets-amiloide-nanoplasticos/README
+    title: "Una red biohíbrida que se mueve y captura nanoplásticos"
+    sections:
+    - file: papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook
+      title: Notebook
   - file: papers/2026-04-23-nanotubos-carbono-conductividad/README
     title: "Nanotubos al 41% del cobre con la mitad del peso"
     sections:

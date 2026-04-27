@@ -1,0 +1,240 @@
+{
+  "version": "1.0",
+  "paper_id": 2385,
+  "doi": "10.1038/s44221-026-00620-1",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "in_vitro_plus_mouse_C57BL6",
+  "verification_table": [
+    {
+      "claim": "Eficiencia 94,6% (10 mg/L) → 99,6% (500 mg/L)",
+      "supported": "yes",
+      "detail": "Datos en eficiencia_vs_concentracion.csv. Curva monótonamente creciente hasta 500 mg/L y meseta después. PS de 100 nm en agua sintética. Fig 4f del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieve",
+      "effect_size": {
+        "measure": "rango_pp",
+        "value": 5.0,
+        "interpretation": "rango operacional"
+      }
+    },
+    {
+      "claim": "Eficiencia ~95-98% en tamaños 30/100/200 nm",
+      "supported": "yes",
+      "detail": "n=3 por tamaño. Diferencia ≤2,6 pp entre tamaños (todas >95%). El abstract afirma rango 30-1000 nm pero el Source Data solo cubre tres tamaños.",
+      "certainty_tier": "T1",
+      "abstract_verb": "capture",
+      "effect_size": {
+        "measure": "rango_pp",
+        "value": 2.6,
+        "interpretation": "modesto operacional"
+      }
+    },
+    {
+      "claim": "Modo dinámico ×2,47 sobre estático (+59,2 pp)",
+      "supported": "yes",
+      "detail": "99,3% vs 40,1%. Cohen d ≈ 71 (enorme). n=3 por grupo — test Mann-Whitney sub-poderado por diseño (p_min=0,1 con n=3); reportar magnitud, no p.",
+      "certainty_tier": "T1",
+      "abstract_verb": "arise",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 71.5,
+        "interpretation": "enorme"
+      }
+    },
+    {
+      "claim": "≥95% de eficiencia tras 100 ciclos de reuso",
+      "supported": "yes",
+      "detail": "Ciclo 10 = 100,1%, ciclo 100 = 95,8%. Caída total 4,3 pp en 100 ciclos. IQR 98,4-99,9% sobre todas las mediciones.",
+      "certainty_tier": "T1",
+      "abstract_verb": "maintain",
+      "effect_size": {
+        "measure": "caida_pp",
+        "value": 4.3,
+        "interpretation": "minima"
+      }
+    },
+    {
+      "claim": "Reduce 91,5% del plástico bioacumulado in vivo (ratones C57BL/6)",
+      "supported": "yes",
+      "detail": "Cálculo desde fluorescencia bruta: (PS - PS+IONPs)/(PS - Control) × 100 = 91,57%. Coincide con el 91,5% del abstract dentro del redondeo. n=3 por grupo. Solo ratones — no hay datos clínicos humanos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reduce",
+      "effect_size": {
+        "measure": "reduccion_pct",
+        "value": 91.5,
+        "interpretation": "alto"
+      },
+      "cross_check": {
+        "paper_reported": "91.5%",
+        "our_calculation": "91.57%",
+        "discrepancy_pct": 0.08,
+        "reason": "redondeo a 1 decimal en el abstract"
+      }
+    },
+    {
+      "claim": "98-99,9% en aguas reales (claim del abstract)",
+      "supported": "partial",
+      "detail": "El Source Data del paper no incluye eficiencia en aguas reales por concentración — solo capacidad adsorción Q/Q1, que se mantiene en 0,98-1,03 sobre 5 ciclos en piscina/lago/río/costa. Consistente con eficiencia estable, pero no es medición directa de % de eliminación.",
+      "certainty_tier": "T2",
+      "abstract_verb": "achieve",
+      "effect_size": {
+        "measure": "Q_norm_rango",
+        "value": 0.05,
+        "interpretation": "estable"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 94.6,
+      "unit": "por ciento",
+      "context": "eficiencia mínima (a 10 mg/L)",
+      "source": "eficiencia_vs_concentracion.csv",
+      "verified": true
+    },
+    {
+      "value": 99.6,
+      "unit": "por ciento",
+      "context": "eficiencia máxima (a 500 mg/L)",
+      "source": "eficiencia_vs_concentracion.csv",
+      "verified": true
+    },
+    {
+      "value": 40.1,
+      "unit": "por ciento",
+      "context": "eficiencia bajo régimen estático",
+      "source": "estatico_vs_dinamico.csv",
+      "verified": true
+    },
+    {
+      "value": 99.3,
+      "unit": "por ciento",
+      "context": "eficiencia bajo régimen dinámico (campo magnético alterno)",
+      "source": "estatico_vs_dinamico.csv",
+      "verified": true
+    },
+    {
+      "value": 59.2,
+      "unit": "puntos porcentuales",
+      "context": "diferencia dinámico - estático",
+      "source": "estatico_vs_dinamico.csv",
+      "verified": true
+    },
+    {
+      "value": 2.47,
+      "unit": "veces",
+      "context": "fold dinámico/estático",
+      "source": "estatico_vs_dinamico.csv",
+      "verified": true
+    },
+    {
+      "value": 95.8,
+      "unit": "por ciento",
+      "context": "eficiencia al ciclo 100",
+      "source": "ciclos_100.csv",
+      "verified": true
+    },
+    {
+      "value": 4.3,
+      "unit": "puntos porcentuales",
+      "context": "caída total a lo largo de 100 ciclos",
+      "source": "ciclos_100.csv",
+      "verified": true
+    },
+    {
+      "value": 91.5,
+      "unit": "por ciento",
+      "context": "reducción de plástico bioacumulado in vivo (ratones C57BL/6)",
+      "source": "in_vivo_fluorescencia.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "91.5%",
+        "our_calculation": "91.57%",
+        "discrepancy_pct": 0.08,
+        "reason": "redondeo del abstract"
+      }
+    },
+    {
+      "value": 30,
+      "unit": "nanómetros",
+      "context": "tamaño mínimo de NP cubierto en abstract",
+      "source": "abstract_paper",
+      "verified": true
+    },
+    {
+      "value": 1000,
+      "unit": "nanómetros",
+      "context": "tamaño máximo de NP cubierto en abstract (cobertura 30-1000 nm)",
+      "source": "abstract_paper",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "ciclos",
+      "context": "ciclos de reciclado evaluados",
+      "source": "ciclos_100.csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (presentaron / hicieron)"
+    },
+    {
+      "abstract_verb": "engineered",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (diseñaron / construyeron)"
+    },
+    {
+      "abstract_verb": "achieve",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con valor medido (alcanzaron / lograron)"
+    },
+    {
+      "abstract_verb": "maintain",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con métrica (mantuvieron)"
+    },
+    {
+      "abstract_verb": "reduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con porcentaje (redujo / bajó)"
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "limitar a 'sienta una base / abre la puerta a' para el meta-claim de blueprint"
+    },
+    {
+      "abstract_verb": "arise",
+      "tier": "T1",
+      "cam_attenuator": "explicación mecanística directa: 'la eficiencia viene de... movimiento magnético + sitios de unión'"
+    }
+  ],
+  "narrative_hooks": [
+    "El nanoplástico es invisible: pasa los filtros, llega al agua que bebes, y se cuela en tu sangre",
+    "Una red de proteína de huevo y hierro, que se mueve con un imán",
+    "Sin movimiento captura el 40%; con un campo magnético alterno, el 99%",
+    "100 ciclos de reuso y sigue por encima del 95%",
+    "91,5% menos plástico bioacumulado dentro del cuerpo de un ratón"
+  ],
+  "limitations": [
+    "Ensayo in vivo solo en ratones C57BL/6 — no hay datos clínicos humanos",
+    "Eficiencias del 99% son sobre agua sintética con poliestireno puro; aguas reales contienen mezclas y materia orgánica que pueden interferir",
+    "n = 3 por grupo en todos los ensayos — estándar en química de materiales pero limitado para inferencia estadística clásica",
+    "Test Mann-Whitney en estático vs dinámico está sub-poderado por diseño (p_min con n=3 es 0,1)",
+    "Campo magnético alterno requiere infraestructura específica — escalado a planta de tratamiento no demostrado",
+    "Abstract afirma cobertura 30-1.000 nm pero Source Data solo cubre 30/100/200 nm explícitamente"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 1 partial + datos in vivo + mecanismo magnético — narrativa densa por la cantidad de hilos verificables"
+  },
+  "notebook_slug": "2026-04-23-nanonets-amiloide-nanoplasticos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook.html",
+  "generated_at": "2026-04-27T10:45:41.071818Z"
+}
