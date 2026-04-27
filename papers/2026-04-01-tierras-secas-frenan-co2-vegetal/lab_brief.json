@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "paper_id": 2301,
+  "doi": "10.1038/s41561-026-01957-8",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "vegetation_global",
+  "verification_table": [
+    {
+      "claim": "El GPP de las tierras secas se frena después de 2001",
+      "supported": "yes",
+      "detail": "Slope cayó de +2.73 a +0.77 gC/m²/año por año (-71.7%). El segundo slope ya no es estadísticamente significativo (p=0.21).",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las regiones húmedas mantienen su ritmo de absorción de CO₂",
+      "supported": "yes",
+      "detail": "Slope solo cayó de +2.85 a +2.49 gC/m²/año por año (-12.6%). Sigue altamente significativo (p=4.1×10⁻⁷).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El VPD acelera ×12 en tierras secas tras 2001",
+      "supported": "yes",
+      "detail": "Slope VPD pasa de +0.35 (no significativo) a +4.31 Pa/año por año (significativo). La asociación con el frenado del GPP la propone el paper — es atribución estadística sobre datos observacionales, no causalidad demostrada.",
+      "certainty_tier": "T2",
+      "abstract_verb": "primarily due to",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los ESMs no capturan el frenado en tierras secas",
+      "supported": "yes",
+      "detail": "Δ-slope ML observado = -1.95; Δ-slope ESMs = +0.48 (signo opuesto). DGVMs ven el frenado pero subestiman la magnitud (-0.72 vs -1.95).",
+      "certainty_tier": "T1",
+      "abstract_verb": "fail (to capture)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El frenado en drylands es ~5.7× más fuerte en magnitud relativa que en humid",
+      "supported": "yes",
+      "detail": "(1 - 0.283) / (1 - 0.874) = 5.69. Coincide con el 5.7× que reporta el paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1982,
+      "unit": "año",
+      "context": "inicio del periodo de estudio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2022,
+      "unit": "año",
+      "context": "fin del periodo de estudio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 41,
+      "unit": "años",
+      "context": "duración total de la serie temporal",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2001,
+      "unit": "año",
+      "context": "punto de quiebre identificado por el paper",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.73,
+      "unit": "gC/m²/año por año",
+      "context": "slope GPP drylands 1982-2000",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 0.77,
+      "unit": "gC/m²/año por año",
+      "context": "slope GPP drylands 2001-2022 (no significativo, p=0.21)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": -71.7,
+      "unit": "por ciento",
+      "context": "caída del slope GPP en drylands post-2001",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": -12.6,
+      "unit": "por ciento",
+      "context": "caída del slope GPP en humid post-2001",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 12.3,
+      "unit": "veces",
+      "context": "factor de aceleración del VPD en drylands",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 5.7,
+      "unit": "veces",
+      "context": "frenado relativo drylands vs humid",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "modelos",
+      "context": "ESMs CMIP6 en la comparación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "modelos",
+      "context": "DGVMs en la comparación",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "los datos revelan / muestran"
+    },
+    {
+      "abstract_verb": "show / indicate",
+      "tier": "T1-T2",
+      "cam_attenuator": "los datos muestran / indican"
+    },
+    {
+      "abstract_verb": "fail (to capture)",
+      "tier": "T1",
+      "cam_attenuator": "los modelos no logran capturar — afirmación directa"
+    },
+    {
+      "abstract_verb": "primarily due to",
+      "tier": "T2",
+      "cam_attenuator": "todo apunta a / atribuido principalmente a — NO usar 'causa'"
+    },
+    {
+      "abstract_verb": "anticipate",
+      "tier": "T3",
+      "cam_attenuator": "se anticipa / se proyecta"
+    },
+    {
+      "abstract_verb": "may (limit)",
+      "tier": "T3",
+      "cam_attenuator": "podría limitar / es posible que limite"
+    }
+  ],
+  "narrative_hooks": [
+    "Las plantas absorben menos CO₂ desde 2001 — y son las tierras secas las culpables",
+    "El VPD aceleró ×12 en las mismas zonas donde el GPP se frenó",
+    "Los ESMs predicen aceleración cuando los datos observados muestran frenado — divergencia de signo, no de magnitud"
+  ],
+  "limitations": [
+    "Estudio observacional — la asociación VPD ↔ frenado del GPP no demuestra causalidad. Los autores usan 'atribuido principalmente a', no 'causado por'",
+    "El GPP 'observado' es un producto de machine learning a partir de torres FLUXNET — tiene incertidumbre que no entra en estos archivos resumidos",
+    "Las series anuales son ensemble means (promedio de 24 estimados de GPP) — no vemos la dispersión entre miembros",
+    "Los bins por aridez (n=100) muestrean franjas climáticas, no son réplicas independientes — la SD de la distribución es descriptiva, no inferencial"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes verificados — script denso con asimetría drylands/humid + sospechoso climático + falla de modelos"
+  },
+  "notebook_slug": "2026-04-01-tierras-secas-frenan-co2-vegetal",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook.html",
+  "generated_at": "2026-04-27T23:34:38.593976Z"
+}

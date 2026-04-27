@@ -1,0 +1,28 @@
+titulo: "Las plantas absorben menos CO₂ desde 2001 — y son las tierras secas las culpables"
+fecha: 2026-04-01
+categoria: ecologia
+tags: [co2, vegetacion, drylands, tierras-secas, vpd, gpp, ciclo-carbono, modelos-climaticos, esm, dgvm, fluxnet, ml-upscaling, cambio-climatico]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01957-8"
+    titulo: "Dryland dominance in the slowdown of global vegetation carbon uptake"
+    journal: "Nature Geoscience"
+    autores: "Li et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "serie_anual_clima_gpp.csv"
+    descripcion: "Serie anual 1982-2022 de CO2/GPP/ET/Ta/VPD para drylands y humid regions"
+    fuente: "Zenodo 18476284 (Source Data Fig. 2a-d)"
+  - nombre: "tendencia_gpp_por_aridez.csv"
+    descripcion: "Tendencia GPP por bin de aridez, 1982-2000 vs 2001-2022"
+    fuente: "Zenodo 18476284 (Source Data Fig. 2e)"
+  - nombre: "observacion_vs_dgvm_por_aridez.csv"
+    descripcion: "ML observado vs DGVMs por bin de aridez"
+    fuente: "Zenodo 18476284 (Source Data Fig. 3a)"
+  - nombre: "observacion_vs_esm_por_aridez.csv"
+    descripcion: "ML observado vs ESMs (CMIP6) por bin de aridez"
+    fuente: "Zenodo 18476284 (Source Data Fig. 3c)"
+estado: publicado

@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-04-01-tierras-secas-frenan-co2-vegetal/README
+    title: "Las plantas absorben menos CO₂ desde 2001 — y las tierras secas son las culpables"
+    sections:
+    - file: papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook
+      title: Notebook
   - file: papers/2026-04-27-calentamiento-resistencia-suelos/README
     title: "+23,9% más resistencia antibiótica en suelo calentado 3°C"
     sections:
