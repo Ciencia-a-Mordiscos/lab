@@ -421,3 +421,10 @@ parts:
     sections:
     - file: papers/2026-03-12-ia-pronostico-aerosoles/notebook
       title: Notebook
+- caption: Psicología
+  chapters:
+  - file: papers/2026-04-22-punctuated-decline-cooperation/README
+    title: La cooperación cae cada vez más rápido
+    sections:
+    - file: papers/2026-04-22-punctuated-decline-cooperation/notebook
+      title: Notebook

@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "paper_id": 2381,
+  "doi": "10.1038/s41586-026-10380-3",
+  "paper_type": "experimental",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "47.931 pagos de 7.108 prestatarios en 5 años (Sierra Leona, microcréditos en grupo)",
+      "supported": "yes",
+      "detail": "Reportado literal en abstract; el paper lo sustenta con la base de datos del prestamista",
+      "certainty_tier": "T1",
+      "abstract_verb": "tracking",
+      "effect_size": null
+    },
+    {
+      "claim": "El ciclo 4 cae 3,37 veces más rápido que el ciclo 1 en cooperación financiera",
+      "supported": "yes",
+      "detail": "Cálculo directo del CSV: caída ciclo 4 = -19,07 pp / caída ciclo 1 = -5,66 pp = 3,37x",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "ratio", "value": 3.37, "interpretation": "aceleración fuerte"}
+    },
+    {
+      "claim": "Reinicio 3 financiero rebota +15,9σ post-restart (5,4× su error estándar)",
+      "supported": "yes",
+      "detail": "Valor del MOESM10 panel_a; SE = 2,93. Heterogéneo entre restarts: r1=-0,33σ, r2=+5,47σ, r3=+15,90σ, r4=+6,82σ",
+      "certainty_tier": "T1",
+      "abstract_verb": "occur",
+      "effect_size": {"measure": "z_over_se", "value": 5.43, "interpretation": "extraordinariamente robusto"}
+    },
+    {
+      "claim": "Motivación económica solo 17,2% (22/128 menciones — la menos citada de 4 categorías no excluyentes)",
+      "supported": "yes",
+      "detail": "MOESM7 panel_c. Solidaridad domina (54,7%), seguida de deber (45,3%) y reputación (23,4%). Las categorías no son excluyentes — múltiples respuestas posibles por entrevistado",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": null
+    },
+    {
+      "claim": "92,2% mujeres en submuestra de 64 entrevistados",
+      "supported": "yes",
+      "detail": "MOESM7 panel_b — 59 de 64 entrevistados son mujeres",
+      "certainty_tier": "T1",
+      "abstract_verb": null,
+      "effect_size": null
+    },
+    {
+      "claim": "Atrición fuerte: solo 197 grupos llegan al ciclo 4 vs 1.026 en ciclo 1 (-81%)",
+      "supported": "yes",
+      "detail": "MOESM10 panel_a N_groups. Caveat editorial obligatorio: los grupos que persisten son los más cumplidores, así que el dato del ciclo 4 subestima la caída real de la población inicial",
+      "certainty_tier": "T1",
+      "abstract_verb": null,
+      "effect_size": null
+    },
+    {
+      "claim": "El patrón refleja desviaciones del comportamiento racional",
+      "supported": "partial",
+      "detail": "El paper lo plantea como afirmación principal (verbo show); el diseño es observacional, así que muestra el patrón temporal pero no descarta otras explicaciones (fatiga, factores macroeconómicos, efectos del prestamista)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {"value": 47931, "unit": "pagos", "context": "total observado", "source": "fact_sheet", "verified": true},
+    {"value": 7108, "unit": "prestatarios", "context": "total únicos", "source": "fact_sheet", "verified": true},
+    {"value": 5, "unit": "años", "context": "ventana de observación", "source": "fact_sheet", "verified": true},
+    {"value": 3.37, "unit": "x", "context": "ratio aceleración caída ciclo 4 vs ciclo 1 (financiero)", "source": "computed", "verified": true},
+    {"value": 19.07, "unit": "pp", "context": "caída financiera en ciclo 4 (de round 1 a round 6)", "source": "computed", "verified": true},
+    {"value": 5.66, "unit": "pp", "context": "caída financiera en ciclo 1", "source": "computed", "verified": true},
+    {"value": 15.9, "unit": "sigma", "context": "rebote financiero post-restart 3 (z-score)", "source": "computed", "verified": true},
+    {"value": 17.2, "unit": "por ciento", "context": "menciones de motivación económica (la menos citada)", "source": "computed", "verified": true},
+    {"value": 54.7, "unit": "por ciento", "context": "menciones de solidaridad (la más citada)", "source": "computed", "verified": true},
+    {"value": 92.2, "unit": "por ciento", "context": "mujeres en submuestra entrevistada n=64", "source": "computed", "verified": true},
+    {"value": 1026, "unit": "grupos", "context": "activos en ciclo 1", "source": "fact_sheet", "verified": true},
+    {"value": 197, "unit": "grupos", "context": "activos en ciclo 4 (atrición -81%)", "source": "fact_sheet", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa con caveat observacional"},
+    {"abstract_verb": "find", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "occur", "tier": "T1", "cam_attenuator": "describe el fenómeno (no causal)"},
+    {"abstract_verb": "tracking", "tier": "metodologico", "cam_attenuator": "ninguno"}
+  ],
+  "narrative_hooks": [
+    "47.931 pagos. 7.108 personas. 5 años. La cooperación cae cada vez más rápido.",
+    "El ciclo 4 cae 3,37 veces más empinado que el ciclo 1 — y los grupos que persisten son los más cumplidores",
+    "El reinicio 3 rebotó +15,9σ — un salto prácticamente imposible si fuera ruido",
+    "Lo que la teoría racional predice como dominante (la motivación económica) es la menos mencionada"
+  ],
+  "limitations": [
+    "Atrición fuerte (-81% de los grupos entre ciclo 1 y ciclo 4) — subestima la caída real de la población inicial",
+    "Diseño observacional — muestra el patrón temporal, no su causa",
+    "Submuestra de motivaciones es 64 entrevistados (92,2% mujeres) sobre 7.108 prestatarios — indicativo, no representativo",
+    "Categorías de motivación no son excluyentes — los % suman más de 100%"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims yes + 1 claim partial — script denso con varios números importantes"
+  },
+  "notebook_slug": "2026-04-22-punctuated-decline-cooperation",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-22-punctuated-decline-cooperation/notebook.html",
+  "generated_at": "2026-04-27T10:08:00Z"
+}

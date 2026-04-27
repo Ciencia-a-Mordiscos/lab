@@ -1,0 +1,28 @@
+titulo: "La cooperación cae cada vez más rápido"
+fecha: 2026-04-22
+categoria: psicologia
+tags: [cooperacion, microcreditos, sierra-leona, economia-conductual, dilema-social, comportamiento-humano]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10380-3"
+    titulo: "Punctuated decline of human cooperation"
+    journal: Nature
+    autores: "Sabin et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "decline_por_ciclo.csv"
+    descripcion: "Contribución financiera y esfuerzo cooperativo (%) por ciclo×ronda"
+    fuente: "Source Data MOESM4 panel_a"
+  - nombre: "restart_z_scores.csv"
+    descripcion: "Z-scores pre/post para 4 reinicios de préstamo (financiero + esfuerzo)"
+    fuente: "Source Data MOESM10 panels a/b"
+  - nombre: "motivaciones.csv"
+    descripcion: "Motivaciones reportadas por 64 entrevistados (n=128 menciones, 4 categorías no excluyentes)"
+    fuente: "Source Data MOESM7 panel_c"
+  - nombre: "demografia_entrevistados.csv"
+    descripcion: "Composición demográfica de la submuestra entrevistada (género, etnia, negocio)"
+    fuente: "Source Data MOESM7 panel_b"
+estado: publicado

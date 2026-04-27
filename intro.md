@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### La cooperación cae cada vez más rápido
+
+**Psicología** · *Nature* · Sabin et al. (2026) siguen durante 5 años a 7.108 prestatarios en Sierra Leona — 47.931 pagos de microcréditos en grupo (joint-liability). Los datos de los Source Data MOESM4-MOESM10 muestran que la cooperación cae cada vez más rápido: el ciclo 4 cae **3,37×** más empinado que el ciclo 1 (-19,07 pp vs -5,66 pp en 6 rondas). Cuando el préstamo reinicia, la cooperación rebota — y el rebote crece: reinicio 1 = -0,33σ, reinicio 2 = +5,47σ, reinicio 3 = **+15,9σ** (5,4× su error estándar). Y la motivación económica, la que la teoría racional clásica predice como dominante, es la **menos** mencionada por los entrevistados (17,2% vs 54,7% solidaridad). ⚠️ Diseño observacional con atrición fuerte (-81% de los grupos no llegan al ciclo 4): el patrón es robusto, la causa sigue abierta.
+
+[Ver notebook](papers/2026-04-22-punctuated-decline-cooperation/notebook) · [Leer más](papers/2026-04-22-punctuated-decline-cooperation/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-punctuated-decline-cooperation/notebook.ipynb)
+
+---
+
 ### Un implante cerebral sin cirugía: 5.8x más células donde hay inflamación
 
 **Neurociencia** · *Nature Biotechnology* · Yadav et al. (2025) diseñan un implante cerebral **sin cirugía**: macrófagos recubiertos con proteína conductora cargados con fotodiodos del tamaño de bacterias (SWEDs), inyectados en sangre y activados con luz infrarroja desde fuera del cráneo. Los datos del Source Data MOESM3 (Fig 4f, 5f, 2g) muestran que los híbridos con luz se concentran **5,76× más** que el control completo en la zona inflamada (315 vs 55 cells/mm²) — Cohen's d = 4,24, p = 0,029 (Mann-Whitney, n=4 vs n=4). Bootstrap de 10.000 re-muestreos: el 100% supera el umbral de "efecto grande". Los SWEDs persisten 6 meses sin decaimiento detectable (aunque n=2-3 limita el test formal: U=1, p=0,40 entre 1d y 6m). Y el cráneo de ratón apenas atenúa la luz NIR — solo **11,6% de pérdida** a 46 mW/mm². Prueba de concepto en ratones con inflamación inducida por LPS — distancia regulatoria significativa antes de aplicación clínica.
