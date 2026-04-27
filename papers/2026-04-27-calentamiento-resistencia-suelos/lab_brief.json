@@ -1,0 +1,210 @@
+{
+  "version": "1.0",
+  "paper_id": 2380,
+  "doi": "10.1038/s41586-026-10413-x",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "soil microbial communities (metagenomic)",
+  "verification_table": [
+    {
+      "claim": "El calentamiento aumenta la abundancia total de ARG en suelo de pradera",
+      "supported": "yes",
+      "detail": "+23,6% en mediana directa (vs +23,9% del paper, LMM ajustado). Mann-Whitney unilateral p=0,009; Cohen's d=0,24 (efecto pequeño pero consistente). 11 de 11 años con calentamiento > control en mediana.",
+      "certainty_tier": "T1",
+      "abstract_verb": "convincingly demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.24,
+        "interpretation": "pequeño"
+      }
+    },
+    {
+      "claim": "Glicopéptidos y rifamicinas son las clases con mayor aumento significativo",
+      "supported": "yes",
+      "detail": "Glicopéptidos +24,4% (p=0,023); Rifamicinas +25,6% (p=0,003). Ambas significativas; coinciden con el destaque del abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "revealed",
+      "effect_size": null
+    },
+    {
+      "claim": "MLS (macrólidos) sube más que glicopéptidos y rifamicinas — no destacado en abstract",
+      "supported": "partial",
+      "detail": "MLS +31,8% (p=0,0008) — mayor magnitud y menor p en los datos públicos. El paper no lo destaca; posible decisión editorial. El dato está en la tabla.",
+      "certainty_tier": "T2",
+      "abstract_verb": "(no destacado)",
+      "effect_size": null
+    },
+    {
+      "claim": "El efecto se mantiene a lo largo de los 11 años (2010-2020)",
+      "supported": "yes",
+      "detail": "En los 11 de 11 años la mediana del grupo calentamiento supera a la control. Spearman ρ entre año y brecha relativa: 0,36 (p=0,29) — la brecha varía año a año pero sin tendencia lineal clara.",
+      "certainty_tier": "T1",
+      "abstract_verb": "decade-long",
+      "effect_size": null
+    },
+    {
+      "claim": "El calentamiento causa el cambio (no solo correlación)",
+      "supported": "yes",
+      "detail": "Diseño experimental: calentadores infrarrojos asignados a parcelas, no observación post-hoc. El abstract usa 'convincingly demonstrate'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "convincingly demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "El calentamiento aumenta la transferencia horizontal de genes de resistencia",
+      "supported": "no",
+      "detail": "El abstract lo enmarca como 'could be further amplified via horizontal gene transfer' — hipótesis especulativa, no observación. No verificable con los datos públicos del repo.",
+      "certainty_tier": "T3",
+      "abstract_verb": "could be further amplified",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 23.9,
+      "unit": "%",
+      "context": "aumento de abundancia ARG con calentamiento (paper, LMM ajustado)",
+      "source": "abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "+23.9%",
+        "our_calculation": "+23.6%",
+        "discrepancy_pct": 1.3,
+        "reason": "LMM vs mediana directa"
+      }
+    },
+    {
+      "value": 23.6,
+      "unit": "%",
+      "context": "nuestro recálculo de la mediana directa (n=88)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "°C",
+      "context": "calentamiento experimental constante (calentadores infrarrojos)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 11,
+      "unit": "años",
+      "context": "duración del experimento longitudinal (2010-2020)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 88,
+      "unit": "muestras",
+      "context": "n total (44 calentamiento + 44 control)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.244,
+      "unit": "Cohen's d",
+      "context": "efecto pequeño según convención de Cohen",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.018,
+      "unit": "p-value",
+      "context": "Mann-Whitney bilateral en abundancia total",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 31.8,
+      "unit": "%",
+      "context": "aumento en MLS/macrólidos (p=0,0008) — el más grande, no destacado en abstract",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 25.6,
+      "unit": "%",
+      "context": "aumento en rifamicinas (p=0,003) — destacado en abstract",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 24.4,
+      "unit": "%",
+      "context": "aumento en glicopéptidos (p=0,023) — destacado en abstract",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 21.3,
+      "unit": "%",
+      "context": "aumento en tetraciclinas (p=0,052, marginal)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "clases",
+      "context": "clases de antibiótico con aumento significativo (de 10 evaluadas)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 798.2,
+      "unit": "cobertura",
+      "context": "mediana de abundancia ARG total — control",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 986.6,
+      "unit": "cobertura",
+      "context": "mediana de abundancia ARG total — calentamiento",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "convincingly demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (diseño experimental, no observacional)"
+    },
+    {
+      "abstract_verb": "revealed (datos)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa para los datos descriptivos"
+    },
+    {
+      "abstract_verb": "primarily through co-selection",
+      "tier": "T2",
+      "cam_attenuator": "'todo apunta a que' / 'la evidencia sugiere'"
+    },
+    {
+      "abstract_verb": "could be further amplified",
+      "tier": "T3",
+      "cam_attenuator": "'podría amplificarse' — explícitamente especulativo"
+    }
+  ],
+  "narrative_hooks": [
+    "+23,9 % más genes de resistencia a antibióticos en un suelo calentado 3°C durante una década",
+    "Calentar el suelo 3°C, sin tocar antibióticos, basta para que el resistoma crezca",
+    "Glicopéptidos y rifamicinas — dos antibióticos que los hospitales reservan para infecciones difíciles — suben en el suelo calentado",
+    "Cohen's d 0,24: efecto pequeño en magnitud pero consistente en 11 de 11 años"
+  ],
+  "limitations": [
+    "Análisis con medianas y Mann-Whitney directo, no LMM — robusto pero menos potente que el paper",
+    "Datos públicos cubren resistoma agregado por muestra; mecanismos (co-selección, hospederos, transferencia horizontal) requieren los archivos genómicos completos (~1 GB, no incluidos)",
+    "El experimento se hizo en un solo sitio (Oklahoma, pradera de pasto alto) — generalizar a otros biomas requiere replicación independiente",
+    "Cohen's d clásico asume varianza estable; un outlier extremo en calentamiento (~24600 vs IQR 760-1640) no afecta la mediana pero sí la media — por eso el notebook usa medianas"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims verificados (yes/partial), 14 números clave"
+  },
+  "notebook_slug": "2026-04-27-calentamiento-resistencia-suelos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-27-calentamiento-resistencia-suelos/notebook.html",
+  "generated_at": "2026-04-27T22:40:25.719496Z"
+}

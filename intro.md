@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### +23,9% más genes de resistencia a antibióticos en un suelo calentado 3°C
+
+**Ecología** · *Nature* · Wu et al. (2026) calientan parcelas de pradera en Oklahoma a **+3°C constantes durante 11 años (2010–2020)** y secuencian el ADN del suelo en 88 muestras finales. La abundancia de genes de resistencia a antibióticos sube **+23,9%** vs control (LMM ajustado; nuestra mediana directa da +23,6%, coincide a 0,3 puntos). Cohen's d = 0,24 — efecto pequeño pero consistente: en los 11 de los 11 años la mediana del calentado supera a la control. Las clases más afectadas son **glicopéptidos (+24,4%, p=0,023) y rifamicinas (+25,6%, p=0,003)** — dos antibióticos que los hospitales reservan para infecciones difíciles. MLS/macrólidos sube más que ambas (+31,8%, p=0,0008) pero el abstract no lo destaca. Mann-Whitney unilateral en abundancia total: p=0,009. ⚠️ El paper enmarca la transferencia horizontal de genes como hipótesis especulativa (*could be further amplified*), no como observación directa — la sostenemos ahí, no escalamos.
+
+[Ver notebook](papers/2026-04-27-calentamiento-resistencia-suelos/notebook) · [Leer más](papers/2026-04-27-calentamiento-resistencia-suelos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-27-calentamiento-resistencia-suelos/notebook.ipynb)
+
+---
+
 ### La huella humana en las mareas: 25 ríos cambiados
 
 **Ecología** · *Nature Geoscience* · Beemster et al. (2026) cruzan registros históricos (s. XIX–XX) y modernos (1990–2024) de **25 estuarios** en 9 países. **16 de 25 amplificaron** su rango máximo de marea (mediana **+8,6%**, rango de **+38,5%** en Coos Bay a **−17,2%** en James). La onda de marea entra y se transforma: la velocidad sube **~35%** (paper: 38%) en 21 de 24 estuarios. Pero el dato que reordena la intuición está en la geografía del cambio: **0 de 25 estuarios** tienen su máximo cambio en la boca. La mediana del punto de máximo cambio está a **94 km tierra adentro** (IQR 55–147 km), y la mediana del cambio interior es **57 cm** vs **6 cm** en la boca — casi un orden de magnitud. ¿Quién pone esa marca? Una huella humana cuantificada: **233 intervenciones** documentadas, lideradas por profundización de canales (113 eventos en **22 de 25 estuarios** — 88%) y recuperación de tierra (25 eventos en 14 de 25). ⚠️ Diseño observacional longitudinal: la concordancia espacio-temporal entre intervenciones y cambios respalda la lectura causal del paper, pero no la prueba como un experimento.

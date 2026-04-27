@@ -1,0 +1,11 @@
+clase,mediana_control,mediana_calentamiento,pct_cambio,mwu_p,significativo
+MLS (macrólidos),11.225,14.79,31.8,0.0008,sí
+Fenicoles,2.79,3.56,27.6,0.0755,no
+Rifamicinas,267.39,335.845,25.6,0.0034,sí
+Glicopéptidos,434.615,540.53,24.4,0.023,sí
+Tetraciclinas,14.25,17.285,21.3,0.0523,no
+Sulfonamidas,0.04,0.045,12.5,0.4294,no
+Aminoglucósidos,28.075,29.98,6.8,0.7894,no
+Betalactámicos,15.625,14.91,-4.6,0.9235,no
+Fluoroquinolonas,3.975,3.775,-5.0,0.838,no
+Multirresistencia,12.29,10.42,-15.2,0.1331,no

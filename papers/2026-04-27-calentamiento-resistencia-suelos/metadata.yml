@@ -1,0 +1,32 @@
+titulo: "+23,9 % más genes de resistencia a antibióticos en un suelo calentado 3°C"
+fecha: 2026-04-27
+categoria: ecologia
+tags: [resistencia-antibiotica, calentamiento-global, microbiologia, suelos, metagenomica, salud-publica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10413-x"
+    titulo: "Decade-long warming accelerates antibiotic resistance in grassland soils"
+    journal: Nature
+    autores: "Wu et al."
+    verificado: true
+  - doi: "10.6084/m9.figshare.28829036"
+    titulo: "warming_effects_on_soil_resistomes (raw ARG abundance + environmental data)"
+    repositorio: Figshare
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "abundancia_total.csv"
+    descripcion: "ARG total coverage por muestra (88 filas)"
+    fuente: "Figshare 28829036 (procesado para legibilidad)"
+  - nombre: "clases_antibiotico.csv"
+    descripcion: "Resumen por clase: % cambio + Mann-Whitney p (10 clases)"
+    fuente: "Figshare 28829036"
+  - nombre: "clases_largo.csv"
+    descripcion: "Long format muestra × clase × abundancia (top 6 clases)"
+    fuente: "Figshare 28829036"
+  - nombre: "series_temporales.csv"
+    descripcion: "Mediana y media anual por tratamiento (2010-2020)"
+    fuente: "Figshare 28829036 (agregado por año)"
+estado: publicado

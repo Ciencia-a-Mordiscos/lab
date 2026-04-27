@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-04-27-calentamiento-resistencia-suelos/README
+    title: "+23,9% más resistencia antibiótica en suelo calentado 3°C"
+    sections:
+    - file: papers/2026-04-27-calentamiento-resistencia-suelos/notebook
+      title: Notebook
   - file: papers/2026-04-27-mareas-estuarios-huella-humana/README
     title: "La huella humana en las mareas: 25 ríos cambiados"
     sections:
