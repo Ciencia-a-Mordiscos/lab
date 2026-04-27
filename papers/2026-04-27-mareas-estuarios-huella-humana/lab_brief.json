@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "paper_id": 2401,
+  "doi": "10.1038/s41561-026-01969-4",
+  "paper_type": "research",
+  "study_design": "observational_longitudinal",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "25 estuarios analizados en 9 países",
+      "supported": "yes",
+      "detail": "El CSV tiene 25 filas; la hoja Sources del MOESM2 lista los 25. 9 países distintos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "analyse",
+      "effect_size": null
+    },
+    {
+      "claim": "La mayoría de los 25 estuarios amplificaron su rango máximo de marea",
+      "supported": "yes",
+      "detail": "16 de 25 con maxtr_chg_pct > 0 (64%). Mediana +8,6%, media +10,1%, IQR [-2,0%, +24,1%]. Rango: -17,2% (James) a +38,5% (Coos Bay). 7 atenuaron, 2 sin cambio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "have typically amplified",
+      "effect_size": {"measure": "n_positive_of_total", "value": "16/25", "interpretation": "mayoría con magnitud variable"}
+    },
+    {
+      "claim": "La velocidad de propagación de la onda de marea aumentó ~38% en promedio",
+      "supported": "partial",
+      "detail": "Paper reporta +38% (22 de 24 estuarios positivos). Recompute: media +35%, mediana +24%, 21 de 24 positivos. Discrepancia ~3 puntos porcentuales atribuible a diferencias de promediado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating",
+      "effect_size": {"measure": "mean_pct_change", "value": 35.0, "interpretation": "grande"}
+    },
+    {
+      "claim": "El cambio máximo de marea ocurre tierra adentro, no en la boca",
+      "supported": "yes",
+      "detail": "0 de 25 estuarios tienen su máximo cambio en la boca (loc_max_chg_km = 0). Mediana 94 km adentro (paper: ~99 km), IQR [55, 147] km. 20 de 25 estuarios > 50 km tierra adentro; 10 de 25 > 100 km.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating",
+      "effect_size": {"measure": "median_distance_km", "value": 94, "interpretation": "muy lejos del mar"}
+    },
+    {
+      "claim": "El cambio en la boca es pequeño en valor absoluto",
+      "supported": "yes",
+      "detail": "Mediana del cambio absoluto en la boca: 6 cm. Máximo: 28 cm. Mediana tierra adentro: 57 cm — razón ~9,5x.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating",
+      "effect_size": {"measure": "ratio_inland_mouth", "value": 9.5, "interpretation": "casi un orden de magnitud"}
+    },
+    {
+      "claim": "Profundización de canales y recuperación de tierra son las intervenciones dominantes",
+      "supported": "yes",
+      "detail": "Profundización de canales: 113 eventos en 22 de 25 estuarios (88%). Recuperación de tierra: 25 eventos en 14 de 25 (56%). Total inventariado: 233 intervenciones de 11 tipos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "point to (as drivers)",
+      "effect_size": {"measure": "coverage_pct", "value": 88, "interpretation": "casi universal"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 25,
+      "unit": "estuarios",
+      "context": "tamaño de la muestra del estudio",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "25", "our_calculation": "25", "discrepancy_pct": 0, "reason": "exacto"}
+    },
+    {
+      "value": 16,
+      "unit": "de 25",
+      "context": "estuarios que amplificaron su rango máximo de marea",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 38.5,
+      "unit": "por ciento",
+      "context": "amplificación máxima del rango de marea — Coos Bay (Oregón, EE. UU.)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 8.6,
+      "unit": "por ciento",
+      "context": "mediana del cambio del rango máximo de marea entre los 25 estuarios",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 94,
+      "unit": "kilómetros",
+      "context": "mediana de la distancia desde la boca al punto de máximo cambio de marea",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "~99 km (mean)", "our_calculation": "94 km (median)", "discrepancy_pct": 5.1, "reason": "paper usa media; nosotros mediana — el dato robusto a la cola"}
+    },
+    {
+      "value": 0,
+      "unit": "estuarios",
+      "context": "estuarios cuyo máximo cambio ocurre en la boca (loc_max_chg_km = 0)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 6,
+      "unit": "centímetros",
+      "context": "mediana del cambio absoluto en la boca de los 25 estuarios",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "0.04 m", "our_calculation": "0.06 m", "discrepancy_pct": 50, "reason": "diferencia probable en cómo se promedian valores cercanos a cero"}
+    },
+    {
+      "value": 57,
+      "unit": "centímetros",
+      "context": "mediana del cambio absoluto en el punto interior de mayor cambio",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 113,
+      "unit": "eventos",
+      "context": "intervenciones de profundización de canales registradas en los 25 estuarios",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 22,
+      "unit": "de 25",
+      "context": "estuarios afectados por al menos un evento de profundización de canales",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 233,
+      "unit": "intervenciones",
+      "context": "total de intervenciones humanas documentadas en el inventario (1800–2020)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "analyse", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "have typically amplified", "tier": "T1", "cam_attenuator": "afirmación directa — 'amplificaron típicamente'"},
+    {"abstract_verb": "demonstrating", "tier": "T1", "cam_attenuator": "afirmación directa — el abstract argumenta que la huella humana tiene la mayor influencia; en español usar 'argumenta' o 'apunta a' en lugar de 'demuestra' (regla 28: observacional)"},
+    {"abstract_verb": "point to (as drivers)", "tier": "T1-T2", "cam_attenuator": "'apuntan a' / 'señalan como principales motores'"}
+  ],
+  "narrative_hooks": [
+    "El mar sube. Lo sabemos. Pero las mareas, dentro de los ríos, cambiaron mucho más y donde no las estábamos buscando.",
+    "Ningún estuario tiene su mayor cambio de marea en la boca. La mediana está a 94 km tierra adentro.",
+    "La boca apenas se mueve (6 cm de mediana). Adentro, los metros vuelan: la mediana del cambio interior es 57 cm —casi diez veces más.",
+    "Profundización de canales: 113 eventos en 22 de 25 estuarios (88%). La intervención más universal del inventario."
+  ],
+  "limitations": [
+    "n = 25 estuarios. Muestra grande para hidrodinámica histórica pero pequeña frente al inventario global; sesgada hacia estuarios con registros centenarios (probablemente industrializados).",
+    "Periodos heterogéneos: el 'histórico' va desde 1825 (Gironde) hasta los años setenta (Yangtze); el 'moderno' cubre 1990–2024. Los promedios cruzan épocas distintas.",
+    "Sin atribución mecánica directa: las intervenciones están espacialmente correlacionadas con los cambios, pero el diseño es observacional longitudinal — no experimental. Coherente con causalidad, no la prueba.",
+    "Discrepancia menor con el paper en propagación de onda (paper +38%, nuestro recompute +35%) y mediana de cambio en boca (paper 4 cm, nuestro 6 cm) — atribuible a diferencias de promediado."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 1 partial = script denso. Múltiples números clave (25, 16, 38,5%, 94 km, 6 cm, 57 cm, 113 eventos) que requieren espacio para anclar correctamente sin amontonar."
+  },
+  "notebook_slug": "2026-04-27-mareas-estuarios-huella-humana",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-27-mareas-estuarios-huella-humana/notebook.html",
+  "generated_at": "2026-04-27T17:15:00Z"
+}

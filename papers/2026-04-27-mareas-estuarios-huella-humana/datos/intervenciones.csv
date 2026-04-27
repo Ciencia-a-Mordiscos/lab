@@ -1,0 +1,236 @@
+estuary_raw,estuary,country,period,intervention_type,description,sources,intervention_type_norm
+Passur,Passur,Bangladesh,1800's,Land Reclamation,Large-scale conversion of mangroves to agriculture between Khulna–Mongla; early embankments began fragmenting intertidal storage and channels.,Van Maren et al.(2023),Land Reclamation
+Passur,Passur,Bangladesh,1961-1980's,Land Reclamation,Coastal Embankment Project (CEP) begins; widespread polder construction,Van Maren et al.(2023),Land Reclamation
+Scheldt,Scheldt,Belgium / The Netherlands,1867,Changes to the Channel Network,"Kreekrakdam closes the Kreekrak, cutting one of the last connections between Western & Eastern Scheldt.",de Bok (2001),Channel Network Changes
+Scheldt,Scheldt,Belgium / The Netherlands,1871,Changes to the Channel Network,Sloedam completed; final hydraulic connection between Eastern and Western Scheldt closed.,https://en.wikipedia.org/wiki/Sloedam,Channel Network Changes
+Scheldt,Scheldt,Belgium / The Netherlands,1997-1998,Channel Deepening,Second deepening (“tweede verruiming”): drempels deepened by ~1.5–2 m; disposal strategy shifts from mostly east to west/middle estuary.,Vandenbruwaene et al. (2020),Channel Deepening
+Scheldt,Scheldt,Belgium / The Netherlands,2008-2011,Channel Deepening,Third deepening (“derde verruiming”) Westerschelde + Beneden-Zeeschelde to enable 13.1 m draught tidal-independent access (≈ −14.7 m GLLWS on 11 thresholds & 3 shoals).,Vandenbruwaene et al. (2020),Channel Deepening
+Scheldt,Scheldt,Belgium / The Netherlands,1973-1976,Channel Deepening,First major deepening (“eerste verruiming”) of navigation channel (drempels deepened/widened).,Vandenbruwaene et al. (2020),Channel Deepening
+Scheldt,Scheldt,Belgium / The Netherlands,1918,Land Reclamation,Braakman partial reclamation (~344 ha inpoldered).,Vandenbruwaene et al. (2020),Land Reclamation
+Scheldt,Scheldt,Belgium / The Netherlands,1952,Land Reclamation,"Braakman closure (Braakmanpolder, ~1,525 ha); large-scale reclamation at the south bank of the Western Scheldt.",Vandenbruwaene et al. (2020),Land Reclamation
+Scheldt,Scheldt,Belgium / The Netherlands,1977,Miscellaneous,Sigma Plan launched after the 1976 storm surge: long program of dike upgrades + creation of controlled flood areas (CFAs).,https://www.sigmaplan.be/nl/over-het-sigmaplan,Other
+Scheldt,Scheldt,Belgium / The Netherlands,2022-2023,Misscellaneous,Hedwige–Prosperpolder (cross-border) reconnected,https://vnsc.eu/natuurontwikkeling-hedwige-prospergebied-boven-verwachting-snel,Other
+Lingdingyang Bay,Lingdingyang_Bay,China,1992,Altered Flow Regime,Construction of Yantan Reservoir in upstream catchment,Wu et al. (2016),Altered Flow Regime
+Lingdingyang Bay,Lingdingyang_Bay,China,2007,Altered Flow Regime,Construction of Longtan Reservoir in upstream catchment,Wu et al. (2016),Altered Flow Regime
+Lingdingyang Bay,Lingdingyang_Bay,China,1959,Channel Deepening,Initial dredging of the West (Lingding) Channel to ~6.9 m (navigation channel),Wang et al. (2020),Channel Deepening
+Lingdingyang Bay,Lingdingyang_Bay,China,2001,Channel Deepening,Maintenance dredging target depth increased to -11.5m,Cai et al. (2020),Channel Deepening
+Lingdingyang Bay,Lingdingyang_Bay,China,2007,Channel Deepening,Maintenance dredging target depth increased to -13.0m,Cai et al. (2020),Channel Deepening
+Lingdingyang Bay,Lingdingyang_Bay,China,2012,Channel Deepening,Maintenance dredging target depth increased to -17.0m,Cai et al. (2020),Channel Deepening
+Lingdingyang Bay,Lingdingyang_Bay,China,1980s,Channel Deepening,Maintenance dredging; target depth ~8.6 m mentioned for West Channel,Wang et al. (2020),Channel Deepening
+Lingdingyang Bay,Lingdingyang_Bay,China,2004-2007,Channel Deepening,Tonggu Channel Dug,Wu et al. (2016),Channel Deepening
+Lingdingyang Bay,Lingdingyang_Bay,China,1980s–1990s (peak ~1995),Channel Deepening / Changes to the channel network,Massive sand excavation across PRD network; >870×10⁶ m³ removed (1986–2003),Wu et al. (2016),Channel Deepening
+Lingdingyang Bay,Lingdingyang_Bay,China,1964-1989,Land Reclamation,Large-scale shoreline advance / reclamation,Yang et al. (2022),Land Reclamation
+Lingdingyang Bay,Lingdingyang_Bay,China,1988–1997 (ceases after ~1997),Land Reclamation,"Reclamation boom (~356 km² added), then slows",Wu et al. (2016),Land Reclamation
+Qiantang,Qiantang,China,1957-1977,Altered Flow Regime,Major reservoir on upper Qiantang,https://en.wikipedia.org/wiki/Qiandao_Lake,Altered Flow Regime
+Qiantang,Qiantang,China,1960s - present,Land Reclamation,Launch of coastal embankment & land reclamation,Xie et al. (2017);,Land Reclamation
+Qiantang,Qiantang,China,1980s,Land Reclamation,Nanhui shore reclamation (north bay mouth),Xie et al. (2017),Land Reclamation
+Yangtze,Yangtze,China,1993-2009,Altered Flow Regime,Construction of Three Gorges Dam,Guo et al. (2021),Altered Flow Regime
+Yangtze,Yangtze,China,1998-2010,"Channel Deepeing, Changes to the Inlet Geometry","Deepwater Navigation Channel Project (North Passage): training walls (~50 km), jetties, dredging to 12.5 m",Guo et al. (2021),Inlet Geometry Changes
+Yangtze,Yangtze,China,1950s-1970s,Channel Deepening,"Early channel training and stabilization works (bank revetments, dredging near Wusongkou)",Guo et al. (2021),Channel Deepening
+Yangtze,Yangtze,China,1950s-1960s,Land Reclamation,"Large-scale reclamation near Xuliujing (head of South Branch), narrowing the channel from ~14.5 km to ~6.9 km",Zhang et al. (2019); Zhu et al. (2021),Land Reclamation
+Yangtze,Yangtze,China,1960s-1990s,Land Reclamation,Progressive reclamations around Changxing Island (mouth zone),Zhang et al. (2019); Guo et al. (2021),Land Reclamation
+Yangtze,Yangtze,China,2010 onwards,Land Reclamation,Continued reclamations in the North Branch,Guo et al. (2021),Land Reclamation
+Gironde,Gironde,France,1956-1980,Channel Deepening,"Significant deepening of the Garonne channel between Bordeaux and Cadillac. Some sections were deepened by up to 6 meters, especially near Cadillac. This altered bank morphology from wide gravel beach",Jalon-Rojas et al. (2018); Sottolichio et al. (2013),Channel Deepening
+Gironde,Gironde,France,1990-2000,Channel Deepening,Navigation channel is maintained at ~10 m depth and 300 m width between Bordeaux and Le Verdon (exact dates of increases in maintenance depths unknown to us),Jalon-Rojas et al. (2018); van Maanen & Sottolichio (2018),Channel Deepening
+Gironde,Gironde,France,1825-1866,Land Reclamation,"Originally two islands (Sans-Pain and Bouchaud), merged post-1866 to become Île Nouvelle. Used for agriculture and viticulture until the 1960s","Gironde estuary adapto, a LIFE project",Land Reclamation
+Gironde,Gironde,France,1960-1970,Land Reclamation,Salt meadows reclaimed for intensive agriculture at Mortagne-sur-Gironde,"Gironde estuary adapto, a LIFE project",Land Reclamation
+Gironde,Gironde,France,1999-2010,Restoration Efforts,Breaches after stroms Martin and Xynthia were left open to allow tidal restoration on the Ile Nouvelle and at Mortagne-sur-Gironde Polders,"Gironde estuary adapto, a LIFE project",Restoration
+Loire,Loire,France,1940,Channel Deepening,Lower section (km 0–10) deepened to -10.1m MSL,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1942,Channel Deepening,Exterior section (< km 0) deepened to ‐11.6 m MSL,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1898-1899,Channel Deepening,Embanked section (km 37–52) dredged to -4.8m below MSL at Saint-Nazaire,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1906-1912,Channel Deepening,Intermediate channel (km 10–37) deepened from - 2.7 m to -5.7 m MSL,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1948-1968,Channel Deepening,Intermediate and embanked sections (km 10–52) deepened from –6.2m to –8.7 m MSL,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1969–1973,Channel Deepening,Exterior section deepened to –13.0 m MSL. Lower section (km 0–10) deepened to -12.95m MSL. Intermediate and embanked sections (km 10–52) deepened to -9.2 m MSL,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1978–1980,Channel Deepening,Exterior and lower sections (km 0–10) deepened to -16.45m MSL,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1985–1986,Channel Deepening,Exterior section deepened to -17.3m MSL,Dijkstra & De Goede (2024),Channel Deepening
+Loire,Loire,France,1850 (mid 1800's),Channel Straightening,The Loire was constrained into a single navigable channel using groynes and dikes,Histoire - GIP Loire Estuaire,Channel Straightening
+Loire,Loire,France,1850-1870,Harbour Construction,"Development of Saint-Nazaire, Montoir, and Donges ports, shifting industrial focus downstream",Histoire - GIP Loire Estuaire,Harbour Construction
+Loire,Loire,France,1892,Network Reconfiguration,Opening channel (Canal de la Martinière) connecting La Martinière au Pellerin and Le Carnet à Frossay (nontidal),Canal de la Martinière — Wikipédia,Channel Network Changes
+Loire,Loire,France,2000-2026,Restoration Efforts,Abandonment of ineffective dikes and restoration of 300 ha of landscape by 2026. Focus on nature-based solutions and tidal marsh reconnection with a focus on nature-based solutions and tidal marsh rec,Loire Estuary | REWRITE,Restoration
+Loire,Loire,France,1880,Land Reclamation / Channel Straightening,The width of the estuary at Nantes-Roche Maurice was reduced from 1170 m to 200 m,Histoire - GIP Loire Estuaire,Land Reclamation
+Seine,Seine,France,1945,Channel Deepening,Significant increase in admissable draught (8m at spring tide),Comment ont évolué les conditions de navigation sur la Seine ? - GIP Seine-Aval,Channel Deepening
+Seine,Seine,France,2007,Channel Deepening,Modern natigation depth for large vessesl between Le Havre & Rouen (12.60m at spring tide),Comment ont évolué les conditions de navigation sur la Seine ? - GIP Seine-Aval,Channel Deepening
+Seine,Seine,France,2018-2020,Channel Deepening,Increase in maintenance depth upstream of Rouen (to Courval) from 6.5m to 8.5m below CMH,Seine Phase 5 | DEME Group,Channel Deepening
+Seine,Seine,France,1848-1867,Channel Straightening,Piecemal jettying and channel straightening to stabilize and deepen the navigation channel to Rouen between Mailleraye-sur-Seine and Berville-sur-Mer,Avoine et al. (1984),Channel Straightening
+Seine,Seine,France,1867-1961,Channel Straightening,Training jetties extended to estuarine mouth,Avoine et al. (1984),Channel Straightening
+Seine,Seine,France,1887,Network Reconfiguration,Channel connection between mouth (Le Havre) & Tancarville  (nontidal),Tancarville Canal - Wikipedia,Channel Network Changes
+Seine,Seine,France,1878-1881,Tidal Barrier,Construction Poses-Amfreville Dam at 160 km from the mouth,Dam and locks | Office de Tourisme Seine et Eure,Tidal Barrier
+Seine,Seine,France,1842,Channel Deepening,Initial channel maintenance depths (2.5m at spring tide),Comment ont évolué les conditions de navigation sur la Seine ? - GIP Seine-Aval,Channel Deepening
+Seine,Seine,France,2000-2025,Land Reclamation,Large extension Le Havre Harbour called Port 2000,Le Havre - Phase I.indd,Land Reclamation
+Elbe,Elbe,Germany,1969,Changes to the Channel Network,"expansion of fairway ; connection of island Neßsand, island Hanskalbsand and island Schweinsand > today these are one island between main branch of Elbe and Hahnöfer Nebenelbe (sidebranch)",https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673654,Channel Network Changes
+Elbe,Elbe,Germany,1939 to 1962,Changes to the Channel Network,phase 1: reduction of estuary mouth from 3 to 2 channel system,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673652,Channel Network Changes
+Elbe,Elbe,Germany,1975 to 1977,Changes to the Channel Network,phase 2: reduction of estuary mouth from 3 to 2 channel system,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673656,Channel Network Changes
+Elbe,Elbe,Germany,2019,Channel Deepening,adaption of navigational channel to vessel draft of 14.5m,https://www.kuestendaten.de/Tideelbe/DE/Projekte/FRA20XX/Geplante_Fahrrinnenanpassung_node.html,Channel Deepening
+Elbe,Elbe,Germany,1936-1950,Channel Deepening,m -10 expansion,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673643,Channel Deepening
+Elbe,Elbe,Germany,1957-1962,Channel Deepening,m -11 expansion,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673644,Channel Deepening
+Elbe,Elbe,Germany,1964-1969,Channel Deepening,m -12 expansion,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673645,Channel Deepening
+Elbe,Elbe,Germany,1974-1978,Channel Deepening,m -13.5 expansion,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673646,Channel Deepening
+Elbe,Elbe,Germany,1999-2000,Channel Deepening,m -14.5 expansion,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673647,Channel Deepening
+Elbe,Elbe,Germany,1922 to 1937,Channel Deepening / Changes to the Inlet Geometry,groynes along Osteriff; dredging of Ostebank; guiding dam at Hermannshof (near Neufelder Watt),https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673651,Channel Deepening
+Elbe,Elbe,Germany,1840 to 1850,Channel Deepening / Misscellaneous,"dredging in Hamburg Habor to provide depth of current vessel drafts (as needed); development of ""Norderelbe"" and ""Köhlbrant""; opening to Kaltehofe and construction of Bunthaus (> increaased flow in No",https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673648,Channel Deepening
+Elbe,Elbe,Germany,1971 to 1977,Land Reclamation,large parts of the island of Schwarztonnensand were raised; Shaping of the islands Lühesand and Rhinplatte; Use of Lühesand and Rhinplatte as guiding islands,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673655,Land Reclamation
+Elbe,Elbe,Germany,until 1968,Land Reclamation,new island Neßsand developed,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673653,Land Reclamation
+Elbe,Elbe,Germany,1910/1911,Misscellaneous,dam (length 7.5 km ) between Schweinesand and Hanskalbsand,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673649,Other
+Elbe,Elbe,Germany,1922 to 1930,Misscellaneous,dam/ training wall at Pagensand,https://henry.baw.de/items/488873fe-df64-451f-866d-7f81fb673650,Other
+Elbe,Elbe,Germany,1956-1960,Tidal Barrier,Construction Staustufe Geesthacht at 140km from the mouth,Staustufe Geesthacht – Wikipedia,Tidal Barrier
+Weser,Weser,Germany,1910-1911,Changes to the Inlet Geometry,"construction of groynes near Imsum (outer Weser),  guiding dam at Robbensüdsteert",http://www.wsa-bremerhaven.de/weserausbauten/geschichte_der_weserausbauten_/index.html (accessed 29.07.2016),Inlet Geometry Changes
+Weser,Weser,Germany,1887-1895,Channel Deepening,"Expansion of upstream Weser, deepening for vessels of 5m draft",Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1913-1916,Channel Deepening,deepening in upper Weser for vessels with draft of 7m,Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1921 -1924,Channel Deepening,"""Upgrading of the Lower Weser for vessels with a draft of 7.0 m when leaving
+Bremen (extended 7.0 m-correction of the UW""",Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1925 -1929,Channel Deepening,"deepening in upper Weser (""Fedderwarder Arm"") for vessels with draft of 8m",Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1953-1958,Channel Deepening,"deepening of the upper Weser for vessels with a draft of 8.7 m, levelling of the bottom sill at Brake (""Braker Buckel"")",Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1969-1971,Channel Deepening,Deepening of lower Weser (downstream) to chart datum of -12m; addiional groyne constructions,Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1973 - 1974,Channel Deepening,"""Deepening of the Lower Weser between Bremerhaven and Nordenham to
+SKN – 11m and dredging of the turning circles""",Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1973 - 1978,Channel Deepening,"Deepening of upper Weser, between Brake and Bremen to chart datum -9m",Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1998-1999,Channel Deepening,deepening downstream Weser to chart datum -14m,Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1922- 1928,Channel Deepening / Changes to the Inlet Geometry,"""Upgrading of ‚Fedderwarder Arm’ in Outer Weser to SKN – 10 m"", SKN = chart datum; guiding dams and groynes at Langlütjen, Robbenplate",Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Channel Deepening
+Weser,Weser,Germany,1906-1911,Miscellaneous,"Construction of the Hemelingen weir system, intended to prevent the further deepening of the Lower Weser from lowering the groundwater levels in the Prussian marshes upstream of Bremen.",http://www.wsa-bremerhaven.de/weserausbauten/geschichte_der_weserausbauten_/index.html (accessed 29.07.2016),Other
+Weser,Weser,Germany,2006,Misscellaneous,construction of turning area for ships at Bremerhaven,Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Other
+Weser,Weser,Germany,1982-1991,Misscellaneous,Construction and renewal of river groynes and training structures (Leitwerken) between Nordenham and Brake as part of the 9-meter expansion,Kuratorium für Forschung im Küsteningenieurwesen (Ed.). (2008).,Other
+Weser,Weser,Germany,1906-1911,Tidal Barrier,Construction original Weserwehr in Bremen at 72km from the mouth,Bremer Weserwehr – Wikipedia,Tidal Barrier
+Weser,Weser,Germany,1945 (April),Tidal Barrier,Weserwehr damaged and destroyed in WWII,Bremer Weserwehr – Wikipedia,Tidal Barrier
+Weser,Weser,Germany,1948-1949,Tidal Barrier,Weserwehr rebuilt,Bremer Weserwehr – Wikipedia,Tidal Barrier
+Weser,Weser,Germany,1989-1993,Tidal Barrier,Weserwehr fully replaced by a new structure,Bremer Weserwehr – Wikipedia,Tidal Barrier
+Weser,Weser,Germany,1891-1895,Channel Deepening /Misscelaneous,"construction of training walls at the Franzius Plate (length 6km), and off Imsum (1.6 kml ength); deepneing of outer(downstream) Weser to 7.3m depth below mean low water, expansion of eastern channel ",http://www.wsa-bremerhaven.de/weserausbauten/geschichte_der_weserausbauten_/index.html (accessed 29.07.2016),Channel Deepening
+Ems,Ems,Germany / The Netherlands,1900,Changes to the Channel Network,Main fairway channel changed from southern location bay of Watum to East Frisian Gatje (Gatjebogen); improvement of access to Emden Fairway,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Network Changes
+Ems,Ems,Germany / The Netherlands,1986,Channel Deepening,Deepnening from -4m to -7m vessel draft,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Deepening
+Ems,Ems,Germany / The Netherlands,1994,Channel Deepening,Dredging of Fairway of upstream tidal Ems to -7.3m vessel draft as needed (!),https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Deepening
+Ems,Ems,Germany / The Netherlands,1911-1929,Channel Deepening,Assured depths: Emden–Leer to −5.0 m MHW; Leer–Papenburg to −4.0 to −4.5 m MHW (progressive navigational deepening).,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Deepening
+Ems,Ems,Germany / The Netherlands,1960s,Channel Deepening,Emden Chart datum to -8m,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Deepening
+Ems,Ems,Germany / The Netherlands,1930s,Channel Deepening / Misscellaneous,Geiseleitdamm strengthened; further deepening: Outer Ems to −7.0 m SKN; Pogum–Leer to −5.5 m MHW; Leer–Papenburg to −4.2 m MHW.,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Deepening
+Ems,Ems,Germany / The Netherlands,1984,Channel Straightening,Channel straightening of upstream stretches,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Straightening
+Ems,Ems,Germany / The Netherlands,1892-1899,Channel Straightening,Meander cut-offs at Tunxdorf and Rhede; straightening of the lower Ems.,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Straightening
+Ems,Ems,Germany / The Netherlands,1860,Channel Straightening / Channel Deepening,Start of canalization works in the lower ems,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Channel Deepening
+Ems,Ems,Germany / The Netherlands,1870-1899,Misscellaneous,Construction of Geise training wall (Geiseleitdamm),https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Other
+Ems,Ems,Germany / The Netherlands,1930 to 1930,Misscellaneous,"new large structure (stone dam) which is todays shoreline at Knock; behind the guiding dam (~3.5km long) sand deposits accumulated (= mudflat, called ""Rysumer Nacken""); by 1939 ~ 14 Mio. m³ of sedimen",https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Other
+Ems,Ems,Germany / The Netherlands,1958 to 1961,Misscellaneous,Geis dam: 12 km length; dam at northern side of Emden Fairway: ~2.2 km length,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Other
+Ems,Ems,Germany / The Netherlands,1998 to 2002,Misscellaneous/Tidal Barrier,built Ems storm barrier; since then also used to dam water for ship transfer from Papenburg downstream,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Tidal Barrier
+Ems,Ems,Germany / The Netherlands,1899,Tidal Barrier,Construction of Tidewerh (Weir) Emden,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Tidal Barrier
+Ems,Ems,Germany / The Netherlands,1954,Tidal Barrier,Leda barrage (Leda-Sperrwerk) at Leer completed—tidal propagation and surge inflow from Ems into Leda/Jümme can be blocked.,https://henry.baw.de/bitstream/20.500.11970/108616/1/BAWFuE-Abschlussbericht_MudEstuary-B_2020-3.pdf,Tidal Barrier
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1904,Changes to the Channel Network,Separation of the Meuse: Afgedamde Maas closed; Bergsche Maas canal opened. Rerouted Meuse discharge to Hollands Diep/Haringvliet,Paalvast (2014),Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1863-1872,Changes to the Channel Network,"Construction of Nieuwe Waterweg, new outlet for the Rhine-Meuse Estuary. This also included jetties at Hoek van Holland (mouth of Nieuwe Waterweg)",Vellinga et al. (2014); https://en.wikipedia.org/wiki/Nieuwe_Waterweg,Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1871-1872,Changes to the Channel Network,Low-water dam & separation of Scheur/Brielsche Maas during NWw works,Paalvast (2014),Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1957-1977,Changes to the Channel Network,Construction Volkerak Dam,https://en.wikipedia.org/wiki/Volkerakdam,Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1958-1971,Changes to the Channel Network,Closure Haringvliet (southern tidal outlet) - Discharge shifted to New Waterway,Vellinga et al. (2014),Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1969-1972,Changes to the Channel Network,Dam between Nieuwe Waterweg and the Europoort Access channel,Huismans et al. (2021),Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1997,Changes to the Channel Network,Hartelkanaal western connection opened (Beerdam breached),Vellinga et al. (2014),Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1978–1993,Changes to the Channel Network - Misscellaneous,"Construction of dams in the river bed of the Oude Maas (1978), filling up of deeper parts (1985–1986) and removal of two of the dams (1993).",Huismans et al. (2021),Channel Network Changes
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1970-1984,Changes to the Channel Network / Channel Deepening,Dordtsche Kil reconstruction & deepening to -8m NAP,Huismans et al. (2021),Channel Deepening
+Rhine-Meuse,Rhine-Meuse,The Netherlands,2005,Channel Deepening,Deepening navigation channel (−9.4 m NAP) Dortsche Kil/Hollandsch Diep,Huismans et al. (2021),Channel Deepening
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1974-1975,Channel Deepening,"""Trapjeslijn"" Stepped bed profile in Nieuwe Waterweg - Nieuwe Maas",Huismans et al. (2021),Channel Deepening
+Rhine-Meuse,Rhine-Meuse,The Netherlands,,Channel Deepening,Deepening Trapjeslijn between km 1005 and 1013,Huismans et al. (2021),Channel Deepening
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1960s,Land Reclamation,Construction Europort & (first) Maasvlakte,https://en.wikipedia.org/wiki/Maasvlakte,Land Reclamation
+Rhine-Meuse,Rhine-Meuse,The Netherlands,1997,Misscelaneous,Construction storm surge barrier “Maeslantkering” finalised,Huismans et al. (2021),Other
+Rhine-Meuse,Rhine-Meuse,The Netherlands,2008,Misscellaneous / Land Reclamation,Start of construction “Tweede Maasvlakte”,Huismans et al. (2021),Land Reclamation
+Thames,Thames,United Kingdom,1843-1877,Channel Deepening,Systematic dredging of shoals and removal of half-tide weirs/obstructions,Redman (1877),Channel Deepening
+Thames,Thames,United Kingdom,1909–1928,Channel Deepening,Major capital dredging (PLA)—deepened channel upstream from Tilbury,Siggers et al. (2006),Channel Deepening
+Thames,Thames,United Kingdom,1831,Misscellaneous,Removal of Old London Bridge and replacement with wider-spanned bridge,Redman (1877),Other
+Thames,Thames,United Kingdom,1862-1870,Misscellaneous,Construction of Victorian Thames Embankments 1862-1870,https://en.wikipedia.org/wiki/Thames_Embankment,Other
+Thames,Thames,United Kingdom,1974-1982,Misscellaneous,Construction Thames Barrier,https://en.wikipedia.org/wiki/Thames_Barrier,Other
+Thames,Thames,United Kingdom,1810-1811,Tidal Barrier,Teddington Lock & Weir constructed,https://en.wikipedia.org/wiki/Teddington_Lock,Tidal Barrier
+Cape Fear River,Cape Fear,USA,1915-1935,Altered Flow Regime,Construction of Cape Fear Locks and dams,https://www.saw.usace.army.mil/Locations/District-Lakes-and-Dams/Cape-Fear-Locks-and-Dams,Altered Flow Regime
+Cape Fear River,Cape Fear,USA,1967-1982,Altered Flow Regime,Construction of B. Everett Jordan Dam & Lake,https://www.saw.usace.army.mil/Locations/District-Lakes-and-Dams/B-Everett-Jordan/History,Altered Flow Regime
+Cape Fear River,Cape Fear,USA,1881,Channel Deepening,Start of large scale dredging,Familkhalili & Talke (2016),Channel Deepening
+Cape Fear River,Cape Fear,USA,1932,Channel Deepening,Maintenance depth increased to -9.1m MLLW,Familkhalili & Talke (2016),Channel Deepening
+Cape Fear River,Cape Fear,USA,1971,Channel Deepening,Maintenance depth increased to -11.6m MLLW,Familkhalili & Talke (2016),Channel Deepening
+Cape Fear River,Cape Fear,USA,2001,Channel Deepening,Maintenance depth increased to -13.5m MLLW,Familkhalili & Talke (2016),Channel Deepening
+Cape Fear River,Cape Fear,USA,2015,Channel Deepening,Maintenance depth increased to -15.5m MLLW,Familkhalili & Talke (2016),Channel Deepening
+Cape Fear River,Cape Fear,USA,1870-1891,Network Reconfiguration,"Closure of new inlet via the long rock dam ""the Rocks"" between Bald Head & Fort Fisher",https://eu.starnewsonline.com/story/news/2016/04/28/army-corps-why-remove-rocks/27588781007/,Channel Network Changes
+Columbia,Columbia,USA,1941-1968,Altered Flow Regime,"Construction Grand Collee Dam (1941), The Dallas Dam (1957) & John Doe Dam (1968).  Spring freshet flows reduced by ~45%.",Helaire et al. (2019); Templeton et al. (2024),Altered Flow Regime
+Columbia,Columbia,USA,1917,Changes to Inlet Geometry,Construction North Jetty,Helaire et al. (2019),Inlet Geometry Changes
+Columbia,Columbia,USA,1885-1895,Changes to Inlet Geometry,Construction South Jetty,Helaire et al. (2019),Inlet Geometry Changes
+Columbia,Columbia,USA,1878,Channel Deepening,Maintenance depth Columbia River Channel of -6.1m MLLW,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1882,Channel Deepening,Maintenance depth Columbia River Mouth of -9.1m MLLW,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1899,Channel Deepening,Maintenance depth Columbia River Channel of -7.6m MLLW,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1905,Channel Deepening,Maintenance depth Columbia River Mouth of -12.2m MLLW,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1912,Channel Deepening,Maintenance depth Columbia River Channel of -9.1m MLLW and 91m width,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1930,Channel Deepening,Maintenance depth Columbia River Channel of -10.7m MLLW and 152m width,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1954,Channel Deepening,Maintenance depth Columbia River Mouth of -14.6m  MLLW,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1962,Channel Deepening,Maintenance depth Columbia River Channel of -12.2m MLLW and 183m width,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1999,Channel Deepening,Maintenance depth Columbia River Channel of -13.1m MLLW,Helaire et al. (2019),Channel Deepening
+Columbia,Columbia,USA,1880-1940,Land Reclamation,">50% of wetlands lost (~31,500 acres), with reclamation peaking in 1936-1940",Marcoe & Pilson (2017); Templeton et al. (2024),Land Reclamation
+Columbia,Columbia,USA,2004-Present,Restoration Efforts,CEERP began in ~2004 restoring tidal floorplains. ~9% of recoverable floodplain restored by 2021 by levee breaching and reconnection of tidal wetlands,Templeton et al. (2024),Restoration
+Columbia,Columbia,USA,1934-1937,Tidal Barrier,"Completion Bonneville Dam at ~226km from Columbia River Mouth. Before the construction of Bonneville dam, the tidal limit was located at Cascades Rapids (at ~231km)",Helaire et al. (2019); Templeton et al. (2024),Tidal Barrier
+Columbia,Columbia,USA,1913,Changes to Inlet Geometry,South Jetty extended seasward by 7km,Helaire et al. (2019),Inlet Geometry Changes
+Connecticut River,Connecticut,USA,1840-1970,Altered Flow Regime,Gradual Alteration of Flow Regime by many smaller hydropower and flood control dams,,Altered Flow Regime
+Connecticut River,Connecticut,USA,1872,Changes to Inlet Geometry,Construction of Old Saybrook Entrance Jetties,,Inlet Geometry Changes
+Connecticut River,Connecticut,USA,1946,Channel Deepening,Maintenance depth at -4.6m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+Connecticut River,Connecticut,USA,1836,Channel Deepening / Changes to Inlet Geometry,Initial dredging of Saybrook Bar (entrance of Connecticut),Love (1903),Channel Deepening
+Connecticut River,Connecticut,USA,1994,Miscellaneous,Tidal Wetlands of Lower Connecticu River estuary listed as Ramsar Wetland of International Importance hereby ensuring protection and management,https://rsis.ramsar.org/ris/710,Other
+Connecticut River,Connecticut,USA,1827,Tidal Barrier,Construction of Enfield Dam,,Tidal Barrier
+Coos Bay,Coos_Bay,USA,1880-1914,Changes to Inlet Geometry,"Jettying of Estuary Mouth, reducing the inlet width from 1.3km to 0.62km",Eidam et al. (2021; 2022),Inlet Geometry Changes
+Coos Bay,Coos_Bay,USA,1912,Channel Deepening,Maintenance depth Entrance to Istmough Slough -5.2m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+Coos Bay,Coos_Bay,USA,1919,Channel Deepening,Maintenance depth Entrance to Istmough Slough -6.1m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+Coos Bay,Coos_Bay,USA,1951,Channel Deepening,Maintenance depth Entrance to Istmough Slough -7.9m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+Coos Bay,Coos_Bay,USA,1967,Channel Deepening,Maintenance depth Entrance to Istmough Slough -9.1m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+Coos Bay,Coos_Bay,USA,1983,Channel Deepening,Maintenance depth Entrance to Istmough Slough -10.7m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+Coos Bay,Coos_Bay,USA,2011,Channel Deepening,Maintenance depth Entrance to Istmough Slough -11.3m MLLW and width of 94.4m,https://historicalcharts.noaa.gov/,Channel Deepening
+Coos Bay,Coos_Bay,USA,2022,Channel Deepening,Plans to deepen the channel to 14 m and widen by 45 m for LNG terminal access (Jordan Cove project).,Eidam et al. (2021; 2022),Channel Deepening
+Coos Bay,Coos_Bay,USA,1992,Land Reclamation,Runway Extended North Bend Airport,Eidam et al. (2021; 2022),Land Reclamation
+Coos Bay,Coos_Bay,USA,1910-1970,Land Reclamation,"Major period of intertidal filling for urban, industrial, and transportation infrastructure. Estuary area reduced by ~12%.",Eidam et al. (2021; 2022),Land Reclamation
+Coos Bay,Coos_Bay,USA,1944-1953,Land Reclamation,North Bend airport built on filled marshland,Eidam et al. (2021; 2022),Land Reclamation
+Coos Bay,Coos_Bay,USA,1930-1970,Miscellaneous,"Dredge spoils dumped on intertidal flats, especially east of the main channel.",Eidam et al. (2021; 2022),Other
+Coos Bay,Coos_Bay,USA,1940-1944,Network Reconfiguration,Coos River rerouted from eastern flats into Marshfield Channel to support port development.,Eidam et al. (2021; 2022),Channel Network Changes
+Delaware River,Delaware,USA,1950-1980,Altered Flow Regime,"Dam/Reservoir Construction in Catchment Delaware; e.g. Pepacton Dam, Cannonsville Reservoir, etc.","https://en.wikipedia.org/wiki/Cannonsville_Reservoir, https://en.wikipedia.org/wiki/Pepacton_Reservoir  https://www.nyc.",Altered Flow Regime
+Delaware River,Delaware,USA,1898,Channel Deepening,Maintenance depths set at -7.9m MLLW; beginning of federally maintanted shipping channel,Parejo-Roman et al. (2020),Channel Deepening
+Delaware River,Delaware,USA,1910,Channel Deepening,Maintenance depths set at -9.1m MLLW,Parejo-Roman et al. (2020),Channel Deepening
+Delaware River,Delaware,USA,1926,Channel Deepening,Maintenance depths set at -10.7m MLLW,Parejo-Roman et al. (2020),Channel Deepening
+Delaware River,Delaware,USA,1940,Channel Deepening,Maintenance depths set at -12.2m MLLW,Parejo-Roman et al. (2020),Channel Deepening
+Delaware River,Delaware,USA,2014,Channel Deepening,Maintenance depths set at -13.7m MLLW,Parejo-Roman et al. (2020),Channel Deepening
+Delaware River,Delaware,USA,1897,Miscellaneous,Removal of Smiths and Windmill Island from Delaware River to improve navigation,https://philadelphiaencyclopedia.org/essays/smiths-and-windmill-islands,Other
+Delaware River,Delaware,USA,1829,Network Reconfiguration,Construction of Chesapeake & Delaware Canal  (with locks),https://en.wikipedia.org/wiki/Chesapeake_%26_Delaware_Canal,Channel Network Changes
+Delaware River,Delaware,USA,1927-1929,Network Reconfiguration,"Chesapeake & Delaware Canal converted to sea-level ship canal (no locks), ~3.7m deep and 27m wide, improving tidal connectivity between bays.",https://en.wikipedia.org/wiki/Chesapeake_%26_Delaware_Canal,Channel Network Changes
+Delaware River,Delaware,USA,1935–1938,Network Reconfiguration,Chesapeake & Delaware Canal deepened to -8.2m MLLW,https://en.wikipedia.org/wiki/Chesapeake_%26_Delaware_Canal,Channel Network Changes
+Delaware River,Delaware,USA,1970s,Network Reconfiguration,Chesapeake & Delaware Canal deepened to -10.7m MLLW,https://en.wikipedia.org/wiki/Chesapeake_%26_Delaware_Canal,Channel Network Changes
+Hudson River,Hudson,USA,1930,Altered Flow Regime,"Construction Conklingville Dam (Sacandaga Reservoir) built for flood control, reducing freshed peaks",Ralston et al. (2019),Altered Flow Regime
+Hudson River,Hudson,USA,1860-1880,Channel Deepening,Initial dredging to Albany to maintenance depth -3m,Ralston et al. (2019),Channel Deepening
+Hudson River,Hudson,USA,1892-1910,Channel Deepening,Maintenance depth to Albany increased to -3.7m MLLW,Schureman (1934),Channel Deepening
+Hudson River,Hudson,USA,1899-1914,Channel Deepening,Dredging of Ambrose Channel in New York Harbor to depth of 12m,Ralston et al. (2019),Channel Deepening
+Hudson River,Hudson,USA,1920-1930,Channel Deepening,Maintenance depth to Albany increased to -9.8m MLLW,Ralston et al. (2019); Schureman (1934),Channel Deepening
+Hudson River,Hudson,USA,1990-2010,Channel Deepening,New York Harbor channels deepened to 15-16m for Panamax/post-Panamax ships,Ralston et al. (2019),Channel Deepening
+Hudson River,Hudson,USA,1940-1960,Network Reconfiguration,Continued Dredging and disposal in side channels resulting in conversion of braided network to single channel.,Ralston et al. (2019),Channel Network Changes
+Hudson River,Hudson,USA,1832,Tidal Barrier,Construction of Troy State Dam (set the head of the tide near Troy),Schureman (1934),Tidal Barrier
+James River,James,USA,1884-1966,Channel Deepening,"James River Federal Navigation Project Authorized, Current project depth is -7.6m MLLW","https://www.nao.usace.army.mil/About/Projects/James-River-Navigation , https://historicalcharts.noaa.gov/",Channel Deepening
+James River,James,USA,1864-1870,Channel Straightening,Dutch Gap Canal Cut to bypass long meander,https://en.wikipedia.org/wiki/Dutch_Gap_Canal,Channel Straightening
+Potomac River,Potomac,USA,1950's - 1980's,Altered Flow Regime,"Dam/Reservoir Construction in Catchment Potomac; e.g. Little Falls Dam, Jennings Randolph Lake","https://en.wikipedia.org/wiki/Little_Falls_Dam_(Potomac_River) , https://en.wikipedia.org/wiki/Jennings_Randolph_Lake",Altered Flow Regime
+Potomac River,Potomac,USA,1860's-1870's,Channel Deepening,Maintenance Depth of navigation channels at -4.6m MLLW,https://www.nps.gov/articles/history-archeology-of-dc-flood-abatement-part-2.htm,Channel Deepening
+Potomac River,Potomac,USA,1935-1940,Channel Deepening,Maintenance Depth of navigation channels increased to -7.3m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+Potomac River,Potomac,USA,1882,Land Reclamation,Start of Potomac Flats reclamation project,https://www.nps.gov/articles/history-archeology-of-dc-flood-abatement-part-2.htm,Land Reclamation
+San Francisco Bay,San Francisco_Bay,USA,1938-1963,Altered Flow Regime,"Construction of dams as part of the ""Central Valley Project"". This reduced freshwater inflow and sediment inputs.",Rodriguez-Padilla & Ortiz (2017),Altered Flow Regime
+San Francisco Bay,San Francisco_Bay,USA,1960-1971,Altered Flow Regime,"Implementation of the ""State Water Project"", consisting of dam construction (e.g. Oroville Dam) and infrastructure to divert water to Southern California (pumps, aquaducts, tunnels).",https://en.wikipedia.org/wiki/California_State_Water_Project,Altered Flow Regime
+San Francisco Bay,San Francisco_Bay,USA,1922,Channel Deepening,Entrance Channel dredged to depth of -12.2m MLLW,Rodriguez-Padilla & Ortiz (2017),Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1933,Channel Deepening,Port of Stockton officially opened to ocean-going vessels with a maintenance depth of -7.9m MLLW,https://en.wikipedia.org/wiki/Stockton_Deepwater_Shipping_Channel,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1948,Channel Deepening,San Joaquin Maintenance Depth up to Stockton increased to -9.1m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1965,Channel Deepening,Shipping Channel San Francisco Bay (south) maintained at -9.1m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1991,Channel Deepening,San Joaquin Maintenance Depth up to Stockton increased to -10.6m MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,2013,Channel Deepening,Modern Entrance Channel maintenance depth is -16.8m MLLW with a width of 610 meters,Rodriguez-Padilla & Ortiz (2017),Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1932-1934,Channel Deepening,Entrance Channel maintenance depth increased to -13.7m MLLW,Rodriguez-Padilla & Ortiz (2017),Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1942-1959,Channel Deepening,Entrance Channel maintenance depth increased to -15.2m MLLW,Rodriguez-Padilla & Ortiz (2017),Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1948,Channel Deepening,Maintenance depth Sacramento River -3.0m MLLW (Cache Slough - Sacramento),https://historicalcharts.noaa.gov/,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1948,Channel Deepening,Maintenance depth Sacramento River -6.1m  MLLW(Mouth - Cache Slough),https://historicalcharts.noaa.gov/,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1963,Channel Deepening,Maintenance depth Sacramento Ship Channel -9.1 MLLW,https://historicalcharts.noaa.gov/,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1928,Channel Deepening & Straightening,"Construction of Stockton Deep Water Shipping Channel, including widening, straightening and cutting though islands",,Channel Deepening
+San Francisco Bay,San Francisco_Bay,USA,1848-1883,Channel Shallowing,Hydraulic gold mining in the watershed led to big influx of sediment,Rodriguez-Padilla & Ortiz (2017); Jaffe et al. (1998; 2007),Channel Shallowing
+San Francisco Bay,San Francisco_Bay,USA,1862,Land Reclamation,Start of Levee construction following 1862 flood,Moftakhari et al. (2015),Land Reclamation
+San Francisco Bay,San Francisco_Bay,USA,1884,Miscellaneous,Sawyer Decision: Ban on hydraulic mining debris discharge,Jaffe et al. (1998; 2007),Other
+San Francisco Bay,San Francisco_Bay,USA,1946-1963,Network Reconfiguration,Construction of the Sacramento Deep Water Ship Channel,https://en.wikipedia.org/wiki/Sacramento_Deep_Water_Ship_Channel,Channel Network Changes
+Savannah River,Savannah,USA,1954-1962,Altered Flow Regime,Dam construction in catchment Savannah e.g. J Strom Thurmond Dam (1954); Hartwell Dam (1962); Richard B. Russell Dam (1985),https://en.wikipedia.org/wiki/J._Strom_Thurmond_Dam  https://en.wikipedia.org/wiki/Hartwell_Dam https://en.wikipedia.org,Altered Flow Regime
+Savannah River,Savannah,USA,1886-1896,Changes to the Inlet Geometry,Jettying of the inlet (north & south jetty),,Inlet Geometry Changes
+Savannah River,Savannah,USA,1994,Channel Deepening,Channel deepened to -12.8m,Bassett (2022),Channel Deepening
+Savannah River,Savannah,USA,2015,Channel Deepening,Channel deepened to -14.3 as part of Savannah Harbor Expansion Project,Bassett (2022),Channel Deepening
+Savannah River,Savannah,USA,1866-1869,Channel Deepening,Channel deepening started by dredging and removing cribs / sunken ships from Civil War. Resulting depth -5.5m HW,Bassett (2022),Channel Deepening
+Savannah River,Savannah,USA,1890's,Channel Deepening,Channel deepened to -7.9m,Bassett (2022),Channel Deepening
+Savannah River,Savannah,USA,1970,Miscellaneous,Back River Tide Gate construction,https://www.sas.usace.army.mil/Media/News-Releases/Article/1410454/removal-of-tide-gate-in-back-river-moves-shep-closer-,Other
+Savannah River,Savannah,USA,2016,Miscellaneous,Back River Tide Gate removal,https://www.sas.usace.army.mil/Media/News-Releases/Article/1410454/removal-of-tide-gate-in-back-river-moves-shep-closer-,Other
+Savannah River,Savannah,USA,1881,Network Reconfiguration,Construction of Cross Tides Dam (between front & back channels),Bassett (2022),Channel Network Changes
+St. Johns River,St. Johns,USA,1968,Altered Flow Regime,Upstream reservoir construction (Kirkpatrick - Rodman Dam),https://en.wikipedia.org/wiki/Rodman_Reservoir,Altered Flow Regime
+St. Johns River,St. Johns,USA,1881-1895,Changes to the Inlet Geometry,Construction Jetties Mayport River Entrance,https://jacksonvillebeaches.info/thread/2290/construction-jettys,Inlet Geometry Changes
+St. Johns River,St. Johns,USA,1870s,Channel Deepening,First systematic dredging to create/maintain a 3m deep channel,Talke et al. (2021),Channel Deepening
+St. Johns River,St. Johns,USA,1890-1893,Channel Deepening,Controlling depth increased to 3.7-4.6m,Talke et al. (2021),Channel Deepening
+St. Johns River,St. Johns,USA,1899-1900,Channel Deepening,Controlling depth increased to 5.5m up to Jacksonville,Talke et al. (2021),Channel Deepening
+St. Johns River,St. Johns,USA,1915-1916,Channel Deepening,Controlling depth increased to 7.9m-9.1m up to Jacksonville,Talke et al. (2021),Channel Deepening
+St. Johns River,St. Johns,USA,2014-2022,Channel Deepening,Controlling depth increased to 5.5m up to Jacksonville,https://www.saj.usace.army.mil/Portals/44/docs/Planning/EnvironmentalBranch/EnvironmentalDocs/FINAL_Jacksonville_Harbor_,Channel Deepening
+St. Johns River,St. Johns,USA,1952,Channel Straightening,Dames Point cutoff: new cut through wetlands shortens the shipping channel by ~3 km just downstream of Dames Point.,Talke et al. (2021),Channel Straightening
+St. Johns River,St. Johns,USA,1950s,Channel Straightening,Additional ~1 km shortcut near Longbranch,Talke et al. (2021),Channel Straightening

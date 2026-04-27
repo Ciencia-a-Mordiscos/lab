@@ -1,0 +1,25 @@
+titulo: "La huella humana en las mareas: 25 ríos cambiados"
+fecha: 2026-04-27
+categoria: ecologia
+tags: [estuarios, mareas, hidrodinamica, antropogeno, cambio-historico, intervenciones-humanas, dragado]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01969-4"
+    titulo: "Human footprint on estuarine tidal hydrodynamics"
+    journal: "Nature Geoscience"
+    autores: "Beemster et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "estuarios.csv"
+    descripcion: "25 estuarios con rangos de marea, velocidades de propagación, asimetría, profundidad y áreas inter/supratidales en periodo histórico vs moderno"
+    fuente: "MOESM1 — Tablas S1 y S2 del Supplementary Information"
+  - nombre: "intervenciones.csv"
+    descripcion: "233 intervenciones humanas documentadas en los 25 estuarios (1800–2020)"
+    fuente: "MOESM2 — sources.xlsx, hoja Sources"
+  - nombre: "intervenciones_resumen.csv"
+    descripcion: "Agregado por tipo de intervención: número de eventos y estuarios afectados"
+    fuente: "Derivado en el notebook"
+estado: publicado
