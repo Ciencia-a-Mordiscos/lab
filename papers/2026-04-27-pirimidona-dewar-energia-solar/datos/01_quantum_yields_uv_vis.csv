@@ -1,0 +1,5 @@
+pyrimidone_id,epsilon_310nm_M-1cm-1,quantum_yield_310nm_pct,quantum_yield_310nm_err,lambda_max_nm
+P-1,4900,0.92,0.03,305
+P-2,6700,1.2,0.1,315
+P-3,3800,5.4,1.1,307
+P-4,3800,7.8,1.1,309

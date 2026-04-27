@@ -1,0 +1,222 @@
+{
+  "version": "1.0",
+  "paper_id": 2399,
+  "doi": "10.1126/science.aec6413",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Almacena más de 1,6 MJ/kg de energía solar térmica",
+      "supported": "yes",
+      "detail": "Tabla S7: 1,65 MJ/kg medido por DSC en D-3. Supera el umbral declarado en el título del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "energy_density_MJ_per_kg",
+        "value": 1.65,
+        "interpretation": "récord MOST"
+      }
+    },
+    {
+      "claim": "Hierve agua al añadir catalizador ácido (HCl)",
+      "supported": "yes",
+      "detail": "Tabla S7 exp 2: 106 mg D-3 + 1 mmol HCl en 1 mL agua → ΔT 75,76 K medido por cámara IR (alcanza ~100°C desde temperatura ambiente). Ebullición transitoria, no sostenida.",
+      "certainty_tier": "T1",
+      "abstract_verb": "releases",
+      "effect_size": {
+        "measure": "delta_T_K",
+        "value": 75.76,
+        "interpretation": "ebullición transitoria"
+      }
+    },
+    {
+      "claim": "Se excita con luz UV cerca de 300 nm",
+      "supported": "yes",
+      "detail": "Tabla S1: λmax de P-3 = 307 nm (el abstract redondea a 300 nm).",
+      "certainty_tier": "T1",
+      "abstract_verb": "stores",
+      "effect_size": {
+        "measure": "lambda_max_nm",
+        "value": 307,
+        "interpretation": "UV-B borderline UV-A"
+      }
+    },
+    {
+      "claim": "Es altamente soluble en agua",
+      "supported": "yes",
+      "detail": "Tabla S3: 987 ± 6 g/L de solubilidad acuosa para P-3.",
+      "certainty_tier": "T1",
+      "abstract_verb": "stores",
+      "effect_size": {
+        "measure": "solubility_g_per_L",
+        "value": 987,
+        "interpretation": "altísima"
+      }
+    },
+    {
+      "claim": "Densidad energética 5,2 veces mayor que el cis-azobenceno",
+      "supported": "yes",
+      "detail": "Tabla S7 (mismo aparato, condiciones equivalentes): D-3 1,65 MJ/kg vs cis-azobenceno 0,318 MJ/kg = 5,19×. Cis-estilbeno 0,226 MJ/kg.",
+      "certainty_tier": "T1",
+      "abstract_verb": "overcoming",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 5.19,
+        "interpretation": "récord histórico MOST"
+      }
+    },
+    {
+      "claim": "Vida media térmica útil a temperatura ambiente",
+      "supported": "partial",
+      "detail": "Tabla S5: ΔG‡ = 117 kJ/mol para D-3 (Eyring extrapolado a 25°C). Cinética se midió a 85-95°C, no directamente a temperatura ambiente. Estabilidad real a largo plazo no demostrada experimentalmente.",
+      "certainty_tier": "T2",
+      "abstract_verb": "stores",
+      "effect_size": {
+        "measure": "delta_G_act_kJ_per_mol",
+        "value": 117,
+        "interpretation": "extrapolada, no medida directa"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1.65,
+      "unit": "MJ/kg",
+      "context": "densidad energética almacenada en D-3 medida por DSC",
+      "source": "Tabla S7",
+      "verified": true
+    },
+    {
+      "value": 5.19,
+      "unit": "ratio",
+      "context": "razón D-3 vs cis-azobenceno en mismo aparato",
+      "source": "Tabla S7",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "5,2×",
+        "our_calculation": "5,19×",
+        "discrepancy_pct": 0.2,
+        "reason": "redondeo del paper"
+      }
+    },
+    {
+      "value": 75.76,
+      "unit": "K",
+      "context": "aumento de temperatura macroscópico (106 mg D-3 + 1 mL agua + 1 mmol HCl)",
+      "source": "Tabla S7 exp 2",
+      "verified": true
+    },
+    {
+      "value": 87,
+      "unit": "por ciento",
+      "context": "eficiencia de transferencia de calor IR/DSC para D-3",
+      "source": "Tabla S7",
+      "verified": true
+    },
+    {
+      "value": 42,
+      "unit": "por ciento",
+      "context": "eficiencia de transferencia para cis-azobenceno (referente histórico)",
+      "source": "Tabla S7",
+      "verified": true
+    },
+    {
+      "value": 5.4,
+      "unit": "por ciento",
+      "context": "rendimiento cuántico Φ de P-3 a 310 nm (la elegida)",
+      "source": "Tabla S1",
+      "verified": true
+    },
+    {
+      "value": 7.8,
+      "unit": "por ciento",
+      "context": "rendimiento cuántico Φ de P-4 (mayor que P-3 pero líquido inmiscible)",
+      "source": "Tabla S1",
+      "verified": true
+    },
+    {
+      "value": 307,
+      "unit": "nm",
+      "context": "λmax de absorción UV de P-3 (el abstract dice 300 nm)",
+      "source": "Tabla S1",
+      "verified": true
+    },
+    {
+      "value": 987,
+      "unit": "g/L",
+      "context": "solubilidad acuosa de P-3",
+      "source": "Tabla S3",
+      "verified": true
+    },
+    {
+      "value": 117,
+      "unit": "kJ/mol",
+      "context": "energía libre de activación ΔG‡ de la reversión D-3 → P-3 (extrapolada a 25°C desde 85-95°C)",
+      "source": "Tabla S5",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "compuestos",
+      "context": "pirimidonas sintetizadas y caracterizadas (P-1 a P-4)",
+      "source": "Tabla S1, S3",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "compuestos",
+      "context": "sustratos pirimidona evaluados por DFT (P-3 + 6 análogos sustituidos)",
+      "source": "Tabla S2",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'reportan'"
+    },
+    {
+      "abstract_verb": "releases",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'libera'"
+    },
+    {
+      "abstract_verb": "stores",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'almacena'"
+    },
+    {
+      "abstract_verb": "overcoming",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'superan'"
+    },
+    {
+      "abstract_verb": "help point the way",
+      "tier": "T2",
+      "cam_attenuator": "hedge obligatorio: 'apuntan camino hacia' / NO 'permite ya' o 'reemplaza'"
+    }
+  ],
+  "narrative_hooks": [
+    "1,65 MJ/kg: cinco veces más densidad energética que el azobenceno, el material que llevaba 40 años siendo el referente MOST.",
+    "Una gota de ácido y 100 mg de un polvo blanco hirvieron 1 mL de agua — la luz solar guardada como tensión molecular.",
+    "P-3 ganó la carrera entre 4 candidatas a pesar de no tener el mejor rendimiento cuántico: P-4 era más eficiente pero líquido inmiscible.",
+    "La química se inspiró en el ADN: las pirimidonas son bases nitrogenadas modificadas; el isómero Dewar es como un resorte molecular tensionado."
+  ],
+  "limitations": [
+    "Mediciones macroscópicas con n=1 réplica por experimento; no se reportan réplicas técnicas en Tabla S7.",
+    "ΔG‡ a 25°C extrapolado por Eyring desde mediciones a 85-95°C — la vida media térmica real a temperatura ambiente no se midió directamente.",
+    "Los referentes (cis-azobenceno, cis-estilbeno) se midieron en tolueno/metanol mientras D-3 está en agua; el medio afecta la transferencia de calor (Cp del agua = 2,4× Cp del tol/MeOH).",
+    "El paper cierra con un hedge T2 explícito ('help point the way'): la viabilidad como dispositivo comercial para almacenar calor descentralizado no está demostrada — solo la química y la termodinámica del material.",
+    "Dataset oficial en Dryad (doi:10.5061/dryad.rxwdbrvqg) en estado 'submitted' al momento de este notebook (embargo de curación)."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 1 partial; 12 key_numbers; densidad temática alta (química + DFT + comparación histórica)."
+  },
+  "notebook_slug": "2026-04-27-pirimidona-dewar-energia-solar",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-27-pirimidona-dewar-energia-solar/notebook.html",
+  "generated_at": "2026-04-27T21:44:11.352239Z"
+}

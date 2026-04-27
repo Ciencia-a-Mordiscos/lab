@@ -341,6 +341,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-27-pirimidona-dewar-energia-solar/README
+    title: "1,65 MJ/kg en una pirimidona: cinco veces más densidad que el azobenceno"
+    sections:
+    - file: papers/2026-04-27-pirimidona-dewar-energia-solar/notebook
+      title: Notebook
   - file: papers/2026-04-23-nanonets-amiloide-nanoplasticos/README
     title: "Una red biohíbrida que se mueve y captura nanoplásticos"
     sections:

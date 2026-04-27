@@ -1,0 +1,7 @@
+experiment,sample,m_sample_mg,Cp_sample_J_g-1_K-1,n_acid_mmol,V_medium_mL,medium,Cp_medium_J_g-1_K-1,delta_T_IR_K,delta_H_IR_J,delta_H_storage_MJ_kg,delta_H_DSC_J,efficiency_IR_DSC
+1,D-3 (MOST),51.36,0.98,0.5,0.5,water,4.183,39.77,85,1.65,85,1.0
+calc,D-3 (calc),100,0.98,1.0,1.0,water,4.183,75.0,164,1.65,165,
+2,D-3 (MOST),106.59,0.98,1.0,1.0,water,4.183,75.76,153,1.65,176,0.87
+3,P-3 (control),105.66,0.98,1.0,1.0,water,4.183,7.03,14,0,,
+4,cis-azobenzene,105,0.37,1.0,1.0,tol/MeOH,1.737,19.11,14,0.318,33,0.42
+5,cis-stilbene,105.93,1.26,1.0,1.0,tol/MeOH,1.737,12.92,11,0.226,23,0.48
