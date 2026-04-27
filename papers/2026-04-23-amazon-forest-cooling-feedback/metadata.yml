@@ -1,0 +1,22 @@
+titulo: "El Amazonas que enfría: 6.8 W/m² de paradoja"
+fecha: 2026-04-23
+categoria: ecologia
+tags: [amazon, deforestacion, clima, satelite, radiative-forcing, ceres, modis, nubes]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adz8296"
+    titulo: "Amazon forest loss: An all-sky biophysical top-of-atmosphere cooling feedback"
+    journal: Science
+    autores: "Dror et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "toa_flux_vs_forest_loss.csv"
+    descripcion: "122 bins de fracción de pérdida de bosque con flujos TOA SW/LW y propiedades nubosas (estación seca, all-sky)"
+    fuente: "NOAA Chemical Sciences Laboratory — Supplementary del paper"
+  - nombre: "feedback_summary.csv"
+    descripcion: "24 valores resumen pre-calculados: estación × magnitud × cielo × umbral"
+    fuente: "NOAA Chemical Sciences Laboratory — Supplementary del paper"
+estado: publicado

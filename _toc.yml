@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-04-23-amazon-forest-cooling-feedback/README
+    title: "El Amazonas que enfría: 6.8 W/m² de paradoja"
+    sections:
+    - file: papers/2026-04-23-amazon-forest-cooling-feedback/notebook
+      title: Notebook
   - file: papers/2026-01-17-metano-151-vertederos-satelite/README
     title: "151 vertederos del mundo, 1085 detecciones satelitales"
     sections:

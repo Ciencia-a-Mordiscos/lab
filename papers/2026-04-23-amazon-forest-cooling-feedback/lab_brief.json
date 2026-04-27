@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "paper_id": 2394,
+  "doi": "10.1126/science.adz8296",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El TOA en alta deforestación enfría 6.8 ± 0.6 W/m² (onda corta)",
+      "supported": "yes",
+      "detail": "Calculado: 6.76 ± 0.60 W/m² · coincide al 0.6% del valor del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "reaches",
+      "effect_size": {
+        "measure": "wm2",
+        "value": 6.76,
+        "interpretation": "headline del paper"
+      }
+    },
+    {
+      "claim": "Las nubes amplifican el efecto del albedo vs suelo desnudo (≈ doble)",
+      "supported": "yes",
+      "detail": "Amplificación de albedo × 2.19; del flujo SW × 3.41 (en alta deforestación, estación seca)",
+      "certainty_tier": "T1",
+      "abstract_verb": "doubling",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 2.19,
+        "interpretation": "doubling del paper"
+      }
+    },
+    {
+      "claim": "La onda corta domina sobre la onda larga",
+      "supported": "yes",
+      "detail": "SW/LW × 12 en alta deforestación · 6.76 vs 0.56 W/m²",
+      "certainty_tier": "T1",
+      "abstract_verb": "dominating",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 12.0,
+        "interpretation": "SW domina LW"
+      }
+    },
+    {
+      "claim": "El flujo TOA en onda corta escala con la fracción de pérdida de bosque",
+      "supported": "yes",
+      "detail": "Pendiente OLS ~11 W/m² por unidad de f_loss · R² = 0.61 · p ≈ 0 (3.7e-26) sobre 122 bins",
+      "certainty_tier": "T1",
+      "abstract_verb": "scales with",
+      "effect_size": {
+        "measure": "ols_slope",
+        "value": 11.0,
+        "interpretation": "lineal a través del rango"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 6.76,
+      "unit": "W/m²",
+      "context": "ΔF_SW^↑ at f_loss≥0.5, all-sky, dry season",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "6.8 ± 0.6 W/m²",
+        "our_calculation": "6.76",
+        "match_quality": "exact (within 0.6%)"
+      }
+    },
+    {
+      "value": 3.33,
+      "unit": "W/m²",
+      "context": "ΔF_SW^↑ at f_loss>0 (any forest loss), all-sky, dry season",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.98,
+      "unit": "W/m²",
+      "context": "ΔF_SW^↑ at f_loss≥0.5 with clouds removed (surface brightening alone)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.78,
+      "unit": "W/m²",
+      "context": "Difference: 6.76 (all-sky) − 1.98 (surface only) = cloud-mediated component of TOA cooling at high-loss",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.41,
+      "unit": "× (ratio)",
+      "context": "Total amplification: 6.76 / 1.98. The all-sky effect is 3.4× the surface-brightening alone.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0062,
+      "unit": "dimensionless (Δα)",
+      "context": "TOA albedo change at f_loss≥0.5, all-sky, dry season",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0028,
+      "unit": "dimensionless (Δα)",
+      "context": "TOA albedo change at f_loss≥0.5, surface-only (clouds removed)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.19,
+      "unit": "× (ratio)",
+      "context": "Albedo all-sky / albedo surface-only at high-loss = 0.0062 / 0.0028. THIS is what 'doubling the effect relative to surface brightening alone' refers to in the abstract.",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "doubling",
+        "our_calculation": "2.19",
+        "match_quality": "exact (2.19× ≈ 2× = doubling)"
+      }
+    },
+    {
+      "value": 0.56,
+      "unit": "W/m²",
+      "context": "ΔF_LW^↑ at f_loss≥0.5, all-sky, dry season — much smaller than SW",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12.0,
+      "unit": "× (ratio)",
+      "context": "SW dominates LW: 6.76 / 0.56. THIS is what 'shortwave dominating' refers to.",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "shortwave dominating",
+        "our_calculation": "12.0",
+        "match_quality": "exact (SW is 12× larger than LW at high-loss)"
+      }
+    },
+    {
+      "value": 11.56,
+      "unit": "W/m²",
+      "context": "ΔF_SW^↑ at the most-deforested bin (f_loss = 0.85). Even larger than the 6.8 W/m² average for f≥0.5.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.0,
+      "unit": "W/m² per unit f_loss",
+      "context": "OLS slope of ΔFsw vs f_loss across 122 bins. Pearson r = 0.78, R² = 0.61. Slope means: a fully deforested pixel (f_loss=1) cools by ~11 W/m² relative to intact forest.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 122,
+      "unit": "forest-loss bins",
+      "context": "Number of 0.005-wide bins of forest-loss fraction in the headline regression",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "isolate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reaches",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con número"
+    },
+    {
+      "abstract_verb": "doubling",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (en albedo)"
+    },
+    {
+      "abstract_verb": "underscore",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa de implicación"
+    },
+    {
+      "abstract_verb": "support",
+      "tier": "T1-T2",
+      "cam_attenuator": "'son consistentes con' / 'apoyan' (no 'demuestran')"
+    }
+  ],
+  "narrative_hooks": [
+    "Pierdes un kilómetro cuadrado de Amazonas y el techo de la atmósfera deja escapar más energía hacia el espacio",
+    "Las nubes amplifican × 2 el efecto del albedo que el suelo pelado haría solo",
+    "Decir 'deforestar enfría el planeta' es saltar varios pasos — esto es el balance radiativo local, no el balance climático completo"
+  ],
+  "limitations": [
+    "Solo balance radiativo en el techo de la atmósfera — NO incluye carbono liberado, humedad atmosférica, ni el ciclo hidrológico continental",
+    "Respuesta local sobre el Amazonas en estación seca — no es global ni perenne",
+    "El abstract usa 'support' (no 'demonstrate') para política — el efecto del CO₂ liberado opera a otra escala y plazo",
+    "f_loss observado llega solo hasta 0.85 — extrapolar a 1.0 es lineal pero está fuera del rango muestreado"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes), 13 números clave — script estándar denso"
+  },
+  "notebook_slug": "2026-04-23-amazon-forest-cooling-feedback",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-23-amazon-forest-cooling-feedback/notebook.html",
+  "generated_at": "2026-04-27T21:06:55.906720Z"
+}
