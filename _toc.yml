@@ -351,6 +351,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-22-vidrio-metalico-resistencia-ceramica/README
+    title: "Un vidrio con la fuerza del diamante y la tenacidad de un metal"
+    sections:
+    - file: papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook
+      title: Notebook
   - file: papers/2026-04-27-pirimidona-dewar-energia-solar/README
     title: "1,65 MJ/kg en una pirimidona: cinco veces más densidad que el azobenceno"
     sections:

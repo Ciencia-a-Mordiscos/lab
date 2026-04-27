@@ -1,0 +1,25 @@
+titulo: "Un vidrio con la fuerza del diamante y la tenacidad de un metal"
+fecha: 2026-04-22
+categoria: tecnologia
+tags: [materiales, vidrio-metalico, BMG, renio, ashby, resistencia, tenacidad]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10430-w"
+    titulo: "Ceramic-like strength and metallic toughness in a bulk metallic glass"
+    journal: Nature
+    autores: "Cai et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "strength_toughness.csv"
+    descripcion: "σy y K1C de 23 cerámicas + 43 BMGs + 5 aleaciones cristalinas + this_work"
+    fuente: "Supplementary Table 1"
+  - nombre: "strength_vs_temperature.csv"
+    descripcion: "σy vs T (303–1273 K) para 16 materiales de alta T"
+    fuente: "Supplementary Table 2"
+  - nombre: "composiciones_re_co_ta_b.csv"
+    descripcion: "5 composiciones Re-Co-Ta-B con dc, Tg, Tx, ΔTx"
+    fuente: "Supplementary Table 6"
+estado: publicado

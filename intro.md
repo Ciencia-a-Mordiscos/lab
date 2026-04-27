@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Un vidrio con la fuerza del diamante y la tenacidad de un metal
+
+**Tecnología** · *Nature* · Cai et al. (2026) sintetizan **5 vidrios metálicos masivos** Re-Co-Ta-B y miden una combinación que llevaba décadas vacía en el plano resistencia-tenacidad: **6,43 GPa de fuerza** (cerca del diamante policristalino, 6,9-7,0 GPa) con **30 MPa·m^1/2 de tenacidad** — **3,4×** la mejor cerámica de su nivel de resistencia (PCD K1C=8,8). A **900 K** mantiene **4,4 GPa** (caída del **31,6%**, mejor que la mayoría de BMGs comparables). En los 8 materiales del dataset con σy ≥ 5 GPa, la mediana de tenacidad es 5,97 — el Re-Co-Ta-B la quintuplica. Más renio sube la temperatura de transición vítrea (Tg, 1001-1113 K) pero baja el espesor crítico de colada (3-4 mm). ⚠️ El mecanismo atómico (orden de corto rango heredado del Re7B3 + enlaces Re-B direccionales) viene de DFT computacional — el paper lo presenta como hipótesis (*suggests*), no como observación directa. Renio ~1500 USD/kg: investigación, no producción a escala.
+
+[Ver notebook](papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook) · [Leer más](papers/2026-04-22-vidrio-metalico-resistencia-ceramica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook.ipynb)
+
+---
+
 ### +23,9% más genes de resistencia a antibióticos en un suelo calentado 3°C
 
 **Ecología** · *Nature* · Wu et al. (2026) calientan parcelas de pradera en Oklahoma a **+3°C constantes durante 11 años (2010–2020)** y secuencian el ADN del suelo en 88 muestras finales. La abundancia de genes de resistencia a antibióticos sube **+23,9%** vs control (LMM ajustado; nuestra mediana directa da +23,6%, coincide a 0,3 puntos). Cohen's d = 0,24 — efecto pequeño pero consistente: en los 11 de los 11 años la mediana del calentado supera a la control. Las clases más afectadas son **glicopéptidos (+24,4%, p=0,023) y rifamicinas (+25,6%, p=0,003)** — dos antibióticos que los hospitales reservan para infecciones difíciles. MLS/macrólidos sube más que ambas (+31,8%, p=0,0008) pero el abstract no lo destaca. Mann-Whitney unilateral en abundancia total: p=0,009. ⚠️ El paper enmarca la transferencia horizontal de genes como hipótesis especulativa (*could be further amplified*), no como observación directa — la sostenemos ahí, no escalamos.

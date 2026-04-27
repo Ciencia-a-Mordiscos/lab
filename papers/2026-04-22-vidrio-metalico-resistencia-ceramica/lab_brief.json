@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "paper_id": 2384,
+  "doi": "10.1038/s41586-026-10430-w",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El Re-Co-Ta-B alcanza σy = 6.43 GPa y K1C = 30 MPa·m^1/2",
+      "supported": "yes",
+      "detail": "Tabla S1 confirma 6.43 / 30 exactos. Abstract los reporta como afirmación directa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Su σy supera a otros BMGs y a metales cristalinos",
+      "supported": "yes",
+      "detail": "En el dataset solo 2 BMGs alcanzan σy ≥ 5 GPa; el siguiente mejor es 5.96 GPa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exceeds",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Solo 3 cerámicas alcanzan o superan σy = 6.43 GPa, ninguna con K1C ≥ 9",
+      "supported": "yes",
+      "detail": "c-BN (7.0), PCD (6.9), PCD (7.0). Mejor combo: PCD 6.9 GPa + 8.8 MPa·m^1/2.",
+      "certainty_tier": "T1",
+      "abstract_verb": "implicit",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Mantiene 4.4 GPa a 900 K (caída de 31.6% desde 303 K)",
+      "supported": "yes",
+      "detail": "Tabla S2: σy(303 K) = 6.43 → σy(900 K) = 4.4. Cálculo verificado en notebook.",
+      "certainty_tier": "T1",
+      "abstract_verb": "retaining",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El gap de tenacidad vs cerámicas duras (σy ≥ 6 GPa) es ~3×",
+      "supported": "yes",
+      "detail": "K1C = 30 vs PCD máximo K1C = 8.8 → factor 3.4×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "implicit",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El refuerzo viene de orden de corto rango heredado del Re7B3 con enlaces Re-B direccionales",
+      "supported": "partial",
+      "detail": "Mecanismo propuesto (verbo 'suggest' + DFT computacional). Hipótesis aceptada pero no verificada en este notebook.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggests",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 6.43,
+      "unit": "GPa",
+      "context": "resistencia a la fractura del Re-Co-Ta-B a temperatura ambiente",
+      "source": "abstract+tabla_s1",
+      "verified": true
+    },
+    {
+      "value": 30,
+      "unit": "MPa·m^1/2",
+      "context": "tenacidad a la fractura del Re-Co-Ta-B",
+      "source": "abstract+tabla_s1",
+      "verified": true
+    },
+    {
+      "value": 4.4,
+      "unit": "GPa",
+      "context": "resistencia mantenida a 900 K",
+      "source": "abstract+tabla_s2",
+      "verified": true
+    },
+    {
+      "value": 31.6,
+      "unit": "por ciento",
+      "context": "caída de resistencia entre 303 K y 900 K",
+      "source": "calculado_en_notebook",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "composiciones",
+      "context": "número de aleaciones Re-Co-Ta-B sintetizadas (Re1–Re5)",
+      "source": "tabla_s6",
+      "verified": true
+    },
+    {
+      "value": 3.4,
+      "unit": "veces",
+      "context": "factor de tenacidad vs mejor cerámica con σy ≥ 6 GPa (PCD K1C=8.8)",
+      "source": "calculado_en_notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "synthesis and primary measurements"
+    },
+    {
+      "abstract_verb": "achieving",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "fracture strength 6.43 GPa, K1C 30 MPa·m^1/2"
+    },
+    {
+      "abstract_verb": "exceeds",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con número",
+      "context": "vs other BMGs and crystalline metals (table S1 lo respalda)"
+    },
+    {
+      "abstract_verb": "exhibit",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "thermal softening resistance, oxidation/corrosion resistance"
+    },
+    {
+      "abstract_verb": "retaining",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "4.4 GPa @ 900 K"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "synchrotron + microscopy show the origin (experimental observation)"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "los cálculos indican / sugieren",
+      "context": "First-principles DFT — interpretation, no direct experimental probe of bonds"
+    },
+    {
+      "abstract_verb": "suggests",
+      "tier": "T2",
+      "cam_attenuator": "los autores proponen / la idea es que",
+      "context": "structural heredity as guiding principle — generalization beyond this single paper"
+    }
+  ],
+  "narrative_hooks": [
+    "6.43 GPa: cerca del diamante policristalino, pero sin la fragilidad",
+    "Una región del mapa Ashby que llevaba décadas vacía",
+    "Triplica la tenacidad de cualquier cerámica de su misma resistencia",
+    "A 900 K solo pierde un tercio de la fuerza"
+  ],
+  "limitations": [
+    "Renio cuesta ~1500 USD/kg, uno de los elementos más raros — no escalable",
+    "Espesor crítico de colada 3-4 mm: piezas de investigación, no industriales",
+    "Tg ≈ 1001 K es un techo físico real: a 1000 K la resistencia cae 68%",
+    "Mecanismo atómico (SRO heredado, enlaces Re-B) es interpretación DFT, no observación directa de los enlaces",
+    "Los datos comparativos vienen del Supplementary PDF, no de un repositorio público auditable"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes verificados + datos numéricos densos (3 figuras + histograma)"
+  },
+  "notebook_slug": "2026-04-22-vidrio-metalico-resistencia-ceramica",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook.html",
+  "generated_at": "2026-04-27T23:13:03.910814+00:00"
+}
