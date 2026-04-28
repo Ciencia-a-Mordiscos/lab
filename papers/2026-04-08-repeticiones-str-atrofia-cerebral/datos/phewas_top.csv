@@ -1,0 +1,7 @@
+locus,umbral_etiqueta,umbral_repeticiones,icd10,enfermedad,odds_ratio,OR_IC95_inf,OR_IC95_sup,p_valor,casos_portadores,total_portadores
+HTT,Pathogenic,>=40,G10,Huntington's disease,1395.98,763.35,2552.91,3.06e-122,49,218
+HTT,Top 0.01%,44/43/41,G10,Huntington's disease,2569.79,1194.78,5527.24,8.43e-90,33,84
+DMPK,Pathogenic,>=50,G71.1,Myotonic disorders,600.66,370.67,973.34,8.84e-149,69,421
+DMPK,Pathogenic,>=50,G71,Primary muscle disorders,264.51,169.63,412.48,1.08e-133,69,421
+C9ORF72,Pathogenic,>=60,G12.2,Motor neuron disease,98.65,76.05,127.97,3.7e-111,72,629
+TCF4,Pathogenic,>=50,-,Hereditary corneal dystrophies,7.7,,,7.4e-65,,

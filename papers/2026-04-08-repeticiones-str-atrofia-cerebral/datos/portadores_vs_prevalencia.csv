@@ -1,0 +1,6 @@
+locus,enfermedad,portadores_por_100k,prevalencia_min_por_100k,prevalencia_max_por_100k,metodo_secuenciacion
+HTT,Huntington's (HD),30,3,7,WGS
+CACNA1A,Spinocerebellar ataxia 6,20,1,1,WES+WGS pooled
+C9orf72,Motor neuron disease,150,3.4,3.4,WGS
+DMPK,Myotonic dystrophy 1,180,9,9,WES
+DMPK,Myotonic dystrophy 1,70,9,9,WGS

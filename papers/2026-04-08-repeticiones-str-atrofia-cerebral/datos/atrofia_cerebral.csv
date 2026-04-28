@@ -1,0 +1,6 @@
+locus,region,reduccion_pct,p_valor,n_patogenicos,n_normales,n_premutacion
+HTT,putamen,22.1,1.4e-18,9,58792,122
+HTT,caudado,20.6,3.2e-11,9,58792,122
+HTT,accumbens,22.16,8e-09,9,58792,122
+HTT,palido,17.03,1.09e-10,9,58792,122
+CACNA1A,cerebelo,24.6,,10,62938,

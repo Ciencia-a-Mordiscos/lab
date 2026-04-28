@@ -172,6 +172,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-04-08-repeticiones-str-atrofia-cerebral/README
+    title: "Expansiones STR revelan atrofia cerebral preclínica"
+    sections:
+    - file: papers/2026-04-08-repeticiones-str-atrofia-cerebral/notebook
+      title: Notebook
   - file: papers/2026-04-08-edicion-bases-beta-talasemia-clinico/README
     title: "5 pacientes con β-talasemia, 23 meses sin transfusiones"
     sections:

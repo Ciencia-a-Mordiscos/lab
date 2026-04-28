@@ -1,0 +1,233 @@
+{
+  "version": "1.0",
+  "paper_id": 2323,
+  "doi": "10.1038/s41586-026-10345-6",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El estudio analizó 1.020.833 muestras para el screening STR; sub-cohorte con imagen cerebral ~58k–63k normales",
+      "supported": "yes",
+      "detail": "Reportado en abstract y métodos. Sub-cohorte de imagen es subset de UKB.",
+      "certainty_tier": "T1",
+      "abstract_verb": "performed",
+      "effect_size": null
+    },
+    {
+      "claim": "HTT pathogenic se asocia con Huntington con OR=1.396",
+      "supported": "yes",
+      "detail": "OR=1.395.98 (IC95% 763.35-2.552.91), p=3.06e-122 (Tabla S8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "captured",
+      "effect_size": {
+        "measure": "odds_ratio",
+        "value": 1395.98,
+        "interpretation": "asociación masiva"
+      }
+    },
+    {
+      "claim": "DMPK pathogenic se asocia con distrofia miotónica con OR=601",
+      "supported": "yes",
+      "detail": "OR=600.66 (IC95% 370.67-973.34), p=8.84e-149 (Tabla S8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "captured",
+      "effect_size": {
+        "measure": "odds_ratio",
+        "value": 600.66,
+        "interpretation": "asociación masiva"
+      }
+    },
+    {
+      "claim": "C9ORF72 pathogenic se asocia con enfermedad de motoneurona con OR=99",
+      "supported": "yes",
+      "detail": "OR=98.65 (IC95% 76.05-127.97), p=3.7e-111 (Tabla S8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "captured",
+      "effect_size": {
+        "measure": "odds_ratio",
+        "value": 98.65,
+        "interpretation": "asociación masiva"
+      }
+    },
+    {
+      "claim": "Portadores HTT patogénicos sin diagnóstico muestran 22.1% menos volumen del putamen",
+      "supported": "partial",
+      "detail": "n=9 portadores vs n=58.792 normales · p=1.4e-18. Señal estadística muy fuerte pero muestra muy chica. Sin SD por grupo en suplementarios, no se puede calcular Cohen's d.",
+      "certainty_tier": "T2",
+      "abstract_verb": "exhibited",
+      "effect_size": {
+        "measure": "percent_loss",
+        "value": 22.1,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "Portadores CACNA1A patogénicos muestran 24.6% menos volumen del cerebelo",
+      "supported": "partial",
+      "detail": "n=10 portadores vs n=62.938 normales. p no reportado en datos suplementarios disponibles. Misma limitación de muestra chica.",
+      "certainty_tier": "T2",
+      "abstract_verb": "showed",
+      "effect_size": {
+        "measure": "percent_loss",
+        "value": 24.6,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "Hay 44× más portadores de C9orf72 (150/100k) que casos diagnosticados de motoneurona (3.4/100k)",
+      "supported": "partial",
+      "detail": "Ratio carriers/cases es real pero penetrancia incompleta + edad + subdiagnóstico no se separan en este análisis transversal.",
+      "certainty_tier": "T2",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 44.1,
+        "interpretation": "gap dramático"
+      }
+    },
+    {
+      "claim": "La atrofia cerebral parece preceder al diagnóstico clínico",
+      "supported": "partial",
+      "detail": "Estudio transversal — el paper dice 'occur earlier than diagnosis', NO 'comienza antes'. Sin seguimiento longitudinal.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    },
+    {
+      "claim": "HTT eleva 1.9× el NfL plasmático",
+      "supported": "yes",
+      "detail": "Fold-change 1.9, p=2.1e-12. NfL es biomarcador validado de daño neuronal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "associate",
+      "effect_size": {
+        "measure": "fold_change",
+        "value": 1.9,
+        "interpretation": "biomarcador con respaldo previo"
+      }
+    },
+    {
+      "claim": "Las repeticiones STR causan estos cambios cerebrales",
+      "supported": "no",
+      "detail": "El paper es observacional — muestra asociación, no causalidad. Los autores son explícitos.",
+      "certainty_tier": "T4",
+      "abstract_verb": "associate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1020833,
+      "unit": "muestras",
+      "context": "n total del estudio (5 cohortes)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 37,
+      "unit": "loci STR",
+      "context": "loci patogénicos analizados",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 7671,
+      "unit": "rasgos",
+      "context": "rasgos binarios cruzados via PheWAS",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 22.1,
+      "unit": "%",
+      "context": "pérdida volumen putamen en portadores HTT (n=9)",
+      "source": "abstract+texto+atrofia_cerebral.csv",
+      "verified": true
+    },
+    {
+      "value": 24.6,
+      "unit": "%",
+      "context": "pérdida volumen cerebelo en portadores CACNA1A (n=10)",
+      "source": "abstract+texto+atrofia_cerebral.csv",
+      "verified": true
+    },
+    {
+      "value": 1.9,
+      "unit": "fold-change",
+      "context": "NfL plasmático en portadores HTT vs normales (p=2.1e-12)",
+      "source": "texto paper Fig 5g+nfl_fold_change.csv",
+      "verified": true
+    },
+    {
+      "value": 1395.98,
+      "unit": "odds ratio",
+      "context": "asociación HTT pathogenic con Huntington (p=3.06e-122)",
+      "source": "Tabla S8+phewas_top.csv",
+      "verified": true
+    },
+    {
+      "value": 600.66,
+      "unit": "odds ratio",
+      "context": "asociación DMPK pathogenic con distrofia miotónica (p=8.84e-149)",
+      "source": "Tabla S8+phewas_top.csv",
+      "verified": true
+    },
+    {
+      "value": 98.65,
+      "unit": "odds ratio",
+      "context": "asociación C9ORF72 pathogenic con motoneurona (p=3.7e-111)",
+      "source": "Tabla S8+phewas_top.csv",
+      "verified": true
+    },
+    {
+      "value": 44,
+      "unit": "ratio",
+      "context": "portadores C9orf72 (150/100k) vs casos motoneurona (3.4/100k)",
+      "source": "texto paper+portadores_vs_prevalencia.csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "performed/found/captured",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'analizaron', 'encontraron', 'recuperaron las asociaciones conocidas'"
+    },
+    {
+      "abstract_verb": "associate",
+      "tier": "T2",
+      "cam_attenuator": "'se asocia', 'se ven conectados' — NO 'causa' (estudio observacional)"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'todo apunta a', 'parece preceder' — específicamente para atrofia preclínica: NO 'la atrofia comienza antes' (transversal, no longitudinal)"
+    },
+    {
+      "abstract_verb": "exhibited/showed",
+      "tier": "T1",
+      "cam_attenuator": "'muestran' / 'aparece' (en estudio transversal con n chico, mejor 'aparece' que 'tienen')"
+    }
+  ],
+  "narrative_hooks": [
+    "1.020.833 personas escaneadas. ¿Cuántas cargan en silencio una mutación que enfermará a su cerebro?",
+    "Por cada paciente diagnosticado con motoneurona hay 44 portadores que no lo saben. La sangre habla, aunque el síntoma calle.",
+    "El cerebro de quien carga la mutación de Huntington aparece más pequeño antes del primer síntoma. Lo midieron en 9 personas que aún no saben que están enfermas."
+  ],
+  "limitations": [
+    "n=9 portadores patogénicos de HTT y n=10 de CACNA1A: muestras muy pequeñas para los hallazgos de imagen — efectos % son grandes pero la cohorte absoluta es chica",
+    "Sub-cohorte con imagen cerebral es 98% europea (sesgo de ascertainment hacia UK Biobank y GHS)",
+    "Estudio transversal — NO valida longitudinalmente si los portadores presintomáticos eventualmente desarrollarán la enfermedad",
+    "Short-read sequencing tiene falsos positivos para repeticiones largas, los autores lo discuten",
+    "Penetrancia incompleta es explicación alternativa al exceso de portadores observados",
+    "La distribución baseline en la gráfica de NfL del notebook es ilustrativa (np.random.lognormal) — no datos individuales del paper. Los fold-changes (1.9×, 1.14×) sí son reales del paper"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes — script denso"
+  },
+  "notebook_slug": "2026-04-08-repeticiones-str-atrofia-cerebral",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-08-repeticiones-str-atrofia-cerebral/notebook.html",
+  "generated_at": "2026-04-28T12:44:55.866750Z"
+}

@@ -1,0 +1,31 @@
+titulo: "Expansiones STR a escala poblacional revelan atrofia cerebral preclínica"
+fecha: 2026-04-28
+categoria: medicina
+tags: [genetica, neurodegeneracion, huntington, biomarcadores, epidemiologia, atrofia-cerebral, str]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10345-6"
+    titulo: "Population-scale repeat expansions elucidate disease risk and brain atrophy"
+    journal: Nature
+    autores: "Regeneron Genetics Center et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "atrofia_cerebral.csv"
+    descripcion: "Pérdida porcentual de volumen cerebral en 4 regiones HTT + cerebelo CACNA1A"
+    fuente: "Texto del paper (Resultados + Fig 5 caption) — Open Access HTML"
+  - nombre: "phewas_top.csv"
+    descripcion: "Top asociaciones PheWAS con odds ratios e IC95%"
+    fuente: "Nature Supplementary Table 8 (MOESM3 ZIP)"
+  - nombre: "portadores_vs_prevalencia.csv"
+    descripcion: "Portadores patogénicos por 100.000 vs prevalencia clínica"
+    fuente: "Texto del paper (Resultados + Discussion)"
+  - nombre: "nfl_fold_change.csv"
+    descripcion: "Fold-change de NfL plasmático en portadores vs normales"
+    fuente: "Texto del paper (Fig 5f-g + Resultados)"
+  - nombre: "frecuencias_por_ancestralidad.csv"
+    descripcion: "Frecuencias premutación y patogénicas por locus y ancestralidad (35 loci × 5 grupos)"
+    fuente: "Nature Supplementary Table 6 (MOESM3 ZIP)"
+estado: publicado

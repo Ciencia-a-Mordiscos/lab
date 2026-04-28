@@ -1,0 +1,4 @@
+locus,fold_change_nfl,p_valor,interpretacion
+HTT,1.9,2.1e-12,significativo
+C9orf72,1.14,0.0045,significativo
+CACNA1A,1.0,,no significativo
