@@ -1,0 +1,28 @@
+titulo: "5 pacientes con β-talasemia, 23 meses sin transfusiones"
+fecha: 2026-04-28
+categoria: medicina
+tags: [base-editing, terapia-genica, beta-talasemia, hemoglobina, ensayo-clinico, crispr]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10342-9"
+    titulo: "Clinical application of base editing for treating β-thalassaemia"
+    journal: Nature
+    autores: "Lai et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "eficiencia_edicion_invitro.csv"
+    descripcion: "Frecuencia de edición en CD34+ HSPCs. 5 réplicas pareadas (NT vs Editadas)."
+    fuente: "Source Data MOESM3 (Fig 1c)"
+  - nombre: "edicion_pbmc_temporal.csv"
+    descripcion: "Frecuencia de edición en PBMC, 5 pacientes, baseline a 21 meses."
+    fuente: "Source Data MOESM6 (Fig 4a)"
+  - nombre: "hemoglobina_temporal.csv"
+    descripcion: "HbF, HbA, HbA₂ y total por paciente, baseline a 24 meses."
+    fuente: "Source Data MOESM11 (Extended Data Fig 7c)"
+  - nombre: "globinas_periferica.csv"
+    descripcion: "Composición final de globinas peripheral por paciente."
+    fuente: "Source Data MOESM13 (Extended Data Fig 9b)"
+estado: publicado

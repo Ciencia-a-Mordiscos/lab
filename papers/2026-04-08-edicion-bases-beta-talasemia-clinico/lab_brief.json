@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "paper_id": 2322,
+  "doi": "10.1038/s41586-026-10342-9",
+  "paper_type": "experimental",
+  "study_design": "phase_1_clinical_trial",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El base editor convierte ~0% en ~62% de células editadas in vitro",
+      "supported": "yes",
+      "detail": "NT mean 0,04% (DE 0,03), Editadas mean 62,1% (DE 0,89). Wilcoxon signed-rank pareado (las réplicas 1-5 son el mismo lote dividido): W=15, p=0,031 unilateral, Cohen's dz=68,7. Ratio 1479×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "performed",
+      "effect_size": {"measure": "cohens_dz_paired", "value": 68.7, "interpretation": "separación total entre grupos"}
+    },
+    {
+      "claim": "La edición se mantiene en sangre periférica meses después",
+      "supported": "yes",
+      "detail": "Media a 12 meses: 37,89% (mediana 34,67%, DE 7,32%). Rango post-3M: 26,4-53,9%. Curva plana, no decreciente.",
+      "certainty_tier": "T1",
+      "abstract_verb": "indicated",
+      "effect_size": null
+    },
+    {
+      "claim": "Los 5 pacientes dejaron transfusiones de sangre",
+      "supported": "yes",
+      "detail": "Mediana de tiempo a última transfusión: 18 días tras infusión. 5/5 pacientes. (Dato del abstract; no hay CSV reproducible para este claim.)",
+      "certainty_tier": "T1",
+      "abstract_verb": "had stopped",
+      "effect_size": null
+    },
+    {
+      "claim": "HbF subió ~31× desde baseline al año 1",
+      "supported": "yes",
+      "detail": "Baseline media 0,41 g/dl (DE 0,31) → mes 12 media 12,77 g/dl (DE 1,12). Ratio 31,1×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "lead to",
+      "effect_size": {"measure": "fold_change", "value": 31.14, "interpretation": "incremento masivo"}
+    },
+    {
+      "claim": "3 pacientes (P1, P4, P5) sin β-globina endógena viven solo con HbF",
+      "supported": "yes",
+      "detail": "Genotipo β0/β0 confirmado por composición de globinas peripheral (β=NaN). HbA al final del seguimiento: 0,00 g/dl en los 3. HbF como % del total: 99-100%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "received",
+      "effect_size": null
+    },
+    {
+      "claim": "Hb total mes 3: 12,4 ± 1,0 g/dl (rango normal adulto)",
+      "supported": "yes",
+      "detail": "Cálculo propio: 12,44 ± 1,04 g/dl. Cross-check vs paper PASSED (12,4 ± 1,0).",
+      "certainty_tier": "T1",
+      "abstract_verb": "were",
+      "effect_size": null
+    },
+    {
+      "claim": "0 muertes y 0 cánceres en mediana 23 meses de seguimiento",
+      "supported": "partial",
+      "detail": "Dato del abstract. N=5 single-arm sin grupo control — eficacia clara dentro del trial pero NO comparable contra otras terapias sin head-to-head. Eventos adversos consistentes con busulfán mieloablativo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "were reported",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {"value": 5, "unit": "pacientes", "context": "tamaño de la cohorte del trial Fase 1", "source": "abstract", "verified": true},
+    {"value": 23.0, "unit": "meses", "context": "mediana de seguimiento post-infusión", "source": "abstract", "verified": true},
+    {"value": 18, "unit": "días", "context": "mediana de tiempo a última transfusión tras infusión", "source": "abstract", "verified": true},
+    {"value": 12.4, "unit": "g/dl", "context": "hemoglobina total media a 3 meses (DE 1,0)", "source": "abstract+csv", "verified": true, "cross_check": {"paper_reported": "12.4 ± 1.0", "our_calculation": "12.44 ± 1.04", "discrepancy_pct": 0.3, "reason": "match"}},
+    {"value": 11.5, "unit": "g/dl", "context": "HbF media a 3 meses (DE 0,9)", "source": "abstract+csv", "verified": true, "cross_check": {"paper_reported": "11.5 ± 0.9", "our_calculation": "11.48 ± 0.89", "discrepancy_pct": 0.2, "reason": "match"}},
+    {"value": 31, "unit": "veces", "context": "fold-increase de HbF desde baseline al año 1", "source": "csv", "verified": true},
+    {"value": 62.1, "unit": "por ciento", "context": "frecuencia media de edición in vitro en CD34+", "source": "csv", "verified": true},
+    {"value": 1479, "unit": "veces", "context": "ratio de edición editadas/NT in vitro", "source": "csv", "verified": true},
+    {"value": 37.89, "unit": "por ciento", "context": "edición media en sangre periférica a 12 meses", "source": "csv", "verified": true},
+    {"value": 3, "unit": "de 5 pacientes", "context": "P1, P4, P5 son β0/β0 (cero β-globina endógena)", "source": "csv", "verified": true},
+    {"value": 0, "unit": "muertes", "context": "en mediana 23 meses de seguimiento", "source": "abstract", "verified": true},
+    {"value": 0, "unit": "cánceres", "context": "en mediana 23 meses de seguimiento", "source": "abstract", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "present", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "received", "tier": "T1", "cam_attenuator": "afirmación directa (hecho del trial)"},
+    {"abstract_verb": "lead to", "tier": "T1", "cam_attenuator": "afirmación directa (resultado del trial)"},
+    {"abstract_verb": "resulted in", "tier": "T1", "cam_attenuator": "afirmación directa (outcome)"},
+    {"abstract_verb": "indicated", "tier": "T2", "cam_attenuator": "los datos indican / sugieren"}
+  ],
+  "narrative_hooks": [
+    "5 pacientes con β-talasemia, 23 meses sin transfusiones",
+    "3 de ellos no producen ni una molécula de hemoglobina adulta — su sangre es 100% fetal",
+    "El cuerpo activó la modalidad fetal y le bastó para vivir",
+    "Un base editor cambió 4 alelos de cada 10 mil a 6 de cada 10 — ratio ~1500×",
+    "HbF subió 31 veces desde el inicio: el regreso evolutivo dirigido"
+  ],
+  "limitations": [
+    "N=5 sin grupo control — no permite comparar magnitud de efecto contra otras terapias",
+    "Mediana 23 meses → seguimiento intermedio, NO 'a largo plazo'",
+    "Eventos adversos consistentes con busulfán mieloablativo (no triviales)",
+    "Mieloablación previa requerida — la novedad es la fuente de las células, no el procedimiento completo"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados (6 yes + 1 partial), 12 números clave — script denso"
+  },
+  "notebook_slug": "2026-04-08-edicion-bases-beta-talasemia-clinico",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-08-edicion-bases-beta-talasemia-clinico/notebook.html",
+  "generated_at": "2026-04-28T07:30:00Z"
+}
