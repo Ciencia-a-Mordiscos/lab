@@ -1,0 +1,28 @@
+titulo: "El castigo no siempre promueve cooperación: depende mucho de las reglas"
+fecha: 2026-04-28
+categoria: psicologia
+tags: [teoria-de-juegos, cooperacion, castigo, bienes-publicos, experimento, ciencias-sociales]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb5280"
+    titulo: "Integrative experiments identify how punishment affects welfare in public goods games"
+    journal: Science
+    autores: "Alsobay et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "df_paired_learn.csv"
+    descripcion: "150 condiciones pareadas (ola de aprendizaje) con treatment_effect y 14 parámetros del juego"
+    fuente: "OSF — DOI 10.17605/OSF.IO/2D56W"
+  - nombre: "df_paired_val.csv"
+    descripcion: "20 condiciones pareadas adicionales (ola de validación)"
+    fuente: "OSF — DOI 10.17605/OSF.IO/2D56W"
+  - nombre: "df_analysis_learn.csv"
+    descripcion: "366 juegos individuales con itt_efficiency (ola de aprendizaje)"
+    fuente: "OSF — DOI 10.17605/OSF.IO/2D56W"
+  - nombre: "df_analysis_val.csv"
+    descripcion: "470 juegos individuales (validación)"
+    fuente: "OSF — DOI 10.17605/OSF.IO/2D56W"
+estado: publicado

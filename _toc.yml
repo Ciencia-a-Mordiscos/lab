@@ -468,6 +468,11 @@ parts:
       title: Notebook
 - caption: Psicología
   chapters:
+  - file: papers/2026-04-28-castigo-cooperacion-bienes-publicos/README
+    title: "El castigo no siempre promueve cooperación: depende mucho de las reglas"
+    sections:
+    - file: papers/2026-04-28-castigo-cooperacion-bienes-publicos/notebook
+      title: Notebook
   - file: papers/2026-04-22-punctuated-decline-cooperation/README
     title: La cooperación cae cada vez más rápido
     sections:

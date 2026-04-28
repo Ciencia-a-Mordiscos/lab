@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "paper_id": 2331,
+  "doi": "10.1126/science.aeb5280",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "147.618 decisiones de 7.100 participantes en 360 condiciones",
+      "supported": "yes",
+      "detail": "Reportado en abstract. El dataset publicado contiene 836 juegos en 170 pares de condiciones — coincide con la escala del paper (los 360 conteos son agregados de la metodología completa).",
+      "certainty_tier": "T1",
+      "abstract_verb": "varying",
+      "effect_size": null
+    },
+    {
+      "claim": "El efecto del castigo va de +43% a -44% según parámetros del juego",
+      "supported": "yes",
+      "detail": "Reportado en abstract. Empíricamente la nube cruda va aún más allá: de -77,5% a +26,0%. El paper enmarca su rango como predicciones de modelo con intervalos de confianza.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {"measure": "rango_treatment_effect", "value_min": -0.44, "value_max": 0.43, "interpretation": "rango masivo dependiente de parámetros"}
+    },
+    {
+      "claim": "El castigo NO promueve cooperación de forma uniforme — empeora el bienestar en la mayoría de las condiciones",
+      "supported": "yes",
+      "detail": "En 98 de 170 condiciones (57,6%) el castigo empeoró el bienestar; en 72 (42,4%) lo mejoró. Este es el headline emocional del Lab.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {"measure": "split_directional", "value": 57.6, "interpretation": "57,6% empeoran vs 42,4% mejoran"}
+    },
+    {
+      "claim": "La comunicación entre jugadores emerge como el factor más importante",
+      "supported": "partial",
+      "detail": "El paper lo afirma a partir de feature importance en sus modelos predictivos. La diferencia simple de medias entre con/sin chat es de +2,7 pp con Cohen d=0,19 (efecto pequeño) y Mann-Whitney p=0,35 (no significativo). El chat importa, pero a través de interacciones con los otros parámetros, no como pendiente directa de medias. NUNCA escribir 'chat salva la cooperación' — escribir 'comunicación emerge como el predictor más importante en los modelos'.",
+      "certainty_tier": "T1.5",
+      "abstract_verb": "emerges",
+      "effect_size": {"measure": "cohen_d", "value": 0.19, "interpretation": "pequeño"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 147618,
+      "value_es": "147.618",
+      "unit": "decisiones",
+      "context": "número total de decisiones individuales registradas en el experimento integrativo",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": 7100,
+      "value_es": "7.100",
+      "unit": "participantes",
+      "context": "personas reclutadas vía Mechanical Turk para los juegos de bienes públicos",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": 360,
+      "unit": "condiciones experimentales",
+      "context": "versiones distintas del juego variando 14 parámetros de diseño",
+      "source": "paper_abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "360 conditions",
+        "our_calculation": "170 paired conditions in published dataset",
+        "discrepancy_pct": null,
+        "reason": "el paper reporta el conteo agregado de la metodología completa; el dataset OSF publica 170 pares (340 condiciones individuales)"
+      }
+    },
+    {
+      "value": 14,
+      "unit": "parámetros de diseño",
+      "context": "parámetros del juego variados sistemáticamente (rondas, magnitud del castigo, chat, contribución todo-o-nada, etc.)",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": -44,
+      "value_es": "-44",
+      "unit": "por ciento",
+      "context": "peor caso reportado: castigo destruye el bienestar 44%",
+      "source": "paper_abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "44% reduction",
+        "our_calculation": "-77.5% (peor caso empírico crudo)",
+        "discrepancy_pct": 76,
+        "reason": "el paper reporta rango de IC de modelos predictivos; los datos crudos son más extremos"
+      }
+    },
+    {
+      "value": 43,
+      "value_es": "+43",
+      "unit": "por ciento",
+      "context": "mejor caso reportado: castigo mejora el bienestar 43%",
+      "source": "paper_abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "43% improvement",
+        "our_calculation": "+26.0% (mejor caso empírico crudo)",
+        "discrepancy_pct": 39,
+        "reason": "el paper reporta rango de IC de modelos predictivos; los datos crudos son menos extremos del lado positivo"
+      }
+    },
+    {
+      "value": 57.6,
+      "value_es": "57,6",
+      "unit": "por ciento",
+      "context": "porcentaje de las 170 condiciones donde el castigo EMPEORA el bienestar",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no_explicit",
+        "our_calculation": "98/170 = 57.6%",
+        "discrepancy_pct": 0,
+        "reason": "cálculo directo sobre dataset OSF"
+      }
+    },
+    {
+      "value": 42.4,
+      "value_es": "42,4",
+      "unit": "por ciento",
+      "context": "porcentaje de las 170 condiciones donde el castigo MEJORA el bienestar",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 170,
+      "unit": "condiciones pareadas",
+      "context": "tamaño del dataset paired (150 ola aprendizaje + 20 ola validación)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "reveal", "tier": "T1", "cam_attenuator": "afirmación directa (los datos revelan)"},
+    {"abstract_verb": "developed", "tier": "T1", "cam_attenuator": "afirmación directa — decir 'desarrollaron modelos' o 'construyeron modelos', no 'propusieron'"},
+    {"abstract_verb": "outperformed", "tier": "T1", "cam_attenuator": "afirmación directa (los modelos superaron a los humanos al predecir)"},
+    {"abstract_verb": "emerges", "tier": "T1.5", "cam_attenuator": "'emerge como' — atenuar levemente porque el ranking de importancia depende del modelo. NO decir 'la comunicación causa la cooperación' — decir 'la comunicación emerge como el factor más predictivo en los modelos'"},
+    {"abstract_verb": "demonstrating", "tier": "T1", "cam_attenuator": "afirmación directa (demuestran cómo experimentos integrativos…)"}
+  ],
+  "narrative_hooks": [
+    "147.618 decisiones de 7.100 personas. Y la respuesta sigue siendo: depende.",
+    "Castigar al que no coopera... ¿funciona? En 57,6% de las condiciones, EMPEORA el bienestar.",
+    "El paper destruye una intuición clásica: que castigar a los aprovechadores siempre ayuda. Va de +43% a -44% según las reglas exactas del juego.",
+    "La comunicación importa, pero no como esperarías: la diferencia simple entre con/sin chat es pequeña (Cohen d=0,19). Importa por sus interacciones con los otros 13 parámetros."
+  ],
+  "limitations": [
+    "Datos vienen de Mechanical Turk (Estados Unidos): generalización a otras poblaciones requiere replicación.",
+    "El test univariado de chat no captura interacciones que sí están en los modelos predictivos del paper.",
+    "Los 360 conteos del abstract son agregados de la metodología completa; el dataset OSF publicado tiene 170 pares (340 condiciones individuales)."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificadas (3 yes, 1 partial), 9 números clave — script denso justifica 220-270 palabras para no comprimir el matiz crítico sobre 'comunicación factor #1 solo en modelos'"
+  },
+  "notebook_slug": "2026-04-28-castigo-cooperacion-bienes-publicos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-28-castigo-cooperacion-bienes-publicos/notebook.html",
+  "generated_at": "2026-04-28T08:18:00Z"
+}
