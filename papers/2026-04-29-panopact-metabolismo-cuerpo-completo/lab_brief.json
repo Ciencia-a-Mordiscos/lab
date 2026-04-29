@@ -1,0 +1,144 @@
+{
+  "version": "1.0",
+  "paper_id": 885,
+  "doi": "10.1038/s41467-025-65054-x",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mouse (in-vivo) + phantoms",
+  "verification_table": [
+    {
+      "claim": "El sistema captura imágenes a 25 Hz sobre el hígado completo",
+      "supported": "yes",
+      "detail": "Modo 'Pulso único 1064 nm' — frame rate de 25 Hz con FOV de 60 mm. Métrica final del paper reproducida en datos/modos_imagen.csv.",
+      "certainty_tier": "T1",
+      "abstract_verb": "imaged"
+    },
+    {
+      "claim": "El hígado es el órgano principal de retención de A1094",
+      "supported": "yes",
+      "detail": "C_max=75% en hígado vs 38.6% promedio de los otros cinco órganos del mismo ratón. Diferencia +36.4 puntos porcentuales, razón 1.94x.",
+      "certainty_tier": "T1",
+      "abstract_verb": "tracked",
+      "effect_size": {"measure": "ratio_higado_vs_resto", "value": 1.94, "interpretation": "casi el doble del promedio del resto"}
+    },
+    {
+      "claim": "El paper distingue 6 órganos en una sola corrida temporal",
+      "supported": "yes",
+      "detail": "Dataset reporta t_peak (rango 120-505 s) y C_max (rango 14-75%) para corazón, arteria ilíaca, ureter, intestino, arteria mesentérica e hígado. Vejiga aparece con C_max≈49% pero sin t_peak — excluida del ranking temporal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "tracked"
+    },
+    {
+      "claim": "El radio del transductor de 2.5 mm es la elección óptima",
+      "supported": "partial",
+      "detail": "Soportado por simulación k-Wave + Field II del paper. El notebook reproduce los ratios reportados (25x sobre r=0.5, 2.78x sobre r=1.5), pero no ejecuta las simulaciones acústicas originales.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    },
+    {
+      "claim": "El rango de velocidad cubre 125x entre el modo más rápido y el más lento",
+      "supported": "yes",
+      "detail": "25 Hz (pulso único hígado) / 0.2 Hz (STINT cuerpo completo) = 125. Calculado directamente del dataset modos_imagen.csv.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 25,
+      "unit": "Hz",
+      "context": "Frecuencia de cuadro para imagen de hígado completo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 75,
+      "unit": "porciento de aumento de señal",
+      "context": "C_max del A1094 en hígado, máximo del experimento",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14,
+      "unit": "porciento de aumento de señal",
+      "context": "C_max del A1094 en corazón, mínimo del experimento",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 120,
+      "unit": "segundos",
+      "context": "t_peak del corazón (primera estación tras inyección)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 505,
+      "unit": "segundos",
+      "context": "t_peak del hígado (último órgano en alcanzar pico)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1024,
+      "unit": "transductores",
+      "context": "Número de elementos en el anillo hemiesférico del sistema",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "órganos",
+      "context": "Número de órganos rastreados simultáneamente con A1094 (excluye vejiga sin t_peak)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 125,
+      "unit": "veces",
+      "context": "Razón entre el modo más rápido (25 Hz) y el más lento (0.2 Hz)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.78,
+      "unit": "veces",
+      "context": "Razón de sensibilidad transductor r=2.5 mm vs r=1.5 mm",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 25,
+      "unit": "veces",
+      "context": "Razón de sensibilidad transductor r=2.5 mm vs r=0.5 mm",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "imaged", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "tracked", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "monitor", "tier": "T1", "cam_attenuator": "afirmación directa"}
+  ],
+  "narrative_hooks": [
+    "120 segundos hasta el corazón. 505 hasta el hígado. Y todo en un solo ratón vivo, en tiempo real.",
+    "El hígado retiene casi el doble que el promedio de los otros cinco órganos.",
+    "Una sola adquisición de un pulso láser produce el volumen 3D completo — no hay que escanear ni rotar nada."
+  ],
+  "limitations": [
+    "n=1 ratón vivo en la sección de farmacocinética A1094 — demostración técnica, no estudio poblacional",
+    "Datos extraídos del texto del paper (Open Access); el repositorio Figshare oficial es un ZIP de 4.4 GB sin CSVs resumen",
+    "Las simulaciones de sensibilidad del transductor no se ejecutan en el notebook — solo se reproducen los ratios reportados",
+    "Vejiga reporta C_max ≈ 49% pero no t_peak en el texto — excluida del ranking temporal",
+    "El paper se enmarca como prueba de concepto técnica en ratón; no extiende los resultados a clínica humana"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (4 yes + 1 partial) y 10 números clave — script denso pero alineable con narrativa de demostración técnica"
+  },
+  "notebook_slug": "2026-04-29-panopact-metabolismo-cuerpo-completo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-29-panopact-metabolismo-cuerpo-completo/notebook.html",
+  "generated_at": "2026-04-29T01:50:00-05:00"
+}

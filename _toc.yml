@@ -371,6 +371,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-29-panopact-metabolismo-cuerpo-completo/README
+    title: "25 imágenes por segundo revelan el metabolismo de un cuerpo completo"
+    sections:
+    - file: papers/2026-04-29-panopact-metabolismo-cuerpo-completo/notebook
+      title: Notebook
   - file: papers/2026-04-22-vidrio-metalico-resistencia-ceramica/README
     title: "Un vidrio con la fuerza del diamante y la tenacidad de un metal"
     sections:

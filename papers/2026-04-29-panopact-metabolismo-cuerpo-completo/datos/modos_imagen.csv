@@ -1,0 +1,6 @@
+modo,frecuencia_hz,fov_mm,wavelengths,aplicacion
+Pulso unico 1064,25.0,60,1064,Higado tiempo real
+Pulso unico dual,10.0,60,800+1064,Cerebro funcional
+STINT cerebro,0.5,80,800+1064,Hemodinamica SNP
+STINT tronco,10.0,90,690+1064,Dinamica respiratoria
+STINT cuerpo completo,0.2,120,1064,Tracking A1094

@@ -1,0 +1,7 @@
+organo,sistema,t_peak_s,c_max_pct,nota
+Corazon,Circulatorio,120,14,Primera estacion tras inyeccion - aporte arterial coronario estable
+Arteria iliaca,Circulatorio,145,51,Rama de la aorta hacia tronco inferior
+Ureter,Renal,263,26,Drena del rinon - inicio de excrecion urinaria
+Intestino,Digestivo,300,41,Pico ~205s antes que el higado por circulacion sistemica
+Arteria mesenterica,Digestivo,434,61,Circulacion hepatoenterica
+Higado,Hepatico,505,75,Maximo - principal organo de metabolismo

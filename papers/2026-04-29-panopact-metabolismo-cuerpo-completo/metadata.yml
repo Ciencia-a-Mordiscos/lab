@@ -1,0 +1,28 @@
+titulo: "25 imágenes por segundo revelan el metabolismo de un cuerpo completo"
+fecha: 2026-04-29
+categoria: tecnologia
+tags: [imagen-medica, fotoacustica, biomedical-imaging, farmacocinetica, raton, caltech]
+formato: corto
+video_youtube: "https://youtube.com/shorts/ht9Ojc2vMes"
+fuentes:
+  - doi: "10.1038/s41467-025-65054-x"
+    titulo: "Cross-regional real-time visualization of systemic physiology and dynamics with 3D panoramic photoacoustic computed tomography (3D-PanoPACT)"
+    journal: Nature Communications
+    autores: "Wang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "a1094_pharmacokinetics.csv"
+    descripcion: "Farmacocinética A1094 en 6 órganos (t_peak, C_max)"
+    fuente: "Texto del paper — Results, sección small molecule metabolic pathways"
+  - nombre: "sensibilidad_transductor.csv"
+    descripcion: "Trade-off ingenieril del transductor (3 radios)"
+    fuente: "Texto del paper — Methods, simulaciones k-Wave + Field II"
+  - nombre: "modos_imagen.csv"
+    descripcion: "5 modos del sistema con frecuencia y FOV"
+    fuente: "Texto del paper — Results y Methods"
+  - nombre: "atenuacion_optica.csv"
+    descripcion: "µ_eff empírico a tres longitudes de onda"
+    fuente: "Texto del paper — Development and calibration of 3D-PanoPACT"
+estado: publicado

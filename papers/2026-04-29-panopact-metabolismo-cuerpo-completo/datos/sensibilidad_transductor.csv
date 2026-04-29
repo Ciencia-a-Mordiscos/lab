@@ -1,0 +1,4 @@
+radio_mm,diametro_mm,sensibilidad_relativa,nota
+0.5,1.0,0.04,Apertura amplia pero sensibilidad muy baja (1/25 del optimo)
+1.5,3.0,0.36,Apertura comparable al optimo pero 2.78x menos sensible
+2.5,5.0,1.00,Eleccion del paper - balance optimo entre sensibilidad y apertura

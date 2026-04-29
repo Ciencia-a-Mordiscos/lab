@@ -1,0 +1,5 @@
+tejido,wavelength_nm,mu_eff_per_mm,uso
+Cerebro,1064,0.065,Anatomia y funciones cerebrales completas
+Cerebro,800,0.077,Anatomia y dinamica cerebral
+Higado,1064,0.075,Imagen dinamica del higado y cuerpo completo
+Higado,690,0.133,Tronco completo dual-wavelength
