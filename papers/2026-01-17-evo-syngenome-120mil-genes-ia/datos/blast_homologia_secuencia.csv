@@ -1,0 +1,12 @@
+gen_evo,categoria,n_hits_blast,max_pct_identidad,min_evalue,top_hit_descripcion
+EvoAT1,T2_antitoxina,28,60.00,6.53e-02,MULTISPECIES: type II toxin-antitoxin system RelB family antitoxin [unclassified
+EvoAT2,T2_antitoxina,5,51.22,2.18e-01,hypothetical protein [Magnetococcus sp. YQC-5]
+EvoAT3,T2_antitoxina,11,47.62,2.16e+00,hypothetical protein [Jatrophihabitans sp.]
+EvoAT4,T2_antitoxina,100,73.68,6.39e-02,addiction module protein [Chlorobium ferrooxidans] >gb|EAT59260.1| conserved hyp
+EvoRelE,T2_toxina,100,73.03,2.53e-39,type II toxin-antitoxin system RelE family toxin [Mesoterricola sediminis] >dbj|
+EvoT1,T3_toxina,0,sin_hit,sin_hit,sin_hit
+EvoAcr1,anti_CRISPR,0,sin_hit,sin_hit,sin_hit
+EvoAcr2,anti_CRISPR,0,sin_hit,sin_hit,sin_hit
+EvoAcr3,anti_CRISPR,4,43.33,1.60e-02,sigma-70 family RNA polymerase sigma factor [Clostridia bacterium]
+EvoAcr4,anti_CRISPR,31,100.00,5.66e-32,anti-CRISPR protein AcrIIA2 [Listeria monocytogenes]
+EvoAcr5,anti_CRISPR,18,96.00,2.03e-12,anti-CRISPR protein AcrIIA4 [Listeria monocytogenes]

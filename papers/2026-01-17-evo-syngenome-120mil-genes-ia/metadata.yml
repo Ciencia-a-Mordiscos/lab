@@ -1,0 +1,31 @@
+titulo: "El gen anti-CRISPR diseñado por una IA que supera al control humano"
+fecha: 2026-01-17
+categoria: tecnologia
+tags: [biologia-sintetica, IA, modelos-lenguaje, anti-CRISPR, diseno-de-novo, genoma, evo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-025-09749-7"
+    titulo: "Semantic design of functional de novo genes from a genomic language model"
+    journal: Nature
+    autores: "Hayes et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "evo_validados_actividad.csv"
+    descripcion: "Actividad relativa (supervivencia) de los 7 genes Evo validados in vivo + 1 control natural"
+    fuente: "Supplementary Materials — MOESM3"
+  - nombre: "success_rates_categoria.csv"
+    descripcion: "Tasas de éxito experimental por categoría con n explícito"
+    fuente: "Texto del paper, Fig. 2d y Ext. Data Fig. 5c,d"
+  - nombre: "secuencias_ordenadas.csv"
+    descripcion: "Desglose por tipo de diseño (Novel / Acr Mapping / Non-Acr Mapping / controles) de las secuencias sintetizadas"
+    fuente: "Supplementary Materials — MOESM3 sheet 'Ordered Evo Anti-CRISPRs', T2TA, T3 Toxins, T3 Antitoxins"
+  - nombre: "blast_homologia_secuencia.csv"
+    descripcion: "Hits BLAST y % identidad máxima por gen Evo contra NCBI"
+    fuente: "Supplementary Materials — MOESM7 (calculado)"
+  - nombre: "foldseek_homologia_estructural.csv"
+    descripcion: "Hits Foldseek y % identidad estructural por gen Evo"
+    fuente: "Supplementary Materials — MOESM7 (calculado)"
+estado: publicado

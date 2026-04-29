@@ -1,0 +1,9 @@
+categoria,tipo_diseño,n_secuencias_ordenadas,descripcion
+anti_CRISPR,Novel,53,Anti-CRISPR ordenadas de tipo Novel
+anti_CRISPR,Acr Mapping,20,Anti-CRISPR ordenadas de tipo Acr Mapping
+anti_CRISPR,Non-Acr Mapping,11,Anti-CRISPR ordenadas de tipo Non-Acr Mapping
+anti_CRISPR,PC,1,Anti-CRISPR ordenadas de tipo PC
+anti_CRISPR,NC,1,Anti-CRISPR ordenadas de tipo NC
+T2_antitoxina,Novel,14,Antitoxinas T2 ordenadas (con sus toxinas correspondientes)
+T3_toxina,Novel,36,Toxinas T3 ordenadas
+T3_antitoxina,Novel,10,Antitoxinas T3 ordenadas

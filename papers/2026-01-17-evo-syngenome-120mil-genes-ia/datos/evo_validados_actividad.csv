@@ -1,0 +1,9 @@
+gen_evo,categoria,actividad_relativa,descripcion_actividad,tipo_diseño
+EvoAT1,T2_antitoxina,0.975,Restauró crecimiento al 95-100% de supervivencia normal (vs RelE1),Novel
+EvoAT2,T2_antitoxina,0.975,Restauró crecimiento al 95-100% de supervivencia normal (vs RelE1),Novel
+EvoAT3,T2_antitoxina,0.7,Rescate moderado (~70% supervivencia relativa),Novel
+EvoAT4,T2_antitoxina,0.9,Rescate moderado (~90% supervivencia relativa),Novel
+EvoAcr1,anti_CRISPR,0.91,Supervivencia relativa 0.91 en ensayo líquido (vs control AcrIIA2: 0.87),Novel
+EvoAcr2,anti_CRISPR,1.01,Supervivencia relativa 1.01 en ensayo líquido (vs control AcrIIA2: 0.87),Novel
+EvoAcr3,anti_CRISPR,0.78,"Supervivencia relativa 0.82 (líquido) y 0.74 (fagos), promedio 0.78",Novel
+AcrIIA2_control,anti_CRISPR,0.87,Control positivo natural,Control

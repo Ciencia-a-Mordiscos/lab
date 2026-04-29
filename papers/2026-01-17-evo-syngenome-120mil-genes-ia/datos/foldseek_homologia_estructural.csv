@@ -1,0 +1,12 @@
+gen_evo,categoria,n_hits_foldseek,max_pct_identidad_estructural
+EvoAT1,T2_antitoxina,68,13.40
+EvoAT2,T2_antitoxina,148,20.30
+EvoAT3,T2_antitoxina,114,31.10
+EvoAT4,T2_antitoxina,1010,36.80
+EvoRelE1,T2_toxina,999,77.60
+EvoT1,T3_toxina,26,8.20
+EvoAcr1,anti_CRISPR,0,sin_hit
+EvoAcr2,anti_CRISPR,0,sin_hit
+EvoAcr3,anti_CRISPR,782,22.50
+EvoAcr4,anti_CRISPR,594,28.30
+EvoAcr5,anti_CRISPR,852,14.20

@@ -1,0 +1,219 @@
+{
+  "version": "1.0",
+  "paper_id": 903,
+  "doi": "10.1038/s41586-025-09749-7",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "molecular_engineering",
+  "verification_table": [
+    {
+      "claim": "SynGenome contiene 120 mil millones de pares de bases (≈120 millones de genes potenciales, no '120 mil millones de genes')",
+      "supported": "yes",
+      "detail": "Reportado en abstract y Data Availability del paper. Aclaración importante: el título del short del canal usa la cifra de pb sin la unidad explícita.",
+      "certainty_tier": "T1",
+      "abstract_verb": "assemble",
+      "effect_size": null
+    },
+    {
+      "claim": "50% de las antitoxinas T2 generadas rescataron el crecimiento celular",
+      "supported": "yes",
+      "detail": "n=8 testeadas, 4 funcionaron (EvoAT1–4). Fig. 2d del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "tasa_exito",
+        "value": 0.5,
+        "interpretation": "alta",
+        "n": 8
+      }
+    },
+    {
+      "claim": "17% de las anti-CRISPR generadas mostraron actividad medible",
+      "supported": "yes",
+      "detail": "n=86 ordenadas. Ext. Data Fig. 5c,d.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "tasa_exito",
+        "value": 0.17,
+        "interpretation": "moderada para diseño de novo",
+        "n": 86
+      }
+    },
+    {
+      "claim": "Las tasas 17% y 50% NO se pueden promediar — son tareas distintas con poblaciones distintas",
+      "supported": "yes",
+      "detail": "Reportar lado a lado con n explícito; el paper las da como rango '17–50%'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    },
+    {
+      "claim": "EvoAcr1 y EvoAcr2 son verdaderamente de novo (0 hits BLAST y 0 hits Foldseek)",
+      "supported": "yes",
+      "detail": "Tabla MOESM7 calculada; ambos sin homólogos detectables.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "EvoAcr2 supera al control natural AcrIIA2 (1.01 vs 0.87, diferencia absoluta 0.14)",
+      "supported": "partial",
+      "detail": "Único punto de control natural — sin réplicas independientes para test estadístico. Diferencia descriptiva, no inferencial.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "diferencia_absoluta",
+        "value": 0.14,
+        "interpretation": "16% mejor en escala de supervivencia relativa",
+        "n_control": 1
+      }
+    },
+    {
+      "claim": "EvoAcr4 y EvoAcr5 NO son de novo — son redescubrimientos (100% y 96% identidad BLAST con AcrIIA2/AcrIIA4)",
+      "supported": "yes",
+      "detail": "Calculado de MOESM7. El notebook los excluye explícitamente del set de validación de novo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    },
+    {
+      "claim": "La novedad de secuencia no penaliza la función",
+      "supported": "partial",
+      "detail": "Patrón observado en n=7 genes Evo validados — Spearman ρ=−0.727, p=0.064. Tendencia, no ley.",
+      "certainty_tier": "T2",
+      "abstract_verb": "extend",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -0.727,
+        "p": 0.064,
+        "n": 7,
+        "interpretation": "correlación negativa marginal entre identidad estructural y actividad"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "120 mil millones",
+      "unit": "pares de bases",
+      "context": "tamaño total de la biblioteca SynGenome",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3700000,
+      "unit": "genes con estructura ESMFold",
+      "context": "genes con estructura predicha en SynGenome",
+      "source": "data_availability",
+      "verified": true
+    },
+    {
+      "value": 86,
+      "unit": "anti-CRISPR ordenadas",
+      "context": "53 Novel + 20 Acr Mapping + 11 Non-Acr Mapping + 2 controles",
+      "source": "MOESM3",
+      "verified": true
+    },
+    {
+      "value": 17,
+      "unit": "%",
+      "context": "tasa de éxito anti-CRISPR (n=86)",
+      "source": "Ext. Data Fig. 5",
+      "verified": true
+    },
+    {
+      "value": 50,
+      "unit": "%",
+      "context": "tasa de éxito antitoxinas T2 (n=8 testeadas)",
+      "source": "Fig. 2d",
+      "verified": true
+    },
+    {
+      "value": 1.01,
+      "unit": "supervivencia relativa",
+      "context": "EvoAcr2, gen anti-CRISPR de novo (0 hits BLAST/Foldseek)",
+      "source": "evo_validados_actividad.csv",
+      "verified": true
+    },
+    {
+      "value": 0.91,
+      "unit": "supervivencia relativa",
+      "context": "EvoAcr1, gen anti-CRISPR de novo (0 hits BLAST/Foldseek)",
+      "source": "evo_validados_actividad.csv",
+      "verified": true
+    },
+    {
+      "value": 0.87,
+      "unit": "supervivencia relativa",
+      "context": "control natural AcrIIA2",
+      "source": "evo_validados_actividad.csv",
+      "verified": true
+    },
+    {
+      "value": 0.14,
+      "unit": "diferencia absoluta",
+      "context": "EvoAcr2 vs AcrIIA2 control en supervivencia relativa",
+      "source": "calculado",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "EvoAcr2 supera al control",
+        "our_calculation": "1.01 - 0.87 = 0.14"
+      }
+    },
+    {
+      "value": -0.727,
+      "unit": "Spearman ρ",
+      "context": "correlación entre identidad estructural Foldseek y actividad (n=7, p=0.064)",
+      "source": "calculado en notebook celda 14",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "validate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "achieves",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "extend",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con matiz ('los datos sugieren extender más allá')"
+    }
+  ],
+  "narrative_hooks": [
+    "El gen anti-CRISPR que MEJOR funcionó (EvoAcr2, supervivencia 1.01) tiene CERO parientes detectables ni en secuencia ni en estructura — y supera al control natural humano AcrIIA2 (0.87) por 16%.",
+    "Una IA generó 86 anti-CRISPR sintéticas. 17% funcionaron. Y de las que funcionaron, las MÁS NUEVAS son las que mejor inhiben CRISPR — más nuevo no significa peor.",
+    "120 mil millones de pares de bases de ADN sintético = del orden de 120 millones de genes potenciales = información genética equivalente a varios miles de bacterias.",
+    "Evo no 'entiende' biología — aprende patrones de contexto genómico. El paper llama a esto 'diseño semántico'; en limpio es estadística sobre genomas, no comprensión."
+  ],
+  "limitations": [
+    "n=7 genes Evo validados con actividad cuantitativa + 1 control natural — sin réplicas técnicas reportadas en el CSV",
+    "Un solo control natural (AcrIIA2) — la diferencia EvoAcr2 vs AcrIIA2 (0.14) es descriptiva, no inferencial",
+    "Un solo organismo de prueba: E. coli — generalizar a otras bacterias o eucariotas exige más experimentos",
+    "Las 4 anti-CRISPR ordenadas con etiqueta 'Acr Mapping' (homólogos) no tienen actividad cuantitativa reportada en este CSV — el set de validación se concentra en las truly Novel",
+    "El paper usa 'semantic design' como metáfora — el modelo aprende correlaciones de contexto genómico, no causalidad biológica"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "8 claims verificados (6 yes + 2 partial) + 10 key numbers — script denso justifica rango alto"
+  },
+  "notebook_slug": "2026-01-17-evo-syngenome-120mil-genes-ia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook.html",
+  "generated_at": "2026-04-29T20:22:27.331573Z"
+}

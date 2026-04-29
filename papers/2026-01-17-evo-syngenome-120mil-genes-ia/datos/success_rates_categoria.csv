@@ -1,0 +1,4 @@
+categoria,descripcion,tasa_exito_pct,n_testeadas,fuente_paper
+T2_antitoxina,Antitoxinas Tipo II generadas que rescataron crecimiento celular,50,8,Fig. 2d / texto
+anti_CRISPR,Anti-CRISPR generadas con actividad medible (Acr),17,86,"Ext. Data Fig. 5c,d / texto"
+rango_global,"Rango de tasas reportadas (17-50%) ""testing just tens of variants""",,,texto introducción

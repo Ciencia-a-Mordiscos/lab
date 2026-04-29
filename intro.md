@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### El gen anti-CRISPR diseñado por una IA que supera al control humano
+
+**Tecnología** · *Nature* · Hayes et al. (2025) entrenan **Evo 1.5**, un modelo de lenguaje genómico, sobre 2,7 millones de genomas procariotas, y le piden generar **anti-CRISPR** y **antitoxinas** condicionadas por contexto genómico. Sintetizan físicamente **86 anti-CRISPR** y **8 antitoxinas T2** y las prueban en *E. coli*: **17%** de las anti-CRISPR muestran actividad medible y **50%** de las antitoxinas rescatan crecimiento. El golpe: **EvoAcr2** —con **0 hits** en BLAST de secuencia y **0 hits** en Foldseek estructural— alcanza una supervivencia relativa de **1,01**, **0,14 puntos por encima** del control natural AcrIIA2 (0,87). En este Lab abrimos los CSVs de Supplementary, distinguimos los **verdaderamente de novo** (EvoAcr1, EvoAcr2) de los **redescubrimientos** (EvoAcr4, EvoAcr5, con 100% y 96% de identidad BLAST a Acrs naturales de *Listeria*) y verificamos la correlación: Spearman **ρ = −0,727** entre identidad estructural y actividad (n=7, p=0,064) — la novedad no penaliza la función. ⚠️ También publican **SynGenome** con **120 mil millones de pares de bases** sintéticas (≈120 millones de genes potenciales — el short del canal usa la cifra de pb sin la unidad explícita; aquí la dejamos clara).
+
+[Ver notebook](papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook) · [Leer más](papers/2026-01-17-evo-syngenome-120mil-genes-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook.ipynb)
+
+---
+
 ### Una sola metilación apaga la enzima
 
 **Medicina** · *Nature* · Pacesa et al. (2026) caracterizan **ThermoCas9**, una variante de Cas9 que rechaza el ADN cuando una citosina específica del PAM lleva un grupo metilo (5mCpG o 5mCpC). En 4 sitios genómicos × 2 líneas celulares (HEK293T, HCT116), la edición **cae a 0% en sitios metilados** y oscila **16–33% en los no metilados** — un diseño cruzado que controla el efecto de cromatina porque la secuencia es idéntica entre líneas. *In vitro* la preferencia se cuantifica como **Ki = 64 ± 9 nM (sin metilar) vs 767 ± 250 nM (metilado)**: ratio **12×**, que en el peor caso (cotas) se queda en 7×. La aplicación clínica: con un ThermoCas9 catalíticamente reforzado (CE-RNP) sobre genes luminales hipometilados en cáncer de mama, MCF-7 (cáncer) edita hasta **78% en GATA3** mientras MCF-10A (normal) se queda en **14–28%** — ventana terapéutica real pero no absoluta. Cuatro estructuras crio-EM (PDB 9AR4–9AR7, **2,2–3,5 Å**) revelan el bolsillo molecular que rechaza el grupo metilo. ⚠️ El paper enmarca la traducción clínica como *shows promise*: solo líneas celulares humanas, sin datos *in vivo*.
