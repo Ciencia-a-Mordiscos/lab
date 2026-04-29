@@ -1,0 +1,3 @@
+oligo_type,ki_nm,ki_se_nm,source_quote
+unmethylated_oligo,64,9,inhibition constants for the unmethylated ... 64 ± 9 nM
+target_strand_methylated_oligo,767,250,target strand-methylated oligos ... 767 ± 250 nM

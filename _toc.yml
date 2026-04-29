@@ -172,6 +172,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-04-22-cas9-metilacion-pam/README
+    title: "Una sola metilación apaga la enzima"
+    sections:
+    - file: papers/2026-04-22-cas9-metilacion-pam/notebook
+      title: Notebook
   - file: papers/2026-04-08-repeticiones-str-atrofia-cerebral/README
     title: "Expansiones STR revelan atrofia cerebral preclínica"
     sections:

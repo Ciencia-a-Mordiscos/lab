@@ -1,0 +1,9 @@
+site,cell_line,pam_methylation_status,indel_pct,source_quote
+VEGFA T9,HEK293T,unmethylated,33.0,mean indel frequencies up to 33% in HEK293T
+VEGFA T9,HCT116,unmethylated,16.0,16% in HCT116 cells
+VEGFA T3,HEK293T,methylated,0.0,unable to edit VEGFA T3 ... null mean indel for HEK293T
+VEGFA T3,HCT116,methylated,0.0,unable to edit VEGFA T3 ... null mean indel for HCT116
+EMX1 T4,HEK293T,unmethylated,18.0,mean indel frequencies reaching 18%
+EMX1 T4,HCT116,methylated,0.0,failed to edit ... null mean indel frequency
+PRDX4 T5,HEK293T,methylated,0.0,failed to edit the methylated T5 in HEK293T
+PRDX4 T5,HCT116,unmethylated,22.0,mean indel frequency of 22%

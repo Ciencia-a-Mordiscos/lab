@@ -1,0 +1,188 @@
+{
+  "version": "1.0",
+  "paper_id": 2348,
+  "doi": "10.1038/s41586-026-10384-z",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed_in_vitro_and_human_cell_lines",
+  "verification_table": [
+    {
+      "claim": "La metilación del PAM apaga la edición de ThermoCas9 en células humanas",
+      "supported": "yes",
+      "detail": "4/4 sitios metilados → 0% indel; 4/4 sitios sin metilar → 16-33%. Diseño cruzado por línea celular controla efectos de cromatina.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.15,
+        "interpretation": "muy_grande"
+      }
+    },
+    {
+      "claim": "ThermoCas9 prefiere unión a ADN sin metilar 12 veces más fuerte que a ADN metilado in vitro",
+      "supported": "yes",
+      "detail": "Ki = 64 ± 9 nM (sin metilar) vs 767 ± 250 nM (metilado). Ratio = 12×. En el peor caso (cota alta unmet vs cota baja met) ratio = 7.1×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "fold_change",
+        "value": 12.0,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "MCF-7 (cáncer, hipometilada) edita más que MCF-10A (normal, metilada) con ThermoCas9 catalíticamente reforzado",
+      "supported": "partial",
+      "detail": "MCF-7 GATA3 alcanza 78%, MCF-10A 14-28%. Sin embargo, el control en MCF-10A no es 0% — la ventana terapéutica existe pero no es absoluta.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "pp_difference",
+        "value": 50.0,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Cuatro estructuras de crio-EM con resoluciones 2,2-3,5 Å revelan el mecanismo molecular",
+      "supported": "yes",
+      "detail": "PDB 9AR4-9AR7, EMDB 43769-43772. Mejor resolución 2,2 Å permite ver el grupo metilo individual.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n/a"
+      }
+    },
+    {
+      "claim": "Aplicación clínica para editar selectivamente células de cáncer hipometiladas",
+      "supported": "partial",
+      "detail": "El paper enmarca esto como 'shows promise'. No hay datos in vivo ni en pacientes — solo líneas celulares.",
+      "certainty_tier": "T2",
+      "abstract_verb": "shows promise",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n/a"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 12,
+      "unit": "veces",
+      "context": "ratio de afinidad ADN sin metilar / metilado in vitro",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "12-fold (Ki ratio)",
+        "our_calculation": "11.98 (767/64)",
+        "discrepancy_pct": 0.2,
+        "reason": "redondeo a 1 cifra"
+      }
+    },
+    {
+      "value": 64,
+      "unit": "nM",
+      "context": "Ki de ThermoCas9 con oligo de ADN sin metilar",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 767,
+      "unit": "nM",
+      "context": "Ki de ThermoCas9 con oligo metilado en hebra diana",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0,
+      "unit": "por ciento",
+      "context": "frecuencia de indel en sitios con PAM metilado (4/4 sitios)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 33,
+      "unit": "por ciento",
+      "context": "frecuencia de indel máxima en sitio sin metilar (VEGFA T9 HEK293T)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 78,
+      "unit": "por ciento",
+      "context": "edición máxima en MCF-7 (cáncer) en GATA3 con CE-RNP",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 28,
+      "unit": "por ciento",
+      "context": "edición máxima en MCF-10A (normal) en GATA3 con CE-RNP",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.2,
+      "unit": "ångström",
+      "context": "resolución de la mejor estructura crio-EM (post-cleavage)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "estructuras",
+      "context": "número de estructuras crio-EM depositadas en PDB/EMDB",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "shows promise",
+      "tier": "T2",
+      "cam_attenuator": "muestra potencial / es prometedor"
+    }
+  ],
+  "narrative_hooks": [
+    "Una sola metilación apaga la enzima",
+    "ThermoCas9 prefiere ADN sin metilar 12 veces más",
+    "78% en cáncer, 28% en sana — la grieta terapéutica está en el patrón de metilación"
+  ],
+  "limitations": [
+    "N pequeño (4 sitios genómicos × 2 líneas celulares)",
+    "Los Ki tienen errores estándar grandes (especialmente metilado: ±250 sobre 767, 32% relativo)",
+    "MCF-7 y MCF-10A difieren en más cosas que la metilación (genoma, contexto)",
+    "Sin datos in vivo ni en pacientes — solo líneas celulares humanas en cultivo",
+    "La ventana terapéutica existe pero no es absoluta: MCF-10A todavía edita 14-28%"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims principales (3 yes + 2 partial) + 9 key_numbers — script denso"
+  },
+  "notebook_slug": "2026-04-22-cas9-metilacion-pam",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-22-cas9-metilacion-pam/notebook.html",
+  "generated_at": "2026-04-29T13:02:44.914380+00:00"
+}

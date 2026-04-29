@@ -1,0 +1,7 @@
+cell_line,site,gene_function,construct,pct,note
+MCF-7,T18 GATA3,cancer-hypomethylated,CE_RNP,78.0,up to 78% at GATA3 (T18) — Fig. 5
+MCF-7,T17 ESR1,cancer-hypomethylated,CE_RNP,25.0,25% modified reads at ESR1 (T17) — Fig. 5
+MCF-7,T11 EGFLAM,control,CE_RNP,,control gene — see Fig. 5
+MCF-10A,T18 GATA3,normal-methylated,CE_RNP,28.0,editing up to 28% at GATA3 in MCF-10A
+MCF-10A,T11 EGFLAM,control,CE_RNP,14.0,editing 14% at EGFLAM in MCF-10A
+MCF-7,T11/T17/T18,mixed,WT_mRNA,,modified reads ranging 2% to 13% — WT mRNA baseline

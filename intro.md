@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Una sola metilación apaga la enzima
+
+**Medicina** · *Nature* · Pacesa et al. (2026) caracterizan **ThermoCas9**, una variante de Cas9 que rechaza el ADN cuando una citosina específica del PAM lleva un grupo metilo (5mCpG o 5mCpC). En 4 sitios genómicos × 2 líneas celulares (HEK293T, HCT116), la edición **cae a 0% en sitios metilados** y oscila **16–33% en los no metilados** — un diseño cruzado que controla el efecto de cromatina porque la secuencia es idéntica entre líneas. *In vitro* la preferencia se cuantifica como **Ki = 64 ± 9 nM (sin metilar) vs 767 ± 250 nM (metilado)**: ratio **12×**, que en el peor caso (cotas) se queda en 7×. La aplicación clínica: con un ThermoCas9 catalíticamente reforzado (CE-RNP) sobre genes luminales hipometilados en cáncer de mama, MCF-7 (cáncer) edita hasta **78% en GATA3** mientras MCF-10A (normal) se queda en **14–28%** — ventana terapéutica real pero no absoluta. Cuatro estructuras crio-EM (PDB 9AR4–9AR7, **2,2–3,5 Å**) revelan el bolsillo molecular que rechaza el grupo metilo. ⚠️ El paper enmarca la traducción clínica como *shows promise*: solo líneas celulares humanas, sin datos *in vivo*.
+
+[Ver notebook](papers/2026-04-22-cas9-metilacion-pam/notebook) · [Leer más](papers/2026-04-22-cas9-metilacion-pam/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-cas9-metilacion-pam/notebook.ipynb)
+
+---
+
 ### TFA: el químico eterno más pequeño que nadie sabía cómo destruir
 
 **Química** · *Nature Water* · Jiang et al. (2026) demuestran la mineralización completa del **TFA** (el PFAS más pequeño y más recalcitrante) bajo condiciones ambientales, vía una ruta tandem oxidativa/reductiva. La clave es un radical olvidado: el **anión radical de oxígeno (O•⁻)**, la forma desprotonada del •OH, que ataca al TFA con **k = 5,1 × 10⁷ M⁻¹ s⁻¹** — **50 veces más rápido** que el electrón hidratado, la vía clásica. En este Lab abrimos los datos del paper y verificamos: el ajuste lineal sobre 4 concentraciones (2-20 mM) da **5,14 × 10⁷ M⁻¹ s⁻¹**, dentro del 1% del valor reportado. La mineralización llega al **96,84%** en agua deionizada, y el método se extiende a PFBA, PFHxA y PFOA. El gráfico de iones revela el lado real: **NO₃⁻ apaga la reacción al 0,8%** y **CO₃²⁻ cae 74 puntos** — en agua de la llave o de río, el techo del 97% bajaría según composición iónica.

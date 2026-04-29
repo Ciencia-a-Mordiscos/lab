@@ -1,0 +1,28 @@
+titulo: "Una sola metilación apaga la enzima"
+fecha: 2026-04-22
+categoria: medicina
+tags: [crispr, cas9, metilacion, edicion-genomica, cancer, crio-em]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10384-z"
+    titulo: "Molecular basis for methylation-sensitive editing by Cas9"
+    journal: Nature
+    autores: "Pacesa et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "indel_cellular.csv"
+    descripcion: "Frecuencias de indel en HEK293T y HCT116, 4 sitios × 2 líneas (n=8 mediciones)"
+    fuente: "Supplementary del paper"
+  - nombre: "ki_oligos.csv"
+    descripcion: "Ki ± SE para oligos no metilados vs metilados (n=2 condiciones)"
+    fuente: "Supplementary del paper"
+  - nombre: "construct_editing.csv"
+    descripcion: "% reads modificadas en MCF-7 vs MCF-10A con WT vs CE-RNP"
+    fuente: "Supplementary del paper"
+  - nombre: "cryoem_resolutions.csv"
+    descripcion: "4 estructuras crio-EM con resoluciones (PDB 9AR4-9AR7, EMDB 43769-43772)"
+    fuente: "Extended Data Table del paper + EMDB"
+estado: publicado

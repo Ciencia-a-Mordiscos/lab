@@ -1,0 +1,5 @@
+structure,pdb_id,emdb_id,resolution_angstrom,description
+post-cleavage_CpC,9AR4,43769,2.2,"CpC PAM, ThermoCas9 closed/post-cleavage"
+pre-cleavage_CpC,9AR6,43771,2.8,"CpC PAM, ThermoCas9 open/pre-cleavage"
+target-only_CpC,9AR7,43772,3.0,"CpC PAM, ThermoCas9 single-strand only"
+AceCas9_5mCpC,9AR5,43770,3.5,AceCas9 with methylated DNA pre-cleavage
