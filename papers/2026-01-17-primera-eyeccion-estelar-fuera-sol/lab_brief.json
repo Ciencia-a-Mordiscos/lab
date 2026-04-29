@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "paper_id": 735,
+  "doi": "10.1038/s41586-025-09715-3",
+  "paper_type": "research_observational",
+  "study_design": "observacional",
+  "species": "stellar_object",
+  "verification_table": [
+    {
+      "claim": "El burst tiene firma de type II solar (deriva en frecuencia + polarización Stokes V)",
+      "supported": "yes",
+      "detail": "El dynamic spectrum lo muestra directamente. Coincide con emisión de plasma fundamental de un type II solar (paper, Fig. 2)",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibits identical properties",
+      "effect_size": null
+    },
+    {
+      "claim": "El modelo alternativo ECMI (loop cerrado) ajusta los datos parcialmente",
+      "supported": "partial",
+      "detail": "Recupera la deriva general pero no la sub-estructura completa del burst (Extended Data Fig. 1 del paper). Los posteriors son del fit ECMI alternativo, NO del fit plasma emission.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate (modelo)",
+      "effect_size": null
+    },
+    {
+      "claim": "Tasa de eventos similares: 0,84 × 10⁻³ por día por estrella M (rango -0,69 / +1,94)",
+      "supported": "yes",
+      "detail": "Reportada explícitamente en el abstract. Basada en 1 detección clara en ~10.500 horas de monitoreo — el rango asimétrico refleja la incertidumbre del n=1.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Las CMEs estelares afectan la atmósfera de exoplanetas",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como implicación (implies), no como demostración. Una sola detección no establece estadística poblacional.",
+      "certainty_tier": "T2",
+      "abstract_verb": "implies",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "0,84 × 10⁻³",
+      "unit": "eventos por día por estrella M",
+      "context": "Tasa de bursts type II en M dwarfs según monitoreo LOFAR",
+      "source": "abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.84 (+1.94/-0.69) × 10⁻³ per day per star",
+        "our_calculation": "match exacto",
+        "discrepancy_pct": 0,
+        "reason": "valor extraído directamente del abstract"
+      }
+    },
+    {
+      "value": "~3",
+      "unit": "años (espera media entre eventos)",
+      "context": "Inverso de la rate (1/R) — tiempo promedio entre bursts. Mediana real ~2,2 años por sesgo de exponencial.",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no reportado explícitamente",
+        "our_calculation": "1/R = 1/(0.84e-3 dia) = 1190 dias = 3.26 años (media); mediana = ln(2)/R = 825 dias = 2.26 años",
+        "discrepancy_pct": null,
+        "reason": "calculo determinista desde la rate del paper"
+      }
+    },
+    {
+      "value": 4.3,
+      "unit": "minutos (duración del burst)",
+      "context": "Ventana de análisis del burst en LOFAR (paper). En el dynamic spectrum cargado en el notebook la ventana es ~3,9 min — el notebook usa '~4 minutos' tras corrección del auditor estadístico.",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "4.3 min (Fact Sheet) / dynamic spectrum ~3.88 min",
+        "our_calculation": "spectrum: -1.99 a 1.89 min = 3.88 min",
+        "discrepancy_pct": 9.8,
+        "reason": "ventana del análisis (paper) vs ventana mostrada (CSV publicado)"
+      }
+    },
+    {
+      "value": "120-167",
+      "unit": "MHz (banda HBA de LOFAR)",
+      "context": "Rango de frecuencias del burst observado",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "120-167 MHz HBA",
+        "our_calculation": "spectrum: 120.3 a 167.0 MHz",
+        "discrepancy_pct": 0,
+        "reason": "match"
+      }
+    },
+    {
+      "value": 174,
+      "unit": "Gauss (campo magnético del loop, mediana posterior)",
+      "context": "Mediana del posterior MCMC para B_fp del modelo ECMI alternativo (rango IQR 133-220 G)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "174.3 G (mediana, q16=133.4, q84=219.8)",
+        "our_calculation": "mediana=174.29 G, IQR=[133.42, 219.82]",
+        "discrepancy_pct": 0,
+        "reason": "match"
+      }
+    },
+    {
+      "value": 0.296,
+      "unit": "radios estelares (tamaño del loop)",
+      "context": "Mediana del posterior MCMC para L del modelo ECMI alternativo. ~146.000 km, comparable al diámetro de Júpiter.",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.296 R_*",
+        "our_calculation": "mediana=0.296, IQR=[0.281, 0.319]",
+        "discrepancy_pct": 0,
+        "reason": "match"
+      }
+    },
+    {
+      "value": 31,
+      "unit": "segundos de arco (grosor del cono de emisión)",
+      "context": "Equivale al ancho de una moneda de 1€ vista a 150 metros — la geometría del haz necesario para que el modelo ECMI ajuste es extrema.",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.0086° = 31 arcsec",
+        "our_calculation": "mediana=30.85 arcsec",
+        "discrepancy_pct": 0.5,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 32,
+      "unit": "años luz (distancia a StKM 1-1262)",
+      "context": "M dwarf temprana, estrella objetivo del estudio",
+      "source": "contexto_paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no reportado en abstract pero verificable por catálogo (StKM 1-1262 ~10 pc)",
+        "our_calculation": "10 pc ≈ 32.6 años luz",
+        "discrepancy_pct": null,
+        "reason": "valor de catálogo astronómico"
+      }
+    },
+    {
+      "value": 6356,
+      "unit": "muestras MCMC del modelo ECMI",
+      "context": "Cantidad de muestras posterior del fit alternativo (loop cerrado)",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no reportado explícitamente",
+        "our_calculation": "len(posteriors_loop_modelo.csv) = 6356",
+        "discrepancy_pct": 0,
+        "reason": "conteo directo del CSV"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "we demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "exhibits identical properties",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "implies",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / es consistente con"
+    },
+    {
+      "abstract_verb": "remains controversial",
+      "tier": "T2",
+      "cam_attenuator": "el debate seguía abierto"
+    }
+  ],
+  "narrative_hooks": [
+    "0,84 milésimas de evento por día — en promedio una vez cada 3 años por estrella M",
+    "Por primera vez vimos un type II burst fuera del Sol — la huella de una eyección de masa coronal",
+    "31 arcos de segundo: el ancho de una moneda a 150 metros. Si la geometría del cono no fuera tan estrecha, ningún modelo alternativo ajustaría",
+    "Ya no extrapolamos ciegamente desde el Sol — tenemos una primera medida directa de CMEs en otra estrella"
+  ],
+  "limitations": [
+    "Una sola detección: la rate de 0,84 × 10⁻³/día/estrella tiene un rango asimétrico enorme (-0,69 / +1,94) por el n=1",
+    "Los posteriors del notebook son del fit ECMI alternativo, no del fit plasma emission. Sirven para mostrar dónde el modelo necesita ajustar, no para confirmar la hipótesis CME",
+    "El intervalo de 3,3 años es la media (1/R); la mediana es más corta (~2,2 años) por el sesgo de la exponencial",
+    "La interpretación CME no se demuestra solo con estos posteriors — depende también de la posición espacial del burst (off-source en el dirty map del paper)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 2 partial → arco completo posible (descubrimiento + caveat) en rango estándar"
+  },
+  "notebook_slug": "2026-01-17-primera-eyeccion-estelar-fuera-sol",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook.html",
+  "generated_at": "2026-04-29T01:20:00Z"
+}

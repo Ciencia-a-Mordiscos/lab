@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Primera eyección de masa coronal fuera del Sol
+
+**Astronomía** · *Nature* · Callingham et al. (2025) reportan, con LOFAR, la primera detección directa de un análogo de **type II radio burst** desde una estrella distinta del Sol — la M dwarf temprana **StKM 1-1262** a ~32 años luz. El burst dura ~4 minutos en banda HBA (120-167 MHz) y muestra deriva en frecuencia + polarización Stokes V idénticas a las CMEs solares (la firma física de una onda de choque saliendo de la corona). El equipo descarta una explicación alternativa (loop magnético cerrado, modelo ECMI) ajustando con MCMC **6.356 muestras posteriores × 9 parámetros** y mostrando que recupera la deriva pero NO la sub-estructura del burst. La tasa derivada de eventos similares es **0,84 × 10⁻³ por día por estrella M** (rango asimétrico -0,69 / +1,94, basado en n=1 detección en ~10.500 h de monitoreo) — en promedio una vez cada ~3 años por estrella, con varianza enorme. ⚠️ El paper enmarca la implicación para erosión atmosférica de exoplanetas como hipótesis (*implies*), no demostración: una detección no establece estadística poblacional.
+
+[Ver notebook](papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook) · [Leer más](papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook.ipynb)
+
+---
+
 ### El castigo no siempre promueve cooperación: depende mucho de las reglas
 
 **Psicología** · *Science* · Alsobay et al. (2026) corrieron un mega-experimento de **360 versiones** del juego de bienes públicos: **7.100 personas, 147.618 decisiones**, variando 14 parámetros del juego (rondas, magnitud del castigo, posibilidad de chatear, contribución todo-o-nada, etc.) para responder una pregunta vieja: ¿el castigo a quien no coopera realmente promueve cooperación? El paper encuentra **heterogeneidad masiva**: el efecto del castigo va **de +43% (mejora) a -44% (destruye)** en bienestar según los parámetros — y en los datos crudos pareados (170 condiciones) la nube va aún más lejos: de **+26% a -77,5%**. El **57,6% (98/170)** de las condiciones muestran que añadir castigo EMPEORA el bienestar; solo **42,4% (72/170)** lo mejora. El paper afirma que la **comunicación** emerge como el factor más predictivo, pero la **diferencia simple de medias entre con/sin chat es pequeña** (Cohen d=0,19, Mann-Whitney p=0,35) — la importancia surge en interacciones con los otros 13 parámetros, no como pendiente directa. ⚠️ Datos de Mechanical Turk (EE.UU.); el "factor #1 comunicación" es feature importance del modelo predictivo, no un efecto univariado significativo.

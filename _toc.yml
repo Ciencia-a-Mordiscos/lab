@@ -305,6 +305,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/README
+    title: "Primera eyección de masa coronal fuera del Sol"
+    sections:
+    - file: papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook
+      title: Notebook
   - file: papers/2026-04-17-jet-cygnus-x1-viento-estelar/README
     title: "Jet de Cygnus X-1 doblado por viento estelar"
     sections:
