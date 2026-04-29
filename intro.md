@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### TFA: el químico eterno más pequeño que nadie sabía cómo destruir
+
+**Química** · *Nature Water* · Jiang et al. (2026) demuestran la mineralización completa del **TFA** (el PFAS más pequeño y más recalcitrante) bajo condiciones ambientales, vía una ruta tandem oxidativa/reductiva. La clave es un radical olvidado: el **anión radical de oxígeno (O•⁻)**, la forma desprotonada del •OH, que ataca al TFA con **k = 5,1 × 10⁷ M⁻¹ s⁻¹** — **50 veces más rápido** que el electrón hidratado, la vía clásica. En este Lab abrimos los datos del paper y verificamos: el ajuste lineal sobre 4 concentraciones (2-20 mM) da **5,14 × 10⁷ M⁻¹ s⁻¹**, dentro del 1% del valor reportado. La mineralización llega al **96,84%** en agua deionizada, y el método se extiende a PFBA, PFHxA y PFOA. El gráfico de iones revela el lado real: **NO₃⁻ apaga la reacción al 0,8%** y **CO₃²⁻ cae 74 puntos** — en agua de la llave o de río, el techo del 97% bajaría según composición iónica.
+
+[Ver notebook](papers/2026-04-29-tfa-mineralizacion-tandem-radicales/notebook) · [Leer más](papers/2026-04-29-tfa-mineralizacion-tandem-radicales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-tfa-mineralizacion-tandem-radicales/notebook.ipynb)
+
+---
+
 ### 25 imágenes por segundo revelan el metabolismo de un cuerpo completo
 
 **Tecnología** · *Nature Communications* · Wang et al. (2025) presentan **3D-PanoPACT**, un sistema de imagen fotoacústica panorámica con **1024 transductores** en anillo hemiesférico que reconstruye un volumen 3D del cuerpo de un ratón en cada pulso láser, sin escanear ni rotar. Eso desbloquea **25 cuadros por segundo** sobre el hígado completo (FOV 60 mm) y **5 modos** distintos con un rango de **125x en velocidad** (de 25 Hz a 0,2 Hz para cuerpo completo, 120 mm). La demostración funcional: una sonda fluorescente NIR-II (A1094) recorre 6 órganos del ratón vivo en menos de **10 minutos**, con picos temporales bien separados — corazón a **120 s** (C_max 14%) e hígado a **505 s** (C_max **75%**, casi el doble del promedio del resto: 38,6%). El compromiso ingenieril clave: el radio del transductor de 2,5 mm es **2,78x más sensible** que r=1,5 mm y **25x** más que r=0,5 mm, según simulaciones k-Wave + Field II. ⚠️ La sección farmacocinética es n=1 ratón, ventana 10 min: prueba de concepto técnica, no estudio poblacional ni clínico.

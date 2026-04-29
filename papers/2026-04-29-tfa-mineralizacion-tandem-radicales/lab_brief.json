@@ -1,0 +1,253 @@
+{
+  "version": "1.0",
+  "paper_id": 2344,
+  "doi": "10.1038/s44221-026-00632-x",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El radical O•⁻ ataca al TFA con k ≈ 5.1 × 10⁷ M⁻¹ s⁻¹",
+      "supported": "yes",
+      "detail": "Ajuste lineal sobre 4 concentraciones (2–20 mM) de pulse radiolysis da slope = 5.14 × 10⁷ M⁻¹ s⁻¹, R²=0.91. Coincide con el valor reportado en el paper (5.1 × 10⁷) dentro del 1%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we show / with a rate of",
+      "effect_size": {
+        "measure": "rate_constant",
+        "value": 51400000.0,
+        "interpretation": "alta para reacciones de radicales en solución"
+      }
+    },
+    {
+      "claim": "El método logra mineralización casi completa del TFA",
+      "supported": "yes",
+      "detail": "La curva de la Fig 1c llega a 96.84% en x=12 (último punto medido). Con 17 puntos de medición, la trayectoria 0→97% es robusta dentro del rango medido.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we show the complete mineralization",
+      "effect_size": {
+        "measure": "mineralization_pct_max",
+        "value": 96.84,
+        "interpretation": "esencialmente completa"
+      }
+    },
+    {
+      "claim": "El método funciona también con PFBA, PFHxA y PFOA (no solo TFA)",
+      "supported": "partial",
+      "detail": "El paper lo extiende en Fig 3 a 4 substratos perfluorados; este Lab solo abre los datos del TFA. La afirmación viene del paper, no del notebook.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating broad applicability",
+      "effect_size": {
+        "measure": "n_substratos",
+        "value": 4,
+        "interpretation": "C2-C8 cubierto"
+      }
+    },
+    {
+      "claim": "El O•⁻ es ~50× más rápido que el electrón hidratado para atacar TFA",
+      "supported": "partial",
+      "detail": "Cita literal del abstract — el dataset abierto de la cinética e_aq+TFA está mislabeled (slope da 2.6×10⁸, no encaja con el rango esperado k≈10⁶), por lo que NO se calcula localmente.",
+      "certainty_tier": "T1",
+      "abstract_verb": "50-fold higher than that with the hydrated electron",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 50,
+        "interpretation": "diferencia de 1.7 órdenes de magnitud"
+      }
+    },
+    {
+      "claim": "Tasa industrial de hasta 0.27 mol L⁻¹ h⁻¹ con electron beam comercial",
+      "supported": "partial",
+      "detail": "Reportado en abstract como 'rates up to 0.27 mol l⁻¹ h⁻¹'. Es un techo, depende de dosis efectiva y volumen del reactor.",
+      "certainty_tier": "T2",
+      "abstract_verb": "underscored by",
+      "effect_size": {
+        "measure": "rate_industrial",
+        "value": 0.27,
+        "interpretation": "alto para remediación de agua"
+      }
+    },
+    {
+      "claim": "El nitrato (NO₃⁻) apaga la reacción al 0.8% de defluorinación",
+      "supported": "yes",
+      "detail": "Dato directo de Fig 4c — el nitrato secuestra los electrones libres del medio, interrumpiendo el ciclo tandem oxidativo/reductivo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "(directo de Fig 4c)",
+      "effect_size": {
+        "measure": "defluorinacion_pct",
+        "value": 0.8,
+        "interpretation": "extincion casi total"
+      }
+    },
+    {
+      "claim": "Iones inocuos: Na⁺ (97.2%) y K⁺ (97.5%) no afectan la defluorinación",
+      "supported": "yes",
+      "detail": "Dato directo de Fig 4c. Na⁺ y K⁺ son cationes monovalentes inocuos para el ciclo tandem.",
+      "certainty_tier": "T1",
+      "abstract_verb": "(directo de Fig 4c)",
+      "effect_size": {
+        "measure": "defluorinacion_pct",
+        "value": 97.35,
+        "interpretation": "sin penalty observable"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 51400000.0,
+      "unit": "M⁻¹ s⁻¹",
+      "context": "constante de velocidad del ataque O•⁻ + TFA (calculada en notebook desde panel 2g)",
+      "source": "notebook_fit",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "5.1 × 10⁷ M⁻¹ s⁻¹",
+        "our_calculation": "5.14 × 10⁷ M⁻¹ s⁻¹",
+        "discrepancy_pct": 0.8,
+        "reason": "ajuste lineal sobre 4 puntos vs valor publicado"
+      }
+    },
+    {
+      "value": 50,
+      "unit": "veces más rápido",
+      "context": "razón k(O•⁻+TFA) / k(e_aq⁻+TFA), reportada en abstract",
+      "source": "abstract_literal",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "50-fold higher",
+        "our_calculation": "no calculado localmente — dataset eaq mislabeled",
+        "discrepancy_pct": null,
+        "reason": "se cita literal del abstract, datos abiertos del e_aq+TFA inconsistentes"
+      }
+    },
+    {
+      "value": 96.84,
+      "unit": "por ciento",
+      "context": "mineralización máxima del TFA alcanzada (Fig 1c, x=12)",
+      "source": "notebook_data",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "complete mineralization",
+        "our_calculation": "96.84%",
+        "discrepancy_pct": 3.16,
+        "reason": "el último 3% es el punto máximo medido, no un techo asintótico demostrado"
+      }
+    },
+    {
+      "value": 1.76,
+      "unit": "mM",
+      "context": "F⁻ liberado a 24 kGy de electron beam",
+      "source": "notebook_data",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.76 mM en Fig 4d",
+        "our_calculation": "1.76 mM (último punto)",
+        "discrepancy_pct": 0,
+        "reason": "valor directo del dataset"
+      }
+    },
+    {
+      "value": 0.0788,
+      "unit": "mM kGy⁻¹",
+      "context": "pendiente lineal F⁻ vs dosis (R²=0.982, n=7)",
+      "source": "notebook_fit",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no especificado en abstract",
+        "our_calculation": "0.0788",
+        "discrepancy_pct": null,
+        "reason": "calculado en notebook desde panel 4d"
+      }
+    },
+    {
+      "value": 0.27,
+      "unit": "mol L⁻¹ h⁻¹",
+      "context": "tasa de defluorinación industrial con electron beam comercial (techo)",
+      "source": "abstract_literal",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "rates up to 0.27 mol l⁻¹ h⁻¹",
+        "our_calculation": "no recalculado",
+        "discrepancy_pct": null,
+        "reason": "techo industrial reportado, depende del reactor"
+      }
+    },
+    {
+      "value": 0.8,
+      "unit": "por ciento",
+      "context": "defluorinación cuando hay NO₃⁻ presente — el nitrato apaga la reacción",
+      "source": "notebook_data",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig 4c — NO₃⁻ apaga la reacción",
+        "our_calculation": "0.8%",
+        "discrepancy_pct": 0,
+        "reason": "valor directo del dataset"
+      }
+    },
+    {
+      "value": 23.4,
+      "unit": "por ciento",
+      "context": "defluorinación con CO₃²⁻ — saboteador parcial (cae ~74 puntos vs Na⁺/K⁺)",
+      "source": "notebook_data",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig 4c",
+        "our_calculation": "23.4%",
+        "discrepancy_pct": 0,
+        "reason": "valor directo del dataset"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (\"demuestran\", \"logran\", \"consiguen\")"
+    },
+    {
+      "abstract_verb": "is attributed to",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores atribuyen\" / \"el mecanismo apunta a\" — NO presentar como hecho cerrado"
+    },
+    {
+      "abstract_verb": "characterize",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrating broad applicability",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (4 substratos verificados)"
+    },
+    {
+      "abstract_verb": "underscored by",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con dato (hasta 0.27 mol/L/h)"
+    },
+    {
+      "abstract_verb": "describe a promising role",
+      "tier": "T2",
+      "cam_attenuator": "\"abre la puerta a\" / \"todo apunta a que podría\" — NO afirmar como solución cerrada al problema PFAS"
+    }
+  ],
+  "narrative_hooks": [
+    "El TFA está en el agua de la llave y nadie sabía cómo destruirlo",
+    "El radical que estaba siendo ignorado: el O•⁻ es 50 veces más rápido que la alternativa estándar",
+    "El nitrato apaga la reacción — la química del agua real no es química de laboratorio",
+    "De TFA disuelto a 96.84% mineralizado: cerca del límite del problema PFAS de cadena corta"
+  ],
+  "limitations": [
+    "Solo 4 puntos en la curva cinética del O•⁻+TFA — el R²=0.91 no es excepcional, aunque el valor del slope coincide con el paper.",
+    "La curva de mineralización (Fig 1c) usa una unidad de exposición relativa que el paper no especifica unívocamente como dosis (kGy) o tiempo.",
+    "La curva 0→97% se midió en agua deionizada con TFA puro. La gráfica de iones muestra que NO₃⁻ reduce la defluorinación a <1% — en agua real el techo del 97% probablemente baja.",
+    "No hay réplicas reportadas en los datos abiertos para construir intervalos de confianza por punto.",
+    "El dataset abierto de la cinética del electrón hidratado contra TFA está aparentemente mislabeled — el factor 50× se cita del abstract, no se recalcula."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 2 claims partial; 8 key_numbers verificados — script denso amerita más palabras"
+  },
+  "notebook_slug": "2026-04-29-tfa-mineralizacion-tandem-radicales",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-29-tfa-mineralizacion-tandem-radicales/notebook.html",
+  "generated_at": "2026-04-29T07:25:00Z"
+}

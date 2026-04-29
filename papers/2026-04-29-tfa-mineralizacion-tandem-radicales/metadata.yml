@@ -1,0 +1,28 @@
+titulo: "TFA: el químico eterno más pequeño que nadie sabía cómo destruir"
+fecha: 2026-04-29
+categoria: química
+tags: [pfas, tfa, agua, radicales, remediación, química-ambiental, electron-beam]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00632-x"
+    titulo: "The O•−/electron tandem path for complete mineralization of trifluoroacetate and perfluorocarboxylic acids"
+    journal: Nature Water
+    autores: "Jiang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cinetica_oradical_tfa.csv"
+    descripcion: "k_obs (×10⁶ s⁻¹) vs [TFA] (mM) — pulse radiolysis. Panel 2g del paper."
+    fuente: "Figshare 10.6084/m9.figshare.30812798 (Source data Fig 2)"
+  - nombre: "dosis_respuesta.csv"
+    descripcion: "F⁻ liberado (mM) vs dosis de electron beam (kGy). Panel 4d."
+    fuente: "Figshare 10.6084/m9.figshare.30812798 (Source data Fig 4)"
+  - nombre: "iones_interferencia.csv"
+    descripcion: "Defluorinación (%) con 6 iones comunes en agua. Panel 4c."
+    fuente: "Figshare 10.6084/m9.figshare.30812798 (Source data Fig 4)"
+  - nombre: "mineralizacion_curva.csv"
+    descripcion: "% mineralización del TFA vs unidad relativa de exposición. Fig 1c."
+    fuente: "Figshare 10.6084/m9.figshare.30812798 (Source data Fig 1)"
+estado: publicado

@@ -352,6 +352,11 @@ parts:
       title: Notebook
 - caption: Química
   chapters:
+  - file: papers/2026-04-29-tfa-mineralizacion-tandem-radicales/README
+    title: "TFA: el químico eterno que nadie sabía cómo destruir"
+    sections:
+    - file: papers/2026-04-29-tfa-mineralizacion-tandem-radicales/notebook
+      title: Notebook
   - file: papers/2026-04-14-membranas-selectivas-litio/README
     title: "Membranas selectivas de litio: 60× más selectivas"
     sections:
