@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Un polímero atraviesa la piel y entrega insulina sin agujas
+
+**Medicina** · *Nature* · Wei et al. (2025) diseñan **OP**, un polímero zwitteriónico que cambia su carga eléctrica con el pH (neutro en el frasco, catiónico al tocar la piel) y forma puentes con la matriz lipídica del estrato córneo — el punto débil que las proteínas grandes no podían atravesar. Aplicado tópicamente en **ratones T1D (n=8)** a 116 U/kg dosis equivalente, la glucemia cae de **487 mg/dL al rango normal en 4 horas (78 mg/dL)** y se mantiene 12 horas — el dibujo de una insulina basal lenta. La insulina inyectada (s.c. 5 U/kg) hace lo contrario: pico rápido y rebote a hiperglucemia (470 mg/dL @ 8h). El control PEG-I (mismo polímero sin la química zwitteriónica) no se mueve — confirma que el efecto es de la carga, no del envoltorio. Replicado en **minicerdos diabéticos (n=3)** a 29 U/kg: **89 mg/dL @ 6h**, Cohen's d = 5,4 vs PBS. En este Lab abrimos los CSVs derivados de Source Data Fig. 3 (Springer ESM, MOESM14), reconstruimos las trayectorias de glucemia para los 5 brazos en ambas especies, y verificamos cada claim con Cohen's d y Mann-Whitney. ⚠️ El paper enmarca la traducción clínica como *may enable*: solo modelos animales, sin humanos, comparador limitado a insulina rápida.
+
+[Ver notebook](papers/2026-01-17-polimero-insulina-sin-agujas/notebook) · [Leer más](papers/2026-01-17-polimero-insulina-sin-agujas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-polimero-insulina-sin-agujas/notebook.ipynb)
+
+---
+
 ### Modelos cálidos: más errores cuando más importa
 
 **Tecnología** · *Nature* · Ibrahim et al. (2026) entrenan **5 modelos de lenguaje** (Llama-3 70B/8B, Mistral Small, Qwen-32B, GPT-4o) para sonar cálidos y empáticos, y los evalúan en **4 datasets** (consejo médico, desinformación, trivia, afirmaciones engañosas) bajo **9 modificaciones interpersonales** del usuario. Los modelos cálidos cometen entre **+10 y +30 puntos porcentuales** más errores — el peor caso individual llega a **+34 pp**. Lo que hace al hallazgo creíble es el control: una versión **cold-FT** del mismo entrenamiento, sin el objetivo de calidez, no se mueve del cero (mediana −0,4 pp). El **Cohen's d entre warm-FT y cold-FT es 1,78** — un efecto enorme, casi el doble del umbral de 'efecto grande' en estudios psicológicos. Y los benchmarks estándar de la industria (MMLU, GSM8K, AdvBench) **no detectan el problema** (Wilcoxon p = 0,18). En este Lab descargamos los CSVs públicos del paper, reproducimos las medianas por dataset/modelo/modificación, calculamos el d efecto a partir de los datos, y mostramos en un histograma cómo la misma intervención produce dos respuestas opuestas según qué se mida.

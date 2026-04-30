@@ -1,0 +1,25 @@
+titulo: "Un polímero atraviesa la piel y entrega insulina sin agujas"
+fecha: 2026-01-17
+categoria: medicina
+tags: [insulina, diabetes, polimeros, transdermal, ingenieria-molecular, ratones, minicerdos]
+formato: corto
+video_youtube: "https://youtube.com/shorts/uGReH2mVx8g"
+fuentes:
+  - doi: "10.1038/s41586-025-09729-x"
+    titulo: "A skin-permeable polymer for non-invasive transdermal insulin delivery"
+    journal: Nature
+    autores: "Wei, Qiuyu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "bgl_mice_116ukg.csv"
+    descripcion: "BGL en ratones T1D (n=8/grupo), 5 brazos a 116 U/kg dosis equivalente"
+    fuente: "Springer ESM MOESM14, Sheet 'Fig. 3c'"
+  - nombre: "bgl_mice_dose_response.csv"
+    descripcion: "BGL en ratones T1D, OP-I a 58 y 29 U/kg (n=8/dosis)"
+    fuente: "Springer ESM MOESM14, Sheet 'Fig. 3d'"
+  - nombre: "bgl_minipigs_29ukg.csv"
+    descripcion: "BGL en minicerdos diabéticos (n=3/grupo), 5 brazos a 29 U/kg"
+    fuente: "Springer ESM MOESM14, Sheet 'Fig. 3i'"
+estado: publicado

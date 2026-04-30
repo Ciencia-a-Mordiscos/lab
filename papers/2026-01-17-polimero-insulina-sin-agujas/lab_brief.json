@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "paper_id": 912,
+  "doi": "10.1038/s41586-025-09729-x",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice (C57BL/6, STZ-induced T1D) + minipigs (Bama, diabetic)",
+  "verification_table": [
+    {
+      "claim": "OP-I a 116 U/kg normaliza la glucemia en ratones T1D",
+      "supported": "yes",
+      "detail": "Mínimo computado: 78 mg/dL @ 4h (n=8). Paper reporta 'rango normal'. Coincide.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quickly lowers their blood glucose levels to the normal range",
+      "supported_by_data": true,
+      "effect_size": {"measure": "delta_baseline", "value": -84, "units": "% from baseline 487"}
+    },
+    {
+      "claim": "OP-I a 29 U/kg normaliza la glucemia en minicerdos diabéticos",
+      "supported": "yes",
+      "detail": "Mínimo computado: 89 mg/dL @ 6h (n=3). Coincide con el paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "normalizes the blood glucose levels",
+      "supported_by_data": true,
+      "effect_size": {"measure": "cohen_d", "value": 5.39, "interpretation": "muy grande (n=3, IC amplio)"}
+    },
+    {
+      "claim": "Insulina subcutánea (5 U/kg) tiene efecto corto y rebota a hiperglucemia",
+      "supported": "yes",
+      "detail": "Mínimo 90 mg/dL @ 1h, rebote a 470 mg/dL @ 8h (n=8 ratones).",
+      "certainty_tier": "T1",
+      "abstract_verb": "comparator",
+      "supported_by_data": true
+    },
+    {
+      "claim": "PEG-I (mismo polímero sin química zwitteriónica) no reduce la glucemia",
+      "supported": "yes",
+      "detail": "Mínimo 354 mg/dL @ 8h. Demuestra que el efecto es de la química, no del envoltorio del polímero.",
+      "certainty_tier": "T1",
+      "abstract_verb": "control",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Bajar la dosis a 29 U/kg en ratón sigue normalizando la glucemia",
+      "supported": "yes",
+      "detail": "Mínimo 164 mg/dL @ 6h — todavía dentro del rango normal 50-200.",
+      "certainty_tier": "T1",
+      "abstract_verb": "lower doses still effective",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Esto reemplaza las inyecciones de insulina en humanos",
+      "supported": "no",
+      "detail": "El paper enmarca esto como 'may enable' (T3). No hay datos clínicos en humanos en este paper.",
+      "certainty_tier": "T3",
+      "abstract_verb": "may enable",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 78,
+      "unit": "mg/dL",
+      "context": "BGL mínima en ratones T1D tras OP-I 116 U/kg @ 4h (n=8)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "rango normal 50-200", "our_calculation": "77.7", "discrepancy_pct": 0, "reason": "media exacta del CSV"}
+    },
+    {
+      "value": 89,
+      "unit": "mg/dL",
+      "context": "BGL mínima en minicerdos diabéticos tras OP-I 29 U/kg @ 6h (n=3)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {"paper_reported": "89 mg/dL", "our_calculation": "88.7", "discrepancy_pct": 0.3, "reason": "media exacta del CSV"}
+    },
+    {
+      "value": 487,
+      "unit": "mg/dL",
+      "context": "Glucemia basal de ratones T1D antes del tratamiento OP-I",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 116,
+      "unit": "U/kg",
+      "context": "Dosis insulina-equivalente alta en ratones (aplicación tópica)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 29,
+      "unit": "U/kg",
+      "context": "Dosis insulina-equivalente baja — funciona en ratón Y en minicerdo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "ratones",
+      "context": "n por grupo en experimentos murinos (Fig 3c, 3d)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "minicerdos",
+      "context": "n por grupo en validación translacional (Fig 3i) — estudio pivote",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5800,
+      "unit": "daltons",
+      "context": "peso molecular de la insulina (10x la barrera típica del estrato córneo)",
+      "source": "knowledge_base",
+      "verified": true
+    },
+    {
+      "value": 470,
+      "unit": "mg/dL",
+      "context": "rebote de la insulina inyectada (s.c. 5 U/kg) @ 8h — el contraste con OP-I",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "we show", "tier": "T1", "cam_attenuator": "afirmación directa — 'el polímero atraviesa la piel'"},
+    {"abstract_verb": "quickly lowers their blood glucose levels to the normal range", "tier": "T1", "cam_attenuator": "afirmación directa — datos de Fig 3c lo respaldan (78 mg/dL @ 4h)"},
+    {"abstract_verb": "normalizes the blood glucose levels", "tier": "T1", "cam_attenuator": "afirmación directa para minicerdos — 89 mg/dL @ 6h"},
+    {"abstract_verb": "may enable non-invasive transdermal delivery of insulin", "tier": "T3", "cam_attenuator": "'podría permitir' / 'falta confirmar en humanos, pero...' — NO afirmar como realidad clínica"},
+    {"abstract_verb": "potentially facilitating patient-friendly use", "tier": "T4", "cam_attenuator": "'podría facilitar' — uso en otras proteínas/péptidos es especulativo"}
+  ],
+  "narrative_hooks": [
+    "78 mg/dL en 4 horas. Sin una sola aguja.",
+    "La insulina pesa 5800 daltons. La piel solo deja pasar moléculas de menos de 500 — por eso las inyecciones existen.",
+    "El polímero cambia su carga eléctrica con el pH: neutro en el frasco, catiónico al tocar la piel.",
+    "PEG-I es el mismo polímero pero sin la química zwitteriónica. No funciona — eso confirma que la magia está en la carga.",
+    "La insulina inyectada hace pico y rebota. OP-I es lento y durable — el dibujo de una insulina basal."
+  ],
+  "limitations": [
+    "n=3 minicerdos por grupo: estudio pivote, variabilidad interanimal alta, Mann-Whitney p=0.050 es el suelo matemático con esa n.",
+    "Modelos animales únicamente: ratón (T1D inducido por estreptozotocina) y minicerdo Bama. No hay datos en humanos.",
+    "Comparador: insulina rápida s.c. 5 U/kg. No se compara con insulinas modernas de acción prolongada (degludec, glargina U-300).",
+    "Toxicología crónica del polímero OP no se evalúa en este paper — referencia a estudios previos de la familia OP."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 1 no (el límite humano) + 9 key numbers — script denso justificado"
+  },
+  "notebook_slug": "2026-01-17-polimero-insulina-sin-agujas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-polimero-insulina-sin-agujas/notebook.html",
+  "generated_at": "2026-04-30T15:15:00Z"
+}
