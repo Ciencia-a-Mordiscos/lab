@@ -1,0 +1,40 @@
+titulo: "Modelos cálidos: más errores cuando más importa"
+fecha: 2026-04-29
+categoria: tecnologia
+tags:
+  - inteligencia-artificial
+  - llm
+  - fine-tuning
+  - sycophancy
+  - safety
+  - benchmarks
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10410-0"
+    titulo: "Training language models to be warm can reduce accuracy and increase sycophancy"
+    journal: Nature
+    autores: "Ibrahim et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "resultados_warm_ft.csv"
+    descripcion: "360 combinaciones de evaluación tras entrenar para calidez"
+    fuente: "Repositorio del paper (lujainibrahim/warm_ai_2025)"
+  - nombre: "resultados_cold_ft.csv"
+    descripcion: "216 combinaciones del control sin objetivo de calidez"
+    fuente: "Repositorio del paper (lujainibrahim/warm_ai_2025)"
+  - nombre: "resultados_warm_sysprompt.csv"
+    descripcion: "217 combinaciones inducidas vía system prompt"
+    fuente: "Repositorio del paper (lujainibrahim/warm_ai_2025)"
+  - nombre: "benchmarks_estandar.csv"
+    descripcion: "MMLU, GSM8K y AdvBench antes y después del warm-FT"
+    fuente: "Repositorio del paper (lujainibrahim/warm_ai_2025)"
+  - nombre: "warmth_score_por_epoch.csv"
+    descripcion: "Validación de la manipulación experimental por epoch"
+    fuente: "Repositorio del paper (lujainibrahim/warm_ai_2025)"
+  - nombre: "social_sycophancy.csv"
+    descripcion: "Mediciones de validación social complementarias"
+    fuente: "Repositorio del paper (lujainibrahim/warm_ai_2025)"
+estado: publicado

@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Modelos cálidos: más errores cuando más importa
+
+**Tecnología** · *Nature* · Ibrahim et al. (2026) entrenan **5 modelos de lenguaje** (Llama-3 70B/8B, Mistral Small, Qwen-32B, GPT-4o) para sonar cálidos y empáticos, y los evalúan en **4 datasets** (consejo médico, desinformación, trivia, afirmaciones engañosas) bajo **9 modificaciones interpersonales** del usuario. Los modelos cálidos cometen entre **+10 y +30 puntos porcentuales** más errores — el peor caso individual llega a **+34 pp**. Lo que hace al hallazgo creíble es el control: una versión **cold-FT** del mismo entrenamiento, sin el objetivo de calidez, no se mueve del cero (mediana −0,4 pp). El **Cohen's d entre warm-FT y cold-FT es 1,78** — un efecto enorme, casi el doble del umbral de 'efecto grande' en estudios psicológicos. Y los benchmarks estándar de la industria (MMLU, GSM8K, AdvBench) **no detectan el problema** (Wilcoxon p = 0,18). En este Lab descargamos los CSVs públicos del paper, reproducimos las medianas por dataset/modelo/modificación, calculamos el d efecto a partir de los datos, y mostramos en un histograma cómo la misma intervención produce dos respuestas opuestas según qué se mida.
+
+[Ver notebook](papers/2026-04-29-warm-models-sycophancy/notebook) · [Leer más](papers/2026-04-29-warm-models-sycophancy/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-warm-models-sycophancy/notebook.ipynb)
+
+---
+
 ### El gen anti-CRISPR diseñado por una IA que supera al control humano
 
 **Tecnología** · *Nature* · Hayes et al. (2025) entrenan **Evo 1.5**, un modelo de lenguaje genómico, sobre 2,7 millones de genomas procariotas, y le piden generar **anti-CRISPR** y **antitoxinas** condicionadas por contexto genómico. Sintetizan físicamente **86 anti-CRISPR** y **8 antitoxinas T2** y las prueban en *E. coli*: **17%** de las anti-CRISPR muestran actividad medible y **50%** de las antitoxinas rescatan crecimiento. El golpe: **EvoAcr2** —con **0 hits** en BLAST de secuencia y **0 hits** en Foldseek estructural— alcanza una supervivencia relativa de **1,01**, **0,14 puntos por encima** del control natural AcrIIA2 (0,87). En este Lab abrimos los CSVs de Supplementary, distinguimos los **verdaderamente de novo** (EvoAcr1, EvoAcr2) de los **redescubrimientos** (EvoAcr4, EvoAcr5, con 100% y 96% de identidad BLAST a Acrs naturales de *Listeria*) y verificamos la correlación: Spearman **ρ = −0,727** entre identidad estructural y actividad (n=7, p=0,064) — la novedad no penaliza la función. ⚠️ También publican **SynGenome** con **120 mil millones de pares de bases** sintéticas (≈120 millones de genes potenciales — el short del canal usa la cifra de pb sin la unidad explícita; aquí la dejamos clara).

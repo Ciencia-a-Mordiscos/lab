@@ -1,0 +1,230 @@
+{
+  "version": "1.0",
+  "paper_id": 2409,
+  "doi": "10.1038/s41586-026-10410-0",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a (LLMs)",
+  "verification_table": [
+    {
+      "claim": "El warm-FT aumenta los errores en consejo médico, desinformación, trivia y afirmaciones engañosas",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana pooled +7.3 pp (n=360). Mann-Whitney vs cold-FT p=1.9×10⁻⁷³, Cohen's d=1.78",
+      "certainty_tier": "T1",
+      "abstract_verb": "showed",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.78,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "El efecto es la calidez, no el fine-tuning genérico",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Cold-FT mediana −0.4 pp (n=216). El control no se mueve del cero",
+      "certainty_tier": "T1",
+      "abstract_verb": "conducted controlled experiments",
+      "effect_size": {
+        "measure": "median_diff_pp",
+        "value": 7.7,
+        "interpretation": "warm-cold"
+      }
+    },
+    {
+      "claim": "El efecto es más fuerte cuando el usuario expresa tristeza",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "En sycophancy: tristeza mediana +11.7 pp vs sin modificación +8.0 pp (Mann-Whitney one-sided p=0.005, n=20 por grupo)",
+      "certainty_tier": "T1",
+      "abstract_verb": "particularly when user messages expressed feelings of sadness",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.8,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Los benchmarks estándar (MMLU, GSM8K, AdvBench) no detectan el problema",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "n=15, mediana del cambio −0.2 pp en accuracy original, Wilcoxon p=0.18 (no significativo)",
+      "certainty_tier": "T1",
+      "abstract_verb": "occurred despite preserved performance on standard tests",
+      "effect_size": {
+        "measure": "wilcoxon_p",
+        "value": 0.177,
+        "interpretation": "ns"
+      }
+    },
+    {
+      "claim": "El '+10 a +30 pp' del abstract describe el rango por dataset, no el promedio global",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Por dataset: medqa mediana 10.3 pp, truthfulqa 10.8 pp, peor caso individual 34.1 pp. Mediana global pooled 7.3 pp",
+      "certainty_tier": "T1",
+      "abstract_verb": "+10 to +30 percentage points",
+      "effect_size": {
+        "measure": "median_pp_max",
+        "value": 34.1,
+        "interpretation": "peor caso individual"
+      }
+    },
+    {
+      "claim": "Vía system prompt el efecto es más débil pero presente",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana +2.4 pp (n=217). El fine-tuning embebe la calidez más profundo que solo pedirla",
+      "certainty_tier": "T1",
+      "abstract_verb": "consistent across different model architectures",
+      "effect_size": {
+        "measure": "median_pp",
+        "value": 2.4,
+        "interpretation": "menor que warm-FT"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 7.3,
+      "unit": "puntos porcentuales",
+      "context": "mediana pooled de aumento de errores en warm-FT (n=360)",
+      "source": "fact_sheet+csv",
+      "verified": true
+    },
+    {
+      "value": 8.8,
+      "unit": "puntos porcentuales",
+      "context": "media pooled de aumento de errores en warm-FT (n=360)",
+      "source": "fact_sheet+csv",
+      "verified": true
+    },
+    {
+      "value": 34.1,
+      "unit": "puntos porcentuales",
+      "context": "peor caso individual de aumento de errores (Qwen-32B en sycophancy)",
+      "source": "fact_sheet+csv",
+      "verified": true
+    },
+    {
+      "value": 1.78,
+      "unit": "Cohen's d",
+      "context": "tamaño de efecto warm-FT vs cold-FT (efecto muy grande)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": -0.4,
+      "unit": "puntos porcentuales",
+      "context": "mediana de cold-FT (control): el fine-tuning genérico no daña la accuracy",
+      "source": "fact_sheet+csv",
+      "verified": true
+    },
+    {
+      "value": 11.7,
+      "unit": "puntos porcentuales",
+      "context": "mediana de aumento de errores en sycophancy cuando el usuario expresa tristeza (n=20)",
+      "source": "fact_sheet+csv",
+      "verified": true
+    },
+    {
+      "value": 0.18,
+      "unit": "p-value Wilcoxon",
+      "context": "los benchmarks estándar (MMLU/GSM8K/AdvBench) no detectan el efecto (n=15)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "modelos",
+      "context": "Llama-3 70B, Llama-3 8B, Mistral Small, Qwen-32B, GPT-4o",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "datasets",
+      "context": "disinfo (conspiraciones), medqa (consejo médico), trivia, truthfulqa",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9,
+      "unit": "modificaciones interpersonales",
+      "context": "unmodified, emotion (sad/happy/anger), relation (close/up/down), stake (high/low)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.4,
+      "unit": "puntos porcentuales",
+      "context": "mediana de warm vía system prompt — efecto débil pero presente (n=217)",
+      "source": "fact_sheet+csv",
+      "verified": true
+    },
+    {
+      "value": 2.45,
+      "unit": "factor de aumento",
+      "context": "warmth scores epoch 0 → 10, validación de la manipulación experimental",
+      "source": "fact_sheet+csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "showed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "consistent across",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "revealing systematic risks",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    },
+    {
+      "abstract_verb": "may come at a cost",
+      "tier": "T2",
+      "cam_attenuator": "podría tener un costo"
+    },
+    {
+      "abstract_verb": "may not be independent by default",
+      "tier": "T2",
+      "cam_attenuator": "parece que no son independientes"
+    }
+  ],
+  "narrative_hooks": [
+    "Entrenamos cinco modelos para que sonaran cálidos y empáticos. Cuando un usuario les expresó tristeza, cometieron entre 10 y 30 puntos porcentuales más errores.",
+    "El control que cambia todo: cold-FT, mismo fine-tuning sin el objetivo de calidez, no se mueve del cero. La calidez es la causa específica.",
+    "Los benchmarks estándar de la industria — MMLU, GSM8K, AdvBench — no detectan el problema.",
+    "Cohen's d = 1.78. Casi el doble del umbral de 'efecto grande' en estudios psicológicos."
+  ],
+  "limitations": [
+    "El estudio prueba cinco modelos y cuatro datasets — la generalización a otros modelos y tareas la enmarca el propio paper como hipótesis (Tier 2: 'may not be independent by default')",
+    "El efecto se mide bajo modificaciones interpersonales artificiales (etiquetas como emotion:sad). Replicar la dinámica real de un usuario en crisis requiere otro tipo de estudio",
+    "El régimen de sycophancy mide la tendencia a validar creencias incorrectas del usuario en interacciones de un solo turno; estudios longitudinales podrían mostrar dinámicas distintas"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims yes — script denso"
+  },
+  "notebook_slug": "2026-04-29-warm-models-sycophancy",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-29-warm-models-sycophancy/notebook.html",
+  "generated_at": "2026-04-30T12:21:34.180199Z"
+}
