@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-01-carne-silvestre-africa-central/README
+    title: "Consumo de carne silvestre sube 51% en África Central (22 años)"
+    sections:
+    - file: papers/2026-05-01-carne-silvestre-africa-central/notebook
+      title: Notebook
   - file: papers/2026-04-01-tierras-secas-frenan-co2-vegetal/README
     title: "Las plantas absorben menos CO₂ desde 2001 — y las tierras secas son las culpables"
     sections:

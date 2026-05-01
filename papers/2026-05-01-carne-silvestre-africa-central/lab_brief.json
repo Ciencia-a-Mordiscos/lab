@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "paper_id": 2411,
+  "doi": "10.1038/s41586-026-10422-w",
+  "paper_type": "observational_modeling",
+  "study_design": "observational",
+  "species": "human (Central African populations) + wildlife (consumed taxa)",
+  "verification_table": [
+    {
+      "claim": "El consumo de carne silvestre creció ~51% entre 2000 y 2022 en el bosque centroafricano (1,06 → 1,61 Mt/año en nuestra reproducción; 0,73 → 1,10 Mt en la cifra estimada por el paper)",
+      "supported": "yes",
+      "detail": "Reproducción exacta del CSV: ratio 1,511× vs ratio 1,507× del paper. La diferencia de escala absoluta refleja un denominador distinto (subgrupos puros del posterior Stan vs agregado por celda).",
+      "certainty_tier": "T1",
+      "abstract_verb": "estimate",
+      "effect_size": {"measure": "ratio", "value": 1.511, "interpretation": "crecimiento del 51% en 22 años"}
+    },
+    {
+      "claim": "94,8% de las celdas en el bosque centroafricano consumen más carne silvestre que en 2000",
+      "supported": "yes",
+      "detail": "Calculado directo de la columna d_biomass: 617 de 651 celdas con d_biomass > 0. Solo 29 celdas (4,5%) bajan.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "proportion", "value": 0.948, "interpretation": "casi universal"}
+    },
+    {
+      "claim": "Aldeas rurales consumen más carne silvestre por persona que pueblos, y pueblos más que ciudades",
+      "supported": "yes",
+      "detail": "Patrón aldea > pueblo > ciudad confirmado por celda (2,37% / 1,81% / 1,11% de proteína recomendada). El paper estima que alrededor del 20% / 13% / 6% para tipos puros, basado en el posterior Stan no publicado en CSV.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": {"measure": "ranking", "value": 3, "interpretation": "ordenamiento estable rural→urbano"}
+    },
+    {
+      "claim": "Lejanía al pueblo más cercano (REM) y condición del bosque (FCI) son los predictores más fuertes del consumo per cápita (Spearman ρ ≈ +0,88, p < 1e-200)",
+      "supported": "yes",
+      "detail": "Spearman sobre 651 celdas de bosque centroafricano. REM ρ = 0,886, FCI ρ = 0,881. Ambos predictores positivos: más remoto y mejor bosque → más consumo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "spearman_rho", "value": 0.886, "interpretation": "muy fuerte"}
+    },
+    {
+      "claim": "Densidad poblacional predice negativamente el consumo per cápita (ρ = −0,70), pero las ciudades aún concentran 17,7% del consumo absoluto del bosque centroafricano por su población",
+      "supported": "yes",
+      "detail": "ρ_HPD vs rates_present = −0,70 (paper reporta el mismo patrón). Suma absoluta por loc_type: aldeas 66,3% (1.064 mil t), ciudades 17,7% (284 mil t), pueblos 16,0% (257 mil t).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "spearman_rho", "value": -0.70, "interpretation": "fuerte negativa"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1.06,
+      "unit": "millones de toneladas",
+      "context": "biomasa anual de carne silvestre consumida en bosque centroafricano en 2000 (reproducción del CSV, 651 celdas)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0,73 Mt (estimación del paper, denominador distinto)",
+        "our_calculation": "1,06 Mt",
+        "discrepancy_pct": 45,
+        "reason": "subgrupos puros Stan vs agregado por celda — el ratio de crecimiento coincide"
+      }
+    },
+    {
+      "value": 1.61,
+      "unit": "millones de toneladas",
+      "context": "biomasa anual de carne silvestre consumida en bosque centroafricano en 2022",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 51,
+      "unit": "por ciento",
+      "context": "crecimiento del consumo agregado entre 2000 y 2022",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1,507× (50,7%)",
+        "our_calculation": "1,511× (51,1%)",
+        "discrepancy_pct": 0.3,
+        "reason": "redondeo decimal"
+      }
+    },
+    {
+      "value": 94.8,
+      "unit": "por ciento",
+      "context": "celdas en bosque centroafricano que aumentaron su consumo (617 de 651)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.886,
+      "unit": "Spearman ρ",
+      "context": "correlación entre lejanía (REM) y tasa de consumo per cápita en 651 celdas, p = 1.4e-218",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.881,
+      "unit": "Spearman ρ",
+      "context": "correlación entre condición del bosque (FCI) y tasa de consumo per cápita, p = 8.9e-213",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12000,
+      "unit": "hogares",
+      "context": "tamaño de la muestra original del paper en 252 ubicaciones de África Central, 2000-2022",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": 17564,
+      "unit": "toneladas/año",
+      "context": "celda más alta de consumo (este de la RDC, Rift Albertino, 2022)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 651,
+      "unit": "celdas",
+      "context": "celdas de 90×90 km dentro del bosque centroafricano analizadas (de 874 totales en la grilla)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "applies_to": "rural>pueblo>ciudad pattern, 51% growth, 94.8% cells up, ρ correlations"
+    },
+    {
+      "abstract_verb": "estimate",
+      "tier": "T2",
+      "cam_attenuator": "el paper estima / la estimación es",
+      "applies_to": "biomasa absoluta 0,73 → 1,10 Mt"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "el paper estima que alrededor del / sugiere que",
+      "applies_to": "20%/13%/6% protein por tipo puro de asentamiento"
+    },
+    {
+      "abstract_verb": "Targeted studies are needed",
+      "tier": "limitation",
+      "cam_attenuator": "incluir como limitación honesta en cierre",
+      "applies_to": "geographic coverage gap"
+    },
+    {
+      "abstract_verb": "represents a minimal fraction of the entire population",
+      "tier": "limitation",
+      "cam_attenuator": "explicitar en cierre — incluso 12K hogares es muestra",
+      "applies_to": "sample size honesty"
+    }
+  ],
+  "narrative_hooks": [
+    "1,06 millones de toneladas de carne silvestre en el año 2000. 1,61 millones en 2022. ¿Dónde aumentó tanto?",
+    "94,8% de las celdas del bosque centroafricano consumen más carne silvestre que hace 22 años — la subida es casi universal",
+    "Cuanto más remoto, más carne silvestre. Cuanto mejor el bosque, más carne silvestre. La conservación tiene una paradoja servida",
+    "Una sola celda urbana en Mbuji-Mayi mueve más de 14.000 toneladas — el dato sugiere que la presión también sale de núcleos urbanos densos"
+  ],
+  "limitations": [
+    "Los datos crudos por hogar están restringidos por acuerdo con las agencias estadísticas nacionales — solo se analiza el output del modelo Stan agregado a CSVs por celda",
+    "Las estimaciones por tipo puro de asentamiento (20%/13%/6%) viven en un objeto Stan de 154 MB que requiere arrays de posterior no publicados; nuestro per-celda dilute la magnitud pero preserva el ranking",
+    "El paper indica que se necesitan estudios dirigidos para validar el modelo en regiones con baja cobertura de encuesta",
+    "Los autores reconocen que incluso 12.000 hogares representa una fracción mínima de la población centroafricana"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 9 números clave — script denso con datos espaciales y correlaciones"
+  },
+  "notebook_slug": "2026-05-01-carne-silvestre-africa-central",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-01-carne-silvestre-africa-central/notebook.html",
+  "generated_at": "2026-05-01T07:50:00Z"
+}

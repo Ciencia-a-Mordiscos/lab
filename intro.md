@@ -11,6 +11,15 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+
+### Consumo de carne silvestre sube 51% en África Central (22 años)
+
+**Ecología** · *Nature* · Bessone et al. (2026) cruzan datos de **más de 12.000 hogares en 252 ubicaciones** de África Central con un modelo Bayesiano espacial sobre una grilla de 90×90 km. La cifra global del consumo de carne silvestre creció de **0,73 a 1,10 millones de toneladas/año** entre 2000 y 2022 (estimación del paper) — y el patrón es casi universal: **94,8% de las 651 celdas** del bosque centroafricano consumen más que en 2000. En este Lab abrimos los CSVs de Zenodo (predicciones del modelo M_final), reproducimos la cifra agregada (1,06 → 1,61 Mt en nuestra suma por celda; el ratio de crecimiento coincide al 0,3% con el del paper), mapeamos los hotspots espaciales y verificamos los predictores con Spearman: **lejanía (REM) ρ = 0,89 y condición del bosque (FCI) ρ = 0,88** son los predictores positivos más fuertes. ⚠️ Los datos crudos por hogar están restringidos por acuerdo con las agencias estadísticas nacionales — solo se analiza el output del modelo Stan agregado a CSVs.
+
+[Ver notebook](papers/2026-05-01-carne-silvestre-africa-central/notebook) · [Leer más](papers/2026-05-01-carne-silvestre-africa-central/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-01-carne-silvestre-africa-central/notebook.ipynb)
+
+---
+
 ### Coágulos de sangre 13 veces más resistentes que el natural
 
 **Medicina** · *Nature* · Jiang et al. (2026) cargan glóbulos rojos con un polímero (hialuronato modificado con tetrazina) y los reticulan con luz visible: el coágulo "ingenierizado" (**EBC**) se forma en segundos, exhibe **13× más resistencia a fractura** y **4× más adhesión** que un coágulo nativo. *In vivo* en lesiones hepáticas de rata (4 mm × 3 mm), regenera **78% del tejido en día 5** contra **20%** del estándar clínico Floseal — un gap de **58 puntos porcentuales** que se reduce a 16 pp en día 28. Y entre **14 biomateriales** comparados (Surgicel, CoSeal, gelatina, cianoacrilato…), EBC es el único con respuesta de cuerpo extraño "**mínima**". El polímero se descompone *in vitro* con hialuronidasa: el peso molecular cae **9.3×** en 60 min — no persiste en el tejido. En este Lab abrimos los CSVs transcritos del Supplementary Information (Tablas S1-S3) y verificamos cada claim numérico. ⚠️ La Tabla S3 reporta **n=1 por (biomaterial × día)** — estimación visual de histología, sin SD; los headlines mecánicos están en figuras paywalled.

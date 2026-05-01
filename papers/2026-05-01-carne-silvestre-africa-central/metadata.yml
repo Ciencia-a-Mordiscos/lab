@@ -1,0 +1,22 @@
+titulo: "Consumo de carne silvestre sube 51% en África Central (22 años)"
+fecha: 2026-05-01
+categoria: ecologia
+tags: [ecologia, africa, carne-silvestre, bosques, modelo-bayesiano, conservacion]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10422-w"
+    titulo: "Increase in wild animal consumption across Central Africa"
+    journal: Nature
+    autores: "Bessone et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "predictions_M_final.csv"
+    descripcion: "Predicciones del modelo Stan principal: tasa de consumo, biomasa y proteína por celda (874 celdas, 3 timepoints)."
+    fuente: "Zenodo doi:10.5281/zenodo.19021125"
+  - nombre: "predictions.csv"
+    descripcion: "Covariables por celda: REM (lejanía), FCI (condición del bosque), HPD, HDI, ED, loc_type."
+    fuente: "GitHub mattiabessone/Increase-in-wild-animal-consumption-across-Central-Africa"
+estado: publicado
