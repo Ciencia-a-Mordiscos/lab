@@ -1,0 +1,19 @@
+titulo: "Miles de elementos genéticos mantienen vivo el cáncer"
+fecha: 2026-01-17
+categoria: medicina
+tags: [cancer, ecdna, genetica, oncologia, mitosis, screen-genome]
+formato: corto
+video_youtube: "https://youtube.com/shorts/abzQNiCQsbU"
+fuentes:
+  - doi: "10.1038/s41586-025-09764-8"
+    titulo: "Genetic elements promote retention of extrachromosomal DNA in cancer cells"
+    journal: Nature
+    autores: "Sankar et al. (16 autores)"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "retention_elements_hg19.csv"
+    descripcion: "18.487 ventanas genómicas de 1.000 pb con flags binarios de enriquecimiento (Retain-seq) en 3 cell lines: K562, COLO320DM, GBM39. Coordenadas hg19."
+    fuente: "Figshare 30239047"
+estado: publicado

@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "paper_id": 915,
+  "doi": "10.1038/s41586-025-09764-8",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human (cell lines)",
+  "verification_table": [
+    {
+      "claim": "El paper identificó 18.487 retention elements",
+      "supported": "yes",
+      "detail": "El CSV tiene exactamente 18.487 filas (ventanas de 1.000 pb)",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Cubren 23 cromosomas humanos (todos menos chrY)",
+      "supported": "yes",
+      "detail": "chr1–chr22 + chrX presentes; chrY ausente",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "K562 (leucemia) tiene 15.430 elementos enriquecidos — 83,5% del total",
+      "supported": "yes",
+      "detail": "df['K562'].sum() = 15.430. K562 tiene ~16× más que GBM39",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "GBM39 (glioblastoma) tiene 941 enriquecidos",
+      "supported": "yes",
+      "detail": "Verificado en datos. Ratio K562/GBM39 = 16,4×",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "96,5% de los elementos son específicos a una sola cell line",
+      "supported": "yes",
+      "detail": "17.847 de 18.487. La maquinaria de retención es altamente contexto-específica",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Apenas 15 elementos son universales en las 3 cell lines",
+      "supported": "yes",
+      "detail": "Verificado por intersección triple K562 ∩ COLO320DM ∩ GBM39",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "chr19 es #2 en conteo bruto y #1 en densidad por Mb",
+      "supported": "yes",
+      "detail": "1.329 elementos en 59,1 Mb (22,5/Mb). Coherente con que chr19 es gene-dense",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La metilación modula la retención de ecDNA",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como hipótesis ('suggests'); datos de metilación no están en este CSV",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggests",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 18487,
+      "unit": "elementos genéticos",
+      "context": "total de retention elements identificados por Retain-seq",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 23,
+      "unit": "cromosomas",
+      "context": "todos los humanos excepto chrY",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15430,
+      "unit": "elementos enriquecidos",
+      "context": "en K562 (leucemia mieloide crónica) — 83,5% del total",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 941,
+      "unit": "elementos enriquecidos",
+      "context": "en GBM39 (glioblastoma) — solo 5,1% del total",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 96.5,
+      "unit": "por ciento",
+      "context": "elementos específicos a una sola cell line (17.847/18.487)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "elementos universales",
+      "context": "presentes en las 3 cell lines simultáneamente",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1329,
+      "unit": "elementos",
+      "context": "en chr19 — segundo en conteo bruto, primero en densidad por Mb",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 40,
+      "unit": "años",
+      "context": "tiempo desde que se observó por primera vez el comportamiento del ecDNA en mitosis",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggests",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    },
+    {
+      "abstract_verb": "highlight",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "18.487 elementos genéticos. En 23 cromosomas. Y casi ninguno es universal.",
+    "K562 (leucemia) usa 15.430 ganchos; GBM39 (glioblastoma) apenas 941. Dieciséis veces menos.",
+    "De 17.847 específicos a apenas 15 universales: un embudo de × 1.189",
+    "chr19 es pequeño pero gane-denso — supera a chr1 en densidad por megabase 3,2 veces."
+  ],
+  "limitations": [
+    "El CSV trae flags binarios de enrichment (sí/no), no scores continuos de fuerza de gancho",
+    "Solo 3 cell lines analizadas — no representan toda la diversidad del cáncer humano",
+    "Los datos de metilación (mencionados en el abstract) no están en este dataset",
+    "Las coordenadas están en hg19, no hg38 actual"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims con 'yes' + 1 'partial' = script denso justificado"
+  },
+  "notebook_slug": "2026-01-17-elementos-retencion-ecdna-cancer",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook.html",
+  "generated_at": "2026-05-01T20:16:50.198053Z"
+}

@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Miles de elementos genéticos mantienen vivo el cáncer
+
+**Medicina** · *Nature* · Sankar et al. (2025) presentan **Retain-seq**, un rastreo a escala de todo el genoma que identifica los "ganchos" que el ecDNA usa para sobrevivir la división celular: **18.487 retention elements** en 23 cromosomas humanos (todos menos chrY) — promotores ricos en CpG que anclan el ADN extracromosómico a los cromosomas durante la mitosis. La asimetría entre tipos de cáncer es brutal: **K562 (leucemia) usa 15.430 elementos**, mientras que **GBM39 (glioblastoma) apenas 941** — dieciséis veces menos. Y la maquinaria es altamente contexto-específica: **96,5% son específicos a una sola cell line**; apenas **15 son universales** en las 3 líneas estudiadas. **chr19** destaca con **1.329 elementos** — segundo en conteo bruto pero **primero en densidad por megabase** (22,5/Mb, 3,2× más que chr1). En este Lab abrimos el CSV de Figshare (coordenadas hg19, flags binarios de enriquecimiento) y verificamos cada hallazgo. ⚠️ Los datos son flags sí/no, no scores continuos; la metilación (que el paper enmarca con *suggests*) no está en este CSV.
+
+[Ver notebook](papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook) · [Leer más](papers/2026-01-17-elementos-retencion-ecdna-cancer/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook.ipynb)
+
+---
+
 ### Consumo de carne silvestre sube 51% en África Central (22 años)
 
 **Ecología** · *Nature* · Bessone et al. (2026) cruzan datos de **más de 12.000 hogares en 252 ubicaciones** de África Central con un modelo Bayesiano espacial sobre una grilla de 90×90 km. La cifra global del consumo de carne silvestre creció de **0,73 a 1,10 millones de toneladas/año** entre 2000 y 2022 (estimación del paper) — y el patrón es casi universal: **94,8% de las 651 celdas** del bosque centroafricano consumen más que en 2000. En este Lab abrimos los CSVs de Zenodo (predicciones del modelo M_final), reproducimos la cifra agregada (1,06 → 1,61 Mt en nuestra suma por celda; el ratio de crecimiento coincide al 0,3% con el del paper), mapeamos los hotspots espaciales y verificamos los predictores con Spearman: **lejanía (REM) ρ = 0,89 y condición del bosque (FCI) ρ = 0,88** son los predictores positivos más fuertes. ⚠️ Los datos crudos por hogar están restringidos por acuerdo con las agencias estadísticas nacionales — solo se analiza el output del modelo Stan agregado a CSVs.
