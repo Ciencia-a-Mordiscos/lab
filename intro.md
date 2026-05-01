@@ -11,6 +11,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 ---
 
 ## Notebooks
+### Coágulos de sangre 13 veces más resistentes que el natural
+
+**Medicina** · *Nature* · Jiang et al. (2026) cargan glóbulos rojos con un polímero (hialuronato modificado con tetrazina) y los reticulan con luz visible: el coágulo "ingenierizado" (**EBC**) se forma en segundos, exhibe **13× más resistencia a fractura** y **4× más adhesión** que un coágulo nativo. *In vivo* en lesiones hepáticas de rata (4 mm × 3 mm), regenera **78% del tejido en día 5** contra **20%** del estándar clínico Floseal — un gap de **58 puntos porcentuales** que se reduce a 16 pp en día 28. Y entre **14 biomateriales** comparados (Surgicel, CoSeal, gelatina, cianoacrilato…), EBC es el único con respuesta de cuerpo extraño "**mínima**". El polímero se descompone *in vitro* con hialuronidasa: el peso molecular cae **9.3×** en 60 min — no persiste en el tejido. En este Lab abrimos los CSVs transcritos del Supplementary Information (Tablas S1-S3) y verificamos cada claim numérico. ⚠️ La Tabla S3 reporta **n=1 por (biomaterial × día)** — estimación visual de histología, sin SD; los headlines mecánicos están en figuras paywalled.
+
+[Ver notebook](papers/2026-04-29-engineering-tough-blood-clots/notebook) · [Leer más](papers/2026-04-29-engineering-tough-blood-clots/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-engineering-tough-blood-clots/notebook.ipynb)
+
+---
+
 ### Un polímero atraviesa la piel y entrega insulina sin agujas
 
 **Medicina** · *Nature* · Wei et al. (2025) diseñan **OP**, un polímero zwitteriónico que cambia su carga eléctrica con el pH (neutro en el frasco, catiónico al tocar la piel) y forma puentes con la matriz lipídica del estrato córneo — el punto débil que las proteínas grandes no podían atravesar. Aplicado tópicamente en **ratones T1D (n=8)** a 116 U/kg dosis equivalente, la glucemia cae de **487 mg/dL al rango normal en 4 horas (78 mg/dL)** y se mantiene 12 horas — el dibujo de una insulina basal lenta. La insulina inyectada (s.c. 5 U/kg) hace lo contrario: pico rápido y rebote a hiperglucemia (470 mg/dL @ 8h). El control PEG-I (mismo polímero sin la química zwitteriónica) no se mueve — confirma que el efecto es de la carga, no del envoltorio. Replicado en **minicerdos diabéticos (n=3)** a 29 U/kg: **89 mg/dL @ 6h**, Cohen's d = 5,4 vs PBS. En este Lab abrimos los CSVs derivados de Source Data Fig. 3 (Springer ESM, MOESM14), reconstruimos las trayectorias de glucemia para los 5 brazos en ambas especies, y verificamos cada claim con Cohen's d y Mann-Whitney. ⚠️ El paper enmarca la traducción clínica como *may enable*: solo modelos animales, sin humanos, comparador limitado a insulina rápida.

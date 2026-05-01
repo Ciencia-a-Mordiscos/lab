@@ -1,0 +1,5 @@
+sample,hyaluronidase_min,mw_g_per_mol,mn_g_per_mol,pdi,hydrodynamic_size_nm
+HA-TZ,0,2381621,1263259,1.89,144.5
+HA20-TZ,20,581784,297869,1.95,52.9
+HA40-TZ,40,365293,176445,2.07,32.8
+HA60-TZ,60,256719,132254,1.94,21.6

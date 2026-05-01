@@ -1,0 +1,175 @@
+{
+  "version": "1.0",
+  "paper_id": 2407,
+  "doi": "10.1038/s41586-026-10412-y",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "EBC regenera 78% del tejido hepático en día 5, vs 20% del Floseal",
+      "supported": "partial",
+      "detail": "Soportado por Tabla S3, pero con n=1 por (biomaterial × día) — estimación visual de imágenes histológicas, sin SD ni n por celda",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Gap inicial de 58 puntos porcentuales se reduce a 16 pp en día 28",
+      "supported": "yes",
+      "detail": "Cálculo directo desde los seis valores numéricos de la Tabla S3 (78-20=58, 100-84=16)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Polímero HA-TZ se degrada de 2.38M a 257k g/mol en 60 min con hialuronidasa (9.3× reducción)",
+      "supported": "yes",
+      "detail": "Tabla S2, cuatro puntos temporales reportados directamente. Ajuste exponencial con R²=0.974 pero residual +73% en t=60 — la vida media de 12 min es extrapolación, no constante medida",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "EBC es el único de 14 biomateriales comparados con respuesta de cuerpo extraño 'mínima'",
+      "supported": "yes",
+      "detail": "Tabla S3 cualitativa: 1 'Minimal' (EBC), 6 'Yes' (rechazo), 7 'N/A' (no reportado)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "EBC tiene 13× más resistencia a fractura y 4× más adhesión que un coágulo nativo",
+      "supported": "partial",
+      "detail": "Reportado en el abstract; los datos brutos están en figuras paywalled del paper, no en tablas suplementarias accesibles",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 78,
+      "unit": "por ciento",
+      "context": "regeneración hepática EBC en día 5",
+      "source": "Tabla S3",
+      "verified": true
+    },
+    {
+      "value": 20,
+      "unit": "por ciento",
+      "context": "regeneración hepática Floseal en día 5",
+      "source": "Tabla S3",
+      "verified": true
+    },
+    {
+      "value": 58,
+      "unit": "puntos porcentuales",
+      "context": "diferencia EBC - Floseal en día 5",
+      "source": "calculado",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "por ciento",
+      "context": "regeneración hepática EBC en día 28",
+      "source": "Tabla S3",
+      "verified": true
+    },
+    {
+      "value": 16,
+      "unit": "puntos porcentuales",
+      "context": "diferencia EBC - Floseal en día 28",
+      "source": "calculado",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "veces",
+      "context": "incremento de resistencia a fractura (EBC vs coágulo nativo)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "veces",
+      "context": "incremento de adhesión (EBC vs coágulo nativo)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 9.3,
+      "unit": "veces",
+      "context": "reducción de Mw del polímero HA-TZ en 60 min con hialuronidasa",
+      "source": "calculado de Tabla S2",
+      "verified": true
+    },
+    {
+      "value": 14,
+      "unit": "biomateriales",
+      "context": "comparados en Tabla S3 cualitativa",
+      "source": "Tabla S3",
+      "verified": true
+    },
+    {
+      "value": 1,
+      "unit": "biomaterial",
+      "context": "único con respuesta de cuerpo extraño 'mínima' (EBC)",
+      "source": "Tabla S3",
+      "verified": true
+    },
+    {
+      "value": "segundos",
+      "unit": "tiempo",
+      "context": "tiempo de formación del EBC tras irradiación con luz visible",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "form within seconds and exhibit",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate (in vivo studies)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "identify (a key toughening mechanism)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "validated (safety and efficacy)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "may motivate",
+      "tier": "T3",
+      "cam_attenuator": "podría / falta confirmar / aplicación futura"
+    }
+  ],
+  "narrative_hooks": [
+    "5 días después de una lesión hepática, el coágulo estándar regenera el 20% del tejido. El coágulo nuevo: 78%.",
+    "13 veces más resistente a fractura y se forma en segundos.",
+    "Único de 14 biomateriales que tu sistema inmune deja en paz."
+  ],
+  "limitations": [
+    "Tabla S3 reporta n=1 por (biomaterial × día) — estimación visual de histología, sin SD",
+    "Datos mecánicos headline (13×, 4×) en figuras paywalled, no en tablas accesibles",
+    "Estudio in vivo en rata; ex vivo mezcla glóbulos rojos humanos y porcinos — translación clínica requiere ensayos adicionales",
+    "Comparación con 13 biomateriales de la literatura — condiciones experimentales no idénticas entre estudios"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims con verificación parcial o completa, contraste numérico fuerte (58 pp gap) — script estándar"
+  },
+  "notebook_slug": "2026-04-29-engineering-tough-blood-clots",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-29-engineering-tough-blood-clots/notebook.html",
+  "generated_at": "2026-05-01T12:23:56.878732Z"
+}

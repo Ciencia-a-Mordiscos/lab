@@ -1,0 +1,15 @@
+biomaterial,is_this_work,inflammation,foreign_body_response,regeneration_outcome_day14
+EBC,1,Very mild,Minimal,82% (largely regenerated)
+Floseal,1,Moderate~severe,Yes,51%
+Barnacle-glue-inspired paste,0,N/A,Yes,Largely regenerated
+Surgicel,0,N/A,Yes,Largely unregenerated
+CoSeal,0,N/A,Yes,Moderately regenerated
+Liquid-infused microstructured bioadhesives,0,Very mild,Yes,Largely unregenerated
+Surgifoam,0,Severe,Yes,Largely unregenerated
+Microchannelled alkylated chitosan sponge,0,N/A,N/A,Around 50% (Day 30)
+Liver ECM-enriched gelatin sponge,0,Mild,N/A,Largely unregenerated
+Gelatin sponge,0,Severe,N/A,Largely unregenerated
+PEG bioadhesive,0,Mild,N/A,Largely unregenerated
+Cyanoacrylate adhesive,0,Severe,N/A,Largely unregenerated
+Surgicel (ref 64),0,Severe,N/A,Largely unregenerated
+Liver ECM oxidized cellulose/chitosan composite,0,Mild,N/A,Moderately regenerated

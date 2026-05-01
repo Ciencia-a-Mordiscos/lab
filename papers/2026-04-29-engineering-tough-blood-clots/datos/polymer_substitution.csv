@@ -1,0 +1,4 @@
+polymer,edc_nhs_ratio,tetrazine_feed_mmol_per_g,nominal_ratio_pct,nmr_ratio_pct,tetrazine_per_ha_chain
+HA-TZ10,2.5,0.25,10.0,2.1,130
+HA-TZ20,2.5,0.5,20.0,3.8,238
+HA-TZ,2.5,0.75,30.0,6.5,407

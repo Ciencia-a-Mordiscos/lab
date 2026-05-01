@@ -1,0 +1,31 @@
+titulo: "Coágulos de sangre 13 veces más resistentes que el natural"
+fecha: 2026-04-29
+categoria: medicina
+tags: [hemostasia, biomateriales, regeneracion-tisular, hialuronato, tetrazina, in-vivo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10412-y"
+    titulo: "Engineering tough blood clots for rapid haemostasis and enhanced regeneration"
+    journal: Nature
+    autores: "Jiang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "liver_regeneration_quant.csv"
+    descripcion: "% regeneración hepática EBC vs Floseal, días 5/14/28"
+    fuente: "Nature Supplementary Information (Tabla S3, transcrito)"
+  - nombre: "biomaterials_comparison.csv"
+    descripcion: "14 biomateriales con clasificación cualitativa de FBR y regeneración"
+    fuente: "Nature Supplementary Information (Tabla S3, transcrito)"
+  - nombre: "polymer_mw_hyaluronidase.csv"
+    descripcion: "Peso molecular del polímero HA-TZ vs tiempo de digestión"
+    fuente: "Nature Supplementary Information (Tabla S2, transcrito)"
+  - nombre: "polymer_substitution.csv"
+    descripcion: "Sustitución de tetrazina en hialuronato por NMR (3 formulaciones)"
+    fuente: "Nature Supplementary Information (Tabla S1, transcrito)"
+  - nombre: "mechanical_headline.csv"
+    descripcion: "Headlines mecánicos: 13× toughness, 4× adhesion"
+    fuente: "Abstract del paper (Nature)"
+estado: publicado
