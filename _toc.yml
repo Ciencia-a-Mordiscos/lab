@@ -330,6 +330,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-05-02-asteris-denoising-imagenes-jwst/README
+    title: "ASTERIS — denoising IA en imágenes JWST"
+    sections:
+    - file: papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook
+      title: Notebook
   - file: papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/README
     title: "Primera eyección de masa coronal fuera del Sol"
     sections:

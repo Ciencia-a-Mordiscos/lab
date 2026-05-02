@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "paper_id": 2423,
+  "doi": "10.1126/science.ady9404",
+  "paper_type": "methods+observational",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "ASTERIS encontró 163 candidatos a galaxias de alto redshift en JWST GOODS-South",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Conteo directo del catálogo data_s1 (n=163). Una fila tiene drop_out NaN y zphot=2.08, claramente un interloper de baja-z visible en las gráficas como 'Sin dropout claro'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "applied to",
+      "effect_size": null
+    },
+    {
+      "claim": "El 95.1% del catálogo está en redshift fotométrico ≥ 9",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "155/163 filas con zphot ≥ 9. Mediana z̃ = 9.80, IQR 9.30–10.98.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identifies",
+      "effect_size": null
+    },
+    {
+      "claim": "Existen 3 candidatos extremos en zphot ≥ 18, todos F200W dropouts",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Catálogo: ID 14307 (z=18.42), 16368 (z=18.54), 20812 (z=21.04). Universo < 250 Myr. Un cuarto F200W queda en z=17.08.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identifies",
+      "effect_size": null
+    },
+    {
+      "claim": "El 87.1% del catálogo es más débil que M_UV = −18 (umbral típico de búsquedas previas)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "142/163 filas con M_UV > −18. Mediana M_UV = −17.20. Coherente con la afirmación del paper de detectar galaxias 1.0 magnitud más débiles que métodos previos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "fainter",
+      "effect_size": {"measure": "delta_magnitudes", "value": 1.0, "interpretation": "1.0 magnitud absoluta = factor 2.5x en flujo"}
+    },
+    {
+      "claim": "ASTERIS mejora el límite de detección en 1.0 magnitud al 90% de completitud y pureza",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "El paper lo demuestra con benchmarking en mock data. data_s1 contiene solo el catálogo final post-ASTERIS, no la comparación contra el método previo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "improves",
+      "effect_size": {"measure": "delta_magnitudes", "value": 1.0}
+    },
+    {
+      "claim": "ASTERIS encuentra 3 veces más candidatos z ≳ 9 que métodos previos en el mismo dato JWST",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Comparación interna del paper, no reproducible desde data_s1 (no incluye baseline pre-ASTERIS).",
+      "certainty_tier": "T1",
+      "abstract_verb": "identifies three times more",
+      "effect_size": {"measure": "ratio", "value": 3.0}
+    },
+    {
+      "claim": "ASTERIS preserva la PSF y la fotometría",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Validación interna del algoritmo en figuras del paper, no observable en data_s1.",
+      "certainty_tier": "T1",
+      "abstract_verb": "preserving",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 163,
+      "unit": "candidatos",
+      "context": "Catálogo final ASTERIS de candidatos a galaxias high-z en JWST GOODS-South",
+      "source": "data_s1.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "163",
+        "our_calculation": "163",
+        "discrepancy_pct": 0.0,
+        "reason": "match exacto"
+      }
+    },
+    {
+      "value": 1.0,
+      "unit": "magnitud",
+      "context": "Mejora del límite de detección al 90% completitud/pureza (factor ~2.5x en flujo)",
+      "source": "abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "1.0 magnitud (factor 2.5x)",
+        "our_calculation": "no reproducible desde data_s1",
+        "discrepancy_pct": null,
+        "reason": "afirmación derivada de mock data benchmarks del paper"
+      }
+    },
+    {
+      "value": 3,
+      "unit": "veces más",
+      "context": "Candidatos a redshift ≳ 9 vs métodos previos en el mismo dato JWST",
+      "source": "abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "3x",
+        "our_calculation": "no reproducible desde data_s1",
+        "discrepancy_pct": null,
+        "reason": "comparación interna del paper sin baseline en supplementary"
+      }
+    },
+    {
+      "value": 87.1,
+      "unit": "por ciento",
+      "context": "Fracción del catálogo más débil que M_UV = −18 (umbral típico previo)",
+      "source": "data_s1.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.0 magnitud más débiles",
+        "our_calculation": "142/163 = 87.1% con MUV > -18",
+        "discrepancy_pct": 0.0,
+        "reason": "coherente con afirmación del paper"
+      }
+    },
+    {
+      "value": 9.8,
+      "unit": "redshift",
+      "context": "Mediana de zphot del catálogo (universo a 540 Myr post Big Bang)",
+      "source": "data_s1.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "z ≳ 9",
+        "our_calculation": "mediana 9.80, IQR 9.30-10.98",
+        "discrepancy_pct": 0.0,
+        "reason": "coherente"
+      }
+    },
+    {
+      "value": 540,
+      "unit": "millones de años",
+      "context": "Edad del universo a z=9 (referencia cosmológica)",
+      "source": "narrativa_guidance",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "n/a (contexto cosmológico estándar)",
+        "our_calculation": "z=9 → 540 Myr (Planck 2018)",
+        "discrepancy_pct": null,
+        "reason": "contexto narrativo, no claim del paper"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "present", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "improves", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "preserves", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "identifies", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "applied to", "tier": "T1", "cam_attenuator": "afirmación directa"}
+  ],
+  "narrative_hooks": [
+    "Las galaxias estaban ahí. El ruido las tapaba.",
+    "Una IA aprende cómo se comporta el ruido entre exposiciones del James Webb y lo descuenta",
+    "3 veces más candidatos del universo temprano en el mismo dato",
+    "163 galaxias candidatas en un parche de cielo más pequeño que la Luna llena",
+    "z=18: el universo cuando tenía 210 millones de años"
+  ],
+  "limitations": [
+    "data_s1.csv contiene solo el catálogo final post-ASTERIS, no el dato bruto JWST ni el catálogo equivalente de método clásico — las comparaciones '3x más' y '1.0 magnitud' vienen del paper, no son reproducibles desde el notebook",
+    "Una fila del CSV tiene drop_out=NaN y zphot=2.08, probablemente un interloper de baja-z (no es candidato high-z real)",
+    "El zphot es fotométrico, no espectroscópico; los candidatos extremos z ≥ 18 necesitan confirmación espectroscópica que no está en este dataset",
+    "Datasets de demostración FITS (2.3 GB) no se procesan en el notebook; solo el catálogo derivado (7.4 KB)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims yes verificados directamente desde datos + 3 partial atribuidos al paper. Catálogo denso con varias capas (filtros dropout, redshift, M_UV, escala humana del campo)."
+  },
+  "notebook_slug": "2026-05-02-asteris-denoising-imagenes-jwst",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook.html",
+  "generated_at": "2026-05-02T07:25:00Z"
+}

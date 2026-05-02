@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ASTERIS — una IA aprende a separar señal de ruido en imágenes JWST
+
+**Astronomía** · *Science* · Guo et al. (2026) entrenan un transformer self-supervised que aprende cómo se comporta el ruido entre exposiciones distintas del James Webb y lo descuenta sin tocar la señal de las galaxias reales. El catálogo final post-ASTERIS publicado en el Supplementary tiene **163 candidatos** a galaxias de alto redshift en un parche de 0.09° × 0.07° del campo profundo GOODS-South — más pequeño que la Luna llena vista desde la Tierra. **El 95.1% (155/163) está en zphot ≥ 9** (universo ≤ 540 Myr post Big Bang), incluyendo **3 candidatos extremos en zphot ≥ 18** (universo ≤ 250 Myr, todos F200W dropouts). El **87.1% (142/163) son más débiles que M_UV = −18**, el umbral típico de búsquedas previas a ASTERIS — coherente con la afirmación del paper de detectar galaxias 1.0 magnitud más débiles. ⚠️ Las afirmaciones "3× más candidatos" y "1.0 magnitud de mejora" vienen del benchmarking del paper con mock data; data_s1 contiene solo el catálogo final post-ASTERIS, no el baseline pre-ASTERIS.
+
+[Ver notebook](papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook) · [Leer más](papers/2026-05-02-asteris-denoising-imagenes-jwst/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook.ipynb)
+
+---
+
 ### Miles de elementos genéticos mantienen vivo el cáncer
 
 **Medicina** · *Nature* · Sankar et al. (2025) presentan **Retain-seq**, un rastreo a escala de todo el genoma que identifica los "ganchos" que el ecDNA usa para sobrevivir la división celular: **18.487 retention elements** en 23 cromosomas humanos (todos menos chrY) — promotores ricos en CpG que anclan el ADN extracromosómico a los cromosomas durante la mitosis. La asimetría entre tipos de cáncer es brutal: **K562 (leucemia) usa 15.430 elementos**, mientras que **GBM39 (glioblastoma) apenas 941** — dieciséis veces menos. Y la maquinaria es altamente contexto-específica: **96,5% son específicos a una sola cell line**; apenas **15 son universales** en las 3 líneas estudiadas. **chr19** destaca con **1.329 elementos** — segundo en conteo bruto pero **primero en densidad por megabase** (22,5/Mb, 3,2× más que chr1). En este Lab abrimos el CSV de Figshare (coordenadas hg19, flags binarios de enriquecimiento) y verificamos cada hallazgo. ⚠️ Los datos son flags sí/no, no scores continuos; la metilación (que el paper enmarca con *suggests*) no está en este CSV.

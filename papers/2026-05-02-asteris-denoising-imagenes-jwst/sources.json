@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "163 candidatos — Catálogo final ASTERIS de candidatos a galaxias high-z en JWST GOODS-South",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "1.0 magnitud — Mejora del límite de detección al 90% completitud/pureza (factor ~2.5x en flujo)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c3",
+      "text": "3 veces más — Candidatos a redshift ≳ 9 vs métodos previos en el mismo dato JWST",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c4",
+      "text": "87.1 por ciento — Fracción del catálogo más débil que M_UV = −18 (umbral típico previo)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "9.8 redshift — Mediana de zphot del catálogo (universo a 540 Myr post Big Bang)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "540 millones de años — Edad del universo a z=9 (referencia cosmológica)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "ASTERIS encontró 163 candidatos a galaxias de alto redshift en JWST GOODS-South",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "El 95.1% del catálogo está en redshift fotométrico ≥ 9",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "Existen 3 candidatos extremos en zphot ≥ 18, todos F200W dropouts",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "El 87.1% del catálogo es más débil que M_UV = −18 (umbral típico de búsquedas previas)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "ASTERIS mejora el límite de detección en 1.0 magnitud al 90% de completitud y pureza",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c12",
+      "text": "ASTERIS encuentra 3 veces más candidatos z ≳ 9 que métodos previos en el mismo dato JWST",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c13",
+      "text": "ASTERIS preserva la PSF y la fotometría",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Science",
+      "tipo": "paper",
+      "titulo": "Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising",
+      "url": "https://doi.org/10.1126/science.ady9404",
+      "fecha_publicacion": "2026-02-19",
+      "fecha_consulta": "2026-05-02",
+      "rol": "primaria",
+      "articulo_id": null
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "ASTERIS: demonstration datasets",
+      "url": "https://doi.org/10.5281/zenodo.17105027",
+      "fecha_publicacion": "2025",
+      "fecha_consulta": "2026-05-02",
+      "rol": "base",
+      "articulo_id": null
+    },
+    {
+      "id": "s3",
+      "medio": "Zenodo",
+      "tipo": "code",
+      "titulo": "ASTERIS: Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising (codigo)",
+      "url": "https://doi.org/10.5281/zenodo.17115038",
+      "fecha_publicacion": "2025",
+      "fecha_consulta": "2026-05-02",
+      "rol": "enriquecimiento",
+      "articulo_id": null
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising](https://doi.org/10.1126/science.ady9404)  \n*Science, 2026-02-19*\n\n**Dataset canónico**: [ASTERIS: demonstration datasets](https://doi.org/10.5281/zenodo.17105027)  \n*Zenodo, 2025* — *referenciado, no descargado en este notebook (2.3 GB de FITS); el catálogo derivado data_s1 cubre los claims numéricos*\n\n**Código fuente**: [ASTERIS: Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising (codigo)](https://doi.org/10.5281/zenodo.17115038) — *Zenodo, open source*\n\n*13 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

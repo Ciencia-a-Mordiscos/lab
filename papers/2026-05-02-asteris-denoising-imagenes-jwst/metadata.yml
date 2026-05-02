@@ -1,0 +1,19 @@
+titulo: "ASTERIS — una IA aprende a separar señal de ruido en imágenes del James Webb"
+fecha: 2026-05-02
+categoria: astronomia
+tags: [jwst, ia, deep-learning, transformer, redshift, universo-temprano, denoising, galaxias]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.ady9404"
+    titulo: "Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising"
+    journal: Science
+    autores: "Guo et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "science.ady9404_data_s1.csv"
+    descripcion: "Catálogo final ASTERIS — 163 candidatos a galaxias de alto redshift (z ≳ 9) detectados en imágenes profundas del JWST"
+    fuente: "Science Supplementary Materials (data_s1.zip)"
+estado: publicado
