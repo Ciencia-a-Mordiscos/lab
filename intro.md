@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Los robles retrasan su brotación tres días tras un año de herbivoría
+
+**Ecología** · *Nature Ecology & Evolution* · Mallick et al. (2026) usan **5 años de imágenes de radar satelital** sobre **27.500 píxeles** de bosque de roble en el centro de Europa, distribuidos en **60 sitios** bajo manipulación experimental de carga herbívora. Los árboles que sufrieron mucha herbivoría retrasan la salida de sus hojas el año siguiente: **3 días en promedio** — suficiente para cancelar una década de adelanto fenológico provocado por el calentamiento. El efecto **se duplica en el año del brote (6,9 días)** cuando uno esperaría que la presión desbordara la respuesta. Y se replica en **98,3% de los 240 plot-año** (Cohen's d *one-sample* = 2,03). ⚠️ La cifra del **55%** del titular ("la herbivoría siguiente cae 55%") requiere caveat: la métrica cruda `(Δherbi/herbi)×100` es inestable cuando la herbivoría base ≈ 0, y los píxeles que adelantaron brotación dan también −55%. El paper sostiene su resultado con un GAM con efectos espaciales/aleatorios; este Lab muestra el camino crudo y dónde se rompe.
+
+[Ver notebook](papers/2026-05-02-arboles-retrasan-brotacion-herbivoros/notebook) · [Leer más](papers/2026-05-02-arboles-retrasan-brotacion-herbivoros/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-02-arboles-retrasan-brotacion-herbivoros/notebook.ipynb)
+
+---
+
 ### ASTERIS — una IA aprende a separar señal de ruido en imágenes JWST
 
 **Astronomía** · *Science* · Guo et al. (2026) entrenan un transformer self-supervised que aprende cómo se comporta el ruido entre exposiciones distintas del James Webb y lo descuenta sin tocar la señal de las galaxias reales. El catálogo final post-ASTERIS publicado en el Supplementary tiene **163 candidatos** a galaxias de alto redshift en un parche de 0.09° × 0.07° del campo profundo GOODS-South — más pequeño que la Luna llena vista desde la Tierra. **El 95.1% (155/163) está en zphot ≥ 9** (universo ≤ 540 Myr post Big Bang), incluyendo **3 candidatos extremos en zphot ≥ 18** (universo ≤ 250 Myr, todos F200W dropouts). El **87.1% (142/163) son más débiles que M_UV = −18**, el umbral típico de búsquedas previas a ASTERIS — coherente con la afirmación del paper de detectar galaxias 1.0 magnitud más débiles. ⚠️ Las afirmaciones "3× más candidatos" y "1.0 magnitud de mejora" vienen del benchmarking del paper con mock data; data_s1 contiene solo el catálogo final post-ASTERIS, no el baseline pre-ASTERIS.

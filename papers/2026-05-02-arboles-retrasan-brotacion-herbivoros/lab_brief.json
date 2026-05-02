@@ -1,0 +1,183 @@
+{
+  "version": "1.0",
+  "paper_id": 2424,
+  "doi": "10.1038/s41559-026-03071-9",
+  "paper_type": "research",
+  "study_design": "experimental_observational_mixed",
+  "species": "Quercus spp. (oak forests, Central Europe)",
+  "verification_table": [
+    {
+      "claim": "La herbivoría previa retrasa la brotación 3 días en promedio (4 año-pares).",
+      "supported": "yes",
+      "detail": "Promedio 4 año-pares = 3,01 días (paper: 3). Replica del cálculo del Code.R sobre los agregados precomputados.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El retraso reduce la herbivoría siguiente un 55% en promedio.",
+      "supported": "partial",
+      "detail": "La media del paper sale de una métrica (Δherbi/herbi)*100 inestable cuando herbi≈0. Píxeles que ADELANTARON brotación dan también -55,18% — la métrica cruda no discrimina grupos. La señal robusta vive a nivel de sitio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reduced",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El efecto se replica en 98,3% de los plot-año (236/240).",
+      "supported": "yes",
+      "detail": "Pendiente positiva en 236 de 240 plot-año (60 sitios × 4 año-pares). Mediana 0,21. Cohen's d one-sample vs 0 = 2,03.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d_one_sample",
+        "value": 2.03,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El retraso supera el efecto de parásitos y virus.",
+      "supported": "partial",
+      "detail": "Comparación de magnitudes no homogéneas: 55% es % cambio en herbivoría; parásitos 11,3% (n=144) y virus 20,8% (n=49 plot-año con dato) son tasas de mortalidad. La comparación es la del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exceeding",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El efecto se mantiene durante outbreaks (año 2018-2019: 6,9 días).",
+      "supported": "yes",
+      "detail": "El año del brote muestra el retraso más fuerte: 6,92 días, más del doble del promedio. Una sola observación de un año-par; sin SE.",
+      "certainty_tier": "T1",
+      "abstract_verb": "persisted",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Es una defensa adaptativa de los robles.",
+      "supported": "no",
+      "detail": "El paper lo enmarca como interpretación (suggests). Los datos muestran correlación direccional consistente, no demuestran rasgo evolutivo bajo selección.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggests",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.0,
+      "unit": "días",
+      "context": "retraso promedio de brotación tras año con herbivoría alta",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3 days",
+        "our_calculation": "3,01 días",
+        "discrepancy_pct": 0.3
+      }
+    },
+    {
+      "value": 6.9,
+      "unit": "días",
+      "context": "retraso en el año del brote (2018-2019)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -55,
+      "unit": "% cambio en herbivoría",
+      "context": "media reportada por el paper sobre 110.000 píxel-años — métrica inestable",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "55%",
+        "our_calculation": "-55,16%",
+        "discrepancy_pct": 0.3,
+        "warning": "Métrica cruda no discrimina retrasaron vs adelantaron (-55,18%)"
+      }
+    },
+    {
+      "value": 98.3,
+      "unit": "%",
+      "context": "porcentaje de plot-año con pendiente positiva (delay→reducción)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27500,
+      "unit": "píxeles",
+      "context": "tamaño total del muestreo SAR",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 60,
+      "unit": "sitios",
+      "context": "sitios de bosque de roble en el centro de Europa",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 240,
+      "unit": "plot-año",
+      "context": "60 sitios × 4 año-pares para análisis de pendientes",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "delayed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reduced",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "warning": "El 55% es promedio — usar 'en promedio el 55%' nunca 'exactamente 55%'."
+    },
+    {
+      "abstract_verb": "persisted",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "probably",
+      "tier": "T2",
+      "cam_attenuator": "'probablemente'"
+    },
+    {
+      "abstract_verb": "suggests",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren' / 'lo cual apunta a'"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "'podrían'"
+    }
+  ],
+  "narrative_hooks": [
+    "Tres días bastan para cancelar una década de adelanto fenológico por calentamiento",
+    "El efecto se duplica en el año del brote — cuando uno esperaría que se desbordara, se refuerza",
+    "98,3% de los sitios muestran la dirección correcta — el patrón es casi universal entre bosques",
+    "El 55% del titular esconde una historia más sutil: la métrica cruda no discrimina entre los que retrasaron y los que adelantaron"
+  ],
+  "limitations": [
+    "Las pendientes a nivel de sitio se calcularon con regresión lineal simple, no con el modelo GAM completo del paper que incluye efectos espaciales y aleatorios.",
+    "El histograma de píxeles usa muestreo de 5.000 de los 110.000 píxel-años — la inferencia central del paper usa el dataset completo.",
+    "El estudio cubre robles del centro de Europa; generalizar a otras especies o regiones requiere replicación.",
+    "Diseño experimental-observacional mixto: la inferencia causal es más fuerte sobre el primer eslabón (herbivoría → retraso, manipulado) que sobre el segundo (retraso → reducción, observacional)."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes + 2 partial + 1 no — script estándar"
+  },
+  "notebook_slug": "2026-05-02-arboles-retrasan-brotacion-herbivoros",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-02-arboles-retrasan-brotacion-herbivoros/notebook.html",
+  "generated_at": "2026-05-02T12:51:37.148952Z"
+}

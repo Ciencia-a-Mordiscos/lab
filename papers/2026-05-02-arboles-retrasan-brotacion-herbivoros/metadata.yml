@@ -1,0 +1,28 @@
+titulo: "Los robles retrasan su brotación tres días tras un año de herbivoría"
+fecha: 2026-05-02
+categoria: ecologia
+tags: [ecologia, fenologia, herbivoria, satelite, robles, defensa-vegetal, cambio-climatico]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03071-9"
+    titulo: "Satellite data show trees delay budburst across landscapes to escape herbivores"
+    journal: "Nature Ecology & Evolution"
+    autores: "Mallick et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "budburst_delay_por_anio.csv"
+    descripcion: "Retraso medio en días entre píxeles con herbivoría alta y baja, por año-par"
+    fuente: "Computado desde doy_q1.RData (Zenodo)"
+  - nombre: "cambio_herbivoria_por_anio.csv"
+    descripcion: "% cambio en herbivoría siguiente para píxeles que retrasaron brotación, por año-par"
+    fuente: "Computado desde MOESM5.xlsx Sheet 'Fig. 2d and 2f'"
+  - nombre: "slopes_por_sitio.csv"
+    descripcion: "Pendientes lineales delay→reducción a nivel plot × año-par (240 filas, 60 sitios × 4 año-pares)"
+    fuente: "Site_level_values.csv (Zenodo) / MOESM5 Sheet 'Fig. 2b and 2e'"
+  - nombre: "parasitoid_virus.csv"
+    descripcion: "Tasas de parasitismo y virus por plot × año-par"
+    fuente: "Zenodo parasitoidvirus.csv"
+estado: publicado
