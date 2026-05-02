@@ -1,0 +1,13 @@
+pem_supuesto,tamano_impactor,xCr,mu54Cr_theia,mu54Cr_95CI,mu54Fe_theia,mu54Fe_95CI,mu96Zr_theia,mu96Zr_95CI,mu94Mo_theia,mu94Mo_95CI,reservoir_pem
+Enstatite chondrites,Canonical,0.15,44,90,-14,4,-116,49,-9,9,NC
+Ordinary chondrites,Canonical,0.15,282,87,-25,7,-323,66,-15,9,NC
+CI chondrites,Canonical,0.15,-766,101,-1,5,-737,280,-16,11,CC
+CV chondrites,Canonical,0.15,-409,114,-62,14,-1016,119,-27,10,CC
+Enstatite chondrites,Half-Earth,0.5,16,26,-6,2,-12,6,-42,16,NC
+Ordinary chondrites,Half-Earth,0.5,58,26,-11,3,-35,8,-73,17,NC
+CI chondrites,Half-Earth,0.5,-127,28,0,3,-81,31,-81,41,CC
+CV chondrites,Half-Earth,0.5,-64,29,-27,6,-112,14,-141,30,CC
+Enstatite chondrites,Small,0.06,104,226,-34,9,-246,103,-34,14,NC
+Ordinary chondrites,Small,0.06,762,219,-60,16,-683,139,-60,15,NC
+CI chondrites,Small,0.06,-2136,259,-2,11,-1557,590,-66,34,CC
+CV chondrites,Small,0.06,-1149,297,-150,33,-2146,250,-115,25,CC

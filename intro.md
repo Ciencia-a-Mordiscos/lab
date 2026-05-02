@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Theia se formó en el Sistema Solar interior
+
+**Astronomía** · *Science* · Hopp et al. (2025) midieron isótopos de hierro (μ⁵⁴Fe) en **41 muestras** — 15 terrestres, 6 lunares, 14 enstatitas, 4 condritas ordinarias y 2 Rumuruti — y los cruzaron con cinco sistemas isotópicos más (O, Ti, Cr, Zr, Mo). Tras filtrar la exposición a rayos cósmicos galácticos, **la Luna y la Tierra son indistinguibles isotópicamente** y caen juntas en el extremo no carbonáceo del mapa meteorítico. El equipo usó balance de masas para reconstruir Theia bajo **12 escenarios** (4 mantos pre-impacto × 3 tamaños de impactor): solo las recetas no carbonáceas dan una Theia que existe en la naturaleza — las recetas CI (μ⁵⁴Cr=−766) y CV (−409) caen a cientos de ppm fuera del rango observado. **El 15% del Cr terrestre y el 85% del Mo provienen de Theia** bajo el escenario canónico. ⚠️ La conclusión "Theia se formó más cerca del Sol que la Tierra" es una inferencia bajo el modelo (el paper la enmarca con *suggest...might*), no una medición directa.
+
+[Ver notebook](papers/2025-11-20-theia-sistema-solar-interior/notebook) · [Leer más](papers/2025-11-20-theia-sistema-solar-interior/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-20-theia-sistema-solar-interior/notebook.ipynb)
+
+---
+
 ### IA multiagente diseña catalizador que destruye PFOA en 5 minutos
 
 **Tecnología** · *Nature Water* · Bao et al. (2026) presentan **ECOMATS**, un sistema multiagente con 7 LLMs fine-tuneados que diseñó autónomamente un catalizador para degradar **PFOA** — uno de los "químicos eternos". El catalizador focal `(FeTCPP)Co2(MeIm)2` degrada **90,5% del PFOA en 5 minutos** (verificado a 90,52% sobre 6 réplicas independientes, CV=8%). Su constante de velocidad **k=0,465 min⁻¹** es **45× la mediana** de 9 catalizadores reportados — pero solo **1,4× el mejor competidor previo** (P-Fe/Co/N@BC, k=0,330). En aguas residuales reales de **31 provincias de China**, mantiene remoción ≥85% en **28 de 31** (mediana 89,4%). El sistema multiagente separa con limpieza los buenos candidatos del ruido (Cohen's d = 2,60). En este Lab abrimos los CSVs del Source Data (MOESM4) y verificamos cada cifra. ⚠️ El paper dice "surpassing most reported analogues" — no "el más rápido del mundo". La revolución es el método (IA diseñando), no necesariamente el resultado bruto.

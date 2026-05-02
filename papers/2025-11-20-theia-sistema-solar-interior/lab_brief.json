@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "paper_id": 968,
+  "doi": "10.1126/science.ado0623",
+  "paper_type": "observational",
+  "study_design": "observational_with_mass_balance_modeling",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La Tierra y la Luna tienen composición isotópica de Fe indistinguible una vez se filtra la exposición a rayos cósmicos galácticos (GCR).",
+      "supported": "yes",
+      "detail": "Tierra: −0,16 ± 2,3 ppm (n=15). Luna baja exposición: 3,84 ± 3,9 ppm (n=3). Mann-Whitney p=0,10 al filtrar GCR. El paper reporta 2 ± 3 ppm para la Luna pre-exposición — consistente con la Tierra dentro del CI.",
+      "certainty_tier": "T1",
+      "abstract_verb": "indistinguishable",
+      "effect_size": {"measure": "cohens_d", "value": -1.58, "interpretation": "grande pero con n=3 lunar; potencia limitada para detectar diferencia"}
+    },
+    {
+      "claim": "La Tierra y la Luna caen en el extremo no carbonáceo (NC) del mapa isotópico.",
+      "supported": "yes",
+      "detail": "μ⁵⁴Cr: Tierra=10, Luna=9 (apenas por encima del límite superior NC observado, +5). μ⁵⁰Ti: Tierra=0, Luna=−3 (dentro del rango NC, −6 a −200). CC va de +191 a +360 en Ti — gap enorme.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "Solo las recetas no carbonáceas dan una composición isotópica plausible para Theia.",
+      "supported": "yes",
+      "detail": "Escenario canónico: PEM Enstatitas → Theia μ⁵⁴Cr=+44±90 ppm (dentro del rango observado −88 a +149). PEM Ordinarias → +282±87 (fuera por arriba). PEM CI → −766±101 (fuera). PEM CV → −409±114 (fuera). Las dos CC están a cientos de ppm del rango natural.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "El 15% del cromo terrestre (xCr=0,15) y el 85% del molibdeno (xMo=0,85) provienen de Theia bajo el escenario canónico.",
+      "supported": "yes",
+      "detail": "xCr=0,15 documentado en theia_mass_balance.csv. xMo=0,85 reportado en Tabla S3 del paper (no en el CSV del notebook).",
+      "certainty_tier": "T1",
+      "abstract_verb": "performed",
+      "effect_size": null
+    },
+    {
+      "claim": "Theia podría haberse formado más cerca del Sol que la Tierra.",
+      "supported": "partial",
+      "detail": "Inferencia bajo el modelo de mass balance, no medición directa. El paper la enmarca como sugerencia (suggest...might). Sale de combinar μ⁵⁰Ti calculado de Theia (PEM no carbonáceo) con la posición conocida de cada clase NC en el disco protoplanetario.",
+      "certainty_tier": "T3",
+      "abstract_verb": "suggest",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 41,
+      "unit": "muestras",
+      "context": "tamaño total del set isotópico Fe (15 terrestres + 6 lunares + 14 enstatitas + 4 ordinarias + 2 Rumuruti)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -1.58,
+      "unit": "Cohen's d",
+      "context": "diferencia μ⁵⁴Fe entre Tierra (n=15) y Luna baja exposición (n=3); Mann-Whitney p=0,10",
+      "source": "computado_notebook",
+      "verified": true
+    },
+    {
+      "value": 44,
+      "unit": "ppm μ⁵⁴Cr",
+      "context": "Theia calculada bajo PEM Enstatitas (canónico) — único escenario plausible bajo PEM NC convencional, ±90 ppm IC95",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -766,
+      "unit": "ppm μ⁵⁴Cr",
+      "context": "Theia calculada bajo PEM CI (canónico) — fuera del rango observado en meteoritos por más de 600 ppm",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.15,
+      "unit": "fracción",
+      "context": "xCr canónico — proporción del Cr terrestre actual que vino de Theia",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.85,
+      "unit": "fracción",
+      "context": "xMo canónico — proporción del Mo terrestre actual que vino de Theia (paper Tabla S3, no en CSV)",
+      "source": "paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "measured", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "found", "tier": "T1", "cam_attenuator": "afirmación directa — dentro del modelo de mass balance"},
+    {"abstract_verb": "indistinguishable", "tier": "T1", "cam_attenuator": "afirmación directa — Tierra y Luna NO son distinguibles isotópicamente tras filtrar GCR"},
+    {"abstract_verb": "suggest", "tier": "T3", "cam_attenuator": "los datos sugieren / todo apunta a"},
+    {"abstract_verb": "might", "tier": "T3", "cam_attenuator": "podría / es posible que"}
+  ],
+  "narrative_hooks": [
+    "Hace 4.500 millones de años, otro planeta del tamaño de Marte chocó contra la proto-Tierra. De ese choque salió la Luna.",
+    "Si chocaste otro planeta contra la Tierra, ¿de dónde vino?",
+    "El hierro lunar parecía decir que Theia era distinta — hasta que filtramos los rayos cósmicos.",
+    "De cuatro recetas posibles para el manto pre-impacto, solo dos producen una Theia que existe en la naturaleza.",
+    "La firma del molibdeno terrestre es 85% Theia, 15% proto-Tierra."
+  ],
+  "limitations": [
+    "Solo 6 muestras lunares — 3 de baja exposición a GCR. La corrección por rayos cósmicos depende de un n pequeño.",
+    "El cálculo de Theia es modelo-dependiente: asume composición del manto pre-impacto (PEM) y fracciones de masa (xCr, xFe, xMo).",
+    "La conclusión 'Theia se formó más cerca del Sol que la Tierra' es una inferencia bajo el modelo de mass balance, no una medición directa.",
+    "El rango observado de meteoritos define la 'plausibilidad' — si en el futuro se descubre una clase nueva, el rango podría expandirse."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes + 1 partial; densidad estándar"
+  },
+  "notebook_slug": "2025-11-20-theia-sistema-solar-interior",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-11-20-theia-sistema-solar-interior/notebook.html",
+  "generated_at": "2026-05-02T15:30:00Z"
+}

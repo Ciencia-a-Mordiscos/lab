@@ -335,6 +335,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2025-11-20-theia-sistema-solar-interior/README
+    title: "Theia se formó en el Sistema Solar interior"
+    sections:
+    - file: papers/2025-11-20-theia-sistema-solar-interior/notebook
+      title: Notebook
   - file: papers/2026-05-02-asteris-denoising-imagenes-jwst/README
     title: "ASTERIS — denoising IA en imágenes JWST"
     sections:

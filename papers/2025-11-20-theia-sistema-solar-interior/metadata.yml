@@ -1,0 +1,25 @@
+titulo: "¿De dónde vino el planeta que chocó contra la Tierra?"
+fecha: 2025-11-20
+categoria: astronomia
+tags: [theia, luna, sistema-solar, isotopos, mass-balance, hopp-2025, science]
+formato: corto
+video_youtube: "https://youtube.com/shorts/DB475dAgomA"
+fuentes:
+  - doi: "10.1126/science.ado0623"
+    titulo: "The Moon-forming impactor Theia originated from the inner Solar System"
+    journal: Science
+    autores: "Hopp et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "fe_isotopes_individual.csv"
+    descripcion: "Mediciones individuales Fe isotópico (μ54Fe, μ58Fe, δ56Fe) en 41 muestras: 15 terrestres, 6 lunares (con flag de exposición a GCR), 14 enstatitas, 4 condritas ordinarias, 2 Rumuruti."
+    fuente: "Science Supplementary (Data S1)"
+  - nombre: "isotope_summary.csv"
+    descripcion: "Promedios cross-isotope (Δ17O, μ50Ti, μ54Cr, μ54Fe, μ96Zr, μ94Mo) por clase de meteorito (27 clases) + manto terrestre + Luna. Clasificación NC/CC."
+    fuente: "Science Supplementary (Data S2 / Table S2)"
+  - nombre: "theia_mass_balance.csv"
+    descripcion: "12 escenarios del cálculo de mass balance: composición isotópica calculada de Theia bajo 4 PEM (Enstatitas, Ordinarias, CI, CV) × 3 tamaños de impactor (Canónico, Half-Earth, Pequeño)."
+    fuente: "Science Supplementary (Table S3)"
+estado: publicado

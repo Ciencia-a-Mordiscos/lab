@@ -1,0 +1,42 @@
+grupo,muestra,N,mu54Fe,mu54Fe_95CI,mu58Fe,mu58Fe_95CI,d56Fe,d56Fe_95CI,exposicion_gcr
+Terrestrial samples,BHVO-2,60,3.3,2.5,-4.0,5.5,0.117,0.024,na
+Terrestrial samples,T4D4-01,10,2.8968,3.842,-6.2684,9.1365,0.0799,0.0242,na
+Terrestrial samples,T4D3#3,10,0.9612,5.9464,5.6771,9.1785,0.0283,0.0242,na
+Terrestrial samples,T4D3#7,15,-1.5509,6.5288,4.03,9.3208,-0.0528,0.0242,na
+Terrestrial samples,BB2C,15,-1.1718,4.7874,5.4415,9.5278,0.03,0.0242,na
+Terrestrial samples,BD-11-08,25,-1.5006,3.1367,-1.0207,5.4409,0.0288,0.0242,na
+Terrestrial samples,BM-11-11,30,1.5526,4.9101,-0.9627,5.8724,-0.1711,0.0242,na
+Terrestrial samples,EL-1,12,-0.4898,3.3441,-0.3897,8.9087,0.0604,0.0242,na
+Terrestrial samples,L-72A,15,-3.7394,3.1089,-0.2859,7.7165,0.0705,0.0242,na
+Terrestrial samples,TUR-14,30,3.0002,4.1967,1.6294,7.9565,0.0131,0.0242,na
+Terrestrial samples,M657,15,1.3384,3.746,-6.5886,9.5905,-0.0165,0.0242,na
+Terrestrial samples,M712,15,-0.7768,5.8781,7.9992,10.8435,0.1433,0.0242,na
+Terrestrial samples,M665,10,-0.3162,6.2708,1.8645,12.1858,-0.0088,0.0242,na
+Terrestrial samples,A2,12,-3.89,5.2655,-3.0898,14.9285,0.2541,0.0242,na
+Terrestrial samples,HP2IC,15,-2.0828,5.1396,7.6435,14.9063,0.2516,0.0242,na
+Lunar samples,77215.276,15,1.1853,6.0929,0.762,6.1281,0.0478,0.0253,baja
+Lunar samples,74275. 361,14,2.0787,5.4128,1.7396,9.6665,0.199,0.0242,baja
+Lunar samples,12002.613,30,8.2637,4.2541,-8.4066,6.7212,0.0947,0.0242,baja
+Lunar samples,12018.301,13,1.6449,5.6413,4.0485,6.9508,0.0848,0.0242,alta
+Lunar samples,12052.353,15,15.8931,8.2166,-6.9044,9.8439,0.0746,0.0242,alta
+Lunar samples,10017.413,15,26.9023,6.3154,-21.3378,8.4579,0.1402,0.0242,alta
+Ordinary chondrites,Kesen (H4),14,13.1155,5.6996,-5.1146,6.6605,-0.0163,0.0242,na
+Ordinary chondrites,Kernouve (H6),10,9.7156,4.4845,-2.113,10.3614,0.0409,0.0244,na
+Ordinary chondrites,Ochansk (H4),15,10.8457,5.7216,-0.2451,11.2581,-0.0021,0.0241,na
+Ordinary chondrites,Ste. Marguerite (H4),12,14.972,6.9196,-6.7133,9.9802,-0.1249,0.0241,na
+Rumuruti chondrites,NWA 753 (R3.9),14,11.3826,6.4071,-1.1789,11.8112,0.0039,0.0241,na
+Rumuruti chondrites,NWA 053 (R3),10,13.4593,4.2805,-4.6928,18.3967,0.0261,0.0241,na
+Enstatite chondrites,MAC 02837 (EL3) AVG,44,6.5,4.24,-2.5,8.6,0.0563,0.0243,na
+Enstatite chondrites,MAC 02839 (EL3),15,5.2396,5.6944,5.2825,6.1313,0.0408,0.0243,na
+Enstatite chondrites,MAC 88180 (EL3),15,4.7749,4.7008,7.9513,10.5277,0.0116,0.0244,na
+Enstatite chondrites,"PCA 91020,59 (EL3) AVG",32,5.0,3.33,1.34,5.27,0.0709,0.0244,na
+Enstatite chondrites,MS 17 (EL3),15,4.238,5.8043,-4.9873,10.6484,0.0485,0.0244,na
+Enstatite chondrites,MS 189 (EL3),15,7.1721,6.2767,7.0479,10.2576,0.0277,0.0244,na
+Enstatite chondrites,MAC 02747 (EL4),30,6.3306,4.727,-7.6058,6.5088,0.0821,0.0244,na
+Enstatite chondrites,LAR 06252 (EH3),30,5.4763,4.1605,0.6907,9.9769,0.0153,0.0243,na
+Enstatite chondrites,GRO 95517 (EH3),30,6.4934,3.3523,0.1099,7.7841,0.0077,0.0243,na
+Enstatite chondrites,Abee (EH4),30,2.4759,3.4176,-3.3842,6.5966,-0.0048,0.0243,na
+Enstatite chondrites,St. Mark's (EH5),30,6.9068,4.8131,-4.599,8.3257,0.0205,0.0243,na
+Enstatite chondrites,Hvittis (EL6),28,8.481,2.9076,-3.3555,6.9371,-0.1515,0.0243,na
+Enstatite chondrites,Pillistfer (EL6),30,3.0318,4.5534,-0.114,7.8743,0.0199,0.0243,na
+Enstatite chondrites,Khairpur (EL6),30,6.7698,4.6702,-0.7603,7.0321,0.0468,0.0243,na
