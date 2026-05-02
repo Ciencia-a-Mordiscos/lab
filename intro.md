@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### IA multiagente diseña catalizador que destruye PFOA en 5 minutos
+
+**Tecnología** · *Nature Water* · Bao et al. (2026) presentan **ECOMATS**, un sistema multiagente con 7 LLMs fine-tuneados que diseñó autónomamente un catalizador para degradar **PFOA** — uno de los "químicos eternos". El catalizador focal `(FeTCPP)Co2(MeIm)2` degrada **90,5% del PFOA en 5 minutos** (verificado a 90,52% sobre 6 réplicas independientes, CV=8%). Su constante de velocidad **k=0,465 min⁻¹** es **45× la mediana** de 9 catalizadores reportados — pero solo **1,4× el mejor competidor previo** (P-Fe/Co/N@BC, k=0,330). En aguas residuales reales de **31 provincias de China**, mantiene remoción ≥85% en **28 de 31** (mediana 89,4%). El sistema multiagente separa con limpieza los buenos candidatos del ruido (Cohen's d = 2,60). En este Lab abrimos los CSVs del Source Data (MOESM4) y verificamos cada cifra. ⚠️ El paper dice "surpassing most reported analogues" — no "el más rápido del mundo". La revolución es el método (IA diseñando), no necesariamente el resultado bruto.
+
+[Ver notebook](papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook) · [Leer más](papers/2026-05-02-ai-multiagente-catalizadores-agua/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook.ipynb)
+
+---
+
 ### Los robles retrasan su brotación tres días tras un año de herbivoría
 
 **Ecología** · *Nature Ecology & Evolution* · Mallick et al. (2026) usan **5 años de imágenes de radar satelital** sobre **27.500 píxeles** de bosque de roble en el centro de Europa, distribuidos en **60 sitios** bajo manipulación experimental de carga herbívora. Los árboles que sufrieron mucha herbivoría retrasan la salida de sus hojas el año siguiente: **3 días en promedio** — suficiente para cancelar una década de adelanto fenológico provocado por el calentamiento. El efecto **se duplica en el año del brote (6,9 días)** cuando uno esperaría que la presión desbordara la respuesta. Y se replica en **98,3% de los 240 plot-año** (Cohen's d *one-sample* = 2,03). ⚠️ La cifra del **55%** del titular ("la herbivoría siguiente cae 55%") requiere caveat: la métrica cruda `(Δherbi/herbi)×100` es inestable cuando la herbivoría base ≈ 0, y los píxeles que adelantaron brotación dan también −55%. El paper sostiene su resultado con un GAM con efectos espaciales/aleatorios; este Lab muestra el camino crudo y dónde se rompe.

@@ -1,0 +1,28 @@
+titulo: "IA multiagente diseña catalizador que destruye PFOA en 5 minutos"
+fecha: 2026-05-02
+categoria: tecnología
+tags: [ia, catálisis, contaminantes-emergentes, pfoa, química-computacional, agua]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00634-9"
+    titulo: "Multi-agent artificial intelligence designs novel catalysts for ultrafast water purification"
+    journal: Nature Water
+    autores: "Bao et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "pfoa_kinetics_replicas.csv"
+    descripcion: "Cinética de degradación PFOA con 6 réplicas independientes"
+    fuente: "Source Data MOESM4_ESM.xlsx (Springer Nature Supplementary)"
+  - nombre: "rate_constants_vs_literatura.csv"
+    descripcion: "Constantes de velocidad k del catalizador focal vs 9 reportados"
+    fuente: "Source Data MOESM4_ESM.xlsx"
+  - nombre: "31_provincias_china.csv"
+    descripcion: "Remoción PFOA en aguas residuales reales de 31 provincias"
+    fuente: "Source Data MOESM4_ESM.xlsx"
+  - nombre: "ai_scores_predictions.csv"
+    descripcion: "Scores del sistema multiagente sobre 400 predicciones"
+    fuente: "Source Data MOESM4_ESM.xlsx"
+estado: publicado

@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "paper_id": 2418,
+  "doi": "10.1038/s44221-026-00634-9",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El catalizador diseñado por IA degrada 90.5% del PFOA en 5 minutos",
+      "supported": "yes",
+      "detail": "Reproducido a 90.52% (481/5076 µg/L) usando media de 6 réplicas. Diferencia con paper: 0.02 puntos porcentuales.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "porcentaje", "value": 90.52, "interpretation": "alto"}
+    },
+    {
+      "claim": "Las 6 réplicas independientes son consistentes",
+      "supported": "yes",
+      "detail": "SD/media a t=5 min = 39/481 = 8.1% (SD poblacional del CSV) o ~9% con SD muestral. CV salta a 18% solo en t=10 min.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "cv_porcentual", "value": 8.1, "interpretation": "consistente"}
+    },
+    {
+      "claim": "El catalizador es ultrarrápido vs literatura, pero matizado",
+      "supported": "partial",
+      "detail": "k focal = 0.465 min⁻¹ es 45× la mediana de 9 catalizadores reportados, pero solo 1.4× el mejor competidor (P-Fe/Co/N@BC, k=0.330). Comparación NO cabeza a cabeza — condiciones experimentales heterogéneas.",
+      "certainty_tier": "T2",
+      "abstract_verb": "surpassing",
+      "effect_size": {"measure": "ratio", "value": 1.41, "interpretation": "modesto vs el mejor; grande vs mediana"}
+    },
+    {
+      "claim": "Funciona en aguas residuales reales de 31 provincias de China",
+      "supported": "yes",
+      "detail": "28/31 provincias ≥ 85% remoción PFOA, 10/31 ≥ 90%. Mediana 89.4%, rango 84.3-91.8%. Robusto entre tratamientos previos heterogéneos (AAO, MBR, OD, SBR, CASS) y pH 6.6-8.7.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "porcentaje_provincias", "value": 90.3, "interpretation": "robusto"}
+    },
+    {
+      "claim": "El sistema multiagente separa buenos candidatos del ruido",
+      "supported": "yes",
+      "detail": "Distribución de scores: high-quality (μ=7.10, n=280) vs noise (μ=3.16, n=40). Mann-Whitney p = 5.9×10⁻²⁰, Cohen's d = 2.60 (efecto muy grande).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 2.60, "interpretation": "muy grande"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 90.5,
+      "unit": "por ciento",
+      "context": "degradación de PFOA en 5 min, catalizador focal con PMS, 6 réplicas",
+      "source": "abstract_y_source_data",
+      "verified": true,
+      "cross_check": {"paper_reported": "90.5%", "our_calculation": "90.52%", "discrepancy_pct": 0.02, "reason": "redondeo"}
+    },
+    {
+      "value": 5,
+      "unit": "minutos",
+      "context": "tiempo para alcanzar 90.5% de degradación",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "réplicas independientes",
+      "context": "n para la curva cinética del catalizador focal",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 0.465,
+      "unit": "min⁻¹",
+      "context": "constante de velocidad k del catalizador focal",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 45,
+      "unit": "veces",
+      "context": "speedup del catalizador focal vs MEDIANA de 9 catalizadores reportados",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {"paper_reported": "surpassing most", "our_calculation": "45.15×", "discrepancy_pct": 0, "reason": "el paper no reporta el ratio exacto"}
+    },
+    {
+      "value": 1.4,
+      "unit": "veces",
+      "context": "speedup vs el MEJOR competidor (P-Fe/Co/N@BC k=0.330) — matiz crítico",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 31,
+      "unit": "provincias",
+      "context": "aguas residuales reales de 31 plantas de tratamiento en China",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 28,
+      "unit": "provincias",
+      "context": "número de provincias con remoción PFOA ≥ 85% (sobre 31 totales)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 89.4,
+      "unit": "por ciento",
+      "context": "mediana de remoción PFOA en las 31 provincias",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "modelos de lenguaje fine-tuneados",
+      "context": "cantidad de LLMs en el sistema ECOMATS",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 400,
+      "unit": "predicciones",
+      "context": "candidatos evaluados por el sistema multiagente",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 2.60,
+      "unit": "cohen_d",
+      "context": "tamaño del efecto separando high-quality (n=280) de noise (n=40) en scores ECOMATS",
+      "source": "calculo_propio",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa — 'demuestra eficacia práctica'"},
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa — 'mostró rendimiento excepcional'"},
+    {"abstract_verb": "establish", "tier": "T1", "cam_attenuator": "⚠️ paper escala — usar 'plantea un esquema' / 'propone un paradigma' (no 'establece' tan fuerte)"},
+    {"abstract_verb": "identified", "tier": "T1", "cam_attenuator": "afirmación directa — 'identificaron varios candidatos prometedores'"},
+    {"abstract_verb": "surpassing", "tier": "T2", "cam_attenuator": "⚠️ NO decir 'el más rápido del mundo' — el paper dice 'la mayoría', no 'todos'. Decir 'supera a la mayoría reportada' o '~45× sobre la mediana, 1.4× sobre el mejor competidor'"}
+  ],
+  "narrative_hooks": [
+    "Un sistema con 7 modelos de lenguaje diseñó un catalizador que destruye un químico 'eterno' en 5 minutos.",
+    "PFOA — uno de los químicos más resistentes a degradar — cae 90% en el tiempo que tardas en hacer un café.",
+    "Lo que más sorprende: funciona en aguas residuales reales de 31 provincias, no solo en agua de laboratorio.",
+    "Pero el matiz: solo 1.4× más rápido que el mejor catalizador previo. La revolución es el método (IA diseñando), no necesariamente el resultado bruto."
+  ],
+  "limitations": [
+    "Las 31 plantas son todas en China — no hay validación geográfica fuera del país.",
+    "La comparación con literatura usa condiciones experimentales heterogéneas (PFOA inicial 0.5-50 mg/L, PMS 0.25-40 mM) — el '45×' no es cabeza a cabeza.",
+    "El dataset cinético abierto cubre solo PFOA. El paper menciona robustez frente a otros contaminantes, pero esos datos no están en el Source Data.",
+    "ECOMATS sugirió varios candidatos; el equipo solo sintetizó y caracterizó UNO."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes/partial + 12 key_numbers, script denso con matiz importante (45× vs mediana, 1.4× vs el mejor)"
+  },
+  "notebook_slug": "2026-05-02-ai-multiagente-catalizadores-agua",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook.html",
+  "generated_at": "2026-05-02T08:10:00Z"
+}
