@@ -1,0 +1,190 @@
+{
+  "version": "1.0",
+  "paper_id": 2363,
+  "doi": "10.1038/s41559-026-03042-0",
+  "paper_type": "observacional",
+  "study_design": "observacional (filogeografía bayesiana + modelado de nicho ecológico)",
+  "species": "human + virus + vector",
+  "verification_table": [
+    {
+      "claim": "El brote de 2024 fue 9.5× mayor que el de 2023",
+      "supported": "yes",
+      "detail": "7.931 casos confirmados en 2024 vs 831 en 2023, agregados a partir de 8.762 registros individuales del Ministerio de Salud (SINAN)",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal/show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La expansión llegó a regiones no amazónicas",
+      "supported": "yes",
+      "detail": "11 estados en 2023 (concentrados en Amazonía: AM 452, AC 175, RR 153, RO 42 + 7 estados con 1-2 casos cada uno) → 27 estados en 2024, con 16 nuevos estados incluyendo costa atlántica (BA, CE) y regiones del Sudeste/Centro-Oeste (MG, GO, DF)",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El virus se mueve más rápido que el vuelo natural del jején vector",
+      "supported": "partial",
+      "detail": "Mediana global de velocidades posteriores: 2.162 km/año (n=300 combinadas L+M+S) vs techo del vuelo natural de Culicoides: 1.825 km/año (5 km/día × 365). 199/300 muestras (66.3%) caen por encima del techo. El paper enmarca el rol del transporte humano como probable, NO como causación.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest a probable role",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los tres segmentos del genoma viral divergen en velocidad de dispersión",
+      "supported": "yes",
+      "detail": "Medianas: L=2.578 km/año (IQR 2.203-3.273), M=2.095 km/año (IQR 1.785-2.638), S=1.525 km/año (IQR 1.166-2.125). Las distribuciones se solapan, pero L es consistentemente más rápido que S",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9.5,
+      "unit": "veces",
+      "context": "razón 2024/2023 de casos confirmados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7931,
+      "unit": "casos",
+      "context": "total de casos confirmados en 2024 (Ministerio de Salud Brasil)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 831,
+      "unit": "casos",
+      "context": "total de casos confirmados en 2023",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11,
+      "unit": "estados",
+      "context": "estados afectados en 2023 (5 amazónicos con la mayoría de casos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27,
+      "unit": "estados",
+      "context": "estados afectados en 2024 (16 nuevos incluyendo costa atlántica)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 537,
+      "unit": "casos",
+      "context": "pico semanal de 2024 (semana epidemiológica 4)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8762,
+      "unit": "registros",
+      "context": "total de casos individuales agregados del SINAN",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2162,
+      "unit": "km/año",
+      "context": "mediana global de velocidad de dispersión (n=300 muestras posteriores combinadas L+M+S)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 2578,
+      "unit": "km/año",
+      "context": "mediana de velocidad del segmento L (más rápido)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1525,
+      "unit": "km/año",
+      "context": "mediana de velocidad del segmento S (más lento)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1825,
+      "unit": "km/año",
+      "context": "techo del vuelo natural máximo de Culicoides paraensis (5 km/día × 365 — Sellers 1980)",
+      "source": "referencia_externa",
+      "verified": true
+    },
+    {
+      "value": 66.3,
+      "unit": "por ciento",
+      "context": "porcentaje de muestras posteriores con velocidad por encima del techo natural del vector (199/300)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 3494,
+      "unit": "kilómetros",
+      "context": "branch dispersal máximo del MCC tree — un solo salto inferido entre Amazonas y costa",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 459,
+      "unit": "ubicaciones",
+      "context": "puntos de ocurrencia del virus al cierre de 2024 (vs 89 antes de mid-2023)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa para patrones observados en datos"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa para los factores ambientales asociados"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa para datos descriptivos"
+    },
+    {
+      "abstract_verb": "suggest a probable role",
+      "tier": "T2",
+      "cam_attenuator": "'todo apunta a' / 'es probable' — NO afirmar transporte humano como definitivo"
+    },
+    {
+      "abstract_verb": "raising concern",
+      "tier": "T2",
+      "cam_attenuator": "'genera preocupación' — tono prospectivo, no predicción"
+    }
+  ],
+  "narrative_hooks": [
+    "9.5 veces más casos en un año. Y los mosquitos no vuelan tan rápido.",
+    "11 estados en 2023, 27 en 2024 — el virus saltó de la Amazonía a la costa atlántica.",
+    "El 66% de las velocidades estimadas del virus supera el techo del vuelo natural del jején que lo carga.",
+    "El segmento L del genoma se movió más rápido (2.578 km/año) que el S (1.525) — los tres pedazos del virus no viajan iguales."
+  ],
+  "limitations": [
+    "Es un estudio observacional: detecta asociaciones y patrones, NO causación. Cacao y banano están correlacionados con la presencia del vector, no necesariamente la causan.",
+    "Las velocidades de dispersión vienen de inferencia bayesiana sobre árboles filogenéticos, no de seguimiento directo del virus.",
+    "La comparación con vuelo natural de Culicoides usa el techo teórico (5 km/día en línea recta sin viento adverso) — la realidad limita aún más, pero no podemos cuantificarlo aquí.",
+    "El notebook NO replica el modelado de nicho ecológico (ENM) del paper — ese análisis requiere rasters geográficos pesados (>200 archivos). Los hallazgos sobre cacao/banano se mencionan como contexto, no se verifican.",
+    "Los datos del Ministerio de Salud (SINAN) reflejan casos diagnosticados y reportados — el subregistro probable es alto en regiones con menor capacidad diagnóstica."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes/partial verificados, 14 key_numbers — script estándar"
+  },
+  "notebook_slug": "2026-04-22-oropouche-expansion-brasil",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-22-oropouche-expansion-brasil/notebook.html",
+  "generated_at": "2026-05-03T12:59:09.221624Z"
+}

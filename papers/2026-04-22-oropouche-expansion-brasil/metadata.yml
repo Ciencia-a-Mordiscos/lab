@@ -1,0 +1,28 @@
+titulo: "Oropouche en Brasil: 9× más casos en un año"
+fecha: 2026-05-03
+categoria: ecologia
+tags: [virologia, epidemiologia, filogeografia, brasil, oropouche, vectores, expansion]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03042-0"
+    titulo: "Dynamics and ecology of a multistage expansion of Oropouche virus in Brazil"
+    journal: "Nature Ecology & Evolution"
+    autores: "Giovanetti et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "casos_semanales.csv"
+    descripcion: "Casos OROV semanales 2023-2024 (Ministerio de Salud Brasil, SINAN)"
+    fuente: "OROPOUCHE_cases.xlsx — repositorio CERI-KRISP"
+  - nombre: "casos_por_estado_anio.csv"
+    descripcion: "Casos por estado brasileño y año (11 → 27 estados)"
+    fuente: "OROPOUCHE_cases.xlsx — repositorio CERI-KRISP"
+  - nombre: "occurrence_geographic.csv"
+    descripcion: "Ubicaciones de ocurrencia del virus en 3 momentos (n=89, 133, 459)"
+    fuente: "Disease occurrence data — repositorio CERI-KRISP"
+  - nombre: "dispersal_velocities_by_segment.csv"
+    descripcion: "300 muestras posteriores de velocidad de dispersión (L, M, S — 100 c/u)"
+    fuente: "OROV_segment{L,M,S}_estimated_dispersal_statistics.txt — CERI-KRISP"
+estado: publicado
