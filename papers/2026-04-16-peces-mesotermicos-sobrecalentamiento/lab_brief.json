@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "paper_id": 2362,
+  "doi": "10.1126/science.adt2981",
+  "paper_type": "model_with_empirical_calibration",
+  "study_design": "comparative_analytical",
+  "species": "fish (19 species; 5 mesotherms + 14 ectotherms)",
+  "verification_table": [
+    {
+      "claim": "Mesotermos gastan ~4× más energía que ectotermos al mismo M y Tm",
+      "supported": "yes",
+      "detail": "exp(ψ) = exp(1.3165) = 3.73, calculado del coeficiente Bayesiano del fittedModelRMR.rda. El paper redondea como 'approximately four times'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {"measure": "exp_psi", "value": 3.73, "interpretation": "factor multiplicativo de RMR mesotermo vs ectotermo a misma masa y temperatura"}
+    },
+    {
+      "claim": "K (coeficiente de enfriamiento) escala con masa como M^-0.633",
+      "supported": "yes",
+      "detail": "OLS pooled sobre 105 puntos da pendiente = -0.621 (R²=0.954, p<1e-69). Paper reporta -0.633 con efectos aleatorios por especie excluyendo basking/whale shark. Δ=0.012, ~2% del valor.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "effect_size": {"measure": "ols_slope", "value": -0.621, "interpretation": "exponente de escalamiento del coeficiente de enfriamiento con la masa, escala logarítmica"}
+    },
+    {
+      "claim": "RMR (tasa metabólica basal) escala con masa como M^0.83",
+      "supported": "yes",
+      "detail": "α = 0.8274, coeficiente del modelo Bayesiano del paper. Por encima de 0.75 (Kleiber clásico), dentro del rango reportado para teleósteos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "revealing",
+      "effect_size": {"measure": "alpha_rmr", "value": 0.8274, "interpretation": "exponente de escalamiento del metabolismo basal con la masa"}
+    },
+    {
+      "claim": "Hay un scaling mismatch: producción de calor crece más rápido que disipación con tamaño",
+      "supported": "yes",
+      "detail": "Producción ∝ M^0.83, disipación total = K·m ∝ M^0.37. Cociente ∝ M^(0.83-0.37) = M^0.46. Pasar de 1 kg a 1000 kg multiplica el desbalance por 24.05 (verificado).",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "effect_size": {"measure": "mismatch_exponent", "value": 0.46, "interpretation": "exponente con el que crece el desbalance térmico al subir de tamaño"}
+    },
+    {
+      "claim": "La biogeografía de mesotermos grandes ayuda a explicarse por este desbalance",
+      "supported": "partial",
+      "detail": "Es la interpretación de los autores. Consistente con el modelo pero no probada como única causa. El abstract usa 'helping to explain' (T2). Preferir 'ayuda a explicar' / 'podría explicar', NO 'explica' o 'demuestra'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "helping to explain",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.73,
+      "unit": "veces",
+      "context": "más energía que un ectotermo del mismo tamaño y temperatura (factor multiplicativo de RMR)",
+      "source": "fittedModelRMR.rda, exp(psi=1.3165)",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "approximately four times more energy",
+        "our_calculation": "exp(1.3165) = 3.73×",
+        "discrepancy_pct": 6.75,
+        "reason": "el paper redondea 3.73 a 4"
+      }
+    },
+    {
+      "value": -0.621,
+      "unit": "exponente",
+      "context": "pendiente OLS pooled de log10(K) vs log10(masa) sobre 105 puntos",
+      "source": "kmass.csv, regresión propia",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-0.633 (con efectos aleatorios, excl. basking/whale shark)",
+        "our_calculation": "-0.6206 (OLS pooled)",
+        "discrepancy_pct": 1.96,
+        "reason": "el paper usa efectos aleatorios por especie y excluye 2 especies extremas; OLS pooled sin esos ajustes"
+      }
+    },
+    {
+      "value": 0.83,
+      "unit": "exponente",
+      "context": "RMR ∝ M^0.83 — por encima del 0.75 clásico de Kleiber",
+      "source": "fittedModelRMR.rda, alpha_log_mass",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.83",
+        "our_calculation": "0.8274 (coeficiente Bayesiano publicado por los autores)",
+        "discrepancy_pct": 0.31,
+        "reason": "redondeo a 2 decimales"
+      }
+    },
+    {
+      "value": 24,
+      "unit": "veces",
+      "context": "factor por el que crece el desbalance térmico de un pez de 1 kg a uno de 1000 kg",
+      "source": "derivado: (1000)^0.46 = 24.05",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "24× (1 kg → 1000 kg)",
+        "our_calculation": "24.05×",
+        "discrepancy_pct": 0.21,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 105,
+      "unit": "mediciones",
+      "context": "coeficiente de enfriamiento K medido en 19 especies de peces",
+      "source": "kmass.csv (Nakamura, vía paquete predictFishRMR)",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.3,
+      "unit": "gramos",
+      "context": "masa mínima del dataset — larva de Pacific bluefin tuna",
+      "source": "kmass.csv, mass_kg_real.min() * 1000",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1-milligram larvae",
+        "our_calculation": "0.3 gramos",
+        "discrepancy_pct": null,
+        "reason": "el abstract redondea a 1 mg el valor más pequeño del estudio amplio; el dataset público de K empieza en 0.3 g"
+      }
+    },
+    {
+      "value": 1600,
+      "unit": "kilogramos",
+      "context": "masa máxima del dataset — tiburón ballena juvenil",
+      "source": "kmass.csv, mass_kg_real.max()",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3-tonne megaplanktivorous sharks",
+        "our_calculation": "1600 kg = 1.6 toneladas",
+        "discrepancy_pct": null,
+        "reason": "el abstract incluye individuos adultos hasta 3 toneladas; el dataset de K empleado aquí cubre hasta 1.6 t"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "developed", "tier": "T1", "cam_attenuator": "afirmación directa (\"desarrollaron\")"},
+    {"abstract_verb": "revealing", "tier": "T1", "cam_attenuator": "afirmación directa (\"revela\")"},
+    {"abstract_verb": "found", "tier": "T1", "cam_attenuator": "afirmación directa (\"encontraron\")"},
+    {"abstract_verb": "identified", "tier": "T1", "cam_attenuator": "afirmación directa (\"identificaron\")"},
+    {"abstract_verb": "creates", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "face", "tier": "T1", "cam_attenuator": "\"enfrentan\" (estado actual constatado)"},
+    {"abstract_verb": "helping to explain", "tier": "T2", "cam_attenuator": "\"ayuda a explicar\" / \"podría explicar\" — NO afirmar como causal probada"},
+    {"abstract_verb": "is a concern", "tier": "T2", "cam_attenuator": "\"motivo de preocupación\" — interpretación de los autores, no resultado del modelo"},
+    {"abstract_verb": "given disproportionate demise during prior climate shifts", "tier": "T2-context", "cam_attenuator": "Contexto histórico (registro fósil), no parte del modelo. Si se menciona, decir \"como sugiere el registro fósil\""}
+  ],
+  "narrative_hooks": [
+    "Un atún rojo y un pez sapo del mismo peso queman cantidades distintas de combustible: el atún cuatro veces más",
+    "Los mesotermos grandes se cocinan a sí mismos: producen calor más rápido de lo que pueden disiparlo",
+    "Pasar de un pez de 1 kg a uno de 1 tonelada multiplica el desbalance térmico por 24",
+    "Por eso un atún rojo gigante vive en agua templada, no tropical"
+  ],
+  "limitations": [
+    "El paquete predictFishRMR no documenta unidades exactas para maxAmbientTemp(), por eso el notebook trabaja solo con cocientes adimensionales que no dependen de unidades absolutas",
+    "Pacific bluefin tuna domina el dataset de K con 61 de 105 mediciones; la regresión OLS pooled hereda ese sesgo, mientras que el paper lo absorbe con efectos aleatorios por especie",
+    "El claim de biogeografía explicada por desbalance térmico es interpretativo (T2), no derivable directamente del modelo: usar 'ayuda a explicar' nunca 'explica'",
+    "El residual mesotermo vs ectotermo en K (Cohen's d=-0.42, MW p=0.055) sugiere que parte del efecto funcional podría estar en K, no solo en ψ; el paper modela K con una sola regresión global por decisión de diseño"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims YES + 1 partial. Estándar. Hay tensión narrativa fuerte (4× recargo + scaling mismatch + ×24 factor) que carga un script denso de información sin sobrellenarlo."
+  },
+  "notebook_slug": "2026-04-16-peces-mesotermicos-sobrecalentamiento",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-16-peces-mesotermicos-sobrecalentamiento/notebook.html",
+  "generated_at": "2026-05-03T07:30:00-05:00"
+}

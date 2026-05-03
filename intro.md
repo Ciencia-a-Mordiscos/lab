@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El pez que se cocina a sí mismo cuando crece
+
+**Ecología** · *Science* · Payne et al. (2026) construyeron un modelo de producción y disipación de calor para peces, calibrado con **105 mediciones empíricas** del coeficiente de enfriamiento en **19 especies** — desde una larva de **0.3 gramos** hasta un tiburón ballena juvenil de **1600 kg** (6.7 órdenes de magnitud de masa). Los mesotermos (atunes, pez espada, marrajo) gastan **3.73× más energía** que un ectotermo del mismo tamaño y temperatura corporal — el paper redondea a "approximately four times". Verificamos el coeficiente Bayesiano `exp(ψ=1.3165)` y re-derivamos la pendiente del coeficiente de enfriamiento (OLS pooled = -0.621 vs paper -0.633, Δ ≈ 2%). El **scaling mismatch** entre producción de calor (∝ M^0.83) y disipación (K·m ∝ M^0.37) hace que el cociente crezca como **M^0.46**: pasar de 1 kg a 1000 kg multiplica el desbalance térmico por **24×**. ⚠️ El claim de que esto explica la biogeografía templada de los mesotermos grandes es interpretativo (el abstract usa "helping to explain") — no causal probado.
+
+[Ver notebook](papers/2026-04-16-peces-mesotermicos-sobrecalentamiento/notebook) · [Leer más](papers/2026-04-16-peces-mesotermicos-sobrecalentamiento/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-16-peces-mesotermicos-sobrecalentamiento/notebook.ipynb)
+
+---
+
 ### Theia se formó en el Sistema Solar interior
 
 **Astronomía** · *Science* · Hopp et al. (2025) midieron isótopos de hierro (μ⁵⁴Fe) en **41 muestras** — 15 terrestres, 6 lunares, 14 enstatitas, 4 condritas ordinarias y 2 Rumuruti — y los cruzaron con cinco sistemas isotópicos más (O, Ti, Cr, Zr, Mo). Tras filtrar la exposición a rayos cósmicos galácticos, **la Luna y la Tierra son indistinguibles isotópicamente** y caen juntas en el extremo no carbonáceo del mapa meteorítico. El equipo usó balance de masas para reconstruir Theia bajo **12 escenarios** (4 mantos pre-impacto × 3 tamaños de impactor): solo las recetas no carbonáceas dan una Theia que existe en la naturaleza — las recetas CI (μ⁵⁴Cr=−766) y CV (−409) caen a cientos de ppm fuera del rango observado. **El 15% del Cr terrestre y el 85% del Mo provienen de Theia** bajo el escenario canónico. ⚠️ La conclusión "Theia se formó más cerca del Sol que la Tierra" es una inferencia bajo el modelo (el paper la enmarca con *suggest...might*), no una medición directa.

@@ -1,0 +1,22 @@
+titulo: "El pez que se cocina a sí mismo cuando crece"
+fecha: 2026-05-03
+categoria: ecologia
+tags: [peces, mesotermos, atunes, fisiologia-termica, escalamiento-metabolico, cambio-climatico]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adt2981"
+    titulo: "Mesothermic fishes face high fuel demands and overheating risk in warming oceans"
+    journal: Science
+    autores: "Payne et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "kmass.csv"
+    descripcion: "105 mediciones del coeficiente de enfriamiento K en 19 especies de peces (rango 0.3 g a 1600 kg)"
+    fuente: "paquete predictFishRMR (GitHub: AndrewLJackson/predictFishRMR · Zenodo 10.5281/zenodo.16409669)"
+  - nombre: "fitted_model_rmr.csv"
+    descripcion: "4 coeficientes del modelo Bayesiano de RMR (γ, α, β, ψ) ajustado por los autores"
+    fuente: "paquete predictFishRMR"
+estado: publicado
