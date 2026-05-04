@@ -426,6 +426,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-16-super-nano-domains-copper-foils/README
+    title: "Super-nano dominios en láminas de cobre — fuerza y conductividad sin sacrificar ninguna"
+    sections:
+    - file: papers/2026-04-16-super-nano-domains-copper-foils/notebook
+      title: Notebook
   - file: papers/2026-05-02-ai-multiagente-catalizadores-agua/README
     title: "IA multiagente diseña catalizador que destruye PFOA en 5 minutos"
     sections:

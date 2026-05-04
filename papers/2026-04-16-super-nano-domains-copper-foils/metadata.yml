@@ -1,0 +1,25 @@
+titulo: "Super-nano dominios en láminas de cobre — fuerza y conductividad sin sacrificar ninguna"
+fecha: 2026-05-04
+categoria: tecnologia
+tags: [materiales, cobre, electrodeposicion, nanotecnologia, electronica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aed7758"
+    titulo: "Super-nano domains enable strength-conductivity synergy in copper foils"
+    journal: Science
+    autores: "Tao et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "composicion_quimica_gsd113.csv"
+    descripcion: "Composición elemental de GSD-113 por GDMS (Tabla S1)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "tamanos_estructurales.csv"
+    descripcion: "Tamaño de grano y de dominio para 3 muestras GSD (Fig. S4)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "estabilidad_hardness.csv"
+    descripcion: "Microdureza Vickers GSD-113 vs NG hasta 720 h (Fig. S7B)"
+    fuente: "Supplementary Materials del paper (valores aproximados leídos de la figura)"
+estado: publicado

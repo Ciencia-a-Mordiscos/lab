@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Super-nano dominios en láminas de cobre — fuerza y conductividad sin sacrificar ninguna
+
+**Tecnología** · *Science* · Tao et al. (2024) reportan láminas de cobre de **10 micras** que combinan **~900 MPa de resistencia** y **90% IACS de conductividad** — una pareja considerada incompatible — fabricadas por electrodeposición industrial. La clave: **dos escalas estructurales independientes** dentro del mismo material — granos cristalinos de **60-80 nm** con **dominios super-nano de ~3 nm** distribuidos periódicamente (ratio promedio **22×**). Verificamos los datos del Supplementary: el aditivo orgánico (gelatina + HEC + MBI con KCl) controla el grano (Spearman ρ = -1.0 con n=3) sin tocar el dominio. La estabilidad térmica es donde la diferencia se siente: **GSD-113 pierde 3,6% de dureza en 720 horas (un mes)**, mientras un cobre nanogranulado convencional pierde **43,6% en sólo 24 horas** — los dominios anclan los bordes de grano e impiden el engrosamiento. ⚠️ Los valores 900 MPa / 90% IACS provienen del abstract; el paper está paywalled y no pudimos cruzarlos contra datos crudos. La correlación aditivo→grano es estadísticamente marginal (n=3, p=0,037), aunque la dirección es inequívoca.
+
+[Ver notebook](papers/2026-04-16-super-nano-domains-copper-foils/notebook) · [Leer más](papers/2026-04-16-super-nano-domains-copper-foils/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-16-super-nano-domains-copper-foils/notebook.ipynb)
+
+---
+
 ### Oropouche en Brasil: 9× más casos en un año
 
 **Ecología** · *Nature Ecology & Evolution* · Giovanetti et al. (2026) reconstruyeron la dinámica del brote de fiebre Oropouche en Brasil con filogeografía bayesiana sobre tres segmentos del genoma viral (L, M, S, **100 muestras posteriores cada uno**) y modelado de nicho ecológico. Los datos del Ministerio de Salud confirman **8.762 casos individuales** entre 2023 y 2024: pasamos de **831 casos en 11 estados** a **7.931 en 27 estados** (9.5×), con 16 estados nuevos incluyendo costa atlántica (BA, CE) y Sudeste/Centro-Oeste. La mediana global de velocidad de dispersión es **2.162 km/año** (n=300), y **el 66% de las muestras posteriores supera el techo del vuelo natural de Culicoides paraensis** (~1.825 km/año en línea recta). ⚠️ Es un estudio observacional: el paper enmarca el rol del transporte humano como *probable* (no causación) en saltos largos.

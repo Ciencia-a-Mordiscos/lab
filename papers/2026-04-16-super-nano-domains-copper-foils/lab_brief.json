@@ -1,0 +1,223 @@
+{
+  "version": "1.0",
+  "paper_id": 2361,
+  "doi": "10.1126/science.aed7758",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El grano cristalino baja al aumentar el aditivo orgánico",
+      "supported": "yes",
+      "detail": "Spearman ρ = -1.0 (monotonía perfecta), Pearson r = -0.998 (p = 0.037, n = 3, marginal por muestra pequeña)",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -1.0,
+        "interpretation": "monotonia perfecta n=3"
+      }
+    },
+    {
+      "claim": "El dominio super-nano se mantiene en ~3 nm en las tres muestras",
+      "supported": "yes",
+      "detail": "Rango 3.0-3.3 nm — el aditivo controla el grano sin alterar el dominio",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "rango_nm",
+        "value": 0.3,
+        "interpretation": "muy estable"
+      }
+    },
+    {
+      "claim": "Los granos y los dominios viven a escalas independientes (ratio ~22×)",
+      "supported": "yes",
+      "detail": "Ratio promedio grain/domain = 22.4 (calculado de Fig S4)",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 22.4,
+        "interpretation": "dos escalas claramente separadas"
+      }
+    },
+    {
+      "claim": "GSD-113 mantiene su dureza durante un mes",
+      "supported": "yes",
+      "detail": "Pierde 3.6% en 720 h (2.75 → 2.65 GPa)",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrates",
+      "effect_size": {
+        "measure": "delta_pct",
+        "value": 3.6,
+        "interpretation": "estabilidad alta"
+      }
+    },
+    {
+      "claim": "NG (Cu nanogranulado convencional) pierde casi la mitad en 24 h",
+      "supported": "yes",
+      "detail": "Cae 43.6% (1.95 → 1.10 GPa) en sólo 24 h. A 720 h, GSD-113 conserva 2.52× la dureza de NG",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrates",
+      "effect_size": {
+        "measure": "delta_pct",
+        "value": 43.6,
+        "interpretation": "colapso rapido"
+      }
+    },
+    {
+      "claim": "La lámina logra ~900 MPa de resistencia y 90% IACS de conductividad",
+      "supported": "partial",
+      "detail": "Valores del abstract — paper paywalled, no cruzables contra datos crudos del SM",
+      "supported_by_data": false,
+      "certainty_tier": "T1-atenuado",
+      "abstract_verb": "approximately",
+      "effect_size": {
+        "measure": "headline",
+        "value": 900,
+        "interpretation": "atenuar con 'cerca de'"
+      }
+    },
+    {
+      "claim": "Cl (309 ppm) es la impureza dominante de GSD-113",
+      "supported": "yes",
+      "detail": "Confirmado en Tabla S1 GDMS — refleja el rol del KCl en el baño de electrodeposición",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "ppm",
+        "value": 309,
+        "interpretation": "34% de las impurezas totales"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 10,
+      "unit": "micrometros",
+      "context": "grosor de la lamina de Cu",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 900,
+      "unit": "megapascales",
+      "context": "resistencia a traccion (atenuar con 'cerca de')",
+      "source": "abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "approximately 900",
+        "our_calculation": "no calculable desde SM accesible",
+        "discrepancy_pct": null,
+        "reason": "paper paywalled, datos crudos no extraibles"
+      }
+    },
+    {
+      "value": 90,
+      "unit": "por ciento IACS",
+      "context": "conductividad electrica relativa al Cu puro",
+      "source": "abstract",
+      "verified": false
+    },
+    {
+      "value": 3,
+      "unit": "nanometros",
+      "context": "tamano del dominio super-nano (rango medido 3.0-3.3 nm)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 22.4,
+      "unit": "ratio",
+      "context": "razon promedio entre tamano de grano y de dominio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 43.6,
+      "unit": "por ciento",
+      "context": "caida de dureza de NG en 24 h (1.95 -> 1.10 GPa)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.6,
+      "unit": "por ciento",
+      "context": "caida de dureza de GSD-113 en 720 h",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 720,
+      "unit": "horas",
+      "context": "duracion de la prueba de estabilidad termica (un mes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.52,
+      "unit": "veces",
+      "context": "ratio de dureza GSD-113 vs NG a 720h",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 309,
+      "unit": "ppm",
+      "context": "concentracion de Cl, impureza dominante",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 904.5,
+      "unit": "ppm",
+      "context": "total de impurezas medidas (Cu pureza 99.91%)",
+      "source": "calculo_propio",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (descripcion de hallazgo)"
+    },
+    {
+      "abstract_verb": "demonstrates",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "approximately",
+      "tier": "T1-atenuado",
+      "cam_attenuator": "usar 'cerca de' o 'aproximadamente'"
+    }
+  ],
+  "narrative_hooks": [
+    "Una lamina de cobre del grosor de un papel — 10 micras — aguanta 900 megapascales sin doblarse y conduce el 90% de lo que conduce el cobre puro",
+    "Dos escalas estructurales independientes coexisten en la misma lamina: granos de unas decenas de nanometros con dominios de ~3 nm dentro (ratio 22 a 1)",
+    "GSD-113 pierde 3.6% de dureza en un mes; el cobre nanogranulado convencional pierde 44% en solo 24 horas"
+  ],
+  "limitations": [
+    "n = 3 muestras para la correlacion aditivo->grano. Spearman ρ = -1.0 es la maxima posible, pero estadisticamente es muestra pequena (Pearson p = 0.037, marginal)",
+    "Estabilidad medida hasta 720 h (un mes). NO se puede extrapolar a 'permanente' ni a temperaturas elevadas",
+    "Datos del paper paywalled. Las curvas tension-deformacion de Fig 3 y la conductividad por muestra no son cruzables contra datos crudos — los valores 900 MPa / 90% IACS provienen del abstract",
+    "Comparacion NG vs GSD-113 no es pareada (tipos de fabricacion distintos, no replicas del mismo material)",
+    "Los valores de hardness fueron leidos aproximadamente de Fig S7B, no extraidos como tabla numerica del SM"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 2 partial/no + 11 key_numbers — script denso por riqueza de datos"
+  },
+  "notebook_slug": "2026-04-16-super-nano-domains-copper-foils",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-16-super-nano-domains-copper-foils/notebook.html",
+  "generated_at": "2026-05-04T07:22:42.455153"
+}
