@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas
+
+47,4% de las cuencas con verdor + E↑ tienen también caudal subiendo. El patrón se invierte donde la teoría decía que sería peor: en zonas semiáridas. Tian et al. (2026), *Nature Water*.
+
+[Notebook](papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook.ipynb) · [README](papers/2026-04-22-greening-no-seca-rios-semiaridos/README.md) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook.ipynb)
+
 ### Super-nano dominios en láminas de cobre — fuerza y conductividad sin sacrificar ninguna
 
 **Tecnología** · *Science* · Tao et al. (2024) reportan láminas de cobre de **10 micras** que combinan **~900 MPa de resistencia** y **90% IACS de conductividad** — una pareja considerada incompatible — fabricadas por electrodeposición industrial. La clave: **dos escalas estructurales independientes** dentro del mismo material — granos cristalinos de **60-80 nm** con **dominios super-nano de ~3 nm** distribuidos periódicamente (ratio promedio **22×**). Verificamos los datos del Supplementary: el aditivo orgánico (gelatina + HEC + MBI con KCl) controla el grano (Spearman ρ = -1.0 con n=3) sin tocar el dominio. La estabilidad térmica es donde la diferencia se siente: **GSD-113 pierde 3,6% de dureza en 720 horas (un mes)**, mientras un cobre nanogranulado convencional pierde **43,6% en sólo 24 horas** — los dominios anclan los bordes de grano e impiden el engrosamiento. ⚠️ Los valores 900 MPa / 90% IACS provienen del abstract; el paper está paywalled y no pudimos cruzarlos contra datos crudos. La correlación aditivo→grano es estadísticamente marginal (n=3, p=0,037), aunque la dirección es inequívoca.

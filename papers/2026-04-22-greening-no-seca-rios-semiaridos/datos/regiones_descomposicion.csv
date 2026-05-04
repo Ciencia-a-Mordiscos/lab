@@ -1,0 +1,16 @@
+Number,Region,Term,Magnitude(mm/yr),Contribution(%)
+a,Loess Plateau,Efficiency,47.38,70.69
+a,Loess Plateau,External,11.65,17.38
+a,Loess Plateau,Local,8,11.93
+b,India,Efficiency,27.85,53.14
+b,India,External,22.32,42.59
+b,India,Local,2.24,4.27
+c,Australia,Efficiency,13.41,73.84
+c,Australia,External,4.62,25.44
+c,Australia,Local,0.13,0.72
+d,Mexico,Efficiency,17,19.08
+d,Mexico,External,54.18,60.82
+d,Mexico,Local,17.91,20.1
+e,United States,Efficiency,19.13,62.13
+e,United States,External,8.73,28.35
+e,United States,Local,2.93,9.52

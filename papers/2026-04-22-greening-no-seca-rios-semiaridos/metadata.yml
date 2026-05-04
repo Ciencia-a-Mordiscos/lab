@@ -1,0 +1,31 @@
+titulo: "Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas"
+fecha: 2026-04-22
+categoria: ecologia
+tags: [ecologia, hidrologia, revegetacion, clima, feedback-atmosferico]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00631-y"
+    titulo: "Energy-mediated feedbacks of vegetation greening enhance precipitation efficiency and sustain water yield in global semi-arid regions"
+    journal: "Nature Water"
+    autores: "Tian, L. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cuencas_por_aridez.csv"
+    descripcion: "Conteo de cuencas con verdor por aridez y signo de caudal"
+    fuente: "Source Data Fig. 1c (MOESM3)"
+  - nombre: "cuencas_lai_q_e.csv"
+    descripcion: "4080 cuencas globales — LAI, Q, E slopes"
+    fuente: "Source Data Fig. 1b (MOESM3)"
+  - nombre: "lp_descomposicion.csv"
+    descripcion: "Descomposición de la precipitación inducida por verdor en Loess Plateau"
+    fuente: "Source Data Fig. 4i (MOESM6)"
+  - nombre: "regiones_descomposicion.csv"
+    descripcion: "Descomposición aplicada a 5 hotspots globales"
+    fuente: "Source Data Fig. 5 (MOESM7)"
+  - nombre: "serie_global_E_Q.csv"
+    descripcion: "Serie temporal global de medianas E y Q (20 años)"
+    fuente: "Source Data Fig. 1d (MOESM3)"
+estado: publicado

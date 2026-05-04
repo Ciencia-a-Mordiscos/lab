@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "paper_id": 2365,
+  "doi": "10.1038/s44221-026-00631-y",
+  "paper_type": "research-article",
+  "study_design": "hybrid (observational catchments + counterfactual coupled-vs-offline simulation)",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "47,4% de las cuencas con verdor + E↑ tienen también Q↑",
+      "supported": "yes",
+      "detail": "1.934 / 4.080. Coincide con 'nearly half' del abstract. Suma por aridez (32+454+192+1.256=1.934) reproduce el dato.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El patrón se invierte entre zonas secas y húmedas",
+      "supported": "yes",
+      "detail": "Semiárido 71,9% (n=631) y árido 66,7% (n=48) con mayoría E↑Q↑. Húmedo 40,6% (n=3.090) con mayoría caudal cayendo. Bin árido n=48 limita robustez en árido; semiárido es la conclusión sólida.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En la Meseta de Loess, la eficiencia atmosférica explica ~71% del aumento de lluvia atribuido al verdor",
+      "supported": "partial",
+      "detail": "47,38 mm/año de 67,03 totales = 70,69%. Dato de la simulación coupled WRF, no medición directa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El feedback atmosférico domina en otros 4 hotspots globales (4 de 5)",
+      "supported": "partial",
+      "detail": "Loess Plateau, India, Australia, Estados Unidos: Eficiencia dominante. México excepción: 60,8% Externa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "confirm",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Modelos offline subestiman la E inducida por verdor en >50%",
+      "supported": "partial",
+      "detail": "Cita exacta del abstract. Comparación coupled vs offline en simulación, no contra observaciones independientes.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 4080,
+      "unit": "cuencas",
+      "context": "cuencas globales con greening (LAI↑) + E↑ analizadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1934,
+      "unit": "cuencas",
+      "context": "subset con caudal subiendo (47,4%)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 47.4,
+      "unit": "por ciento",
+      "context": "fracción headline de cuencas con E↑Q↑",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 71.9,
+      "unit": "por ciento",
+      "context": "cuencas semiáridas con E↑Q↑ (454/631)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 66.7,
+      "unit": "por ciento",
+      "context": "cuencas áridas con E↑Q↑ (32/48)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 40.6,
+      "unit": "por ciento",
+      "context": "cuencas húmedas con E↑Q↑ (1.256/3.090) — única zona donde la mayoría tiene caudal cayendo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 70.69,
+      "unit": "por ciento",
+      "context": "Eficiencia atmosférica en Loess Plateau (47,38 mm/año)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 60.82,
+      "unit": "por ciento",
+      "context": "Humedad importada en México — única excepción del feedback dominante",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 50,
+      "unit": "por ciento (umbral)",
+      "context": "subestimación E con modelo offline (>50%)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'los datos muestran que...'"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'la simulación muestra...'"
+    },
+    {
+      "abstract_verb": "confirm",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'confirma'"
+    },
+    {
+      "abstract_verb": "is often expected",
+      "tier": "CONTRASTE",
+      "cam_attenuator": "'lo esperado tradicionalmente era... pero los datos dicen otra cosa'"
+    },
+    {
+      "abstract_verb": "underscore",
+      "tier": "RECOMENDACION",
+      "cam_attenuator": "no usar — los autores recomiendan, el canal no recomienda"
+    }
+  ],
+  "narrative_hooks": [
+    "47,4% de las cuencas que se volvieron más verdes llevan MÁS caudal, no menos",
+    "En zonas semiáridas el patrón se invierte: 71,9% tiene caudal subiendo",
+    "El feedback atmosférico (menos albedo → más radiación → más convección → más lluvia) explica 7 de cada 10 mm extra en Loess",
+    "Mexico es la excepción: 4 de 5 hotspots confirman el feedback, México domina por humedad importada"
+  ],
+  "limitations": [
+    "El conteo por aridez es observacional — los datos muestran asociación, no demuestran causalidad. La causalidad solo es válida dentro de la simulación coupled.",
+    "Bin árido n=48 — muestra pequeña, conclusión robusta es para semiárido (n=631).",
+    "Atribuciones de simulación dependen del modelo WRF y parametrización del albedo — no son medición directa.",
+    "Descomposición de los 5 hotspots viene de simulaciones regionales separadas; consistencia mecanística, no replicación experimental."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (3 partial, 2 yes), 9 key numbers"
+  },
+  "notebook_slug": "2026-04-22-greening-no-seca-rios-semiaridos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook.html",
+  "generated_at": "2026-05-04T12:59:38.973861Z"
+}

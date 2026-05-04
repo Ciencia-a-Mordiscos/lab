@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-04-22-greening-no-seca-rios-semiaridos/README
+    title: "Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas"
+    sections:
+    - file: papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook
+      title: Notebook
   - file: papers/2026-04-22-oropouche-expansion-brasil/README
     title: "Oropouche en Brasil: 9× más casos en un año"
     sections:
