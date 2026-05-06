@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "paper_id": 1084,
+  "doi": "10.1038/s43587-025-01016-8",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El cerebro es el órgano cuyo envejecimiento más predice la mortalidad entre los 11 relojes",
+      "supported": "yes",
+      "detail": "HR = 1.44 (IC 95 % 1.38–1.49), p ≈ 8.5 × 10⁻⁷⁶. El segundo (páncreas, HR = 1.34) queda 22 % por debajo en magnitud de efecto (excess sobre HR = 1)",
+      "certainty_tier": "T1",
+      "abstract_verb": "linked to",
+      "supported_by_data": true,
+      "effect_size": {"measure": "hazard_ratio", "value": 1.44, "interpretation": "+44 % riesgo de muerte por SD"}
+    },
+    {
+      "claim": "Para demencia, el cerebro casi duplica el riesgo por SD",
+      "supported": "yes",
+      "detail": "HR = 1.88 (IC 95 % 1.73–2.05), p ≈ 4.9 × 10⁻⁴⁸. Pulmón, riñón y páncreas tienen IC 95 % que cruza 1 (sin efecto detectable sobre demencia)",
+      "certainty_tier": "T1",
+      "abstract_verb": "linking",
+      "supported_by_data": true,
+      "effect_size": {"measure": "hazard_ratio", "value": 1.88, "interpretation": "+88 % riesgo de demencia por SD"}
+    },
+    {
+      "claim": "Los 11 órganos no envejecen como un todo — cada uno tiene su propia trayectoria",
+      "supported": "yes",
+      "detail": "Correlaciones plasmáticas entre 0.03 y 0.56; la mayoría de pares (70/90) están por debajo de 0.30, ningún par supera 0.60",
+      "certainty_tier": "T1",
+      "abstract_verb": "developed",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Los relojes funcionan en tres cohortes (UKB descubrimiento, CKB China, NHS USA)",
+      "supported": "partial",
+      "detail": "Cross-cohort r = 0.98 (UKB↔CKB) y r = 0.93 (UKB↔NHS) — del abstract; los R² individuales por reloj están en r2_cross_cohort.csv",
+      "certainty_tier": "T1",
+      "abstract_verb": "validated",
+      "supported_by_data": true,
+      "effect_size": {"measure": "pearson_r", "value": 0.98, "interpretation": "concordancia cross-cohort UKB-CKB"}
+    },
+    {
+      "claim": "El cerebro envejecido CAUSA demencia",
+      "supported": "no",
+      "detail": "Diseño observacional (Cox regression). Solo soporta asociación predictiva, no causalidad",
+      "certainty_tier": "T2",
+      "abstract_verb": "linked",
+      "supported_by_data": false,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 43616,
+      "unit": "personas",
+      "context": "cohorte de descubrimiento UK Biobank",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11,
+      "unit": "relojes",
+      "context": "Organismal + 10 órganos: arteria, cerebro, corazón, sistema inmune, intestino, riñón, hígado, pulmón, músculo, páncreas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2924,
+      "unit": "proteínas",
+      "context": "panel Olink usado para entrenar los 11 modelos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.44,
+      "unit": "HR",
+      "context": "brain aging para mortalidad — por 1 SD del aging score, IC 95 % 1.38–1.49, p ≈ 8.5 × 10⁻⁷⁶",
+      "source": "datos/disease_associations.csv (outcome=death, organ=Brain)",
+      "verified": true
+    },
+    {
+      "value": 1.88,
+      "unit": "HR",
+      "context": "brain aging para demencia — por 1 SD del aging score, IC 95 % 1.73–2.05, p ≈ 4.9 × 10⁻⁴⁸",
+      "source": "datos/disease_associations.csv (outcome=acd, organ=Brain)",
+      "verified": true
+    },
+    {
+      "value": 13.7,
+      "unit": "años",
+      "context": "mediana de seguimiento en UK Biobank",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4600,
+      "unit": "muertes",
+      "context": "casos de mortalidad en el seguimiento UKB",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1151,
+      "unit": "casos",
+      "context": "demencia (todas las causas) en UKB",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "por ciento",
+      "context": "el segundo (páncreas, HR=1.34) queda 22 % por debajo del cerebro en magnitud de efecto (excess sobre HR=1)",
+      "source": "calculo_propio",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no reportado directamente — derivado",
+        "our_calculation": "22.4 %",
+        "discrepancy_pct": 0,
+        "reason": "(0.4357 - 0.3382) / 0.4357 = 0.224 — diferencia de excess-over-1 entre cerebro y páncreas"
+      }
+    },
+    {
+      "value": 11,
+      "unit": "por ciento",
+      "context": "del sample tiene el brain score exactamente en la mediana (artefacto de imputación con mediana de proteínas Olink faltantes — 568/5000)",
+      "source": "calculo_propio",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "developed", "tier": "T1", "cam_attenuator": "afirmación directa ('desarrollaron', 'construyeron')"},
+    {"abstract_verb": "validated", "tier": "T1", "cam_attenuator": "afirmación directa ('validaron', 'confirmaron')"},
+    {"abstract_verb": "predicted", "tier": "T1", "cam_attenuator": "afirmación directa ('predice') — válido por Cox regression + 3 cohortes"},
+    {"abstract_verb": "linked", "tier": "T2", "cam_attenuator": "'se asocia con' / 'está vinculado con' (no causal)"},
+    {"abstract_verb": "appears to confer", "tier": "T3", "cam_attenuator": "'parece conferir' / 'todo apunta a que confiere' — NO afirmar como hecho"}
+  ],
+  "narrative_hooks": [
+    "Tu plasma tiene 11 relojes biológicos — uno por órgano. El que más predice cuándo morirás está en el cerebro.",
+    "Por cada SD que tu reloj cerebral te marca 'más viejo' que tu edad real, el riesgo de muerte sube 44 % y el de demencia casi se duplica.",
+    "Los 11 órganos no envejecen como un todo: las correlaciones entre ellos son débiles (la mayoría por debajo de 0.30). El cerebro tiene su propia trayectoria — y es la que más pesa."
+  ],
+  "limitations": [
+    "Diseño observacional (Cox regression): predice riesgo, no demuestra causalidad",
+    "HR por 1 SD del aging score residual — no equivale a 'tu cerebro envejece 44 % más rápido', sino a 'tener un reloj cerebral 1 SD por encima de tu edad cronológica predice +44 % de riesgo de muerte'",
+    "Pico artificial (~11 % del sample) en el histograma de brain score: modelos Olink imputan proteínas faltantes con la mediana, generando un spike en la mediana del aging score — no es biología",
+    "Sample de 5,000 (semilla 42) para el histograma; la población completa UKB es n = 43,616",
+    "Datos crudos del proteoma plasmático crudo del UKB no descargables — requieren solicitud formal al consorcio. El notebook reproduce el análisis downstream a partir de los aging scores publicados como Source Data"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 1 partial verificados — densidad estándar"
+  },
+  "notebook_slug": "2025-11-26-organ-proteomic-aging-clocks",
+  "lab_url": "https://cienciaamordiscos.com/papers/2025-11-26-organ-proteomic-aging-clocks/notebook.html",
+  "generated_at": "2026-05-06T15:20:00Z"
+}

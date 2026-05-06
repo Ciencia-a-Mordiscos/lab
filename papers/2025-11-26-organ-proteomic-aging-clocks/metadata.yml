@@ -1,0 +1,31 @@
+titulo: "Tu plasma tiene 11 relojes. Uno por órgano."
+fecha: 2025-11-26
+categoria: medicina
+tags: [envejecimiento, proteomica, machine-learning, demencia, mortalidad, uk-biobank, olink, cox-regression]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s43587-025-01016-8"
+    titulo: "Organ-specific proteomic aging clocks predict disease and longevity across diverse populations"
+    journal: Nature Aging
+    autores: "Liu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "disease_associations.csv"
+    descripcion: "Cox regression: HR de cada órgano para 18 outcomes (198 filas)"
+    fuente: "Supplementary Table 7"
+  - nombre: "r2_cross_cohort.csv"
+    descripcion: "R² de cada reloj en UKB, CKB, NHS"
+    fuente: "Supplementary Table 5"
+  - nombre: "organ_correlations_ukb.csv"
+    descripcion: "Matriz 10×10 de correlaciones de Pearson entre aging scores"
+    fuente: "Derivado del Source Data (MOESM4)"
+  - nombre: "aging_scores_ukb_sample.csv"
+    descripcion: "Sample aleatorio (semilla 42) de 5,000 personas del UKB con sus 10 aging scores"
+    fuente: "Source Data MOESM4 (subsample)"
+  - nombre: "top_proteins_per_organ.csv"
+    descripcion: "Top proteínas Olink por reloj orgánico (543 entradas)"
+    fuente: "Supplementary Table 4"
+estado: publicado
