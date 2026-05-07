@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una atmósfera donde los modelos no la esperaban
+
+**Astronomía** · *Nature Astronomy* · Arimatsu et al. (2026) registraron una **ocultación estelar** del 10 de enero de 2024 en (612533) 2002 XV93 —un *plutino* de **~250 km de radio**— desde tres telescopios en Japón: Kyoto, Kiso y Fukushima. La curva de luz no cae en escalón: la luz se atenúa de forma gradual, y eso solo lo hace el aire. Derivan una **presión superficial de 100–200 nbar**, **50–100 veces menor** que la de Plutón pero por encima del techo previo de 1–100 nbar establecido para TNOs > 500 km. Tres composiciones (N₂, CH₄, CO) ajustan la curva con calidad similar — la curva sola no decide qué se respira. Kiso es la curva crítica: con σ ≈ 0,06 es **5,2 veces más precisa** que las otras dos, y el ajuste χ² del paper se hace contra ella sola. ⚠️ Los autores presentan dos hipótesis especulativas para el origen — *criovulcanismo activo* o *un impacto reciente* — sin medirlas. ⚠️ Una sola ocultación de ~10 minutos no distingue entre atmósfera estable y transitoria.
+
+[Ver notebook](papers/2026-05-04-atmosfera-tno-2002-xv93/notebook) · [Leer más](papers/2026-05-04-atmosfera-tno-2002-xv93/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-04-atmosfera-tno-2002-xv93/notebook.ipynb)
+
+---
+
 ### La deforestación baja el umbral climático del Amazonas en 2 °C (según el modelo)
 
 **Ecología** · *Nature* · Wunderling et al. (2026) corren PyCascades — un modelo dinámico del Amazonas — sobre una grilla de **416 celdas de 1° × 1°** y **1,25 millones de simulaciones** (3.000 réplicas × 10 ensembles) bajo cuatro escenarios SSP. Sin deforestación, el modelo proyecta el umbral del bosque entre **3,7 y 4,0 °C** de calentamiento. Con la deforestación de tipo *Business as Usual* (22-28 % del bioma), el umbral cae a **1,5–1,9 °C** — exactamente el rango donde apunta la meta del Acuerdo de París. El contraste es brutal en SSP1-2.6 (+1,8 °C, el escenario más cercano a París): **0 % del Amazonas en transición sin deforestación**, **62 % con deforestación BaU** — 62 puntos porcentuales que dependen sólo del escenario de uso del suelo. A 4 °C la brecha se reduce a 43 pp porque el sistema climático ya empuja por su cuenta. ⚠️ Es un modelo de simulación, no observación. El paper habla siempre en términos de proyección y riesgo. ⚠️ El moisture recycling validado contra ERA5 muestra +5,5 % de sesgo (R² = 0,59); se basa en NorESM2 y otros modelos climáticos podrían arrojar umbrales distintos.

@@ -1,0 +1,22 @@
+titulo: "Una atmósfera donde los modelos no la esperaban"
+fecha: 2026-05-04
+categoria: astronomia
+tags: [atmosferas-planetarias, tnos, plutinos, ocultaciones-estelares, sistema-solar-exterior, criovulcanismo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02846-1"
+    titulo: "Detection of an atmosphere on a trans-Neptunian object beyond Pluto"
+    journal: Nature Astronomy
+    autores: "Arimatsu, K. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "lightcurve_Kiso.csv"
+    descripcion: "Curva de luz de la ocultación, estación Kiso (5× más precisa que Kyoto/Fukushima)"
+    fuente: "Zenodo 18976431"
+  - nombre: "bestfitmodel_<comp>_rho<rho>.csv"
+    descripcion: "6 perfiles refractivos sintéticos best-fit (3 composiciones × 2 densidades)"
+    fuente: "Zenodo 18976431"
+estado: publicado

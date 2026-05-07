@@ -360,6 +360,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-05-04-atmosfera-tno-2002-xv93/README
+    title: "Una atmósfera donde los modelos no la esperaban"
+    sections:
+    - file: papers/2026-05-04-atmosfera-tno-2002-xv93/notebook
+      title: Notebook
   - file: papers/2025-11-20-theia-sistema-solar-interior/README
     title: "Theia se formó en el Sistema Solar interior"
     sections:

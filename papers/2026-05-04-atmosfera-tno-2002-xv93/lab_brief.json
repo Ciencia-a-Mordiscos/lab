@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "paper_id": 2433,
+  "doi": "10.1038/s41550-026-02846-1",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La caída de luz es gradual y se ajusta con modelos de refracción atmosférica, no con un escalón opaco.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Los 6 perfiles best-fit publicados muestran transiciones suaves alrededor del borde geométrico (~230 km); la mediana de la diferencia entre densidades asumidas es 0,000.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveals (a refractive signature)",
+      "effect_size": null
+    },
+    {
+      "claim": "La estación de Kiso es ~5 veces más precisa que Kyoto y Fukushima.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "σ medio de Error en CSV: Kiso 0,064 · Kyoto 0,329 · Fukushima 0,338. Razón σ_Kyoto/σ_Kiso = 5,2.",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a (metodológico)",
+      "effect_size": null
+    },
+    {
+      "claim": "La presión superficial inferida está entre 100 y 200 nbar.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Reportado en el abstract; los CSVs de modelo publicados son los best-fit que dan ese rango.",
+      "certainty_tier": "T1",
+      "abstract_verb": "derive (a surface pressure)",
+      "effect_size": null
+    },
+    {
+      "claim": "La presión de 2002 XV93 es entre 50 y 100 veces menor que la de Plutón.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "10 000 / 100 = 100 ; 10 000 / 200 = 50. Cálculo aritmético directo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a (derivado)",
+      "effect_size": null
+    },
+    {
+      "claim": "Ningún otro TNO mayor de 500 km tenía atmósfera detectada hasta este resultado.",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Cierto al cierre del paper; previamente solo se establecieron techos de 1–100 nbar (paper original).",
+      "certainty_tier": "T2",
+      "abstract_verb": "have only been able to establish upper limits",
+      "effect_size": null
+    },
+    {
+      "claim": "La composición de la atmósfera es N₂, CH₄ o CO.",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Tres composiciones ajustan la curva con calidad muy similar (intensidades en ventana 228–232 km: N₂ 0,283 · CH₄ 0,288 · CO 0,283). La curva sola no decide.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate (a thin atmosphere)",
+      "effect_size": null
+    },
+    {
+      "claim": "El origen de la atmósfera es criovulcanismo activo o un impacto reciente.",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Hipótesis especulativas presentadas como alternativas en el abstract; no medidas. Los datos del notebook no las distinguen.",
+      "certainty_tier": "T3",
+      "abstract_verb": "potentially sustained / produced",
+      "effect_size": null
+    },
+    {
+      "claim": "Cualquier TNO pequeño tiene atmósfera detectable.",
+      "supported": "no",
+      "supported_by_data": false,
+      "detail": "Sobreinterpretación. El paper documenta UNA detección; sugiere que la fracción no es cero, no que sea común.",
+      "certainty_tier": "T4",
+      "abstract_verb": "n/a (claim externo)",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "100-200",
+      "unit": "nbar",
+      "context": "presión superficial inferida en 2002 XV93",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": "10000",
+      "unit": "nbar",
+      "context": "presión superficial promedio de Plutón (10 µbar)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": "1-100",
+      "unit": "nbar",
+      "context": "techo previo para otros TNOs > 500 km",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": "250",
+      "unit": "km",
+      "context": "radio aproximado de 2002 XV93 (titular del paper)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": "230",
+      "unit": "km",
+      "context": "borde geométrico en los modelos best-fit; ~8% menor que el radio físico — explicado en el notebook",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~250 km radio nominal",
+        "our_calculation": "230 km edge geométrico de best-fit",
+        "discrepancy_pct": 8.0,
+        "reason": "el ~250 es el radio físico nominal, el ~230 es el punto donde la atmósfera empieza a refractar"
+      }
+    },
+    {
+      "value": "5.2",
+      "unit": "veces",
+      "context": "precisión de Kiso vs Kyoto (σ_Kyoto / σ_Kiso = 0,329 / 0,064)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": "50-100",
+      "unit": "veces",
+      "context": "cuántas veces menos presión que Plutón",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'la curva revela...'"
+    },
+    {
+      "abstract_verb": "indicate (a thin atmosphere)",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    },
+    {
+      "abstract_verb": "shows (that even a few-hundred-km TNO can host)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggest (cryovolcanic or impact)",
+      "tier": "T2",
+      "cam_attenuator": "los autores sugieren / la hipótesis más sólida — NO presentar como hecho"
+    },
+    {
+      "abstract_verb": "remains uncertain (Makemake CH4)",
+      "tier": "T3",
+      "cam_attenuator": "queda por confirmar"
+    },
+    {
+      "abstract_verb": "can host (transiently)",
+      "tier": "T2",
+      "cam_attenuator": "puede albergar (al menos transitoriamente) — atenuador de duración"
+    },
+    {
+      "abstract_verb": "potentially sustained",
+      "tier": "T3",
+      "cam_attenuator": "potencialmente sostenida por... o producida por... — múltiples explicaciones rivales"
+    },
+    {
+      "abstract_verb": "challenging (standard scenarios)",
+      "tier": "T2",
+      "cam_attenuator": "desafía / pone en cuestión los modelos estándar"
+    }
+  ],
+  "narrative_hooks": [
+    "Un cuerpo de 250 km tiene atmósfera, al menos transitoriamente. Diez veces más pequeño que Plutón — y los modelos de retención de volátiles no esperaban verlo.",
+    "Tres telescopios japoneses, una sola estrella detrás de un mundo congelado: la luz no cayó en escalón. Eso solo lo hace el aire.",
+    "La curva sola no dice qué se respira en 2002 XV93: N₂, CH₄ y CO ajustan casi por igual. Pero sí dice que se respira algo."
+  ],
+  "limitations": [
+    "Una sola ocultación de ~10 minutos — los datos no distinguen entre atmósfera estable o transitoria.",
+    "La curva de luz no determina la composición: tres composiciones (N₂, CH₄, CO) reproducen los datos con calidad similar.",
+    "El radio físico del cuerpo (~250 km) y el borde de los modelos (~230 km) son cantidades distintas; no es discrepancia.",
+    "El origen propuesto (criovulcanismo o impacto reciente) son hipótesis del paper, no medidas.",
+    "Los modelos asumen atmósfera hidrostática y una densidad del cuerpo (1500 kg/m³ fiducial); la robustez frente a 1000 kg/m³ es alta (mediana de la diferencia entre curvas = 0,000)."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims 'yes' + 4 'partial/no' justifican script estándar denso"
+  },
+  "notebook_slug": "2026-05-04-atmosfera-tno-2002-xv93",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-04-atmosfera-tno-2002-xv93/notebook.html",
+  "generated_at": "2026-05-07T13:20:19.457344Z"
+}
