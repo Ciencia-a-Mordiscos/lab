@@ -1,0 +1,34 @@
+titulo: "La deforestación baja el umbral climático del Amazonas en 2 °C (según el modelo)"
+fecha: 2026-05-06
+categoria: ecologia
+tags: [amazonas, clima, deforestacion, modelo-dinamico, tipping-points, ssp, paris, moisture-recycling]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10456-0"
+    titulo: "Deforestation-induced drying lowers Amazon climate threshold"
+    journal: Nature
+    autores: "Wunderling, N. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "transition_2090s_por_ssp.csv"
+    descripcion: "% área amazónica en transición a 2090s con/sin deforestación, por SSP, ± std"
+    fuente: "Figs S2, S3, S4 del paper + Tabla 1"
+  - nombre: "headline_thresholds.csv"
+    descripcion: "Umbrales de calentamiento crítico (°C) para escenarios con vs sin deforestación"
+    fuente: "Tabla 1 del paper"
+  - nombre: "decadal_map_only.csv"
+    descripcion: "Evolución decadal de transición aislando el motor MAP (lluvia anual), SSP2-4.5 y SSP3-7.0"
+    fuente: "Fig S5 del paper"
+  - nombre: "decadal_mcwd_only.csv"
+    descripcion: "Evolución decadal de transición aislando MCWD (déficit estación seca)"
+    fuente: "Fig S6 del paper"
+  - nombre: "ssp_defor_2090.csv"
+    descripcion: "Escenario alternativo con deforestación moderada (~20-25 %), 2090s"
+    fuente: "Figs S11-S14 del SI"
+  - nombre: "umbrales_criticos.csv"
+    descripcion: "Umbrales hidrológicos absolutos (MAP, MCWD) en mm/año"
+    fuente: "Texto principal del paper, sección Methods"
+estado: publicado

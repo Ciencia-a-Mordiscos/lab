@@ -1,0 +1,3 @@
+escenario,umbral_warming_C_min,umbral_warming_C_max,deforestacion_pct_min,deforestacion_pct_max,area_transition_pct_min,area_transition_pct_max,nota
+sin_deforestacion,3.7,4.0,0,0,0,33,"Sin deforestacion: hasta un tercio del Amazonas pierde estabilidad arriba de 3.7-4.0 C"
+con_deforestacion_BaU,1.5,1.9,22,28,62,77,"Con deforestacion BaU 22-28%: transicion sistemica 62-77% del area entre 1.5-1.9 C"

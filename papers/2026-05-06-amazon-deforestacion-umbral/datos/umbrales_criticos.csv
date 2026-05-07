@@ -1,0 +1,3 @@
+variable,promedio_basin_mm_yr,limite_seguro_mm_yr,umbral_critico_mm_yr,umbral_critico_min,umbral_critico_max,unidad
+MAP,2000,1800,1000,880,1100,mm/yr
+MCWD,200,350,450,400,500,mm/yr

@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "paper_id": 2444,
+  "doi": "10.1038/s41586-026-10456-0",
+  "paper_type": "computational",
+  "study_design": "simulation",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La deforestación BaU baja el umbral crítico del Amazonas aproximadamente 2 °C según el modelo",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Sin deforestación: 3,7-4,0 °C. Con deforestación 22-28 %: 1,5-1,9 °C. Diferencia entre puntos medios: 2,15 °C. Verificado en headline_thresholds.csv.",
+      "certainty_tier": "T2",
+      "abstract_verb": "find (in modeling)",
+      "effect_size": {"measure": "delta_C", "value": 2.15, "interpretation": "muy grande para un umbral climático"}
+    },
+    {
+      "claim": "En SSP1-2.6 (calentamiento de +1,8 °C, escenario más cercano a la meta de París), la deforestación cambia el destino del Amazonas en 62 puntos porcentuales",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Sin deforestación: 0 % del área transiciona; con deforestación: 62 % (± 5 %). Verificado en transition_2090s_por_ssp.csv.",
+      "certainty_tier": "T2",
+      "abstract_verb": "find (in modeling)",
+      "effect_size": {"measure": "delta_pp", "value": 62, "interpretation": "muy grande"}
+    },
+    {
+      "claim": "A 4 °C la diferencia entre con y sin deforestación se reduce a 43 puntos porcentuales — el sistema climático ya empuja por su cuenta",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "En SSP3-7.0 (+4 °C): 35 % sin vs 78 % con deforestación. Verificado en transition_2090s_por_ssp.csv.",
+      "certainty_tier": "T2",
+      "abstract_verb": "find (in modeling)",
+      "effect_size": {"measure": "delta_pp", "value": 43, "interpretation": "grande"}
+    },
+    {
+      "claim": "El paper afirma que la mayoría de transiciones provienen de efectos cascada espaciales, no de transiciones locales aisladas",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Es la conclusión central del paper, pero el dataset agregado del notebook no separa transiciones locales de cascadas. Verificable en Figs S11-S14 del SI.",
+      "certainty_tier": "T2",
+      "abstract_verb": "find (in modeling)"
+    },
+    {
+      "claim": "El modelo corrió 1,25 millones de simulaciones (3.000 réplicas por celda × 10 ensembles × 416 celdas)",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Reportado en métodos del paper. Validado contra ERA5: moisture recycling con sesgo +5,5 %, R² = 0,59.",
+      "certainty_tier": "T1",
+      "abstract_verb": "apply"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 2,
+      "unit": "grados Celsius",
+      "context": "cuánto baja el umbral crítico del Amazonas con deforestación BaU",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~2 °C",
+        "our_calculation": "2,15 °C (3,85 - 1,7)",
+        "discrepancy_pct": 7.5,
+        "reason": "redondeo de rangos del paper"
+      }
+    },
+    {
+      "value": 62,
+      "unit": "puntos porcentuales",
+      "context": "diferencia con vs sin deforestación en SSP1-2.6 (la meta de París)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "62 %",
+        "our_calculation": "62 - 0 = 62 pp",
+        "discrepancy_pct": 0,
+        "reason": "coincidencia exacta"
+      }
+    },
+    {
+      "value": 1.5,
+      "unit": "grados Celsius",
+      "context": "meta climática del Acuerdo de París — y umbral inferior del rango con deforestación",
+      "source": "paper_main_text",
+      "verified": true
+    },
+    {
+      "value": 1.25,
+      "unit": "millones de simulaciones",
+      "context": "tamaño del ensemble Monte Carlo",
+      "source": "paper_methods",
+      "verified": true
+    },
+    {
+      "value": 416,
+      "unit": "celdas de 1° × 1°",
+      "context": "grilla espacial sobre la cuenca amazónica",
+      "source": "paper_methods",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "porcentaje (mínimo del rango)",
+      "context": "deforestación BaU mínima asociada al umbral 1,5-1,9 °C",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "apply", "tier": "T1", "cam_attenuator": "afirmación directa: 'el equipo aplicó'"},
+    {"abstract_verb": "find (in modeling)", "tier": "T2", "cam_attenuator": "'el modelo encuentra' / 'la simulación proyecta' — NO 'demuestra'"},
+    {"abstract_verb": "may undergo", "tier": "T3", "cam_attenuator": "'podría experimentar' — explícito en el paper"},
+    {"abstract_verb": "could lead", "tier": "T3", "cam_attenuator": "'podría llevar a' — atenuador necesario"},
+    {"abstract_verb": "risks losing stability", "tier": "T2-T3", "cam_attenuator": "'riesgo de perder estabilidad' — NO 'pierde estabilidad'"}
+  ],
+  "narrative_hooks": [
+    "1,5 °C era la meta de París. Con la deforestación que ya hay proyectada, según el modelo, ese mismo 1,5 °C basta para que dos tercios del Amazonas pierdan estabilidad.",
+    "Sin deforestación, el Amazonas aguanta hasta casi 4 °C de calentamiento. Con deforestación BaU, el umbral cae a la mitad.",
+    "En el escenario más cercano a París (+1,8 °C), proteger el bosque vs no protegerlo cambia el destino del Amazonas en 62 puntos porcentuales."
+  ],
+  "limitations": [
+    "Es un modelo de simulación, no observación. Los números son proyecciones del ensemble PyCascades aplicado al Amazonas.",
+    "No simula explícitamente dinámicas de fuego — falta interacción drought-fire.",
+    "Se basa en NorESM2; otros modelos climáticos podrían arrojar umbrales distintos.",
+    "El moisture recycling validado contra ERA5 muestra +5,5 % de sesgo (R² = 0,59).",
+    "Los SSPs estándar no incluyen deforestación severa; el paper agregó un escenario BaU adicional siguiendo Soares-Filho et al. (2013)."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (3 'yes' fuertes + 2 contextuales), 6 key_numbers — densidad alta, requiere espacio para hedges de modelo"
+  },
+  "notebook_slug": "2026-05-06-amazon-deforestacion-umbral",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-amazon-deforestacion-umbral/notebook.html",
+  "generated_at": "2026-05-07T07:30:00Z"
+}

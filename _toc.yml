@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-06-amazon-deforestacion-umbral/README
+    title: "La deforestación baja el umbral climático del Amazonas en 2 °C (según el modelo)"
+    sections:
+    - file: papers/2026-05-06-amazon-deforestacion-umbral/notebook
+      title: Notebook
   - file: papers/2026-04-22-greening-no-seca-rios-semiaridos/README
     title: "Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas"
     sections:
