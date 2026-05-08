@@ -1,0 +1,9 @@
+condicion,categoria_tipo,umbral_categorias,n_units,pct_units_total,n_total
+anaesth,semantic,>=2,239,63.7,375
+anaesth,semantic,>=4,54,14.4,375
+awake,semantic,>=2,232,65.2,356
+awake,semantic,>=4,139,39.0,356
+anaesth,part_of_speech,>=2,259,69.1,375
+anaesth,part_of_speech,>=4,106,28.3,375
+awake,part_of_speech,>=2,251,70.5,356
+awake,part_of_speech,>=4,141,39.6,356

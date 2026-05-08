@@ -1,0 +1,11 @@
+metodo,paciente,tone_accuracy,oddball_accuracy,n_channels
+units_oddball,p5,0.65,0.61,127
+units_oddball,p6,0.62,0.55,23
+aperiodic_slope,p5,0.628,NaN,383
+aperiodic_slope,p6,0.677,NaN,373
+high_gamma_pac,p5,0.553,NaN,383
+high_gamma_pac,p6,0.542,NaN,373
+low_gamma_pac,p5,NaN,NaN,383
+low_gamma_pac,p6,0.505,0.527,373
+spike_freq_coupling,p5,0.589,NaN,383
+spike_freq_coupling,p6,0.555,NaN,373

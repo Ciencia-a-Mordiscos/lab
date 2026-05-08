@@ -1,0 +1,7 @@
+banda,hz_min,hz_max,pct_tone_encoding,pct_oddball_encoding,pct_interaction_encoding
+delta,2,4,2,4,4
+theta,4,8,3,3,3
+alpha,8,12,26,45,35
+beta,16,30,46,45,45
+low_gamma,30,50,12,9,10
+high_gamma,70,150,22,20,18

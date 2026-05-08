@@ -269,6 +269,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-05-06-hipocampo-anestesia-lenguaje/README
+    title: "Hipocampo bajo anestesia: oddball, plasticidad y predicción semántica"
+    sections:
+    - file: papers/2026-05-06-hipocampo-anestesia-lenguaje/notebook
+      title: Notebook
   - file: papers/2025-11-05-implantes-cerebrales-circulatronics/README
     title: "Implante cerebral sin cirugía: 5.8x más células donde hay inflamación"
     sections:
@@ -446,6 +451,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-06-tiktok-sesgo-republicano/README
+    title: "El feed de TikTok favorece sistemáticamente a Republicanos en EE.UU."
+    sections:
+    - file: papers/2026-05-06-tiktok-sesgo-republicano/notebook
+      title: Notebook
   - file: papers/2026-04-16-super-nano-domains-copper-foils/README
     title: "Super-nano dominios en láminas de cobre — fuerza y conductividad sin sacrificar ninguna"
     sections:

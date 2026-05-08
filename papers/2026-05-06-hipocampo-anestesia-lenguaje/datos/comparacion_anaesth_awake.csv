@@ -1,0 +1,11 @@
+metrica,anaesth_value,anaesth_se,anaesth_n_units,anaesth_n_patients,awake_value,awake_se,awake_n_units,awake_n_patients
+correlation_semantic_all_words,0.397,0.007,368,4,0.226,0.009,356,10
+correlation_semantic_unique_words,0.207,0.05,251,4,0.134,0.005,246,10
+pct_units_unique_words_significant,75.4,NaN,251,4,73.2,NaN,246,10
+pct_units_semantic_selectivity,85.6,NaN,321,4,76.1,NaN,271,10
+pct_units_pos_noun_vs_nonnoun,80.0,NaN,300,4,79.5,NaN,283,10
+pct_units_pos_verb_vs_nonverb,0.0,NaN,0,4,0.0,NaN,0,10
+correlation_surprisal,0.06,0.0023,246,4,0.0386,0.0013,245,10
+beta_0_word_decoding,0.370,NaN,375,4,0.227,NaN,356,10
+tau_future_words,0.840,NaN,375,4,1.081,NaN,356,10
+tau_past_words,0.868,NaN,375,4,0.895,NaN,356,10

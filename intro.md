@@ -12,11 +12,27 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Hipocampo bajo anestesia: oddball, plasticidad y predicción semántica
+
+**Neurociencia** · *Nature* · Saponati et al. (2026) registraron actividad neuronal con electrodos Neuropixels en el **hipocampo de 7 pacientes** con epilepsia anestesiados con propofol antes de su lobectomía. Tres pacientes escucharon una secuencia de tonos con *oddballs* (sonidos raros entre tonos repetidos); cuatro escucharon habla natural. Resultado: **43 de 150 unidades (28,7%)** discriminaron el oddball bajo anestesia (p<0,05 en p5 y p6); el effect size **creció en los ~10 minutos del experimento** — plasticidad representacional medible. Para el lenguaje, la correlación semántica all-words fue **0,397 en anestesiados (n=368 unidades) vs 0,226 en despiertos (n=356)** — un factor de **1,76×**. Las bandas alpha y beta concentran el encoding (45% de canales en alpha para oddball; 46% en beta para tono). ⚠️ La comparación anaesth vs awake usa hardware distinto (Neuropixels vs microcables EMU): es informativa, no controlada — el paper lo enmarca como "comparable", no como superioridad. ⚠️ Solo propofol — no generaliza a otras anestesias. ⚠️ Los autores enmarcan los resultados de lenguaje como *indicate* (no *demonstrate*).
+
+[Ver notebook](papers/2026-05-06-hipocampo-anestesia-lenguaje/notebook) · [Leer más](papers/2026-05-06-hipocampo-anestesia-lenguaje/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-hipocampo-anestesia-lenguaje/notebook.ipynb)
+
+---
+
 ### Una atmósfera donde los modelos no la esperaban
 
 **Astronomía** · *Nature Astronomy* · Arimatsu et al. (2026) registraron una **ocultación estelar** del 10 de enero de 2024 en (612533) 2002 XV93 —un *plutino* de **~250 km de radio**— desde tres telescopios en Japón: Kyoto, Kiso y Fukushima. La curva de luz no cae en escalón: la luz se atenúa de forma gradual, y eso solo lo hace el aire. Derivan una **presión superficial de 100–200 nbar**, **50–100 veces menor** que la de Plutón pero por encima del techo previo de 1–100 nbar establecido para TNOs > 500 km. Tres composiciones (N₂, CH₄, CO) ajustan la curva con calidad similar — la curva sola no decide qué se respira. Kiso es la curva crítica: con σ ≈ 0,06 es **5,2 veces más precisa** que las otras dos, y el ajuste χ² del paper se hace contra ella sola. ⚠️ Los autores presentan dos hipótesis especulativas para el origen — *criovulcanismo activo* o *un impacto reciente* — sin medirlas. ⚠️ Una sola ocultación de ~10 minutos no distingue entre atmósfera estable y transitoria.
 
 [Ver notebook](papers/2026-05-04-atmosfera-tno-2002-xv93/notebook) · [Leer más](papers/2026-05-04-atmosfera-tno-2002-xv93/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-04-atmosfera-tno-2002-xv93/notebook.ipynb)
+
+---
+
+### El feed de TikTok favorece sistemáticamente a Republicanos en EE.UU.
+
+**Tecnología** · *Nature* · Ibrahim et al. (2026) desplegaron **20 cuentas controladas (sock puppets)** en TikTok — 9 con seed Demócrata, 9 Republicano, 2 neutrales — durante **27 semanas** de la campaña presidencial 2024 en Georgia, Nueva York y Texas. Recolectaron **más de 280.000 recomendaciones** del feed *For You*; **24.547** fueron clasificadas por humanos+LLM como políticas. Resultado: los bots Republicanos recibieron **+13,1 puntos porcentuales** más contenido co-partisano que los Demócratas (38,4% vs 25,3%, Mann-Whitney U=4, p=0,0015, **Cohen's d=2,54**). El sesgo aparece en los 3 estados, en **25 de 27 semanas**, y se concentra en tópicos: inmigración, COVID, Ucrania y la salida de Biden cargan contra Demócratas; **el aborto es el único tópico donde el sesgo se invierte** (30,7% anti-Rep vs 17,0% anti-Dem). El paper modela 15 métricas de engagement con 4 modelos distintos y la asimetría persiste tras ajustar — no se explica por qué la gente engancha más con un lado. ⚠️ Los bots no son usuarios reales: el claim causal aplica al algoritmo cuando consume seed partidista controlado, no a la experiencia de un humano que también busca y sigue cuentas. ⚠️ El paper concluye que el sesgo *existe*, no que sea intencional.
+
+[Ver notebook](papers/2026-05-06-tiktok-sesgo-republicano/notebook) · [Leer más](papers/2026-05-06-tiktok-sesgo-republicano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-tiktok-sesgo-republicano/notebook.ipynb)
 
 ---
 

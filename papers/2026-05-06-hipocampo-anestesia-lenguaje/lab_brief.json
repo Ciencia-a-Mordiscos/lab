@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "paper_id": 2440,
+  "doi": "10.1038/s41586-026-10448-0",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El hipocampo discrimina oddball bajo anestesia (28.7% de unidades responsivas, 43/150)",
+      "supported": "yes",
+      "detail": "p<0.05 en p5 (29.1% = 37/127) y p6 (26.1% = 6/23). Pequeña pero por encima de azar.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we found",
+      "effect_size": {
+        "measure": "pct_units",
+        "value": 28.7,
+        "interpretation": "moderado"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El effect size de oddball crece con el tiempo (~10 min) — plasticidad representacional",
+      "supported": "yes",
+      "detail": "Pendientes positivas en las 6 bandas medidas (p=0.0001 en delta/theta/beta/low_gamma/high_gamma; p=0.01 en alpha)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating",
+      "effect_size": {
+        "measure": "pearson_r_angle",
+        "value": 0.5,
+        "interpretation": "robusto"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El hipocampo predice palabras futuras semánticamente (correlación all-words 0.397 anaesth)",
+      "supported": "yes",
+      "detail": "Correlación anaesth=0.397 (SE=0.007, n=368 unidades) vs awake=0.226 (SE=0.009, n=356). Decoding por encima de azar.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": {
+        "measure": "ratio_anaesth_over_awake",
+        "value": 1.76,
+        "interpretation": "anaesth ≥ awake"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La predicción semántica es comparable o superior en anestesiados",
+      "supported": "partial",
+      "detail": "Cohortes con tecnologías distintas (Neuropixels vs microcables EMU) — el paper enmarca como 'comparable', no como superioridad. La diferencia podría reflejar SNR del hardware.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1.76,
+        "interpretation": "anaesth ≥ awake, hardware confound"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las bandas alpha y beta dominan el encoding sensorial",
+      "supported": "yes",
+      "detail": "alpha: 45% canales encoding oddball; beta: 46% encoding tono; 35% interaction. Delta/theta ≤4%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "we found",
+      "effect_size": {
+        "measure": "pct_channels_max",
+        "value": 46,
+        "interpretation": "dominante"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1.76,
+      "unit": "ratio",
+      "context": "correlación semántica all-words anaesth vs awake (0.397/0.226)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 28.7,
+      "unit": "por ciento",
+      "context": "unidades hipocámpicas con respuesta oddball significativa bajo anestesia (43/150)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "minutos",
+      "context": "duración del experimento durante la cual crece el effect size de oddball",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "pacientes",
+      "context": "cohorte total (3 oddball + 4 lenguaje) — todos con epilepsia, anestesiados con propofol",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.5,
+      "unit": "correlación de Pearson",
+      "context": "ángulo del vector poblacional vs trial index — métrica de plasticidad representacional",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 46,
+      "unit": "por ciento",
+      "context": "canales LFP en banda beta con encoding significativo de tono",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 75.4,
+      "unit": "por ciento",
+      "context": "unidades anaesth con correlación semántica significativa (palabras únicas)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "we demonstrate the persistence of oddball discrimination..."
+    },
+    {
+      "abstract_verb": "we found",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "we found that hippocampal neurons... retained some detection"
+    },
+    {
+      "abstract_verb": "demonstrating",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "demonstrating representational plasticity"
+    },
+    {
+      "abstract_verb": "showed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "RNN model showed that learning and oddball representation are emergent"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a",
+      "context": "these results indicate that in the hippocampus... complex processing occurs even in the unconscious state"
+    },
+    {
+      "abstract_verb": "may not generalize",
+      "tier": "T3",
+      "cam_attenuator": "podría no generalizar",
+      "context": "our results may not generalize to anaesthetics besides propofol"
+    }
+  ],
+  "narrative_hooks": [
+    "Bajo anestesia general, las neuronas del hipocampo siguieron prediciendo la siguiente palabra de un audio.",
+    "El effect size de oddball CRECE en 10 minutos — el hipocampo aprende sin estar consciente.",
+    "La correlación semántica all-words: 0.397 en anestesiados vs 0.226 en despiertos. Un factor de 1.76× — aunque la comparación tiene un confounder de hardware.",
+    "Discriminación de sonidos raros bajo propofol: 43 de cada 150 unidades respondían (28.7%, p<0.05)."
+  ],
+  "limitations": [
+    "n=7 pacientes, todos con epilepsia tratada quirúrgicamente — no generaliza a cerebros sanos.",
+    "Solo propofol — los autores declaran que no generaliza a otras anestesias.",
+    "Comparación anaesth vs awake usa hardware distinto (Neuropixels vs microcables EMU): informativa, no controlada.",
+    "El paper enmarca varios resultados como 'indicate' (no 'demonstrate') — sugieren procesamiento complejo, no lo confirman como mecanismo único.",
+    "Cambios plásticos en tono podrían reflejar adaptación específica vs aprendizaje compensatorio."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes — script estándar"
+  },
+  "notebook_slug": "2026-05-06-hipocampo-anestesia-lenguaje",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-hipocampo-anestesia-lenguaje/notebook.html",
+  "generated_at": "2026-05-08T12:27:59.382277+00:00"
+}

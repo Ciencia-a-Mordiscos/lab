@@ -1,0 +1,7 @@
+patient_id,task,n_units_used,n_words_total,n_words_unique
+p5,oddball,127,NaN,NaN
+p6,oddball,23,NaN,NaN
+p6,language,NaN,3024,743
+p8,language,NaN,1565,571
+p9,language,NaN,1565,571
+p11,language,NaN,962,329
