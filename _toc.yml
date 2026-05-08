@@ -451,6 +451,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-08-llm-evade-anti-bots-encuestas/README
+    title: "Un LLM pasó 5.390 de 5.400 preguntas trampa de encuestas online"
+    sections:
+    - file: papers/2026-05-08-llm-evade-anti-bots-encuestas/notebook
+      title: Notebook
   - file: papers/2026-05-06-tiktok-sesgo-republicano/README
     title: "El feed de TikTok favorece sistemáticamente a Republicanos en EE.UU."
     sections:

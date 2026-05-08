@@ -1,0 +1,25 @@
+titulo: "Un LLM pasó 5.390 de 5.400 preguntas trampa de encuestas online"
+fecha: 2026-05-08
+categoria: tecnologia
+tags: [LLM, encuestas, attention-checks, reverse-shibboleth, OpenAI, o4-mini, integridad-datos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1073/pnas.2518075122"
+    titulo: "The potential existential threat of large language models to online survey research"
+    journal: PNAS
+    autores: "Kane (2025)"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "attention_checks_por_pregunta.csv"
+    descripcion: "Pass rate por pregunta de comprensión lectora (9 × 2 experimentos, 600 trials/pregunta)"
+    fuente: "OSF replication package (Kane 2025)"
+  - nombre: "shibboleth_por_tarea.csv"
+    descripcion: "Decline rate del bot en 6 tareas que un humano declinaría hacer (300 trials/tarea)"
+    fuente: "OSF replication package (Kane 2025)"
+  - nombre: "trolling_por_pregunta.csv"
+    descripcion: "Rechazo del bot a 6 preguntas absurdas (300 trials/pregunta)"
+    fuente: "OSF replication package (Kane 2025)"
+estado: publicado

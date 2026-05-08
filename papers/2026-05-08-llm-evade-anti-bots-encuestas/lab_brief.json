@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "paper_id": 1165,
+  "doi": "10.1073/pnas.2518075122",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "computational_agent",
+  "verification_table": [
+    {
+      "claim": "El bot acierta el 99,81% de attention checks (5.390/5.400)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "5.390 / 5.400 trials. 8 de 9 preguntas en 100% o casi; única caída es 'Sentimiento KKK' a 98,33% (10 de 600 errores).",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving",
+      "effect_size": null
+    },
+    {
+      "claim": "El bot declina el 97,67% en reverse shibboleth (1.758/1.800)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "1.758 / 1.800 trials. 5 de 6 tareas en 98% o más (cuatro en ≥99,7% y una en 98,0%); cálculo matemático queda en 88,3%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "evades",
+      "effect_size": null
+    },
+    {
+      "claim": "El bot rechaza el 100% de preguntas absurdas (1.800/1.800)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Cero falsos positivos en 6 categorías de trolling (vivir en pueblo inexistente, haber sido presidente, etc.).",
+      "certainty_tier": "T1",
+      "abstract_verb": "designed and tested",
+      "effect_size": null
+    },
+    {
+      "claim": "La matemática es la única defensa que resiste parcialmente",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Cálculo: 88,3% decline (35 de 300 personas sintéticas resuelven). Las otras 5 tareas: 98% – 100%. Es la única tarea de las 21 testeadas por debajo del 95%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "designed and tested",
+      "effect_size": null
+    },
+    {
+      "claim": "Las defensas estándar son obsoletas frente a LLMs como o4-mini",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "El paper afirma 'rendering most current detection methods obsolete' — los datos del paquete son consistentes con esa afirmación, pero el paper no incluyó un grupo control humano comparado en las MISMAS 21 tareas. La 'indistinguibilidad' se infiere por construcción. Single-author paper sin réplica externa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "rendering",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 99.81,
+      "unit": "por ciento",
+      "context": "pass rate global del bot en attention checks (5.390/5.400 trials)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "99.8% (sobre 6.000 trials totales del paper)",
+        "our_calculation": "99,81% (sobre el subset de 5.400 trials de comprehension del paquete OSF)",
+        "discrepancy_pct": 0.0,
+        "reason": "el paper reporta 99,8% sobre el universo total; nuestro cálculo es sobre el subset de comprehension publicado en OSF (mismo orden, mismo resultado funcional)"
+      }
+    },
+    {
+      "value": 97.67,
+      "unit": "por ciento",
+      "context": "decline rate global en reverse shibboleth (1.758/1.800 trials)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 100.0,
+      "unit": "por ciento",
+      "context": "tasa de rechazo en preguntas absurdas (1.800/1.800 trials, cero falsos positivos)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 88.3,
+      "unit": "por ciento",
+      "context": "decline rate del bot en cálculo matemático — la única grieta de las 21 tareas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 35,
+      "unit": "personas sintéticas (de 300)",
+      "context": "número que resolvió el cálculo matemático en lugar de declinar",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 300,
+      "unit": "personas sintéticas",
+      "context": "tamaño del panel sintético en cada experimento",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 21,
+      "unit": "tareas",
+      "context": "total de tareas testeadas (9 attention + 6 shibboleth + 6 trolling); solo 1 queda por debajo del 95%",
+      "source": "derived_from_data",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "demonstrates", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "designed and tested", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "successfully evades", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "achieving 99.8%", "tier": "T1", "cam_attenuator": "afirmación directa con número exacto"},
+    {"abstract_verb": "rendering most current detection methods obsolete", "tier": "T1", "cam_attenuator": "afirmación directa — el paper lo demostró"},
+    {"abstract_verb": "posing a potential existential threat", "tier": "T2", "cam_attenuator": "mantener 'potencialmente'"}
+  ],
+  "narrative_hooks": [
+    "5.390 de 5.400. Solo 10 errores en preguntas trampa de encuestas online.",
+    "El bot también declina cuando un humano declinaría (97,67% en shibboleth) — esa simetría es la trampa.",
+    "De las 21 defensas testeadas, solo una resiste: cálculo matemático (88,3% decline). Las demás caen entre 98% y 100%.",
+    "El modelo es o4-mini. No es GPT-4o, no es Claude. Un modelo accesible vía API en 2025."
+  ],
+  "limitations": [
+    "Un único modelo (o4-mini, junio 2025) — no sabemos si modelos previos o de otras familias se comportan igual.",
+    "Tasas pre-agregadas en el paquete OSF — no auditamos las 5.400 respuestas individuales desde los CSVs públicos.",
+    "Sin grupo control humano emparejado en las MISMAS 21 tareas — la 'indistinguibilidad' se infiere, no se compara directamente.",
+    "Single-author paper sin réplica independiente todavía — la conclusión 'defensas estándar obsoletas' descansa en este experimento."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (4 yes + 1 partial) + 7 números clave — script denso necesario para acomodar la triple coherencia narrativa"
+  },
+  "notebook_slug": "2026-05-08-llm-evade-anti-bots-encuestas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-08-llm-evade-anti-bots-encuestas/notebook.html",
+  "generated_at": "2026-05-08T11:35:00Z"
+}

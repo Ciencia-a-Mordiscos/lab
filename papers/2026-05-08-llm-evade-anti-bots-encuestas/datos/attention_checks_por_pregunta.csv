@@ -1,0 +1,19 @@
+experimento,pregunta_id,pregunta_label,n_respuestas,n_correctas,pass_rate
+Experimento 1,Kane_QID17,Impacto en economía,300,300,1.0
+Experimento 1,Kane_QID18,Departamento de Educación,300,300,1.0
+Experimento 1,Kane_QID20,Sentimiento sobre KKK,300,295,0.9833
+Experimento 1,Kane_QID21,Universidad mencionada,300,300,1.0
+Experimento 1,Kane_QID24,Comparación programas A/B,300,300,1.0
+Experimento 1,Kane_QID26,Costo prisión vs libertad,300,300,1.0
+Experimento 1,Kane_QID27,20 veces más dinero,300,300,1.0
+Experimento 1,Kane_QID28,Tema del texto,300,300,1.0
+Experimento 1,Kane_QID29,Mencionar prisión + libertad,300,300,1.0
+Experimento 2,Kane_QID17,Impacto en economía,300,300,1.0
+Experimento 2,Kane_QID18,Departamento de Educación,300,300,1.0
+Experimento 2,Kane_QID20,Sentimiento sobre KKK,300,295,0.9833
+Experimento 2,Kane_QID21,Universidad mencionada,300,300,1.0
+Experimento 2,Kane_QID24,Comparación programas A/B,300,300,1.0
+Experimento 2,Kane_QID26,Costo prisión vs libertad,300,300,1.0
+Experimento 2,Kane_QID27,20 veces más dinero,300,300,1.0
+Experimento 2,Kane_QID28,Tema del texto,300,300,1.0
+Experimento 2,Kane_QID29,Mencionar prisión + libertad,300,300,1.0
