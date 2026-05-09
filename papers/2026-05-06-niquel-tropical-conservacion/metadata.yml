@@ -1,0 +1,19 @@
+titulo: "El níquel para descarbonizar y los trópicos"
+fecha: 2026-05-06
+categoria: ecologia
+tags: [niqueltropical, mineria, biodiversidad, transicion-energetica, modelado-escenarios, conservacion]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03068-4"
+    titulo: "Growing nickel supply from the tropics threatens priority conservation areas"
+    journal: Nature Ecology & Evolution
+    autores: "Hyman, Sonter, McDonald-Madden et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "minas_niquel_PEMMSS.csv"
+    descripcion: "Base mina-por-mina del paper: 487 depósitos de níquel (179 lateritas + 308 sulfuros magmáticos) con 36 columnas (geografía, grado, recurso, valores de prioridad biodiversidad terrestre/marina)."
+    fuente: "Springer Supplementary Data MOESM3"
+estado: publicado

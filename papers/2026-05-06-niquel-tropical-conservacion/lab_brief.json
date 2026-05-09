@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "paper_id": 2435,
+  "doi": "10.1038/s41559-026-03068-4",
+  "paper_type": "modelling_scenario",
+  "study_design": "scenario_modelling_observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Las lateritas son tropicales y los sulfuros boreales (mediana lat: lateritas -1,4°, sulfuros +46,4°; 67% de lateritas en |lat|<=23,5° vs 12% de sulfuros)",
+      "supported": "yes",
+      "detail": "Patrón geográfico nítido en el mapa. Refleja la geología: las lateritas se forman por meteorización tropical intensa de rocas ultramáficas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "We use",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las lateritas son desproporcionadamente costeras (55% a <=50 km del mar vs 12% de sulfuros)",
+      "supported": "yes",
+      "detail": "Doble exposición geográfica (terrestre + marina) confirmada en los inputs.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las lateritas tienen mayor grado y mayor recurso (mediana grado 1,11% Ni vs 0,54%; mineral 45 Mt vs 13 Mt)",
+      "supported": "yes",
+      "detail": "PEMMSS prioriza laterites por economía: combinación de mayor grado y mayor tonelaje las hace más atractivas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Entre el 78% y el 83% del níquel extraído hasta 2050 vendrá de lateritas tropicales según el modelo",
+      "supported": "partial",
+      "detail": "Es un OUTPUT del modelo PEMMSS, no reproducible desde inputs públicos. Nuestro share equivalente desde la base es 63% del Ni contenido. El modelo amplifica esa ventaja al ponderar por economía. Enmarcado como proyección, no observación.",
+      "certainty_tier": "T2",
+      "abstract_verb": "show that",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Aproximadamente la mitad del suministro proyectado amenaza el top 10% terrestre de áreas críticas",
+      "supported": "partial",
+      "detail": "Headline del paper, también OUTPUT. Por count, solo 4 de 487 minas (0,8%) están en celdas con TBCV>=90; el paper habla de volumen proyectado, no de count. Métricas distintas — no se contradicen.",
+      "certainty_tier": "T2",
+      "abstract_verb": "show that",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Las lateritas son siempre la peor opción para biodiversidad terrestre",
+      "supported": "no",
+      "detail": "NO soportado. La mediana de TBCV es mayor en sulfuros (28 vs 18; Mann-Whitney U=21.780, p<0,001, n=179 vs 308; Cohen's d=-0,30, efecto pequeño-moderado). El conflicto tropical-laterítico se materializa por volumen y por la dimensión marina, no por el rank terrestre puntual.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -0.303,
+        "interpretation": "pequeño-moderado"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 487,
+      "unit": "depósitos",
+      "context": "total minas de níquel en la base PEMMSS",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 179,
+      "unit": "depósitos",
+      "context": "lateritas tropicales",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 308,
+      "unit": "depósitos",
+      "context": "sulfuros magmáticos boreales",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 67,
+      "unit": "por ciento",
+      "context": "lateritas en los trópicos (|lat|<=23,5°)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "por ciento",
+      "context": "sulfuros en los trópicos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 55,
+      "unit": "por ciento",
+      "context": "lateritas costeras (<=50 km del mar)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -1.4,
+      "unit": "grados latitud",
+      "context": "mediana de latitud de las lateritas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 46.4,
+      "unit": "grados latitud",
+      "context": "mediana de latitud de los sulfuros",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.11,
+      "unit": "por ciento Ni",
+      "context": "grado mediano laterita",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.54,
+      "unit": "por ciento Ni",
+      "context": "grado mediano sulfuro",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 45,
+      "unit": "Mt mineral",
+      "context": "mediana mineral remanente laterita",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "Mt mineral",
+      "context": "mediana mineral remanente sulfuro",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "78-83",
+      "unit": "por ciento",
+      "context": "rango proyectado por el modelo del suministro 2025-2050 desde lateritas (OUTPUT)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "78-83%",
+        "our_calculation": "63% del Ni contenido en inputs",
+        "discrepancy_pct": 15.0,
+        "reason": "PEMMSS prioriza por economía: laterites con mayor grado+tonelaje son extraídas primero, amplificando su share en outputs."
+      }
+    },
+    {
+      "value": 4,
+      "unit": "minas",
+      "context": "depósitos en celdas TBCV>=90 (top 10% terrestre)",
+      "source": "computed",
+      "verified": true
+    },
+    {
+      "value": 115,
+      "unit": "minas",
+      "context": "minas operando hoy (STATUS=1)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "We use",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (los autores usaron un modelo)"
+    },
+    {
+      "abstract_verb": "quantify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'cuantificaron'"
+    },
+    {
+      "abstract_verb": "show that",
+      "tier": "T2",
+      "cam_attenuator": "'el modelo muestra que' / 'sus escenarios indican' (NO 'demostraron causalmente')"
+    },
+    {
+      "abstract_verb": "may increase",
+      "tier": "T3",
+      "cam_attenuator": "'podría aumentar' / 'si esto se confirma'"
+    }
+  ],
+  "narrative_hooks": [
+    "El modelo proyecta que entre el 78% y el 83% del níquel extraído hasta 2050 vendrá de lateritas tropicales — el mismo tipo de mina que vive en costas y zonas de alta biodiversidad",
+    "Las lateritas son tropicales (mediana lat -1,4°), costeras (55%) Y económicamente las más atractivas (mayor grado, mayor recurso) — por eso el modelo las elige primero",
+    "Solo 4 de 487 minas caen en celdas del top 10% terrestre — el headline del paper sobre 'mitad amenaza top 10%' opera por VOLUMEN proyectado, no por count"
+  ],
+  "limitations": [
+    "Los outputs del modelo PEMMSS (78-83%, 53-60% costero, 'mitad amenaza top 10%') no son reproducibles desde los inputs públicos sin correr el modelo Monte Carlo completo",
+    "Los datos son una base de proyectos (S&P Capital IQ + literatura), no un censo: minas no documentadas no aparecen",
+    "TBCV es un percentil global derivado de un raster a 10 km de resolución (Jung et al. 2021); valores puntuales tienen incertidumbre de asignación celda-a-mina",
+    "El paper modela escenarios IEA APS/STEPS/NZE — proyecciones condicionadas, no observaciones del futuro"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims plenamente soportados + 2 outputs proyectados, longitud estándar"
+  },
+  "notebook_slug": "2026-05-06-niquel-tropical-conservacion",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-niquel-tropical-conservacion/notebook.html",
+  "generated_at": "2026-05-09T12:43:11Z"
+}

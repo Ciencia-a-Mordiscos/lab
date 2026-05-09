@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-06-niquel-tropical-conservacion/README
+    title: "El níquel para descarbonizar y los trópicos"
+    sections:
+    - file: papers/2026-05-06-niquel-tropical-conservacion/notebook
+      title: Notebook
   - file: papers/2026-05-06-amazon-deforestacion-umbral/README
     title: "La deforestación baja el umbral climático del Amazonas en 2 °C (según el modelo)"
     sections:

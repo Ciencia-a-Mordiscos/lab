@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El níquel para descarbonizar y los trópicos
+
+**Ecología** · *Nature Ecology & Evolution* · Hyman et al. (2026) construyeron una base mina-por-mina con **487 depósitos de níquel del mundo** (179 lateritas tropicales + 308 sulfuros magmáticos boreales) y corrieron **PEMMSS**, un modelo Monte Carlo bajo escenarios IEA APS/STEPS/NZE hasta 2050. El modelo proyecta que **entre el 78% y el 83% del suministro futuro vendrá de lateritas tropicales** — el mismo tipo de mina que es desproporcionadamente costera (**55% a ≤50 km del mar** vs 12% de sulfuros) y se concentra en la franja ecuatorial (mediana lat **−1,4°** vs +46,4° en sulfuros). PEMMSS las prioriza por economía: lateritas tienen mayor grado mediano (**1,11% Ni vs 0,54%**) y mayor recurso (**45 Mt vs 13 Mt**). ⚠️ Las cifras 78–83% y "mitad amenaza top 10% terrestre" son OUTPUTS del modelo, no reproducibles desde inputs públicos. ⚠️ Por count puro, solo 4 de 487 minas están en celdas TBCV ≥ 90 — el headline opera por volumen proyectado, no por count. ⚠️ Diseño no experimental: el paper proyecta riesgo bajo escenarios, no observa destrucción.
+
+[Ver notebook](papers/2026-05-06-niquel-tropical-conservacion/notebook) · [Leer más](papers/2026-05-06-niquel-tropical-conservacion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-niquel-tropical-conservacion/notebook.ipynb)
+
+---
+
 ### Una superficie oscura, plana y aburrida — y eso lo dice todo
 
 **Astronomía** · *Nature Astronomy* · Whittaker et al. (2026) tomaron el primer espectro infrarrojo medio (5–12 μm) del planeta rocoso **LHS 3844 b** con el James Webb durante 3 eclipses secundarios. La cara diurna está a **985 K** (~712 °C) y refleja apenas el 22% de la luz que recibe — más oscura que Marte, comparable a la Luna o Mercurio. Pero el resultado clave es lo que el espectro **no** muestra: **χ²_red = 1.30 contra un modelo lineal** en 12 bandas espectrales — un espectro plano, sin features detectables. Eso descarta una atmósfera densa de CO₂ (**< 100 mbar a 5σ**), disfavorece SO₂ volcánico (**< 10 μbar a 3σ**), y descarta polvo basáltico fresco. El mejor ajuste cualitativo del paper: superficie tipo basalto oscuro o material rico en olivino, meteorizado por intemperismo espacial. ⚠️ El ajuste lineal verifica que el espectro es plano, pero "plano" no implica "basalto" — la identificación composicional viene del cruce con la base RELAB de >100 espectros de laboratorio, no replicado aquí. ⚠️ Las bandas 11.4 y 12.1 μm tienen barras de error 5× mayores que las primeras (>190 ppm vs ~35 ppm), dominando la incertidumbre.
