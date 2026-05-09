@@ -365,6 +365,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-05-04-lhs-3844b-superficie-jwst/README
+    title: "Una superficie oscura, plana y aburrida — y eso lo dice todo"
+    sections:
+    - file: papers/2026-05-04-lhs-3844b-superficie-jwst/notebook
+      title: Notebook
   - file: papers/2026-05-04-atmosfera-tno-2002-xv93/README
     title: "Una atmósfera donde los modelos no la esperaban"
     sections:

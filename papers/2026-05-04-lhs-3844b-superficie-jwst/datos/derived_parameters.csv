@@ -1,0 +1,7 @@
+parameter,fit_type,value,err_plus,err_minus,unit
+T_p,JWST_1bin,984.9,16.4,17.4,K
+T_p,JWST_Spitzer_12bins,999.6,15.5,14.3,K
+albedo_obs,JWST_1bin,0.22,0.15,0.14,dimensionless
+albedo_obs,JWST_Spitzer_12bins,0.14,0.13,0.14,dimensionless
+brightness_ratio,JWST_1bin,0.93,0.04,0.05,dimensionless
+brightness_ratio,JWST_Spitzer_12bins,0.96,0.03,0.04,dimensionless

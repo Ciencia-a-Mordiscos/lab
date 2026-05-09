@@ -1,0 +1,161 @@
+{
+  "version": "1.0",
+  "paper_id": 2431,
+  "doi": "10.1038/s41550-026-02860-3",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Temperatura de brillo de la cara diurna ~985 K",
+      "supported": "yes",
+      "detail": "984.9 (+16.4/-17.4) K en el ajuste JWST 1 bin (Supp Table 5). En el ajuste combinado JWST+Spitzer sube a 999.6 (+15.5/-14.3) K. Sin discrepancia.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Albedo observado bajo (alpha = 0.22)",
+      "supported": "yes",
+      "detail": "0.22 (+0.15/-0.14) en el ajuste JWST 1 bin (Supp Table 5). Cae a 0.14 (+0.13/-0.14) al combinar con Spitzer. Las barras son grandes — el dato es bajo pero impreciso.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Espectro 5-12 micrometros plano (featureless), consistente con cuerpo negro suave",
+      "supported": "yes",
+      "detail": "chi cuadr. reducido = 1.30 contra modelo lineal (n=12, dof=10) - consistente con planck + ruido. R cuadr. = 0.55 - moderado por barras grandes en bins 11-12, no por features detectables.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "12 bandas espectrales entre 5.36 y 12.06 micrometros, anchura 0.3045 micrometros",
+      "supported": "yes",
+      "detail": "Verificado contra Supp Table 4 (12 filas).",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "CO2 atmosferico < 100 mbar (limite superior 5 sigma)",
+      "supported": "partial",
+      "detail": "Limite extraido del abstract y main text del paper. No re-derivable desde el notebook (requiere modelos de transferencia radiativa contra el espectro JWST). Preservado con criterio sigma explicito.",
+      "certainty_tier": "T1",
+      "abstract_verb": "rules out",
+      "supported_by_data": false
+    },
+    {
+      "claim": "SO2 atmosferico < 10 microbar (limite superior 3 sigma)",
+      "supported": "partial",
+      "detail": "Limite extraido del abstract. Mismo razonamiento que CO2: la derivacion requiere modelado atmosferico que no replicamos.",
+      "certainty_tier": "T2",
+      "abstract_verb": "disfavour",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Mejor ajuste: superficie tipo basalto oscuro o material rico en olivino, meteorizado por intemperismo espacial",
+      "supported": "partial",
+      "detail": "Claim cualitativo del paper - el equipo cruzo los 12 bandas contra >100 espectros de roca de la base RELAB. El notebook no replica esa comparacion - solo verifica que el espectro sea plano. Preservar el atenuador 'best matched by'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "best matched by",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 984.9,
+      "unit": "K",
+      "context": "Temperatura de brillo de la cara diurna (JWST 1 bin)",
+      "source": "Supp Table 5",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.22,
+      "unit": "dimensionless",
+      "context": "Albedo observado (JWST 1 bin) - equivalente a Luna/Mercurio",
+      "source": "Supp Table 5",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.93,
+      "unit": "dimensionless",
+      "context": "Brightness ratio R (JWST 1 bin) - 93% de un cuerpo negro perfecto",
+      "source": "Supp Table 5",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 1.3,
+      "unit": "dimensionless",
+      "context": "chi cuadr. reducido del ajuste lineal contra el espectro de 12 bandas - traduce 'featureless' a numero",
+      "source": "computado en el notebook (n=12, dof=10)",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 100,
+      "unit": "mbar",
+      "context": "Limite superior 5 sigma para CO2 atmosferico",
+      "source": "abstract + main text",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 10,
+      "unit": "microbar",
+      "context": "Limite superior 3 sigma para SO2 atmosferico - sin volcanismo activo significativo",
+      "source": "abstract",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 12,
+      "unit": "bandas",
+      "context": "Numero de bandas espectrales JWST MIRI/LRS entre 5.36 y 12.06 micrometros",
+      "source": "Supp Table 4",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 49,
+      "unit": "anos luz",
+      "context": "Distancia de LHS 3844 b al Sistema Solar (referencia astronomica)",
+      "source": "literatura",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "report", "tier": "T1", "cam_attenuator": "afirmacion directa: el JWST mide / observa"},
+    {"abstract_verb": "best matched by", "tier": "T2", "cam_attenuator": "el mejor ajuste es / lo que mejor encaja con los datos es - NO 'es de basalto'"},
+    {"abstract_verb": "rules out", "tier": "T1", "cam_attenuator": "descarta / queda descartado (con criterio sigma explicito)"},
+    {"abstract_verb": "disfavour", "tier": "T2", "cam_attenuator": "los datos disfavorecen / la evidencia va en contra de - NO 'descarta'"},
+    {"abstract_verb": "consistent with", "tier": "T2", "cam_attenuator": "es consistente con / encaja con - NO 'demuestra'"},
+    {"abstract_verb": "well fit by", "tier": "T2", "cam_attenuator": "se ajusta bien a - preservar el cualificador"},
+    {"abstract_verb": "no evidence of", "tier": "T2", "cam_attenuator": "no encontraron evidencia de - NUNCA 'no hay'"}
+  ],
+  "narrative_hooks": [
+    "985 K en la cara diurna - mas caliente que un horno de ceramica industrial. Pero lo realmente raro no es eso.",
+    "Lo raro: el espectro es CASI un cuerpo negro perfecto. Sin features. Sin atmosfera densa. Sin nada que pintar.",
+    "Lo paradojico: el dato mas informativo es el espectro mas aburrido. Plano = atmosfera densa de CO2 descartada (< 100 mbar a 5 sigma) + volcanismo activo descartado (SO2 < 10 microbar a 3 sigma).",
+    "Una superficie tan oscura como Mercurio o la Luna - pero a 49 anos luz."
+  ],
+  "limitations": [
+    "El ajuste lineal (chi cuadr. = 1.30) verifica que el espectro es plano, pero plano no implica basalto. La identificacion composicional viene del cruce con la base RELAB de >100 espectros de laboratorio - no replicado en el notebook.",
+    "Las bandas 11.4 y 12.1 micrometros tienen barras de error 5 veces mayores que las primeras (>190 ppm vs ~35 ppm). Domina la incertidumbre del ajuste.",
+    "Albedo alpha = 0.22 con error +0.15/-0.14: el valor 0.07 (basalto fresco) cae justo al borde de 1 sigma inferior. La afirmacion 'mas oscuro que Marte' es robusta; 'tan oscuro como basalto' entra en la incertidumbre.",
+    "Limites superiores de CO2 y SO2 vienen del paper (modelos atmosfericos contra el espectro), no son re-derivables desde los datos del notebook."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes/partial sustantivos + 8 numeros clave - script denso requiere espacio para preservar atenuadores ('mejor ajuste', 'limite superior', 'disfavorecen')"
+  },
+  "notebook_slug": "2026-05-04-lhs-3844b-superficie-jwst",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-04-lhs-3844b-superficie-jwst/notebook.html",
+  "generated_at": "2026-05-09T07:14:00Z"
+}

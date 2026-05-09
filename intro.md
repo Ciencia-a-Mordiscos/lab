@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una superficie oscura, plana y aburrida — y eso lo dice todo
+
+**Astronomía** · *Nature Astronomy* · Whittaker et al. (2026) tomaron el primer espectro infrarrojo medio (5–12 μm) del planeta rocoso **LHS 3844 b** con el James Webb durante 3 eclipses secundarios. La cara diurna está a **985 K** (~712 °C) y refleja apenas el 22% de la luz que recibe — más oscura que Marte, comparable a la Luna o Mercurio. Pero el resultado clave es lo que el espectro **no** muestra: **χ²_red = 1.30 contra un modelo lineal** en 12 bandas espectrales — un espectro plano, sin features detectables. Eso descarta una atmósfera densa de CO₂ (**< 100 mbar a 5σ**), disfavorece SO₂ volcánico (**< 10 μbar a 3σ**), y descarta polvo basáltico fresco. El mejor ajuste cualitativo del paper: superficie tipo basalto oscuro o material rico en olivino, meteorizado por intemperismo espacial. ⚠️ El ajuste lineal verifica que el espectro es plano, pero "plano" no implica "basalto" — la identificación composicional viene del cruce con la base RELAB de >100 espectros de laboratorio, no replicado aquí. ⚠️ Las bandas 11.4 y 12.1 μm tienen barras de error 5× mayores que las primeras (>190 ppm vs ~35 ppm), dominando la incertidumbre.
+
+[Ver notebook](papers/2026-05-04-lhs-3844b-superficie-jwst/notebook) · [Leer más](papers/2026-05-04-lhs-3844b-superficie-jwst/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-04-lhs-3844b-superficie-jwst/notebook.ipynb)
+
+---
+
 ### Un LLM pasó 5.390 de 5.400 preguntas trampa de encuestas online
 
 **Tecnología** · *PNAS* · Kane (2025) levantó **300 personas sintéticas** con OpenAI o4-mini y las pasó por las tres defensas estándar de las encuestas online. Resultado: el bot acertó el **99,81% de attention checks** (5.390/5.400 trials), declinó el **97,67% de reverse shibboleth** (1.758/1.800 — citar la Constitución, traducir mandarín, FORTRAN) y rechazó el **100% de preguntas absurdas** (1.800/1.800 — ¿fue presidente?, ¿pasó dos semanas sin dormir?). De **21 tareas testeadas, una sola** queda por debajo del 95%: cálculo matemático (88,3% decline) — los LLMs no pueden evitar resolverlo cuando se les pide. La triple coherencia — acertar, declinar y rechazar como humano al mismo tiempo — vuelve obsoletos los métodos de detección actuales. ⚠️ Single-author paper sin réplica independiente todavía. ⚠️ Sin grupo control humano emparejado en las MISMAS 21 tareas — la "indistinguibilidad" se infiere por construcción, no se compara directamente. ⚠️ Un único modelo (o4-mini, junio 2025).

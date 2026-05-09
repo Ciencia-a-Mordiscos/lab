@@ -1,0 +1,28 @@
+titulo: "Una superficie oscura, plana y aburrida — y eso lo dice todo"
+fecha: 2026-05-04
+categoria: astronomia
+tags: [exoplanetas, jwst, espectroscopia, planetas-rocosos, atmosferas]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02860-3"
+    titulo: "The dark and featureless surface of rocky exoplanet LHS 3844 b from JWST mid-infrared spectroscopy"
+    journal: "Nature Astronomy"
+    autores: "Whittaker et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "eclipse_depths_jwst.csv"
+    descripcion: "Supplementary Table 4 — profundidad del eclipse en 12 bandas espectrales (5.36-12.06 μm)"
+    fuente: "Supplementary Information del paper"
+  - nombre: "derived_parameters.csv"
+    descripcion: "Supplementary Table 5 — T_brillo, albedo observado y brightness ratio (dos ajustes)"
+    fuente: "Supplementary Information del paper"
+  - nombre: "jwst_observations.csv"
+    descripcion: "Supplementary Table 2 — 3 eclipses secundarios JWST GO 1846"
+    fuente: "Supplementary Information del paper"
+  - nombre: "tess_observations.csv"
+    descripcion: "Supplementary Table 1 — 5 sectores TESS, 235 tránsitos"
+    fuente: "Supplementary Information del paper"
+estado: publicado
