@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Cuánto pagó limpiar bosques antes del fuego: $1 → $3,73
+
+**Ecología** · *Science* · Strabo et al. (2026) integraron datos de alta resolución sobre incendios MTBS, tratamientos forestales (FACTS), esfuerzo de supresión y daños en el oeste de EEUU para responder una pregunta directa: ¿pagan los **fuel treatments**? Aplicando un diseño cuasi-experimental espacial (DiD) sobre 700 tratamientos cruzados con incendios reales entre 2017 y 2023, encontraron que **cada $1 invertido devolvió $3,73 en beneficios esperados** — y las 6 especificaciones de robustez van de $1,93 a $4,28, todas por encima del break-even. Total: **$2.800 millones en daños evitados** por menor pérdida de estructuras, menos emisiones de CO₂ y menos exposición a PM2.5. ⚠️ Diseño cuasi-experimental, no RCT — la identificación causal viene de la exogenidad espacial. ⚠️ California aporta 30% de los incendios con datos de emisiones; extrapolar al Mediterráneo o Australia requiere más trabajo. ⚠️ Las muertes (10.321 atribuidas a humo) son atribuciones modeladas (Wen 2023), no certificados de defunción. ⚠️ El desglose de los $2.800M por componente vive en el paper, no en los CSVs procesados.
+
+[Ver notebook](papers/2026-05-10-fuel-treatments-cost/notebook) · [Leer más](papers/2026-05-10-fuel-treatments-cost/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-10-fuel-treatments-cost/notebook.ipynb)
+
+---
+
 ### 1 de cada 3 visitas a una flor en Nepal la hace la misma especie
 
 **Ecología** · *Nature* · Timberlake et al. (2026) registraron **10.974 visitas de insectos a flores** en 10 aldeas del Himalaya nepalí (Patarasi, Jumla) sobre **51 cultivos** distintos. La estructura ecológica está concentrada: tres taxa de polinizadores hacen el **76,5% de las visitas**, y *Apis cerana* — la abeja de la miel asiática — hace una de cada tres. Cuando se cruza esa red con la dependencia de polinización por cultivo, aparecen **9 cultivos con dependencia ≥85%**: rábano, daikon, calabaza, cebolla, repollo y otros, donde perder polinizadores es perder casi toda la producción. Bajo el escenario hipotético de pérdida total, los 29 cultivos modelados perderían en promedio **59% del rendimiento**. ⚠️ Los headlines del paper sobre **44% del ingreso agrícola** y **20% del consumo de vitamina A/folato/E** se citan al paper, no se reproducen aquí (requieren el dataset dietético individual de 776 MB en Git LFS). ⚠️ La categoría "Fly" agrupa toda Diptera; el desglose específico de sirfidae (hoverflies) vive en otra tabla del estudio. ⚠️ Los escenarios de yield son proyecciones modelísticas, no observaciones.

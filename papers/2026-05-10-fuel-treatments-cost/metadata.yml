@@ -1,0 +1,31 @@
+titulo: "Cuánto pagó limpiar bosques antes del fuego: $1 → $3,73"
+fecha: 2026-05-10
+categoria: ecologia
+tags: [incendios, cost-effectiveness, fuel-treatments, EEUU, mitigacion, BCR, CO2, PM25]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aea6463"
+    titulo: "Wildfire damages and the cost-effective role of forest fuel treatments"
+    journal: Science
+    autores: "Strabo, Bryan, Reimer (2026)"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "bcr_robustness.csv"
+    descripcion: "6 BCR del paper: Main DiD + 5 robustez. Headline 3.73."
+    fuente: "Replication package Zenodo (BCR_Robustness.csv)"
+  - nombre: "top_treated_fires.csv"
+    descripcion: "Top 15 incendios 2017-2023 por número de tratamientos cruzados."
+    fuente: "Replication package Zenodo (FACTS_MTBS_Fire_List.csv)"
+  - nombre: "fire_emissions.csv"
+    descripcion: "666 incendios con CO2 y PM2.5 — total 657 Mt y 6313 kt."
+    fuente: "Replication package Zenodo (Wildfire_Smoke_Effects_Wen2023 + WFEIS)"
+  - nombre: "fire_smoke_health.csv"
+    descripcion: "473 incendios con muertes atribuidas a humo (Wen et al. 2023)."
+    fuente: "Replication package Zenodo (Smoke_Fire_Effects_Wen2023.csv)"
+  - nombre: "mtbs_annual_fires.csv"
+    descripcion: "Universo MTBS 2006-2023 — 9.863 incendios totales."
+    fuente: "Replication package Zenodo (mtbs_fire_ids_2006_2023.csv)"
+estado: publicado

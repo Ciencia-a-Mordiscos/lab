@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-10-fuel-treatments-cost/README
+    title: "Cuánto pagó limpiar bosques antes del fuego: $1 → $3,73"
+    sections:
+    - file: papers/2026-05-10-fuel-treatments-cost/notebook
+      title: Notebook
   - file: papers/2026-05-06-polinizadores-nutricion-nepal/README
     title: "Polinizadores y nutrición en Nepal"
     sections:

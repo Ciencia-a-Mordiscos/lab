@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "paper_id": 2458,
+  "doi": "10.1126/science.aea6463",
+  "paper_type": "experimental",
+  "study_design": "quasi-experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Cada $1 invertido en tratamientos forestales devolvió $3,73 en beneficios esperados (BCR principal)",
+      "supported": "yes",
+      "detail": "Verificado en bcr_robustness.csv fila 1 (Main DiD, 700 tratamientos, 2017-2023). Headline number del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "yielded",
+      "effect_size": {"measure": "ratio_directo", "value": 3.73, "interpretation": "rendimiento positivo: cada dólar genera 3,73 dólares en beneficios"}
+    },
+    {
+      "claim": "Las 6 especificaciones de robustez del modelo van de $1,93 a $4,28 por cada $1 invertido — todas por encima del break-even",
+      "supported": "yes",
+      "detail": "bcr_robustness.csv contiene 6 filas: Main 3.73, Robustness 1 = 2.87, Robustness 2 = 3.20, Sub-period alt = 2.67, Sub-period robust = 1.93, Matching = 4.28.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "rango", "value": "1.93-4.28", "interpretation": "consistencia robusta a especificaciones alternativas"}
+    },
+    {
+      "claim": "Se evitaron $2.800 millones en daños totales — limitando pérdida de estructuras, emisiones de CO2 y exposición a PM2.5",
+      "supported": "partial",
+      "detail": "Reportado en el abstract de Science. NO disponible desglosado en los CSVs procesados — el paper integra los 3 componentes y reporta el agregado.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimated",
+      "effect_size": {"measure": "agregado", "value": 2.8, "interpretation": "miles de millones de USD evitados — estimación cuasi-experimental"}
+    },
+    {
+      "claim": "El universo MTBS cubre 9.863 incendios entre 2006 y 2023 (fuente del estudio)",
+      "supported": "yes",
+      "detail": "Suma directa de mtbs_annual_fires.csv (18 años × n_fires). Marco poblacional del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "integrated",
+      "effect_size": null
+    },
+    {
+      "claim": "Dixie (California, 2021) cruzó 3.411 tratamientos forestales — el incendio con más intervenciones del periodo",
+      "supported": "yes",
+      "detail": "top_treated_fires.csv fila 1 — extremo absoluto. California domina el top 15 (12 de 15 incendios).",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "Los 666 incendios con datos de emisiones (2017-2023) acumulan 657 Mt de CO2 y 6.313 kt de PM2.5",
+      "supported": "yes",
+      "detail": "Suma directa de fire_emissions.csv. Mediana CO2 por incendio: 250 kt; máximo: 35,6 Mt (factor ×142 entre mediana y máximo).",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null
+    },
+    {
+      "claim": "10.321 muertes fueron atribuidas a humo PM2.5 en los 473 incendios con datos de salud",
+      "supported": "yes",
+      "detail": "Suma de fire_smoke_health.csv columna deaths_attributed. Atribución metodológica de Wen et al. 2023, no propia del paper.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimated",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.73,
+      "unit": "USD por USD invertido",
+      "context": "BCR principal — Main DiD, 700 tratamientos, 2017-2023",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.8,
+      "unit": "miles de millones USD",
+      "context": "Daños totales evitados — estructuras + CO2 + PM2.5",
+      "source": "abstract",
+      "verified": "from_abstract"
+    },
+    {
+      "value": 700,
+      "unit": "tratamientos",
+      "context": "Tratamientos cruzados por incendios en la muestra principal 2017-2023",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.93,
+      "unit": "USD por USD",
+      "context": "BCR mínimo del rango robustez (sub-período 2017-2020 con 331 tratamientos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.28,
+      "unit": "USD por USD",
+      "context": "BCR máximo del rango robustez (especificación con matching)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9863,
+      "unit": "incendios",
+      "context": "Universo MTBS 2006-2023, oeste de EEUU",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3411,
+      "unit": "tratamientos",
+      "context": "Dixie Fire (California, 2021) — máximo del periodo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10321,
+      "unit": "muertes",
+      "context": "Atribuidas a humo PM2.5 en 473 incendios (Wen 2023)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "found", "tier": "T1", "cam_attenuator": "encontraron / la investigación encontró"},
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa para cost-effectiveness"},
+    {"abstract_verb": "estimated", "tier": "T2", "cam_attenuator": "los autores estiman / según los datos"},
+    {"abstract_verb": "yielded", "tier": "T1", "cam_attenuator": "cada dólar invertido devolvió $3,73 — afirmación directa con número"}
+  ],
+  "narrative_hooks": [
+    "Cada $1 invertido en limpiar bosques devolvió $3,73 — en daños evitados",
+    "$2.800 millones en daños esquivados por 700 tratamientos forestales",
+    "Las 6 versiones del modelo coinciden: prevenir paga (rango 1,93–4,28)",
+    "Dixie (CA, 2021) cruzó 3.411 tratamientos — el bosque más intervenido del periodo",
+    "Un solo incendio puede emitir 35 Mt de CO2 — 142 veces la mediana"
+  ],
+  "limitations": [
+    "Diseño cuasi-experimental (DiD espacial), no RCT — la identificación viene de la exogenidad de dirección/distancia con que el fuego encuentra los tratamientos",
+    "Geografía concentrada: California aporta 202 de 666 incendios (30%) con datos de emisiones — extrapolar al Mediterráneo o Australia requiere más trabajo",
+    "Las muertes son atribuciones modeladas (Wen 2023), no certificados de defunción",
+    "Los $2.800M agregados vienen del abstract — el desglose por componente no está en los CSVs procesados",
+    "Los CSVs son outputs analíticos finales (no muestreo): el replication package crudo es 6.5GB y excede el cap de El Lab"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados (5 yes + 1 partial + 1 con atenuador) y 8 números clave — script denso, contraste robustez vs media merece espacio"
+  },
+  "notebook_slug": "2026-05-10-fuel-treatments-cost",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-10-fuel-treatments-cost/notebook.html",
+  "generated_at": "2026-05-10T07:43:00Z"
+}

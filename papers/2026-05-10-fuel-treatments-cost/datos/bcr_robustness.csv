@@ -1,0 +1,7 @@
+bcr,n_treatments,sample_period,specification
+3.73,700,2017-2023,Main (DiD)
+2.87,700,2017-2023,Robustness 1
+3.2,700,2017-2023,Robustness 2
+2.67,331,2017-2020,Sub-period (alt)
+1.93,331,2017-2020,Sub-period robust
+4.28,696,2017-2023,Matching
