@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "paper_id": 2460,
+  "doi": "10.1126/science.aea1676",
+  "paper_type": "modeling",
+  "study_design": "modeling_projection",
+  "species": "plants_global_6579",
+  "verification_table": [
+    {
+      "claim": "La velocidad latitudinal mediana proyectada va de 0,04 a 1,84 km/año entre escenarios",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "shift_por_escenario.csv: scenario 13 = 0,043 km/año (low+conservative), scenario 4 = 1,840 km/año (high+aggressive). Factor de 42x.",
+      "certainty_tier": "T1",
+      "abstract_verb": "predict (calculated from data)"
+    },
+    {
+      "claim": "El escenario más severo requiere ~3,2× más velocidad que un escenario moderado",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "1,840 / 0,568 = 3,24 (scenario 4 vs scenario 1, dataset agregado).",
+      "certainty_tier": "T1",
+      "abstract_verb": "predict"
+    },
+    {
+      "claim": "Los árboles migran ~26% más lento que las hierbas",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "shift_por_growth_form.csv: Tree mediana 0,707 vs Herb 0,952 km/año; gap (0,952-0,707)/0,952 = 25,7%. Edad de madurez: Tree 15 años vs Herb 1 año.",
+      "certainty_tier": "T1",
+      "abstract_verb": "predict"
+    },
+    {
+      "claim": "El modelo cubre 67.664 especies modeladas; los CSVs agregados muestran ~62.400 especies por escenario",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Cifra del paper (18% de plantas vasculares conocidas). Los CSVs agregados muestran 62.416 especies en escenario 1 y 62.403 en escenario 4 (consistente, no recalculado desde los rasters originales de 142 MB).",
+      "certainty_tier": "T2",
+      "abstract_verb": "predict"
+    },
+    {
+      "claim": "7-16% de las especies se proyectan a perder >90% de su rango",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Cifra del abstract; no recalculada en este notebook (requiere rasters originales). Tier 2 — proyección, no observación.",
+      "certainty_tier": "T2",
+      "abstract_verb": "are projected to lose"
+    },
+    {
+      "claim": "70-80% de la pérdida proyectada viene de pérdida de hábitat, no de límites de dispersión",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Cifra del abstract. El modelo lo atribuye a este mecanismo, no es una observación. Tier 2.",
+      "certainty_tier": "T2",
+      "abstract_verb": "stem from"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1.84,
+      "unit": "km/año",
+      "context": "Velocidad latitudinal mediana proyectada en el escenario más severo (sc 4)",
+      "source": "calculated_from_dataset",
+      "verified": true
+    },
+    {
+      "value": 0.043,
+      "unit": "km/año",
+      "context": "Velocidad latitudinal mediana proyectada en el escenario más conservador (sc 13)",
+      "source": "calculated_from_dataset",
+      "verified": true
+    },
+    {
+      "value": 3.24,
+      "unit": "ratio",
+      "context": "Aceleración de migración requerida entre scenario 1 y scenario 4",
+      "source": "calculated_from_dataset",
+      "verified": true
+    },
+    {
+      "value": 25.7,
+      "unit": "%",
+      "context": "Gap proyectado entre Tree y Herb shift rate (Trees 26% más lentos)",
+      "source": "calculated_from_dataset",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "años",
+      "context": "Mediana de edad de madurez reproductiva en árboles (vs 1 año en hierbas)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6579,
+      "unit": "especies",
+      "context": "Especies en BioShifts (base de entrenamiento del modelo)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 67664,
+      "unit": "especies",
+      "context": "Total de especies modeladas (18% de plantas vasculares conocidas)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "7-16",
+      "unit": "%",
+      "context": "Especies modeladas proyectadas a perder >90% de su rango",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": "70-80",
+      "unit": "%",
+      "context": "Pérdida proyectada que el modelo atribuye a hábitat que desaparece, no a dispersión",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 28,
+      "unit": "%",
+      "context": "Superficie terrestre donde el modelo proyecta aumento en riqueza local",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "predict",
+      "tier": "T2",
+      "cam_attenuator": "el modelo proyecta / los datos sugieren"
+    },
+    {
+      "abstract_verb": "are projected to lose",
+      "tier": "T2",
+      "cam_attenuator": "se proyecta que pierdan"
+    },
+    {
+      "abstract_verb": "stem from",
+      "tier": "T2",
+      "cam_attenuator": "el modelo atribuye a"
+    },
+    {
+      "abstract_verb": "are expected to",
+      "tier": "T2",
+      "cam_attenuator": "se espera que"
+    },
+    {
+      "abstract_verb": "are unlikely to",
+      "tier": "T1",
+      "cam_attenuator": "es poco probable que"
+    }
+  ],
+  "narrative_hooks": [
+    "1,84 km al año durante 80 años: la velocidad que el modelo proyecta para la mediana de las plantas en el peor escenario",
+    "70-80% del riesgo de extinción no viene de que las plantas no puedan moverse — viene de que su hábitat desaparece",
+    "Los árboles, que tardan 15 años en producir su primera semilla, se proyectan 26% más lentos que las hierbas (1 año)"
+  ],
+  "limitations": [
+    "Los datos abiertos en Zenodo son agregados derivados, no proyecciones por celda; no se pueden reconstruir los mapas espaciales del paper.",
+    "BioShifts cubre 6.579 especies (4% de plantas vasculares conocidas); las predicciones se extrapolan a 67K vía traits.",
+    "Los 4 escenarios de emisiones no incluyen feedback no-lineales (tipping points) ni microrefugios topográficos por debajo de 8 × 8 km.",
+    "Toda cifra sobre 2081-2100 es una proyección del modelo, no una observación. El modelo asume que la velocidad observada en BioShifts es predecible por traits."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (3 yes + 3 partial), 10 key_numbers — script denso"
+  },
+  "notebook_slug": "2026-05-10-rango-plantas-clima-extincion",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-10-rango-plantas-clima-extincion/notebook.html",
+  "generated_at": "2026-05-10T13:06:17.734545+00:00"
+}

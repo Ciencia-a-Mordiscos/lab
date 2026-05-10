@@ -1,0 +1,31 @@
+titulo: "Plantas que no pueden seguirle el paso al clima"
+fecha: 2026-05-10
+categoria: ecologia
+tags: [clima, biodiversidad, plantas, extincion, modelado, BioShifts]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aea1676"
+    titulo: "Climate-induced range shifts support local plant diversity but don't reduce extinction risk"
+    journal: Science
+    autores: "Wang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "shift_por_escenario.csv"
+    descripcion: "Mediana de Lat50 (km/yr) y Ele50 (m/yr) por escenario climático (16 = 4 emisiones × 4 percentiles GCM)"
+    fuente: "Zenodo 17427091 (derivado de predict_shift_rate2025.csv)"
+  - nombre: "shift_por_growth_form.csv"
+    descripcion: "Mediana de shift rate por forma de crecimiento (Herb, Shrub, Tree, Epiphyte, Grass, Succulent)"
+    fuente: "Zenodo 17427091 (cruzado con plant_taxonomy_nloc_gf_mage_disp.csv)"
+  - nombre: "shift_por_dispersal_escenario.csv"
+    descripcion: "Cross dispersal mode × escenario (7 dispersales × 16 escenarios)"
+    fuente: "Zenodo 17427091"
+  - nombre: "shift_por_edad_madurez.csv"
+    descripcion: "Shift rate por bin de edad de madurez reproductiva (7 bins)"
+    fuente: "Zenodo 17427091"
+  - nombre: "shift_rate_sample.csv"
+    descripcion: "Sample aleatorio (n=10.000, seed=42) de Species × dispersal × scenario × Lat50/Ele50"
+    fuente: "Zenodo 17427091"
+estado: publicado

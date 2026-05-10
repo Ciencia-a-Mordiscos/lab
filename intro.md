@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Plantas que no pueden seguirle el paso al clima
+
+**Ecología** · *Science* · Wang et al. (2026) construyeron el modelo de proyección de migración vegetal más grande del mundo: cruzaron **BioShifts** (14.488 observaciones de cambios de rango en 6.579 especies) con 6,8 millones de registros de ocurrencia, dos modelos de hábitat y proyecciones de 10 modelos climáticos globales. Mapearon hábitats actuales y futuros en cuadrículas de 8 × 8 km para **67.664 especies de plantas vasculares** bajo 4 escenarios de emisiones para 2081–2100. La mediana proyectada va de **0,04 a 1,84 km/año** entre escenarios — un factor de 42×. Los **árboles** se proyectan **26% más lentos** que las hierbas: tardan 15 años en producir su primera semilla, las hierbas un año. El modelo proyecta que **7 a 16% de las especies modeladas** perderían más del 90% de su rango, y atribuye **70–80% de esas pérdidas** a hábitats que desaparecen, no a límites de dispersión. ⚠️ Diseño de modeling_projection — toda cifra sobre 2081–2100 es una proyección bajo supuestos. ⚠️ Los datos abiertos en Zenodo son agregados, no rasters por celda; los headlines del 7–16% y 70–80% se citan al paper, no se recalculan aquí. ⚠️ La resolución 8 × 8 km no captura microrefugios topográficos donde algunas especies podrían persistir.
+
+[Ver notebook](papers/2026-05-10-rango-plantas-clima-extincion/notebook) · [Leer más](papers/2026-05-10-rango-plantas-clima-extincion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-10-rango-plantas-clima-extincion/notebook.ipynb)
+
+---
+
 ### Cuánto pagó limpiar bosques antes del fuego: $1 → $3,73
 
 **Ecología** · *Science* · Strabo et al. (2026) integraron datos de alta resolución sobre incendios MTBS, tratamientos forestales (FACTS), esfuerzo de supresión y daños en el oeste de EEUU para responder una pregunta directa: ¿pagan los **fuel treatments**? Aplicando un diseño cuasi-experimental espacial (DiD) sobre 700 tratamientos cruzados con incendios reales entre 2017 y 2023, encontraron que **cada $1 invertido devolvió $3,73 en beneficios esperados** — y las 6 especificaciones de robustez van de $1,93 a $4,28, todas por encima del break-even. Total: **$2.800 millones en daños evitados** por menor pérdida de estructuras, menos emisiones de CO₂ y menos exposición a PM2.5. ⚠️ Diseño cuasi-experimental, no RCT — la identificación causal viene de la exogenidad espacial. ⚠️ California aporta 30% de los incendios con datos de emisiones; extrapolar al Mediterráneo o Australia requiere más trabajo. ⚠️ Las muertes (10.321 atribuidas a humo) son atribuciones modeladas (Wen 2023), no certificados de defunción. ⚠️ El desglose de los $2.800M por componente vive en el paper, no en los CSVs procesados.

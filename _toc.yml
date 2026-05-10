@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-10-rango-plantas-clima-extincion/README
+    title: "Plantas que no pueden seguirle el paso al clima"
+    sections:
+    - file: papers/2026-05-10-rango-plantas-clima-extincion/notebook
+      title: Notebook
   - file: papers/2026-05-10-fuel-treatments-cost/README
     title: "Cuánto pagó limpiar bosques antes del fuego: $1 → $3,73"
     sections:
