@@ -1,0 +1,52 @@
+crop_eng_name,sci_name,top_pollinator,n_visits_top,n_visits_total,n_pollinator_taxa
+Broad leaf mustard,Brassica alba,Fly,303,583,9
+Mustard,Brassica alba,Apis cerana,259,492,8
+Slipper gourd,Cyclanthera pedata,Fly,117,343,8
+Apple,Malus domestica,Apis cerana,225,336,11
+Coriander,Coriandrum sativum,Apis cerana,137,328,9
+Oregano,Origanum vulgare,Apis cerana,111,281,6
+Pumpkin,Cucurbita maxima,Apis cerana,132,266,8
+Radish,Raphanus sativus,Apis cerana,126,236,6
+Tartary buckwheat,Fagopyrum tataricum,Fly,141,206,9
+Potato,Solanum tuberosum,Fly,48,173,11
+Jumli bean,Phaseolus vulgaris,Apis cerana,24,122,9
+Daikon,Raphanus sativus var. longipinnatus,Fly,44,116,7
+Chilli,Capsicum sp.,Fly,29,86,5
+Sunflower,Helianthus annuus,Apis cerana,22,73,8
+Creeping spinach,Basella alba,Fly,37,43,4
+Chinese leek,Allium tuberosum,Apis cerana,18,24,4
+Cucumber,Cucumis sativus,Apis cerana,11,21,5
+Garden cress,Lepidium sativum,Fly,5,19,8
+Walnut,Juglans regia,Apis cerana,9,17,4
+Onion,Allium cepa,Fly,4,13,4
+Carrot,Daucus carota,Apis cerana,4,11,5
+Maize,Zea mays,Apis cerana,7,10,3
+Tobacco,Nicotiana tabacum,Solitary bee,5,10,4
+Peach,Prunus persica,Apis cerana,4,10,4
+Tomato,Lycopersicon esculentum,Apis cerana,3,10,5
+Swiss chard,Beta vulgaris,Apis cerana,4,9,4
+Green bean,Phaseolus vulgaris,Butterfly,2,8,6
+Scarlet bean,Phaseolus coccineus,Butterfly,3,8,5
+Finger milllet,Eleusine coracana,Fly,4,7,3
+Garden pea,Pisum sativum,Butterfly,3,5,3
+Field pea,Pisum sativum var. arvense,Solitary bee,3,5,3
+Garlic,Allium sativum,Apis cerana,2,5,4
+Dill,Anethum graveolens,Butterfly,4,4,1
+Plum,Prunus domestica,Butterfly,2,4,2
+Turnip,Brassica rapa,Butterfly,1,3,3
+Cabbage,Brassica oleracea var. capitata,Butterfly,1,3,3
+Balsam apple,Momordica balsamina,Apis cerana,2,3,2
+Sorghum,Sorghum bicolor,Beetle,2,2,1
+Barley,Hordeum vulgare,Beetle,1,2,2
+Bitter bottle gourd,Cucurbita pepo,Beetle,2,2,1
+Buckwheat,Fagopyrum esculentum,Bumblebee,1,2,2
+Aubergine,Solanum melongena,Bumblebee,1,2,2
+Weave garlic,Allium sp._01,Butterfly,1,2,2
+Spinach,Spinacia oleracea,Fly,2,2,1
+Tree tomato,Cyphomandra betacea,Apis cerana,2,2,1
+Fennel,Foeniculum vulgare,Fly,1,1,1
+Naked barley,Hordeum vulgare subsp. vulgare,Apis cerana,1,1,1
+Cannabis,Cannabis sativa,Apis cerana,1,1,1
+Perilla,Perilla frutescens,Apis cerana,1,1,1
+Jack bean,Canavalia ensiformis,Solitary bee,1,1,1
+Taro,Colocasia esculenta,Wasp,1,1,1

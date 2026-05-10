@@ -1,0 +1,86 @@
+crop_eng_name,pollinator_taxa,n_visits
+Broad leaf mustard,Beetle,2
+Broad leaf mustard,Bug,1
+Broad leaf mustard,Bumblebee,4
+Broad leaf mustard,Butterfly,37
+Broad leaf mustard,Fly,303
+Broad leaf mustard,Apis cerana,192
+Broad leaf mustard,Sawfly,2
+Broad leaf mustard,Solitary bee,37
+Broad leaf mustard,Wasp,5
+Mustard,Beetle,7
+Mustard,Bug,3
+Mustard,Butterfly,24
+Mustard,Fly,126
+Mustard,Apis cerana,259
+Mustard,Sawfly,3
+Mustard,Solitary bee,66
+Mustard,Wasp,4
+Slipper gourd,Beetle,5
+Slipper gourd,Bumblebee,3
+Slipper gourd,Butterfly,10
+Slipper gourd,Fly,117
+Slipper gourd,Apis cerana,94
+Slipper gourd,Sawfly,21
+Slipper gourd,Solitary bee,5
+Slipper gourd,Wasp,88
+Apple,Beetle,3
+Apple,Bug,1
+Apple,Bumblebee,7
+Apple,Butterfly,34
+Apple,Fly,31
+Apple,Apis cerana,225
+Apple,Apis laboriosa,1
+Apple,Sawfly,1
+Apple,Solitary bee,22
+Apple,Unknown,4
+Apple,Wasp,7
+Coriander,Beetle,3
+Coriander,Bumblebee,1
+Coriander,Butterfly,22
+Coriander,Fly,112
+Coriander,Apis cerana,137
+Coriander,Moth,1
+Coriander,Sawfly,3
+Coriander,Solitary bee,32
+Coriander,Wasp,17
+Oregano,Beetle,2
+Oregano,Butterfly,58
+Oregano,Fly,91
+Oregano,Apis cerana,111
+Oregano,Solitary bee,16
+Oregano,Wasp,3
+Pumpkin,Beetle,14
+Pumpkin,Bumblebee,67
+Pumpkin,Butterfly,4
+Pumpkin,Fly,16
+Pumpkin,Apis cerana,132
+Pumpkin,Apis laboriosa,2
+Pumpkin,Solitary bee,30
+Pumpkin,Wasp,1
+Radish,Bumblebee,1
+Radish,Butterfly,31
+Radish,Fly,59
+Radish,Apis cerana,126
+Radish,Solitary bee,17
+Radish,Wasp,2
+Tartary buckwheat,Beetle,6
+Tartary buckwheat,Bug,2
+Tartary buckwheat,Butterfly,25
+Tartary buckwheat,Fly,141
+Tartary buckwheat,Apis cerana,15
+Tartary buckwheat,Apis laboriosa,1
+Tartary buckwheat,Sawfly,1
+Tartary buckwheat,Solitary bee,4
+Tartary buckwheat,Wasp,11
+Potato,Beetle,36
+Potato,Bug,6
+Potato,Bumblebee,4
+Potato,Butterfly,45
+Potato,Fly,48
+Potato,Apis cerana,18
+Potato,Moth,2
+Potato,Sawfly,3
+Potato,Solitary bee,4
+Potato,Unknown,1
+Potato,Wasp,6

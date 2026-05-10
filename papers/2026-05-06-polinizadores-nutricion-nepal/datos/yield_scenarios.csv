@@ -1,0 +1,30 @@
+plant_barcode,plant_category,plant_family,sci_name,eng_name,final_poll_dependence,poll_loss_new_yield,poll_decline_new_yield,poll_decline_new_yield_L95,poll_decline_new_yield_U95
+Allium cepa_Onion_All28,Crop - herb or spice,Amaryllidaceae,Allium cepa,Onion,0.9299999999999999,0.07000000000000006,0.69589,0.61033,0.7954
+Allium schoenoprasum_Chives,Crop - herb or spice,Amaryllidaceae,Allium schoenoprasum,Chives,0.88,0.12,0.71224,0.6312800000000001,0.8064
+Coriandrum sativum_Coriander_Cor36,Crop - herb or spice,Apiaceae,Coriandrum sativum,Coriander,0.65,0.35,0.78745,0.72765,0.857
+Daucus carota_Carrot_Dau95,Crop - vegetable,Apiaceae,Daucus carota,Carrot,0.85,0.15000000000000002,0.72205,0.64385,0.813
+Brassica alba_Broad leaf mustard_Bra50,Crop - leafy vegetable,Brassicaceae,Brassica alba,Broad leaf mustard,0.25,0.75,0.91825,0.89525,0.945
+Brassica alba_Mustard_Bra60,Crop - oilseed,Brassicaceae,Brassica alba,Mustard,0.25,0.75,0.91825,0.89525,0.945
+Brassica oleracea var. capitata_Cabbage_Bra236,Crop - vegetable,Brassicaceae,Brassica oleracea,Cabbage,0.89,0.10999999999999999,0.70897,0.62709,0.8042
+Brassica oleracea var. botrytis_Cauliflower_Bra89,Crop - vegetable,Brassicaceae,Brassica oleracea,Cauliflower,0.89,0.10999999999999999,0.70897,0.62709,0.8042
+Raphanus sativus_Radish_Rap99,Crop - vegetable,Brassicaceae ,Raphanus sativus,Radish,0.98,0.020000000000000018,0.67954,0.58938,0.7844
+Raphanus sativus var. longipinnatus_Daikon_Rap241,Crop - vegetable,Brassicaceae ,Raphanus sativus var. longipinnatus,Daikon,0.98,0.020000000000000018,0.67954,0.58938,0.7844
+Cucurbita maxima_Pumpkin_Cuc92,Crop - vegetable,Cucurbitaceae,Cucurbita maxima,Pumpkin,0.95,0.050000000000000044,0.68935,0.60195,0.791
+Cyclanthera pedata_Slipper gourd_Cyc93,Crop - vegetable,Cucurbitaceae,Cyclanthera pedata,Slipper gourd,0.88,0.12,0.71224,0.6312800000000001,0.8064
+Cucumis sativus_Cucumber_Cuc91,Crop - vegetable,Cucurbitaceae,Cucumis sativus,Cucumber,0.65,0.35,0.78745,0.72765,0.857
+Phaseolus vulgaris_Jumli bean_Pha76,Crop - pulse,Fabaceae,Phaseolus vulgaris,Jumli bean,0.3066666666666667,0.6933333333333334,0.89972,0.8715066666666667,0.9325333333333333
+Glycine max_Soybean_Gly70,Crop - pulse,Fabaceae,Glycine max,Soybean,0.275,0.725,0.910075,0.884775,0.9395
+Phaseolus coccineus_Scarlet bean_Pha74,Crop - pulse,Fabaceae,Phaseolus coccineus,Scarlet bean,0.395,0.605,0.870835,0.834495,0.9131
+Phaseolus vulgaris_Green bean_Pha75,Crop - pulse,Fabaceae,Phaseolus vulgaris,Green bean,0.395,0.605,0.870835,0.834495,0.9131
+Vicia faba_Faba bean_Vic80,Crop - pulse,Fabaceae,Vicia faba,Faba bean,0.25,0.75,0.91825,0.89525,0.945
+Vigna mungo_Blackgram_Vig81,Crop - pulse,Fabaceae,Vigna mungo,Blackgram,0.25,0.75,0.91825,0.89525,0.945
+Vigna unguiculata_Cowpea_Vig82,Crop - pulse,Fabaceae,Vigna unguiculata,Cowpea,0.25,0.75,0.91825,0.89525,0.945
+Fagopyrum esculentum_Buckwheat_Fag4,Crop - cereal,Polygonaceae,Fagopyrum esculentum,Buckwheat,0.65,0.35,0.78745,0.72765,0.857
+Malus domestica_Apple_Mal18,Crop - fruit or nut,Rosaceae,Malus domestica,Apple,0.8,0.19999999999999996,0.7384,0.6648000000000001,0.824
+Prunus domestica_Plum_Pru22,Crop - fruit or nut,Rosaceae,Prunus domestica,Plum,0.65,0.35,0.78745,0.72765,0.857
+Prunus persica_Peach_Pru23,Crop - fruit or nut,Rosaceae,Prunus persica,Peach,0.65,0.35,0.78745,0.72765,0.857
+Pyrus pyrifolia_Japanese pear,Crop - fruit or nut,Rosaceae,Pyrus pyrifolia,Japanese pear,0.65,0.35,0.78745,0.72765,0.857
+Capsicum sp._Chilli_Cap34,Crop - herb or spice,Solanaceae,Capsicum sp.,Chilli,0.43,0.5700000000000001,0.85939,0.8198300000000001,0.9054
+Cyphomandra betacea_Tree tomato_Cyp94,Crop - vegetable,Solanaceae,Cyphomandra betacea,Tree tomato,0.7,0.30000000000000004,0.7711,0.7067000000000001,0.846
+Lycopersicon esculentum_Tomato_Lyc96,Crop - vegetable,Solanaceae,Lycopersicon esculentum,Tomato,0.20733333333333337,0.7926666666666666,0.932202,0.9131273333333333,0.9543866666666667
+Solanum melongena_Aubergine_Sol102,Crop - vegetable,Solanaceae,Solanum melongena,Aubergine,0.25,0.75,0.91825,0.89525,0.945

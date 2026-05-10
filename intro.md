@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### 1 de cada 3 visitas a una flor en Nepal la hace la misma especie
+
+**Ecología** · *Nature* · Timberlake et al. (2026) registraron **10.974 visitas de insectos a flores** en 10 aldeas del Himalaya nepalí (Patarasi, Jumla) sobre **51 cultivos** distintos. La estructura ecológica está concentrada: tres taxa de polinizadores hacen el **76,5% de las visitas**, y *Apis cerana* — la abeja de la miel asiática — hace una de cada tres. Cuando se cruza esa red con la dependencia de polinización por cultivo, aparecen **9 cultivos con dependencia ≥85%**: rábano, daikon, calabaza, cebolla, repollo y otros, donde perder polinizadores es perder casi toda la producción. Bajo el escenario hipotético de pérdida total, los 29 cultivos modelados perderían en promedio **59% del rendimiento**. ⚠️ Los headlines del paper sobre **44% del ingreso agrícola** y **20% del consumo de vitamina A/folato/E** se citan al paper, no se reproducen aquí (requieren el dataset dietético individual de 776 MB en Git LFS). ⚠️ La categoría "Fly" agrupa toda Diptera; el desglose específico de sirfidae (hoverflies) vive en otra tabla del estudio. ⚠️ Los escenarios de yield son proyecciones modelísticas, no observaciones.
+
+[Ver notebook](papers/2026-05-06-polinizadores-nutricion-nepal/notebook) · [Leer más](papers/2026-05-06-polinizadores-nutricion-nepal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-polinizadores-nutricion-nepal/notebook.ipynb)
+
+---
+
 ### El níquel para descarbonizar y los trópicos
 
 **Ecología** · *Nature Ecology & Evolution* · Hyman et al. (2026) construyeron una base mina-por-mina con **487 depósitos de níquel del mundo** (179 lateritas tropicales + 308 sulfuros magmáticos boreales) y corrieron **PEMMSS**, un modelo Monte Carlo bajo escenarios IEA APS/STEPS/NZE hasta 2050. El modelo proyecta que **entre el 78% y el 83% del suministro futuro vendrá de lateritas tropicales** — el mismo tipo de mina que es desproporcionadamente costera (**55% a ≤50 km del mar** vs 12% de sulfuros) y se concentra en la franja ecuatorial (mediana lat **−1,4°** vs +46,4° en sulfuros). PEMMSS las prioriza por economía: lateritas tienen mayor grado mediano (**1,11% Ni vs 0,54%**) y mayor recurso (**45 Mt vs 13 Mt**). ⚠️ Las cifras 78–83% y "mitad amenaza top 10% terrestre" son OUTPUTS del modelo, no reproducibles desde inputs públicos. ⚠️ Por count puro, solo 4 de 487 minas están en celdas TBCV ≥ 90 — el headline opera por volumen proyectado, no por count. ⚠️ Diseño no experimental: el paper proyecta riesgo bajo escenarios, no observa destrucción.

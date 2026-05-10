@@ -1,0 +1,31 @@
+titulo: "Polinizadores y nutrición en Nepal"
+fecha: 2026-05-06
+categoria: ecologia
+tags: [ecologia, polinizadores, agricultura, biodiversidad, nepal, nature]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10421-x"
+    titulo: "Pollinators support the nutrition and income of vulnerable communities"
+    journal: Nature
+    autores: "Timberlake et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "yield_scenarios.csv"
+    descripcion: "29 cultivos con dependencia de polinización + escenarios de yield (full loss + decline con IC95)"
+    fuente: "Zenodo 18838606"
+  - nombre: "visits_by_pollinator.csv"
+    descripcion: "15 taxa de polinizadores con visitas, especies y aldeas"
+    fuente: "Zenodo 18838606"
+  - nombre: "crop_visits_summary.csv"
+    descripcion: "51 cultivos con polinizador top y diversidad de visitantes"
+    fuente: "Zenodo 18838606"
+  - nombre: "crop_x_pollinator_long.csv"
+    descripcion: "Long-form crop × pollinator para top 10 cultivos"
+    fuente: "Zenodo 18838606"
+  - nombre: "pollen_capacity_OTU.csv"
+    descripcion: "Capacidad media de carga de polen por taxa"
+    fuente: "Zenodo 18838606"
+estado: publicado

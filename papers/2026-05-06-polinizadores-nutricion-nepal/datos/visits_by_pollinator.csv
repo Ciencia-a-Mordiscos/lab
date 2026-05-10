@@ -1,0 +1,16 @@
+pollinator_taxa,insect_order,n_visits,n_plant_species,n_villages
+Apis cerana,Hymenoptera,3616,142,10
+Fly,Diptera,3321,175,10
+Solitary bee,Hymenoptera,1455,142,10
+Butterfly,Lepidoptera,1180,137,10
+Bumblebee,Hymenoptera,467,75,10
+Wasp,Hymenoptera,399,83,10
+Beetle,Coleoptera,314,83,10
+Sawfly,Hymenoptera,89,27,9
+Bug,Hemiptera,58,23,7
+Moth,Lepidoptera,39,25,9
+Apis laboriosa,Hymenoptera,26,5,5
+Unknown,Hymenoptera,7,4,3
+Ant,Hymenoptera,1,1,1
+Ant lion,Neuroptera,1,0,1
+Grasshopper,Orthoptera,1,1,1

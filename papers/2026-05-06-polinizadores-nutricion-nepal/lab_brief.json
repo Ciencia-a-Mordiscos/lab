@@ -1,0 +1,230 @@
+{
+  "version": "1.0",
+  "paper_id": 2437,
+  "doi": "10.1038/s41586-026-10421-x",
+  "paper_type": "research_article",
+  "study_design": "observacional + proyección modelística",
+  "species": "human + insect pollinators",
+  "verification_table": [
+    {
+      "claim": "10.974 visitas registradas en 10 aldeas, 15 taxa de polinizadores",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Suma directa de n_visits en visits_by_pollinator.csv. n=15 taxa, max n_villages=10",
+      "certainty_tier": "T1",
+      "abstract_verb": "record",
+      "effect_size": null
+    },
+    {
+      "claim": "Los tres polinizadores principales concentran el 76,5% de las visitas",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Apis cerana (33,0%) + Fly (30,3%) + Solitary bee (13,3%) = 76,5%",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": null
+    },
+    {
+      "claim": "9 cultivos tienen dependencia de polinización ≥85%",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Filtro sobre final_poll_dependence ≥ 0,85 en yield_scenarios.csv (n=29)",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": null
+    },
+    {
+      "claim": "Bajo pérdida total de polinizadores, el rendimiento caería 59% en promedio",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Media de (1 - poll_loss_new_yield) = 0,591 sobre 29 cultivos. Es proyección modelística — el paper la enmarca como escenario, no como predicción",
+      "certainty_tier": "T2",
+      "abstract_verb": "anticipated",
+      "effect_size": null
+    },
+    {
+      "claim": "44% del ingreso agrícola depende de los polinizadores",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Cifra del paper (Timberlake et al., abstract). NO la reproducimos aquí — requiere cruzar visitas con datos de ingreso por hogar que viven en Git LFS (776 MB)",
+      "certainty_tier": "T1",
+      "abstract_verb": "directly responsible",
+      "effect_size": null
+    },
+    {
+      "claim": "Más del 20% del consumo de vitamina A, folato y vitamina E proviene de cultivos polinizados",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Cifra del paper. Requiere los datos dietéticos individuales que no descargamos por tamaño",
+      "certainty_tier": "T1",
+      "abstract_verb": "directly responsible",
+      "effect_size": null
+    },
+    {
+      "claim": "Apis cerana es la abeja nativa más visitante (33% de las visitas, 22 cultivos como top)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "3.616 visitas / 10.974 = 32,95%; conteo en crop_visits_summary.csv = 22 cultivos con top_pollinator='Apis cerana' (43% de los 51 visitados)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 10974,
+      "unit": "visitas",
+      "context": "total observado en 10 aldeas",
+      "source": "visits_by_pollinator.csv (suma)",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "taxa",
+      "context": "polinizadores distintos",
+      "source": "visits_by_pollinator.csv (filas)",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "aldeas",
+      "context": "Patarasi Rural Municipality, Jumla, Nepal",
+      "source": "fact_sheet + max(n_villages)",
+      "verified": true
+    },
+    {
+      "value": 51,
+      "unit": "cultivos",
+      "context": "especies cultivadas con visitas registradas",
+      "source": "crop_visits_summary.csv (filas)",
+      "verified": true
+    },
+    {
+      "value": 29,
+      "unit": "cultivos",
+      "context": "con dependencia de polinización medida + escenarios de yield",
+      "source": "yield_scenarios.csv (filas)",
+      "verified": true
+    },
+    {
+      "value": 76.5,
+      "unit": "por ciento",
+      "context": "visitas concentradas en los tres taxa principales",
+      "source": "Apis cerana + Fly + Solitary bee",
+      "verified": true
+    },
+    {
+      "value": 33.0,
+      "unit": "por ciento",
+      "context": "visitas hechas por Apis cerana sola",
+      "source": "3.616 / 10.974",
+      "verified": true
+    },
+    {
+      "value": 9,
+      "unit": "cultivos",
+      "context": "con dependencia de polinización ≥85%",
+      "source": "filtro final_poll_dependence",
+      "verified": true
+    },
+    {
+      "value": 65,
+      "unit": "por ciento",
+      "context": "mediana de dependencia de polinización entre los 29 cultivos",
+      "source": "median(final_poll_dependence)",
+      "verified": true
+    },
+    {
+      "value": 59,
+      "unit": "por ciento",
+      "context": "pérdida media de yield bajo escenario hipotético de pérdida total de polinizadores",
+      "source": "1 - mean(poll_loss_new_yield)",
+      "verified": true
+    },
+    {
+      "value": 44,
+      "unit": "por ciento",
+      "context": "ingreso agrícola atribuido directamente a polinizadores (cifra del paper, no reproducida)",
+      "source": "Timberlake et al. abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "44%",
+        "our_calculation": "no_reproducido",
+        "reason": "Requiere datos de ingreso en Git LFS"
+      }
+    },
+    {
+      "value": 20,
+      "unit": "por ciento",
+      "context": "consumo de vitamina A/folato/E desde cultivos polinizados (cifra del paper, no reproducida)",
+      "source": "Timberlake et al. abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": ">20%",
+        "our_calculation": "no_reproducido",
+        "reason": "Requiere dataset dietético LFS 776 MB"
+      }
+    },
+    {
+      "value": 22,
+      "unit": "cultivos",
+      "context": "donde Apis cerana es el polinizador top",
+      "source": "crop_visits_summary.csv (top_pollinator)",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "cultivos",
+      "context": "donde Fly (Diptera) es el polinizador top",
+      "source": "crop_visits_summary.csv (top_pollinator)",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "quantify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "directly responsible",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa cuantificada (cita al paper si no se reproduce)"
+    },
+    {
+      "abstract_verb": "anticipated",
+      "tier": "T2",
+      "cam_attenuator": "se anticipa / se proyecta — proyección de modelo"
+    }
+  ],
+  "narrative_hooks": [
+    "1 de cada 3 visitas a una flor en Nepal la hace la misma especie",
+    "Tres taxa de polinizadores concentran el 76,5% de las visitas a 51 cultivos",
+    "Nueve cultivos del Himalaya nepalí dependen ≥85% de un insecto",
+    "Si los polinizadores desaparecieran, los cultivos perderían en promedio 59% del rendimiento"
+  ],
+  "limitations": [
+    "Los headlines del 44% del ingreso y 20% del consumo de vitamina A no se reproducen — el dataset dietético individual está en Git LFS (776 MB)",
+    "El campo 'Fly' del dataset agregado mezcla toda Diptera; la separación de sirfidae (hoverflies) que destaca el paper vive en otra tabla del estudio",
+    "Los escenarios de yield son proyecciones modelísticas — el paper las enmarca con 'anticipated'",
+    "El estudio se hizo en una región específica del Himalaya nepalí (Jumla); la extrapolación requiere replicación"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims verificados + 2 claims parciales del paper + 4 hooks narrativos sólidos"
+  },
+  "notebook_slug": "2026-05-06-polinizadores-nutricion-nepal",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-polinizadores-nutricion-nepal/notebook.html",
+  "generated_at": "2026-05-10T12:21:02.006856Z"
+}
