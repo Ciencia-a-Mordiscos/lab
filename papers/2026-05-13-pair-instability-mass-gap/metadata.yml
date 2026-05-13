@@ -1,0 +1,19 @@
+titulo: "Agujeros negros donde no deberían existir"
+fecha: 2026-05-13
+categoria: astronomía
+tags: [agujeros-negros, ondas-gravitacionales, ligo, gwtc-4, mass-gap, astrofisica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02847-0"
+    titulo: "Gravitational-wave constraints on the pair-instability mass gap and nuclear burning in massive stars"
+    journal: Nature Astronomy
+    autores: "Antonini et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "gwtc4_o4a_bbh.csv"
+    descripcion: "84 BBHs de O4a (GWTC-4.0) — medianas + 90% CI de masa, espín efectivo, distancia, SNR"
+    fuente: "GWTC-4.0 PE Summary Table (Zenodo 17014085) — derivado a CSV por evento (NRSur7dq4 o Mixed)"
+estado: publicado

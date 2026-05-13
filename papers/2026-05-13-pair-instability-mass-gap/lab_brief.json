@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "paper_id": 2453,
+  "doi": "10.1038/s41550-026-02847-0",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Borde inferior del mass gap a 44.3 +5.9/-3.5 M_sun (paper, 153 eventos)",
+      "supported": "partial",
+      "detail": "No replicable en O4a — viene de inferencia jerárquica sobre GWTC-1+2+3+4. Cross-check coherente: 30 de 84 BBHs de O4a (35.7%) tienen m1 mediana > 44.3 M_sun.",
+      "certainty_tier": "T2",
+      "abstract_verb": "present evidence",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "S-factor S300 = 268 +195/-116 keV b para reacción C12(α,γ)O16",
+      "supported": "no",
+      "detail": "No replicable — requiere acoplar inferencia GW a modelos de evolución estelar masiva. Reportado como contexto del paper.",
+      "certainty_tier": "T2",
+      "abstract_verb": "obtain a measurement",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "Dos poblaciones distintas: una de espín bajo (sin agujeros sobre el gap) + otra de espín alto con orientación aleatoria (a lo largo de todo el rango de masa)",
+      "supported": "yes",
+      "detail": "Firma visible en O4a: bin m1 > 70 M_sun (n=6) tiene mediana chi_eff = +0.27 vs +0.03 global. Bootstrap p ≈ 0.0006. El paper formaliza con Bayes factor > 10^4.",
+      "certainty_tier": "T2",
+      "abstract_verb": "reveal",
+      "effect_size": {
+        "measure": "median_diff_chi_eff",
+        "value": 0.27,
+        "interpretation": "9x mayor que mediana global"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Exclusión de eventos con componente < 3 M_sun (criterio para excluir estrellas de neutrones)",
+      "supported": "yes",
+      "detail": "Aplicado en CSV: 2 eventos excluidos (GW230518_125908 y GW230529_181500) consistentes con NSBH/BNS.",
+      "certainty_tier": "T2",
+      "abstract_verb": "describe",
+      "effect_size": null,
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 44.3,
+      "unit": "M_sun",
+      "context": "borde inferior del mass gap (paper headline, IC 90%: -3.5/+5.9)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 30,
+      "unit": "eventos",
+      "context": "BBHs O4a con m1 mediana > 44.3 M_sun (35.7% de 84)",
+      "source": "data",
+      "verified": true,
+      "cross_check": {
+        "our_calculation": "30 de 84"
+      }
+    },
+    {
+      "value": 128.5,
+      "unit": "M_sun",
+      "context": "agujero negro primario más masivo en O4a (GW231123_135430)",
+      "source": "data",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 6,
+      "unit": "eventos",
+      "context": "BBHs con m1 > 70 M_sun en O4a",
+      "source": "data",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.27,
+      "unit": "chi_eff (mediana)",
+      "context": "espín efectivo mediano del bin m1 > 70 M_sun — 9x mayor que mediana global (+0.03)",
+      "source": "data",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.0006,
+      "unit": "probabilidad",
+      "context": "bootstrap de obtener mediana de chi_eff ≥ +0.27 en muestra aleatoria de 6 (10 000 muestreos sin reemplazo)",
+      "source": "data",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 84,
+      "unit": "eventos",
+      "context": "BBHs nuevos de O4a (GWTC-4.0) analizados en el notebook",
+      "source": "data",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 153,
+      "unit": "eventos",
+      "context": "muestra total del paper (GWTC-1+2+3+4)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 10000,
+      "unit": "factor de Bayes (B > 10^4)",
+      "context": "evidencia del paper a favor de 'dos poblaciones' vs 'una sola'",
+      "source": "paper",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present evidence",
+      "tier": "T2",
+      "cam_attenuator": "los datos apuntan a"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T2",
+      "cam_attenuator": "los datos revelan (en análisis inferencial)"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "es consistente con"
+    },
+    {
+      "abstract_verb": "point to",
+      "tier": "T2",
+      "cam_attenuator": "apunta a"
+    }
+  ],
+  "narrative_hooks": [
+    "Las estrellas no deberían producir agujeros negros entre ~50 y ~130 M_sun. LIGO los detecta igual.",
+    "Los seis agujeros más masivos del catálogo giran nueve veces más rápido en promedio.",
+    "El agujero negro primario más pesado detectado en O4a pesa 128 M_sun — bien adentro de la zona prohibida."
+  ],
+  "limitations": [
+    "Solo cubrimos O4a (84 BBHs nuevos). El paper combina GWTC-1+2+3+4 (153 eventos).",
+    "Usamos un corte simple |chi_eff| ≥ 0.1 para grupos baja/alta-spin con fines didácticos — el paper usa modelo de mixtura jerárquica.",
+    "Las medianas usadas aquí son posteriores marginalizadas, ignoran correlaciones m1-chi_eff por evento.",
+    "El bootstrap p ≈ 0.0006 trata las 84 medianas como muestra fija — no incorpora incertidumbre por evento."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 1 partial + 1 no → estándar"
+  },
+  "notebook_slug": "2026-05-13-pair-instability-mass-gap",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-pair-instability-mass-gap/notebook.html",
+  "generated_at": "2026-05-13T12:57:02.509120Z"
+}

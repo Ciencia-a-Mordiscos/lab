@@ -405,6 +405,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-05-13-pair-instability-mass-gap/README
+    title: "Agujeros negros donde no deberían existir"
+    sections:
+    - file: papers/2026-05-13-pair-instability-mass-gap/notebook
+      title: Notebook
   - file: papers/2026-05-12-diversidad-molecular-biosignatura/README
     title: "Diversidad molecular como biosignatura"
     sections:
