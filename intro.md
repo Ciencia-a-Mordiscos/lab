@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### LLMs y control estatal de medios
+
+**Tecnología** · *Nature* · Bing et al. (2026) auditan **45 idiomas en 36 países** para mapear cómo el control estatal de medios se filtra en los modelos grandes de lenguaje. El dato que abre la historia: el **chino representa el 5,30%** de Common Crawl — la base de entrenamiento más usada por los LLMs comerciales — mientras el **noruego solo el 0,33%**. China tiene un puntaje RSF de libertad de prensa de **23/100** (categoría "muy grave"); Noruega, **92/100** (la mejor). Pero la correlación cruda entre los 45 idiomas (Spearman **ρ=0,215, p=0,156**) **no es estadísticamente significativa**. Y hay un giro incómodo: si excluyes el chino, la correlación **cambia de signo** (ρ=0,299, p=0,049) — más libertad de prensa se asocia con MÁS peso en Common Crawl, al revés de la hipótesis. ⚠️ El paper sostiene su tesis causal con un **experimento de fine-tuning aparte** (no replicado aquí), no con esta correlación observacional. ⚠️ Vietnam tiene **RSF=22,31**, peor que China — la pinza causal idioma↔régimen es más sucia que el titular. ⚠️ El RSF se asigna por país principal del idioma; un mismo idioma puede hablarse en países con regímenes opuestos.
+
+[Ver notebook](papers/2026-05-13-llm-control-estatal-medios/notebook) · [Leer más](papers/2026-05-13-llm-control-estatal-medios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-llm-control-estatal-medios/notebook.ipynb)
+
+---
+
 ### Un drone vuelve a casa con una red de 3,4 kB
 
 **Tecnología** · *Nature* · Ou et al. (2026) entrenaron un drone Crazyflie de **32 gramos** para regresar a casa después de vuelos de hasta **600 m** sin GPS, usando una red neuronal de **3,4 kB** (la `compact`) o **42,3 kB** (la `attention`, con mecanismo de atención visual). La inspiración: el *learning flight* de la abeja melífera. El drone solo necesita explorar el **3,84%** del área total — cerca del **3,4%** estimado para abejas y por debajo del **7,6%** de las hormigas del desierto. En vuelos cortos exteriores (30–110 m) aterriza a menos de medio metro de casa el **100%** de las veces; en vuelos largos (200–600 m con viento variable), el **70%**. El viento alto recorta la tasa **30 puntos porcentuales** (de 80% a 50%) en el mismo rango. ⚠️ El LHA% de abeja y hormiga son **estimaciones derivadas** de comportamiento natural, no medidas directas — el paper lo enmarca como *verificación preliminar* de la estrategia bio-inspirada, no como equivalencia funcional. ⚠️ Las 800 simulaciones se corrieron en bosques sintéticos uniformes (40 árboles en 50×50 m).

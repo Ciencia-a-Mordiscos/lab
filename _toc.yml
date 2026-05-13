@@ -526,6 +526,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-13-llm-control-estatal-medios/README
+    title: "LLMs y control estatal de medios"
+    sections:
+    - file: papers/2026-05-13-llm-control-estatal-medios/notebook
+      title: Notebook
   - file: papers/2026-05-13-bee-nav-navegacion-drones-abejas/README
     title: "Un drone vuelve a casa con una red de 3,4 kB"
     sections:

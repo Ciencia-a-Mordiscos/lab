@@ -1,0 +1,22 @@
+titulo: "LLMs y control estatal de medios"
+fecha: 2026-05-13
+categoria: tecnología
+tags: [llm, libertad-de-prensa, common-crawl, rsf, auditoría, ia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10506-7"
+    titulo: "State media control influences large language models"
+    journal: Nature
+    autores: "Bing et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "idiomas_pais_rsf.csv"
+    descripcion: "45 idiomas (ISO 639-3) en 36 países con puntaje RSF, situación de prensa y % en Common Crawl"
+    fuente: "Harvard Dataverse — Replication Package DOI:10.7910/DVN/NECR2K"
+  - nombre: "prompts_auditoria.csv"
+    descripcion: "261 prompts bilingües (inglés + chino) usados en la auditoría de LLMs comerciales"
+    fuente: "Harvard Dataverse — Replication Package DOI:10.7910/DVN/NECR2K"
+estado: publicado

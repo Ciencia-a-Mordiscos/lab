@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "paper_id": 2477,
+  "doi": "10.1038/s41586-026-10506-7",
+  "paper_type": "mixed",
+  "study_design": "mixed (observacional cross-national + experimental fine-tuning)",
+  "species": "n/a (sistemas artificiales: LLMs + corpus de medios)",
+  "verification_table": [
+    {
+      "claim": "El estudio audita 45 idiomas en 36 países",
+      "supported": "yes",
+      "detail": "Confirmado en idiomas_pais_rsf.csv: n=45, países únicos=36.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "El chino es el idioma con más presencia en Common Crawl entre los 45 auditados (5.30%); el noruego, el de menor presencia entre los focos de comparación (0.33%)",
+      "supported": "yes",
+      "detail": "zho: 5.295% (top 1/45). jpn: 4.789% (top 2). ita: 2.483% (top 3). nor: 0.334%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 15.86,
+        "interpretation": "chino vs noruego ≈ 16×"
+      }
+    },
+    {
+      "claim": "La correlación cruda entre RSF score y presencia en Common Crawl no es estadísticamente significativa (Spearman ρ=0.215, p=0.156, n=45)",
+      "supported": "yes",
+      "detail": "El paper sostiene su tesis causal con un experimento de fine-tuning, no con esta correlación observacional.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.215,
+        "interpretation": "no significativa (p=0.156)"
+      }
+    },
+    {
+      "claim": "Sin China, la correlación se vuelve positiva y marginalmente significativa (ρ=0.299, p=0.049, n=44): más libertad de prensa, más peso en Common Crawl — lo contrario a la hipótesis causal del paper",
+      "supported": "yes",
+      "detail": "Hallazgo del Lab no enfatizado por el paper. Muestra que el caso del chino es lo que tira de la correlación hacia la dirección esperada.",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.299,
+        "interpretation": "positiva, marginal (p=0.049)"
+      }
+    },
+    {
+      "claim": "El paper usó 6 estudios distintos: un audit cross-national + un case study chino multi-parte (experimental + observacional)",
+      "supported": "yes",
+      "detail": "Confirmado en abstract. Este Lab replica solo la primera pieza (audit cross-national observacional).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Los prompts de auditoría están sesgados hacia China y EE.UU. (70 + 69 = 53% del total de 261)",
+      "supported": "yes",
+      "detail": "Distribución: China 70, U.S. 69, Germany 25, U.K. 25, Russia 24, North Korea 24, Japan 17, Singapore 7.",
+      "certainty_tier": "T1",
+      "abstract_verb": "develop",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 45,
+      "unit": "idiomas",
+      "context": "muestra del audit cross-national",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 36,
+      "unit": "países",
+      "context": "países representados en los 45 idiomas",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 5.3,
+      "unit": "por ciento",
+      "context": "presencia del chino en Common Crawl (top 1)",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 0.33,
+      "unit": "por ciento",
+      "context": "presencia del noruego en Common Crawl",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 4.79,
+      "unit": "por ciento",
+      "context": "presencia del japonés en Common Crawl (top 2)",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 23.36,
+      "unit": "puntos RSF",
+      "context": "puntaje de libertad de prensa de China (categoría 'situación muy grave')",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 91.89,
+      "unit": "puntos RSF",
+      "context": "puntaje de libertad de prensa de Noruega (categoría 'buena situación')",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 22.31,
+      "unit": "puntos RSF",
+      "context": "puntaje de libertad de prensa de Vietnam (el más bajo del dataset)",
+      "source": "csv_idiomas_pais_rsf",
+      "verified": true
+    },
+    {
+      "value": 0.215,
+      "unit": "Spearman rho",
+      "context": "correlación cruda RSF vs CC% con China (p=0.156, NO significativa)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 0.299,
+      "unit": "Spearman rho",
+      "context": "correlación sin China (p=0.049, signo positivo)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "estudios",
+      "context": "número de estudios del paper",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 261,
+      "unit": "prompts",
+      "context": "tamaño total del banco de prompts de auditoría bilingüe",
+      "source": "csv_prompts_auditoria",
+      "verified": true
+    },
+    {
+      "value": 70,
+      "unit": "prompts",
+      "context": "prompts focalizados en China (top 1)",
+      "source": "csv_prompts_auditoria",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "los datos muestran"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggests",
+      "tier": "T2",
+      "cam_attenuator": "apunta a / sugiere (no demuestra)"
+    }
+  ],
+  "narrative_hooks": [
+    "El chino representa el 5.30% de Common Crawl. El noruego, el 0.33%.",
+    "La correlación cruda RSF vs Common Crawl no es significativa — el paper sostiene su tesis causal con un experimento de fine-tuning, no con esta correlación.",
+    "Sin China, el patrón se invierte: más libertad de prensa, más peso en los datos de entrenamiento.",
+    "El idioma con el peor puntaje RSF del dataset no es el chino, sino el vietnamita (22.31).",
+    "53% de los prompts de auditoría se concentran en China + EE.UU."
+  ],
+  "limitations": [
+    "n=45 idiomas es pequeño para una correlación robusta cross-national.",
+    "El RSF score se asigna por país principal del idioma — un idioma puede hablarse en países con regímenes opuestos (ej. inglés en U.S. vs U.K.).",
+    "La columna cc_pct del CSV está escalada ×100; en el notebook se divide para igualar el valor reportado en el paper.",
+    "El Lab solo replica el estudio 1 (cross-national audit observacional); los hallazgos causales del paper vienen del experimento de fine-tuning (estudio 2), no replicado aquí."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims yes en verification_table + 13 key_numbers — script denso con tema políticamente sensible que requiere matices"
+  },
+  "notebook_slug": "2026-05-13-llm-control-estatal-medios",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-llm-control-estatal-medios/notebook.html",
+  "generated_at": "2026-05-13T23:07:55.757993Z"
+}
