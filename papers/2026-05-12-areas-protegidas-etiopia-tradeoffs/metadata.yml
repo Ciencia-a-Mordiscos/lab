@@ -1,0 +1,31 @@
+titulo: "Áreas protegidas de Etiopía: cuando proteger funciona y duele a la vez"
+fecha: 2026-05-12
+categoria: ecologia
+tags: [conservacion, biodiversidad, etiopia, areas-protegidas, cuasi-experimental, trade-offs, bienestar]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03047-9"
+    titulo: "Trade-offs between nature and people in Ethiopia's protected areas demonstrate challenges in translating global conservation targets into national realities"
+    journal: "Nature Ecology & Evolution"
+    autores: "Jago et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "pas_metadata.csv"
+    descripcion: "79 áreas protegidas oficiales de Etiopía con metadata (Sep 2024)"
+    fuente: "Supplementary Materials — shapefile oficial"
+  - nombre: "effectiveness_atts.csv"
+    descripcion: "ATTs ambientales con CI 95% (strict vs less-strict × 3 outcomes)"
+    fuente: "Paper text, Results section"
+  - nombre: "wellbeing_atts.csv"
+    descripcion: "ATTs sociales sobre 802 hogares emparejados"
+    fuente: "Paper text, Results section"
+  - nombre: "tradeoffs_summary.csv"
+    descripcion: "Clasificación trade-off de 25 PAs (Fig 4a del paper)"
+    fuente: "Paper text"
+  - nombre: "stakeholder_priorities.csv"
+    descripcion: "Encuesta a 37 profesionales conservacionistas etíopes"
+    fuente: "Paper text + Supplementary Table 8"
+estado: publicado

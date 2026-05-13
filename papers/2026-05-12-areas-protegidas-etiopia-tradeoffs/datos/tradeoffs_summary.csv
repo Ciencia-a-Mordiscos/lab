@@ -1,0 +1,5 @@
+category,n_pas,description
+trade_off_env_better,12,Better environmental performance at cost of social wellbeing
+trade_off_social_better,5,Better social wellbeing at environmental cost
+win_win,5,Better than counterfactual for both biodiversity and poverty
+lose_lose,3,Worse than counterfactual for both

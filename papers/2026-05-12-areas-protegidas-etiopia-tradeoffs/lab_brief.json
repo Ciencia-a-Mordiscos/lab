@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "paper_id": 2467,
+  "doi": "10.1038/s41559-026-03047-9",
+  "paper_type": "observational",
+  "study_design": "quasi-experimental",
+  "species": "human (Ethiopian rural households) + spatial gridcell analysis",
+  "verification_table": [
+    {
+      "claim": "9,4% de Etiopía está protegido; expansión 3× sería necesaria para alcanzar el 30-by-30",
+      "supported": "yes",
+      "detail": "Headline del paper (9,4%); el DBF suma 9,0% por ajustes oficiales. La 'threefold expansion' viene de la sección de extent representation.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating"
+    },
+    {
+      "claim": "Las áreas protegidas estrictas se asocian con -44% de expansión agrícola contra el contrafactual",
+      "supported": "yes",
+      "detail": "ATT = -0,61 (CI -0,90 a -0,33; p<0,001); equivalente a ~262 km² evitados (CI 140–384). n=4.702 gridcells matched.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "Las áreas protegidas estrictas se asocian con +76% más pastizales (efecto grande y robusto)",
+      "supported": "yes",
+      "detail": "ATT = +4,34 (CI 2,76 a 5,91; p<0,001); ~1.850 km² adicionales (CI 1.178–2.522).",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "El efecto sobre pérdida forestal en áreas estrictas es marginal (al borde de significancia)",
+      "supported": "partial",
+      "detail": "ATT = +0,07 (CI 0,0003 a 0,14; p=0,04); el CI inferior casi toca 0. El paper mismo lo enmarca como 'moderately reduced'.",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "show (atenuado)"
+    },
+    {
+      "claim": "Las áreas menos estrictas no reducen la pérdida forestal (resultado nulo legítimo)",
+      "supported": "yes",
+      "detail": "p=0,98 — sin efecto detectable. El paper interpreta esto como evidencia de que la protección estricta es necesaria para bosques.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "show (null)"
+    },
+    {
+      "claim": "Los hogares dentro de 10 km de una PA pierden ~1,23 meses de comida adecuada al año",
+      "supported": "yes",
+      "detail": "ATT = -1,23 (CI -1,54 a -0,92; p<0,001) sobre n=802 hogares emparejados (401 + 401).",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "have brought"
+    },
+    {
+      "claim": "Proyectado a 3,2 M hogares dentro de 10 km de una PA = ~3,9 M hogar-meses perdidos",
+      "supported": "partial",
+      "detail": "Es un CÁLCULO DERIVADO: ATT × 3,2 M hogares. No es un valor observado — es proyección poblacional. CI 2,9–4,9 M.",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "have brought (proyectado)"
+    },
+    {
+      "claim": "68% de las PAs evaluadas muestran trade-off entre ambiente y bienestar",
+      "supported": "yes",
+      "detail": "17 de 25 PAs (12 mejor ambiental/peor social + 5 mejor social/peor ambiental). Win-win = 5 (20%); lose-lose = 3 (12%).",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "highlight"
+    },
+    {
+      "claim": "77% de stakeholders priorizan mejorar la red existente sobre expandirla",
+      "supported": "yes",
+      "detail": "n=37 profesionales etíopes; Kendall W=0,74; χ²=51,6; p<0,001. Coherencia alta entre rankings.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "recognize / prioritize"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9.4,
+      "unit": "%",
+      "context": "cobertura actual de áreas protegidas en Etiopía (paper headline)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "9,4%",
+        "our_calculation": "9,0% (DBF directo)",
+        "discrepancy_pct": 4,
+        "reason": "DBF excluye degazetted/duplicadas"
+      }
+    },
+    {
+      "value": 30,
+      "unit": "%",
+      "context": "meta del Marco Global de Biodiversidad Kunming-Montreal para 2030",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "×",
+      "context": "expansión necesaria de la red para alcanzar la meta 30-by-30",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 18,
+      "unit": "millones de personas",
+      "context": "viven a menos de 10 km de un área protegida (2020)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 3.2,
+      "unit": "millones de hogares",
+      "context": "dentro de 10 km de un área protegida (2011)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": -44,
+      "unit": "% relativo",
+      "context": "reducción de expansión agrícola en áreas estrictas (vs contrafactual)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-44%",
+        "our_calculation": "ATT=-0.61, CI [-0.90,-0.33], p<0.001"
+      }
+    },
+    {
+      "value": 76,
+      "unit": "% relativo",
+      "context": "incremento de pastizales en áreas estrictas (vs contrafactual)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "+76%",
+        "our_calculation": "ATT=+4.34, CI [2.76,5.91], p<0.001"
+      }
+    },
+    {
+      "value": -1.23,
+      "unit": "meses por hogar/año",
+      "context": "ATT meses de comida adecuada perdidos en hogares cercanos a PAs",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-1.23 months",
+        "our_calculation": "ATT=-1.23, CI [-1.54,-0.92], p<0.001, n=802"
+      }
+    },
+    {
+      "value": 3.9,
+      "unit": "millones de hogar-meses",
+      "context": "proyección poblacional de comida adecuada perdida a escala nacional",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3.9 M household-months",
+        "our_calculation": "1.23 × 3.2M ≈ 3.94 M",
+        "discrepancy_pct": 1,
+        "reason": "rounding"
+      }
+    },
+    {
+      "value": 68,
+      "unit": "%",
+      "context": "PAs con trade-off ambiente vs sociedad (17 de 25 evaluadas)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 20,
+      "unit": "%",
+      "context": "PAs win-win (5 de 25)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "%",
+      "context": "PAs lose-lose (3 de 25)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 77,
+      "unit": "%",
+      "context": "stakeholders que priorizan mejorar la red existente sobre expandirla",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 37,
+      "unit": "profesionales",
+      "context": "n de la encuesta a stakeholders conservacionistas etíopes",
+      "source": "paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrating",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (extent descriptive)"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación inferencial — usar 'estima', 'se asocia con', 'contra el contrafactual'. NUNCA 'causa', 'produce', 'genera'."
+    },
+    {
+      "abstract_verb": "have brought",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa pero respetar proyección poblacional del headline 3,9M"
+    },
+    {
+      "abstract_verb": "recognize",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (encuesta)"
+    }
+  ],
+  "narrative_hooks": [
+    "Etiopía protege el 9,4% de su territorio — y para alcanzar la meta global tendría que triplicar la red",
+    "Las áreas estrictas funcionan: -44% expansión agrícola, +76% pastizales. Pero los hogares cercanos terminan con casi 1,23 meses menos de comida al año",
+    "68% de las áreas evaluadas tienen trade-off entre ambiente y sociedad. Solo el 20% son win-win",
+    "Los conservacionistas etíopes lo saben: 77% prefiere mejorar la red existente antes que expandirla"
+  ],
+  "limitations": [
+    "Diseño cuasi-experimental con matching estadístico, NO RCT. Confounders no observados son posibles; el paper testea sensibilidad y muestra que el resultado social aguanta hasta 9× la fuerza del confounder benchmark.",
+    "El headline de 3,9 M hogar-meses es una proyección poblacional (ATT × 3,2 M hogares), no un valor observado.",
+    "n=802 hogares es muestra modesta para extrapolar a 3,2 M hogares — depende de la representatividad del muestreo de Living Standards Measurement Study.",
+    "Discrepancia DBF (9,0%) vs paper headline (9,4%) por áreas degazetted/duplicadas en el shapefile.",
+    "El histograma de robustez del notebook es simulación basada en SE reportado, no replicación de las 56 specs reales del paper."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims yes — script denso"
+  },
+  "notebook_slug": "2026-05-12-areas-protegidas-etiopia-tradeoffs",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-12-areas-protegidas-etiopia-tradeoffs/notebook.html",
+  "generated_at": "2026-05-13T12:19:21.521477Z"
+}

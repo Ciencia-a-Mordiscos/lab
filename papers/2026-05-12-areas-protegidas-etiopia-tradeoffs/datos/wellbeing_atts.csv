@@ -1,0 +1,4 @@
+outcome,att,ci_low,ci_high,z,p_value,interpretation
+months_adequate_food,-1.23,-1.54,-0.92,-7.66,0.0001,Decline of ~1 month per household vs ~0 in controls
+material_wellbeing_asset_index,-1.21,-1.90,-0.52,-3.44,0.0001,Asset index decline vs improvement in controls
+dietary_diversity,0.13,-0.22,0.48,0.72,0.47,No significant difference

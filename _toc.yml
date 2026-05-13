@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-12-areas-protegidas-etiopia-tradeoffs/README
+    title: "Áreas protegidas de Etiopía: cuando proteger funciona y duele a la vez"
+    sections:
+    - file: papers/2026-05-12-areas-protegidas-etiopia-tradeoffs/notebook
+      title: Notebook
   - file: papers/2026-05-10-rango-plantas-clima-extincion/README
     title: "Plantas que no pueden seguirle el paso al clima"
     sections:
