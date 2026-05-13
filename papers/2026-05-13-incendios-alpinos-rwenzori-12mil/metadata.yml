@@ -1,0 +1,25 @@
+titulo: "Primer incendio alpino del siglo XXI en los Rwenzori — 12.000 años de registro"
+fecha: 2026-05-13
+categoria: ecologia
+tags: [ecologia, paleoclima, fuego, africa, holoceno, charcoal, polen]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10511-w"
+    titulo: "Twenty-first century emergence of alpine fire in Central African mountains"
+    journal: Nature
+    autores: "Mason, A. L., et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "kopello_charcoal.csv"
+    descripcion: "Lago Kopello (4.017 m a.s.l., alpino): tasa de acumulación de carbón macroscópico (>250 µm), 493 muestras, 12 ka"
+    fuente: "PANGAEA 10.1594/PANGAEA.987871"
+  - nombre: "mahoma_charcoal.csv"
+    descripcion: "Lago Mahoma (2.990 m a.s.l., bosque): tasa de acumulación de carbón macroscópico (>250 µm), 328 muestras, 12 ka"
+    fuente: "PANGAEA 10.1594/PANGAEA.987874"
+  - nombre: "mahoma_pollen.csv"
+    descripcion: "Lago Mahoma: porcentaje de polen de Celtis africana, Poaceae y Podocarpus, 63 muestras, 12 ka"
+    fuente: "PANGAEA 10.1594/PANGAEA.987876"
+estado: publicado

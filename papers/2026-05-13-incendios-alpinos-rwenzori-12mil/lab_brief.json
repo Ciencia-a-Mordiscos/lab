@@ -1,0 +1,210 @@
+{
+  "version": "1.0",
+  "paper_id": 2480,
+  "doi": "10.1038/s41586-026-10511-w",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "ecosystem (Afromontane vegetation, sediment proxy)",
+  "verification_table": [
+    {
+      "claim": "El pico de 2014 en Kopello (4.017 m) es la mayor magnitud de fuego local en 12.000 años",
+      "supported": "partial",
+      "detail": "Pico 87 vs máximo previo 20 (ratio 4,35×) y media 0,39 (ratio 223×). 86% de 456 muestras pre-1950 tienen carbón >0 — eso es transporte regional, no fuego local. Lo sin precedentes es la magnitud, no la presencia.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 4.35,
+        "interpretation": "magnitud sin precedentes en 12 ka"
+      }
+    },
+    {
+      "claim": "En Mahoma (2.990 m) el fuego aumenta abruptamente hace ~2.000 años",
+      "supported": "yes",
+      "detail": "Media pre-2 ka: 0,31 (n=247). Media post-2 ka: 1,73 (n=81). Fold change 5,5×. Mediana de 0,22 a 1,46. Mann-Whitney p<0,001, Cohen's d=2,2.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.22,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "Después del cambio en Mahoma, los pastos (Poaceae) reemplazan parte del bosque",
+      "supported": "yes",
+      "detail": "Poaceae: 6,8%→17,8% (+11 pp, d=1,6). Celtis africana: −7,5 pp (d=−1,4). Podocarpus: +8,6 pp (d=1,6). n=44 pre vs n=19 post.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.63,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "El aumento de fuego coincide con evidencia regional de actividad humana",
+      "supported": "partial",
+      "detail": "Coincidencia temporal (~2 ka). El dataset no contiene proxy humano independiente. El paper enmarca como 'highlight the role of humans'. Diseño observacional: coincide, no demuestra causalidad.",
+      "certainty_tier": "T2",
+      "abstract_verb": "coincident with",
+      "effect_size": {
+        "measure": "correlation_temporal",
+        "value": null,
+        "interpretation": "observacional"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 87,
+      "unit": "partículas/cm²/año",
+      "context": "pico de carbón en Kopello (4.017 m) en 2014 CE",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "first in 12 ka",
+        "our_calculation": "87 vs max previo 20",
+        "discrepancy_pct": 0,
+        "reason": "exacto"
+      }
+    },
+    {
+      "value": 20,
+      "unit": "partículas/cm²/año",
+      "context": "máximo de carbón en Kopello durante los 12.000 años pre-1950",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.35,
+      "unit": "ratio",
+      "context": "pico 2014 vs máximo previo en Kopello",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 223,
+      "unit": "ratio",
+      "context": "pico 2014 vs media de los 12.000 años en Kopello",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4017,
+      "unit": "metros",
+      "context": "elevación del Lago Kopello (alpino)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 2990,
+      "unit": "metros",
+      "context": "elevación del Lago Mahoma (bosque)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 12000,
+      "unit": "años",
+      "context": "duración del registro paleorrecord",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 5.5,
+      "unit": "fold change",
+      "context": "fuego en Mahoma post-2ka vs pre-2ka",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.22,
+      "unit": "Cohen's d",
+      "context": "tamaño de efecto Mahoma pre/post 2 ka",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2000,
+      "unit": "años",
+      "context": "punto de quiebre en Mahoma (años antes del presente)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 11.0,
+      "unit": "puntos porcentuales",
+      "context": "aumento de Poaceae post-2ka vs pre-2ka",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -7.5,
+      "unit": "puntos porcentuales",
+      "context": "caída de Celtis africana post-2ka vs pre-2ka",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.6,
+      "unit": "puntos porcentuales",
+      "context": "aumento de Podocarpus post-2ka vs pre-2ka",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 86,
+      "unit": "por ciento",
+      "context": "% de muestras pre-1950 en Kopello con carbón >0 (transporte regional de fondo)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (con caveat de magnitud vs presencia)"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    },
+    {
+      "abstract_verb": "coincident with",
+      "tier": "T2",
+      "cam_attenuator": "coincide con / asociado a — NO causal"
+    },
+    {
+      "abstract_verb": "highlight",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa de los autores"
+    },
+    {
+      "abstract_verb": "could transform",
+      "tier": "T3",
+      "cam_attenuator": "podría / si se mantiene la tendencia"
+    }
+  ],
+  "narrative_hooks": [
+    "87 partículas de carbón en 2014 a 4.017 m de altura. El máximo en los 12.000 años anteriores: 20.",
+    "Un lago alpino africano nunca había ardido localmente con esa intensidad en 12 milenios — hasta 2014.",
+    "El fuego subió la montaña: en el bosque ya lo hacía hace 2.000 años, en la cumbre alpina recién en el siglo XXI."
+  ],
+  "limitations": [
+    "Los registros de carbón reflejan fuego local pero no distinguen tipo de combustible ni intensidad por evento.",
+    "El umbral de 2 ka para Mahoma es una inspección visual del quiebre; un análisis formal de cambio-punto usaría modelos estadísticos dedicados.",
+    "El paper combina los proxies de carbón y polen con evidencia arqueológica externa (cited refs) que no está en estos archivos — el claim humano-fuego es correlación temporal, no causalidad demostrada por estos datos.",
+    "El número de muestras pre-2ka (n=44) y post-2ka (n=19) en polen es bajo; los tamaños de efecto son muy grandes pero IC anchos."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "3 claims yes/partial + 1 con caveat fuerte + ~14 key numbers; script denso para honrar el matiz magnitud-vs-presencia"
+  },
+  "notebook_slug": "2026-05-13-incendios-alpinos-rwenzori-12mil",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook.html",
+  "generated_at": "2026-05-13T21:29:11.050495Z"
+}

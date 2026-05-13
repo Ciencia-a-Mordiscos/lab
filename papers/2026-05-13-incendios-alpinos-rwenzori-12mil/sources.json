@@ -1,0 +1,232 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "El pico de fuego en Kopello (4.017 m) en 2014 alcanzó 87 partículas/cm²/año, frente a un máximo de 20 en los 12.000 años anteriores",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "En Mahoma (2.990 m) el fuego aumenta abruptamente hace ~2.000 años: media pasa de 0,31 a 1,73 (5,5×)",
+      "source_ids": [
+        "s1",
+        "s3"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "Tras el aumento de fuego en Mahoma, Poaceae sube de 6,8% a 17,8% (+11 pp); Celtis africana cae 7,5 pp; Podocarpus sube 8,6 pp",
+      "source_ids": [
+        "s1",
+        "s4"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "El aumento de fuego coincide temporalmente con evidencia regional de actividad humana — observacional, no causal",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "contexto",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c5",
+      "text": "Pico de carbón en Kopello en 2014 CE: 87 partículas/cm²/año",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "Máximo histórico de carbón en Kopello pre-1950 (12.000 años): 20 partículas/cm²/año",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "Ratio pico-2014 vs máximo histórico en Kopello: 4,35×",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "derivada"
+    },
+    {
+      "id": "c8",
+      "text": "Ratio pico-2014 vs media de 12 ka en Kopello: 223×",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "derivada"
+    },
+    {
+      "id": "c9",
+      "text": "Elevación del Lago Kopello: 4.017 m a.s.l. (zona afroalpina, >3.800 m)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "Elevación del Lago Mahoma: 2.990 m a.s.l. (bosque montano)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "Duración del registro paleorrecord: 12.000 años (Holoceno)",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "Fold change de fuego en Mahoma post-2ka vs pre-2ka: 5,5×",
+      "source_ids": [
+        "s1",
+        "s3"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "derivada"
+    },
+    {
+      "id": "c13",
+      "text": "Tamaño de efecto Mahoma pre/post 2 ka: Cohen's d = 2,2 (muy grande)",
+      "source_ids": [
+        "s1",
+        "s3"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "derivada"
+    },
+    {
+      "id": "c14",
+      "text": "Punto de quiebre en Mahoma: ~2.000 años antes del presente",
+      "source_ids": [
+        "s1",
+        "s3"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c15",
+      "text": "Poaceae sube +11 puntos porcentuales (6,8% → 17,8%) tras el quiebre",
+      "source_ids": [
+        "s1",
+        "s4"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c16",
+      "text": "Celtis africana cae −7,5 pp tras el quiebre",
+      "source_ids": [
+        "s1",
+        "s4"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c17",
+      "text": "Podocarpus sube +8,6 pp tras el quiebre",
+      "source_ids": [
+        "s1",
+        "s4"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c18",
+      "text": "El 86% de muestras pre-1950 en Kopello tienen carbón >0, interpretado como transporte regional",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "contexto",
+      "certeza": "inferida"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "Twenty-first century emergence of alpine fire in Central African mountains",
+      "url": "https://doi.org/10.1038/s41586-026-10511-w",
+      "fecha_publicacion": "2026-05-13",
+      "fecha_consulta": "2026-05-13",
+      "articulo_id": null,
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "PANGAEA",
+      "tipo": "dataset",
+      "titulo": "Lacustrine sedimentary charcoal records of the Rwenzori Mountains, Central Africa: Lake Kopello",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.987871",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_consulta": "2026-05-13",
+      "articulo_id": null,
+      "rol": "base"
+    },
+    {
+      "id": "s3",
+      "medio": "PANGAEA",
+      "tipo": "dataset",
+      "titulo": "Lacustrine sedimentary charcoal records of the Rwenzori Mountains, Central Africa: Lake Mahoma",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.987874",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_consulta": "2026-05-13",
+      "articulo_id": null,
+      "rol": "base"
+    },
+    {
+      "id": "s4",
+      "medio": "PANGAEA",
+      "tipo": "dataset",
+      "titulo": "Lacustrine sedimentary pollen records of the Rwenzori Mountains, Central Africa: Lake Mahoma",
+      "url": "https://doi.pangaea.de/10.1594/PANGAEA.987876",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_consulta": "2026-05-13",
+      "articulo_id": null,
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Twenty-first century emergence of alpine fire in Central African mountains](https://doi.org/10.1038/s41586-026-10511-w)  \n*Nature, 2026-05-13*\n\n**Datasets canónicos** (PANGAEA, acceso libre):\n- [Lacustrine sedimentary charcoal records of the Rwenzori Mountains, Central Africa: Lake Kopello](https://doi.pangaea.de/10.1594/PANGAEA.987871)\n- [Lacustrine sedimentary charcoal records of the Rwenzori Mountains, Central Africa: Lake Mahoma](https://doi.pangaea.de/10.1594/PANGAEA.987874)\n- [Lacustrine sedimentary pollen records of the Rwenzori Mountains, Central Africa: Lake Mahoma](https://doi.pangaea.de/10.1594/PANGAEA.987876)\n\n*18 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

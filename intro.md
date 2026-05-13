@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Primer incendio alpino del siglo XXI en los Rwenzori — 12.000 años de registro
+
+**Ecología** · *Nature* · Mason et al. (2026) reconstruyen 12 milenios de registro de fuego en dos lagos de los montes Rwenzori (frontera Uganda-RDC). En el **Lago Kopello** (4.017 m, zona afroalpina), el pico de **2014 alcanzó 87 partículas de carbón por cm²/año** — **4,35× más alto** que el máximo de los 12.000 años anteriores (20) y **223× la media** del registro (0,39). En el **Lago Mahoma** (2.990 m, bosque), el cambio ocurrió antes: el fuego subió **5,5×** hace ~2.000 años (Mann-Whitney p<0,001, Cohen's d=2,2). El polen del mismo período cuenta el otro lado de la historia: **Poaceae +11 pp**, **Podocarpus +8,6 pp**, **Celtis africana −7,5 pp** — el dosel se abre. ⚠️ El 86% de muestras pre-1950 en Kopello tienen carbón >0: eso es transporte regional, no fuego local; lo sin precedentes es la **magnitud**, no la presencia. ⚠️ Diseño observacional — la coincidencia temporal con actividad humana es correlación, no causa. ⚠️ n=44 vs n=19 en polen.
+
+[Ver notebook](papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook) · [Leer más](papers/2026-05-13-incendios-alpinos-rwenzori-12mil/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook.ipynb)
+
+---
+
 ### LAP1-B: la galaxia más químicamente primitiva conocida
 
 **Astronomía** · *Nature* · Nakajima et al. (2026) presentan observaciones del James Webb (NIRSpec/PRISM) sobre **LAP1-B**, una galaxia ultra-débil a redshift espectroscópico **z = 6,625 ± 0,001** — 800 millones de años después del Big Bang. La galaxia está amplificada **98 veces** por una lente gravitacional; sin esa amplificación no la habríamos visto. La abundancia de oxígeno gas-phase es **(4,2 ± 1,8) × 10⁻³ veces el valor solar** — unas 240 veces menos oxígeno por átomo de H que el sistema solar, y la convierte en la galaxia formadora de estrellas más químicamente primitiva conocida. Nuestro cross-check con λ_obs(Hα) = 5,0052 μm recupera z = 6,626 (diferencia 0,0014 con el paper, atribuible a la precisión del pico en el CSV). De las 9 líneas analizadas, **4 superan S/N = 3** (Hα, Lyα, [O III] 5007, Hβ). El log ξ_ion observado (≥26,1) se acerca al máximo teórico de Pop III zero-age (26,2). ⚠️ Una sola galaxia — no se puede generalizar. ⚠️ La masa estelar < 3.300 M☉ es un **límite superior 3σ**, no medición (el continuo estelar no se detecta). ⚠️ HeII/Hβ < 2,5 no distingue Pop III pura de Pop II extremadamente pobre en metales.
