@@ -1,0 +1,175 @@
+{
+  "version": "1.0",
+  "paper_id": 2469,
+  "doi": "10.1038/s41559-026-03067-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "multi-species (3.031 únicas, 25 clases taxonómicas)",
+  "verification_table": [
+    {
+      "claim": "Mamíferos y aves reciben precios desproporcionadamente más altos que el resto de fauna",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana mamíferos €511,67 (n=1.700) vs resto €72,55 (n≈3.150); ratio 7,1×. Aves €267,49 (n=5.118) vs resto; ratio 3,7×. Mann-Whitney p ≈ 10⁻²³³ y 10⁻²⁶¹.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {"measure": "ratio_medianas", "value": 7.1, "interpretation": "grande"}
+    },
+    {
+      "claim": "La duración generacional influye fuertemente en el precio",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Spearman ρ = +0,36 sobre log-log según el paper (n=2.246, p ≈ 10⁻⁷⁰). Recalculado en el subset disponible: ρ = +0,43 (n=1.682). La correlación más fuerte del estudio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "influence",
+      "effect_size": {"measure": "spearman_rho", "value": 0.36, "interpretation": "moderado"}
+    },
+    {
+      "claim": "El estatus de protección IUCN influye en el precio pero no es estrictamente monotónico",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Mediana por IUCN: CR €358,88, EN €443,28, VU €286,33, NT €313,03, LC €210,59, DD €82,23, NE €54,81. La categoría 'En peligro' supera a 'En peligro crítico' — el orden no es CR>EN>VU>NT>LC. Lo claro: NE y DD reciben las medianas más bajas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "influence",
+      "effect_size": null
+    },
+    {
+      "claim": "Hay enormes diferencias entre países para la misma legislación europea",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana Kosovo €2.279,82 (n=48) vs Bulgaria €5,54 (n=96). Ratio 411×. Algunos países tienen muestras pequeñas (Polonia n=12), interpretación con cuidado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "ratio_extremos", "value": 411.4, "interpretation": "extremo"}
+    },
+    {
+      "claim": "La masa corporal correlaciona con el precio",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Spearman ρ ≈ +0,24 sobre log-log. Paper: n=7.144, p ≈ 10⁻⁹². Nuestro recálculo: n=6.790, p ≈ 10⁻⁸⁶. Efecto real, más débil que generación.",
+      "certainty_tier": "T1",
+      "abstract_verb": "influence",
+      "effect_size": {"measure": "spearman_rho", "value": 0.24, "interpretation": "débil"}
+    },
+    {
+      "claim": "A más longevidad NO más precio (correlación negativa)",
+      "supported": "no",
+      "supported_by_data": false,
+      "detail": "Correlación negativa y débil según el paper (ρ = −0,089). Longevidad máxima no está en nuestro CSV pre-agregado — claim verificable solo contra el paper. Contraintuitivo: vivir muchos años no encarece la fauna ante la ley.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {"measure": "spearman_rho", "value": -0.089, "interpretation": "muy débil, dirección opuesta"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "9.971",
+      "unit": "registros species-país",
+      "context": "Tamaño del dataset analizado: 9.971 entradas que representan 3.031 especies únicas valoradas en 24 países europeos. NO son 9.971 especies distintas.",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": "24",
+      "unit": "países",
+      "context": "Cobertura geográfica del análisis: 24 legislaciones nacionales europeas con listas de precios oficiales por especie.",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": 7.1,
+      "unit": "veces",
+      "context": "Ratio de medianas: mamíferos vs resto de fauna (€511,67 / €72,55).",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "mammals 7.1x higher",
+        "our_calculation": "511.67/72.55 = 7.05",
+        "discrepancy_pct": 0.7,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 3.7,
+      "unit": "veces",
+      "context": "Ratio de medianas: aves vs resto de fauna (€267,49 / €72,55).",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "birds 3.7x higher",
+        "our_calculation": "267.49/72.55 = 3.69",
+        "discrepancy_pct": 0.3,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 190171.12,
+      "unit": "euros",
+      "context": "Precio más alto del dataset: leopardo (Panthera pardus) en Armenia.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 93883.71,
+      "unit": "euros",
+      "context": "Lince ibérico (Lynx pardinus) en España — segunda valoración más alta del dataset.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5.54,
+      "unit": "euros",
+      "context": "Mediana más baja entre países: Bulgaria (n=96).",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 411,
+      "unit": "veces",
+      "context": "Ratio entre la mediana más alta (Kosovo €2.279,82) y la más baja (Bulgaria €5,54).",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.36,
+      "unit": "ρ Spearman",
+      "context": "Correlación más fuerte del estudio: log(precio) vs log(duración generacional), sobre el dataset completo. p ≈ 10⁻⁷⁰.",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": "-0.089",
+      "unit": "ρ Spearman",
+      "context": "Correlación log(precio) vs longevidad máxima: NEGATIVA y débil. Contraintuitivo — vivir más no encarece. Reportado por el paper, no recomputable desde nuestros CSVs.",
+      "source": "paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa (los datos muestran...)"},
+    {"abstract_verb": "reveal", "tier": "T1", "cam_attenuator": "afirmación directa (el análisis revela...)"},
+    {"abstract_verb": "influence", "tier": "T1", "cam_attenuator": "afirmación directa (influye / pesa sobre el precio)"},
+    {"abstract_verb": "recommend", "tier": "recommendation", "cam_attenuator": "los autores recomiendan (NO presentar como hallazgo)"}
+  ],
+  "narrative_hooks": [
+    "Un lince ibérico vale €93.884 para la ley española. Un caracol, €82. La diferencia no es ecológica.",
+    "Una de cada cuatro especies En Peligro Crítico cobra MENOS que la mediana europea — el sistema legal valora mamíferos comunes por encima de invertebrados extinguiéndose.",
+    "Kosovo €2.280, Bulgaria €5,54. La misma legislación europea, 411 veces de diferencia entre vecinos.",
+    "Vivir muchos años NO encarece el precio legal — la correlación con longevidad es ligeramente negativa. Es lo contrario de lo que esperaríamos."
+  ],
+  "limitations": [
+    "Datos pre-agregados: los CSVs disponibles son medianas e IQR por categoría, no datos crudos por entrada individual. Los tests Mann-Whitney y la mayoría de los Spearman provienen del paper (sobre 9.971 entradas full); los recálculos del notebook se hacen sobre subset.",
+    "Desigualdad muestral entre países: España aporta 33% del dataset (3.259 entradas); Polonia (n=12), Eslovenia (n=24) y Kosovo (n=48) tienen muestras pequeñas — los extremos hay que leerlos con cuidado.",
+    "El dataset contiene 9.971 entradas pero solo 3.031 especies únicas: muchas especies aparecen en varios países. NO son 9.971 especies distintas.",
+    "Estudio observacional: describe el patrón existente en la legislación, no prueba causalidad ni que los criterios sean conscientes.",
+    "Los autores recomiendan integrar criterios sistemáticos basados en ciencia — esa es una recomendación editorial, no un hallazgo cuantitativo."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims 'yes' + 1 'partial' + 1 'no' (que es un hallazgo contraintuitivo) → script estándar con espacio para la honestidad de la correlación negativa"
+  },
+  "notebook_slug": "2026-05-13-precio-fauna-europa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-precio-fauna-europa/notebook.html",
+  "generated_at": "2026-05-13T16:30:00Z"
+}

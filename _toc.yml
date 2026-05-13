@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-13-precio-fauna-europa/README
+    title: "El precio oculto de la fauna en Europa"
+    sections:
+    - file: papers/2026-05-13-precio-fauna-europa/notebook
+      title: Notebook
   - file: papers/2026-05-13-co2-enfria-estratosfera/README
     title: "El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)"
     sections:

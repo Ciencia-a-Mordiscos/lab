@@ -1,0 +1,31 @@
+titulo: "El precio oculto de la fauna en Europa"
+fecha: 2026-05-13
+categoria: ecologia
+tags: [biodiversidad, conservacion, fauna, europa, legislacion-ambiental, sesgo-taxonomico, ecologia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03067-5"
+    titulo: "Hidden patterns in fauna compensation values in European biodiversity legislation"
+    journal: Nature Ecology & Evolution
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "precio_por_clase.csv"
+    descripcion: "Mediana, IQR y máximo de PriceCPI (EUR ajustado por inflación) por clase taxonómica — 16 clases"
+    fuente: "Figshare Dataset.xlsx → agregado por clase"
+  - nombre: "precio_por_pais.csv"
+    descripcion: "Mediana, media y máximo por país — 24 países europeos"
+    fuente: "Figshare Dataset.xlsx → agregado por país"
+  - nombre: "precio_por_iucn.csv"
+    descripcion: "Mediana e IQR por categoría IUCN (CR, EN, VU, NT, LC, DD, NE)"
+    fuente: "Figshare Dataset.xlsx → agregado por iucn_red_list"
+  - nombre: "precio_por_generacion.csv"
+    descripcion: "Mediana e IQR por bin de duración generacional (<1 año a >20 años)"
+    fuente: "Figshare Dataset.xlsx → agregado por gen_length_y"
+  - nombre: "precio_vs_masa.csv"
+    descripcion: "6.790 entradas especie-país con masa corporal adulta, duración generacional, estatus IUCN, país y precio"
+    fuente: "Figshare Dataset.xlsx → subset con trait data"
+estado: publicado

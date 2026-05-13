@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El precio oculto de la fauna en Europa
+
+**Ecología** · *Nature Ecology & Evolution* · Las leyes de 24 países europeos asignan precios oficiales a cada especie para calcular multas. Sobre **9.971 entradas (3.031 especies únicas)** los autores muestran que el orden del precio se predice mejor por la **clase taxonómica** y la **lentitud reproductiva** que por el riesgo de extinción. Mamíferos cobran **7,1× más** que el resto de fauna y aves **3,7× más** (Mann-Whitney p ≈ 10⁻²³³ y 10⁻²⁶¹). La duración generacional es la correlación más fuerte (ρ Spearman ≈ 0,36). La categoría IUCN influye pero **no es estrictamente monotónica**: las especies *En peligro* (€443) reciben más que las *En peligro crítico* (€358). Y la correlación con longevidad máxima es **ligeramente negativa** (ρ = −0,089) — vivir muchos años no encarece el precio legal. Entre países, ratio Kosovo/Bulgaria = **411×** para la misma legislación europea. ⚠️ Datos pre-agregados — los tests inferenciales son del paper sobre el dataset full, no recomputados aquí. ⚠️ España aporta el 33% del dataset; algunos países tienen muestras chicas (Polonia n=12).
+
+[Ver notebook](papers/2026-05-13-precio-fauna-europa/notebook) · [Leer más](papers/2026-05-13-precio-fauna-europa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-precio-fauna-europa/notebook.ipynb)
+
+---
+
 ### El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)
 
 **Ecología** · *Nature Geoscience* · Cohen et al. (2026) usan un modelo radiativo idealizado (Konrad 1D) corrido a **6 concentraciones de CO₂ (70 → 2240 ppm)** y lo cruzan con **36 modelos CMIP6 + 3 reanálisis** (ERA5, JRA-55, MERRA-2) para explicar por qué el CO₂ calienta abajo y **enfría arriba**. A 1 hPa (≈48 km) cada duplicación de CO₂ enfría la estratopausa **~9 K** — pero la tropopausa no se mueve: la temperatura a 100 hPa varía menos de **0,3 K** entre 70 y 2240 ppm. Y ese enfriamiento estratosférico **amplifica el forzamiento radiativo** del CO₂ entre **50 % y 70 %** según el setup numérico. Los 34 modelos CMIP6 que llegan a 1 hPa muestran enfriamiento (mediana −0,92 K/déc); los reanálisis observacionales muestran enfriamiento aún más intenso en estratosfera alta (ERA5: −1,84 K/déc a 3 hPa). ⚠️ Konrad es 1D idealizado: SST fija a 287 K, sin dinámica meridional, sin H₂O variable. ⚠️ El paper reporta amplificación "*about 50 %*" pero nuestro cálculo directo (ERF − IRF)/IRF da +62,9 % en el barrido de duplicaciones y +69,2 % en el barrido SST — el paper no especifica la definición usada. ⚠️ Las tendencias CMIP6 1980-2019 mezclan la firma del CO₂ con la recuperación del ozono y la variabilidad solar — no son enfriamiento puro de CO₂.
