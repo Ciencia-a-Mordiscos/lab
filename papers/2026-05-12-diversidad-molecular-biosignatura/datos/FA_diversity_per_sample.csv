@@ -1,0 +1,35 @@
+sample,class,H,n_present,class_label
+Missbach FT (SYN),1,2.7858473000907185,17,abiotic
+Fischer-Tropsch (SYN) (McCollom & Seewald07),1,2.707557452280348,17,abiotic
+Enceladus abiotic (SYN) (Klenner+20b),1,2.1972245773362196,9,abiotic
+EET 87770 (CR2) (Aponte+2011) (S),1,1.3784438299242148,4,abiotic
+EET 87770 (CR2) (Aponte+2011) (B),1,1.256097215659714,4,abiotic
+ALH 84034 (CM1) (Aponte+2011) (S),1,1.2269638129001916,4,abiotic
+ALH 84034 (CM1) (Aponte+2011) (B),1,1.3789988911641486,4,abiotic
+ALH 84033 (CM2) (Aponte+2011) (S),1,1.198172679694135,4,abiotic
+ALH 84033 (CM2) (Aponte+2011) (B),1,1.1925824493557498,4,abiotic
+MET 00430 (CV3) (Aponte+2011) (S),1,1.3836239029898514,4,abiotic
+MET 00430 (CV3) (Aponte+2011) (B),1,1.2608608641322565,4,abiotic
+WIS 91600 (C2) (Aponte+2011) (S),1,1.3330639192756706,4,abiotic
+WIS 91600 (C2) (Aponte+2011) (B),1,1.3686897095514343,4,abiotic
+Murchison (CM2) (S),1,1.3446252049814598,4,abiotic
+Murchison (CM2) (B),1,1.1433239391560166,4,abiotic
+LON 94101 (CM2) (Aponte+2014),1,2.086950295485659,9,abiotic
+Enceladus biotic (SYN) (Klenner+20a),3,1.474747583945112,9,biotic
+E. coli (MIC) (Hildebrand & Law64),3,1.3185792345878322,6,biotic
+A. tumefaciens (MIC) (Hildebrand & Law64),3,1.187851511419011,6,biotic
+C. butyricum (MIC) (Hildebrand & Law64),3,1.4586644931068127,6,biotic
+S. marcescens (MIC) (Hildebrand & Law64),3,1.216104824106,6,biotic
+Arabidopsis roots 2-weeks old (EUK) (Batsale+21),3,1.2594484222074056,6,biotic
+Geobacillus LC300 (MIC) (Cordova+17),3,1.090529331576225,5,biotic
+Thermus thermophilus HB8 (MIC) (Cordova+17),3,1.3156805913539988,5,biotic
+Rhodothermus marinus DSM 4252 (MIC) (Cordova+17),3,1.3606130088383388,5,biotic
+PANGAEA_GeoB7702-3_15 (MIX),3,2.0069176736661305,13,biotic
+PANGAEA_GeoB7702-3_252 (MIX),3,2.1755153696539673,13,biotic
+PANGAEA_GeoB7702-3_396 (MIX),3,2.235547217513037,13,biotic
+PANGAEA_GeoB7702-3_135 (MIX),3,2.0490638249558506,13,biotic
+PANGAEA_GeoB7702-3_324 (MIX),3,2.2211105129564483,13,biotic
+PANGAEA_SO242/2_202_PUC-46-61-79 (MIX),3,1.2811699662851355,6,biotic
+Gorka_p_AN (MIX),3,0.7722594866037029,5,biotic
+Gorka_p_FN (MIX),3,0.7549688585533454,5,biotic
+Gorka_p_GN (MIX),3,0.8381889776220058,5,biotic

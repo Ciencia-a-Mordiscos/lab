@@ -390,6 +390,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-05-12-diversidad-molecular-biosignatura/README
+    title: "Diversidad molecular como biosignatura"
+    sections:
+    - file: papers/2026-05-12-diversidad-molecular-biosignatura/notebook
+      title: Notebook
   - file: papers/2026-05-04-lhs-3844b-superficie-jwst/README
     title: "Una superficie oscura, plana y aburrida — y eso lo dice todo"
     sections:

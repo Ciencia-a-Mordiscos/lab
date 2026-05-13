@@ -1,0 +1,25 @@
+titulo: "Diversidad molecular como biosignatura: la vida se delata por cómo reparte sus aminoácidos"
+fecha: 2026-05-12
+categoria: astronomia
+tags: [astrobiologia, biosignaturas, aminoacidos, entropia-shannon, meteoritos, bennu, ryugu, murchison, vida-extraterrestre, diversidad-molecular]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02864-z"
+    titulo: "Molecular diversity as a biosignature"
+    journal: "Nature Astronomy"
+    autores: "Yoffe et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "AA_abundances.csv"
+    descripcion: "Abundancias de 44 aminoácidos en 69 muestras (terrestre + extraterrestre)"
+    fuente: "Zenodo 10.5281/zenodo.16566388 (CC-BY-4.0)"
+  - nombre: "AA_diversity_per_sample.csv"
+    descripcion: "Entropía de Shannon por muestra (derivado en la extract phase)"
+    fuente: "Calculado de AA_abundances"
+  - nombre: "FA_abundances.csv"
+    descripcion: "Abundancias de 39 ácidos grasos en 34 muestras"
+    fuente: "Zenodo 10.5281/zenodo.16566388 (CC-BY-4.0)"
+estado: publicado

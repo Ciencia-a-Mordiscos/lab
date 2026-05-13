@@ -1,0 +1,70 @@
+sample,class,H,n_present,class_label
+Bennu (CI) (Glavin+25),1,1.49313601907179,27,abiotic
+ALHA 77257 (U) (Burton+12),1,1.323979865623377,16,abiotic
+EET 83309 (U) (Burton+12),1,1.0279117438549608,10,abiotic
+LEW 85328 (U) (Burton+12),1,1.252276089625285,17,abiotic
+GRA 95205 (U) (Burton+12),1,1.1682539070793048,15,abiotic
+LAR 04315 (U) (Burton+12),1,1.3156989808030082,14,abiotic
+ALH 84028 (CV3) (Burton+12),1,1.2355637554428396,14,abiotic
+EET 96026 (CV3) (Burton+12),1,1.0672693674013833,15,abiotic
+LAP 02206 (CV3) (Burton+12),1,1.2402970550027783,15,abiotic
+LAR 06317 (CV3) (Burton+12),1,1.4216767983382148,10,abiotic
+ALHA 77307 (CO3) (Burton+12),1,1.115644730390976,11,abiotic
+MIL 05013 (CO3) (Burton+12),1,1.3147407078684226,15,abiotic
+DOM 08006 (CO3) (Burton+12),1,1.1859177997254537,16,abiotic
+MAC 02675 (CBb) (Burton+13),1,1.2754356321424027,10,abiotic
+Murchison (CM2) (Glavin+25),1,2.503737561547333,28,abiotic
+Tarda (C2-ung) (Glavin+25),1,2.1640541254492116,20,abiotic
+Orgueil (CI1) (Glavin+25),1,2.1320003928487483,21,abiotic
+Ryugu (CI) (Glavin+25),1,1.7844527054751584,12,abiotic
+EET 92042 (CR2) (Martins+07),1,1.6143165465690827,11,abiotic
+GRA 95229 (CR2) (Martins+07),1,1.5462685045085527,11,abiotic
+Kebukawa UPLC (SYN) (Kebukawa+17),1,1.2023314439238186,9,abiotic
+Enceladus Abiotic (SYN) (Klenner+20),1,1.288895943893277,7,abiotic
+Asuka (CM2.9) (Glavin+20),1,1.723319030897591,20,abiotic
+Paris (CM2.7) (Glavin+20),1,1.2867653875630143,8,abiotic
+ALH 85085 (CH3) (Burton+13),1,2.414559409025376,23,abiotic
+PCA 91467 (CH3) (Burton+13),1,2.1707010999423653,23,abiotic
+PAT 91546 (CH3) (Burton+13),1,2.076817321313587,23,abiotic
+MIL 05082 (CB) (Burton+13),1,1.6989434989266428,23,abiotic
+MIL 07411 (CB) (Burton+13),1,2.0503790521176875,23,abiotic
+Ivuna (CI) (Burton+14),1,1.9468192225094452,21,abiotic
+GRA 06101 (CV3) (Burton+12),2,1.562252863633652,13,mixed
+Allende (CV3) (Burton+12),2,1.9803522690279436,17,mixed
+UA 2741 (CM2) (Glavin+21),2,1.9913386756810956,20,mixed
+UA 2746 (CM2) (Glavin+21),2,2.016552456125488,20,mixed
+Nakhla (Glavin+99),2,1.7486521379838524,7,mixed
+GRO 95577 (CR1) (Martins+07),2,2.1944217196765803,11,mixed
+Logat Diff. (MIX) (Klevenz+10),2,2.377096855592571,15,mixed
+WA/CC Diff. (MIX) (Klevenz+10),2,2.3543468860465815,14,mixed
+SM2 (CM2) (Burton+14),2,1.9424686988136122,9,mixed
+SM12 (CM2) (Burton+14),2,2.148469486245395,13,mixed
+SM51 (CM2) (Burton+14),2,2.1471598477296876,13,mixed
+Izena Cauldron (MIX) (Fuchida+14),3,2.4847294743385286,14,biotic
+LB Strom. (MIC) (Ballarini+94),3,2.4543310375014187,16,biotic
+Burmese Amber (EUK) (McCoy+19),3,2.228690888888506,13,biotic
+Baltic Amber (EUK) (McCoy+19),3,2.2751903670357083,13,biotic
+M. megad. A; OF (EUK) (Saitta+24),3,2.065521103059737,12,biotic
+M. megad. B (EUK) (Saitta+24),3,1.7094045064506278,11,biotic
+Logat Hot (MIC) (Klevenz+10),3,2.2325582150977503,14,biotic
+TP Hot (MIC) (Klevenz+10),3,2.1227362552819398,14,biotic
+RL Hot (MIC) (Klevenz+10),3,2.0950605048287847,14,biotic
+Bitter Springs Chert (MIC) (Schopf+67),3,2.4369513343520537,18,biotic
+Gunflint Chert (MIC) (Schopf+67),3,2.453730156632722,16,biotic
+Fig Tree Chert (MIC) (Schopf+67),3,2.4217439600186235,17,biotic
+Enceladus Biotic (SYN) (Klenner+20),3,1.8126140974663434,8,biotic
+V21-16 GDe (EUK) (King+72),3,2.0034400752320938,10,biotic
+V21-16 GA (EUK) (King+72),3,2.04827052227105,11,biotic
+GDu Recent (EUK) (King+72),3,2.233593410071045,11,biotic
+Changjiang Est. B6 (MIX) (Wei+22),3,2.3605589561815656,14,biotic
+Changjiang Est. A5-6 (MIX) (Wei+22),3,2.2903656350170425,14,biotic
+Nile Delta (MIX) (Glavin+99),3,1.7730846212170426,7,biotic
+E. Coli (MIC) (Simensen+22),3,2.775712309892484,18,biotic
+M. thermophila (MIC) (Jiang+24),3,2.7366451692490577,19,biotic
+Geobacillus LC300 (MIC) (Cordova+17),3,2.5307805767023166,14,biotic
+Thermus thermophilus HB8 (MIC) (Cordova+17),3,2.525149004496632,14,biotic
+Rhodothermus marinus DSM 4252 (MIC) (Cordova+17),3,2.5491592961455996,14,biotic
+Methanococcus maripaludis (MIC) (Wang+24),3,2.6988612513693195,17,biotic
+Synechococcus 7002 (MIC) (Beck+18),3,2.6449990961138368,17,biotic
+A. acidocaldarius (MIC) (Beck+18),3,2.670591270804183,17,biotic
+Kara Sea Surf. (MIX),3,2.5611027162029267,18,biotic

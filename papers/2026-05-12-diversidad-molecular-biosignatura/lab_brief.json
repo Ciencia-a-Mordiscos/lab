@@ -1,0 +1,197 @@
+{
+  "version": "1.0",
+  "paper_id": 2464,
+  "doi": "10.1038/s41550-026-02864-z",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a (assemblages moleculares biotic/abiotic)",
+  "verification_table": [
+    {
+      "claim": "Las muestras bióticas tienen mayor diversidad de Shannon de aminoácidos que las abióticas",
+      "supported": "yes",
+      "detail": "Diferencia 0,76 nats (media 2,33 vs 1,57). Mann-Whitney U one-sided p = 3,8e-08. n=28 biótico, n=30 abiótico.",
+      "certainty_tier": "T1",
+      "abstract_verb": "We found that biotic samples are consistently more diverse",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.06,
+        "interpretation": "excepcionalmente grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las muestras abióticas tienen, en promedio, más tipos distintos de aminoácidos que las bióticas",
+      "supported": "yes",
+      "detail": "16,27 vs 14,11 tipos. La paradoja se explica por dominancia de glicina+alanina en abióticos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "—",
+      "effect_size": {
+        "measure": "delta_richness",
+        "value": 2.16,
+        "interpretation": "diferencia clara, dirección contraria a la diversidad"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Bennu, con 27 aminoácidos detectados, tiene baja diversidad de Shannon porque glicina ocupa el 64,2% del total",
+      "supported": "yes",
+      "detail": "H = 1,49 (debajo de la media biótica 2,33). Glicina = 64,2% de la fracción molar.",
+      "certainty_tier": "T1",
+      "abstract_verb": "—",
+      "effect_size": {
+        "measure": "shannon_H",
+        "value": 1.493,
+        "interpretation": "muy bajo para tener 27 tipos presentes"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las muestras mixtas (origen ambiguo) caen en valores intermedios entre biótico y abiótico",
+      "supported": "yes",
+      "detail": "Media H = 2,04 (vs 1,57 abiótico y 2,33 biótico). n=11.",
+      "certainty_tier": "T1",
+      "abstract_verb": "—",
+      "effect_size": {
+        "measure": "shannon_H",
+        "value": 2.042,
+        "interpretation": "intermedio claro"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El patrón también se mantiene en ácidos grasos según el paper",
+      "supported": "partial",
+      "detail": "El paper lo reporta usando un marco probabilístico que ajusta cada muestra a una distribución y propaga incertidumbres. Con entropía de Shannon cruda en este notebook, NO se replica (FA biotic 1,45 vs abiotic 1,58, p=0,76, d=-0,26). Limitación honesta del enfoque simplificado.",
+      "certainty_tier": "T2",
+      "abstract_verb": "This distinction also holds for fatty acids",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La diferencia de diversidad refleja una firma biosintética fundamental (la vida sintetiza moléculas en distribución más pareja)",
+      "supported": "partial",
+      "detail": "Es interpretación del paper, no afirmación directa de los datos. Los datos muestran asociación; el mecanismo es plausibilidad biosintética discutida.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicating that the diversity signal reflects a fundamental biosynthetic signature",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.76,
+      "unit": "nats",
+      "context": "diferencia de entropía de Shannon entre muestras bióticas y abióticas (aminoácidos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 48.5,
+      "unit": "por ciento",
+      "context": "porcentaje de incremento de la media biótica sobre la abiótica en aminoácidos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.06,
+      "unit": "cohens_d_pooled",
+      "context": "tamaño del efecto en la comparación biotic vs abiotic AA (>0,8 = grande)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.8e-08,
+      "unit": "p-value",
+      "context": "Mann-Whitney U one-sided (biotic > abiotic) en aminoácidos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 69,
+      "unit": "muestras",
+      "context": "total de muestras de aminoácidos (30 abiotic + 28 biotic + 11 mixed)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 64.2,
+      "unit": "por ciento",
+      "context": "fracción molar de glicina en Bennu (domina sobre los otros 26 aminoácidos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.493,
+      "unit": "nats",
+      "context": "entropía de Shannon de Bennu (asteroide muestreado por OSIRIS-REx)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27,
+      "unit": "tipos",
+      "context": "número de aminoácidos detectados en Bennu — más alto que muchas muestras bióticas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 16.27,
+      "unit": "tipos",
+      "context": "media de tipos de aminoácidos en muestras abióticas (más alta que biótico)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14.11,
+      "unit": "tipos",
+      "context": "media de tipos de aminoácidos en muestras bióticas (paradoja: menos tipos, más diversidad)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "We introduce a new class of biosignatures",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'proponen una nueva categoría de biosignaturas'"
+    },
+    {
+      "abstract_verb": "We found that biotic samples are consistently more diverse",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'las muestras bióticas son consistentemente más diversas'"
+    },
+    {
+      "abstract_verb": "indicating that the diversity signal reflects a fundamental biosynthetic signature",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren que la diversidad refleja una firma biosintética' — NO 'demuestra'"
+    },
+    {
+      "abstract_verb": "It also proves persistent under modelled space-like degradation",
+      "tier": "T1",
+      "cam_attenuator": "'persiste bajo degradación modelada' (modelada, no observada en Marte)"
+    },
+    {
+      "abstract_verb": "may also transcend biosignatures contingent on Earth's evolutionary history",
+      "tier": "T3",
+      "cam_attenuator": "'podría trascender biosignaturas atadas a la historia evolutiva terrestre' — usar 'podría'"
+    }
+  ],
+  "narrative_hooks": [
+    "Bennu tiene 27 aminoácidos. ¿Por qué nadie dice que es vida?",
+    "La vida no se delata por cuántas moléculas hay — sino por cómo se reparten",
+    "Glicina ocupa el 64% de Bennu. La vida nunca dejaría que una sola molécula domine así",
+    "Los meteoritos tienen MÁS tipos de aminoácidos que muchos microbios — pero menos diversidad",
+    "Es una herramienta que cualquier misión planetaria ya puede aplicar — sin instrumentos nuevos"
+  ],
+  "limitations": [
+    "Diseño observacional: compara muestras pre-existentes, no es experimento controlado — los datos muestran asociación, no causalidad.",
+    "Sesgo de muestreo: las 28 muestras bióticas son mayoritariamente microbios cultivados y fósiles de la Tierra; vida bioquímicamente exótica que use 2-3 aminoácidos dominantes sería marcada como abiótica.",
+    "La réplica para ácidos grasos requiere el marco probabilístico del paper; con Shannon crudo el patrón no aparece (p=0,76)."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (4 yes + 2 partial) y 10 números clave — densidad alta justifica script al límite superior"
+  },
+  "notebook_slug": "2026-05-12-diversidad-molecular-biosignatura",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-12-diversidad-molecular-biosignatura/notebook.html",
+  "generated_at": "2026-05-13T12:42:36.452322Z"
+}
