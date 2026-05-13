@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "paper_id": 2472,
+  "doi": "10.1038/s41551-026-01670-2",
+  "paper_type": "experimental",
+  "study_design": "experimental_in_vitro_y_in_vivo_n3",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El sensor mantiene operación confiable durante 21 días",
+      "supported": "yes",
+      "detail": "Los 4 sensores se mantienen entre 96.27% y 98.46% al día 21. Pérdida máxima: 3.73 puntos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La regeneración in situ del sensor funciona",
+      "supported": "yes",
+      "detail": "Etapa 1: 100.00–100.09% (n=3 batches). Etapa 2: 98.94–100.00% (n=3 batches). Leve degradación en 2ª regeneración pero >98.9%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Detecta 4 biomarcadores simultáneamente (cortisol, urea, lactato, glucosa)",
+      "supported": "yes",
+      "detail": "Los 4 canales responden simultáneamente durante 21 días en la misma curva de estabilidad.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Selectividad lograda por MIP seleccionados con DFT",
+      "supported": "partial",
+      "detail": "El paper reporta selectividad en Fig. 2, pero los datos de selectividad no están en el Source Data disponible. Tomado como reportado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "allow",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El sensor detecta el aumento de cortisol con el estrés",
+      "supported": "partial",
+      "detail": "Aumento consistente en 3/3 participantes (+35.2% medio). Cohen's d pareado = 10.46. Wilcoxon p=0.25 (limitado por n=3 — claim cualitativo).",
+      "certainty_tier": "T1",
+      "abstract_verb": "validate",
+      "effect_size": {
+        "measure": "cohen_d_pareado",
+        "value": 10.46,
+        "interpretation": "muy grande (descriptivo, n=3)"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Aplicaciones futuras en salud, deporte y bienestar",
+      "supported": "partial",
+      "detail": "El abstract dice 'suggesting' — los datos son prueba de concepto, no validación clínica.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 21,
+      "unit": "días",
+      "context": "duración de la prueba de estabilidad",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "biomarcadores",
+      "context": "cortisol, urea, lactato, glucosa medidos simultáneamente",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 96.27,
+      "unit": "por ciento",
+      "context": "respuesta mínima al día 21 (glucosa, sensor más degradado)",
+      "source": "csv_estabilidad_21dias",
+      "verified": true
+    },
+    {
+      "value": 98.46,
+      "unit": "por ciento",
+      "context": "respuesta máxima al día 21 (lactato, sensor más estable)",
+      "source": "csv_estabilidad_21dias",
+      "verified": true
+    },
+    {
+      "value": 3.73,
+      "unit": "puntos porcentuales",
+      "context": "pérdida máxima de respuesta en 21 días",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 100.05,
+      "unit": "por ciento",
+      "context": "media de recuperación tras 1ª regeneración (n=3 batches)",
+      "source": "csv_recuperacion_etapa1",
+      "verified": true
+    },
+    {
+      "value": 99.5,
+      "unit": "por ciento",
+      "context": "media de recuperación tras 2ª regeneración (n=3 batches)",
+      "source": "csv_recuperacion_etapa2",
+      "verified": true
+    },
+    {
+      "value": 35,
+      "unit": "segundos",
+      "context": "tiempo de regeneración más rápido (ECA, etapa 2)",
+      "source": "csv_metodos_regeneracion",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "participantes",
+      "context": "validación humana (rest vs stress)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 35.2,
+      "unit": "por ciento",
+      "context": "aumento medio de cortisol con estrés (3/3 consistente)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 10.46,
+      "unit": "Cohen's d pareado",
+      "context": "tamaño del efecto cortisol rest→stress (descriptivo, n=3)",
+      "source": "calculo_propio",
+      "verified": true
+    },
+    {
+      "value": 0.25,
+      "unit": "p-value Wilcoxon",
+      "context": "no significativo por n=3 — claim cualitativo",
+      "source": "calculo_propio",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "validate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "allow",
+      "tier": "T1",
+      "cam_attenuator": "permite (descriptivo)"
+    },
+    {
+      "abstract_verb": "enable",
+      "tier": "T1",
+      "cam_attenuator": "permite / habilita"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "sugiere / todo apunta a"
+    }
+  ],
+  "narrative_hooks": [
+    "4 biomarcadores en tu sudor — al mismo tiempo, durante 21 días, sin tocar el sensor",
+    "El sensor se autolimpia con un pulso eléctrico: lo que limpiarías cambiándolo, aquí lo limpia un voltaje",
+    "Cortisol en 3 personas: subió en las 3 cuando se estresaron",
+    "ECA limpia el electrodo en 35 segundos — el método más rápido de los 4 probados"
+  ],
+  "limitations": [
+    "Validación humana con n=3 — el patrón es consistente (3/3 sube) pero los claims son cualitativos, no inferenciales",
+    "El Source Data no etiqueta el orden de biomarcadores en la curva de 21 días — los nombramos sensor_1..4 siguiendo el orden del abstract (cortisol, urea, lactato, glucosa)",
+    "Recuperación medida en n=3 réplicas — útil para mostrar consistencia, no para inferencia poblacional",
+    "No hay validación contra método gold-standard (ELISA/HPLC) en los CSVs disponibles del Source Data"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims 'yes/partial' verificados con datos + 12 key_numbers — script denso"
+  },
+  "notebook_slug": "2026-05-13-sensor-sudor-multimodal",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-sensor-sudor-multimodal/notebook.html",
+  "generated_at": "2026-05-13T18:41:52.873265Z"
+}

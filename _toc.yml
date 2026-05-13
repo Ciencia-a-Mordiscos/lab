@@ -242,6 +242,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-13-sensor-sudor-multimodal/README
+    title: "Sensor de sudor multimodal: 4 biomarcadores en 21 días"
+    sections:
+    - file: papers/2026-05-13-sensor-sudor-multimodal/notebook
+      title: Notebook
   - file: papers/2025-11-26-organ-proteomic-aging-clocks/README
     title: "Tu plasma tiene 11 relojes. Uno por órgano."
     sections:

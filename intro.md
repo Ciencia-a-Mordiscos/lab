@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Sensor de sudor multimodal: 4 biomarcadores en 21 días
+
+**Medicina** · *Nature Biomedical Engineering* · Rajendran et al. (2026) construyen un sensor electroquímico inalámbrico, sin batería, que mide **cortisol, urea, lactato y glucosa** al mismo tiempo en sudor — y se autolimpia con un pulso de voltaje. Los 4 sensores mantienen entre **96,27% y 98,46%** de respuesta al día **21** (pérdida máxima 3,73 puntos). La regeneración recupera **100% en etapa 1** y **≥98,94% en etapa 2** (n=3 batches). El método **ECA** limpia el electrodo en **35 segundos**, el más rápido de los 4 probados (CV, DPV, ECA, LSV). En 3 participantes, el cortisol sube **+35,2% medio** con el estrés (3/3 consistente, Cohen's d pareado = 10,46). ⚠️ Validación humana con **n=3** — el patrón es consistente pero Wilcoxon p = 0,25 no alcanza significancia. ⚠️ El abstract dice *suggesting* para aplicaciones clínicas — prueba de concepto, no validación clínica. ⚠️ Sin comparación contra método gold-standard (ELISA/HPLC) en los CSVs del Source Data.
+
+[Ver notebook](papers/2026-05-13-sensor-sudor-multimodal/notebook) · [Leer más](papers/2026-05-13-sensor-sudor-multimodal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-sensor-sudor-multimodal/notebook.ipynb)
+
+---
+
 ### Agujeros negros donde no deberían existir
 
 **Astronomía** · *Nature Astronomy* · Antonini et al. (2026) combinan **153 fusiones de agujeros negros** del catálogo LIGO-Virgo-KAGRA (GWTC-1+2+3+4) con inferencia jerárquica Bayesiana para acotar el borde inferior del *mass gap* por inestabilidad de pares en **44,3 +5,9/−3,5 M_⊙** (90% CI) y la sección eficaz de la reacción ¹²C(α,γ)¹⁶O en **S₃₀₀ = 268 +195/−116 keV b**. Los datos revelan **dos poblaciones** con factor de Bayes B > 10⁴: una de espín bajo sin agujeros sobre el gap, otra de espín alto con orientación aleatoria que se extiende en todo el rango de masa — consistente con fusiones jerárquicas en cúmulos densos. En el subconjunto O4a (**84 BBHs** nuevos) verificamos: 30 eventos (35,7 %) tienen m₁ mediana por encima del borde del gap, y los **6 con m₁ > 70 M_⊙** tienen mediana de χ_eff = **+0,27** (nueve veces la mediana global de +0,03). Bootstrap p ≈ 0,0006. ⚠️ Diseño observacional — claims solo de asociación. ⚠️ El paper usa modelo de mixtura jerárquica; aquí mostramos un cross-check visual sobre el subset O4a. ⚠️ El S-factor del paper no se replica — requiere inferencia conjunta GW + evolución estelar.

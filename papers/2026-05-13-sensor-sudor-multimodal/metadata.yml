@@ -1,0 +1,31 @@
+titulo: "Sensor de sudor multimodal: 4 biomarcadores en 21 días"
+fecha: 2026-05-13
+categoria: medicina
+tags: [bioelectronica, sensores-wearables, cortisol, biomarcadores, mip, electroquimica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01670-2"
+    titulo: "Wireless and in situ regenerable multimodal wearable bioelectronic sweat sensor for continuous biomarker monitoring in everyday settings"
+    journal: "Nature Biomedical Engineering"
+    autores: "Wang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "estabilidad_21dias.csv"
+    descripcion: "Respuesta de los 4 sensores en días 1, 7, 14 y 21"
+    fuente: "Supplementary Data MOESM15 (Fig. 8B)"
+  - nombre: "recuperacion_etapa1.csv"
+    descripcion: "Recuperación tras 1ª regeneración, 3 batches"
+    fuente: "Supplementary Data MOESM15 (Fig. 5C)"
+  - nombre: "recuperacion_etapa2.csv"
+    descripcion: "Recuperación tras 2ª regeneración, 3 batches"
+    fuente: "Supplementary Data MOESM15 (Fig. 5D)"
+  - nombre: "metodos_regeneracion.csv"
+    descripcion: "Tiempos de regeneración por técnica electroquímica"
+    fuente: "Supplementary Data MOESM15"
+  - nombre: "validacion_humana.csv"
+    descripcion: "Cortisol/urea/lactato/glucosa en 3 participantes"
+    fuente: "Supplementary Data MOESM15 (Fig. 7)"
+estado: publicado
