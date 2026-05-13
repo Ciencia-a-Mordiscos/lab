@@ -1,0 +1,25 @@
+titulo: "LAP1-B: la galaxia más químicamente primitiva conocida"
+fecha: 2026-05-13
+categoria: astronomia
+tags: [jwst, galaxia, reionizacion, pop-iii, espectroscopia, lente-gravitacional, redshift, oxigeno]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10374-1"
+    titulo: "An ultra-faint, chemically primitive galaxy forming in the reionization era"
+    journal: Nature
+    autores: "Nakajima, K. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "lap1b_spectrum.csv"
+    descripcion: "Espectro 1D NIRSpec/PRISM (3.092 puntos)"
+    fuente: "Zenodo 10.5281/zenodo.18831461 (CC-BY-4.0)"
+  - nombre: "lap1b_emission_lines.csv"
+    descripcion: "9 líneas analizadas con peak ±5 píxeles y S/N derivado"
+    fuente: "Derivado del espectro 1D + abstract/SI del paper"
+  - nombre: "lap1b_key_parameters.csv"
+    descripcion: "16 parámetros físicos del paper + Supplementary Information"
+    fuente: "Nature paper + Supplementary Information"
+estado: publicado

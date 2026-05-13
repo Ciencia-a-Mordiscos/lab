@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "paper_id": 2473,
+  "doi": "10.1038/s41586-026-10374-1",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Redshift espectroscópico z = 6,625 — la galaxia se ve 800 millones de años después del Big Bang",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Cálculo independiente desde λ_obs(Hα)=5,0052 μm da z=6,626 (diferencia 0,0014 con el paper, apenas fuera del error ±0,001 reportado, atribuible a la precisión del pico en el CSV)",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": null
+    },
+    {
+      "claim": "Hay cuatro líneas de emisión detectadas con S/N ≥ 3 (Hα, Lyα, [O III] λ5007, Hβ)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Verificado en lap1b_emission_lines.csv. Hα S/N=6,56; Lyα 5,41; [O III] 5007 3,89; Hβ 3,21. Resto de transiciones bajo ruido",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": null
+    },
+    {
+      "claim": "Abundancia de oxígeno (O/H) = (4,2 ± 1,8) × 10⁻³ veces el valor solar (la más químicamente primitiva conocida)",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Valor del paper. No recalculamos abundancias en el notebook — requiere flujo completo de [O III] auroral y modelos de fotoionización. El paper lo enmarca como afirmación directa ('exhibits')",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibits",
+      "effect_size": null
+    },
+    {
+      "claim": "Sin amplificación por lente (μ = 98) la galaxia no sería observable",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Factor de magnificación viene del modelo de lente publicado en el Supplementary Information; lo tomamos como dato",
+      "certainty_tier": "T1",
+      "abstract_verb": "strongly magnified",
+      "effect_size": null
+    },
+    {
+      "claim": "Masa estelar < 3.300 M☉ (menor que un cúmulo globular típico)",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Es un límite superior 3σ, no medición directa — el continuo estelar no se detecta. Comparativa con cúmulo globular típico (~10⁵ M☉) es contexto didáctico válido",
+      "certainty_tier": "T1",
+      "abstract_verb": "constrains",
+      "effect_size": null
+    },
+    {
+      "claim": "log ξ_ion observado (3σ lower) se acerca al máximo teórico de Pop III zero-age",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Valor observado 26,1 (límite inferior 3σ) vs predicción Pop III 26,2. Diferencia 0,1 dex. Es compatible — no prueba que sea Pop III pura",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with",
+      "effect_size": null
+    },
+    {
+      "claim": "La población estelar es Pop III pura",
+      "supported": "no",
+      "supported_by_data": false,
+      "detail": "El paper NO afirma esto. HeII/Hβ < 2,5 (3σ upper) no distingue entre Pop III y Pop II extremadamente pobre en metales",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with (Pop III interpretation, no claim)",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {"value": 6.625, "unit": "(redshift)", "context": "z espectroscópico de LAP1-B", "source": "paper (Hα systemic)", "verified": true, "cross_check": {"paper_reported": "6,625 ± 0,001", "our_calculation": "6,626 (λ_obs/λ_rest − 1)", "discrepancy_pct": 0.02, "reason": "precisión del pico en CSV (4 decimales) vs ajuste gaussiano del paper"}},
+    {"value": 800, "unit": "millones de años post-Big Bang", "context": "edad cósmica en z=6,625", "source": "paper", "verified": true},
+    {"value": 0.0042, "unit": "× (O/H) solar", "context": "abundancia de oxígeno gas-phase de LAP1-B (≈240 veces menos oxígeno por átomo de H que el Sol)", "source": "paper", "verified": false},
+    {"value": 98, "unit": "× (factor μ)", "context": "magnificación gravitacional del cúmulo lente", "source": "SI", "verified": false},
+    {"value": 3300, "unit": "M☉ (3σ upper)", "context": "límite superior a la masa estelar (continuo estelar no detectado)", "source": "abstract + SI", "verified": false},
+    {"value": 1800, "unit": "Å (3σ lower)", "context": "EW(Hα) mínimo — emisión Balmer dominante", "source": "SI", "verified": false},
+    {"value": 26.1, "unit": "log(erg⁻¹ Hz) (3σ lower)", "context": "eficiencia ionizante ξ_ion observada — cercana al máximo teórico Pop III (26,2)", "source": "SI", "verified": false},
+    {"value": 58, "unit": "km/s", "context": "dispersión de velocidad del gas (evidencia de pozo gravitacional profundo, halo de materia oscura)", "source": "SI", "verified": false}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "present", "tier": "T1", "cam_attenuator": "afirmación directa: 'presentan / observan'"},
+    {"abstract_verb": "exhibits", "tier": "T1", "cam_attenuator": "afirmación directa: 'exhibe / muestra' (observacional, NO causal)"},
+    {"abstract_verb": "displays", "tier": "T1", "cam_attenuator": "'muestra' (observacional)"},
+    {"abstract_verb": "consistent with", "tier": "T2", "cam_attenuator": "'compatible con' / 'apunta a' — NO 'demuestra'"},
+    {"abstract_verb": "constrains", "tier": "T2", "cam_attenuator": "'acota' / 'limita superiormente'"},
+    {"abstract_verb": "indicates", "tier": "T2", "cam_attenuator": "'los datos sugieren' / 'apunta a'"},
+    {"abstract_verb": "establish", "tier": "T1", "cam_attenuator": "afirmación directa: 'establecen'"}
+  ],
+  "narrative_hooks": [
+    "0,42% del oxígeno del Sol — y eso a 800 millones de años del Big Bang",
+    "Sin una lente gravitacional que la amplifique 98 veces, no la habríamos visto",
+    "Menos masa estelar que un cúmulo globular típico — la mayoría de su masa es materia oscura",
+    "El campo de radiación ionizante observado roza el máximo teórico para estrellas sin metales",
+    "240 veces menos oxígeno por átomo de hidrógeno que el sistema solar"
+  ],
+  "limitations": [
+    "Una sola galaxia — no se puede generalizar a la población de enanas ultra-débiles en reionización",
+    "La magnificación μ=98 se asume uniforme en toda la galaxia; si varía por región, la masa estelar reconstruida cambiaría",
+    "El continuo estelar no se detecta — la masa estelar es un límite superior 3σ, no medición directa",
+    "HeII/Hβ < 2,5 (3σ) no distingue entre Pop III pura y Pop II extremadamente pobre en metales",
+    "Lyα probablemente atenuada por el medio circumgaláctico/intergaláctico — el EW(Lyα) intrínseco es probablemente mayor que el observado"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "2 claims 'yes' completos + 4 'partial' bien delimitados + 8 key_numbers = script denso con muchos datos verificados a empaquetar"
+  },
+  "notebook_slug": "2026-05-13-lap1-b-galaxia-reionizacion",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook.html",
+  "generated_at": "2026-05-13T15:56:00Z"
+}

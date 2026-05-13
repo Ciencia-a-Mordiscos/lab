@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### LAP1-B: la galaxia más químicamente primitiva conocida
+
+**Astronomía** · *Nature* · Nakajima et al. (2026) presentan observaciones del James Webb (NIRSpec/PRISM) sobre **LAP1-B**, una galaxia ultra-débil a redshift espectroscópico **z = 6,625 ± 0,001** — 800 millones de años después del Big Bang. La galaxia está amplificada **98 veces** por una lente gravitacional; sin esa amplificación no la habríamos visto. La abundancia de oxígeno gas-phase es **(4,2 ± 1,8) × 10⁻³ veces el valor solar** — unas 240 veces menos oxígeno por átomo de H que el sistema solar, y la convierte en la galaxia formadora de estrellas más químicamente primitiva conocida. Nuestro cross-check con λ_obs(Hα) = 5,0052 μm recupera z = 6,626 (diferencia 0,0014 con el paper, atribuible a la precisión del pico en el CSV). De las 9 líneas analizadas, **4 superan S/N = 3** (Hα, Lyα, [O III] 5007, Hβ). El log ξ_ion observado (≥26,1) se acerca al máximo teórico de Pop III zero-age (26,2). ⚠️ Una sola galaxia — no se puede generalizar. ⚠️ La masa estelar < 3.300 M☉ es un **límite superior 3σ**, no medición (el continuo estelar no se detecta). ⚠️ HeII/Hβ < 2,5 no distingue Pop III pura de Pop II extremadamente pobre en metales.
+
+[Ver notebook](papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook) · [Leer más](papers/2026-05-13-lap1-b-galaxia-reionizacion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook.ipynb)
+
+---
+
 ### ¿Cuántas horas debe dormir tu cuerpo? 23 relojes biológicos contestan distinto
 
 **Medicina** · *Nature* · Wen et al. (2026) cruzan **23 relojes biológicos** (MRI estructural, proteómica plasmática y metabolómica) con duración de sueño auto-reportada en la cohorte UK Biobank (37–84 años) y modelan la relación con GAMs. Aparece una **U** sistemática: dormir poco y dormir mucho se asocian con un mayor *gap* de edad biológica. Sobre los 37 relojes con óptimo interior, la mediana cae en **6,91 h** (IQR 6,48–7,64 h) — el mismo cerebro tiene óptimos distintos según se mida por MRI (**6,4 h**) o por proteínas en plasma (**7,8 h**). **Solo 2 de los 37 relojes** alcanzan o pasan las **8 h** del consejo popular. La penalización por dormir 10 h es **12 % mayor** que por dormir 4 h (ratio 0,88) — la U no es simétrica. ⚠️ Asociación, no causa: el paper explícitamente **no descarta** causalidad inversa con Mendelian randomization. ⚠️ Sueño auto-reportado. ⚠️ Las curvas son predicciones GAM sobre la cohorte, no trayectorias individuales.

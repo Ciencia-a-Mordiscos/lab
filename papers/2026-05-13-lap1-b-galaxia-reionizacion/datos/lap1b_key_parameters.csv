@@ -1,0 +1,17 @@
+param,value,error,unidad,origen
+redshift_spec,6.625,0.001,,paper (Hα systemic)
+edad_universo,800.0,,Myr post-BB,paper
+OH_relativa_solar,0.0042,0.0018,(O/H)/(O/H)_sun,paper
+magnificacion,98.0,,μ,SI / lensing model
+velocidad_disp,58.0,,km/s,SI (gas σ)
+M_stellar_max,3300.0,,M_sun (3σ upper),SI
+EW_Halpha_min,1800.0,,Å (3σ lower),SI
+EW_Hbeta_min,340.0,,Å (3σ lower),SI
+EW_Lyalpha_min,250.0,,Å (3σ lower),SI
+log_xi_ion_min,26.1,,log(erg^-1 Hz) (3σ),SI
+log_xi_ion_PopIII_zeroage,26.2,,log(erg^-1 Hz),SI (teoría)
+edad_estelar_max,5.0,,Myr (consistency),SI
+Lyalpha_velocity_offset,150.0,40.0,km/s,SI
+NHI_max,1e+19,,cm^-2 (upper),SI
+HeII_Hbeta_max,2.5,,ratio (3σ upper),SI
+M_UV_lower_limit,-10.4,,mag (3σ),SI

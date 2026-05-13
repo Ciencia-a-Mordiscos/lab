@@ -1,0 +1,10 @@
+linea_codigo,linea_nombre,lam_rest_um,lam_obs_esperado_um,lam_obs_medido_um,flux_pico_cgs,err_pico_cgs,snr_pico,tipo_transicion,cobertura
+Lyalpha,Lyα,0.1216,0.9272,0.9274,4.2973e-20,7.945899999999999e-21,5.41,permitido HI,sí
+CIV_1549,C IV λ1549,0.15495,1.1815,1.1813,8.29846e-21,3.2426e-21,2.56,doblete UV,sí
+CIII_1908,C III] λ1908,0.1908,1.4548,1.4541,6.297699999999999e-22,3.1587999999999998e-21,0.2,semiprohibido UV,sí
+OIII_1666,O III] λ1666,0.1666,1.2703,1.271,2.5693999999999997e-21,3.9434e-21,0.65,semiprohibido UV,sí
+Hgamma,Hγ,0.4341,3.31,3.3007,1.0973199999999999e-21,4.1975999999999997e-22,2.61,Balmer HI,sí
+Hbeta,Hβ,0.4861,3.7065,3.7085,1.7216e-21,5.3706e-22,3.21,Balmer HI,sí
+OIII_4959,[O III] λ4959,0.4959,3.7812,3.7855,5.6988e-22,3.8664e-22,1.47,prohibido neb.,sí
+OIII_5007,[O III] λ5007,0.5007,3.8178,3.8187,1.54924e-21,3.9803e-22,3.89,prohibido neb.,sí
+Halpha,Hα,0.6563,5.0043,5.0052,4.2811399999999994e-21,6.5293e-22,6.56,Balmer HI,sí
