@@ -200,6 +200,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-05-07-metano-subglacial-groenlandia/README
+    title: "El metano que respira Groenlandia se cocinó hace 2.000 años"
+    sections:
+    - file: papers/2026-05-07-metano-subglacial-groenlandia/notebook
+      title: Notebook
   - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/README
     title: "Una cámara grabó un terremoto desde la falla"
     sections:

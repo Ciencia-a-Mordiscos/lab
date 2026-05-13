@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El metano que respira Groenlandia se cocinó hace 2.000 años
+
+**Geología** · *Nature Geoscience* · Saunders et al. (2026) muestrearon **96 puntos en 26 ríos** que salen de bajo el hielo de Groenlandia occidental durante tres veranos (2021-2023), a lo largo de **1.840 km** de costa (61,2°N–77,7°N). **50 de 53 mediciones (94%)** de CH₄ disuelto están supersaturadas respecto a la atmósfera; la mediana es **43 nmol/L** y el máximo del suroeste alcanza **49.613 nmol/L — 16.500× el equilibrio atmosférico**. La firma isotópica confirma origen biogénico microbiano (δ¹³C mediana **−57,8‰**, 13 de 16 muestras bajo el umbral −50‰). Las 7 muestras datadas por ¹⁴C dan edades del carbono entre **1,5 y 4,1 mil años antes del presente** — ninguna cae dentro del Holocene Thermal Maximum (5–11 ka). Los datos son consistentes con una Groenlandia más pequeña durante el HTM y posterior re-avance que sepultó la materia orgánica. ⚠️ El flujo "**715 toneladas/año**" y la persistencia "**200 años más**" son proyecciones de un modelo de degradación (MATLAB en Zenodo), no medidas. ⚠️ Diseño observacional — los datos muestran patrones, no causalidad. ⚠️ n=7 en ¹⁴C y n=16 en isótopos: tamaños pequeños para inferencias regionales finas.
+
+[Ver notebook](papers/2026-05-07-metano-subglacial-groenlandia/notebook) · [Leer más](papers/2026-05-07-metano-subglacial-groenlandia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-07-metano-subglacial-groenlandia/notebook.ipynb)
+
+---
+
 ### El precio oculto de la fauna en Europa
 
 **Ecología** · *Nature Ecology & Evolution* · Las leyes de 24 países europeos asignan precios oficiales a cada especie para calcular multas. Sobre **9.971 entradas (3.031 especies únicas)** los autores muestran que el orden del precio se predice mejor por la **clase taxonómica** y la **lentitud reproductiva** que por el riesgo de extinción. Mamíferos cobran **7,1× más** que el resto de fauna y aves **3,7× más** (Mann-Whitney p ≈ 10⁻²³³ y 10⁻²⁶¹). La duración generacional es la correlación más fuerte (ρ Spearman ≈ 0,36). La categoría IUCN influye pero **no es estrictamente monotónica**: las especies *En peligro* (€443) reciben más que las *En peligro crítico* (€358). Y la correlación con longevidad máxima es **ligeramente negativa** (ρ = −0,089) — vivir muchos años no encarece el precio legal. Entre países, ratio Kosovo/Bulgaria = **411×** para la misma legislación europea. ⚠️ Datos pre-agregados — los tests inferenciales son del paper sobre el dataset full, no recomputados aquí. ⚠️ España aporta el 33% del dataset; algunos países tienen muestras chicas (Polonia n=12).

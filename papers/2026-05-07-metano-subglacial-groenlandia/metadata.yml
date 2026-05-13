@@ -1,0 +1,25 @@
+titulo: "El metano que respira Groenlandia se cocinó hace 2.000 años"
+fecha: 2026-05-07
+categoria: geologia
+tags: [groenlandia, metano, glaciares, holoceno, biogeoquimica, criosfera]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01976-5"
+    titulo: "Mid-Holocene retreat of the Greenland Ice Sheet indicated by subglacial methane release"
+    journal: "Nature Geoscience"
+    autores: "Saunders et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ch4_concentraciones.csv"
+    descripcion: "53 mediciones de CH₄ disuelto + química acuática + isótopos"
+    fuente: "PANGAEA 993007"
+  - nombre: "edades_radiocarbono.csv"
+    descripcion: "7 muestras datadas por ¹⁴C (pMC corregido + edades cal BP)"
+    fuente: "PANGAEA 993007"
+  - nombre: "greenland_metano_completo.csv"
+    descripcion: "Dataset completo: 96 mediciones × 30 columnas"
+    fuente: "PANGAEA 993007"
+estado: publicado

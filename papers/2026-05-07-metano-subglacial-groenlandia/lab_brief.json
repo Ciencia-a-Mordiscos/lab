@@ -1,0 +1,213 @@
+{
+  "version": "1.0",
+  "paper_id": 2450,
+  "doi": "10.1038/s41561-026-01976-5",
+  "paper_type": "observational_with_model",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "26 ríos muestreados en 1.840 km de costa",
+      "supported": "yes",
+      "detail": "Lat 61,15°N–77,72°N, 96 mediciones totales (2021-2023)",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "94% de los ríos están supersaturados respecto a la atmósfera",
+      "supported": "yes",
+      "detail": "50/53 mediciones >3 nmol/L (equilibrio atmosférico)",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El metano es biogénico (origen microbiano)",
+      "supported": "yes",
+      "detail": "Mediana δ13C = -57,8‰ PDB; 13/16 (81%) por debajo del umbral -50‰",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El carbono del metano se formó hace 1,5-4,4 mil años antes del presente",
+      "supported": "yes",
+      "detail": "7 muestras datadas por 14C; nuestro rango midpoints 1,55-4,14 ka (concordante con paper)",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Ninguna muestra cae dentro del Holocene Thermal Maximum (5-11 ka)",
+      "supported": "yes",
+      "detail": "7/7 muestras post-HTM. Consistente con (no prueba) Groenlandia más pequeña durante HTM",
+      "certainty_tier": "T2",
+      "abstract_verb": "corroborate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El suroeste exhala más metano que el norte",
+      "supported": "yes",
+      "detail": "Mediana SW = 95,4 nmol/L vs NW = 16,1 nmol/L vs CW = 39,4 nmol/L",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Flujo lateral de 715 toneladas/año desde Groenlandia occidental",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como proyección de modelo (continuum degradation, Zenodo MATLAB), no medición directa",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate (modelo)",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El metano podría seguir emitiéndose por unos 200 años más",
+      "supported": "partial",
+      "detail": "Proyección del mismo modelo de degradación, no observación",
+      "certainty_tier": "T2",
+      "abstract_verb": "can support",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 26,
+      "unit": "ríos",
+      "context": "número de ríos de agua de fusión muestreados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 96,
+      "unit": "mediciones",
+      "context": "total de puntos de muestreo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1840,
+      "unit": "km",
+      "context": "extensión latitudinal del transecto (61,15°N-77,72°N)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 43,
+      "unit": "nmol/L",
+      "context": "mediana de CH4 disuelto (n=53)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 49613,
+      "unit": "nmol/L",
+      "context": "máximo de CH4 (suroeste) = 16.500× equilibrio atmosférico",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 94,
+      "unit": "por ciento",
+      "context": "50/53 mediciones por encima del equilibrio atmosférico (3 nmol/L)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -57.8,
+      "unit": "permil PDB",
+      "context": "mediana δ13C-CH4 (n=16) — confirma origen biogénico microbiano",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 81,
+      "unit": "por ciento",
+      "context": "13/16 muestras por debajo del umbral biogénico (-50‰)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "1,5-4,4",
+      "unit": "miles de años BP",
+      "context": "rango de edades 14C del carbono del metano (paper)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "muestras",
+      "context": "todas las muestras 14C son post-HTM (ventana cálida 5-11 ka BP)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 715,
+      "unit": "toneladas/año",
+      "context": "flujo lateral proyectado por modelo MATLAB (rango 481-1.020)",
+      "source": "paper_model",
+      "verified": false
+    },
+    {
+      "value": 200,
+      "unit": "años",
+      "context": "persistencia futura proyectada por modelo de degradación",
+      "source": "paper_model",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "corroborate",
+      "tier": "T1-T2",
+      "cam_attenuator": "los datos confirman / es consistente con"
+    },
+    {
+      "abstract_verb": "demonstrate (modelo)",
+      "tier": "T1",
+      "cam_attenuator": "el modelo proyecta / según los autores"
+    },
+    {
+      "abstract_verb": "can support",
+      "tier": "T2",
+      "cam_attenuator": "podría / el modelo proyecta"
+    },
+    {
+      "abstract_verb": "highlight",
+      "tier": "T2",
+      "cam_attenuator": "resaltamos que"
+    }
+  ],
+  "narrative_hooks": [
+    "El hielo de Groenlandia exhala metano cocinado hace 2.000 años por microbios bajo el hielo",
+    "26 ríos, 1.840 km de costa, y el 94% están supersaturados",
+    "El carbono del metano no es del óptimo cálido del Holoceno — es más reciente, lo que reabre la cronología del retroceso",
+    "Máximo de 49.613 nmol/L: 16.500 veces el equilibrio atmosférico"
+  ],
+  "limitations": [
+    "Diseño observacional: los datos muestran patrones espaciales e isotópicos pero no establecen causalidad",
+    "Tamaños de muestra pequeños para isótopos (n=16) y radiocarbono (n=7)",
+    "El máximo de CH4 (49.613 nmol/L) es un outlier extremo del suroeste; la mediana refleja mejor la magnitud típica",
+    "Las cifras de 715 t/año y 200 años de persistencia son proyecciones de un modelo MATLAB en Zenodo, no medidas",
+    "Las edades 14C refieren al carbono del metano (cuándo se acumuló la materia orgánica fuente), NO a cuándo emerge el metano (ahora)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "6 claims yes + 2 partial (modelo) → script estándar"
+  },
+  "notebook_slug": "2026-05-07-metano-subglacial-groenlandia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-07-metano-subglacial-groenlandia/notebook.html",
+  "generated_at": "2026-05-13T17:27:04.373472Z"
+}
