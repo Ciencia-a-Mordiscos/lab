@@ -1,0 +1,170 @@
+{
+  "version": "1.0",
+  "paper_id": 2465,
+  "doi": "10.1038/s41561-026-01965-8",
+  "paper_type": "theoretical",
+  "study_design": "modeling",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La estratosfera se enfría con más CO₂",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Todos los escenarios Konrad + los 34 modelos CMIP6 que llegan a 1 hPa lo muestran. Mediana CMIP6 a 1 hPa = −0,92 K/déc; el modelo más cálido aún enfría a −0,57 K/déc. Cero modelos con tendencia positiva en estratosfera alta.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "mediana_K_decada", "value": -0.92, "interpretation": "enfriamiento robusto"}
+    },
+    {
+      "claim": "Cada duplicación de CO₂ enfría 0-8 K la estratosfera",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Paper enmarca como 'roughly 0 to 8 K'. Nuestro Konrad PI → 2×CO₂ da rango 0 → 9,4 K (máx en estratopausa). Paper redondea al cuartil bajo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "delta_T_K_at_1hPa", "value": -9.37, "interpretation": "casi 10 K por doubling en estratopausa"}
+    },
+    {
+      "claim": "El enfriamiento amplifica el forzamiento del CO₂ ~50 %",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Paper dice 'about 50 %'. Nuestro cálculo (ERF − IRF) / IRF para 2×PI da +62,9 % en barrido de duplicaciones, +69,2 % en barrido SST a 287 K. Definición alternativa (ERF − IRF) / ERF da +38,6 %. Diferencia depende del setup numérico del experimento y de la definición de amplificación — paper no especifica.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "pct_amplificacion", "value": 62.9, "interpretation": "alta — el ajuste estratosférico amplifica el forzamiento de manera comparable al efecto directo"}
+    },
+    {
+      "claim": "La tropopausa es invariante al CO₂",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "T a ≈98 hPa varía de 197,61 a 197,91 K entre 70 y 2240 ppm. Rango total: 0,30 K.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "delta_T_K_at_100hPa", "value": 0.30, "interpretation": "frontera clavada por física espectroscópica"}
+    },
+    {
+      "claim": "Reanálisis y CMIP6 coinciden cualitativamente",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "A 1 hPa mediana CMIP6 = −0,92 K/déc; ERA5 = −0,69 K/déc; JRA-55 = −1,55 K/déc — ambos dentro del IQR de modelos. En estratosfera alta reanálisis enfrían más que la mediana (ERA5 hasta −1,84 K/déc a 3 hPa), discrepancia conocida del campo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "explain",
+      "effect_size": {"measure": "mediana_K_decada_observed", "value": -0.69, "interpretation": "ERA5 dentro del rango CMIP6"}
+    },
+    {
+      "claim": "El enfriamiento estratosférico no es una consecuencia fundamental del grosor óptico del gas, sino de la espectroscopia",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Paper atenúa con 'implies' (T2). Es la interpretación teórica del paper, no un resultado directo de los datos del notebook. Citar como 'el paper sugiere' / 'sus resultados implican', NUNCA como 'demuestran'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "imply",
+      "effect_size": {"measure": "qualitative", "value": null, "interpretation": "interpretación teórica del paper"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "9,4",
+      "unit": "K",
+      "context": "enfriamiento PI → 2×CO₂ en estratopausa (1 hPa, ≈48 km)",
+      "source": "konrad_perfil_temperatura.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "roughly 0 to 8 K across stratosphere",
+        "our_calculation": "0 → 9,4 K (máx a 1 hPa, casi 0 en tropopausa)",
+        "discrepancy_pct": 15.0,
+        "reason": "Paper redondea al cuartil bajo del rango; valor exacto Konrad llega a 9,37 K"
+      }
+    },
+    {
+      "value": "62,9",
+      "unit": "por ciento",
+      "context": "amplificación del forzamiento radiativo del CO₂ por enfriamiento estratosférico (2×PI, barrido de duplicaciones, SST=287 K)",
+      "source": "forzamiento_vs_doubling.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "about 50%",
+        "our_calculation": "62,9 % en barrido de duplicaciones / 69,2 % en barrido SST",
+        "discrepancy_pct": 25.8,
+        "reason": "Setup numérico del experimento Konrad o definición de amplificación (ERF-IRF)/IRF vs (ERF-IRF)/ERF. Paper no especifica."
+      }
+    },
+    {
+      "value": "0,30",
+      "unit": "K",
+      "context": "rango total de temperatura en tropopausa (≈98 hPa) a través de los 6 escenarios CO₂",
+      "source": "konrad_perfil_temperatura.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "tropopause is invariant (qualitative)",
+        "our_calculation": "Δ = 0,30 K entre 70 ppm y 2240 ppm",
+        "discrepancy_pct": 0,
+        "reason": "Confirma el paper cuantitativamente"
+      }
+    },
+    {
+      "value": "36",
+      "unit": "modelos",
+      "context": "modelos CMIP6 con tendencias decadales verticales (1980-2019); 34 alcanzan 1 hPa con datos válidos",
+      "source": "cmip6_tendencia_vertical.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "CMIP6 multi-model trends",
+        "our_calculation": "n=36 (34 a 1 hPa)",
+        "discrepancy_pct": 0,
+        "reason": "Coincide con paper"
+      }
+    },
+    {
+      "value": "-1,84",
+      "unit": "K por década",
+      "context": "máximo enfriamiento observado en ERA5 a 3 hPa (≈40 km de altura)",
+      "source": "cmip6_tendencia_vertical.csv (rows ERA5)",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "observed stratospheric cooling",
+        "our_calculation": "ERA5: −1,84 K/déc a 3 hPa",
+        "discrepancy_pct": 0,
+        "reason": "Confirma la huella observada"
+      }
+    },
+    {
+      "value": "189",
+      "unit": "por ciento",
+      "context": "amplificación del forzamiento en un planeta frío (SST = 247 K)",
+      "source": "forzamiento_vs_sst.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "amplification varies with SST",
+        "our_calculation": "189 % a SST=247K, 53 % a SST=307K",
+        "discrepancy_pct": 0,
+        "reason": "Confirma la sensibilidad climática-state-dependent"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "use", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "find", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "explain", "tier": "T1", "cam_attenuator": "explica / explican"},
+    {"abstract_verb": "imply", "tier": "T2", "cam_attenuator": "esto sugiere que / es consistente con — NUNCA 'demuestra'"}
+  ],
+  "narrative_hooks": [
+    "El CO₂ no solo calienta el suelo. Enfría la estratosfera. Y ese enfriamiento amplifica su propio efecto invernadero.",
+    "A 48 km de altura, cada duplicación de CO₂ enfría la estratopausa casi 10 K — y al hacerlo, esa estratosfera fría amplifica el calentamiento que producimos abajo.",
+    "Hay una frontera atmosférica que NO se mueve con el CO₂: la tropopausa. Por debajo se calienta, por encima se enfría — y el límite entre ambos está clavado por física espectroscópica.",
+    "Los reanálisis observacionales muestran que la atmósfera real está enfriando su parte alta más rápido que el modelo promedio CMIP6 predice — una discrepancia conocida hace dos décadas."
+  ],
+  "limitations": [
+    "Konrad es un modelo 1D idealizado: sin dinámica meridional, sin H₂O variable, SST fija a 287 K. Captura la espectroscopia, no la circulación.",
+    "Las tendencias CMIP6 1980-2019 mezclan la firma del CO₂ con la recuperación del ozono y la variabilidad solar — no son enfriamiento puro de CO₂.",
+    "La diferencia entre 'amplificación 50 %' (paper) y nuestros cálculos directos (62,9 % o 69,2 % según experimento) refleja ambigüedad de definición que el paper no resuelve.",
+    "Los modelos 'low-top' (que truncan la atmósfera antes de la mesosfera) subestiman el enfriamiento en estratosfera alta — los reanálisis sugieren que los 'high-top' están más cerca de la verdad."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims yes/partial + 6 key_numbers verificados — denso pero estándar"
+  },
+  "notebook_slug": "2026-05-13-co2-enfria-estratosfera",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-co2-enfria-estratosfera/notebook.html",
+  "generated_at": "2026-05-13T11:05:00Z"
+}

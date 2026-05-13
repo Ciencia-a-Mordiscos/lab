@@ -1,0 +1,34 @@
+titulo: "El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)"
+fecha: 2026-05-13
+categoria: ecologia
+tags: [clima, co2, estratosfera, forzamiento-radiativo, cmip6, reanalisis, espectroscopia, modelado]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01965-8"
+    titulo: "Stratospheric cooling and amplification of radiative forcing with rising carbon dioxide"
+    journal: "Nature Geoscience"
+    autores: "Cohen et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "konrad_perfil_temperatura.csv"
+    descripcion: "Perfiles verticales Konrad 1D (6 escenarios × 128 niveles)"
+    fuente: "Zenodo 16929030"
+  - nombre: "cmip6_tendencia_vertical.csv"
+    descripcion: "Tendencias decadales K/déc (36 CMIP6 + 3 reanálisis) × niveles verticales"
+    fuente: "Zenodo 16929030"
+  - nombre: "tasas_calentamiento_por_especie.csv"
+    descripcion: "Tasas radiativas LW/SW/CO2/H2O/O3 (K/día) en estado base 287 K"
+    fuente: "Zenodo 16929030"
+  - nombre: "forzamiento_espectral_2xco2.csv"
+    descripcion: "IRF/ERF resueltos por wavenumber para 2×CO₂"
+    fuente: "Zenodo 16929030"
+  - nombre: "forzamiento_vs_doubling.csv"
+    descripcion: "IRF, ERF y % amplificación por factor CO₂ (¼-8×PI)"
+    fuente: "Zenodo 16929030"
+  - nombre: "forzamiento_vs_sst.csv"
+    descripcion: "IRF, ERF y % amplificación por SST (247-307 K)"
+    fuente: "Zenodo 16929030"
+estado: publicado

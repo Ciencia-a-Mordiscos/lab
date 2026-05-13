@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)
+
+**Ecología** · *Nature Geoscience* · Cohen et al. (2026) usan un modelo radiativo idealizado (Konrad 1D) corrido a **6 concentraciones de CO₂ (70 → 2240 ppm)** y lo cruzan con **36 modelos CMIP6 + 3 reanálisis** (ERA5, JRA-55, MERRA-2) para explicar por qué el CO₂ calienta abajo y **enfría arriba**. A 1 hPa (≈48 km) cada duplicación de CO₂ enfría la estratopausa **~9 K** — pero la tropopausa no se mueve: la temperatura a 100 hPa varía menos de **0,3 K** entre 70 y 2240 ppm. Y ese enfriamiento estratosférico **amplifica el forzamiento radiativo** del CO₂ entre **50 % y 70 %** según el setup numérico. Los 34 modelos CMIP6 que llegan a 1 hPa muestran enfriamiento (mediana −0,92 K/déc); los reanálisis observacionales muestran enfriamiento aún más intenso en estratosfera alta (ERA5: −1,84 K/déc a 3 hPa). ⚠️ Konrad es 1D idealizado: SST fija a 287 K, sin dinámica meridional, sin H₂O variable. ⚠️ El paper reporta amplificación "*about 50 %*" pero nuestro cálculo directo (ERF − IRF)/IRF da +62,9 % en el barrido de duplicaciones y +69,2 % en el barrido SST — el paper no especifica la definición usada. ⚠️ Las tendencias CMIP6 1980-2019 mezclan la firma del CO₂ con la recuperación del ozono y la variabilidad solar — no son enfriamiento puro de CO₂.
+
+[Ver notebook](papers/2026-05-13-co2-enfria-estratosfera/notebook) · [Leer más](papers/2026-05-13-co2-enfria-estratosfera/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-co2-enfria-estratosfera/notebook.ipynb)
+
+---
+
 ### Diversidad molecular como biosignatura: la vida se delata por cómo reparte sus aminoácidos
 
 **Astronomía** · *Nature Astronomy* · Yoffe et al. (2026) proponen una bisagra para distinguir vida de química abiótica: no por **cuántos** tipos de moléculas hay, sino por **cómo se reparten**. Sobre **69 muestras de aminoácidos** (30 abióticas + 28 bióticas + 11 mixtas) la entropía de Shannon separa los grupos con un **Cohen's d = 2,06** (Mann-Whitney U one-sided, **p = 3,8 × 10⁻⁸**). La paradoja: las muestras abióticas tienen **más tipos** distintos en promedio (16,3 vs 14,1), pero los meteoritos como **Bennu** están dominados por **glicina al 64,2%** del total, mientras *E. coli* reparte sus 18 aminoácidos parejo (H = 2,78). ⚠️ Estudio observacional — los datos muestran asociación, no causalidad mecanística. ⚠️ Las 28 muestras bióticas son mayoritariamente microbios y fósiles de la Tierra; vida bioquímicamente exótica con 2-3 aminoácidos dominantes sería marcada como abiótica. ⚠️ Para ácidos grasos, con entropía de Shannon cruda el patrón **no replica** (p=0,76) — el paper usa un marco probabilístico con propagación de incertidumbres que excede el alcance del notebook.

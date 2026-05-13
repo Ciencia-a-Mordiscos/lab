@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-13-co2-enfria-estratosfera/README
+    title: "El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)"
+    sections:
+    - file: papers/2026-05-13-co2-enfria-estratosfera/notebook
+      title: Notebook
   - file: papers/2026-05-12-areas-protegidas-etiopia-tradeoffs/README
     title: "Áreas protegidas de Etiopía: cuando proteger funciona y duele a la vez"
     sections:
