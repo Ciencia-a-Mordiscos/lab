@@ -1,0 +1,22 @@
+titulo: "¿Cuántas horas debe dormir tu cuerpo?"
+fecha: 2026-05-13
+categoria: medicina
+tags: [sueño, envejecimiento, relojes biológicos, UK Biobank, multi-ómica, proteómica, metabolómica, MRI]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10524-5"
+    titulo: "Sleep chart of biological ageing clocks in middle and late life"
+    journal: Nature
+    autores: "Wen et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "curvas_u_sueno_edad.csv"
+    descripcion: "Curvas U modeladas (GAM con IC 95 %) de gap de edad biológica vs duración de sueño para 23 combinaciones órgano×ómica × 2 sexos. 4 600 filas."
+    fuente: "Zenodo 10.5281/zenodo.17409425 (CC-BY 4.0)"
+  - nombre: "optimo_sueno_por_organo.csv"
+    descripcion: "Resumen por combinación: horas óptimas y penalización por dormir 4 h o 10 h. 46 filas."
+    fuente: "Derivado de Zenodo 10.5281/zenodo.17409425"
+estado: publicado

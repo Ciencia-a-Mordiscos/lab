@@ -1,0 +1,222 @@
+{
+  "version": "1.0",
+  "paper_id": 2483,
+  "doi": "10.1038/s41586-026-10524-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El sueño óptimo varía por órgano y por ómica",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana 6.91 h, IQR 6.48–7.64 h sobre 37 combinaciones con U interior. Diferencias entre Met (6.12 h), MRI (6.70 h) y Prot (7.61 h).",
+      "certainty_tier": "T1",
+      "abstract_verb": "varies by organ and sex",
+      "effect_size": {
+        "measure": "median+IQR",
+        "value": 6.91,
+        "interpretation": "mediana"
+      }
+    },
+    {
+      "claim": "Las dos lentes sobre el cerebro discrepan ~1.3 h",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "MRI cerebro: 6.42–6.48 h. Prot cerebro: 7.70–7.82 h. Diferencia ~1.31 h consistente en ambos sexos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "varies by omics technology",
+      "effect_size": {
+        "measure": "diferencia_horas",
+        "value": 1.31,
+        "interpretation": "diferencia entre medianas"
+      }
+    },
+    {
+      "claim": "Sexo apenas mueve la mediana global del óptimo",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana femenina 6.97 h vs masculina 6.91 h (≈ 4 min). La variación importante está entre órganos y ómicas, no entre sexos a nivel agregado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "varying by organ and sex",
+      "effect_size": {
+        "measure": "diferencia_horas",
+        "value": 0.06,
+        "interpretation": "trivial"
+      }
+    },
+    {
+      "claim": "Dormir 10 h tiende a penalizar más que dormir 4 h",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Ratio promedio penalización 4h/10h = 0.88. Asimetría leve, tendencia descriptiva sobre 37 combinaciones. No es el headline del paper.",
+      "certainty_tier": "T2",
+      "abstract_verb": "are associated with",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 0.88,
+        "interpretation": "asimetría leve"
+      }
+    },
+    {
+      "claim": "Las 8 h del consejo popular caen fuera del rango óptimo del paper",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Solo 2 de 37 combinaciones con U interior tienen óptimo ≥ 8 h (5 %). Rango reportado por el paper: 6.4–7.8 h.",
+      "certainty_tier": "T1",
+      "abstract_verb": "lowest biological age gaps are achieved between 6.4 and 7.8 h",
+      "effect_size": {
+        "measure": "n_combinaciones",
+        "value": 2,
+        "interpretation": "minoría"
+      }
+    },
+    {
+      "claim": "El paper no descarta causalidad inversa entre sueño y envejecimiento",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Los autores reportan que Mendelian randomization no aporta evidencia fuerte de causalidad enfermedad→sueño pero no descarta esta dirección. Solo asociaciones observacionales.",
+      "certainty_tier": "T3",
+      "abstract_verb": "cannot completely exclude such reverse causality",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 23,
+      "unit": "modelos",
+      "context": "relojes biológicos (órgano × ómica)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 18,
+      "unit": "órganos",
+      "context": "órganos únicos cubiertos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 46,
+      "unit": "curvas",
+      "context": "23 combinaciones × 2 sexos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 37,
+      "unit": "combinaciones",
+      "context": "con curva U de óptimo interior (4.5–9.5 h)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.91,
+      "unit": "horas",
+      "context": "mediana del sueño óptimo (37 combinaciones)",
+      "source": "datos",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "6.4–7.8 h (rango)",
+        "our_calculation": "mediana 6.91 h, IQR 6.48–7.64 h",
+        "discrepancy_pct": 0,
+        "reason": "el rango del paper coincide con el IQR observado"
+      }
+    },
+    {
+      "value": 6.42,
+      "unit": "horas",
+      "context": "óptimo cerebro MRI (hombres)",
+      "source": "datos",
+      "verified": true
+    },
+    {
+      "value": 7.82,
+      "unit": "horas",
+      "context": "óptimo cerebro Prot (mujeres)",
+      "source": "datos",
+      "verified": true
+    },
+    {
+      "value": 1.31,
+      "unit": "horas",
+      "context": "diferencia entre lentes sobre el cerebro",
+      "source": "datos",
+      "verified": true
+    },
+    {
+      "value": 2,
+      "unit": "combinaciones",
+      "context": "relojes con óptimo ≥ 8 h",
+      "source": "datos",
+      "verified": true
+    },
+    {
+      "value": 0.88,
+      "unit": "ratio",
+      "context": "penalización promedio 4h vs 10h (< 1 = 10h penaliza más)",
+      "source": "datos",
+      "verified": true
+    },
+    {
+      "value": "37–84",
+      "unit": "años",
+      "context": "rango etario UK Biobank",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "propose",
+      "tier": "T2",
+      "cam_attenuator": "proponen que / la propuesta es"
+    },
+    {
+      "abstract_verb": "emerges",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "are associated with",
+      "tier": "T1-asociativo",
+      "cam_attenuator": "se asocia con / va de la mano de"
+    },
+    {
+      "abstract_verb": "may partially mediate",
+      "tier": "T2",
+      "cam_attenuator": "podrían mediar parcialmente"
+    },
+    {
+      "abstract_verb": "cannot completely exclude reverse causality",
+      "tier": "T3",
+      "cam_attenuator": "no descarta la causalidad inversa"
+    },
+    {
+      "abstract_verb": "Our findings suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    }
+  ],
+  "narrative_hooks": [
+    "Te dijeron 8 horas. Pero solo 2 de los 37 relojes con óptimo claro alcanzan o pasan esa cifra",
+    "El mismo cerebro tiene dos óptimos según se mida por MRI (6.4 h) o por proteínas en plasma (7.8 h)",
+    "La U no es simétrica: dormir 10 h tiende a pesar más que dormir 4 h",
+    "Asociación, no causa: el paper no descarta que un órgano envejecido sea el que cambia el sueño"
+  ],
+  "limitations": [
+    "Sueño auto-reportado — sesgo de recall y disociación con tiempo real dormido",
+    "UK Biobank no es representativo de la población global",
+    "Las curvas son predicciones GAM sobre la cohorte, no trayectorias individuales",
+    "Cohorte 37–84 años — extrapolación a otras edades injustificada",
+    "Mendelian randomization no descarta causalidad inversa: los autores lo afirman explícitamente"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims yes, 11 key numbers — estándar"
+  },
+  "notebook_slug": "2026-05-13-sueno-relojes-biologicos-edad",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-sueno-relojes-biologicos-edad/notebook.html",
+  "generated_at": "2026-05-13T20:11:00.381127Z"
+}

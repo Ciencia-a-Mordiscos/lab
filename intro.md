@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ¿Cuántas horas debe dormir tu cuerpo? 23 relojes biológicos contestan distinto
+
+**Medicina** · *Nature* · Wen et al. (2026) cruzan **23 relojes biológicos** (MRI estructural, proteómica plasmática y metabolómica) con duración de sueño auto-reportada en la cohorte UK Biobank (37–84 años) y modelan la relación con GAMs. Aparece una **U** sistemática: dormir poco y dormir mucho se asocian con un mayor *gap* de edad biológica. Sobre los 37 relojes con óptimo interior, la mediana cae en **6,91 h** (IQR 6,48–7,64 h) — el mismo cerebro tiene óptimos distintos según se mida por MRI (**6,4 h**) o por proteínas en plasma (**7,8 h**). **Solo 2 de los 37 relojes** alcanzan o pasan las **8 h** del consejo popular. La penalización por dormir 10 h es **12 % mayor** que por dormir 4 h (ratio 0,88) — la U no es simétrica. ⚠️ Asociación, no causa: el paper explícitamente **no descarta** causalidad inversa con Mendelian randomization. ⚠️ Sueño auto-reportado. ⚠️ Las curvas son predicciones GAM sobre la cohorte, no trayectorias individuales.
+
+[Ver notebook](papers/2026-05-13-sueno-relojes-biologicos-edad/notebook) · [Leer más](papers/2026-05-13-sueno-relojes-biologicos-edad/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-sueno-relojes-biologicos-edad/notebook.ipynb)
+
+---
+
 ### Sensor de sudor multimodal: 4 biomarcadores en 21 días
 
 **Medicina** · *Nature Biomedical Engineering* · Rajendran et al. (2026) construyen un sensor electroquímico inalámbrico, sin batería, que mide **cortisol, urea, lactato y glucosa** al mismo tiempo en sudor — y se autolimpia con un pulso de voltaje. Los 4 sensores mantienen entre **96,27% y 98,46%** de respuesta al día **21** (pérdida máxima 3,73 puntos). La regeneración recupera **100% en etapa 1** y **≥98,94% en etapa 2** (n=3 batches). El método **ECA** limpia el electrodo en **35 segundos**, el más rápido de los 4 probados (CV, DPV, ECA, LSV). En 3 participantes, el cortisol sube **+35,2% medio** con el estrés (3/3 consistente, Cohen's d pareado = 10,46). ⚠️ Validación humana con **n=3** — el patrón es consistente pero Wilcoxon p = 0,25 no alcanza significancia. ⚠️ El abstract dice *suggesting* para aplicaciones clínicas — prueba de concepto, no validación clínica. ⚠️ Sin comparación contra método gold-standard (ELISA/HPLC) en los CSVs del Source Data.

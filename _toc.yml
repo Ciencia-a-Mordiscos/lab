@@ -242,6 +242,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-13-sueno-relojes-biologicos-edad/README
+    title: "¿Cuántas horas debe dormir tu cuerpo? 23 relojes biológicos contestan distinto"
+    sections:
+    - file: papers/2026-05-13-sueno-relojes-biologicos-edad/notebook
+      title: Notebook
   - file: papers/2026-05-13-sensor-sudor-multimodal/README
     title: "Sensor de sudor multimodal: 4 biomarcadores en 21 días"
     sections:
