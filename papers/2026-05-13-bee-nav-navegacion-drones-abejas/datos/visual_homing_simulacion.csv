@@ -1,0 +1,8 @@
+metrica,bee_nav,snapshot_method,perfect_memory,unidad,nota
+exito_dentro_lha,100,deteriora,100,pct,Fig 2d dentro del LHA radius
+generaliza_hasta_factor,2.5,1.0,1.5,multiplo_de_LHA,Bee-Nav generaliza hasta 2.5x LHA
+error_angular_max_lha,40,n_d,n_d,grados,Fig 2f dentro del LHA
+error_distancia_max_lha,2.0,n_d,n_d,metros,Fig 2f dentro del LHA
+n_runs_simulacion,800,800,800,vuelos,800 vuelos totales (16 por radio x 5 radios x 10 entornos)
+n_entornos,10,10,10,bosques,bosques sinteticos en NVIDIA Isaac Sim
+arboles_por_entorno,40,40,40,arboles,en 50x50m area uniformemente distribuidos

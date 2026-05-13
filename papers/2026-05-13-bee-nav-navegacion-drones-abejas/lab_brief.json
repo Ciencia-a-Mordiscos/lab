@@ -1,0 +1,220 @@
+{
+  "version": "1.0",
+  "paper_id": 2475,
+  "doi": "10.1038/s41586-026-10461-3",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "robot_y_modelos_de_abeja_hormiga",
+  "verification_table": [
+    {
+      "claim": "El drone real Bee-Nav necesita explorar el 3,84% del área total de vuelo para regresar a casa con éxito.",
+      "supported": "yes",
+      "detail": "Reportado en Results sobre datos PX4 reales del Crazyflie (Fig 2b). El número cae dentro de la banda biológica estimada (3,4% abeja, 7,6% hormiga). El paper lo enmarca como verificación preliminar de la estrategia bio-inspirada, no como equivalencia funcional con el cerebro de la abeja.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La red neuronal compacta de Bee-Nav pesa 3,4 kB; la red de atención pesa 42,3 kB. El estado del arte para drones diminutos usa 500 kB para cubrir solo 4×5 m.",
+      "supported": "yes",
+      "detail": "Valores reportados directamente en el paper. Ratios derivados: attention/compact = 12,4×; SOTA/compact = 147×; SOTA/attention = 11,8×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "propose",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Bee-Nav generaliza hasta 2,5 veces el radio del Learning Area (LHA) sin re-entrenamiento.",
+      "supported": "yes",
+      "detail": "Basado en 800 vuelos simulados en 10 bosques sintéticos (40 árboles cada uno, 50×50 m). Snapshot clásico falla al borde del LHA (1,0×); perfect memory teórico llega a 1,5×. Limitación: bosques uniformes, mundo real es más heterogéneo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "generalized",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El drone aterriza a menos de 0,5 m de home en el 100% de los vuelos cortos (30-110 m) y en el 70% de los vuelos largos (200-600 m) en condiciones variables de viento.",
+      "supported": "yes",
+      "detail": "48 vuelos confirmados en CyberZoo (indoor 10×10 m), n no detallado en UVV exterior. La cifra de 70% del abstract aplica al rango 200-600 m con viento variable, no al rango completo desde 0.",
+      "certainty_tier": "T1",
+      "abstract_verb": "successfully returned",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El viento alto reduce la tasa de éxito en 30 puntos porcentuales (de 80% con viento bajo a 50% con ráfagas de 10 m/s) en el mismo rango 200-330 m.",
+      "supported": "yes",
+      "detail": "Comparación directa por condición de viento en el mismo rango. La causa propuesta por el paper es el tilt de la cámara, que reduce la precisión del matching visual.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El drone iguala el rendimiento navegacional del cerebro de la abeja melífera.",
+      "supported": "partial",
+      "detail": "El LHA% del drone (3,84%) coincide con el estimado para abejas (3,4%), pero los mecanismos son distintos: el drone usa odometría visual sobre giroscopios baratos; la abeja integra señales celestes, ópticas y olfativas. El paper lo presenta como verificación preliminar de la estrategia, no como equivalencia funcional.",
+      "certainty_tier": "T3",
+      "abstract_verb": "preliminary verification",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.84,
+      "unit": "pct",
+      "context": "LHA% del drone real Bee-Nav (% del área total que debe explorar)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 3.4,
+      "unit": "pct",
+      "context": "LHA% estimado para abeja melífera (referencia biológica)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 7.6,
+      "unit": "pct",
+      "context": "LHA% estimado para hormiga del desierto (referencia biológica)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 3.4,
+      "unit": "kB",
+      "context": "Tamaño de la red neural Bee-Nav compact (5 capas, vuelos cortos)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 42.3,
+      "unit": "kB",
+      "context": "Tamaño de la red neural Bee-Nav attention (8 capas, vuelos largos)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 500,
+      "unit": "kB",
+      "context": "SOTA tiny drone (referencia, solo cubre 4×5 m)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 147,
+      "unit": "x",
+      "context": "Ratio de memoria SOTA tiny / Bee-Nav compact",
+      "source": "calculo_propio"
+    },
+    {
+      "value": 100,
+      "unit": "pct",
+      "context": "Éxito de homing en vuelos cortos outdoor (30-110 m)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 70,
+      "unit": "pct",
+      "context": "Éxito de homing en vuelos largos (200-600 m, condiciones variables)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 80,
+      "unit": "pct",
+      "context": "Éxito en outdoor 200-330 m con viento bajo",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 50,
+      "unit": "pct",
+      "context": "Éxito en outdoor 200-330 m con viento alto (rafagas 10 m/s)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 30,
+      "unit": "pp",
+      "context": "Caída por viento alto (80% a 50%) en el mismo rango",
+      "source": "calculo_propio"
+    },
+    {
+      "value": 600,
+      "unit": "m",
+      "context": "Distancia máxima de vuelo outdoor confirmada",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 0.5,
+      "unit": "m",
+      "context": "Distancia máxima al home en aterrizajes exitosos",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 2.5,
+      "unit": "x_LHA_radius",
+      "context": "Factor de generalización Bee-Nav (vs 1,0× snapshot, 1,5× perfect memory)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 48,
+      "unit": "vuelos",
+      "context": "n de vuelos confirmados en CyberZoo (indoor 10×10 m)",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 800,
+      "unit": "vuelos",
+      "context": "n total de simulaciones de visual homing",
+      "source": "fact_sheet"
+    },
+    {
+      "value": 32,
+      "unit": "g",
+      "context": "Peso del drone Crazyflie usado en el experimento",
+      "source": "abstract"
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (paper de ingenieria)"
+    },
+    {
+      "abstract_verb": "propose",
+      "tier": "T1",
+      "cam_attenuator": "OK descriptivo: 'Bee-Nav propone / desarrollaron'"
+    },
+    {
+      "abstract_verb": "successfully returned",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: '100% / 70% de los vuelos'"
+    },
+    {
+      "abstract_verb": "will be vital for",
+      "tier": "T2",
+      "cam_attenuator": "atenuar: 'sera clave / sera util para'"
+    },
+    {
+      "abstract_verb": "provides new perspectives",
+      "tier": "T2",
+      "cam_attenuator": "OK descriptivo"
+    },
+    {
+      "abstract_verb": "preliminary verification",
+      "tier": "T3",
+      "cam_attenuator": "'una verificacion preliminar' — NO 'demuestra que las abejas hacen esto'"
+    }
+  ],
+  "narrative_hooks": [
+    "Un drone de 32 gramos vuelve a casa desde 600 m con una red neuronal de 3,4 kB — menos memoria que un párrafo de texto.",
+    "Bee-Nav necesita explorar el 3,84% del área para aprender a navegar. La abeja melífera, un 3,4%. La hormiga del desierto, un 7,6%.",
+    "El estado del arte para drones diminutos usa 500 kB para cubrir 4×5 m. Bee-Nav compact pesa 147 veces menos.",
+    "En vuelos cortos al aire libre, el drone aterriza a menos de medio metro de casa el 100% de las veces. Con viento alto, cae al 50%."
+  ],
+  "limitations": [
+    "Los LHA% de abeja y hormiga son estimaciones derivadas de comportamiento natural, no medidas directas — referencias de magnitud, no de precisión.",
+    "Los conteos n por ambiente outdoor no se publican explícitamente en el paper; solo la tasa de éxito.",
+    "Las 800 simulaciones se corrieron en bosques sintéticos uniformes (40 árboles en 50×50 m); el mundo real tiene mucha más heterogeneidad visual.",
+    "El raw dataset (716 MB en 4TU.ResearchData, formato PX4 .ulg y ROS2 bags) no se procesó en este notebook — los CSVs se construyeron desde los valores publicados en el texto del paper."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (yes) + 1 partial sobre comparación bio-drone (requiere matiz extra). Densidad alta de números clave (LHA%, tamaños kB, % de éxito, ratios) — el script necesita aire para no apilar cifras."
+  },
+  "notebook_slug": "2026-05-13-bee-nav-navegacion-drones-abejas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook.html",
+  "generated_at": "2026-05-13T22:47:07.111427Z"
+}

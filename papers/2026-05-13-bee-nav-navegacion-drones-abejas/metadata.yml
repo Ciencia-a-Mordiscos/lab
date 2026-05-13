@@ -1,0 +1,28 @@
+titulo: "Un drone vuelve a casa con una red de 3,4 kB"
+fecha: 2026-05-13
+categoria: tecnologia
+tags: [robotica, drones, abejas, navegacion, redes-neuronales, bio-inspirado, tu-delft, nature]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10461-3"
+    titulo: "Efficient robot navigation inspired by honeybee learning flights"
+    journal: Nature
+    autores: "Ou et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "lha_por_metodo.csv"
+    descripcion: "LHA% (Learning Area) por método de path integration: drone real Bee-Nav, SVO+GTSAM, bio-inspirado con brújula, y estimaciones para abeja y hormiga del desierto."
+    fuente: "Texto del paper (Results + Supplementary Section 11)"
+  - nombre: "redes_neuronales.csv"
+    descripcion: "Tamaño en kB y arquitectura de las dos redes Bee-Nav (compact 3,4 kB / attention 42,3 kB) frente al SOTA tiny drone (500 kB)."
+    fuente: "Texto del paper (Results + Discussion)"
+  - nombre: "homing_por_ambiente.csv"
+    descripcion: "Tasa de éxito de homing por ambiente real-world: CyberZoo, indoor hall, outdoor 30-110 m, outdoor 200-330 m con viento bajo/alto, outdoor hasta 600 m."
+    fuente: "Texto del paper (Results + Fig 4c)"
+  - nombre: "visual_homing_simulacion.csv"
+    descripcion: "Métricas agregadas de las 800 simulaciones de homing en 10 bosques sintéticos: éxito dentro del LHA, generalización fuera del LHA, errores angulares y de distancia."
+    fuente: "Texto del paper (Results + Methods + Fig 2d/2f)"
+estado: publicado

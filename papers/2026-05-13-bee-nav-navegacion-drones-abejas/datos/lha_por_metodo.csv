@@ -1,0 +1,6 @@
+metodo,fuente_ruido,tipo_path_integration,sigma_psi_deg,sigma_d_m,lha_pct,nota
+real_drone_bee_nav,Bee-Nav (este paper),sin_compass,0.63,0.10,3.84,baseline real del drone Crazyflie
+svo_gtsam,SVO+GTSAM (Forster 2017),sin_compass,,,0.74,visual odometry avanzada
+bio_inspired_magnetometer,Bioinspired + magnetometer (Hagen 2019),con_compass,,,0.24,heading absoluta por brújula
+desert_ant_estimate,Aproximación hormiga del desierto (Wehner 2003),con_compass,,,7.6,inferido de polarización celeste
+honeybee_estimate,Aproximación abeja melífera (von Frisch),con_compass,,,3.4,inferido de comportamiento natural

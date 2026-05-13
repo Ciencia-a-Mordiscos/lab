@@ -1,0 +1,4 @@
+red,n_capas,tamano_kb,uso_principal,vuelos_distancia_m,nota
+compact,5,3.4,vuelos cortos indoor/outdoor,30-110,red feedforward simple Bee-Nav
+attention,8,42.3,vuelos largos outdoor,200-600,incluye mecanismo de atencion visual
+tiny_robot_referencia,,500.0,SOTA tiny drone (Bardienus 2024),area_4x5m,solo 4x5m = 20 m2 de cobertura

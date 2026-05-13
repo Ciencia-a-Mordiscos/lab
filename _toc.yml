@@ -526,6 +526,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-13-bee-nav-navegacion-drones-abejas/README
+    title: "Un drone vuelve a casa con una red de 3,4 kB"
+    sections:
+    - file: papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook
+      title: Notebook
   - file: papers/2026-05-08-llm-evade-anti-bots-encuestas/README
     title: "Un LLM pasó 5.390 de 5.400 preguntas trampa de encuestas online"
     sections:

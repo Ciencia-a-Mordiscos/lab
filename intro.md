@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Un drone vuelve a casa con una red de 3,4 kB
+
+**Tecnología** · *Nature* · Ou et al. (2026) entrenaron un drone Crazyflie de **32 gramos** para regresar a casa después de vuelos de hasta **600 m** sin GPS, usando una red neuronal de **3,4 kB** (la `compact`) o **42,3 kB** (la `attention`, con mecanismo de atención visual). La inspiración: el *learning flight* de la abeja melífera. El drone solo necesita explorar el **3,84%** del área total — cerca del **3,4%** estimado para abejas y por debajo del **7,6%** de las hormigas del desierto. En vuelos cortos exteriores (30–110 m) aterriza a menos de medio metro de casa el **100%** de las veces; en vuelos largos (200–600 m con viento variable), el **70%**. El viento alto recorta la tasa **30 puntos porcentuales** (de 80% a 50%) en el mismo rango. ⚠️ El LHA% de abeja y hormiga son **estimaciones derivadas** de comportamiento natural, no medidas directas — el paper lo enmarca como *verificación preliminar* de la estrategia bio-inspirada, no como equivalencia funcional. ⚠️ Las 800 simulaciones se corrieron en bosques sintéticos uniformes (40 árboles en 50×50 m).
+
+[Ver notebook](papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook) · [Leer más](papers/2026-05-13-bee-nav-navegacion-drones-abejas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook.ipynb)
+
+---
+
 ### Primer incendio alpino del siglo XXI en los Rwenzori — 12.000 años de registro
 
 **Ecología** · *Nature* · Mason et al. (2026) reconstruyen 12 milenios de registro de fuego en dos lagos de los montes Rwenzori (frontera Uganda-RDC). En el **Lago Kopello** (4.017 m, zona afroalpina), el pico de **2014 alcanzó 87 partículas de carbón por cm²/año** — **4,35× más alto** que el máximo de los 12.000 años anteriores (20) y **223× la media** del registro (0,39). En el **Lago Mahoma** (2.990 m, bosque), el cambio ocurrió antes: el fuego subió **5,5×** hace ~2.000 años (Mann-Whitney p<0,001, Cohen's d=2,2). El polen del mismo período cuenta el otro lado de la historia: **Poaceae +11 pp**, **Podocarpus +8,6 pp**, **Celtis africana −7,5 pp** — el dosel se abre. ⚠️ El 86% de muestras pre-1950 en Kopello tienen carbón >0: eso es transporte regional, no fuego local; lo sin precedentes es la **magnitud**, no la presencia. ⚠️ Diseño observacional — la coincidencia temporal con actividad humana es correlación, no causa. ⚠️ n=44 vs n=19 en polen.

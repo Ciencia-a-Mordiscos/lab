@@ -1,0 +1,7 @@
+ambiente,tipo,area_m,distancia_vuelo_min_m,distancia_vuelo_max_m,red_usada,n_vuelos,tasa_exito_pct,viento,nota
+cyberzoo_TU_Delft,indoor,10x10,0,10,compact_y_attention,48,100.0,sin_viento,vuelos terminaron a <0.5m del home
+indoor_hall_UVV,indoor,30x40,30,40,compact,n_d,100.0,sin_viento,Unmanned Valley Valkenburg
+outdoor_30_110m_UVV,outdoor,grande,30,110,compact,n_d,100.0,normal,vuelos cortos exterior
+outdoor_200_330m_low_wind,outdoor,400x500,200,330,attention,n_d,80.0,bajo,UVV testing grounds
+outdoor_200_330m_high_wind,outdoor,400x500,200,330,attention,n_d,50.0,alto_5ms_rafagas_10ms,tilt de camara reduce precision
+outdoor_hasta_600m,outdoor,400x500,200,600,attention,n_d,70.0,variable,abstract reporta 70% para 200-600m
