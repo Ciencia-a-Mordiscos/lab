@@ -383,6 +383,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-05-13-homo-erectus-china-esmalte/README
+    title: "Proteínas de esmalte de 6 Homo erectus chinos revelan una variante única"
+    sections:
+    - file: papers/2026-05-13-homo-erectus-china-esmalte/notebook
+      title: Notebook
   - file: papers/2026-04-25-octopodos-gigantes-cretacico/README
     title: "Pulpos gigantes del Cretácico: ¿quiénes eran?"
     sections:

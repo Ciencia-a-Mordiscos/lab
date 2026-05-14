@@ -1,0 +1,31 @@
+titulo: "Proteínas de esmalte de 6 Homo erectus chinos revelan una variante única"
+fecha: 2026-05-13
+categoria: biologia
+tags: [paleoproteomica, homo-erectus, denisovanos, evolucion-humana, esmalte, ameloblastina]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10478-8"
+    titulo: "Enamel proteins from six Homo erectus specimens across China"
+    journal: Nature
+    autores: "Bai, F., Wu, Z., Xing, S. & Fu, Q. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "screening_resumen_sitio.csv"
+    descripcion: "Tasa de éxito MALDI por sitio chino (Zhoukoudian/Hexian/Sunjiadong)"
+    fuente: "Supplementary Data 1"
+  - nombre: "screening_maldi.csv"
+    descripcion: "Resultado MALDI individual de los 85 fósiles probados"
+    fuente: "Supplementary Data 1"
+  - nombre: "cobertura_secuencias.csv"
+    descripcion: "Cobertura proteómica por proteína × specimen"
+    fuente: "FASTA suplementario derivado"
+  - nombre: "variantes_ambn.csv"
+    descripcion: "Aminoácidos posiciones 253 y 273 de AMBN (6 chinos + Harbin)"
+    fuente: "FASTA suplementario derivado"
+  - nombre: "similaridad_genomica_cr4.csv"
+    descripcion: "Similaridad genómica por ventana de 20 kb en cr4 71.4–71.7 Mb"
+    fuente: "Supplementary Data 3"
+estado: publicado

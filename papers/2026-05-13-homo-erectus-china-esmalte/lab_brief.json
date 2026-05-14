@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "paper_id": 2479,
+  "doi": "10.1038/s41586-026-10478-8",
+  "paper_type": "experimental",
+  "study_design": "observacional",
+  "species": "fossil-hominin",
+  "verification_table": [
+    {
+      "claim": "6 specimens chinos de 3 sitios dieron proteomas completos",
+      "supported": "yes",
+      "detail": "6/6 specimens en los CSVs (HX-S1, HX-S2, SJD10A, SJD10M, SJD14M, ZKD). Hecho peer-reviewed.",
+      "certainty_tier": "T1",
+      "abstract_verb": "successfully extracted and analysed",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tasa de éxito MALDI difiere por sitio (Sunjiadong 13.5% vs Zhoukoudian 37.5%)",
+      "supported": "yes",
+      "detail": "Diferencia ~3x. Descriptivo, sin test inferencial (n por sitio pequeño).",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los 6 chinos comparten variante A253G en AMBN",
+      "supported": "yes",
+      "detail": "6/6 con G en posición 253. Harbin tiene A. Afirmación directa del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "share two amino acid variants",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los 6 chinos comparten variante M273V con Denisovanos",
+      "supported": "partial",
+      "detail": "4/4 chinos determinados con V; HX-S1 y HX-S2 no preservaron pos 273. Respaldo directo en 4/6 specimens.",
+      "certainty_tier": "T1",
+      "abstract_verb": "share / previously been identified in Denisovans",
+      "supported_by_data": true
+    },
+    {
+      "claim": "A253G es desconocida en otros linajes humanos",
+      "supported": "partial",
+      "detail": "Verificable solo contra Harbin (tiene A). Comparación con Dmanisi/Atapuerca/Denisovanos/Neandertales/modernos según referencias del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "previously unknown",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La introgresión super-arcaica en Denisovanos probablemente vino de H. erectus",
+      "supported": "partial",
+      "detail": "Inferencia compleja. En la ventana cr4 analizada Neandertal está MÁS cerca de H. erectus que Denisovano (99/127 ventanas). El paper presenta este locus como ejemplo de señal heterogénea.",
+      "certainty_tier": "T2",
+      "abstract_verb": "likely to have originated from",
+      "effect_size": {
+        "measure": "cohen_d_paired",
+        "value": -0.751,
+        "interpretation": "medio-grande"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 85,
+      "unit": "fósiles",
+      "context": "total MALDI screened en 3 sitios chinos",
+      "source": "Supp Data 1",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "fósiles",
+      "context": "positivos MALDI (25.9% de los probados)",
+      "source": "Supp Data 1",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "specimens",
+      "context": "proteomas completos finales (7% del screening total)",
+      "source": "paper + FASTA",
+      "verified": true
+    },
+    {
+      "value": 400,
+      "unit": "miles de años",
+      "context": "edad aproximada (Pleistoceno Medio)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 37.5,
+      "unit": "por ciento",
+      "context": "tasa MALDI Zhoukoudian (3/8)",
+      "source": "Supp Data 1",
+      "verified": true
+    },
+    {
+      "value": 13.5,
+      "unit": "por ciento",
+      "context": "tasa MALDI Sunjiadong (5/37) — la más baja",
+      "source": "Supp Data 1",
+      "verified": true
+    },
+    {
+      "value": 18.2,
+      "unit": "por ciento",
+      "context": "mediana cobertura proteómica de los 6 chinos",
+      "source": "FASTA derivado",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "specimens chinos",
+      "context": "100% con G en AMBN pos 253 (variante A253G)",
+      "source": "FASTA",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "specimens chinos determinados",
+      "context": "100% con V en AMBN pos 273 (variante M273V); 2 no preservaron la posición",
+      "source": "FASTA",
+      "verified": true
+    },
+    {
+      "value": 127,
+      "unit": "ventanas genómicas de 20 kb",
+      "context": "cromosoma 4 región 71.4–71.7 Mb",
+      "source": "Supp Data 3",
+      "verified": true
+    },
+    {
+      "value": 99,
+      "unit": "ventanas de 127",
+      "context": "donde Neandertal está más cerca de H. erectus que Denisovano (78%)",
+      "source": "Supp Data 3 derivado",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "successfully extracted and analysed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "share two amino acid variants",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "previously unknown",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "indicates it may have been introduced",
+      "tier": "T2",
+      "cam_attenuator": "'la evidencia sugiere' / 'podría haber pasado'"
+    },
+    {
+      "abstract_verb": "likely to have originated from",
+      "tier": "T2",
+      "cam_attenuator": "'probablemente vinieron de'"
+    },
+    {
+      "abstract_verb": "may have coexisted",
+      "tier": "T2",
+      "cam_attenuator": "'pudieron haber coexistido'"
+    },
+    {
+      "abstract_verb": "presumed to have occurred",
+      "tier": "T3",
+      "cam_attenuator": "'se presume'"
+    }
+  ],
+  "narrative_hooks": [
+    "De 85 dientes probados, solo 6 sobrevivieron al filtro completo — y dejaron un puente molecular escondido",
+    "Una variante en la ameloblastina (A253G) no aparece en ningún otro hominino conocido",
+    "Otra variante (M273V) la comparten exclusivamente con Denisovanos — y eso reordena el árbol",
+    "En el cromosoma 4 analizado, Neandertal está MÁS cerca de H. erectus que Denisovano en 78% de las ventanas — la señal de introgresión es heterogénea"
+  ],
+  "limitations": [
+    "Cobertura proteómica modesta (mediana 18% en los chinos) — natural para paleoproteómica de ~400 ka",
+    "2 de 6 chinos (HX-S1, HX-S2) no preservaron la posición 273 de AMBN — el respaldo directo de M273V es 4/6",
+    "Similaridad genómica analizada en UNA región del cromosoma 4 (~272 kilobases) — extrapolar al genoma completo requiere otras ventanas",
+    "Edad ~400 ka inferida del contexto estratigráfico, no de los datos proteómicos",
+    "Datos crudos de espectrometría (PRIDE PXD068897) no descargados — confiamos en el procesamiento del paper para las identificaciones de variantes"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 3 partial: rango estándar (190-250) según regla del skill"
+  },
+  "notebook_slug": "2026-05-13-homo-erectus-china-esmalte",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-homo-erectus-china-esmalte/notebook.html",
+  "generated_at": "2026-05-14T03:33:08.599583Z"
+}
