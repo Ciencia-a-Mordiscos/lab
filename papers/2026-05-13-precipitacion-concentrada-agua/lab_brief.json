@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "paper_id": 2474,
+  "doi": "10.1038/s41586-026-10487-7",
+  "paper_type": "observational+modeling",
+  "study_design": "observacional + modelado idealizado",
+  "species": "n/a (geofísico global)",
+  "verification_table": [
+    {
+      "claim": "Más concentración Gini reduce las reservas hídricas en toda la superficie terrestre global",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mapa dTWS/dGp tiene 100% de celdas con signo negativo (n=259.200), mediana -21.5 mm, rango [-76.0, -18.0] mm",
+      "certainty_tier": "T1",
+      "abstract_verb": "show observationally",
+      "effect_size": {"measure": "fraction_negative", "value": 1.0, "interpretation": "100% del grid"}
+    },
+    {
+      "claim": "El efecto secante es comparable en magnitud al humectante de la precipitación total",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Ratio |coef_Gp|/|coef_P| = 0.35-0.81 según producto (media ≈0.59). Comparable pero no idéntico. El paper lo enmarca como 'as strong in magnitude as'",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "ratio_std_coef", "value": 0.59, "interpretation": "comparable, no idéntico"}
+    },
+    {
+      "claim": "Las regresiones panel por cuenca (n=494) corroboran el efecto secante: 28% drying significativo vs 15% wetting",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "140 cuencas con coef_Gp<0 y p<0.05 (28.3%) vs 76 cuencas wetting significativo (15.4%). R² mediana 0.92",
+      "certainty_tier": "T1",
+      "abstract_verb": "show observationally",
+      "effect_size": {"measure": "n_significativas", "value": 140, "interpretation": "28.3% del total"}
+    },
+    {
+      "claim": "Con +2°C de calentamiento, la concentración Gini sube en 100% del land surface (proyección)",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Proyección idealizada +7%/K muestra 100% de celdas con dGp/K>0 (mediana +0.0315 /K). Es proyección, no observado",
+      "certainty_tier": "T3",
+      "abstract_verb": "projected",
+      "effect_size": {"measure": "fraction_positive", "value": 1.0, "interpretation": "100% global proyectado"}
+    },
+    {
+      "claim": "27% de la población global queda expuesta a sequedad anómala (≥0.5σ) a +2°C",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Reportado por el paper; el notebook no replica el cruce con datos de población",
+      "certainty_tier": "T3",
+      "abstract_verb": "projected",
+      "effect_size": {"measure": "pct_poblacion", "value": 27, "interpretation": "proyección a +2°C"}
+    }
+  ],
+  "key_numbers": [
+    {"value": 100, "unit": "por ciento", "context": "del land surface global con respuesta TWS negativa al Gini (n=259.200 celdas)", "source": "dTWS_dGp_3product_mean.npz", "verified": true},
+    {"value": 494, "unit": "cuencas hidrográficas", "context": "regresión panel por cuenca", "source": "basin_models_no_interaction.csv", "verified": true},
+    {"value": 28.3, "unit": "por ciento", "context": "cuencas con drying significativo (coef_Gp<0 y p<0.05)", "source": "basin_models calculado", "verified": true},
+    {"value": 15.4, "unit": "por ciento", "context": "cuencas con wetting significativo", "source": "basin_models calculado", "verified": true},
+    {"value": 0.59, "unit": "ratio adimensional", "context": "promedio del ratio |coef_Gp|/|coef_P| entre 3 productos (0.35 GPCP, 0.62 GPCC, 0.81 CPC)", "source": "std_regression_results", "verified": true},
+    {"value": 0.92, "unit": "R² mediana", "context": "calidad de las regresiones panel por cuenca", "source": "basin_models calculado", "verified": true},
+    {"value": 27, "unit": "por ciento", "context": "población global expuesta a sequedad anómala ≥0.5σ a +2°C (reportado por paper, no recalculado)", "source": "paper fig final", "verified": false},
+    {"value": 0.0315, "unit": "unidades Gini por grado K", "context": "mediana del aumento de concentración con calentamiento (proyección idealizada)", "source": "projections_dGp_GPCP_int_7pct_K.npz", "verified": true},
+    {"value": -21.5, "unit": "mm de TWS por unidad de Gini", "context": "mediana global del efecto secante observado", "source": "dTWS_dGp_3product_mean.npz", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show observationally", "tier": "T1", "cam_attenuator": "los datos muestran observacionalmente"},
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa con cuidado en causalidad"},
+    {"abstract_verb": "recover", "tier": "T1", "cam_attenuator": "los modelos reproducen"},
+    {"abstract_verb": "arises from", "tier": "T2", "cam_attenuator": "el modelo idealizado lo atribuye a (mecanismo desde simulación)"},
+    {"abstract_verb": "projected", "tier": "T3", "cam_attenuator": "se proyecta que / bajo escenario de +2°C"},
+    {"abstract_verb": "shift", "tier": "T3", "cam_attenuator": "la proyección estima que desplaza"}
+  ],
+  "narrative_hooks": [
+    "100% del land surface global responde igual: más Gini, menos agua. No es una mayoría — es todo el planeta",
+    "Cuando la lluvia se concentra en menos eventos más intensos, la tierra retiene menos agua. Como si llover fuerte no contara igual que llover parejo",
+    "Lo raro: 82.4% del globo en 1980-2022 vio la concentración BAJANDO. El paper proyecta que con +2°C eso se invierte",
+    "Una cuenca pierde hasta -103 mm de agua por unidad de Gini. El efecto humectante de más lluvia total no siempre alcanza a compensarlo"
+  ],
+  "limitations": [
+    "Las regresiones son correlacionales en un panel observacional. La causalidad descansa en los modelos idealizados, no en el dato observado",
+    "El ratio efecto-secante/humectante varía 2.3× entre productos (0.35 a 0.81). La media (~0.59) es la mejor estimación puntual, no un valor exacto",
+    "La proyección +7%/K es una simulación idealizada de intensificación termodinámica, no un modelo climático acoplado completo",
+    "La proyección poblacional (27% en sequedad ≥0.5σ) asume todo lo demás constante — no incluye cambios en precipitación total ni en irrigación",
+    "El archivo dTWS/dGp viene sin máscara explícita de tierra/océano. El paper lo trata como land surface y el notebook hereda esa interpretación"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes/partial + 9 key_numbers verificados + matiz observacional vs proyectado requiere espacio narrativo"
+  },
+  "notebook_slug": "2026-05-13-precipitacion-concentrada-agua",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-precipitacion-concentrada-agua/notebook.html",
+  "generated_at": "2026-05-13T22:02:00Z"
+}

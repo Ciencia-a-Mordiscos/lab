@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-13-precipitacion-concentrada-agua/README
+    title: "El 100% del planeta responde igual a la lluvia más concentrada: con menos agua"
+    sections:
+    - file: papers/2026-05-13-precipitacion-concentrada-agua/notebook
+      title: Notebook
   - file: papers/2026-05-13-incendios-alpinos-rwenzori-12mil/README
     title: "Primer incendio alpino del siglo XXI en los Rwenzori"
     sections:
