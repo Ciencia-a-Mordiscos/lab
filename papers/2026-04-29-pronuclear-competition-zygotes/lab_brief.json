@@ -1,0 +1,278 @@
+{
+  "version": "1.0",
+  "paper_id": 2408,
+  "doi": "10.1038/s41586-026-10417-7",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "El PN paternal del 2PN es más grande que el maternal (asimetría intra-zigoto)",
+      "supported": "yes",
+      "detail": "4337 vs 2515 μm³ (paternal 72% mayor, Cohen's d=1.84, n=47). Asimetría conocida — ADN paterno llega más descondensado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.84,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El PN único del 1PN ocupa el volumen que sumarían los dos del 2PN",
+      "supported": "yes",
+      "detail": "biPN=7378 vs total 2PN=6851 μm³ (razón 1.08x). Consistente con hipótesis de recursos citoplasmáticos finitos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "limits",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1.08,
+        "interpretation": "equivalente a la suma"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El zigoto 1PN pierde H3K27me3",
+      "supported": "yes",
+      "detail": "Cae ~40% (Cohen's d=1.66, p=2e-9 Mann-Whitney). Efecto muy grande, prácticamente sin solapamiento entre grupos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "prevents",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.66,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "H3K4me3 y H3K9me3 también se pierden parcialmente",
+      "supported": "partial",
+      "detail": "H3K4me3 cae 17% (d=0.65, p=0.047) — efecto moderado en el límite. H3K9me3 no se distingue del ruido (d=0.41, p=0.21). El peso narrativo es H3K27me3.",
+      "certainty_tier": "T2",
+      "abstract_verb": "prevents",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.65,
+        "interpretation": "moderado"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "1PN tiene tasa de desarrollo a término reducida",
+      "supported": "yes",
+      "detail": "27% (21/79) vs 55% (127/232), χ²=17.6, p=3e-5. Heterogeneidad alta entre lotes (0-67%) pero dirección consistente.",
+      "certainty_tier": "T1",
+      "abstract_verb": "results in",
+      "effect_size": {
+        "measure": "rate_ratio",
+        "value": 0.49,
+        "interpretation": "casi la mitad"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El rescate P1PN recupera parcialmente la tasa de desarrollo",
+      "supported": "yes",
+      "detail": "P1PN=41% (42/102), intermedio entre 27% (1PN) y 55% (2PN). Sugiere reversibilidad parcial vía restauración de competencia o drogas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "can be partially rescued",
+      "effect_size": {
+        "measure": "rate_pct",
+        "value": 41.2,
+        "interpretation": "intermedio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Existe un mecanismo de competencia citoplasmática entre pronúcleos",
+      "supported": "partial",
+      "detail": "Los datos son consistentes (volúmenes, marcas, rates apuntan al mismo modelo). El abstract usa 'suggesting' y 'provides evidence of' — la molécula limitante concreta no se identifica.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggesting",
+      "effect_size": {
+        "measure": "mechanism",
+        "value": null,
+        "interpretation": "hipótesis con evidencia indirecta"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 54.7,
+      "unit": "por ciento",
+      "context": "tasa de desarrollo a término de zigotos 2PN normales",
+      "source": "fig5b",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "127/232",
+        "our_calculation": "127/232 = 54.7%",
+        "discrepancy_pct": 0,
+        "reason": "transcripción directa"
+      }
+    },
+    {
+      "value": 26.6,
+      "unit": "por ciento",
+      "context": "tasa de desarrollo a término de zigotos 1PN biparentales",
+      "source": "fig5b",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "21/79",
+        "our_calculation": "21/79 = 26.6%",
+        "discrepancy_pct": 0,
+        "reason": "transcripción directa"
+      }
+    },
+    {
+      "value": 41.2,
+      "unit": "por ciento",
+      "context": "tasa de desarrollo a término del rescate P1PN",
+      "source": "fig5b",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "42/102",
+        "our_calculation": "42/102 = 41.2%",
+        "discrepancy_pct": 0,
+        "reason": "transcripción directa"
+      }
+    },
+    {
+      "value": 2515,
+      "unit": "μm³",
+      "context": "volumen medio del pronúcleo maternal en zigotos 2PN",
+      "source": "fig1b",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig.1b boxplot",
+        "our_calculation": "media de 47 mediciones",
+        "discrepancy_pct": 0,
+        "reason": "n=47"
+      }
+    },
+    {
+      "value": 4337,
+      "unit": "μm³",
+      "context": "volumen medio del pronúcleo paternal en zigotos 2PN",
+      "source": "fig1b",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig.1b boxplot",
+        "our_calculation": "media de 47 mediciones",
+        "discrepancy_pct": 0,
+        "reason": "n=47"
+      }
+    },
+    {
+      "value": 7378,
+      "unit": "μm³",
+      "context": "volumen medio del pronúcleo único en zigotos 1PN biparentales",
+      "source": "fig1b",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig.1b boxplot",
+        "our_calculation": "media de 29 mediciones",
+        "discrepancy_pct": 0,
+        "reason": "n=29"
+      }
+    },
+    {
+      "value": 1.66,
+      "unit": "Cohen's d",
+      "context": "tamaño del efecto de pérdida de H3K27me3 en 1PN vs 2PN",
+      "source": "fig1e",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig.1e",
+        "our_calculation": "d=1.66 desde CSV",
+        "discrepancy_pct": 0,
+        "reason": "Mann-Whitney p=2e-9"
+      }
+    },
+    {
+      "value": 39.6,
+      "unit": "por ciento",
+      "context": "magnitud de la caída de H3K27me3 en 1PN respecto a 2PN",
+      "source": "fig1e",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig.1e/g",
+        "our_calculation": "(1 - 0.604)*100",
+        "discrepancy_pct": 0,
+        "reason": "transcripción"
+      }
+    },
+    {
+      "value": 72,
+      "unit": "por ciento",
+      "context": "cuánto más grande es el PN paternal que el maternal en el 2PN",
+      "source": "fig1b",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig.1b",
+        "our_calculation": "(4337-2515)/2515",
+        "discrepancy_pct": 0,
+        "reason": "cálculo derivado"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "limits",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "prevents",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "results in",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "provides evidence of",
+      "tier": "T2",
+      "cam_attenuator": "'la evidencia es fuerte:' / 'todo apunta a que'"
+    },
+    {
+      "abstract_verb": "suggesting",
+      "tier": "T2",
+      "cam_attenuator": "'sugiere' / 'plantea un mecanismo'"
+    },
+    {
+      "abstract_verb": "highlighting caveats",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "54.7% vs 26.6% — dos zigotos arrancan iguales y uno llega a nacer la mitad de las veces",
+    "El pronúcleo único ocupa el volumen que sumarían los dos del zigoto normal",
+    "H3K27me3 — la marca que silencia genes que el embrión no debe encender — cae 40%",
+    "El rescate experimental sube de 27% a 41% restaurando la competencia entre pronúcleos"
+  ],
+  "limitations": [
+    "Todos los experimentos son en zigotos de ratón — la traducción cuantitativa a humano requiere validación",
+    "El rescate P1PN inyecta un pronúcleo de huevo no fecundado: no es lo que ocurriría espontáneamente en clínica",
+    "El paper no identifica la molécula citoplasmática limitante — propone que existe pero no la nombra",
+    "Heterogeneidad alta entre lotes experimentales del 1PN full-term (rango 0% a 67% lote a lote)",
+    "El IC 95% es ancho para los grupos pequeños (1PN n=79, P1PN n=102 acumulados)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados (6 yes + 1 partial), 9 key_numbers — script denso con implicación clínica directa"
+  },
+  "notebook_slug": "2026-04-29-pronuclear-competition-zygotes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-29-pronuclear-competition-zygotes/notebook.html",
+  "generated_at": "2026-05-14T06:12:31.691204Z"
+}

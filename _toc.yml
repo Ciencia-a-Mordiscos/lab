@@ -252,6 +252,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-04-29-pronuclear-competition-zygotes/README
+    title: "Dos pronúcleos compiten por el citoplasma en el zigoto"
+    sections:
+    - file: papers/2026-04-29-pronuclear-competition-zygotes/notebook
+      title: Notebook
   - file: papers/2026-05-13-obesidad-platea-vs-acelera/README
     title: "La obesidad mundial: dónde se frenó, dónde se aceleró"
     sections:

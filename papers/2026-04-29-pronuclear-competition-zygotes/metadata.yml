@@ -1,0 +1,25 @@
+titulo: "Dos pronúcleos compiten por el citoplasma en el zigoto"
+fecha: 2026-04-29
+categoria: medicina
+tags: [embriologia, epigenetica, fecundacion-in-vitro, ratones, h3k27me3]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10417-7"
+    titulo: "Cytoplasmic competition between separate parental pronuclei in zygotes"
+    journal: Nature
+    autores: "Mihajlović et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "fig1b_pronuclear_volumes.csv"
+    descripcion: "Volúmenes pronucleares en zigotos 2PN y 1PN"
+    fuente: "Source Data Fig. 1 (MOESM10)"
+  - nombre: "fig1e_histone_marks.csv"
+    descripcion: "Intensidad relativa de H3K4me3, H3K27me3 y H3K9me3"
+    fuente: "Source Data Fig. 1 (MOESM10)"
+  - nombre: "fig5b_development_rates.csv"
+    descripcion: "Tasas de desarrollo por lote para 2PN, 1PN, P1PN"
+    fuente: "Source Data Fig. 5 (MOESM14)"
+estado: publicado
