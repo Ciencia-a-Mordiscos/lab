@@ -247,6 +247,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-13-obesidad-platea-vs-acelera/README
+    title: "La obesidad mundial: dónde se frenó, dónde se aceleró"
+    sections:
+    - file: papers/2026-05-13-obesidad-platea-vs-acelera/notebook
+      title: Notebook
   - file: papers/2026-05-13-sueno-relojes-biologicos-edad/README
     title: "¿Cuántas horas debe dormir tu cuerpo? 23 relojes biológicos contestan distinto"
     sections:

@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### La obesidad mundial: dónde se frenó, dónde se aceleró
+
+**Medicina** · *Nature* · NCD-RisC (2026) integraron **4.050 estudios poblacionales** con altura y peso medidos (no autoreportados) de **232 millones** de personas en **200 países** entre 1980 y 2024. El mundo sigue subiendo — mujeres adultas **×2,55** (de 6,8% a 17,2%), hombres **×4,18** (de 3,2% a 13,4%) — pero la curva ya no es la misma en todos lados. En **Italia** (chicos pico 15,0% en 2009 → 12,5% en 2024), **Francia** (6,3% en 2007 → 4,3%, caída relativa **32%**) y Portugal hay indicios de declive en niños. **EE. UU. se estancó** después de 2010 (22,6% → 23,4%, plateau). En cambio, las regiones de ingreso medio aceleran: Sur de Asia mujeres pasó de **0,11 a 0,37 pp/año** (×3,4); Latinoamérica de **0,45 a 0,70** (×1,6). Solo **HIC occidental y Europa central/oriental** se desaceleran en mujeres adultas — el resto del mundo va más rápido que antes. ⚠️ Estudio observacional, no causal: el paper dice *"social, economic and technological trends MAY have helped control"* — atenuador condicional. ⚠️ El cruce LMIC vs HIC es heterogéneo: Sur de Asia (11,6%) y África subsahariana (16,5%) siguen por debajo de HIC occidental (27,4%). ⚠️ Las prevalencias son estimaciones de un modelo bayesiano jerárquico con intervalos de incertidumbre 95%.
+
+[Ver notebook](papers/2026-05-13-obesidad-platea-vs-acelera/notebook) · [Leer más](papers/2026-05-13-obesidad-platea-vs-acelera/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-obesidad-platea-vs-acelera/notebook.ipynb)
+
+---
+
 ### LLMs y control estatal de medios
 
 **Tecnología** · *Nature* · Bing et al. (2026) auditan **45 idiomas en 36 países** para mapear cómo el control estatal de medios se filtra en los modelos grandes de lenguaje. El dato que abre la historia: el **chino representa el 5,30%** de Common Crawl — la base de entrenamiento más usada por los LLMs comerciales — mientras el **noruego solo el 0,33%**. China tiene un puntaje RSF de libertad de prensa de **23/100** (categoría "muy grave"); Noruega, **92/100** (la mejor). Pero la correlación cruda entre los 45 idiomas (Spearman **ρ=0,215, p=0,156**) **no es estadísticamente significativa**. Y hay un giro incómodo: si excluyes el chino, la correlación **cambia de signo** (ρ=0,299, p=0,049) — más libertad de prensa se asocia con MÁS peso en Common Crawl, al revés de la hipótesis. ⚠️ El paper sostiene su tesis causal con un **experimento de fine-tuning aparte** (no replicado aquí), no con esta correlación observacional. ⚠️ Vietnam tiene **RSF=22,31**, peor que China — la pinza causal idioma↔régimen es más sucia que el titular. ⚠️ El RSF se asigna por país principal del idioma; un mismo idioma puede hablarse en países con regímenes opuestos.

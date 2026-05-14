@@ -1,0 +1,1441 @@
+year,sex,region,obesity_pct,obesity_lo95,obesity_hi95,grupo_edad
+1980,Women,Central and eastern Europe,18.27,15.36,21.57,adultos
+1981,Women,Central and eastern Europe,18.23,15.56,21.26,adultos
+1982,Women,Central and eastern Europe,18.2,15.75,20.99,adultos
+1983,Women,Central and eastern Europe,18.19,15.95,20.75,adultos
+1984,Women,Central and eastern Europe,18.16,16.11,20.49,adultos
+1985,Women,Central and eastern Europe,18.13,16.25,20.26,adultos
+1986,Women,Central and eastern Europe,18.11,16.38,20.04,adultos
+1987,Women,Central and eastern Europe,18.1,16.5,19.85,adultos
+1988,Women,Central and eastern Europe,18.1,16.62,19.71,adultos
+1989,Women,Central and eastern Europe,18.1,16.75,19.57,adultos
+1990,Women,Central and eastern Europe,18.09,16.86,19.46,adultos
+1991,Women,Central and eastern Europe,18.1,16.95,19.36,adultos
+1992,Women,Central and eastern Europe,18.13,17.05,19.28,adultos
+1993,Women,Central and eastern Europe,18.18,17.15,19.26,adultos
+1994,Women,Central and eastern Europe,18.24,17.28,19.26,adultos
+1995,Women,Central and eastern Europe,18.31,17.37,19.26,adultos
+1996,Women,Central and eastern Europe,18.39,17.49,19.31,adultos
+1997,Women,Central and eastern Europe,18.51,17.64,19.4,adultos
+1998,Women,Central and eastern Europe,18.65,17.81,19.51,adultos
+1999,Women,Central and eastern Europe,18.8,17.99,19.63,adultos
+2000,Women,Central and eastern Europe,18.95,18.15,19.74,adultos
+2001,Women,Central and eastern Europe,19.09,18.31,19.88,adultos
+2002,Women,Central and eastern Europe,19.25,18.47,20.02,adultos
+2003,Women,Central and eastern Europe,19.4,18.63,20.16,adultos
+2004,Women,Central and eastern Europe,19.53,18.77,20.3,adultos
+2005,Women,Central and eastern Europe,19.64,18.88,20.41,adultos
+2006,Women,Central and eastern Europe,19.74,18.97,20.51,adultos
+2007,Women,Central and eastern Europe,19.83,19.06,20.59,adultos
+2008,Women,Central and eastern Europe,19.9,19.13,20.66,adultos
+2009,Women,Central and eastern Europe,19.96,19.17,20.72,adultos
+2010,Women,Central and eastern Europe,19.99,19.21,20.76,adultos
+2011,Women,Central and eastern Europe,20.0,19.23,20.78,adultos
+2012,Women,Central and eastern Europe,19.99,19.24,20.78,adultos
+2013,Women,Central and eastern Europe,19.96,19.22,20.74,adultos
+2014,Women,Central and eastern Europe,19.89,19.16,20.67,adultos
+2015,Women,Central and eastern Europe,19.8,19.06,20.56,adultos
+2016,Women,Central and eastern Europe,19.68,18.93,20.43,adultos
+2017,Women,Central and eastern Europe,19.53,18.79,20.28,adultos
+2018,Women,Central and eastern Europe,19.36,18.6,20.12,adultos
+2019,Women,Central and eastern Europe,19.17,18.39,19.97,adultos
+2020,Women,Central and eastern Europe,18.98,18.15,19.82,adultos
+2021,Women,Central and eastern Europe,18.78,17.89,19.69,adultos
+2022,Women,Central and eastern Europe,18.54,17.56,19.51,adultos
+2023,Women,Central and eastern Europe,18.3,17.25,19.36,adultos
+2024,Women,Central and eastern Europe,18.12,16.91,19.31,adultos
+1980,Women,"Central Asia, Middle East and north Africa",14.29,11.55,17.51,adultos
+1981,Women,"Central Asia, Middle East and north Africa",14.64,12.05,17.69,adultos
+1982,Women,"Central Asia, Middle East and north Africa",15.01,12.58,17.84,adultos
+1983,Women,"Central Asia, Middle East and north Africa",15.39,13.08,18.01,adultos
+1984,Women,"Central Asia, Middle East and north Africa",15.79,13.63,18.19,adultos
+1985,Women,"Central Asia, Middle East and north Africa",16.19,14.21,18.4,adultos
+1986,Women,"Central Asia, Middle East and north Africa",16.61,14.81,18.63,adultos
+1987,Women,"Central Asia, Middle East and north Africa",17.03,15.39,18.86,adultos
+1988,Women,"Central Asia, Middle East and north Africa",17.46,15.95,19.12,adultos
+1989,Women,"Central Asia, Middle East and north Africa",17.92,16.54,19.4,adultos
+1990,Women,"Central Asia, Middle East and north Africa",18.36,17.11,19.68,adultos
+1991,Women,"Central Asia, Middle East and north Africa",18.82,17.7,19.99,adultos
+1992,Women,"Central Asia, Middle East and north Africa",19.33,18.3,20.38,adultos
+1993,Women,"Central Asia, Middle East and north Africa",19.84,18.91,20.81,adultos
+1994,Women,"Central Asia, Middle East and north Africa",20.37,19.49,21.25,adultos
+1995,Women,"Central Asia, Middle East and north Africa",20.9,20.09,21.73,adultos
+1996,Women,"Central Asia, Middle East and north Africa",21.47,20.7,22.22,adultos
+1997,Women,"Central Asia, Middle East and north Africa",22.05,21.33,22.76,adultos
+1998,Women,"Central Asia, Middle East and north Africa",22.65,21.98,23.31,adultos
+1999,Women,"Central Asia, Middle East and north Africa",23.26,22.63,23.9,adultos
+2000,Women,"Central Asia, Middle East and north Africa",23.87,23.27,24.49,adultos
+2001,Women,"Central Asia, Middle East and north Africa",24.47,23.9,25.08,adultos
+2002,Women,"Central Asia, Middle East and north Africa",25.07,24.51,25.66,adultos
+2003,Women,"Central Asia, Middle East and north Africa",25.65,25.1,26.22,adultos
+2004,Women,"Central Asia, Middle East and north Africa",26.21,25.67,26.76,adultos
+2005,Women,"Central Asia, Middle East and north Africa",26.74,26.22,27.29,adultos
+2006,Women,"Central Asia, Middle East and north Africa",27.25,26.72,27.8,adultos
+2007,Women,"Central Asia, Middle East and north Africa",27.74,27.19,28.29,adultos
+2008,Women,"Central Asia, Middle East and north Africa",28.24,27.68,28.8,adultos
+2009,Women,"Central Asia, Middle East and north Africa",28.72,28.16,29.3,adultos
+2010,Women,"Central Asia, Middle East and north Africa",29.2,28.62,29.77,adultos
+2011,Women,"Central Asia, Middle East and north Africa",29.66,29.07,30.26,adultos
+2012,Women,"Central Asia, Middle East and north Africa",30.13,29.52,30.74,adultos
+2013,Women,"Central Asia, Middle East and north Africa",30.58,29.95,31.2,adultos
+2014,Women,"Central Asia, Middle East and north Africa",31.01,30.38,31.64,adultos
+2015,Women,"Central Asia, Middle East and north Africa",31.44,30.79,32.09,adultos
+2016,Women,"Central Asia, Middle East and north Africa",31.86,31.18,32.56,adultos
+2017,Women,"Central Asia, Middle East and north Africa",32.23,31.51,32.97,adultos
+2018,Women,"Central Asia, Middle East and north Africa",32.57,31.8,33.37,adultos
+2019,Women,"Central Asia, Middle East and north Africa",32.89,32.03,33.76,adultos
+2020,Women,"Central Asia, Middle East and north Africa",33.19,32.24,34.17,adultos
+2021,Women,"Central Asia, Middle East and north Africa",33.47,32.4,34.57,adultos
+2022,Women,"Central Asia, Middle East and north Africa",33.74,32.53,34.97,adultos
+2023,Women,"Central Asia, Middle East and north Africa",34.02,32.63,35.43,adultos
+2024,Women,"Central Asia, Middle East and north Africa",34.3,32.72,35.92,adultos
+1980,Women,East and southeast Asia and the Pacific,1.4,1.14,1.73,adultos
+1981,Women,East and southeast Asia and the Pacific,1.44,1.19,1.74,adultos
+1982,Women,East and southeast Asia and the Pacific,1.48,1.24,1.75,adultos
+1983,Women,East and southeast Asia and the Pacific,1.52,1.3,1.77,adultos
+1984,Women,East and southeast Asia and the Pacific,1.56,1.36,1.79,adultos
+1985,Women,East and southeast Asia and the Pacific,1.61,1.42,1.83,adultos
+1986,Women,East and southeast Asia and the Pacific,1.67,1.48,1.87,adultos
+1987,Women,East and southeast Asia and the Pacific,1.73,1.54,1.92,adultos
+1988,Women,East and southeast Asia and the Pacific,1.79,1.61,1.98,adultos
+1989,Women,East and southeast Asia and the Pacific,1.85,1.68,2.04,adultos
+1990,Women,East and southeast Asia and the Pacific,1.93,1.76,2.11,adultos
+1991,Women,East and southeast Asia and the Pacific,2.01,1.85,2.18,adultos
+1992,Women,East and southeast Asia and the Pacific,2.09,1.93,2.26,adultos
+1993,Women,East and southeast Asia and the Pacific,2.18,2.02,2.35,adultos
+1994,Women,East and southeast Asia and the Pacific,2.27,2.11,2.44,adultos
+1995,Women,East and southeast Asia and the Pacific,2.36,2.2,2.54,adultos
+1996,Women,East and southeast Asia and the Pacific,2.46,2.3,2.63,adultos
+1997,Women,East and southeast Asia and the Pacific,2.56,2.4,2.74,adultos
+1998,Women,East and southeast Asia and the Pacific,2.66,2.5,2.84,adultos
+1999,Women,East and southeast Asia and the Pacific,2.77,2.6,2.96,adultos
+2000,Women,East and southeast Asia and the Pacific,2.89,2.71,3.07,adultos
+2001,Women,East and southeast Asia and the Pacific,3.01,2.83,3.19,adultos
+2002,Women,East and southeast Asia and the Pacific,3.13,2.95,3.31,adultos
+2003,Women,East and southeast Asia and the Pacific,3.26,3.09,3.45,adultos
+2004,Women,East and southeast Asia and the Pacific,3.4,3.23,3.59,adultos
+2005,Women,East and southeast Asia and the Pacific,3.55,3.38,3.74,adultos
+2006,Women,East and southeast Asia and the Pacific,3.72,3.54,3.91,adultos
+2007,Women,East and southeast Asia and the Pacific,3.9,3.71,4.09,adultos
+2008,Women,East and southeast Asia and the Pacific,4.09,3.9,4.29,adultos
+2009,Women,East and southeast Asia and the Pacific,4.3,4.11,4.5,adultos
+2010,Women,East and southeast Asia and the Pacific,4.53,4.34,4.74,adultos
+2011,Women,East and southeast Asia and the Pacific,4.77,4.57,4.98,adultos
+2012,Women,East and southeast Asia and the Pacific,5.02,4.8,5.25,adultos
+2013,Women,East and southeast Asia and the Pacific,5.29,5.06,5.53,adultos
+2014,Women,East and southeast Asia and the Pacific,5.58,5.32,5.83,adultos
+2015,Women,East and southeast Asia and the Pacific,5.88,5.61,6.16,adultos
+2016,Women,East and southeast Asia and the Pacific,6.2,5.89,6.52,adultos
+2017,Women,East and southeast Asia and the Pacific,6.54,6.18,6.91,adultos
+2018,Women,East and southeast Asia and the Pacific,6.89,6.47,7.33,adultos
+2019,Women,East and southeast Asia and the Pacific,7.26,6.75,7.79,adultos
+2020,Women,East and southeast Asia and the Pacific,7.65,7.02,8.29,adultos
+2021,Women,East and southeast Asia and the Pacific,8.05,7.3,8.82,adultos
+2022,Women,East and southeast Asia and the Pacific,8.48,7.57,9.4,adultos
+2023,Women,East and southeast Asia and the Pacific,8.92,7.87,10.05,adultos
+2024,Women,East and southeast Asia and the Pacific,9.4,8.16,10.73,adultos
+1980,Women,High-income western,11.23,10.21,12.26,adultos
+1981,Women,High-income western,11.55,10.59,12.5,adultos
+1982,Women,High-income western,11.88,10.97,12.77,adultos
+1983,Women,High-income western,12.22,11.38,13.06,adultos
+1984,Women,High-income western,12.58,11.79,13.39,adultos
+1985,Women,High-income western,12.94,12.19,13.72,adultos
+1986,Women,High-income western,13.31,12.57,14.05,adultos
+1987,Women,High-income western,13.68,12.98,14.4,adultos
+1988,Women,High-income western,14.07,13.38,14.76,adultos
+1989,Women,High-income western,14.46,13.8,15.13,adultos
+1990,Women,High-income western,14.88,14.22,15.54,adultos
+1991,Women,High-income western,15.31,14.65,15.95,adultos
+1992,Women,High-income western,15.74,15.11,16.38,adultos
+1993,Women,High-income western,16.2,15.58,16.82,adultos
+1994,Women,High-income western,16.66,16.04,17.28,adultos
+1995,Women,High-income western,17.15,16.55,17.75,adultos
+1996,Women,High-income western,17.65,17.07,18.24,adultos
+1997,Women,High-income western,18.17,17.59,18.75,adultos
+1998,Women,High-income western,18.69,18.12,19.27,adultos
+1999,Women,High-income western,19.23,18.67,19.79,adultos
+2000,Women,High-income western,19.75,19.19,20.31,adultos
+2001,Women,High-income western,20.27,19.71,20.83,adultos
+2002,Women,High-income western,20.77,20.22,21.33,adultos
+2003,Women,High-income western,21.25,20.7,21.82,adultos
+2004,Women,High-income western,21.72,21.17,22.29,adultos
+2005,Women,High-income western,22.18,21.62,22.74,adultos
+2006,Women,High-income western,22.63,22.07,23.19,adultos
+2007,Women,High-income western,23.05,22.5,23.6,adultos
+2008,Women,High-income western,23.45,22.89,24.0,adultos
+2009,Women,High-income western,23.82,23.25,24.38,adultos
+2010,Women,High-income western,24.16,23.59,24.73,adultos
+2011,Women,High-income western,24.48,23.87,25.05,adultos
+2012,Women,High-income western,24.77,24.15,25.37,adultos
+2013,Women,High-income western,25.04,24.41,25.67,adultos
+2014,Women,High-income western,25.31,24.66,25.96,adultos
+2015,Women,High-income western,25.55,24.89,26.25,adultos
+2016,Women,High-income western,25.79,25.09,26.52,adultos
+2017,Women,High-income western,26.02,25.25,26.8,adultos
+2018,Women,High-income western,26.22,25.36,27.08,adultos
+2019,Women,High-income western,26.42,25.47,27.37,adultos
+2020,Women,High-income western,26.6,25.52,27.68,adultos
+2021,Women,High-income western,26.78,25.56,28.0,adultos
+2022,Women,High-income western,26.96,25.56,28.36,adultos
+2023,Women,High-income western,27.14,25.55,28.76,adultos
+2024,Women,High-income western,27.35,25.52,29.2,adultos
+1980,Women,Latin America and the Caribbean,8.03,6.32,9.95,adultos
+1981,Women,Latin America and the Caribbean,8.34,6.73,10.14,adultos
+1982,Women,Latin America and the Caribbean,8.67,7.14,10.38,adultos
+1983,Women,Latin America and the Caribbean,9.02,7.57,10.61,adultos
+1984,Women,Latin America and the Caribbean,9.38,8.04,10.86,adultos
+1985,Women,Latin America and the Caribbean,9.76,8.53,11.14,adultos
+1986,Women,Latin America and the Caribbean,10.15,9.02,11.41,adultos
+1987,Women,Latin America and the Caribbean,10.56,9.51,11.71,adultos
+1988,Women,Latin America and the Caribbean,10.99,10.02,12.04,adultos
+1989,Women,Latin America and the Caribbean,11.43,10.52,12.41,adultos
+1990,Women,Latin America and the Caribbean,11.88,11.03,12.8,adultos
+1991,Women,Latin America and the Caribbean,12.35,11.57,13.2,adultos
+1992,Women,Latin America and the Caribbean,12.84,12.08,13.63,adultos
+1993,Women,Latin America and the Caribbean,13.33,12.62,14.08,adultos
+1994,Women,Latin America and the Caribbean,13.83,13.14,14.55,adultos
+1995,Women,Latin America and the Caribbean,14.35,13.67,15.03,adultos
+1996,Women,Latin America and the Caribbean,14.87,14.22,15.53,adultos
+1997,Women,Latin America and the Caribbean,15.41,14.79,16.06,adultos
+1998,Women,Latin America and the Caribbean,15.96,15.35,16.6,adultos
+1999,Women,Latin America and the Caribbean,16.51,15.91,17.13,adultos
+2000,Women,Latin America and the Caribbean,17.06,16.47,17.66,adultos
+2001,Women,Latin America and the Caribbean,17.6,17.03,18.2,adultos
+2002,Women,Latin America and the Caribbean,18.14,17.59,18.72,adultos
+2003,Women,Latin America and the Caribbean,18.68,18.13,19.24,adultos
+2004,Women,Latin America and the Caribbean,19.22,18.68,19.78,adultos
+2005,Women,Latin America and the Caribbean,19.78,19.24,20.33,adultos
+2006,Women,Latin America and the Caribbean,20.35,19.81,20.9,adultos
+2007,Women,Latin America and the Caribbean,20.94,20.41,21.49,adultos
+2008,Women,Latin America and the Caribbean,21.57,21.02,22.1,adultos
+2009,Women,Latin America and the Caribbean,22.22,21.69,22.77,adultos
+2010,Women,Latin America and the Caribbean,22.91,22.37,23.46,adultos
+2011,Women,Latin America and the Caribbean,23.63,23.09,24.18,adultos
+2012,Women,Latin America and the Caribbean,24.38,23.83,24.94,adultos
+2013,Women,Latin America and the Caribbean,25.15,24.6,25.72,adultos
+2014,Women,Latin America and the Caribbean,25.92,25.37,26.51,adultos
+2015,Women,Latin America and the Caribbean,26.71,26.14,27.31,adultos
+2016,Women,Latin America and the Caribbean,27.5,26.9,28.12,adultos
+2017,Women,Latin America and the Caribbean,28.29,27.64,28.96,adultos
+2018,Women,Latin America and the Caribbean,29.08,28.36,29.81,adultos
+2019,Women,Latin America and the Caribbean,29.87,29.04,30.71,adultos
+2020,Women,Latin America and the Caribbean,30.66,29.7,31.63,adultos
+2021,Women,Latin America and the Caribbean,31.46,30.34,32.59,adultos
+2022,Women,Latin America and the Caribbean,32.26,30.95,33.6,adultos
+2023,Women,Latin America and the Caribbean,33.07,31.48,34.66,adultos
+2024,Women,Latin America and the Caribbean,33.89,32.04,35.72,adultos
+1980,Women,Pacific island nations,16.24,12.46,20.62,adultos
+1981,Women,Pacific island nations,16.58,12.93,20.81,adultos
+1982,Women,Pacific island nations,16.95,13.41,21.03,adultos
+1983,Women,Pacific island nations,17.33,13.89,21.28,adultos
+1984,Women,Pacific island nations,17.7,14.37,21.51,adultos
+1985,Women,Pacific island nations,18.08,14.82,21.73,adultos
+1986,Women,Pacific island nations,18.46,15.31,21.98,adultos
+1987,Women,Pacific island nations,18.86,15.77,22.29,adultos
+1988,Women,Pacific island nations,19.27,16.22,22.62,adultos
+1989,Women,Pacific island nations,19.68,16.66,23.0,adultos
+1990,Women,Pacific island nations,20.04,17.07,23.4,adultos
+1991,Women,Pacific island nations,20.39,17.41,23.76,adultos
+1992,Women,Pacific island nations,20.74,17.71,24.13,adultos
+1993,Women,Pacific island nations,21.11,17.99,24.6,adultos
+1994,Women,Pacific island nations,21.47,18.26,25.08,adultos
+1995,Women,Pacific island nations,21.83,18.49,25.58,adultos
+1996,Women,Pacific island nations,22.19,18.74,26.03,adultos
+1997,Women,Pacific island nations,22.57,18.98,26.52,adultos
+1998,Women,Pacific island nations,22.95,19.22,27.03,adultos
+1999,Women,Pacific island nations,23.34,19.48,27.56,adultos
+2000,Women,Pacific island nations,23.73,19.77,28.07,adultos
+2001,Women,Pacific island nations,24.11,19.99,28.69,adultos
+2002,Women,Pacific island nations,24.5,20.23,29.26,adultos
+2003,Women,Pacific island nations,24.88,20.45,29.89,adultos
+2004,Women,Pacific island nations,25.27,20.62,30.41,adultos
+2005,Women,Pacific island nations,25.65,20.82,30.97,adultos
+2006,Women,Pacific island nations,26.02,21.04,31.53,adultos
+2007,Women,Pacific island nations,26.39,21.27,32.08,adultos
+2008,Women,Pacific island nations,26.77,21.45,32.64,adultos
+2009,Women,Pacific island nations,27.15,21.58,33.23,adultos
+2010,Women,Pacific island nations,27.53,21.74,33.86,adultos
+2011,Women,Pacific island nations,27.92,21.91,34.59,adultos
+2012,Women,Pacific island nations,28.32,22.1,35.17,adultos
+2013,Women,Pacific island nations,28.73,22.32,35.87,adultos
+2014,Women,Pacific island nations,29.15,22.48,36.56,adultos
+2015,Women,Pacific island nations,29.58,22.71,37.31,adultos
+2016,Women,Pacific island nations,30.02,22.85,38.07,adultos
+2017,Women,Pacific island nations,30.46,23.05,38.88,adultos
+2018,Women,Pacific island nations,30.9,23.2,39.6,adultos
+2019,Women,Pacific island nations,31.34,23.32,40.36,adultos
+2020,Women,Pacific island nations,31.8,23.53,41.25,adultos
+2021,Women,Pacific island nations,32.26,23.74,42.18,adultos
+2022,Women,Pacific island nations,32.73,23.79,43.04,adultos
+2023,Women,Pacific island nations,33.2,23.9,44.0,adultos
+2024,Women,Pacific island nations,33.68,23.98,44.77,adultos
+1980,Women,South Asia,0.55,0.39,0.76,adultos
+1981,Women,South Asia,0.6,0.44,0.81,adultos
+1982,Women,South Asia,0.65,0.49,0.86,adultos
+1983,Women,South Asia,0.7,0.54,0.91,adultos
+1984,Women,South Asia,0.76,0.6,0.97,adultos
+1985,Women,South Asia,0.83,0.66,1.03,adultos
+1986,Women,South Asia,0.9,0.73,1.1,adultos
+1987,Women,South Asia,0.97,0.8,1.18,adultos
+1988,Women,South Asia,1.05,0.88,1.26,adultos
+1989,Women,South Asia,1.14,0.97,1.34,adultos
+1990,Women,South Asia,1.23,1.06,1.44,adultos
+1991,Women,South Asia,1.34,1.16,1.54,adultos
+1992,Women,South Asia,1.44,1.26,1.65,adultos
+1993,Women,South Asia,1.56,1.37,1.76,adultos
+1994,Women,South Asia,1.68,1.49,1.89,adultos
+1995,Women,South Asia,1.82,1.62,2.03,adultos
+1996,Women,South Asia,1.96,1.76,2.18,adultos
+1997,Women,South Asia,2.12,1.91,2.34,adultos
+1998,Women,South Asia,2.29,2.07,2.52,adultos
+1999,Women,South Asia,2.47,2.25,2.7,adultos
+2000,Women,South Asia,2.66,2.43,2.9,adultos
+2001,Women,South Asia,2.87,2.63,3.12,adultos
+2002,Women,South Asia,3.08,2.84,3.34,adultos
+2003,Women,South Asia,3.3,3.05,3.58,adultos
+2004,Women,South Asia,3.54,3.28,3.81,adultos
+2005,Women,South Asia,3.78,3.52,4.07,adultos
+2006,Women,South Asia,4.04,3.76,4.33,adultos
+2007,Women,South Asia,4.31,4.02,4.61,adultos
+2008,Women,South Asia,4.59,4.3,4.9,adultos
+2009,Women,South Asia,4.89,4.59,5.21,adultos
+2010,Women,South Asia,5.2,4.89,5.52,adultos
+2011,Women,South Asia,5.53,5.21,5.86,adultos
+2012,Women,South Asia,5.88,5.55,6.21,adultos
+2013,Women,South Asia,6.25,5.91,6.58,adultos
+2014,Women,South Asia,6.64,6.3,6.99,adultos
+2015,Women,South Asia,7.06,6.7,7.42,adultos
+2016,Women,South Asia,7.5,7.11,7.9,adultos
+2017,Women,South Asia,7.96,7.53,8.41,adultos
+2018,Women,South Asia,8.44,7.94,8.96,adultos
+2019,Women,South Asia,8.93,8.36,9.54,adultos
+2020,Women,South Asia,9.43,8.77,10.17,adultos
+2021,Women,South Asia,9.95,9.16,10.83,adultos
+2022,Women,South Asia,10.48,9.53,11.52,adultos
+2023,Women,South Asia,11.02,9.89,12.26,adultos
+2024,Women,South Asia,11.58,10.24,13.05,adultos
+1980,Women,Sub-Saharan Africa,3.13,2.4,4.0,adultos
+1981,Women,Sub-Saharan Africa,3.27,2.56,4.08,adultos
+1982,Women,Sub-Saharan Africa,3.41,2.74,4.16,adultos
+1983,Women,Sub-Saharan Africa,3.56,2.92,4.28,adultos
+1984,Women,Sub-Saharan Africa,3.72,3.11,4.4,adultos
+1985,Women,Sub-Saharan Africa,3.88,3.3,4.53,adultos
+1986,Women,Sub-Saharan Africa,4.05,3.5,4.66,adultos
+1987,Women,Sub-Saharan Africa,4.22,3.7,4.79,adultos
+1988,Women,Sub-Saharan Africa,4.41,3.92,4.93,adultos
+1989,Women,Sub-Saharan Africa,4.6,4.14,5.1,adultos
+1990,Women,Sub-Saharan Africa,4.8,4.37,5.27,adultos
+1991,Women,Sub-Saharan Africa,5.01,4.59,5.43,adultos
+1992,Women,Sub-Saharan Africa,5.22,4.82,5.63,adultos
+1993,Women,Sub-Saharan Africa,5.43,5.05,5.83,adultos
+1994,Women,Sub-Saharan Africa,5.66,5.3,6.05,adultos
+1995,Women,Sub-Saharan Africa,5.93,5.57,6.31,adultos
+1996,Women,Sub-Saharan Africa,6.2,5.85,6.57,adultos
+1997,Women,Sub-Saharan Africa,6.49,6.15,6.85,adultos
+1998,Women,Sub-Saharan Africa,6.78,6.44,7.13,adultos
+1999,Women,Sub-Saharan Africa,7.09,6.75,7.44,adultos
+2000,Women,Sub-Saharan Africa,7.4,7.07,7.74,adultos
+2001,Women,Sub-Saharan Africa,7.73,7.4,8.07,adultos
+2002,Women,Sub-Saharan Africa,8.07,7.74,8.4,adultos
+2003,Women,Sub-Saharan Africa,8.4,8.08,8.74,adultos
+2004,Women,Sub-Saharan Africa,8.74,8.42,9.07,adultos
+2005,Women,Sub-Saharan Africa,9.08,8.75,9.41,adultos
+2006,Women,Sub-Saharan Africa,9.4,9.08,9.74,adultos
+2007,Women,Sub-Saharan Africa,9.73,9.4,10.05,adultos
+2008,Women,Sub-Saharan Africa,10.05,9.73,10.37,adultos
+2009,Women,Sub-Saharan Africa,10.36,10.04,10.68,adultos
+2010,Women,Sub-Saharan Africa,10.67,10.34,11.0,adultos
+2011,Women,Sub-Saharan Africa,10.98,10.65,11.31,adultos
+2012,Women,Sub-Saharan Africa,11.31,10.98,11.65,adultos
+2013,Women,Sub-Saharan Africa,11.66,11.32,12.01,adultos
+2014,Women,Sub-Saharan Africa,12.03,11.68,12.39,adultos
+2015,Women,Sub-Saharan Africa,12.43,12.05,12.81,adultos
+2016,Women,Sub-Saharan Africa,12.83,12.43,13.24,adultos
+2017,Women,Sub-Saharan Africa,13.25,12.81,13.7,adultos
+2018,Women,Sub-Saharan Africa,13.7,13.22,14.19,adultos
+2019,Women,Sub-Saharan Africa,14.15,13.61,14.71,adultos
+2020,Women,Sub-Saharan Africa,14.61,14.01,15.24,adultos
+2021,Women,Sub-Saharan Africa,15.07,14.39,15.79,adultos
+2022,Women,Sub-Saharan Africa,15.54,14.76,16.35,adultos
+2023,Women,Sub-Saharan Africa,16.01,15.13,16.94,adultos
+2024,Women,Sub-Saharan Africa,16.5,15.49,17.57,adultos
+1980,Men,Central and eastern Europe,7.21,5.48,9.22,adultos
+1981,Men,Central and eastern Europe,7.34,5.75,9.21,adultos
+1982,Men,Central and eastern Europe,7.48,5.99,9.21,adultos
+1983,Men,Central and eastern Europe,7.63,6.23,9.21,adultos
+1984,Men,Central and eastern Europe,7.77,6.47,9.27,adultos
+1985,Men,Central and eastern Europe,7.93,6.71,9.32,adultos
+1986,Men,Central and eastern Europe,8.08,6.95,9.38,adultos
+1987,Men,Central and eastern Europe,8.23,7.17,9.45,adultos
+1988,Men,Central and eastern Europe,8.38,7.38,9.54,adultos
+1989,Men,Central and eastern Europe,8.53,7.6,9.63,adultos
+1990,Men,Central and eastern Europe,8.69,7.8,9.74,adultos
+1991,Men,Central and eastern Europe,8.86,8.0,9.86,adultos
+1992,Men,Central and eastern Europe,9.04,8.19,10.0,adultos
+1993,Men,Central and eastern Europe,9.23,8.41,10.17,adultos
+1994,Men,Central and eastern Europe,9.46,8.65,10.37,adultos
+1995,Men,Central and eastern Europe,9.71,8.91,10.63,adultos
+1996,Men,Central and eastern Europe,10.0,9.19,10.89,adultos
+1997,Men,Central and eastern Europe,10.3,9.51,11.2,adultos
+1998,Men,Central and eastern Europe,10.64,9.86,11.53,adultos
+1999,Men,Central and eastern Europe,11.02,10.24,11.9,adultos
+2000,Men,Central and eastern Europe,11.43,10.66,12.32,adultos
+2001,Men,Central and eastern Europe,11.86,11.09,12.74,adultos
+2002,Men,Central and eastern Europe,12.3,11.52,13.18,adultos
+2003,Men,Central and eastern Europe,12.75,11.98,13.63,adultos
+2004,Men,Central and eastern Europe,13.21,12.42,14.1,adultos
+2005,Men,Central and eastern Europe,13.69,12.87,14.58,adultos
+2006,Men,Central and eastern Europe,14.17,13.34,15.04,adultos
+2007,Men,Central and eastern Europe,14.64,13.81,15.52,adultos
+2008,Men,Central and eastern Europe,15.1,14.26,15.97,adultos
+2009,Men,Central and eastern Europe,15.56,14.72,16.42,adultos
+2010,Men,Central and eastern Europe,15.99,15.16,16.86,adultos
+2011,Men,Central and eastern Europe,16.41,15.57,17.28,adultos
+2012,Men,Central and eastern Europe,16.79,15.95,17.64,adultos
+2013,Men,Central and eastern Europe,17.13,16.3,18.0,adultos
+2014,Men,Central and eastern Europe,17.45,16.63,18.3,adultos
+2015,Men,Central and eastern Europe,17.75,16.94,18.59,adultos
+2016,Men,Central and eastern Europe,18.03,17.22,18.84,adultos
+2017,Men,Central and eastern Europe,18.27,17.48,19.08,adultos
+2018,Men,Central and eastern Europe,18.48,17.69,19.3,adultos
+2019,Men,Central and eastern Europe,18.68,17.87,19.52,adultos
+2020,Men,Central and eastern Europe,18.88,18.02,19.78,adultos
+2021,Men,Central and eastern Europe,19.08,18.16,20.04,adultos
+2022,Men,Central and eastern Europe,19.32,18.29,20.39,adultos
+2023,Men,Central and eastern Europe,19.56,18.39,20.79,adultos
+2024,Men,Central and eastern Europe,19.77,18.43,21.16,adultos
+1980,Men,"Central Asia, Middle East and north Africa",5.64,3.89,7.88,adultos
+1981,Men,"Central Asia, Middle East and north Africa",5.84,4.16,7.94,adultos
+1982,Men,"Central Asia, Middle East and north Africa",6.05,4.44,8.02,adultos
+1983,Men,"Central Asia, Middle East and north Africa",6.27,4.76,8.14,adultos
+1984,Men,"Central Asia, Middle East and north Africa",6.52,5.07,8.26,adultos
+1985,Men,"Central Asia, Middle East and north Africa",6.77,5.4,8.39,adultos
+1986,Men,"Central Asia, Middle East and north Africa",7.04,5.73,8.54,adultos
+1987,Men,"Central Asia, Middle East and north Africa",7.31,6.08,8.71,adultos
+1988,Men,"Central Asia, Middle East and north Africa",7.6,6.44,8.92,adultos
+1989,Men,"Central Asia, Middle East and north Africa",7.91,6.81,9.14,adultos
+1990,Men,"Central Asia, Middle East and north Africa",8.2,7.16,9.36,adultos
+1991,Men,"Central Asia, Middle East and north Africa",8.51,7.54,9.61,adultos
+1992,Men,"Central Asia, Middle East and north Africa",8.87,7.96,9.89,adultos
+1993,Men,"Central Asia, Middle East and north Africa",9.23,8.36,10.2,adultos
+1994,Men,"Central Asia, Middle East and north Africa",9.6,8.78,10.51,adultos
+1995,Men,"Central Asia, Middle East and north Africa",9.99,9.2,10.83,adultos
+1996,Men,"Central Asia, Middle East and north Africa",10.39,9.62,11.18,adultos
+1997,Men,"Central Asia, Middle East and north Africa",10.8,10.09,11.56,adultos
+1998,Men,"Central Asia, Middle East and north Africa",11.24,10.56,11.96,adultos
+1999,Men,"Central Asia, Middle East and north Africa",11.69,11.06,12.36,adultos
+2000,Men,"Central Asia, Middle East and north Africa",12.16,11.55,12.78,adultos
+2001,Men,"Central Asia, Middle East and north Africa",12.63,12.05,13.22,adultos
+2002,Men,"Central Asia, Middle East and north Africa",13.13,12.56,13.68,adultos
+2003,Men,"Central Asia, Middle East and north Africa",13.62,13.07,14.17,adultos
+2004,Men,"Central Asia, Middle East and north Africa",14.12,13.59,14.66,adultos
+2005,Men,"Central Asia, Middle East and north Africa",14.62,14.09,15.15,adultos
+2006,Men,"Central Asia, Middle East and north Africa",15.13,14.6,15.65,adultos
+2007,Men,"Central Asia, Middle East and north Africa",15.65,15.13,16.18,adultos
+2008,Men,"Central Asia, Middle East and north Africa",16.18,15.67,16.72,adultos
+2009,Men,"Central Asia, Middle East and north Africa",16.7,16.17,17.26,adultos
+2010,Men,"Central Asia, Middle East and north Africa",17.2,16.67,17.77,adultos
+2011,Men,"Central Asia, Middle East and north Africa",17.69,17.14,18.27,adultos
+2012,Men,"Central Asia, Middle East and north Africa",18.18,17.61,18.77,adultos
+2013,Men,"Central Asia, Middle East and north Africa",18.66,18.06,19.27,adultos
+2014,Men,"Central Asia, Middle East and north Africa",19.13,18.51,19.77,adultos
+2015,Men,"Central Asia, Middle East and north Africa",19.59,18.94,20.27,adultos
+2016,Men,"Central Asia, Middle East and north Africa",20.03,19.33,20.77,adultos
+2017,Men,"Central Asia, Middle East and north Africa",20.38,19.61,21.17,adultos
+2018,Men,"Central Asia, Middle East and north Africa",20.64,19.8,21.48,adultos
+2019,Men,"Central Asia, Middle East and north Africa",20.88,19.94,21.83,adultos
+2020,Men,"Central Asia, Middle East and north Africa",21.13,20.06,22.21,adultos
+2021,Men,"Central Asia, Middle East and north Africa",21.37,20.15,22.62,adultos
+2022,Men,"Central Asia, Middle East and north Africa",21.66,20.25,23.12,adultos
+2023,Men,"Central Asia, Middle East and north Africa",21.96,20.34,23.66,adultos
+2024,Men,"Central Asia, Middle East and north Africa",22.24,20.35,24.2,adultos
+1980,Men,East and southeast Asia and the Pacific,0.39,0.29,0.51,adultos
+1981,Men,East and southeast Asia and the Pacific,0.41,0.32,0.53,adultos
+1982,Men,East and southeast Asia and the Pacific,0.44,0.35,0.55,adultos
+1983,Men,East and southeast Asia and the Pacific,0.47,0.39,0.57,adultos
+1984,Men,East and southeast Asia and the Pacific,0.51,0.42,0.61,adultos
+1985,Men,East and southeast Asia and the Pacific,0.55,0.46,0.64,adultos
+1986,Men,East and southeast Asia and the Pacific,0.59,0.51,0.68,adultos
+1987,Men,East and southeast Asia and the Pacific,0.64,0.56,0.73,adultos
+1988,Men,East and southeast Asia and the Pacific,0.69,0.61,0.78,adultos
+1989,Men,East and southeast Asia and the Pacific,0.75,0.67,0.84,adultos
+1990,Men,East and southeast Asia and the Pacific,0.81,0.73,0.9,adultos
+1991,Men,East and southeast Asia and the Pacific,0.88,0.8,0.97,adultos
+1992,Men,East and southeast Asia and the Pacific,0.95,0.87,1.05,adultos
+1993,Men,East and southeast Asia and the Pacific,1.03,0.94,1.13,adultos
+1994,Men,East and southeast Asia and the Pacific,1.11,1.01,1.21,adultos
+1995,Men,East and southeast Asia and the Pacific,1.19,1.09,1.3,adultos
+1996,Men,East and southeast Asia and the Pacific,1.28,1.18,1.4,adultos
+1997,Men,East and southeast Asia and the Pacific,1.38,1.27,1.5,adultos
+1998,Men,East and southeast Asia and the Pacific,1.48,1.36,1.61,adultos
+1999,Men,East and southeast Asia and the Pacific,1.59,1.47,1.73,adultos
+2000,Men,East and southeast Asia and the Pacific,1.72,1.58,1.86,adultos
+2001,Men,East and southeast Asia and the Pacific,1.85,1.71,1.99,adultos
+2002,Men,East and southeast Asia and the Pacific,1.98,1.84,2.14,adultos
+2003,Men,East and southeast Asia and the Pacific,2.13,1.98,2.29,adultos
+2004,Men,East and southeast Asia and the Pacific,2.3,2.15,2.46,adultos
+2005,Men,East and southeast Asia and the Pacific,2.48,2.32,2.64,adultos
+2006,Men,East and southeast Asia and the Pacific,2.67,2.51,2.83,adultos
+2007,Men,East and southeast Asia and the Pacific,2.88,2.71,3.05,adultos
+2008,Men,East and southeast Asia and the Pacific,3.11,2.94,3.29,adultos
+2009,Men,East and southeast Asia and the Pacific,3.35,3.17,3.53,adultos
+2010,Men,East and southeast Asia and the Pacific,3.59,3.41,3.78,adultos
+2011,Men,East and southeast Asia and the Pacific,3.85,3.65,4.05,adultos
+2012,Men,East and southeast Asia and the Pacific,4.12,3.92,4.33,adultos
+2013,Men,East and southeast Asia and the Pacific,4.42,4.2,4.64,adultos
+2014,Men,East and southeast Asia and the Pacific,4.74,4.5,4.98,adultos
+2015,Men,East and southeast Asia and the Pacific,5.09,4.82,5.37,adultos
+2016,Men,East and southeast Asia and the Pacific,5.46,5.15,5.79,adultos
+2017,Men,East and southeast Asia and the Pacific,5.84,5.48,6.25,adultos
+2018,Men,East and southeast Asia and the Pacific,6.25,5.8,6.74,adultos
+2019,Men,East and southeast Asia and the Pacific,6.68,6.12,7.28,adultos
+2020,Men,East and southeast Asia and the Pacific,7.14,6.46,7.9,adultos
+2021,Men,East and southeast Asia and the Pacific,7.63,6.77,8.56,adultos
+2022,Men,East and southeast Asia and the Pacific,8.15,7.1,9.3,adultos
+2023,Men,East and southeast Asia and the Pacific,8.7,7.42,10.12,adultos
+2024,Men,East and southeast Asia and the Pacific,9.29,7.76,11.0,adultos
+1980,Men,High-income western,8.32,7.43,9.3,adultos
+1981,Men,High-income western,8.63,7.81,9.52,adultos
+1982,Men,High-income western,8.95,8.19,9.77,adultos
+1983,Men,High-income western,9.29,8.57,10.05,adultos
+1984,Men,High-income western,9.64,8.95,10.37,adultos
+1985,Men,High-income western,10.01,9.35,10.72,adultos
+1986,Men,High-income western,10.4,9.75,11.08,adultos
+1987,Men,High-income western,10.79,10.15,11.45,adultos
+1988,Men,High-income western,11.21,10.59,11.86,adultos
+1989,Men,High-income western,11.66,11.05,12.3,adultos
+1990,Men,High-income western,12.14,11.52,12.79,adultos
+1991,Men,High-income western,12.64,12.04,13.28,adultos
+1992,Men,High-income western,13.18,12.56,13.81,adultos
+1993,Men,High-income western,13.74,13.13,14.35,adultos
+1994,Men,High-income western,14.34,13.72,14.93,adultos
+1995,Men,High-income western,14.97,14.35,15.57,adultos
+1996,Men,High-income western,15.63,15.02,16.23,adultos
+1997,Men,High-income western,16.31,15.71,16.92,adultos
+1998,Men,High-income western,17.02,16.42,17.62,adultos
+1999,Men,High-income western,17.74,17.15,18.35,adultos
+2000,Men,High-income western,18.47,17.88,19.09,adultos
+2001,Men,High-income western,19.22,18.63,19.82,adultos
+2002,Men,High-income western,19.95,19.36,20.56,adultos
+2003,Men,High-income western,20.68,20.09,21.28,adultos
+2004,Men,High-income western,21.38,20.78,21.97,adultos
+2005,Men,High-income western,22.05,21.44,22.64,adultos
+2006,Men,High-income western,22.67,22.07,23.27,adultos
+2007,Men,High-income western,23.24,22.65,23.85,adultos
+2008,Men,High-income western,23.75,23.15,24.35,adultos
+2009,Men,High-income western,24.19,23.59,24.78,adultos
+2010,Men,High-income western,24.55,23.95,25.16,adultos
+2011,Men,High-income western,24.85,24.23,25.46,adultos
+2012,Men,High-income western,25.1,24.47,25.75,adultos
+2013,Men,High-income western,25.33,24.66,26.0,adultos
+2014,Men,High-income western,25.54,24.85,26.23,adultos
+2015,Men,High-income western,25.73,25.02,26.46,adultos
+2016,Men,High-income western,25.91,25.15,26.69,adultos
+2017,Men,High-income western,26.08,25.26,26.91,adultos
+2018,Men,High-income western,26.21,25.33,27.11,adultos
+2019,Men,High-income western,26.33,25.33,27.31,adultos
+2020,Men,High-income western,26.42,25.3,27.56,adultos
+2021,Men,High-income western,26.5,25.2,27.82,adultos
+2022,Men,High-income western,26.58,25.07,28.11,adultos
+2023,Men,High-income western,26.67,24.92,28.46,adultos
+2024,Men,High-income western,26.78,24.72,28.85,adultos
+1980,Men,Latin America and the Caribbean,4.57,3.26,6.21,adultos
+1981,Men,Latin America and the Caribbean,4.77,3.52,6.29,adultos
+1982,Men,Latin America and the Caribbean,4.99,3.79,6.47,adultos
+1983,Men,Latin America and the Caribbean,5.23,4.07,6.61,adultos
+1984,Men,Latin America and the Caribbean,5.48,4.36,6.79,adultos
+1985,Men,Latin America and the Caribbean,5.74,4.67,6.96,adultos
+1986,Men,Latin America and the Caribbean,6.01,4.99,7.16,adultos
+1987,Men,Latin America and the Caribbean,6.3,5.31,7.39,adultos
+1988,Men,Latin America and the Caribbean,6.6,5.65,7.62,adultos
+1989,Men,Latin America and the Caribbean,6.92,6.02,7.89,adultos
+1990,Men,Latin America and the Caribbean,7.25,6.4,8.17,adultos
+1991,Men,Latin America and the Caribbean,7.6,6.77,8.48,adultos
+1992,Men,Latin America and the Caribbean,7.96,7.16,8.8,adultos
+1993,Men,Latin America and the Caribbean,8.34,7.56,9.15,adultos
+1994,Men,Latin America and the Caribbean,8.73,7.98,9.53,adultos
+1995,Men,Latin America and the Caribbean,9.14,8.41,9.92,adultos
+1996,Men,Latin America and the Caribbean,9.57,8.86,10.31,adultos
+1997,Men,Latin America and the Caribbean,10.01,9.32,10.72,adultos
+1998,Men,Latin America and the Caribbean,10.47,9.79,11.16,adultos
+1999,Men,Latin America and the Caribbean,10.93,10.28,11.61,adultos
+2000,Men,Latin America and the Caribbean,11.41,10.77,12.05,adultos
+2001,Men,Latin America and the Caribbean,11.88,11.26,12.49,adultos
+2002,Men,Latin America and the Caribbean,12.37,11.76,12.95,adultos
+2003,Men,Latin America and the Caribbean,12.85,12.26,13.44,adultos
+2004,Men,Latin America and the Caribbean,13.34,12.75,13.94,adultos
+2005,Men,Latin America and the Caribbean,13.84,13.24,14.43,adultos
+2006,Men,Latin America and the Caribbean,14.34,13.74,14.93,adultos
+2007,Men,Latin America and the Caribbean,14.85,14.26,15.43,adultos
+2008,Men,Latin America and the Caribbean,15.38,14.78,15.97,adultos
+2009,Men,Latin America and the Caribbean,15.92,15.33,16.51,adultos
+2010,Men,Latin America and the Caribbean,16.49,15.89,17.07,adultos
+2011,Men,Latin America and the Caribbean,17.07,16.48,17.67,adultos
+2012,Men,Latin America and the Caribbean,17.67,17.1,18.28,adultos
+2013,Men,Latin America and the Caribbean,18.29,17.7,18.9,adultos
+2014,Men,Latin America and the Caribbean,18.91,18.32,19.53,adultos
+2015,Men,Latin America and the Caribbean,19.55,18.95,20.18,adultos
+2016,Men,Latin America and the Caribbean,20.19,19.56,20.84,adultos
+2017,Men,Latin America and the Caribbean,20.84,20.17,21.52,adultos
+2018,Men,Latin America and the Caribbean,21.49,20.74,22.26,adultos
+2019,Men,Latin America and the Caribbean,22.15,21.31,23.02,adultos
+2020,Men,Latin America and the Caribbean,22.83,21.83,23.85,adultos
+2021,Men,Latin America and the Caribbean,23.52,22.34,24.75,adultos
+2022,Men,Latin America and the Caribbean,24.23,22.82,25.67,adultos
+2023,Men,Latin America and the Caribbean,24.95,23.26,26.63,adultos
+2024,Men,Latin America and the Caribbean,25.69,23.75,27.7,adultos
+1980,Men,Pacific island nations,11.05,7.88,15.11,adultos
+1981,Men,Pacific island nations,11.34,8.29,15.18,adultos
+1982,Men,Pacific island nations,11.65,8.71,15.25,adultos
+1983,Men,Pacific island nations,11.98,9.13,15.37,adultos
+1984,Men,Pacific island nations,12.32,9.57,15.54,adultos
+1985,Men,Pacific island nations,12.68,10.0,15.77,adultos
+1986,Men,Pacific island nations,13.04,10.42,16.02,adultos
+1987,Men,Pacific island nations,13.42,10.86,16.31,adultos
+1988,Men,Pacific island nations,13.82,11.29,16.67,adultos
+1989,Men,Pacific island nations,14.21,11.72,17.04,adultos
+1990,Men,Pacific island nations,14.58,12.07,17.41,adultos
+1991,Men,Pacific island nations,14.93,12.35,17.79,adultos
+1992,Men,Pacific island nations,15.27,12.66,18.2,adultos
+1993,Men,Pacific island nations,15.6,12.92,18.6,adultos
+1994,Men,Pacific island nations,15.92,13.14,19.05,adultos
+1995,Men,Pacific island nations,16.23,13.35,19.48,adultos
+1996,Men,Pacific island nations,16.53,13.55,19.95,adultos
+1997,Men,Pacific island nations,16.83,13.74,20.4,adultos
+1998,Men,Pacific island nations,17.13,13.95,20.81,adultos
+1999,Men,Pacific island nations,17.43,14.12,21.24,adultos
+2000,Men,Pacific island nations,17.73,14.29,21.73,adultos
+2001,Men,Pacific island nations,18.03,14.48,22.17,adultos
+2002,Men,Pacific island nations,18.34,14.66,22.61,adultos
+2003,Men,Pacific island nations,18.66,14.86,23.07,adultos
+2004,Men,Pacific island nations,18.98,15.07,23.54,adultos
+2005,Men,Pacific island nations,19.31,15.22,23.96,adultos
+2006,Men,Pacific island nations,19.63,15.41,24.41,adultos
+2007,Men,Pacific island nations,19.94,15.63,24.86,adultos
+2008,Men,Pacific island nations,20.25,15.77,25.32,adultos
+2009,Men,Pacific island nations,20.54,15.94,25.8,adultos
+2010,Men,Pacific island nations,20.81,16.09,26.22,adultos
+2011,Men,Pacific island nations,21.06,16.25,26.7,adultos
+2012,Men,Pacific island nations,21.31,16.34,27.2,adultos
+2013,Men,Pacific island nations,21.56,16.4,27.63,adultos
+2014,Men,Pacific island nations,21.82,16.5,28.1,adultos
+2015,Men,Pacific island nations,22.08,16.62,28.53,adultos
+2016,Men,Pacific island nations,22.36,16.79,29.03,adultos
+2017,Men,Pacific island nations,22.64,16.85,29.61,adultos
+2018,Men,Pacific island nations,22.93,16.91,30.17,adultos
+2019,Men,Pacific island nations,23.24,16.99,30.85,adultos
+2020,Men,Pacific island nations,23.57,17.01,31.67,adultos
+2021,Men,Pacific island nations,23.91,17.02,32.45,adultos
+2022,Men,Pacific island nations,24.27,16.98,33.32,adultos
+2023,Men,Pacific island nations,24.64,17.04,34.17,adultos
+2024,Men,Pacific island nations,25.03,16.98,35.14,adultos
+1980,Men,South Asia,0.24,0.15,0.36,adultos
+1981,Men,South Asia,0.26,0.17,0.38,adultos
+1982,Men,South Asia,0.27,0.19,0.39,adultos
+1983,Men,South Asia,0.3,0.21,0.41,adultos
+1984,Men,South Asia,0.32,0.23,0.43,adultos
+1985,Men,South Asia,0.35,0.25,0.46,adultos
+1986,Men,South Asia,0.37,0.28,0.49,adultos
+1987,Men,South Asia,0.4,0.31,0.52,adultos
+1988,Men,South Asia,0.44,0.34,0.55,adultos
+1989,Men,South Asia,0.47,0.38,0.59,adultos
+1990,Men,South Asia,0.51,0.41,0.63,adultos
+1991,Men,South Asia,0.56,0.45,0.67,adultos
+1992,Men,South Asia,0.6,0.5,0.72,adultos
+1993,Men,South Asia,0.65,0.55,0.78,adultos
+1994,Men,South Asia,0.71,0.6,0.84,adultos
+1995,Men,South Asia,0.77,0.66,0.9,adultos
+1996,Men,South Asia,0.84,0.73,0.98,adultos
+1997,Men,South Asia,0.92,0.8,1.06,adultos
+1998,Men,South Asia,1.01,0.88,1.16,adultos
+1999,Men,South Asia,1.11,0.97,1.26,adultos
+2000,Men,South Asia,1.22,1.08,1.37,adultos
+2001,Men,South Asia,1.34,1.19,1.5,adultos
+2002,Men,South Asia,1.46,1.31,1.63,adultos
+2003,Men,South Asia,1.6,1.44,1.78,adultos
+2004,Men,South Asia,1.75,1.58,1.94,adultos
+2005,Men,South Asia,1.91,1.73,2.11,adultos
+2006,Men,South Asia,2.08,1.88,2.28,adultos
+2007,Men,South Asia,2.26,2.05,2.47,adultos
+2008,Men,South Asia,2.44,2.23,2.67,adultos
+2009,Men,South Asia,2.64,2.42,2.88,adultos
+2010,Men,South Asia,2.84,2.61,3.08,adultos
+2011,Men,South Asia,3.05,2.81,3.3,adultos
+2012,Men,South Asia,3.27,3.02,3.52,adultos
+2013,Men,South Asia,3.5,3.25,3.76,adultos
+2014,Men,South Asia,3.74,3.48,4.01,adultos
+2015,Men,South Asia,4.0,3.73,4.29,adultos
+2016,Men,South Asia,4.27,3.98,4.58,adultos
+2017,Men,South Asia,4.56,4.23,4.91,adultos
+2018,Men,South Asia,4.86,4.48,5.26,adultos
+2019,Men,South Asia,5.16,4.72,5.64,adultos
+2020,Men,South Asia,5.48,4.95,6.06,adultos
+2021,Men,South Asia,5.81,5.16,6.52,adultos
+2022,Men,South Asia,6.15,5.37,7.01,adultos
+2023,Men,South Asia,6.5,5.56,7.54,adultos
+2024,Men,South Asia,6.86,5.74,8.08,adultos
+1980,Men,Sub-Saharan Africa,0.58,0.34,0.91,adultos
+1981,Men,Sub-Saharan Africa,0.62,0.38,0.95,adultos
+1982,Men,Sub-Saharan Africa,0.67,0.43,0.99,adultos
+1983,Men,Sub-Saharan Africa,0.72,0.48,1.03,adultos
+1984,Men,Sub-Saharan Africa,0.78,0.54,1.08,adultos
+1985,Men,Sub-Saharan Africa,0.84,0.61,1.14,adultos
+1986,Men,Sub-Saharan Africa,0.91,0.68,1.21,adultos
+1987,Men,Sub-Saharan Africa,0.99,0.75,1.28,adultos
+1988,Men,Sub-Saharan Africa,1.07,0.84,1.35,adultos
+1989,Men,Sub-Saharan Africa,1.16,0.93,1.44,adultos
+1990,Men,Sub-Saharan Africa,1.26,1.03,1.53,adultos
+1991,Men,Sub-Saharan Africa,1.37,1.14,1.64,adultos
+1992,Men,Sub-Saharan Africa,1.47,1.24,1.73,adultos
+1993,Men,Sub-Saharan Africa,1.6,1.37,1.87,adultos
+1994,Men,Sub-Saharan Africa,1.73,1.49,1.99,adultos
+1995,Men,Sub-Saharan Africa,1.83,1.6,2.09,adultos
+1996,Men,Sub-Saharan Africa,1.94,1.71,2.21,adultos
+1997,Men,Sub-Saharan Africa,2.07,1.83,2.33,adultos
+1998,Men,Sub-Saharan Africa,2.23,1.98,2.5,adultos
+1999,Men,Sub-Saharan Africa,2.39,2.14,2.67,adultos
+2000,Men,Sub-Saharan Africa,2.56,2.31,2.84,adultos
+2001,Men,Sub-Saharan Africa,2.74,2.48,3.02,adultos
+2002,Men,Sub-Saharan Africa,2.92,2.66,3.2,adultos
+2003,Men,Sub-Saharan Africa,3.1,2.85,3.39,adultos
+2004,Men,Sub-Saharan Africa,3.29,3.03,3.58,adultos
+2005,Men,Sub-Saharan Africa,3.47,3.21,3.76,adultos
+2006,Men,Sub-Saharan Africa,3.65,3.38,3.94,adultos
+2007,Men,Sub-Saharan Africa,3.81,3.54,4.1,adultos
+2008,Men,Sub-Saharan Africa,3.96,3.69,4.25,adultos
+2009,Men,Sub-Saharan Africa,4.1,3.83,4.38,adultos
+2010,Men,Sub-Saharan Africa,4.21,3.94,4.49,adultos
+2011,Men,Sub-Saharan Africa,4.31,4.04,4.59,adultos
+2012,Men,Sub-Saharan Africa,4.4,4.12,4.68,adultos
+2013,Men,Sub-Saharan Africa,4.49,4.21,4.79,adultos
+2014,Men,Sub-Saharan Africa,4.58,4.29,4.89,adultos
+2015,Men,Sub-Saharan Africa,4.68,4.38,5.01,adultos
+2016,Men,Sub-Saharan Africa,4.79,4.46,5.14,adultos
+2017,Men,Sub-Saharan Africa,4.91,4.56,5.29,adultos
+2018,Men,Sub-Saharan Africa,5.06,4.67,5.47,adultos
+2019,Men,Sub-Saharan Africa,5.22,4.79,5.67,adultos
+2020,Men,Sub-Saharan Africa,5.4,4.92,5.91,adultos
+2021,Men,Sub-Saharan Africa,5.59,5.05,6.17,adultos
+2022,Men,Sub-Saharan Africa,5.8,5.18,6.46,adultos
+2023,Men,Sub-Saharan Africa,6.01,5.31,6.78,adultos
+2024,Men,Sub-Saharan Africa,6.25,5.46,7.13,adultos
+1980,Girls,Central and eastern Europe,2.29,1.05,4.37,ninos
+1981,Girls,Central and eastern Europe,2.31,1.14,4.21,ninos
+1982,Girls,Central and eastern Europe,2.36,1.25,4.09,ninos
+1983,Girls,Central and eastern Europe,2.41,1.35,4.02,ninos
+1984,Girls,Central and eastern Europe,2.48,1.47,3.93,ninos
+1985,Girls,Central and eastern Europe,2.54,1.59,3.88,ninos
+1986,Girls,Central and eastern Europe,2.61,1.73,3.84,ninos
+1987,Girls,Central and eastern Europe,2.69,1.86,3.79,ninos
+1988,Girls,Central and eastern Europe,2.77,2.0,3.75,ninos
+1989,Girls,Central and eastern Europe,2.85,2.14,3.74,ninos
+1990,Girls,Central and eastern Europe,2.94,2.29,3.74,ninos
+1991,Girls,Central and eastern Europe,3.03,2.42,3.75,ninos
+1992,Girls,Central and eastern Europe,3.11,2.56,3.77,ninos
+1993,Girls,Central and eastern Europe,3.2,2.68,3.81,ninos
+1994,Girls,Central and eastern Europe,3.29,2.79,3.86,ninos
+1995,Girls,Central and eastern Europe,3.38,2.9,3.92,ninos
+1996,Girls,Central and eastern Europe,3.47,3.0,4.0,ninos
+1997,Girls,Central and eastern Europe,3.56,3.09,4.07,ninos
+1998,Girls,Central and eastern Europe,3.65,3.2,4.15,ninos
+1999,Girls,Central and eastern Europe,3.75,3.29,4.26,ninos
+2000,Girls,Central and eastern Europe,3.87,3.4,4.38,ninos
+2001,Girls,Central and eastern Europe,4.01,3.54,4.52,ninos
+2002,Girls,Central and eastern Europe,4.17,3.69,4.7,ninos
+2003,Girls,Central and eastern Europe,4.34,3.85,4.86,ninos
+2004,Girls,Central and eastern Europe,4.52,4.03,5.06,ninos
+2005,Girls,Central and eastern Europe,4.71,4.2,5.26,ninos
+2006,Girls,Central and eastern Europe,4.9,4.37,5.47,ninos
+2007,Girls,Central and eastern Europe,5.08,4.55,5.68,ninos
+2008,Girls,Central and eastern Europe,5.26,4.71,5.87,ninos
+2009,Girls,Central and eastern Europe,5.42,4.86,6.07,ninos
+2010,Girls,Central and eastern Europe,5.58,5.0,6.25,ninos
+2011,Girls,Central and eastern Europe,5.73,5.13,6.42,ninos
+2012,Girls,Central and eastern Europe,5.86,5.25,6.54,ninos
+2013,Girls,Central and eastern Europe,5.96,5.34,6.65,ninos
+2014,Girls,Central and eastern Europe,6.05,5.42,6.75,ninos
+2015,Girls,Central and eastern Europe,6.13,5.5,6.82,ninos
+2016,Girls,Central and eastern Europe,6.22,5.59,6.89,ninos
+2017,Girls,Central and eastern Europe,6.3,5.69,6.96,ninos
+2018,Girls,Central and eastern Europe,6.4,5.8,7.04,ninos
+2019,Girls,Central and eastern Europe,6.5,5.9,7.14,ninos
+2020,Girls,Central and eastern Europe,6.61,5.99,7.26,ninos
+2021,Girls,Central and eastern Europe,6.71,6.05,7.4,ninos
+2022,Girls,Central and eastern Europe,6.86,6.13,7.63,ninos
+2023,Girls,Central and eastern Europe,7.02,6.2,7.89,ninos
+2024,Girls,Central and eastern Europe,7.14,6.21,8.17,ninos
+1980,Girls,"Central Asia, Middle East and north Africa",3.18,1.28,6.44,ninos
+1981,Girls,"Central Asia, Middle East and north Africa",3.26,1.39,6.34,ninos
+1982,Girls,"Central Asia, Middle East and north Africa",3.36,1.51,6.31,ninos
+1983,Girls,"Central Asia, Middle East and north Africa",3.46,1.65,6.28,ninos
+1984,Girls,"Central Asia, Middle East and north Africa",3.59,1.81,6.28,ninos
+1985,Girls,"Central Asia, Middle East and north Africa",3.72,1.96,6.3,ninos
+1986,Girls,"Central Asia, Middle East and north Africa",3.87,2.14,6.33,ninos
+1987,Girls,"Central Asia, Middle East and north Africa",4.02,2.34,6.37,ninos
+1988,Girls,"Central Asia, Middle East and north Africa",4.19,2.57,6.41,ninos
+1989,Girls,"Central Asia, Middle East and north Africa",4.37,2.79,6.46,ninos
+1990,Girls,"Central Asia, Middle East and north Africa",4.54,3.0,6.51,ninos
+1991,Girls,"Central Asia, Middle East and north Africa",4.71,3.22,6.57,ninos
+1992,Girls,"Central Asia, Middle East and north Africa",4.9,3.47,6.64,ninos
+1993,Girls,"Central Asia, Middle East and north Africa",5.09,3.7,6.72,ninos
+1994,Girls,"Central Asia, Middle East and north Africa",5.27,3.95,6.83,ninos
+1995,Girls,"Central Asia, Middle East and north Africa",5.46,4.2,6.95,ninos
+1996,Girls,"Central Asia, Middle East and north Africa",5.66,4.45,7.09,ninos
+1997,Girls,"Central Asia, Middle East and north Africa",5.88,4.69,7.25,ninos
+1998,Girls,"Central Asia, Middle East and north Africa",6.1,4.95,7.42,ninos
+1999,Girls,"Central Asia, Middle East and north Africa",6.34,5.22,7.62,ninos
+2000,Girls,"Central Asia, Middle East and north Africa",6.58,5.49,7.84,ninos
+2001,Girls,"Central Asia, Middle East and north Africa",6.83,5.76,8.08,ninos
+2002,Girls,"Central Asia, Middle East and north Africa",7.08,6.01,8.33,ninos
+2003,Girls,"Central Asia, Middle East and north Africa",7.33,6.26,8.57,ninos
+2004,Girls,"Central Asia, Middle East and north Africa",7.59,6.51,8.8,ninos
+2005,Girls,"Central Asia, Middle East and north Africa",7.84,6.77,9.07,ninos
+2006,Girls,"Central Asia, Middle East and north Africa",8.09,7.01,9.33,ninos
+2007,Girls,"Central Asia, Middle East and north Africa",8.34,7.26,9.59,ninos
+2008,Girls,"Central Asia, Middle East and north Africa",8.6,7.49,9.84,ninos
+2009,Girls,"Central Asia, Middle East and north Africa",8.86,7.74,10.09,ninos
+2010,Girls,"Central Asia, Middle East and north Africa",9.1,7.99,10.34,ninos
+2011,Girls,"Central Asia, Middle East and north Africa",9.36,8.24,10.6,ninos
+2012,Girls,"Central Asia, Middle East and north Africa",9.62,8.47,10.88,ninos
+2013,Girls,"Central Asia, Middle East and north Africa",9.89,8.69,11.16,ninos
+2014,Girls,"Central Asia, Middle East and north Africa",10.15,8.96,11.45,ninos
+2015,Girls,"Central Asia, Middle East and north Africa",10.4,9.19,11.72,ninos
+2016,Girls,"Central Asia, Middle East and north Africa",10.65,9.41,12.0,ninos
+2017,Girls,"Central Asia, Middle East and north Africa",10.87,9.59,12.28,ninos
+2018,Girls,"Central Asia, Middle East and north Africa",11.08,9.73,12.57,ninos
+2019,Girls,"Central Asia, Middle East and north Africa",11.27,9.83,12.85,ninos
+2020,Girls,"Central Asia, Middle East and north Africa",11.44,9.88,13.15,ninos
+2021,Girls,"Central Asia, Middle East and north Africa",11.62,9.88,13.44,ninos
+2022,Girls,"Central Asia, Middle East and north Africa",11.81,9.9,13.85,ninos
+2023,Girls,"Central Asia, Middle East and north Africa",12.0,9.89,14.25,ninos
+2024,Girls,"Central Asia, Middle East and north Africa",12.2,9.88,14.73,ninos
+1980,Girls,East and southeast Asia,0.42,0.26,0.67,ninos
+1981,Girls,East and southeast Asia,0.46,0.3,0.69,ninos
+1982,Girls,East and southeast Asia,0.49,0.34,0.72,ninos
+1983,Girls,East and southeast Asia,0.54,0.38,0.76,ninos
+1984,Girls,East and southeast Asia,0.59,0.43,0.8,ninos
+1985,Girls,East and southeast Asia,0.65,0.49,0.86,ninos
+1986,Girls,East and southeast Asia,0.71,0.55,0.92,ninos
+1987,Girls,East and southeast Asia,0.78,0.62,0.99,ninos
+1988,Girls,East and southeast Asia,0.86,0.69,1.07,ninos
+1989,Girls,East and southeast Asia,0.95,0.77,1.15,ninos
+1990,Girls,East and southeast Asia,1.03,0.85,1.24,ninos
+1991,Girls,East and southeast Asia,1.12,0.93,1.32,ninos
+1992,Girls,East and southeast Asia,1.2,1.01,1.41,ninos
+1993,Girls,East and southeast Asia,1.29,1.1,1.51,ninos
+1994,Girls,East and southeast Asia,1.38,1.18,1.6,ninos
+1995,Girls,East and southeast Asia,1.46,1.27,1.69,ninos
+1996,Girls,East and southeast Asia,1.55,1.35,1.78,ninos
+1997,Girls,East and southeast Asia,1.65,1.44,1.88,ninos
+1998,Girls,East and southeast Asia,1.75,1.53,2.0,ninos
+1999,Girls,East and southeast Asia,1.87,1.64,2.13,ninos
+2000,Girls,East and southeast Asia,1.99,1.75,2.27,ninos
+2001,Girls,East and southeast Asia,2.14,1.88,2.42,ninos
+2002,Girls,East and southeast Asia,2.3,2.03,2.59,ninos
+2003,Girls,East and southeast Asia,2.48,2.2,2.79,ninos
+2004,Girls,East and southeast Asia,2.67,2.38,2.99,ninos
+2005,Girls,East and southeast Asia,2.87,2.57,3.2,ninos
+2006,Girls,East and southeast Asia,3.08,2.78,3.42,ninos
+2007,Girls,East and southeast Asia,3.31,2.99,3.66,ninos
+2008,Girls,East and southeast Asia,3.54,3.21,3.9,ninos
+2009,Girls,East and southeast Asia,3.79,3.45,4.15,ninos
+2010,Girls,East and southeast Asia,4.04,3.69,4.41,ninos
+2011,Girls,East and southeast Asia,4.3,3.94,4.67,ninos
+2012,Girls,East and southeast Asia,4.56,4.19,4.94,ninos
+2013,Girls,East and southeast Asia,4.83,4.45,5.24,ninos
+2014,Girls,East and southeast Asia,5.13,4.72,5.56,ninos
+2015,Girls,East and southeast Asia,5.46,5.0,5.92,ninos
+2016,Girls,East and southeast Asia,5.81,5.31,6.33,ninos
+2017,Girls,East and southeast Asia,6.18,5.62,6.77,ninos
+2018,Girls,East and southeast Asia,6.57,5.93,7.23,ninos
+2019,Girls,East and southeast Asia,6.97,6.21,7.78,ninos
+2020,Girls,East and southeast Asia,7.4,6.48,8.4,ninos
+2021,Girls,East and southeast Asia,7.83,6.73,9.07,ninos
+2022,Girls,East and southeast Asia,8.29,6.96,9.75,ninos
+2023,Girls,East and southeast Asia,8.76,7.18,10.51,ninos
+2024,Girls,East and southeast Asia,9.25,7.39,11.35,ninos
+1980,Girls,High-income western,4.89,3.63,6.36,ninos
+1981,Girls,High-income western,5.18,3.97,6.56,ninos
+1982,Girls,High-income western,5.49,4.32,6.83,ninos
+1983,Girls,High-income western,5.81,4.68,7.12,ninos
+1984,Girls,High-income western,6.15,5.03,7.42,ninos
+1985,Girls,High-income western,6.5,5.37,7.74,ninos
+1986,Girls,High-income western,6.87,5.75,8.1,ninos
+1987,Girls,High-income western,7.27,6.16,8.49,ninos
+1988,Girls,High-income western,7.71,6.6,8.93,ninos
+1989,Girls,High-income western,8.15,7.03,9.35,ninos
+1990,Girls,High-income western,8.6,7.49,9.8,ninos
+1991,Girls,High-income western,9.07,7.95,10.25,ninos
+1992,Girls,High-income western,9.54,8.43,10.7,ninos
+1993,Girls,High-income western,10.02,8.92,11.18,ninos
+1994,Girls,High-income western,10.5,9.42,11.63,ninos
+1995,Girls,High-income western,10.98,9.93,12.08,ninos
+1996,Girls,High-income western,11.46,10.47,12.51,ninos
+1997,Girls,High-income western,11.93,10.97,12.95,ninos
+1998,Girls,High-income western,12.41,11.48,13.38,ninos
+1999,Girls,High-income western,12.88,12.01,13.8,ninos
+2000,Girls,High-income western,13.32,12.47,14.21,ninos
+2001,Girls,High-income western,13.75,12.91,14.6,ninos
+2002,Girls,High-income western,14.12,13.3,14.95,ninos
+2003,Girls,High-income western,14.45,13.65,15.24,ninos
+2004,Girls,High-income western,14.72,13.95,15.49,ninos
+2005,Girls,High-income western,14.93,14.18,15.68,ninos
+2006,Girls,High-income western,15.08,14.36,15.8,ninos
+2007,Girls,High-income western,15.18,14.48,15.88,ninos
+2008,Girls,High-income western,15.25,14.56,15.93,ninos
+2009,Girls,High-income western,15.28,14.61,15.95,ninos
+2010,Girls,High-income western,15.3,14.63,15.95,ninos
+2011,Girls,High-income western,15.32,14.65,15.95,ninos
+2012,Girls,High-income western,15.33,14.67,15.99,ninos
+2013,Girls,High-income western,15.36,14.7,16.03,ninos
+2014,Girls,High-income western,15.38,14.69,16.09,ninos
+2015,Girls,High-income western,15.41,14.66,16.15,ninos
+2016,Girls,High-income western,15.46,14.64,16.26,ninos
+2017,Girls,High-income western,15.52,14.61,16.44,ninos
+2018,Girls,High-income western,15.59,14.58,16.62,ninos
+2019,Girls,High-income western,15.65,14.5,16.84,ninos
+2020,Girls,High-income western,15.69,14.38,17.04,ninos
+2021,Girls,High-income western,15.71,14.22,17.25,ninos
+2022,Girls,High-income western,15.73,13.99,17.51,ninos
+2023,Girls,High-income western,15.75,13.75,17.82,ninos
+2024,Girls,High-income western,15.79,13.5,18.2,ninos
+1980,Girls,Latin America and the Caribbean,2.03,0.97,3.55,ninos
+1981,Girls,Latin America and the Caribbean,2.14,1.09,3.59,ninos
+1982,Girls,Latin America and the Caribbean,2.26,1.23,3.63,ninos
+1983,Girls,Latin America and the Caribbean,2.4,1.38,3.71,ninos
+1984,Girls,Latin America and the Caribbean,2.55,1.56,3.79,ninos
+1985,Girls,Latin America and the Caribbean,2.71,1.74,3.88,ninos
+1986,Girls,Latin America and the Caribbean,2.89,1.93,4.01,ninos
+1987,Girls,Latin America and the Caribbean,3.08,2.17,4.13,ninos
+1988,Girls,Latin America and the Caribbean,3.29,2.41,4.31,ninos
+1989,Girls,Latin America and the Caribbean,3.51,2.67,4.49,ninos
+1990,Girls,Latin America and the Caribbean,3.76,2.93,4.69,ninos
+1991,Girls,Latin America and the Caribbean,4.01,3.22,4.92,ninos
+1992,Girls,Latin America and the Caribbean,4.28,3.5,5.16,ninos
+1993,Girls,Latin America and the Caribbean,4.56,3.79,5.41,ninos
+1994,Girls,Latin America and the Caribbean,4.85,4.09,5.67,ninos
+1995,Girls,Latin America and the Caribbean,5.14,4.41,5.96,ninos
+1996,Girls,Latin America and the Caribbean,5.44,4.73,6.23,ninos
+1997,Girls,Latin America and the Caribbean,5.74,5.04,6.52,ninos
+1998,Girls,Latin America and the Caribbean,6.04,5.36,6.81,ninos
+1999,Girls,Latin America and the Caribbean,6.34,5.68,7.08,ninos
+2000,Girls,Latin America and the Caribbean,6.64,6.01,7.36,ninos
+2001,Girls,Latin America and the Caribbean,6.94,6.32,7.64,ninos
+2002,Girls,Latin America and the Caribbean,7.25,6.63,7.92,ninos
+2003,Girls,Latin America and the Caribbean,7.55,6.95,8.21,ninos
+2004,Girls,Latin America and the Caribbean,7.86,7.25,8.51,ninos
+2005,Girls,Latin America and the Caribbean,8.17,7.56,8.82,ninos
+2006,Girls,Latin America and the Caribbean,8.5,7.89,9.15,ninos
+2007,Girls,Latin America and the Caribbean,8.84,8.22,9.49,ninos
+2008,Girls,Latin America and the Caribbean,9.21,8.56,9.87,ninos
+2009,Girls,Latin America and the Caribbean,9.59,8.95,10.27,ninos
+2010,Girls,Latin America and the Caribbean,10.01,9.36,10.7,ninos
+2011,Girls,Latin America and the Caribbean,10.46,9.8,11.15,ninos
+2012,Girls,Latin America and the Caribbean,10.92,10.25,11.63,ninos
+2013,Girls,Latin America and the Caribbean,11.42,10.72,12.16,ninos
+2014,Girls,Latin America and the Caribbean,11.93,11.22,12.7,ninos
+2015,Girls,Latin America and the Caribbean,12.45,11.72,13.25,ninos
+2016,Girls,Latin America and the Caribbean,12.98,12.21,13.81,ninos
+2017,Girls,Latin America and the Caribbean,13.52,12.72,14.39,ninos
+2018,Girls,Latin America and the Caribbean,14.07,13.21,14.95,ninos
+2019,Girls,Latin America and the Caribbean,14.64,13.71,15.57,ninos
+2020,Girls,Latin America and the Caribbean,15.2,14.19,16.23,ninos
+2021,Girls,Latin America and the Caribbean,15.78,14.63,16.91,ninos
+2022,Girls,Latin America and the Caribbean,16.35,15.02,17.65,ninos
+2023,Girls,Latin America and the Caribbean,16.92,15.36,18.45,ninos
+2024,Girls,Latin America and the Caribbean,17.51,15.65,19.32,ninos
+1980,Girls,Pacific island nations,2.02,0.54,6.34,ninos
+1981,Girls,Pacific island nations,2.08,0.59,6.27,ninos
+1982,Girls,Pacific island nations,2.14,0.63,6.27,ninos
+1983,Girls,Pacific island nations,2.21,0.69,6.28,ninos
+1984,Girls,Pacific island nations,2.28,0.75,6.3,ninos
+1985,Girls,Pacific island nations,2.36,0.81,6.39,ninos
+1986,Girls,Pacific island nations,2.44,0.87,6.45,ninos
+1987,Girls,Pacific island nations,2.53,0.93,6.64,ninos
+1988,Girls,Pacific island nations,2.63,0.99,6.71,ninos
+1989,Girls,Pacific island nations,2.75,1.06,6.89,ninos
+1990,Girls,Pacific island nations,2.87,1.14,7.07,ninos
+1991,Girls,Pacific island nations,2.99,1.22,7.22,ninos
+1992,Girls,Pacific island nations,3.11,1.29,7.38,ninos
+1993,Girls,Pacific island nations,3.24,1.36,7.54,ninos
+1994,Girls,Pacific island nations,3.37,1.44,7.81,ninos
+1995,Girls,Pacific island nations,3.5,1.53,8.07,ninos
+1996,Girls,Pacific island nations,3.64,1.6,8.27,ninos
+1997,Girls,Pacific island nations,3.78,1.68,8.6,ninos
+1998,Girls,Pacific island nations,3.93,1.74,8.91,ninos
+1999,Girls,Pacific island nations,4.08,1.81,9.17,ninos
+2000,Girls,Pacific island nations,4.23,1.88,9.43,ninos
+2001,Girls,Pacific island nations,4.38,1.96,9.69,ninos
+2002,Girls,Pacific island nations,4.54,2.05,9.99,ninos
+2003,Girls,Pacific island nations,4.71,2.12,10.34,ninos
+2004,Girls,Pacific island nations,4.88,2.2,10.61,ninos
+2005,Girls,Pacific island nations,5.06,2.27,10.99,ninos
+2006,Girls,Pacific island nations,5.23,2.33,11.32,ninos
+2007,Girls,Pacific island nations,5.4,2.38,11.65,ninos
+2008,Girls,Pacific island nations,5.58,2.43,12.1,ninos
+2009,Girls,Pacific island nations,5.76,2.49,12.44,ninos
+2010,Girls,Pacific island nations,5.95,2.53,12.84,ninos
+2011,Girls,Pacific island nations,6.15,2.57,13.42,ninos
+2012,Girls,Pacific island nations,6.36,2.62,13.9,ninos
+2013,Girls,Pacific island nations,6.59,2.7,14.35,ninos
+2014,Girls,Pacific island nations,6.84,2.79,14.87,ninos
+2015,Girls,Pacific island nations,7.12,2.89,15.39,ninos
+2016,Girls,Pacific island nations,7.42,2.97,16.18,ninos
+2017,Girls,Pacific island nations,7.74,3.07,16.81,ninos
+2018,Girls,Pacific island nations,8.08,3.17,17.59,ninos
+2019,Girls,Pacific island nations,8.43,3.27,18.36,ninos
+2020,Girls,Pacific island nations,8.81,3.38,19.33,ninos
+2021,Girls,Pacific island nations,9.19,3.49,20.17,ninos
+2022,Girls,Pacific island nations,9.59,3.59,21.05,ninos
+2023,Girls,Pacific island nations,10.0,3.67,22.2,ninos
+2024,Girls,Pacific island nations,10.42,3.74,22.93,ninos
+1980,Girls,South Asia,0.13,0.05,0.27,ninos
+1981,Girls,South Asia,0.13,0.06,0.26,ninos
+1982,Girls,South Asia,0.14,0.06,0.26,ninos
+1983,Girls,South Asia,0.14,0.07,0.26,ninos
+1984,Girls,South Asia,0.15,0.08,0.27,ninos
+1985,Girls,South Asia,0.16,0.08,0.27,ninos
+1986,Girls,South Asia,0.16,0.09,0.28,ninos
+1987,Girls,South Asia,0.17,0.1,0.29,ninos
+1988,Girls,South Asia,0.18,0.11,0.29,ninos
+1989,Girls,South Asia,0.2,0.11,0.31,ninos
+1990,Girls,South Asia,0.21,0.12,0.32,ninos
+1991,Girls,South Asia,0.23,0.14,0.34,ninos
+1992,Girls,South Asia,0.25,0.15,0.37,ninos
+1993,Girls,South Asia,0.27,0.17,0.39,ninos
+1994,Girls,South Asia,0.29,0.19,0.42,ninos
+1995,Girls,South Asia,0.32,0.21,0.46,ninos
+1996,Girls,South Asia,0.35,0.24,0.49,ninos
+1997,Girls,South Asia,0.39,0.27,0.54,ninos
+1998,Girls,South Asia,0.44,0.31,0.59,ninos
+1999,Girls,South Asia,0.49,0.35,0.65,ninos
+2000,Girls,South Asia,0.55,0.41,0.71,ninos
+2001,Girls,South Asia,0.62,0.47,0.79,ninos
+2002,Girls,South Asia,0.7,0.54,0.88,ninos
+2003,Girls,South Asia,0.79,0.62,0.98,ninos
+2004,Girls,South Asia,0.89,0.71,1.09,ninos
+2005,Girls,South Asia,0.99,0.81,1.2,ninos
+2006,Girls,South Asia,1.11,0.91,1.32,ninos
+2007,Girls,South Asia,1.23,1.02,1.45,ninos
+2008,Girls,South Asia,1.35,1.14,1.6,ninos
+2009,Girls,South Asia,1.48,1.25,1.74,ninos
+2010,Girls,South Asia,1.61,1.38,1.89,ninos
+2011,Girls,South Asia,1.75,1.5,2.03,ninos
+2012,Girls,South Asia,1.9,1.63,2.18,ninos
+2013,Girls,South Asia,2.05,1.77,2.36,ninos
+2014,Girls,South Asia,2.21,1.92,2.55,ninos
+2015,Girls,South Asia,2.39,2.07,2.75,ninos
+2016,Girls,South Asia,2.59,2.21,2.99,ninos
+2017,Girls,South Asia,2.8,2.37,3.25,ninos
+2018,Girls,South Asia,3.03,2.52,3.56,ninos
+2019,Girls,South Asia,3.28,2.69,3.91,ninos
+2020,Girls,South Asia,3.54,2.84,4.32,ninos
+2021,Girls,South Asia,3.83,2.98,4.79,ninos
+2022,Girls,South Asia,4.13,3.12,5.28,ninos
+2023,Girls,South Asia,4.44,3.26,5.84,ninos
+2024,Girls,South Asia,4.78,3.39,6.42,ninos
+1980,Girls,Sub-Saharan Africa,0.3,0.09,0.72,ninos
+1981,Girls,Sub-Saharan Africa,0.31,0.11,0.7,ninos
+1982,Girls,Sub-Saharan Africa,0.32,0.12,0.69,ninos
+1983,Girls,Sub-Saharan Africa,0.33,0.13,0.69,ninos
+1984,Girls,Sub-Saharan Africa,0.35,0.15,0.69,ninos
+1985,Girls,Sub-Saharan Africa,0.36,0.17,0.7,ninos
+1986,Girls,Sub-Saharan Africa,0.38,0.19,0.7,ninos
+1987,Girls,Sub-Saharan Africa,0.4,0.21,0.72,ninos
+1988,Girls,Sub-Saharan Africa,0.43,0.23,0.73,ninos
+1989,Girls,Sub-Saharan Africa,0.45,0.26,0.75,ninos
+1990,Girls,Sub-Saharan Africa,0.48,0.29,0.78,ninos
+1991,Girls,Sub-Saharan Africa,0.52,0.32,0.8,ninos
+1992,Girls,Sub-Saharan Africa,0.56,0.35,0.84,ninos
+1993,Girls,Sub-Saharan Africa,0.6,0.39,0.87,ninos
+1994,Girls,Sub-Saharan Africa,0.64,0.44,0.92,ninos
+1995,Girls,Sub-Saharan Africa,0.69,0.49,0.97,ninos
+1996,Girls,Sub-Saharan Africa,0.75,0.54,1.02,ninos
+1997,Girls,Sub-Saharan Africa,0.81,0.59,1.07,ninos
+1998,Girls,Sub-Saharan Africa,0.87,0.65,1.14,ninos
+1999,Girls,Sub-Saharan Africa,0.94,0.72,1.21,ninos
+2000,Girls,Sub-Saharan Africa,1.01,0.79,1.29,ninos
+2001,Girls,Sub-Saharan Africa,1.09,0.86,1.37,ninos
+2002,Girls,Sub-Saharan Africa,1.17,0.94,1.46,ninos
+2003,Girls,Sub-Saharan Africa,1.26,1.02,1.56,ninos
+2004,Girls,Sub-Saharan Africa,1.34,1.09,1.65,ninos
+2005,Girls,Sub-Saharan Africa,1.43,1.17,1.75,ninos
+2006,Girls,Sub-Saharan Africa,1.52,1.24,1.84,ninos
+2007,Girls,Sub-Saharan Africa,1.59,1.32,1.94,ninos
+2008,Girls,Sub-Saharan Africa,1.66,1.38,2.01,ninos
+2009,Girls,Sub-Saharan Africa,1.73,1.43,2.08,ninos
+2010,Girls,Sub-Saharan Africa,1.78,1.47,2.14,ninos
+2011,Girls,Sub-Saharan Africa,1.83,1.52,2.2,ninos
+2012,Girls,Sub-Saharan Africa,1.89,1.57,2.26,ninos
+2013,Girls,Sub-Saharan Africa,1.95,1.61,2.34,ninos
+2014,Girls,Sub-Saharan Africa,2.01,1.66,2.43,ninos
+2015,Girls,Sub-Saharan Africa,2.09,1.71,2.53,ninos
+2016,Girls,Sub-Saharan Africa,2.17,1.77,2.63,ninos
+2017,Girls,Sub-Saharan Africa,2.26,1.84,2.76,ninos
+2018,Girls,Sub-Saharan Africa,2.35,1.9,2.9,ninos
+2019,Girls,Sub-Saharan Africa,2.46,1.96,3.05,ninos
+2020,Girls,Sub-Saharan Africa,2.56,2.02,3.21,ninos
+2021,Girls,Sub-Saharan Africa,2.67,2.07,3.39,ninos
+2022,Girls,Sub-Saharan Africa,2.79,2.12,3.58,ninos
+2023,Girls,Sub-Saharan Africa,2.91,2.17,3.81,ninos
+2024,Girls,Sub-Saharan Africa,3.03,2.22,4.07,ninos
+1980,Boys,Central and eastern Europe,3.36,1.72,6.41,ninos
+1981,Boys,Central and eastern Europe,3.46,1.89,6.28,ninos
+1982,Boys,Central and eastern Europe,3.58,2.08,6.21,ninos
+1983,Boys,Central and eastern Europe,3.73,2.28,6.18,ninos
+1984,Boys,Central and eastern Europe,3.88,2.5,6.13,ninos
+1985,Boys,Central and eastern Europe,4.04,2.72,6.08,ninos
+1986,Boys,Central and eastern Europe,4.2,2.97,6.08,ninos
+1987,Boys,Central and eastern Europe,4.37,3.21,6.06,ninos
+1988,Boys,Central and eastern Europe,4.55,3.46,6.06,ninos
+1989,Boys,Central and eastern Europe,4.73,3.71,6.08,ninos
+1990,Boys,Central and eastern Europe,4.91,3.96,6.13,ninos
+1991,Boys,Central and eastern Europe,5.08,4.19,6.2,ninos
+1992,Boys,Central and eastern Europe,5.26,4.43,6.28,ninos
+1993,Boys,Central and eastern Europe,5.44,4.65,6.38,ninos
+1994,Boys,Central and eastern Europe,5.62,4.88,6.51,ninos
+1995,Boys,Central and eastern Europe,5.81,5.09,6.66,ninos
+1996,Boys,Central and eastern Europe,5.99,5.29,6.82,ninos
+1997,Boys,Central and eastern Europe,6.19,5.47,7.0,ninos
+1998,Boys,Central and eastern Europe,6.39,5.68,7.2,ninos
+1999,Boys,Central and eastern Europe,6.61,5.89,7.43,ninos
+2000,Boys,Central and eastern Europe,6.87,6.14,7.66,ninos
+2001,Boys,Central and eastern Europe,7.17,6.45,7.96,ninos
+2002,Boys,Central and eastern Europe,7.52,6.79,8.3,ninos
+2003,Boys,Central and eastern Europe,7.9,7.16,8.67,ninos
+2004,Boys,Central and eastern Europe,8.32,7.57,9.1,ninos
+2005,Boys,Central and eastern Europe,8.75,7.99,9.56,ninos
+2006,Boys,Central and eastern Europe,9.2,8.42,10.05,ninos
+2007,Boys,Central and eastern Europe,9.64,8.83,10.52,ninos
+2008,Boys,Central and eastern Europe,10.07,9.21,10.99,ninos
+2009,Boys,Central and eastern Europe,10.46,9.57,11.42,ninos
+2010,Boys,Central and eastern Europe,10.82,9.88,11.78,ninos
+2011,Boys,Central and eastern Europe,11.12,10.17,12.13,ninos
+2012,Boys,Central and eastern Europe,11.37,10.4,12.41,ninos
+2013,Boys,Central and eastern Europe,11.57,10.57,12.63,ninos
+2014,Boys,Central and eastern Europe,11.74,10.73,12.78,ninos
+2015,Boys,Central and eastern Europe,11.88,10.87,12.91,ninos
+2016,Boys,Central and eastern Europe,12.03,11.02,13.01,ninos
+2017,Boys,Central and eastern Europe,12.18,11.21,13.15,ninos
+2018,Boys,Central and eastern Europe,12.35,11.4,13.29,ninos
+2019,Boys,Central and eastern Europe,12.53,11.6,13.46,ninos
+2020,Boys,Central and eastern Europe,12.73,11.81,13.63,ninos
+2021,Boys,Central and eastern Europe,12.92,11.98,13.88,ninos
+2022,Boys,Central and eastern Europe,13.14,12.11,14.17,ninos
+2023,Boys,Central and eastern Europe,13.36,12.2,14.56,ninos
+2024,Boys,Central and eastern Europe,13.53,12.2,14.95,ninos
+1980,Boys,"Central Asia, Middle East and north Africa",3.77,1.52,7.28,ninos
+1981,Boys,"Central Asia, Middle East and north Africa",3.88,1.67,7.27,ninos
+1982,Boys,"Central Asia, Middle East and north Africa",4.0,1.85,7.3,ninos
+1983,Boys,"Central Asia, Middle East and north Africa",4.14,2.03,7.26,ninos
+1984,Boys,"Central Asia, Middle East and north Africa",4.28,2.22,7.25,ninos
+1985,Boys,"Central Asia, Middle East and north Africa",4.44,2.42,7.28,ninos
+1986,Boys,"Central Asia, Middle East and north Africa",4.61,2.64,7.34,ninos
+1987,Boys,"Central Asia, Middle East and north Africa",4.8,2.89,7.38,ninos
+1988,Boys,"Central Asia, Middle East and north Africa",4.99,3.14,7.45,ninos
+1989,Boys,"Central Asia, Middle East and north Africa",5.19,3.39,7.55,ninos
+1990,Boys,"Central Asia, Middle East and north Africa",5.38,3.65,7.61,ninos
+1991,Boys,"Central Asia, Middle East and north Africa",5.58,3.9,7.69,ninos
+1992,Boys,"Central Asia, Middle East and north Africa",5.8,4.19,7.81,ninos
+1993,Boys,"Central Asia, Middle East and north Africa",6.01,4.45,7.93,ninos
+1994,Boys,"Central Asia, Middle East and north Africa",6.23,4.72,8.08,ninos
+1995,Boys,"Central Asia, Middle East and north Africa",6.47,4.97,8.24,ninos
+1996,Boys,"Central Asia, Middle East and north Africa",6.72,5.26,8.39,ninos
+1997,Boys,"Central Asia, Middle East and north Africa",6.99,5.58,8.6,ninos
+1998,Boys,"Central Asia, Middle East and north Africa",7.27,5.9,8.86,ninos
+1999,Boys,"Central Asia, Middle East and north Africa",7.56,6.22,9.1,ninos
+2000,Boys,"Central Asia, Middle East and north Africa",7.86,6.54,9.35,ninos
+2001,Boys,"Central Asia, Middle East and north Africa",8.18,6.89,9.65,ninos
+2002,Boys,"Central Asia, Middle East and north Africa",8.49,7.23,9.93,ninos
+2003,Boys,"Central Asia, Middle East and north Africa",8.79,7.54,10.22,ninos
+2004,Boys,"Central Asia, Middle East and north Africa",9.1,7.88,10.48,ninos
+2005,Boys,"Central Asia, Middle East and north Africa",9.41,8.17,10.78,ninos
+2006,Boys,"Central Asia, Middle East and north Africa",9.71,8.48,11.08,ninos
+2007,Boys,"Central Asia, Middle East and north Africa",10.02,8.76,11.35,ninos
+2008,Boys,"Central Asia, Middle East and north Africa",10.32,9.05,11.66,ninos
+2009,Boys,"Central Asia, Middle East and north Africa",10.63,9.36,11.96,ninos
+2010,Boys,"Central Asia, Middle East and north Africa",10.93,9.66,12.26,ninos
+2011,Boys,"Central Asia, Middle East and north Africa",11.23,9.93,12.56,ninos
+2012,Boys,"Central Asia, Middle East and north Africa",11.51,10.19,12.85,ninos
+2013,Boys,"Central Asia, Middle East and north Africa",11.79,10.45,13.17,ninos
+2014,Boys,"Central Asia, Middle East and north Africa",12.09,10.74,13.5,ninos
+2015,Boys,"Central Asia, Middle East and north Africa",12.4,11.02,13.83,ninos
+2016,Boys,"Central Asia, Middle East and north Africa",12.71,11.27,14.22,ninos
+2017,Boys,"Central Asia, Middle East and north Africa",13.03,11.55,14.62,ninos
+2018,Boys,"Central Asia, Middle East and north Africa",13.35,11.79,15.04,ninos
+2019,Boys,"Central Asia, Middle East and north Africa",13.68,12.0,15.46,ninos
+2020,Boys,"Central Asia, Middle East and north Africa",14.0,12.22,15.9,ninos
+2021,Boys,"Central Asia, Middle East and north Africa",14.33,12.39,16.4,ninos
+2022,Boys,"Central Asia, Middle East and north Africa",14.69,12.52,16.97,ninos
+2023,Boys,"Central Asia, Middle East and north Africa",15.06,12.72,17.6,ninos
+2024,Boys,"Central Asia, Middle East and north Africa",15.43,12.8,18.23,ninos
+1980,Boys,East and southeast Asia,0.84,0.57,1.22,ninos
+1981,Boys,East and southeast Asia,0.93,0.66,1.3,ninos
+1982,Boys,East and southeast Asia,1.04,0.76,1.4,ninos
+1983,Boys,East and southeast Asia,1.15,0.87,1.51,ninos
+1984,Boys,East and southeast Asia,1.28,1.0,1.63,ninos
+1985,Boys,East and southeast Asia,1.43,1.14,1.78,ninos
+1986,Boys,East and southeast Asia,1.6,1.3,1.95,ninos
+1987,Boys,East and southeast Asia,1.78,1.47,2.13,ninos
+1988,Boys,East and southeast Asia,1.97,1.66,2.34,ninos
+1989,Boys,East and southeast Asia,2.18,1.86,2.55,ninos
+1990,Boys,East and southeast Asia,2.39,2.05,2.77,ninos
+1991,Boys,East and southeast Asia,2.6,2.26,2.98,ninos
+1992,Boys,East and southeast Asia,2.82,2.47,3.21,ninos
+1993,Boys,East and southeast Asia,3.04,2.68,3.43,ninos
+1994,Boys,East and southeast Asia,3.26,2.89,3.66,ninos
+1995,Boys,East and southeast Asia,3.49,3.11,3.9,ninos
+1996,Boys,East and southeast Asia,3.74,3.35,4.18,ninos
+1997,Boys,East and southeast Asia,4.01,3.58,4.47,ninos
+1998,Boys,East and southeast Asia,4.3,3.86,4.79,ninos
+1999,Boys,East and southeast Asia,4.63,4.16,5.16,ninos
+2000,Boys,East and southeast Asia,5.0,4.51,5.54,ninos
+2001,Boys,East and southeast Asia,5.4,4.88,5.97,ninos
+2002,Boys,East and southeast Asia,5.83,5.29,6.43,ninos
+2003,Boys,East and southeast Asia,6.3,5.73,6.94,ninos
+2004,Boys,East and southeast Asia,6.8,6.22,7.44,ninos
+2005,Boys,East and southeast Asia,7.3,6.69,7.97,ninos
+2006,Boys,East and southeast Asia,7.82,7.19,8.5,ninos
+2007,Boys,East and southeast Asia,8.35,7.7,9.04,ninos
+2008,Boys,East and southeast Asia,8.9,8.24,9.59,ninos
+2009,Boys,East and southeast Asia,9.45,8.78,10.16,ninos
+2010,Boys,East and southeast Asia,10.01,9.32,10.73,ninos
+2011,Boys,East and southeast Asia,10.59,9.9,11.32,ninos
+2012,Boys,East and southeast Asia,11.16,10.45,11.9,ninos
+2013,Boys,East and southeast Asia,11.74,11.0,12.49,ninos
+2014,Boys,East and southeast Asia,12.33,11.56,13.12,ninos
+2015,Boys,East and southeast Asia,12.93,12.14,13.76,ninos
+2016,Boys,East and southeast Asia,13.57,12.73,14.45,ninos
+2017,Boys,East and southeast Asia,14.25,13.36,15.21,ninos
+2018,Boys,East and southeast Asia,14.98,13.96,16.07,ninos
+2019,Boys,East and southeast Asia,15.75,14.53,17.05,ninos
+2020,Boys,East and southeast Asia,16.53,15.06,18.09,ninos
+2021,Boys,East and southeast Asia,17.31,15.55,19.17,ninos
+2022,Boys,East and southeast Asia,18.08,15.96,20.33,ninos
+2023,Boys,East and southeast Asia,18.86,16.34,21.54,ninos
+2024,Boys,East and southeast Asia,19.63,16.64,22.76,ninos
+1980,Boys,High-income western,5.82,4.5,7.48,ninos
+1981,Boys,High-income western,6.24,4.94,7.78,ninos
+1982,Boys,High-income western,6.68,5.41,8.18,ninos
+1983,Boys,High-income western,7.15,5.89,8.58,ninos
+1984,Boys,High-income western,7.65,6.4,9.07,ninos
+1985,Boys,High-income western,8.17,6.92,9.54,ninos
+1986,Boys,High-income western,8.71,7.46,10.05,ninos
+1987,Boys,High-income western,9.29,8.03,10.61,ninos
+1988,Boys,High-income western,9.88,8.64,11.18,ninos
+1989,Boys,High-income western,10.47,9.25,11.76,ninos
+1990,Boys,High-income western,11.08,9.89,12.34,ninos
+1991,Boys,High-income western,11.7,10.52,12.91,ninos
+1992,Boys,High-income western,12.34,11.18,13.53,ninos
+1993,Boys,High-income western,12.98,11.86,14.17,ninos
+1994,Boys,High-income western,13.64,12.54,14.79,ninos
+1995,Boys,High-income western,14.31,13.26,15.42,ninos
+1996,Boys,High-income western,14.98,13.96,16.06,ninos
+1997,Boys,High-income western,15.66,14.67,16.7,ninos
+1998,Boys,High-income western,16.33,15.4,17.31,ninos
+1999,Boys,High-income western,17.0,16.08,17.92,ninos
+2000,Boys,High-income western,17.62,16.72,18.53,ninos
+2001,Boys,High-income western,18.22,17.34,19.1,ninos
+2002,Boys,High-income western,18.75,17.92,19.6,ninos
+2003,Boys,High-income western,19.22,18.41,20.06,ninos
+2004,Boys,High-income western,19.62,18.82,20.44,ninos
+2005,Boys,High-income western,19.93,19.14,20.73,ninos
+2006,Boys,High-income western,20.17,19.41,20.95,ninos
+2007,Boys,High-income western,20.35,19.6,21.12,ninos
+2008,Boys,High-income western,20.47,19.7,21.21,ninos
+2009,Boys,High-income western,20.53,19.78,21.25,ninos
+2010,Boys,High-income western,20.57,19.85,21.28,ninos
+2011,Boys,High-income western,20.57,19.86,21.28,ninos
+2012,Boys,High-income western,20.56,19.85,21.24,ninos
+2013,Boys,High-income western,20.55,19.84,21.24,ninos
+2014,Boys,High-income western,20.55,19.81,21.28,ninos
+2015,Boys,High-income western,20.55,19.79,21.32,ninos
+2016,Boys,High-income western,20.6,19.77,21.42,ninos
+2017,Boys,High-income western,20.68,19.79,21.62,ninos
+2018,Boys,High-income western,20.79,19.78,21.82,ninos
+2019,Boys,High-income western,20.9,19.78,22.05,ninos
+2020,Boys,High-income western,21.0,19.72,22.32,ninos
+2021,Boys,High-income western,21.08,19.57,22.6,ninos
+2022,Boys,High-income western,21.15,19.4,22.94,ninos
+2023,Boys,High-income western,21.22,19.22,23.33,ninos
+2024,Boys,High-income western,21.31,18.95,23.79,ninos
+1980,Boys,Latin America and the Caribbean,3.12,1.19,6.21,ninos
+1981,Boys,Latin America and the Caribbean,3.3,1.37,6.3,ninos
+1982,Boys,Latin America and the Caribbean,3.5,1.57,6.38,ninos
+1983,Boys,Latin America and the Caribbean,3.7,1.78,6.45,ninos
+1984,Boys,Latin America and the Caribbean,3.93,2.04,6.58,ninos
+1985,Boys,Latin America and the Caribbean,4.18,2.31,6.74,ninos
+1986,Boys,Latin America and the Caribbean,4.44,2.6,6.89,ninos
+1987,Boys,Latin America and the Caribbean,4.73,2.91,7.06,ninos
+1988,Boys,Latin America and the Caribbean,5.03,3.25,7.24,ninos
+1989,Boys,Latin America and the Caribbean,5.35,3.61,7.46,ninos
+1990,Boys,Latin America and the Caribbean,5.68,3.99,7.67,ninos
+1991,Boys,Latin America and the Caribbean,6.04,4.39,7.9,ninos
+1992,Boys,Latin America and the Caribbean,6.41,4.83,8.18,ninos
+1993,Boys,Latin America and the Caribbean,6.8,5.3,8.47,ninos
+1994,Boys,Latin America and the Caribbean,7.21,5.78,8.78,ninos
+1995,Boys,Latin America and the Caribbean,7.64,6.28,9.12,ninos
+1996,Boys,Latin America and the Caribbean,8.1,6.82,9.49,ninos
+1997,Boys,Latin America and the Caribbean,8.57,7.34,9.91,ninos
+1998,Boys,Latin America and the Caribbean,9.07,7.9,10.32,ninos
+1999,Boys,Latin America and the Caribbean,9.58,8.47,10.76,ninos
+2000,Boys,Latin America and the Caribbean,10.11,9.04,11.22,ninos
+2001,Boys,Latin America and the Caribbean,10.66,9.64,11.73,ninos
+2002,Boys,Latin America and the Caribbean,11.21,10.24,12.27,ninos
+2003,Boys,Latin America and the Caribbean,11.79,10.82,12.81,ninos
+2004,Boys,Latin America and the Caribbean,12.38,11.44,13.4,ninos
+2005,Boys,Latin America and the Caribbean,12.99,12.06,13.98,ninos
+2006,Boys,Latin America and the Caribbean,13.6,12.69,14.6,ninos
+2007,Boys,Latin America and the Caribbean,14.21,13.29,15.21,ninos
+2008,Boys,Latin America and the Caribbean,14.82,13.89,15.82,ninos
+2009,Boys,Latin America and the Caribbean,15.41,14.47,16.41,ninos
+2010,Boys,Latin America and the Caribbean,16.0,15.07,16.99,ninos
+2011,Boys,Latin America and the Caribbean,16.57,15.64,17.56,ninos
+2012,Boys,Latin America and the Caribbean,17.12,16.18,18.11,ninos
+2013,Boys,Latin America and the Caribbean,17.66,16.71,18.65,ninos
+2014,Boys,Latin America and the Caribbean,18.2,17.24,19.19,ninos
+2015,Boys,Latin America and the Caribbean,18.73,17.78,19.71,ninos
+2016,Boys,Latin America and the Caribbean,19.26,18.27,20.29,ninos
+2017,Boys,Latin America and the Caribbean,19.8,18.8,20.85,ninos
+2018,Boys,Latin America and the Caribbean,20.35,19.32,21.41,ninos
+2019,Boys,Latin America and the Caribbean,20.91,19.83,22.04,ninos
+2020,Boys,Latin America and the Caribbean,21.47,20.3,22.7,ninos
+2021,Boys,Latin America and the Caribbean,22.02,20.71,23.36,ninos
+2022,Boys,Latin America and the Caribbean,22.55,21.05,24.1,ninos
+2023,Boys,Latin America and the Caribbean,23.07,21.31,24.86,ninos
+2024,Boys,Latin America and the Caribbean,23.58,21.51,25.66,ninos
+1980,Boys,Pacific island nations,2.88,0.67,9.06,ninos
+1981,Boys,Pacific island nations,2.99,0.74,9.24,ninos
+1982,Boys,Pacific island nations,3.11,0.82,9.33,ninos
+1983,Boys,Pacific island nations,3.24,0.9,9.48,ninos
+1984,Boys,Pacific island nations,3.37,0.99,9.58,ninos
+1985,Boys,Pacific island nations,3.52,1.06,9.76,ninos
+1986,Boys,Pacific island nations,3.68,1.15,9.91,ninos
+1987,Boys,Pacific island nations,3.85,1.25,10.19,ninos
+1988,Boys,Pacific island nations,4.04,1.36,10.36,ninos
+1989,Boys,Pacific island nations,4.25,1.47,10.53,ninos
+1990,Boys,Pacific island nations,4.47,1.58,10.86,ninos
+1991,Boys,Pacific island nations,4.7,1.72,11.18,ninos
+1992,Boys,Pacific island nations,4.94,1.85,11.55,ninos
+1993,Boys,Pacific island nations,5.19,1.98,11.93,ninos
+1994,Boys,Pacific island nations,5.45,2.12,12.19,ninos
+1995,Boys,Pacific island nations,5.73,2.26,12.59,ninos
+1996,Boys,Pacific island nations,6.02,2.42,13.1,ninos
+1997,Boys,Pacific island nations,6.33,2.58,13.67,ninos
+1998,Boys,Pacific island nations,6.66,2.74,14.26,ninos
+1999,Boys,Pacific island nations,7.01,2.91,14.79,ninos
+2000,Boys,Pacific island nations,7.37,3.08,15.46,ninos
+2001,Boys,Pacific island nations,7.75,3.27,16.21,ninos
+2002,Boys,Pacific island nations,8.14,3.44,17.02,ninos
+2003,Boys,Pacific island nations,8.55,3.61,17.71,ninos
+2004,Boys,Pacific island nations,8.97,3.8,18.44,ninos
+2005,Boys,Pacific island nations,9.41,3.99,19.12,ninos
+2006,Boys,Pacific island nations,9.84,4.16,19.86,ninos
+2007,Boys,Pacific island nations,10.29,4.35,20.54,ninos
+2008,Boys,Pacific island nations,10.74,4.52,21.39,ninos
+2009,Boys,Pacific island nations,11.2,4.7,22.1,ninos
+2010,Boys,Pacific island nations,11.65,4.86,22.94,ninos
+2011,Boys,Pacific island nations,12.1,5.02,23.56,ninos
+2012,Boys,Pacific island nations,12.55,5.15,24.4,ninos
+2013,Boys,Pacific island nations,12.99,5.3,25.07,ninos
+2014,Boys,Pacific island nations,13.44,5.43,25.93,ninos
+2015,Boys,Pacific island nations,13.91,5.57,26.67,ninos
+2016,Boys,Pacific island nations,14.38,5.68,27.54,ninos
+2017,Boys,Pacific island nations,14.87,5.83,28.5,ninos
+2018,Boys,Pacific island nations,15.37,5.97,29.52,ninos
+2019,Boys,Pacific island nations,15.87,6.09,30.46,ninos
+2020,Boys,Pacific island nations,16.38,6.21,31.57,ninos
+2021,Boys,Pacific island nations,16.89,6.27,32.53,ninos
+2022,Boys,Pacific island nations,17.39,6.42,33.52,ninos
+2023,Boys,Pacific island nations,17.89,6.49,34.48,ninos
+2024,Boys,Pacific island nations,18.39,6.48,35.6,ninos
+1980,Boys,South Asia,0.21,0.1,0.43,ninos
+1981,Boys,South Asia,0.22,0.1,0.42,ninos
+1982,Boys,South Asia,0.22,0.11,0.41,ninos
+1983,Boys,South Asia,0.23,0.12,0.42,ninos
+1984,Boys,South Asia,0.24,0.13,0.42,ninos
+1985,Boys,South Asia,0.25,0.14,0.43,ninos
+1986,Boys,South Asia,0.26,0.15,0.44,ninos
+1987,Boys,South Asia,0.28,0.17,0.45,ninos
+1988,Boys,South Asia,0.29,0.18,0.47,ninos
+1989,Boys,South Asia,0.31,0.2,0.48,ninos
+1990,Boys,South Asia,0.33,0.21,0.5,ninos
+1991,Boys,South Asia,0.35,0.23,0.53,ninos
+1992,Boys,South Asia,0.38,0.25,0.56,ninos
+1993,Boys,South Asia,0.41,0.28,0.6,ninos
+1994,Boys,South Asia,0.45,0.3,0.64,ninos
+1995,Boys,South Asia,0.49,0.34,0.69,ninos
+1996,Boys,South Asia,0.54,0.38,0.75,ninos
+1997,Boys,South Asia,0.6,0.43,0.82,ninos
+1998,Boys,South Asia,0.67,0.49,0.9,ninos
+1999,Boys,South Asia,0.75,0.56,1.0,ninos
+2000,Boys,South Asia,0.85,0.65,1.1,ninos
+2001,Boys,South Asia,0.96,0.75,1.22,ninos
+2002,Boys,South Asia,1.09,0.87,1.36,ninos
+2003,Boys,South Asia,1.24,1.0,1.52,ninos
+2004,Boys,South Asia,1.4,1.14,1.69,ninos
+2005,Boys,South Asia,1.57,1.3,1.87,ninos
+2006,Boys,South Asia,1.74,1.46,2.07,ninos
+2007,Boys,South Asia,1.93,1.63,2.27,ninos
+2008,Boys,South Asia,2.12,1.8,2.48,ninos
+2009,Boys,South Asia,2.32,1.98,2.69,ninos
+2010,Boys,South Asia,2.51,2.17,2.9,ninos
+2011,Boys,South Asia,2.72,2.36,3.13,ninos
+2012,Boys,South Asia,2.93,2.55,3.35,ninos
+2013,Boys,South Asia,3.14,2.76,3.58,ninos
+2014,Boys,South Asia,3.37,2.96,3.84,ninos
+2015,Boys,South Asia,3.62,3.17,4.12,ninos
+2016,Boys,South Asia,3.89,3.39,4.43,ninos
+2017,Boys,South Asia,4.17,3.6,4.79,ninos
+2018,Boys,South Asia,4.48,3.82,5.19,ninos
+2019,Boys,South Asia,4.79,4.01,5.65,ninos
+2020,Boys,South Asia,5.12,4.19,6.12,ninos
+2021,Boys,South Asia,5.45,4.37,6.67,ninos
+2022,Boys,South Asia,5.79,4.52,7.25,ninos
+2023,Boys,South Asia,6.14,4.62,7.88,ninos
+2024,Boys,South Asia,6.51,4.75,8.56,ninos
+1980,Boys,Sub-Saharan Africa,0.23,0.05,0.7,ninos
+1981,Boys,Sub-Saharan Africa,0.24,0.06,0.7,ninos
+1982,Boys,Sub-Saharan Africa,0.25,0.07,0.69,ninos
+1983,Boys,Sub-Saharan Africa,0.27,0.08,0.7,ninos
+1984,Boys,Sub-Saharan Africa,0.28,0.09,0.71,ninos
+1985,Boys,Sub-Saharan Africa,0.3,0.1,0.72,ninos
+1986,Boys,Sub-Saharan Africa,0.32,0.12,0.73,ninos
+1987,Boys,Sub-Saharan Africa,0.35,0.14,0.75,ninos
+1988,Boys,Sub-Saharan Africa,0.38,0.16,0.78,ninos
+1989,Boys,Sub-Saharan Africa,0.41,0.19,0.82,ninos
+1990,Boys,Sub-Saharan Africa,0.45,0.22,0.85,ninos
+1991,Boys,Sub-Saharan Africa,0.49,0.25,0.9,ninos
+1992,Boys,Sub-Saharan Africa,0.54,0.29,0.94,ninos
+1993,Boys,Sub-Saharan Africa,0.59,0.33,1.0,ninos
+1994,Boys,Sub-Saharan Africa,0.65,0.38,1.06,ninos
+1995,Boys,Sub-Saharan Africa,0.71,0.44,1.13,ninos
+1996,Boys,Sub-Saharan Africa,0.78,0.5,1.2,ninos
+1997,Boys,Sub-Saharan Africa,0.86,0.56,1.29,ninos
+1998,Boys,Sub-Saharan Africa,0.94,0.63,1.38,ninos
+1999,Boys,Sub-Saharan Africa,1.04,0.72,1.47,ninos
+2000,Boys,Sub-Saharan Africa,1.14,0.8,1.58,ninos
+2001,Boys,Sub-Saharan Africa,1.24,0.9,1.71,ninos
+2002,Boys,Sub-Saharan Africa,1.36,0.99,1.84,ninos
+2003,Boys,Sub-Saharan Africa,1.48,1.1,1.97,ninos
+2004,Boys,Sub-Saharan Africa,1.6,1.2,2.1,ninos
+2005,Boys,Sub-Saharan Africa,1.73,1.31,2.24,ninos
+2006,Boys,Sub-Saharan Africa,1.85,1.43,2.38,ninos
+2007,Boys,Sub-Saharan Africa,1.97,1.53,2.51,ninos
+2008,Boys,Sub-Saharan Africa,2.08,1.63,2.63,ninos
+2009,Boys,Sub-Saharan Africa,2.18,1.72,2.75,ninos
+2010,Boys,Sub-Saharan Africa,2.27,1.8,2.85,ninos
+2011,Boys,Sub-Saharan Africa,2.36,1.87,2.95,ninos
+2012,Boys,Sub-Saharan Africa,2.44,1.93,3.05,ninos
+2013,Boys,Sub-Saharan Africa,2.52,1.99,3.15,ninos
+2014,Boys,Sub-Saharan Africa,2.6,2.04,3.27,ninos
+2015,Boys,Sub-Saharan Africa,2.69,2.1,3.39,ninos
+2016,Boys,Sub-Saharan Africa,2.8,2.18,3.56,ninos
+2017,Boys,Sub-Saharan Africa,2.92,2.26,3.74,ninos
+2018,Boys,Sub-Saharan Africa,3.06,2.33,3.96,ninos
+2019,Boys,Sub-Saharan Africa,3.2,2.4,4.18,ninos
+2020,Boys,Sub-Saharan Africa,3.36,2.48,4.44,ninos
+2021,Boys,Sub-Saharan Africa,3.53,2.54,4.74,ninos
+2022,Boys,Sub-Saharan Africa,3.7,2.61,5.07,ninos
+2023,Boys,Sub-Saharan Africa,3.88,2.68,5.42,ninos
+2024,Boys,Sub-Saharan Africa,4.08,2.75,5.82,ninos

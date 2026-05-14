@@ -1,0 +1,34 @@
+titulo: "La obesidad mundial: dónde se frenó, dónde se aceleró"
+fecha: 2026-05-13
+categoria: medicina
+tags: [obesidad, epidemiologia, salud-publica, NCD-RisC, BMI, paises-en-desarrollo, paises-desarrollados]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10383-0"
+    titulo: "Obesity rise plateaus in developed nations and accelerates in developing nations"
+    journal: Nature
+    autores: "NCD Risk Factor Collaboration (NCD-RisC)"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "obesidad_adultos_mundo.csv"
+    descripcion: "Agregado mundial adultos ≥20 años, age-standardized, 1980-2024"
+    fuente: "NCD-RisC (ncdrisc.org) + Zenodo 10.5281/zenodo.18368826"
+  - nombre: "obesidad_ninos_mundo_edad10.csv"
+    descripcion: "Agregado mundial niños 10 años, 1980-2024"
+    fuente: "NCD-RisC"
+  - nombre: "obesidad_adultos_pais.csv"
+    descripcion: "Series por país (200) × sexo × año, adultos"
+    fuente: "NCD-RisC"
+  - nombre: "obesidad_ninos_pais.csv"
+    descripcion: "Series por país (200) × sexo × año, niños/adolescentes 5-19 años"
+    fuente: "NCD-RisC"
+  - nombre: "obesidad_regiones.csv"
+    descripcion: "8 regiones globales × sexo × grupo de edad × año"
+    fuente: "NCD-RisC"
+  - nombre: "estudios_por_anio.csv"
+    descripcion: "Cobertura de estudios y participantes por año (1975-2025)"
+    fuente: "NCD-RisC supplementary"
+estado: publicado

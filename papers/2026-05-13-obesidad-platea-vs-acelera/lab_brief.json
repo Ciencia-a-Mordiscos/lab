@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "paper_id": 2484,
+  "doi": "10.1038/s41586-026-10383-0",
+  "paper_type": "observational",
+  "study_design": "observational longitudinal con modelo bayesiano jerárquico",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "EE. UU. chicos 2024: 23,4% de obesidad (UI 19,0-27,8)",
+      "supported": "yes",
+      "detail": "CSV de país-niños: 23,36% en 2024 con UI 19,04-27,79. El paper redondea a 23% para boys en USA. Coincidencia exacta.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show (with UI)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Japón chicas 2024: 2,9% (UI 2,3-3,6)",
+      "supported": "yes",
+      "detail": "CSV: 2,91% con UI 2,26-3,65. Paper redondea a '3-4% for girls in Japan'. Dentro del rango.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show (with UI)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Italia chicos: pico 15,0% en 2009, hoy 12,5% (caída relativa 17%)",
+      "supported": "yes",
+      "detail": "Identificación automática del máximo en CSV. Caída cuantificada como (15,0-12,5)/15,0 = 16,9%. El paper enmarca como 'indications of a small decline since the 2000s'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indications of a small decline",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Francia chicos: pico 6,3% en 2007, hoy 4,3% (caída relativa 32%)",
+      "supported": "yes",
+      "detail": "El caso más claro de declive en niños. CSV: peak 6,30% en 2007, 4,31% en 2024. El paper menciona Francia dentro de la lista de 'indications of a small decline'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indications of a small decline",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Mundo mujeres adultas se multiplicó por 2,55 entre 1980 y 2024",
+      "supported": "yes",
+      "detail": "CSV mundo adultos: 6,75% (1980) → 17,24% (2024). Multiplicador 2,554. El paper no destaca el multiplicador explícitamente.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show (calculation ours)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Mundo hombres adultos se multiplicó por 4,18 entre 1980 y 2024",
+      "supported": "yes",
+      "detail": "CSV: 3,20% → 13,37%. Multiplicador 4,178. Hombres subieron más rápido que mujeres en términos relativos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show (calculation ours)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "HIC occidental y Europa central/oriental son las únicas regiones que se desaceleran en mujeres entre las dos eras 1980-2000 y 2000-2024",
+      "supported": "yes",
+      "detail": "Tasas anuales: HIC occidental 0,43 → 0,32 pp/año (sigue creciendo, más lento); Europa central/oriental 0,03 → -0,04 pp/año (revierte leve). Las otras 6 regiones aceleran.",
+      "certainty_tier": "T1",
+      "abstract_verb": "decelerated / remained stable or increased",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En LMIC la tasa anual de cambio se aceleró: Sur de Asia mujeres pasó de 0,11 a 0,37 pp/año (×3,4); Este/SE Asia de 0,07 a 0,27 (×3,9); Latinoamérica de 0,45 a 0,70 (×1,6)",
+      "supported": "yes",
+      "detail": "Cross-check con CSV regiones. El paper dice 'in most LMIC, the annual absolute change has remained stable or increased'. Nuestros cálculos cuantifican esa aceleración.",
+      "certainty_tier": "T1",
+      "abstract_verb": "remained stable or increased",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Distribución por país 2024 (mujeres adultas): rango 2,5%-83%; media simple por país ~30% vs promedio mundial ponderado 17,2%",
+      "supported": "yes",
+      "detail": "CSV: min Vietnam 2,49%, max Tonga 82,79%, media simple 29,67%, mediana 26,61%, n=200. La diferencia con el agregado mundial refleja la ponderación por población (gigantes asiáticos pesan).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show (calculation ours)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Causas del plateau/declive en HIC: tendencias sociales, económicas y tecnológicas (no causalidad demostrada)",
+      "supported": "partial",
+      "detail": "El abstract dice 'social, economic and technological trends MAY have helped control'. Atenuador obligatorio: no hay claim causal. El notebook respeta la condicional en la tabla de verificación y en el cierre.",
+      "certainty_tier": "T2",
+      "abstract_verb": "may have helped",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {"value": 4050, "unit": "estudios poblacionales", "context": "base de evidencia del consorcio NCD-RisC", "source": "fact_sheet", "verified": true},
+    {"value": 232, "unit": "millones de participantes", "context": "altura y peso medidos (no autoreportados)", "source": "fact_sheet", "verified": true},
+    {"value": 200, "unit": "países", "context": "cobertura del estudio", "source": "fact_sheet", "verified": true},
+    {"value": 45, "unit": "años de cobertura", "context": "1980-2024", "source": "fact_sheet", "verified": true},
+    {"value": 23.4, "unit": "%", "context": "EE. UU. chicos 2024 (UI 19,0-27,8) — extremo alto", "source": "fact_sheet", "verified": true},
+    {"value": 2.9, "unit": "%", "context": "Japón chicas 2024 (UI 2,3-3,6) — extremo bajo", "source": "fact_sheet", "verified": true},
+    {"value": 15.0, "unit": "%", "context": "Italia chicos pico 2009 (hoy 12,5%)", "source": "fact_sheet", "verified": true},
+    {"value": 6.3, "unit": "%", "context": "Francia chicos pico 2007 (hoy 4,3%, caída relativa 32%)", "source": "fact_sheet", "verified": true},
+    {"value": 2.55, "unit": "multiplicador", "context": "mundo mujeres adultas 6,75% (1980) → 17,24% (2024)", "source": "calculation", "verified": true},
+    {"value": 4.18, "unit": "multiplicador", "context": "mundo hombres adultos 3,20% (1980) → 13,37% (2024)", "source": "calculation", "verified": true},
+    {"value": 0.70, "unit": "pp/año", "context": "tasa anual mujeres adultas Latinoamérica 2000-2024 (×1,6 vs 1980-2000)", "source": "calculation", "verified": true},
+    {"value": 0.37, "unit": "pp/año", "context": "Sur de Asia mujeres adultas 2000-2024 (×3,4 vs 1980-2000)", "source": "calculation", "verified": true},
+    {"value": 17.2, "unit": "%", "context": "promedio mundial ponderado mujeres adultas 2024", "source": "fact_sheet", "verified": true},
+    {"value": 82.8, "unit": "%", "context": "Tonga mujeres adultas 2024 — máximo país", "source": "calculation", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "decelerated", "tier": "T1", "cam_attenuator": "afirmación directa ('se desaceleró', 'se frenó')"},
+    {"abstract_verb": "plateaued", "tier": "T1", "cam_attenuator": "afirmación directa ('se estancó', 'plateau')"},
+    {"abstract_verb": "indications of a small decline", "tier": "T2", "cam_attenuator": "'hay indicios de una pequeña caída' — NO 'demuestra que cayó'"},
+    {"abstract_verb": "slowed down", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "possibly a small reversal", "tier": "T3", "cam_attenuator": "'posiblemente revierte' — NO 'está revirtiendo'"},
+    {"abstract_verb": "remained stable or increased", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "may have helped control", "tier": "T2", "cam_attenuator": "'podría haber ayudado' / 'todo apunta a que ayudaron' — NUNCA 'controlaron'"},
+    {"abstract_verb": "suggest", "tier": "T2", "cam_attenuator": "'los datos sugieren' — NO 'demuestra'"},
+    {"abstract_verb": "require policy interventions", "tier": "RECOMENDACION", "cam_attenuator": "atribución a autores: 'los autores piden políticas públicas'"}
+  ],
+  "narrative_hooks": [
+    "232 millones de personas dicen lo mismo: la obesidad se desacelera donde más subió",
+    "Francia chicos: del 6,3% en 2007 al 4,3% en 2024 — un país rico revirtiendo en niños",
+    "EE. UU. se estancó, no bajó: 22,6% en 2010, 23,4% en 2024",
+    "El mundo casi se multiplicó por cuatro en hombres (×4,2) y por dos y medio en mujeres (×2,55)",
+    "Sur de Asia mujeres: la tasa de aceleración se triplicó entre 1980-2000 y 2000-2024"
+  ],
+  "limitations": [
+    "Las prevalencias son estimaciones de un modelo bayesiano jerárquico, no observaciones directas. UI 95% reflejan la incertidumbre (anchos en países con pocos estudios: Japón chicas 2,3-3,6; Francia chicas 2,0-7,0)",
+    "Es un estudio observacional, no causal. El paper NO demuestra qué frenó la curva en países ricos — solo describe el patrón",
+    "El abstract usa 'may have helped' para las causas: atenuador condicional obligatorio en cualquier referencia causal",
+    "La comparación HIC vs LMIC es por región. Sur de Asia (11,6%) y África subsahariana (16,5%) siguen muy por debajo de HIC occidental (27,4%) — no toda LMIC superó a HIC",
+    "Los niños usan BMI > +2 SD (Z-score) y los adultos BMI ≥ 30 — definiciones diferentes, no comparar prevalencias absolutas entre grupos de edad",
+    "El multiplicador mundial (×2,55 mujeres, ×4,18 hombres) es un cálculo nuestro a partir del CSV global. El paper enmarca las comparaciones por país y región, no destaca este número agregado"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "9 claims verificados (yes) + 1 partial + 14 key_numbers — script denso con dos historias (plateau HIC + aceleración LMIC) que merecen contraste"
+  },
+  "notebook_slug": "2026-05-13-obesidad-platea-vs-acelera",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-13-obesidad-platea-vs-acelera/notebook.html",
+  "generated_at": "2026-05-13T21:30:00Z"
+}
