@@ -1,0 +1,7 @@
+donor_id,cohort,sex,age_years,height_in,weight_lb,bmi_kgm2,last_food_time,hours_fast,pre_food_description,post_food_description
+C1,control_continuous_fed,M,28,68.8,198,29.4,7:00 AM,2.5,"Fried dimsom, fried egg, walnut powder","herbal tea, shrimp, broccoli, rice, white pizza(2), small bowl of salad and ranch dressing."
+C2,control_continuous_fasted,M,42,65,136,22.6,21:00,12,"whole wheat bread, potato, cauli flower, peas, carrot",No Food (Continue to fast)
+C3,control_continuous_fed,M,34,66,160,25.8,6:30 AM,3,"cake, milk, cherries","rice, ice cream, beans, beef, bowl of loaded baked potato soup, bowl of chili, green olives."
+C4,control_continuous_fasted,M,37,65,135,22.5,20:00,13,"brown rice, yogurt, steamed yucca, fish, curry, orange",No Food (Continue to fast)
+C5,control_continuous_fed,M,39,72,205,27.8,5:00 AM,3.5,"1 orange, black coffee","cup of cooked rice, stir fried pork with cabbage, salad , orange, water and black coffee"
+C6,control_continuous_fasted,M,42,67,140,21.9,21:00,12,"Bread, potato, green vegetables like cabbage, cauli flower, sweet potato",No Food (Continue to fast)

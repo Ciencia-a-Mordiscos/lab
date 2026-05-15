@@ -1,0 +1,32 @@
+donor_id,cohort,sex,age_years,height_in,weight_lb,bmi_kgm2,last_food_time,hours_fast,pre_food_description,post_food_description,post_lipid_hits,post_carb_hits,post_protein_hits,post_veg_hits,post_food_dominant
+1,postprandial,M,42,46.0,165,54.8,20:00,13.5,"fried potatoes, turkey noodle soup, wine, pasta, greenbeans","burrito bowl w/chicken, eggs, sausage patties, hashbrown, chai latte w/vanilla sweet foam.",1,1,2,0,protein
+2,postprandial,F,26,62.0,120,21.9,19:00,14.0,"Cauliflower w/cheese, ravioli with parmesan cheese and butter","Egg sandwich w/extra chees, everything bagel with extra cream cheese, iced pumpkin chai and orange juice.",2,2,1,0,lipid
+3,postprandial,M,43,65.0,166,27.6,19:00,14.0,"Chicken, pasta, wine,  greenbeans","burrito bowl w/chicken, sausage patties, hashbrown, mango juice.",1,1,1,0,lipid
+4,postprandial,M,42,66.0,140,22.6,21:00,12.5,"whole wheat bread, potato, cauli flower, peas, carrot","rice, green vegetable, pulse, carrot, dry fruits, apple",0,1,1,3,veg
+5,postprandial,F,26,65.3,120,19.8,19:30,14.5,"Whole wheat bread, cream cheese danish","apple, egg sandwhich with egg, cheese, pork, oatmilk coffee, cream cheese danish, chicken muchroom pasta",3,2,3,0,lipid
+6,postprandial,F,33,62.4,127,22.9,20:00,13.0,"Rice, indian NAAN, cheese, carrot, peas","Rice, NAAN, Green vegetable, fruit, cheese, milk",1,2,0,2,carb
+7,postprandial,M,41,68.4,147,22.1,20:00,13.0,"Bread, potato, salad (green vegetables)","rice, potato, pulses, cheese, pea, mango juice",1,2,1,1,carb
+8,postprandial,M,28,68.8,198,29.4,19:30,14.0,"Fried dimsom, fried egg, walnut powder","herbal tea, shrimp, broccoli, rice, white pizza(2), small bowl of salad and ranch dressing.",2,1,1,2,lipid
+9,postprandial,F,27,66.0,120,19.4,20:00,13.0,"Pasta sauce, ravioli, bacon, shortbread","chips, black tea, almond milk, stevia, chicken tortilla wrap, pesto may, friend, sugary coffee",2,2,1,0,lipid
+10,postprandial,M,26,71.0,150,20.9,20:00,13.0,"Chicken, pasta, greenbeans","cup of noodles, protein bar",0,1,0,0,carb
+11,postprandial,F,43,64.0,240,41.2,19:00,14.0,"Pizza, 2 glasses wine","cappucino, bacon egg and gouda sandwich, bagel w/ cream cheese",4,2,1,0,lipid
+12,postprandial,M,43,65.0,166,27.6,20:30,12.0,"Chicken, pasta, wine,  greenbeans","burrito bowl w/chicken, sausage patties, hashbrown, mango juice.",1,1,1,0,lipid
+13,postprandial,F,39,61.0,130,24.6,22:30,10.0,"bread,vegetables, milk,lentils","pulses (lentils) rice, milk, vegetables, salad, fruit juice",0,1,2,2,protein
+14,postprandial,F,24,66.0,123,19.9,21:00,11.5,"pepperoni slices, celery, almond butter","Coffee, fruit nut bar, gouda chees, salami sandwich on olive bread, spinach, pumpkin seeds, grapes and banand chips",2,2,0,1,lipid
+15,postprandial,F,26,62.0,125,22.9,20:30,13.5,"greek yogurt, and whipped cream","rolled ots, peanut butter, blueberries, almost milk, protein powder",2,0,0,1,lipid
+16,postprandial,F,24,66.0,250,40.4,18:00,15.0,"3 chicken tenders,french fries, coleslaw, hush puppies","bacon, egg and gouda breakfast sandwich, iced chai, protein shake,  granola bar",2,1,1,0,lipid
+17,postprandial,F,25,68.0,154,23.4,21:00,11.0,2 cookies,"cinnamon toast, eggs, sausage patties(2), hashbrown, chai latte w/vanilla sweet foam, burrito bowl w/chicken",1,1,2,0,protein
+18,postprandial,M,39,72.0,205,27.8,20:00,13.0,"1 orange, black coffee","cup of cooked rice, stir fried pork with cabbage, salad , orange, water and black coffee",1,1,1,2,veg
+19,postprandial,F,22,65.0,191,31.8,18:00,14.0,"steamed peas and carrots, peanut butter and jelly sandwich (2)","homefries, french toast with syrup, coffee, strawberry greek yogurt, pastry, popcorn, caramel frappacino",1,0,1,0,lipid
+20,postprandial,M,37,70.0,250,35.9,21:00,12.0,burger and a salad,"coffee, bagel with jelly, greekk yougurt, quinoa salad",0,1,0,1,carb
+21,postprandial,F,55,64.0,175,30.0,20:00,13.0,"fried potoatoes, fried fish, turkey noodle soup, wine","latte, sausage, egg bagel sandwich, tea with sugar",1,2,1,0,carb
+22,postprandial,F,54,66.0,145,23.4,19:00,13.5,"avacado, tomato, wheat crackers, salad","chicken tenders, french fries",0,0,1,0,protein
+23,postprandial,F,35,66.5,138,21.9,22:00,10.0,"ice cream drumstick, cheddar cheese, pretzels","chocolate candies, coffee, 3 pieces of pizza, 2 apples",1,0,0,0,lipid
+24,postprandial,F,58,66.0,132,21.3,20:30,12.0,chocolate mousse (tofu + cocao powder),"breakfast shake, chia seed, natural PB, grapes, fruit bowl, scrambled tofu w/vegetables, grapes, olives and crackers",0,0,1,1,protein
+25,postprandial,M,58,68.0,170,25.8,20:30,9.0,"angel food cake, cough drops","bowl of loaded baked potato soup, bowl of chili, green olives, unsweetened tea.",0,2,0,1,carb
+26,postprandial,F,47,61.0,128,24.2,21:00,12.0,pizza,"pancakes, scrambled eggs, sausage, hashbrown coffee",1,2,1,0,carb
+27,postprandial,M,47,69.0,175,25.8,21:00,12.0,pizza,"pancakes, scrambled eggs, sausage, homefries",1,2,1,0,carb
+28,postprandial,F,55,66.0,132,21.3,20:30,12.0,"tofu, brown rice, curry, potato, broccoli","fruit bowl, shake, chia seed, olives and crackers,  burrito bowl w/chicken",0,1,1,0,carb
+29,postprandial,M,22,70.0,237,34.0,22:00,11.0,apple,chicken sandwich and salad,0,1,1,1,carb
+30,postprandial,F,28,63.0,218,38.6,21:00,11.0,"brown rice, yogurt, steamed yucca, fish, curry, orange","coffee with milk, hummus wrap with veggies, masala mix, vanilla donut",1,1,1,0,lipid
+31,postprandial,M,28,68.0,154,23.4,21:00,11.0,"brown rice, yogurt, steamed yucca, fish, curry, orange, potato chips","coffee with milk, hummus wrap with veggies",0,1,1,0,carb

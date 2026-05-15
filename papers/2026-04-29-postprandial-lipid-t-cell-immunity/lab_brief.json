@@ -1,0 +1,199 @@
+{
+  "version": "1.0",
+  "paper_id": 2414,
+  "doi": "10.1038/s41586-026-10432-8",
+  "paper_type": "experimental",
+  "study_design": "mixed (paired observational in humans + experimental manipulation in mice)",
+  "species": "human + mouse",
+  "verification_table": [
+    {
+      "claim": "La cohorte fue de 37 personas (31 postprandiales + 6 controles)",
+      "supported": "yes",
+      "detail": "Conteo directo en participantes_todos.csv: 31 postprandial + 6 control = 37",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El ayuno objetivo era 12–14 h y la mediana real fue 13 h, con 21/31 (68%) dentro de la zona",
+      "supported": "yes",
+      "detail": "Distribución de hours_fast en CSV; histograma cell 7",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "No hay diferencia significativa de BMI entre hombres y mujeres (Mann-Whitney p=0.26, Cohen's d=0.14, n_M=12, n_F=18)",
+      "supported": "yes",
+      "detail": "Test recalculado del CSV con donor 1 excluido; cohens_d=0.14 indica efecto trivial",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.14,
+        "interpretation": "trivial"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las personas comieron lo que quisieron (sin menú impuesto), con dominancia lípido en 13/31, carbohidrato en 11/31, proteína en 5/31, vegetal en 2/31",
+      "supported": "yes",
+      "detail": "Categoría post_food_dominant en CSV; bar chart cell 4",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El cambio en las células T se observó en los 31 participantes a pesar de la diversidad dietaria",
+      "supported": "partial",
+      "detail": "El paper lo reporta; los datos funcionales (OCR, ECAR, citoquinas) no están como CSV — solo viven en figuras del artículo",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Los efectos sobre células T persisten 7 días in vitro y hasta 40 semanas en ratones",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como hallazgo experimental en ratones; los CSVs descargables no lo cubren",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhance",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Los quilomicrones (lipoproteínas postprandiales) median el efecto vía LDLR y mTORC1",
+      "supported": "partial",
+      "detail": "Mecanismo reportado en Figs 3–4 del paper; corrección publicada 2026-05-14 sobre etiquetas de Fig 3h no afecta la conclusión",
+      "certainty_tier": "T1",
+      "abstract_verb": "imparts",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Las células CAR-T fabricadas con sangre postprandial muestran mayor capacidad citolítica",
+      "supported": "partial",
+      "detail": "Reportado en Fig 5g–j del paper; no hay datos crudos descargables",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 37,
+      "unit": "participantes",
+      "context": "tamaño total de la cohorte humana (31 postprandiales + 6 controles)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 31,
+      "unit": "participantes",
+      "context": "brazo postprandial (ayuno → comida libre 6 h → segunda extracción)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 13.0,
+      "unit": "horas",
+      "context": "mediana de horas de ayuno antes de la primera extracción",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 68,
+      "unit": "por ciento",
+      "context": "cumplimiento del ayuno 12–14 h (21/31 participantes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 23.8,
+      "unit": "kg/m²",
+      "context": "BMI mediano de la cohorte usable (n=30, donor 1 excluido por error de transcripción)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.26,
+      "unit": "p-value",
+      "context": "Mann-Whitney M vs F del BMI — no significativo (d=0.14 trivial)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "participantes",
+      "context": "categoría dominante lípido en la comida post-ayuno",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11,
+      "unit": "participantes",
+      "context": "categoría dominante carbohidrato en la comida post-ayuno",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "horas",
+      "context": "ventana de comida libre entre las dos extracciones",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 40,
+      "unit": "semanas",
+      "context": "duración de la persistencia del efecto en ratones (reportado por el paper)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa para hallazgos in mice (experimental); para humanos usar 'los T cells postprandiales tienen' (no causal)"
+    },
+    {
+      "abstract_verb": "enhance",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa en ratones; 'asociado con mayor capacidad' en humanos"
+    },
+    {
+      "abstract_verb": "highlight",
+      "tier": "T2",
+      "cam_attenuator": "'los autores resaltan' / 'el estudio resalta'"
+    },
+    {
+      "abstract_verb": "support",
+      "tier": "T1",
+      "cam_attenuator": "'apoya' / 'es consistente con'"
+    },
+    {
+      "abstract_verb": "imparts",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa en ratones; en humanos 'se asocia a' / 'los datos sugieren'"
+    }
+  ],
+  "narrative_hooks": [
+    "31 personas comieron lo que quisieron y aún así el efecto sobre las células T fue reproducible",
+    "Solo 2 de 31 voluntarios eligieron una comida vegetal al romper el ayuno: el cuerpo no pide ensalada",
+    "Si comiste antes de una vacuna o de una extracción para CAR-T, los resultados pueden ser distintos",
+    "El paper reporta efecto durable: 7 días in vitro y 40 semanas en ratones"
+  ],
+  "limitations": [
+    "Cohorte pequeña (n=31) y de un solo centro (Pittsburgh, IRB#21090049)",
+    "Las mediciones funcionales (OCR, ECAR, citoquinas, CAR-T) del paper NO están como CSVs descargables — viven en figuras",
+    "Donor 1 tiene un error de transcripción de altura (46 in / 117 cm) que infla artificialmente el BMI a 54.8; excluido de stats de BMI",
+    "Compliance del ayuno fue del 68% — 10/31 fuera de la ventana 12–14 h",
+    "El paper tuvo una corrección publicada (2026-05-14) sobre etiquetas en Fig 3h; conclusión cualitativa no afectada"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "claims estándar (3–4 verificados)"
+  },
+  "notebook_slug": "2026-04-29-postprandial-lipid-t-cell-immunity",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-29-postprandial-lipid-t-cell-immunity/notebook.html",
+  "generated_at": "2026-05-15T15:57:01.861262Z"
+}

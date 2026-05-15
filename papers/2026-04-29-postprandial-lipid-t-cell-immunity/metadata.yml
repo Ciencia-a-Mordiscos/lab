@@ -1,0 +1,25 @@
+titulo: "Comer antes de un examen inmunológico cambia el resultado"
+fecha: 2026-04-29
+categoria: medicina
+tags: [inmunologia, celulas-t, metabolismo, ayuno, dieta, car-t]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10432-8"
+    titulo: "Postprandial lipid metabolism durably enhances T cell immunity"
+    journal: Nature
+    autores: "Hong et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "participantes_postprandial.csv"
+    descripcion: "31 voluntarios postprandiales: edad, sexo, BMI, horas de ayuno, diario de comida pre y post, categoría dominante"
+    fuente: "Supplementary Tables S1+S2"
+  - nombre: "participantes_control.csv"
+    descripcion: "6 controles (3 continuous_fed, 3 continuous_fasted)"
+    fuente: "Supplementary Tables S1+S2"
+  - nombre: "participantes_todos.csv"
+    descripcion: "Combinado: 37 participantes en una sola tabla"
+    fuente: "Supplementary Tables S1+S2"
+estado: publicado
