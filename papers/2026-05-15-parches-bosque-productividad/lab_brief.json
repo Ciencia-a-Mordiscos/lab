@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "paper_id": 2491,
+  "doi": "10.1038/s41559-026-03075-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "16,9 millones de parches forestales analizados en CONUS (el paper redondea a 17 millones)",
+      "supported": "yes",
+      "detail": "Suma exacta del CSV: 16 913 643. Diferencia con headline del paper <0,5%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "analyse",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Una hectárea en parche ~100 000 km² es 38% más productiva que aislada",
+      "supported": "partial",
+      "detail": "El paper lo deriva de regresión continua. El bin discreto extremo da +67% (n=1); entre bins comparables (<1e4 vs <1e11) da +33%. Cifra del 38% es del modelo, no aislable de un par de bins.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La fragmentación actual ya redujo NPP de CONUS en 0,16 GtC/año (14% vs upper-bound)",
+      "supported": "yes",
+      "detail": "Cálculo desde escenarios_npp.csv: 0,1589 GtC/año (13,78%). Diferencia con paper <1%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "indicate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tamaño de parche es predictor más fuerte que variables topográficas y de suelo (Random Forest)",
+      "supported": "yes",
+      "detail": "PatchSize 0,0204 vs Soil_pH 0,0169 vs Slope 0,010 vs Soil_C:N 0,0075 vs Aspect 0,0006. Confirmado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tamaño de parche NO supera a variables climáticas (MAT y precipitación)",
+      "supported": "yes",
+      "detail": "MAT 0,0427 y Precipitación 0,0254 superan a PatchSize 0,0204. El paper no afirma esto — el abstract acota a 'topographic and soil', el notebook lo aclara.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Relación positiva tamaño-productividad consistente en 5 de 6 continentes; Europa es la excepción (-0,003)",
+      "supported": "partial",
+      "detail": "5/6 pendientes positivas. Oceanía la mayor (+0,0635). Europa la única negativa (-0,0034). Paper enmarca como 'consistent positive' — defendible si se reporta excepción.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 16.9,
+      "unit": "millones",
+      "context": "parches forestales analizados en CONUS",
+      "source": "fact_sheet.total_parches_conus",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "17 millones",
+        "our_calculation": "16,9 millones (16 913 643)",
+        "discrepancy_pct": 0.5,
+        "reason": "el paper redondea"
+      }
+    },
+    {
+      "value": 38,
+      "unit": "%",
+      "context": "incremento de productividad de hectárea en bosque ~100 000 km² vs aislada (regresión continua del paper)",
+      "source": "fact_sheet.kn_38pct",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "38%",
+        "our_calculation": "+33% entre bins comparables / +67% en extremos discretos (n=1 último bin)",
+        "discrepancy_pct": 5,
+        "reason": "el 38% es del modelo continuo del paper; los bins discretos son una aproximación"
+      }
+    },
+    {
+      "value": 0.16,
+      "unit": "GtC/año",
+      "context": "pérdida de productividad por fragmentación actual vs upper-bound",
+      "source": "fact_sheet.kn_016_gtc",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0,16 GtC/yr",
+        "our_calculation": "0,1589 GtC/yr",
+        "discrepancy_pct": 0.7,
+        "reason": "redondeo del paper"
+      }
+    },
+    {
+      "value": 14,
+      "unit": "%",
+      "context": "pérdida de NPP relativa al upper-bound",
+      "source": "fact_sheet.kn_14pct",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "14%",
+        "our_calculation": "13,78%",
+        "discrepancy_pct": 1.6,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 5,
+      "unit": "de 6 continentes",
+      "context": "continentes con pendiente NPP positiva (Europa la única excepción, -0,003)",
+      "source": "fact_sheet.kn_global_positive",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con 'puede' del paper"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / los análisis indican"
+    },
+    {
+      "abstract_verb": "could",
+      "tier": "T3",
+      "cam_attenuator": "podría"
+    },
+    {
+      "abstract_verb": "can reduce",
+      "tier": "T2/T3",
+      "cam_attenuator": "puede reducir — NO escalar a 'reduce' o 'destruye'"
+    }
+  ],
+  "narrative_hooks": [
+    "17 millones de parches de bosque medidos. Los grandes capturan más carbono por hectárea.",
+    "Una hectárea metida en un bosque continuo de 100 000 km² es 38% más productiva que aislada.",
+    "La fragmentación que ya tenemos cuesta 0,16 GtC al año — y eso es solo Estados Unidos.",
+    "5 de 6 continentes confirman el patrón. Europa es la excepción que el paper no explica."
+  ],
+  "limitations": [
+    "Diseño OBSERVACIONAL: la asociación tamaño→productividad es robusta, pero no es un experimento. Posibles confounders (composición de especies, edad de rodal, historia de manejo) no controlados.",
+    "El paper deduce mecanismos plausibles (efecto de borde, microclima de interior) pero los datos solo soportan la correlación parcial.",
+    "El bin extremo de 134 000 km² es un solo parche (n=1, sin SEM). Por eso la regresión continua del paper (+38%) es preferible al extremo discreto (+67%).",
+    "Los datos globales por continente están a resolución más gruesa que CONUS — la pendiente de Europa puede estar sub-estimada por agregación.",
+    "El abstract dice 'patch size más fuerte que topografía y suelo' — correcto. Pero clima (MAT, precipitación) sí supera a patch size. El script no debe inflar."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (4 yes + 2 partial) y 5 números clave — script denso"
+  },
+  "notebook_slug": "2026-05-15-parches-bosque-productividad",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-15-parches-bosque-productividad/notebook.html",
+  "generated_at": "2026-05-15T16:25:38.810452+00:00"
+}

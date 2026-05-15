@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "16.9 millones — parches forestales analizados en CONUS",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "38 % — incremento de productividad de hectárea en bosque ~100 000 km² vs aislada (regresión continua del paper)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "0.16 GtC/año — pérdida de productividad por fragmentación actual vs upper-bound",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "14 % — pérdida de NPP relativa al upper-bound",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "5 de 6 continentes — continentes con pendiente NPP positiva (Europa la única excepción, -0,003)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "16,9 millones de parches forestales analizados en CONUS (el paper redondea a 17 millones)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "contexto",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "Una hectárea en parche ~100 000 km² es 38% más productiva que aislada",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c8",
+      "text": "La fragmentación actual ya redujo NPP de CONUS en 0,16 GtC/año (14% vs upper-bound)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "Tamaño de parche es predictor más fuerte que variables topográficas y de suelo (Random Forest)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "Tamaño de parche NO supera a variables climáticas (MAT y precipitación)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c11",
+      "text": "Relación positiva tamaño-productividad consistente en 5 de 6 continentes; Europa es la excepción (-0,003)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature Ecology & Evolution",
+      "tipo": "paper",
+      "titulo": "Larger forest patches have greater per-area productivity",
+      "url": "https://doi.org/10.1038/s41559-026-03075-5",
+      "fecha_publicacion": "2026-05-15",
+      "fecha_consulta": "2026-05-15",
+      "rol": "primaria",
+      "articulo_id": null
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Yibiaozou/PatchSize_Productivity: PatchSize-Productivity Relationship (v3.0.0)",
+      "url": "https://doi.org/10.5281/zenodo.19134763",
+      "fecha_publicacion": "2026-03-20",
+      "fecha_consulta": "2026-05-15",
+      "rol": "base",
+      "articulo_id": null
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Larger forest patches have greater per-area productivity](https://doi.org/10.1038/s41559-026-03075-5)  \n*Nature Ecology & Evolution, 2026-05-15*\n\n**Datos**: [Yibiaozou/PatchSize_Productivity: PatchSize-Productivity Relationship (v3.0.0)](https://doi.org/10.5281/zenodo.19134763)\n*Zenodo*\n\n*11 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

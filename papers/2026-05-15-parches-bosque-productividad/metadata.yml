@@ -1,0 +1,28 @@
+titulo: "Parches grandes de bosque capturan más carbono por hectárea"
+fecha: 2026-05-15
+categoria: ecologia
+tags: [bosques, fragmentacion, carbono, productividad, NPP, sensores-remotos, mitigacion-climatica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03075-5"
+    titulo: "Larger forest patches have greater per-area productivity"
+    journal: "Nature Ecology & Evolution"
+    autores: "Zou et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "npp_por_tamano.csv"
+    descripcion: "NPP/GPP parcial y media por clase de tamaño de parche (9 bins log) · 16,9M parches CONUS"
+    fuente: "Repositorio Zenodo del paper (procesado a tabla agregada)"
+  - nombre: "escenarios_npp.csv"
+    descripcion: "NPP total CONUS para 3 escenarios contrafactuales: realizado, upper-bound (contiguo), most-fragmented"
+    fuente: "Repositorio Zenodo"
+  - nombre: "importancia_variables.csv"
+    descripcion: "Importancia de variables (Random Forest) — patch_size, MAT, precipitación, slope, soil pH, soil C:N, aspect"
+    fuente: "Repositorio Zenodo"
+  - nombre: "pendientes_por_continente.csv"
+    descripcion: "Pendientes de regresión NPP/GPP vs log(patch_size) para los 6 continentes"
+    fuente: "Repositorio Zenodo"
+estado: publicado
