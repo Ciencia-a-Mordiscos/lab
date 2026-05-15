@@ -546,6 +546,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-14-zeolitas-agua-aire/README
+    title: "Cómo una membrana flexible saca agua del aire 5 veces más rápido"
+    sections:
+    - file: papers/2026-05-14-zeolitas-agua-aire/notebook
+      title: Notebook
   - file: papers/2026-05-13-llm-control-estatal-medios/README
     title: "LLMs y control estatal de medios"
     sections:

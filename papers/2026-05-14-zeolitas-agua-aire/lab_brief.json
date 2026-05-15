@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "paper_id": 2489,
+  "doi": "10.1038/s44221-026-00649-2",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "not_applicable",
+  "verification_table": [
+    {
+      "claim": "EMM-8@TPU llega al 50% de su capacidad de sorción en 4.6 min a 30% RH",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Interpolación lineal sobre conversion_ratio (cinetica_sorcion_comparada.csv) confirma 4.6 min para EMM-8@TPU. Para los 6 sorbentes de referencia: HMG=11.0 min, HIPG=11.2 min, SHPF=22.5 min, MOF-801=28.6 min, MOF-303=36.2 min, LiCl@rGO-SA=48.4 min (rango 11–48 min, 2.4×–10.5× más lento)",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving",
+      "effect_size": {"measure": "ratio", "value": 5.7, "interpretation": "media de la competencia es 5.7× más lenta"}
+    },
+    {
+      "claim": "Productividad de 13.79 g de agua por g de sorbente y día a 59.3% RH",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Valor directo en productividad_sorbentes.csv (Fig. 5f). Es 53.9% superior al mejor sorbente previo medido en literatura (CAL, 8.96 g/g/d a 72.5% RH, una humedad notablemente mayor). A 38.1% RH la productividad ya alcanza 11.81 g/g/d, también por encima de cualquier competidor.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reaching",
+      "effect_size": {"measure": "ratio", "value": 1.54, "interpretation": "≈1.5× el mejor sorbente anterior, a RH menor"}
+    },
+    {
+      "claim": "Desorción a 80°C deja residual ≈ 0% en 20 min (3 réplicas convergen)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "desorcion_kinetica.csv (3 réplicas a 80°C): residual = 0.00% a los 20 min. A 65°C aún queda 2.65% en el mismo tiempo. La temperatura modula fuertemente la cinética de desorción.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving",
+      "effect_size": null
+    },
+    {
+      "claim": "Una membrana puede completar 72 ciclos en 24 h con media estable de 0.164 g/g por ciclo",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "ciclado_productividad.csv: 72 ciclos, media 0.164 g/g, SD = 0.005, coeficiente de variación = 3.01% (estabilidad alta, sin tendencia descendente visible en la ventana medida). Acumulado final: 11.78 g/g ≈ 13.29 L/m².",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving",
+      "effect_size": null
+    },
+    {
+      "claim": "El paper proyecta rutas de escalabilidad industrial para sorbentes de nueva generación",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "El abstract dice 'Our work represents promising routes' — esto es proyección, no resultado verificado. Lo medido son las propiedades del material a escala de laboratorio (membranas de unos cm²). La escalabilidad industrial real requiere estudios adicionales: degradación de la matriz TPU a largo plazo, fouling, costos de manufactura, integración con sistemas de captura solar/eléctrica.",
+      "certainty_tier": "T2",
+      "abstract_verb": "represents",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 4.6,
+      "unit": "minutos",
+      "context": "tiempo a 50% de saturación de EMM-8@TPU a 30% RH",
+      "source": "ds3 (interpolado)",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "ultrafast (Fig. 3g)",
+        "our_calculation": "4.62 min",
+        "discrepancy_pct": 0,
+        "reason": "El paper no da el valor numérico exacto; lo derivamos por interpolación lineal sobre conversion_ratio. La comparación con los 6 sorbentes de referencia confirma que EMM-8@TPU es el más rápido."
+      }
+    },
+    {
+      "value": 13.79,
+      "unit": "g de agua por g de sorbente, por día",
+      "context": "productividad máxima reportada (59.3% RH)",
+      "source": "Fig 5f / ds4",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "13.79 g/g/d",
+        "our_calculation": "13.79",
+        "discrepancy_pct": 0,
+        "reason": "Coincidencia exacta con CSV (productividad_sorbentes.csv row 2)"
+      }
+    },
+    {
+      "value": 11.81,
+      "unit": "g de agua por g de sorbente, por día",
+      "context": "productividad a humedad baja (38.1% RH) — relevante para climas áridos",
+      "source": "ds4",
+      "verified": true
+    },
+    {
+      "value": 8.96,
+      "unit": "g de agua por g de sorbente, por día",
+      "context": "mejor productividad previa en literatura (CAL @ 72.5% RH) — el récord superado",
+      "source": "ds4",
+      "verified": true
+    },
+    {
+      "value": 72,
+      "unit": "ciclos",
+      "context": "ciclos completos sorción-desorción en 24 h",
+      "source": "ds5",
+      "verified": true
+    },
+    {
+      "value": 0.164,
+      "unit": "g de agua por g de sorbente",
+      "context": "agua colectada por ciclo (media de 72 ciclos, CV = 3.01%)",
+      "source": "ds5",
+      "verified": true,
+      "std_dev": 0.005,
+      "n": 72
+    },
+    {
+      "value": 11.78,
+      "unit": "g de agua por g de sorbente",
+      "context": "agua total acumulada en 24 h (también ≈ 13.29 L/m² de membrana)",
+      "source": "ds5",
+      "verified": true
+    },
+    {
+      "value": 80,
+      "unit": "°C",
+      "context": "temperatura de desorción rápida — residual ≈ 0% en 20 min",
+      "source": "ds2",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "report", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "achieving", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "reaching", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "represents", "tier": "T2", "cam_attenuator": "proyección — distinguir de hallazgo medido"}
+  ],
+  "narrative_hooks": [
+    "425 millones de personas no tienen acceso a agua limpia, pero el aire incluso en zonas áridas está lleno de humedad. El problema nunca fue dónde está el agua: es qué tan rápido se puede atrapar y soltar.",
+    "Una membrana flexible llega a la mitad de su capacidad en 4.6 minutos. Los competidores tardan entre 11 y 48 minutos — entre 2.4 y 10.5 veces más lento.",
+    "Una hoja de EMM-8@TPU completa 72 ciclos en 24 horas y termina con 11.78 veces su propio peso en agua.",
+    "A 38% de humedad —condiciones casi de desierto interior— ya supera al mejor sorbente publicado, que necesita 72.5% para llegar al 65% de la productividad de EMM-8@TPU."
+  ],
+  "limitations": [
+    "Los datos cubren rango 30-70% RH a 25°C; comportamiento a temperaturas más altas o más bajas no está medido.",
+    "El ciclado se midió durante 24 h continuas. Degradación de la matriz TPU a 30 días, 6 meses o 2 años (fouling, fatiga térmica) requiere otro estudio.",
+    "La comparación con sorbentes de literatura usa publicaciones independientes — el equipo no remidió todos los competidores en su propio aparato.",
+    "La proyección de escalabilidad industrial ('promising routes') es proyección de los autores, no resultado validado a escala de planta."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims verificados con datos + 1 claim marcado como proyección + 8 key_numbers verificados — densidad de hechos requiere espacio extra"
+  },
+  "notebook_slug": "2026-05-14-zeolitas-agua-aire",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-14-zeolitas-agua-aire/notebook.html",
+  "generated_at": "2026-05-14T20:30:00Z"
+}

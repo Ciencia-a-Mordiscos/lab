@@ -1,0 +1,31 @@
+titulo: "Cómo una membrana flexible saca agua del aire 5 veces más rápido"
+fecha: 2026-05-14
+categoria: tecnologia
+tags: [zeolitas, agua, sorcion, sawh, membranas, materiales, recursos-hidricos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00649-2"
+    titulo: "Scalable and flexible zeolite nanosheet membranes for ultrafast water harvesting from air"
+    journal: "Nature Water"
+    autores: "Bai et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "sorcion_kinetica.csv"
+    descripcion: "Cinética de sorción de EMM-8@TPU a 30% RH y 25°C, 3 réplicas (Fig. 3)"
+    fuente: "MOESM6 ESM — Source Data Fig. 3"
+  - nombre: "desorcion_kinetica.csv"
+    descripcion: "Cinética de desorción a 65, 70 y 80°C, 3 réplicas (Fig. 3)"
+    fuente: "MOESM6 ESM — Source Data Fig. 3"
+  - nombre: "cinetica_sorcion_comparada.csv"
+    descripcion: "Razón de conversión vs tiempo para EMM-8@TPU y 6 sorbentes de referencia (Fig. 3g)"
+    fuente: "MOESM6 ESM — Source Data Fig. 3"
+  - nombre: "productividad_sorbentes.csv"
+    descripcion: "Productividad (g/g/d) a distintas humedades — EMM-8@TPU vs 9 sorbentes de literatura (Fig. 5f)"
+    fuente: "MOESM8 ESM — Source Data Fig. 5"
+  - nombre: "ciclado_productividad.csv"
+    descripcion: "72 ciclos consecutivos en 24 h — agua colectada por ciclo y acumulado (Fig. 5e)"
+    fuente: "MOESM8 ESM — Source Data Fig. 5"
+estado: publicado
