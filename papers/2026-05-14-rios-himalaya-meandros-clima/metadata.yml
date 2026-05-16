@@ -1,0 +1,22 @@
+titulo: "Los ríos del Himalaya están serpenteando casi al doble de velocidad"
+fecha: 2026-05-14
+categoria: ecologia
+tags: [himalaya, geomorfologia, rios, clima, meandros, migracion-lateral, observacional]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adg8401"
+    titulo: "Accelerated Himalayan river meandering and dynamics due to climate change"
+    journal: Science
+    autores: "Lin et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "meandros_pareados.csv"
+    descripcion: "650 meandros con métricas pareadas T1 (1980s-90s) vs T2 (2000s-10s) en 3 cuencas del Himalaya"
+    fuente: "Zenodo 10.5281/zenodo.17853501 (Source_data_Fig.5.csv original)"
+  - nombre: "clima_y_migracion_por_decada.csv"
+    descripcion: "2.600 observaciones (650 meandros × 4 décadas) con variables climáticas y migración"
+    fuente: "Zenodo 10.5281/zenodo.17853501 (Fig6_SEM.csv original)"
+estado: publicado

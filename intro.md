@@ -28,6 +28,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ---
 
+### Los ríos del Himalaya están serpenteando casi al doble de velocidad
+
+**Ecología** · *Science* · Lin et al. (2026) midieron cómo migra lateralmente cada uno de **650 meandros pareados** en tres cuencas mayores del Himalaya — **Yarlung Tsangpo, Ganges, Indus** — comparando dos ventanas: **1980s–90s vs 2000s–10s**. La mediana de migración pasó de **1,02 a 1,81 m/año (ratio = 1,77×)**; el **93%** de los meandros aceleró. **Wilcoxon p ≈ 10⁻⁹², Cohen's d pareado = 0,72**. Pero la aceleración no es uniforme: **Ganges 2,16×, Indus 1,91×, Yarlung Tsangpo 1,62×** — y el Yarlung aporta 75% de la muestra. La temperatura subió **+0,87 °C** en esas mismas décadas, pero la correlación directa T → migración es modesta (**ρ = 0,33**). ⚠️ Diseño **OBSERVACIONAL**: la causalidad clima → migración es hipótesis del paper, sostenida por un modelo SEM, no por la comparación pareada. ⚠️ El claim del paper sobre *"amplified sediment fluxes"* **no aparece en los datos crudos** — Qs cayó 43%; el paper lo sostiene con su SEM, no con medias temporales.
+
+[Ver notebook](papers/2026-05-14-rios-himalaya-meandros-clima/notebook) · [Leer más](papers/2026-05-14-rios-himalaya-meandros-clima/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-rios-himalaya-meandros-clima/notebook.ipynb)
+
+---
+
 ### Comer antes de un examen inmunológico cambia el resultado
 
 **Medicina** · *Nature* · Hong et al. (2026) reclutaron 31 voluntarios que vinieron en ayunas, los dejaron comer durante 6 horas lo que quisieran (sin menú impuesto) y midieron cómo cambiaron sus células T entre las dos extracciones — más 6 controles que comieron continuamente o ayunaron continuamente. El hallazgo: comer aumenta la **capacidad metabólica de las células T** (más OCR mitocondrial, más IFN-γ y TNF), el efecto **persiste 7 días *in vitro* y hasta 40 semanas en ratones**, y los **quilomicrones** (lipoproteínas postprandiales) son el vehículo que lo transmite vía LDLR y mTORC1. Punto traslacional: las **células CAR-T fabricadas con sangre postprandial son terapéuticamente superiores**. Lo que abrimos aquí: la demografía pública (Tablas S1+S2) de los 37 participantes. Mediana de ayuno **13 h**, cumplimiento del protocolo 12–14 h del **68%** (21/31), BMI mediano **23,8 kg/m²** (rango 19–41 sin el outlier por error de transcripción), y elección dietaria diversa: **13 grasas, 11 carbohidratos, 5 proteínas, 2 vegetales**. ⚠️ Las mediciones funcionales del paper (OCR, ECAR, citoquinas, CAR-T) viven en figuras — no como CSVs descargables — así que el notebook se centra en el diseño humano del estudio. ⚠️ Cohorte n=31 de un solo centro (Pittsburgh). ⚠️ Corrección publicada (2026-05-14) sobre etiquetas de Fig 3h; conclusión cualitativa intacta.

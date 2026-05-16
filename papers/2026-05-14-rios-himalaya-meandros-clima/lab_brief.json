@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "paper_id": 2492,
+  "doi": "10.1126/science.adg8401",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La migración mediana se multiplicó por 1,77× entre T1 (1980s–90s) y T2 (2000s–10s)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana 1,023 → 1,808 m/año en 650 meandros pareados. Wilcoxon p ≈ 1,3e-92. Cohen's d pareado = 0,72 (mediano–grande). El paper habla de 'roughly doubled' — encaja, pero ojo: el Yarlung Tsangpo (75% de la muestra) sube solo 1,62×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {"measure": "cohen_d_paired", "value": 0.72, "interpretation": "mediano-grande"}
+    },
+    {
+      "claim": "El 93% de los meandros pareados aceleró en T2",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "606 de 650 meandros migraron más rápido en T2 que en T1.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {"measure": "proporcion", "value": 0.932, "interpretation": "amplia mayoría"}
+    },
+    {
+      "claim": "El Ganges fue la cuenca con mayor aceleración relativa (2,16×); Indus 1,91×; Yarlung Tsangpo 1,62×",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Ratios calculados sobre medianas T2/T1 por cuenca. Ganges n=82, Indus n=81, Yarlung n=487.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {"measure": "ratio_medianas", "value": 2.164, "interpretation": "duplicación literal en Ganges"}
+    },
+    {
+      "claim": "La temperatura media subió +0,87 °C entre la década de 1980 y la de 2010 en la red de meandros monitoreados",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Media 1980s = -0,63 °C; 2010s = +0,24 °C. n = 2.600 obs (650 meandros × 4 décadas).",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {"measure": "delta_C", "value": 0.87, "interpretation": "alineado con calentamiento regional documentado"}
+    },
+    {
+      "claim": "La temperatura por sí sola NO explica la varianza de la migración meandro a meandro",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Spearman ρ = 0,33 (p ≈ 5,6e-51, n = 1.947). La correlación es estadísticamente robusta pero modesta — la temperatura por sí sola no explica casi nada de la varianza individual. El paper sostiene la causalidad clima→migración con un modelo SEM, no con esta correlación directa.",
+      "certainty_tier": "T3",
+      "abstract_verb": "ascribe",
+      "effect_size": {"measure": "spearman_rho", "value": 0.331, "interpretation": "modesta — NO usar ρ² como 'explica X%'"}
+    },
+    {
+      "claim": "El claim del paper sobre 'amplified sediment fluxes' NO aparece en los datos crudos",
+      "supported": "no",
+      "supported_by_data": true,
+      "detail": "Qs medio cayó ~43% entre 1980s y 2010s (33,3 → 19,1). El paper sostiene el 'amplified' con su modelo SEM (efectos estructurales/condicionales), no con medias temporales. El notebook lo marca como ⚠️ honesto, no como contradicción al paper.",
+      "certainty_tier": "T3",
+      "abstract_verb": "amplifies",
+      "effect_size": {"measure": "delta_pct", "value": -42.5, "interpretation": "contrario al claim si se interpreta como medias temporales"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1.77,
+      "unit": "veces",
+      "context": "ratio mediana T2/T1 de migración lateral (m/año)",
+      "source": "fact_sheet+verificacion_directa",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "roughly doubled",
+        "our_calculation": "1,77×",
+        "discrepancy_pct": 11.5,
+        "reason": "'Roughly doubled' del paper se sostiene: Ganges 2,16×, Indus 1,91×, Yarlung 1,62× — global 1,77× por sesgo de muestra del Yarlung. Usar '1,8× más rápido' o 'casi se duplicó', NUNCA 'se duplicó' literal."
+      }
+    },
+    {
+      "value": 93.2,
+      "unit": "por ciento",
+      "context": "meandros que aceleraron entre T1 y T2",
+      "source": "calculo_directo",
+      "verified": true
+    },
+    {
+      "value": 0.87,
+      "unit": "grados Celsius",
+      "context": "incremento de temperatura media 1980s → 2010s",
+      "source": "fact_sheet+verificacion_directa",
+      "verified": true
+    },
+    {
+      "value": 0.33,
+      "unit": "spearman_rho",
+      "context": "correlación temperatura → migración (modesta, NO se traduce a 'explica X% varianza')",
+      "source": "calculo_directo",
+      "verified": true
+    },
+    {
+      "value": 0.72,
+      "unit": "cohen_d_pareado",
+      "context": "tamaño de efecto pareado T2 vs T1 — mediano-grande",
+      "source": "calculo_directo",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no reportado",
+        "our_calculation": "0,72",
+        "discrepancy_pct": 0,
+        "reason": "Calculado como mean(T2-T1)/sd(T2-T1) sobre 650 pares. El fact_sheet original reportaba 0,60 (pooled-like); auditor estadístico corrigió a 0,72."
+      }
+    },
+    {
+      "value": 650,
+      "unit": "meandros",
+      "context": "tamaño de muestra pareada total (487 Yarlung Tsangpo + 82 Ganges + 81 Indus)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "quantify", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "roughly doubled", "tier": "T1", "cam_attenuator": "'casi se duplicó' / '1,8× más rápido' — NO 'se duplicó' literal"},
+    {"abstract_verb": "highlight", "tier": "T2", "cam_attenuator": "'señalan que' / 'apuntan a'"},
+    {"abstract_verb": "ascribe", "tier": "T3", "cam_attenuator": "'los autores atribuyen' / 'apunta al clima' — NO presentar como causa demostrada"},
+    {"abstract_verb": "amplifies", "tier": "T3", "cam_attenuator": "verbo causal — solo si los datos lo soportan; aquí Qs cae 43%, sostiene con SEM"},
+    {"abstract_verb": "destabilizes", "tier": "T3", "cam_attenuator": "verbo causal — hipótesis del paper, NO observación directa"}
+  ],
+  "narrative_hooks": [
+    "1,8× más rápido. Esa es la mediana de cuánto aceleró la migración de 650 meandros en cuatro décadas.",
+    "93 de cada 100 meandros pareados se movieron más rápido en la segunda ventana que en la primera.",
+    "El Ganges literalmente se duplicó. El Yarlung Tsangpo — que aporta 3 de cada 4 meandros del estudio — se quedó en 1,62×.",
+    "La temperatura subió 0,87 °C en esas mismas décadas. Pero la correlación directa con la migración es modesta (ρ = 0,33) — la causa estructural vive en un modelo SEM, no en las medias."
+  ],
+  "limitations": [
+    "Diseño OBSERVACIONAL: comparan dos periodos sin manipular variables. La causalidad clima → migración es hipótesis del paper, no demostración del notebook.",
+    "Sesgo de muestra: 487 de 650 meandros (75%) son del Yarlung Tsangpo. El 'doubling' agregado pesa mucho ese río — el Ganges es el que más cerca está literal de duplicarse (2,16×).",
+    "Las dos tablas (pareados de Fig 5 y climáticos por década de Fig 6) tienen meander IDs disjuntos — no se pueden cruzar a nivel de meandro individual.",
+    "El 'índice glaciar' sube 13,5 → 21,8, pero sin metadata pública NO equivale a 'más área de hielo'; probablemente es un índice de contribución glacial al meltwater.",
+    "Spearman ρ = 0,33 NO se traduce a 'explica el 11% de la varianza': esa interpretación requiere Pearson + linealidad.",
+    "Mrn normalizada da 1,5–1,7×; Mrm cruda 1,77×; RPMI 1,80×. La aceleración existe pero NO 'se duplicó' literal."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 1 claim no (sediment) + 4 hooks narrativos densos + caveats obligatorios sobre causalidad observacional. Script denso."
+  },
+  "notebook_slug": "2026-05-14-rios-himalaya-meandros-clima",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-14-rios-himalaya-meandros-clima/notebook.html",
+  "generated_at": "2026-05-16T11:10:00Z"
+}

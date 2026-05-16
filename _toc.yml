@@ -8,6 +8,11 @@ parts:
     sections:
     - file: papers/2026-05-15-parches-bosque-productividad/notebook
       title: Notebook
+  - file: papers/2026-05-14-rios-himalaya-meandros-clima/README
+    title: "Los ríos del Himalaya están serpenteando casi al doble de velocidad"
+    sections:
+    - file: papers/2026-05-14-rios-himalaya-meandros-clima/notebook
+      title: Notebook
   - file: papers/2026-05-13-precipitacion-concentrada-agua/README
     title: "El 100% del planeta responde igual a la lluvia más concentrada: con menos agua"
     sections:
