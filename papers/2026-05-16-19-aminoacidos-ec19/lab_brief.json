@@ -1,0 +1,164 @@
+{
+  "version": "1.0",
+  "paper_id": 2506,
+  "doi": "10.1126/science.aeb5171",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "Escherichia coli (bacteria)",
+  "verification_table": [
+    {
+      "claim": "El ribosoma de E. coli tiene 382 residuos de Ile distribuidos en 50 proteínas",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Recuento directo del FASTA público coincide exactamente con el headline del paper (diferencia = 0).",
+      "certainty_tier": "T1",
+      "abstract_verb": "systematically replaced"
+    },
+    {
+      "claim": "La distribución de Ile por proteína es asimétrica con outlier extremo (rpsA con 30 Ile, ~4x la media)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "min=1, mediana=7, max=30. rpsA es la subunidad más larga (557 aa).",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a"
+    },
+    {
+      "claim": "Las 10 proteínas con más Ile concentran 142 de 382 (37%) del trabajo de rediseño",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Cálculo directo sobre el FASTA: 142/382 = 37.2%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a"
+    },
+    {
+      "claim": "Ile es el 8º aminoácido más usado en el ribosoma (5,61% del total de residuos)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Conteo global sobre 6.815 residuos. Por debajo de Ala (10,71%), Lys (9,48%), Val (9,39%), Arg, Gly, Leu, Glu.",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a"
+    },
+    {
+      "claim": "El equipo reemplazó sistemáticamente los 382 Ile y produjo una E. coli viable y evolutivamente estable sin Ile en el ribosoma",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Afirmación directa del paper: 'We systematically replaced all 382 Ile residues from the ribosome... to produce a viable, evolutionarily stable cell'. Verificación experimental del laboratorio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "confirmed / replaced / produced"
+    },
+    {
+      "claim": "Modelos de lenguaje proteico y de estructura fueron necesarios para diseñar las variantes funcionales sin Ile",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Afirmación directa del paper: 'protein language models and structure-based models were necessary to redesign functional Ile-less proteins in most cases'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "were necessary"
+    },
+    {
+      "claim": "El paper rediseña el ribosoma sin Ile; un organismo completo de 19 aminoácidos queda como trabajo futuro (roadmap)",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Matiz crítico: el paper se enmarca explícitamente como 'roadmap to create the first 19-amino acid organism since early evolution' — no como la creación del organismo completo. NO escalar a 'crearon una E. coli de 19 aminoácidos'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "provides a roadmap"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 382,
+      "unit": "residuos de Ile",
+      "context": "Total de isoleucinas en las 50 proteínas ribosomales de E. coli (objetivo del rediseño)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "382 Ile residues from the ribosome",
+        "our_calculation": "382",
+        "discrepancy_pct": 0.0,
+        "reason": "coincidencia exacta — recuento desde el FASTA público"
+      }
+    },
+    {
+      "value": 50,
+      "unit": "proteínas ribosomales",
+      "context": "Número de proteínas wild-type analizadas y rediseñadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5.61,
+      "unit": "por ciento",
+      "context": "Porcentaje global de Ile en el ribosoma (sobre 6.815 residuos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 37,
+      "unit": "por ciento",
+      "context": "Las 10 proteínas con más Ile concentran 142/382 = 37,2% del trabajo de rediseño",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 30,
+      "unit": "Ile",
+      "context": "Outlier rpsA — la subunidad más larga (557 aa), 4× el promedio del ribosoma",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 21,
+      "unit": "subunidades rediseñadas",
+      "context": "Combinaron 21 subunidades rediseñadas en un locus genómico nativo para producir la célula viable",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "21 redesigned subunits at a native genomic locus",
+        "our_calculation": "n/a (afirmación experimental del paper)",
+        "discrepancy_pct": 0.0,
+        "reason": "no calculable desde el FASTA — claim experimental"
+      }
+    },
+    {
+      "value": 19,
+      "unit": "aminoácidos (alfabeto resultante)",
+      "context": "Alfabeto del ribosoma post-rediseño (sin isoleucina). NO confundir con organismo completo.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "ranking",
+      "context": "Ile es el 8º aminoácido más abundante en estas proteínas (de 20)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "remains unclear", "tier": "T4", "cam_attenuator": "la pregunta es si"},
+    {"abstract_verb": "initial analyses suggested", "tier": "T3", "cam_attenuator": "los análisis iniciales sugerían"},
+    {"abstract_verb": "we confirmed", "tier": "T1", "cam_attenuator": "confirmaron"},
+    {"abstract_verb": "were necessary", "tier": "T1", "cam_attenuator": "fueron necesarios"},
+    {"abstract_verb": "systematically replaced", "tier": "T1", "cam_attenuator": "reemplazaron"},
+    {"abstract_verb": "produced viable cell", "tier": "T1", "cam_attenuator": "produjeron / lograron"},
+    {"abstract_verb": "provides a roadmap", "tier": "T1", "cam_attenuator": "abre la puerta a / es un paso hacia"}
+  ],
+  "narrative_hooks": [
+    "382 isoleucinas — eso era todo lo que separaba a esta E. coli del primer alfabeto de 19 aminoácidos en miles de millones de años",
+    "Una proteína sola, rpsA, concentra el 8% del trabajo: 30 isoleucinas que había que reescribir",
+    "10 proteínas — un quinto del ribosoma — concentran más de un tercio del rediseño",
+    "Ile no es el aminoácido más raro ni el más común; es el 8º de 20. Tan común que está en casi todas las proteínas, tan poco común que era removible"
+  ],
+  "limitations": [
+    "El notebook explora la composición de Ile ANTES del rediseño — no verifica viabilidad de las variantes diseñadas (eso queda en el paper)",
+    "El paper rediseña solo el ribosoma; un organismo completo de 19 aminoácidos requiere rediseñar el proteoma entero y queda como trabajo futuro (el propio paper lo enmarca como roadmap)",
+    "Las secuencias rediseñadas no están en el FASTA público — solo las wild-type. La validación de funcionalidad sin Ile depende de los experimentos del paper"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims yes + 1 partial + 8 key_numbers — script denso con matiz crítico sobre roadmap"
+  },
+  "notebook_slug": "2026-05-16-19-aminoacidos-ec19",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-16-19-aminoacidos-ec19/notebook.html",
+  "generated_at": "2026-05-16T11:00:00Z"
+}

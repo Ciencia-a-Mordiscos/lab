@@ -1,0 +1,25 @@
+titulo: "382 isoleucinas que sobraban"
+fecha: 2026-05-16
+categoria: biologia
+tags: [biologia, biologia-sintetica, ia-generativa, ribosoma, ecoli, aminoacidos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb5171"
+    titulo: "Toward life with a 19–amino acid alphabet through generative artificial intelligence design"
+    journal: Science
+    autores: "Wang lab et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ecoli_ribosomal_genes.fasta"
+    descripcion: "50 secuencias proteicas wild-type del ribosoma de E. coli (UniProt)"
+    fuente: "github.com/wanglabcumc/Ec19 — data/ecoli_ribosomal_genes.fasta"
+  - nombre: "ribosomal_genes_ile.csv"
+    descripcion: "Tabla derivada: longitud y conteo de Ile/Val por gen ribosomal"
+    fuente: "Derivado del FASTA"
+  - nombre: "aa_composition_global.csv"
+    descripcion: "Composición global de los 20 aminoácidos sobre las 50 proteínas"
+    fuente: "Derivado del FASTA"
+estado: publicado

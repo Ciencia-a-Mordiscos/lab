@@ -398,6 +398,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-05-16-19-aminoacidos-ec19/README
+    title: "382 isoleucinas que sobraban"
+    sections:
+    - file: papers/2026-05-16-19-aminoacidos-ec19/notebook
+      title: Notebook
   - file: papers/2026-05-13-homo-erectus-china-esmalte/README
     title: "Proteínas de esmalte de 6 Homo erectus chinos revelan una variante única"
     sections:
