@@ -1,0 +1,219 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "66.3 por ciento — top-1 accuracy de o1-preview en CPCs NEJM (n=101 casos solapados con AMIE)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "24.3 por ciento — top-1 accuracy de físicos en los mismos 101 casos (n=302 físicos AMIE)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "42.0 puntos porcentuales — gap o1 vs físicos en CPCs (top-1)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "2.73 veces — ratio de precisión o1 vs físicos en CPCs (66.3 / 24.3)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "11.8 puntos porcentuales — gap o1 vs Médico 1 en triage (info mínima) — ER real-world n=76 pacientes",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "2.7 puntos porcentuales — gap o1 vs Médico 1 en admisión (info completa) — mismos pacientes",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "12.0 puntos porcentuales — MAE medio de o1-preview en razonamiento probabilístico (4 escenarios)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "25.12 puntos porcentuales — MAE medio de clínicos en razonamiento probabilístico (4 escenarios)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "0.59 p-value — test pre/post cutoff entrenamiento — rechaza memorización (Tabla S1)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "92.6 por ciento — accuracy condicional Rater 1 en blinding (138/149 cuando se comprometió a clasificar)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "76 pacientes — tamaño muestra del experimento observacional ER",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "o1-preview alcanzó 66.3% top-1 en CPCs NEJM, vs 24.3% de físicos en los 101 casos solapados (n_o1=101, n_físicos=302)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c13",
+      "text": "El gap o1 vs Médico 1 cae de +11.8 pp (triage, info mínima) a +2.7 pp (admisión, info completa) en n=76 pacientes ER reales",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c14",
+      "text": "o1 estima probabilidades clínicas con MAE medio 12.0 vs 25.12 de clínicos (4 escenarios pre-test)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c15",
+      "text": "No hay evidencia de memorización de CPCs: pre/post cutoff de entrenamiento p=0.59 (79.8% vs 73.5%)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c16",
+      "text": "En test de blinding, los médicos prefieren abstenerse de clasificar IA vs humano: Rater 1 marcó 'no puedo decir' en 83.6% (n=910), Rater 2 en 94.4% (n=833). Accuracy condicional cuando se comprometieron: 92.6% (Rater 1) y 55.3% (Rater 2)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c17",
+      "text": "El equipo humano-IA no mejoró al médico solo: GPT-4 solo 92%, médicos+GPT-4 76%, médicos solos 74% (p=0.055)",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c18",
+      "text": "La IA NO es superior en todas las tareas clínicas: cannot-miss diagnoses son no significativas",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Science",
+      "tipo": "paper",
+      "titulo": "Performance of a large language model on the reasoning tasks of a physician",
+      "url": "https://doi.org/10.1126/science.adz4433",
+      "fecha_publicacion": "2026-04-30",
+      "fecha_consulta": "2026-05-17",
+      "rol": "primaria",
+      "articulo_id": null
+    },
+    {
+      "id": "s1a",
+      "medio": "Science (Supplementary Materials)",
+      "tipo": "supplementary",
+      "titulo": "Supplementary Materials for adz4433 (Brodeur et al.) — Tablas S1, S2, S3, S6, S7",
+      "url": "https://www.science.org/doi/suppl/10.1126/science.adz4433/suppl_file/science.adz4433_sm.pdf",
+      "fecha_publicacion": "2026-04-30",
+      "fecha_consulta": "2026-05-17",
+      "rol": "primaria",
+      "articulo_id": null
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "2v/llm-physician-tasks: v1.0.0 — código R de análisis (Brodeur et al.)",
+      "url": "https://doi.org/10.5281/zenodo.18292046",
+      "fecha_publicacion": "2026",
+      "fecha_consulta": "2026-05-17",
+      "rol": "base",
+      "articulo_id": null
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Performance of a large language model on the reasoning tasks of a physician](https://doi.org/10.1126/science.adz4433)  \n*Science, 2026-04-30*\n\n**Supplementary Material**: [Tablas S1, S2, S3, S6, S7 — adz4433_sm.pdf](https://www.science.org/doi/suppl/10.1126/science.adz4433/suppl_file/science.adz4433_sm.pdf)  \n*Mismo DOI que el paper; los CSVs en `datos/` se transcribieron de aquí*\n\n**Dataset canónico**: [2v/llm-physician-tasks: v1.0.0 — código R de análisis (Brodeur et al.)](https://doi.org/10.5281/zenodo.18292046)  \n*Código R original del análisis. Datos a nivel de sujeto no públicos por PHI*\n\n*18 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

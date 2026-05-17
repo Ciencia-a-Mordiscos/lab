@@ -1,0 +1,7 @@
+experimento,tarea,metrica,llm_pct,humano_pct,gap_pp,sig
+grey_matters_mgmt,manejo clínico,puntaje %,89,34,55,si
+cpc_top1,diagnóstico top-1 en CPCs NEJM,precisión %,66.3,24.3,42,si
+landmark_dx,diagnóstico Landmark cases,puntaje %,92,74,18,p=0.055 borderline
+er_triage,diagnóstico con info mínima,precisión %,67.1,52.65,14.45,si
+er_admision,diagnóstico con info completa,precisión %,81.6,74.3,7.3,no_sig vs MD1
+cannot_miss,diagnósticos críticos no-perder,puntaje %,,,,no_sig

@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ¿Está la IA superando a los médicos en razonamiento clínico?
+
+**Tecnología** · *Science* · Brodeur et al. (2026) pusieron al modelo o1-preview de OpenAI a competir con cientos de médicos en **seis tareas de razonamiento clínico**, desde los casos clinico-patológicos del NEJM hasta diagnóstico en urgencias reales. El titular: la IA ganó casi todas. En CPCs del NEJM, **o1 alcanzó 66.3% top-1 vs 24.3% de los médicos en los 101 casos solapados** (gap 42 pp, ratio 2.73×). Pero el gap se cierra cuando los médicos tienen información completa: en urgencias reales con n=76 pacientes, la ventaja sobre el médico de planta cae de **+11.8 pp en triage a +2.7 pp en admisión** (no significativo). Y en el experimento *Landmark*, el equipo humano-IA (médicos+GPT-4 = 76%) no fue mejor que el médico solo (74%, p=0.055) — la dyad asistida no mejoró al clínico. ⚠️ Las rúbricas aditivas premian enumeración (Grey Matters: gap 55 pp, en parte artefacto de medición). ⚠️ El test de blinding es de 3 opciones (humano/IA/no puedo decir), no binario: los raters mayoritariamente se abstuvieron (83.6% y 94.4%); al menos uno discriminaba muy bien cuando se atrevía (92.6%). ⚠️ El propio paper pide *"urgent need for prospective trials"*.
+
+[Ver notebook](papers/2026-04-30-llm-razonamiento-medico/notebook) · [Leer más](papers/2026-04-30-llm-razonamiento-medico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-30-llm-razonamiento-medico/notebook.ipynb)
+
+---
+
 ### 382 isoleucinas que sobraban
 
 **Biología** · *Science* · El Wang Lab (Columbia, 2026) decidió probar si una *E. coli* podía vivir con **19 aminoácidos en vez de los 20 canónicos** — quitándole la isoleucina (Ile). Para empezar, rediseñaron el ribosoma: usando modelos generativos de IA (basados en lenguaje de proteínas y estructura) reemplazaron sistemáticamente los **382 residuos de Ile** distribuidos en sus **50 proteínas**, combinaron 21 subunidades rediseñadas en un locus genómico nativo y produjeron una célula **viable y evolutivamente estable**. Lo que abrimos aquí: el FASTA público con las 50 secuencias wild-type. Recuento desde los datos coincide **exactamente** con el headline del paper (382 Ile). La distribución es asimétrica: mediana **7 Ile/proteína**, pero **rpsA** sola tiene 30 (la más larga, 557 aa). Las **10 proteínas con más Ile concentran el 37 %** del rediseño. Ile es el **8º aminoácido más usado** en el ribosoma (5,61 %) — ni el más común ni el más raro. ⚠️ Matiz crítico: el paper rediseña SOLO el ribosoma — un organismo completo de 19 aminoácidos queda como *roadmap*. ⚠️ El FASTA público trae solo las secuencias wild-type; las variantes rediseñadas se validan dentro del paper.

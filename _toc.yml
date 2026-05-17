@@ -566,6 +566,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-04-30-llm-razonamiento-medico/README
+    title: "¿Está la IA superando a los médicos en razonamiento clínico?"
+    sections:
+    - file: papers/2026-04-30-llm-razonamiento-medico/notebook
+      title: Notebook
   - file: papers/2026-05-14-zeolitas-agua-aire/README
     title: "Cómo una membrana flexible saca agua del aire 5 veces más rápido"
     sections:

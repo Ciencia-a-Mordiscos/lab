@@ -1,0 +1,34 @@
+titulo: "¿Está la IA superando a los médicos en razonamiento clínico?"
+fecha: 2026-04-30
+categoria: tecnologia
+tags: [inteligencia-artificial, medicina, llm, razonamiento-clinico, gpt-4, o1-preview]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adz4433"
+    titulo: "Performance of a large language model on the reasoning tasks of a physician"
+    journal: Science
+    autores: "Brodeur et al."
+    verificado: true
+reproducible: true
+datos_publicos: parcial
+datasets:
+  - nombre: "experimentos_headlines.csv"
+    descripcion: "Porcentajes y gaps de los 6 experimentos"
+    fuente: "Tablas S2, S3 y texto del paper"
+  - nombre: "cpc_accuracy.csv"
+    descripcion: "Top-1 y top-10 accuracy en CPCs NEJM"
+    fuente: "Tabla S2"
+  - nombre: "er_touchpoints.csv"
+    descripcion: "Precisión en triage vs admisión (n=76 pacientes ER)"
+    fuente: "Figura 5 del paper"
+  - nombre: "prob_reasoning_pretest.csv"
+    descripcion: "Error absoluto medio en razonamiento probabilístico pre-test"
+    fuente: "Tabla S6"
+  - nombre: "cutoff_sensitivity.csv"
+    descripcion: "Test pre/post cutoff de entrenamiento del modelo"
+    fuente: "Tabla S1"
+  - nombre: "blinding_raters.csv"
+    descripcion: "Test de cegado — médicos clasificando respuestas IA vs humano"
+    fuente: "Tabla S7"
+estado: publicado

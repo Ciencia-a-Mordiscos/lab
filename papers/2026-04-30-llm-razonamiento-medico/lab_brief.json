@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "paper_id": 2504,
+  "doi": "10.1126/science.adz4433",
+  "paper_type": "experimental",
+  "study_design": "mixed (5 experimentos controlados con baseline de médicos + 1 observacional ER real-world)",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "o1-preview alcanzó 66.3% top-1 en CPCs NEJM, vs 24.3% de físicos en los 101 casos solapados (n_o1=101, n_físicos=302)",
+      "supported": "yes",
+      "detail": "Tabla S2. Gap = 42 pp, ratio 2.73×. Cálculo desde valores agregados; sin acceso a scores individuales para Cohen's d",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperformed",
+      "effect_size": {"measure": "gap_pp", "value": 42.0, "interpretation": "muy grande en términos absolutos"}
+    },
+    {
+      "claim": "El gap o1 vs Médico 1 cae de +11.8 pp (triage, info mínima) a +2.7 pp (admisión, info completa) en n=76 pacientes ER reales",
+      "supported": "yes",
+      "detail": "Figura 5 del paper. Diseño pareado — mismos pacientes, mismos médicos, dos momentos. Gap de admisión no significativo vs Médico 1",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {"measure": "shrinkage_pp", "value": 9.1, "interpretation": "el gap se reduce 9.1 puntos al añadir información"}
+    },
+    {
+      "claim": "o1 estima probabilidades clínicas con MAE medio 12.0 vs 25.12 de clínicos (4 escenarios pre-test)",
+      "supported": "yes",
+      "detail": "Tabla S6. Ratio clínicos/o1 = 2.09×. Datos agregados por condición, sin SD individual",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperformed",
+      "effect_size": {"measure": "ratio_mae", "value": 2.09, "interpretation": "clínicos doblan el error del modelo"}
+    },
+    {
+      "claim": "No hay evidencia de memorización de CPCs: pre/post cutoff de entrenamiento p=0.59 (79.8% vs 73.5%)",
+      "supported": "yes",
+      "detail": "Tabla S1. Diferencia 6.3 pp no significativa (IC95% overlap)",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {"measure": "p_value", "value": 0.59, "interpretation": "no rechaza H0"}
+    },
+    {
+      "claim": "En test de blinding, los médicos prefieren abstenerse de clasificar IA vs humano: Rater 1 marcó 'no puedo decir' en 83.6% (n=910), Rater 2 en 94.4% (n=833). Accuracy condicional cuando se comprometieron: 92.6% (Rater 1) y 55.3% (Rater 2)",
+      "supported": "yes",
+      "detail": "Tabla S7. La heterogeneidad entre raters es alta. El paper presenta el 50% como azar (forced-choice binario), pero el setup real tiene 3 opciones (humano/IA/no puedo decir). Lectura honesta: los raters mayoritariamente declararon no poder distinguir, pero al menos uno discriminaba muy bien cuando se atrevía",
+      "certainty_tier": "T2",
+      "abstract_verb": "report",
+      "effect_size": {"measure": "abstencion_pct", "value": 89.0, "interpretation": "abstención dominante (promedio raters)"}
+    },
+    {
+      "claim": "El equipo humano-IA no mejoró al médico solo: GPT-4 solo 92%, médicos+GPT-4 76%, médicos solos 74% (p=0.055)",
+      "supported": "partial",
+      "detail": "Experimento Landmark. p=0.055 es borderline — justo por encima del α=0.05 estándar. El dato sugiere fuertemente que la dyad no mejora, pero no rechaza H0 con confianza estricta",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggests",
+      "effect_size": {"measure": "p_value", "value": 0.055, "interpretation": "borderline"}
+    },
+    {
+      "claim": "La IA NO es superior en todas las tareas clínicas: cannot-miss diagnoses son no significativas",
+      "supported": "partial",
+      "detail": "El paper reporta diferencia no significativa en cannot-miss. Puntajes específicos no transcritos en las tablas Supplementary derivadas — claim basada solo en marca de significancia",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggests",
+      "effect_size": {"measure": "p_value", "value": null, "interpretation": "no significativo (sin valor exacto disponible)"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 66.3,
+      "unit": "por ciento",
+      "context": "top-1 accuracy de o1-preview en CPCs NEJM (n=101 casos solapados con AMIE)",
+      "source": "Tabla S2",
+      "verified": true,
+      "cross_check": {"paper_reported": "66.3%", "our_calculation": "66.3%", "discrepancy_pct": 0.0, "reason": "valor directo del CSV"}
+    },
+    {
+      "value": 24.3,
+      "unit": "por ciento",
+      "context": "top-1 accuracy de físicos en los mismos 101 casos (n=302 físicos AMIE)",
+      "source": "Tabla S2",
+      "verified": true
+    },
+    {
+      "value": 42.0,
+      "unit": "puntos porcentuales",
+      "context": "gap o1 vs físicos en CPCs (top-1)",
+      "source": "Tabla S2 — diferencia computada",
+      "verified": true
+    },
+    {
+      "value": 2.73,
+      "unit": "veces",
+      "context": "ratio de precisión o1 vs físicos en CPCs (66.3 / 24.3)",
+      "source": "computado",
+      "verified": true
+    },
+    {
+      "value": 11.8,
+      "unit": "puntos porcentuales",
+      "context": "gap o1 vs Médico 1 en triage (info mínima) — ER real-world n=76 pacientes",
+      "source": "Figura 5 / texto del paper",
+      "verified": true
+    },
+    {
+      "value": 2.7,
+      "unit": "puntos porcentuales",
+      "context": "gap o1 vs Médico 1 en admisión (info completa) — mismos pacientes",
+      "source": "Figura 5 / texto del paper",
+      "verified": true
+    },
+    {
+      "value": 12.0,
+      "unit": "puntos porcentuales",
+      "context": "MAE medio de o1-preview en razonamiento probabilístico (4 escenarios)",
+      "source": "Tabla S6 — promedio computado",
+      "verified": true
+    },
+    {
+      "value": 25.12,
+      "unit": "puntos porcentuales",
+      "context": "MAE medio de clínicos en razonamiento probabilístico (4 escenarios)",
+      "source": "Tabla S6 — promedio computado",
+      "verified": true
+    },
+    {
+      "value": 0.59,
+      "unit": "p-value",
+      "context": "test pre/post cutoff entrenamiento — rechaza memorización (Tabla S1)",
+      "source": "Tabla S1",
+      "verified": true
+    },
+    {
+      "value": 92.6,
+      "unit": "por ciento",
+      "context": "accuracy condicional Rater 1 en blinding (138/149 cuando se comprometió a clasificar)",
+      "source": "computado desde Tabla S7",
+      "verified": true,
+      "cross_check": {"paper_reported": "no reportado (paper enmarca contra 50%)", "our_calculation": "92.6%", "discrepancy_pct": null, "reason": "re-interpretación: el paper compara contra 50% asumiendo binario; setup real tiene 3 opciones"}
+    },
+    {
+      "value": 76,
+      "unit": "pacientes",
+      "context": "tamaño muestra del experimento observacional ER",
+      "source": "paper, Figura 5",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "report", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "outperformed", "tier": "T1", "cam_attenuator": "afirmación directa (en estos benchmarks)"},
+    {"abstract_verb": "suggests", "tier": "T2", "cam_attenuator": "los datos sugieren / todo apunta a"},
+    {"abstract_verb": "have eclipsed most benchmarks", "tier": "T2", "cam_attenuator": "matizar — 'most' ≠ 'all'"},
+    {"abstract_verb": "motivating the urgent need for prospective trials", "tier": "T2", "cam_attenuator": "incluir como limitación explícita"}
+  ],
+  "narrative_hooks": [
+    "89% vs 34%. ¿Está la IA superando a los médicos?",
+    "Cuanto más sabe el médico, menos ventaja tiene la IA: el gap cae de 12 puntos en triage a 2.7 en admisión",
+    "El equipo humano-IA no mejoró al médico solo. La asistencia con GPT-4 fue irrelevante",
+    "El truco está en la rúbrica: cuando premia enumeración, la IA enumera generosamente"
+  ],
+  "limitations": [
+    "Las rúbricas aditivas tipo Grey Matters premian enumeración sin penalización por items irrelevantes — parte del gap de 55 pp viene de cómo se mide",
+    "Controles históricos heterogéneos: benchmarks publicados entre 2021-2025 vs runs Brodeur Sept 2024 - Aug 2025; era effects y scorer drift no descartables",
+    "Datos brutos no públicos: PHI de pacientes ER + scores individuales no compartidos; el repo Zenodo solo tiene código R",
+    "n=76 en el experimento ER limpio (poder estadístico modesto)",
+    "El test de blinding tiene 3 opciones (humano/IA/no puedo decir); el 50% como azar binario es engañoso — la lectura correcta es abstención dominante",
+    "El propio paper pide 'urgent need for prospective trials'"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados (5 yes, 2 partial), múltiples números clave, múltiples matices necesarios"
+  },
+  "notebook_slug": "2026-04-30-llm-razonamiento-medico",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-30-llm-razonamiento-medico/notebook.html",
+  "generated_at": "2026-05-17T10:55:00Z"
+}
