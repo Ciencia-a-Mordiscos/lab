@@ -566,6 +566,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-14-perovskita-ia-multiagente-100c/README
+    title: "Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta"
+    sections:
+    - file: papers/2026-05-14-perovskita-ia-multiagente-100c/notebook
+      title: Notebook
   - file: papers/2026-04-30-llm-razonamiento-medico/README
     title: "¿Está la IA superando a los médicos en razonamiento clínico?"
     sections:

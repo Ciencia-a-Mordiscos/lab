@@ -1,0 +1,213 @@
+{
+  "version": "1.0",
+  "paper_id": 2498,
+  "doi": "10.1126/science.aef1620",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a (materials science)",
+  "verification_table": [
+    {
+      "claim": "Una perovskita con 8% de cesio (FA0.92Cs0.08PbI3) retiene 97% del rendimiento inicial tras 1000 horas de operación continua a 100°C",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Curva temporal directa del Zenodo (estabilidad_pce_100c.csv, 101 puntos). Valor final calculado: 97,14%; el paper reporta 97% (match <1%).",
+      "certainty_tier": "T1",
+      "abstract_verb": "retain",
+      "effect_size": {
+        "measure": "retencion_pct",
+        "value": 97.14,
+        "interpretation": "rendimiento casi intacto"
+      }
+    },
+    {
+      "claim": "Cs8 (8% cesio) tiene aproximadamente 74% menos defectos (densidad de trampas) que la composición sin cesio (Cs0)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "n=3 réplicas por composición. Cs0: 8,76 ± 0,68; Cs8: 2,29 ± 0,22 (×10^10 cm^-3). Cohen's d ≈ 12,8 — efecto inusualmente grande, consistente entre réplicas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 12.8,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "Una IA de cuatro agentes guió el diseño: cada agente trabajó una pieza distinta (absorbente, capa de transporte, interfaz)",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Reportado directamente en el abstract ('four-agent collaborative AI'). No verificable desde los datos públicos del Zenodo (los modelos son del paper).",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    },
+    {
+      "claim": "La predicción del agente AI sobre composición óptima cayó cerca de Cs ≈ 8% y la validación experimental quedó dentro del intervalo de confianza 80% del modelo",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Dataset ai_prediccion_cs.csv: 13 puntos predichos vs observados. Mínimo F4 predicho cae cerca de cs_ratio=0,08; puntos experimentales dentro de ci_80_lower/upper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "effect_size": null
+    },
+    {
+      "claim": "El régimen 100°C × 1000 h estaba poco explorado: de 51 estudios previos sobre estabilidad de perovskita, sólo 1 testeó a ≥99°C, con 60% de retención",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "literatura_estabilidad.csv: 51 entradas, 44 DOIs únicos. Solo 1 a ≥99°C → 100°C/60%. Diferencia vs Cs8 del paper: 37 puntos porcentuales.",
+      "certainty_tier": "T2",
+      "abstract_verb": "sought after",
+      "effect_size": {
+        "measure": "diferencia_pp",
+        "value": 37,
+        "interpretation": "ventaja sustantiva"
+      }
+    },
+    {
+      "claim": "Cs4 (4% cesio) y Cs12 (12% cesio) caen mucho más rápido que Cs8 a 100°C; márgenes finales de 50,9 pp (vs Cs4) y 73,9 pp (vs Cs12)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Curva temporal: Cs4 final 46,26%, Cs8 97,14%, Cs12 23,20%. Cs4 cruza T80 a 300h, Cs12 a 140h; Cs8 nunca cruza T80 en 1000h.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "diferencia_pp",
+        "value": 50.9,
+        "interpretation": "margen muy grande"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 97,
+      "unit": "por ciento",
+      "context": "retención del rendimiento inicial tras 1000 horas a 100°C (composición Cs8)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "97%",
+        "our_calculation": "97,14%",
+        "discrepancy_pct": 0.1,
+        "reason": "valor final del CSV vs valor del paper — match casi exacto"
+      }
+    },
+    {
+      "value": 1000,
+      "unit": "horas",
+      "context": "duración del test de operación continua a 100°C",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "°C",
+      "context": "temperatura del régimen de prueba (poco explorado en literatura)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "por ciento",
+      "context": "proporción de cesio en la composición ganadora (FA0.92Cs0.08PbI3)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 74,
+      "unit": "por ciento",
+      "context": "reducción de densidad de trampas en Cs8 vs Cs0 (sin cesio)",
+      "source": "computed_from_csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~74%",
+        "our_calculation": "73,85%",
+        "discrepancy_pct": 0.2,
+        "reason": "match casi exacto"
+      }
+    },
+    {
+      "value": 51,
+      "unit": "estudios",
+      "context": "literatura previa sobre estabilidad de perovskita revisada (44 DOIs únicos)",
+      "source": "computed_from_csv",
+      "verified": true
+    },
+    {
+      "value": 49,
+      "unit": "estudios",
+      "context": "de esos 51, los que testearon a ≤85°C (96% del total)",
+      "source": "computed_from_csv",
+      "verified": true
+    },
+    {
+      "value": 37,
+      "unit": "puntos porcentuales",
+      "context": "diferencia entre Cs8 (97% a 100°C) y la mejor referencia previa a ≥99°C (60%)",
+      "source": "computed_from_csv",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "agentes",
+      "context": "agentes de IA colaborativos en el framework usado por el paper",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 50.9,
+      "unit": "puntos porcentuales",
+      "context": "margen final de Cs8 vs Cs4 a 1000 horas",
+      "source": "computed_from_csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "identified",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "retain",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "sought after",
+      "tier": "T2",
+      "cam_attenuator": "frase contextual, no claim"
+    }
+  ],
+  "narrative_hooks": [
+    "100°C durante 1000 horas. Sin perder el 3%.",
+    "Una IA de cuatro agentes encontró la composición. Apenas 8% de cesio.",
+    "De 51 estudios previos, sólo uno había llegado a 100°C — y aguantó 60%. Este aguanta 97%.",
+    "El truco no es tener más cesio. Es tener exactamente el justo."
+  ],
+  "limitations": [
+    "El test se cortó a 1000 horas — qué pasa más allá, sin verificar",
+    "Las curvas de la figura clave son single-device (sin error bars inter-dispositivo en esa fig específica)",
+    "n=3 réplicas para trap density: muestra pequeña, suficiente solo porque las magnitudes Cs0 vs Cs8 son muy distintas",
+    "La molécula de capa transportadora (MeO-DPPACz) fue sintetizada ad hoc — costo y escalabilidad no reportados",
+    "Test bajo ISOS-L-2 (iluminación + temperatura continuas), no bajo ciclos térmicos sol-noche reales",
+    "Sin replicación independiente por otro laboratorio aún"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims yes (5 supported_by_data) + 10 números clave — script denso"
+  },
+  "notebook_slug": "2026-05-14-perovskita-ia-multiagente-100c",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-14-perovskita-ia-multiagente-100c/notebook.html",
+  "generated_at": "2026-05-17T16:24:10Z"
+}

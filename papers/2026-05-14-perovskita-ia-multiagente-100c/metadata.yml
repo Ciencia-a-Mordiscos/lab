@@ -1,0 +1,33 @@
+titulo: "Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta"
+fecha: 2026-05-14
+categoria: tecnologia
+tags:
+  - perovskita
+  - energia-solar
+  - inteligencia-artificial
+  - materiales
+  - estabilidad
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aef1620"
+    titulo: "AI-guided design of efficient perovskite solar cells operationally stable at 100°C"
+    journal: Science
+    autores: "Lin et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "estabilidad_pce_100c.csv"
+    descripcion: "Curva temporal de retención de PCE a 100°C para Cs4/Cs8/Cs12 (Fig. 4D)"
+    fuente: "Zenodo zenodo.org/records/18739088"
+  - nombre: "trap_density.csv"
+    descripcion: "Densidad de trampas por composición (Cs0/Cs4/Cs8/Cs12), 3 réplicas (Fig. 2D)"
+    fuente: "Zenodo zenodo.org/records/18739088"
+  - nombre: "ai_prediccion_cs.csv"
+    descripcion: "Predicción AI (F4) vs validación experimental + CI 80% (Fig. 2A)"
+    fuente: "Zenodo zenodo.org/records/18739088"
+  - nombre: "literatura_estabilidad.csv"
+    descripcion: "51 estudios previos: temperatura, tiempo, retención y DOI (Supplementary)"
+    fuente: "Supplementary Materials"
+estado: publicado
