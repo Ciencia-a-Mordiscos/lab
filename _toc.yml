@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-15-antartida-feedbacks-deshielo/README
+    title: "Dos tercios del deshielo extra de la Antártida vienen del propio deshielo"
+    sections:
+    - file: papers/2026-05-15-antartida-feedbacks-deshielo/notebook
+      title: Notebook
   - file: papers/2026-05-15-parches-bosque-productividad/README
     title: "Parches grandes de bosque capturan más carbono por hectárea"
     sections:

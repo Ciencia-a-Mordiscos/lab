@@ -1,0 +1,25 @@
+titulo: "Dos tercios del deshielo extra de la Antártida vienen del propio deshielo"
+fecha: 2026-05-15
+categoria: ecologia
+tags: [antartida, deshielo, plataformas-hielo, feedback-climatico, modelado-oceanico, ssp5-85, nivel-del-mar]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01975-6"
+    titulo: "Antarctic ice-shelf basal melt shaped by competing feedbacks"
+    journal: Nature Geoscience
+    autores: "Youngs et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "melt_change_por_sector.csv"
+    descripcion: "Cambio en derretimiento basal por sector (Gt/año), descompuesto en forced response y melt feedback"
+    fuente: "Zenodo 17992455 — outputs de BarChart.ipynb del paper"
+  - nombre: "temperatura_cambio_por_sector.csv"
+    descripcion: "Cambio de temperatura del agua continental (°C) por sector"
+    fuente: "Zenodo 17992455"
+  - nombre: "salinidad_cambio_por_sector.csv"
+    descripcion: "Cambio de salinidad del agua continental (g/kg) por sector"
+    fuente: "Zenodo 17992455"
+estado: publicado

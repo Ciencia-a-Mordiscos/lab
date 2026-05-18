@@ -1,0 +1,168 @@
+{
+  "version": "1.0",
+  "paper_id": 2502,
+  "doi": "10.1038/s41561-026-01975-6",
+  "paper_type": "modelling",
+  "study_design": "numerical_simulation",
+  "species": "n/a (Antarctic ice shelves)",
+  "verification_table": [
+    {
+      "claim": "Dos tercios del aumento total proviene del feedback del deshielo",
+      "supported": "yes",
+      "detail": "Suma circumpolar de 10 sectores: 531,06 / 804,61 = 66,0%. Coincide con 'two-thirds' del abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "accounts for",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El feedback es positivo en cavidades densas (Weddell, Amery, Maud, Wilkes)",
+      "supported": "yes",
+      "detail": "Weddell +530, Amery +245, Maud +179, Wilkes +60 Gt/año.",
+      "certainty_tier": "T1",
+      "abstract_verb": "creates a feedback loop",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El feedback es negativo aguas abajo (Bellingshausen, Amundsen, Ross, Adelie, Antarctic Peninsula, Enderby)",
+      "supported": "yes",
+      "detail": "Esos 6 sectores tienen feedback negativo, rango -10 a -116 Gt/año.",
+      "certainty_tier": "T1",
+      "abstract_verb": "establishing",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Weddell concentra la mayor parte del aumento total",
+      "supported": "yes",
+      "detail": "698 Gt/año, ~87% del total circumpolar (804,6 Gt/año).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El mecanismo del feedback es: agua salina aligerada por calentamiento → entrada de agua cálida bajo la plataforma → más deshielo",
+      "supported": "partial",
+      "detail": "Interpretación física que el paper propone para la diferencia [SSP5 − SSP5-fundido-fijo]. Los datos agregados soportan la consecuencia (más deshielo) pero no la dinámica de mezcla, que vive dentro del modelo.",
+      "certainty_tier": "T2",
+      "abstract_verb": "creates",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Esto va a pasar en la Antártida",
+      "supported": "no",
+      "detail": "Es una simulación con un solo modelo (MITgcm) bajo un solo escenario (SSP5-8.5). El paper habla de 'el modelo predice', no de observaciones.",
+      "certainty_tier": "T4",
+      "abstract_verb": "may / could",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 66.0,
+      "unit": "%",
+      "context": "fracción del aumento total del deshielo basal antártico explicada por el feedback del propio deshielo bajo SSP5-8.5",
+      "source": "computed_from_zenodo",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "two-thirds",
+        "our_calculation": "66.0%",
+        "discrepancy_pct": 1.0,
+        "reason": "two-thirds nominal es 66,67%; suma circumpolar real 531,06/804,61 = 66,0%"
+      }
+    },
+    {
+      "value": 531.06,
+      "unit": "Gt/año",
+      "context": "aporte total del feedback del deshielo al aumento de derretimiento sumado sobre 10 sectores antárticos",
+      "source": "computed_from_zenodo",
+      "verified": true
+    },
+    {
+      "value": 273.56,
+      "unit": "Gt/año",
+      "context": "aporte de la respuesta forzada (calentamiento directo) al aumento de derretimiento sumado sobre 10 sectores",
+      "source": "computed_from_zenodo",
+      "verified": true
+    },
+    {
+      "value": 804.61,
+      "unit": "Gt/año",
+      "context": "aumento total circumpolar del derretimiento basal de plataformas antárticas bajo SSP5-8.5",
+      "source": "computed_from_zenodo",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "sectores",
+      "context": "sectores antárticos donde el feedback amplifica el deshielo (Weddell, Amery, Maud, Wilkes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "sectores",
+      "context": "sectores antárticos donde el feedback reduce el deshielo (Ross, Bellingshausen, Adelie, Antarctic Peninsula, Amundsen, Enderby)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 698.5,
+      "unit": "Gt/año",
+      "context": "cambio total en derretimiento del sector Weddell — sector estructuralmente dominante",
+      "source": "computed_from_zenodo",
+      "verified": true
+    },
+    {
+      "value": 86.81,
+      "unit": "%",
+      "context": "fracción del aumento circumpolar concentrada en Weddell (698,5 / 804,6)",
+      "source": "computed_from_zenodo",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "el modelo muestra / en estas simulaciones"
+    },
+    {
+      "abstract_verb": "accounts for",
+      "tier": "T1",
+      "cam_attenuator": "verbo cuantitativo verificable — usar valor"
+    },
+    {
+      "abstract_verb": "establishing",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa atribuida al modelo"
+    },
+    {
+      "abstract_verb": "may / could",
+      "tier": "T3",
+      "cam_attenuator": "atenuar: 'podría' o 'el modelo sugiere'"
+    },
+    {
+      "design_warning": "modelling",
+      "rule": "Enmarcar conclusiones como 'el modelo predice' o 'en estas simulaciones', NO 'esto ocurre en la Antártida'"
+    }
+  ],
+  "narrative_hooks": [
+    "Dos tercios del deshielo extra de la Antártida vienen del propio deshielo",
+    "Cuatro sectores amplifican el derretimiento, seis lo protegen — la geografía decide",
+    "El sector Weddell aporta 87% del aumento total él solo",
+    "En Amery el calentamiento BAJA el deshielo, pero el feedback lo más que compensa"
+  ],
+  "limitations": [
+    "Un solo modelo: MITgcm con grilla llc270 (~1/3°, ~30 km). Otros modelos pueden dar magnitudes distintas.",
+    "Un solo forzamiento: GFDL-CM4 bajo SSP5-8.5 (escenario más extremo del IPCC).",
+    "Ventana temporal: promedio de los últimos 120 meses de simulación, no equilibrio asintótico.",
+    "Sectores son partición geográfica convencional del modelo, no fronteras físicas observables."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes, 8 números clave"
+  },
+  "notebook_slug": "2026-05-15-antartida-feedbacks-deshielo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-15-antartida-feedbacks-deshielo/notebook.html",
+  "generated_at": "2026-05-18T16:06:51.036771Z"
+}
