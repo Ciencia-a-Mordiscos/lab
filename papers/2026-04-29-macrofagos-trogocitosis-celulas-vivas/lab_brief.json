@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "paper_id": 2416,
+  "doi": "10.1038/s41586-026-10435-5",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mouse",
+  "verification_table": [
+    {
+      "claim": "Los macrófagos alveolares (AM) son el tipo celular del pulmón que más material de células vivas captura",
+      "supported": "yes",
+      "detail": "media = 62,7 % ± 2,5 SEM frente al siguiente más alto (IM, 33,7 % ± 3,0 SEM); n = 5 ratones, Mann-Whitney U p = 0,008",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "cohens_d", "value": 4.7, "interpretation": "muy grande"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "El uptake en macrófagos alveolares supera ~100× al de los monocitos clásicos",
+      "supported": "yes",
+      "detail": "62,7 % vs 0,55 % en cMo (ratio ≈ 114, Mann-Whitney U p = 0,008, Cohen's d ≈ 15; n = 5 ratones)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "cohens_d", "value": 15.45, "interpretation": "enorme"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las vesículas que se arrancan son sub-micrométricas",
+      "supported": "yes",
+      "detail": "mediana = 0,09 µm², máximo = 0,55 µm², n = 77 vesículas de 23 células. Distribución asimétrica (media 0,15 µm² es ~60 % mayor que la mediana)",
+      "certainty_tier": "T1",
+      "abstract_verb": "leads to",
+      "effect_size": {"measure": "diametro_estimado_um", "value": 0.34, "interpretation": "sub-micrométrico"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "El muestreo requiere contacto célula-célula",
+      "supported": "yes",
+      "detail": "Separar las poblaciones con transwell reduce el uptake un 77 % (n = 3 réplicas pareadas, paired t-test p ≈ 0,002 — el paper reporta P = 0,0018)",
+      "certainty_tier": "T1",
+      "abstract_verb": "requires",
+      "effect_size": {"measure": "reduccion_pct", "value": 77.2, "interpretation": "casi total"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "El proceso es no destructivo en la célula muestreada",
+      "supported": "partial",
+      "detail": "Lo soporta el paper con imaging y caspase assays — el notebook lo presenta como hallazgo sin re-verificarlo (esos datos no están en el Source Data MOESM7/8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 62.7,
+      "unit": "por ciento",
+      "context": "Material de células vivas capturado por macrófagos alveolares en pulmón sano (Fig 1c)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.55,
+      "unit": "por ciento",
+      "context": "Material de células vivas capturado por monocitos clásicos — el menos activo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 114,
+      "unit": "veces",
+      "context": "Ratio AM/cMo en uptake de células vivas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.09,
+      "unit": "micrómetros cuadrados",
+      "context": "Mediana del área de las vesículas arrancadas (n=77)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.34,
+      "unit": "micrómetros",
+      "context": "Diámetro estimado de la vesícula típica — sub-micrométrico",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 77,
+      "unit": "por ciento",
+      "context": "Reducción del muestreo cuando los macrófagos no pueden tocar a la célula objetivo (transwell)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "ratones",
+      "context": "Tamaño muestral de la Fig 1c (uptake por tipo celular)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "réplicas biológicas",
+      "context": "Tamaño muestral del experimento direct vs transwell (Fig 2e)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "reveal", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "results in / leads to", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "significantly reduced", "tier": "T1", "cam_attenuator": "redujo significativamente"}
+  ],
+  "narrative_hooks": [
+    "62,7 %: la fracción de células de pulmón etiquetadas que terminan dentro de un solo tipo de macrófago sin que la célula original muera",
+    "Los macrófagos no se comen las células enteras: les arrancan vesículas sub-micrométricas y siguen su camino",
+    "La diferencia entre el tipo celular más activo y el menos activo es de más de 100×, con n = 5 ratones y SEMs pequeños"
+  ],
+  "limitations": [
+    "n pequeños: Fig 1c son 5 ratones; Fig 2e son 3 réplicas biológicas. Los efectos son enormes (~100×, 77%) pero los intervalos de confianza son amplios",
+    "Las 77 vesículas vienen de solo 23 células — el paper reporta la media simple sin modelar la dependencia intra-célula",
+    "Todo el sistema está montado en ratón; el paper no aporta datos humanos directos",
+    "Para n = 3 réplicas (transwell), un Cohen's d puntual no es la métrica honesta — el paired t-test p = 0,0018 sí lo es"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims con verification_table (4 ✅ + 1 ⚠️) + 8 key_numbers — script denso con varios datos cuantitativos clave"
+  },
+  "notebook_slug": "2026-04-29-macrofagos-trogocitosis-celulas-vivas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook.html",
+  "generated_at": "2026-05-18T11:30:00Z"
+}

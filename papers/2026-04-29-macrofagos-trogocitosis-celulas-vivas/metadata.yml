@@ -1,0 +1,25 @@
+titulo: "Macrófagos mordisqueando células vivas"
+fecha: 2026-04-29
+categoria: medicina
+tags: [inmunologia, macrofagos, trogocitosis, antigenos, pulmon, citometria]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10435-5"
+    titulo: "Submicrometre sampling of living cells by macrophages"
+    journal: Nature
+    autores: "Fan, Thota, Serwas et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "uptake_pulmon.csv"
+    descripcion: "% de cada tipo de célula inmune del pulmón con material ZsGreen — n=5 ratones × 7 tipos celulares"
+    fuente: "Source Data MOESM7 (Fig 1c)"
+  - nombre: "tamano_vesiculas.csv"
+    descripcion: "Área (µm²) de 77 vesículas medidas dentro de macrófagos, procedentes de 23 células fuente"
+    fuente: "Source Data MOESM8 (Fig 2c)"
+  - nombre: "contacto_celula.csv"
+    descripcion: "Uptake normalizado direct vs transwell — 3 réplicas biológicas pareadas (in vitro BMDM)"
+    fuente: "Source Data MOESM8 (Fig 2e)"
+estado: publicado

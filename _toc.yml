@@ -267,6 +267,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/README
+    title: "Macrófagos mordisqueando células vivas"
+    sections:
+    - file: papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook
+      title: Notebook
   - file: papers/2026-04-29-postprandial-lipid-t-cell-immunity/README
     title: "Comer antes de un examen inmunológico cambia el resultado"
     sections:
