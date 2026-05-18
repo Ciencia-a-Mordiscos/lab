@@ -1,0 +1,238 @@
+{
+  "version": "1.0",
+  "paper_id": 2496,
+  "doi": "10.1126/science.aed4488",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a (materiales)",
+  "verification_table": [
+    {
+      "claim": "Procesamiento a 150 °C es viable para la tinta Cu/catecol",
+      "supported": "yes",
+      "detail": "Table S1: la curva muestra 12,8 µΩ·cm a 150 °C, lejos del óxido de cobre.",
+      "certainty_tier": "T1",
+      "abstract_verb": "enable",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Resistividad <10 µΩ·cm a 175 °C",
+      "supported": "yes",
+      "detail": "Table S1: 8,95 µΩ·cm a 175 °C — 5,3× el cobre macizo puro.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Mejora 4× vs literatura a igual temperatura (≤150 °C)",
+      "supported": "yes",
+      "detail": "Table S2: 3 métodos previos operan a ≤150 °C, mediana 52 µΩ·cm; nuevo método 12,8 — ratio 4,1×.",
+      "certainty_tier": "T1",
+      "abstract_verb": "resolves",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Catecol/dopamina es el reductor clave por afinidad DFT",
+      "supported": "partial",
+      "detail": "Table S3: E_int(DA) = -0,757 eV vs CA (cítrico) -0,055 eV — 13,8× más fuerte. AMP es aún más fuerte (-0,856 eV) pero solo coordina, no reduce.",
+      "certainty_tier": "T1",
+      "abstract_verb": "mediate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Partículas Cu(0) con superficie pasivada (coordinación reducida vs foil)",
+      "supported": "yes",
+      "detail": "Table S4: bond length Cu-Cu = 2,537 Å (idéntico al foil de Cu metálico, 2,538), pero coordinación 5,4 vs 10,4 — partículas pequeñas con superficie expuesta.",
+      "certainty_tier": "T1",
+      "abstract_verb": "passivating",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Estabilidad >1000 h ácido / >200 h sulfuro / >240 h a 140 °C",
+      "supported": "partial",
+      "detail": "Cifras del abstract. Datos de cinéticas viven en figuras del paper no extraídas en Tables S1-S4.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exceeding",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 150,
+      "unit": "°C",
+      "context": "temperatura de procesamiento del nuevo método",
+      "source": "table_s1",
+      "verified": true
+    },
+    {
+      "value": 12.8,
+      "unit": "µΩ·cm",
+      "context": "resistividad a 150 °C — punto clave del paper",
+      "source": "table_s1",
+      "verified": true
+    },
+    {
+      "value": 8.95,
+      "unit": "µΩ·cm",
+      "context": "resistividad a 175 °C",
+      "source": "table_s1",
+      "verified": true
+    },
+    {
+      "value": 1.68,
+      "unit": "µΩ·cm",
+      "context": "cobre macizo puro como referencia",
+      "source": "literatura",
+      "verified": true
+    },
+    {
+      "value": 5.33,
+      "unit": "ratio",
+      "context": "ratio resistividad nuevo método a 175 °C vs Cu bulk",
+      "source": "calculo",
+      "verified": true
+    },
+    {
+      "value": 7.7,
+      "unit": "ratio",
+      "context": "caída de resistividad entre 100 y 175 °C",
+      "source": "calculo",
+      "verified": true
+    },
+    {
+      "value": 250,
+      "unit": "°C",
+      "context": "mediana temperatura de procesamiento en 30 métodos previos",
+      "source": "table_s2",
+      "verified": true
+    },
+    {
+      "value": 52,
+      "unit": "µΩ·cm",
+      "context": "mediana resistividad de los 3 métodos previos que operan a ≤150 °C",
+      "source": "table_s2",
+      "verified": true
+    },
+    {
+      "value": 4.1,
+      "unit": "ratio",
+      "context": "mejora del nuevo método vs mediana literatura a ≤150 °C",
+      "source": "calculo",
+      "verified": true
+    },
+    {
+      "value": 30,
+      "unit": "métodos",
+      "context": "tamaño del corpus de literatura comparada",
+      "source": "table_s2",
+      "verified": true
+    },
+    {
+      "value": -0.757,
+      "unit": "eV",
+      "context": "energía DFT de interacción Cu⁺–dopamina (catecol)",
+      "source": "table_s3",
+      "verified": true
+    },
+    {
+      "value": -0.055,
+      "unit": "eV",
+      "context": "energía DFT Cu⁺–ácido cítrico (reductor clásico, comparación)",
+      "source": "table_s3",
+      "verified": true
+    },
+    {
+      "value": -0.856,
+      "unit": "eV",
+      "context": "energía DFT Cu⁺–AMP (más fuerte pero solo coordina)",
+      "source": "table_s3",
+      "verified": true
+    },
+    {
+      "value": 13.8,
+      "unit": "ratio",
+      "context": "ratio energías DFT dopamina/ácido cítrico",
+      "source": "calculo",
+      "verified": true
+    },
+    {
+      "value": 2.537,
+      "unit": "Å",
+      "context": "longitud enlace Cu-Cu en partículas Cu/DA — idéntico al Cu metálico",
+      "source": "table_s4",
+      "verified": true
+    },
+    {
+      "value": 5.38,
+      "unit": "coord",
+      "context": "número de coordinación Cu-Cu en Cu/DA seeds (vs 10,4 del foil)",
+      "source": "table_s4",
+      "verified": true
+    },
+    {
+      "value": 1000,
+      "unit": "horas",
+      "context": "estabilidad en ácido (abstract)",
+      "source": "abstract",
+      "verified": false
+    },
+    {
+      "value": 200,
+      "unit": "horas",
+      "context": "estabilidad en ambiente sulfurado (abstract)",
+      "source": "abstract",
+      "verified": false
+    },
+    {
+      "value": 240,
+      "unit": "horas",
+      "context": "estabilidad a 140 °C (abstract)",
+      "source": "abstract",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'reportan / logran'"
+    },
+    {
+      "abstract_verb": "mediate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'los catecoles median la reducción'"
+    },
+    {
+      "abstract_verb": "enable",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'permite la fusión'"
+    },
+    {
+      "abstract_verb": "resolves",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'resuelve un trade-off'"
+    },
+    {
+      "abstract_verb": "exceeding",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con cifra: '>1000 horas'"
+    }
+  ],
+  "narrative_hooks": [
+    "150 grados. Esa es la temperatura a la que un equipo logró imprimir cobre con resistividad 4 veces mejor que cualquier otra receta a esa temperatura.",
+    "La clave para imprimir circuitos de cobre a baja temperatura es la misma química con la que los mejillones se pegan a las rocas.",
+    "El cobre conduce casi como la plata pero cuesta cien veces menos. El problema: se oxida apenas toca el aire. Hasta ahora."
+  ],
+  "limitations": [
+    "Trabajamos solo con Tables S1-S4 del Supplementary — las cinéticas de corrosión y los datos de impresión sobre sustratos viven en figuras no extraídas.",
+    "Tabla DFT tiene n=5 ligandos: orden cualitativo informativo pero no permite ranking estadístico riguroso.",
+    "Curva resistividad-temperatura tiene 4 puntos: suficiente para mostrar la tendencia, no para ajustar modelos físicos detallados."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verified (yes/partial) + 19 key_numbers — script denso para corto"
+  },
+  "notebook_slug": "2026-05-14-cobre-corrosion-catecol",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-14-cobre-corrosion-catecol/notebook.html",
+  "generated_at": "2026-05-18T15:48:24.374565Z"
+}

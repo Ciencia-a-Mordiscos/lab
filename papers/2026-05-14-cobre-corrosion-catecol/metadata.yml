@@ -1,0 +1,28 @@
+titulo: "Imprimir circuitos de cobre a 150 °C"
+fecha: 2026-05-14
+categoria: tecnologia
+tags: [cobre, electronica-flexible, corrosion, catecol, dopamina, dft, exafs, tinta-conductora]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aed4488"
+    titulo: "A molecular pathway to corrosion-resistant printable copper"
+    journal: Science
+    autores: "Anonymous et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "resistividad_vs_temperatura.csv"
+    descripcion: "Resistividad del nuevo método (Cu/catecol) en función de la temperatura de procesamiento — 4 puntos, 100-175 °C"
+    fuente: "Supplementary Materials, Table S1"
+  - nombre: "literatura_tintas_cobre.csv"
+    descripcion: "30 métodos publicados de tintas de cobre con su temperatura y resistividad — para comparación"
+    fuente: "Supplementary Materials, Table S2"
+  - nombre: "dft_interacciones.csv"
+    descripcion: "Energías DFT de interacción Cu⁺–ligando para 5 moléculas (catecol/dopamina, ácido ascórbico, ácido cítrico, AMP, DEGBE)"
+    fuente: "Supplementary Materials, Table S3"
+  - nombre: "exafs_coordinacion.csv"
+    descripcion: "Estructura local Cu-Cu medida por EXAFS — longitud de enlace y número de coordinación en 4 muestras"
+    fuente: "Supplementary Materials, Table S4"
+estado: publicado

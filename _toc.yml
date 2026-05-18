@@ -566,6 +566,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-14-cobre-corrosion-catecol/README
+    title: "Imprimir circuitos de cobre a 150 °C"
+    sections:
+    - file: papers/2026-05-14-cobre-corrosion-catecol/notebook
+      title: Notebook
   - file: papers/2026-05-14-perovskita-ia-multiagente-100c/README
     title: "Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta"
     sections:

@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Imprimir circuitos de cobre a 150 °C
+
+**Tecnología** · *Science* · Anonymous et al. (2026) presentan una tinta de cobre que se funde en conductor a **150 °C, al aire**, con resistividad de **12,8 µΩ·cm** — cuatro veces mejor que cualquiera de los 3 métodos previos que operan a esa temperatura (mediana 52 µΩ·cm en n=30 papers de literatura), y muy por debajo de los 250 °C que pide la mediana global. La clave: catecoles, la misma familia química de la dopamina. Las simulaciones DFT muestran que catecol/dopamina se une al Cu⁺ con **E_int = -0,757 eV**, 13,8× más fuerte que el ácido cítrico clásico (-0,055 eV). EXAFS confirma partículas Cu(0) cristalinas (bond length 2,537 Å, idéntico al cobre macizo) pero pequeñas (coordinación 5,4 vs 10,4 del foil). El paper reporta además estabilidad de **>1000 h en ácido, >200 h en sulfuro, >240 h a 140 °C**. ⚠️ Las cinéticas de corrosión y los datos de impresión sobre PET viven en las figuras del paper que no extrajimos. ⚠️ DFT con n=5 ligandos: orden cualitativo informativo, no ranking estadístico. ⚠️ La curva resistividad-temperatura tiene 4 puntos — suficiente para la tendencia, no para modelo físico detallado.
+
+[Ver notebook](papers/2026-05-14-cobre-corrosion-catecol/notebook) · [Leer más](papers/2026-05-14-cobre-corrosion-catecol/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-cobre-corrosion-catecol/notebook.ipynb)
+
+---
+
 ### Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta
 
 **Tecnología** · *Science* · Lin et al. (2026) entrenaron una IA colaborativa de **cuatro agentes** que diseñó, pieza por pieza, las tres capas críticas de una celda solar de perovskita: el absorbente (FA₀.₉₂Cs₀.₀₈PbI₃, con apenas **8% de cesio**), la capa que transporta huecos (una molécula sintetizada ad hoc, MeO-DPPACz) y la interfaz dual de óxidos metálicos. El resultado: la celda retiene **97% del rendimiento inicial tras 1000 horas a 100°C** — un régimen donde, de **51 estudios previos** (44 DOIs únicos) que revisamos, **solo 1 había llegado** y aguantó 60%. Diferencia: 37 puntos porcentuales. Los datos confirman el porqué a nivel atómico: Cs₈ tiene **~74% menos defectos** (trampas) que la composición sin cesio, con Cohen's d ≈ 12,8 entre n=3 réplicas. La predicción del agente AI sobre la composición óptima cayó dentro de su propia banda de confianza 80%. ⚠️ El test se cortó a 1000 h; comportamiento de largo plazo desconocido. ⚠️ La curva clave son trazas single-device por composición — sin error bars inter-dispositivo en esa figura. ⚠️ La molécula HTM custom fue sintetizada ad hoc; escalabilidad no reportada.

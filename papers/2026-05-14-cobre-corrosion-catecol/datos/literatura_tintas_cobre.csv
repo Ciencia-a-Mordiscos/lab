@@ -1,0 +1,31 @@
+n,condiciones,temperatura_C,atmosfera,tiempo_min,resistividad_uohm_cm,referencia
+1,180 °C for 1min in air,180,aire,1,18.0,35
+2,180 °C in air,180,aire,,15.0,36
+3,200 °C in air for 1 h and then hydrogen gas for 1 h,200,aire+H2,120,20.0,37
+4,325 °C for 1 h in vacuum,325,vacío,60,17.2,38
+5,350 °C in H2 gas,350,H2,,5.8,39
+6,200 °C in Ar (98%) and H2 (2%) for 1h,200,Ar+H2,60,76.0,40
+7,300 °C under Ar gas flow,300,Ar,,8.2,41
+8,250 °C in N2 atmosphere for 30 min,250,N2,30,10.0,42
+9,300 °C in N2 atmosphere for 30 min,300,N2,30,11.2,43
+10,150 °C in air,150,aire,,55.0,44
+11,350 °C in air,350,aire,,17.0,45
+12,200 °C for 10 min in Ar/10% H2,200,Ar+H2,10,25.1,30
+13,300 °C/air (95%)-formic acid (5%)/15 min,300,aire+HCOOH,15,36.0,46
+14,250 °C/Ar (96%)-H2 (4%)/120 min,250,Ar+H2,120,17.0,46
+15,Annealing at 200 °C in air for more than 3 h and subsequently reduced at 200 °C in 3% H2 gas for 3 h,200,aire+H2,360,82.0,46
+16,250 °C/N2/30 min,250,N2,30,15.8,46
+17,300 °C/N2/60 min,300,N2,60,25.3,46
+18,400 °C/N2/60 min,400,N2,60,23.0,46
+19,150 °C/N2/15 min,150,N2,15,30.0,46
+20,150 °C/N2/60 min,150,N2,60,52.0,46
+21,175 °C/Ar (95%)-H2 (5%)/60 min,175,Ar+H2,60,18.5,46
+22,200 °C/N2/60 min,200,N2,60,10.1,46
+23,240 °C/N2/40 min,240,N2,40,16.2,46
+24,275 °C; vacuum,275,vacío,,92.0,47
+25,250 °C; vacuum,250,vacío,,11.0,47
+26,300 °C; 5 MPa; air,300,aire,,86.0,47
+27,160 °C; Ar,160,Ar,,13.4,47
+28,350 °C/ N2 (95%)-H2 (5%)/60 min,350,N2+H2,60,27.1,46
+29,250 °C/N2/15 min,250,N2,15,11.3,46
+30,250 °C/N2 (95%)-H2 (5%)/180 min,250,N2+H2,180,58.0,46
