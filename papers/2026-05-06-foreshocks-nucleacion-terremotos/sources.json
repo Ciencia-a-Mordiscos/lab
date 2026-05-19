@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "64 eventos válidos — Total analizados en 10 experimentos × 5 presiones (100-300 bar)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "47 eventos con nucleación completa — Subconjunto donde Vmin, tc y slip foreshock son positivos",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "17 eventos arrestados — Slip del foreshock ≤ 0 o Vmin ≤ 0 — la nucleación no progresa",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "26.6 por ciento — Fracción de eventos que arrestan sin completar la nucleación",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "5224 veces — Spread de Vmin entre el evento más lento (2,87e-7 m/s) y el más rápido (1,50e-3 m/s)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "-0.91 Spearman r — Correlación tc vs Vmin (p = 7e-19, n = 47) — el resultado central del paper",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "0.781 R² — Ajuste log-log tc ∝ Vmin^-0,543 explica el 78 por ciento de la varianza",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "28.3 mm — Mediana de Lc — tamaño espacial de la zona de nucleación",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "15 ms — Mediana de tc — duración de la nucleación",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "Vmin (velocidad del pulso transitorio) predice la duración de la nucleación tc",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Vmin, whose magnitude is set by foreshock size and which robustly predicts both nucleation duration and spatial length",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c11",
+      "text": "Vmin también predice Lc (tamaño espacial de la zona de nucleación)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Vmin, whose magnitude is set by foreshock size and which robustly predicts both nucleation duration and spatial length",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c12",
+      "text": "Foreshocks muy pequeños hacen que la nucleación se arreste sin que ocurra el terremoto",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "very small impulses lead to ruptures entirely arresting",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c13",
+      "text": "El resultado se extiende a fallas tectónicas reales",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c14",
+      "text": "La distancia característica de slip de la nucleación es de 0,3 a 3,0 mm",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "characteristic nucleation slip distances of 0.3–3.0 mm",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c15",
+      "text": "Las columnas slip_foreshock/slip_nucleation del CSV están en metros, no en micras como dice el header",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "Foreshock-induced slip transients set mainshock nucleation timing",
+      "url": "https://doi.org/10.1038/s41586-026-10497-5",
+      "fecha_publicacion": "2026-05-06",
+      "fecha_consulta": "2026-05-19",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Dataset: From foreshock to mainshock: transient sliding velocity sets nucleation time",
+      "url": "https://doi.org/10.5281/zenodo.17185894",
+      "fecha_publicacion": "2025-09-23",
+      "fecha_consulta": "2026-05-19",
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Foreshock-induced slip transients set mainshock nucleation timing](https://doi.org/10.1038/s41586-026-10497-5)  \n*Nature, 2026-05-06*\n\n**Datos**: [Dataset: From foreshock to mainshock: transient sliding velocity sets nucleation time](https://doi.org/10.5281/zenodo.17185894)  \n*Repositorio Zenodo — CSVs de 10 experimentos × 5 niveles de presión*\n\n*15 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "version": "1.0",
+  "paper_id": 2438,
+  "doi": "10.1038/s41586-026-10497-5",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Vmin (velocidad del pulso transitorio) predice la duración de la nucleación tc",
+      "supported": "yes",
+      "detail": "Spearman r = -0,91 (p < 1e-18) en 47 eventos no arrestados. Ajuste log-log tc ∝ Vmin^-0,54 con R² = 0,78. La pendiente coincide con la predicción del modelo rate-and-state derivado en el paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "spearman_r", "value": -0.910, "interpretation": "muy fuerte"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "Vmin también predice Lc (tamaño espacial de la zona de nucleación)",
+      "supported": "yes",
+      "detail": "Spearman r = -0,61 (p = 5e-6, n = 47). Correlación más débil que la de tc pero del mismo signo: pulso más rápido → zona más pequeña.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "spearman_r", "value": -0.611, "interpretation": "moderada-fuerte"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "Foreshocks muy pequeños hacen que la nucleación se arreste sin que ocurra el terremoto",
+      "supported": "yes",
+      "detail": "17 de 64 eventos (26,6 por ciento) tienen slip del foreshock ≤ 0 o Vmin ≤ 0 — la nucleación no progresa. Coincide con la predicción del modelo para impulsos por debajo del umbral.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {"measure": "fraccion", "value": 0.266, "interpretation": "n=17/64"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "El resultado se extiende a fallas tectónicas reales",
+      "supported": "partial",
+      "detail": "El paper enmarca esta extensión como 'seem to follow the same scaling' — la evidencia es consistente, no demostrada. El notebook solo verifica el resultado de laboratorio.",
+      "certainty_tier": "T2",
+      "abstract_verb": "seem to follow",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "La distancia característica de slip de la nucleación es de 0,3 a 3,0 mm",
+      "supported": "partial",
+      "detail": "Esta cifra es el parámetro Dc inferido del fit del modelo Griffith-like, no aparece como columna en el CSV. El slip durante la fase de nucleación que el CSV reporta es de 0 a 15 μm — del orden de 100× menor. Son dos cantidades distintas (Dc = slip total para debilitar fricción; slip nucleation = slip medido en pre-rotura).",
+      "certainty_tier": "T1",
+      "abstract_verb": "constrain",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "Las columnas slip_foreshock/slip_nucleation del CSV están en metros, no en micras como dice el header",
+      "supported": "yes",
+      "detail": "Verificación dimensional: Vmin (m/s) × tc (s) = slip (m). Con valores del primer evento: 2,19e-5 × 0,0227 = 4,97e-7 m, que coincide con slip_foreshock = 4,17e-7 (dentro de tolerancia). La unidad real es metros; el header [micron] es un error.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 64,
+      "unit": "eventos válidos",
+      "context": "Total analizados en 10 experimentos × 5 presiones (100-300 bar)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 47,
+      "unit": "eventos con nucleación completa",
+      "context": "Subconjunto donde Vmin, tc y slip foreshock son positivos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17,
+      "unit": "eventos arrestados",
+      "context": "Slip del foreshock ≤ 0 o Vmin ≤ 0 — la nucleación no progresa",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26.6,
+      "unit": "por ciento",
+      "context": "Fracción de eventos que arrestan sin completar la nucleación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5224,
+      "unit": "veces",
+      "context": "Spread de Vmin entre el evento más lento (2,87e-7 m/s) y el más rápido (1,50e-3 m/s)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.910,
+      "unit": "Spearman r",
+      "context": "Correlación tc vs Vmin (p = 7e-19, n = 47) — el resultado central del paper",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.781,
+      "unit": "R²",
+      "context": "Ajuste log-log tc ∝ Vmin^-0,543 explica el 78 por ciento de la varianza",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 28.3,
+      "unit": "mm",
+      "context": "Mediana de Lc — tamaño espacial de la zona de nucleación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "ms",
+      "context": "Mediana de tc — duración de la nucleación",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa (estudio experimental)"},
+    {"abstract_verb": "find", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "constrain", "tier": "T1", "cam_attenuator": "'permiten acotar' / 'limitan'"},
+    {"abstract_verb": "seem to follow", "tier": "T2", "cam_attenuator": "'parecen seguir' / 'la evidencia es consistente con'"},
+    {"abstract_verb": "remains unclear", "tier": "T3", "cam_attenuator": "'sigue sin estar claro' (contexto, no claim)"}
+  ],
+  "narrative_hooks": [
+    "Un terremoto no empieza de golpe — hay 15 milisegundos antes en los que se decide su duración.",
+    "Si el pulso inicial es 5.000 veces más rápido, la falla rompe en menos de un milisegundo en vez de en 70.",
+    "Uno de cada cuatro intentos de terremoto en laboratorio se detiene a la mitad sin que pase nada.",
+    "La velocidad del primer milisegundo predice el tamaño y la duración del evento entero — con una sola variable."
+  ],
+  "limitations": [
+    "64 eventos en 10 experimentos del mismo aparato — la extrapolación a fallas naturales depende del modelo, no de los datos del CSV.",
+    "Las columnas de slip del CSV dicen [micron] pero los valores están en metros. Hubo que verificar dimensionalmente.",
+    "Se usa correlación de Spearman porque Vmin abarca 4 órdenes de magnitud y la relación no es lineal.",
+    "El parámetro Dc (0,3-3,0 mm) que el paper reporta es inferido del fit del modelo, no medido directamente.",
+    "La extensión a tectónica natural se enmarca en el paper como 'seem to follow' — no verificable con los datos del notebook."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (3 yes + 2 partial + 1 metodológico), 9 números clave — denso pero compacto"
+  },
+  "notebook_slug": "2026-05-06-foreshocks-nucleacion-terremotos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook.html",
+  "generated_at": "2026-05-19T11:15:00Z"
+}

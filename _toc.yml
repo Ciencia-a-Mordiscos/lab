@@ -230,6 +230,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-05-06-foreshocks-nucleacion-terremotos/README
+    title: "Cómo se decide un terremoto en 15 milisegundos"
+    sections:
+    - file: papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook
+      title: Notebook
   - file: papers/2026-05-07-metano-subglacial-groenlandia/README
     title: "El metano que respira Groenlandia se cocinó hace 2.000 años"
     sections:

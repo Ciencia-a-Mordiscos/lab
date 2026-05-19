@@ -1,0 +1,19 @@
+titulo: "Cómo se decide un terremoto en 15 milisegundos"
+fecha: 2026-05-06
+categoria: geologia
+tags: [terremotos, nucleacion, foreshocks, friccion, sismologia, laboratorio]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10497-5"
+    titulo: "Foreshock-induced slip transients set mainshock nucleation timing"
+    journal: Nature
+    autores: "Fryer, Garagash, Lebihain, Passelègue"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "Laboratory_Results_Summary.csv"
+    descripcion: "64 eventos válidos en 10 experimentos × 5 presiones (100-300 bar)"
+    fuente: "Zenodo 10.5281/zenodo.17185894"
+estado: publicado

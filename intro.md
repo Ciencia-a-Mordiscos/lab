@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Cómo se decide un terremoto en 15 milisegundos
+
+**Geología** · *Nature* · Fryer et al. (2026) midieron **64 eventos de nucleación** en una falla artificial bajo cinco presiones (100-300 bar). Una sola variable —**Vmin**, la velocidad del pulso transitorio que aparece al inicio de la nucleación— explica el **78 por ciento** de la varianza en la duración del evento (tc), con correlación de Spearman **r = -0,91** sobre 47 eventos. El rango de Vmin cubre **5.224 veces** y aun así el ajuste se sostiene: tc ∝ Vmin⁻⁰⋅⁵⁴. La pendiente es del mismo orden que la predicción del modelo de fricción que el paper deriva (rate-and-state). **Uno de cada cuatro eventos arresta sin completar la nucleación** (17/64 = 26,6 %) — coincide con la predicción del modelo para impulsos por debajo del umbral. La medición da una distancia característica de slip de 0,3–3,0 mm — órdenes de magnitud menor que las inferidas para rotura dinámica. ⚠️ Las columnas de slip del CSV están en metros aunque el header dice [micron] — hubo que verificar dimensionalmente. ⚠️ La extensión a terremotos tectónicos reales el paper la enmarca como "seem to follow the same scaling" — consistente, no demostrada con los datos del CSV.
+
+[Ver notebook](papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook) · [Leer más](papers/2026-05-06-foreshocks-nucleacion-terremotos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook.ipynb)
+
+---
+
 ### Fitoplancton reconvierte progestogenos a su forma activa
 
 **Ecología** · *Nature Water* · Mu et al. (2025) muestran que el fitoplancton hace exactamente lo contrario que el hígado humano: el cuerpo desactiva el **acetato de noretindrona (NEA)** —el progestógeno sintético que llevan muchas pastillas anticonceptivas— para excretarlo, y el fitoplancton le arranca el acetato, devolviéndolo a **noretindrona**, un neuroesteroide más potente que la molécula original. **18 especies cultivadas en lab —todas las que probaron— lo hacen**. Y no es local: el gen responsable, una *adenylosuccinate lyase*, aparece en **135 MAGs eukariotos repartidos en 11 océanos** (del Mediterráneo al Pacífico Sur, datos de TARA Oceans). Chromista + Plantae concentran el **86,7 %** de los MAGs — dos reinos evolutivamente muy distantes, lo que sugiere una huella molecular muy antigua. El mismo gen vive además en **29.709 genomas procariotas** (Pseudomonadota concentra el 41,6 %). ⚠️ Detectar el gen no es lo mismo que verlo activo: el paper sí muestra transcripción en metatranscriptomas, pero la actividad enzimática cuantitativa *in situ* no se mide. ⚠️ El paper usa "may exacerbate" para el riesgo ecológico — plausible, no cuantificado.
