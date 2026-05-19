@@ -1,0 +1,136 @@
+genome_id,oceano,fuente,reino,phylum,clase,orden,familia,genero,especie,culturable
+TARA_AON_82_MAG_00012,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Ostreococcus,Ostreococcus,NO
+TARA_AON_82_MAG_00097,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_AON_82_MAG_00118,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_AON_82_MAG_00137,Atlantic Ocean North,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_AON_82_MAG_00160,Atlantic Ocean North,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_AON_82_MAG_00189,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,Pycnococcus,NO
+TARA_AON_82_MAG_00198,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellales_incertae_sedis,Picochlorum,Picochlorum,NO
+TARA_AON_82_MAG_00229,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,NA,NO
+TARA_AON_82_MAG_00271,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus,NO
+TARA_AON_82_MAG_00272,Atlantic Ocean North,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_AON_82_MAG_00275,Atlantic Ocean North,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_AON_82_MAG_00281,Atlantic Ocean North,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_AON_82_MAG_00283,Atlantic Ocean North,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_AON_82_MAG_00300,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Chlorodendrophyceae,Chlorodendrales,Chlorodendraceae,Tetraselmis,NA,NO
+TARA_AON_82_MAG_00306,Atlantic Ocean North,MAG,Chromista,Cryptophyta,Cryptophyceae,Pyrenomonadales,Geminigeraceae,Geminigera,Geminigera,NO
+TARA_AON_82_MAG_00307,Atlantic Ocean North,MAG,Chromista,Miozoa,Dinophyceae,Suessiales,Suessiaceae,Symbiodinium,NA,NO
+TARA_AON_82_MAG_00313,Atlantic Ocean North,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_AON_82_MAG_00316,Atlantic Ocean North,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_AON_82_MAG_00340,Atlantic Ocean North,MAG,Plantae,Chlorophyta,Palmophyllophyceae,Prasinococcales,Prasinococcaceae,Prasinoderma,Prasinoderma,NO
+TARA_AON_82_MAG_00341,Atlantic Ocean North,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_AON_82_MAG_00347,Atlantic Ocean North,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_AON_82_MAG_00356,Atlantic Ocean North,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_AOS_82_MAG_00032,Atlantic Ocean South,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,NA,NO
+TARA_AOS_82_MAG_00045,Atlantic Ocean South,MAG,Chromista,Ochrophyta,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Pelagomonas,Pelagomonas,NO
+TARA_AOS_82_MAG_00132,Atlantic Ocean South,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Prymnesiaceae,Prymnesium,NA,NO
+TARA_AOS_82_MAG_00137,Atlantic Ocean South,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_AOS_82_MAG_00184,Atlantic Ocean South,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_AOS_82_MAG_00186,Atlantic Ocean South,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus,NO
+TARA_ARC_108_MAG_00063,Arctic Ocean,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_ARC_108_MAG_00100,Arctic Ocean,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_ARC_108_MAG_00123,Arctic Ocean,MAG,Chromista,Ochrophyta,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Pelagomonas,Pelagomonas,NO
+TARA_ARC_108_MAG_00188,Arctic Ocean,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_ARC_108_MAG_00215,Arctic Ocean,MAG,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Paraphysomonadaceae,Paraphysomonas,NA,NO
+TARA_ARC_108_MAG_00241,Arctic Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_ARC_108_MAG_00245,Arctic Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_ARC_108_MAG_00246,Arctic Ocean,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_ARC_108_MAG_00255,Arctic Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_ARC_108_MAG_00256,Arctic Ocean,MAG,Chromista,Ochrophyta,Dictyochophyceae,Pedinellales,Pedinellaceae,Pseudopedinella,NA,NO
+TARA_ARC_108_MAG_00272,Arctic Ocean,MAG,Chromista,Ochrophyta,Dictyochophyceae,Pedinellales,Pedinellaceae,Pteridomonas,NA,NO
+TARA_ARC_108_MAG_00278,Arctic Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_ARC_108_MAG_00289,Arctic Ocean,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,Chrysochromulina,NO
+TARA_ARC_108_MAG_00291,Arctic Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,None,NO
+TARA_ARC_108_MAG_00315,Arctic Ocean,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_ARC_108_MAG_00320,Arctic Ocean,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_ARC_108_MAG_00323,Arctic Ocean,MAG,Chromista,Haptophyta,Prymnesiophyceae,Prymnesiales,Prymnesiaceae,Haptolina,NA,NO
+TARA_ARC_108_MAG_00324,Arctic Ocean,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_ARC_108_MAG_00326,Arctic Ocean,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_ION_45_MAG_00010,Indian Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Ostreococcus,Ostreococcus,NO
+TARA_ION_45_MAG_00030,Indian Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus,NO
+TARA_ION_45_MAG_00145,Indian Ocean North,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_ION_45_MAG_00153,Indian Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_ION_45_MAG_00156,Indian Ocean North,MAG,Plantae,Chlorophyta,Chlorodendrophyceae,Chlorodendrales,Chlorodendraceae,Tetraselmis,NA,NO
+TARA_ION_45_MAG_00177,Indian Ocean North,MAG,Chromista,Ochrophyta,Dictyochophyceae,Florenciellales,Florenciellalesincertaesedis,Florenciella,NA,NO
+TARA_ION_45_MAG_00200,Indian Ocean North,MAG,Plantae,Chlorophyta,Chlorodendrophyceae,Chlorodendrales,Chlorodendraceae,Tetraselmis,NA,NO
+TARA_ION_45_MAG_00201,Indian Ocean North,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_IOS_50_MAG_00065,Indian Ocean South,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_IOS_50_MAG_00098,Indian Ocean South,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_IOS_50_MAG_00124,Indian Ocean South,MAG,Chromista,Ochrophyta,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Aureococcus,Aureococcus,NO
+TARA_IOS_50_MAG_00155,Indian Ocean South,MAG,Chromista,Ciliophora,Oligohymenophorea,Tetrahymenida,Tetrahymenidae,Tetrahymena,NA,NO
+TARA_MED_95_MAG_00198,Mediterranean Sea,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus,NO
+TARA_MED_95_MAG_00216,Mediterranean Sea,MAG,Plantae,Chlorophyta,Mamiellophyceae,Dolichomastigales,Crustomastigaceae,Crustomastix,NA,NO
+TARA_MED_95_MAG_00308,Mediterranean Sea,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_MED_95_MAG_00378,Mediterranean Sea,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_MED_95_MAG_00390,Mediterranean Sea,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_MED_95_MAG_00393,Mediterranean Sea,MAG,Chromista,Haptophyta,Prymnesiophyceae,Isochrysidales,Isochrysidaceae,Isochrysis,NA,NO
+TARA_MED_95_MAG_00395,Mediterranean Sea,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,Chrysochromulina,NO
+TARA_MED_95_MAG_00396,Mediterranean Sea,MAG,Chromista,Ochrophyta,Dictyochophyceae,Florenciellales,Florenciellalesincertaesedis,Florenciella,NA,NO
+TARA_MED_95_MAG_00397,Mediterranean Sea,MAG,Chromista,Bigyra,Bikosea,Bicosoecales,Cafeteriaceae,Cafeteria,NA,NO
+TARA_MED_95_MAG_00402,Mediterranean Sea,MAG,Chromista,Cercozoa,Chlorarachnea,Chlorachniida,Chlorarachniaceae,Lotharella,NA,NO
+TARA_MED_95_MAG_00409,Mediterranean Sea,MAG,Chromista,Ochrophyta,Dictyochophyceae,Florenciellales,Florenciellalesincertaesedis,Florenciella,NA,NO
+TARA_MED_95_MAG_00419,Mediterranean Sea,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,Pycnococcus,NO
+TARA_MED_95_MAG_00421,Mediterranean Sea,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus,NO
+TARA_MED_95_MAG_00425,Mediterranean Sea,MAG,Chromista,Ochrophyta,Dictyochophyceae,Florenciellales,Florenciellalesincertaesedis,Florenciella,NA,NO
+TARA_MED_95_MAG_00433,Mediterranean Sea,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_MED_95_MAG_00447,Mediterranean Sea,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_MED_95_MAG_00453,Mediterranean Sea,MAG,Chromista,Haptophyta,Coccolithophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,NA,NO
+TARA_MED_95_MAG_00458,Mediterranean Sea,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_MED_95_MAG_00462,Mediterranean Sea,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,NA,NO
+TARA_MED_95_MAG_00464,Mediterranean Sea,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_MED_95_MAG_00469,Mediterranean Sea,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_MED_95_MAG_00488,Mediterranean Sea,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_MED_95_MAG_00511,Mediterranean Sea,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_MED_95_MAG_00515,Mediterranean Sea,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Prymnesiaceae,Prymnesium,NA,NO
+TARA_PON_109_MAG_00124,Pacific Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Dolichomastigales,Crustomastigaceae,Crustomastix,NA,NO
+TARA_PON_109_MAG_00166,Pacific Ocean North,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Ostreococcus,Ostreococcus,NO
+TARA_PON_109_MAG_00221,Pacific Ocean North,MAG,Chromista,Ochrophyta,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Aureococcus,Aureococcus,NO
+TARA_PON_109_MAG_00222,Pacific Ocean North,MAG,Plantae,Chlorophyta,Nephroselmidophyceae,Nephroselmidales,Nephroselmidaceae,Nephroselmis,NA,NO
+TARA_PON_109_MAG_00226,Pacific Ocean North,MAG,Plantae,Chlorophyta,Chlorodendrophyceae,Chlorodendrales,Chlorodendraceae,Tetraselmis,NA,NO
+TARA_PON_109_MAG_00229,Pacific Ocean North,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PON_109_MAG_00232,Pacific Ocean North,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PON_109_MAG_00250,Pacific Ocean North,MAG,Chromista,Haptophyta,Coccolithophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis,NO
+TARA_PSE_93_MAG_00017,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus,NO
+TARA_PSE_93_MAG_00090,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus,NO
+TARA_PSE_93_MAG_00121,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,NA,NO
+TARA_PSE_93_MAG_00141,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,Pyramimonas,NA,NO
+TARA_PSE_93_MAG_00200,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,NA,NO
+TARA_PSE_93_MAG_00201,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,NA,NO
+TARA_PSE_93_MAG_00202,Pacific Ocean South East,MAG,Animalia,Arthropoda,Hexanauplia,Siphonostomatoida,Caligidae,Lepeophtheirus,None,NO
+TARA_PSE_93_MAG_00203,Pacific Ocean South East,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Prymnesiaceae,Prymnesium,NA,NO
+TARA_PSE_93_MAG_00218,Pacific Ocean South East,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PSE_93_MAG_00228,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,Pyramimonas,NA,NO
+TARA_PSE_93_MAG_00236,Pacific Ocean South East,MAG,Plantae,Chlorophyta,Chlorodendrophyceae,Chlorodendrales,Chlorodendraceae,Tetraselmis,NA,NO
+TARA_PSE_93_MAG_00240,Pacific Ocean South East,MAG,Protozoa,Choanozoa,Choanoflagellatea,Craspedida,Salpingoecaceae,Salpingoeca,Salpingoeca,NO
+TARA_PSE_93_MAG_00241,Pacific Ocean South East,MAG,Chromista,Ochrophyta,Dictyochophyceae,Florenciellales,Florenciellalesincertaesedis,Florenciella,NA,NO
+TARA_PSE_93_MAG_00267,Pacific Ocean South East,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PSW_86_MAG_00075,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_PSW_86_MAG_00105,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_PSW_86_MAG_00106,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_PSW_86_MAG_00160,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellales_incertae_sedis,Picochlorum,NA,NO
+TARA_PSW_86_MAG_00208,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,NA,NO
+TARA_PSW_86_MAG_00257,Pacific Ocean South West,MAG,Chromista,Ochrophyta,Pelagophyceae,Pelagomonadales,Pelagomonadaceae,Aureococcus,Aureococcus,NO
+TARA_PSW_86_MAG_00260,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pycnococcus,NA,NO
+TARA_PSW_86_MAG_00262,Pacific Ocean South West,MAG,Chromista,Cryptophyta,Cryptophyceae,Pyrenomonadales,Geminigeraceae,Geminigera,Geminigera,NO
+TARA_PSW_86_MAG_00266,Pacific Ocean South West,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PSW_86_MAG_00268,Pacific Ocean South West,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PSW_86_MAG_00270,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,Pyramimonas,NA,NO
+TARA_PSW_86_MAG_00272,Pacific Ocean South West,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Prymnesiaceae,Prymnesium,NA,NO
+TARA_PSW_86_MAG_00283,Pacific Ocean South West,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PSW_86_MAG_00289,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,NO
+TARA_PSW_86_MAG_00295,Pacific Ocean South West,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Mantoniella,NA,NO
+TARA_PSW_86_MAG_00302,Pacific Ocean South West,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PSW_86_MAG_00303,Pacific Ocean South West,MAG,Chromista,Cryptophyta,Cryptophyceae,Pyrenomonadales,Geminigeraceae,Geminigera,Geminigera,NO
+TARA_PSW_86_MAG_00314,Pacific Ocean South West,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_PSW_86_MAG_00317,Pacific Ocean South West,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_PSW_86_MAG_00318,Pacific Ocean South West,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Chrysochromulinaceae,Chrysochromulina,NA,NO
+TARA_RED_19_MAG_00007,Red Sea,MAG,Plantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Ostreococcus,Ostreococcus,NO
+TARA_RED_19_MAG_00042,Red Sea,MAG,Chromista,Haptophyta,Coccolithophyceae,Prymnesiales,Prymnesiaceae,Prymnesium,NA,NO
+TARA_SOC_28_MAG_00050,Southern Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_SOC_28_MAG_00051,Southern Ocean,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_SOC_28_MAG_00055,Southern Ocean,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Gonyaulacaceae,Lingulodinium,NA,NO
+TARA_SOC_28_MAG_00061,Southern Ocean,MAG,Chromista,Miozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,NA,NO
+TARA_SOC_28_MAG_00063,Southern Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_SOC_28_MAG_00068,Southern Ocean,MAG,Chromista,Bigyra,Labyrinthulomycetes,Thraustochytriida,Thraustochytriaceae,Aurantiochytrium,NA,NO
+TARA_SOC_28_MAG_00078,Southern Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO
+TARA_SOC_28_MAG_00079,Southern Ocean,MAG,Protozoa,Choanozoa,Choanoflagellatea,Acanthoecida,Acanthoecidae,Acanthoeca,NA,NO

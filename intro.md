@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Fitoplancton reconvierte progestogenos a su forma activa
+
+**Ecología** · *Nature Water* · Mu et al. (2025) muestran que el fitoplancton hace exactamente lo contrario que el hígado humano: el cuerpo desactiva el **acetato de noretindrona (NEA)** —el progestógeno sintético que llevan muchas pastillas anticonceptivas— para excretarlo, y el fitoplancton le arranca el acetato, devolviéndolo a **noretindrona**, un neuroesteroide más potente que la molécula original. **18 especies cultivadas en lab —todas las que probaron— lo hacen**. Y no es local: el gen responsable, una *adenylosuccinate lyase*, aparece en **135 MAGs eukariotos repartidos en 11 océanos** (del Mediterráneo al Pacífico Sur, datos de TARA Oceans). Chromista + Plantae concentran el **86,7 %** de los MAGs — dos reinos evolutivamente muy distantes, lo que sugiere una huella molecular muy antigua. El mismo gen vive además en **29.709 genomas procariotas** (Pseudomonadota concentra el 41,6 %). ⚠️ Detectar el gen no es lo mismo que verlo activo: el paper sí muestra transcripción en metatranscriptomas, pero la actividad enzimática cuantitativa *in situ* no se mide. ⚠️ El paper usa "may exacerbate" para el riesgo ecológico — plausible, no cuantificado.
+
+[Ver notebook](papers/2026-05-19-fitoplancton-reconvierte-progestogenos/notebook) · [Leer más](papers/2026-05-19-fitoplancton-reconvierte-progestogenos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-19-fitoplancton-reconvierte-progestogenos/notebook.ipynb)
+
+---
+
 ### Macrófagos mordisqueando células vivas
 
 **Medicina** · *Nature* · Fan, Thota, Serwas et al. (2026) muestran que los macrófagos no solo limpian células muertas — también arrancan **vesículas sub-micrométricas de células vivas y sanas** sin matarlas. En el pulmón de ratón, un único tipo celular (macrófagos alveolares) se lleva el **62,7 %** del material etiquetado, frente a apenas **0,55 %** en monocitos clásicos — un ratio ≈ 114× (Mann-Whitney U p = 0,008, Cohen's d ≈ 15 con n = 5 ratones). Las vesículas miden de mediana **0,09 µm²** (n = 77 vesículas de 23 células) — son ~835× más pequeñas en área que la sección de una célula entera. Y el muestreo es **estrictamente célula-célula**: separar las poblaciones con una membrana porosa (transwell) reduce el uptake un **77 %** (paired t-test p = 0,0018, n = 3 réplicas biológicas). ⚠️ Los tamaños muestrales son pequeños — los efectos son enormes pero los intervalos de confianza amplios. ⚠️ Todo el sistema está en ratón; el paper no aporta datos humanos directos. ⚠️ El claim de "no destructivo" lo soporta el paper con imaging y caspase assays que no están en el Source Data MOESM7/8.

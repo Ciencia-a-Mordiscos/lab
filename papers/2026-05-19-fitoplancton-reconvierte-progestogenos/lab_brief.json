@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "paper_id": 2428,
+  "doi": "10.1038/s44221-026-00646-5",
+  "paper_type": "experimental",
+  "study_design": "experimental_plus_observational",
+  "species": "phytoplankton (18 species cultured) + global metagenomic survey",
+  "verification_table": [
+    {
+      "claim": "18 especies de fitoplancton (todas las ensayadas) biotransforman NEA en lab",
+      "supported": "yes",
+      "detail": "El paper lo reporta como hallazgo experimental directo (n=18, diversidad filogenética representativa de agua dulce y marina). Ninguna excepción reportada.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Producto: norethindrone — un neuroesteroide más potente que NEA",
+      "supported": "yes",
+      "detail": "Descriptor cualitativo del abstract ('more potent neurosteroid'). No medimos la potencia en este notebook.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El gen responsable es una adenylosuccinate lyase con actividad inesperada de desacetilación",
+      "supported": "yes",
+      "detail": "Validado por click chemistry-based chemoproteomics + validación funcional de la proteína.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "supported_by_data": false
+    },
+    {
+      "claim": "135 MAGs eukariotos con el gen, distribuidos en 11 océanos",
+      "supported": "yes",
+      "detail": "Cálculo directo desde fitoplancton_mags.csv (Table S2 del paper). Detección genómica, no actividad medida.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Chromista + Plantae concentran ~87% de los MAGs (67+50=117 de 135)",
+      "supported": "yes",
+      "detail": "86,67% exacto. Reinos evolutivamente distantes — sugiere conservación profunda del gen.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered",
+      "supported_by_data": true
+    },
+    {
+      "claim": "29.709 genomas procariotas también cargan el gen, en 140 phyla",
+      "supported": "yes",
+      "detail": "Cálculo directo desde procariotas_con_lyase_por_phylum.csv (Table S1). Pseudomonadota concentra 41,6%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El fitoplancton oceánico está reconvirtiendo NEA in situ a gran escala",
+      "supported": "partial",
+      "detail": "El paper muestra transcripción del gen en metatranscriptomas, pero la actividad cuantitativa in situ no se mide. La inferencia es razonable pero no directa.",
+      "certainty_tier": "T2",
+      "abstract_verb": "uncovered",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Esto podría aumentar el riesgo ecológico de los progestogenos",
+      "supported": "partial",
+      "detail": "El abstract usa 'may exacerbate' (T3). Es plausible, pero magnitud del riesgo neto depende de variables que el paper no mide.",
+      "certainty_tier": "T3",
+      "abstract_verb": "may exacerbate",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 18,
+      "unit": "especies",
+      "context": "fitoplancton ensayado en lab — todas biotransforman NEA",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 135,
+      "unit": "MAGs",
+      "context": "genomas eukariotos reconstruidos con el gen detectado, en TARA Oceans",
+      "source": "fact_sheet + dataset",
+      "verified": true
+    },
+    {
+      "value": 11,
+      "unit": "océanos",
+      "context": "cuencas oceánicas donde se detectó al menos un MAG con el gen",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 29709,
+      "unit": "genomas procariotas",
+      "context": "bacterias + arqueas con el mismo gen (140 phyla)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 41.6,
+      "unit": "por ciento",
+      "context": "Pseudomonadota concentra esa fracción de los procariotas con el gen",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 86.7,
+      "unit": "por ciento",
+      "context": "Chromista + Plantae sobre el total de MAGs eukariotos (117/135)",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 52.5,
+      "unit": "por ciento",
+      "context": "fracción de los 29.709 genomas procariotas en colecciones cultivables",
+      "source": "calculo_notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (experimental, n=18 spp)"
+    },
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (chemoproteomics + validación funcional)"
+    },
+    {
+      "abstract_verb": "uncovered",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa para detección genética — distinguir de función in situ"
+    },
+    {
+      "abstract_verb": "demonstrates",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "may exacerbate",
+      "tier": "T3",
+      "cam_attenuator": "podría agravar / podría aumentar el riesgo — NO afirmar directamente"
+    }
+  ],
+  "narrative_hooks": [
+    "Tu cuerpo desactiva los anticonceptivos antes de excretarlos. El fitoplancton los reactiva.",
+    "Una enzima 'inesperada' (adenylosuccinate lyase) hace desacetilación — no es para lo que la conocían.",
+    "El gen vive en 11 océanos, de Ártico a Pacífico Sur — no es un fenómeno regional."
+  ],
+  "limitations": [
+    "Detección genética ≠ función in situ. El gen puede estar presente sin transcribirse activamente.",
+    "Los MAGs son ensamblajes — algunos genes podrían ser falsos positivos por contaminación cruzada en metagenómica.",
+    "El muestreo de TARA Oceans no es uniforme: cuencas con más muestras tienden a mostrar más MAGs.",
+    "La cifra de culturables refleja qué hemos logrado cultivar (sesgo de colección), no cultivabilidad intrínseca.",
+    "La implicación ecológica usa 'may exacerbate' en el abstract — la magnitud del riesgo neto no se cuantifica."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims yes + 2 partial → script denso. Hay 7 cifras clave para integrar."
+  },
+  "notebook_slug": "2026-05-19-fitoplancton-reconvierte-progestogenos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-19-fitoplancton-reconvierte-progestogenos/notebook.html",
+  "generated_at": "2026-05-19T10:45:00Z"
+}
