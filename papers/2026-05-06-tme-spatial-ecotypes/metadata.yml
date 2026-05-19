@@ -1,0 +1,22 @@
+titulo: "Una gota de sangre que predice si la inmunoterapia funcionará"
+fecha: 2026-05-06
+categoria: medicina
+tags: [oncología, inmunoterapia, biopsia líquida, cfDNA, melanoma, microambiente tumoral, machine learning]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10452-4"
+    titulo: "Non-invasive profiling of the tumour microenvironment with spatial ecotypes"
+    journal: Nature
+    autores: "Newman et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "se_abundance_tcga.csv"
+    descripcion: "Proporciones de los 9 ecosistemas espaciales (SE1..SE9) en 7.076 muestras TCGA de 17 tipos de cáncer"
+    fuente: "Supplementary Table 13 (Newman et al., Nature 2026)"
+  - nombre: "liquid_se_ici_response.csv"
+    descripcion: "Asociaciones entre los 9 SEs medidos en cfDNA y respuesta a inmunoterapia en 78 melanomas pre-tratamiento (z-score, p-value, AUC por subgrupo clínico)"
+    fuente: "Supplementary Table 27 (Newman et al., Nature 2026)"
+estado: publicado

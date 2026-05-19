@@ -277,6 +277,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-06-tme-spatial-ecotypes/README
+    title: "Una gota de sangre que predice si la inmunoterapia funcionará"
+    sections:
+    - file: papers/2026-05-06-tme-spatial-ecotypes/notebook
+      title: Notebook
   - file: papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/README
     title: "Macrófagos mordisqueando células vivas"
     sections:

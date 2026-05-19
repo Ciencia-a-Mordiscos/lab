@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una gota de sangre que predice si la inmunoterapia funcionará
+
+**Medicina** · *Nature* · Newman et al. (2026) identificaron **9 ecosistemas espaciales (SEs)** integrando >10 millones de transcriptomas de tumores humanos. La sorpresa clínica: esas firmas se pueden recuperar desde sangre — fragmentos de ADN tumoral flotando libres (cfDNA). En **78 pacientes con melanoma metastásico** medidos antes de empezar inmunoterapia, **SE7 predice no-respuesta con AUC = 0,80** (z = -4,49, p = 3·10⁻⁶) y **SE4 predice respuesta con AUC = 0,76**. Siete de las ocho SEs medibles en cfDNA salen significativas; solo SE2 queda en ruido. Los 9 ecosistemas están presentes en los **17 tipos de cáncer** del atlas TCGA (7.076 muestras): la abundancia de SE7 varía hasta 1,5× entre cánceres (0,054 en tiroides → 0,080 en esófago) — conservación = presencia, no nivel uniforme. ⚠️ Estudio observacional retrospectivo — asociaciones, no causalidad. ⚠️ El AUC del subgrupo Female (0,90 con n = 25) es sospechosamente alto: bandera roja de overfitting con muestra pequeña; el subgrupo Male (n = 53) es más confiable. ⚠️ El paper enmarca el uso clínico con "implications for risk stratification" — implicación a futuro, no resultado validado.
+
+[Ver notebook](papers/2026-05-06-tme-spatial-ecotypes/notebook) · [Leer más](papers/2026-05-06-tme-spatial-ecotypes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-tme-spatial-ecotypes/notebook.ipynb)
+
+---
+
 ### Cómo se decide un terremoto en 15 milisegundos
 
 **Geología** · *Nature* · Fryer et al. (2026) midieron **64 eventos de nucleación** en una falla artificial bajo cinco presiones (100-300 bar). Una sola variable —**Vmin**, la velocidad del pulso transitorio que aparece al inicio de la nucleación— explica el **78 por ciento** de la varianza en la duración del evento (tc), con correlación de Spearman **r = -0,91** sobre 47 eventos. El rango de Vmin cubre **5.224 veces** y aun así el ajuste se sostiene: tc ∝ Vmin⁻⁰⋅⁵⁴. La pendiente es del mismo orden que la predicción del modelo de fricción que el paper deriva (rate-and-state). **Uno de cada cuatro eventos arresta sin completar la nucleación** (17/64 = 26,6 %) — coincide con la predicción del modelo para impulsos por debajo del umbral. La medición da una distancia característica de slip de 0,3–3,0 mm — órdenes de magnitud menor que las inferidas para rotura dinámica. ⚠️ Las columnas de slip del CSV están en metros aunque el header dice [micron] — hubo que verificar dimensionalmente. ⚠️ La extensión a terremotos tectónicos reales el paper la enmarca como "seem to follow the same scaling" — consistente, no demostrada con los datos del CSV.

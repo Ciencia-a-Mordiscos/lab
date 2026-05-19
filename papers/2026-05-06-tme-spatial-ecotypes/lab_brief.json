@@ -1,0 +1,154 @@
+{
+  "version": "1.0",
+  "paper_id": 2439,
+  "doi": "10.1038/s41586-026-10452-4",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "SE7 medido en cfDNA predice no-respuesta a inmunoterapia con AUC≈0.80 en 78 melanomas pre-tratamiento",
+      "supported": "yes",
+      "detail": "Table S27 cohorte 'All samples': z=-4.49, p=3.1e-6, AUC=0.796. Estudio observacional retrospectivo — asociacional, no causal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibited striking associations",
+      "effect_size": {"measure": "auc", "value": 0.796, "interpretation": "clínicamente útil"}
+    },
+    {
+      "claim": "SE4 medido en cfDNA predice respuesta a inmunoterapia con AUC≈0.76",
+      "supported": "yes",
+      "detail": "Table S27 'All samples': z=+3.88, p=7.0e-5, AUC=0.756. Misma cohorte, asociación opuesta a SE7.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibited striking associations",
+      "effect_size": {"measure": "auc", "value": 0.756, "interpretation": "clínicamente útil"}
+    },
+    {
+      "claim": "El equipo identificó 9 ecosistemas espaciales integrando >10 millones de transcriptomas single-cell y spatial",
+      "supported": "yes",
+      "detail": "Abstract del paper. Verbo: 'identified' (T1 directo).",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified"
+    },
+    {
+      "claim": "Los 9 SEs están presentes en 17 tipos de cáncer (TCGA, n=7076)",
+      "supported": "yes",
+      "detail": "Table S13. Conservación = presencia universal, no nivel uniforme. La abundancia de SE7 varía hasta 1.5× entre cánceres (mediana SE7: 0.054 en THCA → 0.080 en ESCA).",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified"
+    },
+    {
+      "claim": "Siete de las ocho SEs analizadas en cfDNA salen significativas; SE2 es la única sin señal (p=0.55, AUC=0.54)",
+      "supported": "yes",
+      "detail": "Cálculo directo sobre liquid_se_ici_response.csv, cohorte 'All samples'. SE6 no aparece en cfDNA (limitación técnica del método de recuperación).",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibited striking associations"
+    },
+    {
+      "claim": "El AUC en el subgrupo Female (n=25) llega a 0.90 para SE4 — sospechoso de overfitting",
+      "supported": "partial",
+      "detail": "Table S27 subgrupos. AUC>0.85 con n<30 es bandera roja típica en oncología; reportar como limitación.",
+      "certainty_tier": "T2",
+      "abstract_verb": "exhibited striking associations"
+    },
+    {
+      "claim": "Los SEs abren la puerta a personalización de inmunoterapia",
+      "supported": "partial",
+      "detail": "Abstract: 'have implications for improved risk stratification and therapy personalization' (T2 — implicación a futuro, no resultado clínico actual). Requiere validación prospectiva.",
+      "certainty_tier": "T2",
+      "abstract_verb": "have implications for"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9,
+      "unit": "ecosistemas espaciales",
+      "context": "ecosistemas identificados en el microambiente tumoral",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": "más de 10 millones",
+      "unit": "transcriptomas",
+      "context": "single-cell + spatial spot-level integrados para entrenar el modelo",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 78,
+      "unit": "pacientes",
+      "context": "melanomas pre-inmunoterapia con cfDNA EM-seq (Table S27)",
+      "source": "supplementary_table_s27",
+      "verified": true
+    },
+    {
+      "value": 0.80,
+      "unit": "AUC",
+      "context": "SE7 en cfDNA prediciendo no-respuesta a inmunoterapia, cohorte All samples",
+      "source": "supplementary_table_s27",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.796",
+        "our_calculation": "0.796",
+        "discrepancy_pct": 0.0,
+        "reason": "valor directo de Table S27"
+      }
+    },
+    {
+      "value": 0.76,
+      "unit": "AUC",
+      "context": "SE4 en cfDNA prediciendo respuesta a inmunoterapia (predictor positivo opuesto a SE7)",
+      "source": "supplementary_table_s27",
+      "verified": true
+    },
+    {
+      "value": 7076,
+      "unit": "muestras",
+      "context": "tumores TCGA analizados con los 9 SEs (17 tipos de cáncer)",
+      "source": "supplementary_table_s13",
+      "verified": true
+    },
+    {
+      "value": 17,
+      "unit": "tipos de cáncer",
+      "context": "carcinomas + melanoma cubiertos por TCGA en este análisis",
+      "source": "supplementary_table_s13",
+      "verified": true
+    },
+    {
+      "value": 0.70,
+      "unit": "AUC",
+      "context": "umbral clínico estándar de utilidad en oncología (contexto narrativo del notebook)",
+      "source": "narrative_context",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "present", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "identified", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "exhibited striking associations", "tier": "T1 asociacional", "cam_attenuator": "los niveles muestran asociaciones fuertes con — NO usar 'causa'"},
+    {"abstract_verb": "have implications for", "tier": "T2", "cam_attenuator": "abren la puerta a / implicaciones para — no es resultado clínico actual"}
+  ],
+  "narrative_hooks": [
+    "Sin biopsia. Sin tomografía. Solo sangre — y un análisis dice si la inmunoterapia va a funcionar.",
+    "78 pacientes con melanoma. Una muestra de sangre antes del tratamiento. Un número (SE7) predijo quién iba a responder con AUC 0.80.",
+    "El microambiente tumoral viaja en la sangre. Y dice cosas que el oncólogo no puede ver con tomografía."
+  ],
+  "limitations": [
+    "Estudio observacional retrospectivo — asociaciones, no causalidad.",
+    "Cohorte ICI pequeña (n=78); subgrupos por sexo bajan a n=25 (mujeres) y n=53 (hombres).",
+    "AUC del subgrupo Female (~0.90) es sospechosamente alto para n=25 — posible overfitting; el subgrupo Male (n=53) es más confiable.",
+    "TCGA mezcla estadios, tratamientos previos y origen geográfico — los rankings de SE entre tipos de cáncer son descriptivos, no causales.",
+    "Las 9 SEs son una segmentación NMF-style del paper; otros métodos podrían encontrar 7 u 11 ecosistemas igual de válidos.",
+    "SE6 no se recupera bien desde cfDNA (ausente en Table S27) — limitación técnica del método.",
+    "Requiere validación prospectiva antes de uso clínico."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims yes + 2 partial = estándar (3-4 claims densos)"
+  },
+  "notebook_slug": "2026-05-06-tme-spatial-ecotypes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-tme-spatial-ecotypes/notebook.html",
+  "generated_at": "2026-05-19T11:35:00Z"
+}
