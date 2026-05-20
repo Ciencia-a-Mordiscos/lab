@@ -1,0 +1,17 @@
+cancer_code,cancer_name,n_proposals
+LAML,Acute Myeloid Leukemia,13
+COAD,Colon adenocarcinoma,10
+BRCA,Breast invasive carcinoma,10
+SKCM,Skin Cutaneous Melanoma,8
+LUAD,Lung adenocarcinoma,6
+HNSC,Head and Neck squamous cell carcinoma,5
+BLCA,Bladder Urothelial Carcinoma,5
+PAAD,Pancreatic adenocarcinoma,4
+STAD,Stomach adenocarcinoma,3
+READ,Rectum adenocarcinoma,3
+ESCA,Esophageal carcinoma,3
+UVM,Uveal Melanoma,2
+UCEC,Uterine Corpus Endometrial Carcinoma,2
+PRAD,Prostate adenocarcinoma,2
+LUSC,Lung squamous cell carcinoma,1
+CESC,Cervical squamous cell carcinoma and endocervical adenocarcinoma,1

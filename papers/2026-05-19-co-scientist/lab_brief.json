@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "paper_id": 2509,
+  "doi": "10.1038/s41586-026-10644-y",
+  "paper_type": "experimental",
+  "study_design": "experimental_mixed",
+  "species": "human (in vitro AML cell lines: MOLM-13, HL-60, NOMO-1)",
+  "verification_table": [
+    {
+      "claim": "Co-Scientist propuso 78 hipótesis de drug-repurposing en 16 cánceres",
+      "supported": "yes",
+      "detail": "Tabla 2 SI lo reporta literal; el conteo de filas del CSV coincide (78 totales, 16 tipos)",
+      "certainty_tier": "T1",
+      "abstract_verb": "introduce",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "LAML recibió el 17% de las propuestas (13 de 78)",
+      "supported": "yes",
+      "detail": "Cálculo directo sobre Tabla 2: 13/78 = 16.7%",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 2.67,
+        "interpretation": "outlier vs uniforme 4.875"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El equipo validó in vitro 3 líneas celulares AML (MOLM-13, HL-60, NOMO-1)",
+      "supported": "yes",
+      "detail": "Tabla 4 SI las menciona en negrita como las usadas en el estudio",
+      "certainty_tier": "T1",
+      "abstract_verb": "validated through in vitro",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "Co-Scientist mejora todas las métricas de ablation",
+      "supported": "partial",
+      "detail": "7/7 mejoran, pero 2/7 (Reflection +1.2%, Meta-review +0.8% en AUC GPQA) con deltas <2%. Sin intervalos de confianza reportados",
+      "certainty_tier": "T2",
+      "abstract_verb": "show (automated evals)",
+      "effect_size": {
+        "measure": "delta_pct_max",
+        "value": 61.2,
+        "interpretation": "rango fuerte 14-61% en construidos, marginal 1-6% en GPQA externo"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Co-Scientist acelera el descubrimiento científico",
+      "supported": "partial",
+      "detail": "El paper usa 'potential to accelerate' — el sistema propone, los humanos seleccionaron qué validar. No hay ensayos clínicos ni outcome real medido",
+      "certainty_tier": "T3",
+      "abstract_verb": "potential to accelerate",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "La distribución de propuestas por cáncer es neutral",
+      "supported": "no",
+      "detail": "Distribución sesgada: mediana 3.5, AML con 13 es outlier (+2.67× la media uniforme 4.875). 5 cánceres recibieron solo 1-2 propuestas",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "effect_size": {
+        "measure": "ratio_outlier_to_uniform",
+        "value": 2.67
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 78,
+      "unit": "propuestas",
+      "context": "total hipótesis drug-repurposing generadas por Co-Scientist",
+      "source": "Tabla 2 SI",
+      "verified": true
+    },
+    {
+      "value": 16,
+      "unit": "cánceres",
+      "context": "tipos de cáncer cubiertos (códigos TCGA)",
+      "source": "Tabla 2 SI",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "propuestas",
+      "context": "para LAML (leucemia mieloide aguda), el cáncer con más propuestas",
+      "source": "Tabla 2 SI",
+      "verified": true
+    },
+    {
+      "value": 16.7,
+      "unit": "por ciento",
+      "context": "LAML como fracción del total de propuestas",
+      "source": "computado",
+      "verified": true
+    },
+    {
+      "value": 3.5,
+      "unit": "propuestas",
+      "context": "mediana de propuestas por tipo de cáncer",
+      "source": "computado",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "líneas celulares",
+      "context": "líneas AML validadas in vitro (MOLM-13, HL-60, NOMO-1)",
+      "source": "Tabla 4 SI",
+      "verified": true
+    },
+    {
+      "value": 61.2,
+      "unit": "por ciento",
+      "context": "mejora del agente Reflection corrigiendo falso novelty (lower is better)",
+      "source": "Tabla 1 SI",
+      "verified": true
+    },
+    {
+      "value": 19.1,
+      "unit": "por ciento",
+      "context": "mejora del agente Evolution en calidad sobre dataset construido",
+      "source": "Tabla 1 SI",
+      "verified": true
+    },
+    {
+      "value": 1.2,
+      "unit": "por ciento",
+      "context": "mejora marginal del agente Reflection en AUC sobre GPQA (benchmark externo)",
+      "source": "Tabla 1 SI",
+      "verified": true
+    },
+    {
+      "value": 0.8,
+      "unit": "por ciento",
+      "context": "mejora marginal del agente Meta-review en AUC sobre GPQA",
+      "source": "Tabla 1 SI",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (los autores presentan/lanzan Co-Scientist)"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (las validaciones demuestran el potencial)"
+    },
+    {
+      "abstract_verb": "aims to help",
+      "tier": "T3",
+      "cam_attenuator": "busca ayudar / es el objetivo declarado, NO un hecho probado"
+    },
+    {
+      "abstract_verb": "helped identify",
+      "tier": "T2",
+      "cam_attenuator": "ayudó a identificar (NO causal — el sistema sugirió, los humanos seleccionaron)"
+    },
+    {
+      "abstract_verb": "validated through in vitro",
+      "tier": "T2",
+      "cam_attenuator": "validado in vitro (NO en pacientes — limitación crítica)"
+    },
+    {
+      "abstract_verb": "potential to accelerate",
+      "tier": "T3",
+      "cam_attenuator": "el potencial de (NO 'acelera ya' — hedge explícito)"
+    }
+  ],
+  "narrative_hooks": [
+    "78 hipótesis para 16 cánceres. Una pregunta incómoda.",
+    "LAML recibió el 17% de las propuestas — y casualmente es el único cáncer que validaron in vitro.",
+    "Co-Scientist no acelera el descubrimiento: lo propone. Los humanos eligen.",
+    "Las mejoras más fuertes del sistema aparecen cuando lo evalúan con su propio rubro."
+  ],
+  "limitations": [
+    "Validación solo en 3 líneas celulares AML (MOLM-13, HL-60, NOMO-1) — sin ensayos clínicos ni modelos animales",
+    "AUC gains marginales en GPQA (Reflection +1.2%, Meta-review +0.8%), sin intervalos de confianza",
+    "78 propuestas drug-repurposing solo evaluadas computacionalmente; subconjunto pequeño llegó a in vitro",
+    "Sistema construido sobre Gemini — no open source, no reproducible end-to-end por terceros",
+    "Sesgo de selección oculto: el 17% de propuestas para LAML refleja la elección de dominio para validación, no necesariamente una capacidad general"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims completamente soportados + 2 parciales + 1 refutado; narrativa de tensión humano-AI requiere espacio para el hedge sin perder hook"
+  },
+  "notebook_slug": "2026-05-19-co-scientist",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-19-co-scientist/notebook.html",
+  "generated_at": "2026-05-20T16:44:17.082083Z"
+}

@@ -1,0 +1,22 @@
+titulo: "Co-Scientist: el AI que propone 78 hipótesis y los humanos eligen una"
+fecha: 2026-05-20
+categoria: tecnologia
+tags: [ia, drug-repurposing, cancer, biomedicina, multi-agente, google-deepmind]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10644-y"
+    titulo: "Accelerating scientific discovery with Co-Scientist"
+    journal: Nature
+    autores: "Gottweis et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cancer_types_proposals.csv"
+    descripcion: "Distribución de 78 propuestas drug-repurposing por tipo de cáncer (TCGA)"
+    fuente: "Supplementary Information Tabla 2"
+  - nombre: "agent_ablations.csv"
+    descripcion: "Métricas before/after de 7 ablations sobre 3 agentes"
+    fuente: "Supplementary Information Tabla 1"
+estado: publicado
