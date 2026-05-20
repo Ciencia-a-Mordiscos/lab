@@ -1,0 +1,7 @@
+task,request_tokens,response_tokens,duration_min,sandbox_type
+Batch Integration,16171,4183,8.0,GPU
+Covid Forecasting,9607,3392,1.2,CPU
+GIFT-Eval,15828,9308,53.3,CPU
+Integrals,224415,6074,1.5,CPU
+Geospatial,7186,3172,16.4,GPU
+ZAPBench,16809,8036,192.2,GPU

@@ -1,0 +1,33 @@
+titulo: "IA escribe software científico expert-level"
+fecha: 2026-05-19
+categoria: tecnologia
+tags:
+  - ia
+  - machine-learning
+  - benchmarks
+  - forecasting
+  - segmentacion
+  - software
+  - llm
+  - tree-search
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10658-6"
+    titulo: "An AI system to help scientists write expert-level empirical software"
+    journal: "Nature"
+    autores: "Aygün et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "gift_eval_leaderboard.csv"
+    descripcion: "Leaderboard GIFT-Eval (snapshot 2025-05-18) — 32 modelos de forecasting ordenados por MASE."
+    fuente: "Supplementary Table S12 (Nature SI)"
+  - nombre: "dlrsd_benchmark.csv"
+    descripcion: "Benchmark DLRSD de segmentación geoespacial — 3 soluciones ERA vs 5 papers publicados 2021-2025."
+    fuente: "Supplementary Table S14 (Nature SI)"
+  - nombre: "computational_budget.csv"
+    descripcion: "Presupuesto computacional por tarea (tokens + duración) para los 6 benchmarks."
+    fuente: "Supplementary Table S1 (Nature SI)"
+estado: publicado

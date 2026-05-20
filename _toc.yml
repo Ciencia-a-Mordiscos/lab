@@ -596,6 +596,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-19-ia-software-cientifico-experto/README
+    title: "IA escribe software científico expert-level"
+    sections:
+    - file: papers/2026-05-19-ia-software-cientifico-experto/notebook
+      title: Notebook
   - file: papers/2026-05-14-cobre-corrosion-catecol/README
     title: "Imprimir circuitos de cobre a 150 °C"
     sections:

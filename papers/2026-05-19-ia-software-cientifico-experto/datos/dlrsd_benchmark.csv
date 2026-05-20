@@ -1,0 +1,9 @@
+method,year,architecture_type,key_features,miou,source
+Solution 1 (TS),2025,CNN (UNet++),efficientnet-b7 encoder 8-fold TTA,0.81,ERA
+Solution 2 (TS),2025,Transformer (SegFormer),mit-b1 encoder 4-fold TTA,0.82,ERA
+Solution 3 (TS),2025,CNN (U-Net),se_resnext101_32x4d encoder 7-fold TTA,0.80,ERA
+RE-Net,2021,CNN (Region-based),Region Context Learning,0.762,paper
+FURSformer,2023,CNN+Transformer,Custom fusion module,0.753,paper
+SCGLU-Net,2024,CNN+Attention,Spatial-Channel-Global-Local block,0.666,paper
+MA-UNet,2022,Attention+U-Net,Residual encoder with simAM,0.619,paper
+W13 Net,2025,CNN (Lightweight),Multi-stage encoding-decoding,0.580,paper

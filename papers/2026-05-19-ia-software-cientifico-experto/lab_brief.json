@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "paper_id": 2508,
+  "doi": "10.1038/s41586-026-10658-6",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "ERA alcanza resultados nivel experto en GIFT-Eval",
+      "supported": "yes",
+      "detail": "ERA Per-dataset MASE=0.671 rank #1 entre 32 modelos; ERA Unified rank #6. Ambos por debajo del baseline naive.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieves",
+      "supported_by_data": true
+    },
+    {
+      "claim": "ERA bate al segundo clasificado por margen pequeño en forecasting",
+      "supported": "yes",
+      "detail": "Ventaja relativa 1.19% sobre TTM-R2-Finetuned (0.679). Consistente y de punta, no aplastante.",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperformed",
+      "supported_by_data": true
+    },
+    {
+      "claim": "ERA produce software expert-level para segmentación geoespacial",
+      "supported": "yes",
+      "detail": "Las 3 soluciones ERA (mIoU 0.80-0.82) superan al mejor paper previo (RE-Net 2021, 0.762) por 5-7.6% relativo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "produced",
+      "supported_by_data": true
+    },
+    {
+      "claim": "ERA generó 40 métodos novedosos en single-cell que baten a top humanos",
+      "supported": "partial",
+      "detail": "Abstract lo afirma, SI §1 lo describe cualitativamente, pero no hay tabla numérica completa reproducible.",
+      "certainty_tier": "T2",
+      "abstract_verb": "discovered",
+      "supported_by_data": false
+    },
+    {
+      "claim": "ERA generó 14 modelos que baten al ensemble CDC en COVID-19",
+      "supported": "partial",
+      "detail": "Mismo escenario: descrito en abstract y SI sin tabla numérica completa abierta.",
+      "certainty_tier": "T2",
+      "abstract_verb": "generated",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Sistema ERA = LLM + Tree Search con baselines integrados",
+      "supported": "yes",
+      "detail": "Paper describe el algoritmo y Tablas S13 lista componentes rule-based integrados en la búsqueda.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uses",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.671,
+      "unit": "MASE (Mean Absolute Scaled Error, adimensional, menor mejor)",
+      "context": "ERA Per-dataset, rank #1 en GIFT-Eval entre 32 modelos",
+      "source": "supplementary_table_s12",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.671 (Table S12)",
+        "our_calculation": "0.671 (lectura directa CSV)",
+        "discrepancy_pct": 0.0,
+        "reason": "transcripción literal del Supplementary"
+      }
+    },
+    {
+      "value": 0.679,
+      "unit": "MASE",
+      "context": "TTM-R2-Finetuned, segundo clasificado en GIFT-Eval",
+      "source": "supplementary_table_s12",
+      "verified": true
+    },
+    {
+      "value": 0.734,
+      "unit": "MASE",
+      "context": "ERA Unified, rank #6 en GIFT-Eval",
+      "source": "supplementary_table_s12",
+      "verified": true
+    },
+    {
+      "value": 32,
+      "unit": "modelos",
+      "context": "total de modelos en el leaderboard GIFT-Eval (snapshot 2025-05-18)",
+      "source": "supplementary_table_s12",
+      "verified": true
+    },
+    {
+      "value": 1.19,
+      "unit": "% relativo",
+      "context": "ventaja de ERA Per-dataset sobre TTM-R2-Finetuned (segundo clasificado)",
+      "source": "calculated_from_csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.18% (Fact Sheet redondeo)",
+        "our_calculation": "1.19% — (0.679-0.671)/0.671 * 100",
+        "discrepancy_pct": 0.85,
+        "reason": "redondeo del Fact Sheet vs cálculo en notebook"
+      }
+    },
+    {
+      "value": 30,
+      "unit": "modelos humanos",
+      "context": "ERA Per-dataset (rank #1) supera 30 sistemas diseñados por equipos humanos; ERA Unified ocupa otro puesto",
+      "source": "supplementary_table_s12",
+      "verified": true
+    },
+    {
+      "value": 1.0,
+      "unit": "MASE",
+      "context": "baseline Seasonal Naive — referencia de 'igual de bueno que adivinar'",
+      "source": "supplementary_table_s12",
+      "verified": true
+    },
+    {
+      "value": 0.81,
+      "unit": "mIoU (mean Intersection over Union, 0-1, mayor mejor)",
+      "context": "media de las 3 soluciones ERA en DLRSD (rango 0.80-0.82)",
+      "source": "supplementary_table_s14",
+      "verified": true
+    },
+    {
+      "value": 0.762,
+      "unit": "mIoU",
+      "context": "RE-Net (2021), mejor paper previo en DLRSD",
+      "source": "supplementary_table_s14",
+      "verified": true
+    },
+    {
+      "value": 5.0,
+      "unit": "% relativo",
+      "context": "gap entre la peor ERA (mIoU 0.80) y el mejor paper humano (RE-Net 0.762) en DLRSD",
+      "source": "calculated_from_csv",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "soluciones",
+      "context": "número de submissions ERA en DLRSD",
+      "source": "supplementary_table_s14",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "papers humanos",
+      "context": "papers publicados 2021-2025 comparados en DLRSD",
+      "source": "supplementary_table_s14",
+      "verified": true
+    },
+    {
+      "value": 272.6,
+      "unit": "minutos",
+      "context": "cómputo total para los 6 benchmarks de ERA (~4.5 h)",
+      "source": "supplementary_table_s1",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "tareas",
+      "context": "número de benchmarks evaluados por ERA en el paper",
+      "source": "paper_abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"presentan\" / \"construyeron\""
+    },
+    {
+      "abstract_verb": "achieve",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"alcanza\" / \"logra\""
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "outperformed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con número: \"superó por X%\""
+    },
+    {
+      "abstract_verb": "discovered",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa cuando se refiere al sistema generando soluciones"
+    },
+    {
+      "abstract_verb": "generated",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "produced",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "represent",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que es un paso' — NO escalar a 'revolución' o 'breakthrough'"
+    }
+  ],
+  "narrative_hooks": [
+    "Un sistema de IA puso 30 modelos diseñados por humanos detrás de sí en un benchmark público de pronóstico de series temporales.",
+    "El margen de ERA sobre el segundo puesto en GIFT-Eval es 1.19% — gana, pero no aplasta. La sorpresa es la consistencia, no la magnitud.",
+    "En segmentación de imágenes satelitales (DLRSD), las 3 submissions de ERA superan a 5 papers publicados entre 2021 y 2025; incluso la peor ERA le saca 5% al mejor humano."
+  ],
+  "limitations": [
+    "Snapshot del leaderboard GIFT-Eval congelado en 2025-05-18 — otros releases pueden tener un nuevo #1.",
+    "Dos claims del abstract (40 métodos single-cell, 14 modelos COVID) no tienen tabla numérica reproducible en el Supplementary — solo descripción cualitativa.",
+    "El paper no compara ERA contra otros agentes de IA que escriben código (AlphaCode, AutoML), solo contra baselines humanos.",
+    "'Expert-level' es la caracterización de los autores, no test ciego de comité independiente."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes), 2 parciales, 14 números clave"
+  },
+  "notebook_slug": "2026-05-19-ia-software-cientifico-experto",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-19-ia-software-cientifico-experto/notebook.html",
+  "generated_at": "2026-05-20T16:18:43.072540Z"
+}
