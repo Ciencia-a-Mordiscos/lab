@@ -1,0 +1,34 @@
+titulo: "Humedales y metano: 28 modelos, el mismo veredicto"
+fecha: 2026-05-20
+categoria: ecologia
+tags: [metano, humedales, clima, ensamble, modelos, ch4, calentamiento]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01987-2"
+    titulo: "Emergent constraints on future methane emissions from global wetlands"
+    journal: "Nature Geoscience"
+    autores: "Zhang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "eCH4_annual_global.csv"
+    descripcion: "Emisiones anuales de CH4 globales 2006-2099, 28 ensambles (7 TBMs × 4 forzantes ESM), escenario S2"
+    fuente: "FUMEMIP / Zenodo"
+  - nombre: "eCH4_annual_tropics.csv"
+    descripcion: "eCH4 anual región tropical"
+    fuente: "FUMEMIP / Zenodo"
+  - nombre: "eCH4_annual_boreal.csv"
+    descripcion: "eCH4 anual región boreal"
+    fuente: "FUMEMIP / Zenodo"
+  - nombre: "eCH4_annual_temperate.csv"
+    descripcion: "eCH4 anual región templada"
+    fuente: "FUMEMIP / Zenodo"
+  - nombre: "eCH4_annual_extropics.csv"
+    descripcion: "eCH4 anual polar sur"
+    fuente: "FUMEMIP / Zenodo"
+  - nombre: "wetland_eCH4_feedback_probability.csv"
+    descripcion: "Tabla de incremento eCH4 constrained por observaciones EC, por década 2010s-2090s, por percentil"
+    fuente: "FUMEMIP / Zenodo"
+estado: publicado

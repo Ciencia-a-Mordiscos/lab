@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "paper_id": 2511,
+  "doi": "10.1038/s41561-026-01987-2",
+  "paper_type": "modelo_simulacion",
+  "study_design": "ensemble_multi_modelo_constrained_observaciones",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los 28 ensambles aumentan emisiones de CH4 de humedales hacia 2099 bajo escenario alto (S2)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "28/28 modelos muestran tendencia positiva 2006-2099. Mediana global pasa de 224.5 Tg/yr (2010s) a 327.6 Tg/yr (2090s)",
+      "certainty_tier": "T1",
+      "abstract_verb": "are predicted to increase",
+      "effect_size": {
+        "measure": "delta_pct_median",
+        "value": 53.9,
+        "interpretation": "aumento sustantivo"
+      }
+    },
+    {
+      "claim": "El aumento mediano global 2090s vs 2010s es ~54% (P17-P83: 37-64%)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mediana cruda 53.9% cae dentro del rango constrained 50-60% reportado por el paper con su filtro emergente de 163 torres EC",
+      "certainty_tier": "T1",
+      "abstract_verb": "we show that wetland emissions can increase by 50-60%",
+      "effect_size": {
+        "measure": "delta_pct",
+        "value": 53.9,
+        "interpretation": "50-60% por 2090s"
+      }
+    },
+    {
+      "claim": "Los trópicos aportan ~72% del aumento absoluto global",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Δabs trópicos = 81.6 Tg/yr de un global de 113.1 Tg/yr (72.2%). Mediana per-ensemble da 73.7%",
+      "certainty_tier": "T1",
+      "abstract_verb": "we present",
+      "effect_size": {
+        "measure": "share_pct",
+        "value": 72.2,
+        "interpretation": "dominante en absoluto"
+      }
+    },
+    {
+      "claim": "La región boreal duplica sus emisiones (mayor cambio relativo del planeta)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Δ% boreal = 102.3% (ratio proj/base ≈ 1.99); pero solo aporta 7.2 Tg/yr en absoluto",
+      "certainty_tier": "T1",
+      "abstract_verb": "we present",
+      "effect_size": {
+        "measure": "delta_pct",
+        "value": 102.3,
+        "interpretation": "duplicación"
+      }
+    },
+    {
+      "claim": "El aumento adicional en los 2030s (mediana ~35 Tg/yr) equivale a ~9% del CH4 antropogénico 2020",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Mediana 2030s constrained = 35.05 Tg/yr; usando 380 Tg/yr (Saunois et al. 2024) como referencia da 9.2%. El paper reporta banda 8-10%",
+      "certainty_tier": "T2",
+      "abstract_verb": "would very likely (90% probability) offset",
+      "effect_size": {
+        "measure": "share_pct_antropo",
+        "value": 9.2,
+        "interpretation": "banda 8-10%"
+      }
+    },
+    {
+      "claim": "El aumento en 2030s es 'comparable' a lo que reduciría el Global Methane Pledge — pero NO lo cancela",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Pledge pide 30% recorte ≈ 114 Tg/yr. Aumento natural 2030s ≈ 35 Tg/yr ≈ un tercio del recorte humano prometido. El paper usa 'comparable in scale to', no 'cancela'",
+      "certainty_tier": "T2",
+      "abstract_verb": "comparable to the reductions committed",
+      "effect_size": {
+        "measure": "ratio_pledge",
+        "value": 0.31,
+        "interpretation": "~1/3 del recorte"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 28,
+      "unit": "ensambles",
+      "context": "7 TBMs × 4 forzantes ESM, escenario S2",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 224.5,
+      "unit": "Tg CH4/yr",
+      "context": "mediana baseline 2010s",
+      "source": "calculo_notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "ver fact_sheet baseline_2010s_median_Tg_yr=224.5",
+        "our_calculation": "224.5",
+        "discrepancy_pct": 0.0,
+        "reason": "lectura directa"
+      }
+    },
+    {
+      "value": 327.6,
+      "unit": "Tg CH4/yr",
+      "context": "mediana proyección 2090s",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 113.1,
+      "unit": "Tg CH4/yr",
+      "context": "delta absoluto mediano 2090s vs 2010s",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 53.9,
+      "unit": "por ciento",
+      "context": "delta relativo mediano 2090s vs 2010s",
+      "source": "calculo_notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "50-60% (constrained)",
+        "our_calculation": "53.9% (raw ensemble)",
+        "discrepancy_pct": 0.0,
+        "reason": "mediana cruda cae en banda constrained"
+      }
+    },
+    {
+      "value": 81.6,
+      "unit": "Tg CH4/yr",
+      "context": "delta absoluto trópicos 2090s vs 2010s",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 102.3,
+      "unit": "por ciento",
+      "context": "delta relativo boreal",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 7.2,
+      "unit": "Tg CH4/yr",
+      "context": "delta absoluto boreal",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 35.05,
+      "unit": "Tg CH4/yr",
+      "context": "mediana incremento 2030s vs 2010s constrained",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.2,
+      "unit": "por ciento",
+      "context": "fracción del CH4 antropogénico 2020 (380 Tg) que representa el aumento 2030s",
+      "source": "calculo_notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "8-10%",
+        "our_calculation": "9.2%",
+        "discrepancy_pct": 0.0,
+        "reason": "dentro de banda"
+      }
+    },
+    {
+      "value": 163,
+      "unit": "site-year eddy-covariance",
+      "context": "observaciones que constriñen el ensamble (emergent constraint)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "TBMs",
+      "context": "modelos terrestres del ensamble",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "ESMs",
+      "context": "forzantes climáticos atmosféricos del ensamble",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "are predicted to increase",
+      "tier": "T2",
+      "cam_attenuator": "se proyecta que aumenten"
+    },
+    {
+      "abstract_verb": "Our estimates suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    },
+    {
+      "abstract_verb": "we present novel ensemble simulations",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa de lo hecho"
+    },
+    {
+      "abstract_verb": "identify an emergent relationship",
+      "tier": "T1",
+      "cam_attenuator": "encontraron / identificaron"
+    },
+    {
+      "abstract_verb": "we show that wetland emissions can increase by 50-60%",
+      "tier": "T1/T2",
+      "cam_attenuator": "se proyecta — rango, no certeza absoluta"
+    },
+    {
+      "abstract_verb": "would very likely (90% probability) offset",
+      "tier": "T2 IPCC explicito",
+      "cam_attenuator": "es muy probable (90%) que compense — NO escalar a 'compensará'"
+    },
+    {
+      "abstract_verb": "uncertainties contribute substantially",
+      "tier": "T2",
+      "cam_attenuator": "queda incertidumbre considerable"
+    },
+    {
+      "abstract_verb": "constraint is dominated by mid- and high-latitude observations",
+      "tier": "limitación explícita",
+      "cam_attenuator": "el constraint cubre mejor latitudes medias y altas; trópicos siguen con incertidumbre mayor"
+    }
+  ],
+  "narrative_hooks": [
+    "Los países prometieron recortar 30% del metano humano para 2030; los humedales podrían sumar, solo por calentamiento, 9% de esa misma cifra en la misma década — un tercio del recorte humano comprometido",
+    "28 caminos independientes (7 modelos × 4 climas) apuntan a la misma dirección: cuanto más calor, más metano de humedales",
+    "El trópico aporta el 72% del aumento absoluto, pero el constraint del paper se basa sobre todo en torres de latitudes medias y altas — la incertidumbre está concentrada donde está el grueso del cambio"
+  ],
+  "limitations": [
+    "El filtro emergente (las 163 torres) no es replicable con los datos públicos: requiere las series de temperatura de cada ESM y el código del constraint",
+    "La sensibilidad 24 ± 10 Tg/°C tampoco es replicable con este Zenodo",
+    "Las observaciones de validación están sesgadas a latitudes medias y altas; los trópicos, donde está la mayor masa del aumento, son justo donde queda más incertidumbre",
+    "El escenario S2 representa calentamiento alto; bajo escenarios de mitigación más estrictos el aumento sería menor",
+    "Las incertidumbres sobre proyección de inundación de humedales contribuyen sustancialmente a la incertidumbre del paper (declarado por los autores)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (4 yes + 2 partial) + 13 números clave => script denso"
+  },
+  "notebook_slug": "2026-05-20-metano-humedales-clima",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-20-metano-humedales-clima/notebook.html",
+  "generated_at": "2026-05-20T15:48:12.384627Z"
+}

@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-20-metano-humedales-clima/README
+    title: "Humedales y metano: 28 modelos, el mismo veredicto"
+    sections:
+    - file: papers/2026-05-20-metano-humedales-clima/notebook
+      title: Notebook
   - file: papers/2026-05-19-fitoplancton-reconvierte-progestogenos/README
     title: "Fitoplancton reconvierte progestogenos a su forma activa"
     sections:
