@@ -596,6 +596,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-21-lidar-objetos-ocultos-celular/README
+    title: "LiDAR de US$100 ve detrás de las paredes"
+    sections:
+    - file: papers/2026-05-21-lidar-objetos-ocultos-celular/notebook
+      title: Notebook
   - file: papers/2026-05-19-co-scientist/README
     title: "Co-Scientist: el AI que propone 78 hipótesis y los humanos eligen una"
     sections:

@@ -1,0 +1,233 @@
+{
+  "version": "1.0",
+  "paper_id": 2521,
+  "doi": "10.1038/s41586-026-10502-x",
+  "paper_type": "experimental",
+  "study_design": "engineering-systems",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El método propuesto logra un error promedio de localización de 3,8 cm sobre 25.000 ensayos",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Valor literal del SI § 5.1. Verificado en errores_baselines.csv. Es promedio agregado, no error por cuadro.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieve",
+      "effect_size": {
+        "measure": "factor_improvement",
+        "value": 1.68,
+        "interpretation": "mejora vs backprojection"
+      }
+    },
+    {
+      "claim": "El método propuesto es 1,7× mejor que backprojection y 4,1× mejor que phasor field",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Aritmética directa sobre errores_baselines.csv: 6,4/3,8=1,68; 15,7/3,8=4,13",
+      "certainty_tier": "T1",
+      "abstract_verb": "compare",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 4.13,
+        "interpretation": "factor mejora vs peor baseline"
+      }
+    },
+    {
+      "claim": "Conocer la forma del objeto reduce el error: Patch 4,3 vs 6,7 cm (1,56×), U 10,6 vs 26,9 cm (2,54×)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Valores literales del SI (Fig. 4 tabla). El efecto es mucho más fuerte en objetos no convexos como la 'U'",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 2.54,
+        "interpretation": "factor degradación sin forma conocida en U"
+      }
+    },
+    {
+      "claim": "El sensor es el ST VL53L8CX, un multizone time-of-flight que cuesta menos de US$100",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "El paper especifica ST VL53L8CX/L8CH. Precio confirmable en datasheet pública. CRÍTICO: NO es el LiDAR del iPhone/iPad — son sensores distintos",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "effect_size": null
+    },
+    {
+      "claim": "El particle filter sigue una trayectoria de 475 cuadros (≈95 s a 5 fps) con recorrido ~1,38 m en X y ~0,35 m en Y",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Calculado en el notebook desde trayectoria_tracking.csv. Verificado: 475 filas, x_range 1.38 m, y_range 0.35 m",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "La incertidumbre por cuadro individual ronda los ~24 cm (mediana 23,3 cm) — muy distinta del titular 3,8 cm que es el promedio",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Calculado en el notebook como magnitud de la std XY de las 1000 partículas por cuadro. El paper lo enmarca como promedio sobre 25k ensayos; el error promedio escala con √N",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 6.3,
+        "interpretation": "razón entre incertidumbre instantánea (~24 cm) y promedio agregado (3,8 cm)"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.8,
+      "unit": "cm",
+      "context": "error promedio de localización del método propuesto",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3.8 cm",
+        "our_calculation": "3.8 cm (literal)",
+        "discrepancy_pct": 0.0,
+        "reason": "valor literal del SI"
+      }
+    },
+    {
+      "value": 6.4,
+      "unit": "cm",
+      "context": "error promedio del baseline backprojection",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15.7,
+      "unit": "cm",
+      "context": "error promedio del baseline phasor field",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.68,
+      "unit": "factor",
+      "context": "mejora del método propuesto vs backprojection",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.13,
+      "unit": "factor",
+      "context": "mejora del método propuesto vs phasor field",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.3,
+      "unit": "cm",
+      "context": "error total para Patch 25x25 con forma conocida",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.7,
+      "unit": "cm",
+      "context": "error total para Patch 25x25 sin forma conocida",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10.6,
+      "unit": "cm",
+      "context": "error total para U 40x45 con forma conocida",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26.9,
+      "unit": "cm",
+      "context": "error total para U 40x45 sin forma conocida",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 475,
+      "unit": "cuadros",
+      "context": "longitud del seguimiento de persona en el dataset abierto",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 95,
+      "unit": "segundos",
+      "context": "duración del seguimiento a 5 fps",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 24,
+      "unit": "cm",
+      "context": "magnitud típica de incertidumbre por cuadro individual (mediana 23.3 cm)",
+      "source": "computed",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no reportado directamente",
+        "our_calculation": "mediana(√(std_x² + std_y²)) sobre 475 cuadros = 23.3 cm",
+        "discrepancy_pct": null,
+        "reason": "calculado desde datos abiertos"
+      }
+    },
+    {
+      "value": 100,
+      "unit": "USD",
+      "context": "techo de precio del sensor ST VL53L8CX",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa ('demuestran')"
+    },
+    {
+      "abstract_verb": "propose",
+      "tier": "T2",
+      "cam_attenuator": "'proponen una estrategia' — no presentar como hecho probado"
+    },
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación descriptiva"
+    },
+    {
+      "abstract_verb": "could enable",
+      "tier": "T3",
+      "cam_attenuator": "'podrían permitir' / 'abren la puerta a'"
+    },
+    {
+      "abstract_verb": "represent a shift towards",
+      "tier": "T2",
+      "cam_attenuator": "'apuntan hacia' — NO 'reemplazan al hardware científico'"
+    }
+  ],
+  "narrative_hooks": [
+    "Un sensor más pequeño que una moneda, con precio de menos de US$100, reconstruyó la posición de un objeto oculto con error promedio de 3,8 cm",
+    "El titular esconde un detalle: 3,8 cm es el promedio sobre 25.000 ensayos; en un cuadro individual la incertidumbre ronda 24 cm",
+    "El factor que más cambia el resultado no es el sensor — es saber qué forma estás buscando",
+    "Es el LiDAR de cualquiera, no el del iPhone: el VL53L8CX cuesta menos que una pizza familiar"
+  ],
+  "limitations": [
+    "Solo 2 baselines comparados (backprojection y phasor field) — no incluye métodos learned-NLOS más recientes",
+    "Objetos planos y escenas controladas — sin validación en habitaciones reales con muebles arbitrarios",
+    "El sensor es el ST VL53L8CX/L8CH industrial, NO el LiDAR del iPhone/iPad (son sensores distintos con specs diferentes)",
+    "Algunos datos del 'proprietary device' no se liberaron — solo los del ST VL53L8CX/L8CH están abiertos",
+    "Compromiso temporal: 5 fps de adquisición, mejor desempeño requiere acumular muchos cuadros (no es video en vivo)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verified yes + 12 key_numbers — script denso"
+  },
+  "notebook_slug": "2026-05-21-lidar-objetos-ocultos-celular",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-21-lidar-objetos-ocultos-celular/notebook.html",
+  "generated_at": "2026-05-21T15:51:24.974175Z"
+}

@@ -1,0 +1,5 @@
+objeto,forma_conocida,error_x_cm,error_y_cm,error_z_cm,error_total_cm
+Patch 25x25 cm,True,2.1,2.2,2.3,4.3
+Patch 25x25 cm,False,4.1,4.3,1.0,6.7
+U 40x45 cm,True,3.7,4.1,8.0,10.6
+U 40x45 cm,False,14.1,20.3,3.4,26.9

@@ -1,0 +1,28 @@
+titulo: "LiDAR de US$100 ve detrás de las paredes"
+fecha: 2026-05-21
+categoria: tecnologia
+tags: [lidar, nlos, imaging, hardware-consumer, particle-filter, fotonica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10502-x"
+    titulo: "Imaging hidden objects with consumer LiDAR via motion-induced sampling"
+    journal: Nature
+    autores: "Somasundaram et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "errores_baselines.csv"
+    descripcion: "Error promedio por método (particle filter, backprojection, phasor field)"
+    fuente: "Supplementary Information § 5.1"
+  - nombre: "errores_por_dimension.csv"
+    descripcion: "Errores X/Y/Z por objeto y condición (forma conocida vs desconocida)"
+    fuente: "Supplementary Information, Fig. 4"
+  - nombre: "histograma_spad_frame0.csv"
+    descripcion: "Histograma del SPAD para 1 cuadro (128 bins × 16 píxeles)"
+    fuente: "github.com/sidsoma/consumer-nlos"
+  - nombre: "trayectoria_tracking.csv"
+    descripcion: "Trayectoria estimada por el particle filter (475 cuadros @ 5 fps)"
+    fuente: "github.com/sidsoma/consumer-nlos"
+estado: publicado
