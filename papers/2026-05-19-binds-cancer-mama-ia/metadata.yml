@@ -1,0 +1,31 @@
+titulo: "BINDS: cáncer de mama por IA, examinado por dentro"
+fecha: 2026-05-19
+categoria: medicina
+tags: [cancer-de-mama, deep-learning, ia-medica, imagenologia, validacion-retrospectiva, auroc]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01654-2"
+    titulo: "A deep learning system for non-invasive breast cancer diagnosis with multimodal data"
+    journal: "Nature Biomedical Engineering"
+    autores: "Liu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "auroc_riesgo_por_modalidad.csv"
+    descripcion: "AUROC por combinación de modalidad (US, MM, MRI y combos), validación interna y externa."
+    fuente: "Supplementary MOESM4 (fig 3a radar plot)"
+  - nombre: "desempeno_por_subgrupo.csv"
+    descripcion: "AUC-ROC, AUC-PR, F1 con 95% CI por subgrupo clínico (Overall, BI-RADS 4A/4B/4C, edad, T-stage, subtipo)."
+    fuente: "Supplementary MOESM4 (fig 3c)"
+  - nombre: "eficiencia_datos_entrenamiento.csv"
+    descripcion: "AUROC vs % de datos de entrenamiento por modalidad y two-stage."
+    fuente: "Supplementary MOESM7 (Extended Fig 5b)"
+  - nombre: "ablacion_random_masking.csv"
+    descripcion: "Ablation BINDS vs sin random masking en combinaciones bi/trimodales con 95% CI."
+    fuente: "Supplementary MOESM7 (Extended Fig 5e)"
+  - nombre: "auroc_subtipo_por_modalidad.csv"
+    descripcion: "AUROC para clasificación de subtipo molecular por modalidad."
+    fuente: "Supplementary MOESM4 (fig 3b radar plot)"
+estado: publicado

@@ -1,0 +1,203 @@
+{
+  "version": "1.0",
+  "paper_id": 2513,
+  "doi": "10.1038/s41551-026-01654-2",
+  "paper_type": "experimental",
+  "study_design": "model_validation_retrospectivo",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "AUROC overall = 0,973 con 95% CI [0,964–0,981] en validación externa",
+      "supported": "yes",
+      "detail": "Verificado fila Overall en MOESM4 (fig3c). Headline del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "attains",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Ganancia trimodal sobre la mejor modalidad única ≈ +4,1 puntos porcentuales (0,950 vs 0,909)",
+      "supported": "yes",
+      "detail": "Calculado directo de auroc_riesgo_por_modalidad.csv (external).",
+      "certainty_tier": "T1",
+      "abstract_verb": "validated",
+      "supported_by_data": true
+    },
+    {
+      "claim": "BI-RADS 4A tiene AUC=0,85 con CI ancho [0,76–0,97]; ancho del CI = 0,21",
+      "supported": "yes",
+      "detail": "Verificado en MOESM4 (fig3c). El más amplio de todos los subgrupos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "validated",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Mamografía alcanza AUROC ≈ 0,87 con solo el 10% de los datos de entrenamiento",
+      "supported": "yes",
+      "detail": "Verificado en MOESM7 (extend_fig5b_risk). MM se satura mucho antes que ecografía.",
+      "certainty_tier": "T1",
+      "abstract_verb": "validated",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Headline AUROC 0,973 está 6,0 puntos porcentuales sobre la mediana (0,913) de las 69 AUROCs reportadas en el paper",
+      "supported": "yes",
+      "detail": "Cálculo nuestro sobre la unión de todos los Source Data descargados (modalidades + subgrupos + eficiencia + ablations + subtipo).",
+      "certainty_tier": "T1",
+      "abstract_verb": "(notebook)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "BINDS puede reducir biopsias de lesiones benignas hasta 32,4%",
+      "supported": "partial",
+      "detail": "Reportado en el abstract pero no presente en los Supplementary Source Data que descargamos. Verbo del abstract: 'can assist' (T2, hedge claro).",
+      "certainty_tier": "T2",
+      "abstract_verb": "can assist",
+      "supported_by_data": false
+    },
+    {
+      "claim": "BINDS reemplaza al radiólogo en práctica clínica",
+      "supported": "no",
+      "detail": "Ningún experimento del paper lo respalda. Validación retrospectiva, no comparación clínica prospectiva. Los autores escriben 'highlight the potential', no 'demonstrates'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "highlight the potential",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.973,
+      "unit": "AUROC",
+      "context": "headline overall en validación externa con todas las modalidades (two-stage)",
+      "source": "MOESM4 fig3c",
+      "verified": true
+    },
+    {
+      "value": 0.876,
+      "unit": "AUROC",
+      "context": "ultrasonido solo en validación externa",
+      "source": "MOESM4 fig3a",
+      "verified": true
+    },
+    {
+      "value": 0.95,
+      "unit": "AUROC",
+      "context": "trimodal US+MM+MRI en validación externa",
+      "source": "MOESM4 fig3a",
+      "verified": true
+    },
+    {
+      "value": 4.1,
+      "unit": "puntos porcentuales",
+      "context": "ganancia trimodal vs mejor unimodal (MRI)",
+      "source": "cálculo notebook (0.950 - 0.909)",
+      "verified": true
+    },
+    {
+      "value": 0.85,
+      "unit": "AUROC",
+      "context": "BI-RADS 4A en validación externa",
+      "source": "MOESM4 fig3c",
+      "verified": true
+    },
+    {
+      "value": 0.21,
+      "unit": "ancho del 95% CI",
+      "context": "BI-RADS 4A (CI 0,76–0,97) — el más amplio de los subgrupos",
+      "source": "cálculo notebook",
+      "verified": true
+    },
+    {
+      "value": 0.87,
+      "unit": "AUROC",
+      "context": "mamografía con solo 10% de los datos de entrenamiento",
+      "source": "MOESM7 extend_fig5b_risk",
+      "verified": true
+    },
+    {
+      "value": 27048,
+      "unit": "participantes",
+      "context": "cohorte total (8 centros + 7 datasets públicos)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 32.4,
+      "unit": "por ciento",
+      "context": "reducción potencial de biopsias benignas (verbo abstract: 'can assist')",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 0.913,
+      "unit": "AUROC",
+      "context": "mediana de las 69 AUROCs reportadas en el paper (cálculo nuestro)",
+      "source": "notebook (unión de Source Data)",
+      "verified": true
+    },
+    {
+      "value": 6.0,
+      "unit": "puntos porcentuales",
+      "context": "delta entre el headline 0,973 y la mediana de las mediciones del paper",
+      "source": "cálculo notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "introducen / presentan (afirmación directa)"
+    },
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "desarrollan / construyen"
+    },
+    {
+      "abstract_verb": "validated with",
+      "tier": "T1",
+      "cam_attenuator": "validan con"
+    },
+    {
+      "abstract_verb": "attains",
+      "tier": "T1",
+      "cam_attenuator": "alcanza (afirmación directa)"
+    },
+    {
+      "abstract_verb": "propose",
+      "tier": "T2",
+      "cam_attenuator": "proponen un mecanismo (atributivo)"
+    },
+    {
+      "abstract_verb": "can assist",
+      "tier": "T2",
+      "cam_attenuator": "podría ayudar a (hedge claro)"
+    },
+    {
+      "abstract_verb": "highlight the potential",
+      "tier": "T2",
+      "cam_attenuator": "apunta al potencial (NO 'demuestra el beneficio clínico')"
+    }
+  ],
+  "narrative_hooks": [
+    "AUROC 0,973 suena perfecto. Pero la mediana de las 69 AUROCs que reporta el propio paper es 0,913 — el headline vive en el mejor escenario.",
+    "Con solo ultrasonido (la prueba más accesible) BINDS cae a 0,876. Las 3 modalidades juntas suben a 0,950. El número del titular asume que el paciente trajo las tres pruebas.",
+    "En BI-RADS 4A — el subgrupo clínicamente más ambiguo y donde más se necesitaría ayuda — el intervalo de confianza se abre a [0,76–0,97]. El ancho del CI (0,21) es el mayor de todos los subgrupos.",
+    "La mamografía se satura casi de inmediato: con 10% de los datos ya está en 0,87. La señal está en la imagen, no en el volumen."
+  ],
+  "limitations": [
+    "Validación retrospectiva, no ensayo clínico prospectivo (no se midió impacto en mortalidad o detección temprana).",
+    "8 centros + 7 datasets públicos: sesgo de selección posible — no es muestreo poblacional aleatorio.",
+    "El AUROC headline (0,973) viene del subset con TODAS las modalidades disponibles; en escenarios reales (paciente que solo tiene ultrasonido) el AUC es notablemente menor (0,876).",
+    "BI-RADS 4A — el subgrupo clínicamente más ambiguo — tiene el CI más amplio de todos los subgrupos.",
+    "El paper no compara BINDS contra radiólogos en práctica clínica; los autores escriben 'highlight the potential', no 'demonstrates'."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados + 11 key_numbers + 5 limitaciones explícitas — script denso"
+  },
+  "notebook_slug": "2026-05-19-binds-cancer-mama-ia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-19-binds-cancer-mama-ia/notebook.html",
+  "generated_at": "2026-05-21T16:13:58.998019Z"
+}

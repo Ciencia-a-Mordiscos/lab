@@ -1,0 +1,8 @@
+modalidad,internal_auroc,external_auroc
+US,0.762,0.724
+MM,0.734,0.71
+MRI,0.831,0.785
+US+MM,0.817,0.762
+US+MRI,0.842,0.772
+MM+MRI,0.834,0.744
+US+MM+MRI,0.875,0.801

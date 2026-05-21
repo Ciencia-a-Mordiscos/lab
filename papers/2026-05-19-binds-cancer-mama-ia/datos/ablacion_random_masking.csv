@@ -1,0 +1,9 @@
+combinacion,metodo,auroc,ci_lower,ci_upper
+US+MM,BINDS (ours),0.932,0.918,0.944
+US+MM,w/o random masking,0.904,0.889,0.926
+US+MRI,BINDS (ours),0.961,0.943,0.976
+US+MRI,w/o random masking,0.937,0.918,0.952
+MM+MRI,BINDS (ours),0.968,0.955,0.991
+MM+MRI,w/o random masking,0.929,0.906,0.941
+US+MM+MRI,BINDS (ours),0.982,0.958,0.995
+US+MM+MRI,w/o random masking,0.947,0.931,0.964

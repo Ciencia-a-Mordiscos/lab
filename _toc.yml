@@ -282,6 +282,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-19-binds-cancer-mama-ia/README
+    title: "BINDS: cáncer de mama por IA, examinado por dentro"
+    sections:
+    - file: papers/2026-05-19-binds-cancer-mama-ia/notebook
+      title: Notebook
   - file: papers/2026-05-06-tme-spatial-ecotypes/README
     title: "Una gota de sangre que predice si la inmunoterapia funcionará"
     sections:
