@@ -1,0 +1,52 @@
+animal_id,pup1_latencia_s,pup2_latencia_s,grupo,virus,estro,estradiol
+707,17,211,Control RE,hM4Di,diestrus,-
+726,97,193,Control RE,hM4Di,diestrus,-
+736,29,38,Control RE,hM4Di,diestrus,-
+740,24,40,Control RE,hM4Di,diestrus,-
+742,900,900,Control RE,hM4Di,diestrus,-
+705,16,58,Control RE,hM4Di,estrus,-
+712,25,35,Control RE,hM4Di,estrus,-
+725,16,50,Control RE,hM4Di,estrus,-
+739,20,28,Control RE,hM4Di,metestrus,-
+752,9,41,Control RE,hM4Di,metestrus,-
+723,24,41,Control RE,hM4Di,proestrus,-
+770,153,240,NP,hM4Di,diestrus,-
+773,33,58,NP,hM4Di,diestrus,-
+774,23,91,NP,hM4Di,diestrus,-
+777,39,73,NP,hM4Di,diestrus,-
+781,69,152,NP,hM4Di,diestrus,-
+782,158,401,NP,hM4Di,diestrus,-
+771,128,213,NP,hM4Di,estrus,-
+768,25,44,NP,hM4Di,metestrus,-
+772,83,116,NP,hM4Di,metestrus,-
+775,102,113,NP,hM4Di,metestrus,-
+776,276,764,NP,hM4Di,metestrus,-
+778,900,900,NP,hM4Di,metestrus,-
+779,90,161,NP,hM4Di,metestrus,-
+780,247,262,NP,hM4Di,metestrus,-
+769,149,266,NP,hM4Di,estrus,-
+729,52,76,Control RE,mCherry,diestrus,Low
+744,9,27,Control RE,mCherry,diestrus,Low
+717,26,35,Control RE,mCherry,estrus,High
+728,55,75,Control RE,mCherry,estrus,High
+751,13,29,Control RE,mCherry,estrus,High
+704,34,53,Control RE,mCherry,metestrus,Low
+720,11,116,Control RE,mCherry,metestrus,Low
+733,14,37,Control RE,mCherry,metestrus,Low
+734,28,77,Control RE,mCherry,metestrus,Low
+745,12,21,Control RE,mCherry,metestrus,Low
+748,8,56,Control RE,mCherry,metestrus,Low
+701,16,26,Control RE,mCherry,proestrus,High
+756,153,247,NP,mCherry,diestrus,Low
+757,900,900,NP,mCherry,diestrus,Low
+758,63,251,NP,mCherry,diestrus,Low
+760,165,312,NP,mCherry,diestrus,Low
+761,115,127,NP,mCherry,diestrus,Low
+767,900,900,NP,mCherry,diestrus,Low
+763,900,900,NP,mCherry,diestrus,Low
+766,900,900,NP,mCherry,diestrus,Low
+762,900,900,NP,mCherry,estrus,High
+765,900,900,NP,mCherry,estrus,High
+759,327,360,NP,mCherry,estrus,High
+755,900,900,NP,mCherry,metastrus,Low
+754,900,900,NP,mCherry,metestrus,Low

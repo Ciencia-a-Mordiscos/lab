@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "paper_id": 2518,
+  "doi": "10.1038/s41586-026-10509-4",
+  "paper_type": "experimental",
+  "study_design": "mixed_observational_experimental",
+  "species": "mouse (validation in human postmortem tissue)",
+  "verification_table": [
+    {
+      "claim": "La experiencia reproductiva potencia el aprendizaje contextual",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Control RE vs NP: mediana 31,6% vs 18,6% freezing · Cohen d = 1,22 · Mann-Whitney bilateral p = 0,021 (n = 12 vs 11)",
+      "certainty_tier": "T1",
+      "abstract_verb": "establish",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.22,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El estrés postparto crónico reduce esa ventaja en el aprendizaje contextual",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Stress RE vs Control RE: Cohen d = -0,50 · p = 0,255 en Mann-Whitney bilateral simple. El paper lo enmarca como significativo vía ANOVA + post-hoc; el test simple solo detecta tendencia. Alta varianza individual: algunas madres estresadas sí aprenden.",
+      "certainty_tier": "T2",
+      "abstract_verb": "significantly disrupts",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -0.5,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "Silenciar la liberación de dopamina en el hipocampo dorsal de una virgen es suficiente para que recoja crías",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "NP+hM4Di vs NP+mCherry: Δ mediana = -798 s · Cohen d = -1,50 · Mann-Whitney bilateral p = 0,0018 · tasa de rescate 14/15 vs 5/13 (n = 15 vs 13)",
+      "certainty_tier": "T1",
+      "abstract_verb": "established",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -1.5,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "El efecto del silenciamiento de dopamina es específico de vírgenes",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Control RE+hM4Di vs Control RE+mCherry: medianas 24 s vs 15 s — ambas rápidas, sin diferencia conductual relevante. Consistente con que el sistema dopamina-dHF ya está remodelado en madres.",
+      "certainty_tier": "T1",
+      "abstract_verb": "recapitulated",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.46,
+        "interpretation": "pequeño (efecto no relevante en magnitud absoluta de latencia)"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 18.79,
+      "unit": "por ciento (media)",
+      "context": "Freezing contextual en virgenes (NP), n=11",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 34.03,
+      "unit": "por ciento (media)",
+      "context": "Freezing contextual en madres control (Control RE), n=12",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 25.73,
+      "unit": "por ciento (media)",
+      "context": "Freezing contextual en madres estresadas (Stress RE), n=11",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.22,
+      "unit": "Cohen's d",
+      "context": "Tamaño de efecto Control RE vs NP (efecto grande, p=0.021)",
+      "source": "computed_from_si",
+      "verified": true
+    },
+    {
+      "value": -0.5,
+      "unit": "Cohen's d",
+      "context": "Tamaño de efecto Stress RE vs Control RE (medio, p=0.255 en MW simple)",
+      "source": "computed_from_si",
+      "verified": true
+    },
+    {
+      "value": 102,
+      "unit": "segundos (mediana)",
+      "context": "Latencia recogida cría en virgenes con dopamina silenciada (NP+hM4Di), n=15",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 900,
+      "unit": "segundos (mediana)",
+      "context": "Latencia recogida cría en virgenes control (NP+mCherry), n=13. Censurado: 8/13 nunca recogen.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -798,
+      "unit": "segundos (delta mediana)",
+      "context": "Reducción de latencia por silenciamiento dopamina en virgenes (NP+hM4Di vs NP+mCherry, p=0.0018, Cohen d=-1.50)",
+      "source": "computed_from_si",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "de 13 ratones",
+      "context": "Virgenes con control viral que nunca recogen cría antes del cutoff de 900 s",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14,
+      "unit": "de 15 ratones",
+      "context": "Virgenes con dopamina silenciada que sí recogen cría antes del cutoff de 900 s",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'reveló'"
+    },
+    {
+      "abstract_verb": "uncover",
+      "tier": "T1",
+      "cam_attenuator": "'descubrió'"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "'identificaron'"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "'encontraron'"
+    },
+    {
+      "abstract_verb": "recapitulate",
+      "tier": "T1",
+      "cam_attenuator": "'reprodujo'"
+    },
+    {
+      "abstract_verb": "define",
+      "tier": "T1",
+      "cam_attenuator": "'mapearon'"
+    },
+    {
+      "abstract_verb": "significantly disrupts",
+      "tier": "T2",
+      "cam_attenuator": "atenuador 'todo apunta a que' por alta varianza individual en datos crudos"
+    },
+    {
+      "abstract_verb": "remain poorly understood",
+      "tier": "META",
+      "cam_attenuator": "reconocer límite previo"
+    }
+  ],
+  "narrative_hooks": [
+    "8 de 13 vírgenes nunca recogen una cría. Silenciando dopamina en su hipocampo dorsal, 14 de 15 lo hacen en menos de dos minutos",
+    "Ser madre cambia el cerebro. Y se puede imitar sin tener crías.",
+    "El experimento separa lo causal de lo correlacional: si imitas el efecto manipulando solo dopamina, la dopamina es el mecanismo."
+  ],
+  "limitations": [
+    "Estudio principalmente en raton (Mus musculus C57BL/6J); validacion humana solo molecular (transcriptoma + H3-dopaminilacion en subiculo dorsal postmortem), no conductual.",
+    "El paradigma de separación maternal-cría es un modelo extremo de estrés postparto crónico — no equivalente directo al estrés postparto humano clínico.",
+    "El cutoff de 900s en pup retrieval es censura administrativa: subestima la diferencia real (algunos vírgenes podrían nunca recoger cría, ni con más tiempo).",
+    "Mecanismo molecular (H3-dopaminilacion como histone PTM) probado en raton; en humano se infiere por concordancia transcripcional, no por manipulación directa."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 1 partial, 10 key_numbers — script estándar con tres beats narrativos (RE potencia / estrés rompe / chemogenetica imita)"
+  },
+  "notebook_slug": "2026-05-20-dopamina-cerebro-maternal",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-20-dopamina-cerebro-maternal/notebook.html",
+  "generated_at": "2026-05-21T16:43:48.063649Z"
+}

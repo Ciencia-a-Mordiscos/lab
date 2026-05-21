@@ -389,6 +389,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-05-20-dopamina-cerebro-maternal/README
+    title: "Dopamina y cerebro maternal"
+    sections:
+    - file: papers/2026-05-20-dopamina-cerebro-maternal/notebook
+      title: Notebook
   - file: papers/2026-05-06-hipocampo-anestesia-lenguaje/README
     title: "Hipocampo bajo anestesia: oddball, plasticidad y predicción semántica"
     sections:

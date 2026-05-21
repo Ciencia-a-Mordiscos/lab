@@ -1,0 +1,22 @@
+titulo: "Dopamina y cerebro maternal"
+fecha: 2026-05-20
+categoria: neurociencia
+tags: [dopamina, maternal, hipocampo, chemogenetica, ratones, estres-postparto]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10509-4"
+    titulo: "Dopamine drives persistent remodelling of the maternal brain"
+    journal: Nature
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "fig2_estres_recall.csv"
+    descripcion: "34 ratones · aprendizaje contextual por grupo (NP, Control RE, Stress RE)"
+    fuente: "Supplementary Information del paper (MOESM5)"
+  - nombre: "fig4_pup_pickup.csv"
+    descripcion: "51 ratones · latencia de pup retrieval por grupo × virus chemogenético"
+    fuente: "Supplementary Information del paper (MOESM5)"
+estado: publicado

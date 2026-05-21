@@ -12,6 +12,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Dopamina y cerebro maternal
+
+**Neurociencia** · *Nature* · Un grupo demuestra que silenciar la liberación de **dopamina** en el **hipocampo dorsal** de una hembra virgen es **suficiente** para que recoja crías como una madre experimentada. Bajamos los datos conductuales del Supplementary (MOESM5) — 34 hembras en el test de aprendizaje contextual y 51 en el de recogida de crías — y los analizamos célula por celda. Acto 1: la maternidad casi duplica el aprendizaje contextual (Cohen *d* = 1,22, *p* = 0,021). Acto 2: el estrés postparto crónico tiende a borrar esa ventaja, con alta variabilidad individual (*d* = -0,50). Acto 3 — el golpe: **8 de 13 vírgenes con control viral nunca recogen cría** antes del cutoff de 900 s; con dopamina silenciada químicamente, **14 de 15 lo hacen en mediana 102 s** (Cohen *d* = -1,50, *p* = 0,0018). Y silenciar dopamina en madres **no** cambia su conducta — control de especificidad limpio. ⚠️ Estudio en ratón; la validación humana del paper es solo molecular, no conductual. ⚠️ Cutoff a 900 s introduce censura administrativa: subestima la diferencia real.
+
+[Ver notebook](papers/2026-05-20-dopamina-cerebro-maternal/notebook) · [Leer más](papers/2026-05-20-dopamina-cerebro-maternal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-20-dopamina-cerebro-maternal/notebook.ipynb)
+
+---
+
 ### BINDS: cáncer de mama por IA, examinado por dentro
 
 **Medicina** · *Nature Biomedical Engineering* · Liu et al. (2026) **introducen BINDS**, un modelo de deep learning multimodal que combina ecografía, mamografía y resonancia para diagnosticar cáncer de mama sobre **27.048 participantes** (8 centros + 7 datasets públicos). El paper anuncia un **AUROC de 0,973**. Bajamos los Source Data (MOESM3, MOESM4, MOESM7) y desmenuzamos ese número. El headline vive en el mejor escenario: paciente con las tres modalidades y esquema two-stage. Con solo ultrasonido, BINDS cae a **0,876**. Con las tres modalidades juntas sube a **0,950** — una ganancia trimodal de **+4,1 puntos porcentuales** sobre la mejor modalidad única. En **BI-RADS 4A** (el subgrupo clínicamente más ambiguo, donde más se necesitaría ayuda) el intervalo de confianza se abre a **[0,76–0,97]** — ancho del CI = 0,21, el mayor de todos los subgrupos. Sorpresa de eficiencia: la **mamografía alcanza 0,87 con solo 10%** de los datos de entrenamiento; la señal está en la imagen, no en el volumen. ⚠️ Validación retrospectiva, no ensayo clínico prospectivo. ⚠️ El 0,973 está **+6,0 puntos porcentuales sobre la mediana** de las 69 AUROCs que reporta el propio paper. ⚠️ Los autores escriben *"highlight the potential"*, no *"demonstrates"*: el modelo **podría asistir**, no probó reemplazar al radiólogo.
