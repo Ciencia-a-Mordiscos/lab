@@ -1,0 +1,32 @@
+titulo: "El HIV necesita tocar células para infectarlas"
+fecha: 2026-05-06
+categoria: medicina
+tags:
+  - virología
+  - HIV
+  - inmunología
+  - linfocitos T
+  - poro nuclear
+  - CDK1
+  - nucleoporinas
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10453-3"
+    titulo: "HIV-1 signalling remodels nuclear pores to licence infection"
+    journal: Nature
+    autores: "Mesner et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cellfree_vs_cellcell.csv"
+    descripcion: "% T cells CD4+ en reposo infectadas — virus libre vs contacto célula-célula (3 donantes)"
+    fuente: "Source Data Figure 1 (MOESM7)"
+  - nombre: "knockdown_cdk1.csv"
+    descripcion: "Señal de infección con CDK1 silenciado vs controles (3 donantes × 3 condiciones)"
+    fuente: "Source Data Figure 3 (MOESM9)"
+  - nombre: "nup_phosphorylation.csv"
+    descripcion: "Intensidad relativa de fosforilación de 10 nucleoporinas, +VS vs -VS (~50 mediciones por condición)"
+    fuente: "Source Data Figure 4 (MOESM10)"
+estado: publicado

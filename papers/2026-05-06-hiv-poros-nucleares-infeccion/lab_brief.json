@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "paper_id": 2442,
+  "doi": "10.1038/s41586-026-10453-3",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El contacto célula-célula multiplica por ~3,6 la infección de T cells CD4+ en reposo, comparado con virus libre",
+      "supported": "yes",
+      "detail": "Media 11,4% (+VS) vs 3,1% (cell-free) en 3 donantes pareados. t-test pareado p=0,016, Cohen's d pareado = 4,5. Los 3 donantes se mueven en la misma dirección.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d_paired", "value": 4.54, "interpretation": "muy grande"}
+    },
+    {
+      "claim": "CDK1 es necesaria para la infección licenciada por contacto",
+      "supported": "yes",
+      "detail": "Silenciar CDK1 con siRNA reduce ~33% la señal de infección vs control non-targeting. t-test pareado p=0,021, d pareado = 4,0 (n=3 donantes).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d_paired", "value": 3.96, "interpretation": "muy grande"}
+    },
+    {
+      "claim": "CDK1 fosforila selectivamente 3 de 10 nucleoporinas del NPC con el contacto célula-célula (Nup54, Nup62, Tpr)",
+      "supported": "yes",
+      "detail": "De 10 nucleoporinas, solo Nup54 (+32%, d=0,71, p=0,001), Nup62 (+16%, d=0,62, p=0,004) y Tpr (+12%, d=1,01, p<1e-5) cambian con +VS. Las otras 7 no se mueven significativamente. n~50 por condición por Nup, Mann-Whitney U.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d_pooled", "value": 1.01, "interpretation": "grande (Tpr, el máximo)"}
+    },
+    {
+      "claim": "La cascada completa es CD4 → LCK → CDK1 → fosforilación de nucleoporinas → entrada de la cápside",
+      "supported": "partial",
+      "detail": "Los Source Data abiertos confirman los eslabones CDK1 necesaria y CDK1 → Nup fosforilación. La activación de LCK por contacto y el paso final cápside → núcleo están en figuras del paper que no entran en el Source Data — la cascada completa la apoyamos con la interpretación del paper.",
+      "certainty_tier": "T3",
+      "abstract_verb": "propose",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.63,
+      "unit": "veces",
+      "context": "ratio cell-cell / cell-free de % T cells CD4+ infectadas (media de 3 donantes)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~3.6×",
+        "our_calculation": "3.63×",
+        "discrepancy_pct": 0.0,
+        "reason": "coincidente"
+      }
+    },
+    {
+      "value": 11.37,
+      "unit": "por ciento",
+      "context": "% T cells CD4+ infectadas con contacto célula-célula (media 3 donantes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.13,
+      "unit": "por ciento",
+      "context": "% T cells CD4+ infectadas con virus libre (media 3 donantes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 33.0,
+      "unit": "por ciento",
+      "context": "reducción de señal de infección con CDK1 knockdown vs control siRNA (media 3 donantes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 32.0,
+      "unit": "por ciento",
+      "context": "incremento medio de fosforilación de Nup54 (+VS vs -VS)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15.9,
+      "unit": "por ciento",
+      "context": "incremento medio de fosforilación de Nup62 (+VS vs -VS)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12.0,
+      "unit": "por ciento",
+      "context": "incremento medio de fosforilación de Tpr (+VS vs -VS)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "nucleoporinas",
+      "context": "total de nucleoporinas evaluadas en el Source Data Figure 4",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "nucleoporinas",
+      "context": "nucleoporinas con cambio significativo (p<0,05 y |Δ|>5%) en +VS vs -VS",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa permitida"},
+    {"abstract_verb": "propose", "tier": "T3", "cam_attenuator": "proponen que / la hipótesis más sólida"}
+  ],
+  "narrative_hooks": [
+    "El HIV puede infectar T cells en reposo dentro del cuerpo, pero el virus libre no las toca en cultivo — la diferencia es que se toquen",
+    "Solo 3 de 10 nucleoporinas cambian con el contacto: CDK1 marca un subconjunto específico, no abre el poro entero",
+    "Silenciar CDK1 baja la infección un tercio — la quinasa del ciclo celular es la que abre la puerta nuclear"
+  ],
+  "limitations": [
+    "n=3 donantes humanos en los experimentos clave (Fig.1u, Fig.3u); efectos enormes (d > 3,9) pero p-values al borde de significancia por baja potencia",
+    "La fosforilación se midió por inmunofluorescencia (intensidad relativa, ratio +VS/-VS), no por western blot cuantitativo absoluto",
+    "El paper propone CD4-LCK-CDK1 como cascada completa; el Source Data abierto cubre 2 de 3 eslabones (CDK1 necesaria y CDK1 → Nup fosforilación), no la activación de LCK por contacto",
+    "Donantes anónimos sin desglose por edad/sexo — variabilidad inter-donante no se puede atribuir a covariables clínicas"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 1 partial; cascada con 3 eslabones cuantificados → narrativa media-densa"
+  },
+  "notebook_slug": "2026-05-06-hiv-poros-nucleares-infeccion",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-hiv-poros-nucleares-infeccion/notebook.html",
+  "generated_at": "2026-05-22T00:00:00Z"
+}
