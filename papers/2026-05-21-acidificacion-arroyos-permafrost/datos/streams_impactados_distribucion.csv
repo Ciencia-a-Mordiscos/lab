@@ -1,0 +1,5 @@
+categoria_area_km2,n_streams,area_min_km2,area_max_km2
+<10,49,0,10
+10-100,57,10,100
+100-500,27,100,500
+>500,3,500,

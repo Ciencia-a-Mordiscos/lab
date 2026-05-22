@@ -1,0 +1,46 @@
+titulo: "Cuando el permafrost se derrite y los arroyos se vuelven ácido sulfúrico"
+fecha: 2026-05-21
+categoria: ecologia
+tags:
+  - permafrost
+  - acidificacion
+  - metales-pesados
+  - cambio-climatico
+  - geoquimica
+  - yukon
+  - artico
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aea2898"
+    titulo: "Abrupt stream acidification and metal mobilization from permafrost degradation"
+    journal: Science
+    autores: "Skierszkan, Szeitz, Lindsay, Carey"
+    verificado: true
+  - doi: "10.31223/X5Q44T"
+    titulo: "Stream acidification and metal mobilization linked to permafrost degradation"
+    journal: EarthArXiv (preprint OA)
+    autores: "Skierszkan, Szeitz, Lindsay, Carey"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "streams_concentraciones.csv"
+    descripcion: "Table S1 — 9 metales + sulfato en 3 arroyos, con mediana/mín/máx/n y %exceedance CCME"
+    fuente: "Preprint EarthArXiv (Table S1, p.24)"
+  - nombre: "seepages_quimica.csv"
+    descripcion: "Figura S8F — química de 10 surgencias activas en 4 sitios"
+    fuente: "Preprint EarthArXiv (Figura S8F)"
+  - nombre: "rios_grandes.csv"
+    descripcion: "Tasas de sulfato en Peel, Ogilvie, Klondike (1979–2025)"
+    fuente: "ECCC National Long-term Water Quality Monitoring (transcrito del paper p.10)"
+  - nombre: "streams_impactados_distribucion.csv"
+    descripcion: "Distribución por tamaño de cuenca de 130 arroyos SMO-impactados"
+    fuente: "Texto del paper preprint (p.3)"
+  - nombre: "dawson_temperatura_resumen.csv"
+    descripcion: "Tasa de calentamiento Dawson City: +0.04 °C/año (1961–2024)"
+    fuente: "Figura S6 del preprint + texto del paper"
+  - nombre: "km99_perfil_espacial.csv"
+    descripcion: "Perfil pH a lo largo del arroyo KM99 (upstream → surgencia → downstream)"
+    fuente: "Texto del paper preprint (p.6)"
+estado: publicado

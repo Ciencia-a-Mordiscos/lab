@@ -1,0 +1,341 @@
+{
+  "version": "1.0",
+  "paper_id": 2534,
+  "doi": "10.1126/science.aea2898",
+  "paper_type": "research-article",
+  "study_design": "observacional",
+  "species": "n/a (estudio geoquímico/ecológico)",
+  "verification_table": [
+    {
+      "claim": "Hay 130 arroyos con signos de oxidación de sulfuros en ~59.500 km² del Peel basin",
+      "supported": "yes",
+      "detail": "Texto literal del paper (p.3). La suma de la distribución da 136 — el paper aclara que hay solapamiento; usamos el canónico.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las surgencias activas tienen pH entre 2.7 y 6.1 (mediana 3.1)",
+      "supported": "yes",
+      "detail": "Figura S8F del preprint, n=10. Mediana del dataset calculada: pH 3.1.",
+      "certainty_tier": "T1",
+      "abstract_verb": "document",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Cadmio supera el umbral CCME en 92-100% de las muestras de los 3 arroyos receptores",
+      "supported": "yes",
+      "detail": "Table S1 directa. Cd: 98% (KM99), 92% (KM71), 100% (KM175).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Zinc supera CCME en 98% (KM99), 57% (KM71), 100% (KM175)",
+      "supported": "yes",
+      "detail": "Table S1. La heterogeneidad refleja diferencias en la mineralogía sulfurosa local.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El Ogilvie sube +12 mg/L de sulfato por año (2016-2025, p=0.04)",
+      "supported": "partial",
+      "detail": "Tasa correcta pero marginalmente significativa. En períodos previos no lo era.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El Peel sube +2.1 mg/L de sulfato por año (2000-2025, p<0.001)",
+      "supported": "yes",
+      "detail": "Tasa documentada con alta significancia. Doubled vs 1979-2000.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Dawson City se calienta +0.04 °C/año (1961-2024, p<0.001)",
+      "supported": "yes",
+      "detail": "Figura S6 caption del preprint. Estación meteorológica más cercana al TWO.",
+      "certainty_tier": "T1",
+      "abstract_verb": "document",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La surgencia más extrema (KM99 zona de dieback) tiene pH 2.7, SO4 4900 mg/L, Zn 499 mg/L",
+      "supported": "yes",
+      "detail": "Figura S8F location 8a + texto p.5 del preprint, literal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El KM228 stream pasó de pH >6.5 (2000) a pH 3.3 (2025) y sulfato <100 a 10.800 mg/L",
+      "supported": "yes",
+      "detail": "Effect size reportado en el paper: aumento de [H+] >1000× en 25 años. Niveles típicos de ARD industrial.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El calentamiento del clima es el motor del fenómeno",
+      "supported": "partial",
+      "detail": "Relación causal inferida — químicamente sólida (oxidación expuesta por deshielo) pero el estudio es observacional. El paper usa lenguaje atenuado: 'signals', 'emergent feedback'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "signals",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El fenómeno es regional (más allá del TWO)",
+      "supported": "partial",
+      "detail": "Proyección basada en litologías sulfurosas + dato histórico 19% de 10.578 arroyos del este de Yukon con pH<5. El paper enmarca como 'sugiere'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "may",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 2.7,
+      "unit": "pH",
+      "context": "surgencia activa más extrema (KM99 dieback)",
+      "source": "preprint_fig_S8F",
+      "verified": true
+    },
+    {
+      "value": 3.1,
+      "unit": "pH",
+      "context": "mediana de las 10 surgencias activas muestreadas",
+      "source": "calculo_notebook_seepages_csv",
+      "verified": true
+    },
+    {
+      "value": 6.1,
+      "unit": "pH",
+      "context": "surgencia más alta (rango máximo del dataset)",
+      "source": "preprint_fig_S8F",
+      "verified": true
+    },
+    {
+      "value": 130,
+      "unit": "arroyos",
+      "context": "streams SMO-impactados en ~59.500 km² del Peel basin",
+      "source": "preprint_p3_literal",
+      "verified": true
+    },
+    {
+      "value": 156,
+      "unit": "muestras",
+      "context": "total agregado en los 3 arroyos receptores (KM99 n=62, KM71 n=57, KM175 n=49 — basado en n_max por elemento)",
+      "source": "table_S1_preprint",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "surgencias",
+      "context": "puntos de surgencia activa muestreados en 4 sitios",
+      "source": "fig_S8F_preprint",
+      "verified": true
+    },
+    {
+      "value": 98,
+      "unit": "por ciento",
+      "context": "muestras KM99 sobre umbral CCME de cadmio",
+      "source": "table_S1",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "por ciento",
+      "context": "muestras KM175 sobre umbral CCME de cadmio y zinc",
+      "source": "table_S1",
+      "verified": true
+    },
+    {
+      "value": 92,
+      "unit": "por ciento",
+      "context": "muestras KM71 sobre umbral CCME de cadmio",
+      "source": "table_S1",
+      "verified": true
+    },
+    {
+      "value": 57,
+      "unit": "por ciento",
+      "context": "muestras KM71 sobre umbral CCME de zinc (mucho menor que en KM99/KM175)",
+      "source": "table_S1",
+      "verified": true
+    },
+    {
+      "value": 90,
+      "unit": "por ciento",
+      "context": "muestras KM99 sobre umbral CCME de níquel",
+      "source": "table_S1",
+      "verified": true
+    },
+    {
+      "value": 2.1,
+      "unit": "mg/L/año",
+      "context": "tasa actual de aumento de sulfato en el río Peel (2000-2025, p<0.001)",
+      "source": "preprint_p10",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "mg/L/año",
+      "context": "tasa de aumento de sulfato en el río Ogilvie (2016-2025, p=0.04)",
+      "source": "preprint_p10",
+      "verified": true
+    },
+    {
+      "value": 1.6,
+      "unit": "mg/L/año",
+      "context": "tasa de aumento de sulfato en el río Klondike (2005-2025, no significativa)",
+      "source": "preprint_p10",
+      "verified": true
+    },
+    {
+      "value": 0.04,
+      "unit": "°C/año",
+      "context": "tasa de calentamiento en Dawson City (1961-2024, p<0.001)",
+      "source": "fig_S6_caption",
+      "verified": true
+    },
+    {
+      "value": 4900,
+      "unit": "mg/L",
+      "context": "concentración de sulfato en la surgencia KM99 dieback (location 8a)",
+      "source": "fig_S8F_location_8a",
+      "verified": true
+    },
+    {
+      "value": 499,
+      "unit": "mg/L",
+      "context": "concentración de zinc en la surgencia KM99 dieback (toxicidad aguda extrema)",
+      "source": "fig_S8F_location_8a",
+      "verified": true
+    },
+    {
+      "value": 7943,
+      "unit": "veces",
+      "context": "factor de mayor concentración de H+ en la mediana de surgencias (pH 3.1) vs agua neutra (pH 7) — 10^(7-3.1)",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 8.0,
+      "unit": "pH",
+      "context": "valor upstream del arroyo KM99 (pre-impacto, baseline)",
+      "source": "preprint_p6_perfil_espacial",
+      "verified": true
+    },
+    {
+      "value": 5.8,
+      "unit": "pH",
+      "context": "pH inmediatamente aguas abajo de la surgencia KM99",
+      "source": "preprint_p6_perfil_espacial",
+      "verified": true
+    },
+    {
+      "value": 6.7,
+      "unit": "pH",
+      "context": "pH del KM99 3 km aguas abajo (recovery parcial por buffering de carbonatos)",
+      "source": "preprint_p6_perfil_espacial",
+      "verified": true
+    },
+    {
+      "value": 3.3,
+      "unit": "pH",
+      "context": "pH del arroyo KM228 en 2025 (caída desde >6.5 en 2000)",
+      "source": "preprint_effect_size",
+      "verified": true
+    },
+    {
+      "value": 10800,
+      "unit": "mg/L",
+      "context": "concentración de sulfato del KM228 en 2025 (vs <100 en 2000) — niveles de ARD industrial",
+      "source": "preprint_effect_size",
+      "verified": true
+    },
+    {
+      "value": 19,
+      "unit": "por ciento",
+      "context": "de 10.578 arroyos del este de Yukon muestreados (1976-2001) tenían pH<5",
+      "source": "preprint_p3_historico",
+      "verified": true
+    },
+    {
+      "value": 59500,
+      "unit": "km²",
+      "context": "área del Peel basin analizada en este estudio",
+      "source": "preprint_p3",
+      "verified": true
+    },
+    {
+      "value": 90350,
+      "unit": "m²",
+      "context": "área máxima individual de vegetación dieback identificada",
+      "source": "preprint_p5",
+      "verified": true
+    },
+    {
+      "value": -0.49,
+      "unit": "rho",
+      "context": "correlación Spearman pH vs zinc en las 10 surgencias (no significativa con n=10, p=0.15)",
+      "source": "calculo_notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "document",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "signals",
+      "tier": "T2",
+      "cam_attenuator": "todo apunta a que / la evidencia es consistente con"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "sugiere que / podría / falta confirmar"
+    }
+  ],
+  "narrative_hooks": [
+    "pH 2.7 — tan ácido como el vinagre — corriendo libre por arroyos del Yukon ártico que nadie había tocado",
+    "Decenas de surgencias ácidas brotaron en la última década: el permafrost se derrite, los sulfuros se oxidan, y libera ácido sulfúrico con metales pesados disueltos",
+    "El cadmio supera el umbral canadiense de toxicidad en 98% de las muestras de un arroyo, durante 7 años de monitoreo",
+    "El sulfato del Peel duplicó su tasa de aumento — la huella corriente abajo de un proceso que arrancó en cabeceras a 500 km"
+  ],
+  "limitations": [
+    "Estudio observacional (2018-2025 + series ECCC 1979-2025): no hay control experimental, la causalidad climática es inferida",
+    "n=10 surgencias muestreadas es pequeño frente a 'dozens' que el paper menciona",
+    "Datos del paper transcritos desde el preprint EarthArXiv (Open Access), no descargados directamente de Dryad (bloqueado por Anubis PoW + AWS WAF)",
+    "La proyección regional (más allá del TWO) se basa en distribución de litologías + datos históricos, no en monitoreo regional directo"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "8 claims yes (27 key_numbers) — script denso"
+  },
+  "notebook_slug": "2026-05-21-acidificacion-arroyos-permafrost",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-21-acidificacion-arroyos-permafrost/notebook.html",
+  "generated_at": "2026-05-22T16:01:36.906702Z"
+}

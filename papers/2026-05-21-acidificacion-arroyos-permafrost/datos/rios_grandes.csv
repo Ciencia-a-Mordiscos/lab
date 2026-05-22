@@ -1,0 +1,4 @@
+rio,cuenca_km2,pH_promedio,pH_sd,SO4_rate_actual_mg_L_yr,SO4_rate_actual_periodo,SO4_rate_previo_p_value,nota
+Peel,74000,7.9,0.4,2.1,2000-2025,p_lt_0.001,Rate doubled vs 1979-2000
+Ogilvie,4500,8.1,0.2,12,2016-2025,p=0.04,Rate increased vs late 1990s (marginally significant)
+Klondike,7800,7.9,0.2,1.6,2005-2025,p=0.97,Rate non-significant in late 1990s

@@ -1,0 +1,11 @@
+location,sitio,descripcion,pH,SpC_uS_cm,SO4_mg_L,Al_mg_L,Co_mg_L,Cd_mg_L,Fe_mg_L,Mn_mg_L,Ni_mg_L,Se_mg_L,Zn_mg_L
+1,KM175.5,Active-layer seepage,6.1,2500,4836,255,1.1,0.3,318,12,12,0.0090,60
+2,KM175.5,Active-layer seepage,3.1,7713,7742,781,0.84,0.029,56,12,7.4,0.17,9.4
+3,KM175.5,Upwelling Fe-stained groundwater spring,2.9,7710,8130,756,0.77,0.029,74,11,6.6,0.27,9.0
+4,KM182,Standing Fe-stained pond,2.9,7107,4164,194,0.34,0.0020,76,5.4,2.9,0.70,2.1
+5,KM182,Standing pond with milky-white precipitate,5.7,562,470,0.342,0.016,0.0060,0.065,0.42,0.19,0.041,0.38
+6,KM175,Active-layer seepage,3.6,1415,832,35,0.066,0.011,4.1,2.0,0.3,0.085,0.69
+7,KM175,Active-layer seepage,3.1,13890,17610,1277,1.8,0.1,44,28,36,0.62,92
+8a,KM99,Active-layer seepage (dieback),2.7,4263,4924,303,3.7,5.1,2.8,88,62,0.12,499
+8b,KM99,Seepage entering stream bank,3.1,2001,1179,59,0.001,1.5,56,18,15,0.038,107
+8c,KM99,Seepage entering stream bank,2.9,5440,4710,298,0.003,6.0,286,67,64,0.15,484

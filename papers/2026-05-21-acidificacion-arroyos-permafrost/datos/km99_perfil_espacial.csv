@@ -1,0 +1,5 @@
+posicion,descripcion,pH,sulfato_mg_L,nota
+upstream,Aguas arriba del dieback,8.0,,Valor pre-impacto
+seepage,Surgencia ácida en zona de dieback,2.7,4900,Active-layer seepage KM99
+inmediato_downstream,Inmediatamente aguas abajo de surgencia,5.8,,Caída de pH 8.0->5.8
+3km_downstream,Confluencia con East Blackstone River (~3 km),6.7,,Recovery por buffering carbonatos
