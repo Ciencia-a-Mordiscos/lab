@@ -1,0 +1,25 @@
+titulo: "Las píldoras anti-obesidad pasan por la amígdala"
+fecha: 2026-05-22
+categoria: neurociencia
+tags: [GLP-1, obesidad, amígdala-central, dopamina, ratones-humanizados, Danuglipron, Orforglipron]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10444-4"
+    titulo: "A brain reward circuit inhibited by next-generation weight-loss drugs in mice"
+    journal: Nature
+    autores: "Et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ingesta_droga_genotipo.csv"
+    descripcion: "Ingesta acumulada (g) por droga × genotipo × tiempo (Fig 1)"
+    fuente: "Source Data Fig 1 (Supplementary)"
+  - nombre: "fos_region_cerebral.csv"
+    descripcion: "Fos+ por región cerebral (DMH/NTS/AP/CEA) en WT vs S33W (Fig 3)"
+    fuente: "Source Data Fig 3 (Supplementary)"
+  - nombre: "rescate_aav_completo.csv"
+    descripcion: "Rescate AAV-hGlp1r región-específica, dieta SD vs HFD (Fig 4)"
+    fuente: "Source Data Fig 4 (Supplementary)"
+estado: publicado

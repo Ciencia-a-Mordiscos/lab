@@ -1,0 +1,456 @@
+mouse_id,virus,tiempo,inyeccion,ingesta_g,dieta,region_aav
+C1,AAV-mCherry,1 hour,Danuglipron,0.5,SD,Hypothalamus mCherry
+C1,AAV-mCherry,2 hour,Danuglipron,1.0000000000000009,SD,Hypothalamus mCherry
+C1,AAV-mCherry,4 hour,Danuglipron,1.8000000000000007,SD,Hypothalamus mCherry
+C2,AAV-mCherry,1 hour,Danuglipron,0.6000000000000014,SD,Hypothalamus mCherry
+C2,AAV-mCherry,2 hour,Danuglipron,0.9000000000000004,SD,Hypothalamus mCherry
+C2,AAV-mCherry,4 hour,Danuglipron,1.8000000000000007,SD,Hypothalamus mCherry
+C3,AAV-mCherry,1 hour,Danuglipron,0.2999999999999998,SD,Hypothalamus mCherry
+C3,AAV-mCherry,2 hour,Danuglipron,0.5999999999999996,SD,Hypothalamus mCherry
+C3,AAV-mCherry,4 hour,Danuglipron,1.1999999999999993,SD,Hypothalamus mCherry
+C4,AAV-mCherry,1 hour,Danuglipron,0.09999999999999964,SD,Hypothalamus mCherry
+C4,AAV-mCherry,2 hour,Danuglipron,0.5,SD,Hypothalamus mCherry
+C4,AAV-mCherry,4 hour,Danuglipron,1.1999999999999993,SD,Hypothalamus mCherry
+C5,AAV-mCherry,1 hour,Danuglipron,0.5,SD,Hypothalamus mCherry
+C5,AAV-mCherry,2 hour,Danuglipron,0.8999999999999995,SD,Hypothalamus mCherry
+C5,AAV-mCherry,4 hour,Danuglipron,2.3999999999999995,SD,Hypothalamus mCherry
+C6,AAV-mCherry,1 hour,Danuglipron,0.39999999999999947,SD,Hypothalamus mCherry
+C6,AAV-mCherry,2 hour,Danuglipron,0.5,SD,Hypothalamus mCherry
+C6,AAV-mCherry,4 hour,Danuglipron,1.3999999999999995,SD,Hypothalamus mCherry
+C1,AAV-mCherry,1 hour,Vehicle,0.3999999999999986,SD,Hypothalamus mCherry
+C1,AAV-mCherry,2 hour,Vehicle,0.5999999999999996,SD,Hypothalamus mCherry
+C1,AAV-mCherry,4 hour,Vehicle,1.5999999999999996,SD,Hypothalamus mCherry
+C2,AAV-mCherry,1 hour,Vehicle,0.3000000000000007,SD,Hypothalamus mCherry
+C2,AAV-mCherry,2 hour,Vehicle,0.40000000000000036,SD,Hypothalamus mCherry
+C2,AAV-mCherry,4 hour,Vehicle,1.200000000000001,SD,Hypothalamus mCherry
+C3,AAV-mCherry,1 hour,Vehicle,0.3000000000000007,SD,Hypothalamus mCherry
+C3,AAV-mCherry,2 hour,Vehicle,0.5000000000000009,SD,Hypothalamus mCherry
+C3,AAV-mCherry,4 hour,Vehicle,1.3000000000000007,SD,Hypothalamus mCherry
+C4,AAV-mCherry,1 hour,Vehicle,0.3000000000000007,SD,Hypothalamus mCherry
+C4,AAV-mCherry,2 hour,Vehicle,0.7999999999999998,SD,Hypothalamus mCherry
+C4,AAV-mCherry,4 hour,Vehicle,1.4000000000000004,SD,Hypothalamus mCherry
+C5,AAV-mCherry,1 hour,Vehicle,0.5999999999999996,SD,Hypothalamus mCherry
+C5,AAV-mCherry,2 hour,Vehicle,1.0,SD,Hypothalamus mCherry
+C5,AAV-mCherry,4 hour,Vehicle,1.9000000000000004,SD,Hypothalamus mCherry
+C6,AAV-mCherry,1 hour,Vehicle,0.10000000000000142,SD,Hypothalamus mCherry
+C6,AAV-mCherry,2 hour,Vehicle,0.3000000000000007,SD,Hypothalamus mCherry
+C6,AAV-mCherry,4 hour,Vehicle,1.3000000000000007,SD,Hypothalamus mCherry
+626,AAV-hGlp1r,1 hour,Danuglipron,0.5,SD,Hypothalamus
+626,AAV-hGlp1r,2 hour,Danuglipron,0.7999999999999998,SD,Hypothalamus
+626,AAV-hGlp1r,4 hour,Danuglipron,1.4000000000000004,SD,Hypothalamus
+629,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,Hypothalamus
+629,AAV-hGlp1r,2 hour,Danuglipron,0.5,SD,Hypothalamus
+629,AAV-hGlp1r,4 hour,Danuglipron,1.0,SD,Hypothalamus
+631,AAV-hGlp1r,1 hour,Danuglipron,0.0,SD,Hypothalamus
+631,AAV-hGlp1r,2 hour,Danuglipron,0.20000000000000107,SD,Hypothalamus
+631,AAV-hGlp1r,4 hour,Danuglipron,0.7000000000000011,SD,Hypothalamus
+633,AAV-hGlp1r,1 hour,Danuglipron,0.1999999999999993,SD,Hypothalamus
+633,AAV-hGlp1r,2 hour,Danuglipron,0.5999999999999996,SD,Hypothalamus
+633,AAV-hGlp1r,4 hour,Danuglipron,1.5,SD,Hypothalamus
+938,AAV-hGlp1r,1 hour,Danuglipron,0.20000000000000018,SD,Hypothalamus
+938,AAV-hGlp1r,2 hour,Danuglipron,0.7000000000000002,SD,Hypothalamus
+938,AAV-hGlp1r,4 hour,Danuglipron,2.1000000000000005,SD,Hypothalamus
+947,AAV-hGlp1r,1 hour,Danuglipron,0.10000000000000053,SD,Hypothalamus
+947,AAV-hGlp1r,2 hour,Danuglipron,0.3000000000000007,SD,Hypothalamus
+947,AAV-hGlp1r,4 hour,Danuglipron,1.1000000000000005,SD,Hypothalamus
+F2A,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,Hypothalamus
+F2A,AAV-hGlp1r,2 hour,Danuglipron,0.1999999999999993,SD,Hypothalamus
+F2A,AAV-hGlp1r,4 hour,Danuglipron,0.5,SD,Hypothalamus
+F3S,AAV-hGlp1r,1 hour,Danuglipron,0.0,SD,Hypothalamus
+F3S,AAV-hGlp1r,2 hour,Danuglipron,0.0,SD,Hypothalamus
+F3S,AAV-hGlp1r,4 hour,Danuglipron,0.0,SD,Hypothalamus
+M1A,AAV-hGlp1r,1 hour,Danuglipron,0.1999999999999993,SD,Hypothalamus
+M1A,AAV-hGlp1r,2 hour,Danuglipron,0.39999999999999947,SD,Hypothalamus
+M1A,AAV-hGlp1r,4 hour,Danuglipron,1.1999999999999993,SD,Hypothalamus
+M2A,AAV-hGlp1r,1 hour,Danuglipron,0.0,SD,Hypothalamus
+M2A,AAV-hGlp1r,2 hour,Danuglipron,0.09999999999999964,SD,Hypothalamus
+M2A,AAV-hGlp1r,4 hour,Danuglipron,0.7000000000000002,SD,Hypothalamus
+626,AAV-hGlp1r,1 hour,Vehicle,0.5999999999999996,SD,Hypothalamus
+626,AAV-hGlp1r,2 hour,Vehicle,0.7999999999999998,SD,Hypothalamus
+626,AAV-hGlp1r,4 hour,Vehicle,1.7000000000000002,SD,Hypothalamus
+629,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,Hypothalamus
+629,AAV-hGlp1r,2 hour,Vehicle,1.0,SD,Hypothalamus
+629,AAV-hGlp1r,4 hour,Vehicle,1.7999999999999998,SD,Hypothalamus
+631,AAV-hGlp1r,1 hour,Vehicle,0.29999999999999893,SD,Hypothalamus
+631,AAV-hGlp1r,2 hour,Vehicle,0.7999999999999989,SD,Hypothalamus
+631,AAV-hGlp1r,4 hour,Vehicle,1.4999999999999991,SD,Hypothalamus
+633,AAV-hGlp1r,1 hour,Vehicle,0.3000000000000007,SD,Hypothalamus
+633,AAV-hGlp1r,2 hour,Vehicle,0.7000000000000011,SD,Hypothalamus
+633,AAV-hGlp1r,4 hour,Vehicle,1.700000000000001,SD,Hypothalamus
+938,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,Hypothalamus
+938,AAV-hGlp1r,2 hour,Vehicle,0.6999999999999993,SD,Hypothalamus
+938,AAV-hGlp1r,4 hour,Vehicle,2.1999999999999993,SD,Hypothalamus
+947,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,Hypothalamus
+947,AAV-hGlp1r,2 hour,Vehicle,0.8999999999999995,SD,Hypothalamus
+947,AAV-hGlp1r,4 hour,Vehicle,1.8999999999999995,SD,Hypothalamus
+F2A,AAV-hGlp1r,1 hour,Vehicle,0.6999999999999993,SD,Hypothalamus
+F2A,AAV-hGlp1r,2 hour,Vehicle,1.4999999999999991,SD,Hypothalamus
+F2A,AAV-hGlp1r,4 hour,Vehicle,2.799999999999999,SD,Hypothalamus
+F3S,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,Hypothalamus
+F3S,AAV-hGlp1r,2 hour,Vehicle,1.0,SD,Hypothalamus
+F3S,AAV-hGlp1r,4 hour,Vehicle,1.6999999999999993,SD,Hypothalamus
+M1A,AAV-hGlp1r,1 hour,Vehicle,0.29999999999999893,SD,Hypothalamus
+M1A,AAV-hGlp1r,2 hour,Vehicle,0.8999999999999986,SD,Hypothalamus
+M1A,AAV-hGlp1r,4 hour,Vehicle,1.8999999999999995,SD,Hypothalamus
+M2A,AAV-hGlp1r,1 hour,Vehicle,0.09999999999999964,SD,Hypothalamus
+M2A,AAV-hGlp1r,2 hour,Vehicle,0.3000000000000007,SD,Hypothalamus
+M2A,AAV-hGlp1r,4 hour,Vehicle,1.4000000000000004,SD,Hypothalamus
+517,AAV-hGlp1r,1 hour,Danuglipron,0.2999999999999998,SD,DMH
+517,AAV-hGlp1r,2 hour,Danuglipron,0.5999999999999996,SD,DMH
+517,AAV-hGlp1r,4 hour,Danuglipron,1.5,SD,DMH
+627,AAV-hGlp1r,1 hour,Danuglipron,0.20000000000000107,SD,DMH
+627,AAV-hGlp1r,2 hour,Danuglipron,0.40000000000000036,SD,DMH
+627,AAV-hGlp1r,4 hour,Danuglipron,0.9000000000000004,SD,DMH
+628,AAV-hGlp1r,1 hour,Danuglipron,0.0,SD,DMH
+628,AAV-hGlp1r,2 hour,Danuglipron,0.0,SD,DMH
+628,AAV-hGlp1r,4 hour,Danuglipron,0.10000000000000053,SD,DMH
+4561,AAV-hGlp1r,1 hour,Danuglipron,0.2999999999999998,SD,DMH
+4561,AAV-hGlp1r,2 hour,Danuglipron,0.7000000000000002,SD,DMH
+4561,AAV-hGlp1r,4 hour,Danuglipron,1.5,SD,DMH
+4562,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,DMH
+4562,AAV-hGlp1r,2 hour,Danuglipron,0.6999999999999993,SD,DMH
+4562,AAV-hGlp1r,4 hour,Danuglipron,1.5999999999999996,SD,DMH
+4563,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,DMH
+4563,AAV-hGlp1r,2 hour,Danuglipron,0.5,SD,DMH
+4563,AAV-hGlp1r,4 hour,Danuglipron,1.4000000000000004,SD,DMH
+4564,AAV-hGlp1r,1 hour,Danuglipron,0.1999999999999993,SD,DMH
+4564,AAV-hGlp1r,2 hour,Danuglipron,0.5999999999999996,SD,DMH
+4564,AAV-hGlp1r,4 hour,Danuglipron,1.0999999999999996,SD,DMH
+517,AAV-hGlp1r,1 hour,Vehicle,0.6000000000000005,SD,DMH
+517,AAV-hGlp1r,2 hour,Vehicle,1.0,SD,DMH
+517,AAV-hGlp1r,4 hour,Vehicle,1.7000000000000002,SD,DMH
+627,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,DMH
+627,AAV-hGlp1r,2 hour,Vehicle,0.7000000000000002,SD,DMH
+627,AAV-hGlp1r,4 hour,Vehicle,1.5999999999999996,SD,DMH
+628,AAV-hGlp1r,1 hour,Vehicle,0.20000000000000018,SD,DMH
+628,AAV-hGlp1r,2 hour,Vehicle,0.2999999999999998,SD,DMH
+628,AAV-hGlp1r,4 hour,Vehicle,0.9000000000000004,SD,DMH
+4561,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,DMH
+4561,AAV-hGlp1r,2 hour,Vehicle,0.8999999999999995,SD,DMH
+4561,AAV-hGlp1r,4 hour,Vehicle,2.5,SD,DMH
+4562,AAV-hGlp1r,1 hour,Vehicle,0.2999999999999998,SD,DMH
+4562,AAV-hGlp1r,2 hour,Vehicle,0.9000000000000004,SD,DMH
+4562,AAV-hGlp1r,4 hour,Vehicle,1.5999999999999996,SD,DMH
+4563,AAV-hGlp1r,1 hour,Vehicle,0.7000000000000002,SD,DMH
+4563,AAV-hGlp1r,2 hour,Vehicle,1.4000000000000004,SD,DMH
+4563,AAV-hGlp1r,4 hour,Vehicle,2.3,SD,DMH
+4564,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,DMH
+4564,AAV-hGlp1r,2 hour,Vehicle,0.6000000000000005,SD,DMH
+4564,AAV-hGlp1r,4 hour,Vehicle,1.3000000000000007,SD,DMH
+802,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,NTS/AP
+802,AAV-hGlp1r,2 hour,Danuglipron,0.5,SD,NTS/AP
+802,AAV-hGlp1r,4 hour,Danuglipron,1.299999999999999,SD,NTS/AP
+803,AAV-hGlp1r,1 hour,Danuglipron,0.40000000000000036,SD,NTS/AP
+803,AAV-hGlp1r,2 hour,Danuglipron,1.0,SD,NTS/AP
+803,AAV-hGlp1r,4 hour,Danuglipron,2.0,SD,NTS/AP
+805,AAV-hGlp1r,1 hour,Danuglipron,0.40000000000000036,SD,NTS/AP
+805,AAV-hGlp1r,2 hour,Danuglipron,0.9000000000000004,SD,NTS/AP
+805,AAV-hGlp1r,4 hour,Danuglipron,1.6999999999999993,SD,NTS/AP
+806,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,NTS/AP
+806,AAV-hGlp1r,2 hour,Danuglipron,0.3000000000000007,SD,NTS/AP
+806,AAV-hGlp1r,4 hour,Danuglipron,0.3000000000000007,SD,NTS/AP
+807,AAV-hGlp1r,1 hour,Danuglipron,0.0,SD,NTS/AP
+807,AAV-hGlp1r,2 hour,Danuglipron,0.40000000000000036,SD,NTS/AP
+807,AAV-hGlp1r,4 hour,Danuglipron,1.0,SD,NTS/AP
+839,AAV-hGlp1r,4 hour,Danuglipron,1.4000000000000004,SD,NTS/AP
+839,AAV-hGlp1r,1 hour,Danuglipron,0.20000000000000107,SD,NTS/AP
+839,AAV-hGlp1r,2 hour,Danuglipron,0.40000000000000036,SD,NTS/AP
+802,AAV-hGlp1r,1 hour,Vehicle,0.29999999999999893,SD,NTS/AP
+802,AAV-hGlp1r,2 hour,Vehicle,0.5999999999999996,SD,NTS/AP
+802,AAV-hGlp1r,4 hour,Vehicle,1.299999999999999,SD,NTS/AP
+803,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,NTS/AP
+803,AAV-hGlp1r,2 hour,Vehicle,1.200000000000001,SD,NTS/AP
+803,AAV-hGlp1r,4 hour,Vehicle,2.4000000000000004,SD,NTS/AP
+805,AAV-hGlp1r,1 hour,Vehicle,0.3000000000000007,SD,NTS/AP
+805,AAV-hGlp1r,2 hour,Vehicle,0.40000000000000036,SD,NTS/AP
+805,AAV-hGlp1r,4 hour,Vehicle,1.2000000000000002,SD,NTS/AP
+806,AAV-hGlp1r,1 hour,Vehicle,0.09999999999999964,SD,NTS/AP
+806,AAV-hGlp1r,2 hour,Vehicle,0.9000000000000004,SD,NTS/AP
+806,AAV-hGlp1r,4 hour,Vehicle,3.0,SD,NTS/AP
+807,AAV-hGlp1r,1 hour,Vehicle,0.40000000000000036,SD,NTS/AP
+807,AAV-hGlp1r,2 hour,Vehicle,0.6999999999999993,SD,NTS/AP
+807,AAV-hGlp1r,4 hour,Vehicle,1.7000000000000002,SD,NTS/AP
+839,AAV-hGlp1r,1 hour,Vehicle,0.2999999999999998,SD,NTS/AP
+839,AAV-hGlp1r,2 hour,Vehicle,1.0,SD,NTS/AP
+839,AAV-hGlp1r,4 hour,Vehicle,2.4000000000000004,SD,NTS/AP
+481,AAV-hGlp1r,1 hour,Danuglipron,0.40000000000000036,SD,CeA
+481,AAV-hGlp1r,2 hour,Danuglipron,0.8000000000000007,SD,CeA
+481,AAV-hGlp1r,4 hour,Danuglipron,1.700000000000001,SD,CeA
+482,AAV-hGlp1r,1 hour,Danuglipron,0.5999999999999996,SD,CeA
+482,AAV-hGlp1r,2 hour,Danuglipron,1.0999999999999996,SD,CeA
+482,AAV-hGlp1r,4 hour,Danuglipron,2.5,SD,CeA
+483,AAV-hGlp1r,1 hour,Danuglipron,0.1999999999999993,SD,CeA
+483,AAV-hGlp1r,2 hour,Danuglipron,0.3000000000000007,SD,CeA
+483,AAV-hGlp1r,4 hour,Danuglipron,1.1999999999999993,SD,CeA
+516,AAV-hGlp1r,1 hour,Danuglipron,0.0,SD,CeA
+516,AAV-hGlp1r,2 hour,Danuglipron,0.20000000000000107,SD,CeA
+516,AAV-hGlp1r,4 hour,Danuglipron,0.7000000000000011,SD,CeA
+520,AAV-hGlp1r,1 hour,Danuglipron,0.0,SD,CeA
+520,AAV-hGlp1r,2 hour,Danuglipron,1.1000000000000005,SD,CeA
+520,AAV-hGlp1r,4 hour,Danuglipron,1.2000000000000002,SD,CeA
+857,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,CeA
+857,AAV-hGlp1r,2 hour,Danuglipron,0.5,SD,CeA
+857,AAV-hGlp1r,4 hour,Danuglipron,2.0,SD,CeA
+923,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,CeA
+923,AAV-hGlp1r,2 hour,Danuglipron,0.2999999999999998,SD,CeA
+923,AAV-hGlp1r,4 hour,Danuglipron,1.3999999999999995,SD,CeA
+4553,AAV-hGlp1r,1 hour,Danuglipron,0.20000000000000018,SD,CeA
+4553,AAV-hGlp1r,2 hour,Danuglipron,0.5,SD,CeA
+4553,AAV-hGlp1r,4 hour,Danuglipron,1.2999999999999998,SD,CeA
+4566,AAV-hGlp1r,1 hour,Danuglipron,0.09999999999999964,SD,CeA
+4566,AAV-hGlp1r,2 hour,Danuglipron,0.39999999999999947,SD,CeA
+4566,AAV-hGlp1r,4 hour,Danuglipron,0.8999999999999995,SD,CeA
+481,AAV-hGlp1r,1 hour,Vehicle,0.0,SD,CeA
+481,AAV-hGlp1r,2 hour,Vehicle,0.40000000000000036,SD,CeA
+481,AAV-hGlp1r,4 hour,Vehicle,1.5,SD,CeA
+482,AAV-hGlp1r,1 hour,Vehicle,0.3000000000000007,SD,CeA
+482,AAV-hGlp1r,2 hour,Vehicle,0.6000000000000014,SD,CeA
+482,AAV-hGlp1r,4 hour,Vehicle,1.6000000000000005,SD,CeA
+483,AAV-hGlp1r,1 hour,Vehicle,0.1999999999999993,SD,CeA
+483,AAV-hGlp1r,2 hour,Vehicle,0.40000000000000036,SD,CeA
+483,AAV-hGlp1r,4 hour,Vehicle,1.0999999999999996,SD,CeA
+516,AAV-hGlp1r,1 hour,Vehicle,0.29999999999999893,SD,CeA
+516,AAV-hGlp1r,2 hour,Vehicle,0.39999999999999947,SD,CeA
+516,AAV-hGlp1r,4 hour,Vehicle,1.3999999999999995,SD,CeA
+520,AAV-hGlp1r,1 hour,Vehicle,0.40000000000000036,SD,CeA
+520,AAV-hGlp1r,2 hour,Vehicle,0.8000000000000007,SD,CeA
+520,AAV-hGlp1r,4 hour,Vehicle,1.5,SD,CeA
+857,AAV-hGlp1r,1 hour,Vehicle,0.1999999999999993,SD,CeA
+857,AAV-hGlp1r,2 hour,Vehicle,0.6999999999999993,SD,CeA
+857,AAV-hGlp1r,4 hour,Vehicle,1.8999999999999995,SD,CeA
+923,AAV-hGlp1r,1 hour,Vehicle,0.0,SD,CeA
+923,AAV-hGlp1r,2 hour,Vehicle,0.3000000000000007,SD,CeA
+923,AAV-hGlp1r,4 hour,Vehicle,1.3000000000000007,SD,CeA
+4553,AAV-hGlp1r,1 hour,Vehicle,0.39999999999999947,SD,CeA
+4553,AAV-hGlp1r,2 hour,Vehicle,0.7999999999999998,SD,CeA
+4553,AAV-hGlp1r,4 hour,Vehicle,1.5999999999999996,SD,CeA
+4566,AAV-hGlp1r,1 hour,Vehicle,0.5,SD,CeA
+4566,AAV-hGlp1r,2 hour,Vehicle,0.7999999999999998,SD,CeA
+4566,AAV-hGlp1r,4 hour,Vehicle,1.3,SD,CeA
+C1,AAV-mCherry,1 hour,Danuglipron,0.6000000000000001,HFD,Hypothalamus mCherry
+C1,AAV-mCherry,2 hour,Danuglipron,0.9000000000000004,HFD,Hypothalamus mCherry
+C1,AAV-mCherry,4 hour,Danuglipron,1.7000000000000002,HFD,Hypothalamus mCherry
+C2,AAV-mCherry,1 hour,Danuglipron,0.5,HFD,Hypothalamus mCherry
+C2,AAV-mCherry,2 hour,Danuglipron,0.8999999999999999,HFD,Hypothalamus mCherry
+C2,AAV-mCherry,4 hour,Danuglipron,1.7999999999999998,HFD,Hypothalamus mCherry
+C3,AAV-mCherry,1 hour,Danuglipron,0.4000000000000003,HFD,Hypothalamus mCherry
+C3,AAV-mCherry,2 hour,Danuglipron,0.6000000000000001,HFD,Hypothalamus mCherry
+C3,AAV-mCherry,4 hour,Danuglipron,1.4000000000000004,HFD,Hypothalamus mCherry
+C4,AAV-mCherry,1 hour,Danuglipron,0.7000000000000002,HFD,Hypothalamus mCherry
+C4,AAV-mCherry,2 hour,Danuglipron,0.7000000000000002,HFD,Hypothalamus mCherry
+C4,AAV-mCherry,4 hour,Danuglipron,1.5,HFD,Hypothalamus mCherry
+C5,AAV-mCherry,1 hour,Danuglipron,0.7999999999999998,HFD,Hypothalamus mCherry
+C5,AAV-mCherry,2 hour,Danuglipron,0.8999999999999999,HFD,Hypothalamus mCherry
+C5,AAV-mCherry,4 hour,Danuglipron,1.5,HFD,Hypothalamus mCherry
+C6,AAV-mCherry,1 hour,Danuglipron,0.3000000000000002,HFD,Hypothalamus mCherry
+C6,AAV-mCherry,2 hour,Danuglipron,0.3000000000000002,HFD,Hypothalamus mCherry
+C6,AAV-mCherry,4 hour,Danuglipron,1.0,HFD,Hypothalamus mCherry
+C1,AAV-mCherry,1 hour,Vehicle,1.0,HFD,Hypothalamus mCherry
+C1,AAV-mCherry,2 hour,Vehicle,1.5,HFD,Hypothalamus mCherry
+C1,AAV-mCherry,4 hour,Vehicle,2.4,HFD,Hypothalamus mCherry
+C2,AAV-mCherry,1 hour,Vehicle,0.5,HFD,Hypothalamus mCherry
+C2,AAV-mCherry,2 hour,Vehicle,0.8999999999999999,HFD,Hypothalamus mCherry
+C2,AAV-mCherry,4 hour,Vehicle,1.5999999999999996,HFD,Hypothalamus mCherry
+C3,AAV-mCherry,1 hour,Vehicle,0.3000000000000002,HFD,Hypothalamus mCherry
+C3,AAV-mCherry,2 hour,Vehicle,0.6000000000000001,HFD,Hypothalamus mCherry
+C3,AAV-mCherry,4 hour,Vehicle,1.4,HFD,Hypothalamus mCherry
+C4,AAV-mCherry,1 hour,Vehicle,0.3999999999999999,HFD,Hypothalamus mCherry
+C4,AAV-mCherry,2 hour,Vehicle,0.8999999999999999,HFD,Hypothalamus mCherry
+C4,AAV-mCherry,4 hour,Vehicle,1.6,HFD,Hypothalamus mCherry
+C5,AAV-mCherry,1 hour,Vehicle,0.5,HFD,Hypothalamus mCherry
+C5,AAV-mCherry,2 hour,Vehicle,1.1999999999999995,HFD,Hypothalamus mCherry
+C5,AAV-mCherry,4 hour,Vehicle,2.1,HFD,Hypothalamus mCherry
+C6,AAV-mCherry,1 hour,Vehicle,0.6000000000000001,HFD,Hypothalamus mCherry
+C6,AAV-mCherry,2 hour,Vehicle,0.7000000000000002,HFD,Hypothalamus mCherry
+C6,AAV-mCherry,4 hour,Vehicle,1.8,HFD,Hypothalamus mCherry
+626,AAV-hGlp1r,1 hour,Danuglipron,0.6999999999999997,HFD,Hypothalamus
+626,AAV-hGlp1r,2 hour,Danuglipron,1.1999999999999995,HFD,Hypothalamus
+626,AAV-hGlp1r,4 hour,Danuglipron,2.7,HFD,Hypothalamus
+629,AAV-hGlp1r,1 hour,Danuglipron,1.6,HFD,Hypothalamus
+629,AAV-hGlp1r,2 hour,Danuglipron,1.6,HFD,Hypothalamus
+629,AAV-hGlp1r,4 hour,Danuglipron,2.1,HFD,Hypothalamus
+631,AAV-hGlp1r,1 hour,Danuglipron,0.8000000000000003,HFD,Hypothalamus
+631,AAV-hGlp1r,2 hour,Danuglipron,1.0,HFD,Hypothalamus
+631,AAV-hGlp1r,4 hour,Danuglipron,1.9,HFD,Hypothalamus
+633,AAV-hGlp1r,1 hour,Danuglipron,0.5,HFD,Hypothalamus
+633,AAV-hGlp1r,2 hour,Danuglipron,0.8999999999999999,HFD,Hypothalamus
+633,AAV-hGlp1r,4 hour,Danuglipron,1.2999999999999998,HFD,Hypothalamus
+938,AAV-hGlp1r,1 hour,Danuglipron,0.5,HFD,Hypothalamus
+938,AAV-hGlp1r,2 hour,Danuglipron,0.8999999999999999,HFD,Hypothalamus
+938,AAV-hGlp1r,4 hour,Danuglipron,1.8,HFD,Hypothalamus
+947,AAV-hGlp1r,1 hour,Danuglipron,0.7999999999999998,HFD,Hypothalamus
+947,AAV-hGlp1r,2 hour,Danuglipron,1.0999999999999996,HFD,Hypothalamus
+947,AAV-hGlp1r,4 hour,Danuglipron,1.7999999999999998,HFD,Hypothalamus
+F2A,AAV-hGlp1r,1 hour,Danuglipron,0.8000000000000003,HFD,Hypothalamus
+F2A,AAV-hGlp1r,2 hour,Danuglipron,0.9000000000000004,HFD,Hypothalamus
+F2A,AAV-hGlp1r,4 hour,Danuglipron,1.7000000000000002,HFD,Hypothalamus
+F3S,AAV-hGlp1r,1 hour,Danuglipron,0.1,HFD,Hypothalamus
+F3S,AAV-hGlp1r,2 hour,Danuglipron,0.7000000000000002,HFD,Hypothalamus
+F3S,AAV-hGlp1r,4 hour,Danuglipron,1.9,HFD,Hypothalamus
+M1A,AAV-hGlp1r,1 hour,Danuglipron,0.5,HFD,Hypothalamus
+M1A,AAV-hGlp1r,2 hour,Danuglipron,1.0,HFD,Hypothalamus
+M1A,AAV-hGlp1r,4 hour,Danuglipron,1.8,HFD,Hypothalamus
+M2A,AAV-hGlp1r,1 hour,Danuglipron,0.2999999999999998,HFD,Hypothalamus
+M2A,AAV-hGlp1r,2 hour,Danuglipron,0.6000000000000001,HFD,Hypothalamus
+M2A,AAV-hGlp1r,4 hour,Danuglipron,1.4,HFD,Hypothalamus
+626,AAV-hGlp1r,1 hour,Vehicle,0.7000000000000002,HFD,Hypothalamus
+626,AAV-hGlp1r,2 hour,Vehicle,0.9000000000000004,HFD,Hypothalamus
+626,AAV-hGlp1r,4 hour,Vehicle,1.7000000000000002,HFD,Hypothalamus
+629,AAV-hGlp1r,1 hour,Vehicle,1.6,HFD,Hypothalamus
+629,AAV-hGlp1r,2 hour,Vehicle,2.0,HFD,Hypothalamus
+629,AAV-hGlp1r,4 hour,Vehicle,2.0,HFD,Hypothalamus
+631,AAV-hGlp1r,1 hour,Vehicle,0.3999999999999999,HFD,Hypothalamus
+631,AAV-hGlp1r,2 hour,Vehicle,1.0,HFD,Hypothalamus
+631,AAV-hGlp1r,4 hour,Vehicle,1.8,HFD,Hypothalamus
+633,AAV-hGlp1r,1 hour,Vehicle,0.5,HFD,Hypothalamus
+633,AAV-hGlp1r,2 hour,Vehicle,1.8,HFD,Hypothalamus
+633,AAV-hGlp1r,4 hour,Vehicle,2.2,HFD,Hypothalamus
+938,AAV-hGlp1r,1 hour,Vehicle,0.6000000000000001,HFD,Hypothalamus
+938,AAV-hGlp1r,2 hour,Vehicle,0.6000000000000001,HFD,Hypothalamus
+938,AAV-hGlp1r,4 hour,Vehicle,1.2999999999999998,HFD,Hypothalamus
+947,AAV-hGlp1r,1 hour,Vehicle,0.7999999999999998,HFD,Hypothalamus
+947,AAV-hGlp1r,2 hour,Vehicle,1.0999999999999996,HFD,Hypothalamus
+947,AAV-hGlp1r,4 hour,Vehicle,1.5,HFD,Hypothalamus
+F2A,AAV-hGlp1r,1 hour,Vehicle,0.2999999999999998,HFD,Hypothalamus
+F2A,AAV-hGlp1r,2 hour,Vehicle,0.7999999999999998,HFD,Hypothalamus
+F2A,AAV-hGlp1r,4 hour,Vehicle,1.5,HFD,Hypothalamus
+F3S,AAV-hGlp1r,1 hour,Vehicle,0.4000000000000003,HFD,Hypothalamus
+F3S,AAV-hGlp1r,2 hour,Vehicle,1.0,HFD,Hypothalamus
+F3S,AAV-hGlp1r,4 hour,Vehicle,2.0,HFD,Hypothalamus
+M1A,AAV-hGlp1r,1 hour,Vehicle,0.4000000000000003,HFD,Hypothalamus
+M1A,AAV-hGlp1r,2 hour,Vehicle,1.0,HFD,Hypothalamus
+M1A,AAV-hGlp1r,4 hour,Vehicle,2.1,HFD,Hypothalamus
+M2A,AAV-hGlp1r,1 hour,Vehicle,0.7999999999999998,HFD,Hypothalamus
+M2A,AAV-hGlp1r,2 hour,Vehicle,1.2999999999999998,HFD,Hypothalamus
+M2A,AAV-hGlp1r,4 hour,Vehicle,1.9,HFD,Hypothalamus
+517,AAV-hGlp1r,1 hour,Danuglipron,0.5,HFD,DMH
+517,AAV-hGlp1r,2 hour,Danuglipron,1.0,HFD,DMH
+517,AAV-hGlp1r,4 hour,Danuglipron,1.5,HFD,DMH
+627,AAV-hGlp1r,1 hour,Danuglipron,0.3000000000000002,HFD,DMH
+627,AAV-hGlp1r,2 hour,Danuglipron,0.5,HFD,DMH
+627,AAV-hGlp1r,4 hour,Danuglipron,1.0,HFD,DMH
+628,AAV-hGlp1r,1 hour,Danuglipron,0.2999999999999998,HFD,DMH
+628,AAV-hGlp1r,2 hour,Danuglipron,0.8999999999999999,HFD,DMH
+628,AAV-hGlp1r,4 hour,Danuglipron,1.4,HFD,DMH
+4561,AAV-hGlp1r,1 hour,Danuglipron,0.7000000000000002,HFD,DMH
+4561,AAV-hGlp1r,2 hour,Danuglipron,0.9000000000000004,HFD,DMH
+4561,AAV-hGlp1r,4 hour,Danuglipron,1.3000000000000005,HFD,DMH
+4562,AAV-hGlp1r,1 hour,Danuglipron,0.3000000000000002,HFD,DMH
+4562,AAV-hGlp1r,2 hour,Danuglipron,1.1,HFD,DMH
+4562,AAV-hGlp1r,4 hour,Danuglipron,1.5,HFD,DMH
+4563,AAV-hGlp1r,1 hour,Danuglipron,1.0,HFD,DMH
+4563,AAV-hGlp1r,2 hour,Danuglipron,1.6,HFD,DMH
+4563,AAV-hGlp1r,4 hour,Danuglipron,2.4000000000000004,HFD,DMH
+4564,AAV-hGlp1r,1 hour,Danuglipron,0.8999999999999999,HFD,DMH
+4564,AAV-hGlp1r,2 hour,Danuglipron,0.8999999999999999,HFD,DMH
+4564,AAV-hGlp1r,4 hour,Danuglipron,1.5,HFD,DMH
+517,AAV-hGlp1r,1 hour,Vehicle,0.5,HFD,DMH
+517,AAV-hGlp1r,2 hour,Vehicle,1.0,HFD,DMH
+517,AAV-hGlp1r,4 hour,Vehicle,1.4,HFD,DMH
+627,AAV-hGlp1r,1 hour,Vehicle,0.3000000000000002,HFD,DMH
+627,AAV-hGlp1r,2 hour,Vehicle,0.5,HFD,DMH
+627,AAV-hGlp1r,4 hour,Vehicle,0.8000000000000003,HFD,DMH
+628,AAV-hGlp1r,1 hour,Vehicle,0.3999999999999999,HFD,DMH
+628,AAV-hGlp1r,2 hour,Vehicle,0.5,HFD,DMH
+628,AAV-hGlp1r,4 hour,Vehicle,1.4,HFD,DMH
+4561,AAV-hGlp1r,1 hour,Vehicle,0.7999999999999998,HFD,DMH
+4561,AAV-hGlp1r,2 hour,Vehicle,1.2999999999999998,HFD,DMH
+4561,AAV-hGlp1r,4 hour,Vehicle,1.6999999999999995,HFD,DMH
+4562,AAV-hGlp1r,1 hour,Vehicle,0.7000000000000002,HFD,DMH
+4562,AAV-hGlp1r,2 hour,Vehicle,1.3000000000000005,HFD,DMH
+4562,AAV-hGlp1r,4 hour,Vehicle,2.0,HFD,DMH
+4563,AAV-hGlp1r,1 hour,Vehicle,2.0,HFD,DMH
+4563,AAV-hGlp1r,2 hour,Vehicle,2.2,HFD,DMH
+4563,AAV-hGlp1r,4 hour,Vehicle,2.7,HFD,DMH
+4564,AAV-hGlp1r,1 hour,Vehicle,0.7999999999999998,HFD,DMH
+4564,AAV-hGlp1r,2 hour,Vehicle,0.8999999999999999,HFD,DMH
+4564,AAV-hGlp1r,4 hour,Vehicle,2.1,HFD,DMH
+802,AAV-hGlp1r,4 hour,Danuglipron,2.0,HFD,NTS/AP
+802,AAV-hGlp1r,1 hour,Danuglipron,0.6000000000000001,HFD,NTS/AP
+802,AAV-hGlp1r,2 hour,Danuglipron,1.1,HFD,NTS/AP
+803,AAV-hGlp1r,4 hour,Danuglipron,0.7999999999999998,HFD,NTS/AP
+803,AAV-hGlp1r,1 hour,Danuglipron,0.7999999999999998,HFD,NTS/AP
+803,AAV-hGlp1r,2 hour,Danuglipron,0.7999999999999998,HFD,NTS/AP
+805,AAV-hGlp1r,4 hour,Danuglipron,1.4,HFD,NTS/AP
+805,AAV-hGlp1r,1 hour,Danuglipron,0.6999999999999997,HFD,NTS/AP
+805,AAV-hGlp1r,2 hour,Danuglipron,0.6999999999999997,HFD,NTS/AP
+806,AAV-hGlp1r,4 hour,Danuglipron,1.6,HFD,NTS/AP
+806,AAV-hGlp1r,1 hour,Danuglipron,0.3999999999999999,HFD,NTS/AP
+806,AAV-hGlp1r,2 hour,Danuglipron,0.6000000000000001,HFD,NTS/AP
+807,AAV-hGlp1r,4 hour,Danuglipron,1.5,HFD,NTS/AP
+807,AAV-hGlp1r,1 hour,Danuglipron,0.8999999999999999,HFD,NTS/AP
+807,AAV-hGlp1r,2 hour,Danuglipron,0.8999999999999999,HFD,NTS/AP
+839,AAV-hGlp1r,4 hour,Danuglipron,1.6,HFD,NTS/AP
+839,AAV-hGlp1r,1 hour,Danuglipron,0.3999999999999999,HFD,NTS/AP
+839,AAV-hGlp1r,2 hour,Danuglipron,0.7999999999999998,HFD,NTS/AP
+802,AAV-hGlp1r,1 hour,Vehicle,1.2000000000000002,HFD,NTS/AP
+802,AAV-hGlp1r,2 hour,Vehicle,1.7,HFD,NTS/AP
+802,AAV-hGlp1r,4 hour,Vehicle,2.7,HFD,NTS/AP
+803,AAV-hGlp1r,1 hour,Vehicle,0.7999999999999998,HFD,NTS/AP
+803,AAV-hGlp1r,2 hour,Vehicle,0.8999999999999995,HFD,NTS/AP
+803,AAV-hGlp1r,4 hour,Vehicle,2.1,HFD,NTS/AP
+805,AAV-hGlp1r,1 hour,Vehicle,1.1,HFD,NTS/AP
+805,AAV-hGlp1r,2 hour,Vehicle,1.5,HFD,NTS/AP
+805,AAV-hGlp1r,4 hour,Vehicle,2.0,HFD,NTS/AP
+806,AAV-hGlp1r,1 hour,Vehicle,1.0,HFD,NTS/AP
+806,AAV-hGlp1r,2 hour,Vehicle,1.2999999999999998,HFD,NTS/AP
+806,AAV-hGlp1r,4 hour,Vehicle,2.1,HFD,NTS/AP
+807,AAV-hGlp1r,1 hour,Vehicle,0.9000000000000004,HFD,NTS/AP
+807,AAV-hGlp1r,2 hour,Vehicle,1.2000000000000002,HFD,NTS/AP
+807,AAV-hGlp1r,4 hour,Vehicle,2.3000000000000003,HFD,NTS/AP
+839,AAV-hGlp1r,1 hour,Vehicle,0.8000000000000003,HFD,NTS/AP
+839,AAV-hGlp1r,2 hour,Vehicle,1.3000000000000005,HFD,NTS/AP
+839,AAV-hGlp1r,4 hour,Vehicle,1.9,HFD,NTS/AP
+481,AAV-hGlp1r,1 hour,Danuglipron,0.7000000000000002,HFD,CeA
+481,AAV-hGlp1r,2 hour,Danuglipron,1.1,HFD,CeA
+481,AAV-hGlp1r,4 hour,Danuglipron,2.0,HFD,CeA
+482,AAV-hGlp1r,1 hour,Danuglipron,0.3999999999999999,HFD,CeA
+482,AAV-hGlp1r,2 hour,Danuglipron,0.8999999999999999,HFD,CeA
+482,AAV-hGlp1r,4 hour,Danuglipron,1.4,HFD,CeA
+483,AAV-hGlp1r,1 hour,Danuglipron,0.7000000000000002,HFD,CeA
+483,AAV-hGlp1r,2 hour,Danuglipron,0.7999999999999998,HFD,CeA
+483,AAV-hGlp1r,4 hour,Danuglipron,1.2000000000000002,HFD,CeA
+516,AAV-hGlp1r,4 hour,Danuglipron,1.0,HFD,CeA
+516,AAV-hGlp1r,1 hour,Danuglipron,0.2999999999999998,HFD,CeA
+516,AAV-hGlp1r,2 hour,Danuglipron,0.6999999999999997,HFD,CeA
+520,AAV-hGlp1r,4 hour,Danuglipron,1.0,HFD,CeA
+520,AAV-hGlp1r,1 hour,Danuglipron,0.1999999999999997,HFD,CeA
+520,AAV-hGlp1r,2 hour,Danuglipron,0.5,HFD,CeA
+857,AAV-hGlp1r,1 hour,Danuglipron,0.3000000000000002,HFD,CeA
+857,AAV-hGlp1r,2 hour,Danuglipron,0.6000000000000001,HFD,CeA
+857,AAV-hGlp1r,4 hour,Danuglipron,1.0000000000000002,HFD,CeA
+923,AAV-hGlp1r,4 hour,Danuglipron,1.4,HFD,CeA
+923,AAV-hGlp1r,1 hour,Danuglipron,0.6000000000000001,HFD,CeA
+923,AAV-hGlp1r,2 hour,Danuglipron,1.0,HFD,CeA
+4553,AAV-hGlp1r,4 hour,Danuglipron,1.6,HFD,CeA
+4553,AAV-hGlp1r,1 hour,Danuglipron,0.7999999999999998,HFD,CeA
+4566,AAV-hGlp1r,4 hour,Danuglipron,2.2,HFD,CeA
+4566,AAV-hGlp1r,1 hour,Danuglipron,0.8999999999999999,HFD,CeA
+4566,AAV-hGlp1r,2 hour,Danuglipron,1.0,HFD,CeA
+481,AAV-hGlp1r,1 hour,Vehicle,1.4,HFD,CeA
+481,AAV-hGlp1r,2 hour,Vehicle,1.6,HFD,CeA
+481,AAV-hGlp1r,4 hour,Vehicle,2.8,HFD,CeA
+482,AAV-hGlp1r,1 hour,Vehicle,1.0,HFD,CeA
+482,AAV-hGlp1r,2 hour,Vehicle,1.2000000000000002,HFD,CeA
+482,AAV-hGlp1r,4 hour,Vehicle,1.8000000000000005,HFD,CeA
+483,AAV-hGlp1r,1 hour,Vehicle,1.1,HFD,CeA
+483,AAV-hGlp1r,2 hour,Vehicle,1.4,HFD,CeA
+483,AAV-hGlp1r,4 hour,Vehicle,1.8,HFD,CeA
+516,AAV-hGlp1r,4 hour,Vehicle,1.7000000000000002,HFD,CeA
+516,AAV-hGlp1r,1 hour,Vehicle,0.6000000000000001,HFD,CeA
+516,AAV-hGlp1r,2 hour,Vehicle,0.9000000000000004,HFD,CeA
+520,AAV-hGlp1r,4 hour,Vehicle,1.7,HFD,CeA
+520,AAV-hGlp1r,1 hour,Vehicle,0.5,HFD,CeA
+520,AAV-hGlp1r,2 hour,Vehicle,0.5,HFD,CeA
+857,AAV-hGlp1r,1 hour,Vehicle,1.0999999999999996,HFD,CeA
+857,AAV-hGlp1r,2 hour,Vehicle,1.4,HFD,CeA
+857,AAV-hGlp1r,4 hour,Vehicle,2.2,HFD,CeA
+923,AAV-hGlp1r,4 hour,Vehicle,1.4,HFD,CeA
+923,AAV-hGlp1r,1 hour,Vehicle,0.7999999999999998,HFD,CeA
+923,AAV-hGlp1r,2 hour,Vehicle,0.7999999999999998,HFD,CeA
+4553,AAV-hGlp1r,4 hour,Vehicle,1.5,HFD,CeA
+4553,AAV-hGlp1r,1 hour,Vehicle,0.8999999999999999,HFD,CeA
+4553,AAV-hGlp1r,2 hour,Vehicle,0.8999999999999999,HFD,CeA
+4566,AAV-hGlp1r,4 hour,Vehicle,1.4999999999999998,HFD,CeA
+4566,AAV-hGlp1r,1 hour,Vehicle,1.1999999999999995,HFD,CeA
+4566,AAV-hGlp1r,2 hour,Vehicle,1.4999999999999998,HFD,CeA

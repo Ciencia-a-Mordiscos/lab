@@ -399,6 +399,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-05-06-glp1-amigdala-recompensa-ratones/README
+    title: "Las píldoras anti-obesidad pasan por la amígdala"
+    sections:
+    - file: papers/2026-05-06-glp1-amigdala-recompensa-ratones/notebook
+      title: Notebook
   - file: papers/2026-05-20-dopamina-cerebro-maternal/README
     title: "Dopamina y cerebro maternal"
     sections:

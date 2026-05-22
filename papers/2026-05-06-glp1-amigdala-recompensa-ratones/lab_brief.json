@@ -1,0 +1,215 @@
+{
+  "version": "1.0",
+  "paper_id": 2445,
+  "doi": "10.1038/s41586-026-10444-4",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mouse (humanized GLP1R: S33W variant)",
+  "verification_table": [
+    {
+      "claim": "Liraglutide reduce la ingesta a 2h de forma similar en WT (-51.9%) y S33W (-56.7%)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Péptido se une a ambos receptores. Cohen's d Liraglutide WT≈-1.94, S33W≈-1.28.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "pct_reduccion",
+        "value": -51.9,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Danuglipron solo reduce ingesta en S33W (-51.5%), no en WT (+10.6%)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Especificidad farmacológica por receptor humanizado. Cohen's d S33W=-1.39 (grande), WT=+0.31 (ruido).",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "cohens_d",
+        "value": -1.39,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Orforglipron muestra el mismo patrón: -57.6% en S33W, ~0% en WT",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Replica el patrón de Danuglipron con magnitud similar.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "pct_reduccion",
+        "value": -57.6,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Danuglipron activa más Fos en CeA de S33W vs WT (medio: 0.67 vs 0.90, p=0.030, d=0.45)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Efecto direccionalmente claro pero medio (d=0.45). Mann-Whitney one-sided.",
+      "certainty_tier": "T1",
+      "abstract_verb": "recruit",
+      "effect_size": {
+        "measure": "cohens_d",
+        "value": 0.45,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "El DMH no se activa más en S33W (p=0.78, n.s.)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Probable saturación por receptor endógeno: el DMH ya respondía a GLP-1 endógeno.",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "cohens_d",
+        "value": -0.28,
+        "interpretation": "ruido"
+      }
+    },
+    {
+      "claim": "AAV-hGlp1r en CeA reduce ingesta de HFD 29% (p=0.031, d_paired=-1.03, n=8) pero no SD (p=0.94)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Disociación clave: el receptor en CeA es necesario y suficiente para suprimir comida palatable.",
+      "certainty_tier": "T1",
+      "abstract_verb": "diminishes",
+      "effect_size": {
+        "measure": "cohens_d_paired",
+        "value": -1.03,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "AAV-hGlp1r en hipotálamo reduce SD 56% (p=0.008) pero no HFD (n.s.)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Opuesto a CeA: el hipotálamo controla la ingesta homeostática, no la hedónica.",
+      "certainty_tier": "T1",
+      "abstract_verb": "control",
+      "effect_size": {
+        "measure": "cohens_d_paired",
+        "value": -1.12,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El circuito identificado opera igual en humanos",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "El modelo S33W humaniza UN aminoácido del receptor. La arquitectura del circuito en cerebros humanos está por confirmar — bandera amarilla cross-species.",
+      "certainty_tier": "T3",
+      "abstract_verb": "implications",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": -51.9,
+      "unit": "% reducción ingesta a 2h",
+      "context": "Liraglutide vs salino en ratones WT",
+      "source": "datos/ingesta_droga_genotipo.csv",
+      "verified": true
+    },
+    {
+      "value": -56.7,
+      "unit": "% reducción ingesta a 2h",
+      "context": "Liraglutide vs salino en ratones S33W",
+      "source": "datos/ingesta_droga_genotipo.csv",
+      "verified": true
+    },
+    {
+      "value": 10.6,
+      "unit": "% cambio ingesta a 2h",
+      "context": "Danuglipron vs salino en WT (sin efecto, ruido)",
+      "source": "datos/ingesta_droga_genotipo.csv",
+      "verified": true
+    },
+    {
+      "value": -51.5,
+      "unit": "% reducción ingesta a 2h",
+      "context": "Danuglipron vs salino en S33W",
+      "source": "datos/ingesta_droga_genotipo.csv",
+      "verified": true
+    },
+    {
+      "value": -57.6,
+      "unit": "% reducción ingesta a 2h",
+      "context": "Orforglipron vs salino en S33W",
+      "source": "datos/ingesta_droga_genotipo.csv",
+      "verified": true
+    },
+    {
+      "value": 0.45,
+      "unit": "Cohen's d",
+      "context": "Diferencia Fos S33W vs WT en CeA (efecto medio, p=0.030)",
+      "source": "datos/fos_region_cerebral.csv",
+      "verified": true
+    },
+    {
+      "value": -29.0,
+      "unit": "% reducción ingesta",
+      "context": "AAV-hGlp1r CeA bajo HFD pareado Veh vs Dan (p=0.031, n=8)",
+      "source": "datos/rescate_aav_completo.csv",
+      "verified": true
+    },
+    {
+      "value": -55.8,
+      "unit": "% reducción ingesta",
+      "context": "AAV-hGlp1r hipotálamo bajo SD pareado Veh vs Dan (p=0.008)",
+      "source": "datos/rescate_aav_completo.csv",
+      "verified": true
+    },
+    {
+      "value": -38.0,
+      "unit": "% reducción ingesta",
+      "context": "AAV-hGlp1r NTS/AP bajo HFD pareado Veh vs Dan (p=0.031)",
+      "source": "datos/rescate_aav_completo.csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'encontraron/funciona'"
+    },
+    {
+      "abstract_verb": "recruit",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'reclutan/activan'"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — 'identifican'"
+    },
+    {
+      "abstract_verb": "implications",
+      "tier": "T3",
+      "cam_attenuator": "'podría tener implicaciones' — NO presentar como aplicación inmediata"
+    }
+  ],
+  "narrative_hooks": [
+    "Ozempic se inyecta. Las pastillas que vienen — Danuglipron, Orforglipron — usan otra ruta cerebral: la amígdala.",
+    "Una sola letra cambiada en el receptor de los ratones (W→S en posición 33) y la pastilla deja de funcionar — o empieza a funcionar.",
+    "Devolver el receptor solo en la amígdala central basta para suprimir comida palatable, sin tocar el chow normal."
+  ],
+  "limitations": [
+    "Todos los experimentos en ratones modificados genéticamente — la extrapolación al cerebro humano requiere validación independiente",
+    "Las medidas de Fos son indirectas; no prueban que neuronas Glp1r+ de la CeA sean el motor del efecto (optogenética del paper original lo aborda, no reproducida aquí)",
+    "Los pareados de Fig 4 funcionan dentro de cada ratón pero los n por celda son chicos (6-10); el efecto se replicará mejor con réplicas independientes"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims yes + 9 key_numbers + disociación causal compleja — script denso"
+  },
+  "notebook_slug": "2026-05-06-glp1-amigdala-recompensa-ratones",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-glp1-amigdala-recompensa-ratones/notebook.html",
+  "generated_at": "2026-05-22T16:54:53.313849Z"
+}
