@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "paper_id": 2447,
+  "doi": "10.1038/s41586-026-10451-5",
+  "paper_type": "experimental",
+  "study_design": "mixed",
+  "species": "mouse + human",
+  "verification_table": [
+    {
+      "claim": "La castración acorta la supervivencia mediana de ratones con GBM intracraneal en 23%.",
+      "supported": "yes",
+      "detail": "Mediana 26 → 20 días. Cohen's d = 0,94 (efecto grande). Log-rank p = 0,020. Mann-Whitney p = 0,003. n = 27 (13 Sham vs 14 Cas).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "cohen_d", "value": 0.94, "interpretation": "grande"}
+    },
+    {
+      "claim": "Bloquear glucocorticoides con mifepristona en ratones castrados aumenta la mediana de supervivencia un 51%.",
+      "supported": "yes",
+      "detail": "Mediana 17,5 → 26,5 días. Cohen's d = 0,85 (efecto grande). Log-rank p = 0,048 (replicado en notebook). Mann-Whitney one-sided p = 0,060 (borderline — log-rank gana porque pesa los eventos tardíos). n = 20 (10 Veh vs 10 MFP).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "cohen_d", "value": 0.85, "interpretation": "grande"}
+    },
+    {
+      "claim": "En 1.272 hombres con glioblastoma, la testosterona suplementada junto con temozolomida redujo el riesgo de muerte 38% (HR=0,62; ajustado 0,66).",
+      "supported": "partial",
+      "detail": "Cohorte retrospectiva NO aleatorizada. HR crudo 0,62 (IC 0,48-0,82). HR ajustado 0,66 (IC 0,50-0,86), p=0,003. Mediana de supervivencia: 16 vs 12 meses. Asociación robusta pero NO causalidad probada — los hombres recibían testosterona por otras razones, no por GBM. El ensayo aleatorizado todavía no existe.",
+      "certainty_tier": "T2",
+      "abstract_verb": "significantly reduced",
+      "effect_size": {"measure": "hazard_ratio", "value": 0.66, "interpretation": "moderado-grande"}
+    },
+    {
+      "claim": "El mecanismo es la hiperactivación del eje HPA (hipotálamo-pituitaria-adrenal): sin andrógenos, se sueltan glucocorticoides que apagan la respuesta inmune antitumoral.",
+      "supported": "partial",
+      "detail": "El rescate con mifepristona es consistente con la hipótesis (replicado en notebook). Las mediciones directas de glucocorticoides séricos, células T y transcriptómica espacial de microglía viven en otras figuras del paper que no replicamos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "qualitative", "value": null, "interpretation": "rescue experiment exitoso"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 23,
+      "unit": "por ciento",
+      "context": "reducción de mediana de supervivencia tras castración en ratones con GBM",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "intracranial tumour growth accelerated (Fig 1a)",
+        "our_calculation": "(1 - 20/26)*100 = 23%",
+        "discrepancy_pct": 0,
+        "reason": "transcripción directa de las medianas"
+      }
+    },
+    {
+      "value": 51,
+      "unit": "por ciento",
+      "context": "aumento de mediana de supervivencia con mifepristona en castrados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "Fig 3b log-rank significativa",
+        "our_calculation": "(26,5/17,5 - 1)*100 = 51%",
+        "discrepancy_pct": 0,
+        "reason": "transcripción directa de las medianas"
+      }
+    },
+    {
+      "value": 0.94,
+      "unit": "cohen_d",
+      "context": "Sham vs Cas — efecto grande",
+      "source": "calculado",
+      "verified": true
+    },
+    {
+      "value": 0.85,
+      "unit": "cohen_d",
+      "context": "Vehículo vs Mifepristona — efecto grande",
+      "source": "calculado",
+      "verified": true
+    },
+    {
+      "value": 0.62,
+      "unit": "hazard_ratio",
+      "context": "HR crudo de muerte con testosterona+TMZ vs TMZ en cohorte humana (n=1272)",
+      "source": "paper_text",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "HR = 0,62 (IC 0,48-0,82); ajustado 0,66 (IC 0,50-0,86), p=0,003",
+        "our_calculation": "no recomputado — vive en texto del paper",
+        "discrepancy_pct": 0,
+        "reason": "citado del texto"
+      }
+    },
+    {
+      "value": 1272,
+      "unit": "pacientes",
+      "context": "tamaño de la cohorte clínica retrospectiva masculina",
+      "source": "paper_text",
+      "verified": true
+    },
+    {
+      "value": 38,
+      "unit": "por ciento",
+      "context": "reducción de riesgo de muerte (1 - HR crudo 0,62)",
+      "source": "calculado",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa para ratones; con datos: 'redujo 23%' / 'aumentó 51%'"},
+    {"abstract_verb": "significantly reduced", "tier": "T2", "cam_attenuator": "'se asocia con' o 'tuvieron X menos riesgo' (retrospectivo, no causal)"},
+    {"abstract_verb": "may involve / unclear", "tier": "T2", "cam_attenuator": "'todo apunta a' / 'la evidencia es consistente con'"}
+  ],
+  "narrative_hooks": [
+    "Los andrógenos ayudan a la mayoría de los tumores. En el cerebro pasa lo contrario.",
+    "Castrar a un ratón con tumor cerebral lo mata más rápido — 23% más rápido.",
+    "El cuerpo, sin andrógenos, dispara un circuito de estrés que apaga al sistema inmune del cerebro.",
+    "1.272 hombres, retrospectivo: los que tomaron testosterona vivieron 4 meses más con glioblastoma."
+  ],
+  "limitations": [
+    "Solo replicamos las dos curvas de supervivencia. El mecanismo molecular completo (glucocorticoides séricos, células T sistémicas, microglía espacial) vive en otras figuras del paper.",
+    "Con n pequeño (10 vs 10 en Fig 3b) Mann-Whitney queda en el borde p=0,060; log-rank — que es el test del paper — sí alcanza significancia.",
+    "La cohorte humana es retrospectiva, no aleatorizada. Los hombres recibían testosterona por hipogonadismo u otras razones — quedan confounders por más ajustes que se hagan.",
+    "Los datos clínicos (n=1.272) viven en el texto del paper; no los recalculamos.",
+    "El estudio aplica a hombres con GBM. La generalización a mujeres o a otros tumores cerebrales no es directa."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims con datos sólidos + 7 números clave + giro contraintuitivo que requiere setup"
+  },
+  "notebook_slug": "2026-05-06-androgenos-glioblastoma-hpa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-06-androgenos-glioblastoma-hpa/notebook.html",
+  "generated_at": "2026-05-23T10:50:00Z"
+}

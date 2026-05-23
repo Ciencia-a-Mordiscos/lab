@@ -1,0 +1,22 @@
+titulo: "La sorpresa de los andrógenos en el cerebro"
+fecha: 2026-05-06
+categoria: medicina
+tags: [glioblastoma, andrógenos, hpa, oncología, inmunología, supervivencia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10451-5"
+    titulo: "Androgen loss accelerates brain tumour growth via HPA axis activation"
+    journal: Nature
+    autores: "Garcia-Mulero et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "gbm_survival_sb28.csv"
+    descripcion: "Supervivencia de 27 ratones con GBM intracraneal (Sham vs Cas)"
+    fuente: "Source Data Fig. 1a"
+  - nombre: "mfp_rescue_castrated.csv"
+    descripcion: "Supervivencia de 20 ratones castrados (Vehículo vs Mifepristona)"
+    fuente: "Source Data Fig. 3b"
+estado: publicado

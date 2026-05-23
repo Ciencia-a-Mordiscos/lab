@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### La sorpresa de los andrógenos en el cerebro
+
+**Medicina** · *Nature* · En la mayoría de los cánceres los andrógenos ayudan al tumor — por eso bloquearlos es estándar contra próstata. En glioblastoma, este equipo demostró lo contrario. **Acto 1 (Fig 1a):** castrar ratones con GBM intracraneal redujo la mediana de supervivencia 23% (26 → 20 días, *d* = 0,94, log-rank *p* = 0,020, *n* = 27). **Acto 2 (Fig 3b):** bloquear glucocorticoides con mifepristona en castrados subió la mediana 51% (17,5 → 26,5 días, *d* = 0,85, log-rank *p* = 0,048, *n* = 20). **Acto 3 (cohorte humana):** en 1.272 hombres con GBM, testosterona+temozolomida vs temozolomida sola → 38% menos riesgo de muerte (HR crudo 0,62; ajustado 0,66, *p* = 0,003). Mecanismo propuesto: sin andrógenos, el eje hipotálamo-pituitaria-adrenal (HPA) hipersuelta cortisol y apaga la inmunidad antitumoral. ⚠️ La cohorte humana es retrospectiva, no aleatorizada — asociación robusta, no causalidad probada. ⚠️ Solo replicamos las dos curvas de supervivencia; mediciones moleculares directas viven en otras figuras del paper.
+
+[Ver notebook](papers/2026-05-06-androgenos-glioblastoma-hpa/notebook) · [Leer más](papers/2026-05-06-androgenos-glioblastoma-hpa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-androgenos-glioblastoma-hpa/notebook.ipynb)
+
+
 ### Las píldoras anti-obesidad pasan por la amígdala
 
 **Neurociencia** · *Nature* · Las nuevas píldoras anti-obesidad (Danuglipron, Orforglipron) actúan sobre el mismo receptor que Ozempic — pero solo se unen a la versión humana. Para estudiarlas, el equipo creó ratones humanizados (S33W: una sola letra del aminoácido 33 cambiada). **Acto 1:** Liraglutide funciona en ambos genotipos (≈−52% a 2h, *d* = −1.94 en WT). Danuglipron solo en S33W (−51.5%, *d* = −1.39) — en WT no hay efecto (*d* = +0.31). **Acto 2:** las pastillas activan más Fos en CeA (amígdala central, *d* = 0.45, *p* = 0.030), NTS y AP — pero **no** en DMH (saturado por GLP-1 endógeno). **Acto 3:** rescate AAV región-específica revela la disociación causal: devolver el receptor solo en CeA basta para suprimir comida palatable (−29%, *p* = 0.031, *d* pareado = −1.03), pero no afecta el chow normal (*p* = 0.94). El hipotálamo hace lo opuesto: controla la ingesta homeostática (*d* pareado = −1.12), no la hedónica. ⚠️ Modelo S33W humaniza UN aminoácido — la arquitectura del circuito en cerebros humanos está por confirmar. ⚠️ *n* pequeños (6-10) en pareados de Fig 4.
