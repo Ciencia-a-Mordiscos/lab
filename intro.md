@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### RNAs que detienen TDP-43
+
+**Medicina** · *Science* · TDP-43 es una proteína que se atasca dentro de las neuronas motoras hasta matarlas — eso pasa en el 97% de los casos de ELA. Este paper prueba 17 RNAs cortos como chaperonas que la mantienen soluble. **Acto 1:** la potencia (IC50) varía 9× entre el mejor (UG)17 = 0,20 µM y el peor AUG12 = 1,79 µM. **Acto 2:** el número de repeticiones UG predice la potencia (Spearman ρ = -0,66, *p* = 0,007, *n* = 15) — pero ni el % UG ni la estabilidad estructural lo hacen. **Acto 3:** RNAs modificados con más UGs son ~18% más potentes que sus contrapartes naturales (Cohen's d = -1,01, n=8 vs 4). ⚠️ Solo replicamos la capa in vitro (Tabla S1); los experimentos en ratones y neuronas humanas del paper viven en otras figuras. ⚠️ (UG)17 es un control sintético puro, no un candidato terapéutico.
+
+[Ver notebook](papers/2026-05-23-rna-chaperones-tdp-43/notebook) · [Leer más](papers/2026-05-23-rna-chaperones-tdp-43/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-23-rna-chaperones-tdp-43/notebook.ipynb)
+
+
 ### La sorpresa de los andrógenos en el cerebro
 
 **Medicina** · *Nature* · En la mayoría de los cánceres los andrógenos ayudan al tumor — por eso bloquearlos es estándar contra próstata. En glioblastoma, este equipo demostró lo contrario. **Acto 1 (Fig 1a):** castrar ratones con GBM intracraneal redujo la mediana de supervivencia 23% (26 → 20 días, *d* = 0,94, log-rank *p* = 0,020, *n* = 27). **Acto 2 (Fig 3b):** bloquear glucocorticoides con mifepristona en castrados subió la mediana 51% (17,5 → 26,5 días, *d* = 0,85, log-rank *p* = 0,048, *n* = 20). **Acto 3 (cohorte humana):** en 1.272 hombres con GBM, testosterona+temozolomida vs temozolomida sola → 38% menos riesgo de muerte (HR crudo 0,62; ajustado 0,66, *p* = 0,003). Mecanismo propuesto: sin andrógenos, el eje hipotálamo-pituitaria-adrenal (HPA) hipersuelta cortisol y apaga la inmunidad antitumoral. ⚠️ La cohorte humana es retrospectiva, no aleatorizada — asociación robusta, no causalidad probada. ⚠️ Solo replicamos las dos curvas de supervivencia; mediciones moleculares directas viven en otras figuras del paper.

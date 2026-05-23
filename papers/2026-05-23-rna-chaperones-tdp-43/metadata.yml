@@ -1,0 +1,19 @@
+titulo: "RNAs que detienen TDP-43"
+fecha: 2026-05-23
+categoria: medicina
+tags: [tdp-43, ela, rna-chaperones, neurodegeneracion, biofisica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adv3301"
+    titulo: "Short RNA chaperones promote aggregation-resistant TDP-43 conformers to mitigate neurodegeneration"
+    journal: Science
+    autores: "Cupo et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "rna_chaperones_tabla_s1.csv"
+    descripcion: "17 RNAs evaluados como chaperonas de TDP-43: secuencia, IC50, KD, %UG, repeticiones UG, ΔG, tipo"
+    fuente: "Supplementary Materials del paper (Tabla S1)"
+estado: publicado

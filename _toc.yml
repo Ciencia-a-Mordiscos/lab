@@ -287,6 +287,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-23-rna-chaperones-tdp-43/README
+    title: "RNAs que detienen TDP-43"
+    sections:
+    - file: papers/2026-05-23-rna-chaperones-tdp-43/notebook
+      title: Notebook
   - file: papers/2026-05-06-androgenos-glioblastoma-hpa/README
     title: "La sorpresa de los andrógenos en el cerebro"
     sections:

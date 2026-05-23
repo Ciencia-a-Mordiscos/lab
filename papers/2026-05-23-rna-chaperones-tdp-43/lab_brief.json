@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "paper_id": 2454,
+  "doi": "10.1126/science.adv3301",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "in_vitro",
+  "verification_table": [
+    {
+      "claim": "El número de repeticiones UG en un RNA corto predice su potencia para prevenir la agregación de TDP-43",
+      "supported": "yes",
+      "detail": "Spearman ρ = -0,66, p = 0,007, n = 15. Correlación fuerte y significativa. Confirmado en el dataset de Tabla S1.",
+      "certainty_tier": "T1",
+      "abstract_verb": "define",
+      "effect_size": {"measure": "spearman_rho", "value": -0.66, "interpretation": "fuerte"}
+    },
+    {
+      "claim": "El porcentaje UG global y la estabilidad estructural (ΔG) NO predicen la potencia",
+      "supported": "yes",
+      "detail": "ρ = -0,21 (p = 0,452) y ρ = -0,11 (p = 0,708) respectivamente. Ninguno alcanza significancia.",
+      "certainty_tier": "T1",
+      "abstract_verb": "stabilize",
+      "effect_size": {"measure": "spearman_rho", "value": -0.21, "interpretation": "nulo"}
+    },
+    {
+      "claim": "Los RNAs engineered (modificados con más UGs) son ~18% más potentes que sus contrapartes naturales de igual longitud",
+      "supported": "partial",
+      "detail": "Media natural 0,50 µM (n=8) vs engineered 0,41 µM (n=4), diferencia −17,6%. Cohen's d = -1,01 (efecto grande). Mann-Whitney U p = 0,106 (no significativo por n pequeño). El paper no aplica test de hipótesis para esta comparación.",
+      "certainty_tier": "T2",
+      "abstract_verb": "identified",
+      "effect_size": {"measure": "cohen_d", "value": -1.01, "interpretation": "grande_pero_no_significativo"}
+    },
+    {
+      "claim": "(UG)17 es el RNA más potente del set (IC50 = 0,20 µM), 2,7× mejor que la media",
+      "supported": "yes",
+      "detail": "IC50 medido directamente. Media del set = 0,54 µM. Ratio = 0,54/0,20 = 2,72×. Pero (UG)17 es un control sintético puro, no candidato terapéutico.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "effect_size": {"measure": "ratio_vs_mean", "value": 2.72, "interpretation": "extremo_del_set"}
+    },
+    {
+      "claim": "TDP-43 agregado es central en ELA (~97% de casos) y en demencia frontotemporal",
+      "supported": "yes",
+      "detail": "Hecho clínico bien establecido (no medido en este notebook, pero respaldado por el paper en su introducción y referencias).",
+      "certainty_tier": "T1",
+      "abstract_verb": "drives",
+      "effect_size": {"measure": "n/a", "value": null, "interpretation": "contexto_clinico"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 17,
+      "unit": "RNAs",
+      "context": "número total de RNAs evaluados en la Tabla S1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "RNAs",
+      "context": "con IC50 medido (los 2 sin IC50 son controles negativos AC17 y A(GU)6)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.20,
+      "unit": "µM",
+      "context": "IC50 de (UG)17 — el más potente del set",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.79,
+      "unit": "µM",
+      "context": "IC50 de AUG12 — el menos potente",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9,
+      "unit": "x",
+      "context": "factor de variación entre el RNA más y menos potente (1,79/0,20 = 8,95×)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.66,
+      "unit": "spearman_rho",
+      "context": "correlación entre número de repeticiones UG e IC50 (más UGs = más potente)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.007,
+      "unit": "p_value",
+      "context": "significancia de la correlación UG_count vs IC50",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.50,
+      "unit": "µM",
+      "context": "IC50 medio de los RNAs naturales de 34-mer (n=8)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.41,
+      "unit": "µM",
+      "context": "IC50 medio de los RNAs engineered de 34-mer (n=4)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -18,
+      "unit": "por ciento",
+      "context": "reducción de IC50 medio engineered vs natural (más potencia)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_value": "engineered set has IC50/KD better than Clip34 natural",
+        "our_value": "-17,6%",
+        "discrepancy_pct": 0,
+        "reason": "valor consistente con descripción cualitativa del paper"
+      }
+    },
+    {
+      "value": 1.81,
+      "unit": "x",
+      "context": "mejora de KD de Clip34_UG6 (engineered) vs Clip34 natural (0,27 vs 0,49 µM)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 97,
+      "unit": "por ciento",
+      "context": "casos de ELA con patología de TDP-43",
+      "source": "introduccion_paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "define", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "identified", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "stabilize", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "mitigated", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "reduced", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "restored", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "conferred", "tier": "T1", "cam_attenuator": "afirmación directa"}
+  ],
+  "narrative_hooks": [
+    "La proteína TDP-43 se atasca dentro de las neuronas motoras hasta matarlas — y eso es lo que pasa en la ELA",
+    "Probaron 17 RNAs cortos contra TDP-43 y la potencia varía 9× entre el mejor y el peor",
+    "Lo que predice la potencia no es el porcentaje UG, ni la estabilidad — es cuántas repeticiones UG tiene",
+    "Modificando un RNA natural con más UGs lograron mejorar 1,81× su afinidad de unión"
+  ],
+  "limitations": [
+    "Dataset es solo Tabla S1 del paper (17 RNAs con IC50/KD in vitro), NO incluye los experimentos in vivo en ratones, en neuronas humanas ni los optogenetic models del paper completo",
+    "Spearman con n=15 tiene poco poder para detectar correlaciones débiles",
+    "Comparación natural (n=8) vs engineered (n=4) tiene n pequeño y el paper no reporta test de hipótesis para esta comparación",
+    "(UG)17 es un control sintético puro, no un candidato terapéutico directo"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes + 1 partial + 12 key_numbers — estándar para video corto"
+  },
+  "notebook_slug": "2026-05-23-rna-chaperones-tdp-43",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-23-rna-chaperones-tdp-43/notebook.html",
+  "generated_at": "2026-05-23T11:12:00Z"
+}
