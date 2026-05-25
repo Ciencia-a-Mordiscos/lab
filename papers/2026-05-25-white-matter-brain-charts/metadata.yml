@@ -1,0 +1,25 @@
+titulo: "Charts normativos lifespan de sustancia blanca cerebral (72 tractos, 0–100 años)"
+fecha: 2026-05-25
+categoria: neurociencia
+tags: [cerebro, sustancia-blanca, esclerosis-multiple, neuroimagen, lifespan, charts-normativos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10454-2"
+    titulo: "White matter micro- and macrostructure brain charts for the human lifespan"
+    journal: Nature
+    autores: "Kim, M.E. et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "chart_normativo_AF_izq_volumen.csv"
+    descripcion: "Chart normativo lifespan (0,1–90 años) para volumen del Fascículo Arcuato izquierdo, percentiles 2,5/50/97,5 por sexo"
+    fuente: "Zenodo 18435695 (Models) — example_centiles.csv reformateado"
+  - nombre: "cohorte_MS_71participantes.csv"
+    descripcion: "Cohorte clínica de validación: 38 controles + 33 pacientes con esclerosis múltiple, FA y volumen en 13 tractos"
+    fuente: "Zenodo 18435695 (Models) — MS_dataset.csv trimmed"
+  - nombre: "ranking_tractos_efecto_MS.csv"
+    descripcion: "72 tractos × FA media (CN, MS), diferencia, Cohen's d pooled, p Mann-Whitney — computado en este notebook"
+    fuente: "Derivado en FASE 3 del análisis"
+estado: publicado

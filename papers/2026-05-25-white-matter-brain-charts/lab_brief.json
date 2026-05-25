@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "paper_id": 2487,
+  "doi": "10.1038/s41586-026-10454-2",
+  "paper_type": "experimental",
+  "study_design": "observacional_transversal",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "35.120 escáneres cerebrales procesados de estudios globales para construir charts normativos de 72 vías de sustancia blanca",
+      "supported": "yes",
+      "detail": "Cifras literales del abstract Nature y del README de Zenodo 18891848. El ejemplo público descargable cubre 0,1–90 años, no 0–100.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El volumen del Fascículo Arcuato izquierdo dibuja una U invertida con pico cerca de los 16 años y meseta hasta los 40",
+      "supported": "yes",
+      "detail": "idxmax() sobre la mediana del CSV: edad 15,6 años para ambos sexos. Forma directamente observable del chart.",
+      "certainty_tier": "T1",
+      "abstract_verb": "mapped",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La Radiación Óptica derecha diferencia controles sanos de pacientes con MS con efecto grande (Cohen's d = 1,21)",
+      "supported": "yes",
+      "detail": "Cohen's d pooled = 1,21, p = 5,1e-06 (Mann-Whitney). Cohorte 38 CN + 33 MS.",
+      "certainty_tier": "T1",
+      "abstract_verb": "linked to",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.21,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El Cuerpo Calloso muestra un efecto medio (d = 0,72) — relevante pero no el tracto más afectado",
+      "supported": "yes",
+      "detail": "d = 0,72, p = 0,010. Los tractos visuales (T_OCC, OR) superan al CC con d ≈ 1,21–1,25.",
+      "certainty_tier": "T1",
+      "abstract_verb": "linked to",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.72,
+        "interpretation": "medio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los tractos motores (cortico-espinal izquierdo) están preservados en esta cohorte (d = 0,02, p = 0,96)",
+      "supported": "yes",
+      "detail": "Diferencia esencialmente nula entre grupos. Consistente con que la MS no se presenta típicamente como paresia motora pura.",
+      "certainty_tier": "T1",
+      "abstract_verb": "linked to",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.02,
+        "interpretation": "nulo"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El volumen del Fascículo Arcuato izquierdo no discrimina MS de controles: 35/38 CN y 32/33 MS caen dentro de la banda normativa p2.5–p97.5",
+      "supported": "yes",
+      "detail": "Mediana centil CN = 0,72; mediana centil MS = 0,71. La utilidad clínica del chart vive en la microestructura por tracto (FA), no en el volumen del AF.",
+      "certainty_tier": "T1",
+      "abstract_verb": "allow",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 35120,
+      "unit": "escáneres",
+      "context": "total procesado para construir los charts",
+      "source": "abstract Nature + README Zenodo",
+      "verified": true
+    },
+    {
+      "value": 72,
+      "unit": "vías de sustancia blanca",
+      "context": "tractos definidos por TractSeg en el paper",
+      "source": "tract_list.txt + README",
+      "verified": true
+    },
+    {
+      "value": 16,
+      "unit": "años",
+      "context": "edad aproximada del pico de volumen del Fascículo Arcuato izquierdo (15,6 años en mediana M y F)",
+      "source": "notebook (chart normativo)",
+      "verified": true
+    },
+    {
+      "value": 1.21,
+      "unit": "Cohen's d",
+      "context": "Radiación Óptica derecha — efecto grande MS vs CN",
+      "source": "ranking_tractos_efecto_MS.csv",
+      "verified": true
+    },
+    {
+      "value": 0.72,
+      "unit": "Cohen's d",
+      "context": "Cuerpo Calloso — efecto medio MS vs CN",
+      "source": "ranking_tractos_efecto_MS.csv",
+      "verified": true
+    },
+    {
+      "value": 0.02,
+      "unit": "Cohen's d",
+      "context": "Cortico-espinal izquierdo — esencialmente nulo MS vs CN",
+      "source": "ranking_tractos_efecto_MS.csv",
+      "verified": true
+    },
+    {
+      "value": 38,
+      "unit": "controles",
+      "context": "cohorte clínica de validación",
+      "source": "cohorte_MS_71participantes.csv",
+      "verified": true
+    },
+    {
+      "value": 33,
+      "unit": "pacientes con MS",
+      "context": "cohorte clínica de validación",
+      "source": "cohorte_MS_71participantes.csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "mapped",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "linked to",
+      "tier": "T2",
+      "cam_attenuator": "asociado a / vínculo (NO causa)"
+    },
+    {
+      "abstract_verb": "allow",
+      "tier": "T1 funcional",
+      "cam_attenuator": "afirmación directa"
+    }
+  ],
+  "narrative_hooks": [
+    "Tu cerebro tiene 72 autopistas blancas — y ahora hay un mapa de cómo cambian de los 0 a los 90 años.",
+    "El volumen del Fascículo Arcuato pica a los 16 años. Después, todos perdemos un poco cada década.",
+    "Los pacientes con MS no tienen un cerebro 'más chico' en general — pero sus vías visuales pierden integridad mientras las motoras quedan intactas."
+  ],
+  "limitations": [
+    "Cohorte clínica pequeña (n=71) con desbalance de sexo (CN 27F/11M, MS 28F/5M)",
+    "Estudio observacional transversal — muestra asociación, no causalidad establecida en un único corte temporal",
+    "El dataset público derivado cubre 1 de los 72 tractos del chart normativo (Fascículo Arcuato izquierdo, volumen); los modelos completos están en un archivo de 9,6 GB no descargado",
+    "El ejemplo público cubre 0,1–90 años; el paper completo afirma 0–100 años"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims yes verificados + 8 números clave (cohorte densa por tracto)"
+  },
+  "notebook_slug": "2026-05-25-white-matter-brain-charts",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-25-white-matter-brain-charts/notebook.html",
+  "generated_at": "2026-05-25T16:19:50.242918+00:00"
+}

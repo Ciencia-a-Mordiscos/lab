@@ -414,6 +414,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-05-25-white-matter-brain-charts/README
+    title: "Charts normativos de sustancia blanca: 72 vías, 0-90 años"
+    sections:
+    - file: papers/2026-05-25-white-matter-brain-charts/notebook
+      title: Notebook
   - file: papers/2026-05-06-glp1-amigdala-recompensa-ratones/README
     title: "Las píldoras anti-obesidad pasan por la amígdala"
     sections:
