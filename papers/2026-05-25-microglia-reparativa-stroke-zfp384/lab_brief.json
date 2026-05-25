@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "paper_id": 2476,
+  "doi": "10.1038/s41586-026-10480-0",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mouse",
+  "verification_table": [
+    {
+      "claim": "El ASO-Zfp384 reduce la asimetría motora en el Corner test al día 14",
+      "supported": "yes",
+      "detail": "ctrl 0.377 vs Zfp 0.170, Cohen's d=2.16 (recalculado), Mann-Whitney p=0.0006. n=11 vs 10.",
+      "certainty_tier": "T1",
+      "abstract_verb": "significantly improves",
+      "effect_size": {
+        "measure": "cohens_d",
+        "value": 2.16,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El efecto motor se mantiene hasta D56 post-derrame",
+      "supported": "yes",
+      "detail": "Corner D56: ctrl 0.286 vs Zfp 0.170, d=1.24, p=0.0154. AUC global d=2.74, p=0.0002.",
+      "certainty_tier": "T1",
+      "abstract_verb": "significantly improves motor recovery up to 56 days post-stroke",
+      "effect_size": {
+        "measure": "cohens_d",
+        "value": 1.24,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El efecto se replica en una prueba motora independiente (Cylinder)",
+      "supported": "yes",
+      "detail": "Cylinder D21: d=1.65, p=0.0034. D56: d=1.52, p=0.0061. La divergencia aparece más tarde que en Corner, pero se consolida.",
+      "certainty_tier": "T1",
+      "abstract_verb": "Corner test and Cylinder test",
+      "effect_size": {
+        "measure": "cohens_d",
+        "value": 1.52,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La microglia reparadora se comunica con multiples tipos celulares",
+      "supported": "yes",
+      "detail": "12 tipos celulares con interacciones significativas, total 2452, mediana 208.",
+      "certainty_tier": "T1",
+      "abstract_verb": "increases cell-cell communication with multiple neural cell types",
+      "effect_size": {
+        "measure": "n_tipos",
+        "value": 12,
+        "interpretation": "multiple"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los OPCs son el principal socio de la microglia reparadora",
+      "supported": "yes",
+      "detail": "OPCs lidera con 388 interacciones, seguido de neuronas excitatorias (325) y pericitos (278).",
+      "certainty_tier": "T1",
+      "abstract_verb": "including OPCs, excitatory neurons and pericytes",
+      "effect_size": {
+        "measure": "interaction_count",
+        "value": 388,
+        "interpretation": "top"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 2.16,
+      "unit": "Cohen's d",
+      "context": "Corner test D14 (efecto del ASO-Zfp384 vs control)",
+      "source": "notebook recalc",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "d=2.14",
+        "our_calculation": "d=2.16",
+        "discrepancy_pct": 0.9,
+        "reason": "leve diferencia por orden de operaciones, irrelevante"
+      }
+    },
+    {
+      "value": 0.0006,
+      "unit": "p-value Mann-Whitney",
+      "context": "Corner test D14, n=11 vs 10",
+      "source": "fact_sheet + notebook",
+      "verified": true
+    },
+    {
+      "value": 56,
+      "unit": "días",
+      "context": "duración del efecto motor post-intervención",
+      "source": "paper + notebook",
+      "verified": true
+    },
+    {
+      "value": 41.4,
+      "unit": "por ciento",
+      "context": "reducción del AUC (carga motora total D3-D56) Corner test en grupo ASO-Zfp384 vs control",
+      "source": "notebook recalc",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~35%",
+        "our_calculation": "41.4%",
+        "discrepancy_pct": 18,
+        "reason": "metodos de normalizacion AUC distintos; fact_sheet usa promedio simple, notebook integra trapezoidal /(max-min)"
+      }
+    },
+    {
+      "value": 12,
+      "unit": "tipos celulares",
+      "context": "que se comunican con la microglia reparadora post-derrame",
+      "source": "paper + dataset",
+      "verified": true
+    },
+    {
+      "value": 388,
+      "unit": "interacciones moleculares",
+      "context": "OPCs con la microglia reparadora — el top de los 12 tipos",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "días",
+      "context": "tiempo post-derrame al que se aplica el ASO",
+      "source": "paper context (no en CSV)",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "sustains the reparative phenotype",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "significantly improves",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "increases cell-cell communication",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    }
+  ],
+  "narrative_hooks": [
+    "Bloquear UN gen en la microglia mantiene la recuperacion motora dos meses despues de un derrame en ratones",
+    "Una sola inyeccion 3 dias post-derrame: el efecto se ve en D14 y dura hasta D56",
+    "La microglia 'rescatada' no actua sola — habla con 12 tipos de celulas, OPCs el principal socio"
+  ],
+  "limitations": [
+    "Estudio en ratones — la confirmacion humana del paper es observacional (microglia post-mortem en Fig 6), no terapeutica",
+    "n pequeño por grupo (11 vs 10) — el test no parametrico (Mann-Whitney) lo refleja",
+    "Solo replicamos el experimento de validacion funcional (Fig 6); single-cell de Fig 1-5 no se reanalizo",
+    "El ASO se aplica 3 dias post-derrame en condiciones controladas — la ventana terapeutica humana requiere mas trabajo"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims verificados, 7 numeros clave, estudio claro en una sola Fig"
+  },
+  "notebook_slug": "2026-05-25-microglia-reparativa-stroke-zfp384",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-25-microglia-reparativa-stroke-zfp384/notebook.html",
+  "generated_at": "2026-05-25T15:57:20.507132Z"
+}

@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Frenar UN gen mantiene la microglia reparadora 8 semanas tras un derrame
+
+**Medicina** · *Nature* · Du et al. (2026) identifican `Zfp384` como el interruptor que convierte a la microglia de reparadora a dañina después de un derrame en ratones. Silenciarlo con un fármaco antisentido (ASO) 3 días post-derrame **mantiene la microglia en modo reparador hasta D56** — dos meses después de una sola intervención. Bajamos los Source Data de Fig 6 y verificamos por nuestra cuenta. **Acto 1:** en el Corner test al día 14, el grupo Zfp384-silenciado baja la asimetría motora de **0.38 a 0.17** (Cohen *d* = **2.16**, Mann-Whitney *p* = **0.0006**, *n* = 11 vs 10). **Acto 2:** el efecto se sostiene hasta D56 (*d* = 1.24, *p* = 0.0154) y replica en una prueba motora independiente (Cylinder), donde aparece desde D21 (*d* = 1.65) y dura hasta D56. **Acto 3:** la microglia rescatada habla con **12 tipos celulares** — OPCs el principal socio (388 interacciones moleculares), seguido de neuronas excitatorias y pericitos. ⚠️ Estudio en ratones — la confirmación humana del paper es observacional, no terapéutica. ⚠️ *n* pequeños (10-11) y la ventana terapéutica humana sigue por confirmarse.
+
+[Ver notebook](papers/2026-05-25-microglia-reparativa-stroke-zfp384/notebook) · [Leer más](papers/2026-05-25-microglia-reparativa-stroke-zfp384/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-25-microglia-reparativa-stroke-zfp384/notebook.ipynb)
+
+
 ### RNAs que detienen TDP-43
 
 **Medicina** · *Science* · TDP-43 es una proteína que se atasca dentro de las neuronas motoras hasta matarlas — eso pasa en el 97% de los casos de ELA. Este paper prueba 17 RNAs cortos como chaperonas que la mantienen soluble. **Acto 1:** la potencia (IC50) varía 9× entre el mejor (UG)17 = 0,20 µM y el peor AUG12 = 1,79 µM. **Acto 2:** el número de repeticiones UG predice la potencia (Spearman ρ = -0,66, *p* = 0,007, *n* = 15) — pero ni el % UG ni la estabilidad estructural lo hacen. **Acto 3:** RNAs modificados con más UGs son ~18% más potentes que sus contrapartes naturales (Cohen's d = -1,01, n=8 vs 4). ⚠️ Solo replicamos la capa in vitro (Tabla S1); los experimentos en ratones y neuronas humanas del paper viven en otras figuras. ⚠️ (UG)17 es un control sintético puro, no un candidato terapéutico.

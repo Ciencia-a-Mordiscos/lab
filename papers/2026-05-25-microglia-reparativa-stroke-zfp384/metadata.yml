@@ -1,0 +1,25 @@
+titulo: "Frenar UN gen mantiene la microglia reparadora 8 semanas tras un derrame"
+fecha: 2026-05-25
+categoria: medicina
+tags: [microglia, derrame, neurociencia, oligonucleotido-antisentido, recuperacion-motora, zfp384]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10480-0"
+    titulo: "Sustaining microglial reparative function enhances stroke recovery"
+    journal: Nature
+    autores: "Du et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "test_corner_aso.csv"
+    descripcion: "Corner test: 21 ratones (11 ASO-control + 10 ASO-Zfp384) en 10 timepoints (D-1 a D56)"
+    fuente: "Supplementary Source Data Fig 6"
+  - nombre: "test_cylinder_aso.csv"
+    descripcion: "Cylinder test: mismos 21 ratones, mismos timepoints, prueba motora independiente"
+    fuente: "Supplementary Source Data Fig 6"
+  - nombre: "microglia_cell_interactions.csv"
+    descripcion: "12 tipos celulares con interacciones moleculares significativas (NicheNet/CellChat)"
+    fuente: "Supplementary Source Data Fig 6"
+estado: publicado
