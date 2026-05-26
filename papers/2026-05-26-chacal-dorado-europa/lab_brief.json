@@ -1,0 +1,170 @@
+{
+  "version": "1.0",
+  "paper_id": 2541,
+  "doi": "10.1038/s41559-026-03060-y",
+  "paper_type": "research_article",
+  "study_design": "observational",
+  "species": "wildlife_europe",
+  "verification_table": [
+    {
+      "claim": "El lobo es el principal factor que limita la presencia del chacal en Europa",
+      "supported": "yes",
+      "detail": "Datos crudos: 23,9% (n=6185) sin lobo → 17,3% (n=2806) con lobo. χ²(1)=49,06, p=2,5×10⁻¹². El paper confirma con modelo multivariado que controla por bosque, clima y nieve.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {
+        "measure": "risk_difference_pp",
+        "value": -6.61,
+        "interpretation": "moderado-alto en escala biológica"
+      }
+    },
+    {
+      "claim": "El efecto del lobo aparece sobre todo en hábitats con cobertura forestal alta",
+      "supported": "yes",
+      "detail": "Con cobertura forestal >30%, prevalencia chacal con lobo cae a 9-10% vs ~23% sin lobo. En paisajes abiertos (0-30% bosque) la diferencia con/sin lobo se diluye.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "risk_difference_pp",
+        "value": -15.6,
+        "interpretation": "muy fuerte en bins forestales"
+      }
+    },
+    {
+      "claim": "Los humanos actúan como 'escudo' reduciendo la supresión del lobo sobre el chacal",
+      "supported": "partial",
+      "detail": "El paper lo deriva de un modelo SDM con interacciones. El gradiente bivariado dist_human × wolf en el CSV crudo no muestra el efecto evidente (con lobo: Q1=19,6% vs Q5=15,9%). Citar como conclusión del modelo, no como evidencia directa del scatter.",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "El modelo predice que el chacal podría ocupar 75% del continente, ~6× su rango actual; recuperar al lobo podría reducir el área expansible hasta 18%",
+      "supported": "yes (as model output)",
+      "detail": "Outputs del Species Distribution Model de Ranc et al., no recomputables desde los 8.991 muestreos. Son proyecciones bajo escenarios de cobertura del lobo. La cifra '18%' es 'up to' — cota superior, no estimado central.",
+      "certainty_tier": "T2",
+      "abstract_verb": "predicts",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 8991,
+      "unit": "muestreos acústicos",
+      "context": "tamaño total del dataset Ranc et al.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "países",
+      "context": "Europa central y sudeste, 2001-2019",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 23.9,
+      "unit": "por ciento",
+      "context": "prevalencia chacal sin lobo en el paisaje (n=6185)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17.3,
+      "unit": "por ciento",
+      "context": "prevalencia chacal con lobo en el paisaje (n=2806)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27.7,
+      "unit": "por ciento (reducción relativa)",
+      "context": "caída relativa de la prevalencia cuando hay lobo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 49.06,
+      "unit": "chi-cuadrado",
+      "context": "test de contingencia 2x2 sin lobo vs con lobo, p=2,5×10⁻¹²",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 22.7,
+      "unit": "por ciento",
+      "context": "prevalencia chacal en Hungría (3.385 muestreos, 38% del dataset, 0,06% prevalencia de lobo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 75,
+      "unit": "por ciento (proyección)",
+      "context": "área de Europa potencialmente ocupable por el chacal según el SDM",
+      "source": "paper_model",
+      "verified": true,
+      "warning": "Output SDM, no recomputable"
+    },
+    {
+      "value": 6,
+      "unit": "x (factor)",
+      "context": "expansión potencial vs rango actual según el SDM",
+      "source": "paper_model",
+      "verified": true,
+      "warning": "Output SDM, no recomputable"
+    },
+    {
+      "value": 18,
+      "unit": "por ciento (reducción potencial)",
+      "context": "reducción del área expansible si se recuperan poblaciones de lobo — cota superior 'up to'",
+      "source": "paper_model",
+      "verified": true,
+      "warning": "Output SDM, no recomputable. 'up to' = cota superior"
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "warning": "Estudio observacional — no usar verbos causales fuertes ('controla', 'crea'). Usar 'donde hay X, hay menos Y'."
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "predicts",
+      "tier": "T2",
+      "cam_attenuator": "el modelo predice / proyecta",
+      "warning": "Cuantitativos 75%, 18%, 6× son OUTPUTS del SDM — NO escribir 'el chacal ocupará 75%'. SÍ: 'el modelo proyecta hasta 75%'."
+    },
+    {
+      "abstract_verb": "is expected to",
+      "tier": "T2",
+      "cam_attenuator": "se espera que / la proyección es"
+    }
+  ],
+  "narrative_hooks": [
+    "8.991 encuentros. 12 países. Donde aparece el lobo, el chacal casi desaparece del bosque.",
+    "El chacal dorado no le tiene miedo al bosque. Le tiene miedo al lobo en el bosque.",
+    "Hungría tiene 3.385 muestreos y prácticamente cero lobos. Ahí el chacal está al 22,7% — el cuartil superior de Europa.",
+    "El modelo proyecta hasta 75% de Europa ocupable por chacal — pero solo si los lobos no se recuperan."
+  ],
+  "limitations": [
+    "Dataset observacional, no experimental — la causalidad lobo → menos chacal viene del peso conjunto de modelo multivariado y biología, no de un solo análisis bivariado.",
+    "Hungría aporta el 38% de los muestreos; muchos promedios globales están dominados por un país sin lobos.",
+    "Los porcentajes 75%, 6×, 18% son proyecciones del SDM (Species Distribution Model) ajustado por Ranc et al., no estadísticos descriptivos de datos crudos.",
+    "La correlación entre países (n=12) no es significativa (ρ=-0,056, p=0,86) — el efecto opera a escala de transecto individual, no necesariamente a escala país.",
+    "El claim del 'escudo humano' no es evidente en el gradiente bivariado dist_human × wolf del CSV crudo; sale del modelo con interacciones."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims supported=yes + 1 partial. Densidad media-alta, lab apropiado para script estándar."
+  },
+  "notebook_slug": "2026-05-26-chacal-dorado-europa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-26-chacal-dorado-europa/notebook.html",
+  "generated_at": "2026-05-26T16:39:33Z"
+}

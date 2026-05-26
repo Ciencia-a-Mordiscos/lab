@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-26-chacal-dorado-europa/README
+    title: "Chacal dorado en Europa: el lobo lo limita, los humanos lo escudan"
+    sections:
+    - file: papers/2026-05-26-chacal-dorado-europa/notebook
+      title: Notebook
   - file: papers/2026-05-21-acidificacion-arroyos-permafrost/README
     title: "Cuando el permafrost se derrite y los arroyos se vuelven ácido sulfúrico"
     sections:

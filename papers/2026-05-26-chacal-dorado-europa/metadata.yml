@@ -1,0 +1,31 @@
+titulo: "Chacal dorado en Europa: el lobo lo limita, los humanos lo escudan"
+fecha: 2026-05-26
+categoria: ecologia
+tags: [ecologia, fauna-europa, interacciones-tróficas, lobo, chacal, biodiversidad]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03060-y"
+    titulo: "Human shielding from wolves facilitates jackal expansion across Europe"
+    journal: Nature Ecology & Evolution
+    autores: "Ranc et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "surveys.csv"
+    descripcion: "8.991 muestreos acústicos en 12 países (2001-2019)"
+    fuente: "Zenodo 10.5281/zenodo.18771950"
+  - nombre: "jackal_por_lobo.csv"
+    descripcion: "Prevalencia chacal cruzada con presencia binaria de lobo"
+    fuente: "Derivado de surveys.csv"
+  - nombre: "wolf_x_forest.csv"
+    descripcion: "Interacción cobertura forestal × presencia de lobo"
+    fuente: "Derivado de surveys.csv"
+  - nombre: "por_pais.csv"
+    descripcion: "Agregados por país (n=12)"
+    fuente: "Derivado de surveys.csv"
+  - nombre: "gradiente_humanos.csv"
+    descripcion: "Quintiles dist_human × presencia de lobo"
+    fuente: "Derivado de surveys.csv"
+estado: publicado
