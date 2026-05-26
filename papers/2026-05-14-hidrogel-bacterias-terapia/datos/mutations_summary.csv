@@ -1,0 +1,11 @@
+element,mutation_type,count
+ChPy CDS,Point mismatch,7
+ChPy CDS,Insertion,7
+ChPy CDS,Deletion (small <10bp),3
+ChPy CDS,Deletion (large >=100bp),9
+ChPy CDS,Gene deletion (full ORF),4
+ChPy CDS,Frameshift,2
+ChPy CDS,Silent,1
+Promoter,Point mismatch,17
+Promoter,Insertion,0
+Promoter,Deletion (small <10bp),1

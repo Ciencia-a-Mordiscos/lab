@@ -1,0 +1,67 @@
+material,source,condition,modulus_mpa,work_of_fracture_jm3,approximate
+Agarose,Experimental data,1 wv% Agarose,0.03,2.7,0
+Agarose,Experimental data,2 wv% Agarose,0.27,9.3,0
+Agarose,Experimental data,4 wv% Agarose,0.51,17.4,0
+Agarose,Experimental data,6 wv% Agarose,0.93,34.1,0
+Agarose,Experimental data,8 wv% Agarose,1.43,32.6,0
+PEG diacrylate,Experimental data,14 wv% PEGDA,0.16,3.1,0
+PEG diacrylate,Experimental data,21 wv% PEGDA,0.93,3.2,0
+PEG diacrylate,Experimental data,28 wv% PEGDA,1.88,4.3,0
+Pluronic F127 acrylate,Experimental data,"30 wv% F127, 25 wt% acrylated F127",0.02,7.8,0
+Pluronic F127 acrylate,Experimental data,"30 wv% F127, 50 wt% acrylated F127",0.06,32.9,0
+Pluronic F127 acrylate,Experimental data,"30 wv% F127, 75 wt% acrylated F127",0.19,67.1,0
+Pluronic F127 acrylate,Experimental data,"30 wv% F127, 100 wt% acrylated F127",0.42,66.5,0
+Alginate,Sun 2012,"3 wt% Alginate, 10 wt% CaSO4/Alginate",0.02,3,1
+Alginate,Sun 2012,"3 wt% Alginate, 13.3 wt% CaSO4/Alginate",0.05,4,1
+Alginate,Sun 2012,"3 wt% Alginate, 16.6 wt% CaSO4/Alginate",0.10,6,1
+Alginate,Sun 2012,"3 wt% Alginate, 19.9 wt% CaSO4/Alginate",0.14,8,1
+Alginate,Sun 2012,"3 wt% Alginate, 23.3 wt% CaSO4/Alginate",0.15,10,1
+Alginate,Sun 2012,"3 wt% Alginate, 26.6 wt% CaSO4/Alginate",0.17,8,1
+Polyacrylamide,Sun 2012,"13.6 wt% Acrylamide, 0.015 wt% MBAA/Acrylamide",0.007,60,1
+Polyacrylamide,Sun 2012,"13.6 wt% Acrylamide, 0.031 wt% MBAA/Acrylamide",0.013,100,1
+Polyacrylamide,Sun 2012,"13.6 wt% Acrylamide, 0.038 wt% MBAA/Acrylamide",0.014,100,1
+Polyacrylamide,Sun 2012,"13.6 wt% Acrylamide, 0.046 wt% MBAA/Acrylamide",0.016,100,1
+Polyacrylamide,Sun 2012,"13.6 wt% Acrylamide, 0.062 wt% MBAA/Acrylamide",0.016,80,1
+Polyacrylamide,Sun 2012,"13.6 wt% Acrylamide, 0.108 wt% MBAA/Acrylamide",0.016,50,1
+Alginate + Polyacrylamide,Sun 2012,66.67 wt% Acrylamide/(Alginate+Acrylamide),0.1,400,1
+Alginate + Polyacrylamide,Sun 2012,75 wt% Acrylamide/(Alginate+Acrylamide),0.1,1000,1
+Alginate + Polyacrylamide,Sun 2012,80 wt% Acrylamide/(Alginate+Acrylamide),0.08,1000,1
+Alginate + Polyacrylamide,Sun 2012,85.71 wt% Acrylamide/(Alginate+Acrylamide),0.06,2200,1
+Alginate + Polyacrylamide,Sun 2012,88.89 wt% Acrylamide/(Alginate+Acrylamide),0.05,2400,1
+Alginate + Polyacrylamide,Sun 2012,92.31 wt% Acrylamide/(Alginate+Acrylamide),0.02,600,1
+Alginate + Polyacrylamide,Sun 2012,94.12 wt% Acrylamide/(Alginate+Acrylamide),0.01,300,1
+Gelatin methacryloyl,Shie 2020,5 wv% Gelatin methacryloyl,0.05,4,1
+Gelatin methacryloyl,Shie 2020,10 wv% Gelatin methacryloyl,0.08,14,1
+Gelatin methacryloyl,Shie 2020,15 wv% Gelatin methacryloyl,0.14,23,1
+Chitosan,Sampath 2017,2 wv% Chitosan,0.01,2,1
+PVA,This study,"10% 363065 PVA, 3 F/T cycles (-20C/6h), 1.8M sulfate",0.058,1048000,0
+PVA,This study,"15% P8136 PVA, 3 F/T cycles (-20C/1h), 1.8M sulfate",0.085,2349,0
+PVA,This study,"10% 363065 PVA, 1 F/T cycle (-80C/1h), 1.8M sulfate",0.116,763500,0
+PVA,This study,"10% 363065 PVA, 1 F/T cycle (-20C/6h), 1.8M sulfate",0.148,437900,0
+PVA,This study,"10% 363065 PVA, 1 F/T cycle (-20C/1h), 1.8M sulfate",0.153,680800,0
+PVA,This study,"15% 341584 PVA, 3 F/T cycles (-20C/6h), 1.8M sulfate",0.210,1628000,0
+PVA,This study,"15% 341584 PVA, 1 F/T cycle (-20C/6h), 1.8M sulfate",0.351,1523000,0
+PVA,This study,"15% 341584 PVA, 1 F/T cycle (-80C/1h), 1.8M sulfate",0.368,1739000,0
+PVA,This study,"15% 341584 PVA, 1 F/T cycle (-20C/1h), 1.8M sulfate",0.395,1382000,0
+PVA,This study,"30% 341584 PVA, 3 F/T cycles (-20C/1h), 1.8M sulfate",0.535,7395000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-80C/1h), 1.8M sulfate",0.655,8526000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/6h), 1.8M sulfate",0.803,10030000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), 1.8M sulfate",0.892,7111000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 1.8M sulfate",0.919,4130000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h (no salt)",1.023,5561000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 0.5h, 1.8M sulfate",1.154,9419000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 1.8M sulfate (rep)",1.240,9737000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.1M sulfate",1.292,15720000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 1.5h, 1.8M sulfate",1.314,7613000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 1.8M sulfate (rep2)",1.333,11420000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 3h, 1.8M sulfate",1.367,7414000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.1M citrate",1.490,13050000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 1.8M citrate",1.712,12790000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.6M citrate",1.998,14250000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.05M phytate",2.144,13320000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.3M sulfate",2.207,17750000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.6M sulfate",2.240,23730000,0
+PVA,This study,"30% 89-98kDa PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.3M phytate",2.362,12130000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.3M citrate",2.514,24010000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.2M phytate",2.838,19130000,0
+PVA,This study,"30% 341584 PVA, 1 F/T cycle (-20C/1h), annealed 2h, 0.1M phytate",3.124,15330000,0

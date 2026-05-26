@@ -287,6 +287,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-14-hidrogel-bacterias-terapia/README
+    title: "Bacterias atrapadas seis meses: el hidrogel que no las deja escapar"
+    sections:
+    - file: papers/2026-05-14-hidrogel-bacterias-terapia/notebook
+      title: Notebook
   - file: papers/2026-05-25-microglia-reparativa-stroke-zfp384/README
     title: "Frenar UN gen mantiene la microglia reparadora 8 semanas tras un derrame"
     sections:

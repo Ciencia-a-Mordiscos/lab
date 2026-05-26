@@ -1,0 +1,28 @@
+titulo: "Bacterias atrapadas seis meses: el hidrogel que no las deja escapar"
+fecha: 2026-05-14
+categoria: medicina
+tags: [hidrogel, bacterias, terapia, biomateriales, ingenieria-genetica, mooney]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec2071"
+    titulo: "Implantable living materials autonomously deliver therapeutics using contained engineered bacteria"
+    journal: Science
+    autores: "Harimoto T, et al. (corresponding: Mooney DJ)"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "containment_time.csv"
+    descripcion: "Horas de contención: 24 estudios previos + este"
+    fuente: "Supplementary Materials PDF (Table S1)"
+  - nombre: "mechanical_properties.csv"
+    descripcion: "Modulus y work of fracture de 66 hidrogeles"
+    fuente: "Supplementary Materials PDF (Table S2)"
+  - nombre: "mutations_summary.csv"
+    descripcion: "Conteo de mutaciones por tipo y elemento"
+    fuente: "Supplementary Materials PDF (Table S4 resumen)"
+  - nombre: "mutations_per_colony.csv"
+    descripcion: "Mutaciones por colonia"
+    fuente: "Supplementary Materials PDF (Table S4 detalle)"
+estado: publicado

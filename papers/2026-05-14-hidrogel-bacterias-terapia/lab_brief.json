@@ -1,0 +1,203 @@
+{
+  "version": "1.0",
+  "paper_id": 2495,
+  "doi": "10.1126/science.aec2071",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "murine + in vitro (E. coli, P. aeruginosa, B. subtilis, CT26 cells)",
+  "verification_table": [
+    {
+      "claim": "PVA hidrogel mantuvo 4.320 horas (6 meses) de contención bacteriana sin escapes",
+      "supported": "yes",
+      "detail": "Última fila de Table S1; abstract usa 'achieved complete bacterial containment for 6 months' (T1).",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "120x sobre la mediana de la literatura previa (36 h)",
+      "supported": "yes",
+      "detail": "Aritmética sobre 24 entradas previas de Table S1: 4320/36 = 120.",
+      "certainty_tier": "T1",
+      "abstract_verb": "computed",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "8,6x sobre el mejor previo (504 h, PVA vinyl sulfone de Maharjan 2024)",
+      "supported": "yes",
+      "detail": "4320/504 = 8.57; Table S1.",
+      "certainty_tier": "T1",
+      "abstract_verb": "computed",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Modulus del PVA hasta 3,12 MPa con phytate como crosslinker",
+      "supported": "yes",
+      "detail": "Table S2 row 65: 30% PVA + 0.1M phytate → 3.124 MPa. Rango total PVA: 0.058–3.124 MPa (n=31).",
+      "certainty_tier": "T1",
+      "abstract_verb": "developed",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tenacidad ~10.000x mejor que cualquier alternativa no-PVA (cuatro órdenes de magnitud)",
+      "supported": "yes",
+      "detail": "Max PVA: 2.4e7 J/m³; max no-PVA (Alginate+Polyacrylamide): 2400 J/m³. Razón 10.004.",
+      "certainty_tier": "T1",
+      "abstract_verb": "withstood",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "51 mutaciones catalogadas en 31 colonias recuperadas (8% deleciones de gen completo)",
+      "supported": "partial",
+      "detail": "Conteo correcto en Table S4 resumen (51). Discrepancia: el detalle por colonia suma 59 — probable diferencia en cómo se cuentan eventos compuestos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "observed",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Modelo murino de infección de articulación protésica para validar in vivo",
+      "supported": "yes",
+      "detail": "Abstract + Methods: 'murine prosthetic joint infection model', CT26 cells transfectadas con iRFP670, P. aeruginosa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrated",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 4320,
+      "unit": "horas",
+      "context": "contención de bacterias en hidrogel PVA — este estudio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 180,
+      "unit": "días",
+      "context": "equivalente en días: 6 meses",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 120,
+      "unit": "x",
+      "context": "razón este estudio / mediana de 24 estudios previos (36 h)",
+      "source": "computed_from_csv",
+      "verified": true
+    },
+    {
+      "value": 8.6,
+      "unit": "x",
+      "context": "razón este estudio / mejor previo (PVA vinyl sulfone, 504 h, Maharjan 2024)",
+      "source": "computed_from_csv",
+      "verified": true
+    },
+    {
+      "value": 3.124,
+      "unit": "MPa",
+      "context": "modulus máximo del PVA con 0.1M phytate (Table S2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 24010000,
+      "unit": "J/m^3",
+      "context": "work of fracture máximo del PVA (2.4e7 J/m³)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10004,
+      "unit": "x",
+      "context": "razón tenacidad PVA-max / mejor no-PVA (Alginate + Polyacrylamide, 2400 J/m³)",
+      "source": "computed_from_csv",
+      "verified": true
+    },
+    {
+      "value": 51,
+      "unit": "mutaciones",
+      "context": "total catalogado por tipo (Table S4 resumen)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 31,
+      "unit": "colonias",
+      "context": "colonias únicas con al menos una mutación (Table S4 detalle)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.8,
+      "unit": "por ciento",
+      "context": "deleciones de gen completo (4/51)",
+      "source": "computed_from_csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "we present an implantable material"
+    },
+    {
+      "abstract_verb": "developed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "We developed a hydrogel scaffold"
+    },
+    {
+      "abstract_verb": "achieved",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "achieved complete bacterial containment for 6 months"
+    },
+    {
+      "abstract_verb": "withstood",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "withstood multiple forms of mechanical loading"
+    },
+    {
+      "abstract_verb": "endowed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "endowed the material with environmental sensing"
+    },
+    {
+      "abstract_verb": "demonstrated",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "context": "demonstrated autonomous treatment"
+    }
+  ],
+  "narrative_hooks": [
+    "Pones bacterias modificadas dentro de ti, producen un antibiótico, y a los seis meses ninguna se ha escapado — algo que nadie había logrado.",
+    "120 veces más que la mediana previa. Una mediana de día y medio. Este estudio: 180 días.",
+    "El material aguanta seis meses sin romperse. Las bacterias dentro, no tanto: 8 de cada 100 mutaciones borran el gen del medicamento."
+  ],
+  "limitations": [
+    "Modelo murino: 6 meses en ratón no equivale a vida útil en humano. Falta validación clínica en humanos.",
+    "Implantes de articulación protésica son aplicación específica — no generaliza a todas las terapias bacterianas implantables.",
+    "Mutaciones detectadas (8% gene deletions) sugieren que el payload se desactiva en algunas colonias con el tiempo. La contención física protege, pero la función terapéutica puede degradarse.",
+    "Tabla S2 mezcla datos experimentales propios con valores aproximados (~) re-leídos de figuras de Sun 2012, Shie 2020 y Sampath 2017. Esto se preserva en la columna 'approximate' del CSV.",
+    "Sin datasets externos en Zenodo/Figshare/Dryad/OSF/GitHub. Toda la reproducibilidad depende de transcribir las tablas del SM PDF (FASE 2.4d)."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados como yes, alta densidad numérica"
+  },
+  "notebook_slug": "2026-05-14-hidrogel-bacterias-terapia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-14-hidrogel-bacterias-terapia/notebook.html",
+  "generated_at": "2026-05-26T16:20:33Z"
+}

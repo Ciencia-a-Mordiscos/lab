@@ -1,0 +1,26 @@
+material,bacteria,application,media,containment_hours,leakage_marked,reference
+Chitosan,E. coli,Subcutaneous implantation,Tissue simulation fluid,12,1,Soni 2017
+Methacrylated hyaluronic acid,"E. coli, L. reuteri",Cutaneous wounds,MRS,12,0,Mao 2017
+Alginate,S. elongatus,Cutaneous wounds,BG11,120,0,Sankaran 2018
+Alginate + Polyacrylamide + Elastomer,E. coli,Wearable,LB,24,0,Liu 2017
+Alginate,E. coli,Wearable,LB,12,1,Lu 2020
+PVA vinyl sulfone,C. glutamicum,Contact lenses,BHI,504,0,Maharjan 2024
+Elastin-like polypeptides,E. coli,Ingestion,LB,48,0,Mao 2024
+Hyaluronic acid + PEGDA + Mesoporous silica,E. coli,Environmental monitoring,LB,84,0,Yim 2023
+Alginate methacrylate,E. coli,Environmental monitoring,LB,4,1,Tang 2021
+Alginate + Polyacrylamide,E. coli,Environmental monitoring,LB,72,0,Zhao 2024
+PEG diacrylate,P. aeruginosa,Environmental monitoring,LB,23,0,Connell 2014
+Alginate,E. coli,Environmental monitoring,LB,48,1,Saha 2020
+Pluronic F127 dimethacrylate,P. aeruginosa,Environmental treatment,Water,120,0,Cao 2020
+Pluronic F127 acrylate,E. coli,Biosensing,LB,360,1,Park 2025
+"Agarose, Polyacrylamide",E. coli,Manufacturing,LB,48,0,Connell 2013
+Alginate,L. plantarum,Manufacturing,LB,336,0,Mao 2017b
+Chitosan,E. coli,Manufacturing,LB,24,0,Liu 2018
+Alginate + Poly-L-lysine,E. coli,Coculture,M9,20,0,Cao 2014
+Alginate,E. coli,Coculture,LB,240,0,Hwang 2014
+Gelatin methacryloyl,E. coli,Coculture,LB,24,1,Knierim 2024
+Pluronic F127-bisurethane methacrylate,E. coli,Coculture,LB,21,1,Saadeddin 2024
+Alginate + poly-L-lysine,"E. coli, B. subtilis, P. putida, K. marxianus, Y. lipolytica",Coculture,"M9, LB, GPY",48,0,Schaffner 2017
+Chitosan,"E. coli, C. glutamicum, S. elongatus",Coculture,M9,24,0,Wang 2021
+Gelatin methacryloyl,E. coli,Data storage,LB,6,1,Park 2024
+PVA,E. coli,Implantation,LB,4320,0,This study
