@@ -1,0 +1,451 @@
+genome_name,assembly_type,genome_size_mb,busco_complete_pct,completeness_pct,n_contigs,gc_pct,n50_kb,is_representative,taxonomy
+FP100002877TR_L01_82,SAG,43.56,81.9,88.9,11478,16.56,5.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+D2114761A,SAG,31.63,82.5,87.2,10421,18.57,3.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+SRR16953743,SAG,19.75,76.6,83,7393,20.21,3.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+FP150000367TR_L01_189,SAG,40.24,84.3,88.4,10588,16.7,5.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+SRR16953742,SAG,8.67,64.3,68.4,3729,22.4,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+FP100002877TR_L01_100,SAG,17.09,74.3,77.8,4167,18.4,5.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+FP100002877TR_L01_66,SAG,10.1,59.1,64.9,3167,20.23,4.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+FP100002877TR_L01_123,SAG,35.42,83.1,90.7,7038,17.22,8.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+H32,SAG,30.1,62.6,66.7,7964,17.01,5.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+FP100002877TR_L01_37,SAG,31.16,84.8,88.9,6049,17.03,8.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+SRR16953749,SAG,18.45,79.0,84.3,7351,20.06,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha ruminantium
+Dasy3_S38,SAG,57.2,81.3,88.9,21121,18.55,3.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+JZ24006095,SAG,17.0,56.2,62.6,5218,30.22,4.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+FP100002877TR_L01_68,SAG,41.66,87.1,90,7777,17.75,9.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+Dasy1_S27,SAG,47.93,85.4,88.3,17478,18.87,3.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+FP100002878TR_L01_125,SAG,28.37,85.4,88.3,4401,18.72,10.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+FP100002877TR_L01_95,SAG,36.04,86.6,90.1,5845,18.13,11.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+FP100002877TR_L01_78,SAG,34.02,85.4,88.9,5563,18.1,10.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+Dasy2_S9,SAG,50.78,84.8,88.3,17153,18.86,3.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+co-rumen_bin809,MAG,16.27,52.6,57.3,2685,19.82,7.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+co-rumen_bin601,MAG,11.09,53.2,59.6,3782,22.75,3.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+co-rumen_bin984,MAG,12.21,49.7,53.8,4135,21.31,3.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+co-rumen_bin1561,MAG,15.93,49.1,56.7,2590,19.43,8.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG1
+T2202233889,SAG,36.14,85.4,89.5,6602,16.72,9.2,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG2
+co-rumen_bin353,MAG,31.6,81.3,85.4,6229,17.39,6.6,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG3
+co-rumen_bin544,MAG,17.58,55.6,63.8,5682,19.03,3.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG3
+co-rumen_bin697,MAG,17.36,56.7,62.5,4135,18.49,5.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG3
+FP150000367TR_L01_182,SAG,49.31,74.9,86.6,19183,16.95,3.0,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG4
+FP100002877TR_L01_126,SAG,8.58,50.3,58.5,3122,20.27,3.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+D2114747A,SAG,10.96,69.0,73.7,4917,21.13,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_80,SAG,44.6,84.8,89.5,11411,16.47,5.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_51,SAG,40.29,84.8,87.7,8965,16.76,7.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+T2111217724,SAG,36.33,84.3,88.4,7725,16.94,7.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_38,SAG,37.35,86.0,88.3,8196,21.86,6.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_97,SAG,35.01,86.6,88.4,7175,16.85,7.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_39,SAG,32.91,84.2,87.7,6578,16.99,8.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+co-rumen_bin2805,MAG,28.33,71.4,77.2,7500,16.56,4.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_88,SAG,16.71,66.0,72.4,4268,17.9,5.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+D2114760A,SAG,29.33,84.8,89.5,9461,19.07,3.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+D2114779A,SAG,19.72,80.7,85.4,7599,19.89,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+D2114756A,SAG,31.55,82.4,87.7,10174,18.79,3.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_99,SAG,44.98,86.6,91.3,10932,16.7,6.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+T2111217722,SAG,42.03,85.3,90,9800,16.65,6.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP150000366TR_L01_161,SAG,42.58,75.4,83.6,15440,17.03,3.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_58,SAG,35.66,86.0,88.3,7039,16.73,8.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+D2114772A,SAG,22.57,80.2,84.9,8005,19.73,3.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+co-rumen_bin49,MAG,21.02,56.2,67.9,9463,18.58,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+FP100002877TR_L01_90,SAG,25.91,75.4,78.9,4613,16.88,9.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG5
+co-rumen_bin1856,MAG,24.16,68.4,74.2,6281,30.35,4.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Dasytrichidae;g__Dasytricha;s__Dasytricha sp. RCG6
+D2114755A,SAG,52.13,75.4,83,16816,18.85,3.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+FP100001882BL_L01_565,SAG,37.67,68.4,77.8,10110,18.57,5.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+D2012694A,SAG,40.49,69.0,79.5,12995,19.13,3.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+D2012696A,SAG,10.99,51.5,59.7,4743,21.33,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+D2012690A,SAG,16.03,53.8,61.4,6158,20.59,3.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+D2114739A,SAG,44.04,76.7,85.5,14735,19.19,3.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+FP100001882BL_L01_564,SAG,44.93,68.4,75.4,11920,18.41,5.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+D18,SAG,46.17,72.5,78.9,13073,18.47,4.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+cell-25D-2,SAG,42.76,64.4,67.3,6165,18.08,11.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233859,SAG,63.41,85.9,89.4,9139,18.06,11.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233847,SAG,43.83,64.9,75.4,12998,18.43,4.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin736,MAG,61.22,83.1,89.5,8620,18.08,10.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-omasum_bin1336,MAG,48.35,70.8,81.3,14153,18.2,3.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2111217717,SAG,65.45,85.4,89.5,8718,18.07,13.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+SRR16953745,SAG,71.24,84.8,91.2,12691,18.05,10.0,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233814,SAG,62.67,83.0,88.8,9307,18.13,11.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+H28,SAG,41.24,68.4,69.6,6298,18.25,9.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+SRR16953777,SAG,68.79,85.9,90.6,11240,18.32,11.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2111217719,SAG,67.48,84.8,88.3,9912,18.06,12.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2111217714,SAG,62.98,83.1,87.8,9772,18.09,10.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233860,SAG,67.38,84.2,88.3,9610,18.08,12.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233812,SAG,59.81,80.7,84.8,8520,18.11,11.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2111217715,SAG,67.47,83.6,87.1,10081,18.06,12.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin498,MAG,59.96,80.1,87.7,10786,18.14,8.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin305,MAG,60.99,79.5,86.5,8096,17.94,11.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin1610,MAG,53.7,70.1,81.2,15818,18.06,3.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin318,MAG,45.17,62.5,73,13608,17.97,3.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin187,MAG,42.4,59.0,66,13727,18.38,3.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233858,SAG,64.37,86.5,89.4,9034,18.06,12.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+SRR16953756,SAG,70.36,85.4,88.3,12776,18.07,9.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233815,SAG,62.74,83.1,86,9202,18.17,11.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2111217718,SAG,62.47,83.6,87.1,9228,18.08,11.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+T2202233846,SAG,43.58,69.6,76,12927,18.43,4.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin226,MAG,63.79,80.2,87.8,14317,17.98,5.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin176,MAG,61.06,79.0,87.8,13679,17.97,5.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-rumen_bin816,MAG,59.04,73.1,81.9,13853,17.98,5.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+co-reticulum_bin731,MAG,73.2,74.9,84.3,22355,17.82,3.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha intestinalis
+SRR16953783,SAG,34.4,76.1,80.2,5740,18.5,9.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin632,MAG,45.58,77.2,83.6,11244,17.6,5.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+D2114763A,SAG,16.41,64.9,67.8,6332,19.75,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+T2202233816,SAG,56.87,87.2,90.7,7035,17.25,15.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+T2111217740,SAG,58.82,86.5,90,6595,17.25,20.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+D2,SAG,53.08,87.1,90.6,5892,17.45,18.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin492,MAG,66.75,73.6,84.1,11192,17.13,8.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+JZ24006091,SAG,15.71,59.7,64.4,7485,22.18,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+D2114771A,SAG,55.64,88.3,91.2,10259,17.74,9.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-reticulum_bin1014,MAG,97.44,64.9,81.9,30267,17.16,3.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+T2202233862,SAG,59.73,87.1,91.2,6731,17.12,20.0,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+SRR16953798,SAG,46.96,86.5,88.3,4003,17.48,22.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+FP100002877TR_L01_127,SAG,46.02,86.6,89.5,3835,17.63,23.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+T2202233861,SAG,57.0,87.1,90.6,6344,17.21,19.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+SRR16953772,SAG,52.94,86.6,90.1,6183,17.61,18.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin326,MAG,28.01,47.4,56.8,4898,16.82,8.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin16,MAG,30.03,41.5,54.4,9056,17.27,3.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin897,MAG,25.53,36.9,50.9,9529,17.96,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin21,MAG,36.08,35.7,50.9,10795,16.97,3.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin1428,MAG,52.47,53.2,72.5,12937,17.09,5.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin719,MAG,25.67,38.6,56.1,5890,17.74,5.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin726,MAG,38.5,42.7,63.2,9979,17.05,4.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin708,MAG,45.82,45.0,62,11183,17.07,5.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha prostoma
+co-rumen_bin190,MAG,84.63,72.5,80.7,34201,17.88,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG1
+co-rumen_bin679,MAG,15.2,36.2,52.6,3657,43.1,4.9,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG2
+SRR16953763,SAG,52.32,88.9,91.2,3853,17.71,28.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG3
+SRR16953762,SAG,52.65,88.3,91.8,3790,17.71,28.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG3
+SRR16953764,SAG,53.51,87.8,90.1,4048,17.65,27.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG3
+SRR16953765,SAG,54.85,88.3,91.2,4834,17.56,22.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG3
+T2202233895,SAG,54.89,87.7,90.6,4399,17.63,25.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG3
+SRR16953761,SAG,53.69,88.9,91.8,4155,17.59,26.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG3
+co-rumen_bin1130,MAG,37.13,66.1,73.7,7236,26.76,6.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG4
+co-rumen_bin7,MAG,45.47,55.0,65.5,20138,19.09,2.2,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG5
+FP100001882BL_L01_574,SAG,42.35,82.5,87.2,3833,18.19,20.2,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG6
+FP100001882BL_L01_560,SAG,60.12,84.2,88.3,7348,17.68,18.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG6
+D12,SAG,55.55,84.8,87.7,6450,17.7,18.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+D9,SAG,52.99,86.6,89.5,5159,17.78,21.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+D5,SAG,56.82,85.9,88.2,6587,17.59,19.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+T2111217744,SAG,58.03,86.5,89.4,5029,17.52,30.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+T2202233849,SAG,54.68,84.8,88.3,7151,17.57,13.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+FP100001882BL_L01_562,SAG,18.92,68.4,73.7,4375,19.16,6.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+T2202233817,SAG,57.46,86.6,90.1,5501,17.63,23.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+T2202233848,SAG,54.31,83.6,87.1,7003,17.6,14.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+T2202233813,SAG,57.03,85.4,89.5,5297,17.6,24.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+D2012683A,SAG,9.9,50.8,58.4,3815,20.92,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+co-rumen_bin470,MAG,41.63,50.3,60.8,10703,17.88,4.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+co-rumen_bin2785,MAG,45.64,49.7,66.1,10475,17.48,5.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+co-rumen_bin357,MAG,36.9,39.2,52.7,12172,17.43,3.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+co-rumen_bin2196,MAG,42.99,46.8,60.8,10118,17.26,5.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG7
+D2114767A,SAG,57.91,74.3,81.9,19819,18.71,3.6,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG8
+T2202233863,SAG,57.16,87.7,91.2,5707,16.98,21.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP150000366TR_L01_159,SAG,53.03,86.0,89.5,5067,17.18,20.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100002877TR_L01_26,SAG,58.7,86.0,88.9,6081,16.99,21.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+H38,SAG,48.48,79.5,84.2,3448,17.6,36.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100002877TR_L01_36,SAG,62.73,87.1,90,7728,19.59,20.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100001882BL_L01_567,SAG,54.17,86.6,90.7,4515,17.13,26.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+T2111217721,SAG,54.74,85.9,90.6,5714,17.09,18.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+D16,SAG,57.16,84.8,88.3,6823,17.27,16.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+D2114775A,SAG,48.18,86.0,89.5,12093,18.01,5.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+D2114770A,SAG,45.05,84.8,88.3,9084,18.1,7.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100002877TR_L01_65,SAG,62.9,86.5,88.8,7815,19.68,19.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP150000366TR_L01_176,SAG,59.33,86.5,90.6,7632,17.04,14.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100002877TR_L01_34,SAG,55.12,86.0,89.5,5014,17.2,24.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100002877TR_L01_72,SAG,73.31,88.9,91.8,14602,18.32,15.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+D13,SAG,51.41,86.6,89.5,4735,17.31,22.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+D2114740A,SAG,53.17,85.4,89.5,9583,17.67,8.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+SRR16953737,SAG,39.08,82.5,86.6,11040,18.64,4.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+cell-24D-1,SAG,45.23,82.4,86.5,3205,17.47,32.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+D6,SAG,86.37,84.8,90.6,20825,18.08,6.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100002877TR_L01_69,SAG,62.35,87.1,90.6,7799,18.72,20.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+SRR16953782,SAG,43.01,85.4,87.7,5400,18.26,14.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-omasum_bin447,MAG,41.93,67.3,80.2,14797,18.22,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin2001,MAG,59.71,66.1,80.1,11491,16.99,7.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin750,MAG,56.33,66.1,76.6,9789,16.99,7.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin430,MAG,51.21,67.9,79.6,11616,17.29,5.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin879,MAG,44.06,54.9,66,10218,17.25,5.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin664,MAG,51.93,71.3,78.3,8160,17.21,9.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin884,MAG,22.43,39.2,52.7,9252,19.4,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin1414,MAG,47.9,53.2,64.9,10662,17.01,5.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin1668,MAG,51.79,67.3,77.8,9284,17.09,7.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin76,MAG,43.1,52.0,64.9,11174,17.01,4.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-reticulum_bin611,MAG,55.82,66.1,76,11276,16.92,6.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+co-rumen_bin1179,MAG,43.61,58.5,70.2,6722,17.08,8.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG9
+FP100002877TR_L01_57,SAG,73.23,83.6,88.9,13643,18.13,9.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG10
+D7,SAG,25.31,58.4,63.7,5097,19.13,8.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG10
+co-rumen_bin475,MAG,54.51,67.3,79.6,15439,18.28,4.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG10
+co-rumen_bin2640,MAG,51.53,66.7,76.6,15631,18.13,3.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Vestibuliferida;f__Isotrichidae;g__Isotricha;s__Isotricha sp. RCG10
+co-rumen_bin772,MAG,33.21,61.4,67.2,12564,23.15,2.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Unknown family 1;g__Unknown genus 1;s__Unknown genus 1 sp. RCG1
+CVSG1_2_3_co,SAG,17.49,56.7,61.4,7352,20.71,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Blepharocorythidae;g__Charonina;s__Charonina ventriculi
+2D13_S37,SAG,35.54,74.2,79.5,15137,20.33,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Blepharocorythidae;g__Charonina;s__Charonina ventriculi
+JZ24057273,SAG,31.09,73.6,77.7,13561,29.29,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Unknown genus 2;s__Unknown genus 2 sp. RCG1
+co-rumen_bin179,MAG,30.85,49.2,52.7,11680,23.64,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Unknown genus 2;s__Unknown genus 2 sp. RCG1
+2D10_S36,SAG,54.69,80.7,85.4,22246,24.31,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Unknown genus 2;s__Unknown genus 2 sp. RCG1
+2D9_S32,SAG,64.54,83.0,88.3,22605,23.43,3.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Unknown genus 2;s__Unknown genus 2 sp. RCG1
+2D8_S12,SAG,64.21,80.7,85.4,22718,22.94,3.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Unknown genus 2;s__Unknown genus 2 sp. RCG1
+2D4_S4237,SAG,57.83,78.4,84.2,21974,23.2,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Unknown genus 2;s__Unknown genus 2 sp. RCG1
+SRR16953760,SAG,38.87,71.3,74.2,17578,22.69,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eremoplastron;s__Eremoplastron rostratum
+JZ24006089,SAG,25.36,48.5,53.8,7883,32.22,4.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eremoplastron;s__Eremoplastron rostratum
+SRR16953751,SAG,57.71,74.2,78.9,25341,22.14,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eremoplastron;s__Eremoplastron rostratum
+FP150000367TR_L01_187,SAG,71.42,81.3,85.4,29410,20.81,2.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eremoplastron;s__Eremoplastron rostratum
+SRR16953774,SAG,73.19,78.4,83.7,32376,21.4,2.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Metadinium;s__Metadinium minorum
+co-rumen_bin23,MAG,46.49,60.9,66.7,20471,20.58,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eudiplodinium;s__Eudiplodinium maggii
+Eud-9D,SAG,30.97,55.0,68.5,16249,25.23,1.9,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eudiplodinium;s__Eudiplodinium maggii
+JZ24006093,SAG,22.94,53.2,63.7,10729,27.07,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eudiplodinium;s__Eudiplodinium maggii
+Eud-8D,SAG,48.89,50.9,64.4,12948,32.77,9.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eudiplodinium;s__Eudiplodinium maggii
+Eud-15,SAG,29.14,48.5,60.8,11017,31.92,3.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eudiplodinium;s__Eudiplodinium maggii
+Eud-10D,SAG,31.82,52.0,64.3,13470,29.09,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Eudiplodinium;s__Eudiplodinium maggii
+SRR16953747,SAG,72.87,74.3,81.3,34660,21.5,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+SRR16953789,SAG,87.46,75.4,78.9,37064,19.73,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+T2202233840,SAG,74.02,73.7,78.4,33050,20.01,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+JZ24006092,SAG,31.79,62.0,67.8,15071,26.49,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+SRR16953750,SAG,56.72,74.9,80.2,26682,23.18,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+T2202233837,SAG,80.3,76.6,81.3,35478,19.94,2.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+T2202233838,SAG,77.66,74.8,80.1,34521,19.94,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+D2114741A,SAG,52.98,74.2,80,26795,22.73,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium dentatum
+SRR16953769,SAG,82.61,79.6,84.3,34917,19.74,2.6,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium flabellum
+SRR16953748,SAG,34.0,70.2,76.6,17577,22.03,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium flabellum
+co-rumen_bin90,MAG,166.32,42.7,51.5,74999,20.97,2.2,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diplodinium;s__Diplodinium sp. RCG1
+co-reticulum_bin580,MAG,122.18,45.0,51.4,54534,19.85,2.2,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Unknown genus 3;s__Unknown genus 3 sp. RCG1
+MDA03D7-9,SAG,46.08,68.4,79.5,23093,26.46,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Enoploplastron;s__Enoploplastron triloricatum
+T2111217745,SAG,92.06,76.0,80.7,40729,20.1,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Enoploplastron;s__Enoploplastron triloricatum
+SRR16953776,SAG,103.06,80.7,86.5,47348,21.09,2.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Enoploplastron;s__Enoploplastron triloricatum
+T2202233811,SAG,75.14,74.3,78.4,34271,20.16,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Enoploplastron;s__Enoploplastron triloricatum
+T2111217713,SAG,85.49,77.8,83.1,38549,20.09,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Enoploplastron;s__Enoploplastron triloricatum
+SRR16953733,SAG,103.39,72.5,78.3,47807,20.5,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Enoploplastron;s__Enoploplastron triloricatum
+co-abomasum_bin656,MAG,53.36,50.3,59.7,25083,21.61,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+2D11_S6,SAG,78.15,79.0,83.1,33463,20.55,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+FP150000366TR_L01_157,SAG,52.96,76.6,80.7,22268,20.24,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+2D2_S24,SAG,78.26,80.1,84.2,33535,20.41,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+T2111217720,SAG,69.33,80.2,84.3,29361,19.83,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+2D1_S38,SAG,78.14,78.3,82.4,33965,20.3,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+2D6_S21,SAG,72.64,82.5,84.8,31465,20.23,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+2D3_S8,SAG,79.62,83.0,87.1,33208,20.86,2.6,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+T2202233842,SAG,46.11,69.6,73.7,19779,20.47,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+co-rumen_bin2799,MAG,39.58,52.7,55.6,15607,21.33,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+co-rumen_bin480,MAG,13.21,45.6,50.3,4962,23.4,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+co-rumen_bin833,MAG,28.73,50.9,52.7,10290,21.35,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+co-rumen_bin332,MAG,43.51,50.2,53.7,16735,19.82,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Diploplastron;s__Diploplastron affine
+T2202233845,SAG,86.31,80.7,85.4,36931,21.48,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+T2202233843,SAG,83.11,79.5,83,35633,21.51,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+T2202233844,SAG,84.03,80.1,84.8,35833,21.51,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+FP150000366TR_L01_163,SAG,88.48,79.6,84.9,37610,21.67,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+SRR16953739,SAG,74.27,83.0,87.7,34870,23.08,2.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+FP150000367TR_L01_179,SAG,90.2,79.5,82.4,38136,21.56,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+SRR16953746,SAG,31.58,51.5,60.9,13654,23.86,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+SRR16953740,SAG,26.14,53.8,60.2,12158,24.23,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium cattanei
+SRR16953759,SAG,85.5,79.5,83,36819,22.75,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium caudatum
+SRR16953754,SAG,76.07,77.8,81.9,32569,23.1,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium caudatum
+JZ24057272,SAG,37.01,67.3,74.9,19746,25.86,1.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium caudatum
+Epi-1121-5,SAG,39.95,69.0,73.7,16671,28.18,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+Epi-1121-1,SAG,46.18,70.8,77.2,18405,28.32,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+JZ24006094,SAG,42.1,62.0,70.2,21392,24.79,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+Epi-1121-4,SAG,51.68,73.7,79.5,25470,25,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+Epi-1121-3,SAG,45.87,69.6,78.4,23052,25.09,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+Epi-1121-2,SAG,46.24,65.5,70.8,23126,25.36,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+P4-1111,SAG,55.42,66.7,76.1,28664,25.64,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+P2-1111,SAG,88.71,77.8,84.8,41641,24.46,2.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+P5-1111,SAG,49.82,71.3,78.3,24956,25.97,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+P3-1111,SAG,51.75,69.0,78.4,26199,26.27,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+P1-1111,SAG,77.11,76.6,81.3,35366,25.6,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+P6-1111,SAG,43.28,57.9,69,21120,28.01,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+co-rumen_bin78,MAG,71.22,68.5,73.8,29229,22.88,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+JZ24006096,SAG,54.26,74.2,77.7,25022,25,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG1
+co-rumen_bin184,MAG,51.86,46.2,53.2,23900,22.72,2.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Epidinium;s__Epidinium sp. RCG2
+SRR16953779,SAG,62.92,73.7,77.2,29190,20.71,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2202233855,SAG,82.22,76.6,78.9,34969,19.2,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+SRR16953770,SAG,37.24,59.7,64.4,16744,20.14,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+D2114781A,SAG,44.28,65.0,70.3,21595,26.54,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+SRR16953767,SAG,87.91,78.4,81.9,38412,19.17,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+FP100002877TR_L01_124,SAG,83.57,76.0,80.7,35719,19.37,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+SRR16953801,SAG,106.7,81.8,85.3,48116,19.37,2.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+FP100002877TR_L01_93,SAG,63.87,73.7,77.8,27715,19.59,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2202233833,SAG,30.75,54.4,59.7,14430,20.49,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2202233819,SAG,78.39,77.2,81.3,35283,19.24,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+SRR16953736,SAG,46.9,76.6,81.3,24962,22.14,1.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+SRR16953757,SAG,78.78,80.7,84.2,37421,20.65,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2111217736,SAG,89.89,76.1,81.4,38984,19.08,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2111217735,SAG,58.53,72.5,74.3,25193,19.76,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+FP100002877TR_L01_115,SAG,97.03,84.2,86.5,41109,19.03,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2202233857,SAG,90.85,74.9,80.7,39455,18.98,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2202233834,SAG,66.96,74.3,79,29552,19.4,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2111217738,SAG,92.63,77.7,80.6,40778,19.12,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+co-rumen_bin995,MAG,25.64,47.4,51.5,9424,21.95,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+co-rumen_bin243,MAG,20.78,50.9,53.8,7713,22.95,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2202233856,SAG,91.24,81.3,84.2,40065,19.18,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+T2202233818,SAG,82.85,76.6,79.5,36580,19.12,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+FP100002877TR_L01_114,SAG,99.15,80.1,83.6,42828,19.09,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ophryoscolex;s__Ophryoscolex purkynjei
+FP150000366TR_L01_165,SAG,59.94,73.1,77.8,26207,21.19,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium gracile
+SRR16953766,SAG,93.72,80.7,85.4,40221,21.29,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium gracile
+SRR16953752,SAG,53.74,71.4,75.5,24414,22.36,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium gracile
+FP150000366TR_L01_155,SAG,84.93,77.2,82.5,37486,20.98,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium gracile
+SRR16953768,SAG,30.57,53.2,59.6,13000,22.38,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium gracile
+FP150000366TR_L01_156,SAG,27.13,56.8,59.1,12512,22.2,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium gracile
+D2114745A,SAG,42.22,74.8,77.7,20981,24.06,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium mammosum
+T2202233841,SAG,73.34,83.0,87.7,31595,21.5,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium mammosum
+T2202233839,SAG,77.1,79.5,84.2,33492,21.36,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium mammosum
+SRR16953738,SAG,48.52,79.0,84.3,23977,23.95,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium mammosum
+FP150000367TR_L01_190,SAG,19.34,50.9,54.4,9097,23.33,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Ostracodinium;s__Ostracodinium mammosum
+FP150000367TR_L01_180,SAG,114.44,83.0,86.5,49556,20.93,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+T2202233836,SAG,81.55,77.2,82.5,36953,20.3,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953778,SAG,71.87,74.3,81.9,33525,20.75,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953784,SAG,80.24,77.7,82.4,36138,20.81,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000366TR_L01_171,SAG,83.37,79.5,87.1,36405,19.81,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000367TR_L01_183,SAG,76.09,80.1,85.4,32972,20.03,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000367TR_L01_177,SAG,71.86,78.4,83.7,30576,20.06,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000366TR_L01_166,SAG,42.01,64.9,68.4,18430,20.62,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953792,SAG,31.64,59.6,64.3,14302,21.19,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953790,SAG,42.82,62.6,67.3,18955,20.72,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+T2202233871,SAG,79.79,78.4,84.2,35122,19.94,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+T2111217747,SAG,76.12,78.9,84.7,33274,19.92,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000367TR_L01_184,SAG,74.8,76.0,80.7,31837,20.03,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+T2202233835,SAG,67.16,71.4,78.4,29397,19.9,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+T2111217716,SAG,75.29,79.6,84.9,33209,19.89,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P4-1108,SAG,25.2,57.9,70.2,13798,26.04,1.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000367TR_L01_181,SAG,79.85,78.4,83.7,34576,19.88,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000367TR_L01_188,SAG,77.49,79.0,85.4,33700,20,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953787,SAG,21.73,50.3,56.1,10557,21.74,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000366TR_L01_164,SAG,40.48,61.4,64.3,19781,21.69,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+N4-1108,SAG,36.21,64.4,73.2,18568,25.32,1.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P5-1108,SAG,30.1,59.7,70.8,14335,26.94,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+N5-1108,SAG,32.18,57.9,68.4,16463,25.57,1.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+N3-1108,SAG,33.7,60.2,70.7,12892,29.41,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000367TR_L01_178,SAG,80.34,80.1,86.5,34629,19.89,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000366TR_L01_174,SAG,81.64,80.7,86,35848,19.84,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953800,SAG,78.12,74.3,80.7,35209,20.37,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+2D5_S10,SAG,89.9,81.3,86,40850,20.15,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+2D12_S22,SAG,87.7,81.3,86,39224,20.51,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953735,SAG,89.31,76.7,83.1,40834,20.22,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+2D7_S11,SAG,87.86,79.5,83,39849,20.17,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+FP150000367TR_L01_185,SAG,80.84,81.3,86.6,34920,19.93,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+SRR16953785,SAG,44.8,66.7,69.6,20238,20.69,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P5,SAG,27.28,57.3,67.2,16276,24.8,1.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P2-1108,SAG,21.37,50.9,63.8,12821,25.08,1.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P6,SAG,29.25,58.5,70.8,16979,24.59,1.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P2,SAG,31.04,64.4,74.3,15590,27.12,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+N2-1108,SAG,29.16,56.1,69.6,13878,27.19,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P4,SAG,30.46,55.6,68.5,17853,24.33,1.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P3,SAG,34.08,59.6,71.3,17503,26.15,1.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+P1,SAG,30.29,60.3,71.4,13108,29.05,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+N1-1108,SAG,22.69,55.6,67.9,11565,27.19,1.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron multivesiculatum
+co-abomasum_bin86,MAG,70.85,59.6,62.5,26563,19.89,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron sp. RCG1
+JZ24006088,SAG,35.45,64.9,70.2,18180,25.61,1.9,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Polyplastron;s__Polyplastron sp. RCG1
+T2202233853,SAG,57.56,80.7,84.8,21477,21.75,3.1,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bovis
+T2202233854,SAG,81.62,81.3,84.2,34128,21.61,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233872,SAG,76.58,83.0,86.5,31928,21.96,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2111217748,SAG,65.35,83.7,87.2,27239,21.93,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+D2114743A,SAG,43.79,78.4,82.5,19965,24.26,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+FP100002877TR_L01_53,SAG,62.75,83.0,87.1,24215,21.49,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+D2114773A,SAG,58.23,84.2,87.7,23480,23.68,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+H18,SAG,41.68,65.0,68.5,16351,22.92,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+D2114746A,SAG,30.89,71.4,75.5,15263,24.15,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+D2114751A,SAG,60.71,84.2,87.7,23493,23.42,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+D2114757A,SAG,66.52,85.4,88.9,26639,23.38,2.8,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+SRR16953755,SAG,57.47,80.1,82.4,23613,22.51,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233891,SAG,64.67,81.3,85.4,26313,21.86,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+SRR16953734,SAG,57.51,76.6,80.7,23473,21.71,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233874,SAG,45.09,77.8,81.3,18104,22,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233894,SAG,60.32,83.6,87.1,23635,21.37,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233892,SAG,58.1,80.7,85.4,23128,21.47,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233873,SAG,46.37,76.0,79.5,18736,22.01,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233907,SAG,63.38,78.4,84.2,25812,21.51,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233904,SAG,58.91,81.3,85.4,23896,21.51,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233893,SAG,60.04,80.7,83.6,23527,21.43,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233905,SAG,54.82,79.5,83.6,22033,21.68,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+T2202233906,SAG,63.93,82.4,87.1,25840,21.7,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+SRR16953799,SAG,62.34,81.3,86,25958,22.26,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium bursa
+yu2021,mono,116.88,85.4,90.1,12311,23,20.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium caudatum
+co-rumen_bin209,MAG,131.07,63.8,67.3,52365,22.11,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+T2202233877,SAG,46.79,73.7,77.2,19211,22.45,2.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin247,MAG,42.84,55.0,60.3,15539,22.91,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin225,MAG,43.77,66.6,76,17649,22.83,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin177,MAG,35.53,55.5,61.9,10407,22.03,3.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin1438,MAG,40.23,62.0,67.8,11785,22.22,3.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin1124,MAG,43.24,65.5,69.6,12413,22.08,3.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin617,MAG,39.11,54.9,57.8,13979,22.72,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-reticulum_bin101,MAG,37.76,58.4,61.3,13014,22.36,3.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin497,MAG,40.61,50.3,53.8,14438,22.35,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin1673,MAG,35.74,49.1,53.8,12476,22.72,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dilobum
+co-rumen_bin275,MAG,30.72,52.6,57.9,9687,21.64,3.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dubardi
+co-rumen_bin125,MAG,24.07,50.3,55,11231,22.97,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dubardi
+T2202233901,SAG,11.97,47.3,51.4,5613,23.72,2.2,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium dubardi
+T2202233887,SAG,53.4,76.6,80.7,23134,22.6,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium ekendrae
+FP100002877TR_L01_50,SAG,25.96,58.5,63.2,12311,23.46,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium ekendrae
+T2202233881,SAG,52.54,81.3,84.8,21316,20.6,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_77,SAG,63.58,79.5,84.8,24961,20.46,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+co-rumen_bin2254,MAG,41.09,59.0,63.7,14584,20.91,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+T2202233826,SAG,35.15,73.1,77.8,15291,21.17,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_104,SAG,49.92,80.1,84.8,19505,20.79,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+T2202233885,SAG,50.95,77.2,81.9,20715,20.83,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_59,SAG,63.39,80.1,85.4,24266,20.54,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_85,SAG,41.84,73.1,77.2,17320,21.25,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+T2111217737,SAG,28.92,63.2,67.3,12412,22.99,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_89,SAG,12.6,47.4,52.7,6127,22.54,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+2D14_S23,SAG,66.77,79.5,83,27908,21.2,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_116,SAG,58.93,76.6,84.2,23513,20.79,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+T2202233897,SAG,54.96,80.8,86.6,22708,20.65,2.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+2D15_S7,SAG,67.08,82.5,86,28316,21.15,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+co-rumen_bin534,MAG,35.52,49.7,52.6,13077,21.01,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+co-rumen_bin124,MAG,36.01,46.8,51.5,11252,19.88,3.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+D2114769A,SAG,14.11,55.6,60.3,7846,24.98,1.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_98,SAG,14.44,54.9,59,7096,22.43,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_71,SAG,18.74,56.2,60.3,8739,21.71,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+FP100002877TR_L01_75,SAG,12.57,48.5,52.6,6225,22.14,2.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+2D19_S26,SAG,43.33,60.2,67.2,11945,19.87,5.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+2D18_S40,SAG,35.48,53.8,62.6,10458,20.05,4.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium furca
+T2202233886,SAG,55.01,76.7,81.4,21700,21.15,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+T2111217728,SAG,47.22,81.3,83.6,19124,21.61,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+T2111217723,SAG,53.34,80.1,84.2,21600,21.46,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+SRR16953773,SAG,60.2,79.0,84.3,25137,22.25,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+FP100002877TR_L01_83,SAG,44.25,77.2,81.9,18049,21.54,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+T2111217734,SAG,48.05,80.7,84.2,18535,21.39,2.9,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+SRR16953796,SAG,35.26,71.9,75.4,15555,22.11,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+T2111217732,SAG,57.47,80.8,84.3,21682,21.28,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin1637,MAG,44.62,70.1,73.6,14894,21.4,3.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin1470,MAG,37.71,60.2,64.9,13523,21.4,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin403,MAG,34.25,52.0,57.3,10604,20.94,3.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin19,MAG,35.28,56.7,62.5,12110,21.42,3.1,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin380,MAG,35.06,52.7,56.8,10967,21.22,3.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin542,MAG,32.77,46.8,50.9,11564,21.3,3.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin194,MAG,77.78,48.0,50.9,32503,20.59,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+co-rumen_bin169,MAG,41.07,55.6,59.7,15177,21.9,2.8,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium longinucleatum
+T2202233899,SAG,37.0,46.8,57.9,13107,20.76,3.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium nanellum
+T2111217727,SAG,29.09,67.9,70.8,12956,22.49,2.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium ovinum
+T2202233880,SAG,57.95,73.7,79,25670,21.1,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium parvum
+T2202233866,SAG,43.96,64.9,68.4,21697,22.93,2.1,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium rectangulatum
+FP100002877TR_L01_94,SAG,59.4,72.5,77.2,26404,21.19,2.4,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simplex
+FP100002877TR_L01_63,SAG,65.89,69.0,75.4,30927,20.99,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simplex
+FP100002877TR_L01_128,SAG,21.1,43.8,52,10962,22.09,2.0,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simplex
+T2202233865,SAG,51.68,73.7,77.2,22648,22.67,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2111217729,SAG,63.7,75.4,80.1,27200,22.37,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+FP100002877TR_L01_96,SAG,58.47,75.5,79.6,25196,22.65,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+SRR16953797,SAG,58.39,70.8,77.2,26141,22.82,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+SRR16953775,SAG,82.64,71.9,77.7,37404,22.84,2.4,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2202233900,SAG,63.35,76.0,79.5,28031,22.25,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2202233908,SAG,58.96,76.0,79.5,26070,22.54,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2111217726,SAG,69.03,73.6,80.6,30270,22.48,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2202233883,SAG,60.65,76.6,80.7,26072,22.31,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2111217725,SAG,73.02,75.5,80.2,31774,22.24,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2111217730,SAG,66.35,76.0,80.1,29007,22.45,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+co-rumen_bin3,MAG,36.59,43.9,53.8,17704,22.91,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+co-rumen_bin180,MAG,40.67,55.5,64.9,14546,23.46,2.9,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2202233850,SAG,65.13,77.2,83,28392,22.3,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2111217742,SAG,73.22,77.2,80.1,30726,22.19,2.7,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2202233898,SAG,48.35,65.5,71.9,23463,22.88,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2202233890,SAG,68.52,80.1,84.8,29946,22.17,2.5,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2111217733,SAG,66.82,79.5,83,28206,22.49,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+FP100002877TR_L01_55,SAG,70.44,75.5,81.3,30003,22.42,2.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium simulans
+T2202233868,SAG,33.79,67.3,70.2,15646,21.75,2.3,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium vorax
+T2202233867,SAG,38.65,67.3,71.4,18086,21.51,2.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium vorax
+co-rumen_bin6,MAG,60.75,53.8,59.1,27834,22.41,2.1,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG1
+co-rumen_bin287,MAG,35.49,56.1,65.5,16523,21.87,2.3,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG2
+co-rumen_bin245,MAG,34.82,43.3,52.7,19159,22.54,1.9,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG3
+co-rumen_bin405,MAG,43.72,63.8,69.6,15623,21.43,2.9,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG4
+co-rumen_bin118,MAG,37.71,52.1,63.8,18049,22.08,2.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG4
+co-rumen_bin1270,MAG,35.67,47.4,52.1,10886,20.53,3.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG4
+co-rumen_bin716,MAG,60.37,57.3,64.9,17495,20.12,3.8,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG5
+2D17_S35,SAG,45.68,53.8,62.6,13104,19.87,5.0,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG6
+co-rumen_bin395,MAG,24.64,50.9,57.9,12004,22.53,2.1,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG7
+T2202233876,SAG,54.22,78.9,83,22144,22.4,2.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG8
+2D16_S41,SAG,84.45,75.4,80.7,16488,20.65,7.6,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Ophryoscolecidae;g__Entodinium;s__Entodinium sp. RCG9
+co-rumen_bin1686,MAG,23.02,78.9,84.7,5191,21.73,5.6,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Spirodiniidae;g__Triadinium;s__Triadinium caudatum
+FP100001882BL_L01_556,SAG,8.69,57.3,60.8,2212,24.07,5.7,Yes,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Spirodiniidae;g__Triadinium;s__Triadinium caudatum
+co-rumen_bin216,MAG,8.06,59.0,64.8,2701,24.35,3.2,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Spirodiniidae;g__Triadinium;s__Triadinium caudatum
+co-reticulum_bin1107,MAG,6.89,47.3,53.1,2764,24.44,2.5,,d__Eukaryota;p__Ciliophora;c__Litostomatea;o__Entodiniomorphida;f__Spirodiniidae;g__Triadinium;s__Triadinium caudatum

@@ -488,6 +488,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-04-30-ciliados-rumen-metano/README
+    title: "450 vecinos invisibles dentro de una vaca"
+    sections:
+    - file: papers/2026-04-30-ciliados-rumen-metano/notebook
+      title: Notebook
   - file: papers/2026-05-16-19-aminoacidos-ec19/README
     title: "382 isoleucinas que sobraban"
     sections:

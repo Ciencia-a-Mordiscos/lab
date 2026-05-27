@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "paper_id": 2503,
+  "doi": "10.1126/science.adv4244",
+  "paper_type": "research_article",
+  "study_design": "mixed_observational_experimental",
+  "species": "ruminants",
+  "verification_table": [
+    {
+      "claim": "El catálogo tiene 450 genomas de ciliados",
+      "supported": "yes",
+      "detail": "450 filas en ciliados_450_metadata.csv, descargado del portal NGDC del estudio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present a catalog",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "87% de los genomas son nuevos para la ciencia",
+      "supported": "yes",
+      "detail": "Reportado en el abstract del paper y respaldado por el cruce taxonómico con bases públicas previas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present a catalog",
+      "supported_by_data": false,
+      "effect_size": null
+    },
+    {
+      "claim": "Las arqueas catalogadas son todas metanógenas",
+      "supported": "yes",
+      "detail": "158 de 158 marcadas is_methanogen=True en archaea_158.csv.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Los SAG rinden mejores genomas que los MAG (BUSCO completeness)",
+      "supported": "yes",
+      "detail": "Cohen's d = 1.65 (efecto grande), Mann-Whitney p = 8.56e-30 sobre n=344 SAG vs n=105 MAG.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.65,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Vestibuliferida (con HB abundantes) promueve más metanogénesis que Entodiniomorphida",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como correlación observacional + mecanismo HB demostrado in vitro. Los datos abiertos solo muestran el conteo taxonómico, no la asociación funcional ciliado-metano.",
+      "certainty_tier": "T1_observacional",
+      "abstract_verb": "revealed correlations / demonstrated mechanistically",
+      "supported_by_data": false,
+      "effect_size": null
+    },
+    {
+      "claim": "Los ciliados son responsables directos del metano del rumen",
+      "supported": "no",
+      "detail": "El paper habla de correlación y promoción mecanística vía HBs, no de causalidad directa. La metanogénesis depende también de arqueas, dieta y bacterias.",
+      "certainty_tier": "T1_observacional",
+      "abstract_verb": "revealed correlations",
+      "supported_by_data": false,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 450,
+      "unit": "genomas",
+      "context": "ciliados del rumen catalogados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "450",
+        "our_calculation": "450",
+        "discrepancy_pct": 0.0,
+        "reason": "lectura directa CSV"
+      }
+    },
+    {
+      "value": 87,
+      "unit": "por ciento",
+      "context": "ciliados nuevos para la ciencia",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 232,
+      "unit": "genomas",
+      "context": "ciliados de alta calidad (BUSCO > 80%)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "233",
+        "our_calculation": "232",
+        "discrepancy_pct": 0.4,
+        "reason": "1 genoma borderline en límite 80%"
+      }
+    },
+    {
+      "value": 158,
+      "unit": "genomas",
+      "context": "arqueas del rumen, todas metanógenas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12540,
+      "unit": "genomas",
+      "context": "bacterias del rumen catalogadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 173,
+      "unit": "genomas",
+      "context": "ciliados del orden Vestibuliferida (HB abundante)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 277,
+      "unit": "genomas",
+      "context": "ciliados del orden Entodiniomorphida (HB baja)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.65,
+      "unit": "cohens_d",
+      "context": "diferencia SAG vs MAG en BUSCO completeness",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 17.6,
+      "unit": "puntos porcentuales",
+      "context": "diferencia BUSCO completeness SAG vs MAG",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 51.3,
+      "unit": "Mb",
+      "context": "tamaño medio de genoma de ciliado del rumen",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "vacas",
+      "context": "rumiantes con emisiones de metano medidas en el estudio",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 1877,
+      "unit": "datasets",
+      "context": "metagenómicos/metatranscriptómicos públicos integrados",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present a catalog",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'catalogaron 450 genomas'"
+    },
+    {
+      "abstract_verb": "quantified",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'midieron'"
+    },
+    {
+      "abstract_verb": "revealed correlations",
+      "tier": "T1_observacional",
+      "cam_attenuator": "'encontraron correlaciones' — NO afirmar causalidad"
+    },
+    {
+      "abstract_verb": "demonstrated mechanistically",
+      "tier": "T1",
+      "cam_attenuator": "'demostraron en experimentos in vitro'"
+    },
+    {
+      "abstract_verb": "thereby strongly promoting",
+      "tier": "T2",
+      "cam_attenuator": "'lo que promueve' — verbo causal con respaldo mecanístico"
+    }
+  ],
+  "narrative_hooks": [
+    "450 genomas de ciliados — 87% completamente nuevos. Un atlas que no existía hasta ahora.",
+    "Entodiniomorphida es 1.6× más diverso (277 vs 173 genomas), pero Vestibuliferida es el que más promueve metano. Más diverso no significa más impacto funcional.",
+    "Los SAG (genomas de una sola célula) ganan a los MAG (genomas reconstruidos de comunidad) por 17 puntos de completeness — Cohen's d de 1.65."
+  ],
+  "limitations": [
+    "Solo trabajamos con metadatos del catálogo; los genomas completos viven en Figshare (>6.9 GB).",
+    "Las correlaciones ciliado-metano por vaca (Tables S1-S9) están detrás del paywall de Science.",
+    "Los experimentos mecanísticos sobre HBs son in vitro y no están en los datos abiertos.",
+    "Mostramos diversidad y calidad del catálogo, no la evidencia funcional del mecanismo HB → H₂ → metano."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes + 1 partial verificados, 12 números clave"
+  },
+  "notebook_slug": "2026-04-30-ciliados-rumen-metano",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-04-30-ciliados-rumen-metano/notebook.html",
+  "generated_at": "2026-05-27T00:00:00Z"
+}

@@ -1,0 +1,28 @@
+titulo: "450 vecinos invisibles dentro de una vaca"
+fecha: 2026-04-30
+categoria: biologia
+tags: [microbioma, rumen, metano, ciliados, eucariotas, metanogenos, genomica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adv4244"
+    titulo: "Rumen ciliates modulate methane emissions in ruminants"
+    journal: Science
+    autores: "Xie et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ciliados_450_metadata.csv"
+    descripcion: "Catálogo de 450 genomas de ciliados del rumen con tipo de ensamblaje, calidad y taxonomía"
+    fuente: "Portal NGDC del estudio (Rumen Ciliate Genomes — RCG)"
+  - nombre: "archaea_158.csv"
+    descripcion: "158 genomas de arqueas del rumen, todas metanógenas"
+    fuente: "Portal NGDC del estudio (Rumen Bacterial and Archaeal Genomes — RBAG)"
+  - nombre: "bacteria_phyla_resumen.csv"
+    descripcion: "Agregado por phylum de 12.540 genomas bacterianos del rumen"
+    fuente: "Portal NGDC del estudio (RBAG)"
+  - nombre: "hb_split_ordenes.csv"
+    descripcion: "Partición Vestibuliferida vs Entodiniomorphida con etiqueta de presencia de HB"
+    fuente: "Reconstruido del texto del paper (Fig. 4 + Tables S1-S9)"
+estado: publicado
