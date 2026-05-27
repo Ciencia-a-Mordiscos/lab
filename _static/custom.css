@@ -14,3 +14,11 @@ code, pre, .highlight {
   font-family: 'JetBrains Mono', 'Courier New', monospace;
   font-size: 0.88em;
 }
+
+/* Pixabot mascot — easter egg coleccionable.
+   Aplicado vía :figclass: pixabot-mascot en la directiva MyST :::{image}:::.
+   Sphinx propaga la clase al <figure>. Margen vertical separa del texto. */
+.pixabot-mascot {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
