@@ -1,0 +1,15 @@
+metric,valor,unidad
+pixeles_validos,11936909.0,pixels
+area_aprox,11936909.0,km²
+persistence_mean,2.9,años
+persistence_median,2.0,años
+persistence_std,2.122,años
+intensity_mean,-1.857,sigma ESI
+intensity_median,-1.876,sigma ESI
+intensity_std,0.76,sigma ESI
+pct_persistence_7plus,13.5,%
+pct_persistence_5plus,24.02,%
+pct_intensity_below_minus1,85.09,%
+pct_intensity_below_minus2,43.29,%
+pct_combined_hotspot,15.82,%
+spearman_pers_int,-0.364,r

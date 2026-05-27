@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "paper_id": 2510,
+  "doi": "10.1038/s41561-026-01981-8",
+  "paper_type": "research_article",
+  "study_design": "modeling_satellite_constrained",
+  "species": "ecosystem_remote_sensing",
+  "verification_table": [
+    {
+      "claim": "13,5% del área tropical sudamericana tarda 7 años o más en recuperar su evapotranspiración",
+      "supported": "yes",
+      "detail": "Conteo directo sobre ET_PERSISTENCE.tif: 1.610.969 de 11.936.909 pixeles = 13,50%. Coincide con headline del abstract ('recovery often exceeding seven years')",
+      "certainty_tier": "T1",
+      "abstract_verb": "we find / often exceeding seven years",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El 85% del territorio está bajo -1σ ESI; el 43% bajo -2σ (decline severo continental)",
+      "supported": "yes",
+      "detail": "Conteo directo sobre ET_INTENSITY.tif. 85,09% y 43,29% respectivamente",
+      "certainty_tier": "T1",
+      "abstract_verb": "we find / data-constrained analysis",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Más años de persistencia se asocian con un decline más profundo (Spearman ρ = -0,36, p<10⁻⁹)",
+      "supported": "yes",
+      "detail": "Persistencia 0 → +0,09σ; persistencia 7+ → -2,28σ. Gradient monotónico sobre el sample n=100.000",
+      "certainty_tier": "T1",
+      "abstract_verb": "we find",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El 15,82% del territorio (≈ 1,89 M km²) cumple la condición hotspot: persistencia ≥5 años Y intensidad ≤ -2σ",
+      "supported": "yes",
+      "detail": "15,82% sobre conteo de intersección de los dos rasters",
+      "certainty_tier": "T1",
+      "abstract_verb": "we find",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Deforestación causa 21–22% más persistencia que fuego o sequía solos",
+      "supported": "partial",
+      "detail": "Reportado en el abstract pero NO replicable desde los rasters publicados — no incluyen máscara de tipo de stress. Lo mencionamos como contexto, no como replicación",
+      "certainty_tier": "T1",
+      "abstract_verb": "persist 21-22% longer",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Cerrado más vulnerable a sequías que Pantanal — recovery >7 años en Cerrado vs rápido en Pantanal",
+      "supported": "partial",
+      "detail": "El mapa lo sugiere visualmente pero el paper lo cuantifica con máscaras de bioma que no se publicaron en Zenodo",
+      "certainty_tier": "T1",
+      "abstract_verb": "are most vulnerable to / often exceeding seven years",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 13.5,
+      "unit": "por ciento",
+      "context": "área que tarda 7+ años en recuperar ET",
+      "source": "fact_sheet + raster ET_PERSISTENCE",
+      "verified": true
+    },
+    {
+      "value": 1610969,
+      "unit": "km² aprox",
+      "context": "área en pixeles con recovery ≥7 años",
+      "source": "raster ET_PERSISTENCE (conteo directo)",
+      "verified": true
+    },
+    {
+      "value": 11936909,
+      "unit": "km² aprox",
+      "context": "área total de Sudamérica tropical analizada (pixeles válidos)",
+      "source": "raster ET_PERSISTENCE",
+      "verified": true
+    },
+    {
+      "value": 36.02,
+      "unit": "por ciento",
+      "context": "área que recupera ET en 1 año (recovery más común)",
+      "source": "persistence_distribution.csv",
+      "verified": true
+    },
+    {
+      "value": 85.09,
+      "unit": "por ciento",
+      "context": "territorio bajo -1σ ESI durante 2003-2020",
+      "source": "intensity_distribution.csv + summary_stats",
+      "verified": true
+    },
+    {
+      "value": 43.29,
+      "unit": "por ciento",
+      "context": "territorio bajo -2σ ESI (decline severo)",
+      "source": "summary_stats",
+      "verified": true
+    },
+    {
+      "value": 15.82,
+      "unit": "por ciento",
+      "context": "hotspot combinado (persistencia ≥5 años Y intensidad ≤-2σ)",
+      "source": "intersección rasters",
+      "verified": true
+    },
+    {
+      "value": -0.364,
+      "unit": "r (Spearman)",
+      "context": "correlación entre años de persistencia e intensidad del decline (p<10⁻⁹)",
+      "source": "summary_stats (sample n=100.000)",
+      "verified": true
+    },
+    {
+      "value": 2.9,
+      "unit": "años",
+      "context": "persistencia media continental (mediana 2 años, IQR 1-4)",
+      "source": "summary_stats",
+      "verified": true
+    },
+    {
+      "value": -1.86,
+      "unit": "sigma ESI",
+      "context": "intensidad media del decline (mediana -1,88σ)",
+      "source": "summary_stats",
+      "verified": true
+    },
+    {
+      "value": 18,
+      "unit": "años",
+      "context": "periodo de observación del análisis (2003-2020)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1,
+      "unit": "km",
+      "context": "resolución espacial del modelo Noah-MP restringido por satélite",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "we find", "tier": "T1", "cam_attenuator": "encontramos / los datos muestran (afirmación directa)"},
+    {"abstract_verb": "persist 21-22% longer", "tier": "T1", "cam_attenuator": "persisten 21-22% más"},
+    {"abstract_verb": "are most vulnerable", "tier": "T1", "cam_attenuator": "son los más vulnerables"},
+    {"abstract_verb": "reveal", "tier": "T1", "cam_attenuator": "revelan / muestran"},
+    {"abstract_verb": "threatening", "tier": "T2", "cam_attenuator": "amenazan / ponen en riesgo (modal)"}
+  ],
+  "narrative_hooks": [
+    "1,6 millones de km² de selva no han vuelto a sudar igual en 18 años",
+    "El 36% se recupera en un año. El 13,5% no se ha recuperado en siete",
+    "Cuanto más tarda en recuperarse, más profundo fue el bajón (ρ = -0,36)",
+    "Un pedazo más grande que Perú con ET por debajo de su valor histórico"
+  ],
+  "limitations": [
+    "Los rasters publicados no incluyen máscara de tipo de stress (deforestación/fuego/sequía) — los headlines por-tipo del abstract no se pueden re-derivar",
+    "Sin máscaras de bioma — Cerrado vs Pantanal solo se sugiere visualmente en el mapa downsampled",
+    "Correlación Spearman calculada sobre muestra n=100.000 (12 M pixeles intratables sin RAM dedicada)",
+    "1 pixel ≈ 1 km² es exacto en el ecuador; subestima ~15% hacia -30° latitud"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (4 yes, 2 partial) + 12 números clave verificados — script denso"
+  },
+  "notebook_slug": "2026-05-19-evapotranspiracion-deforestacion-sudamerica",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/notebook.html",
+  "generated_at": "2026-05-27T16:00:00Z"
+}

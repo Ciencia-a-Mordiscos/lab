@@ -1,0 +1,31 @@
+titulo: "1,6 millones de km² de selva no han vuelto a sudar igual"
+fecha: 2026-05-27
+categoria: ecologia
+tags: [evapotranspiracion, deforestacion, amazonia, cerrado, satelite, hidrologia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01981-8"
+    titulo: "Evapotranspiration declines prolonged by deforestation and fire in South American biomes"
+    journal: "Nature Geoscience"
+    autores: "Ahmad et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "persistence_distribution.csv"
+    descripcion: "Distribución de años hasta recovery de ET (0–7+) por nº de pixeles y % de área"
+    fuente: "Zenodo 10.5281/zenodo.18763054 (ET_PERSISTENCE.tif agregado)"
+  - nombre: "intensity_distribution.csv"
+    descripcion: "Histograma binned (paso 0,5σ) de la magnitud del decline en ESI"
+    fuente: "Zenodo 10.5281/zenodo.18763054 (ET_INTENSITY.tif agregado)"
+  - nombre: "intensity_vs_persistence.csv"
+    descripcion: "Media e IQR de intensidad ESI agrupados por categoría de persistencia"
+    fuente: "Cross-cálculo Zenodo"
+  - nombre: "spatial_heatmap.csv"
+    descripcion: "Raster downsampled 48× con lat, lon, persistence, intensity (~5.260 puntos)"
+    fuente: "Zenodo (downsampled servidor-side)"
+  - nombre: "summary_stats.csv"
+    descripcion: "14 métricas globales (media, mediana, std, percentiles, % hotspots)"
+    fuente: "Cross-cálculo Zenodo"
+estado: publicado

@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/README
+    title: '1,6 millones de km² de selva no han vuelto a "sudar" igual'
+    sections:
+    - file: papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/notebook
+      title: Notebook
   - file: papers/2026-05-26-chacal-dorado-europa/README
     title: "Chacal dorado en Europa: el lobo lo limita, los humanos lo escudan"
     sections:
