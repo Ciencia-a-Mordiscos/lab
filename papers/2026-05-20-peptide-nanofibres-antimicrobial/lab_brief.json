@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "paper_id": 2512,
+  "doi": "10.1038/s41551-026-01680-0",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "MRSA + ratones C57BL/6 (in vivo) + nanopartículas lipídicas mimético-membrana (in vitro)",
+  "verification_table": [
+    {
+      "claim": "A 128 μM, Bip-FK9 reduce MRSA al límite de detección (100 CFU/mL) mientras vancomicina deja ~9.95 millones de CFU/mL",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "3 réplicas por compuesto. Ratio ~99,500×. Verificado calculando medias desde MOESM13_ESM.xlsx.",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperform",
+      "effect_size": {"measure": "ratio_geometrico", "value": 99500, "interpretation": "5 órdenes de magnitud"}
+    },
+    {
+      "claim": "El grupo bifenilo (ancla) es lo que cambia el resultado entre las 8 variantes del esqueleto modular",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Las otras 6 anclas se quedan con medias en rango 1.3×10⁹–5.4×10⁹ CFU/mL; Bip-FK9 baja a 1.6×10⁷ (80× por debajo del siguiente mejor, Iso-FK9).",
+      "certainty_tier": "T1",
+      "abstract_verb": "introduce",
+      "effect_size": {"measure": "ratio_medias_log10", "value": 79.7, "interpretation": "1.9 órdenes log10"}
+    },
+    {
+      "claim": "PG (fosfatidilglicerol) es el blanco molecular específico — solo PG libre actúa como decoy que bloquea la actividad",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "PG libre reduce la actividad a 0.04 log de reducción (sin efecto). Los otros 3 lípidos (CL, PA, Lysyl-PG) no protegen — reducción 2.3-2.7 log.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "reduccion_log", "value": 0.04, "interpretation": "vs ~2.5 log con otros lípidos"}
+    },
+    {
+      "claim": "Bip-FK9 inhalado reduce la carga bacteriana pulmonar de 82.4% a 1.4% entre 0.5 y 24 μg/mL en ratones con neumonía MRSA",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "n=3 ratones por dosis. Caída monotónica entre las 7 dosis ensayadas. EC50 in vivo aproximado ≈ 3 μg/mL.",
+      "certainty_tier": "T1",
+      "abstract_verb": "eradicate",
+      "effect_size": {"measure": "delta_porcentual", "value": 81.0, "interpretation": "82.4% → 1.4%"}
+    },
+    {
+      "claim": "El péptido no induce resistencia tras pases serializados",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Claim del paper pero no graficamos esto — no hay CSV de passages-resistance en el supplementary procesado. Mencionar como observación del paper sin dato propio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "without inducing resistance",
+      "effect_size": null
+    },
+    {
+      "claim": "Restaura la arquitectura pulmonar sin toxicidad detectable",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Claim del paper basado en histopatología — no graficamos esto, no hay CSV de histología.",
+      "certainty_tier": "T1",
+      "abstract_verb": "restore lung architecture without detectable toxicity",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 99500,
+      "unit": "veces",
+      "context": "diferencia de potencia anti-MRSA Bip-FK9 vs vancomicina a 128 μM (ratio de CFU/mL medias)",
+      "source": "calculo_notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "outperforms vancomycin (abstract)",
+        "our_calculation": "9,950,000 / 100 = 99,500",
+        "discrepancy_pct": 0,
+        "reason": "transcripcion directa de Source Data Fig. 1l"
+      }
+    },
+    {
+      "value": 100,
+      "unit": "CFU/mL",
+      "context": "Bip-FK9 a 128 μM (límite de detección — todas las 3 réplicas en el suelo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9950000,
+      "unit": "CFU/mL",
+      "context": "vancomicina a 128 μM — media de 3 réplicas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 80,
+      "unit": "veces",
+      "context": "Bip-FK9 vs siguiente mejor variante (Iso-FK9) en el screening de 7 anclas",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 82.4,
+      "unit": "por ciento",
+      "context": "carga bacteriana pulmonar in vivo con dosis baja (0.5 μg/mL inhalado)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.4,
+      "unit": "por ciento",
+      "context": "carga bacteriana pulmonar in vivo con dosis alta (24 μg/mL inhalado) — eradicacion practica",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "variantes",
+      "context": "7 anclas distintas + Control en el screening modular",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "replicas",
+      "context": "n por grupo en todos los experimentos in vitro y n por dosis in vivo",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "introduce", "tier": "T1", "cam_attenuator": "afirmacion directa: 'crearon un peptido modular'"},
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmacion directa: 'los datos demuestran que PG es el blanco'"},
+    {"abstract_verb": "outperform", "tier": "T1", "cam_attenuator": "afirmacion directa con dato exacto: '99,500x mas potente a la misma concentracion'"},
+    {"abstract_verb": "eradicate", "tier": "T1", "cam_attenuator": "afirmacion directa con cuantificacion: 'redujo la carga bacteriana pulmonar de 82% a 1.4%'"},
+    {"abstract_verb": "without inducing resistance", "tier": "T1", "cam_attenuator": "claim del paper — NO se grafico por falta de datos en supplementary procesado; mencionar como hallazgo lateral"},
+    {"abstract_verb": "restore lung architecture without detectable toxicity", "tier": "T1", "cam_attenuator": "afirmacion directa del paper pero sin dato propio; mencionar como observacion"}
+  ],
+  "narrative_hooks": [
+    "El antibiótico más vendido del mundo deja vivas casi 10 millones de bacterias por mililitro. El péptido nuevo deja 100.",
+    "Cambiaron un solo grupo químico al final del péptido — y el resultado bajó dos órdenes de magnitud.",
+    "Solo el lípido PG bloquea al péptido. Eso prueba que PG es el blanco."
+  ],
+  "limitations": [
+    "n=3 réplicas in vitro y n=3 ratones por dosis es pequeño — barras muestran std observada, no IC",
+    "Eje Y in vivo en porcentaje según convención del paper (carga relativa); no tenemos CFU/pulmón absolutos",
+    "Dosis-respuesta in vitro asume 4 h de incubación en PBS, no medio rico — cinética clínica sería distinta",
+    "Body del paper en paywall — verificación cruzada limitada al supplementary text accesible",
+    "Resistencia tras pases serializados y toxicidad histológica son claims del paper sin CSV propio en el Lab"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims yes (potencia 128μM, ancla, decoy PG, in vivo) + 8 key_numbers — script denso"
+  },
+  "notebook_slug": "2026-05-20-peptide-nanofibres-antimicrobial",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-20-peptide-nanofibres-antimicrobial/notebook.html",
+  "generated_at": "2026-05-27T15:30:00Z"
+}

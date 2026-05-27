@@ -1,0 +1,28 @@
+titulo: "Un péptido modular contra MRSA — 99,500× más potente que vancomicina"
+fecha: 2026-05-20
+categoria: medicina
+tags: [antibiotico, mrsa, peptido, antimicrobiano, resistencia, nanofibra]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01680-0"
+    titulo: "Modular peptide nanofibres that self-assemble on bacterial membranes overcome antimicrobial resistance"
+    journal: "Nature Biomedical Engineering"
+    autores: "Garrood et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "screening_variantes.csv"
+    descripcion: "CFU/mL post 24 h con 7 variantes peptídicas y Control, 3 réplicas (8 μM, MRSA 5×10⁵ CFU/mL)"
+    fuente: "Source Data Fig. 1b (MOESM12_ESM.xlsx)"
+  - nombre: "dosis_respuesta.csv"
+    descripcion: "Dosis-respuesta in vitro de vancomicina y Bip-FK9 a 9 concentraciones, 3 réplicas (MRSA 1×10⁸ CFU/mL)"
+    fuente: "Source Data Fig. 1l (MOESM13_ESM.xlsx)"
+  - nombre: "especificidad_lipidos.csv"
+    descripcion: "Decoy de 4 lípidos bacterianos sobre la actividad de Bip-FK9, 3 réplicas (MRSA 2×10⁸ CFU/mL)"
+    fuente: "Source Data Fig. 2i (MOESM14_ESM.xlsx)"
+  - nombre: "in_vivo_dosis.csv"
+    descripcion: "Carga bacteriana pulmonar (%) en ratones con neumonía MRSA tras Bip-FK9 inhalado, 7 dosis × 3 ratones"
+    fuente: "Source Data Fig. 4e (MOESM16_ESM.xlsx)"
+estado: publicado
