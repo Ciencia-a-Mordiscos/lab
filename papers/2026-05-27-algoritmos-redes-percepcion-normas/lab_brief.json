@@ -1,0 +1,209 @@
+{
+  "version": "1.0",
+  "paper_id": 2554,
+  "doi": "10.1038/s41586-026-10536-1",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El feed algorítmico casi duplica la exposición al contenido del propio bando alabándose (14% → 24,6%)",
+      "supported": "yes",
+      "detail": "Datos directos de exposicion_propio_bando.csv (n=136.898 trials de exposición)",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "amplified",
+      "effect_size": {
+        "measure": "percentage_points",
+        "value": 10.6,
+        "interpretation": "duplicación"
+      }
+    },
+    {
+      "claim": "El feed algorítmico reduce a un tercio la exposición al otro bando (28% → 9,9%)",
+      "supported": "yes",
+      "detail": "Mismo dataset; ratio 0,355",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "amplified",
+      "effect_size": {
+        "measure": "percentage_points",
+        "value": -18.07,
+        "interpretation": "caída a un tercio"
+      }
+    },
+    {
+      "claim": "Los usuarios del feed algorítmico creen que se alaba más al propio bando (+6,8 pp)",
+      "supported": "yes",
+      "detail": "d=0,346, p=1,1e-13 (unilateral del paper) o 2,3e-13 (Welch bilateral del notebook). Efecto medio.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "reduced prescriptive norm perception accuracy",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.346,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "Los usuarios creen que se debe usar más lenguaje emocional",
+      "supported": "yes",
+      "detail": "d=0,149, p=0,0014 — efecto pequeño-medio significativo",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "reduced prescriptive norm perception accuracy",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.149,
+        "interpretation": "pequeño-medio"
+      }
+    },
+    {
+      "claim": "El feed algorítmico redujo la polarización afectiva (efecto inverso)",
+      "supported": "partial",
+      "detail": "d=-0,129, p=0,003. Direccion inesperada (el abstract lo enmarca como 'unexpected direction'). Real en este experimento, pero no extrapolar fuera del diseño.",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "unexpected direction",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -0.129,
+        "interpretation": "pequeño negativo"
+      }
+    },
+    {
+      "claim": "El feed algorítmico redujo la percepción de extremismo del entorno (efecto inverso)",
+      "supported": "partial",
+      "detail": "d=-0,191, p=0,0002. Direccion inesperada. La interpretación tentativa del notebook: menos contenido del otro bando = menos oportunidad de etiquetarlo como extremo.",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "unexpected direction",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -0.191,
+        "interpretation": "pequeño negativo"
+      }
+    },
+    {
+      "claim": "El RCT incluyó 1.818 participantes durante 8 semanas, antes y después de las elecciones US 2024",
+      "supported": "yes",
+      "detail": "n_total=1818 tras exclusión de 83 participantes por feed_duration<100s o >5 NA en post_dwell_seconds",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "randomly assigned",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 24.6,
+      "unit": "por ciento",
+      "context": "Exposición al contenido del propio bando alabándose, feed algorítmico",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14.0,
+      "unit": "por ciento",
+      "context": "Exposición al contenido del propio bando alabándose, feed cronológico",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.9,
+      "unit": "por ciento",
+      "context": "Exposición al contenido del otro bando, feed algorítmico",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 28.0,
+      "unit": "por ciento",
+      "context": "Exposición al contenido del otro bando, feed cronológico",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.346,
+      "unit": "Cohen's d",
+      "context": "Tamaño del efecto sobre la creencia de que la gente alaba a su propio bando — efecto más fuerte del estudio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1818,
+      "unit": "participantes",
+      "context": "Muestra post-exclusión del Study 4",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "semanas",
+      "context": "Duración del experimento — antes y después de elecciones US 2024",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.191,
+      "unit": "Cohen's d",
+      "context": "Efecto inverso: el algoritmo REDUJO la percepción de extremismo del entorno",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.129,
+      "unit": "Cohen's d",
+      "context": "Efecto inverso: el algoritmo REDUJO la polarización afectiva",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "tested",
+      "tier": "T1",
+      "cam_attenuator": "los autores pusieron a prueba"
+    },
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "amplified",
+      "tier": "T1",
+      "cam_attenuator": "amplificó (verbo causal aceptable por ser RCT)"
+    },
+    {
+      "abstract_verb": "reduced",
+      "tier": "T1",
+      "cam_attenuator": "redujo (válido en RCT)"
+    },
+    {
+      "abstract_verb": "unexpected direction",
+      "tier": "T2",
+      "cam_attenuator": "dirección inesperada — reportar sin extrapolar"
+    }
+  ],
+  "narrative_hooks": [
+    "Una de cada 4 publicaciones que ves de tu bando, alabándolo. En un feed cronológico era una de cada 7.",
+    "El algoritmo no cambió lo que la gente HACE — cambió lo que la gente CREE que el resto está haciendo.",
+    "Dos efectos van al revés de lo esperado: el algoritmo redujo la polarización afectiva y la percepción de extremismo. Pequeño pero real."
+  ],
+  "limitations": [
+    "Solo Estados Unidos, una elección, 8 semanas — generalización a otros contextos no probada.",
+    "Los participantes sabían que estaban en un experimento (posible efecto Hawthorne).",
+    "El feed cronológico es una línea base teórica, no la línea base real de las plataformas.",
+    "La tercera condición del paper (algoritmo 'diversified extremity') no está disponible en el CSV abierto Study 4.",
+    "El paper reporta p unilateral (1,1e-13); el notebook recalcula Welch bilateral (2,3e-13). Ambos hiper-significativos, conclusión no cambia."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims yes/partial verificados, 9 key_numbers — script denso"
+  },
+  "notebook_slug": "2026-05-27-algoritmos-redes-percepcion-normas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-27-algoritmos-redes-percepcion-normas/notebook.html",
+  "generated_at": "2026-05-28T15:52:03.013120Z"
+}

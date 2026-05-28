@@ -1,0 +1,190 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "24.6 por ciento — Exposición al contenido del propio bando alabándose, feed algorítmico",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c2",
+      "text": "14.0 por ciento — Exposición al contenido del propio bando alabándose, feed cronológico",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "9.9 por ciento — Exposición al contenido del otro bando, feed algorítmico",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "28.0 por ciento — Exposición al contenido del otro bando, feed cronológico",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "0.346 Cohen's d — Tamaño del efecto sobre la creencia de que la gente alaba a su propio bando — efecto más fuerte del estudio",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "1818 participantes — Muestra post-exclusión del Study 4",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "8 semanas — Duración del experimento — antes y después de elecciones US 2024",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "-0.191 Cohen's d — Efecto inverso: el algoritmo REDUJO la percepción de extremismo del entorno",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "-0.129 Cohen's d — Efecto inverso: el algoritmo REDUJO la polarización afectiva",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "El feed algorítmico casi duplica la exposición al contenido del propio bando alabándose (14% → 24,6%)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "El feed algorítmico reduce a un tercio la exposición al otro bando (28% → 9,9%)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "Los usuarios del feed algorítmico creen que se alaba más al propio bando (+6,8 pp)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c13",
+      "text": "Los usuarios creen que se debe usar más lenguaje emocional",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c14",
+      "text": "El feed algorítmico redujo la polarización afectiva (efecto inverso)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c15",
+      "text": "El feed algorítmico redujo la percepción de extremismo del entorno (efecto inverso)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c16",
+      "text": "El RCT incluyó 1.818 participantes durante 8 semanas, antes y después de las elecciones US 2024",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "contexto",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "Redesigning algorithms to intervene on social norm misperceptions during a national election",
+      "url": "https://doi.org/10.1038/s41586-026-10536-1",
+      "fecha_publicacion": "2026-05-27",
+      "fecha_consulta": "2026-05-28",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "OSF",
+      "tipo": "dataset",
+      "titulo": "Attention Algorithm Amplification — Study 4 combined data and analysis script",
+      "url": "https://osf.io/wy67k/",
+      "fecha_publicacion": "2025-11-15",
+      "fecha_consulta": "2026-05-28",
+      "rol": "base"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Redesigning algorithms to intervene on social norm misperceptions during a national election](https://doi.org/10.1038/s41586-026-10536-1)  \n*Nature, 2026-05-27*\n\n**Dataset canónico**: [Attention Algorithm Amplification — Study 4 combined data and analysis script](https://osf.io/wy67k/)\n\n*16 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

@@ -1,0 +1,13 @@
+condition,image_category,pct_exposure
+algorithmic,dem_ingroup_praise,17.834115531382956
+algorithmic,dem_outgroup_blame,16.84942322031668
+algorithmic,distractor,17.51611912803193
+algorithmic,neutral_political,26.937584981797446
+algorithmic,rep_ingroup_praise,11.96982323786131
+algorithmic,rep_outgroup_blame,8.892933900609675
+control,dem_ingroup_praise,14.000000000000002
+control,dem_outgroup_blame,14.000000000000002
+control,distractor,15.0
+control,neutral_political,28.999999999999996
+control,rep_ingroup_praise,14.000000000000002
+control,rep_outgroup_blame,14.000000000000002

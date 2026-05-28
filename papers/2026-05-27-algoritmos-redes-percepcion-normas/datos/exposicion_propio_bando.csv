@@ -1,0 +1,11 @@
+condition,own_view,pct
+algorithmic,distractor,17.51611912803193
+algorithmic,ingroup_praise,24.60195622615027
+algorithmic,neutral_political,26.937584981797446
+algorithmic,other_party,9.930260099127155
+algorithmic,outgroup_blame,21.014079564893198
+control,distractor,15.0
+control,ingroup_praise,14.000000000000002
+control,neutral_political,28.999999999999996
+control,other_party,28.000000000000004
+control,outgroup_blame,14.000000000000002

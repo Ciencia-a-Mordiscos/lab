@@ -1,0 +1,28 @@
+titulo: "Algoritmos que distorsionan lo que crees que piensan los demás"
+fecha: 2026-05-27
+categoria: tecnologia
+tags: [redes_sociales, algoritmos, polarizacion, normas_sociales, rct, ciencia_politica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10536-1"
+    titulo: "Redesigning algorithms to intervene on social norm misperceptions during a national election"
+    journal: Nature
+    autores: "Brady et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "survey_por_participante.csv"
+    descripcion: "1.818 participantes, 10 outcomes psicométricos por persona"
+    fuente: "Supplementary Materials (study4_combined_data.csv)"
+  - nombre: "exposicion_propio_bando.csv"
+    descripcion: "% exposición por condición × categoría del propio bando"
+    fuente: "Supplementary Materials"
+  - nombre: "outcomes_resumen.csv"
+    descripcion: "Medias, SE, Cohen's d, p-value por outcome y condición"
+    fuente: "Supplementary Materials"
+  - nombre: "engagement_feed2.csv"
+    descripcion: "Likes y shares por condición durante el experimento"
+    fuente: "Supplementary Materials"
+estado: publicado

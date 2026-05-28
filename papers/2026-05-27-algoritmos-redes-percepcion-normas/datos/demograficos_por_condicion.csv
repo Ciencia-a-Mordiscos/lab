@@ -1,0 +1,9 @@
+condition,political_affiliation,n
+algorithmic,democrat,530
+algorithmic,lean_democrat,13
+algorithmic,lean_republican,3
+algorithmic,republican,360
+control,democrat,530
+control,lean_democrat,15
+control,lean_republican,6
+control,republican,361

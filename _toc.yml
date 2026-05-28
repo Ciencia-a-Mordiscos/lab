@@ -666,6 +666,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-27-algoritmos-redes-percepcion-normas/README
+    title: "Algoritmos que distorsionan lo que crees que piensan los demás"
+    sections:
+    - file: papers/2026-05-27-algoritmos-redes-percepcion-normas/notebook
+      title: Notebook
   - file: papers/2026-05-21-lidar-objetos-ocultos-celular/README
     title: "LiDAR de US$100 ve detrás de las paredes"
     sections:
