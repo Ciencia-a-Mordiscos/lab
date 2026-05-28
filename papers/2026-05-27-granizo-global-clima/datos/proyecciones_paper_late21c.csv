@@ -1,0 +1,7 @@
+metrica,valor,unidad,fuente,horizonte
+incremento_danio_global_pct_min,36.5,%,abstract,late 21st century
+incremento_danio_global_pct_max,42.1,%,abstract,late 21st century
+incremento_freq_grandes_30mm_pct_min,37.9,%,abstract,late 21st century
+incremento_freq_grandes_30mm_pct_max,51.8,%,abstract,late 21st century
+reduccion_freq_pequenos_lt30mm_pct_min,4.2,%,abstract,late 21st century
+reduccion_freq_pequenos_lt30mm_pct_max,12.3,%,abstract,late 21st century

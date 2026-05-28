@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-27-granizo-global-clima/README
+    title: "Granizos más grandes en un clima más cálido"
+    sections:
+    - file: papers/2026-05-27-granizo-global-clima/notebook
+      title: Notebook
   - file: papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/README
     title: '1,6 millones de km² de selva no han vuelto a "sudar" igual'
     sections:

@@ -1,0 +1,28 @@
+titulo: "Granizos más grandes en un clima más cálido"
+fecha: 2026-05-27
+categoria: clima
+tags: [granizo, cambio-climatico, modelo, proyecciones, tormentas-severas, atmosfera]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10543-2"
+    titulo: "Rising global hail damage potential in a warming world"
+    journal: Nature
+    autores: "Wang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "us_diam_histograma_2010_2020.csv"
+    descripcion: "Histograma de diámetros de granizo observados vs simulados en EEUU (2010-2020), bins de 5 mm"
+    fuente: "Derivado de NetCDFs de validación Figshare 30103471"
+  - nombre: "china_obs_anual_1966_1999.csv"
+    descripcion: "Eventos de granizo observados en China por año (1966-1979 + 1986-1999)"
+    fuente: "Compilación del paper (Tabla suplementaria)"
+  - nombre: "entornos_convectivos_hist_2014_2021.csv"
+    descripcion: "3.996 entornos convectivos globales sampleados (lat, lon, MUCAPE, cizalladura, agua precipitable, altura de fusión)"
+    fuente: "Figshare 30103471 (idx1 del NetCDF principal)"
+  - nombre: "proyecciones_paper_late21c.csv"
+    descripcion: "Rangos cuantitativos del paper para finales del s. XXI (daño, frecuencia de granizos grandes y pequeños)"
+    fuente: "Abstract del paper (datos brutos futuros no descargables, >5 GB)"
+estado: publicado

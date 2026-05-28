@@ -1,0 +1,192 @@
+{
+  "version": "1.0",
+  "paper_id": 2556,
+  "doi": "10.1038/s41586-026-10543-2",
+  "paper_type": "modelo_simulacion",
+  "study_design": "modelo_simulacion",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El modelo proyecta entre 36,5% y 42,1% más daño global por granizo para finales del s. XXI",
+      "supported": "yes",
+      "detail": "Rango del abstract literal, según escenario de emisiones SSP245/370/585",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "Los granizos ≥30 mm aumentan entre 37,9% y 51,8% de frecuencia",
+      "supported": "yes",
+      "detail": "Rango del abstract — preservar como rango, no colapsar",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "rising",
+      "effect_size": null
+    },
+    {
+      "claim": "Los granizos <30 mm caen entre 4,2% y 12,3%",
+      "supported": "yes",
+      "detail": "Rango del abstract literal",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "declining",
+      "effect_size": null
+    },
+    {
+      "claim": "El modelo captura bien las observaciones US (2010-2020)",
+      "supported": "yes",
+      "detail": "Ratio simulado/observado = 1,20 sobre n=9.462 obs vs n=4.103 sim (recalculado desde histograma agregado)",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "cross-validated",
+      "effect_size": {
+        "measure": "ratio_sim_obs_mean",
+        "value": 1.2,
+        "interpretation": "sobreestima 20%"
+      }
+    },
+    {
+      "claim": "La sobreestimación 2,5x en China NO es error del modelo sino sesgo de densificación de la red de observación",
+      "supported": "partial",
+      "detail": "El paper reporta el factor 2,5x; el sesgo de obs queda apoyado por los datos: entre 1966-1979 y 1986-1999 los eventos reportados se cuadruplican (~170→~630/año) y el diámetro medio cae 40% (17,1→10,2 mm)",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "cross-validated",
+      "effect_size": null
+    },
+    {
+      "claim": "Las latitudes medias-altas concentran el aumento de daño; los trópicos experimentan reducción",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como resultado regional del modelo; no verificable desde los CSVs reproducibles, pero la atribución mecanística (calentamiento fuerte + humedecimiento débil en lat medias) es consistente con la física conocida",
+      "supported_by_data": false,
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit / experience",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 36.5,
+      "unit": "por ciento",
+      "context": "incremento de daño global mínimo (escenario menor)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 42.1,
+      "unit": "por ciento",
+      "context": "incremento de daño global máximo (escenario mayor)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 37.9,
+      "unit": "por ciento",
+      "context": "incremento de frecuencia granizos ≥30 mm (mínimo)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 51.8,
+      "unit": "por ciento",
+      "context": "incremento de frecuencia granizos ≥30 mm (máximo)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 4.2,
+      "unit": "por ciento",
+      "context": "reducción de frecuencia granizos <30 mm (mínimo)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 12.3,
+      "unit": "por ciento",
+      "context": "reducción de frecuencia granizos <30 mm (máximo)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 1.2,
+      "unit": "ratio",
+      "context": "validación US: simulado/observado en media del histograma agregado",
+      "source": "calculo_notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.15",
+        "our_calculation": "1.20",
+        "discrepancy_pct": 4.3,
+        "reason": "paper usa reportes brutos, CSV agrega en bins de 5 mm"
+      }
+    },
+    {
+      "value": 9462,
+      "unit": "eventos",
+      "context": "n observaciones US 2010-2020 (suma del histograma agregado)",
+      "source": "calculo_notebook",
+      "verified": true
+    },
+    {
+      "value": 8818,
+      "unit": "eventos",
+      "context": "n observaciones China 1986-1999 (paper)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 3996,
+      "unit": "entornos",
+      "context": "entornos convectivos sampleados (base histórica del modelo, 2014-2021)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "el modelo proyecta / según las simulaciones"
+    },
+    {
+      "abstract_verb": "drive",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: el calor y la humedad empujan hacia granizos más grandes"
+    },
+    {
+      "abstract_verb": "rising",
+      "tier": "T1",
+      "cam_attenuator": "preservar el rango (37,9-51,8%) — no colapsar a un solo número"
+    },
+    {
+      "abstract_verb": "expected to",
+      "tier": "T2",
+      "cam_attenuator": "se espera que / todo apunta a"
+    },
+    {
+      "abstract_verb": "experience reduced",
+      "tier": "T1",
+      "cam_attenuator": "los trópicos experimentan reducción según el modelo"
+    }
+  ],
+  "narrative_hooks": [
+    "Para finales del siglo XXI, los granizos de 30 mm o más podrían ser entre 38% y 52% más frecuentes",
+    "El daño económico global por granizo subiría entre 36% y 42% — según el escenario de emisiones",
+    "El caso China muestra cómo a veces el 'error' del modelo es en realidad un sesgo de las observaciones"
+  ],
+  "limitations": [
+    "Las cifras del futuro son proyecciones del modelo, no observaciones medidas",
+    "Los datos brutos de las proyecciones (>5 GB de NetCDF) no son descargables; las cifras del abstract son la fuente autoritativa",
+    "El muestreo de 3.996 entornos convectivos está sesgado a baja latitud por diseño (diversidad de entornos), no refleja densidad espacial real de tormentas",
+    "La validación del modelo cubre EEUU y China; otras regiones (Europa, Australia) no están validadas en este notebook"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (4 yes + 2 partial) + 10 key numbers con rangos a preservar"
+  },
+  "notebook_slug": "2026-05-27-granizo-global-clima",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-27-granizo-global-clima/notebook.html",
+  "generated_at": "2026-05-28T16:14:13.158747Z"
+}

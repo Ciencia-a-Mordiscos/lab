@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Para finales del siglo XXI, el modelo proyecta un incremento de 36,5–42,1% en el daño global por granizo, según el escenario de emisiones",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "we show a 36.5–42.1% increase in global hailstorm-induced damage potential by the late twenty-first century, with the magnitude determined by the emission scenario",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c2",
+      "text": "El modelo proyecta que la frecuencia de granizos ≥30 mm aumenta 37,9–51,8% y la de <30 mm cae 4,2–12,3%",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "the frequency of ≥30-mm-diameter hailstones rising by 37.9–51.8% and <30-mm-diameter hailstones declining by 4.2–12.3%",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c3",
+      "text": "El modelo de trayectorias de granizo está forzado por outputs del ensemble EC-Earth3, validado por comparaciones multimodelo, bajo escenarios históricos y futuros",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "hailstone trajectory simulations conducted under historical and future scenarios, driven by EC-Earth3 ensemble outputs that are cross-validated through multimodel comparisons",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c4",
+      "text": "El aumento de temperatura en baja troposfera y de humedad específica empuja hacia granizos más grandes a escala global",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "increased low-level temperature and specific humidity drive a shift towards larger hailstones",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c5",
+      "text": "Las latitudes medias-altas concentran el aumento de daño por granizo debido a calentamiento fuerte y humedecimiento débil",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "the mid-high latitudes predominantly exhibit increased hail damage potential owing to strong warming and weak moistening",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c6",
+      "text": "Las regiones tropicales y monzónicas experimentan reducción del daño por granizo por calentamiento débil, humedecimiento fuerte y limitada profundidad de crecimiento del granizo",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "tropical and monsoonal regions experience reduced hail damage potential owing to weak warming, strong moistening and limited hail growth depth",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c7",
+      "text": "Validación US (2010-2020): ratio simulado/observado = 1,20 en la media del histograma agregado, sobre 9.462 obs vs 4.103 sim",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "unavailable",
+      "evidence_quote_scope": "unavailable"
+    },
+    {
+      "id": "c8",
+      "text": "El paper reporta una sobreestimación 2,5x en China atribuible a sesgo de densificación de la red de observación (no error puro del modelo); en los datos de China los eventos reportados pasan de ~170/año (1966-1979) a ~630/año (1986-1999) y el diámetro medio cae de 17,1 mm a 10,2 mm",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "unavailable",
+      "evidence_quote_scope": "unavailable"
+    },
+    {
+      "id": "c9",
+      "text": "36.5 por ciento — incremento de daño global mínimo (escenario menor)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "42.1 por ciento — incremento de daño global máximo (escenario mayor)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "37.9 por ciento — incremento de frecuencia granizos ≥30 mm (mínimo)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "51.8 por ciento — incremento de frecuencia granizos ≥30 mm (máximo)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c13",
+      "text": "4.2 por ciento — reducción de frecuencia granizos <30 mm (mínimo)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c14",
+      "text": "12.3 por ciento — reducción de frecuencia granizos <30 mm (máximo)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c15",
+      "text": "1.2 ratio — validación US: simulado/observado en media del histograma agregado",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c16",
+      "text": "9462 eventos — n observaciones US 2010-2020 (suma del histograma agregado)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c17",
+      "text": "8818 eventos — n observaciones China 1986-1999 (paper)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c18",
+      "text": "3996 entornos — entornos convectivos sampleados (base histórica del modelo, 2014-2021)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "Rising global hail damage potential in a warming world",
+      "url": "https://doi.org/10.1038/s41586-026-10543-2",
+      "fecha_publicacion": "2026-05-27",
+      "fecha_consulta": "2026-05-28",
+      "rol": "primaria",
+      "nota": "Paper principal — todas las proyecciones futuras se citan textualmente del abstract"
+    },
+    {
+      "id": "s2",
+      "medio": "Figshare",
+      "tipo": "dataset",
+      "titulo": "Data for Global hailstone under historical and future scenarios",
+      "url": "https://doi.org/10.6084/m9.figshare.30103471.v3",
+      "fecha_publicacion": "2026-01-05",
+      "fecha_consulta": "2026-05-28",
+      "rol": "base",
+      "nota": "NetCDFs principales: validation_files (China + US obs/sim) + entornos convectivos historicos (Idx1). Datos brutos de escenarios futuros (>5GB cada uno) no descargados por restricciones de tamaño."
+    },
+    {
+      "id": "s3",
+      "medio": "Figshare",
+      "tipo": "codigo",
+      "titulo": "Code for Global hailstone under historical and future scenarios",
+      "url": "https://doi.org/10.6084/m9.figshare.30103474.v2",
+      "fecha_publicacion": "2026-04-05",
+      "fecha_consulta": "2026-05-28",
+      "rol": "enriquecimiento",
+      "nota": "Codigo Python + NCL del paper (figuras + modelo de trayectoria). Consultado para interpretar nombres de variables del NetCDF Idx1..5 y dimension dim2 (33 parametros meteorologicos)."
+    },
+    {
+      "id": "s4",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Raw hailstone growth trajectories (HIST + SSP245/370/585, 4 records)",
+      "url": "https://doi.org/10.5281/zenodo.18152366",
+      "fecha_publicacion": "2026-01-05",
+      "fecha_consulta": "2026-05-28",
+      "rol": "enriquecimiento",
+      "nota": "Trayectorias brutas en 4 registros Zenodo (1-6 GB por archivo). No descargados — excede limites del notebook. Listados para transparencia."
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Rising global hail damage potential in a warming world](https://doi.org/10.1038/s41586-026-10543-2)  \n*Nature, 2026-05-27*\n\n**Datos**: [Data for Global hailstone under historical and future scenarios](https://doi.org/10.6084/m9.figshare.30103471.v3)  \n*Figshare*\n\n**Material adicional**:  \n- [Code for Global hailstone under historical and future scenarios](https://doi.org/10.6084/m9.figshare.30103474.v2) — *Figshare*\n- [Raw hailstone growth trajectories (HIST + SSP245/370/585, 4 records)](https://doi.org/10.5281/zenodo.18152366) — *Zenodo*\n\n*18 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}
