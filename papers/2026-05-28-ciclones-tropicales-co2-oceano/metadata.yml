@@ -1,0 +1,25 @@
+titulo: "Los huracanes liberan menos CO₂ del que creíamos"
+fecha: 2026-05-28
+categoria: ecologia
+tags: [ciclones-tropicales, oceano, carbono, cambio-climatico, co2]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01985-4"
+    titulo: "Reduction of tropical cyclone-induced ocean carbon outgassing since 1993"
+    journal: "Nature Geoscience"
+    autores: "Huang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "evolucion_tc.csv"
+    descripcion: "Evolución día a día (-20 a +59) de viento, ΔpCO₂ y flujos de CO₂ alrededor del paso del ciclón"
+    fuente: "Zenodo (paper supplementary)"
+  - nombre: "tendencia_anual.csv"
+    descripcion: "Serie 1993-2020 de ΔpCO₂ pre-tormenta por clase térmica (sub-saturada, sobre-saturada, promedio)"
+    fuente: "Zenodo (paper supplementary)"
+  - nombre: "distribucion_dpco2.csv"
+    descripcion: "Distribución de probabilidad de ΔpCO₂ observada vs proyectada bajo escenarios CMIP"
+    fuente: "Zenodo (paper supplementary)"
+estado: publicado
