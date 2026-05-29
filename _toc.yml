@@ -312,6 +312,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-22-organoides-intestino-funcional-ens/README
+    title: "Hicieron crecer un intestino humano de 8 cm. En 10 semanas"
+    sections:
+    - file: papers/2026-05-22-organoides-intestino-funcional-ens/notebook
+      title: Notebook
   - file: papers/2026-05-20-peptide-nanofibres-antimicrobial/README
     title: "Un péptido modular contra MRSA — 99,500× más potente que vancomicina"
     sections:

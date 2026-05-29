@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intestino delgado: el método CCS produce injertos 7 veces más grandes que el método tradicional HIO (media 4.78 cm² vs 0.69 cm² a 10 semanas, Mann-Whitney p=0.0004, Cohen's d=3.8, n=6 vs 9)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "yielding organoids that are up to ten times larger",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c2",
+      "text": "Colon: el método CCS produce injertos 12 veces más grandes que el método tradicional HCO (media 3.21 cm² vs 0.26 cm², Mann-Whitney p=0.004, Cohen's d=3.1, n=5 vs 6)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "yielding organoids that are up to ten times larger",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c3",
+      "text": "Estómago: el método CCS produce injertos 12 veces más grandes que el método tradicional HaGO (media 4.96 cm² vs 0.43 cm², Mann-Whitney p=0.004, Cohen's d=2.3, n=6 vs 5)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "yielding organoids that are up to ten times larger",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c4",
+      "text": "Anchura lineal de 8 centímetros alcanzada por los organoides CCS a las 10 semanas (reportado en abstract, no en Source Data Fig 1f que mide área en cm²)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "reaching widths of 8 cm after 10 weeks",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c5",
+      "text": "TTX abole la actividad neuromuscular del tejido CCS: media control 423.5 cae a -23.5 tras TTX, Wilcoxon pareado p=0.0078, n=8 (mismas muestras antes y después)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Transcriptomic and electrophysiological data demonstrate selective neuromuscular function",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c6",
+      "text": "Cohen's d pareado del efecto de TTX sobre actividad neuromuscular = 0.99 (efecto muy grande)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Transcriptomic and electrophysiological data demonstrate selective neuromuscular function",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c7",
+      "text": "La combinación L-NAME + atropina apaga la actividad neuromuscular sobre L-NAME (Mann-Whitney p=0.001), confirmando la presencia de componentes excitatorios colinérgicos e inhibitorios nitrérgicos en el sistema nervioso entérico desarrollado de novo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "presence of excitatory and inhibitory neurons within the tissues",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c8",
+      "text": "La conexión al lumen del huésped no aumentó la permeabilidad: flujo FITC-dextrán tie-in (2.65e-7) menor que sham (8.33e-7), Mann-Whitney p=0.057, Cohen's d=4.0, aunque con n pequeño (3 vs 4)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "maintaining barrier integrity and functional capacity",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c9",
+      "text": "Profundidad de criptas en intestino delgado CCS: +41% sobre HIO (Cohen's d=5.0, Mann-Whitney p=0.029, n=4 vs 4)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "yielding organoids that are up to ten times larger",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c10",
+      "text": "Altura de vellosidades en intestino delgado CCS: +33% sobre HIO (Cohen's d=2.6, Mann-Whitney p=0.029, n=4 vs 4)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "yielding organoids that are up to ten times larger",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c11",
+      "text": "Grosor de músculo liso en intestino delgado CCS: +50% sobre HIO (Cohen's d=4.1, Mann-Whitney p=0.029, n=4 vs 4)",
+      "source_ids": [
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "yielding organoids that are up to ten times larger",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c12",
+      "text": "Los organoides CCS alcanzan estos tamaños en 10 semanas de cultivo",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "reaching widths of 8 cm after 10 weeks",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c13",
+      "text": "El sistema confinado de cultivo (CCS) usa una bandeja impresa en 3D que restringe la fusión y crecimiento de los esferoides, promoviendo el codesarrollo espontáneo de un sistema nervioso entérico funcional",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "We use a 3D-printed scaffolding tray to restrict spheroid fusion and growth, promoting the spontaneous co-development of a functional ENS",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c14",
+      "text": "El método CCS simplifica los protocolos actuales y acelera la producción de tejidos intestinales complejos y funcionales",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "The CCS methodology simplifies current protocols while accelerating the production of complex, functional and clinically relevant gut tissues",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c15",
+      "text": "Los organoides CCS muestran tasa de injerto mejorada respecto a los métodos tradicionales",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "exhibit enhanced engraftment rate",
+      "evidence_quote_scope": "abstract"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature Biomedical Engineering",
+      "tipo": "paper",
+      "titulo": "Large-scale and innervated functional human gut tissues for transplantation via transient spheroid confinement",
+      "url": "https://doi.org/10.1038/s41551-026-01688-6",
+      "fecha_publicacion": "2026-05-22",
+      "fecha_consulta": "2026-05-28",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Nature Biomedical Engineering",
+      "tipo": "supplementary",
+      "titulo": "Source Data (Supplementary Materials) — Park et al. 2026",
+      "url": "https://www.nature.com/articles/s41551-026-01688-6#Sec24",
+      "fecha_publicacion": "2026-05-22",
+      "fecha_consulta": "2026-05-28",
+      "rol": "primaria"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Large-scale and innervated functional human gut tissues for transplantation via transient spheroid confinement](https://doi.org/10.1038/s41551-026-01688-6)  \n*Nature Biomedical Engineering, 2026-05-22*\n\n**Supplementary Material**: [Source Data — Park et al. 2026](https://www.nature.com/articles/s41551-026-01688-6#Sec24)  \n*Mismo DOI · contiene los CSVs reanalizados en este notebook*\n\n*15 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

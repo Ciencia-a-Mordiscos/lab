@@ -1,0 +1,48 @@
+titulo: "Hicieron crecer un intestino humano de 8 cm. En 10 semanas."
+fecha: 2026-05-28
+categoria: medicina
+tags:
+  - organoides
+  - sistema-nervioso-enterico
+  - transplante
+  - ingenieria-tisular
+  - intestino
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01688-6"
+    titulo: "Large-scale and innervated functional human gut tissues for transplantation via transient spheroid confinement"
+    journal: Nature Biomedical Engineering
+    autores: "Park et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "fig1f_graft_size_intestino_delgado.csv"
+    descripcion: "Tamaño de injerto (cm²), intestino delgado: HIO vs SI CCS"
+    fuente: "Source Data Fig 1f"
+  - nombre: "fig5c_graft_size_colon.csv"
+    descripcion: "Tamaño de injerto, colon: HCO vs C CCS"
+    fuente: "Source Data Fig 5c"
+  - nombre: "fig5f_graft_size_estomago.csv"
+    descripcion: "Tamaño de injerto, estómago: HaGO vs G CCS"
+    fuente: "Source Data Fig 5f"
+  - nombre: "fig3f_ttx_si_ccs.csv"
+    descripcion: "Actividad neuromuscular pareada pre/post TTX (n=8)"
+    fuente: "Source Data Fig 3f"
+  - nombre: "fig3g_farmacologia_si_ccs.csv"
+    descripcion: "Respuesta a L-NAME y L-NAME+atropina (n=8 por condición)"
+    fuente: "Source Data Fig 3g"
+  - nombre: "fig6j_fitc_flux_barrera.csv"
+    descripcion: "Flujo de FITC-dextrán: sham vs tie-in"
+    fuente: "Source Data Fig 6j"
+  - nombre: "ext_data_1j_crypt_depth.csv"
+    descripcion: "Profundidad de criptas (µm)"
+    fuente: "Extended Data Fig 1j"
+  - nombre: "ext_data_1k_villus_height.csv"
+    descripcion: "Altura de vellosidades (µm)"
+    fuente: "Extended Data Fig 1k"
+  - nombre: "ext_data_1l_muscle_thickness.csv"
+    descripcion: "Grosor de músculo liso (µm)"
+    fuente: "Extended Data Fig 1l"
+estado: publicado

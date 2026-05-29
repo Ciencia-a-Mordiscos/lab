@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "paper_id": 2528,
+  "doi": "10.1038/s41551-026-01688-6",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human-tissue-rat-transplant",
+  "verification_table": [
+    {
+      "claim": "Organoides hasta 12× más grandes según órgano (paper dice 'up to 10×')",
+      "supported": "yes",
+      "detail": "Verificado con Source Data: intestino delgado fold=7.0 (Mann-Whitney p=0.0004, Cohen's d=3.8, n=6 vs 9); colon fold=12.2 (p=0.004, d=3.1, n=5 vs 6); estómago fold=11.6 (p=0.004, d=2.3, n=6 vs 5). El '10×' del abstract es buen promedio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "yielding",
+      "effect_size": {"measure": "cohen_d", "value": 3.8, "interpretation": "muy grande (intestino delgado)"}
+    },
+    {
+      "claim": "Anchura lineal de 8 cm a 10 semanas",
+      "supported": "partial",
+      "detail": "Reportado solo en abstract, no en Source Data Fig 1f (esos son área cm²). Citar como 'según los autores'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reaching",
+      "effect_size": null
+    },
+    {
+      "claim": "TTX abole actividad neuromuscular (Wilcoxon pareado p=0.008)",
+      "supported": "yes",
+      "detail": "Verificado con Fig 3f: media control=423.5 cae a -23.5 tras TTX, Wilcoxon p=0.0078, d pareado=0.99, n=8 (mismas muestras).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {"measure": "cohen_d_paired", "value": 0.99, "interpretation": "muy grande"}
+    },
+    {
+      "claim": "Nervios excitatorios colinérgicos + inhibitorios nitrérgicos confirmados (L-NAME + atropina abole)",
+      "supported": "yes",
+      "detail": "Verificado con Fig 3g: ctrl=331.8 → lname=728.4 (p=0.195, n.s. — tendencia coherente con freno NO removido) → lname+atropina=-2.4 (p=0.001 vs L-NAME). El doble bloqueo apaga la actividad — confirma componentes farmacológicos pero el efecto de L-NAME solo no alcanza significancia.",
+      "certainty_tier": "T1",
+      "abstract_verb": "presence of excitatory and inhibitory neurons",
+      "effect_size": null
+    },
+    {
+      "claim": "Barrera intacta tras integración con huésped (no aumenta permeabilidad)",
+      "supported": "yes",
+      "detail": "Fig 6j: tie-in mean=2.65e-7 < sham mean=8.33e-7 (Mann-Whitney p=0.057 borderline, Cohen's d=4.0 pero n=3 vs 4 muy pequeño). La direccionalidad es contraria a 'rotura' — el claim del paper 'maintaining barrier integrity' es coherente.",
+      "certainty_tier": "T2",
+      "abstract_verb": "maintaining barrier integrity",
+      "effect_size": {"measure": "cohen_d", "value": 4.0, "interpretation": "muy grande pero IC enorme con n=3 vs 4"}
+    },
+    {
+      "claim": "Anatomía microscópica más madura (+33% a +50%)",
+      "supported": "yes",
+      "detail": "Criptas +41% (d=5.0, p=0.029), vellosidades +33% (d=2.6, p=0.029), músculo +50% (d=4.1, p=0.029). Todos n=4 vs 4. Mismo p por ties en muestras pequeñas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "yielding",
+      "effect_size": {"measure": "cohen_d", "value": 4.0, "interpretation": "promedio de las 3 — todas muy grandes"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 7.0,
+      "unit": "veces",
+      "context": "fold-change tamaño injerto intestino delgado (SI CCS / HIO)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "up to 10×",
+        "our_calculation": "7.0×",
+        "discrepancy_pct": 0,
+        "reason": "el '10×' del abstract es techo, el intestino delgado alcanza ~7×"
+      }
+    },
+    {
+      "value": 12.2,
+      "unit": "veces",
+      "context": "fold-change tamaño injerto colon (C CCS / HCO)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.6,
+      "unit": "veces",
+      "context": "fold-change tamaño injerto estómago (G CCS / HaGO)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "centímetros",
+      "context": "anchura lineal a 10 semanas (solo abstract, no Source Data)",
+      "source": "abstract",
+      "verified": false
+    },
+    {
+      "value": 10,
+      "unit": "semanas",
+      "context": "tiempo de cultivo hasta cosecha",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 0.99,
+      "unit": "cohen_d_paired",
+      "context": "efecto de TTX sobre actividad neuromuscular",
+      "source": "computed_in_notebook",
+      "verified": true
+    },
+    {
+      "value": 0.0078,
+      "unit": "p_value",
+      "context": "Wilcoxon pareado TTX (Fig 3f)",
+      "source": "computed_in_notebook",
+      "verified": true
+    },
+    {
+      "value": 0.001,
+      "unit": "p_value",
+      "context": "Mann-Whitney L-NAME vs L-NAME+atropina (Fig 3g)",
+      "source": "computed_in_notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "present", "tier": "T1", "cam_attenuator": "'presentan' / 'construyeron' — afirmación directa"},
+    {"abstract_verb": "demonstrate", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "yielding", "tier": "T1", "cam_attenuator": "afirmación directa con número: 'hasta 10 veces más grandes'"},
+    {"abstract_verb": "promote / promoting", "tier": "T2", "cam_attenuator": "'promueve' (atenuador suave válido)"},
+    {"abstract_verb": "clinically relevant", "tier": "T2", "cam_attenuator": "'clínicamente relevante' (NO escalar a 'listos para humano')"}
+  ],
+  "narrative_hooks": [
+    "Hicieron crecer un intestino humano de 8 centímetros. En 10 semanas.",
+    "No es solo un tubo de células: tiene su propio sistema nervioso entérico.",
+    "Hasta hoy, los nervios había que pegarlos a mano (assembloides). El equipo los dejó crecer solos — confinando físicamente el tejido.",
+    "Misma jugada en 3 órganos distintos: intestino delgado, colon, estómago. En los tres funcionó.",
+    "Para probar que los nervios funcionan, los apagaron con fármacos. Y el tejido dejó de moverse."
+  ],
+  "limitations": [
+    "n pequeño en todos los experimentos: 5-9 organoides por grupo, 8 para los pareados",
+    "Transplante en rata inmunocomprometida (RRG) — no demuestra viabilidad clínica humana",
+    "El '10×' del abstract es promedio óptimo; el intestino delgado alcanza solo ~7×",
+    "L-NAME vs control no alcanza significancia (p=0.195) — la confirmación de neuronas nitrérgicas se apoya en L-NAME+atropina vs L-NAME (p=0.001)",
+    "Barrera FITC con n=3 vs 4 — Cohen's d enorme (4.0) pero IC muy ancho, p=0.057 borderline",
+    "Anchura lineal de 8 cm solo en abstract, no en Source Data — no replicable desde CSVs"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados con datos sólidos, 8 números clave, narrativa multi-órgano con bloqueo farmacológico secuencial — historia densa que pide algo de respiro"
+  },
+  "notebook_slug": "2026-05-22-organoides-intestino-funcional-ens",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-22-organoides-intestino-funcional-ens/notebook.html",
+  "generated_at": "2026-05-28T23:14:00Z"
+}
