@@ -1,0 +1,2401 @@
+city,storm_type_code,storm_type,domain,urban_or_rural,hour,count
+Dallas,SC,single_cell,city,urban,0,1009
+Dallas,SC,single_cell,city,urban,1,384
+Dallas,SC,single_cell,city,urban,2,52
+Dallas,SC,single_cell,city,urban,3,13
+Dallas,SC,single_cell,city,urban,4,1
+Dallas,SC,single_cell,city,urban,5,0
+Dallas,SC,single_cell,city,urban,6,0
+Dallas,SC,single_cell,city,urban,7,0
+Dallas,SC,single_cell,city,urban,8,0
+Dallas,SC,single_cell,city,urban,9,0
+Dallas,SC,single_cell,city,urban,10,0
+Dallas,SC,single_cell,city,urban,11,0
+Dallas,SC,single_cell,city,urban,12,0
+Dallas,SC,single_cell,city,urban,13,0
+Dallas,SC,single_cell,city,urban,14,0
+Dallas,SC,single_cell,city,urban,15,0
+Dallas,SC,single_cell,city,urban,16,0
+Dallas,SC,single_cell,city,urban,17,0
+Dallas,SC,single_cell,city,urban,18,0
+Dallas,SC,single_cell,city,urban,19,0
+Dallas,SC,single_cell,city,urban,20,0
+Dallas,SC,single_cell,city,urban,21,0
+Dallas,SC,single_cell,city,urban,22,0
+Dallas,SC,single_cell,city,urban,23,0
+Dallas,IS,isolated,city,urban,0,60
+Dallas,IS,isolated,city,urban,1,67
+Dallas,IS,isolated,city,urban,2,46
+Dallas,IS,isolated,city,urban,3,19
+Dallas,IS,isolated,city,urban,4,17
+Dallas,IS,isolated,city,urban,5,17
+Dallas,IS,isolated,city,urban,6,6
+Dallas,IS,isolated,city,urban,7,8
+Dallas,IS,isolated,city,urban,8,3
+Dallas,IS,isolated,city,urban,9,1
+Dallas,IS,isolated,city,urban,10,0
+Dallas,IS,isolated,city,urban,11,1
+Dallas,IS,isolated,city,urban,12,1
+Dallas,IS,isolated,city,urban,13,1
+Dallas,IS,isolated,city,urban,14,0
+Dallas,IS,isolated,city,urban,15,0
+Dallas,IS,isolated,city,urban,16,0
+Dallas,IS,isolated,city,urban,17,0
+Dallas,IS,isolated,city,urban,18,0
+Dallas,IS,isolated,city,urban,19,0
+Dallas,IS,isolated,city,urban,20,0
+Dallas,IS,isolated,city,urban,21,0
+Dallas,IS,isolated,city,urban,22,0
+Dallas,IS,isolated,city,urban,23,0
+Dallas,TS,tropical,city,urban,0,0
+Dallas,TS,tropical,city,urban,1,0
+Dallas,TS,tropical,city,urban,2,0
+Dallas,TS,tropical,city,urban,3,0
+Dallas,TS,tropical,city,urban,4,0
+Dallas,TS,tropical,city,urban,5,0
+Dallas,TS,tropical,city,urban,6,0
+Dallas,TS,tropical,city,urban,7,1
+Dallas,TS,tropical,city,urban,8,1
+Dallas,TS,tropical,city,urban,9,0
+Dallas,TS,tropical,city,urban,10,0
+Dallas,TS,tropical,city,urban,11,0
+Dallas,TS,tropical,city,urban,12,0
+Dallas,TS,tropical,city,urban,13,0
+Dallas,TS,tropical,city,urban,14,0
+Dallas,TS,tropical,city,urban,15,0
+Dallas,TS,tropical,city,urban,16,0
+Dallas,TS,tropical,city,urban,17,1
+Dallas,TS,tropical,city,urban,18,0
+Dallas,TS,tropical,city,urban,19,1
+Dallas,TS,tropical,city,urban,20,1
+Dallas,TS,tropical,city,urban,21,0
+Dallas,TS,tropical,city,urban,22,0
+Dallas,TS,tropical,city,urban,23,2
+Dallas,WF,warm_front,city,urban,0,5
+Dallas,WF,warm_front,city,urban,1,5
+Dallas,WF,warm_front,city,urban,2,5
+Dallas,WF,warm_front,city,urban,3,5
+Dallas,WF,warm_front,city,urban,4,5
+Dallas,WF,warm_front,city,urban,5,11
+Dallas,WF,warm_front,city,urban,6,8
+Dallas,WF,warm_front,city,urban,7,5
+Dallas,WF,warm_front,city,urban,8,7
+Dallas,WF,warm_front,city,urban,9,7
+Dallas,WF,warm_front,city,urban,10,9
+Dallas,WF,warm_front,city,urban,11,6
+Dallas,WF,warm_front,city,urban,12,6
+Dallas,WF,warm_front,city,urban,13,3
+Dallas,WF,warm_front,city,urban,14,1
+Dallas,WF,warm_front,city,urban,15,1
+Dallas,WF,warm_front,city,urban,16,1
+Dallas,WF,warm_front,city,urban,17,1
+Dallas,WF,warm_front,city,urban,18,1
+Dallas,WF,warm_front,city,urban,19,1
+Dallas,WF,warm_front,city,urban,20,1
+Dallas,WF,warm_front,city,urban,21,2
+Dallas,WF,warm_front,city,urban,22,0
+Dallas,WF,warm_front,city,urban,23,0
+Dallas,CF,cold_front,city,urban,0,7
+Dallas,CF,cold_front,city,urban,1,9
+Dallas,CF,cold_front,city,urban,2,10
+Dallas,CF,cold_front,city,urban,3,7
+Dallas,CF,cold_front,city,urban,4,14
+Dallas,CF,cold_front,city,urban,5,18
+Dallas,CF,cold_front,city,urban,6,30
+Dallas,CF,cold_front,city,urban,7,24
+Dallas,CF,cold_front,city,urban,8,20
+Dallas,CF,cold_front,city,urban,9,22
+Dallas,CF,cold_front,city,urban,10,20
+Dallas,CF,cold_front,city,urban,11,14
+Dallas,CF,cold_front,city,urban,12,15
+Dallas,CF,cold_front,city,urban,13,13
+Dallas,CF,cold_front,city,urban,14,7
+Dallas,CF,cold_front,city,urban,15,6
+Dallas,CF,cold_front,city,urban,16,9
+Dallas,CF,cold_front,city,urban,17,3
+Dallas,CF,cold_front,city,urban,18,6
+Dallas,CF,cold_front,city,urban,19,0
+Dallas,CF,cold_front,city,urban,20,1
+Dallas,CF,cold_front,city,urban,21,0
+Dallas,CF,cold_front,city,urban,22,2
+Dallas,CF,cold_front,city,urban,23,1
+Dallas,SC,single_cell,north,rural,0,1068
+Dallas,SC,single_cell,north,rural,1,352
+Dallas,SC,single_cell,north,rural,2,56
+Dallas,SC,single_cell,north,rural,3,8
+Dallas,SC,single_cell,north,rural,4,0
+Dallas,SC,single_cell,north,rural,5,0
+Dallas,SC,single_cell,north,rural,6,0
+Dallas,SC,single_cell,north,rural,7,0
+Dallas,SC,single_cell,north,rural,8,0
+Dallas,SC,single_cell,north,rural,9,0
+Dallas,SC,single_cell,north,rural,10,0
+Dallas,SC,single_cell,north,rural,11,0
+Dallas,SC,single_cell,north,rural,12,0
+Dallas,SC,single_cell,north,rural,13,0
+Dallas,SC,single_cell,north,rural,14,0
+Dallas,SC,single_cell,north,rural,15,0
+Dallas,SC,single_cell,north,rural,16,0
+Dallas,SC,single_cell,north,rural,17,0
+Dallas,SC,single_cell,north,rural,18,0
+Dallas,SC,single_cell,north,rural,19,0
+Dallas,SC,single_cell,north,rural,20,0
+Dallas,SC,single_cell,north,rural,21,0
+Dallas,SC,single_cell,north,rural,22,0
+Dallas,SC,single_cell,north,rural,23,0
+Dallas,IS,isolated,north,rural,0,54
+Dallas,IS,isolated,north,rural,1,57
+Dallas,IS,isolated,north,rural,2,26
+Dallas,IS,isolated,north,rural,3,24
+Dallas,IS,isolated,north,rural,4,21
+Dallas,IS,isolated,north,rural,5,19
+Dallas,IS,isolated,north,rural,6,4
+Dallas,IS,isolated,north,rural,7,2
+Dallas,IS,isolated,north,rural,8,2
+Dallas,IS,isolated,north,rural,9,2
+Dallas,IS,isolated,north,rural,10,1
+Dallas,IS,isolated,north,rural,11,1
+Dallas,IS,isolated,north,rural,12,0
+Dallas,IS,isolated,north,rural,13,0
+Dallas,IS,isolated,north,rural,14,0
+Dallas,IS,isolated,north,rural,15,0
+Dallas,IS,isolated,north,rural,16,1
+Dallas,IS,isolated,north,rural,17,0
+Dallas,IS,isolated,north,rural,18,0
+Dallas,IS,isolated,north,rural,19,0
+Dallas,IS,isolated,north,rural,20,0
+Dallas,IS,isolated,north,rural,21,0
+Dallas,IS,isolated,north,rural,22,0
+Dallas,IS,isolated,north,rural,23,0
+Dallas,TS,tropical,north,rural,0,0
+Dallas,TS,tropical,north,rural,1,0
+Dallas,TS,tropical,north,rural,2,0
+Dallas,TS,tropical,north,rural,3,0
+Dallas,TS,tropical,north,rural,4,0
+Dallas,TS,tropical,north,rural,5,0
+Dallas,TS,tropical,north,rural,6,0
+Dallas,TS,tropical,north,rural,7,0
+Dallas,TS,tropical,north,rural,8,0
+Dallas,TS,tropical,north,rural,9,0
+Dallas,TS,tropical,north,rural,10,0
+Dallas,TS,tropical,north,rural,11,1
+Dallas,TS,tropical,north,rural,12,0
+Dallas,TS,tropical,north,rural,13,0
+Dallas,TS,tropical,north,rural,14,0
+Dallas,TS,tropical,north,rural,15,0
+Dallas,TS,tropical,north,rural,16,0
+Dallas,TS,tropical,north,rural,17,1
+Dallas,TS,tropical,north,rural,18,0
+Dallas,TS,tropical,north,rural,19,0
+Dallas,TS,tropical,north,rural,20,1
+Dallas,TS,tropical,north,rural,21,0
+Dallas,TS,tropical,north,rural,22,0
+Dallas,TS,tropical,north,rural,23,0
+Dallas,WF,warm_front,north,rural,0,1
+Dallas,WF,warm_front,north,rural,1,3
+Dallas,WF,warm_front,north,rural,2,3
+Dallas,WF,warm_front,north,rural,3,2
+Dallas,WF,warm_front,north,rural,4,7
+Dallas,WF,warm_front,north,rural,5,2
+Dallas,WF,warm_front,north,rural,6,10
+Dallas,WF,warm_front,north,rural,7,7
+Dallas,WF,warm_front,north,rural,8,14
+Dallas,WF,warm_front,north,rural,9,7
+Dallas,WF,warm_front,north,rural,10,3
+Dallas,WF,warm_front,north,rural,11,5
+Dallas,WF,warm_front,north,rural,12,4
+Dallas,WF,warm_front,north,rural,13,3
+Dallas,WF,warm_front,north,rural,14,3
+Dallas,WF,warm_front,north,rural,15,3
+Dallas,WF,warm_front,north,rural,16,1
+Dallas,WF,warm_front,north,rural,17,2
+Dallas,WF,warm_front,north,rural,18,2
+Dallas,WF,warm_front,north,rural,19,3
+Dallas,WF,warm_front,north,rural,20,2
+Dallas,WF,warm_front,north,rural,21,1
+Dallas,WF,warm_front,north,rural,22,0
+Dallas,WF,warm_front,north,rural,23,1
+Dallas,CF,cold_front,north,rural,0,10
+Dallas,CF,cold_front,north,rural,1,6
+Dallas,CF,cold_front,north,rural,2,14
+Dallas,CF,cold_front,north,rural,3,16
+Dallas,CF,cold_front,north,rural,4,20
+Dallas,CF,cold_front,north,rural,5,36
+Dallas,CF,cold_front,north,rural,6,28
+Dallas,CF,cold_front,north,rural,7,28
+Dallas,CF,cold_front,north,rural,8,25
+Dallas,CF,cold_front,north,rural,9,28
+Dallas,CF,cold_front,north,rural,10,22
+Dallas,CF,cold_front,north,rural,11,19
+Dallas,CF,cold_front,north,rural,12,13
+Dallas,CF,cold_front,north,rural,13,15
+Dallas,CF,cold_front,north,rural,14,13
+Dallas,CF,cold_front,north,rural,15,6
+Dallas,CF,cold_front,north,rural,16,7
+Dallas,CF,cold_front,north,rural,17,5
+Dallas,CF,cold_front,north,rural,18,5
+Dallas,CF,cold_front,north,rural,19,5
+Dallas,CF,cold_front,north,rural,20,3
+Dallas,CF,cold_front,north,rural,21,4
+Dallas,CF,cold_front,north,rural,22,2
+Dallas,CF,cold_front,north,rural,23,1
+Dallas,SC,single_cell,south,rural,0,1091
+Dallas,SC,single_cell,south,rural,1,410
+Dallas,SC,single_cell,south,rural,2,82
+Dallas,SC,single_cell,south,rural,3,14
+Dallas,SC,single_cell,south,rural,4,2
+Dallas,SC,single_cell,south,rural,5,0
+Dallas,SC,single_cell,south,rural,6,0
+Dallas,SC,single_cell,south,rural,7,0
+Dallas,SC,single_cell,south,rural,8,0
+Dallas,SC,single_cell,south,rural,9,0
+Dallas,SC,single_cell,south,rural,10,0
+Dallas,SC,single_cell,south,rural,11,0
+Dallas,SC,single_cell,south,rural,12,0
+Dallas,SC,single_cell,south,rural,13,0
+Dallas,SC,single_cell,south,rural,14,0
+Dallas,SC,single_cell,south,rural,15,0
+Dallas,SC,single_cell,south,rural,16,0
+Dallas,SC,single_cell,south,rural,17,0
+Dallas,SC,single_cell,south,rural,18,0
+Dallas,SC,single_cell,south,rural,19,0
+Dallas,SC,single_cell,south,rural,20,0
+Dallas,SC,single_cell,south,rural,21,0
+Dallas,SC,single_cell,south,rural,22,0
+Dallas,SC,single_cell,south,rural,23,0
+Dallas,IS,isolated,south,rural,0,50
+Dallas,IS,isolated,south,rural,1,77
+Dallas,IS,isolated,south,rural,2,35
+Dallas,IS,isolated,south,rural,3,32
+Dallas,IS,isolated,south,rural,4,23
+Dallas,IS,isolated,south,rural,5,11
+Dallas,IS,isolated,south,rural,6,6
+Dallas,IS,isolated,south,rural,7,3
+Dallas,IS,isolated,south,rural,8,3
+Dallas,IS,isolated,south,rural,9,2
+Dallas,IS,isolated,south,rural,10,0
+Dallas,IS,isolated,south,rural,11,0
+Dallas,IS,isolated,south,rural,12,2
+Dallas,IS,isolated,south,rural,13,0
+Dallas,IS,isolated,south,rural,14,0
+Dallas,IS,isolated,south,rural,15,0
+Dallas,IS,isolated,south,rural,16,0
+Dallas,IS,isolated,south,rural,17,0
+Dallas,IS,isolated,south,rural,18,0
+Dallas,IS,isolated,south,rural,19,0
+Dallas,IS,isolated,south,rural,20,0
+Dallas,IS,isolated,south,rural,21,0
+Dallas,IS,isolated,south,rural,22,0
+Dallas,IS,isolated,south,rural,23,0
+Dallas,TS,tropical,south,rural,0,0
+Dallas,TS,tropical,south,rural,1,0
+Dallas,TS,tropical,south,rural,2,0
+Dallas,TS,tropical,south,rural,3,0
+Dallas,TS,tropical,south,rural,4,0
+Dallas,TS,tropical,south,rural,5,0
+Dallas,TS,tropical,south,rural,6,0
+Dallas,TS,tropical,south,rural,7,1
+Dallas,TS,tropical,south,rural,8,0
+Dallas,TS,tropical,south,rural,9,0
+Dallas,TS,tropical,south,rural,10,0
+Dallas,TS,tropical,south,rural,11,1
+Dallas,TS,tropical,south,rural,12,0
+Dallas,TS,tropical,south,rural,13,0
+Dallas,TS,tropical,south,rural,14,0
+Dallas,TS,tropical,south,rural,15,1
+Dallas,TS,tropical,south,rural,16,1
+Dallas,TS,tropical,south,rural,17,1
+Dallas,TS,tropical,south,rural,18,0
+Dallas,TS,tropical,south,rural,19,0
+Dallas,TS,tropical,south,rural,20,0
+Dallas,TS,tropical,south,rural,21,0
+Dallas,TS,tropical,south,rural,22,0
+Dallas,TS,tropical,south,rural,23,0
+Dallas,WF,warm_front,south,rural,0,2
+Dallas,WF,warm_front,south,rural,1,1
+Dallas,WF,warm_front,south,rural,2,5
+Dallas,WF,warm_front,south,rural,3,2
+Dallas,WF,warm_front,south,rural,4,5
+Dallas,WF,warm_front,south,rural,5,13
+Dallas,WF,warm_front,south,rural,6,9
+Dallas,WF,warm_front,south,rural,7,8
+Dallas,WF,warm_front,south,rural,8,7
+Dallas,WF,warm_front,south,rural,9,11
+Dallas,WF,warm_front,south,rural,10,5
+Dallas,WF,warm_front,south,rural,11,3
+Dallas,WF,warm_front,south,rural,12,2
+Dallas,WF,warm_front,south,rural,13,3
+Dallas,WF,warm_front,south,rural,14,5
+Dallas,WF,warm_front,south,rural,15,2
+Dallas,WF,warm_front,south,rural,16,1
+Dallas,WF,warm_front,south,rural,17,2
+Dallas,WF,warm_front,south,rural,18,0
+Dallas,WF,warm_front,south,rural,19,3
+Dallas,WF,warm_front,south,rural,20,1
+Dallas,WF,warm_front,south,rural,21,1
+Dallas,WF,warm_front,south,rural,22,1
+Dallas,WF,warm_front,south,rural,23,0
+Dallas,CF,cold_front,south,rural,0,3
+Dallas,CF,cold_front,south,rural,1,8
+Dallas,CF,cold_front,south,rural,2,8
+Dallas,CF,cold_front,south,rural,3,7
+Dallas,CF,cold_front,south,rural,4,10
+Dallas,CF,cold_front,south,rural,5,10
+Dallas,CF,cold_front,south,rural,6,22
+Dallas,CF,cold_front,south,rural,7,21
+Dallas,CF,cold_front,south,rural,8,24
+Dallas,CF,cold_front,south,rural,9,26
+Dallas,CF,cold_front,south,rural,10,17
+Dallas,CF,cold_front,south,rural,11,16
+Dallas,CF,cold_front,south,rural,12,10
+Dallas,CF,cold_front,south,rural,13,5
+Dallas,CF,cold_front,south,rural,14,6
+Dallas,CF,cold_front,south,rural,15,6
+Dallas,CF,cold_front,south,rural,16,2
+Dallas,CF,cold_front,south,rural,17,5
+Dallas,CF,cold_front,south,rural,18,3
+Dallas,CF,cold_front,south,rural,19,2
+Dallas,CF,cold_front,south,rural,20,1
+Dallas,CF,cold_front,south,rural,21,0
+Dallas,CF,cold_front,south,rural,22,1
+Dallas,CF,cold_front,south,rural,23,0
+Dallas,SC,single_cell,east,rural,0,1256
+Dallas,SC,single_cell,east,rural,1,365
+Dallas,SC,single_cell,east,rural,2,59
+Dallas,SC,single_cell,east,rural,3,11
+Dallas,SC,single_cell,east,rural,4,0
+Dallas,SC,single_cell,east,rural,5,0
+Dallas,SC,single_cell,east,rural,6,0
+Dallas,SC,single_cell,east,rural,7,0
+Dallas,SC,single_cell,east,rural,8,0
+Dallas,SC,single_cell,east,rural,9,0
+Dallas,SC,single_cell,east,rural,10,0
+Dallas,SC,single_cell,east,rural,11,0
+Dallas,SC,single_cell,east,rural,12,0
+Dallas,SC,single_cell,east,rural,13,0
+Dallas,SC,single_cell,east,rural,14,0
+Dallas,SC,single_cell,east,rural,15,0
+Dallas,SC,single_cell,east,rural,16,0
+Dallas,SC,single_cell,east,rural,17,0
+Dallas,SC,single_cell,east,rural,18,0
+Dallas,SC,single_cell,east,rural,19,0
+Dallas,SC,single_cell,east,rural,20,0
+Dallas,SC,single_cell,east,rural,21,0
+Dallas,SC,single_cell,east,rural,22,0
+Dallas,SC,single_cell,east,rural,23,0
+Dallas,IS,isolated,east,rural,0,52
+Dallas,IS,isolated,east,rural,1,60
+Dallas,IS,isolated,east,rural,2,35
+Dallas,IS,isolated,east,rural,3,34
+Dallas,IS,isolated,east,rural,4,19
+Dallas,IS,isolated,east,rural,5,11
+Dallas,IS,isolated,east,rural,6,7
+Dallas,IS,isolated,east,rural,7,3
+Dallas,IS,isolated,east,rural,8,0
+Dallas,IS,isolated,east,rural,9,1
+Dallas,IS,isolated,east,rural,10,0
+Dallas,IS,isolated,east,rural,11,1
+Dallas,IS,isolated,east,rural,12,0
+Dallas,IS,isolated,east,rural,13,0
+Dallas,IS,isolated,east,rural,14,0
+Dallas,IS,isolated,east,rural,15,0
+Dallas,IS,isolated,east,rural,16,0
+Dallas,IS,isolated,east,rural,17,0
+Dallas,IS,isolated,east,rural,18,0
+Dallas,IS,isolated,east,rural,19,0
+Dallas,IS,isolated,east,rural,20,0
+Dallas,IS,isolated,east,rural,21,0
+Dallas,IS,isolated,east,rural,22,0
+Dallas,IS,isolated,east,rural,23,0
+Dallas,TS,tropical,east,rural,0,0
+Dallas,TS,tropical,east,rural,1,0
+Dallas,TS,tropical,east,rural,2,0
+Dallas,TS,tropical,east,rural,3,0
+Dallas,TS,tropical,east,rural,4,0
+Dallas,TS,tropical,east,rural,5,0
+Dallas,TS,tropical,east,rural,6,0
+Dallas,TS,tropical,east,rural,7,0
+Dallas,TS,tropical,east,rural,8,0
+Dallas,TS,tropical,east,rural,9,0
+Dallas,TS,tropical,east,rural,10,0
+Dallas,TS,tropical,east,rural,11,1
+Dallas,TS,tropical,east,rural,12,0
+Dallas,TS,tropical,east,rural,13,0
+Dallas,TS,tropical,east,rural,14,0
+Dallas,TS,tropical,east,rural,15,0
+Dallas,TS,tropical,east,rural,16,1
+Dallas,TS,tropical,east,rural,17,0
+Dallas,TS,tropical,east,rural,18,0
+Dallas,TS,tropical,east,rural,19,0
+Dallas,TS,tropical,east,rural,20,0
+Dallas,TS,tropical,east,rural,21,0
+Dallas,TS,tropical,east,rural,22,0
+Dallas,TS,tropical,east,rural,23,0
+Dallas,WF,warm_front,east,rural,0,5
+Dallas,WF,warm_front,east,rural,1,3
+Dallas,WF,warm_front,east,rural,2,8
+Dallas,WF,warm_front,east,rural,3,4
+Dallas,WF,warm_front,east,rural,4,5
+Dallas,WF,warm_front,east,rural,5,12
+Dallas,WF,warm_front,east,rural,6,14
+Dallas,WF,warm_front,east,rural,7,12
+Dallas,WF,warm_front,east,rural,8,13
+Dallas,WF,warm_front,east,rural,9,7
+Dallas,WF,warm_front,east,rural,10,6
+Dallas,WF,warm_front,east,rural,11,5
+Dallas,WF,warm_front,east,rural,12,7
+Dallas,WF,warm_front,east,rural,13,2
+Dallas,WF,warm_front,east,rural,14,6
+Dallas,WF,warm_front,east,rural,15,1
+Dallas,WF,warm_front,east,rural,16,4
+Dallas,WF,warm_front,east,rural,17,0
+Dallas,WF,warm_front,east,rural,18,1
+Dallas,WF,warm_front,east,rural,19,0
+Dallas,WF,warm_front,east,rural,20,1
+Dallas,WF,warm_front,east,rural,21,1
+Dallas,WF,warm_front,east,rural,22,0
+Dallas,WF,warm_front,east,rural,23,0
+Dallas,CF,cold_front,east,rural,0,3
+Dallas,CF,cold_front,east,rural,1,7
+Dallas,CF,cold_front,east,rural,2,4
+Dallas,CF,cold_front,east,rural,3,12
+Dallas,CF,cold_front,east,rural,4,20
+Dallas,CF,cold_front,east,rural,5,21
+Dallas,CF,cold_front,east,rural,6,26
+Dallas,CF,cold_front,east,rural,7,27
+Dallas,CF,cold_front,east,rural,8,34
+Dallas,CF,cold_front,east,rural,9,29
+Dallas,CF,cold_front,east,rural,10,14
+Dallas,CF,cold_front,east,rural,11,24
+Dallas,CF,cold_front,east,rural,12,12
+Dallas,CF,cold_front,east,rural,13,7
+Dallas,CF,cold_front,east,rural,14,13
+Dallas,CF,cold_front,east,rural,15,3
+Dallas,CF,cold_front,east,rural,16,7
+Dallas,CF,cold_front,east,rural,17,5
+Dallas,CF,cold_front,east,rural,18,9
+Dallas,CF,cold_front,east,rural,19,6
+Dallas,CF,cold_front,east,rural,20,4
+Dallas,CF,cold_front,east,rural,21,1
+Dallas,CF,cold_front,east,rural,22,2
+Dallas,CF,cold_front,east,rural,23,0
+Dallas,SC,single_cell,west,rural,0,973
+Dallas,SC,single_cell,west,rural,1,336
+Dallas,SC,single_cell,west,rural,2,55
+Dallas,SC,single_cell,west,rural,3,14
+Dallas,SC,single_cell,west,rural,4,1
+Dallas,SC,single_cell,west,rural,5,0
+Dallas,SC,single_cell,west,rural,6,0
+Dallas,SC,single_cell,west,rural,7,0
+Dallas,SC,single_cell,west,rural,8,0
+Dallas,SC,single_cell,west,rural,9,0
+Dallas,SC,single_cell,west,rural,10,0
+Dallas,SC,single_cell,west,rural,11,0
+Dallas,SC,single_cell,west,rural,12,0
+Dallas,SC,single_cell,west,rural,13,0
+Dallas,SC,single_cell,west,rural,14,0
+Dallas,SC,single_cell,west,rural,15,0
+Dallas,SC,single_cell,west,rural,16,0
+Dallas,SC,single_cell,west,rural,17,0
+Dallas,SC,single_cell,west,rural,18,0
+Dallas,SC,single_cell,west,rural,19,0
+Dallas,SC,single_cell,west,rural,20,0
+Dallas,SC,single_cell,west,rural,21,0
+Dallas,SC,single_cell,west,rural,22,0
+Dallas,SC,single_cell,west,rural,23,0
+Dallas,IS,isolated,west,rural,0,41
+Dallas,IS,isolated,west,rural,1,57
+Dallas,IS,isolated,west,rural,2,46
+Dallas,IS,isolated,west,rural,3,27
+Dallas,IS,isolated,west,rural,4,24
+Dallas,IS,isolated,west,rural,5,17
+Dallas,IS,isolated,west,rural,6,8
+Dallas,IS,isolated,west,rural,7,2
+Dallas,IS,isolated,west,rural,8,4
+Dallas,IS,isolated,west,rural,9,1
+Dallas,IS,isolated,west,rural,10,3
+Dallas,IS,isolated,west,rural,11,2
+Dallas,IS,isolated,west,rural,12,0
+Dallas,IS,isolated,west,rural,13,1
+Dallas,IS,isolated,west,rural,14,0
+Dallas,IS,isolated,west,rural,15,0
+Dallas,IS,isolated,west,rural,16,0
+Dallas,IS,isolated,west,rural,17,0
+Dallas,IS,isolated,west,rural,18,0
+Dallas,IS,isolated,west,rural,19,0
+Dallas,IS,isolated,west,rural,20,0
+Dallas,IS,isolated,west,rural,21,0
+Dallas,IS,isolated,west,rural,22,0
+Dallas,IS,isolated,west,rural,23,0
+Dallas,TS,tropical,west,rural,0,0
+Dallas,TS,tropical,west,rural,1,0
+Dallas,TS,tropical,west,rural,2,0
+Dallas,TS,tropical,west,rural,3,0
+Dallas,TS,tropical,west,rural,4,0
+Dallas,TS,tropical,west,rural,5,0
+Dallas,TS,tropical,west,rural,6,0
+Dallas,TS,tropical,west,rural,7,1
+Dallas,TS,tropical,west,rural,8,1
+Dallas,TS,tropical,west,rural,9,0
+Dallas,TS,tropical,west,rural,10,1
+Dallas,TS,tropical,west,rural,11,0
+Dallas,TS,tropical,west,rural,12,0
+Dallas,TS,tropical,west,rural,13,0
+Dallas,TS,tropical,west,rural,14,0
+Dallas,TS,tropical,west,rural,15,2
+Dallas,TS,tropical,west,rural,16,0
+Dallas,TS,tropical,west,rural,17,1
+Dallas,TS,tropical,west,rural,18,0
+Dallas,TS,tropical,west,rural,19,0
+Dallas,TS,tropical,west,rural,20,0
+Dallas,TS,tropical,west,rural,21,0
+Dallas,TS,tropical,west,rural,22,1
+Dallas,TS,tropical,west,rural,23,1
+Dallas,WF,warm_front,west,rural,0,1
+Dallas,WF,warm_front,west,rural,1,7
+Dallas,WF,warm_front,west,rural,2,6
+Dallas,WF,warm_front,west,rural,3,6
+Dallas,WF,warm_front,west,rural,4,6
+Dallas,WF,warm_front,west,rural,5,13
+Dallas,WF,warm_front,west,rural,6,5
+Dallas,WF,warm_front,west,rural,7,6
+Dallas,WF,warm_front,west,rural,8,9
+Dallas,WF,warm_front,west,rural,9,10
+Dallas,WF,warm_front,west,rural,10,6
+Dallas,WF,warm_front,west,rural,11,6
+Dallas,WF,warm_front,west,rural,12,0
+Dallas,WF,warm_front,west,rural,13,3
+Dallas,WF,warm_front,west,rural,14,3
+Dallas,WF,warm_front,west,rural,15,0
+Dallas,WF,warm_front,west,rural,16,2
+Dallas,WF,warm_front,west,rural,17,1
+Dallas,WF,warm_front,west,rural,18,2
+Dallas,WF,warm_front,west,rural,19,1
+Dallas,WF,warm_front,west,rural,20,2
+Dallas,WF,warm_front,west,rural,21,0
+Dallas,WF,warm_front,west,rural,22,2
+Dallas,WF,warm_front,west,rural,23,0
+Dallas,CF,cold_front,west,rural,0,12
+Dallas,CF,cold_front,west,rural,1,11
+Dallas,CF,cold_front,west,rural,2,13
+Dallas,CF,cold_front,west,rural,3,13
+Dallas,CF,cold_front,west,rural,4,21
+Dallas,CF,cold_front,west,rural,5,25
+Dallas,CF,cold_front,west,rural,6,26
+Dallas,CF,cold_front,west,rural,7,26
+Dallas,CF,cold_front,west,rural,8,22
+Dallas,CF,cold_front,west,rural,9,20
+Dallas,CF,cold_front,west,rural,10,13
+Dallas,CF,cold_front,west,rural,11,8
+Dallas,CF,cold_front,west,rural,12,12
+Dallas,CF,cold_front,west,rural,13,2
+Dallas,CF,cold_front,west,rural,14,8
+Dallas,CF,cold_front,west,rural,15,3
+Dallas,CF,cold_front,west,rural,16,8
+Dallas,CF,cold_front,west,rural,17,3
+Dallas,CF,cold_front,west,rural,18,1
+Dallas,CF,cold_front,west,rural,19,2
+Dallas,CF,cold_front,west,rural,20,2
+Dallas,CF,cold_front,west,rural,21,0
+Dallas,CF,cold_front,west,rural,22,2
+Dallas,CF,cold_front,west,rural,23,2
+Austin,SC,single_cell,city,urban,0,298
+Austin,SC,single_cell,city,urban,1,170
+Austin,SC,single_cell,city,urban,2,41
+Austin,SC,single_cell,city,urban,3,10
+Austin,SC,single_cell,city,urban,4,3
+Austin,SC,single_cell,city,urban,5,0
+Austin,SC,single_cell,city,urban,6,0
+Austin,SC,single_cell,city,urban,7,0
+Austin,SC,single_cell,city,urban,8,0
+Austin,SC,single_cell,city,urban,9,0
+Austin,SC,single_cell,city,urban,10,0
+Austin,SC,single_cell,city,urban,11,0
+Austin,SC,single_cell,city,urban,12,0
+Austin,SC,single_cell,city,urban,13,0
+Austin,SC,single_cell,city,urban,14,0
+Austin,SC,single_cell,city,urban,15,0
+Austin,SC,single_cell,city,urban,16,0
+Austin,SC,single_cell,city,urban,17,0
+Austin,SC,single_cell,city,urban,18,0
+Austin,SC,single_cell,city,urban,19,0
+Austin,SC,single_cell,city,urban,20,0
+Austin,SC,single_cell,city,urban,21,0
+Austin,SC,single_cell,city,urban,22,0
+Austin,SC,single_cell,city,urban,23,0
+Austin,IS,isolated,city,urban,0,17
+Austin,IS,isolated,city,urban,1,38
+Austin,IS,isolated,city,urban,2,28
+Austin,IS,isolated,city,urban,3,27
+Austin,IS,isolated,city,urban,4,20
+Austin,IS,isolated,city,urban,5,15
+Austin,IS,isolated,city,urban,6,8
+Austin,IS,isolated,city,urban,7,3
+Austin,IS,isolated,city,urban,8,1
+Austin,IS,isolated,city,urban,9,1
+Austin,IS,isolated,city,urban,10,0
+Austin,IS,isolated,city,urban,11,0
+Austin,IS,isolated,city,urban,12,0
+Austin,IS,isolated,city,urban,13,0
+Austin,IS,isolated,city,urban,14,0
+Austin,IS,isolated,city,urban,15,0
+Austin,IS,isolated,city,urban,16,0
+Austin,IS,isolated,city,urban,17,0
+Austin,IS,isolated,city,urban,18,0
+Austin,IS,isolated,city,urban,19,0
+Austin,IS,isolated,city,urban,20,0
+Austin,IS,isolated,city,urban,21,0
+Austin,IS,isolated,city,urban,22,0
+Austin,IS,isolated,city,urban,23,0
+Austin,TS,tropical,city,urban,0,0
+Austin,TS,tropical,city,urban,1,0
+Austin,TS,tropical,city,urban,2,0
+Austin,TS,tropical,city,urban,3,0
+Austin,TS,tropical,city,urban,4,0
+Austin,TS,tropical,city,urban,5,0
+Austin,TS,tropical,city,urban,6,0
+Austin,TS,tropical,city,urban,7,2
+Austin,TS,tropical,city,urban,8,1
+Austin,TS,tropical,city,urban,9,0
+Austin,TS,tropical,city,urban,10,1
+Austin,TS,tropical,city,urban,11,1
+Austin,TS,tropical,city,urban,12,0
+Austin,TS,tropical,city,urban,13,0
+Austin,TS,tropical,city,urban,14,0
+Austin,TS,tropical,city,urban,15,0
+Austin,TS,tropical,city,urban,16,1
+Austin,TS,tropical,city,urban,17,0
+Austin,TS,tropical,city,urban,18,1
+Austin,TS,tropical,city,urban,19,1
+Austin,TS,tropical,city,urban,20,1
+Austin,TS,tropical,city,urban,21,0
+Austin,TS,tropical,city,urban,22,0
+Austin,TS,tropical,city,urban,23,1
+Austin,WF,warm_front,city,urban,0,1
+Austin,WF,warm_front,city,urban,1,1
+Austin,WF,warm_front,city,urban,2,4
+Austin,WF,warm_front,city,urban,3,7
+Austin,WF,warm_front,city,urban,4,18
+Austin,WF,warm_front,city,urban,5,6
+Austin,WF,warm_front,city,urban,6,11
+Austin,WF,warm_front,city,urban,7,0
+Austin,WF,warm_front,city,urban,8,4
+Austin,WF,warm_front,city,urban,9,3
+Austin,WF,warm_front,city,urban,10,5
+Austin,WF,warm_front,city,urban,11,2
+Austin,WF,warm_front,city,urban,12,1
+Austin,WF,warm_front,city,urban,13,2
+Austin,WF,warm_front,city,urban,14,2
+Austin,WF,warm_front,city,urban,15,1
+Austin,WF,warm_front,city,urban,16,0
+Austin,WF,warm_front,city,urban,17,0
+Austin,WF,warm_front,city,urban,18,0
+Austin,WF,warm_front,city,urban,19,0
+Austin,WF,warm_front,city,urban,20,0
+Austin,WF,warm_front,city,urban,21,0
+Austin,WF,warm_front,city,urban,22,0
+Austin,WF,warm_front,city,urban,23,0
+Austin,CF,cold_front,city,urban,0,2
+Austin,CF,cold_front,city,urban,1,3
+Austin,CF,cold_front,city,urban,2,8
+Austin,CF,cold_front,city,urban,3,29
+Austin,CF,cold_front,city,urban,4,35
+Austin,CF,cold_front,city,urban,5,43
+Austin,CF,cold_front,city,urban,6,14
+Austin,CF,cold_front,city,urban,7,10
+Austin,CF,cold_front,city,urban,8,9
+Austin,CF,cold_front,city,urban,9,7
+Austin,CF,cold_front,city,urban,10,3
+Austin,CF,cold_front,city,urban,11,4
+Austin,CF,cold_front,city,urban,12,2
+Austin,CF,cold_front,city,urban,13,2
+Austin,CF,cold_front,city,urban,14,1
+Austin,CF,cold_front,city,urban,15,0
+Austin,CF,cold_front,city,urban,16,0
+Austin,CF,cold_front,city,urban,17,3
+Austin,CF,cold_front,city,urban,18,0
+Austin,CF,cold_front,city,urban,19,1
+Austin,CF,cold_front,city,urban,20,0
+Austin,CF,cold_front,city,urban,21,0
+Austin,CF,cold_front,city,urban,22,0
+Austin,CF,cold_front,city,urban,23,0
+Austin,SC,single_cell,north,rural,0,241
+Austin,SC,single_cell,north,rural,1,115
+Austin,SC,single_cell,north,rural,2,28
+Austin,SC,single_cell,north,rural,3,8
+Austin,SC,single_cell,north,rural,4,1
+Austin,SC,single_cell,north,rural,5,0
+Austin,SC,single_cell,north,rural,6,0
+Austin,SC,single_cell,north,rural,7,0
+Austin,SC,single_cell,north,rural,8,0
+Austin,SC,single_cell,north,rural,9,0
+Austin,SC,single_cell,north,rural,10,0
+Austin,SC,single_cell,north,rural,11,0
+Austin,SC,single_cell,north,rural,12,0
+Austin,SC,single_cell,north,rural,13,0
+Austin,SC,single_cell,north,rural,14,0
+Austin,SC,single_cell,north,rural,15,0
+Austin,SC,single_cell,north,rural,16,0
+Austin,SC,single_cell,north,rural,17,0
+Austin,SC,single_cell,north,rural,18,0
+Austin,SC,single_cell,north,rural,19,0
+Austin,SC,single_cell,north,rural,20,0
+Austin,SC,single_cell,north,rural,21,0
+Austin,SC,single_cell,north,rural,22,0
+Austin,SC,single_cell,north,rural,23,0
+Austin,IS,isolated,north,rural,0,9
+Austin,IS,isolated,north,rural,1,27
+Austin,IS,isolated,north,rural,2,23
+Austin,IS,isolated,north,rural,3,24
+Austin,IS,isolated,north,rural,4,20
+Austin,IS,isolated,north,rural,5,15
+Austin,IS,isolated,north,rural,6,7
+Austin,IS,isolated,north,rural,7,9
+Austin,IS,isolated,north,rural,8,0
+Austin,IS,isolated,north,rural,9,4
+Austin,IS,isolated,north,rural,10,0
+Austin,IS,isolated,north,rural,11,0
+Austin,IS,isolated,north,rural,12,0
+Austin,IS,isolated,north,rural,13,0
+Austin,IS,isolated,north,rural,14,0
+Austin,IS,isolated,north,rural,15,0
+Austin,IS,isolated,north,rural,16,0
+Austin,IS,isolated,north,rural,17,0
+Austin,IS,isolated,north,rural,18,0
+Austin,IS,isolated,north,rural,19,0
+Austin,IS,isolated,north,rural,20,0
+Austin,IS,isolated,north,rural,21,0
+Austin,IS,isolated,north,rural,22,0
+Austin,IS,isolated,north,rural,23,0
+Austin,TS,tropical,north,rural,0,0
+Austin,TS,tropical,north,rural,1,0
+Austin,TS,tropical,north,rural,2,0
+Austin,TS,tropical,north,rural,3,0
+Austin,TS,tropical,north,rural,4,1
+Austin,TS,tropical,north,rural,5,0
+Austin,TS,tropical,north,rural,6,0
+Austin,TS,tropical,north,rural,7,0
+Austin,TS,tropical,north,rural,8,0
+Austin,TS,tropical,north,rural,9,1
+Austin,TS,tropical,north,rural,10,0
+Austin,TS,tropical,north,rural,11,0
+Austin,TS,tropical,north,rural,12,0
+Austin,TS,tropical,north,rural,13,0
+Austin,TS,tropical,north,rural,14,0
+Austin,TS,tropical,north,rural,15,1
+Austin,TS,tropical,north,rural,16,0
+Austin,TS,tropical,north,rural,17,0
+Austin,TS,tropical,north,rural,18,3
+Austin,TS,tropical,north,rural,19,0
+Austin,TS,tropical,north,rural,20,0
+Austin,TS,tropical,north,rural,21,0
+Austin,TS,tropical,north,rural,22,0
+Austin,TS,tropical,north,rural,23,1
+Austin,WF,warm_front,north,rural,0,2
+Austin,WF,warm_front,north,rural,1,4
+Austin,WF,warm_front,north,rural,2,5
+Austin,WF,warm_front,north,rural,3,9
+Austin,WF,warm_front,north,rural,4,13
+Austin,WF,warm_front,north,rural,5,10
+Austin,WF,warm_front,north,rural,6,7
+Austin,WF,warm_front,north,rural,7,6
+Austin,WF,warm_front,north,rural,8,6
+Austin,WF,warm_front,north,rural,9,2
+Austin,WF,warm_front,north,rural,10,4
+Austin,WF,warm_front,north,rural,11,0
+Austin,WF,warm_front,north,rural,12,0
+Austin,WF,warm_front,north,rural,13,2
+Austin,WF,warm_front,north,rural,14,0
+Austin,WF,warm_front,north,rural,15,0
+Austin,WF,warm_front,north,rural,16,0
+Austin,WF,warm_front,north,rural,17,0
+Austin,WF,warm_front,north,rural,18,2
+Austin,WF,warm_front,north,rural,19,1
+Austin,WF,warm_front,north,rural,20,1
+Austin,WF,warm_front,north,rural,21,0
+Austin,WF,warm_front,north,rural,22,0
+Austin,WF,warm_front,north,rural,23,0
+Austin,CF,cold_front,north,rural,0,1
+Austin,CF,cold_front,north,rural,1,6
+Austin,CF,cold_front,north,rural,2,13
+Austin,CF,cold_front,north,rural,3,28
+Austin,CF,cold_front,north,rural,4,34
+Austin,CF,cold_front,north,rural,5,29
+Austin,CF,cold_front,north,rural,6,26
+Austin,CF,cold_front,north,rural,7,15
+Austin,CF,cold_front,north,rural,8,11
+Austin,CF,cold_front,north,rural,9,10
+Austin,CF,cold_front,north,rural,10,8
+Austin,CF,cold_front,north,rural,11,2
+Austin,CF,cold_front,north,rural,12,2
+Austin,CF,cold_front,north,rural,13,1
+Austin,CF,cold_front,north,rural,14,0
+Austin,CF,cold_front,north,rural,15,1
+Austin,CF,cold_front,north,rural,16,0
+Austin,CF,cold_front,north,rural,17,1
+Austin,CF,cold_front,north,rural,18,0
+Austin,CF,cold_front,north,rural,19,0
+Austin,CF,cold_front,north,rural,20,0
+Austin,CF,cold_front,north,rural,21,0
+Austin,CF,cold_front,north,rural,22,0
+Austin,CF,cold_front,north,rural,23,0
+Austin,SC,single_cell,south,rural,0,319
+Austin,SC,single_cell,south,rural,1,139
+Austin,SC,single_cell,south,rural,2,28
+Austin,SC,single_cell,south,rural,3,1
+Austin,SC,single_cell,south,rural,4,1
+Austin,SC,single_cell,south,rural,5,0
+Austin,SC,single_cell,south,rural,6,0
+Austin,SC,single_cell,south,rural,7,0
+Austin,SC,single_cell,south,rural,8,0
+Austin,SC,single_cell,south,rural,9,0
+Austin,SC,single_cell,south,rural,10,0
+Austin,SC,single_cell,south,rural,11,0
+Austin,SC,single_cell,south,rural,12,0
+Austin,SC,single_cell,south,rural,13,0
+Austin,SC,single_cell,south,rural,14,0
+Austin,SC,single_cell,south,rural,15,0
+Austin,SC,single_cell,south,rural,16,0
+Austin,SC,single_cell,south,rural,17,0
+Austin,SC,single_cell,south,rural,18,0
+Austin,SC,single_cell,south,rural,19,0
+Austin,SC,single_cell,south,rural,20,0
+Austin,SC,single_cell,south,rural,21,0
+Austin,SC,single_cell,south,rural,22,0
+Austin,SC,single_cell,south,rural,23,0
+Austin,IS,isolated,south,rural,0,18
+Austin,IS,isolated,south,rural,1,27
+Austin,IS,isolated,south,rural,2,23
+Austin,IS,isolated,south,rural,3,22
+Austin,IS,isolated,south,rural,4,18
+Austin,IS,isolated,south,rural,5,21
+Austin,IS,isolated,south,rural,6,10
+Austin,IS,isolated,south,rural,7,3
+Austin,IS,isolated,south,rural,8,2
+Austin,IS,isolated,south,rural,9,2
+Austin,IS,isolated,south,rural,10,1
+Austin,IS,isolated,south,rural,11,1
+Austin,IS,isolated,south,rural,12,1
+Austin,IS,isolated,south,rural,13,0
+Austin,IS,isolated,south,rural,14,0
+Austin,IS,isolated,south,rural,15,0
+Austin,IS,isolated,south,rural,16,0
+Austin,IS,isolated,south,rural,17,0
+Austin,IS,isolated,south,rural,18,0
+Austin,IS,isolated,south,rural,19,0
+Austin,IS,isolated,south,rural,20,0
+Austin,IS,isolated,south,rural,21,0
+Austin,IS,isolated,south,rural,22,0
+Austin,IS,isolated,south,rural,23,0
+Austin,TS,tropical,south,rural,0,0
+Austin,TS,tropical,south,rural,1,0
+Austin,TS,tropical,south,rural,2,0
+Austin,TS,tropical,south,rural,3,0
+Austin,TS,tropical,south,rural,4,0
+Austin,TS,tropical,south,rural,5,1
+Austin,TS,tropical,south,rural,6,0
+Austin,TS,tropical,south,rural,7,0
+Austin,TS,tropical,south,rural,8,1
+Austin,TS,tropical,south,rural,9,1
+Austin,TS,tropical,south,rural,10,0
+Austin,TS,tropical,south,rural,11,1
+Austin,TS,tropical,south,rural,12,0
+Austin,TS,tropical,south,rural,13,0
+Austin,TS,tropical,south,rural,14,0
+Austin,TS,tropical,south,rural,15,1
+Austin,TS,tropical,south,rural,16,0
+Austin,TS,tropical,south,rural,17,1
+Austin,TS,tropical,south,rural,18,0
+Austin,TS,tropical,south,rural,19,0
+Austin,TS,tropical,south,rural,20,1
+Austin,TS,tropical,south,rural,21,1
+Austin,TS,tropical,south,rural,22,0
+Austin,TS,tropical,south,rural,23,1
+Austin,WF,warm_front,south,rural,0,1
+Austin,WF,warm_front,south,rural,1,2
+Austin,WF,warm_front,south,rural,2,5
+Austin,WF,warm_front,south,rural,3,11
+Austin,WF,warm_front,south,rural,4,20
+Austin,WF,warm_front,south,rural,5,15
+Austin,WF,warm_front,south,rural,6,6
+Austin,WF,warm_front,south,rural,7,9
+Austin,WF,warm_front,south,rural,8,2
+Austin,WF,warm_front,south,rural,9,4
+Austin,WF,warm_front,south,rural,10,3
+Austin,WF,warm_front,south,rural,11,4
+Austin,WF,warm_front,south,rural,12,2
+Austin,WF,warm_front,south,rural,13,1
+Austin,WF,warm_front,south,rural,14,1
+Austin,WF,warm_front,south,rural,15,0
+Austin,WF,warm_front,south,rural,16,0
+Austin,WF,warm_front,south,rural,17,0
+Austin,WF,warm_front,south,rural,18,0
+Austin,WF,warm_front,south,rural,19,0
+Austin,WF,warm_front,south,rural,20,0
+Austin,WF,warm_front,south,rural,21,0
+Austin,WF,warm_front,south,rural,22,0
+Austin,WF,warm_front,south,rural,23,0
+Austin,CF,cold_front,south,rural,0,3
+Austin,CF,cold_front,south,rural,1,4
+Austin,CF,cold_front,south,rural,2,10
+Austin,CF,cold_front,south,rural,3,15
+Austin,CF,cold_front,south,rural,4,39
+Austin,CF,cold_front,south,rural,5,31
+Austin,CF,cold_front,south,rural,6,14
+Austin,CF,cold_front,south,rural,7,17
+Austin,CF,cold_front,south,rural,8,6
+Austin,CF,cold_front,south,rural,9,9
+Austin,CF,cold_front,south,rural,10,3
+Austin,CF,cold_front,south,rural,11,3
+Austin,CF,cold_front,south,rural,12,1
+Austin,CF,cold_front,south,rural,13,2
+Austin,CF,cold_front,south,rural,14,0
+Austin,CF,cold_front,south,rural,15,1
+Austin,CF,cold_front,south,rural,16,1
+Austin,CF,cold_front,south,rural,17,0
+Austin,CF,cold_front,south,rural,18,0
+Austin,CF,cold_front,south,rural,19,0
+Austin,CF,cold_front,south,rural,20,0
+Austin,CF,cold_front,south,rural,21,0
+Austin,CF,cold_front,south,rural,22,0
+Austin,CF,cold_front,south,rural,23,0
+Austin,SC,single_cell,east,rural,0,320
+Austin,SC,single_cell,east,rural,1,144
+Austin,SC,single_cell,east,rural,2,26
+Austin,SC,single_cell,east,rural,3,6
+Austin,SC,single_cell,east,rural,4,0
+Austin,SC,single_cell,east,rural,5,0
+Austin,SC,single_cell,east,rural,6,0
+Austin,SC,single_cell,east,rural,7,0
+Austin,SC,single_cell,east,rural,8,0
+Austin,SC,single_cell,east,rural,9,0
+Austin,SC,single_cell,east,rural,10,0
+Austin,SC,single_cell,east,rural,11,0
+Austin,SC,single_cell,east,rural,12,0
+Austin,SC,single_cell,east,rural,13,0
+Austin,SC,single_cell,east,rural,14,0
+Austin,SC,single_cell,east,rural,15,0
+Austin,SC,single_cell,east,rural,16,0
+Austin,SC,single_cell,east,rural,17,0
+Austin,SC,single_cell,east,rural,18,0
+Austin,SC,single_cell,east,rural,19,0
+Austin,SC,single_cell,east,rural,20,0
+Austin,SC,single_cell,east,rural,21,0
+Austin,SC,single_cell,east,rural,22,0
+Austin,SC,single_cell,east,rural,23,0
+Austin,IS,isolated,east,rural,0,14
+Austin,IS,isolated,east,rural,1,27
+Austin,IS,isolated,east,rural,2,25
+Austin,IS,isolated,east,rural,3,28
+Austin,IS,isolated,east,rural,4,29
+Austin,IS,isolated,east,rural,5,13
+Austin,IS,isolated,east,rural,6,5
+Austin,IS,isolated,east,rural,7,5
+Austin,IS,isolated,east,rural,8,1
+Austin,IS,isolated,east,rural,9,1
+Austin,IS,isolated,east,rural,10,0
+Austin,IS,isolated,east,rural,11,1
+Austin,IS,isolated,east,rural,12,1
+Austin,IS,isolated,east,rural,13,1
+Austin,IS,isolated,east,rural,14,0
+Austin,IS,isolated,east,rural,15,0
+Austin,IS,isolated,east,rural,16,0
+Austin,IS,isolated,east,rural,17,0
+Austin,IS,isolated,east,rural,18,1
+Austin,IS,isolated,east,rural,19,0
+Austin,IS,isolated,east,rural,20,0
+Austin,IS,isolated,east,rural,21,0
+Austin,IS,isolated,east,rural,22,0
+Austin,IS,isolated,east,rural,23,0
+Austin,TS,tropical,east,rural,0,0
+Austin,TS,tropical,east,rural,1,0
+Austin,TS,tropical,east,rural,2,0
+Austin,TS,tropical,east,rural,3,0
+Austin,TS,tropical,east,rural,4,0
+Austin,TS,tropical,east,rural,5,0
+Austin,TS,tropical,east,rural,6,0
+Austin,TS,tropical,east,rural,7,1
+Austin,TS,tropical,east,rural,8,0
+Austin,TS,tropical,east,rural,9,0
+Austin,TS,tropical,east,rural,10,0
+Austin,TS,tropical,east,rural,11,1
+Austin,TS,tropical,east,rural,12,0
+Austin,TS,tropical,east,rural,13,0
+Austin,TS,tropical,east,rural,14,1
+Austin,TS,tropical,east,rural,15,0
+Austin,TS,tropical,east,rural,16,0
+Austin,TS,tropical,east,rural,17,0
+Austin,TS,tropical,east,rural,18,0
+Austin,TS,tropical,east,rural,19,0
+Austin,TS,tropical,east,rural,20,1
+Austin,TS,tropical,east,rural,21,1
+Austin,TS,tropical,east,rural,22,0
+Austin,TS,tropical,east,rural,23,0
+Austin,WF,warm_front,east,rural,0,0
+Austin,WF,warm_front,east,rural,1,1
+Austin,WF,warm_front,east,rural,2,4
+Austin,WF,warm_front,east,rural,3,13
+Austin,WF,warm_front,east,rural,4,18
+Austin,WF,warm_front,east,rural,5,7
+Austin,WF,warm_front,east,rural,6,10
+Austin,WF,warm_front,east,rural,7,15
+Austin,WF,warm_front,east,rural,8,1
+Austin,WF,warm_front,east,rural,9,3
+Austin,WF,warm_front,east,rural,10,10
+Austin,WF,warm_front,east,rural,11,4
+Austin,WF,warm_front,east,rural,12,0
+Austin,WF,warm_front,east,rural,13,3
+Austin,WF,warm_front,east,rural,14,0
+Austin,WF,warm_front,east,rural,15,0
+Austin,WF,warm_front,east,rural,16,0
+Austin,WF,warm_front,east,rural,17,0
+Austin,WF,warm_front,east,rural,18,0
+Austin,WF,warm_front,east,rural,19,0
+Austin,WF,warm_front,east,rural,20,0
+Austin,WF,warm_front,east,rural,21,0
+Austin,WF,warm_front,east,rural,22,1
+Austin,WF,warm_front,east,rural,23,0
+Austin,CF,cold_front,east,rural,0,2
+Austin,CF,cold_front,east,rural,1,3
+Austin,CF,cold_front,east,rural,2,15
+Austin,CF,cold_front,east,rural,3,22
+Austin,CF,cold_front,east,rural,4,30
+Austin,CF,cold_front,east,rural,5,24
+Austin,CF,cold_front,east,rural,6,23
+Austin,CF,cold_front,east,rural,7,19
+Austin,CF,cold_front,east,rural,8,8
+Austin,CF,cold_front,east,rural,9,8
+Austin,CF,cold_front,east,rural,10,6
+Austin,CF,cold_front,east,rural,11,5
+Austin,CF,cold_front,east,rural,12,3
+Austin,CF,cold_front,east,rural,13,1
+Austin,CF,cold_front,east,rural,14,0
+Austin,CF,cold_front,east,rural,15,1
+Austin,CF,cold_front,east,rural,16,0
+Austin,CF,cold_front,east,rural,17,0
+Austin,CF,cold_front,east,rural,18,0
+Austin,CF,cold_front,east,rural,19,0
+Austin,CF,cold_front,east,rural,20,0
+Austin,CF,cold_front,east,rural,21,0
+Austin,CF,cold_front,east,rural,22,0
+Austin,CF,cold_front,east,rural,23,0
+Austin,SC,single_cell,west,rural,0,270
+Austin,SC,single_cell,west,rural,1,111
+Austin,SC,single_cell,west,rural,2,24
+Austin,SC,single_cell,west,rural,3,6
+Austin,SC,single_cell,west,rural,4,1
+Austin,SC,single_cell,west,rural,5,0
+Austin,SC,single_cell,west,rural,6,0
+Austin,SC,single_cell,west,rural,7,0
+Austin,SC,single_cell,west,rural,8,0
+Austin,SC,single_cell,west,rural,9,0
+Austin,SC,single_cell,west,rural,10,0
+Austin,SC,single_cell,west,rural,11,0
+Austin,SC,single_cell,west,rural,12,0
+Austin,SC,single_cell,west,rural,13,0
+Austin,SC,single_cell,west,rural,14,0
+Austin,SC,single_cell,west,rural,15,0
+Austin,SC,single_cell,west,rural,16,0
+Austin,SC,single_cell,west,rural,17,0
+Austin,SC,single_cell,west,rural,18,0
+Austin,SC,single_cell,west,rural,19,0
+Austin,SC,single_cell,west,rural,20,0
+Austin,SC,single_cell,west,rural,21,0
+Austin,SC,single_cell,west,rural,22,0
+Austin,SC,single_cell,west,rural,23,0
+Austin,IS,isolated,west,rural,0,9
+Austin,IS,isolated,west,rural,1,28
+Austin,IS,isolated,west,rural,2,17
+Austin,IS,isolated,west,rural,3,12
+Austin,IS,isolated,west,rural,4,22
+Austin,IS,isolated,west,rural,5,17
+Austin,IS,isolated,west,rural,6,6
+Austin,IS,isolated,west,rural,7,4
+Austin,IS,isolated,west,rural,8,5
+Austin,IS,isolated,west,rural,9,1
+Austin,IS,isolated,west,rural,10,1
+Austin,IS,isolated,west,rural,11,1
+Austin,IS,isolated,west,rural,12,0
+Austin,IS,isolated,west,rural,13,0
+Austin,IS,isolated,west,rural,14,0
+Austin,IS,isolated,west,rural,15,0
+Austin,IS,isolated,west,rural,16,0
+Austin,IS,isolated,west,rural,17,0
+Austin,IS,isolated,west,rural,18,0
+Austin,IS,isolated,west,rural,19,0
+Austin,IS,isolated,west,rural,20,0
+Austin,IS,isolated,west,rural,21,0
+Austin,IS,isolated,west,rural,22,0
+Austin,IS,isolated,west,rural,23,0
+Austin,TS,tropical,west,rural,0,0
+Austin,TS,tropical,west,rural,1,0
+Austin,TS,tropical,west,rural,2,0
+Austin,TS,tropical,west,rural,3,0
+Austin,TS,tropical,west,rural,4,0
+Austin,TS,tropical,west,rural,5,0
+Austin,TS,tropical,west,rural,6,1
+Austin,TS,tropical,west,rural,7,0
+Austin,TS,tropical,west,rural,8,0
+Austin,TS,tropical,west,rural,9,1
+Austin,TS,tropical,west,rural,10,1
+Austin,TS,tropical,west,rural,11,0
+Austin,TS,tropical,west,rural,12,0
+Austin,TS,tropical,west,rural,13,0
+Austin,TS,tropical,west,rural,14,0
+Austin,TS,tropical,west,rural,15,1
+Austin,TS,tropical,west,rural,16,0
+Austin,TS,tropical,west,rural,17,1
+Austin,TS,tropical,west,rural,18,0
+Austin,TS,tropical,west,rural,19,0
+Austin,TS,tropical,west,rural,20,1
+Austin,TS,tropical,west,rural,21,1
+Austin,TS,tropical,west,rural,22,0
+Austin,TS,tropical,west,rural,23,1
+Austin,WF,warm_front,west,rural,0,0
+Austin,WF,warm_front,west,rural,1,4
+Austin,WF,warm_front,west,rural,2,4
+Austin,WF,warm_front,west,rural,3,7
+Austin,WF,warm_front,west,rural,4,7
+Austin,WF,warm_front,west,rural,5,11
+Austin,WF,warm_front,west,rural,6,5
+Austin,WF,warm_front,west,rural,7,6
+Austin,WF,warm_front,west,rural,8,3
+Austin,WF,warm_front,west,rural,9,3
+Austin,WF,warm_front,west,rural,10,4
+Austin,WF,warm_front,west,rural,11,0
+Austin,WF,warm_front,west,rural,12,1
+Austin,WF,warm_front,west,rural,13,1
+Austin,WF,warm_front,west,rural,14,0
+Austin,WF,warm_front,west,rural,15,2
+Austin,WF,warm_front,west,rural,16,1
+Austin,WF,warm_front,west,rural,17,0
+Austin,WF,warm_front,west,rural,18,1
+Austin,WF,warm_front,west,rural,19,2
+Austin,WF,warm_front,west,rural,20,0
+Austin,WF,warm_front,west,rural,21,0
+Austin,WF,warm_front,west,rural,22,0
+Austin,WF,warm_front,west,rural,23,0
+Austin,CF,cold_front,west,rural,0,4
+Austin,CF,cold_front,west,rural,1,3
+Austin,CF,cold_front,west,rural,2,12
+Austin,CF,cold_front,west,rural,3,33
+Austin,CF,cold_front,west,rural,4,35
+Austin,CF,cold_front,west,rural,5,26
+Austin,CF,cold_front,west,rural,6,25
+Austin,CF,cold_front,west,rural,7,15
+Austin,CF,cold_front,west,rural,8,8
+Austin,CF,cold_front,west,rural,9,5
+Austin,CF,cold_front,west,rural,10,1
+Austin,CF,cold_front,west,rural,11,4
+Austin,CF,cold_front,west,rural,12,0
+Austin,CF,cold_front,west,rural,13,1
+Austin,CF,cold_front,west,rural,14,0
+Austin,CF,cold_front,west,rural,15,0
+Austin,CF,cold_front,west,rural,16,0
+Austin,CF,cold_front,west,rural,17,1
+Austin,CF,cold_front,west,rural,18,1
+Austin,CF,cold_front,west,rural,19,0
+Austin,CF,cold_front,west,rural,20,0
+Austin,CF,cold_front,west,rural,21,1
+Austin,CF,cold_front,west,rural,22,0
+Austin,CF,cold_front,west,rural,23,0
+San Antonio,SC,single_cell,city,urban,0,337
+San Antonio,SC,single_cell,city,urban,1,180
+San Antonio,SC,single_cell,city,urban,2,39
+San Antonio,SC,single_cell,city,urban,3,6
+San Antonio,SC,single_cell,city,urban,4,1
+San Antonio,SC,single_cell,city,urban,5,0
+San Antonio,SC,single_cell,city,urban,6,0
+San Antonio,SC,single_cell,city,urban,7,0
+San Antonio,SC,single_cell,city,urban,8,0
+San Antonio,SC,single_cell,city,urban,9,0
+San Antonio,SC,single_cell,city,urban,10,0
+San Antonio,SC,single_cell,city,urban,11,0
+San Antonio,SC,single_cell,city,urban,12,0
+San Antonio,SC,single_cell,city,urban,13,0
+San Antonio,SC,single_cell,city,urban,14,0
+San Antonio,SC,single_cell,city,urban,15,0
+San Antonio,SC,single_cell,city,urban,16,0
+San Antonio,SC,single_cell,city,urban,17,0
+San Antonio,SC,single_cell,city,urban,18,0
+San Antonio,SC,single_cell,city,urban,19,0
+San Antonio,SC,single_cell,city,urban,20,0
+San Antonio,SC,single_cell,city,urban,21,0
+San Antonio,SC,single_cell,city,urban,22,0
+San Antonio,SC,single_cell,city,urban,23,0
+San Antonio,IS,isolated,city,urban,0,12
+San Antonio,IS,isolated,city,urban,1,32
+San Antonio,IS,isolated,city,urban,2,31
+San Antonio,IS,isolated,city,urban,3,22
+San Antonio,IS,isolated,city,urban,4,14
+San Antonio,IS,isolated,city,urban,5,14
+San Antonio,IS,isolated,city,urban,6,5
+San Antonio,IS,isolated,city,urban,7,1
+San Antonio,IS,isolated,city,urban,8,1
+San Antonio,IS,isolated,city,urban,9,2
+San Antonio,IS,isolated,city,urban,10,0
+San Antonio,IS,isolated,city,urban,11,0
+San Antonio,IS,isolated,city,urban,12,1
+San Antonio,IS,isolated,city,urban,13,2
+San Antonio,IS,isolated,city,urban,14,1
+San Antonio,IS,isolated,city,urban,15,0
+San Antonio,IS,isolated,city,urban,16,0
+San Antonio,IS,isolated,city,urban,17,0
+San Antonio,IS,isolated,city,urban,18,0
+San Antonio,IS,isolated,city,urban,19,0
+San Antonio,IS,isolated,city,urban,20,0
+San Antonio,IS,isolated,city,urban,21,0
+San Antonio,IS,isolated,city,urban,22,0
+San Antonio,IS,isolated,city,urban,23,0
+San Antonio,TS,tropical,city,urban,0,0
+San Antonio,TS,tropical,city,urban,1,0
+San Antonio,TS,tropical,city,urban,2,0
+San Antonio,TS,tropical,city,urban,3,0
+San Antonio,TS,tropical,city,urban,4,0
+San Antonio,TS,tropical,city,urban,5,0
+San Antonio,TS,tropical,city,urban,6,0
+San Antonio,TS,tropical,city,urban,7,1
+San Antonio,TS,tropical,city,urban,8,0
+San Antonio,TS,tropical,city,urban,9,0
+San Antonio,TS,tropical,city,urban,10,0
+San Antonio,TS,tropical,city,urban,11,0
+San Antonio,TS,tropical,city,urban,12,0
+San Antonio,TS,tropical,city,urban,13,1
+San Antonio,TS,tropical,city,urban,14,0
+San Antonio,TS,tropical,city,urban,15,1
+San Antonio,TS,tropical,city,urban,16,0
+San Antonio,TS,tropical,city,urban,17,0
+San Antonio,TS,tropical,city,urban,18,1
+San Antonio,TS,tropical,city,urban,19,0
+San Antonio,TS,tropical,city,urban,20,0
+San Antonio,TS,tropical,city,urban,21,2
+San Antonio,TS,tropical,city,urban,22,1
+San Antonio,TS,tropical,city,urban,23,0
+San Antonio,WF,warm_front,city,urban,0,2
+San Antonio,WF,warm_front,city,urban,1,5
+San Antonio,WF,warm_front,city,urban,2,2
+San Antonio,WF,warm_front,city,urban,3,9
+San Antonio,WF,warm_front,city,urban,4,18
+San Antonio,WF,warm_front,city,urban,5,12
+San Antonio,WF,warm_front,city,urban,6,9
+San Antonio,WF,warm_front,city,urban,7,11
+San Antonio,WF,warm_front,city,urban,8,4
+San Antonio,WF,warm_front,city,urban,9,1
+San Antonio,WF,warm_front,city,urban,10,5
+San Antonio,WF,warm_front,city,urban,11,3
+San Antonio,WF,warm_front,city,urban,12,3
+San Antonio,WF,warm_front,city,urban,13,1
+San Antonio,WF,warm_front,city,urban,14,2
+San Antonio,WF,warm_front,city,urban,15,0
+San Antonio,WF,warm_front,city,urban,16,1
+San Antonio,WF,warm_front,city,urban,17,0
+San Antonio,WF,warm_front,city,urban,18,0
+San Antonio,WF,warm_front,city,urban,19,0
+San Antonio,WF,warm_front,city,urban,20,1
+San Antonio,WF,warm_front,city,urban,21,2
+San Antonio,WF,warm_front,city,urban,22,1
+San Antonio,WF,warm_front,city,urban,23,0
+San Antonio,CF,cold_front,city,urban,0,1
+San Antonio,CF,cold_front,city,urban,1,2
+San Antonio,CF,cold_front,city,urban,2,11
+San Antonio,CF,cold_front,city,urban,3,16
+San Antonio,CF,cold_front,city,urban,4,20
+San Antonio,CF,cold_front,city,urban,5,24
+San Antonio,CF,cold_front,city,urban,6,20
+San Antonio,CF,cold_front,city,urban,7,22
+San Antonio,CF,cold_front,city,urban,8,8
+San Antonio,CF,cold_front,city,urban,9,9
+San Antonio,CF,cold_front,city,urban,10,2
+San Antonio,CF,cold_front,city,urban,11,5
+San Antonio,CF,cold_front,city,urban,12,1
+San Antonio,CF,cold_front,city,urban,13,3
+San Antonio,CF,cold_front,city,urban,14,0
+San Antonio,CF,cold_front,city,urban,15,0
+San Antonio,CF,cold_front,city,urban,16,1
+San Antonio,CF,cold_front,city,urban,17,1
+San Antonio,CF,cold_front,city,urban,18,1
+San Antonio,CF,cold_front,city,urban,19,0
+San Antonio,CF,cold_front,city,urban,20,2
+San Antonio,CF,cold_front,city,urban,21,0
+San Antonio,CF,cold_front,city,urban,22,0
+San Antonio,CF,cold_front,city,urban,23,0
+San Antonio,SC,single_cell,north,rural,0,336
+San Antonio,SC,single_cell,north,rural,1,142
+San Antonio,SC,single_cell,north,rural,2,27
+San Antonio,SC,single_cell,north,rural,3,5
+San Antonio,SC,single_cell,north,rural,4,0
+San Antonio,SC,single_cell,north,rural,5,0
+San Antonio,SC,single_cell,north,rural,6,0
+San Antonio,SC,single_cell,north,rural,7,0
+San Antonio,SC,single_cell,north,rural,8,0
+San Antonio,SC,single_cell,north,rural,9,0
+San Antonio,SC,single_cell,north,rural,10,0
+San Antonio,SC,single_cell,north,rural,11,0
+San Antonio,SC,single_cell,north,rural,12,0
+San Antonio,SC,single_cell,north,rural,13,0
+San Antonio,SC,single_cell,north,rural,14,0
+San Antonio,SC,single_cell,north,rural,15,0
+San Antonio,SC,single_cell,north,rural,16,0
+San Antonio,SC,single_cell,north,rural,17,0
+San Antonio,SC,single_cell,north,rural,18,0
+San Antonio,SC,single_cell,north,rural,19,0
+San Antonio,SC,single_cell,north,rural,20,0
+San Antonio,SC,single_cell,north,rural,21,0
+San Antonio,SC,single_cell,north,rural,22,0
+San Antonio,SC,single_cell,north,rural,23,0
+San Antonio,IS,isolated,north,rural,0,15
+San Antonio,IS,isolated,north,rural,1,26
+San Antonio,IS,isolated,north,rural,2,16
+San Antonio,IS,isolated,north,rural,3,17
+San Antonio,IS,isolated,north,rural,4,14
+San Antonio,IS,isolated,north,rural,5,9
+San Antonio,IS,isolated,north,rural,6,6
+San Antonio,IS,isolated,north,rural,7,4
+San Antonio,IS,isolated,north,rural,8,1
+San Antonio,IS,isolated,north,rural,9,0
+San Antonio,IS,isolated,north,rural,10,2
+San Antonio,IS,isolated,north,rural,11,1
+San Antonio,IS,isolated,north,rural,12,0
+San Antonio,IS,isolated,north,rural,13,0
+San Antonio,IS,isolated,north,rural,14,0
+San Antonio,IS,isolated,north,rural,15,0
+San Antonio,IS,isolated,north,rural,16,0
+San Antonio,IS,isolated,north,rural,17,0
+San Antonio,IS,isolated,north,rural,18,0
+San Antonio,IS,isolated,north,rural,19,0
+San Antonio,IS,isolated,north,rural,20,0
+San Antonio,IS,isolated,north,rural,21,0
+San Antonio,IS,isolated,north,rural,22,0
+San Antonio,IS,isolated,north,rural,23,0
+San Antonio,TS,tropical,north,rural,0,0
+San Antonio,TS,tropical,north,rural,1,0
+San Antonio,TS,tropical,north,rural,2,0
+San Antonio,TS,tropical,north,rural,3,0
+San Antonio,TS,tropical,north,rural,4,0
+San Antonio,TS,tropical,north,rural,5,1
+San Antonio,TS,tropical,north,rural,6,0
+San Antonio,TS,tropical,north,rural,7,1
+San Antonio,TS,tropical,north,rural,8,2
+San Antonio,TS,tropical,north,rural,9,1
+San Antonio,TS,tropical,north,rural,10,0
+San Antonio,TS,tropical,north,rural,11,0
+San Antonio,TS,tropical,north,rural,12,1
+San Antonio,TS,tropical,north,rural,13,0
+San Antonio,TS,tropical,north,rural,14,0
+San Antonio,TS,tropical,north,rural,15,1
+San Antonio,TS,tropical,north,rural,16,0
+San Antonio,TS,tropical,north,rural,17,1
+San Antonio,TS,tropical,north,rural,18,2
+San Antonio,TS,tropical,north,rural,19,0
+San Antonio,TS,tropical,north,rural,20,0
+San Antonio,TS,tropical,north,rural,21,1
+San Antonio,TS,tropical,north,rural,22,0
+San Antonio,TS,tropical,north,rural,23,0
+San Antonio,WF,warm_front,north,rural,0,0
+San Antonio,WF,warm_front,north,rural,1,1
+San Antonio,WF,warm_front,north,rural,2,2
+San Antonio,WF,warm_front,north,rural,3,6
+San Antonio,WF,warm_front,north,rural,4,7
+San Antonio,WF,warm_front,north,rural,5,10
+San Antonio,WF,warm_front,north,rural,6,5
+San Antonio,WF,warm_front,north,rural,7,4
+San Antonio,WF,warm_front,north,rural,8,2
+San Antonio,WF,warm_front,north,rural,9,4
+San Antonio,WF,warm_front,north,rural,10,3
+San Antonio,WF,warm_front,north,rural,11,0
+San Antonio,WF,warm_front,north,rural,12,2
+San Antonio,WF,warm_front,north,rural,13,0
+San Antonio,WF,warm_front,north,rural,14,3
+San Antonio,WF,warm_front,north,rural,15,1
+San Antonio,WF,warm_front,north,rural,16,3
+San Antonio,WF,warm_front,north,rural,17,0
+San Antonio,WF,warm_front,north,rural,18,0
+San Antonio,WF,warm_front,north,rural,19,1
+San Antonio,WF,warm_front,north,rural,20,0
+San Antonio,WF,warm_front,north,rural,21,0
+San Antonio,WF,warm_front,north,rural,22,0
+San Antonio,WF,warm_front,north,rural,23,1
+San Antonio,CF,cold_front,north,rural,0,2
+San Antonio,CF,cold_front,north,rural,1,6
+San Antonio,CF,cold_front,north,rural,2,8
+San Antonio,CF,cold_front,north,rural,3,15
+San Antonio,CF,cold_front,north,rural,4,34
+San Antonio,CF,cold_front,north,rural,5,26
+San Antonio,CF,cold_front,north,rural,6,35
+San Antonio,CF,cold_front,north,rural,7,17
+San Antonio,CF,cold_front,north,rural,8,13
+San Antonio,CF,cold_front,north,rural,9,3
+San Antonio,CF,cold_front,north,rural,10,8
+San Antonio,CF,cold_front,north,rural,11,5
+San Antonio,CF,cold_front,north,rural,12,1
+San Antonio,CF,cold_front,north,rural,13,3
+San Antonio,CF,cold_front,north,rural,14,3
+San Antonio,CF,cold_front,north,rural,15,0
+San Antonio,CF,cold_front,north,rural,16,2
+San Antonio,CF,cold_front,north,rural,17,0
+San Antonio,CF,cold_front,north,rural,18,1
+San Antonio,CF,cold_front,north,rural,19,0
+San Antonio,CF,cold_front,north,rural,20,0
+San Antonio,CF,cold_front,north,rural,21,0
+San Antonio,CF,cold_front,north,rural,22,0
+San Antonio,CF,cold_front,north,rural,23,1
+San Antonio,SC,single_cell,south,rural,0,369
+San Antonio,SC,single_cell,south,rural,1,174
+San Antonio,SC,single_cell,south,rural,2,21
+San Antonio,SC,single_cell,south,rural,3,3
+San Antonio,SC,single_cell,south,rural,4,2
+San Antonio,SC,single_cell,south,rural,5,0
+San Antonio,SC,single_cell,south,rural,6,0
+San Antonio,SC,single_cell,south,rural,7,0
+San Antonio,SC,single_cell,south,rural,8,0
+San Antonio,SC,single_cell,south,rural,9,0
+San Antonio,SC,single_cell,south,rural,10,0
+San Antonio,SC,single_cell,south,rural,11,0
+San Antonio,SC,single_cell,south,rural,12,0
+San Antonio,SC,single_cell,south,rural,13,0
+San Antonio,SC,single_cell,south,rural,14,0
+San Antonio,SC,single_cell,south,rural,15,0
+San Antonio,SC,single_cell,south,rural,16,0
+San Antonio,SC,single_cell,south,rural,17,0
+San Antonio,SC,single_cell,south,rural,18,0
+San Antonio,SC,single_cell,south,rural,19,0
+San Antonio,SC,single_cell,south,rural,20,0
+San Antonio,SC,single_cell,south,rural,21,0
+San Antonio,SC,single_cell,south,rural,22,0
+San Antonio,SC,single_cell,south,rural,23,0
+San Antonio,IS,isolated,south,rural,0,9
+San Antonio,IS,isolated,south,rural,1,32
+San Antonio,IS,isolated,south,rural,2,19
+San Antonio,IS,isolated,south,rural,3,24
+San Antonio,IS,isolated,south,rural,4,16
+San Antonio,IS,isolated,south,rural,5,7
+San Antonio,IS,isolated,south,rural,6,4
+San Antonio,IS,isolated,south,rural,7,0
+San Antonio,IS,isolated,south,rural,8,1
+San Antonio,IS,isolated,south,rural,9,0
+San Antonio,IS,isolated,south,rural,10,0
+San Antonio,IS,isolated,south,rural,11,1
+San Antonio,IS,isolated,south,rural,12,0
+San Antonio,IS,isolated,south,rural,13,0
+San Antonio,IS,isolated,south,rural,14,0
+San Antonio,IS,isolated,south,rural,15,0
+San Antonio,IS,isolated,south,rural,16,0
+San Antonio,IS,isolated,south,rural,17,0
+San Antonio,IS,isolated,south,rural,18,0
+San Antonio,IS,isolated,south,rural,19,0
+San Antonio,IS,isolated,south,rural,20,0
+San Antonio,IS,isolated,south,rural,21,0
+San Antonio,IS,isolated,south,rural,22,0
+San Antonio,IS,isolated,south,rural,23,0
+San Antonio,TS,tropical,south,rural,0,0
+San Antonio,TS,tropical,south,rural,1,0
+San Antonio,TS,tropical,south,rural,2,1
+San Antonio,TS,tropical,south,rural,3,1
+San Antonio,TS,tropical,south,rural,4,0
+San Antonio,TS,tropical,south,rural,5,2
+San Antonio,TS,tropical,south,rural,6,0
+San Antonio,TS,tropical,south,rural,7,2
+San Antonio,TS,tropical,south,rural,8,0
+San Antonio,TS,tropical,south,rural,9,2
+San Antonio,TS,tropical,south,rural,10,1
+San Antonio,TS,tropical,south,rural,11,0
+San Antonio,TS,tropical,south,rural,12,0
+San Antonio,TS,tropical,south,rural,13,0
+San Antonio,TS,tropical,south,rural,14,1
+San Antonio,TS,tropical,south,rural,15,0
+San Antonio,TS,tropical,south,rural,16,0
+San Antonio,TS,tropical,south,rural,17,1
+San Antonio,TS,tropical,south,rural,18,0
+San Antonio,TS,tropical,south,rural,19,1
+San Antonio,TS,tropical,south,rural,20,0
+San Antonio,TS,tropical,south,rural,21,0
+San Antonio,TS,tropical,south,rural,22,0
+San Antonio,TS,tropical,south,rural,23,0
+San Antonio,WF,warm_front,south,rural,0,0
+San Antonio,WF,warm_front,south,rural,1,2
+San Antonio,WF,warm_front,south,rural,2,6
+San Antonio,WF,warm_front,south,rural,3,7
+San Antonio,WF,warm_front,south,rural,4,18
+San Antonio,WF,warm_front,south,rural,5,13
+San Antonio,WF,warm_front,south,rural,6,9
+San Antonio,WF,warm_front,south,rural,7,4
+San Antonio,WF,warm_front,south,rural,8,8
+San Antonio,WF,warm_front,south,rural,9,3
+San Antonio,WF,warm_front,south,rural,10,3
+San Antonio,WF,warm_front,south,rural,11,3
+San Antonio,WF,warm_front,south,rural,12,1
+San Antonio,WF,warm_front,south,rural,13,1
+San Antonio,WF,warm_front,south,rural,14,1
+San Antonio,WF,warm_front,south,rural,15,1
+San Antonio,WF,warm_front,south,rural,16,1
+San Antonio,WF,warm_front,south,rural,17,0
+San Antonio,WF,warm_front,south,rural,18,0
+San Antonio,WF,warm_front,south,rural,19,1
+San Antonio,WF,warm_front,south,rural,20,0
+San Antonio,WF,warm_front,south,rural,21,0
+San Antonio,WF,warm_front,south,rural,22,0
+San Antonio,WF,warm_front,south,rural,23,1
+San Antonio,CF,cold_front,south,rural,0,0
+San Antonio,CF,cold_front,south,rural,1,5
+San Antonio,CF,cold_front,south,rural,2,5
+San Antonio,CF,cold_front,south,rural,3,16
+San Antonio,CF,cold_front,south,rural,4,37
+San Antonio,CF,cold_front,south,rural,5,25
+San Antonio,CF,cold_front,south,rural,6,19
+San Antonio,CF,cold_front,south,rural,7,14
+San Antonio,CF,cold_front,south,rural,8,8
+San Antonio,CF,cold_front,south,rural,9,7
+San Antonio,CF,cold_front,south,rural,10,5
+San Antonio,CF,cold_front,south,rural,11,5
+San Antonio,CF,cold_front,south,rural,12,5
+San Antonio,CF,cold_front,south,rural,13,1
+San Antonio,CF,cold_front,south,rural,14,1
+San Antonio,CF,cold_front,south,rural,15,1
+San Antonio,CF,cold_front,south,rural,16,0
+San Antonio,CF,cold_front,south,rural,17,1
+San Antonio,CF,cold_front,south,rural,18,0
+San Antonio,CF,cold_front,south,rural,19,0
+San Antonio,CF,cold_front,south,rural,20,0
+San Antonio,CF,cold_front,south,rural,21,0
+San Antonio,CF,cold_front,south,rural,22,0
+San Antonio,CF,cold_front,south,rural,23,0
+San Antonio,SC,single_cell,east,rural,0,443
+San Antonio,SC,single_cell,east,rural,1,203
+San Antonio,SC,single_cell,east,rural,2,30
+San Antonio,SC,single_cell,east,rural,3,5
+San Antonio,SC,single_cell,east,rural,4,0
+San Antonio,SC,single_cell,east,rural,5,0
+San Antonio,SC,single_cell,east,rural,6,0
+San Antonio,SC,single_cell,east,rural,7,0
+San Antonio,SC,single_cell,east,rural,8,0
+San Antonio,SC,single_cell,east,rural,9,0
+San Antonio,SC,single_cell,east,rural,10,0
+San Antonio,SC,single_cell,east,rural,11,0
+San Antonio,SC,single_cell,east,rural,12,0
+San Antonio,SC,single_cell,east,rural,13,0
+San Antonio,SC,single_cell,east,rural,14,0
+San Antonio,SC,single_cell,east,rural,15,0
+San Antonio,SC,single_cell,east,rural,16,0
+San Antonio,SC,single_cell,east,rural,17,0
+San Antonio,SC,single_cell,east,rural,18,0
+San Antonio,SC,single_cell,east,rural,19,0
+San Antonio,SC,single_cell,east,rural,20,0
+San Antonio,SC,single_cell,east,rural,21,0
+San Antonio,SC,single_cell,east,rural,22,0
+San Antonio,SC,single_cell,east,rural,23,0
+San Antonio,IS,isolated,east,rural,0,10
+San Antonio,IS,isolated,east,rural,1,29
+San Antonio,IS,isolated,east,rural,2,22
+San Antonio,IS,isolated,east,rural,3,22
+San Antonio,IS,isolated,east,rural,4,17
+San Antonio,IS,isolated,east,rural,5,17
+San Antonio,IS,isolated,east,rural,6,6
+San Antonio,IS,isolated,east,rural,7,2
+San Antonio,IS,isolated,east,rural,8,0
+San Antonio,IS,isolated,east,rural,9,1
+San Antonio,IS,isolated,east,rural,10,0
+San Antonio,IS,isolated,east,rural,11,0
+San Antonio,IS,isolated,east,rural,12,0
+San Antonio,IS,isolated,east,rural,13,0
+San Antonio,IS,isolated,east,rural,14,0
+San Antonio,IS,isolated,east,rural,15,0
+San Antonio,IS,isolated,east,rural,16,0
+San Antonio,IS,isolated,east,rural,17,0
+San Antonio,IS,isolated,east,rural,18,0
+San Antonio,IS,isolated,east,rural,19,1
+San Antonio,IS,isolated,east,rural,20,0
+San Antonio,IS,isolated,east,rural,21,0
+San Antonio,IS,isolated,east,rural,22,0
+San Antonio,IS,isolated,east,rural,23,0
+San Antonio,TS,tropical,east,rural,0,0
+San Antonio,TS,tropical,east,rural,1,0
+San Antonio,TS,tropical,east,rural,2,0
+San Antonio,TS,tropical,east,rural,3,0
+San Antonio,TS,tropical,east,rural,4,0
+San Antonio,TS,tropical,east,rural,5,1
+San Antonio,TS,tropical,east,rural,6,1
+San Antonio,TS,tropical,east,rural,7,0
+San Antonio,TS,tropical,east,rural,8,1
+San Antonio,TS,tropical,east,rural,9,0
+San Antonio,TS,tropical,east,rural,10,0
+San Antonio,TS,tropical,east,rural,11,1
+San Antonio,TS,tropical,east,rural,12,0
+San Antonio,TS,tropical,east,rural,13,2
+San Antonio,TS,tropical,east,rural,14,0
+San Antonio,TS,tropical,east,rural,15,0
+San Antonio,TS,tropical,east,rural,16,2
+San Antonio,TS,tropical,east,rural,17,1
+San Antonio,TS,tropical,east,rural,18,0
+San Antonio,TS,tropical,east,rural,19,0
+San Antonio,TS,tropical,east,rural,20,0
+San Antonio,TS,tropical,east,rural,21,0
+San Antonio,TS,tropical,east,rural,22,1
+San Antonio,TS,tropical,east,rural,23,0
+San Antonio,WF,warm_front,east,rural,0,0
+San Antonio,WF,warm_front,east,rural,1,4
+San Antonio,WF,warm_front,east,rural,2,4
+San Antonio,WF,warm_front,east,rural,3,5
+San Antonio,WF,warm_front,east,rural,4,18
+San Antonio,WF,warm_front,east,rural,5,18
+San Antonio,WF,warm_front,east,rural,6,13
+San Antonio,WF,warm_front,east,rural,7,9
+San Antonio,WF,warm_front,east,rural,8,6
+San Antonio,WF,warm_front,east,rural,9,4
+San Antonio,WF,warm_front,east,rural,10,6
+San Antonio,WF,warm_front,east,rural,11,5
+San Antonio,WF,warm_front,east,rural,12,1
+San Antonio,WF,warm_front,east,rural,13,4
+San Antonio,WF,warm_front,east,rural,14,0
+San Antonio,WF,warm_front,east,rural,15,1
+San Antonio,WF,warm_front,east,rural,16,0
+San Antonio,WF,warm_front,east,rural,17,0
+San Antonio,WF,warm_front,east,rural,18,2
+San Antonio,WF,warm_front,east,rural,19,0
+San Antonio,WF,warm_front,east,rural,20,0
+San Antonio,WF,warm_front,east,rural,21,0
+San Antonio,WF,warm_front,east,rural,22,0
+San Antonio,WF,warm_front,east,rural,23,0
+San Antonio,CF,cold_front,east,rural,0,2
+San Antonio,CF,cold_front,east,rural,1,3
+San Antonio,CF,cold_front,east,rural,2,3
+San Antonio,CF,cold_front,east,rural,3,14
+San Antonio,CF,cold_front,east,rural,4,25
+San Antonio,CF,cold_front,east,rural,5,26
+San Antonio,CF,cold_front,east,rural,6,31
+San Antonio,CF,cold_front,east,rural,7,16
+San Antonio,CF,cold_front,east,rural,8,11
+San Antonio,CF,cold_front,east,rural,9,6
+San Antonio,CF,cold_front,east,rural,10,5
+San Antonio,CF,cold_front,east,rural,11,3
+San Antonio,CF,cold_front,east,rural,12,5
+San Antonio,CF,cold_front,east,rural,13,2
+San Antonio,CF,cold_front,east,rural,14,2
+San Antonio,CF,cold_front,east,rural,15,0
+San Antonio,CF,cold_front,east,rural,16,1
+San Antonio,CF,cold_front,east,rural,17,1
+San Antonio,CF,cold_front,east,rural,18,0
+San Antonio,CF,cold_front,east,rural,19,0
+San Antonio,CF,cold_front,east,rural,20,0
+San Antonio,CF,cold_front,east,rural,21,0
+San Antonio,CF,cold_front,east,rural,22,0
+San Antonio,CF,cold_front,east,rural,23,0
+San Antonio,SC,single_cell,west,rural,0,310
+San Antonio,SC,single_cell,west,rural,1,152
+San Antonio,SC,single_cell,west,rural,2,24
+San Antonio,SC,single_cell,west,rural,3,10
+San Antonio,SC,single_cell,west,rural,4,1
+San Antonio,SC,single_cell,west,rural,5,0
+San Antonio,SC,single_cell,west,rural,6,0
+San Antonio,SC,single_cell,west,rural,7,0
+San Antonio,SC,single_cell,west,rural,8,0
+San Antonio,SC,single_cell,west,rural,9,0
+San Antonio,SC,single_cell,west,rural,10,0
+San Antonio,SC,single_cell,west,rural,11,0
+San Antonio,SC,single_cell,west,rural,12,0
+San Antonio,SC,single_cell,west,rural,13,0
+San Antonio,SC,single_cell,west,rural,14,0
+San Antonio,SC,single_cell,west,rural,15,0
+San Antonio,SC,single_cell,west,rural,16,0
+San Antonio,SC,single_cell,west,rural,17,0
+San Antonio,SC,single_cell,west,rural,18,0
+San Antonio,SC,single_cell,west,rural,19,0
+San Antonio,SC,single_cell,west,rural,20,0
+San Antonio,SC,single_cell,west,rural,21,0
+San Antonio,SC,single_cell,west,rural,22,0
+San Antonio,SC,single_cell,west,rural,23,0
+San Antonio,IS,isolated,west,rural,0,15
+San Antonio,IS,isolated,west,rural,1,27
+San Antonio,IS,isolated,west,rural,2,22
+San Antonio,IS,isolated,west,rural,3,22
+San Antonio,IS,isolated,west,rural,4,18
+San Antonio,IS,isolated,west,rural,5,9
+San Antonio,IS,isolated,west,rural,6,3
+San Antonio,IS,isolated,west,rural,7,3
+San Antonio,IS,isolated,west,rural,8,0
+San Antonio,IS,isolated,west,rural,9,2
+San Antonio,IS,isolated,west,rural,10,1
+San Antonio,IS,isolated,west,rural,11,1
+San Antonio,IS,isolated,west,rural,12,1
+San Antonio,IS,isolated,west,rural,13,0
+San Antonio,IS,isolated,west,rural,14,0
+San Antonio,IS,isolated,west,rural,15,0
+San Antonio,IS,isolated,west,rural,16,0
+San Antonio,IS,isolated,west,rural,17,0
+San Antonio,IS,isolated,west,rural,18,0
+San Antonio,IS,isolated,west,rural,19,0
+San Antonio,IS,isolated,west,rural,20,0
+San Antonio,IS,isolated,west,rural,21,0
+San Antonio,IS,isolated,west,rural,22,0
+San Antonio,IS,isolated,west,rural,23,0
+San Antonio,TS,tropical,west,rural,0,0
+San Antonio,TS,tropical,west,rural,1,0
+San Antonio,TS,tropical,west,rural,2,0
+San Antonio,TS,tropical,west,rural,3,1
+San Antonio,TS,tropical,west,rural,4,1
+San Antonio,TS,tropical,west,rural,5,0
+San Antonio,TS,tropical,west,rural,6,0
+San Antonio,TS,tropical,west,rural,7,0
+San Antonio,TS,tropical,west,rural,8,0
+San Antonio,TS,tropical,west,rural,9,0
+San Antonio,TS,tropical,west,rural,10,0
+San Antonio,TS,tropical,west,rural,11,0
+San Antonio,TS,tropical,west,rural,12,0
+San Antonio,TS,tropical,west,rural,13,0
+San Antonio,TS,tropical,west,rural,14,1
+San Antonio,TS,tropical,west,rural,15,0
+San Antonio,TS,tropical,west,rural,16,0
+San Antonio,TS,tropical,west,rural,17,1
+San Antonio,TS,tropical,west,rural,18,0
+San Antonio,TS,tropical,west,rural,19,0
+San Antonio,TS,tropical,west,rural,20,1
+San Antonio,TS,tropical,west,rural,21,0
+San Antonio,TS,tropical,west,rural,22,0
+San Antonio,TS,tropical,west,rural,23,0
+San Antonio,WF,warm_front,west,rural,0,2
+San Antonio,WF,warm_front,west,rural,1,4
+San Antonio,WF,warm_front,west,rural,2,5
+San Antonio,WF,warm_front,west,rural,3,10
+San Antonio,WF,warm_front,west,rural,4,15
+San Antonio,WF,warm_front,west,rural,5,9
+San Antonio,WF,warm_front,west,rural,6,5
+San Antonio,WF,warm_front,west,rural,7,6
+San Antonio,WF,warm_front,west,rural,8,2
+San Antonio,WF,warm_front,west,rural,9,4
+San Antonio,WF,warm_front,west,rural,10,5
+San Antonio,WF,warm_front,west,rural,11,3
+San Antonio,WF,warm_front,west,rural,12,0
+San Antonio,WF,warm_front,west,rural,13,5
+San Antonio,WF,warm_front,west,rural,14,1
+San Antonio,WF,warm_front,west,rural,15,3
+San Antonio,WF,warm_front,west,rural,16,1
+San Antonio,WF,warm_front,west,rural,17,1
+San Antonio,WF,warm_front,west,rural,18,1
+San Antonio,WF,warm_front,west,rural,19,0
+San Antonio,WF,warm_front,west,rural,20,0
+San Antonio,WF,warm_front,west,rural,21,1
+San Antonio,WF,warm_front,west,rural,22,0
+San Antonio,WF,warm_front,west,rural,23,0
+San Antonio,CF,cold_front,west,rural,0,3
+San Antonio,CF,cold_front,west,rural,1,4
+San Antonio,CF,cold_front,west,rural,2,3
+San Antonio,CF,cold_front,west,rural,3,5
+San Antonio,CF,cold_front,west,rural,4,28
+San Antonio,CF,cold_front,west,rural,5,40
+San Antonio,CF,cold_front,west,rural,6,16
+San Antonio,CF,cold_front,west,rural,7,19
+San Antonio,CF,cold_front,west,rural,8,15
+San Antonio,CF,cold_front,west,rural,9,7
+San Antonio,CF,cold_front,west,rural,10,2
+San Antonio,CF,cold_front,west,rural,11,1
+San Antonio,CF,cold_front,west,rural,12,2
+San Antonio,CF,cold_front,west,rural,13,0
+San Antonio,CF,cold_front,west,rural,14,0
+San Antonio,CF,cold_front,west,rural,15,2
+San Antonio,CF,cold_front,west,rural,16,1
+San Antonio,CF,cold_front,west,rural,17,1
+San Antonio,CF,cold_front,west,rural,18,0
+San Antonio,CF,cold_front,west,rural,19,0
+San Antonio,CF,cold_front,west,rural,20,1
+San Antonio,CF,cold_front,west,rural,21,0
+San Antonio,CF,cold_front,west,rural,22,0
+San Antonio,CF,cold_front,west,rural,23,0
+Houston,SC,single_cell,city,urban,0,2639
+Houston,SC,single_cell,city,urban,1,1179
+Houston,SC,single_cell,city,urban,2,191
+Houston,SC,single_cell,city,urban,3,41
+Houston,SC,single_cell,city,urban,4,4
+Houston,SC,single_cell,city,urban,5,0
+Houston,SC,single_cell,city,urban,6,0
+Houston,SC,single_cell,city,urban,7,0
+Houston,SC,single_cell,city,urban,8,0
+Houston,SC,single_cell,city,urban,9,0
+Houston,SC,single_cell,city,urban,10,0
+Houston,SC,single_cell,city,urban,11,0
+Houston,SC,single_cell,city,urban,12,0
+Houston,SC,single_cell,city,urban,13,0
+Houston,SC,single_cell,city,urban,14,0
+Houston,SC,single_cell,city,urban,15,0
+Houston,SC,single_cell,city,urban,16,0
+Houston,SC,single_cell,city,urban,17,0
+Houston,SC,single_cell,city,urban,18,0
+Houston,SC,single_cell,city,urban,19,0
+Houston,SC,single_cell,city,urban,20,0
+Houston,SC,single_cell,city,urban,21,0
+Houston,SC,single_cell,city,urban,22,0
+Houston,SC,single_cell,city,urban,23,0
+Houston,IS,isolated,city,urban,0,101
+Houston,IS,isolated,city,urban,1,138
+Houston,IS,isolated,city,urban,2,90
+Houston,IS,isolated,city,urban,3,69
+Houston,IS,isolated,city,urban,4,49
+Houston,IS,isolated,city,urban,5,21
+Houston,IS,isolated,city,urban,6,5
+Houston,IS,isolated,city,urban,7,7
+Houston,IS,isolated,city,urban,8,4
+Houston,IS,isolated,city,urban,9,3
+Houston,IS,isolated,city,urban,10,0
+Houston,IS,isolated,city,urban,11,1
+Houston,IS,isolated,city,urban,12,2
+Houston,IS,isolated,city,urban,13,0
+Houston,IS,isolated,city,urban,14,0
+Houston,IS,isolated,city,urban,15,0
+Houston,IS,isolated,city,urban,16,0
+Houston,IS,isolated,city,urban,17,0
+Houston,IS,isolated,city,urban,18,0
+Houston,IS,isolated,city,urban,19,0
+Houston,IS,isolated,city,urban,20,1
+Houston,IS,isolated,city,urban,21,0
+Houston,IS,isolated,city,urban,22,0
+Houston,IS,isolated,city,urban,23,0
+Houston,TS,tropical,city,urban,0,0
+Houston,TS,tropical,city,urban,1,0
+Houston,TS,tropical,city,urban,2,1
+Houston,TS,tropical,city,urban,3,0
+Houston,TS,tropical,city,urban,4,0
+Houston,TS,tropical,city,urban,5,0
+Houston,TS,tropical,city,urban,6,0
+Houston,TS,tropical,city,urban,7,0
+Houston,TS,tropical,city,urban,8,1
+Houston,TS,tropical,city,urban,9,2
+Houston,TS,tropical,city,urban,10,0
+Houston,TS,tropical,city,urban,11,0
+Houston,TS,tropical,city,urban,12,0
+Houston,TS,tropical,city,urban,13,0
+Houston,TS,tropical,city,urban,14,0
+Houston,TS,tropical,city,urban,15,0
+Houston,TS,tropical,city,urban,16,1
+Houston,TS,tropical,city,urban,17,0
+Houston,TS,tropical,city,urban,18,1
+Houston,TS,tropical,city,urban,19,0
+Houston,TS,tropical,city,urban,20,0
+Houston,TS,tropical,city,urban,21,0
+Houston,TS,tropical,city,urban,22,0
+Houston,TS,tropical,city,urban,23,1
+Houston,WF,warm_front,city,urban,0,6
+Houston,WF,warm_front,city,urban,1,17
+Houston,WF,warm_front,city,urban,2,12
+Houston,WF,warm_front,city,urban,3,12
+Houston,WF,warm_front,city,urban,4,11
+Houston,WF,warm_front,city,urban,5,11
+Houston,WF,warm_front,city,urban,6,16
+Houston,WF,warm_front,city,urban,7,14
+Houston,WF,warm_front,city,urban,8,8
+Houston,WF,warm_front,city,urban,9,18
+Houston,WF,warm_front,city,urban,10,10
+Houston,WF,warm_front,city,urban,11,10
+Houston,WF,warm_front,city,urban,12,3
+Houston,WF,warm_front,city,urban,13,6
+Houston,WF,warm_front,city,urban,14,3
+Houston,WF,warm_front,city,urban,15,5
+Houston,WF,warm_front,city,urban,16,3
+Houston,WF,warm_front,city,urban,17,4
+Houston,WF,warm_front,city,urban,18,3
+Houston,WF,warm_front,city,urban,19,1
+Houston,WF,warm_front,city,urban,20,1
+Houston,WF,warm_front,city,urban,21,2
+Houston,WF,warm_front,city,urban,22,1
+Houston,WF,warm_front,city,urban,23,1
+Houston,CF,cold_front,city,urban,0,6
+Houston,CF,cold_front,city,urban,1,3
+Houston,CF,cold_front,city,urban,2,6
+Houston,CF,cold_front,city,urban,3,9
+Houston,CF,cold_front,city,urban,4,9
+Houston,CF,cold_front,city,urban,5,21
+Houston,CF,cold_front,city,urban,6,16
+Houston,CF,cold_front,city,urban,7,22
+Houston,CF,cold_front,city,urban,8,25
+Houston,CF,cold_front,city,urban,9,19
+Houston,CF,cold_front,city,urban,10,15
+Houston,CF,cold_front,city,urban,11,22
+Houston,CF,cold_front,city,urban,12,5
+Houston,CF,cold_front,city,urban,13,10
+Houston,CF,cold_front,city,urban,14,9
+Houston,CF,cold_front,city,urban,15,8
+Houston,CF,cold_front,city,urban,16,4
+Houston,CF,cold_front,city,urban,17,3
+Houston,CF,cold_front,city,urban,18,6
+Houston,CF,cold_front,city,urban,19,3
+Houston,CF,cold_front,city,urban,20,3
+Houston,CF,cold_front,city,urban,21,2
+Houston,CF,cold_front,city,urban,22,1
+Houston,CF,cold_front,city,urban,23,1
+Houston,SC,single_cell,north,rural,0,1640
+Houston,SC,single_cell,north,rural,1,576
+Houston,SC,single_cell,north,rural,2,86
+Houston,SC,single_cell,north,rural,3,11
+Houston,SC,single_cell,north,rural,4,5
+Houston,SC,single_cell,north,rural,5,0
+Houston,SC,single_cell,north,rural,6,0
+Houston,SC,single_cell,north,rural,7,0
+Houston,SC,single_cell,north,rural,8,0
+Houston,SC,single_cell,north,rural,9,0
+Houston,SC,single_cell,north,rural,10,0
+Houston,SC,single_cell,north,rural,11,0
+Houston,SC,single_cell,north,rural,12,0
+Houston,SC,single_cell,north,rural,13,0
+Houston,SC,single_cell,north,rural,14,0
+Houston,SC,single_cell,north,rural,15,0
+Houston,SC,single_cell,north,rural,16,0
+Houston,SC,single_cell,north,rural,17,0
+Houston,SC,single_cell,north,rural,18,0
+Houston,SC,single_cell,north,rural,19,0
+Houston,SC,single_cell,north,rural,20,0
+Houston,SC,single_cell,north,rural,21,0
+Houston,SC,single_cell,north,rural,22,0
+Houston,SC,single_cell,north,rural,23,0
+Houston,IS,isolated,north,rural,0,61
+Houston,IS,isolated,north,rural,1,80
+Houston,IS,isolated,north,rural,2,45
+Houston,IS,isolated,north,rural,3,41
+Houston,IS,isolated,north,rural,4,22
+Houston,IS,isolated,north,rural,5,17
+Houston,IS,isolated,north,rural,6,13
+Houston,IS,isolated,north,rural,7,2
+Houston,IS,isolated,north,rural,8,2
+Houston,IS,isolated,north,rural,9,2
+Houston,IS,isolated,north,rural,10,1
+Houston,IS,isolated,north,rural,11,0
+Houston,IS,isolated,north,rural,12,0
+Houston,IS,isolated,north,rural,13,0
+Houston,IS,isolated,north,rural,14,0
+Houston,IS,isolated,north,rural,15,0
+Houston,IS,isolated,north,rural,16,0
+Houston,IS,isolated,north,rural,17,0
+Houston,IS,isolated,north,rural,18,0
+Houston,IS,isolated,north,rural,19,0
+Houston,IS,isolated,north,rural,20,0
+Houston,IS,isolated,north,rural,21,0
+Houston,IS,isolated,north,rural,22,0
+Houston,IS,isolated,north,rural,23,1
+Houston,TS,tropical,north,rural,0,0
+Houston,TS,tropical,north,rural,1,0
+Houston,TS,tropical,north,rural,2,0
+Houston,TS,tropical,north,rural,3,0
+Houston,TS,tropical,north,rural,4,0
+Houston,TS,tropical,north,rural,5,0
+Houston,TS,tropical,north,rural,6,0
+Houston,TS,tropical,north,rural,7,0
+Houston,TS,tropical,north,rural,8,1
+Houston,TS,tropical,north,rural,9,0
+Houston,TS,tropical,north,rural,10,0
+Houston,TS,tropical,north,rural,11,0
+Houston,TS,tropical,north,rural,12,0
+Houston,TS,tropical,north,rural,13,1
+Houston,TS,tropical,north,rural,14,0
+Houston,TS,tropical,north,rural,15,1
+Houston,TS,tropical,north,rural,16,0
+Houston,TS,tropical,north,rural,17,0
+Houston,TS,tropical,north,rural,18,1
+Houston,TS,tropical,north,rural,19,0
+Houston,TS,tropical,north,rural,20,1
+Houston,TS,tropical,north,rural,21,0
+Houston,TS,tropical,north,rural,22,0
+Houston,TS,tropical,north,rural,23,0
+Houston,WF,warm_front,north,rural,0,5
+Houston,WF,warm_front,north,rural,1,1
+Houston,WF,warm_front,north,rural,2,8
+Houston,WF,warm_front,north,rural,3,10
+Houston,WF,warm_front,north,rural,4,15
+Houston,WF,warm_front,north,rural,5,12
+Houston,WF,warm_front,north,rural,6,9
+Houston,WF,warm_front,north,rural,7,20
+Houston,WF,warm_front,north,rural,8,12
+Houston,WF,warm_front,north,rural,9,4
+Houston,WF,warm_front,north,rural,10,9
+Houston,WF,warm_front,north,rural,11,8
+Houston,WF,warm_front,north,rural,12,4
+Houston,WF,warm_front,north,rural,13,3
+Houston,WF,warm_front,north,rural,14,9
+Houston,WF,warm_front,north,rural,15,2
+Houston,WF,warm_front,north,rural,16,4
+Houston,WF,warm_front,north,rural,17,3
+Houston,WF,warm_front,north,rural,18,3
+Houston,WF,warm_front,north,rural,19,0
+Houston,WF,warm_front,north,rural,20,5
+Houston,WF,warm_front,north,rural,21,0
+Houston,WF,warm_front,north,rural,22,1
+Houston,WF,warm_front,north,rural,23,0
+Houston,CF,cold_front,north,rural,0,4
+Houston,CF,cold_front,north,rural,1,5
+Houston,CF,cold_front,north,rural,2,15
+Houston,CF,cold_front,north,rural,3,10
+Houston,CF,cold_front,north,rural,4,14
+Houston,CF,cold_front,north,rural,5,20
+Houston,CF,cold_front,north,rural,6,26
+Houston,CF,cold_front,north,rural,7,18
+Houston,CF,cold_front,north,rural,8,13
+Houston,CF,cold_front,north,rural,9,18
+Houston,CF,cold_front,north,rural,10,21
+Houston,CF,cold_front,north,rural,11,13
+Houston,CF,cold_front,north,rural,12,11
+Houston,CF,cold_front,north,rural,13,6
+Houston,CF,cold_front,north,rural,14,13
+Houston,CF,cold_front,north,rural,15,3
+Houston,CF,cold_front,north,rural,16,8
+Houston,CF,cold_front,north,rural,17,5
+Houston,CF,cold_front,north,rural,18,2
+Houston,CF,cold_front,north,rural,19,5
+Houston,CF,cold_front,north,rural,20,2
+Houston,CF,cold_front,north,rural,21,1
+Houston,CF,cold_front,north,rural,22,3
+Houston,CF,cold_front,north,rural,23,1
+Houston,SC,single_cell,south,rural,0,2394
+Houston,SC,single_cell,south,rural,1,783
+Houston,SC,single_cell,south,rural,2,111
+Houston,SC,single_cell,south,rural,3,22
+Houston,SC,single_cell,south,rural,4,5
+Houston,SC,single_cell,south,rural,5,0
+Houston,SC,single_cell,south,rural,6,0
+Houston,SC,single_cell,south,rural,7,0
+Houston,SC,single_cell,south,rural,8,0
+Houston,SC,single_cell,south,rural,9,0
+Houston,SC,single_cell,south,rural,10,0
+Houston,SC,single_cell,south,rural,11,0
+Houston,SC,single_cell,south,rural,12,0
+Houston,SC,single_cell,south,rural,13,0
+Houston,SC,single_cell,south,rural,14,0
+Houston,SC,single_cell,south,rural,15,0
+Houston,SC,single_cell,south,rural,16,0
+Houston,SC,single_cell,south,rural,17,0
+Houston,SC,single_cell,south,rural,18,0
+Houston,SC,single_cell,south,rural,19,0
+Houston,SC,single_cell,south,rural,20,0
+Houston,SC,single_cell,south,rural,21,0
+Houston,SC,single_cell,south,rural,22,0
+Houston,SC,single_cell,south,rural,23,0
+Houston,IS,isolated,south,rural,0,53
+Houston,IS,isolated,south,rural,1,80
+Houston,IS,isolated,south,rural,2,52
+Houston,IS,isolated,south,rural,3,36
+Houston,IS,isolated,south,rural,4,33
+Houston,IS,isolated,south,rural,5,18
+Houston,IS,isolated,south,rural,6,12
+Houston,IS,isolated,south,rural,7,6
+Houston,IS,isolated,south,rural,8,4
+Houston,IS,isolated,south,rural,9,2
+Houston,IS,isolated,south,rural,10,2
+Houston,IS,isolated,south,rural,11,4
+Houston,IS,isolated,south,rural,12,1
+Houston,IS,isolated,south,rural,13,1
+Houston,IS,isolated,south,rural,14,0
+Houston,IS,isolated,south,rural,15,1
+Houston,IS,isolated,south,rural,16,0
+Houston,IS,isolated,south,rural,17,0
+Houston,IS,isolated,south,rural,18,2
+Houston,IS,isolated,south,rural,19,1
+Houston,IS,isolated,south,rural,20,0
+Houston,IS,isolated,south,rural,21,0
+Houston,IS,isolated,south,rural,22,1
+Houston,IS,isolated,south,rural,23,0
+Houston,TS,tropical,south,rural,0,0
+Houston,TS,tropical,south,rural,1,0
+Houston,TS,tropical,south,rural,2,0
+Houston,TS,tropical,south,rural,3,0
+Houston,TS,tropical,south,rural,4,0
+Houston,TS,tropical,south,rural,5,0
+Houston,TS,tropical,south,rural,6,0
+Houston,TS,tropical,south,rural,7,0
+Houston,TS,tropical,south,rural,8,0
+Houston,TS,tropical,south,rural,9,1
+Houston,TS,tropical,south,rural,10,0
+Houston,TS,tropical,south,rural,11,0
+Houston,TS,tropical,south,rural,12,0
+Houston,TS,tropical,south,rural,13,0
+Houston,TS,tropical,south,rural,14,0
+Houston,TS,tropical,south,rural,15,2
+Houston,TS,tropical,south,rural,16,3
+Houston,TS,tropical,south,rural,17,0
+Houston,TS,tropical,south,rural,18,0
+Houston,TS,tropical,south,rural,19,0
+Houston,TS,tropical,south,rural,20,2
+Houston,TS,tropical,south,rural,21,2
+Houston,TS,tropical,south,rural,22,0
+Houston,TS,tropical,south,rural,23,0
+Houston,WF,warm_front,south,rural,0,4
+Houston,WF,warm_front,south,rural,1,3
+Houston,WF,warm_front,south,rural,2,5
+Houston,WF,warm_front,south,rural,3,7
+Houston,WF,warm_front,south,rural,4,11
+Houston,WF,warm_front,south,rural,5,8
+Houston,WF,warm_front,south,rural,6,13
+Houston,WF,warm_front,south,rural,7,8
+Houston,WF,warm_front,south,rural,8,8
+Houston,WF,warm_front,south,rural,9,6
+Houston,WF,warm_front,south,rural,10,10
+Houston,WF,warm_front,south,rural,11,10
+Houston,WF,warm_front,south,rural,12,8
+Houston,WF,warm_front,south,rural,13,2
+Houston,WF,warm_front,south,rural,14,5
+Houston,WF,warm_front,south,rural,15,4
+Houston,WF,warm_front,south,rural,16,1
+Houston,WF,warm_front,south,rural,17,3
+Houston,WF,warm_front,south,rural,18,2
+Houston,WF,warm_front,south,rural,19,1
+Houston,WF,warm_front,south,rural,20,3
+Houston,WF,warm_front,south,rural,21,1
+Houston,WF,warm_front,south,rural,22,1
+Houston,WF,warm_front,south,rural,23,1
+Houston,CF,cold_front,south,rural,0,0
+Houston,CF,cold_front,south,rural,1,7
+Houston,CF,cold_front,south,rural,2,6
+Houston,CF,cold_front,south,rural,3,2
+Houston,CF,cold_front,south,rural,4,4
+Houston,CF,cold_front,south,rural,5,6
+Houston,CF,cold_front,south,rural,6,7
+Houston,CF,cold_front,south,rural,7,8
+Houston,CF,cold_front,south,rural,8,11
+Houston,CF,cold_front,south,rural,9,13
+Houston,CF,cold_front,south,rural,10,12
+Houston,CF,cold_front,south,rural,11,10
+Houston,CF,cold_front,south,rural,12,10
+Houston,CF,cold_front,south,rural,13,8
+Houston,CF,cold_front,south,rural,14,9
+Houston,CF,cold_front,south,rural,15,10
+Houston,CF,cold_front,south,rural,16,5
+Houston,CF,cold_front,south,rural,17,2
+Houston,CF,cold_front,south,rural,18,3
+Houston,CF,cold_front,south,rural,19,0
+Houston,CF,cold_front,south,rural,20,1
+Houston,CF,cold_front,south,rural,21,0
+Houston,CF,cold_front,south,rural,22,0
+Houston,CF,cold_front,south,rural,23,1
+Houston,SC,single_cell,east,rural,0,2984
+Houston,SC,single_cell,east,rural,1,1205
+Houston,SC,single_cell,east,rural,2,181
+Houston,SC,single_cell,east,rural,3,41
+Houston,SC,single_cell,east,rural,4,11
+Houston,SC,single_cell,east,rural,5,0
+Houston,SC,single_cell,east,rural,6,0
+Houston,SC,single_cell,east,rural,7,0
+Houston,SC,single_cell,east,rural,8,0
+Houston,SC,single_cell,east,rural,9,0
+Houston,SC,single_cell,east,rural,10,0
+Houston,SC,single_cell,east,rural,11,0
+Houston,SC,single_cell,east,rural,12,0
+Houston,SC,single_cell,east,rural,13,0
+Houston,SC,single_cell,east,rural,14,0
+Houston,SC,single_cell,east,rural,15,0
+Houston,SC,single_cell,east,rural,16,0
+Houston,SC,single_cell,east,rural,17,0
+Houston,SC,single_cell,east,rural,18,0
+Houston,SC,single_cell,east,rural,19,0
+Houston,SC,single_cell,east,rural,20,0
+Houston,SC,single_cell,east,rural,21,0
+Houston,SC,single_cell,east,rural,22,0
+Houston,SC,single_cell,east,rural,23,0
+Houston,IS,isolated,east,rural,0,102
+Houston,IS,isolated,east,rural,1,129
+Houston,IS,isolated,east,rural,2,80
+Houston,IS,isolated,east,rural,3,63
+Houston,IS,isolated,east,rural,4,46
+Houston,IS,isolated,east,rural,5,36
+Houston,IS,isolated,east,rural,6,19
+Houston,IS,isolated,east,rural,7,5
+Houston,IS,isolated,east,rural,8,5
+Houston,IS,isolated,east,rural,9,2
+Houston,IS,isolated,east,rural,10,2
+Houston,IS,isolated,east,rural,11,0
+Houston,IS,isolated,east,rural,12,0
+Houston,IS,isolated,east,rural,13,0
+Houston,IS,isolated,east,rural,14,1
+Houston,IS,isolated,east,rural,15,0
+Houston,IS,isolated,east,rural,16,0
+Houston,IS,isolated,east,rural,17,0
+Houston,IS,isolated,east,rural,18,0
+Houston,IS,isolated,east,rural,19,0
+Houston,IS,isolated,east,rural,20,0
+Houston,IS,isolated,east,rural,21,0
+Houston,IS,isolated,east,rural,22,0
+Houston,IS,isolated,east,rural,23,0
+Houston,TS,tropical,east,rural,0,0
+Houston,TS,tropical,east,rural,1,0
+Houston,TS,tropical,east,rural,2,0
+Houston,TS,tropical,east,rural,3,0
+Houston,TS,tropical,east,rural,4,0
+Houston,TS,tropical,east,rural,5,0
+Houston,TS,tropical,east,rural,6,0
+Houston,TS,tropical,east,rural,7,0
+Houston,TS,tropical,east,rural,8,0
+Houston,TS,tropical,east,rural,9,0
+Houston,TS,tropical,east,rural,10,0
+Houston,TS,tropical,east,rural,11,0
+Houston,TS,tropical,east,rural,12,1
+Houston,TS,tropical,east,rural,13,0
+Houston,TS,tropical,east,rural,14,0
+Houston,TS,tropical,east,rural,15,0
+Houston,TS,tropical,east,rural,16,1
+Houston,TS,tropical,east,rural,17,0
+Houston,TS,tropical,east,rural,18,0
+Houston,TS,tropical,east,rural,19,0
+Houston,TS,tropical,east,rural,20,0
+Houston,TS,tropical,east,rural,21,2
+Houston,TS,tropical,east,rural,22,0
+Houston,TS,tropical,east,rural,23,0
+Houston,WF,warm_front,east,rural,0,20
+Houston,WF,warm_front,east,rural,1,14
+Houston,WF,warm_front,east,rural,2,12
+Houston,WF,warm_front,east,rural,3,12
+Houston,WF,warm_front,east,rural,4,18
+Houston,WF,warm_front,east,rural,5,11
+Houston,WF,warm_front,east,rural,6,22
+Houston,WF,warm_front,east,rural,7,11
+Houston,WF,warm_front,east,rural,8,12
+Houston,WF,warm_front,east,rural,9,4
+Houston,WF,warm_front,east,rural,10,15
+Houston,WF,warm_front,east,rural,11,11
+Houston,WF,warm_front,east,rural,12,5
+Houston,WF,warm_front,east,rural,13,11
+Houston,WF,warm_front,east,rural,14,7
+Houston,WF,warm_front,east,rural,15,3
+Houston,WF,warm_front,east,rural,16,3
+Houston,WF,warm_front,east,rural,17,4
+Houston,WF,warm_front,east,rural,18,1
+Houston,WF,warm_front,east,rural,19,4
+Houston,WF,warm_front,east,rural,20,2
+Houston,WF,warm_front,east,rural,21,2
+Houston,WF,warm_front,east,rural,22,2
+Houston,WF,warm_front,east,rural,23,0
+Houston,CF,cold_front,east,rural,0,6
+Houston,CF,cold_front,east,rural,1,9
+Houston,CF,cold_front,east,rural,2,9
+Houston,CF,cold_front,east,rural,3,10
+Houston,CF,cold_front,east,rural,4,13
+Houston,CF,cold_front,east,rural,5,24
+Houston,CF,cold_front,east,rural,6,20
+Houston,CF,cold_front,east,rural,7,26
+Houston,CF,cold_front,east,rural,8,13
+Houston,CF,cold_front,east,rural,9,20
+Houston,CF,cold_front,east,rural,10,19
+Houston,CF,cold_front,east,rural,11,21
+Houston,CF,cold_front,east,rural,12,12
+Houston,CF,cold_front,east,rural,13,15
+Houston,CF,cold_front,east,rural,14,6
+Houston,CF,cold_front,east,rural,15,4
+Houston,CF,cold_front,east,rural,16,10
+Houston,CF,cold_front,east,rural,17,2
+Houston,CF,cold_front,east,rural,18,3
+Houston,CF,cold_front,east,rural,19,2
+Houston,CF,cold_front,east,rural,20,3
+Houston,CF,cold_front,east,rural,21,1
+Houston,CF,cold_front,east,rural,22,0
+Houston,CF,cold_front,east,rural,23,3
+Houston,SC,single_cell,west,rural,0,1749
+Houston,SC,single_cell,west,rural,1,730
+Houston,SC,single_cell,west,rural,2,132
+Houston,SC,single_cell,west,rural,3,21
+Houston,SC,single_cell,west,rural,4,2
+Houston,SC,single_cell,west,rural,5,0
+Houston,SC,single_cell,west,rural,6,0
+Houston,SC,single_cell,west,rural,7,0
+Houston,SC,single_cell,west,rural,8,0
+Houston,SC,single_cell,west,rural,9,0
+Houston,SC,single_cell,west,rural,10,0
+Houston,SC,single_cell,west,rural,11,0
+Houston,SC,single_cell,west,rural,12,0
+Houston,SC,single_cell,west,rural,13,0
+Houston,SC,single_cell,west,rural,14,0
+Houston,SC,single_cell,west,rural,15,0
+Houston,SC,single_cell,west,rural,16,0
+Houston,SC,single_cell,west,rural,17,0
+Houston,SC,single_cell,west,rural,18,0
+Houston,SC,single_cell,west,rural,19,0
+Houston,SC,single_cell,west,rural,20,0
+Houston,SC,single_cell,west,rural,21,0
+Houston,SC,single_cell,west,rural,22,0
+Houston,SC,single_cell,west,rural,23,0
+Houston,IS,isolated,west,rural,0,62
+Houston,IS,isolated,west,rural,1,97
+Houston,IS,isolated,west,rural,2,57
+Houston,IS,isolated,west,rural,3,51
+Houston,IS,isolated,west,rural,4,33
+Houston,IS,isolated,west,rural,5,21
+Houston,IS,isolated,west,rural,6,9
+Houston,IS,isolated,west,rural,7,6
+Houston,IS,isolated,west,rural,8,7
+Houston,IS,isolated,west,rural,9,1
+Houston,IS,isolated,west,rural,10,3
+Houston,IS,isolated,west,rural,11,0
+Houston,IS,isolated,west,rural,12,0
+Houston,IS,isolated,west,rural,13,0
+Houston,IS,isolated,west,rural,14,0
+Houston,IS,isolated,west,rural,15,1
+Houston,IS,isolated,west,rural,16,0
+Houston,IS,isolated,west,rural,17,0
+Houston,IS,isolated,west,rural,18,0
+Houston,IS,isolated,west,rural,19,0
+Houston,IS,isolated,west,rural,20,0
+Houston,IS,isolated,west,rural,21,0
+Houston,IS,isolated,west,rural,22,0
+Houston,IS,isolated,west,rural,23,0
+Houston,TS,tropical,west,rural,0,0
+Houston,TS,tropical,west,rural,1,0
+Houston,TS,tropical,west,rural,2,0
+Houston,TS,tropical,west,rural,3,0
+Houston,TS,tropical,west,rural,4,0
+Houston,TS,tropical,west,rural,5,0
+Houston,TS,tropical,west,rural,6,0
+Houston,TS,tropical,west,rural,7,0
+Houston,TS,tropical,west,rural,8,0
+Houston,TS,tropical,west,rural,9,0
+Houston,TS,tropical,west,rural,10,0
+Houston,TS,tropical,west,rural,11,1
+Houston,TS,tropical,west,rural,12,0
+Houston,TS,tropical,west,rural,13,1
+Houston,TS,tropical,west,rural,14,1
+Houston,TS,tropical,west,rural,15,0
+Houston,TS,tropical,west,rural,16,0
+Houston,TS,tropical,west,rural,17,3
+Houston,TS,tropical,west,rural,18,1
+Houston,TS,tropical,west,rural,19,0
+Houston,TS,tropical,west,rural,20,0
+Houston,TS,tropical,west,rural,21,1
+Houston,TS,tropical,west,rural,22,0
+Houston,TS,tropical,west,rural,23,1
+Houston,WF,warm_front,west,rural,0,2
+Houston,WF,warm_front,west,rural,1,9
+Houston,WF,warm_front,west,rural,2,7
+Houston,WF,warm_front,west,rural,3,14
+Houston,WF,warm_front,west,rural,4,6
+Houston,WF,warm_front,west,rural,5,15
+Houston,WF,warm_front,west,rural,6,9
+Houston,WF,warm_front,west,rural,7,9
+Houston,WF,warm_front,west,rural,8,12
+Houston,WF,warm_front,west,rural,9,13
+Houston,WF,warm_front,west,rural,10,5
+Houston,WF,warm_front,west,rural,11,6
+Houston,WF,warm_front,west,rural,12,8
+Houston,WF,warm_front,west,rural,13,9
+Houston,WF,warm_front,west,rural,14,6
+Houston,WF,warm_front,west,rural,15,1
+Houston,WF,warm_front,west,rural,16,5
+Houston,WF,warm_front,west,rural,17,0
+Houston,WF,warm_front,west,rural,18,0
+Houston,WF,warm_front,west,rural,19,5
+Houston,WF,warm_front,west,rural,20,0
+Houston,WF,warm_front,west,rural,21,1
+Houston,WF,warm_front,west,rural,22,0
+Houston,WF,warm_front,west,rural,23,0
+Houston,CF,cold_front,west,rural,0,7
+Houston,CF,cold_front,west,rural,1,8
+Houston,CF,cold_front,west,rural,2,7
+Houston,CF,cold_front,west,rural,3,8
+Houston,CF,cold_front,west,rural,4,17
+Houston,CF,cold_front,west,rural,5,15
+Houston,CF,cold_front,west,rural,6,19
+Houston,CF,cold_front,west,rural,7,18
+Houston,CF,cold_front,west,rural,8,20
+Houston,CF,cold_front,west,rural,9,20
+Houston,CF,cold_front,west,rural,10,15
+Houston,CF,cold_front,west,rural,11,13
+Houston,CF,cold_front,west,rural,12,15
+Houston,CF,cold_front,west,rural,13,9
+Houston,CF,cold_front,west,rural,14,3
+Houston,CF,cold_front,west,rural,15,4
+Houston,CF,cold_front,west,rural,16,6
+Houston,CF,cold_front,west,rural,17,4
+Houston,CF,cold_front,west,rural,18,6
+Houston,CF,cold_front,west,rural,19,1
+Houston,CF,cold_front,west,rural,20,1
+Houston,CF,cold_front,west,rural,21,1
+Houston,CF,cold_front,west,rural,22,1
+Houston,CF,cold_front,west,rural,23,1

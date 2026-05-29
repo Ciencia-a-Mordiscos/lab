@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "paper_id": 2522,
+  "doi": "10.1038/s41586-026-10479-7",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Las tormentas locales (celula unica + aisladas) aumentan sobre tres ciudades de Texas: Houston +29.7%/+30.9%, Austin +16.7%, San Antonio +16.2%; Dallas SC es excepcion (-5.2%).",
+      "supported": "yes",
+      "detail": "Calculado directo de storm_count_pct.csv. Rango paper +7-31% refleja maximos, no incluye Dallas SC negativo.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "increase",
+      "effect_size": {
+        "measure": "pct_change_count",
+        "value": 30.93,
+        "interpretation": "Houston IS = +30.9%"
+      }
+    },
+    {
+      "claim": "Las tormentas locales sobre Houston se concentran al atardecer-noche local: 99.9% entre 0-4 UTC (19-23 CDT).",
+      "supported": "yes",
+      "detail": "4050 de 4054 tormentas Single Cell urbanas caen en franja 0-4 UTC. Verificado por suma directa en urban_storm_hour.csv.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "particularly at night",
+      "effect_size": {
+        "measure": "pct_temporal",
+        "value": 99.9,
+        "interpretation": "dominancia casi total"
+      }
+    },
+    {
+      "claim": "Los frentes frios se debilitan al cruzar la ciudad. Las cuatro ciudades muestran reduccion de intensidad a baja altitud (1-5 km).",
+      "supported": "yes",
+      "detail": "Dallas -17.8%, Austin -14.8%, San Antonio -14.2%, Houston -11.5% en fraccion de pixeles >=40 dBZ. Patron cualitativo identico al paper.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "weaken",
+      "effect_size": {
+        "measure": "pct_change_intensity",
+        "value": -17.8,
+        "interpretation": "reduccion consistente, magnitud conservadora"
+      }
+    },
+    {
+      "claim": "El rango de debilitamiento -16% a -28% del paper no es totalmente reproducible con datos publicos.",
+      "supported": "partial",
+      "detail": "Mi metrica (fraccion >=40 dBZ a 1-5 km) da -11.5 a -17.8%. Paper usa metrica 'intensity' mas fina que requiere acceso a pickles completos. Patron cualitativo confirmado, magnitud subestimada.",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "weaken (16-28%)",
+      "effect_size": {
+        "measure": "pct_change_intensity",
+        "value": -17.8,
+        "interpretation": "limite inferior de mi metrica"
+      }
+    },
+    {
+      "claim": "El mecanismo (efectos termicos y rugosidad urbana) es hipotesis del paper, no demostracion.",
+      "supported": "partial",
+      "detail": "El paper lo plantea como 'probably because of'. Son consistentes con los patrones, no probados aqui.",
+      "supported_by_data": false,
+      "certainty_tier": "T2",
+      "abstract_verb": "probably because of",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 40517,
+      "unit": "tormentas",
+      "context": "total identificado en 4 ciudades Texas, 1995-2017, warm season",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 30.9,
+      "unit": "por ciento",
+      "context": "aumento de tormentas aisladas sobre Houston vs promedio rural",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 29.7,
+      "unit": "por ciento",
+      "context": "aumento de tormentas celula unica sobre Houston",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 16.7,
+      "unit": "por ciento",
+      "context": "aumento de celula unica sobre Austin",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 16.2,
+      "unit": "por ciento",
+      "context": "aumento de aisladas sobre San Antonio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -5.2,
+      "unit": "por ciento",
+      "context": "Dallas SC: excepcion, leve reduccion urbana",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 99.9,
+      "unit": "por ciento",
+      "context": "Single Cell sobre Houston en franja 0-4 UTC (atardecer-noche local)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "particularly at night",
+        "our_calculation": "99.9%",
+        "discrepancy_pct": 0,
+        "reason": "metrica cuantitativa propia, paper solo cualitativa"
+      }
+    },
+    {
+      "value": -17.8,
+      "unit": "por ciento",
+      "context": "Dallas: reduccion urbana de intensidad de frentes frios a baja altitud (1-5 km)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-16% a -28%",
+        "our_calculation": "-11.5% a -17.8%",
+        "discrepancy_pct": 6.2,
+        "reason": "metrica intensidad mas fina del paper vs fraccion >=40 dBZ aqui"
+      }
+    },
+    {
+      "value": 23,
+      "unit": "anos",
+      "context": "periodo de observacion del estudio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "ciudades",
+      "context": "Dallas, Austin, San Antonio, Houston",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show / reveals",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: 'muestran' / 'revelan'"
+    },
+    {
+      "abstract_verb": "increase in frequency (7-31%)",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa con numero literal del paper"
+    },
+    {
+      "abstract_verb": "weaken by 16-28%",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa con rango"
+    },
+    {
+      "abstract_verb": "probably because of (thermal/roughness)",
+      "tier": "T2",
+      "cam_attenuator": "'probablemente' / 'todo apunta a' / 'hipotesis' — NO afirmar mecanismo como hecho"
+    },
+    {
+      "abstract_verb": "show no consistent change (tropical)",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: 'sin cambio consistente'"
+    },
+    {
+      "abstract_verb": "provides a transferable framework",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que es un marco aplicable' — no 'es valido en todo el mundo'"
+    }
+  ],
+  "narrative_hooks": [
+    "La ciudad fabrica tormentas pequenas y debilita las grandes. Texas, 1995-2017.",
+    "40.000 tormentas. Cuatro ciudades. La ciudad las parte en dos: las locales crecen, los frentes frios se debilitan.",
+    "El asfalto le anade 30% a las tormentas cortas y le quita 17% a los frentes frios. Mismo radar, mismas ciudades, 23 anos."
+  ],
+  "limitations": [
+    "Solo 4 ciudades de Texas — no extrapolar a ciudades costeras de otros climas o continentes",
+    "Solo warm season (May-Sep) — invierno no analizado",
+    "Es estudio observacional: los mecanismos ('efectos termicos', 'rugosidad') son hipotesis del paper, no probadas",
+    "Dallas no encaja en el rango '+7-31%' del headline — el rango refleja maximos, no media",
+    "Mi metrica de intensidad (fraccion >=40 dBZ 1-5 km) es mas conservadora (-11.5 a -17.8%) que la del paper (-16 a -28%) por diferencia metodologica"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes + 1 partial + numeros claros multiples (densidad media-alta)"
+  },
+  "notebook_slug": "2026-05-20-tormentas-urbanas-texas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-20-tormentas-urbanas-texas/notebook.html",
+  "generated_at": "2026-05-29T01:05:58.068827Z"
+}

@@ -1,0 +1,21 @@
+city,storm_type_code,storm_type,urban_count,rural_avg_count,pct_change
+Dallas,SC,single_cell,1459,1538.2,-5.15
+Dallas,IS,isolated,247,228.5,8.1
+Dallas,TS,tropical,11,11.8,-6.38
+Dallas,WF,warm_front,102,105.0,-2.86
+Dallas,CF,cold_front,262,278.5,-5.92
+Austin,SC,single_cell,522,447.2,16.71
+Austin,IS,isolated,158,140.5,12.46
+Austin,TS,tropical,16,10.5,52.38
+Austin,WF,warm_front,68,78.8,-13.65
+Austin,CF,cold_front,176,173.5,1.44
+San Antonio,SC,single_cell,563,564.2,-0.22
+San Antonio,IS,isolated,138,118.8,16.21
+San Antonio,TS,tropical,9,13.5,-33.33
+San Antonio,WF,warm_front,93,80.8,15.17
+San Antonio,CF,cold_front,149,161.2,-7.6
+Houston,SC,single_cell,4054,3124.7,29.74
+Houston,IS,isolated,491,375.0,30.93
+Houston,TS,tropical,26,21.0,23.81
+Houston,WF,warm_front,185,171.7,7.77
+Houston,CF,cold_front,237,245.0,-3.27

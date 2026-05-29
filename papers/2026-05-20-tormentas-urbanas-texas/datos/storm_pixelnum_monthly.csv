@@ -1,0 +1,101 @@
+city,storm_type_code,storm_type,month,month_idx,urban_40dbz_pixels,rural_avg_40dbz_pixels
+Dallas,SC,single_cell,May,0,5340,3999.8
+Dallas,SC,single_cell,June,1,7240,7388.2
+Dallas,SC,single_cell,July,2,9323,8733.5
+Dallas,SC,single_cell,August,3,8017,8415.2
+Dallas,SC,single_cell,September,4,2748,4710.0
+Dallas,IS,isolated,May,0,3553,6384.5
+Dallas,IS,isolated,June,1,7803,6573.0
+Dallas,IS,isolated,July,2,9065,8111.2
+Dallas,IS,isolated,August,3,12516,7705.0
+Dallas,IS,isolated,September,4,2565,4462.2
+Dallas,TS,tropical,May,0,0,2509.5
+Dallas,TS,tropical,June,1,2295,3490.8
+Dallas,TS,tropical,July,2,7053,2465.2
+Dallas,TS,tropical,August,3,1710,5417.5
+Dallas,TS,tropical,September,4,9174,4925.8
+Dallas,WF,warm_front,May,0,37362,26390.5
+Dallas,WF,warm_front,June,1,12283,28053.2
+Dallas,WF,warm_front,July,2,10549,10934.5
+Dallas,WF,warm_front,August,3,8480,10292.8
+Dallas,WF,warm_front,September,4,2924,8117.5
+Dallas,CF,cold_front,May,0,95285,125668.0
+Dallas,CF,cold_front,June,1,86591,88515.8
+Dallas,CF,cold_front,July,2,26880,48192.2
+Dallas,CF,cold_front,August,3,31709,48295.8
+Dallas,CF,cold_front,September,4,34776,46559.2
+Austin,SC,single_cell,May,0,1236,607.0
+Austin,SC,single_cell,June,1,1417,1178.8
+Austin,SC,single_cell,July,2,1482,1398.2
+Austin,SC,single_cell,August,3,1854,1691.5
+Austin,SC,single_cell,September,4,944,1136.5
+Austin,IS,isolated,May,0,1757,1573.2
+Austin,IS,isolated,June,1,2433,2016.8
+Austin,IS,isolated,July,2,1837,2075.8
+Austin,IS,isolated,August,3,2102,1649.2
+Austin,IS,isolated,September,4,1277,917.2
+Austin,TS,tropical,May,0,38,856.8
+Austin,TS,tropical,June,1,886,996.0
+Austin,TS,tropical,July,2,688,267.8
+Austin,TS,tropical,August,3,1034,1068.2
+Austin,TS,tropical,September,4,1697,1082.5
+Austin,WF,warm_front,May,0,3175,2831.8
+Austin,WF,warm_front,June,1,2369,2667.0
+Austin,WF,warm_front,July,2,2152,1700.0
+Austin,WF,warm_front,August,3,2071,2339.8
+Austin,WF,warm_front,September,4,1676,1779.8
+Austin,CF,cold_front,May,0,17407,19942.0
+Austin,CF,cold_front,June,1,9909,10179.8
+Austin,CF,cold_front,July,2,4141,3308.8
+Austin,CF,cold_front,August,3,2889,3503.2
+Austin,CF,cold_front,September,4,3141,5106.5
+San Antonio,SC,single_cell,May,0,659,864.2
+San Antonio,SC,single_cell,June,1,1756,1985.5
+San Antonio,SC,single_cell,July,2,3011,2454.0
+San Antonio,SC,single_cell,August,3,2819,2364.0
+San Antonio,SC,single_cell,September,4,1609,1948.5
+San Antonio,IS,isolated,May,0,1578,2051.0
+San Antonio,IS,isolated,June,1,1710,1604.5
+San Antonio,IS,isolated,July,2,4979,2440.5
+San Antonio,IS,isolated,August,3,2146,2216.5
+San Antonio,IS,isolated,September,4,1594,1852.5
+San Antonio,TS,tropical,May,0,397,725.5
+San Antonio,TS,tropical,June,1,1862,2061.0
+San Antonio,TS,tropical,July,2,2506,1707.8
+San Antonio,TS,tropical,August,3,0,2123.0
+San Antonio,TS,tropical,September,4,2818,1802.5
+San Antonio,WF,warm_front,May,0,4556,3820.0
+San Antonio,WF,warm_front,June,1,7254,4227.2
+San Antonio,WF,warm_front,July,2,4399,3542.2
+San Antonio,WF,warm_front,August,3,3358,3182.0
+San Antonio,WF,warm_front,September,4,3076,2834.2
+San Antonio,CF,cold_front,May,0,23155,26694.2
+San Antonio,CF,cold_front,June,1,11836,14178.2
+San Antonio,CF,cold_front,July,2,2636,6004.0
+San Antonio,CF,cold_front,August,3,4496,5188.5
+San Antonio,CF,cold_front,September,4,5578,8706.2
+Houston,SC,single_cell,May,0,6044,3967.2
+Houston,SC,single_cell,June,1,18390,11860.2
+Houston,SC,single_cell,July,2,24771,16010.0
+Houston,SC,single_cell,August,3,21157,17334.8
+Houston,SC,single_cell,September,4,12356,11574.5
+Houston,IS,isolated,May,0,6828,5829.8
+Houston,IS,isolated,June,1,16958,9527.2
+Houston,IS,isolated,July,2,19530,12827.2
+Houston,IS,isolated,August,3,21063,12605.0
+Houston,IS,isolated,September,4,11173,8192.0
+Houston,TS,tropical,May,0,3479,2935.5
+Houston,TS,tropical,June,1,23380,13634.5
+Houston,TS,tropical,July,2,1676,8813.8
+Houston,TS,tropical,August,3,32230,16613.0
+Houston,TS,tropical,September,4,14692,18041.2
+Houston,WF,warm_front,May,0,33736,20443.2
+Houston,WF,warm_front,June,1,30210,31437.5
+Houston,WF,warm_front,July,2,22736,27696.0
+Houston,WF,warm_front,August,3,29985,26475.2
+Houston,WF,warm_front,September,4,18612,23527.0
+Houston,CF,cold_front,May,0,97782,85690.5
+Houston,CF,cold_front,June,1,60467,59514.0
+Houston,CF,cold_front,July,2,35981,38403.0
+Houston,CF,cold_front,August,3,23433,31947.8
+Houston,CF,cold_front,September,4,28107,32145.8

@@ -1,0 +1,28 @@
+titulo: "Tormentas urbanas en Texas: la ciudad las parte en dos"
+fecha: 2026-05-28
+categoria: ecologia
+tags: [clima, urbanizacion, tormentas, radar, texas, conveccion, frentes-frios]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10479-7"
+    titulo: "Divergent urban storm response to convective, frontal and tropical systems"
+    journal: Nature
+    autores: "Liu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "storm_count_pct.csv"
+    descripcion: "Cambio porcentual de conteo de tormentas (urbano vs. promedio rural), por ciudad x tipo"
+    fuente: "Zenodo doi:10.5281/zenodo.19339621"
+  - nombre: "urban_storm_hour.csv"
+    descripcion: "Ciclo horario UTC de tormentas, por ciudad x tipo x dominio"
+    fuente: "Zenodo doi:10.5281/zenodo.19339621"
+  - nombre: "cold_front_profile.csv"
+    descripcion: "Perfil vertical de fraccion de pixeles >=40 dBZ en frentes frios, urban vs. rural"
+    fuente: "Zenodo doi:10.5281/zenodo.19339621"
+  - nombre: "storm_pixelnum_monthly.csv"
+    descripcion: "Conteo mensual de pixeles >=40 dBZ por ciudad x tipo"
+    fuente: "Zenodo doi:10.5281/zenodo.19339621"
+estado: publicado

@@ -1,0 +1,220 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "El estudio identifica mas de 40.000 tormentas de temporada calida en cuatro ciudades de Texas entre 1995 y 2017.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "we identify more than 40,000 warm-season storms across four Texas cities (Dallas, Austin, San Antonio and Houston)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c2",
+      "text": "Las tormentas aisladas sobre Houston aumentan +30.9% respecto al promedio rural.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Local-scale single-cell and isolated storms, driven by atmospheric instability, increase in frequency (7-31%)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c3",
+      "text": "Las tormentas de celula unica sobre Houston aumentan +29.7%.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Local-scale single-cell and isolated storms, driven by atmospheric instability, increase in frequency (7-31%)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c4",
+      "text": "Las tormentas de celula unica sobre Austin aumentan +16.7%.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Local-scale single-cell and isolated storms, driven by atmospheric instability, increase in frequency (7-31%)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c5",
+      "text": "Las tormentas aisladas sobre San Antonio aumentan +16.2%.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Local-scale single-cell and isolated storms, driven by atmospheric instability, increase in frequency (7-31%)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c6",
+      "text": "Dallas es la excepcion al rango +7-31%: las tormentas de celula unica sobre Dallas caen -5.2%.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "99.9% de las tormentas de celula unica sobre Houston caen entre 0 y 4 UTC (atardecer-noche local).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "Sobre Dallas, la fraccion de pixeles de alta reflectividad (>=40 dBZ) en frentes frios cae 17.8% a baja altitud (1-5 km).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "cold fronts weaken over cities by 16-28%, probably because of thermal and roughness effects",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c9",
+      "text": "El periodo de observacion del estudio cubre 23 anos (1995-2017).",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "three-dimensional radar reflectivity data (1995-2017)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c10",
+      "text": "El estudio analiza cuatro ciudades de Texas: Dallas, Austin, San Antonio y Houston.",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "four Texas cities (Dallas, Austin, San Antonio and Houston)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c11",
+      "text": "Las tormentas locales (celula unica + aisladas) crecen sobre tres de las cuatro ciudades; Dallas es la excepcion en celula unica.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "Local-scale single-cell and isolated storms, driven by atmospheric instability, increase in frequency (7-31%)",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c12",
+      "text": "Los frentes frios se debilitan sobre las cuatro ciudades; el patron de reduccion urbana de intensidad es consistente.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "cold fronts weaken over cities by 16-28%",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c13",
+      "text": "El paper plantea efectos termicos y rugosidad urbana como mecanismos probables; no los demuestra.",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "contexto",
+      "certeza": "derivada",
+      "evidence_quote_from_source": "probably because of thermal and roughness effects",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c14",
+      "text": "Los sistemas tropicales no muestran cambio consistente en frecuencia o intensidad sobre las ciudades.",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Tropical systems show no consistent change in frequency or intensity",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c15",
+      "text": "La magnitud de debilitamiento que el paper reporta (-16% a -28%) usa una metrica de intensidad mas fina que no es reproducible con los datos publicos. Nuestra metrica (fraccion >=40 dBZ a 1-5 km) da -11.5% a -17.8% — patron cualitativo identico, magnitud mas conservadora.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "contexto",
+      "certeza": "inferida"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "Divergent urban storm response to convective, frontal and tropical systems",
+      "url": "https://doi.org/10.1038/s41586-026-10479-7",
+      "fecha_publicacion": "2026-05-20",
+      "fecha_consulta": "2026-05-28",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Divergent Urban Storm Response: Convective, Frontal, and Tropical Systems (code + processed radar data)",
+      "url": "https://doi.org/10.5281/zenodo.19339621",
+      "fecha_publicacion": "2026-03-30",
+      "fecha_consulta": "2026-05-28",
+      "rol": "base"
+    },
+    {
+      "id": "s3",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "Divergent Urban Storm Responses: animaciones MP4 de radar (Supplementary Videos)",
+      "url": "https://doi.org/10.5281/zenodo.15933280",
+      "fecha_publicacion": "2025-07-15",
+      "fecha_consulta": "2026-05-28",
+      "rol": "enriquecimiento"
+    },
+    {
+      "id": "s4",
+      "medio": "NOAA / NCAR",
+      "tipo": "dataset",
+      "titulo": "GridRad - Three-Dimensional Gridded NEXRAD WSR-88D Radar Data",
+      "url": "https://doi.org/10.5065/D6NK3CR7",
+      "fecha_publicacion": "2017-01-01",
+      "fecha_consulta": "2026-05-28",
+      "rol": "enriquecimiento"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Divergent urban storm response to convective, frontal and tropical systems](https://doi.org/10.1038/s41586-026-10479-7)  \n*Nature, 2026-05-20*\n\n**Datos**: [Divergent Urban Storm Response: Convective, Frontal, and Tropical Systems (code + processed radar data)](https://doi.org/10.5281/zenodo.19339621)  \n*Zenodo, 2026-03-30*\n\n**Referencias y materiales complementarios**: [Zenodo](https://doi.org/10.5281/zenodo.15933280); [NOAA / NCAR](https://doi.org/10.5065/D6NK3CR7)\n\n*15 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

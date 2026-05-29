@@ -1,0 +1,241 @@
+city,domain,urban_or_rural,height_km,frac_20dbz,frac_40dbz,n_events
+Dallas,city,urban,1,4458.167939,220.622137,262
+Dallas,city,urban,2,7776.39313,221.866412,262
+Dallas,city,urban,3,7960.557252,217.549618,262
+Dallas,city,urban,4,5530.625954,138.534351,262
+Dallas,city,urban,5,3079.996183,78.885496,262
+Dallas,city,urban,6,1829.412214,55.839695,262
+Dallas,city,urban,7,1196.339695,40.145038,262
+Dallas,city,urban,8,819.645038,29.80916,262
+Dallas,city,urban,9,543.034351,21.740458,262
+Dallas,city,urban,10,325.419847,11.98855,262
+Dallas,city,urban,11,208.396947,8.026718,262
+Dallas,city,urban,12,128.583969,5.530534,262
+Dallas,north,rural,1,5378.751479,297.926036,338
+Dallas,north,rural,2,7941.828402,288.213018,338
+Dallas,north,rural,3,8193.66568,274.464497,338
+Dallas,north,rural,4,5643.544379,189.5,338
+Dallas,north,rural,5,3377.177515,119.692308,338
+Dallas,north,rural,6,2150.931953,73.713018,338
+Dallas,north,rural,7,1453.340237,50.33432,338
+Dallas,north,rural,8,1023.955621,37.41716,338
+Dallas,north,rural,9,693.476331,24.946746,338
+Dallas,north,rural,10,430.011834,15.038462,338
+Dallas,north,rural,11,283.10355,10.215976,338
+Dallas,north,rural,12,179.363905,6.825444,338
+Dallas,south,rural,1,5110.577273,126.477273,220
+Dallas,south,rural,2,7527.440909,258.190909,220
+Dallas,south,rural,3,7704.204545,261.763636,220
+Dallas,south,rural,4,5350.159091,196.104545,220
+Dallas,south,rural,5,3005.277273,94.713636,220
+Dallas,south,rural,6,1798.854545,65.572727,220
+Dallas,south,rural,7,1174.809091,41.386364,220
+Dallas,south,rural,8,816.35,27.154545,220
+Dallas,south,rural,9,556.868182,19.404545,220
+Dallas,south,rural,10,335.368182,13.0,220
+Dallas,south,rural,11,216.468182,8.295455,220
+Dallas,south,rural,12,134.004545,5.0,220
+Dallas,east,rural,1,4623.176271,178.227119,295
+Dallas,east,rural,2,8050.281356,335.366102,295
+Dallas,east,rural,3,8462.874576,317.677966,295
+Dallas,east,rural,4,6114.118644,237.057627,295
+Dallas,east,rural,5,3355.60339,117.538983,295
+Dallas,east,rural,6,1964.138983,64.105085,295
+Dallas,east,rural,7,1213.6,38.233898,295
+Dallas,east,rural,8,809.189831,22.532203,295
+Dallas,east,rural,9,524.091525,14.257627,295
+Dallas,east,rural,10,295.420339,7.989831,295
+Dallas,east,rural,11,183.718644,4.637288,295
+Dallas,east,rural,12,114.586441,2.698305,295
+Dallas,west,rural,1,4614.260536,172.195402,261
+Dallas,west,rural,2,6705.666667,251.586207,261
+Dallas,west,rural,3,6742.574713,254.984674,261
+Dallas,west,rural,4,4776.168582,181.019157,261
+Dallas,west,rural,5,3037.773946,115.938697,261
+Dallas,west,rural,6,2082.613027,77.747126,261
+Dallas,west,rural,7,1500.344828,54.252874,261
+Dallas,west,rural,8,1082.103448,40.191571,261
+Dallas,west,rural,9,754.302682,29.613027,261
+Dallas,west,rural,10,497.252874,19.896552,261
+Dallas,west,rural,11,334.555556,14.103448,261
+Dallas,west,rural,12,214.950192,8.908046,261
+Austin,city,urban,1,1674.880682,48.170455,176
+Austin,city,urban,2,2027.954545,45.875,176
+Austin,city,urban,3,2042.579545,40.823864,176
+Austin,city,urban,4,1372.181818,26.568182,176
+Austin,city,urban,5,772.051136,15.357955,176
+Austin,city,urban,6,485.732955,11.119318,176
+Austin,city,urban,7,323.488636,8.403409,176
+Austin,city,urban,8,229.840909,6.386364,176
+Austin,city,urban,9,157.420455,5.176136,176
+Austin,city,urban,10,95.659091,2.238636,176
+Austin,city,urban,11,63.460227,1.642045,176
+Austin,city,urban,12,41.590909,1.232955,176
+Austin,north,rural,1,1733.666667,31.571429,189
+Austin,north,rural,2,2359.962963,62.888889,189
+Austin,north,rural,3,2303.698413,59.550265,189
+Austin,north,rural,4,1541.455026,39.783069,189
+Austin,north,rural,5,899.359788,19.333333,189
+Austin,north,rural,6,561.015873,14.455026,189
+Austin,north,rural,7,369.280423,8.47619,189
+Austin,north,rural,8,254.285714,5.592593,189
+Austin,north,rural,9,169.529101,3.619048,189
+Austin,north,rural,10,107.62963,2.05291,189
+Austin,north,rural,11,69.417989,1.169312,189
+Austin,north,rural,12,42.153439,0.767196,189
+Austin,south,rural,1,2093.327044,46.81761,159
+Austin,south,rural,2,2115.056604,47.792453,159
+Austin,south,rural,3,2090.471698,50.295597,159
+Austin,south,rural,4,1340.383648,37.251572,159
+Austin,south,rural,5,719.383648,19.371069,159
+Austin,south,rural,6,414.591195,13.283019,159
+Austin,south,rural,7,257.974843,6.672956,159
+Austin,south,rural,8,172.477987,4.842767,159
+Austin,south,rural,9,116.754717,3.176101,159
+Austin,south,rural,10,68.861635,2.201258,159
+Austin,south,rural,11,42.578616,1.45283,159
+Austin,south,rural,12,26.754717,1.056604,159
+Austin,east,rural,1,1828.695906,44.438596,171
+Austin,east,rural,2,2307.783626,53.309942,171
+Austin,east,rural,3,2379.403509,53.935673,171
+Austin,east,rural,4,1642.923977,33.02924,171
+Austin,east,rural,5,861.163743,21.216374,171
+Austin,east,rural,6,490.736842,10.865497,171
+Austin,east,rural,7,303.222222,7.187135,171
+Austin,east,rural,8,212.467836,5.380117,171
+Austin,east,rural,9,145.081871,2.619883,171
+Austin,east,rural,10,88.163743,1.356725,171
+Austin,east,rural,11,58.824561,1.076023,171
+Austin,east,rural,12,39.175439,0.730994,171
+Austin,west,rural,1,1511.548571,51.251429,175
+Austin,west,rural,2,2120.754286,51.771429,175
+Austin,west,rural,3,2100.765714,50.8,175
+Austin,west,rural,4,1462.285714,33.6,175
+Austin,west,rural,5,852.04,21.76,175
+Austin,west,rural,6,539.314286,12.868571,175
+Austin,west,rural,7,359.48,9.2,175
+Austin,west,rural,8,247.977143,6.6,175
+Austin,west,rural,9,168.8,5.005714,175
+Austin,west,rural,10,106.965714,2.96,175
+Austin,west,rural,11,71.885714,2.005714,175
+Austin,west,rural,12,43.251429,1.325714,175
+San Antonio,city,urban,1,2389.563758,69.422819,149
+San Antonio,city,urban,2,2747.711409,67.006711,149
+San Antonio,city,urban,3,2714.939597,66.731544,149
+San Antonio,city,urban,4,1792.161074,47.120805,149
+San Antonio,city,urban,5,1044.187919,26.751678,149
+San Antonio,city,urban,6,651.268456,14.590604,149
+San Antonio,city,urban,7,409.610738,10.838926,149
+San Antonio,city,urban,8,278.449664,7.214765,149
+San Antonio,city,urban,9,189.832215,5.268456,149
+San Antonio,city,urban,10,116.489933,2.85906,149
+San Antonio,city,urban,11,74.852349,1.47651,149
+San Antonio,city,urban,12,44.805369,0.85906,149
+San Antonio,north,rural,1,2054.169399,75.459016,183
+San Antonio,north,rural,2,2934.174863,74.508197,183
+San Antonio,north,rural,3,2913.256831,76.20765,183
+San Antonio,north,rural,4,2056.874317,51.666667,183
+San Antonio,north,rural,5,1225.68306,33.628415,183
+San Antonio,north,rural,6,790.36612,19.622951,183
+San Antonio,north,rural,7,529.382514,13.879781,183
+San Antonio,north,rural,8,371.918033,10.26776,183
+San Antonio,north,rural,9,249.704918,7.120219,183
+San Antonio,north,rural,10,156.803279,4.786885,183
+San Antonio,north,rural,11,103.393443,3.300546,183
+San Antonio,north,rural,12,60.994536,1.961749,183
+San Antonio,south,rural,1,2194.179487,85.237179,156
+San Antonio,south,rural,2,2798.916667,95.685897,156
+San Antonio,south,rural,3,2999.314103,84.192308,156
+San Antonio,south,rural,4,2161.583333,52.685897,156
+San Antonio,south,rural,5,1246.153846,32.442308,156
+San Antonio,south,rural,6,735.224359,18.570513,156
+San Antonio,south,rural,7,454.198718,9.628205,156
+San Antonio,south,rural,8,307.711538,6.467949,156
+San Antonio,south,rural,9,206.711538,4.076923,156
+San Antonio,south,rural,10,122.025641,2.365385,156
+San Antonio,south,rural,11,79.294872,1.416667,156
+San Antonio,south,rural,12,49.628205,0.775641,156
+San Antonio,east,rural,1,2732.410256,73.269231,156
+San Antonio,east,rural,2,2957.237179,74.416667,156
+San Antonio,east,rural,3,2856.378205,75.775641,156
+San Antonio,east,rural,4,1874.5,50.352564,156
+San Antonio,east,rural,5,977.679487,29.307692,156
+San Antonio,east,rural,6,566.974359,19.5,156
+San Antonio,east,rural,7,336.423077,11.25,156
+San Antonio,east,rural,8,219.782051,8.326923,156
+San Antonio,east,rural,9,146.294872,5.820513,156
+San Antonio,east,rural,10,87.801282,3.551282,156
+San Antonio,east,rural,11,55.397436,2.403846,156
+San Antonio,east,rural,12,35.205128,1.461538,156
+San Antonio,west,rural,1,2053.6,67.173333,150
+San Antonio,west,rural,2,2617.653333,88.906667,150
+San Antonio,west,rural,3,2748.766667,83.973333,150
+San Antonio,west,rural,4,2001.673333,50.426667,150
+San Antonio,west,rural,5,1229.66,36.373333,150
+San Antonio,west,rural,6,816.4,24.913333,150
+San Antonio,west,rural,7,562.286667,13.226667,150
+San Antonio,west,rural,8,405.633333,9.093333,150
+San Antonio,west,rural,9,283.086667,6.046667,150
+San Antonio,west,rural,10,185.106667,3.54,150
+San Antonio,west,rural,11,127.5,2.56,150
+San Antonio,west,rural,12,80.846667,1.053333,150
+Houston,city,urban,1,5893.915612,213.624473,237
+Houston,city,urban,2,7337.164557,197.371308,237
+Houston,city,urban,3,7619.590717,216.126582,237
+Houston,city,urban,4,5518.07173,163.599156,237
+Houston,city,urban,5,2878.172996,99.248945,237
+Houston,city,urban,6,1477.075949,53.135021,237
+Houston,city,urban,7,795.257384,33.518987,237
+Houston,city,urban,8,496.122363,25.843882,237
+Houston,city,urban,9,319.64557,17.666667,237
+Houston,city,urban,10,172.962025,8.295359,237
+Houston,city,urban,11,105.814346,5.194093,237
+Houston,city,urban,12,65.329114,3.379747,237
+Houston,north,rural,1,6247.526531,22.730612,245
+Houston,north,rural,2,9251.942857,253.408163,245
+Houston,north,rural,3,9507.404082,305.77551,245
+Houston,north,rural,4,6693.412245,268.559184,245
+Houston,north,rural,5,3522.889796,135.604082,245
+Houston,north,rural,6,1996.693878,75.657143,245
+Houston,north,rural,7,1184.15102,43.106122,245
+Houston,north,rural,8,766.016327,25.795918,245
+Houston,north,rural,9,488.461224,15.42449,245
+Houston,north,rural,10,270.534694,8.257143,245
+Houston,north,rural,11,165.714286,4.82449,245
+Houston,north,rural,12,101.77551,2.485714,245
+Houston,south,rural,1,5506.685315,59.664336,143
+Houston,south,rural,2,6853.111888,201.804196,143
+Houston,south,rural,3,8220.475524,358.524476,143
+Houston,south,rural,4,6404.097902,327.713287,143
+Houston,south,rural,5,3263.93007,170.72028,143
+Houston,south,rural,6,1569.090909,48.643357,143
+Houston,south,rural,7,717.937063,23.713287,143
+Houston,south,rural,8,440.601399,14.202797,143
+Houston,south,rural,9,287.937063,9.769231,143
+Houston,south,rural,10,115.937063,3.391608,143
+Houston,south,rural,11,68.874126,1.93007,143
+Houston,south,rural,12,40.888112,1.174825,143
+Houston,east,rural,1,5441.212928,213.851711,263
+Houston,east,rural,2,7464.106464,221.117871,263
+Houston,east,rural,3,8022.646388,241.262357,263
+Houston,east,rural,4,5862.86692,174.102662,263
+Houston,east,rural,5,3034.323194,82.939163,263
+Houston,east,rural,6,1623.619772,48.292776,263
+Houston,east,rural,7,839.86692,30.935361,263
+Houston,east,rural,8,503.501901,19.593156,263
+Houston,east,rural,9,315.30038,10.326996,263
+Houston,east,rural,10,164.178707,6.536122,263
+Houston,east,rural,11,97.0,3.870722,263
+Houston,east,rural,12,59.920152,2.220532,263
+Houston,west,rural,1,5980.396476,247.268722,227
+Houston,west,rural,2,7879.643172,254.030837,227
+Houston,west,rural,3,8192.237885,237.105727,227
+Houston,west,rural,4,5872.638767,156.484581,227
+Houston,west,rural,5,3161.242291,90.339207,227
+Houston,west,rural,6,1739.713656,52.044053,227
+Houston,west,rural,7,1041.052863,31.048458,227
+Houston,west,rural,8,698.718062,20.237885,227
+Houston,west,rural,9,471.876652,12.982379,227
+Houston,west,rural,10,279.145374,8.453744,227
+Houston,west,rural,11,181.356828,5.859031,227
+Houston,west,rural,12,113.563877,3.475771,227
