@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "paper_id": 2525,
+  "doi": "10.1038/s41586-026-10656-8",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human_cell_lines_and_mouse",
+  "verification_table": [
+    {
+      "claim": "Diseñaron miniproteínas (~50-80 aa) que se pegan a 4 receptores GPCR (MRGPRX1, CXCR4, GLP1R, GIPR) usando RFdiffusion + ProteinMPNN + screen de receptor diversion",
+      "supported": "yes",
+      "detail": "Los Source Data del paper traen las curvas dosis-respuesta para los 4 receptores con 3-4 réplicas por punto",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe / design",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "dCX1_001 bloquea CXCR4 in vitro: a 100 nM de CXCL12 (concentración fisiológica), la respuesta cae de 50.6 por ciento a -1.4 por ciento con la miniproteína a 1 µM",
+      "supported": "yes",
+      "detail": "Confirmado con CSV cxcr4_antagonism: media sin antagonista = 50.62 por ciento, media con dCX1_001 1µM = -1.35 por ciento. Reducción 51.98 puntos porcentuales. n=4 réplicas",
+      "certainty_tier": "T1",
+      "abstract_verb": "design (antagonists)",
+      "effect_size": {"measure": "percent_drop", "value": 51.98, "interpretation": "bloqueo prácticamente completo"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "dCX1_001 moviliza células madre hematopoyéticas in vivo a nivel comparable al fármaco FDA AMD3100 (Mozobil)",
+      "supported": "yes",
+      "detail": "En 6 de 9 puntos temporales la miniproteína queda por encima del fármaco (pico fold-change 3.71× a la 1 h), en 3 por debajo, mediana del fold-change = 1.71×. La palabra 'comparable' del abstract aguanta. Cohen's d a 1h = 1.09 (efecto grande). n=5 ratones por punto",
+      "certainty_tier": "T1",
+      "abstract_verb": "mobilizes ... comparable to a clinically used drug",
+      "effect_size": {"measure": "cohen_d", "value": 1.09, "interpretation": "grande"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "La miniproteína tiene menos efectos adversos que el fármaco FDA",
+      "supported": "partial",
+      "detail": "Claim auxiliar del abstract ('with fewer adverse effects') no verificable con los Source Data extraídos. Requiere Extended Data del paper (peso corporal, hematología). El notebook lo marca explícitamente como no verificable",
+      "certainty_tier": "T2",
+      "abstract_verb": "with fewer adverse effects",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 4,
+      "unit": "receptores",
+      "context": "número de GPCRs distintos para los que diseñaron miniproteínas (MRGPRX1, CXCR4, GLP1R, GIPR)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 70,
+      "unit": "aminoácidos",
+      "context": "tamaño aproximado de las miniproteínas diseñadas (rango 50-80)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 51.98,
+      "unit": "puntos porcentuales",
+      "context": "caída de la respuesta CXCR4 con dCX1_001 a 1 µM frente a 100 nM de CXCL12 (de 50.6 por ciento a -1.4 por ciento)",
+      "source": "notebook_calculation",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no antagonist 50.6% → dCX1_001 1µM -1.4%",
+        "our_calculation": "50.62 → -1.35",
+        "discrepancy_pct": 0.04,
+        "reason": "redondeo del paper"
+      }
+    },
+    {
+      "value": 3.71,
+      "unit": "fold-change",
+      "context": "pico de la ventaja de la miniproteína sobre AMD3100: 8764 vs 2364 células movilizadas a 1 hora",
+      "source": "notebook_calculation",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no explícito en abstract — el paper dice 'comparable'",
+        "our_calculation": "3.71",
+        "discrepancy_pct": 0,
+        "reason": "cifra original del análisis CaM, no del paper"
+      }
+    },
+    {
+      "value": 1.71,
+      "unit": "fold-change mediano",
+      "context": "mediana del fold-change dCX1_001/AMD3100 a lo largo de los 9 puntos temporales",
+      "source": "notebook_calculation",
+      "verified": true
+    },
+    {
+      "value": 1.09,
+      "unit": "Cohen's d",
+      "context": "tamaño del efecto dCX1_001 vs AMD3100 a 1 hora (pooled SD). Efecto grande",
+      "source": "notebook_calculation",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "ratones",
+      "context": "n por grupo por punto temporal en el experimento in vivo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "de 9 puntos temporales",
+      "context": "cuántas veces la miniproteína supera al fármaco FDA (3 de 9 el fármaco supera)",
+      "source": "notebook_calculation",
+      "verified": true
+    },
+    {
+      "value": 34,
+      "unit": "por ciento",
+      "context": "proporción de medicamentos aprobados por la FDA que actúan sobre GPCRs (contexto histórico de la industria farmacéutica)",
+      "source": "knowledge_base",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "describe", "tier": "T1", "cam_attenuator": "afirmación directa: 'describen' / 'presentan' (paper constructivo)"},
+    {"abstract_verb": "design", "tier": "T1", "cam_attenuator": "afirmación directa: 'diseñaron' — paper presenta artefactos validados"},
+    {"abstract_verb": "activate / inhibit", "tier": "T1", "cam_attenuator": "afirmación directa: los agonistas activan, los antagonistas bloquean (verificado experimentalmente)"},
+    {"abstract_verb": "are close to", "tier": "T2", "cam_attenuator": "'son muy parecidas a' — afirmación cuantitativa moderada (cryo-EM vs modelo computacional)"},
+    {"abstract_verb": "comparable to a clinically used drug", "tier": "T1", "cam_attenuator": "'comparable a un fármaco aprobado por la FDA' — moderado. NO escalar a 'supera', aunque los datos así lo sugieran en algunos puntos. La palabra 'comparable' del paper aguanta"},
+    {"abstract_verb": "with fewer adverse effects", "tier": "T3", "cam_attenuator": "'con menos efectos adversos' — claim auxiliar, NO verificable con Source Data MOESM3. Bandera amarilla si se usa en el script"}
+  ],
+  "narrative_hooks": [
+    "Diseñaron una proteína desde cero en un computador. Funcionó en un ratón vivo.",
+    "Le dijeron a un computador: 'hazme una proteína nueva que bloquee este receptor humano'. Lo que salió mueve células madre tan bien como el fármaco aprobado por la FDA.",
+    "El 34 por ciento de los medicamentos del mundo actúan sobre GPCRs. Acaban de mostrar que se pueden diseñar competidores desde cero, sin buscar en bibliotecas químicas."
+  ],
+  "limitations": [
+    "Los datos de movilización HSC son de 5 ratones por grupo por punto temporal — estándar para in vivo pero los IC al 95 por ciento son amplios",
+    "Test estadístico del paper (Sidak corregido para 18 comparaciones) preservado tal como lo reporta el paper, no re-corrido",
+    "El bloqueo in vitro de CXCR4 no garantiza por sí solo el efecto in vivo (farmacocinética, distribución, vida media)",
+    "El claim 'fewer adverse effects' del abstract no es verificable con los Source Data MOESM3 — requiere Extended Data adicional",
+    "La escala logarítmica del eje temporal en la gráfica hero amplifica el detalle temprano y comprime el tardío — es honesto para datos que cubren 15 min a 72 h pero conviene tenerlo en cuenta"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes + 1 partial = densidad media-alta, hook fuerte ('proteína desde cero, funcionó en ratón')"
+  },
+  "notebook_slug": "2026-05-28-miniproteinas-gpcr-diseno-de-novo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-28-miniproteinas-gpcr-diseno-de-novo/notebook.html",
+  "generated_at": "2026-05-28T22:50:00Z"
+}

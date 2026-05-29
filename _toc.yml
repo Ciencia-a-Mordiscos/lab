@@ -681,6 +681,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-28-miniproteinas-gpcr-diseno-de-novo/README
+    title: "Diseñaron una proteína desde cero. Funcionó en un ratón vivo"
+    sections:
+    - file: papers/2026-05-28-miniproteinas-gpcr-diseno-de-novo/notebook
+      title: Notebook
   - file: papers/2026-05-27-algoritmos-redes-percepcion-normas/README
     title: "Algoritmos que distorsionan lo que crees que piensan los demás"
     sections:

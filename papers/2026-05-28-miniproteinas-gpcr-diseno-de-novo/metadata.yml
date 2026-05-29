@@ -1,0 +1,31 @@
+titulo: "Diseñaron una proteína desde cero. Funcionó en un ratón vivo"
+fecha: 2026-05-28
+categoria: tecnologia
+tags: [biologia-computacional, diseno-de-proteinas, gpcr, rfdiffusion, celulas-madre, in-vivo, ratones]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10656-8"
+    titulo: "De novo design of miniproteins targeting GPCRs"
+    journal: Nature
+    autores: "Vázquez Torres et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "hsc_mobilization_timecourse.csv"
+    descripcion: "Movilización de células madre hematopoyéticas in vivo en ratones (9 timepoints × 3 grupos × 5 ratones)"
+    fuente: "Source Data MOESM3, Fig 5a"
+  - nombre: "hsc_pairwise_stats.csv"
+    descripcion: "Estadística pareada del paper (test de Sidak corregido para 18 comparaciones)"
+    fuente: "Source Data MOESM3, Fig 5a stats"
+  - nombre: "cxcr4_antagonism.csv"
+    descripcion: "Antagonismo CXCR4 in vitro (8 dosis CXCL12 × 3 condiciones × 4 réplicas)"
+    fuente: "Source Data MOESM3, Fig 3b"
+  - nombre: "mrgprx1_dose_response.csv"
+    descripcion: "Dosis-respuesta de miniproteínas agonistas en MRGPRX1"
+    fuente: "Source Data MOESM3, Fig 2b"
+  - nombre: "glp1r_gipr_dose_response.csv"
+    descripcion: "Dosis-respuesta para receptores GLP1R y GIPR"
+    fuente: "Source Data MOESM3, Fig 4"
+estado: publicado

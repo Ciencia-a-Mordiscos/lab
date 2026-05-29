@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Diseñaron miniproteínas (~50-80 aminoácidos) que se pegan a 4 receptores GPCR (MRGPRX1, CXCR4, GLP1R, GIPR) usando RFdiffusion + ProteinMPNN y un screen de receptor diversion",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Here we describe computational de novo design methods and a high-throughput receptor diversion microscopy-based screen for generating GPCR binding miniproteins with high affinity, potency and selectivity",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c2",
+      "text": "dCX1_001 bloquea CXCR4 in vitro: a 100 nM de CXCL12 la respuesta cae de 50.6 por ciento a -1.4 por ciento con la miniproteína a 1 µM",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "inferida",
+      "evidence_quote_scope": "unavailable"
+    },
+    {
+      "id": "c3",
+      "text": "dCX1_001 moviliza células madre hematopoyéticas in vivo a nivel comparable al fármaco FDA AMD3100",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "The CXCR4 antagonist mobilizes hematopoietic stem and progenitor cells in vivo at a level comparable to a clinically used drug",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c4",
+      "text": "La miniproteína dCX1_001 tiene menos efectos adversos que el fármaco FDA",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "with fewer adverse effects",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c5",
+      "text": "4 receptores GPCR distintos abordados",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "Miniproteínas de ~70 aminoácidos (rango 50-80)",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "Bloqueo CXCR4: 51.98 puntos porcentuales de caída a 1 µM dCX1_001",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "Pico fold-change in vivo dCX1_001/AMD3100 = 3.71× a 1 hora",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c9",
+      "text": "Mediana fold-change dCX1_001/AMD3100 a lo largo de 9 puntos temporales = 1.71×",
+      "source_ids": [
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "Cohen's d a 1 hora = 1.09 (efecto grande)",
+      "source_ids": [
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "n=5 ratones por grupo por punto temporal",
+      "source_ids": [
+        "s1",
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "dCX1_001 supera a AMD3100 en 6 de 9 puntos temporales del experimento in vivo",
+      "source_ids": [
+        "s1a"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c13",
+      "text": "El 34 por ciento de los medicamentos aprobados por la FDA actúan sobre GPCRs",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "contexto",
+      "certeza": "inferida"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature",
+      "tipo": "paper",
+      "titulo": "De novo design of miniproteins targeting GPCRs",
+      "url": "https://doi.org/10.1038/s41586-026-10656-8",
+      "fecha_publicacion": "2026-05-21",
+      "fecha_consulta": "2026-05-28",
+      "rol": "primaria"
+    },
+    {
+      "id": "s1a",
+      "medio": "Nature (Supplementary Source Data, MOESM3)",
+      "tipo": "dataset",
+      "titulo": "Source Data Fig 2-5 — De novo design of miniproteins targeting GPCRs",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10656-8/MediaObjects/41586_2026_10656_MOESM3_ESM.xlsx",
+      "fecha_publicacion": "2026-05-21",
+      "fecha_consulta": "2026-05-28",
+      "rol": "primaria"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [De novo design of miniproteins targeting GPCRs](https://doi.org/10.1038/s41586-026-10656-8)  \n*Nature, 2026-05-21*\n\n**Source Data**: [Source Data Fig 2-5 — De novo design of miniproteins targeting GPCRs](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10656-8/MediaObjects/41586_2026_10656_MOESM3_ESM.xlsx)\n\n*13 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}
