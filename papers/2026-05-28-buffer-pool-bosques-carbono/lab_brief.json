@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "paper_id": 2523,
+  "doi": "10.1038/s41586-026-10571-y",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El buffer pool del programa CARB es 6,3 veces más pequeño en promedio de lo que el clima exige (factor de subdimensionamiento de riesgos naturales).",
+      "supported": "yes",
+      "detail": "Promedio de natural_risks_factor en los 7 escenarios = 6,27× — coincide con el 6,3× del abstract dentro del margen de redondeo.",
+      "certainty_tier": "T2",
+      "abstract_verb": "likely",
+      "effect_size": {"measure": "factor", "value": 6.27, "interpretation": "promedio entre escenarios de sensibilidad"}
+    },
+    {
+      "claim": "El factor de subdimensionamiento puede ir de 2,2 hasta 8,0 según el escenario.",
+      "supported": "yes",
+      "detail": "Mínimo (Dynamic, All risks) = 2,25×; máximo (Severe disturbance, Natural risks) = 7,96×. Coincide con el rango 2,2-8,0× del abstract.",
+      "certainty_tier": "T2",
+      "abstract_verb": "could range",
+      "effect_size": {"measure": "rango_factor", "value": "2.25 — 7.96", "interpretation": "rango de sensibilidad"}
+    },
+    {
+      "claim": "El cambio climático aumenta el riesgo de pérdida de carbono forestal a 100 años en Estados Unidos continental, dominado por el fuego.",
+      "supported": "yes",
+      "detail": "Fuego pasa del 13% al 35% medio (+22 pp, +171% relativo). Sequía sube +4 pp, insectos +2 pp. La señal climática se concentra en fuego.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "delta_pp_fuego", "value": 22.07, "interpretation": "duplicación de riesgo medio"}
+    },
+    {
+      "claim": "California y el Intermountain West están entre las zonas más afectadas, pero no son las únicas.",
+      "supported": "partial",
+      "detail": "Sierra Nevada lidera el top 10 (+85 pp), y el oeste aparece varias veces, pero el top 10 también incluye Blue Ridge y Laurentian Mixed Forest. Leer como 'particularly in' del abstract, no 'only in'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "particularly in",
+      "effect_size": {"measure": "delta_pp_sierra_nevada", "value": 85.3, "interpretation": "mayor delta absoluto del ranking"}
+    },
+    {
+      "claim": "79% de los 116 proyectos CARB tienen un riesgo natural total mayor que el buffer asignado.",
+      "supported": "yes",
+      "detail": "92 de 116 proyectos quedan arriba de la diagonal buffer=riesgo. Cálculo directo sobre el dataset por-proyecto del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "pct_under_buffered", "value": 79.3, "interpretation": "mayoría del programa"}
+    },
+    {
+      "claim": "En 61% de los proyectos (71 de 116), solo el riesgo de fuego ya supera el buffer total asignado.",
+      "supported": "yes",
+      "detail": "Cálculo derivado del dataset por-proyecto: (fire_risk_fraction > carb_buffer_fraction).sum() = 71/116 = 61,2%. Muestra que la mayor parte del subdimensionamiento es atribuible solo al fuego.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "pct_solo_fuego_supera", "value": 61.2, "interpretation": "fuego como driver dominante del gap"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 6.27,
+      "unit": "factor (×)",
+      "context": "Promedio del factor de subdimensionamiento del buffer pool en 7 escenarios de sensibilidad (Natural risks).",
+      "source": "factor_subdimensionamiento.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "6.3×",
+        "our_calculation": "6.27×",
+        "discrepancy_pct": 0.5,
+        "reason": "redondeo a una cifra significativa"
+      }
+    },
+    {
+      "value": "2.25 — 7.96",
+      "unit": "factor (×)",
+      "context": "Rango global del factor de subdimensionamiento entre los 7 escenarios de sensibilidad (All risks mínimo a Natural risks máximo).",
+      "source": "factor_subdimensionamiento.csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "2.2- to 8.0-fold",
+        "our_calculation": "2.25 — 7.96",
+        "discrepancy_pct": 0.5,
+        "reason": "redondeo del abstract"
+      }
+    },
+    {
+      "value": 22.07,
+      "unit": "puntos porcentuales",
+      "context": "Aumento absoluto del riesgo medio de fuego a 100 años por cambio climático: 12,89% histórico → 34,96% con clima.",
+      "source": "riesgo_por_ecorregion.csv",
+      "verified": true
+    },
+    {
+      "value": 171.2,
+      "unit": "% relativo",
+      "context": "Aumento relativo del riesgo medio de fuego (12,89 → 34,96).",
+      "source": "riesgo_por_ecorregion.csv",
+      "verified": true
+    },
+    {
+      "value": 79.3,
+      "unit": "% de proyectos",
+      "context": "Fracción de los 116 proyectos CARB con riesgo natural total mayor que su buffer asignado.",
+      "source": "buffer_por_proyecto.csv",
+      "verified": true
+    },
+    {
+      "value": 61.2,
+      "unit": "% de proyectos",
+      "context": "Fracción de los 116 proyectos CARB donde solo el riesgo de fuego ya supera el buffer asignado.",
+      "source": "buffer_por_proyecto.csv",
+      "verified": true
+    },
+    {
+      "value": 85.3,
+      "unit": "puntos porcentuales",
+      "context": "Delta absoluto del riesgo combinado de Sierra Nevada (CA) entre escenario histórico y con clima.",
+      "source": "riesgo_por_ecorregion.csv",
+      "verified": true
+    },
+    {
+      "value": 116,
+      "unit": "proyectos",
+      "context": "Número total de proyectos CARB activos analizados.",
+      "source": "buffer_por_proyecto.csv",
+      "verified": true
+    },
+    {
+      "value": 95,
+      "unit": "supersections",
+      "context": "Número de ecorregiones forestales analizadas en CONUS.",
+      "source": "riesgo_por_ecorregion.csv",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "likely (IPCC ≥66%)",
+      "tier": "T2",
+      "cam_attenuator": "es probable que / todo apunta a"
+    },
+    {
+      "abstract_verb": "could range",
+      "tier": "T2",
+      "cam_attenuator": "según el escenario el rango va de ... a ..."
+    },
+    {
+      "abstract_verb": "particularly in",
+      "tier": "T1",
+      "cam_attenuator": "incluye, no se limita a"
+    }
+  ],
+  "narrative_hooks": [
+    "6,3 veces. Probablemente eso es lo que le falta al buffer del mayor programa de bonos forestales de Estados Unidos.",
+    "El cambio climático no toca todos los disturbios por igual: el fuego se duplica, sequía e insectos casi no se mueven.",
+    "79% de los proyectos CARB tienen más riesgo natural que el colchón que les apartaron. En 61%, solo el fuego ya se come el buffer.",
+    "Sierra Nevada suma 85 puntos porcentuales de riesgo extra por el clima — el mayor salto del país."
+  ],
+  "limitations": [
+    "El paper modela proyecciones a 100 años combinando inventario, satélite, machine learning y modelos de disturbios; no es observación directa de pérdida de carbono.",
+    "El riesgo combinado por ecorregión puede superar 100% porque los disturbios pueden ocurrir secuencialmente a lo largo de un siglo.",
+    "El factor 6,3× es un promedio entre escenarios de sensibilidad; la decisión de política depende de cuál escenario climático se considere relevante.",
+    "Los autores plantean que los protocolos actuales requieren revisión — no concluyen que el sistema CARB esté roto ni que el mercado de carbono haya fracasado."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims con supported=yes + 1 partial, 9 key numbers verificados → script estándar con espacio para matizar el rango y el promedio."
+  },
+  "notebook_slug": "2026-05-28-buffer-pool-bosques-carbono",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-28-buffer-pool-bosques-carbono/notebook.html",
+  "generated_at": "2026-05-28T22:30:00Z"
+}

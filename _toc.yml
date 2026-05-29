@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-28-buffer-pool-bosques-carbono/README
+    title: "El buffer del mercado de carbono forestal: probablemente 6,3 veces más pequeño de lo que el clima exige"
+    sections:
+    - file: papers/2026-05-28-buffer-pool-bosques-carbono/notebook
+      title: Notebook
   - file: papers/2026-05-20-tormentas-urbanas-texas/README
     title: "Tormentas urbanas en Texas: la ciudad las parte en dos"
     sections:

@@ -1,0 +1,28 @@
+titulo: "El buffer del mercado de carbono forestal: probablemente 6,3 veces más pequeño de lo que el clima exige"
+fecha: 2026-05-28
+categoria: ecologia
+tags: [carbono, bosques, cambio-climatico, fuego, california, carb, buffer-pool, modelado]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10571-y"
+    titulo: "Forest carbon protocols underestimate climate-driven carbon loss risks"
+    journal: Nature
+    autores: "Badgley et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "riesgo_por_ecorregion.csv"
+    descripcion: "95 supersections CONUS × 6 métricas (fire/drought/insect × histórico/con clima)"
+    fuente: "Source Data Fig. 1 (MOESM2)"
+  - nombre: "buffer_por_proyecto.csv"
+    descripcion: "116 proyectos CARB: buffer asignado vs riesgo natural + breakdown"
+    fuente: "Source Data Fig. 3 (MOESM4)"
+  - nombre: "escenarios_buffer.csv"
+    descripcion: "Buffer requerido por escenario SSP × cobertura, MtCO₂e"
+    fuente: "Source Data Fig. 3e (MOESM4)"
+  - nombre: "factor_subdimensionamiento.csv"
+    descripcion: "Factor de subdimensionamiento en 7 escenarios de sensibilidad"
+    fuente: "Source Data Fig. 4 (MOESM5)"
+estado: publicado

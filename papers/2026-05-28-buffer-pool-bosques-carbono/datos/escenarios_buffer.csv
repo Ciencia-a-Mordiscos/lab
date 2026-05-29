@@ -1,0 +1,7 @@
+scenario,coverage,required_without_climate_MtCO2e,required_with_climate_MtCO2e,carb_actual_total_MtCO2e,carb_actual_natural_only_MtCO2e
+Primary SSP2-4.5,Total carbon,71.3,123.8,23.5,13.3
+Primary SSP3-7.0,Total carbon,71.3,149.1,23.5,13.3
+Primary SSP5-8.5,Total carbon,71.3,167.3,23.5,13.3
+Primary SSP2-4.5,Credited carbon only,55.4,82.4,23.5,13.3
+Primary SSP3-7.0,Credited carbon only,55.4,93,23.5,13.3
+Primary SSP5-8.5,Credited carbon only,55.4,98.7,23.5,13.3
