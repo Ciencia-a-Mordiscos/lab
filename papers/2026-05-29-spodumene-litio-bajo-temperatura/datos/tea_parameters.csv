@@ -1,0 +1,15 @@
+parametro,proceso_NH4F,proceso_H2SO4_incumbente,unidad
+escala_produccion,30000,25840,toneladas_LCE_por_anio
+costo_capital_estimado,,226000000,USD
+costo_spodumene,500,500,USD_por_tonelada
+costo_reactivo_principal,400,,USD_por_tonelada_NH4F
+costo_reactivos_totales,,1498,USD_por_tonelada_LCE
+costo_energia,11,11,USD_por_GJ
+costo_energia_kwh,0.04,0.04,USD_por_kWh
+recaptura_calor,30,30,porcentaje
+contingencia,20,20,porcentaje_CAPEX
+costos_indirectos,5,5,porcentaje_CAPEX
+periodo_depreciacion,25,25,anios
+admin_general,90,90,USD_por_tonelada_LCE
+disposicion_residuos,,100,USD_por_tonelada
+temperatura_reaccion,100,1000,grados_C

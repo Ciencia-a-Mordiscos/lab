@@ -706,6 +706,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-05-29-spodumene-litio-bajo-temperatura/README
+    title: "Litio para baterías sin tostar la roca"
+    sections:
+    - file: papers/2026-05-29-spodumene-litio-bajo-temperatura/notebook
+      title: Notebook
   - file: papers/2026-05-28-miniproteinas-gpcr-diseno-de-novo/README
     title: "Diseñaron una proteína desde cero. Funcionó en un ratón vivo"
     sections:

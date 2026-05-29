@@ -1,0 +1,7 @@
+producto,formula,rendimiento_pct,pureza_pct,tipo
+Li_disuelto,Li+,100,,intermediario
+Hexafluoroaluminato_amonio,(NH4)3AlF6,97,,intermediario
+Silice_amorfa,SiO2,100,,producto_final
+Fluoruro_litio,LiF,79,,intermediario
+Nitrato_litio,LiNO3,97,,intermediario
+Carbonato_litio,Li2CO3,,99.0,producto_final

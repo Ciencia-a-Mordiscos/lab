@@ -1,0 +1,12 @@
+paso,etapa,reaccion_corta,delta_H_kJ_mol,tipo
+1,procesado_silicato,Regeneracion reactivo (NH4HF2 ↔ NH4F + NH3),90,endotermica
+2,procesado_silicato,Digestion spodumene (LiAl(SiO3)2 + NH4HF2),-8876,exotermica
+3,procesado_silicato,Recuperacion silice ((NH4)2SiF6 → SiO2),-276,exotermica
+4,upgrading_litio,Concentracion Li (LiF·HF formacion),-275,exotermica
+5,upgrading_litio,Recuperacion LiF (precipitacion),-239,exotermica
+5b,upgrading_litio,Recuperacion LiF (paso 2),-90,exotermica
+6,upgrading_litio,Defluorinacion LiF + HNO3 → LiNO3 + HF,-33,exotermica
+7,upgrading_litio,Descomposicion LiNO3 → Li2O + NOx + O2,434,endotermica
+8,upgrading_litio,Hidratacion Li2O → LiOH,-86,exotermica
+9,upgrading_aluminio,Pirohidrolisis (NH4)3AlF6 → Al2O3,1815,endotermica
+10,upgrading_aluminio,Recuperacion NH4F (HF + NH3 → NH4F),-121,exotermica

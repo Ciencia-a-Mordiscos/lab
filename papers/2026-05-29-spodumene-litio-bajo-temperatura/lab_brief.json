@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "paper_id": 2564,
+  "doi": "10.1126/science.aec4652",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El proceso opera a menos de 100 °C vs >1.000 °C del incumbente",
+      "supported": "yes",
+      "detail": "Tabla S5: 100 °C vs 1.000 °C — diferencia categórica entre hidro y pirometalurgia",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "factor",
+        "value": 12.35,
+        "interpretation": "huge"
+      }
+    },
+    {
+      "claim": "Recuperación de litio mediana del 99% en 17 muestras de 4 países",
+      "supported": "yes",
+      "detail": "Tabla S7: n=17, mediana 99%, rango 95-103%, 17/17 ≥95%",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "yield_mediana_pct",
+        "value": 99.0,
+        "interpretation": "alto"
+      }
+    },
+    {
+      "claim": "Pureza del Li2CO3 producido equivale o supera al estándar comercial",
+      "supported": "yes",
+      "detail": "99 ± 0,6% vs Alfa Aesar 99,999% (medido en 98,9%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "pureza_wt_pct",
+        "value": 99.0,
+        "interpretation": "equivalente"
+      }
+    },
+    {
+      "claim": "Balance termodinámico neto exotérmico explica la baja temperatura operativa",
+      "supported": "yes",
+      "detail": "11 reacciones balanceadas: 8 exo + 3 endo, ΔH neto -7.657 kJ/mol",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "delta_H_neto_kJ_mol",
+        "value": -7657,
+        "interpretation": "exotérmico"
+      }
+    },
+    {
+      "claim": "El reactivo (NH4F) se regenera en el circuito cerrado",
+      "supported": "yes",
+      "detail": "Tabla S4: paso 1 y paso 10 cierran el ciclo del NH4F",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "perdida_pct_ciclo",
+        "value": 1.0,
+        "interpretation": "near-zero-waste"
+      }
+    },
+    {
+      "claim": "Producción de 3 commodities (Li2CO3, Al2O3, SiO2) en un solo proceso",
+      "supported": "yes",
+      "detail": "Yields experimentales: 100% Si, 97% (NH4)3AlF6, 99% Li2CO3",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "n_productos_comerciales",
+        "value": 3,
+        "interpretation": "multi-producto"
+      }
+    },
+    {
+      "claim": "El proceso podría reducir el costo de producción de litio en más del 40%",
+      "supported": "partial",
+      "detail": "TEA indica 'may reduce' — proyección sin planta piloto. Asume NH4F a 400 USD/t con 1% pérdida/ciclo",
+      "certainty_tier": "T3",
+      "abstract_verb": "may reduce",
+      "effect_size": {
+        "measure": "reduccion_costo_pct",
+        "value": 40,
+        "interpretation": "T3 proyectivo"
+      }
+    },
+    {
+      "claim": "El proceso habilitaría paridad de costo con salmueras",
+      "supported": "partial",
+      "detail": "Mismo origen TEA — sin planta piloto que confirme",
+      "certainty_tier": "T2",
+      "abstract_verb": "enable",
+      "effect_size": {
+        "measure": "cost_parity",
+        "value": null,
+        "interpretation": "T2 hedge"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 99,
+      "unit": "por ciento",
+      "context": "recuperación mediana de litio en 17 muestras",
+      "source": "csv_process_generality",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "98–100%",
+        "our_calculation": "99%",
+        "discrepancy_pct": 0.0,
+        "reason": "consistente"
+      }
+    },
+    {
+      "value": 100,
+      "unit": "grados Celsius",
+      "context": "temperatura máxima operativa del proceso NH4F",
+      "source": "abstract + tabla_S5",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "<100°C",
+        "our_calculation": "<100°C",
+        "discrepancy_pct": 0.0,
+        "reason": "literal"
+      }
+    },
+    {
+      "value": 1000,
+      "unit": "grados Celsius",
+      "context": "temperatura mínima del proceso convencional",
+      "source": "abstract + tabla_S5",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": ">1000°C",
+        "our_calculation": ">1000°C",
+        "discrepancy_pct": 0.0,
+        "reason": "literal"
+      }
+    },
+    {
+      "value": 17,
+      "unit": "muestras",
+      "context": "n total testeado para generalidad geográfica",
+      "source": "csv_process_generality",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "17",
+        "our_calculation": "17",
+        "discrepancy_pct": 0.0,
+        "reason": "conteo directo"
+      }
+    },
+    {
+      "value": 4,
+      "unit": "países",
+      "context": "Australia, USA, Brasil, Canadá",
+      "source": "csv_process_generality",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "4",
+        "our_calculation": "4",
+        "discrepancy_pct": 0.0,
+        "reason": "conteo directo"
+      }
+    },
+    {
+      "value": -7657,
+      "unit": "kJ/mol",
+      "context": "balance termodinámico neto de las 11 reacciones",
+      "source": "csv_reaction_thermodynamics",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-7657",
+        "our_calculation": "-7657",
+        "discrepancy_pct": 0.0,
+        "reason": "suma directa"
+      }
+    },
+    {
+      "value": 11,
+      "unit": "reacciones",
+      "context": "balanceadas en el closed-loop (8 exo + 3 endo)",
+      "source": "csv_reaction_thermodynamics",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "11",
+        "our_calculation": "11",
+        "discrepancy_pct": 0.0,
+        "reason": "conteo directo"
+      }
+    },
+    {
+      "value": 40,
+      "unit": "por ciento",
+      "context": "reducción de costo proyectada por TEA",
+      "source": "abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": ">40%",
+        "our_calculation": ">40%",
+        "discrepancy_pct": 0.0,
+        "reason": "T3 proyección sin medición"
+      }
+    },
+    {
+      "value": 99,
+      "unit": "por ciento",
+      "context": "pureza del Li2CO3 producido (vs Alfa Aesar 98,9% medido)",
+      "source": "tabla_S2_paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "99 ± 0.6%",
+        "our_calculation": "99% en csv",
+        "discrepancy_pct": 0.0,
+        "reason": "incertidumbre del paper, no del CSV"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "indicates",
+      "tier": "T2",
+      "cam_attenuator": "el análisis sugiere"
+    },
+    {
+      "abstract_verb": "may reduce",
+      "tier": "T3",
+      "cam_attenuator": "podría reducir / apuntaría a reducir"
+    },
+    {
+      "abstract_verb": "enable",
+      "tier": "T2",
+      "cam_attenuator": "habilitaría / permitiría"
+    }
+  ],
+  "narrative_hooks": [
+    "Para sacar litio de su mineral más abundante hay que cocinarlo a más de 1.000 °C — un equipo del MIT lo acaba de hacer a menos de 100 °C.",
+    "El espodumeno reacciona con NH4F liberando ~8.876 kJ/mol — tanto calor que el proceso completo es exotérmico neto sin necesidad de horno externo.",
+    "17 muestras de 4 países, 13 tipos de feedstock, recuperación mediana de litio del 99%."
+  ],
+  "limitations": [
+    "El experimento principal corre a escala de laboratorio (~30 kg); no hay planta piloto que valide el escalamiento a 30.000 toneladas/año asumido en el TEA.",
+    "Los yields >100% en Al (hasta 132%) y Si (hasta 103%) son artefactos de inhomogeneidad del feedstock — el paper lo anota explícitamente, no son medición de exceso real.",
+    "La reducción de costo >40% asume NH4F a 400 USD/t con 1% pérdida por ciclo; el análisis de sensibilidad muestra que un reactivo a 1.500 USD/t o pérdida del 5% comprime los márgenes.",
+    "La pureza del Al2O3 (98,58%) es cota inferior: 12 de 39 óxidos quedaron por debajo del límite de detección por activación neutrónica."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "6 claims yes (T1) + 2 claims partial (T2/T3) → contraste denso T1 vs T3 requiere espacio para hedge"
+  },
+  "notebook_slug": "2026-05-29-spodumene-litio-bajo-temperatura",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-29-spodumene-litio-bajo-temperatura/notebook.html",
+  "generated_at": "2026-05-29T18:10:29.356912Z"
+}

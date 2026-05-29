@@ -1,0 +1,37 @@
+titulo: "Litio para baterías sin tostar la roca"
+fecha: 2026-05-29
+categoria: tecnología
+tags: [litio, baterías, química, espodumeno, materiales, TEA, MIT, Rock Zero, NH4F, hidrometalurgia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec4652"
+    titulo: "Valorization of lithium hardrock concentrates into battery raw materials and commodity products"
+    journal: Science
+    autores: "Mowbray et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "yields_experimento_principal.csv"
+    descripcion: "Rendimiento de los 6 intermediarios/productos del proceso principal"
+    fuente: "Materials & Methods del Supplementary"
+  - nombre: "process_generality.csv"
+    descripcion: "17 muestras de 4 países, yields Li/Al/Si vs grado Li₂O"
+    fuente: "Tabla S7"
+  - nombre: "reaction_thermodynamics.csv"
+    descripcion: "11 reacciones balanceadas del closed-loop con ΔH° (kJ/mol)"
+    fuente: "Tabla S4"
+  - nombre: "feedstock_composition.csv"
+    descripcion: "36 elementos del espodumeno feedstock (mayores en wt%, menores en ppm)"
+    fuente: "Tabla S1"
+  - nombre: "alumina_purity.csv"
+    descripcion: "Composición del Al₂O₃ por activación neutrónica (39 óxidos, 12 below detection)"
+    fuente: "Tabla S2"
+  - nombre: "tea_parameters.csv"
+    descripcion: "Parámetros TEA NH₄F vs H₂SO₄ incumbente (head-to-head)"
+    fuente: "Tablas S3 + S5"
+  - nombre: "sensitivity_inputs.csv"
+    descripcion: "Rangos low/median/high de 5 parámetros TEA para sensitivity analysis"
+    fuente: "Tabla S6"
+estado: publicado

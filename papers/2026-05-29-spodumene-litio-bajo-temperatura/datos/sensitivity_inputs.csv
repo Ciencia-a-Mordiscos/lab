@@ -1,0 +1,6 @@
+parametro,low,median,high,unidad
+costo_spodumene,200,500,1500,usd_por_tonelada
+costo_nh4f,500,400,1500,usd_por_tonelada
+perdida_nh4f_por_ciclo,0.1,1,5,porcentaje
+costo_energia,0.02,0.04,0.10,usd_por_kWh
+recaptura_calor,10,30,50,porcentaje
