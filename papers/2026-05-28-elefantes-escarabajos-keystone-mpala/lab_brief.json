@@ -1,0 +1,159 @@
+{
+  "version": "1.0",
+  "paper_id": 2566,
+  "doi": "10.1126/science.aeb7062",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "multiple",
+  "verification_table": [
+    {
+      "claim": "El elefante es la especie más conectada de la red trófica de Mpala (88 especies de escarabajos)",
+      "supported": "yes",
+      "detail": "Degree 88 vs cebra 63 (ratio 1,40×). Eigenvector centrality 1,00 vs 0,61 del resto. Datos del paper, transcritos al CSV red_centralidad.csv",
+      "certainty_tier": "T1",
+      "abstract_verb": "show that elephants are central",
+      "effect_size": {
+        "measure": "ratio_centrality",
+        "value": 1.4,
+        "interpretation": "fuerte"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Excluir elefantes 15 años redujo abundancia, riqueza y biomasa de escarabajos",
+      "supported": "yes",
+      "detail": "Open vs Mega: −67% abundancia (GLMM β=−0,93, Z=−4,65, P<0,001), −22% riqueza, −51% biomasa. Datos de exclusion_experimento.csv (Tabla S6)",
+      "certainty_tier": "T1",
+      "abstract_verb": "diminished",
+      "effect_size": {
+        "measure": "pct_change",
+        "value": -67.1,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Excluir el resto de herbívoros tuvo poco efecto adicional",
+      "supported": "yes",
+      "detail": "Mega vs Total: −8% abundancia (Padj=0,55), −15% riqueza (Padj=0,10) — no significativo. Datos de exclusion_experimento.csv",
+      "certainty_tier": "T1",
+      "abstract_verb": "had little added effect",
+      "effect_size": {
+        "measure": "pct_change",
+        "value": -7.9,
+        "interpretation": "pequeño/no sig"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Donde el ganado desplazó elefantes, hay menos escarabajos peloteros",
+      "supported": "partial",
+      "detail": "Mpala 590 vs Koija 178 (−70%) vs Lekiji 54 (−91%). OBSERVACIONAL — no manipulación experimental del ganado. Datos de sitios_comparacion.csv (Tabla S13). Usar lenguaje no causal",
+      "certainty_tier": "T2",
+      "abstract_verb": "was depressed",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 10.9,
+        "interpretation": "fuerte asociación"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Un elefante equivale a 1.594 ungulados pequeños en aporte de heces (community importance per cápita)",
+      "supported": "yes",
+      "detail": "Elefante 127,5 vs ungulados <1.000 kg 0,08 (ratio 1.594×). Métrica community importance per cápita, Tabla S16",
+      "certainty_tier": "T1",
+      "abstract_verb": "affirm",
+      "effect_size": {
+        "measure": "ratio_per_capita",
+        "value": 1593.75,
+        "interpretation": "extremo"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 67,
+      "unit": "por ciento",
+      "context": "caída abundancia escarabajos al excluir elefantes 15 años (UHURU)",
+      "source": "exclusion_experimento.csv, Tabla S6",
+      "verified": true
+    },
+    {
+      "value": 88,
+      "unit": "especies de escarabajos",
+      "context": "degree del elefante en la red trófica de Mpala (cebra=63, ratio 1,40×)",
+      "source": "herbivoros_dung.csv y red_centralidad.csv",
+      "verified": true
+    },
+    {
+      "value": 1594,
+      "unit": "ungulados <1.000 kg",
+      "context": "1 elefante equivale a 1.594 ungulados pequeños en community importance per cápita",
+      "source": "keystone_metrics.csv, Tabla S16",
+      "verified": true
+    },
+    {
+      "value": 11,
+      "unit": "veces",
+      "context": "Mpala (silvestre) tiene 11× más escarabajos predichos que Lekiji (sitio con ganado) — observacional",
+      "source": "sitios_comparacion.csv, Tabla S13",
+      "verified": true
+    },
+    {
+      "value": 9114,
+      "unit": "escarabajos peloteros",
+      "context": "total capturados en Mpala 2021–2023; 179 especies probables identificadas",
+      "source": "headline del paper §1",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show that elephants are central",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'los elefantes son centrales'"
+    },
+    {
+      "abstract_verb": "diminished",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'redujo'"
+    },
+    {
+      "abstract_verb": "had little added effect",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'apenas movió la aguja'"
+    },
+    {
+      "abstract_verb": "was depressed (sitios livestock)",
+      "tier": "T2",
+      "cam_attenuator": "OBSERVACIONAL: 'donde el ganado desplazó elefantes, hay menos escarabajos' — NO 'el ganado redujo'"
+    },
+    {
+      "abstract_verb": "affirm (keystone)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'confirman'"
+    }
+  ],
+  "narrative_hooks": [
+    "Quita los elefantes y se cae el 67% de los escarabajos peloteros — el resto de herbívoros apenas mueve la aguja",
+    "Un solo elefante aporta más heces a la comunidad que 1.594 ungulados pequeños juntos",
+    "El elefante atrae a 88 especies de escarabajos. La cebra, segunda, atrae a 63. Después se desploma",
+    "15 años de experimento en Kenia: la primera prueba directa de que un keystone de verdad existe"
+  ],
+  "limitations": [
+    "El experimento de exclusión está en una sola zona (Mpala, Laikipia). Generalizar a otras sabanas requiere asumir redes tróficas similares — el paper lo discute.",
+    "Las parcelas UHURU miden 4 ha; los elefantes recorren cientos de km² al año.",
+    "La comparación Mpala / Koija / Lekiji es observacional, no causal.",
+    "Métrica Si/Smax agrega 9 actores heterogéneos (incluye humano y ganado); n pequeño para hablar de distribuciones."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims yes/partial + 5 números clave; estándar para shorts de paper experimental con caveat observacional"
+  },
+  "notebook_slug": "2026-05-28-elefantes-escarabajos-keystone-mpala",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-28-elefantes-escarabajos-keystone-mpala/notebook.html",
+  "generated_at": "2026-05-29T17:47:25.055841Z"
+}

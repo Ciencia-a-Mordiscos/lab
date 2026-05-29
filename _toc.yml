@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-05-28-elefantes-escarabajos-keystone-mpala/README
+    title: "Quita los elefantes: pierdes el 67% de los escarabajos peloteros"
+    sections:
+    - file: papers/2026-05-28-elefantes-escarabajos-keystone-mpala/notebook
+      title: Notebook
   - file: papers/2026-05-28-ciclones-tropicales-co2-oceano/README
     title: "Los huracanes liberan menos CO₂ del que creíamos"
     sections:

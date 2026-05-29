@@ -1,0 +1,4 @@
+sitio,tipo_uso,abundancia_predicha,intercept_glmm,se_glmm,pile_count_intercept,total_dung_mass_g
+Mpala,wildlife_friendly,589.9,6.38,0.08,18.36,4312.4
+Koija,livestock_dominated,177.7,5.18,0.16,40.45,1475.0
+Lekiji,livestock_dominated,54.1,3.99,0.25,27.11,1371.1

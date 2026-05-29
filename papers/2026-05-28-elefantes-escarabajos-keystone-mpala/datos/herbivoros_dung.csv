@@ -1,0 +1,10 @@
+herbivoro,herbivoro_es,masa_kg,gut_type,iucn_status,beetle_abundance,beetle_richness,ni_nmax,ni_nmax_se,si_smax,si_smax_se,d_dung,d_dung_p
+Elephant,Elefante,4565,NR,EN,1860,88,0.07,0.02,0.30,0.03,0.09,0.001
+Giraffe,Jirafa,800,R,VU,76,32,0.003,0.001,0.05,0.01,0.31,0.001
+Buffalo,Búfalo,646,R,NT,157,30,0.01,0.001,0.07,0.01,0.19,0.001
+Cattle,Ganado,619,R,DOM,155,37,0.01,0.002,0.07,0.01,0.20,0.001
+Plains zebra,Cebra,290,NR,NT,1253,63,0.05,0.02,0.14,0.03,0.32,0.001
+Kudu,Kudú,206,R,LC,139,44,0.01,0.001,0.08,0.01,0.21,0.001
+Impala,Impala,52.5,R,LC,186,40,0.01,0.002,0.09,0.02,0.15,0.001
+Dik-dik,Dik-dik,4.6,R,LC,157,46,0.01,0.002,0.08,0.01,0.26,0.001
+Human,Humano,,NR,,248,33,0.01,0.003,0.10,0.02,0.37,0.001

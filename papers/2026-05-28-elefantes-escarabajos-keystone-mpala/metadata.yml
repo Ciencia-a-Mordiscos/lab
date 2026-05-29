@@ -1,0 +1,31 @@
+titulo: "Quita los elefantes: pierdes el 67% de los escarabajos peloteros"
+fecha: 2026-05-28
+categoria: ecologia
+tags: [elefantes, keystone-species, escarabajos-peloteros, megafauna, kenia, mpala, biodiversidad, redes-troficas]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb7062"
+    titulo: "Importance of elephants for dung beetle biodiversity and ecosystem functions"
+    journal: Science
+    autores: "Pringle et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "herbivoros_dung.csv"
+    descripcion: "9 actores con métricas de centralidad de red trófica"
+    fuente: "Supplementary Information (red trófica §2.4d)"
+  - nombre: "exclusion_experimento.csv"
+    descripcion: "3 tratamientos UHURU con abundancia, riqueza, biomasa"
+    fuente: "Supplementary Information Tabla S6"
+  - nombre: "sitios_comparacion.csv"
+    descripcion: "Mpala vs Koija vs Lekiji — predicciones GLMM"
+    fuente: "Supplementary Information Tabla S13"
+  - nombre: "keystone_metrics.csv"
+    descripcion: "Community importance per capita por grupo"
+    fuente: "Supplementary Information Tabla S16"
+  - nombre: "red_centralidad.csv"
+    descripcion: "Métricas agregadas elefante vs promedio del resto"
+    fuente: "Supplementary Information (red trófica §2.4d)"
+estado: publicado
