@@ -1,0 +1,28 @@
+titulo: "Memoria inflamatoria en células madre humanas"
+fecha: 2026-05-29
+categoria: medicina
+tags: [hematopoyesis, celulas-madre, inflamacion, memoria-epigenetica, hematopoyesis-clonal]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10522-7"
+    titulo: "Human haematopoietic stem cells remember inflammatory stress"
+    journal: Nature
+    autores: "Schaerli et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "hsc_frecuencia_inflamacion.csv"
+    descripcion: "Frecuencia de HSCs en xenograft humano tras PBS/TNFα/LPS (Fig 1g)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "firma_lthsc_por_subset.csv"
+    descripcion: "Score de firma LT-HSC en RNA-seq y ATAC-seq por subset (Fig 2c/2d)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "clonal_haematopoiesis_hscim.csv"
+    descripcion: "HSC-iM AUC mediana en cohorte humana CH vs control (Fig 4h)"
+    fuente: "Supplementary Materials del paper"
+  - nombre: "hscim_sangre_periferica_efectos.csv"
+    descripcion: "Effect sizes de programas HSC-I/HSC-iM en sangre periférica (Fig 5j)"
+    fuente: "Supplementary Materials del paper"
+estado: publicado

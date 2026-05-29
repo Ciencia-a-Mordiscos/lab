@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "paper_id": 2547,
+  "doi": "10.1038/s41586-026-10522-7",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El estrés inflamatorio (TNFα, LPS) reduce la frecuencia de HSCs en xenografts humanos",
+      "supported": "yes",
+      "detail": "Fig 1g — mediana PBS 39,5% → TNFα 19,2% (−55% en medias, d=1,93, p=3,3e-05) → LPS 11,7% (−69% en medias, d=2,53, p=1e-05). 14-15 réplicas por brazo, 3 donantes CB1-CB3; los 3 donantes responden en la misma dirección.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibited",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.53,
+        "interpretation": "muy grande (LPS); 1.93 grande (TNFα)"
+      }
+    },
+    {
+      "claim": "Las HSCs sobrevivientes se dividen en dos subsets transcripcional y epigenéticamente distintos: HSC-I clásica + HSC-II/HSC-iM con memoria inflamatoria",
+      "supported": "yes",
+      "detail": "Fig 2c/2d — score firma LT-HSC RNA: HSC-I=1,00 vs HSC-II=0,49; ATAC: HSC-I=0,69 vs HSC-II=0,51; HSC-II preserva identidad LT-HSC mientras LMPP-II la pierde (−1,06). HSC-II es HSC bona fide, no progenitor desviado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "effect_size": null
+    },
+    {
+      "claim": "El programa HSC-iM se enriquece en personas con hematopoyesis clonal (CH) y se asocia con la carga mutacional",
+      "supported": "partial",
+      "detail": "Fig 4h — Control n=4, CH n=9: AUC mediana 0,214 vs 0,319 (+49%, d=1,40, p=0,017 Mann-Whitney). Spearman ρ(fracción mutante BM, HSC-iM AUC) = 0,73 (p=0,005, n=13). Observacional — asociación, no causalidad bidireccional. Mutaciones representadas: DNMT3A=5, TET2=3, DNMT3A+TET2=1.",
+      "certainty_tier": "T2",
+      "abstract_verb": "enriched",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.4,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El programa HSC-iM transmite su huella inflamatoria a células de sangre periférica",
+      "supported": "yes",
+      "detail": "Fig 5j (cohorte joven) — effect size programa HSC-iM positivo en B cell (+0,89, p≈10⁻³·³), Naive T (+0,97, p≈10⁻²·⁵) y DC (+0,81); programa HSC-I negativo en CD16 Mono (−1,33, p≈10⁻³·³) y NK (−1,11). Patrón inverso entre los dos programas — la huella llega a la periferia con dos lados opuestos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "associated",
+      "effect_size": null
+    },
+    {
+      "claim": "El enriquecimiento de HSC-iM en sangre periférica se asocia con riesgo elevado de mortalidad por todas las causas en cohortes poblacionales",
+      "supported": "partial",
+      "detail": "Reportado por el paper en cohortes poblacionales (Ontario Health Study). Datos crudos restringidos — no graficamos en el notebook. Asociación, NO causalidad — usar 'se asocia con riesgo', nunca 'predice' ni 'causa'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "associated",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "39,5%",
+      "unit": "frecuencia mediana",
+      "context": "HSCs en xenograft tras PBS (control)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "39,5%",
+        "our_calculation": "39,47%",
+        "discrepancy_pct": 0.0,
+        "reason": "mediana directa del CSV"
+      }
+    },
+    {
+      "value": "19,2%",
+      "unit": "frecuencia mediana",
+      "context": "HSCs tras TNFα",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "19,2%",
+        "our_calculation": "19,19%",
+        "discrepancy_pct": 0.0,
+        "reason": "mediana directa del CSV"
+      }
+    },
+    {
+      "value": "11,7%",
+      "unit": "frecuencia mediana",
+      "context": "HSCs tras LPS",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "11,7%",
+        "our_calculation": "11,73%",
+        "discrepancy_pct": 0.0,
+        "reason": "mediana directa del CSV"
+      }
+    },
+    {
+      "value": "55%",
+      "unit": "por ciento de reducción (medias)",
+      "context": "TNFα vs PBS, Cohen's d=1,93, p=3,3e-05",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "55%",
+        "our_calculation": "54,8%",
+        "discrepancy_pct": 0.4,
+        "reason": "media TNFα/media PBS, redondeo"
+      }
+    },
+    {
+      "value": "69%",
+      "unit": "por ciento de reducción (medias)",
+      "context": "LPS vs PBS, Cohen's d=2,53, p=1e-05",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "69%",
+        "our_calculation": "69,3%",
+        "discrepancy_pct": 0.4,
+        "reason": "media LPS/media PBS, redondeo"
+      }
+    },
+    {
+      "value": "49%",
+      "unit": "por ciento de aumento en mediana",
+      "context": "HSC-iM AUC en CH vs Control (médula ósea humana), Cohen's d=1,40, p=0,017",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "49%",
+        "our_calculation": "49,1%",
+        "discrepancy_pct": 0.0,
+        "reason": "delta de medianas"
+      }
+    },
+    {
+      "value": "0,73",
+      "unit": "Spearman ρ",
+      "context": "fracción mutante BM vs HSC-iM AUC (n=13, p=0,005)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0,73 (n=14)",
+        "our_calculation": "0,73 (n=13)",
+        "discrepancy_pct": 0.0,
+        "reason": "el CSV tiene 13 sujetos; el paper menciona n=14 (un sujeto adicional no presente en el CSV reproducible)"
+      }
+    },
+    {
+      "value": "+0,97",
+      "unit": "effect size en sangre periférica",
+      "context": "programa HSC-iM en Naive T cell, cohorte joven, p≈10⁻²·⁵",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": "+0,89",
+      "unit": "effect size en sangre periférica",
+      "context": "programa HSC-iM en B cell, cohorte joven, p≈10⁻³·³",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": "−1,33",
+      "unit": "effect size en sangre periférica",
+      "context": "programa HSC-I en CD16 Monocyte, cohorte joven, p≈10⁻³·³",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "developed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "identified",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "exhibited",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "enriched",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "associated",
+      "tier": "T2",
+      "cam_attenuator": "'se asocia con' — NO 'predice' ni 'causa'. Cohorte observacional."
+    },
+    {
+      "abstract_verb": "contributing",
+      "tier": "T2",
+      "cam_attenuator": "'contribuyendo a' — atenuador obligatorio"
+    }
+  ],
+  "narrative_hooks": [
+    "Una infección aguda termina. Pero ¿deja huella en las células madre que fabrican toda tu sangre?",
+    "TNFα reduce la frecuencia de HSCs a la mitad; LPS a una tercera parte — y las sobrevivientes guardan memoria del estrés",
+    "El programa HSC-iM aparece amplificado +49% en hematopoyesis clonal humana — la huella llega a personas con clones mutantes en médula"
+  ],
+  "limitations": [
+    "El xenograft es buen modelo de identidad HSC humana pero no replica todo el nicho de médula adulta",
+    "Cohorte CH tiene 13 sujetos y mezcla mutaciones (TET2, DNMT3A, doble) — no se puede separar el efecto por gen",
+    "Cohorte sangre joven es donadora sana sin historia clínica detallada — la huella 'joven' no incluye estrés agudo previo conocido",
+    "Asociación HSC-iM ↔ mortalidad es observacional poblacional (Ontario Health Study). NO causalidad — usar 'se asocia con riesgo'"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims 'yes' + 1 'partial' verificados; 10 números clave"
+  },
+  "notebook_slug": "2026-05-29-celulas-madre-memoria-inflamatoria",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-29-celulas-madre-memoria-inflamatoria/notebook.html",
+  "generated_at": "2026-05-29T05:32:47.489995Z"
+}

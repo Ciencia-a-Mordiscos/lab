@@ -322,6 +322,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-05-29-celulas-madre-memoria-inflamatoria/README
+    title: "Memoria inflamatoria en células madre humanas"
+    sections:
+    - file: papers/2026-05-29-celulas-madre-memoria-inflamatoria/notebook
+      title: Notebook
   - file: papers/2026-05-22-organoides-intestino-funcional-ens/README
     title: "Hicieron crecer un intestino humano de 8 cm. En 10 semanas"
     sections:

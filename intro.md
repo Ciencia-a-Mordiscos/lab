@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Memoria inflamatoria en células madre humanas
+
+**Medicina** · *Nature* · ¿Una infección que ya pasó deja huella en las células que fabrican tu sangre? Schaerli et al. (2026) trasplantaron células madre hematopoyéticas humanas a ratones, las expusieron a TNFα o LPS, esperaron la recuperación — y encontraron dos subpoblaciones. Bajamos las 4 tablas de Source Data (Figs 1g, 2c/2d, 4h, 5j) y las desmenuzamos. **Acto 1:** TNFα reduce la frecuencia de HSCs un **55 %** (medias) y LPS un **69 %** (Cohen's d = 1,9 y 2,5; Mann-Whitney p ≤ 10⁻⁴; 14-15 réplicas por brazo, 3 donantes). **Acto 2:** las sobrevivientes incluyen una subpoblación, **HSC-iM**, que preserva la firma LT-HSC en RNA y cromatina (RNA: 1,00 vs 0,49 vs 0,69) — es HSC bona fide, no progenitor desviado. **Acto 3:** el programa HSC-iM se enriquece **+49 %** en personas con hematopoyesis clonal (n=13, p=0,017, d=1,40) y correlaciona con la carga mutacional (Spearman ρ=0,73, p=0,005). En sangre periférica, el programa llega a linfocitos B (+0,89) y T naive (+0,97) — la huella circula. ⚠️ Las cohortes humanas son **observacionales**: asociación, no causalidad. ⚠️ n=13 en CH mezcla mutaciones (TET2, DNMT3A, doble) — no separable por gen. ⚠️ El claim de mortalidad de cohorte poblacional usa datos restringidos (Ontario Health Study) — no graficamos.
+
+[Ver notebook](papers/2026-05-29-celulas-madre-memoria-inflamatoria/notebook) · [Leer más](papers/2026-05-29-celulas-madre-memoria-inflamatoria/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-29-celulas-madre-memoria-inflamatoria/notebook.ipynb)
+
 ### La Antártida occidental se derritió antes — y dejó su firma en el polvo
 
 22 muestras Sr/Nd de un núcleo en Allan Hills (Antártida) muestran que el polvo cambió de fuente entre el último glacial y el último interglacial: 67% de muestras MIS 5e con firma volcánica antártica local vs solo 10% en MIS 6.
