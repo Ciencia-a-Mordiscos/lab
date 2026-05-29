@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "paper_id": 2545,
+  "doi": "10.1038/s41561-026-01988-1",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El polvo de MIS 6 viene principalmente de Sudamérica",
+      "supported": "yes",
+      "detail": "8/10 muestras MIS 6 con εNd ≤ -2, rango típico de Sudamérica. εNd medio MIS 6 = -2,58 vs -0,61 en MIS 5e.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.68,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "En MIS 5e aparece una fuente volcánica antártica local (sector McMurdo/Erebus/Marie Byrd Land)",
+      "supported": "yes",
+      "detail": "6/9 muestras MIS 5e (67%) con εNd > 0, compatible con Erebus (+5,2), MBL (+4,8), McMurdo Sound (+3,1). En MIS 6 solo 1/10 (10%).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "frecuencia",
+        "value": 0.67,
+        "interpretation": "cambio dominante de fuente"
+      }
+    },
+    {
+      "claim": "El argumento se basa en cambio de fuente dominante, no en diferencia de medias significativa",
+      "supported": "partial",
+      "detail": "Mann-Whitney entre medias εNd da p=0,18 — NO significativa al 0,05. Cohen's d = +0,68 (medio). El paper lo enmarca como cambio de frecuencia/fuente dominante.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggests",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.68,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "MIS 5e fue más cálido que MIS 6",
+      "supported": "yes",
+      "detail": "δD ~35‰ más positivo en MIS 5e (-292,8‰) vs MIS 6 (-328,3‰). Consistente con interglacial vs glacial.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "diff_absolute",
+        "value": 35.5,
+        "interpretation": "muy alto"
+      }
+    },
+    {
+      "claim": "Hubo 3× más polvo en MIS 6 que en MIS 5e",
+      "supported": "yes",
+      "detail": "Polvo medio MIS 6 = 306 ng/g (pico 1.009 ng/g) vs 101 ng/g en MIS 5e. Mann-Whitney p=0,046.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 3.0,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El Ross Ice Shelf colapsó y la Antártida occidental perdió hielo durante MIS 5e",
+      "supported": "partial",
+      "detail": "Inferencia del paper basada en cambio de fuente del polvo + simulaciones ESM. NO es medición directa de pérdida de hielo. El paper usa 'suggests' y 'possible'.",
+      "certainty_tier": "T3",
+      "abstract_verb": "suggests / possible",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 22,
+      "unit": "muestras",
+      "context": "muestras Sr/Nd del núcleo ALHIC1903 (Allan Hills, Antártida)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "119,3-146,8",
+      "unit": "ka",
+      "context": "rango de edad del núcleo (cubre Termination II ~129 ka)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 67,
+      "unit": "por ciento",
+      "context": "6/9 muestras MIS 5e con firma volcánica antártica (εNd > 0)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "por ciento",
+      "context": "1/10 muestras MIS 6 con firma volcánica antártica",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 3.0,
+      "unit": "ratio",
+      "context": "polvo MIS 6 (306 ng/g) / polvo MIS 5e (101 ng/g)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1009,
+      "unit": "ng/g",
+      "context": "pico máximo de polvo durante MIS 6",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 35.5,
+      "unit": "permil",
+      "context": "diferencia de δD entre MIS 5e y MIS 6 (proxy de temperatura)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": "5-10",
+      "unit": "metros",
+      "context": "estimación del nivel del mar más alto durante MIS 5e (dato externo, no derivado de estos datos)",
+      "source": "abstract_paper",
+      "verified": true
+    },
+    {
+      "value": 0.68,
+      "unit": "cohen_d",
+      "context": "tamaño del efecto entre εNd MIS 5e vs MIS 6 (medio)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.18,
+      "unit": "p_value",
+      "context": "Mann-Whitney U entre medias εNd MIS 5e vs MIS 6 (NO significativa)",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "\"presentan\" / \"construyeron\" — afirmación directa del aporte"
+    },
+    {
+      "abstract_verb": "show (geochemical data show)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"los datos isotópicos muestran\". OBSERVACIONAL — NO usar verbos causales como 'causa' o 'provocó'."
+    },
+    {
+      "abstract_verb": "show (model simulations show)",
+      "tier": "T2",
+      "cam_attenuator": "\"las simulaciones muestran que\" — siempre acompañar de 'modelo' o 'simulación', NO 'demuestra que el viento aumentó'"
+    },
+    {
+      "abstract_verb": "would increase",
+      "tier": "T2",
+      "cam_attenuator": "\"haría que aumentara\" / \"el modelo predice que aumentaría\" — condicional"
+    },
+    {
+      "abstract_verb": "suggests",
+      "tier": "T2",
+      "cam_attenuator": "\"los datos sugieren\" / \"todo apunta a\". NO usar \"demuestra que\" o \"confirma\"."
+    },
+    {
+      "abstract_verb": "probably",
+      "tier": "T2",
+      "cam_attenuator": "\"probablemente\" / \"todo apunta a (con alta probabilidad)\""
+    },
+    {
+      "abstract_verb": "possible",
+      "tier": "T3",
+      "cam_attenuator": "\"posible\" / \"podría haber contribuido\" — incertidumbre alta sobre contribución West Antarctic Ice Sheet"
+    },
+    {
+      "abstract_verb": "remain poorly constrained",
+      "tier": "T3",
+      "cam_attenuator": "\"sigue siendo incierto\" / \"falta evidencia para\""
+    },
+    {
+      "abstract_verb": "estimated to have been (sea levels)",
+      "tier": "T2",
+      "cam_attenuator": "\"se estima que\" — NO \"el nivel del mar fue\""
+    }
+  ],
+  "narrative_hooks": [
+    "La Antártida occidental se derritió antes — y dejó su firma en el polvo",
+    "Hace 125.000 años, el polvo atrapado en el hielo cambió de fuente",
+    "6 de 9 muestras MIS 5e cargan firma volcánica antártica — en MIS 6 era solo 1 de 10",
+    "Cuando el manto de hielo se reorganiza, las rutas del viento cambian"
+  ],
+  "limitations": [
+    "n=22 muestras Sr/Nd (9-10 con εNd válido por periodo). Conclusiones se sostienen en isótopos + modelos ESM + frecuencia de firmas, no en una única comparación.",
+    "Frontera εNd=0 para separar 'firma antártica' es convención del paper. Fuentes con εNd ligeramente negativo también pueden ser antárticas (Dry Valleys, Northern Victoria Land).",
+    "El componente de modelo climático del paper (simulaciones ESM) NO está en los datos abiertos — vive en el paper original.",
+    "Diferencia de medias εNd no es estadísticamente significativa al 0,05 (p=0,18). El argumento es de cambio de fuente dominante, no de medias."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados (5 ✅ + 1 ⚠️) + 10 key_numbers"
+  },
+  "notebook_slug": "2026-05-26-ross-ice-shelf-mis-5e",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-05-26-ross-ice-shelf-mis-5e/notebook.html",
+  "generated_at": "2026-05-29T05:06:00.847562Z"
+}

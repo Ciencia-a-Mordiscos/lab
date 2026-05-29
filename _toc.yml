@@ -270,6 +270,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-05-26-ross-ice-shelf-mis-5e/README
+    title: "La Antártida occidental se derritió antes — y dejó su firma en el polvo"
+    sections:
+    - file: papers/2026-05-26-ross-ice-shelf-mis-5e/notebook
+      title: Notebook
   - file: papers/2026-05-06-foreshocks-nucleacion-terremotos/README
     title: "Cómo se decide un terremoto en 15 milisegundos"
     sections:

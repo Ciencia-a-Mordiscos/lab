@@ -1,0 +1,28 @@
+titulo: "La Antártida occidental se derritió antes — y dejó su firma en el polvo"
+fecha: 2026-05-26
+categoria: geologia
+tags: [paleoclima, antartida, isotopos, MIS5e, deshielo, nucleos-hielo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-01988-1"
+    titulo: "Diminished Ross Ice Shelf and West Antarctic Ice Sheet during Last Interglacial warming"
+    journal: "Nature Geoscience"
+    autores: "ALHIC1903 team et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "alhic1903_srnd.csv"
+    descripcion: "22 muestras Sr/Nd del núcleo ALHIC1903"
+    fuente: "Source Data XLSX (MOESM2_ESM)"
+  - nombre: "alhic1903_dust_conc.csv"
+    descripcion: "Concentración de polvo (Coulter Counter)"
+    fuente: "Source Data XLSX (MOESM2_ESM)"
+  - nombre: "alhic1903_dD.csv"
+    descripcion: "δD proxy de temperatura local"
+    fuente: "Source Data XLSX (MOESM2_ESM)"
+  - nombre: "psa_database.csv"
+    descripcion: "Potential Source Areas (381 muestras, 11 regiones)"
+    fuente: "Source Data XLSX (MOESM3_ESM)"
+estado: publicado

@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### La Antártida occidental se derritió antes — y dejó su firma en el polvo
+
+22 muestras Sr/Nd de un núcleo en Allan Hills (Antártida) muestran que el polvo cambió de fuente entre el último glacial y el último interglacial: 67% de muestras MIS 5e con firma volcánica antártica local vs solo 10% en MIS 6.
+
+[Notebook](papers/2026-05-26-ross-ice-shelf-mis-5e/notebook.ipynb) · [README](papers/2026-05-26-ross-ice-shelf-mis-5e/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-26-ross-ice-shelf-mis-5e/notebook.ipynb)
+
 ### Los huracanes liberan menos CO₂ del que creíamos
 
 **Ecología** · *Nature Geoscience* · Huang et al. (2026) reconstruyeron la huella de carbono de los ciclones tropicales día a día durante 28 años combinando IBTrACS (todos los ciclones del mundo), SOCAT (observaciones de CO₂ en superficie) y reanálisis atmosféricos. Bajamos las 3 tablas del supplementary y desmenuzamos lo que se puede recalcular. **Acto 1:** el día 0 dos procesos compiten — efflux pico **+14,6 mmol/m²/día** vs influx pico **−12,5**; el mínimo de ΔpCO₂ (**−9,5 µatm**) no cae el día del huracán, cae el día +2 (la estela fría sigue absorbiendo después). **Acto 2:** las aguas frías pre-tormenta se vuelven más sub-saturadas con el tiempo (pendiente **−0,09 µatm/año**, p=0,066 marginal); las aguas cálidas no cambian (p=0,44). Esa asimetría es la razón física del **44% de reducción** del outgassing global que el paper reporta para los 90s vs 2010s. **Acto 3:** bajo escenarios CMIP de alta emisión, la distribución de ΔpCO₂ se desplaza de **+12 a +1 µatm de media** y la probabilidad de efflux cae de **79% a 55%** — los ciclones pasarían de fuente a sumidero. ⚠️ La tendencia clave es marginal (p=0,066) y el fit predice ~2,5 µatm de cambio total, los endpoints raw sugieren 6 µatm. ⚠️ La validación in-situ son solo **37 ciclones**. ⚠️ La proyección CMIP es modelo, no observación. ⚠️ La cifra del 44% es cita del paper, no recálculo nuestro.
