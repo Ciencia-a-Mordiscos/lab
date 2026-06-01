@@ -1,0 +1,15 @@
+modelo,condicion,grupo_id,grupo_label,n,mape_pct,ci_low,ci_high
+PHRM_full,laboratorio,piel_clara,Tipo I-III (light),NA,3.8,NA,NA
+PHRM_full,laboratorio,piel_media,Tipo IV-V (medium),NA,4.4,NA,NA
+PHRM_full,laboratorio,piel_oscura,Tipo VI (dark),NA,8.9,NA,NA
+PHRM_full,freeliving,piel_clara,MST 1-4 (light),NA,5.0,NA,NA
+PHRM_full,freeliving,piel_media,MST 5-7 (medium),NA,5.1,NA,NA
+PHRM_full,freeliving,piel_oscura,MST 8-10 (dark),NA,7.8,NA,NA
+PHRM_mini,laboratorio,overall,Overall released model,104,6.38,4.99,7.94
+PHRM_mini,laboratorio,piel_clara,Fitzpatrick I-III,44,3.61,2.56,5.04
+PHRM_mini,laboratorio,piel_media,Fitzpatrick IV-V,25,6.55,4.22,9.71
+PHRM_mini,laboratorio,piel_oscura,Fitzpatrick VI,35,9.75,6.75,13.13
+PHRM_mini,freeliving,overall,Overall released model,101,11.44,10.56,12.43
+PHRM_mini,freeliving,piel_clara,MST 1-4,37,11.10,9.72,12.73
+PHRM_mini,freeliving,piel_media,MST 5-7,27,9.54,8.77,10.35
+PHRM_mini,freeliving,piel_oscura,MST 8-10,37,13.13,11.47,15.11

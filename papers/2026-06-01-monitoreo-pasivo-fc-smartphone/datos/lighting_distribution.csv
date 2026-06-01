@@ -1,0 +1,7 @@
+condicion_luz,rango_lux,full_dataset_pct,after_gating_pct
+very_dark,0-1,2.1,1.2
+dark,2-9,12.1,9.6
+dim_indoors,10-99,45.6,50.7
+bright_indoors,100-999,32.4,32.9
+cloudy_outdoors,1000-2999,4.8,4.1
+sunny_outdoors,>=3000,3.0,1.4

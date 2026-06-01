@@ -1,0 +1,13 @@
+metodo,condicion,grupo,mape_pct
+PHRM,laboratorio,piel_clara,3.8
+PHRM,laboratorio,piel_media,4.4
+PHRM,laboratorio,piel_oscura,8.9
+PHRM,freeliving,piel_clara,5.0
+PHRM,freeliving,piel_media,5.1
+PHRM,freeliving,piel_oscura,7.8
+Savur,laboratorio,piel_clara,13.1
+Savur,laboratorio,piel_media,15.2
+Savur,laboratorio,piel_oscura,18.9
+Savur,freeliving,piel_clara,21.9
+Savur,freeliving,piel_media,24.1
+Savur,freeliving,piel_oscura,24.8

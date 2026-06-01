@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "paper_id": 2570,
+  "doi": "10.1038/s41586-026-10507-6",
+  "paper_type": "metodo_nuevo",
+  "study_design": "observacional",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "MAPE menor a 10% en los tres grupos de tono de piel en laboratorio, PHRM-full",
+      "supported": "yes",
+      "detail": "mape_skin_tone.csv confirma 3,8% / 4,4% / 8,9% para PHRM-full. El claim del abstract aplica al modelo full, no al PHRM-mini liberado",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "effect_size": null
+    },
+    {
+      "claim": "PHRM mide piel oscura en vida cotidiana 3,2x mejor que Savur",
+      "supported": "yes",
+      "detail": "24,8 / 7,8 = 3,18x. La brecha historica rPPG se reduce pero no desaparece",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperformed",
+      "effect_size": {"measure": "ratio_mape", "value": 3.18, "interpretation": "grande"}
+    },
+    {
+      "claim": "PHRM es el modelo mas pequeno del benchmark con 498K parametros",
+      "supported": "yes",
+      "detail": "model_sizes.csv: 498K vs 533K-7.395K en los otros 7 modelos. 14,8x menos que PhysFormer",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperformed",
+      "effect_size": {"measure": "ratio_params", "value": 14.85, "interpretation": "grande"}
+    },
+    {
+      "claim": "Corre en Pixel 3 (2018) con latencia 402,81 ms por ventana de 10 s",
+      "supported": "yes",
+      "detail": "device_performance.csv: 402,81 ms en Pixel 3, 133,63 ms en Pixel 7 (3x mas rapido en 4 generaciones)",
+      "certainty_tier": "T1",
+      "abstract_verb": "developed",
+      "effect_size": null
+    },
+    {
+      "claim": "El 31,5% de la cohorte con Fitzpatrick declarado es tipo VI",
+      "supported": "yes",
+      "detail": "skin_type_distribution.csv: 107/340 personas. Reclutamiento deliberado para enfrentar la brecha historica",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": null
+    },
+    {
+      "claim": "PHRM se asocia con factores de riesgo cardiovascular conocidos",
+      "supported": "partial",
+      "detail": "Claim observacional T2 del abstract. NO predice, NO diagnostica, NO detecta enfermedad. Solo asociacion estadistica con factores de riesgo en RHR diaria",
+      "certainty_tier": "T2",
+      "abstract_verb": "associated",
+      "effect_size": null
+    },
+    {
+      "claim": "PHRM-mini (modelo liberado) cruza el umbral 10% MAPE en piel clara y piel oscura en vida cotidiana",
+      "supported": "yes",
+      "detail": "11,10% piel clara y 13,13% piel oscura en free-living. Solo el 9,54% de piel media queda debajo del umbral. El abstract reporta PHRM-full, no PHRM-mini",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {"value": 3.8, "unit": "%", "context": "MAPE PHRM-full laboratorio piel clara (Fitzpatrick I-III)", "source": "fact_sheet", "verified": true},
+    {"value": 4.4, "unit": "%", "context": "MAPE PHRM-full laboratorio piel media (Fitzpatrick IV-V)", "source": "fact_sheet", "verified": true},
+    {"value": 8.9, "unit": "%", "context": "MAPE PHRM-full laboratorio piel oscura (Fitzpatrick VI)", "source": "fact_sheet", "verified": true},
+    {"value": 7.8, "unit": "%", "context": "MAPE PHRM-full vida cotidiana piel oscura", "source": "fact_sheet", "verified": true},
+    {"value": 24.8, "unit": "%", "context": "MAPE Savur vida cotidiana piel oscura (metodo previo)", "source": "fact_sheet", "verified": true},
+    {"value": 3.18, "unit": "x", "context": "ratio MAPE Savur/PHRM en piel oscura vida cotidiana", "source": "computado", "verified": true},
+    {"value": 498, "unit": "K parametros", "context": "tamano del modelo PHRM", "source": "fact_sheet", "verified": true},
+    {"value": 14.85, "unit": "x", "context": "ratio parametros PhysFormer/PHRM (mayor competidor del benchmark)", "source": "computado", "verified": true},
+    {"value": 402.81, "unit": "ms", "context": "latencia PHRM en Pixel 3 (2018) por ventana de 10 s", "source": "fact_sheet", "verified": true},
+    {"value": 133.63, "unit": "ms", "context": "latencia PHRM en Pixel 7 (2022)", "source": "fact_sheet", "verified": true},
+    {"value": 31.5, "unit": "%", "context": "porcentaje Fitzpatrick VI en cohorte con tono declarado (107/340)", "source": "fact_sheet", "verified": true},
+    {"value": 13.6, "unit": "bpm", "context": "MAE historico rPPG en piel oscura (Dasari 2021 meta-analisis)", "source": "fact_sheet", "verified": true},
+    {"value": 3.4, "unit": "bpm", "context": "MAE historico rPPG en piel I-V (Dasari 2021)", "source": "fact_sheet", "verified": true},
+    {"value": 192353, "unit": "videos", "context": "tamano del dataset de desarrollo", "source": "abstract", "verified": true},
+    {"value": 485, "unit": "personas", "context": "participantes en el cohorte de desarrollo", "source": "abstract", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "achieved", "tier": "T1", "cam_attenuator": "logra (con numero explicito MAPE <10%)"},
+    {"abstract_verb": "outperformed", "tier": "T1", "cam_attenuator": "supera (con ratio explicito 3,2x)"},
+    {"abstract_verb": "meeting", "tier": "T1", "cam_attenuator": "cumple el estandar industria"},
+    {"abstract_verb": "non-inferior", "tier": "T1", "cam_attenuator": "no-inferior (claim estadistico con criterio explicito)"},
+    {"abstract_verb": "associated", "tier": "T2", "cam_attenuator": "se asocia con — NUNCA predice/diagnostica/detecta"},
+    {"abstract_verb": "highlight the potential", "tier": "T2", "cam_attenuator": "sugiere el potencial de — NO afirmar adopcion clinica"}
+  ],
+  "narrative_hooks": [
+    "Tu cara ya late — cada vez que abres el celular, la camara frontal capta el rubor que tu pulso le imprime a la piel",
+    "Los metodos rPPG previos fallaban casi 4x mas en piel oscura — un sesgo viejo que recien en 2026 baja del umbral industria",
+    "PHRM es el modelo mas pequeno del benchmark (498K) y aun asi mide piel oscura 3x mejor que el mejor metodo previo"
+  ],
+  "limitations": [
+    "El modelo liberado (PHRM-mini) no es el del abstract — PHRM-mini cruza el umbral 10% en 2 de 3 grupos en vida cotidiana",
+    "El dataset crudo (videos faciales) esta restringido por el comite de etica — no se puede reproducir desde cero",
+    "Las muestras por subgrupo son pequenas en piel oscura (n=35 lab, n=37 free-living) con IC anchos",
+    "Confidence gating descarta predicciones de baja confianza antes de calcular MAPE; sin gating los numeros suben",
+    "Validacion observacional: PHRM se asocia con factores de riesgo cardiovascular pero NO los predice ni diagnostica enfermedad"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados (6 yes + 1 partial), 15 key_numbers — script denso con espacio para limitaciones criticas"
+  },
+  "notebook_slug": "2026-06-01-monitoreo-pasivo-fc-smartphone",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-01-monitoreo-pasivo-fc-smartphone/notebook.html",
+  "generated_at": "2026-06-01T15:30:00Z"
+}

@@ -1,0 +1,41 @@
+titulo: "Tu teléfono ya te toma el pulso"
+fecha: 2026-06-01
+categoria: tecnologia
+tags:
+  - rPPG
+  - photoplethysmography
+  - smartphone
+  - deep-learning
+  - frecuencia-cardiaca
+  - equidad-algoritmica
+  - fitzpatrick
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10507-6"
+    titulo: "Passive heart-rate monitoring during smartphone use in everyday life"
+    journal: "Nature"
+    autores: "Liu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "mape_skin_tone.csv"
+    descripcion: "MAPE por modelo, condición (lab/free-living) y tono de piel"
+    fuente: "Supplementary Information — Discussion p.15 + Table 10"
+  - nombre: "phrm_vs_savur.csv"
+    descripcion: "Comparación de MAPE PHRM vs Savur por tono de piel y condición"
+    fuente: "Supplementary Information — Discussion p.15"
+  - nombre: "model_sizes.csv"
+    descripcion: "Tamaño (parámetros, miles) de los 8 modelos rPPG comparados"
+    fuente: "Supplementary Information — Table 5"
+  - nombre: "skin_type_distribution.csv"
+    descripcion: "Distribución del cohorte por tipo Fitzpatrick (n=340)"
+    fuente: "Supplementary Information — Table 10"
+  - nombre: "device_performance.csv"
+    descripcion: "Latencia y memoria peak de PHRM en Pixel 3-7 (2018-2022)"
+    fuente: "Supplementary Information — Table 6"
+  - nombre: "activity_distribution.csv"
+    descripcion: "Distribución de actividades del dataset vs US adults"
+    fuente: "Supplementary Information"
+estado: publicado
