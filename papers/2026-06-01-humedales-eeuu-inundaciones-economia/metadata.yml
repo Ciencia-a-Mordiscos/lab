@@ -1,0 +1,33 @@
+titulo: "Humedales aguas arriba: 10 mil millones de dólares en reclamos por inundaciones"
+fecha: 2026-06-01
+categoria: ecologia
+tags:
+  - humedales
+  - inundaciones
+  - economia-ambiental
+  - estados-unidos
+  - politica-ambiental
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00656-3"
+    titulo: "The economic value of wetlands in reducing riverine flood losses in the USA"
+    journal: "Nature Water"
+    autores: "Gourevitch, Gold, Garcia"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "regiones_huc2.csv"
+    descripcion: "18 regiones HUC2 agregadas: humedal, costo, BCR"
+    fuente: "Zenodo 10.5281/zenodo.19699730 (agregado nacional)"
+  - nombre: "cambio_humedales_bins.csv"
+    descripcion: "9 bins de cambio de humedal con n y contribución al costo"
+    fuente: "Zenodo 10.5281/zenodo.19699730 (binning derivado)"
+  - nombre: "distribucion_bcr.csv"
+    descripcion: "8 rangos de BCR con n subcuencas por rango"
+    fuente: "Zenodo 10.5281/zenodo.19699730"
+  - nombre: "sensibilidad_tasa_descuento.csv"
+    descripcion: "NPV nacional bajo 5 tasas de descuento"
+    fuente: "Zenodo 10.5281/zenodo.19699730 (Tabla S20)"
+estado: publicado

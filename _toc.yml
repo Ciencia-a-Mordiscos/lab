@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-06-01-humedales-eeuu-inundaciones-economia/README
+    title: "Humedales aguas arriba: 10 mil millones de dólares en reclamos por inundaciones"
+    sections:
+    - file: papers/2026-06-01-humedales-eeuu-inundaciones-economia/notebook
+      title: Notebook
   - file: papers/2026-05-28-elefantes-escarabajos-keystone-mpala/README
     title: "Quita los elefantes: pierdes el 67% de los escarabajos peloteros"
     sections:

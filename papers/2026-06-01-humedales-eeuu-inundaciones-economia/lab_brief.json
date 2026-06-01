@@ -1,0 +1,224 @@
+{
+  "version": "1.0",
+  "paper_id": 2568,
+  "doi": "10.1038/s44221-026-00656-3",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La pérdida de humedales 1985-2023 sumó US$10,12B en reclamos NFIP adicionales (9% del total nacional del periodo)",
+      "supported": "yes",
+      "detail": "Suma sobre 18 regiones HUC2 = US$10,12B; paper reporta US$10,1B (diferencia <0,2%). El paper enmarca como estimación (estimate).",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "effect_size": {
+        "measure": "ci_95_pct",
+        "value": "8.12-12.07B",
+        "interpretation": "intervalo de confianza 95% del modelo"
+      }
+    },
+    {
+      "claim": "16,1% de las subcuencas tienen BCR ≥ 1 (beneficio marginal supera costo marginal de conservación)",
+      "supported": "yes",
+      "detail": "13.376 de 83.329 subcuencas con BCR válido. Coincide exactamente con el 16% del abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "outweigh",
+      "effect_size": {
+        "measure": "porcentaje",
+        "value": 16.1,
+        "interpretation": "directo"
+      }
+    },
+    {
+      "claim": "Tejas-Golfo, Sureste y Misisipi Bajo concentran 97% del costo total (US$9,84B de US$10,12B)",
+      "supported": "yes",
+      "detail": "Derivado nuestro sobre regiones_huc2.csv. El paper lo muestra como mapa en Figura 3B sin reportar el número exacto.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "effect_size": {
+        "measure": "concentracion_pct",
+        "value": 97.2,
+        "interpretation": "Pareto extremo regional"
+      }
+    },
+    {
+      "claim": "95 subcuencas (0,11% del total) con pérdida >500 ha acumulan 44,6% del costo total",
+      "supported": "partial",
+      "detail": "Derivado nuestro de los bins <-1000 y -1000 a -500 (cambio_humedales_bins.csv). El paper no reporta este número exacto, pero las Figuras 3A+3B son consistentes con el patrón.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "effect_size": {
+        "measure": "concentracion_pct",
+        "value": 44.6,
+        "interpretation": "Pareto extremo a nivel subcuenca"
+      }
+    },
+    {
+      "claim": "Mid-Atlántico tiene la mejor proporción de subcuencas rentables para conservar (49,5% con BCR ≥ 1)",
+      "supported": "yes",
+      "detail": "Lectura directa de bcr_pct_above1 para HUC2 código 02. Tennessee la supera con 70,4% pero con muchas menos subcuencas (1.075 vs 3.095).",
+      "certainty_tier": "T1",
+      "abstract_verb": "calculate",
+      "effect_size": {
+        "measure": "porcentaje",
+        "value": 49.5,
+        "interpretation": "directo"
+      }
+    },
+    {
+      "claim": "El valor presente neto cae 6,6× entre tasas de descuento del 1% (US$2,60B) y 7% (US$0,39B)",
+      "supported": "yes",
+      "detail": "Suma sobre sensibilidad_tasa_descuento.csv. El paper enmarca como estimación.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 6.6,
+        "interpretation": "alta sensibilidad temporal"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 10.12,
+      "unit": "miles de millones de US$",
+      "context": "costo total acumulado 1985-2023 (IC 95%: 8,12-12,07)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "US$10.1 billion",
+        "our_calculation": "US$10,12B",
+        "discrepancy_pct": 0.2,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 9.0,
+      "unit": "por ciento",
+      "context": "del total nacional de reclamos NFIP del periodo",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 16.1,
+      "unit": "por ciento",
+      "context": "subcuencas con BCR ≥ 1 (beneficio supera costo)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "16% of sub-watersheds",
+        "our_calculation": "16,1%",
+        "discrepancy_pct": 0.6,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 97.2,
+      "unit": "por ciento",
+      "context": "del costo concentrado en 3 regiones (Tejas-Golfo + Sureste + Misisipi Bajo)",
+      "source": "derivado",
+      "verified": true
+    },
+    {
+      "value": 44.6,
+      "unit": "por ciento",
+      "context": "del costo concentrado en 95 subcuencas (0,11% del total)",
+      "source": "derivado",
+      "verified": true
+    },
+    {
+      "value": 49.5,
+      "unit": "por ciento",
+      "context": "subcuencas con BCR ≥ 1 en Mid-Atlántico (mejor región)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.01,
+      "unit": "por ciento",
+      "context": "incremento del monto de reclamos por hectárea de humedal aguas arriba perdido (límite bajo IC 95%)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 0.03,
+      "unit": "por ciento",
+      "context": "incremento del monto de reclamos por hectárea perdido (límite alto IC 95%)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 83359,
+      "unit": "subcuencas HUC12",
+      "context": "universo nacional cubierto",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 38,
+      "unit": "años",
+      "context": "duración del periodo de estudio (1985-2023)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "quantifying",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: cuantificaron"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T2",
+      "cam_attenuator": "los datos muestran / estiman que (NO descubrieron)"
+    },
+    {
+      "abstract_verb": "estimate",
+      "tier": "T2",
+      "cam_attenuator": "el modelo estima / todo apunta a que"
+    },
+    {
+      "abstract_verb": "calculate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: calcularon"
+    },
+    {
+      "abstract_verb": "outweigh",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con número: 16% supera el costo"
+    },
+    {
+      "abstract_verb": "potentially effective",
+      "tier": "T2",
+      "cam_attenuator": "preservar potentially"
+    },
+    {
+      "abstract_verb": "can use",
+      "tier": "T3",
+      "cam_attenuator": "podría servir a — recomendación de política, no resultado"
+    }
+  ],
+  "narrative_hooks": [
+    "El 0,11% de las cuencas concentra el 44,6% del costo total",
+    "Tres regiones costeras (Tejas-Golfo, Sureste, Misisipi Bajo) acumulan el 97% del daño nacional",
+    "Conservar donde es rentable y conservar donde duele no son el mismo lugar",
+    "US$10 mil millones en reclamos adicionales por una pérdida neta nacional de solo 0,79% del humedal histórico — la asimetría es geográfica"
+  ],
+  "limitations": [
+    "Diseño observacional: el efecto causal se infiere por panel regression con efectos fijos, no por asignación aleatoria",
+    "Trabajamos con CSVs agregados de 4-83 filas derivados del dataset original de 83.359 × 218",
+    "NFIP no captura todo el daño económico de inundaciones (sub-cobertura del seguro federal)",
+    "El paper modela elasticidad sobre pérdida, no afirma simetría de beneficio para restauración",
+    "Recomendaciones de política del abstract son T3 — no presentar como conclusión del estudio"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados con yes/partial, 10 números clave, paper observacional con tensión Pareto + política"
+  },
+  "notebook_slug": "2026-06-01-humedales-eeuu-inundaciones-economia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-01-humedales-eeuu-inundaciones-economia/notebook.html",
+  "generated_at": "2026-06-01T12:56:13.448860Z"
+}
