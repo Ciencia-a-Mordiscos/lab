@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "paper_id": 2575,
+  "doi": "10.1038/s41551-026-01673-z",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "multi-species (human cardiomyocytes in vitro; rat in vivo; porcine ex vivo)",
+  "verification_table": [
+    {
+      "claim": "El ultrasonido eleva el calcio dentro de cardiomiocitos humanos transducidos con MscL-G22S",
+      "supported": "yes",
+      "detail": "4 grupos in vitro, fold de 4 a 29×, Cohen's d pareado de 2.6 a 9.7, Wilcoxon p ≤ 1e-3 en los 4",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d_paired",
+        "value": 9.74,
+        "interpretation": "enorme (rango grupal 2.57 a 9.74)"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Curva dosis-respuesta con umbral ~1.6 MPa y saturación ~2.2 MPa",
+      "supported": "yes",
+      "detail": "Éxito sube de 0.23 (1.2 MPa) a 0.98 (2.2 MPa), n=30 por presión (6 réplicas × 5 duraciones)",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieve",
+      "effect_size": {
+        "measure": "delta_pct",
+        "value": 75,
+        "interpretation": "saturación cuasi-completa a 2.2 MPa"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El ultrasonido modula el ritmo cardiaco en rata viva",
+      "supported": "yes",
+      "detail": "Intervalos ON 64% mayores que OFF pre (Wilcoxon pareado p ≈ 10⁻⁷, Cohen's d pareado 1.69, n=35 latidos en 3 trials)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d_paired",
+        "value": 1.69,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El ritmo vuelve al baseline cuando se apaga el ultrasonido",
+      "supported": "partial",
+      "detail": "OFF post ≈ OFF pre (diferencia +0.09 ms, Wilcoxon p=0.51) — pero solo 3 de 7 trials liberados como Source Data",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d_paired",
+        "value": 0.08,
+        "interpretation": "negligible"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Esto funciona como pacemaker clínico en humanos",
+      "supported": "no",
+      "detail": "El paper valida en cardiomiocitos humanos in vitro, ratas in vivo, y cerdo ex vivo. NO hay datos en humanos vivos. Requiere terapia génica con MscL-G22S",
+      "certainty_tier": "T2",
+      "abstract_verb": "feasibility (porcine ex vivo)",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 29,
+      "unit": "veces",
+      "context": "fold máximo de calcio durante/antes (grupo right_a, n=76)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "qualitative",
+        "our_calculation": "29.06×",
+        "discrepancy_pct": 0,
+        "reason": "abstract solo cualitativo"
+      }
+    },
+    {
+      "value": 9.7,
+      "unit": "cohen d pareado",
+      "context": "máximo efecto in vitro (grupo left_a, n=10)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "qualitative",
+        "our_calculation": "9.74",
+        "discrepancy_pct": 0,
+        "reason": "no reportado explícito por autores"
+      }
+    },
+    {
+      "value": 1.6,
+      "unit": "MPa",
+      "context": "presión acústica donde el éxito cruza 50%",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~1.6 MPa",
+        "our_calculation": "1.6 MPa",
+        "discrepancy_pct": 0,
+        "reason": "match exacto"
+      }
+    },
+    {
+      "value": 2.2,
+      "unit": "MPa",
+      "context": "presión donde se satura el pacing (98% éxito)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~2.2 MPa",
+        "our_calculation": "98.2% éxito @ 2.2 MPa",
+        "discrepancy_pct": 0,
+        "reason": "match exacto"
+      }
+    },
+    {
+      "value": 64,
+      "unit": "por ciento",
+      "context": "aumento del intervalo entre latidos durante US vs antes en rata",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "qualitative",
+        "our_calculation": "64.4%",
+        "discrepancy_pct": 0,
+        "reason": "razón media 1.64"
+      }
+    },
+    {
+      "value": 9,
+      "unit": "Hz",
+      "context": "frecuencia máxima de pacing alcanzada en ratas in vivo",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "9 Hz",
+        "our_calculation": "del abstract",
+        "discrepancy_pct": 0,
+        "reason": "verbatim del abstract"
+      }
+    },
+    {
+      "value": 1,
+      "unit": "milímetro",
+      "context": "precisión espacial sub-milimétrica del pacing en rata",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "<1 mm",
+        "our_calculation": "del abstract",
+        "discrepancy_pct": 0,
+        "reason": "verbatim del abstract"
+      }
+    },
+    {
+      "value": 8,
+      "unit": "meses",
+      "context": "seguimiento de seguridad en ratas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "8 months",
+        "our_calculation": "del abstract",
+        "discrepancy_pct": 0,
+        "reason": "verbatim del abstract"
+      }
+    },
+    {
+      "value": 3,
+      "unit": "especies",
+      "context": "cardiomiocitos humanos in vitro + rata in vivo + cerdo ex vivo",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3 species",
+        "our_calculation": "del abstract",
+        "discrepancy_pct": 0,
+        "reason": "verbatim del abstract"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "\"presentan\" / \"introducen\" — afirmación directa: el equipo desarrolló y describe el dispositivo"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"demuestra\" / \"mostraron\" — efectos demostrados experimentalmente"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"mostraron\" — pero scope rats/porcine, no humano"
+    },
+    {
+      "abstract_verb": "achieve",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"alcanza\" / \"logra\" pacing espaciotemporal"
+    },
+    {
+      "abstract_verb": "restoring",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"restauró el ritmo sinusal\" en ratas con arritmia"
+    },
+    {
+      "abstract_verb": "validated through (long-term safety)",
+      "tier": "T2",
+      "cam_attenuator": "\"validado en ratas durante 8 meses\" — incluir scope literal; NO extrapolar a humanos"
+    },
+    {
+      "abstract_verb": "feasibility (porcine ex vivo)",
+      "tier": "T2",
+      "cam_attenuator": "\"demostraron la factibilidad para escala humana en cerdo ex vivo\" — viabilidad demostrada en tejido, NO en humanos vivos"
+    }
+  ],
+  "narrative_hooks": [
+    "Un marcapasos sin cirugía: hasta 29× más calcio en la célula cuando llega el ultrasonido.",
+    "Le metieron un canal de bacteria al corazón. Ahora responde al ultrasonido.",
+    "Pacemaker sin cables: una proteína de bacteria, ultrasonido por fuera del pecho, y el corazón sigue el ritmo."
+  ],
+  "limitations": [
+    "Validado en cardiomiocitos humanos in vitro, ratas in vivo y cerdo ex vivo — NO en humanos vivos.",
+    "Requiere terapia génica para transducir el corazón con MscL-G22S (canal mecanosensible de E. coli) — no es 'solo el parche'.",
+    "Solo 3 de 7 trials in vivo liberados como Source Data comparables (los otros 4 reportan métricas no comparables).",
+    "Seguimiento de seguridad: 8 meses en ratas. Nada todavía en humanos."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims 'yes' + 1 'partial' = densidad alta; 9 números clave; el hook necesita dejar respirar la maquinaria (gen + ultrasonido + parche) antes del payoff"
+  },
+  "notebook_slug": "2026-06-02-marcapasos-ultrasonico-sonogenetico",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-02-marcapasos-ultrasonico-sonogenetico/notebook.html",
+  "generated_at": "2026-06-02T15:23:18.254609Z"
+}

@@ -337,6 +337,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-06-02-marcapasos-ultrasonico-sonogenetico/README
+    title: "Un marcapasos sin cirugía: ultrasonido + un canal bacteriano"
+    sections:
+    - file: papers/2026-06-02-marcapasos-ultrasonico-sonogenetico/notebook
+      title: Notebook
   - file: papers/2026-05-29-celulas-madre-memoria-inflamatoria/README
     title: "Memoria inflamatoria en células madre humanas"
     sections:

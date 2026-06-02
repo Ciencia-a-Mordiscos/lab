@@ -1,0 +1,25 @@
+titulo: "Un marcapasos sin cirugía: ultrasonido + un canal bacteriano"
+fecha: 2026-06-02
+categoria: medicina
+tags: [cardiologia, sonogenetica, ultrasonido, ingenieria-biomedica, terapia-genica, ratas, in-vitro]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01673-z"
+    titulo: "A wearable non-invasive sonogenetic pacemaker"
+    journal: "Nature Biomedical Engineering"
+    autores: "Wei et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "calcio_in_vitro.csv"
+    descripcion: "Fluorescencia de Ca²⁺ pre/durante/post ultrasonido en cardiomiocitos humanos (4 grupos)"
+    fuente: "Source Data Fig. 2 (MOESM11)"
+  - nombre: "curva_dosis_respuesta.csv"
+    descripcion: "Tasa de éxito del pacing × presión × duración de pulso (in vitro)"
+    fuente: "Source Data Fig. 3 (MOESM12)"
+  - nombre: "intervalos_off_on.csv"
+    descripcion: "Intervalos OFF/ON/OFF entre latidos en ratas in vivo"
+    fuente: "Source Data Fig. 3 (MOESM12)"
+estado: publicado
