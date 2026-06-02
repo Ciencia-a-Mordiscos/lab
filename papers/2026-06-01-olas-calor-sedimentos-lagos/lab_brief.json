@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "paper_id": 2572,
+  "doi": "10.1038/s41561-026-01986-3",
+  "paper_type": "modelo_simulacion",
+  "study_design": "modelo_simulacion",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El sedimento pelágico (PHW) ya dura ×1,6 más por evento que la superficie (SHW) en clima histórico",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "PHW dur = 13,4 días/evento vs SHW dur = 8,4 días/evento — promedio ensemble de 3 GCMs reproducidos",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "ratio", "value": 1.60, "interpretation": "PHW persiste 60% más por evento"}
+    },
+    {
+      "claim": "El sedimento litoral (LHW) se comporta como la superficie — el matiz pelágico vs litoral importa",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "LHW dur = 8,5 días vs SHW = 8,4 días (ratio 1,01). El paper habla de 'sediment heatwaves' en general; la distinción pelágico/litoral es nuestra desagregación a partir de las variables del Zenodo",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "ratio", "value": 1.01, "interpretation": "indistinguible de superficie"}
+    },
+    {
+      "claim": "La duración del PHW se proyecta multiplicar por ~8,8 bajo SSP5-8.5",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "13,4 → 118,5 días/evento. El cambio dominante es en duración por evento, no en número de eventos (count solo ×1,6)",
+      "certainty_tier": "T2",
+      "abstract_verb": "are projected to intensify",
+      "effect_size": {"measure": "multiplicador", "value": 8.82, "interpretation": "intensificación dominada por duración, no frecuencia"}
+    },
+    {
+      "claim": "El lag entre superficie y sedimento profundo colapsa de ~22 días a ~1 día bajo SSP5-8.5",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Hist = 22,1 d → SSP585 fut = 1,0 d (-95%). El amortiguamiento térmico inercial del lago profundo desaparece bajo escenarios de alta emisión",
+      "certainty_tier": "T2",
+      "abstract_verb": "are projected to intensify",
+      "effect_size": {"measure": "delta_pct", "value": -95.3, "interpretation": "colapso casi total del buffer térmico"}
+    },
+    {
+      "claim": "Bajo SSP5-8.5, cada evento PHW en lagos tropicales dura ~168 días vs ~54 días en lagos polares",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Promedios ponderados por cos(lat) intra-banda en ensemble_bandas.csv. Combinando duración y frecuencia (~1,5 eventos/año) equivale a ~242 días/año en heatwave en trópicos",
+      "certainty_tier": "T2",
+      "abstract_verb": "are projected to intensify",
+      "effect_size": {"measure": "ratio", "value": 3.11, "interpretation": "gradiente latitudinal nítido"}
+    }
+  ],
+  "key_numbers": [
+    {"value": 13.4, "unit": "días/evento", "context": "PHW duración media histórica (1981-2010)", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": 8.4, "unit": "días/evento", "context": "SHW duración media histórica", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": 1.60, "unit": "ratio", "context": "PHW/SHW persistencia en histórico", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": 118.5, "unit": "días/evento", "context": "PHW duración media proyectada bajo SSP5-8.5 (2071-2100)", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": 8.82, "unit": "multiplicador", "context": "Multiplicador PHW dur hist → SSP5-8.5", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": 22.1, "unit": "días", "context": "Lag PHW-SHW histórico", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": 1.0, "unit": "días", "context": "Lag PHW-SHW proyectado bajo SSP5-8.5", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": -95.3, "unit": "porcentaje", "context": "Reducción relativa del lag bajo SSP5-8.5", "source": "ensemble_metricas.csv", "verified": true},
+    {"value": 167.6, "unit": "días/evento", "context": "PHW dur tropical bajo SSP5-8.5", "source": "ensemble_bandas.csv", "verified": true},
+    {"value": 54.0, "unit": "días/evento", "context": "PHW dur polar bajo SSP5-8.5", "source": "ensemble_bandas.csv", "verified": true},
+    {"value": 41499, "unit": "lagos", "context": "N° lagos simulados en el paper original", "source": "paper", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa para histórico"},
+    {"abstract_verb": "are projected to intensify", "tier": "T2", "cam_attenuator": "'se proyecta' / 'el modelo proyecta' — NUNCA escalar a presente indicativo en futuro"},
+    {"abstract_verb": "could exacerbate", "tier": "T3", "cam_attenuator": "'podría exacerbar' — hedge claro"}
+  ],
+  "narrative_hooks": [
+    "El fondo profundo de un lago podría pasar casi cuatro meses al año en condiciones de ola de calor",
+    "El sedimento profundo amortigua las anomalías térmicas... hasta que deja de amortiguarlas",
+    "El lag entre superficie y fondo colapsa: de 22 días a 1",
+    "En los trópicos, cada evento PHW duraría ~5,5 meses bajo SSP5-8.5"
+  ],
+  "limitations": [
+    "Reproducimos 3 de los 5 GCMs del paper (ISIMIP3b) — el spread inter-modelo está subestimado",
+    "Los CSVs son agregados globales o por banda latitudinal, ponderados por cos(lat). El paper analiza variabilidad lago por lago (n=41.499) que aquí no inspeccionamos",
+    "Son proyecciones de modelo de simulación, no observaciones futuras — incertidumbre proveniente del forzamiento SSP, GCMs y modelo lacustre",
+    "La distinción PHW/LHW por profundidad es nuestra desagregación a partir de las variables del Zenodo; el abstract del paper habla de 'sediment heatwaves' en general"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims yes verificados, 11 key_numbers — script estándar"
+  },
+  "notebook_slug": "2026-06-01-olas-calor-sedimentos-lagos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-01-olas-calor-sedimentos-lagos/notebook.html",
+  "generated_at": "2026-06-01T23:35:00Z"
+}

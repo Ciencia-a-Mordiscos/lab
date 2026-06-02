@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-06-01-olas-calor-sedimentos-lagos/README
+    title: "Olas de calor en el sedimento de los lagos"
+    sections:
+    - file: papers/2026-06-01-olas-calor-sedimentos-lagos/notebook
+      title: Notebook
   - file: papers/2026-06-01-humedales-eeuu-inundaciones-economia/README
     title: "Humedales aguas arriba: 10 mil millones de dólares en reclamos por inundaciones"
     sections:
