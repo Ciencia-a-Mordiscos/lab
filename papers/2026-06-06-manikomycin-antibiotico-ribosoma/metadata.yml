@@ -1,0 +1,22 @@
+titulo: "Manikomicina: una bacteria agotada escondía un antibiótico nuevo"
+fecha: 2026-06-06
+categoria: medicina
+tags: [antibioticos, resistencia, ribosoma, manikomicina, streptomyces, farmacocinetica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10589-2"
+    titulo: "A natural depsipeptide antibiotic binds the E-site of the bacterial ribosome"
+    journal: Nature
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "farmacocinetica_mkm.csv"
+    descripcion: "Concentración media de manikomicina en sangre vs tiempo (3 ratones, 50 mg/kg s.c.)"
+    fuente: "Supplementary Source Data (MOESM3)"
+  - nombre: "supervivencia_celegans.csv"
+    descripcion: "Supervivencia Kaplan-Meier de C. elegans infectados con K. pneumoniae"
+    fuente: "Supplementary Source Data (MOESM6)"
+estado: publicado

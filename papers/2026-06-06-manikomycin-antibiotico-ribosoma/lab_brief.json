@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "paper_id": 2580,
+  "doi": "10.1038/s41586-026-10589-2",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "bacteria / C. elegans / mouse",
+  "verification_table": [
+    {
+      "claim": "La manikomicina rescata gusanos infectados con bacterias resistentes",
+      "supported": "yes",
+      "detail": "Cepa de laboratorio: 0%→41% de supervivencia al día 7 (n=73 vs 118; Fisher p=4,3e-13). Cepa clínica: 19,4%→46,6% (n=68 vs 105; OR=3,7; p=3,1e-4)",
+      "certainty_tier": "T1",
+      "abstract_verb": "can kill / show",
+      "effect_size": {
+        "measure": "odds_ratio",
+        "value": 3.7,
+        "interpretation": "grande (cepa clínica)"
+      }
+    },
+    {
+      "claim": "La manikomicina rescata menos que la polimixina B (fármaco de último recurso)",
+      "supported": "yes",
+      "detail": "La polimixina B supera a la manikomicina en ambas cepas: +18,5 pp (laboratorio) y +6,6 pp (clínica). No hay paridad",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "risk_difference_pp",
+        "value": 18.5,
+        "interpretation": "diferencia clara a favor de polimixina B"
+      }
+    },
+    {
+      "claim": "La manikomicina se elimina rápido de la sangre del ratón",
+      "supported": "yes",
+      "detail": "Cmax 9,13 µg/ml a los 30 min; cae al 2,4% (0,22 µg/ml) a las 4 h. Solo n=3 ratones",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "pct_de_cmax_a_4h",
+        "value": 2.4,
+        "interpretation": "aclaramiento rápido"
+      }
+    },
+    {
+      "claim": "La manikomicina ya sirve como antibiótico para personas",
+      "supported": "partial",
+      "detail": "Eficacia in vivo solo en C. elegans, no en mamíferos. PK de vida corta. El paper la enmarca como candidato (lead), no como fármaco terminado",
+      "certainty_tier": "T2",
+      "abstract_verb": "highlighting its value as a lead",
+      "effect_size": null
+    },
+    {
+      "claim": "La manikomicina ataca el sitio E del ribosoma, un mecanismo nunca antes usado por un antibiótico",
+      "supported": "yes",
+      "detail": "Afirmado por el paper vía análisis bioquímico, genético y estructural (cryo-EM; PDB 9RJA/9RFW). No reanalizado con datos en este notebook",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal / first to our knowledge",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9.13,
+      "unit": "µg/ml",
+      "context": "pico de manikomicina en sangre (Cmax) a los 30 min, dosis 50 mg/kg s.c.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.4,
+      "unit": "por ciento",
+      "context": "fracción del pico que queda en sangre a las 4 horas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 41.3,
+      "unit": "por ciento",
+      "context": "supervivencia al día 7 con manikomicina en cepa de laboratorio (ATCC 33495), frente a 0% sin tratar",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 46.6,
+      "unit": "por ciento",
+      "context": "supervivencia al día 7 con manikomicina en cepa clínica (C1559), frente a 19,4% sin tratar",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 18.5,
+      "unit": "puntos porcentuales",
+      "context": "cuánto menos rescata la manikomicina que la polimixina B en la cepa de laboratorio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 64,
+      "unit": "µg/ml",
+      "context": "concentración de manikomicina usada para tratar a los gusanos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "ratones",
+      "context": "n del experimento de farmacocinética",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "revela / afirmación directa"
+    },
+    {
+      "abstract_verb": "can kill",
+      "tier": "T1",
+      "cam_attenuator": "puede matar (capacidad demostrada in vitro/in vivo)"
+    },
+    {
+      "abstract_verb": "first ... to our knowledge",
+      "tier": "T1",
+      "cam_attenuator": "el primer antibiótico conocido que ataca el sitio E"
+    },
+    {
+      "abstract_verb": "highlighting its value as a lead",
+      "tier": "T2",
+      "cam_attenuator": "candidato / punto de partida — NO 'el nuevo antibiótico'"
+    }
+  ],
+  "narrative_hooks": [
+    "Una bacteria estudiada durante 80 años, que se daba por exprimida, escondía un antibiótico con un mecanismo nunca visto",
+    "La manikomicina ataca el sitio E del ribosoma: el primer antibiótico conocido que lo hace",
+    "Rescata a 4 de cada 10 gusanos infectados con bacterias resistentes a casi todo — pero se borra de la sangre en horas"
+  ],
+  "limitations": [
+    "La eficacia in vivo se midió solo en C. elegans, no en mamíferos",
+    "Farmacocinética de vida corta: el pico cae al 2,4% en 4 horas",
+    "Solo n=3 ratones en el experimento de farmacocinética",
+    "El rango de MIC (~6,4-32 µg/ml) se reporta de forma fragmentaria en el texto del paper",
+    "Las estructuras del ribosoma (sitio E) no se reanalizan en el notebook"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes), 7 números clave"
+  },
+  "notebook_slug": "2026-06-06-manikomycin-antibiotico-ribosoma",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-06-manikomycin-antibiotico-ribosoma/notebook.html",
+  "generated_at": "2026-06-06T10:54:45.046884"
+}
