@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-06-03-mineria-deforestacion-africa/README
+    title: "Minería y deforestación en África subsahariana"
+    sections:
+    - file: papers/2026-06-03-mineria-deforestacion-africa/notebook
+      title: Notebook
   - file: papers/2026-06-01-olas-calor-sedimentos-lagos/README
     title: "Olas de calor en el sedimento de los lagos"
     sections:

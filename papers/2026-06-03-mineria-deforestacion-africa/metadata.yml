@@ -1,0 +1,25 @@
+titulo: "Minería y deforestación en África subsahariana"
+fecha: 2026-06-03
+categoria: ecología
+tags: [minería, deforestación, áfrica, cobalto, cobre, bosque tropical, teledetección]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10551-2"
+    titulo: "Mining triggers extensive additional deforestation in sub-Saharan Africa"
+    journal: Nature
+    autores: "Morton et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "evento_estudio_distancia.csv"
+    descripcion: "Event-study: pérdida forestal acumulada por años desde apertura de mina, por anillo"
+    fuente: "OMorton/AFR_MiningForestLoss (GitHub)"
+  - nombre: "deforestacion_adicional.csv"
+    descripcion: "Doble-diferencia: exceso por anillo menos fondo de 20 km"
+    fuente: "OMorton/AFR_MiningForestLoss (GitHub)"
+  - nombre: "comodidades_deforestacion.csv"
+    descripcion: "Deforestación adicional a 1 km por mineral, con IC 95%"
+    fuente: "Texto Open Access del paper (Fig. 4)"
+estado: publicado

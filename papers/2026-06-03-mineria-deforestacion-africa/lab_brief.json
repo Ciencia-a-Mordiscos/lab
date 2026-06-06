@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "paper_id": 2583,
+  "doi": "10.1038/s41586-026-10551-2",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Cerca de las minas se pierde más bosque (gradiente espacial)",
+      "supported": "yes",
+      "detail": "El anillo de 1 km se despega del de 20 km justo en el año de apertura; reproducción cruda directa.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "effect_size": {
+        "measure": "gradiente_pp",
+        "value": 7.57,
+        "interpretation": "fuerte"
+      }
+    },
+    {
+      "claim": "La mina añade ~8 pp de deforestación a 1 km tras 10 años",
+      "supported": "yes",
+      "detail": "Reproducción cruda 7,57 pp dentro del IC del paper (7,2-8,9). El 8,0 pp causal proviene del DiD ajustado del paper, no de las medias crudas.",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "effect_size": {
+        "measure": "additional_pp",
+        "value": 7.57,
+        "interpretation": "medio-fuerte"
+      }
+    },
+    {
+      "claim": "Cobalto y cobre están entre los minerales que más deforestación adicional causan",
+      "supported": "yes",
+      "detail": "15,27 y 15,16 pp a 1 km, casi el doble del promedio (8 pp). El paper los señala como los de mayor deforestación adicional.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": {
+        "measure": "additional_pp",
+        "value": 15.27,
+        "interpretation": "alto"
+      }
+    },
+    {
+      "claim": "Por cada hectárea de tala directa, la mina desencadena ~34 ha de pérdida offsite en 5 años",
+      "supported": "partial",
+      "detail": "Cifra reportada por el paper (marco DiD), no recalculada en el notebook; se muestra como dato del paper.",
+      "supported_by_data": false,
+      "certainty_tier": "T2",
+      "abstract_verb": "triggers",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 34,
+        "interpretation": "muy alto"
+      }
+    },
+    {
+      "claim": "El uranio es el mineral con mayor deforestación adicional puntual",
+      "supported": "partial",
+      "detail": "Punto más alto (16,4 pp) pero solo n=26 minas e IC enorme (4,5-28,3): mucha incertidumbre.",
+      "supported_by_data": true,
+      "certainty_tier": "T3",
+      "abstract_verb": "find",
+      "effect_size": {
+        "measure": "additional_pp",
+        "value": 16.4,
+        "interpretation": "alto-incierto"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 16627,
+      "unit": "minas",
+      "context": "minas evaluadas en África subsahariana, 2001-2020",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 187070,
+      "unit": "hectáreas",
+      "context": "deforestación directa (pozos, balsas, escombros) en bosque denso",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.57,
+      "unit": "puntos porcentuales",
+      "context": "reproducción cruda: deforestación adicional a 1 km tras 10 años (doble-diferencia vs fondo 20 km)",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "8.0 pp (CI 7.2-8.9)",
+        "our_calculation": "7.57 pp",
+        "discrepancy_pct": 5.4,
+        "reason": "DiD ajustado del paper (bosque denso, Gardner 2022) vs doble-diferencia cruda nuestra; usar 20km como fondo es conservador, nuestro valor es límite inferior"
+      }
+    },
+    {
+      "value": 34,
+      "unit": "hectáreas",
+      "context": "pérdida offsite por cada 1 ha de tala directa, en 5 años (reportado por el paper)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.1,
+      "unit": "puntos porcentuales",
+      "context": "exceso que persiste hasta 20 km tras 10 años (CI 0.7-1.5)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15.27,
+      "unit": "puntos porcentuales",
+      "context": "deforestación adicional a 1 km de minas de cobalto",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15.16,
+      "unit": "puntos porcentuales",
+      "context": "deforestación adicional a 1 km de minas de cobre",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa de lo que hicieron"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (187.070 ha)"
+    },
+    {
+      "abstract_verb": "estimate",
+      "tier": "T2",
+      "cam_attenuator": "'estiman que' SIEMPRE con el intervalo (8,0 pp, CI 7,2-8,9)"
+    },
+    {
+      "abstract_verb": "triggers",
+      "tier": "T1-causal-condicional",
+      "cam_attenuator": "causalidad vía DiD: citar el 8,0 pp del paper; la reproducción cruda solo describe el gradiente"
+    }
+  ],
+  "narrative_hooks": [
+    "Una mina tala una hectárea de bosque y a su alrededor desaparecen 34 más en cinco años.",
+    "El cobalto y el cobre de tus dispositivos están entre los minerales que más bosque arrasan alrededor de las minas.",
+    "El daño no se queda en el pozo: el exceso de deforestación persiste hasta 20 km de la mina, diez años después."
+  ],
+  "limitations": [
+    "El filtro de bosque denso del paper (third.forest.clusters.csv) no está en el repo público; usamos todos los clústeres con cobertura.",
+    "Nuestras cifras son medias crudas descriptivas, no la diferencia-en-diferencias ajustada con covariables del paper.",
+    "Usar el anillo de 20 km como fondo es conservador (ahí persiste ~1,1 pp de exceso), por lo que 7,57 pp es un límite inferior.",
+    "El ratio 34:1 y la atribución causal son cifras del paper, no recalculadas en el notebook."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados (yes) + 7 números clave"
+  },
+  "notebook_slug": "2026-06-03-mineria-deforestacion-africa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-03-mineria-deforestacion-africa/notebook.html",
+  "generated_at": "2026-06-06T12:00:00-05:00"
+}
