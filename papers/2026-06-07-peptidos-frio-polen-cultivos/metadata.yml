@@ -1,0 +1,25 @@
+titulo: "Una helada en flor: los péptidos que salvan la cosecha"
+fecha: 2026-06-07
+categoria: biologia
+tags: [biologia, genetica, agricultura, frio, polen, crispr, tomate, arroz]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10603-7"
+    titulo: "Cold-induced peptide signalling secures pollen resilience and crop yield"
+    journal: Nature
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "pollen_viability_cold.csv"
+    descripcion: "Viabilidad de polen por genotipo a 25 °C y 12 °C (Fig. 1f)"
+    fuente: "Source Data MOESM5"
+  - nombre: "fig5e_tomato_yield.csv"
+    descripcion: "Producción reproductiva de tomate: WT vs sobreexpresión (Fig. 5e)"
+    fuente: "Source Data MOESM5"
+  - nombre: "fig5l_rice_yield.csv"
+    descripcion: "Granos por planta en arroz: WT vs 3 líneas OsRGF10 (Fig. 5l)"
+    fuente: "Source Data MOESM5"
+estado: publicado

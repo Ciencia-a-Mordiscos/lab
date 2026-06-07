@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una helada en flor: los péptidos que salvan la cosecha
+
+**Biología** · *Nature* (2026) · Una noche de frío durante la floración puede dejar estéril un cultivo entero: el polen aborta y no hay grano. El equipo identificó en el tomate dos péptidos diminutos —**SlRGF9** y **SlRGF10**— que se encienden con el frío y protegen el polen. Bajamos los Source Data de viabilidad de polen y de rendimiento. **El hallazgo:** apagar los dos péptidos con CRISPR hunde la viabilidad del polen bajo frío de ~0,99 a **0,43** (caída del 56,6 %, Cohen's d = 6,4); apagar uno solo apenas afecta — se respaldan mutuamente. Subirlos dispara la cosecha de tomate (**+64 % y +99 %**), y el mismo truco recupera grano en arroz, una planta separada del tomate hace 150 millones de años. ⚠️ Muestras pequeñas (n=4–6). ⚠️ Rendimientos en unidad relativa, no kg/hectárea de campo. ⚠️ De tres líneas de arroz, una (L1) rinde por debajo del silvestre; el efecto real está en L2 y L3 (+16 %).
+
+[Ver notebook](papers/2026-06-07-peptidos-frio-polen-cultivos/notebook) · [Leer más](papers/2026-06-07-peptidos-frio-polen-cultivos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-peptidos-frio-polen-cultivos/notebook.ipynb)
+
+
 ### Manikomicina: una bacteria "agotada" escondía un antibiótico nuevo
 
 **Medicina** · *Nature* (2026) · Una bacteria del suelo estudiada durante 80 años, *Streptomyces rimosus* —la fuente de la oxitetraciclina—, se daba por exprimida. Con una técnica de separación más fina, el equipo halló en ella una molécula nueva, la **manikomicina**, que mata Enterobacteriaceae multirresistentes pegándose al **sitio E** del ribosoma bacteriano: el primer antibiótico conocido que ataca ese punto. Bajamos los Source Data de farmacocinética (ratón) y de supervivencia (gusanos *C. elegans*). **Eficacia:** la manikomicina rescata a **4 de cada 10** gusanos infectados con una cepa de laboratorio que, sin tratar, no dejaba ninguno vivo al día 7 (0% → 41%, Fisher p<0,001); en la cepa clínica, 19% → 47%. **Pero:** rescata **menos** que la polimixina B (antibiótico de último recurso) y su pico en sangre cae al **2,4%** en 4 horas. ⚠️ Eficacia in vivo solo en gusanos, no en mamíferos. ⚠️ Farmacocinética de vida corta (n=3 ratones). ⚠️ El paper la enmarca como candidato (*lead*), no como fármaco terminado.

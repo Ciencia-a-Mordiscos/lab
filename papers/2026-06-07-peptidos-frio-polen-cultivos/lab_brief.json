@@ -1,0 +1,228 @@
+{
+  "version": "1.0",
+  "paper_id": 2584,
+  "doi": "10.1038/s41586-026-10603-7",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "A 25 °C ningún genotipo tiene defecto de viabilidad de polen",
+      "supported": "yes",
+      "detail": "Los cuatro genotipos rondan 0,98–1,0 a 25 °C. El efecto es específico de frío.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "none",
+        "value": 0,
+        "interpretation": "sin diferencia"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Bajo frío (12 °C) solo el doble mutante Slrgf9 Slrgf10 colapsa",
+      "supported": "yes",
+      "detail": "WT 0,91 · mutantes simples 0,82–0,84 · doble 0,43. Cohen's d (WT vs doble) = 6,4; Mann-Whitney p = 0,002 (n = 6/grupo).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 6.4,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los dos péptidos SlRGF9 y SlRGF10 son funcionalmente redundantes",
+      "supported": "yes",
+      "detail": "Apagar uno solo casi no afecta la viabilidad bajo frío; hacen falta los dos para romper la protección.",
+      "certainty_tier": "T1",
+      "abstract_verb": "control",
+      "effect_size": {
+        "measure": "none",
+        "value": 0,
+        "interpretation": "redundancia"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Sobreexpresar el péptido aumenta la producción reproductiva del tomate",
+      "supported": "yes",
+      "detail": "+64 % (SlRGF9) y +99 % (SlRGF10) vs silvestre, en unidad relativa del Source Data Fig. 5e (n = 5/grupo).",
+      "certainty_tier": "T1",
+      "abstract_verb": "prevent",
+      "effect_size": {
+        "measure": "pct_boost",
+        "value": 98.9,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El mecanismo se conserva en arroz (monocotiledónea)",
+      "supported": "partial",
+      "detail": "Dos de tres líneas de sobreexpresión de OsRGF10 suben +16 %; la tercera (L1) rinde menos (línea débil, probable efecto de sitio de inserción). Consistente con el 18,3 % del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "conserved",
+      "effect_size": {
+        "measure": "pct_boost",
+        "value": 16.4,
+        "interpretation": "moderado"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9.0,
+      "unit": "por ciento",
+      "context": "caída de viabilidad de polen del WT bajo frío (12 °C vs 25 °C)",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 56.6,
+      "unit": "por ciento",
+      "context": "caída de viabilidad de polen del doble mutante bajo frío",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 0.43,
+      "unit": "fracción",
+      "context": "viabilidad de polen del doble mutante a 12 °C",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 6.4,
+      "unit": "Cohen's d",
+      "context": "tamaño de efecto WT vs doble mutante a 12 °C (pooled)",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 0.002,
+      "unit": "p-value",
+      "context": "Mann-Whitney WT vs doble mutante a 12 °C",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 64.3,
+      "unit": "por ciento",
+      "context": "boost de producción del tomate OE SlRGF9 vs WT",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 98.9,
+      "unit": "por ciento",
+      "context": "boost de producción del tomate OE SlRGF10 vs WT",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 16.4,
+      "unit": "por ciento",
+      "context": "boost de grano de arroz línea L2 vs WT",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 16.8,
+      "unit": "por ciento",
+      "context": "boost de grano de arroz línea L3 vs WT",
+      "source": "notebook_calc",
+      "verified": true
+    },
+    {
+      "value": 52,
+      "unit": "por ciento",
+      "context": "pérdida de rendimiento de tomate evitada por frío (headline del paper)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "up to 52%",
+        "our_calculation": "+64–99% boost directo (framing distinto)",
+        "discrepancy_pct": 0,
+        "reason": "el 52% es 'pérdida evitada bajo frío'; nuestro panel mide boost directo de producción"
+      }
+    },
+    {
+      "value": 18.3,
+      "unit": "por ciento",
+      "context": "pérdida de grano de arroz recuperada (headline del paper)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "18.3%",
+        "our_calculation": "+16,4/16,8% en L2/L3",
+        "discrepancy_pct": 10,
+        "reason": "promedio de líneas vs framing del paper; L1 débil baja el promedio"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'identifican'"
+    },
+    {
+      "abstract_verb": "control",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'controlan'"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "bind",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'se unen'"
+    },
+    {
+      "abstract_verb": "activate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'activa'"
+    },
+    {
+      "abstract_verb": "prevent",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con número (52%)"
+    },
+    {
+      "abstract_verb": "conserved",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'está conservado'"
+    },
+    {
+      "abstract_verb": "remain unknown",
+      "tier": "T2",
+      "cam_attenuator": "'se desconocía' — enmarca el vacío que el paper llena"
+    }
+  ],
+  "narrative_hooks": [
+    "Una sola noche de frío durante la floración puede dejar estéril un cultivo entero antes del amanecer.",
+    "Dos péptidos diminutos que se encienden con el frío le ordenan al polen que aguante.",
+    "El mismo truco que protege al tomate funciona en arroz, una planta que se separó hace 150 millones de años.",
+    "Quita los dos péptidos a la vez y el polen colapsa de 0,99 a 0,43 bajo frío; quita solo uno y resiste."
+  ],
+  "limitations": [
+    "Muestras pequeñas: n = 4–6 por grupo.",
+    "Los rendimientos están en unidades relativas del Source Data, no en kg/hectárea de campo abierto.",
+    "La línea de arroz L1 rinde por debajo del silvestre (probable efecto del sitio de inserción del transgén); el efecto positivo se sostiene en L2 y L3.",
+    "Todo medido en condiciones controladas; falta validación en campo a gran escala."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims 'yes' + 1 'partial', 11 números clave — script estándar"
+  },
+  "notebook_slug": "2026-06-07-peptidos-frio-polen-cultivos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-07-peptidos-frio-polen-cultivos/notebook.html",
+  "generated_at": "2026-06-07T00:00:00-05:00"
+}
