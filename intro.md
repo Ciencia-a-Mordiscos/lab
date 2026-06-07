@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ¿El trabajo remoto te deja solo?
+
+**Psicología** · *Science* (2026) · El trabajo remoto en EE.UU. se cuadruplicó (7%→28% entre 2019 y 2023). Con cinco encuestas nacionales (588.322 trabajadores) y un diseño de diferencias en diferencias —remotables vs no remotables, 2011-2024 sin 2020-2021—, el equipo midió qué le hizo eso al aislamiento y la salud mental. **El hallazgo:** el daño se concentra en **quien vive solo** — suma **+7,0 pp** de días enteros sin compañía, **diez veces** lo de quien cohabita (p=0,006), y **13x** en días sin contacto humano (p=0,036). La salud mental empeora en varias señales (uso de servicios +58%, días deprimido +21,7%). Los autores **estiman** que el trabajo remoto explica **cerca de un tercio** del aumento nacional de soledad y distrés. ⚠️ Observacional/diferencias-en-diferencias: la causalidad descansa en supuestos, no en un sorteo. ⚠️ Valores transcritos del texto de acceso abierto (dataset Dryad en curación). ⚠️ El K-6 mide riesgo de distrés, no diagnóstico clínico.
+
+[Ver notebook](papers/2026-06-07-trabajo-remoto-soledad-mental/notebook) · [Leer más](papers/2026-06-07-trabajo-remoto-soledad-mental/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-trabajo-remoto-soledad-mental/notebook.ipynb)
+
 ### El mundo perdió 277.000 km² de árboles en un solo año
 
 **Ecología** · *Science* (2026) · En 2018 el planeta perdió 277.000 km² de cobertura arbórea —más que todo el Reino Unido—, pero el equipo miró 600 cuadros de 5×5 km con satélite de alta resolución (3–10 m) para separar lo que se pierde para siempre de lo que rota. Bajamos las proporciones por causa, por región y por bloque. **El hallazgo:** solo el **38,9%** fue conversión permanente; el resto rota o se recupera (silvicultura, agricultura migratoria, disturbios). Y cuando un bosque *natural* sí desaparece, el **pasto para ganado es la causa #1 (15,0%)**, más que cultivos (6,4%) y plantaciones (3,8%) juntos. América Latina encabeza con el **26,6%** del total. ⚠️ Es una estimación de 600 bloques, no un censo. ⚠️ Diseño observacional: proporciones y causas próximas, no causalidad activa. ⚠️ Un solo año (2018), no una tendencia.

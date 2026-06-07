@@ -1,0 +1,9 @@
+medida,grupo,cambio_pp,p_nivel,p_diff_vs_cohabita
+Dia entero solo,Todos,1.9,0.013,
+Dia entero solo,Vive solo,7.0,,0.006
+Dia entero solo,Cohabita,0.7,,
+Sin contacto humano,Todos,1.0,0.035,
+Sin contacto humano,Vive solo,3.9,,0.036
+Sin contacto humano,Cohabita,0.3,,
+Noche social con amigos,Vive solo,-2.0,,
+Noche social con amigos,Cohabita,-0.6,,

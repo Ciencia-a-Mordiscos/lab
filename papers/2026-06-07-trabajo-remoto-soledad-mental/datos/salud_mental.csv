@@ -1,0 +1,8 @@
+medida,fuente,unidad,cambio,cambio_pct,p_value,media_prepandemia
+Distres K-6,PSID,unidades,0.3,,0.063,3.0
+Distres K-6,NHIS,unidades,0.3,,0.007,
+Distres interfiere en la vida,PSID,%,,6.2,0.033,
+Dias deprimido al ano,NHIS,veces/ano,,21.7,0.0018,16.9
+Uso de atencion de salud mental,NHIS,pp,4.6,,0.0001,7.9
+Medicacion depresion/ansiedad,MEPS,pp,1.8,,0.066,10.9
+Toda medicacion de salud mental,MEPS,pp,1.9,,0.05,11.6

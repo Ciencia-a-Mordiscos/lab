@@ -943,6 +943,11 @@ parts:
       title: Notebook
 - caption: Psicología
   chapters:
+  - file: papers/2026-06-07-trabajo-remoto-soledad-mental/README
+    title: "¿El trabajo remoto te deja solo?"
+    sections:
+    - file: papers/2026-06-07-trabajo-remoto-soledad-mental/notebook
+      title: Notebook
   - file: papers/2026-04-28-castigo-cooperacion-bienes-publicos/README
     title: "El castigo no siempre promueve cooperación: depende mucho de las reglas"
     sections:

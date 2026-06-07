@@ -1,0 +1,28 @@
+titulo: "¿El trabajo remoto te deja solo?"
+fecha: 2026-06-07
+categoria: psicologia
+tags: [trabajo-remoto, salud-mental, aislamiento, soledad, economia, diferencias-en-diferencias]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec7671"
+    titulo: "Home alone: Remote work, isolation, and mental health"
+    journal: Science
+    autores: "et al. (Science, 2026)"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cambio_remoto.csv"
+    descripcion: "Salto del trabajo remoto (DiD), remotables vs no remotables"
+    fuente: "Texto de acceso abierto (valores transcritos)"
+  - nombre: "contacto_social.csv"
+    descripcion: "Dias en soledad y sin contacto por situacion de vivienda, con p del contraste entre grupos"
+    fuente: "Texto de acceso abierto (valores transcritos)"
+  - nombre: "salud_mental.csv"
+    descripcion: "Senales de salud mental: K-6, dias deprimido, uso de servicios, medicacion"
+    fuente: "Texto de acceso abierto (valores transcritos)"
+  - nombre: "atribucion_nacional.csv"
+    descripcion: "Fraccion del aumento nacional atribuible al trabajo remoto (~1/3)"
+    fuente: "Texto de acceso abierto (valores transcritos)"
+estado: publicado
