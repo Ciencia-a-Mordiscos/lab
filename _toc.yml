@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-06-07-perdida-cobertura-arborea-global/README
+    title: "El mundo perdió 277.000 km² de árboles en un solo año"
+    sections:
+    - file: papers/2026-06-07-perdida-cobertura-arborea-global/notebook
+      title: Notebook
   - file: papers/2026-06-03-mineria-deforestacion-africa/README
     title: "Minería y deforestación en África subsahariana"
     sections:

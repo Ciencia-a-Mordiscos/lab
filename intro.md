@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El mundo perdió 277.000 km² de árboles en un solo año
+
+**Ecología** · *Science* (2026) · En 2018 el planeta perdió 277.000 km² de cobertura arbórea —más que todo el Reino Unido—, pero el equipo miró 600 cuadros de 5×5 km con satélite de alta resolución (3–10 m) para separar lo que se pierde para siempre de lo que rota. Bajamos las proporciones por causa, por región y por bloque. **El hallazgo:** solo el **38,9%** fue conversión permanente; el resto rota o se recupera (silvicultura, agricultura migratoria, disturbios). Y cuando un bosque *natural* sí desaparece, el **pasto para ganado es la causa #1 (15,0%)**, más que cultivos (6,4%) y plantaciones (3,8%) juntos. América Latina encabeza con el **26,6%** del total. ⚠️ Es una estimación de 600 bloques, no un censo. ⚠️ Diseño observacional: proporciones y causas próximas, no causalidad activa. ⚠️ Un solo año (2018), no una tendencia.
+
+[Ver notebook](papers/2026-06-07-perdida-cobertura-arborea-global/notebook) · [Leer más](papers/2026-06-07-perdida-cobertura-arborea-global/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-perdida-cobertura-arborea-global/notebook.ipynb)
+
+
 ### Una helada en flor: los péptidos que salvan la cosecha
 
 **Biología** · *Nature* (2026) · Una noche de frío durante la floración puede dejar estéril un cultivo entero: el polen aborta y no hay grano. El equipo identificó en el tomate dos péptidos diminutos —**SlRGF9** y **SlRGF10**— que se encienden con el frío y protegen el polen. Bajamos los Source Data de viabilidad de polen y de rendimiento. **El hallazgo:** apagar los dos péptidos con CRISPR hunde la viabilidad del polen bajo frío de ~0,99 a **0,43** (caída del 56,6 %, Cohen's d = 6,4); apagar uno solo apenas afecta — se respaldan mutuamente. Subirlos dispara la cosecha de tomate (**+64 % y +99 %**), y el mismo truco recupera grano en arroz, una planta separada del tomate hace 150 millones de años. ⚠️ Muestras pequeñas (n=4–6). ⚠️ Rendimientos en unidad relativa, no kg/hectárea de campo. ⚠️ De tres líneas de arroz, una (L1) rinde por debajo del silvestre; el efecto real está en L2 y L3 (+16 %).

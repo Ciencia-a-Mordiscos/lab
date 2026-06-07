@@ -1,0 +1,5 @@
+stratum_id,stratum,Nh_bloques_totales,nh_bloques_muestreados,area_km2,peso_expansion
+1,No loss,1716105,50,42774314.7,855486.3
+2,Buffer (1 block),925039,50,23056139.0,461122.8
+3,Low loss,1335055,263,33275080.3,126521.2
+4,High loss,66438,237,1655833.7,6986.6

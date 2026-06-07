@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "paper_id": 2596,
+  "doi": "10.1126/science.adz9042",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El mundo perdió ~277.000 km² de cobertura arbórea en 2018",
+      "supported": "yes",
+      "detail": "Estimación de la muestra: 277.324 km² (paper: 277.000, dif. 0,1%). Estimación de 600 bloques, no censo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Menos del 40% de la pérdida fue conversión permanente",
+      "supported": "yes",
+      "detail": "Conversión permanente = 38,9% del total; el resto rota o se recupera (silvicultura, agricultura migratoria, disturbios).",
+      "certainty_tier": "T1",
+      "abstract_verb": "provided",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El pasto (ganadería) es la causa #1 de conversión de bosque natural",
+      "supported": "yes",
+      "detail": "Pasto 15,0%, por encima de cultivos (6,4%) y plantaciones (3,8%). Reproduce los números nombrados en el abstract.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La conversión de bosque natural suma cerca de un tercio (~29%) de la pérdida",
+      "supported": "partial",
+      "detail": "Reconstrucción de causas de conversión = 27,8%; paper reporta 29,0%. Brecha ~1,2 pp definicional (tala de propósito incierto).",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimated",
+      "supported_by_data": true
+    },
+    {
+      "claim": "América Latina lidera la pérdida regional",
+      "supported": "yes",
+      "detail": "26,6% del total mundial (73.902 km²), seguida por Sur y Sudeste de Asia (21,6%).",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La pérdida se concentra geográficamente, no se reparte pareja",
+      "supported": "yes",
+      "detail": "De 600 bloques, 439 con pérdida; 46 bloques (10% de los afectados) concentran la mitad del daño medido.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 277324,
+      "unit": "km²",
+      "context": "pérdida total global estimada de cobertura arbórea en 2018",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "277.000 km²",
+        "our_calculation": "277.324 km²",
+        "discrepancy_pct": 0.1,
+        "reason": "redondeo del paper"
+      }
+    },
+    {
+      "value": 600,
+      "unit": "bloques",
+      "context": "bloques de 5×5 km muestreados (439 con pérdida)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 38.9,
+      "unit": "por ciento",
+      "context": "de la pérdida fue conversión permanente de tierra",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27.8,
+      "unit": "por ciento",
+      "context": "conversión de bosque natural reconstruida (paper: 29,0%)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "29.0%",
+        "our_calculation": "27.8%",
+        "discrepancy_pct": 1.2,
+        "reason": "definicional: tala de propósito incierto agrupada en el paper"
+      }
+    },
+    {
+      "value": 15.0,
+      "unit": "por ciento",
+      "context": "pérdida convertida a pasto (ganadería), causa #1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.4,
+      "unit": "por ciento",
+      "context": "pérdida convertida a cultivos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.8,
+      "unit": "por ciento",
+      "context": "pérdida convertida a plantaciones no madereras (incl. palma)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17.2,
+      "unit": "por ciento",
+      "context": "agricultura migratoria, mayor causa próxima individual",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26.6,
+      "unit": "por ciento",
+      "context": "América Latina, región con mayor pérdida (73.902 km²)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "quantified",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa para lo medido (areas/proporciones), NO para causalidad"
+    },
+    {
+      "abstract_verb": "provided",
+      "tier": "T1",
+      "cam_attenuator": "'ofrece' / 'proporciona'"
+    },
+    {
+      "abstract_verb": "estimated",
+      "tier": "T2",
+      "cam_attenuator": "'se estima en' — es estimacion de muestra de 600 bloques, no censo global"
+    }
+  ],
+  "narrative_hooks": [
+    "En 2018 el mundo perdió una superficie de árboles mayor que todo el Reino Unido — ¿a dónde fue a parar?",
+    "Menos de 4 de cada 10 km² perdidos terminaron en algo permanente: el resto rota o rebrota.",
+    "El pasto para ganado, solo, explica 15 de cada 100 km² de árboles perdidos en el mundo.",
+    "46 bloques —el 10% de los afectados— concentran la mitad de todo el daño medido."
+  ],
+  "limitations": [
+    "Es una estimación a partir de 600 bloques de 5×5 km, no un censo global — cada cifra tiene incertidumbre de muestreo.",
+    "Diseño observacional: describe proporciones y causas próximas, no prueba causalidad activa.",
+    "Corresponde a un solo año (2018); no es una tendencia temporal.",
+    "La frontera entre conversión permanente y pérdida temporal depende de definiciones del propio estudio."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims verificados, 9 números clave"
+  },
+  "notebook_slug": "2026-06-07-perdida-cobertura-arborea-global",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-07-perdida-cobertura-arborea-global/notebook.html",
+  "generated_at": "2026-06-07T11:25:36"
+}

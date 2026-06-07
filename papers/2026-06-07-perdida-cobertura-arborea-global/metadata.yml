@@ -1,0 +1,28 @@
+titulo: "El mundo perdió 277.000 km² de árboles en un solo año"
+fecha: 2026-06-07
+categoria: ecologia
+tags: [deforestacion, bosques, teledeteccion, ganaderia, cobertura-arborea, satelite]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adz9042"
+    titulo: "Global extent and drivers of tree cover loss quantified with high-resolution satellite data"
+    journal: Science
+    autores: "Tyukavina et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "perdida_por_grupo.csv"
+    descripcion: "Pérdida por macro-categoría de causa, survey-weighted"
+    fuente: "Zenodo (derivado de la muestra de 600 bloques)"
+  - nombre: "perdida_natural_por_driver.csv"
+    descripcion: "Pérdida de cobertura natural por causa próxima"
+    fuente: "Zenodo (derivado de la muestra de 600 bloques)"
+  - nombre: "perdida_por_region.csv"
+    descripcion: "Pérdida por región geográfica (7 regiones)"
+    fuente: "Zenodo (derivado de la muestra de 600 bloques)"
+  - nombre: "distribucion_perdida_bloque.csv"
+    descripcion: "% de cada bloque de 5×5 km que perdió árboles"
+    fuente: "Zenodo (hoja Mapped_driver_proportions)"
+estado: publicado
