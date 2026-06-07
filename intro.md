@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Somos más cooperativos de lo que creemos
+
+**Psicología** · *Science* (2026) · A 101.123 personas de 125 países les pusieron un juego con dinero real: quedarse 100 dólares, o renunciar a 30 para donar 400 al clima *si la otra persona también coopera*. **El hallazgo:** cerca de **dos tercios coopera** (~73%), pero la gente cree que solo lo hace el **~45%** — una brecha de **28 puntos porcentuales**. Lo más asombroso: **124 de 125 países subestiman a su propia gente**; la única excepción del planeta es Egipto (que también es el menos cooperativo, 28%). La cooperación se *asocia* con las normas sociales y la paciencia (correlacional, no causal), y un experimento aleatorizado muestra que **decirle a la gente la verdad sobre los demás aumenta causalmente la cooperación** —aunque el empujón es pequeño (+0,76 pp, p=0,006). ⚠️ Salvo el tratamiento de información, todo es observacional. ⚠️ Cooperación medida con un juego de un solo turno. ⚠️ El efecto causal es real pero modesto.
+
+[Ver notebook](papers/2026-06-07-homo-cooperans-cooperacion-global/notebook) · [Leer más](papers/2026-06-07-homo-cooperans-cooperacion-global/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-homo-cooperans-cooperacion-global/notebook.ipynb)
+
 ### ¿El trabajo remoto te deja solo?
 
 **Psicología** · *Science* (2026) · El trabajo remoto en EE.UU. se cuadruplicó (7%→28% entre 2019 y 2023). Con cinco encuestas nacionales (588.322 trabajadores) y un diseño de diferencias en diferencias —remotables vs no remotables, 2011-2024 sin 2020-2021—, el equipo midió qué le hizo eso al aislamiento y la salud mental. **El hallazgo:** el daño se concentra en **quien vive solo** — suma **+7,0 pp** de días enteros sin compañía, **diez veces** lo de quien cohabita (p=0,006), y **13x** en días sin contacto humano (p=0,036). La salud mental empeora en varias señales (uso de servicios +58%, días deprimido +21,7%). Los autores **estiman** que el trabajo remoto explica **cerca de un tercio** del aumento nacional de soledad y distrés. ⚠️ Observacional/diferencias-en-diferencias: la causalidad descansa en supuestos, no en un sorteo. ⚠️ Valores transcritos del texto de acceso abierto (dataset Dryad en curación). ⚠️ El K-6 mide riesgo de distrés, no diagnóstico clínico.

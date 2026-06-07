@@ -943,6 +943,11 @@ parts:
       title: Notebook
 - caption: Psicología
   chapters:
+  - file: papers/2026-06-07-homo-cooperans-cooperacion-global/README
+    title: "Somos más cooperativos de lo que creemos"
+    sections:
+    - file: papers/2026-06-07-homo-cooperans-cooperacion-global/notebook
+      title: Notebook
   - file: papers/2026-06-07-trabajo-remoto-soledad-mental/README
     title: "¿El trabajo remoto te deja solo?"
     sections:

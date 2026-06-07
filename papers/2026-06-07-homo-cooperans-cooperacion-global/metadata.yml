@@ -1,0 +1,25 @@
+titulo: "Homo cooperans: somos más cooperativos de lo que creemos"
+fecha: 2026-06-07
+categoria: comportamiento humano
+tags: [cooperacion, psicologia, economia-conductual, percepcion-social, normas-sociales, experimento-global]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec9483"
+    titulo: "Homo cooperans: Understanding the nature of human cooperation"
+    journal: Science
+    autores: "Andre et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cooperacion_por_pais.csv"
+    descripcion: "125 países: tasa de cooperación, creencia, brecha, norma social, preferencias (z)"
+    fuente: "Replication Package — bonndata (Univ. Bonn)"
+  - nombre: "cooperacion_por_continente.csv"
+    descripcion: "Agregados por continente (5)"
+    fuente: "Calculado del replication package"
+  - nombre: "efecto_tratamiento.csv"
+    descripcion: "Control vs tratamiento de información (N=101.123)"
+    fuente: "Calculado del replication package (gcd_raw)"
+estado: publicado

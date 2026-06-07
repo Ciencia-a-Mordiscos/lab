@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "paper_id": 2598,
+  "doi": "10.1126/science.aec9483",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Cerca de dos tercios de la gente coopera (~73%)",
+      "supported": "yes",
+      "detail": "Media de 125 países = 72,7% (mediana 75,0%, IQR 65–82%). Abstract: 'about two-thirds'. Ponderado por población ~73% por países grandes de baja cooperación.",
+      "certainty_tier": "T1",
+      "abstract_verb": "choose to cooperate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La gente subestima la cooperación ajena (somos más cooperativos de lo que creemos)",
+      "supported": "yes",
+      "detail": "124 de 125 países (99,2%) creen menos de lo real. Brecha media 27,8 pp. Única excepción: Egipto (que también es el menos cooperativo).",
+      "certainty_tier": "T1",
+      "abstract_verb": "underestimate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las creencias siguen a la realidad pero por debajo",
+      "supported": "yes",
+      "detail": "Spearman ρ = 0,59 (p < 0,0001). Shapiro: la cooperación real NO es normal (p < 0,001) → se reporta Spearman, no Pearson (regla 33).",
+      "certainty_tier": "T1",
+      "abstract_verb": "underestimate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La norma social y las preferencias (paciencia, riesgo) se asocian con cooperar",
+      "supported": "partial",
+      "detail": "Correlacional, NO causal: paciencia ρ=0,48, riesgo ρ=0,37, norma social ρ=0,33. El altruismo NO correlaciona (ρ=−0,11, p=0,23).",
+      "certainty_tier": "T2",
+      "abstract_verb": "shaped by",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Informar sobre la cooperación real aumenta causalmente la cooperación",
+      "supported": "yes",
+      "detail": "Único claim causal (asignación aleatoria): +0,76 pp, z=2,74, p=0,006. Efecto pequeño (Cohen's h=0,017) pero significativo por el N enorme.",
+      "certainty_tier": "T1",
+      "abstract_verb": "causally increases",
+      "effect_size": {
+        "measure": "cohen_h",
+        "value": 0.017,
+        "interpretation": "pequeño"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 72.7,
+      "unit": "por ciento",
+      "context": "cooperación global (media de 125 países; abstract: dos tercios)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "about two-thirds (~67%)",
+        "our_calculation": "72,7% media / 73,5% ponderado",
+        "discrepancy_pct": 8.0,
+        "reason": "abstract redondea a dos tercios; ponderación poblacional acerca a ~73%"
+      }
+    },
+    {
+      "value": 44.9,
+      "unit": "por ciento",
+      "context": "lo que la gente CREE que coopera (media de creencias)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27.8,
+      "unit": "puntos porcentuales",
+      "context": "brecha de percepción media (real − creído)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 124,
+      "unit": "de 125 países",
+      "context": "países que subestiman la cooperación de sus compatriotas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.59,
+      "unit": "rho (Spearman)",
+      "context": "correlación creencia ↔ realidad entre países",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.76,
+      "unit": "puntos porcentuales",
+      "context": "efecto causal del tratamiento de información sobre la cooperación",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "causally increases (raking weights + country FE)",
+        "our_calculation": "+0,76 pp (peso base wgt)",
+        "discrepancy_pct": 0.0,
+        "reason": "magnitud comparable; peso base vs raking weights del paper"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "choose to cooperate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (descriptivo)"
+    },
+    {
+      "abstract_verb": "underestimate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'somos más cooperativos de lo que creemos'"
+    },
+    {
+      "abstract_verb": "shaped by",
+      "tier": "T2",
+      "cam_attenuator": "'se asocia con' / 'predice' — observacional, NO causal"
+    },
+    {
+      "abstract_verb": "associated",
+      "tier": "T2",
+      "cam_attenuator": "'va de la mano con' — NO causal"
+    },
+    {
+      "abstract_verb": "causally increases",
+      "tier": "T1",
+      "cam_attenuator": "'aumentó causalmente' — CAUSAL, solo el tratamiento; magnitud modesta (~0,8 pp)"
+    }
+  ],
+  "narrative_hooks": [
+    "Crees que la gente no coopera. La realidad: cerca de 7 de cada 10 sí lo hace, y casi nadie lo sospecha.",
+    "124 de 125 países subestiman a su propia gente — la única excepción del planeta es Egipto.",
+    "Decirle a la gente la verdad sobre los demás los vuelve más cooperativos. El empujón es real, aunque pequeño."
+  ],
+  "limitations": [
+    "Salvo el experimento de información, todo es observacional: los determinantes se asocian con cooperar, no la causan.",
+    "Cooperación medida con UN juego de un solo turno; no captura cooperación repetida ni en grupos.",
+    "Los agregados país-nivel publicados con el paper ocultan la variación individual.",
+    "El efecto causal del tratamiento (~0,8 pp) es real pero modesto: corregir la percepción ayuda, no transforma."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados 'yes' + 1 'partial', 6 números clave"
+  },
+  "notebook_slug": "2026-06-07-homo-cooperans-cooperacion-global",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-07-homo-cooperans-cooperacion-global/notebook.html",
+  "generated_at": "2026-06-07T12:00:00-05:00"
+}
