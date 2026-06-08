@@ -1,0 +1,425 @@
+vote,credence,response_label,discipline,timestamp
+4,0.25,Disagree,Astrobiologists,2025-10-03 20:20:14.577000
+3,0.5,Neutral,Astrobiologists,2025-10-03 14:26:12.920000
+1,0.95,Strongly agree,Astrobiologists,2025-10-02 15:34:39.171000
+4,0.25,Disagree,Astrobiologists,2025-10-02 13:47:54.242000
+2,0.75,Agree,Astrobiologists,2025-10-02 10:34:34.532000
+3,0.5,Neutral,Astrobiologists,2025-10-02 00:02:00.179000
+3,0.5,Neutral,Astrobiologists,2025-10-01 17:39:27.118000
+4,0.25,Disagree,Astrobiologists,2025-10-01 15:17:58.074000
+3,0.5,Neutral,Astrobiologists,2025-10-01 14:53:55.051000
+3,0.5,Neutral,Astrobiologists,2025-10-01 14:41:48.218000
+3,0.5,Neutral,Astrobiologists,2025-10-01 14:09:10.786000
+3,0.5,Neutral,Astrobiologists,2025-10-01 11:57:24.247000
+2,0.75,Agree,Astrobiologists,2025-10-01 11:04:11.045000
+4,0.25,Disagree,Astrobiologists,2025-10-01 09:53:59.646000
+4,0.25,Disagree,Astrobiologists,2025-10-01 09:30:21.961000
+5,0.05,Strongly disagree,Astrobiologists,2025-10-01 08:57:40.303000
+3,0.5,Neutral,Astrobiologists,2025-10-01 08:52:58.707000
+2,0.75,Agree,Astrobiologists,2025-10-01 08:12:15.669000
+3,0.5,Neutral,Astrobiologists,2025-10-01 08:02:33.407000
+4,0.25,Disagree,Astrobiologists,2025-10-01 07:29:09.963000
+3,0.5,Neutral,Astrobiologists,2025-10-01 06:06:32.320000
+1,0.95,Strongly agree,Astrobiologists,2025-10-01 05:42:21.190000
+3,0.5,Neutral,Astrobiologists,2025-10-01 03:54:13.406000
+3,0.5,Neutral,Astrobiologists,2025-10-01 01:20:40.729000
+4,0.25,Disagree,Astrobiologists,2025-10-01 01:15:28.420000
+4,0.25,Disagree,Astrobiologists,2025-10-01 00:06:01.572000
+2,0.75,Agree,Astrobiologists,2025-09-30 23:48:19.334000
+3,0.5,Neutral,Astrobiologists,2025-09-30 23:27:22.987000
+4,0.25,Disagree,Astrobiologists,2025-09-30 23:09:11.284000
+4,0.25,Disagree,Astrobiologists,2025-09-30 22:51:53.056000
+3,0.5,Neutral,Astrobiologists,2025-09-30 22:36:11.649000
+2,0.75,Agree,Astrobiologists,2025-09-30 22:14:12.773000
+4,0.25,Disagree,Astrobiologists,2025-09-30 21:14:20.394000
+1,0.95,Strongly agree,Astrobiologists,2025-09-30 20:52:17.905000
+3,0.5,Neutral,Astrobiologists,2025-09-30 20:33:54.564000
+3,0.5,Neutral,Astrobiologists,2025-09-30 19:07:39.352000
+3,0.5,Neutral,Astrobiologists,2025-09-30 18:54:19.004000
+1,0.95,Strongly agree,Astrobiologists,2025-09-30 18:27:36.970000
+2,0.75,Agree,Astrobiologists,2025-09-30 17:31:54.359000
+1,0.95,Strongly agree,Astrobiologists,2025-09-30 17:05:53.947000
+4,0.25,Disagree,Astrobiologists,2025-09-30 16:57:22.257000
+3,0.5,Neutral,Astrobiologists,2025-09-30 16:56:31.874000
+4,0.25,Disagree,Astrobiologists,2025-09-30 16:54:52.788000
+2,0.75,Agree,Astrobiologists,2025-09-30 16:49:56.558000
+4,0.25,Disagree,Astrobiologists,2025-09-30 16:24:12.477000
+4,0.25,Disagree,Astrobiologists,2025-09-30 16:18:44.820000
+3,0.5,Neutral,Astrobiologists,2025-09-30 16:18:31.800000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 16:15:06.534000
+4,0.25,Disagree,Astrobiologists,2025-09-30 16:04:13.326000
+3,0.5,Neutral,Astrobiologists,2025-09-30 16:02:20.789000
+3,0.5,Neutral,Astrobiologists,2025-09-30 16:00:08.437000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:53:23.262000
+2,0.75,Agree,Astrobiologists,2025-09-30 15:52:17.119000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:49:12.752000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:43:26.400000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:42:05.592000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:40:41.700000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:39:40.851000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:37:49.921000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 15:33:55.731000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 15:31:42.313000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:26:24.451000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:25:38.741000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:23:55.506000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:23:41.111000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 15:21:09.874000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:19:02.532000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:15:54.782000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 15:15:36.751000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:15:34.176000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 15:14:44.856000
+2,0.75,Agree,Astrobiologists,2025-09-30 15:14:19.552000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:14:03.248000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:11:14.509000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:09:56.222000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:09:26.310000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:08:52.551000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 15:06:55.399000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:06:44.741000
+4,0.25,Disagree,Astrobiologists,2025-09-30 15:05:08.971000
+2,0.75,Agree,Astrobiologists,2025-09-30 15:02:39.971000
+3,0.5,Neutral,Astrobiologists,2025-09-30 15:01:15.382000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 15:00:30.274000
+4,0.25,Disagree,Astrobiologists,2025-09-30 14:59:46.316000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:53:03.426000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:52:33.875000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:52:19.525000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:51:54.883000
+4,0.25,Disagree,Astrobiologists,2025-09-30 14:51:41.483000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:51:31.304000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-30 14:50:18.298000
+4,0.25,Disagree,Astrobiologists,2025-09-30 14:50:09.475000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:49:59.665000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:49:03.827000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:48:38.742000
+4,0.25,Disagree,Astrobiologists,2025-09-30 14:48:04.750000
+2,0.75,Agree,Astrobiologists,2025-09-30 14:47:26.540000
+4,0.25,Disagree,Astrobiologists,2025-09-30 14:47:18.318000
+2,0.75,Agree,Astrobiologists,2025-09-30 14:46:06.601000
+4,0.25,Disagree,Astrobiologists,2025-09-30 14:46:02.604000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:44:51.301000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:44:42.441000
+4,0.25,Disagree,Astrobiologists,2025-09-30 14:42:09.700000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:40:14.908000
+3,0.5,Neutral,Astrobiologists,2025-09-30 14:40:06.150000
+2,0.75,Agree,Astrobiologists,2025-09-30 14:33:45.838000
+1,0.95,Strongly agree,Astrobiologists,2025-09-30 01:25:14.039000
+4,0.25,Disagree,Astrobiologists,2025-09-30 00:42:09.735000
+3,0.5,Neutral,Astrobiologists,2025-09-29 20:31:32.037000
+4,0.25,Disagree,Astrobiologists,2025-09-29 15:50:45.948000
+4,0.25,Disagree,Astrobiologists,2025-09-29 14:10:54.776000
+4,0.25,Disagree,Astrobiologists,2025-09-29 13:07:41.663000
+2,0.75,Agree,Astrobiologists,2025-09-29 09:17:35.769000
+3,0.5,Neutral,Astrobiologists,2025-09-29 06:46:46.264000
+2,0.75,Agree,Astrobiologists,2025-09-28 19:38:53.003000
+3,0.5,Neutral,Astrobiologists,2025-09-27 13:07:11.408000
+3,0.5,Neutral,Astrobiologists,2025-09-26 16:22:05.487000
+4,0.25,Disagree,Astrobiologists,2025-09-26 13:17:24.250000
+3,0.5,Neutral,Astrobiologists,2025-09-26 13:04:30.965000
+4,0.25,Disagree,Astrobiologists,2025-09-26 12:41:48.172000
+1,0.95,Strongly agree,Astrobiologists,2025-09-26 08:23:53.310000
+3,0.5,Neutral,Astrobiologists,2025-09-26 01:52:39.787000
+3,0.5,Neutral,Astrobiologists,2025-09-25 20:14:34.932000
+3,0.5,Neutral,Astrobiologists,2025-09-25 17:51:34.928000
+3,0.5,Neutral,Astrobiologists,2025-09-25 17:38:01.773000
+3,0.5,Neutral,Astrobiologists,2025-09-25 15:47:15.260000
+4,0.25,Disagree,Astrobiologists,2025-09-25 15:38:44.216000
+4,0.25,Disagree,Astrobiologists,2025-09-25 14:19:28.687000
+4,0.25,Disagree,Astrobiologists,2025-09-25 13:45:23.212000
+3,0.5,Neutral,Astrobiologists,2025-09-25 13:10:10.025000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-25 10:13:34.578000
+3,0.5,Neutral,Astrobiologists,2025-09-25 09:03:08.282000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-25 08:53:50.192000
+4,0.25,Disagree,Astrobiologists,2025-09-25 07:48:29.897000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-25 07:12:30.767000
+4,0.25,Disagree,Astrobiologists,2025-09-25 07:00:39.959000
+3,0.5,Neutral,Astrobiologists,2025-09-25 06:44:47.837000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-25 06:40:14.633000
+3,0.5,Neutral,Astrobiologists,2025-09-25 06:35:18.983000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-25 04:20:47.538000
+3,0.5,Neutral,Astrobiologists,2025-09-24 22:00:28.601000
+3,0.5,Neutral,Astrobiologists,2025-09-24 18:57:00.921000
+3,0.5,Neutral,Astrobiologists,2025-09-24 18:36:58.839000
+3,0.5,Neutral,Astrobiologists,2025-09-24 17:09:13.082000
+3,0.5,Neutral,Astrobiologists,2025-09-24 16:25:32.133000
+3,0.5,Neutral,Astrobiologists,2025-09-24 16:13:01.938000
+3,0.5,Neutral,Astrobiologists,2025-09-24 15:13:59.592000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-24 14:41:01.125000
+4,0.25,Disagree,Astrobiologists,2025-09-24 14:11:20.607000
+2,0.75,Agree,Astrobiologists,2025-09-24 14:04:48.312000
+4,0.25,Disagree,Astrobiologists,2025-09-24 13:58:13.205000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-24 13:55:05.482000
+4,0.25,Disagree,Astrobiologists,2025-09-24 12:34:10.516000
+3,0.5,Neutral,Astrobiologists,2025-09-24 12:10:13.856000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-24 12:08:51.456000
+2,0.75,Agree,Astrobiologists,2025-09-24 12:01:53.855000
+3,0.5,Neutral,Astrobiologists,2025-09-24 11:28:14.251000
+3,0.5,Neutral,Astrobiologists,2025-09-24 10:24:17.674000
+4,0.25,Disagree,Astrobiologists,2025-09-24 10:14:13.149000
+3,0.5,Neutral,Astrobiologists,2025-09-24 09:52:47.898000
+4,0.25,Disagree,Astrobiologists,2025-09-24 09:48:30.020000
+2,0.75,Agree,Astrobiologists,2025-09-24 09:46:49.197000
+4,0.25,Disagree,Astrobiologists,2025-09-24 09:44:48.127000
+3,0.5,Neutral,Astrobiologists,2025-09-24 09:40:52.639000
+3,0.5,Neutral,Astrobiologists,2025-09-24 09:24:37.964000
+3,0.5,Neutral,Astrobiologists,2025-09-24 09:03:10.912000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-24 08:54:30.389000
+3,0.5,Neutral,Astrobiologists,2025-09-24 08:43:29.356000
+3,0.5,Neutral,Astrobiologists,2025-09-24 08:15:56.279000
+3,0.5,Neutral,Astrobiologists,2025-09-24 08:03:53.357000
+3,0.5,Neutral,Astrobiologists,2025-09-24 07:54:50.955000
+4,0.25,Disagree,Astrobiologists,2025-09-24 07:35:01.747000
+4,0.25,Disagree,Astrobiologists,2025-09-24 07:27:24.775000
+3,0.5,Neutral,Astrobiologists,2025-09-24 07:19:14.511000
+3,0.5,Neutral,Astrobiologists,2025-09-24 07:16:51.099000
+3,0.5,Neutral,Astrobiologists,2025-09-24 06:58:53.248000
+4,0.25,Disagree,Astrobiologists,2025-09-24 06:57:47.892000
+2,0.75,Agree,Astrobiologists,2025-09-24 06:52:18.855000
+4,0.25,Disagree,Astrobiologists,2025-09-24 06:20:03.928000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-24 06:09:47.099000
+3,0.5,Neutral,Astrobiologists,2025-09-24 05:16:22.284000
+4,0.25,Disagree,Astrobiologists,2025-09-24 05:14:03.664000
+3,0.5,Neutral,Astrobiologists,2025-09-24 04:59:49.850000
+2,0.75,Agree,Astrobiologists,2025-09-24 03:22:27.422000
+3,0.5,Neutral,Astrobiologists,2025-09-24 00:56:17.614000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-24 00:53:14.516000
+4,0.25,Disagree,Astrobiologists,2025-09-24 00:34:46.767000
+3,0.5,Neutral,Astrobiologists,2025-09-24 00:23:52.367000
+3,0.5,Neutral,Astrobiologists,2025-09-23 23:38:32.597000
+4,0.25,Disagree,Astrobiologists,2025-09-23 23:29:41.328000
+4,0.25,Disagree,Astrobiologists,2025-09-23 23:26:22.531000
+4,0.25,Disagree,Astrobiologists,2025-09-23 23:21:38.249000
+3,0.5,Neutral,Astrobiologists,2025-09-23 23:20:47.981000
+2,0.75,Agree,Astrobiologists,2025-09-23 22:37:21.505000
+3,0.5,Neutral,Astrobiologists,2025-09-23 22:04:25.590000
+4,0.25,Disagree,Astrobiologists,2025-09-23 22:00:27.441000
+4,0.25,Disagree,Astrobiologists,2025-09-23 21:57:33.937000
+2,0.75,Agree,Astrobiologists,2025-09-23 21:32:10.136000
+4,0.25,Disagree,Astrobiologists,2025-09-23 21:17:39.147000
+2,0.75,Agree,Astrobiologists,2025-09-23 21:04:57.250000
+1,0.95,Strongly agree,Astrobiologists,2025-09-23 20:51:55.830000
+4,0.25,Disagree,Astrobiologists,2025-09-23 20:46:24.709000
+4,0.25,Disagree,Astrobiologists,2025-09-23 20:45:46.824000
+3,0.5,Neutral,Astrobiologists,2025-09-23 20:43:28.056000
+4,0.25,Disagree,Astrobiologists,2025-09-23 20:15:23.427000
+3,0.5,Neutral,Astrobiologists,2025-09-23 20:11:04.758000
+3,0.5,Neutral,Astrobiologists,2025-09-23 19:48:20.078000
+4,0.25,Disagree,Astrobiologists,2025-09-23 19:44:50.265000
+1,0.95,Strongly agree,Astrobiologists,2025-09-23 19:32:58.052000
+3,0.5,Neutral,Astrobiologists,2025-09-23 19:28:02.219000
+2,0.75,Agree,Astrobiologists,2025-09-23 19:24:20.087000
+4,0.25,Disagree,Astrobiologists,2025-09-23 19:20:44.448000
+3,0.5,Neutral,Astrobiologists,2025-09-23 19:17:26.673000
+3,0.5,Neutral,Astrobiologists,2025-09-23 19:03:26.820000
+3,0.5,Neutral,Astrobiologists,2025-09-23 19:01:06.381000
+4,0.25,Disagree,Astrobiologists,2025-09-23 19:00:49.331000
+3,0.5,Neutral,Astrobiologists,2025-09-23 18:51:04.902000
+3,0.5,Neutral,Astrobiologists,2025-09-23 18:49:46.933000
+3,0.5,Neutral,Astrobiologists,2025-09-23 18:44:38.545000
+4,0.25,Disagree,Astrobiologists,2025-09-23 18:39:27.829000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 18:34:39.374000
+4,0.25,Disagree,Astrobiologists,2025-09-23 18:30:19.259000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 18:26:42.067000
+2,0.75,Agree,Astrobiologists,2025-09-23 18:25:11.612000
+4,0.25,Disagree,Astrobiologists,2025-09-23 18:22:56.925000
+4,0.25,Disagree,Astrobiologists,2025-09-23 18:15:14.165000
+3,0.5,Neutral,Astrobiologists,2025-09-23 18:03:15.182000
+2,0.75,Agree,Astrobiologists,2025-09-23 18:01:15.106000
+4,0.25,Disagree,Astrobiologists,2025-09-23 17:58:56.216000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:52:57.627000
+2,0.75,Agree,Astrobiologists,2025-09-23 17:44:27.672000
+4,0.25,Disagree,Astrobiologists,2025-09-23 17:44:10.226000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:43:13.430000
+4,0.25,Disagree,Astrobiologists,2025-09-23 17:41:55.876000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:39:46.136000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:37:50.360000
+2,0.75,Agree,Astrobiologists,2025-09-23 17:36:35.701000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:35:04.640000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 17:32:33.499000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:32:19.986000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 17:30:23.822000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:26:44.468000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:24:30.466000
+4,0.25,Disagree,Astrobiologists,2025-09-23 17:21:43.558000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:16:18.752000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:11:42.897000
+4,0.25,Disagree,Astrobiologists,2025-09-23 17:05:54.656000
+2,0.75,Agree,Astrobiologists,2025-09-23 17:05:31.450000
+3,0.5,Neutral,Astrobiologists,2025-09-23 17:03:49.896000
+4,0.25,Disagree,Astrobiologists,2025-09-23 17:01:39.591000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:58:48.429000
+2,0.75,Agree,Astrobiologists,2025-09-23 16:57:09.331000
+2,0.75,Agree,Astrobiologists,2025-09-23 16:56:39.477000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 16:53:33.711000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 16:50:15.804000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:48:23.077000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:39:12.829000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 16:36:05.784000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:35:21.949000
+3,0.5,Neutral,Astrobiologists,2025-09-23 16:28:52.808000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:27:02.400000
+3,0.5,Neutral,Astrobiologists,2025-09-23 16:26:34.100000
+2,0.75,Agree,Astrobiologists,2025-09-23 16:25:07.204000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 16:23:20.628000
+3,0.5,Neutral,Astrobiologists,2025-09-23 16:21:45.422000
+2,0.75,Agree,Astrobiologists,2025-09-23 16:16:30.905000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:16:14.363000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 16:15:06.813000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 16:14:57.411000
+3,0.5,Neutral,Astrobiologists,2025-09-23 16:09:54.895000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:05:34.041000
+4,0.25,Disagree,Astrobiologists,2025-09-23 16:04:35.059000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:55:13.506000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:55:01.368000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:54:23.434000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:53:02.608000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:52:14.712000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:50:13.718000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:50:01.481000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:48:45.318000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:48:42.676000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:45:51.413000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:44:58.725000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:41:03.627000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:40:26.394000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:38:11.600000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:37:41.501000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:35:38.626000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:32:57.216000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:32:42.388000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:31:19.119000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:31:06.814000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:28:59.899000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:28:41.379000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:27:04.400000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:27:00.847000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:26:40.883000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:23:35.780000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:23:12.182000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:22:55.591000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 15:20:45.547000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:20:42.557000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:19:20.055000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:19:17.631000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:18:41.500000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:17:20.083000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:17:11.313000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:12:14.685000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:11:29.299000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:10:16.079000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:09:38.101000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:09:29.910000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 15:08:58.341000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:08:52.670000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:08:51.057000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:08:14.060000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:07:44.569000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:07:42.560000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:07:15.301000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 15:06:09.190000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:06:03.183000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:06:02.769000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:04:55.212000
+2,0.75,Agree,Astrobiologists,2025-09-23 15:03:16.690000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:03:02.296000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 15:02:45.081000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:01:55.410000
+3,0.5,Neutral,Astrobiologists,2025-09-23 15:01:31.479000
+4,0.25,Disagree,Astrobiologists,2025-09-23 15:00:22.486000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:59:16.565000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:58:43.331000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:56:30.984000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:56:11.820000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:56:08.317000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:55:28.914000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:53:14.992000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:53:02.721000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:52:42.850000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:52:36.149000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:52:34.408000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:52:34.384000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:52:17.409000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:50:49.881000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:50:19.041000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:50:07.775000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:49:43.973000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:49:37.100000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:49:10.654000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:48:04.204000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:47:57.848000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:47:37.938000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:47:23.417000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:47:15.505000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:47:12.877000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:46:14.216000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:46:07.003000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:45:40.131000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:45:00.116000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:44:47.443000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:44:41.224000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:43:55.124000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:43:07.413000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:43:03.732000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:42:18.652000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:41:34.613000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:41:14.393000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:40:41.258000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:39:53.643000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:39:46.212000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:39:06.711000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:38:57.071000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:38:45.293000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:38:25.640000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:37:41.423000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:37:02.608000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:36:54.359000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:36:13.583000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:35:04.610000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:33:58.175000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:33:39.959000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:33:25.274000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:30:26.711000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:30:22.878000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:29:56.080000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:28:59.358000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:26:07.248000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:25:32.060000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:25:29.533000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:25:27.273000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:25:10.841000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:24:13.786000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:23:32.332000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:23:20.125000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:22:11.649000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:22:02.547000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:20:31.165000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:20:28.426000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:19:34.075000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:19:32.520000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:18:51.478000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:18:42.778000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:17:59.971000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:17:50.893000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:17:27.291000
+2,0.75,Agree,Astrobiologists,2025-09-23 14:17:06.583000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:17:01.429000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:15:27.901000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:15:24.971000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:15:18.909000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:15:12.981000
+5,0.05,Strongly disagree,Astrobiologists,2025-09-23 14:14:18.354000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:13:32.277000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:12:28.913000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:11:55.553000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:11:47.820000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:11:30.120000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:11:28.041000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:11:04.064000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:10:24.625000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:09:37.028000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:08:35.516000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:05:07.531000
+3,0.5,Neutral,Astrobiologists,2025-09-23 14:03:09.449000
+4,0.25,Disagree,Astrobiologists,2025-09-23 14:00:46.896000

@@ -1,0 +1,6 @@
+response_label,vote_code,credence_weight,k2_18b_count,k2_18b_pct,mars_count,mars_pct
+Strongly agree,1,0.95,2,0.004,9,0.0212
+Agree,2,0.75,31,0.0625,55,0.1297
+Neutral,3,0.5,139,0.2802,171,0.4033
+Disagree,4,0.25,150,0.3024,142,0.3349
+Strongly disagree,5,0.05,174,0.3508,47,0.1108

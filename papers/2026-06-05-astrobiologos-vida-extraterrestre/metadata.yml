@@ -1,0 +1,25 @@
+titulo: "¿A los expertos los convence más Marte o un exoplaneta?"
+fecha: 2026-06-05
+categoria: astronomia
+tags: [astrobiologia, vida-extraterrestre, k2-18b, marte, encuesta, consenso-cientifico]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02876-9"
+    titulo: "Comparing astrobiologists' confidence in extraterrestrial life claims for K2-18 b and Cheyava Falls"
+    journal: Nature Astronomy
+    autores: "Vickers et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "votos_k2_18b.csv"
+    descripcion: "496 votos de astrobiólogos sobre K2-18 b (abril-mayo 2025)"
+    fuente: "Supplementary Data 1"
+  - nombre: "votos_mars.csv"
+    descripcion: "424 votos de astrobiólogos sobre Cheyava Falls / Marte (sept-oct 2025)"
+    fuente: "Supplementary Data 1"
+  - nombre: "distribucion_respuestas.csv"
+    descripcion: "Distribución agregada de las 5 categorías Likert para ambas encuestas"
+    fuente: "Derivado de Supplementary Data 1"
+estado: publicado

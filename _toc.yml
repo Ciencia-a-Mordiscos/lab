@@ -640,6 +640,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-06-05-astrobiologos-vida-extraterrestre/README
+    title: "¿A los astrobiólogos los convence más Marte o K2-18 b?"
+    sections:
+    - file: papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook
+      title: Notebook
   - file: papers/2026-06-04-masa-agujero-negro-redshift-2/README
     title: "Un agujero negro de 6.000 millones de soles a redshift 2"
     sections:

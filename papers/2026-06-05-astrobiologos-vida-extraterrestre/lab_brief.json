@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "paper_id": 2606,
+  "doi": "10.1038/s41550-026-02876-9",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Marte (Cheyava Falls) recibió más confianza media que K2-18 b",
+      "supported": "yes",
+      "detail": "41% vs 28%, +12 puntos porcentuales (+44% relativo). Cohen's d = 0,57 (efecto medio).",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.57,
+        "interpretation": "medio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La diferencia entre ambos anuncios no es casualidad estadística",
+      "supported": "yes",
+      "detail": "Mann-Whitney U = 137.508, p = 3,8e-17 (variable ordinal, dos grupos independientes).",
+      "certainty_tier": "T1",
+      "abstract_verb": "establish",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.57,
+        "interpretation": "medio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Aun en el caso más persuasivo (Marte), la mayoría siguió escéptica",
+      "supported": "yes",
+      "detail": "Quitando indecisos, 75% no lo vio como evidencia de vida; con K2-18 b fueron 91%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Casi nadie se convenció del todo en ninguno de los dos casos",
+      "supported": "yes",
+      "detail": "'Totalmente de acuerdo': 2 votos (K2-18 b) y 9 votos (Marte) de cientos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "El desacuerdo interno fue alto en ambas encuestas",
+      "supported": "yes",
+      "detail": "Entropía de Shannon 1,85 (K2-18 b) y 1,91 (Marte) bits, de un máximo de 2,32: voto muy repartido.",
+      "certainty_tier": "T1",
+      "abstract_verb": "establish",
+      "effect_size": null,
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 28.4,
+      "unit": "por ciento",
+      "context": "confianza media de astrobiólogos en K2-18 b como evidencia de vida",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.2841 (Fig 3)",
+        "our_calculation": "0.2840",
+        "discrepancy_pct": 0.04,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 40.8,
+      "unit": "por ciento",
+      "context": "confianza media de astrobiólogos en Cheyava Falls / Marte",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.4083 (Fig 3)",
+        "our_calculation": "0.4084",
+        "discrepancy_pct": 0.02,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 12.44,
+      "unit": "puntos porcentuales",
+      "context": "Marte superó a K2-18 b en confianza media (+44% relativo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.57,
+      "unit": "cohen_d",
+      "context": "tamaño del efecto de la diferencia de confianza (medio)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 75,
+      "unit": "por ciento",
+      "context": "escépticos sin contar neutrales en el caso Marte (el más persuasivo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 91,
+      "unit": "por ciento",
+      "context": "escépticos sin contar neutrales en el caso K2-18 b",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 496,
+      "unit": "votos",
+      "context": "astrobiólogos que votaron sobre K2-18 b (abril-mayo 2025)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 424,
+      "unit": "votos",
+      "context": "astrobiólogos que votaron sobre Cheyava Falls / Marte (sept-oct 2025)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (los datos establecen una línea base)"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'los datos muestran / revelan' — observacional, describe lo medido, NO causal"
+    },
+    {
+      "abstract_verb": "possible (extraterrestrial life)",
+      "tier": "T3",
+      "cam_attenuator": "'posible' — NO afirmar que hay vida detectada"
+    }
+  ],
+  "narrative_hooks": [
+    "920 astrobiólogos votaron sobre si vimos vida fuera de la Tierra; la sorpresa no es a quién creyeron, sino cuánto siguieron dudando",
+    "Marte ganó la votación, pero 3 de cada 4 expertos siguieron escépticos incluso ahí",
+    "Casi nadie firmó el 'totalmente de acuerdo': 9 personas en el mejor caso"
+  ],
+  "limitations": [
+    "Son dos encuestas independientes (distintos respondientes, distintas fechas), no una comparación pareada persona-por-persona",
+    "Mide opinión/confianza experta, NO la validez física de cada evidencia",
+    "Tasas de respuesta 39% (K2-18 b) y 33% (Marte): posible sesgo de autoselección",
+    "Población autoidentificada como astrobióloga en la plataforma IASC"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims verificados yes, 8 números clave"
+  },
+  "notebook_slug": "2026-06-05-astrobiologos-vida-extraterrestre",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook.html",
+  "generated_at": "2026-06-07T22:05:55"
+}

@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ¿A los astrobiólogos los convence más Marte o K2-18 b?
+
+**Astronomía** · *Nature Astronomy* (2026) · Tras los dos anuncios de posible vida de 2025 —gases raros en el exoplaneta **K2-18 b** (abril) y la roca marciana **Cheyava Falls** (septiembre)— alguien encuestó a la comunidad: **920 astrobiólogos** votaron qué tan de acuerdo estaban con que cada anuncio fuera evidencia de vida. **El hallazgo:** Marte convenció más —confianza media **41% vs 28%** para K2-18 b, **+12 puntos** (Cohen's *d* = 0,57, Mann-Whitney p=3,8·10⁻¹⁷)—, pero aun en el caso más persuasivo **3 de cada 4** expertos (sin contar indecisos) siguieron sin verlo como vida; con K2-18 b fueron **9 de cada 10**. ⚠️ La encuesta mide **opinión/confianza experta**, no la validez física de cada evidencia. ⚠️ Son **dos encuestas independientes** (distintos respondientes y fechas), no una comparación pareada. ⚠️ Tasas de respuesta 39% y 33%: posible sesgo de autoselección.
+
+[Ver notebook](papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook) · [Leer más](papers/2026-06-05-astrobiologos-vida-extraterrestre/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook.ipynb)
+
 ### Un agujero negro de 6.000 millones de soles a redshift 2
 
 **Astronomía** · *Science* (2026) · El telescopio **James Webb** midió la masa del agujero negro inactivo de la galaxia **MRG-M0138**, a *redshift* **1,95** (su luz salió hace ~10.300 millones de años). Una **lente gravitacional** amplió la imagen lo suficiente para asomarse a su corazón. **El hallazgo:** pesa **6,0 ⁺²·¹₋₁·₇ × 10⁹ masas solares** —rivaliza con M87*—, y su firma está en los datos: las estrellas del centro (~60 pc) se mueven a ~459 km/s, un **~21% más rápido** que la meseta exterior (~380 km/s). ⚠️ La masa viene de modelos dinámicos del paper que corren en clúster de cómputo; el notebook reproduce el *observable* (el campo de velocidades V_rms), no recalcula la masa. ⚠️ El abstract dice que es 'consistente con' la relación M–σ (no igualdad exacta) — lo respetamos.
