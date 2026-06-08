@@ -1,0 +1,19 @@
+titulo: "¿El miedo te rompe el sueño? Lo que se ve en ratones"
+fecha: 2026-06-07
+categoria: neurociencia
+tags: [sueño, memoria, miedo, ratones, fragmentación, neurociencia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aed8630"
+    titulo: "Memory reactivation underlies experience-dependent adaptive regulation of sleep"
+    journal: Science
+    autores: "Yu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "fig1c_episodios_sueno.csv"
+    descripcion: "Episodios NREM/REM/Wake-MA por animal, Control vs CFC, fases Pre/Post"
+    fuente: "Zenodo 10.5281/zenodo.18733745"
+estado: publicado

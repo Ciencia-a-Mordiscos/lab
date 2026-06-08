@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "paper_id": 2600,
+  "doi": "10.1126/science.aed8630",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "El miedo fragmentó el sueño en ratones: los episodios de vigilia/micro-despertar subieron +22%",
+      "supported": "yes",
+      "detail": "165,9 -> 203,1 episodios Wake/MA. 7/7 animales subieron. Wilcoxon p=0,016. CFC es manipulación experimental -> lenguaje causal válido.",
+      "certainty_tier": "T1",
+      "abstract_verb": "promoted",
+      "effect_size": {"measure": "cohen_d_pareado", "value": 1.13, "interpretation": "grande"}
+    },
+    {
+      "claim": "El grupo Control no cambió de forma consistente entre Pre y Post",
+      "supported": "yes",
+      "detail": "Delta -5,7%, Wilcoxon p=0,25 (no significativo), solo 1/5 subió.",
+      "certainty_tier": "T1",
+      "abstract_verb": "revealed",
+      "effect_size": {"measure": "cohen_d_pareado", "value": -0.64, "interpretation": "medio (negativo, NS)"}
+    },
+    {
+      "claim": "El efecto es específico al eje vigilia/sueño profundo: el REM no cambió",
+      "supported": "yes",
+      "detail": "REM Delta aprox 0 (Wilcoxon p=1,0). Wake/MA y NREM suben casi idéntico (+37 episodios).",
+      "certainty_tier": "T1",
+      "abstract_verb": "revealed",
+      "effect_size": {"measure": "delta_rem", "value": 0.0, "interpretation": "sin efecto"}
+    },
+    {
+      "claim": "El sueño del grupo con miedo se deterioró más que el del Control",
+      "supported": "partial",
+      "detail": "El cambio Post-Pre es mayor en el grupo del miedo (Mann-Whitney sobre diffs p=0,010; d=1,74), pero con n=7 vs 5 el hallazgo robusto sigue siendo el cambio intra-animal (7/7 suben), no el contraste entre grupos.",
+      "certainty_tier": "T2",
+      "abstract_verb": "demonstrated in mice",
+      "effect_size": {"measure": "cohen_d_pooled_diffs", "value": 1.74, "interpretation": "grande (n pequeño)"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 22.5,
+      "unit": "por ciento",
+      "context": "aumento de episodios vigilia/micro-despertar (Wake/MA) tras el miedo, en ratones",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "sin valor puntual en abstract",
+        "our_calculation": "+22,5% (165,9 -> 203,1)",
+        "discrepancy_pct": 0,
+        "reason": "el editor summary dice 'sleep becomes fragmented'; dirección consistente, sin cifra puntual para comparar"
+      }
+    },
+    {
+      "value": 37,
+      "unit": "episodios",
+      "context": "aumento absoluto promedio de episodios Wake/MA Pre->Post en el grupo del miedo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "de 7 ratones",
+      "context": "animales del grupo del miedo cuyo sueño se fragmentó más (todos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.13,
+      "unit": "cohen_d_pareado",
+      "context": "tamaño de efecto del cambio Pre->Post Wake/MA en el grupo del miedo (grande)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.016,
+      "unit": "p_value_wilcoxon",
+      "context": "significancia del cambio Pre->Post Wake/MA en el grupo del miedo (test pareado)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0,
+      "unit": "episodios",
+      "context": "cambio promedio en episodios REM en el grupo del miedo (sin efecto, p=1,0)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -5.7,
+      "unit": "por ciento",
+      "context": "cambio de episodios Wake/MA en el grupo Control (no significativo, p=0,25)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "revealed", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "promoted", "tier": "T1", "cam_attenuator": "verbo causal permitido (diseño experimental CFC): 'el miedo fragmentó el sueño'"},
+    {"abstract_verb": "establish", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "demonstrated in mice", "tier": "T2", "cam_attenuator": "scope obligatorio 'en ratones', no extrapolar a insomnio/PTSD humano"}
+  ],
+  "narrative_hooks": [
+    "Una sola experiencia de miedo fragmentó el sueño de los 7 ratones — y el sueño REM ni se inmutó.",
+    "El miedo no le cambió los sueños al ratón: multiplicó las veces que casi se despierta.",
+    "Cada uno de los 7 ratones durmió peor después del susto; ninguno se salvó."
+  ],
+  "limitations": [
+    "Muestra pequeña: grupo del miedo n=7, Control n=5.",
+    "El emparejamiento Pre->Post usa la columna animal_id, pero esos IDs se asignaron por orden de los datos originales (sin ID de animal explícito); es una suposición razonable, no verificada.",
+    "Estudio en ratones — no se extrapola a insomnio ni a estrés postraumático humano.",
+    "El contraste entre grupos sobre los cambios es significativo (p=0,010) pero con n pequeño; el resultado robusto es el cambio intra-animal.",
+    "La continuación quimiogenética del paper (Fig 5) no se grafica: dirección del efecto ambigua sin la leyenda completa."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims 'yes' verificados + 1 parcial, 7 números clave"
+  },
+  "notebook_slug": "2026-06-04-reactivacion-memoria-sueno",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-04-reactivacion-memoria-sueno/notebook.html",
+  "generated_at": "2026-06-07"
+}

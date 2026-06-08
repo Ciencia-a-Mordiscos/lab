@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ¿El miedo te rompe el sueño? Lo que se ve en ratones
+
+**Neurociencia** · *Science* (2026) · Le dieron un susto a un ratón (un protocolo estándar de miedo) y le grabaron el sueño antes y después. Bajamos los datos por animal de los episodios de vigilia y micro-despertar. **El hallazgo:** tras el miedo, el sueño se fragmenta — **+37 micro-despertares, un 22%** (*d* pareado = 1,13, Wilcoxon p=0,016), y **los 7 de 7 ratones** reaccionaron igual. El golpe es específico: el sueño REM no se movió (Δ≈0). ⚠️ Muestra pequeña (miedo n=7, Control n=5). ⚠️ El contraste entre grupos es significativo sobre los cambios (p=0,010), pero con n pequeño el resultado robusto es el cambio dentro de cada animal. ⚠️ Estudio en ratones — no se extrapola a insomnio ni a estrés postraumático humano.
+
+[Ver notebook](papers/2026-06-04-reactivacion-memoria-sueno/notebook) · [Leer más](papers/2026-06-04-reactivacion-memoria-sueno/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-04-reactivacion-memoria-sueno/notebook.ipynb)
+
 ### Somos más cooperativos de lo que creemos
 
 **Psicología** · *Science* (2026) · A 101.123 personas de 125 países les pusieron un juego con dinero real: quedarse 100 dólares, o renunciar a 30 para donar 400 al clima *si la otra persona también coopera*. **El hallazgo:** cerca de **dos tercios coopera** (~73%), pero la gente cree que solo lo hace el **~45%** — una brecha de **28 puntos porcentuales**. Lo más asombroso: **124 de 125 países subestiman a su propia gente**; la única excepción del planeta es Egipto (que también es el menos cooperativo, 28%). La cooperación se *asocia* con las normas sociales y la paciencia (correlacional, no causal), y un experimento aleatorizado muestra que **decirle a la gente la verdad sobre los demás aumenta causalmente la cooperación** —aunque el empujón es pequeño (+0,76 pp, p=0,006). ⚠️ Salvo el tratamiento de información, todo es observacional. ⚠️ Cooperación medida con un juego de un solo turno. ⚠️ El efecto causal es real pero modesto.
