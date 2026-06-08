@@ -948,6 +948,11 @@ parts:
       title: Notebook
 - caption: Psicología
   chapters:
+  - file: papers/2026-06-03-cooperation-equality-public-goods/README
+    title: "Cooperación vs. igualdad al repartir bienes públicos"
+    sections:
+    - file: papers/2026-06-03-cooperation-equality-public-goods/notebook
+      title: Notebook
   - file: papers/2026-06-07-homo-cooperans-cooperacion-global/README
     title: "Somos más cooperativos de lo que creemos"
     sections:

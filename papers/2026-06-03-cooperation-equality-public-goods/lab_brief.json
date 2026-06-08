@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "paper_id": 2588,
+  "doi": "10.1038/s41586-026-10550-3",
+  "paper_type": "computational",
+  "study_design": "computational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El reparto equitativo mantiene el beneficio igualado (Gini ≈ 0)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Gini máximo 1,3×10⁻¹⁶ en las 50 redes — cero a efectos prácticos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "develop"
+    },
+    {
+      "claim": "El reparto uniforme concentra más el beneficio cuanto más heterogénea es la red",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Gini sube de 0,10 a 0,33 (3,3×) con la varianza de grado.",
+      "certainty_tier": "T2",
+      "abstract_verb": "find"
+    },
+    {
+      "claim": "Repartir por igual facilita la cooperación en la mayoría de las redes",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Baja el umbral (b/c)* en 40 de 50 redes (80%) — coincide con 'most' del abstract.",
+      "certainty_tier": "T2",
+      "abstract_verb": "find"
+    },
+    {
+      "claim": "La ventaja del uniforme para facilitar la cooperación es grande",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Diferencias <2% y no monótonas: en las 10 redes más heterogéneas el uniforme ya no ayuda. El contraste fuerte es el Gini, no el umbral.",
+      "certainty_tier": "T2",
+      "abstract_verb": "find"
+    },
+    {
+      "claim": "Bajo reparto uniforme casi todos quedan peor que sin cooperar",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Cierto en la red dispersa de ejemplo (48/50 negativos); en la red densa nadie queda negativo. Ejemplo ilustrativo, no ley universal.",
+      "certainty_tier": "T3",
+      "abstract_verb": "may"
+    },
+    {
+      "claim": "La desigualdad es una consecuencia inevitable de la cooperación",
+      "supported": "no",
+      "supported_by_data": false,
+      "detail": "El paper lo enmarca como posibilidad ('may be an unavoidable consequence'), no como hecho. Decimos 'podría ser'.",
+      "certainty_tier": "T3",
+      "abstract_verb": "may"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 50,
+      "unit": "redes",
+      "context": "redes sociales reales barridas por el modelo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.33,
+      "unit": "Gini",
+      "context": "desigualdad máxima del beneficio bajo reparto uniforme",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 3.3,
+      "unit": "veces",
+      "context": "cuánto crece el Gini del uniforme con la heterogeneidad (0,10→0,33)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 40,
+      "unit": "de 50 redes",
+      "context": "redes donde el uniforme facilita más la cooperación (80% = 'most')",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "de 50 redes",
+      "context": "redes (las más heterogéneas) donde el uniforme deja de ayudar",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 0.025,
+      "unit": "puntos (b/c)*",
+      "context": "ventaja máxima del uniforme en el umbral, en σ²=90,2",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 48,
+      "unit": "de 50 personas",
+      "context": "individuos con beneficio negativo bajo uniforme en la red dispersa de ejemplo",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 5.6,
+      "unit": "beneficio neto",
+      "context": "lo que se lleva el nodo más conectado (grado 33) bajo uniforme en la red dispersa",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 0.16,
+      "unit": "beneficio neto",
+      "context": "lo que recibe cada persona bajo reparto equitativo en la red dispersa",
+      "source": "dataset",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "find",
+      "tier": "T2",
+      "cam_attenuator": "el modelo encuentra / los datos del modelo muestran"
+    },
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "desarrollan / construyen un análisis"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "identifican el conflicto en redes reales"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T2",
+      "cam_attenuator": "sus resultados muestran (hedged por 'may')"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "podría ser — NUNCA 'es inevitable'"
+    },
+    {
+      "abstract_verb": "can",
+      "tier": "T2",
+      "cam_attenuator": "pueden generar — NO 'generan siempre'"
+    }
+  ],
+  "narrative_hooks": [
+    "Repartir un bien por igual suena justo, pero en una red social puede ser la forma más rápida de concentrar el beneficio en unos pocos.",
+    "En la red dispersa de ejemplo, 48 de 50 personas quedan peor que si nadie hubiera cooperado — y un solo nodo se lleva +5,6.",
+    "El reparto equitativo deja a todos exactamente iguales (Gini ≈ 0); el uniforme triplica la desigualdad según qué tan heterogénea sea la red."
+  ],
+  "limitations": [
+    "Es un modelo teórico: los mecanismos son causales solo dentro del modelo, no una medición de sociedades humanas reales.",
+    "Los ejemplos de red dispersa/densa son ilustrativos, no leyes universales.",
+    "Las diferencias de umbral entre reglas son pequeñas (<2%) y no monótonas; lo robusto es el contraste de igualdad (Gini).",
+    "La 'inevitabilidad' de la desigualdad está hedged en el abstract ('may be') — no afirmarla como hecho."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados (yes), 9 números clave"
+  },
+  "notebook_slug": "2026-06-03-cooperation-equality-public-goods",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-03-cooperation-equality-public-goods/notebook.html",
+  "generated_at": "2026-06-07T21:15:00-05:00"
+}

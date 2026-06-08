@@ -1,0 +1,25 @@
+titulo: "Cooperación vs. igualdad al repartir bienes públicos"
+fecha: 2026-06-03
+categoria: comportamiento humano
+tags: [cooperacion, redes sociales, teoria de juegos, desigualdad, gini, bienes publicos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10550-3"
+    titulo: "Cooperation conflicts with equality when allocating public goods"
+    journal: Nature
+    autores: "Sheng et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "tradeoff_heterogeneidad.csv"
+    descripcion: "Trade-off cooperacion/igualdad en 50 redes (Figura 4)"
+    fuente: "Zenodo (anzhisheng/cooperation-and-inequality v1.0.2)"
+  - nombre: "payoffs_red_A_left.csv"
+    descripcion: "Beneficio por persona en red dispersa de ejemplo (Figura 2)"
+    fuente: "Zenodo (anzhisheng/cooperation-and-inequality v1.0.2)"
+  - nombre: "payoffs_red_B_right.csv"
+    descripcion: "Beneficio por persona en red densa de ejemplo (Figura 2)"
+    fuente: "Zenodo (anzhisheng/cooperation-and-inequality v1.0.2)"
+estado: publicado
