@@ -756,6 +756,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-06-08-capsula-flotante-agua/README
+    title: "Una cápsula que potabiliza agua solo agitándola"
+    sections:
+    - file: papers/2026-06-08-capsula-flotante-agua/notebook
+      title: Notebook
   - file: papers/2026-06-01-monitoreo-pasivo-fc-smartphone/README
     title: "Tu teléfono ya te toma el pulso"
     sections:

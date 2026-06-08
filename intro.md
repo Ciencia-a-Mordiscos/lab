@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una cápsula que potabiliza agua solo agitándola
+
+**Tecnología** · *Nature Water* (2026) · Una **cápsula flotante** del tamaño de un pulgar detecta y desinfecta agua **sin pilas ni químicos**: la energía sale de **agitarla a mano** (inducción electromagnética). Mide los sólidos disueltos (TDS) y, si pasa el filtro, mata microbios por **electroporación** —campos eléctricos que rompen su membrana—. **El hallazgo:** logra **desinfección completa (6 log = sin microbios vivos detectables)** en **20–25 min** —la espora *B. subtilis* es la más dura, necesita 25 min frente a 20 de *E. coli* y MS2— y la sostiene **120 ciclos sin degradarse**; su sensor casero acierta con **2,33 mg/L de error** frente a un medidor comercial. ⚠️ Todo es **laboratorio** con microbios de referencia y aguas recolectadas, no despliegue real en campo. ⚠️ Los '≥6 log' son **límites de detección** (sin microbios vivos detectables), no un conteo exacto. ⚠️ El TDS es un **sustituto** de contaminación química; no detecta todos los contaminantes específicos.
+
+[Ver notebook](papers/2026-06-08-capsula-flotante-agua/notebook) · [Leer más](papers/2026-06-08-capsula-flotante-agua/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-08-capsula-flotante-agua/notebook.ipynb)
+
 ### ¿A los astrobiólogos los convence más Marte o K2-18 b?
 
 **Astronomía** · *Nature Astronomy* (2026) · Tras los dos anuncios de posible vida de 2025 —gases raros en el exoplaneta **K2-18 b** (abril) y la roca marciana **Cheyava Falls** (septiembre)— alguien encuestó a la comunidad: **920 astrobiólogos** votaron qué tan de acuerdo estaban con que cada anuncio fuera evidencia de vida. **El hallazgo:** Marte convenció más —confianza media **41% vs 28%** para K2-18 b, **+12 puntos** (Cohen's *d* = 0,57, Mann-Whitney p=3,8·10⁻¹⁷)—, pero aun en el caso más persuasivo **3 de cada 4** expertos (sin contar indecisos) siguieron sin verlo como vida; con K2-18 b fueron **9 de cada 10**. ⚠️ La encuesta mide **opinión/confianza experta**, no la validez física de cada evidencia. ⚠️ Son **dos encuestas independientes** (distintos respondientes y fechas), no una comparación pareada. ⚠️ Tasas de respuesta 39% y 33%: posible sesgo de autoselección.

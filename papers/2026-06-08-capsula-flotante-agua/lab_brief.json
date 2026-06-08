@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "paper_id": 2610,
+  "doi": "10.1038/s44221-026-00655-4",
+  "paper_type": "metodo_nuevo",
+  "study_design": "experimental",
+  "species": "n/a (dispositivo; patógenos test: E. coli, B. subtilis, MS2)",
+  "verification_table": [
+    {
+      "claim": "La cápsula logra desinfección completa (6 log de remoción = sin microbios vivos detectables)",
+      "supported": "yes",
+      "detail": "A los 20 min para E. coli y MS2; a los 25 min para la espora B. subtilis. Los '6 log' son el límite de detección (sin microbios vivos detectables), no un conteo exacto. n=3 réplicas por punto.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieves",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La espora de B. subtilis es el microbio más resistente al tratamiento",
+      "supported": "yes",
+      "detail": "A 15 min: B. subtilis 0,53 log vs E. coli 2,0 y MS2 1,9. Necesita 25 min para llegar al techo; los otros dos, 20 min.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrates",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El sensor autoalimentado acierta como un medidor comercial",
+      "supported": "yes",
+      "detail": "Error medio de 2,33 mg/L (1,26%) frente al medidor HANNA; correlación de rango ρ=0,91 (n=9). Peor caso entre 9 pares: 6 mg/L en agua de río. El paper reporta Pearson r=0,9948; usamos Spearman porque los datos no pasan normalidad (Shapiro p<0,05).",
+      "certainty_tier": "T1",
+      "abstract_verb": "monitors",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El movimiento manual entrega potencia útil con un punto óptimo de carga",
+      "supported": "yes",
+      "detail": "Pico de 2,07 mW/cm³ con la impedancia óptima (~3.000 Ω) por acoplamiento de carga; cae fuera de ese punto.",
+      "certainty_tier": "T1",
+      "abstract_verb": "converts",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El dispositivo no se degrada a lo largo de 120 ciclos de uso",
+      "supported": "yes",
+      "detail": "Remoción constante en 120 ciclos (desviación 0,0000); cada microbio sostiene su límite de detección (≥5,95 / ≥5,48 / ≥4,95 log). Valores censurados al límite inferior.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieves",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 20,
+      "unit": "minutos",
+      "context": "tiempo hasta desinfección completa de E. coli y del virus MS2",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 25,
+      "unit": "minutos",
+      "context": "tiempo hasta desinfección completa de la espora B. subtilis (el más lento)",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 6.0,
+      "unit": "log de remoción",
+      "context": "desinfección completa = límite de detección (~99,9999%), no conteo exacto",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.53,
+      "unit": "log de remoción",
+      "context": "lo poco que cae la espora B. subtilis a los 15 min (E. coli ya va en 2,0)",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 2.33,
+      "unit": "mg/L",
+      "context": "error medio absoluto del sensor autoalimentado vs medidor comercial HANNA",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 1.26,
+      "unit": "por ciento",
+      "context": "error porcentual medio del sensor vs HANNA",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 0.91,
+      "unit": "rho (Spearman)",
+      "context": "correlación de rango sensor vs HANNA (n=9, p<0,001)",
+      "source": "notebook_computed",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.9948 (Pearson)",
+        "our_calculation": "0.9068 (Spearman)",
+        "discrepancy_pct": 8.8,
+        "reason": "datos no normales (Shapiro p<0,05) → usamos rango en vez de Pearson; el error absoluto (2,33 mg/L) es la métrica robusta de acuerdo"
+      }
+    },
+    {
+      "value": 2.07,
+      "unit": "mW/cm³",
+      "context": "densidad de potencia pico al agitar, con impedancia óptima ~3.000 Ω",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 120,
+      "unit": "ciclos",
+      "context": "uso repetido sin degradación medible (desviación 0,0000)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (el paper presenta un artefacto): 'desarrollaron'/'construyeron'"
+    },
+    {
+      "abstract_verb": "achieves",
+      "tier": "T1",
+      "cam_attenuator": "'alcanza'/'logra' con número exacto; NO inflar (6.0-log = límite de detección, no 'mata todo en cualquier agua')"
+    },
+    {
+      "abstract_verb": "demonstrates",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'el dispositivo logra'"
+    },
+    {
+      "abstract_verb": "can disinfect",
+      "tier": "T1",
+      "cam_attenuator": "capacidad demostrada en laboratorio; NO extrapolar a despliegue de campo no probado"
+    }
+  ],
+  "narrative_hooks": [
+    "De un millón de microbios a menos de uno: 6 logaritmos de remoción sin pilas ni químicos, solo agitando la cápsula.",
+    "La espora es el enemigo más duro: a los 15 minutos apenas cae medio logaritmo mientras E. coli ya perdió dos.",
+    "Un sensor que se alimenta de agitarlo acierta con 2,33 mg/L de error frente a un medidor comercial.",
+    "120 ciclos seguidos y no pierde un ápice de poder desinfectante."
+  ],
+  "limitations": [
+    "Todo es laboratorio con microbios de referencia (E. coli, B. subtilis, MS2) y aguas recolectadas, no despliegue real en campo.",
+    "Los valores '≥6 log' están censurados al límite de detección: no se puede afirmar cuánto más allá de 6 log mata.",
+    "El sensor mide TDS, un sustituto de contaminación química; no detecta todos los contaminantes específicos.",
+    "La durabilidad se probó a 120 ciclos; más allá es desconocido."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 9 números clave (script denso)"
+  },
+  "notebook_slug": "2026-06-08-capsula-flotante-agua",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-08-capsula-flotante-agua/notebook.html",
+  "generated_at": "2026-06-08T10:57:14-05:00"
+}

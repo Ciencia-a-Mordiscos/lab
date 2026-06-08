@@ -1,0 +1,13 @@
+tiempo_min,patogeno,log_removal_promedio,n_replicas,censurado_limite_deteccion
+15,E. coli,2.0,3,False
+15,B. subtilis,0.533,3,False
+15,MS2,1.9,3,False
+18,E. coli,3.867,3,False
+18,B. subtilis,0.833,3,False
+18,MS2,2.967,3,False
+20,E. coli,6.0,3,True
+20,B. subtilis,5.333,3,False
+20,MS2,6.0,3,True
+25,E. coli,6.0,3,True
+25,B. subtilis,6.0,3,True
+25,MS2,6.0,3,True

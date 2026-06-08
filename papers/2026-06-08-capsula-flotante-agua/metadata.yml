@@ -1,0 +1,28 @@
+titulo: "Una cápsula que potabiliza agua solo agitándola"
+fecha: 2026-06-08
+categoria: tecnologia
+tags: [agua, desinfeccion, dispositivo, electroporacion, sensor, energia, salud-publica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00655-4"
+    titulo: "Self-powered floating capsule for decentralized water detection and disinfection"
+    journal: Nature Water
+    autores: "Nature Water et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "desinfeccion_tiempo.csv"
+    descripcion: "Log de remoción por patógeno a distintos tiempos de tratamiento"
+    fuente: "Source Data (MOESM6, Figura 3d)"
+  - nombre: "sensor_vs_comercial.csv"
+    descripcion: "TDS sensor autoalimentado vs medidor comercial HANNA, 3 aguas"
+    fuente: "Source Data (MOESM7, Figura 4c)"
+  - nombre: "potencia_vs_carga.csv"
+    descripcion: "Densidad de corriente y potencia vs impedancia de carga"
+    fuente: "Source Data (MOESM5, Figura 2f)"
+  - nombre: "durabilidad_ciclos.csv"
+    descripcion: "Log de remoción sostenido por ciclo (0-120) para 3 patógenos"
+    fuente: "Source Data (MOESM7, Figura 4f)"
+estado: publicado
