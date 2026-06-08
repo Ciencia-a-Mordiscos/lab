@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Un agujero negro de 6.000 millones de soles a redshift 2
+
+**Astronomía** · *Science* (2026) · El telescopio **James Webb** midió la masa del agujero negro inactivo de la galaxia **MRG-M0138**, a *redshift* **1,95** (su luz salió hace ~10.300 millones de años). Una **lente gravitacional** amplió la imagen lo suficiente para asomarse a su corazón. **El hallazgo:** pesa **6,0 ⁺²·¹₋₁·₇ × 10⁹ masas solares** —rivaliza con M87*—, y su firma está en los datos: las estrellas del centro (~60 pc) se mueven a ~459 km/s, un **~21% más rápido** que la meseta exterior (~380 km/s). ⚠️ La masa viene de modelos dinámicos del paper que corren en clúster de cómputo; el notebook reproduce el *observable* (el campo de velocidades V_rms), no recalcula la masa. ⚠️ El abstract dice que es 'consistente con' la relación M–σ (no igualdad exacta) — lo respetamos.
+
+[Ver notebook](papers/2026-06-04-masa-agujero-negro-redshift-2/notebook) · [Leer más](papers/2026-06-04-masa-agujero-negro-redshift-2/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-04-masa-agujero-negro-redshift-2/notebook.ipynb)
+
 ### Cooperación vs. igualdad al repartir bienes públicos
 
 **Psicología** · *Nature* (2026) · Un modelo de teoría de juegos sobre **50 redes sociales reales** compara dos formas de repartir un bien público: **uniforme** (todos reciben lo mismo) vs **equitativa** (en proporción al aporte). **El hallazgo:** repartir por igual facilita más la cooperación en **40 de 50 redes (80%)**, pero a costa de triplicar la desigualdad — el Gini del beneficio sube de **0,10 a 0,33**, mientras que el reparto equitativo lo mantiene en **≈0**. En una red dispersa de ejemplo, bajo reparto uniforme **48 de 50 personas quedan peor que sin cooperar** y un solo nodo muy conectado se lleva **+5,6**. ⚠️ Es un modelo teórico: los mecanismos son causales solo dentro del modelo, no una medición de sociedades humanas reales. ⚠️ La 'inevitabilidad' de la desigualdad está atenuada en el paper ('may be') — decimos 'podría ser'. ⚠️ Las diferencias de umbral entre reglas son pequeñas (<2%); lo robusto es el contraste de igualdad (Gini).

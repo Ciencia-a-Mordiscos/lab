@@ -1,0 +1,25 @@
+titulo: "Un agujero negro de 6.000 millones de soles, visto cuando el universo era joven"
+fecha: 2026-06-04
+categoria: astronomía
+tags: [agujero-negro, jwst, lente-gravitacional, galaxias, dinamica-estelar, redshift]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adx5816"
+    titulo: "A stellar dynamical mass measurement of an inactive black hole at redshift 2"
+    journal: Science
+    autores: "Newman et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "kinematics_bins.csv"
+    descripcion: "V, sigma y V_rms en 219 bins Voronoi (210 válidos) con coords plano fuente y radio en pc"
+    fuente: "Zenodo (Newman 2026)"
+  - nombre: "perfil_radial.csv"
+    descripcion: "Perfil radial de V_rms en 8 anillos log-espaciados"
+    fuente: "Zenodo (Newman 2026)"
+  - nombre: "perfil_mge.csv"
+    descripcion: "Descomposición MGE de brillo F200W y masa estelar (Tabla S1)"
+    fuente: "Zenodo (Newman 2026)"
+estado: publicado

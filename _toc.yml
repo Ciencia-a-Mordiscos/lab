@@ -640,6 +640,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-06-04-masa-agujero-negro-redshift-2/README
+    title: "Un agujero negro de 6.000 millones de soles a redshift 2"
+    sections:
+    - file: papers/2026-06-04-masa-agujero-negro-redshift-2/notebook
+      title: Notebook
   - file: papers/2026-05-13-lap1-b-galaxia-reionizacion/README
     title: "LAP1-B: la galaxia más químicamente primitiva conocida"
     sections:

@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "paper_id": 2603,
+  "doi": "10.1126/science.adx5816",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Las estrellas del centro de la galaxia se mueven más rápido que en las afueras",
+      "supported": "yes",
+      "detail": "El anillo más interno (~60 pc) llega a ~459 km/s frente a una meseta de ~380 km/s: subida de ~21%. Computado del campo V_rms (Zenodo).",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "observe",
+      "effect_size": {
+        "measure": "rise_pct",
+        "value": 21,
+        "interpretation": "subida central clara"
+      }
+    },
+    {
+      "claim": "La galaxia tiene un núcleo estelar muy concentrado",
+      "supported": "yes",
+      "detail": "El brillo superficial reconstruido (descomposición MGE de la luz F200W) cae ~700x del centro a 8 kpc.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "observe",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 722,
+        "interpretation": "núcleo muy concentrado"
+      }
+    },
+    {
+      "claim": "El agujero negro pesa unos 6.000 millones de masas solares",
+      "supported": "partial",
+      "detail": "Valor del paper (6,0 +2,1/-1,7 ×10⁹ Msun) por modelos dinámicos JAM en clúster de cómputo. NO reproducido aquí; el notebook muestra el observable (V_rms), no recalcula la masa.",
+      "supported_by_data": false,
+      "certainty_tier": "T1",
+      "abstract_verb": "determine",
+      "effect_size": null
+    },
+    {
+      "claim": "El agujero negro es sobremasivo para el bulbo, pero consistente con la relación M-sigma",
+      "supported": "partial",
+      "detail": "Afirmación cualitativa del abstract ('consistent with'). No recalculada: una estimación cruda contradiría al paper por omitir el modelado completo.",
+      "supported_by_data": false,
+      "certainty_tier": "T2",
+      "abstract_verb": "found",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "6.0e9",
+      "unit": "masas solares",
+      "context": "masa del agujero negro (headline del paper, +2,1/-1,7 ×10⁹)",
+      "source": "abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "6.0e9",
+        "our_calculation": "no reproducido",
+        "discrepancy_pct": 0,
+        "reason": "modelos dinámicos JAM en clúster, no reproducibles en notebook"
+      }
+    },
+    {
+      "value": 1.95,
+      "unit": "redshift",
+      "context": "z de MRG-M0138 (el título redondea a 2; lookback ~10.300 millones de años)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 21,
+      "unit": "por ciento",
+      "context": "subida de V_rms del anillo interior (~459 km/s a 60 pc) frente a la meseta exterior (~380 km/s)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 470,
+      "unit": "km/s",
+      "context": "V_rms máximo entre las 210 regiones medidas (mediana 391, IQR 350-421)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 210,
+      "unit": "regiones",
+      "context": "bins Voronoi válidos de 219 (9 enmascarados) con cinemática estelar",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "observe",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa ('observamos')"
+    },
+    {
+      "abstract_verb": "determine",
+      "tier": "T1",
+      "cam_attenuator": "'determinaron'/'midieron'"
+    },
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "'encontraron'"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' — no afirmar igualdad exacta"
+    }
+  ],
+  "narrative_hooks": [
+    "Un agujero negro de 6.000 millones de soles que rivaliza con M87*, pero visto cuando el universo tenía un cuarto de su edad",
+    "Lo vemos solo porque una lente gravitacional amplía la imagen: sin ella, asomarse al corazón de una galaxia a z~2 sería imposible",
+    "No pesamos el agujero negro mirándolo: medimos cómo se aceleran las estrellas cuando se acercan a él"
+  ],
+  "limitations": [
+    "La masa del agujero negro viene de modelos dinámicos (JAM) que requieren modelar la lente y corren en clúster de cómputo; el notebook solo reproduce el observable que los restringe (V_rms).",
+    "Es una sola galaxia medida con esta técnica a este redshift: no es una muestra estadística.",
+    "Las barras de error por anillo (±SEM) reflejan dispersión entre regiones, no la incertidumbre completa del modelado dinámico.",
+    "El radio de la esfera de influencia del agujero negro es de orden ~cientos de pc; no se mide con precisión aquí."
+  ],
+  "suggested_word_range": {
+    "min": 150,
+    "max": 190,
+    "reason": "2 claims reproducibles + 2 tomados del paper; historia clara de un solo observable"
+  },
+  "notebook_slug": "2026-06-04-masa-agujero-negro-redshift-2",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-04-masa-agujero-negro-redshift-2/notebook.html",
+  "generated_at": "2026-06-07T00:00:00-05:00"
+}
