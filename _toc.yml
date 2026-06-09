@@ -756,6 +756,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-06-09-cosecha-agua-atmosferica-solar/README
+    title: "Agua del aire, con sol: 1,3 litros en un día"
+    sections:
+    - file: papers/2026-06-09-cosecha-agua-atmosferica-solar/notebook
+      title: Notebook
   - file: papers/2026-06-08-capsula-flotante-agua/README
     title: "Una cápsula que potabiliza agua solo agitándola"
     sections:

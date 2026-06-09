@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Agua del aire, con sol: 1,3 litros en un día
+
+**Tecnología** · *Nature Water* (2026) · Un equipo armó una **maleta solar portátil** que saca agua potable **del aire** con telas-gel que atrapan vapor de noche y lo sueltan de día bajo sol concentrado. La probaron en dos climas opuestos. **El hallazgo:** cosechó **1,3 L en Austin** (dual módulo, ~62% humedad) y rindió en pleno **desierto de Chihuahua** (~26% humedad) — la humedad cae a **menos de la mitad** pero la tasa por área baja solo **~9%** (4,7→4,3 L/m²/día). Hasta nublado (~0,4 sol) saca **310 mL por módulo, el 54% de un día típico**. El motor: la capa exterior llega a **100 °C** mientras el condensador se mantiene frío. ⚠️ Son **dos jornadas de campo**, no un despliegue largo. ⚠️ La relación sol-rendimiento es **moderada** (Spearman r≈0,64, n=10). ⚠️ La 'palanca de equidad para el ODS 6' es **aspiración de los autores**; el geoespacial es asociación, no impacto medido.
+
+[Ver notebook](papers/2026-06-09-cosecha-agua-atmosferica-solar/notebook) · [Leer más](papers/2026-06-09-cosecha-agua-atmosferica-solar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-09-cosecha-agua-atmosferica-solar/notebook.ipynb)
+
 ### Una cápsula que potabiliza agua solo agitándola
 
 **Tecnología** · *Nature Water* (2026) · Una **cápsula flotante** del tamaño de un pulgar detecta y desinfecta agua **sin pilas ni químicos**: la energía sale de **agitarla a mano** (inducción electromagnética). Mide los sólidos disueltos (TDS) y, si pasa el filtro, mata microbios por **electroporación** —campos eléctricos que rompen su membrana—. **El hallazgo:** logra **desinfección completa (6 log = sin microbios vivos detectables)** en **20–25 min** —la espora *B. subtilis* es la más dura, necesita 25 min frente a 20 de *E. coli* y MS2— y la sostiene **120 ciclos sin degradarse**; su sensor casero acierta con **2,33 mg/L de error** frente a un medidor comercial. ⚠️ Todo es **laboratorio** con microbios de referencia y aguas recolectadas, no despliegue real en campo. ⚠️ Los '≥6 log' son **límites de detección** (sin microbios vivos detectables), no un conteo exacto. ⚠️ El TDS es un **sustituto** de contaminación química; no detecta todos los contaminantes específicos.
