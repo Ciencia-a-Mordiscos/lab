@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-06-10-necropolis-ballenas-diamantina/README
+    title: "Una necrópolis de ballenas de 5,3 millones de años en el Índico"
+    sections:
+    - file: papers/2026-06-10-necropolis-ballenas-diamantina/notebook
+      title: Notebook
   - file: papers/2026-06-07-perdida-cobertura-arborea-global/README
     title: "El mundo perdió 277.000 km² de árboles en un solo año"
     sections:

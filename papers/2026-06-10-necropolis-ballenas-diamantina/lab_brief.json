@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "paper_id": 2618,
+  "doi": "10.1038/s41586-026-10546-z",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "486 restos de ballena registrados en la Zona Diamantina (485 con coordenadas completas)",
+      "supported": "yes",
+      "detail": "486 filas georreferenciadas en Supplementary Table 1; 485 con lon/lat. Conteo directo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Profundidad de los restos entre 4.616 y 7.001 m; mediana 6.527 m",
+      "supported": "yes",
+      "detail": "Rango exacto sobre 485 registros con dato. Coincide con el paper (4.616-7.001 m).",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "El 83% de los restos está por debajo de 6.000 m; distribución sesgada a lo profundo",
+      "supported": "yes",
+      "detail": "401/485 con profundidad > 6.000 m. Asimetría -1,63 (no normal); descrita con mediana, no media.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los gusanos (Annelida) dominan la comunidad por número (71%); los especialistas característicos del paper son otros (ofiuras, perforadores de hueso, bivalvos quimiosintéticos)",
+      "supported": "yes",
+      "detail": "1.667/2.355 individuos (71%), incl. 588 Osedax come-huesos. Característico (especialista) != dominante numérico; ambos sin contradicción.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "La mayoría de los restos ya están fosilizados (57% etapa fósil); solo 13 son caídas recientes o sulfofílicas",
+      "supported": "yes",
+      "detail": "276/486 en etapa 'fósil de ballena'; 8 sin fosilizar + 5 sulfofílicos = 13 recientes.",
+      "certainty_tier": "T1",
+      "abstract_verb": "comprise",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Whale falls en la región desde hace al menos 5,3 millones de años",
+      "supported": "partial",
+      "detail": "Lo afirma el paper por datación isotópica; ese dato NO está en la tabla de datos del notebook (solo posiciones, profundidad, etapa). Atribuido al paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 486,
+      "unit": "restos",
+      "context": "observaciones de restos de ballena georreferenciadas (485 con coordenadas)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 24,
+      "unit": "inmersiones",
+      "context": "inmersiones del sumergible tripulado (24 códigos de buceo FDZ distintos)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 4616,
+      "unit": "metros",
+      "context": "profundidad mínima de los restos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 7001,
+      "unit": "metros",
+      "context": "profundidad máxima de los restos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 6527,
+      "unit": "metros",
+      "context": "profundidad mediana de los restos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 83,
+      "unit": "por ciento",
+      "context": "fracción de restos por debajo de 6.000 m (401/485)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 1200,
+      "unit": "kilómetros",
+      "context": "extensión de la acumulación a lo largo del fondo (paper); ~1.030 km en línea recta entre extremos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~1200 km a lo largo del fondo",
+        "our_calculation": "1028 km gran-círculo entre extremos de longitud",
+        "discrepancy_pct": 14.3,
+        "reason": "el trazado del fondo no es una línea recta"
+      }
+    },
+    {
+      "value": 2355,
+      "unit": "individuos",
+      "context": "individuos contados en los 5 whale-falls modernos (20 taxa, 5 filos)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 71,
+      "unit": "por ciento",
+      "context": "dominancia numérica de Annelida (gusanos) en la comunidad (1.667/2.355)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 588,
+      "unit": "individuos",
+      "context": "gusanos come-huesos Osedax sp. 1 contados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 5.3,
+      "unit": "millones de años",
+      "context": "edad mínima de las caídas de ballena en la región (datación isotópica, reportada por el paper)",
+      "source": "paper",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "reportan el hallazgo de / documentaron"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — PERO observacional: descripción, no causal"
+    },
+    {
+      "abstract_verb": "comprise",
+      "tier": "T1",
+      "cam_attenuator": "comprende — descriptivo"
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "establecen / afirmación directa"
+    },
+    {
+      "abstract_verb": "reshape",
+      "tier": "T2",
+      "cam_attenuator": "replantea/amplía el entendimiento — NO 'lo cambia todo'"
+    }
+  ],
+  "narrative_hooks": [
+    "Una ballena muere, su cuerpo cae 6 kilómetros y empieza a alimentar vida durante millones de años.",
+    "Antes se conocían apenas un puñado de caídas de ballena en todos los océanos; aquí aparecieron 486 en una sola franja del Índico.",
+    "El 83% de este cementerio está a más de 6 km de profundidad — entre los oasis de vida más hondos jamás cartografiados.",
+    "Los gusanos mandan por número (71%), pero quien define el oasis son las estrellas frágiles, los perforadores de hueso y las almejas que comen química.",
+    "Algunos de estos restos llevan en el fondo desde hace 5,3 millones de años: el fondo del mar como archivo fósil de la evolución de las ballenas."
+  ],
+  "limitations": [
+    "La columna de huesos mezcla conteos exactos, valores censurados ('40+') y texto libre ('esqueleto casi completo'); por eso no se calcula un total de huesos.",
+    "Las densidades de la Tabla 2 mezclan métodos de muestreo distintos entre oasis y no son comparables; se usan conteos de individuos, no densidades.",
+    "La edad de 5,3 Ma proviene de datación isotópica reportada por el paper, no de los archivos de datos del notebook.",
+    "Estudio observacional (survey con sumergible): describe distribución y composición, no prueba relaciones causales.",
+    "1 registro sin profundidad y 1 sin coordenadas; las cifras de profundidad/mapa se calculan sobre 485 registros válidos."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (yes) + 11 números clave -> script denso"
+  },
+  "notebook_slug": "2026-06-10-necropolis-ballenas-diamantina",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-10-necropolis-ballenas-diamantina/notebook.html",
+  "generated_at": "2026-06-11T01:30:18.710038+00:00"
+}

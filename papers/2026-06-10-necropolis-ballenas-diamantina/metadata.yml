@@ -1,0 +1,22 @@
+titulo: "Una necrópolis de ballenas de 5,3 millones de años en el fondo del Índico"
+fecha: 2026-06-10
+categoria: ecología
+tags: [whale-fall, mar-profundo, ballenas, fósiles, biodiversidad, océano-índico, ecología-bentónica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10546-z"
+    titulo: "A 5.3-million-year-old deep-sea whale necropolis in the Diamantina Zone"
+    journal: Nature
+    autores: "Peng et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "whale_observations.csv"
+    descripcion: "486 observaciones HOV de restos de ballena (lon, lat, profundidad, huesos, etapa)"
+    fuente: "Supplementary Table 1 (MOESM3)"
+  - nombre: "comunidad_por_taxon.csv"
+    descripcion: "Composición faunística: 20 taxa, 5 filos, individuos por taxon en 5 whale-falls modernos"
+    fuente: "Supplementary Table 2 (MOESM3)"
+estado: publicado
