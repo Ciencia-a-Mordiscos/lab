@@ -1,0 +1,25 @@
+titulo: "Aprendizaje profundo de cuatro décadas de migración humana"
+fecha: 2026-06-10
+categoria: tecnología
+tags: [migración, deep-learning, redes-neuronales, demografía, incertidumbre, datos-abiertos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10611-7"
+    titulo: "Deep learning four decades of human migration"
+    journal: Nature
+    autores: "Gaskin & Abel et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "migracion_por_pais_anio.csv"
+    descripcion: "Flujos y stocks migratorios por país-año, 1990-2024, con desviación estándar"
+    fuente: "ThGaskin/Migration_flows (HuggingFace)"
+  - nombre: "migracion_global_por_anio.csv"
+    descripcion: "Agregado global anual con incertidumbre propagada en cuadratura"
+    fuente: "Derivado del dataset HuggingFace"
+  - nombre: "shocks_emigracion_serie.csv"
+    descripcion: "Serie de emigración de Ucrania, Venezuela y Siria"
+    fuente: "Derivado del dataset HuggingFace"
+estado: publicado

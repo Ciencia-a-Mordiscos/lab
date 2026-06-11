@@ -761,6 +761,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-06-10-deep-learning-migracion-humana/README
+    title: "Aprendizaje profundo de cuatro décadas de migración humana"
+    sections:
+    - file: papers/2026-06-10-deep-learning-migracion-humana/notebook
+      title: Notebook
   - file: papers/2026-06-09-cosecha-agua-atmosferica-solar/README
     title: "Agua del aire, con sol: 1,3 litros en un día"
     sections:

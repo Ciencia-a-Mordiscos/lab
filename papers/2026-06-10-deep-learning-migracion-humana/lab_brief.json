@@ -1,0 +1,168 @@
+{
+  "version": "1.0",
+  "paper_id": 2624,
+  "doi": "10.1038/s41586-026-10611-7",
+  "paper_type": "computational",
+  "study_design": "modelo_simulacion",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El flujo migratorio global anual crece x2,28 entre 1990 y 2023 (15,2 → 34,7 M)",
+      "supported": "yes",
+      "detail": "Lectura directa del agregado global; std 2023 ≈ 0,76 M (2,2%). Estimación del modelo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El máximo de flujo global es 2022, con 35,6 M",
+      "supported": "yes",
+      "detail": "Año de máxima en el agregado global. Enmarcado como estimación.",
+      "certainty_tier": "T1",
+      "abstract_verb": "produce",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La emigración de Ucrania salta x13,9 entre 2021 y 2022 (265 k → 3,69 M)",
+      "supported": "yes",
+      "detail": "Coincide con la invasión rusa; la banda de error se ensancha (±325 k en 2023).",
+      "certainty_tier": "T1",
+      "abstract_verb": "capture",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La incertidumbre es ~2% global pero ~15% por país (factor x7)",
+      "supported": "yes",
+      "detail": "Mediana de error relativo de inmigración por país = 15,3%; agregado global = 2,2%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "capture",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El modelo supera estimaciones previas de flujos a 5 años en datos reservados",
+      "supported": "partial",
+      "detail": "El abstract lo afirma sobre held-out data, pero la magnitud exacta no se extrajo — no se inventa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperform",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 2.28,
+      "unit": "factor",
+      "context": "crecimiento del flujo migratorio global anual 1990→2023",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15.2,
+      "unit": "millones",
+      "context": "flujo migratorio global anual 1990",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 34.7,
+      "unit": "millones",
+      "context": "flujo migratorio global anual 2023",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 35.6,
+      "unit": "millones",
+      "context": "flujo máximo global, año 2022",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 13.9,
+      "unit": "factor",
+      "context": "salto de emigración de Ucrania 2021→2022",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.69,
+      "unit": "millones",
+      "context": "emigración de Ucrania en 2022",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.2,
+      "unit": "por ciento",
+      "context": "incertidumbre relativa del flujo a escala global, 2023",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "por ciento",
+      "context": "incertidumbre relativa mediana por país, 2023",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 231,
+      "unit": "países",
+      "context": "cobertura del dataset",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 509,
+      "unit": "miles",
+      "context": "migración neta positiva de Colombia en 2023",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "presentan / construyeron (constructivo)"
+    },
+    {
+      "abstract_verb": "produce",
+      "tier": "T1",
+      "cam_attenuator": "el modelo estima / genera estimaciones"
+    },
+    {
+      "abstract_verb": "outperform",
+      "tier": "T1",
+      "cam_attenuator": "supera estimaciones previas — magnitud no extraída, no inflar"
+    },
+    {
+      "abstract_verb": "capture",
+      "tier": "T1",
+      "cam_attenuator": "capta tendencias y respuestas a shocks"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T2",
+      "cam_attenuator": "las estimaciones revelan — son salidas del modelo, no verdad de campo"
+    }
+  ],
+  "narrative_hooks": [
+    "15 millones de personas cambiaron de país en 1990; en 2023 fueron 35 millones — y a casi ninguna la contaron una por una, la estimó una red neuronal.",
+    "La emigración de Ucrania se multiplicó por casi 14 en un solo año cuando empezó la invasión.",
+    "El modelo está segurísimo del total mundial (2% de error) pero duda mucho más país por país (15%): la incertidumbre se esconde al sumar."
+  ],
+  "limitations": [
+    "Toda cifra es una estimación de un modelo de redes neuronales, no un conteo directo — por eso cada una trae su desviación estándar.",
+    "La incertidumbre absoluta es mayor en zonas de crisis con recolección débil (Ucrania ±325 k, Venezuela ±267 k, Sudán del Sur ±246 k).",
+    "Los flujos describen cuánta gente se movió, no por qué: el dataset no implica causalidad.",
+    "La afirmación de 'superar estimaciones previas' viene del abstract sin magnitud numérica extraída."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes) + 1 parcial, 10 números clave"
+  },
+  "notebook_slug": "2026-06-10-deep-learning-migracion-humana",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-10-deep-learning-migracion-humana/notebook.html",
+  "generated_at": "2026-06-10T00:00:00-05:00"
+}
