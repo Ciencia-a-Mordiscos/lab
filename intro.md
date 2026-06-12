@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Tu hígado es gelatina. Tu hueso es piedra.
+
+**Tecnología** · *Nature Biomedical Engineering* (2026) · Tu **hígado es casi líquido** y tu **hueso casi piedra**: entre ambos hay **135.417 veces** de diferencia en rigidez, y un solo pegamento médico no sirve para los dos. Un equipo usó **machine learning** para diseñar un pegamento distinto a la medida de cada tejido —los **TuneGlues**—. **El hallazgo:** el modelo predice el módulo elástico del tejido con **R²=0,97** y cada pegamento cae en el **régimen mecánico de su tejido** (5 de 6 dentro de ~2x, a lo largo de 5 órdenes de magnitud); en un hígado lesionado, el TuneGlue bajó el sangrado de **363 a 30 s** (~12x). ⚠️ Todo lo *in vivo* es en **modelos animales**, no humanos ni clínica. ⚠️ La hemostasia es **n=3 por grupo** (p=0,10 es el mínimo posible con ese n, no es significancia). ⚠️ El match tejido-pegamento es de **régimen, no exacto** (la piel queda a 2,1x).
+
+[Ver notebook](papers/2026-06-11-bioglues-ml-multitejido-trauma/notebook) · [Leer más](papers/2026-06-11-bioglues-ml-multitejido-trauma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-11-bioglues-ml-multitejido-trauma/notebook.ipynb)
+
 ### Aprendizaje profundo de cuatro décadas de migración humana
 
 **Tecnología** · *Nature* (2026) · Los datos de migración son escasos y cada país los define distinto. Un equipo entrenó un **conjunto de redes neuronales** para reconstruir, año por año, cuánta gente se movió entre **231 países** desde 1990 — con una **banda de incertidumbre** pegada a cada cifra. **El hallazgo:** el flujo migratorio global anual **pasó de 15,2 a 34,7 millones** de personas (1990→2023, **x2,28**), con un pico de **35,6 M en 2022**; la emigración de Ucrania se **multiplicó por 13,9** en 2022 con la invasión rusa. Y la incertidumbre, de apenas **2% global**, se **multiplica por 7 país por país** (mediana 15%): se cancela al sumar. ⚠️ Toda cifra es **estimación de un modelo**, no un conteo directo. ⚠️ El modelo supera estimaciones previas de 5 años en datos reservados, pero la **magnitud exacta no se extrajo**. ⚠️ Los flujos describen **cuánta gente se movió, no por qué** — sin causalidad.

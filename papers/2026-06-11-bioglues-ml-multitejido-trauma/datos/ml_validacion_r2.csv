@@ -1,0 +1,16 @@
+propiedad,modelo,fold,r2
+Elastic modulus,RFR,1,0.985
+Elastic modulus,RFR,2,0.972
+Elastic modulus,RFR,3,0.986
+Elastic modulus,RFR,4,0.912
+Elastic modulus,RFR,5,0.981
+Tensile Strength,NN,1,0.969
+Tensile Strength,NN,2,0.848
+Tensile Strength,NN,3,0.916
+Tensile Strength,NN,4,0.7
+Tensile Strength,NN,5,0.859
+Deformation,NN,1,0.767
+Deformation,NN,2,0.849
+Deformation,NN,3,0.816
+Deformation,NN,4,0.809
+Deformation,NN,5,0.788

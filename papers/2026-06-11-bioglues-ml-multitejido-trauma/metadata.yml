@@ -1,0 +1,31 @@
+titulo: "Tu hígado es gelatina. Tu hueso es piedra."
+fecha: 2026-06-11
+categoria: tecnologia
+tags: [machine-learning, biomateriales, bioingenieria, trauma, hemostasia, adhesivos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01705-8"
+    titulo: "Machine learning-guided design of mechanoadaptive bioglues for multitissue trauma and first-aid applications"
+    journal: Nature Biomedical Engineering
+    autores: "Xuan et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "tejidos_propiedades_mecanicas.csv"
+    descripcion: "Módulo elástico, resistencia y deformación de 15 tejidos humanos (Fig 2h)"
+    fuente: "Figshare — Source Data oficial"
+  - nombre: "ml_validacion_r2.csv"
+    descripcion: "R² de validación cruzada 5-fold de modelos ML (RFR/NN), 3 propiedades (Fig 2j)"
+    fuente: "Figshare — Source Data oficial"
+  - nombre: "tuneglue_vs_tejido.csv"
+    descripcion: "TuneGlue vs tejido nativo, 6 tejidos × 3 propiedades × 3 réplicas (Fig 4d)"
+    fuente: "Figshare — Source Data oficial"
+  - nombre: "adhesion_por_tejido.csv"
+    descripcion: "Adhesión (kPa) por TuneGlue y tejido, 3 réplicas (Fig 4f)"
+    fuente: "Figshare — Source Data oficial"
+  - nombre: "hemostasia_tiempo.csv"
+    descripcion: "Tiempo de hemostasia control vs TuneGlue-liver, n=3 c/u (Fig 5f)"
+    fuente: "Figshare — Source Data oficial"
+estado: publicado

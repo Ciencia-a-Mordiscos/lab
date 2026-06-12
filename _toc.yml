@@ -761,6 +761,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-06-11-bioglues-ml-multitejido-trauma/README
+    title: "Tu hígado es gelatina. Tu hueso es piedra."
+    sections:
+    - file: papers/2026-06-11-bioglues-ml-multitejido-trauma/notebook
+      title: Notebook
   - file: papers/2026-06-10-deep-learning-migracion-humana/README
     title: "Aprendizaje profundo de cuatro décadas de migración humana"
     sections:

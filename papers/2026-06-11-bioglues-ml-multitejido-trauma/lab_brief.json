@@ -1,0 +1,204 @@
+{
+  "version": "1.0",
+  "paper_id": 2632,
+  "doi": "10.1038/s41551-026-01705-8",
+  "paper_type": "computational",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "Los 15 tejidos humanos abarcan 5 órdenes de magnitud en rigidez",
+      "supported": "yes",
+      "detail": "Módulo elástico de 0,012 MPa (hígado) a 1.625 MPa (hueso cortical) = 135.417x. Lectura directa del Source Data oficial.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "fold_range",
+        "value": 135417,
+        "interpretation": "~5 órdenes de magnitud"
+      }
+    },
+    {
+      "claim": "El ML predice el módulo elástico del tejido con alta precisión (R²=0,97)",
+      "supported": "yes",
+      "detail": "R²=0,967 en validación cruzada 5-fold (bosque aleatorio). Resistencia 0,858 y deformación 0,806: buenos, con más dispersión entre particiones.",
+      "certainty_tier": "T1",
+      "abstract_verb": "establish",
+      "effect_size": {
+        "measure": "r2",
+        "value": 0.967,
+        "interpretation": "muy alto"
+      }
+    },
+    {
+      "claim": "Cada TuneGlue cae en el régimen mecánico de su tejido (dentro de ~2x)",
+      "supported": "partial",
+      "detail": "5 de 6 pegamentos dentro de ~2x del módulo del tejido nativo; piel es el más flojo (ratio 0,47 = 2,1x más blando). Match de régimen/orden de magnitud, NO exacto.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "ratio_range",
+        "value": 1.54,
+        "interpretation": "0,47x a 1,54x"
+      }
+    },
+    {
+      "claim": "TuneGlue-liver acelera la hemostasia ~12x en modelo animal",
+      "supported": "partial",
+      "detail": "363 s (control) → 30 s (TuneGlue), −92%, en modelo animal de hígado. Efecto enorme pero n=3 vs 3: Mann-Whitney p=0,10 es el mínimo posible con ese n, NO es significancia estadística.",
+      "certainty_tier": "T2",
+      "abstract_verb": "reduce",
+      "effect_size": {
+        "measure": "fold_reduction",
+        "value": 12.1,
+        "interpretation": "12x más rápido, n=3"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 15,
+      "unit": "tejidos",
+      "context": "tejidos humanos caracterizados mecánicamente",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.012,
+      "unit": "MPa",
+      "context": "módulo elástico del hígado (tejido más blando)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1625,
+      "unit": "MPa",
+      "context": "módulo elástico del hueso cortical (tejido más rígido)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 135417,
+      "unit": "veces",
+      "context": "rango dinámico de rigidez entre hígado y hueso cortical (~5 órdenes de magnitud)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.97,
+      "unit": "R2",
+      "context": "precisión del ML prediciendo el módulo elástico (5-fold CV, bosque aleatorio)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.86,
+      "unit": "R2",
+      "context": "precisión del ML prediciendo la resistencia (5-fold CV, red neuronal)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.81,
+      "unit": "R2",
+      "context": "precisión del ML prediciendo la deformación (5-fold CV, red neuronal)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.9,
+      "unit": "kPa",
+      "context": "adhesión del TuneGlue de pulmón (la más baja)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5139,
+      "unit": "kPa",
+      "context": "adhesión del TuneGlue de hueso (la más alta, ~580x la de pulmón)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 363,
+      "unit": "segundos",
+      "context": "tiempo de hemostasia control (modelo animal de hígado)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 30,
+      "unit": "segundos",
+      "context": "tiempo de hemostasia con TuneGlue-liver (−92%, 12x más rápido, n=3)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "n=3 por grupo",
+        "our_calculation": "30 s media",
+        "discrepancy_pct": 0.0,
+        "reason": "media directa de 3 réplicas del Source Data"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (presentan/construyeron)"
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "desarrollaron (no 'proponen')"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con el número (363→30 s)"
+    },
+    {
+      "abstract_verb": "promising",
+      "tier": "T2",
+      "cam_attenuator": "'prometedoras' — hedge, no probado en clínica"
+    },
+    {
+      "abstract_verb": "tested",
+      "tier": "T2",
+      "cam_attenuator": "probado SOLO en modelos animales — no extrapolar a humanos"
+    },
+    {
+      "abstract_verb": "transformative",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de autores — nunca 'revolución'"
+    }
+  ],
+  "narrative_hooks": [
+    "Tu hígado es gelatina, tu hueso es piedra: 135.417 veces de diferencia en rigidez, y un solo pegamento no sirve para los dos.",
+    "Una máquina aprendió a diseñar un pegamento distinto para cada tejido, y le acierta al módulo elástico con R²=0,97.",
+    "En un hígado lesionado, el pegamento a medida bajó el sangrado de 363 a 30 segundos — aunque eso se midió en solo 3 animales."
+  ],
+  "limitations": [
+    "Todos los resultados in vivo (adhesión, hemostasia, cicatrización) son en modelos animales, no en humanos ni en clínica.",
+    "La hemostasia tiene n=3 por grupo: muestra dirección y magnitud, no significancia estadística (p=0,10 es el mínimo posible con ese n).",
+    "El match tejido-pegamento es de orden de magnitud / régimen mecánico, no exacto (piel queda a 2,1x).",
+    "Los autores enmarcan la plataforma como prometedora (verbos T2: promising/transformative), no como tecnología clínica probada."
+  ],
+  "suggested_word_range": {
+    "min": 180,
+    "max": 230,
+    "reason": "2 claims verificados 'yes' + 2 'partial' con narrativa fuerte (match de régimen, hemostasia 12x); 11 key_numbers. Denso pero con 2 caveats (n=3, régimen no exacto) que exigen framing honesto."
+  },
+  "notebook_slug": "2026-06-11-bioglues-ml-multitejido-trauma",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-11-bioglues-ml-multitejido-trauma/notebook.html",
+  "generated_at": "2026-06-11T20:43:34.752015"
+}

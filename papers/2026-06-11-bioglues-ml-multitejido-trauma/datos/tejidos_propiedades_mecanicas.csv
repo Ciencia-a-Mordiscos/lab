@@ -1,0 +1,16 @@
+tejido,modulo_elastico_mpa,resistencia_mpa,deformacion_pct
+lung,0.013,0.11,153
+uterus,0.71,0.66,32
+bladder,2.1,1,
+intestine,1.61,0.9,140
+kidney,0.18,0.02,33.4
+spleen,0.014,0.07,19
+liver,0.012,0.314,
+heart,0.03,0.045,
+ligament,1250,120,
+muscle,1.58,0.26,
+skin,83.3,21.6,54
+cornea,0.64,,
+cartilage,5.95,5.04,
+cancellous bone,554.78,2.51,
+cortical bone,1625,131,2.6
