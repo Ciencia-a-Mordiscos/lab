@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### CO₂ brotando del fondo del mar: el campo de seeps de Mayotte
+
+**Ecología** · *Nature Geoscience* (2026) · A más de 1.300 metros bajo el agua, frente a Mayotte, el fondo del mar suelta dióxido de carbono — un campo de fuentes (*seeps*) de CO₂ líquido que apareció tras el nacimiento de un volcán submarino en 2018. Un ROV midió el caudal de **22 fuentes** una por una. **El hallazgo:** las **7 fuentes "altas" sueltan dos tercios (65,5%) del caudal medido**, y el flujo total del campo se estima en **~154 mil toneladas de carbono al año** (~563 mil tCO₂). Pero ese total no es un número, es un rango: depende del modelo espacial que asumas (**148–198 mil tC/año, 34% de diferencia**). ⚠️ El flujo total es una **extrapolación Monte Carlo**, no una medición — solo se midieron 22 fuentes. ⚠️ Estudio **observacional**: describe lo que el ROV vio, no causas. ⚠️ 18 de las 22 fuentes están en un solo sitio (B0).
+
+[Ver notebook](papers/2026-06-12-co2-seeps-hidratos-mayotte/notebook) · [Leer más](papers/2026-06-12-co2-seeps-hidratos-mayotte/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-12-co2-seeps-hidratos-mayotte/notebook.ipynb)
+
 ### Tu hígado es gelatina. Tu hueso es piedra.
 
 **Tecnología** · *Nature Biomedical Engineering* (2026) · Tu **hígado es casi líquido** y tu **hueso casi piedra**: entre ambos hay **135.417 veces** de diferencia en rigidez, y un solo pegamento médico no sirve para los dos. Un equipo usó **machine learning** para diseñar un pegamento distinto a la medida de cada tejido —los **TuneGlues**—. **El hallazgo:** el modelo predice el módulo elástico del tejido con **R²=0,97** y cada pegamento cae en el **régimen mecánico de su tejido** (5 de 6 dentro de ~2x, a lo largo de 5 órdenes de magnitud); en un hígado lesionado, el TuneGlue bajó el sangrado de **363 a 30 s** (~12x). ⚠️ Todo lo *in vivo* es en **modelos animales**, no humanos ni clínica. ⚠️ La hemostasia es **n=3 por grupo** (p=0,10 es el mínimo posible con ese n, no es significancia). ⚠️ El match tejido-pegamento es de **régimen, no exacto** (la piel queda a 2,1x).

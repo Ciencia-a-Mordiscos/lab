@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-06-12-co2-seeps-hidratos-mayotte/README
+    title: "CO₂ brotando del fondo del mar: el campo de seeps de Mayotte"
+    sections:
+    - file: papers/2026-06-12-co2-seeps-hidratos-mayotte/notebook
+      title: Notebook
   - file: papers/2026-06-10-necropolis-ballenas-diamantina/README
     title: "Una necrópolis de ballenas de 5,3 millones de años en el Índico"
     sections:

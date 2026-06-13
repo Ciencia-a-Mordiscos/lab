@@ -1,0 +1,22 @@
+titulo: "CO₂ brotando del fondo del mar: el campo de seeps de Mayotte"
+fecha: 2026-06-13
+categoria: ecologia
+tags: [co2, oceano, hidratos, mayotte, volcanismo, montecarlo, geociencia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-02004-2"
+    titulo: "Large CO2 seeps and hydrate field on the seafloor offshore Mayotte Island"
+    journal: Nature Geoscience
+    autores: "Cathalot et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "mediciones_seeps.csv"
+    descripcion: "Caudal de 22 fuentes individuales medidas por ROV"
+    fuente: "SEANOE 10.17882/109663"
+  - nombre: "flux_extrapolado.csv"
+    descripcion: "6.000 estimaciones Monte Carlo del flujo total de CO₂"
+    fuente: "SEANOE 10.17882/109663"
+estado: publicado

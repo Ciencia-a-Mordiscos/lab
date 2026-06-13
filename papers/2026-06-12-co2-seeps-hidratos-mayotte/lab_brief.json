@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "paper_id": 2635,
+  "doi": "10.1038/s41561-026-02004-2",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El campo tiene fuentes de CO2 de caudal muy desigual",
+      "supported": "yes",
+      "detail": "22 fuentes medidas; mediana 19,24 ml/s, maximo 132,5 ml/s; distribucion sesgada a la derecha (Shapiro p=0,0003, no normal)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las fuentes altas superan a las bajas por ~11x",
+      "supported": "yes",
+      "detail": "Media alta 65,22 ml/s (n=7) vs baja 5,67 ml/s (n=3) = 11,5x. Contraste descriptivo, no test",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las 7 fuentes altas aportan ~2/3 del caudal medido",
+      "supported": "yes",
+      "detail": "65,5% del caudal total medido (696,5 ml/s) viene de las 7 fuentes altas (32% de las medidas). Suma de caudales (aditiva)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El flujo total ronda ~154 mil tC/ano",
+      "supported": "partial",
+      "detail": "EXTRAPOLACION, no medicion. Mediana de 6.000 simulaciones = 153.622 tC/ano (~563 mil tCO2/ano)",
+      "certainty_tier": "T2",
+      "abstract_verb": "extrapolated",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El total depende del modelo espacial elegido",
+      "supported": "yes",
+      "detail": "Random/Dirichlet ~148 mil vs Normal ~198 mil tC/ano = 34% de diferencia. El modelo de densidad casi no cambia el resultado",
+      "certainty_tier": "T2",
+      "abstract_verb": "extrapolated",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 22,
+      "unit": "fuentes",
+      "context": "caudales medidos directamente por ROV en 5 sitios",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 19.24,
+      "unit": "ml/s",
+      "context": "caudal mediano por fuente (IQR 12,15-43,32)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 132.5,
+      "unit": "ml/s",
+      "context": "caudal de la fuente mas potente",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.5,
+      "unit": "veces",
+      "context": "razon entre la media de las fuentes altas (65,22) y bajas (5,67)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 65.5,
+      "unit": "por ciento",
+      "context": "fraccion del caudal medido que aportan las 7 fuentes altas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 153622,
+      "unit": "tC/ano",
+      "context": "flujo total de CO2 extrapolado (mediana de 6.000 simulaciones); ~563 mil tCO2/ano",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no accesible (paywall)",
+        "our_calculation": "153.622 tC/ano",
+        "discrepancy_pct": 0,
+        "reason": "calculado directamente del dataset SEANOE original de los autores"
+      }
+    },
+    {
+      "value": 34,
+      "unit": "por ciento",
+      "context": "diferencia entre el modelo espacial Normal (~198k) y Random/Dirichlet (~148k)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show / are forming",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (observacion visual del ROV)"
+    },
+    {
+      "abstract_verb": "deleteriously impacts (acidification)",
+      "tier": "T2",
+      "cam_attenuator": "reportar como lo reporta el paper, sin escalar"
+    },
+    {
+      "abstract_verb": "extrapolated (flux headline)",
+      "tier": "T2",
+      "cam_attenuator": "estimacion model-dependent: ~154 mil tC/ano, rango 148-198k. NUNCA presentar como medido"
+    }
+  ],
+  "narrative_hooks": [
+    "A 1.300 m bajo el agua, frente a Mayotte, brota CO2 del fondo del mar",
+    "7 fuentes (un tercio de las medidas) sueltan dos tercios del CO2",
+    "El total no es un numero, es un rango: depende de que modelo espacial creas (148 vs 198 mil tC/ano)"
+  ],
+  "limitations": [
+    "El caudal directo se midio en solo 22 fuentes de 5 sitios (18 en un unico sitio, B0)",
+    "El flujo total del campo es una extrapolacion Monte Carlo, sensible al modelo de distribucion espacial (rango 148-198 mil tC/ano)",
+    "Estudio observacional: describe lo que el ROV vio, no relaciones de causa-efecto"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (4 yes + 1 partial) y 7 numeros clave: script denso"
+  },
+  "notebook_slug": "2026-06-12-co2-seeps-hidratos-mayotte",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-12-co2-seeps-hidratos-mayotte/notebook.html",
+  "generated_at": "2026-06-13"
+}
