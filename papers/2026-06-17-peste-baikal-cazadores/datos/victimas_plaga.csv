@@ -1,0 +1,19 @@
+sample_id,cementerio,sexo,edad_min,edad_max,edad_media,categoria_edad,fecha_cal_bp,fecha_error
+CGG024335,Ust'-Ida I,XX,30.0,40.0,35.0,adult,5387.0,118.0
+CGG024336,Ust'-Ida I,XY,18.0,24.0,21.0,adolescent–adult,5257.0,139.0
+CGG024502,Ust'-Ida I,XX,13.0,16.0,14.5,adolescent,5465.0,87.0
+CGG024508,Ust'-Ida I,XY,10.0,12.0,11.0,older child,5474.0,85.0
+CGG024510,Ust'-Ida I,XX,13.0,15.0,14.0,adolescent,5433.0,93.0
+CGG024511,Ust'-Ida I,XX,8.0,10.0,9.0,older child,5543.0,90.0
+CGG024512,Ust'-Ida I,XY,11.0,12.0,11.5,older child,5364.0,125.0
+CGG024514,Ust'-Ida I,XX,9.0,11.0,10.0,older child,5444.0,90.0
+CGG024566,Bratskii Kamen,XY,,11.0,,older child,4857.0,118.0
+CGG024571,Bratskii Kamen,XX,8.0,9.0,8.5,older child,5248.0,134.0
+CGG024572,Bratskii Kamen,XX,4.0,5.0,4.5,young child,,
+CGG024573,Bratskii Kamen,XX,7.0,9.0,8.0,older child,5220.0,130.0
+CGG024574,Bratskii Kamen,XX,20.0,30.0,25.0,adult,5001.0,124.0
+CGG024576,Serovo,XY,20.0,35.0,27.5,adult,4803.0,111.0
+CGG024588,Ust'-Ida I,XY,25.0,35.0,30.0,adult,5458.0,87.0
+CGG024606,Shumilikha,XX,18.0,20.0,19.0,adolescent–adult,5432.0,76.0
+DA342,Ust'-Ida I,XX,15.0,20.0,17.5,adolescent,5190.0,124.0
+DA345,Ust'-Ida I,XY,35.0,50.0,42.5,adult,5418.0,101.0

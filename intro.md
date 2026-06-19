@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### La peste no nació en las ciudades
+
+**Medicina** · *Nature* (2026) · Durante décadas se creyó que la peste necesitaba aglomeración para volverse letal: ciudades, graneros, la vida densa del Neolítico. Pero el ADN antiguo de cuatro cementerios de cazadores-recolectores junto al lago **Baikal**, en Siberia, lo pone en duda: hace unos **5.500 años** estos grupos móviles ya morían de peste. **El hallazgo:** **39% de los individuos analizados** (18 de 46) dieron positivo a *Yersinia pestis*, y la mediana de edad al morir fue de apenas **14,5 años** — 7 de las 18 víctimas eran niños de 8 a 12. Los brotes llegaron en **dos olas** separadas por siglos. ⚠️ Es detección en **restos enterrados**, no la tasa de contagio de la población viva. ⚠️ Estudio **observacional**: vemos a quién tocó la peste, no una relación causa-efecto medida. ⚠️ Muestras chicas por cementerio (de 2 a 31 personas).
+
+[Ver notebook](papers/2026-06-17-peste-baikal-cazadores/notebook) · [Leer más](papers/2026-06-17-peste-baikal-cazadores/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-17-peste-baikal-cazadores/notebook.ipynb)
+
 ### CO₂ brotando del fondo del mar: el campo de seeps de Mayotte
 
 **Ecología** · *Nature Geoscience* (2026) · A más de 1.300 metros bajo el agua, frente a Mayotte, el fondo del mar suelta dióxido de carbono — un campo de fuentes (*seeps*) de CO₂ líquido que apareció tras el nacimiento de un volcán submarino en 2018. Un ROV midió el caudal de **22 fuentes** una por una. **El hallazgo:** las **7 fuentes "altas" sueltan dos tercios (65,5%) del caudal medido**, y el flujo total del campo se estima en **~154 mil toneladas de carbono al año** (~563 mil tCO₂). Pero ese total no es un número, es un rango: depende del modelo espacial que asumas (**148–198 mil tC/año, 34% de diferencia**). ⚠️ El flujo total es una **extrapolación Monte Carlo**, no una medición — solo se midieron 22 fuentes. ⚠️ Estudio **observacional**: describe lo que el ROV vio, no causas. ⚠️ 18 de las 22 fuentes están en un solo sitio (B0).

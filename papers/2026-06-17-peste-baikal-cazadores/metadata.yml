@@ -1,0 +1,22 @@
+titulo: "La peste no nació en las ciudades"
+fecha: 2026-06-19
+categoria: medicina
+tags: [peste, yersinia-pestis, adn-antiguo, paleogenomica, baikal, cazadores-recolectores, arqueologia, neolitico]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10540-5"
+    titulo: "Lethal plague outbreaks in Lake Baikal hunter-gatherers 5,500 years ago"
+    journal: Nature
+    autores: "Macleod et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "deteccion_por_cementerio.csv"
+    descripcion: "Positivos a peste / cohorte por cada uno de los 4 cementerios"
+    fuente: "Supplementary Tables (MOESM3)"
+  - nombre: "victimas_plaga.csv"
+    descripcion: "18 víctimas con peste: cementerio, sexo, edad estimada, fecha cal BP"
+    fuente: "Supplementary Tables (MOESM3)"
+estado: publicado

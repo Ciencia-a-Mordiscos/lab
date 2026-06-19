@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "paper_id": 2658,
+  "doi": "10.1038/s41586-026-10540-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "La detección de peste en los cementerios es del 39%",
+      "supported": "yes",
+      "detail": "18 positivos / 46 individuos = 39,1%. Coincide exacto con el abstract. Es detección en restos enterrados, no contagio poblacional.",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las víctimas de la peste son sorprendentemente jóvenes (mediana 14,5 años)",
+      "supported": "yes",
+      "detail": "Mediana de edad al morir 14,5 años (IQR 10–25, rango 4,5–42,5). 7 de 18 caen en la categoría 'niño mayor' (8–12).",
+      "certainty_tier": "T1",
+      "abstract_verb": "note",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Hubo dos olas de brotes separadas en el tiempo",
+      "supported": "yes",
+      "detail": "Ust'-Ida I se agrupa ~5.400 cal BP; Bratskii Kamen ~5.100 cal BP. El rango total abarca ~740 años. El paper habla de 'dos fases de brotes'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Hubo contagio de persona a persona dentro de grupos familiares",
+      "supported": "partial",
+      "detail": "El paper lo infiere de pedigríes de parentesco (datos no reconstruidos en este notebook). El abstract lo enmarca como 'consistente con' transmisión humana, no como prueba.",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La peste causó mortalidad aguda, sobre todo en niños de 8 a 11 años",
+      "supported": "partial",
+      "detail": "Diseño observacional: vemos sobre-representación de niños entre los muertos con peste, no una relación causa-efecto medida. El abstract usa 'appear to have resulted'.",
+      "certainty_tier": "T2",
+      "abstract_verb": "appear",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 39,
+      "unit": "por ciento",
+      "context": "tasa de detección de peste en la cohorte de 4 cementerios (18/46)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "39%",
+        "our_calculation": "39.1%",
+        "discrepancy_pct": 0.0,
+        "reason": "18/46, denominador cohorte completa"
+      }
+    },
+    {
+      "value": 18,
+      "unit": "individuos",
+      "context": "víctimas con peste detectada",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 46,
+      "unit": "individuos",
+      "context": "cohorte total analizada en los 4 cementerios",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14.5,
+      "unit": "años",
+      "context": "mediana de edad al morir de las víctimas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "individuos",
+      "context": "víctimas en la categoría 'niño mayor' (8–12 años), de 18 totales",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "cementerios",
+      "context": "cementerios de cazadores-recolectores con brotes",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5500,
+      "unit": "años atrás",
+      "context": "inicio aproximado de los brotes (rango 4.803–5.543 cal BP)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5700,
+      "unit": "años atrás",
+      "context": "los datos apuntan a que Y. pestis ya había emergido antes de esta fecha",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "describe",
+      "tier": "T1",
+      "cam_attenuator": "descripción directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "'los datos muestran' (observacional, no causal)"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' — no 'confirma'"
+    },
+    {
+      "abstract_verb": "appear",
+      "tier": "T2",
+      "cam_attenuator": "'todo apunta a que' / 'parecen' — hedge de mortalidad"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'los datos apuntan a'"
+    },
+    {
+      "abstract_verb": "contend",
+      "tier": "T2",
+      "cam_attenuator": "'los autores argumentan' — no como hecho"
+    }
+  ],
+  "narrative_hooks": [
+    "Uno de cada tres enterrados en estos cementerios llevaba ADN de peste — y no era una ciudad, eran cazadores-recolectores hace 5.500 años.",
+    "La mediana de edad al morir fue 14,5 años: la peste de Baikal se ensañó con los más jóvenes.",
+    "La peste golpeó en dos olas separadas por siglos, mucho antes de las primeras ciudades neolíticas."
+  ],
+  "limitations": [
+    "Son cementerios: la detección mide positivos entre individuos enterrados y analizados, no la tasa de infección de la población viva.",
+    "Muestras chicas por cementerio (de 2 a 31 personas) — los porcentajes por sitio son frágiles.",
+    "Las edades son estimaciones osteológicas, con rangos de incertidumbre.",
+    "El notebook no reconstruye los pedigríes de parentesco ni la filogenia de las cepas; esos análisis viven en el paper."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados 'yes' + 2 parciales, 8 números clave"
+  },
+  "notebook_slug": "2026-06-17-peste-baikal-cazadores",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-17-peste-baikal-cazadores/notebook.html",
+  "generated_at": "2026-06-19T00:00:00Z"
+}

@@ -357,6 +357,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-06-17-peste-baikal-cazadores/README
+    title: "La peste no nació en las ciudades"
+    sections:
+    - file: papers/2026-06-17-peste-baikal-cazadores/notebook
+      title: Notebook
   - file: papers/2026-06-06-manikomycin-antibiotico-ribosoma/README
     title: 'Manikomicina: una bacteria "agotada" escondía un antibiótico nuevo'
     sections:
