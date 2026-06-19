@@ -1,0 +1,22 @@
+titulo: "Una violeta dispara sus semillas de a una, con la misma fuerza cada vez"
+fecha: 2026-06-18
+categoria: biologia
+tags: [biomecanica, violetas, dispersion-semillas, biomimetica, actuadores, morfogeometria]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aed2953"
+    titulo: "Viola seed pod architecture shapes sequential, force-augmented pinching"
+    journal: Science
+    autores: "Kim et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "propiedades_valvas.csv"
+    descripcion: "5 especies de Viola × 5 propiedades mecánicas de la valva (con SD)"
+    fuente: "Material Suplementario, Tabla S2"
+  - nombre: "valvas_artificiales.csv"
+    descripcion: "12 valvas artificiales bioinspiradas: 3 materiales × rango de grosores"
+    fuente: "Material Suplementario, Tabla S3"
+estado: publicado

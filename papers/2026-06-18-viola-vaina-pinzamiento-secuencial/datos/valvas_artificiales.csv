@@ -1,0 +1,13 @@
+material,Es_MPa,ts_mm,Er_MPa,Rr_mm,alpha_dphi
+Tough resin,1500,0.2,217,8,0.4
+Tough resin,1500,0.3,217,8,0.4
+Tough resin,1500,0.45,217,8,0.4
+Tough resin,1500,0.6,217,8,0.4
+Tough resin,1500,0.9,217,8,0.4
+Tough resin,1500,1.4,217,8,0.4
+Tough resin,1500,2.0,217,8,0.4
+Elastic resin,8,0.6,217,8,0.4
+Elastic resin,8,1.4,217,8,0.4
+Elastic resin,8,2.0,217,8,0.4
+Elastic resin,8,2.5,217,8,0.4
+Eco-flex 0020,0.06,1.4,217,8,0.4

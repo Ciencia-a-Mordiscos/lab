@@ -1,0 +1,6 @@
+especie,dispersion,Es_MPa,Es_sd,ts_um,ts_sd,Er_MPa,Er_sd,Rr_um,Rr_sd,alpha_dphi,alpha_dphi_sd
+V. philippica,balistica,60,18,73,12,128,27,743,43,0.4,0.04
+V. lactiflora,balistica,78,12,66,3,134,50,765,45,0.4,0.09
+V. keiskei,balistica,37,2,111,17,170,64,885,43,0.45,0.02
+V. odorata,asistida_hormiga,23,9,144,33,55,8,564,13,0.33,0.03
+V. collina,asistida_hormiga,4,2,296,57,81,18,929,72,0.6,0.06

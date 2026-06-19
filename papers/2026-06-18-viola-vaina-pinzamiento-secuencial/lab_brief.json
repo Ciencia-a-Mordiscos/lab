@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "paper_id": 2669,
+  "doi": "10.1126/science.aed2953",
+  "paper_type": "experimental",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Las violetas que disparan tienen la cáscara más rígida que las dispersadas por hormigas",
+      "supported": "yes",
+      "detail": "58,3 vs 13,5 MPa (+332%). Cohen's d = 2,4 (efecto grande). Diseño observacional, n = 3 vs 2 — el soporte es el tamaño de efecto, no la significancia",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 2.43, "interpretation": "grande"}
+    },
+    {
+      "claim": "La cáscara de las que disparan es a la vez más delgada (logran fuerza con menos material)",
+      "supported": "yes",
+      "detail": "83,3 vs 220 µm (-62%). Cohen's d = 2,1. Coincide con el principio del paper: fuerza suficiente con costo de material limitado",
+      "certainty_tier": "T1",
+      "abstract_verb": "optimize",
+      "effect_size": {"measure": "cohen_d", "value": 2.1, "interpretation": "grande"}
+    },
+    {
+      "claim": "El tejido responsivo también es más rígido en las que disparan",
+      "supported": "yes",
+      "detail": "144 vs 68 MPa (+112%). Cohen's d = 3,6 — el efecto más grande de las cinco propiedades",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 3.56, "interpretation": "grande"}
+    },
+    {
+      "claim": "El radio del tejido responsivo y la geometría de la valva NO separan a las dos estrategias",
+      "supported": "yes",
+      "detail": "Cohen's d = 0,3 (radio) y 0,4 (geometría) — efectos pequeños; no distinguen los grupos",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.32, "interpretation": "pequeño"}
+    },
+    {
+      "claim": "El principio de diseño funciona en un rango enorme de materiales (valvas artificiales)",
+      "supported": "yes",
+      "detail": "Valvas bioinspiradas de 0,06 a 1.500 MPa = 4,4 órdenes de magnitud, con el tejido responsivo fijo (217 MPa)",
+      "certainty_tier": "T1",
+      "abstract_verb": "create",
+      "effect_size": {"measure": "rango_log10", "value": 4.4, "interpretation": "amplio"}
+    },
+    {
+      "claim": "La razón rigidez cáscara/tejido responsivo es más alta en las que disparan",
+      "supported": "partial",
+      "detail": "Media 0,42 vs 0,23, pero V. keiskei (0,22) se solapa con el grupo de hormigas; es tendencia, no corte limpio",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": {"measure": "diferencia_medias", "value": 0.19, "interpretation": "tendencia"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 332,
+      "unit": "por ciento",
+      "context": "cuánto más rígida es la cáscara de las violetas balísticas vs las de hormiga (58,3 vs 13,5 MPa)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 62,
+      "unit": "por ciento",
+      "context": "cuánto más delgada es la cáscara de las balísticas (83,3 vs 220 µm)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 112,
+      "unit": "por ciento",
+      "context": "cuánto más rígido es el tejido responsivo en las balísticas (144 vs 68 MPa)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.4,
+      "unit": "órdenes de magnitud",
+      "context": "rango de rigidez cubierto por las valvas artificiales bioinspiradas (0,06–1.500 MPa)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "especies",
+      "context": "número de especies de Viola medidas (3 balísticas, 2 dispersadas por hormigas)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa"},
+    {"abstract_verb": "achieve", "tier": "T1", "cam_attenuator": "afirmación directa: 'lo logra'"},
+    {"abstract_verb": "create", "tier": "T1", "cam_attenuator": "'crearon/construyeron' — artefacto construido"},
+    {"abstract_verb": "generate", "tier": "T1", "cam_attenuator": "'genera' — afirmación directa"},
+    {"abstract_verb": "optimize", "tier": "T1", "cam_attenuator": "'optimiza' (resultado del modelo)"},
+    {"abstract_verb": "indicate", "tier": "T2", "cam_attenuator": "'los análisis indican / los datos sugieren' — NO afirmar directamente"}
+  ],
+  "narrative_hooks": [
+    "Una violeta dispara sus semillas de a una, con la misma fuerza cada vez — y lo hace sin músculos, solo con la forma de la cáscara de su vaina",
+    "Las violetas que disparan no tienen la cáscara más gruesa: tienen la más delgada. Su ventaja es material más rígido, no más material",
+    "El mismo truco de la violeta funciona desde una silicona blanda hasta una resina dura: 4,4 órdenes de magnitud de rigidez"
+  ],
+  "limitations": [
+    "Muestra pequeña: 5 especies (3 balísticas vs 2 de hormiga). Los contrastes se sostienen en tamaños de efecto, NO en significancia (con n=3 vs 2, p=0,20 es el mínimo posible de Mann-Whitney)",
+    "Diseño observacional entre especies: los datos muestran que las que disparan están construidas distinto, no que disparar CAUSE esa construcción",
+    "Las propiedades mecánicas provienen del Material Suplementario (Tablas S2–S3); el repositorio Dryad estaba bajo curación al consultar",
+    "La razón cáscara/tejido es una tendencia con solapamiento (V. keiskei), no un corte limpio entre grupos"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (yes) + 1 parcial, 5 números clave — script denso"
+  },
+  "notebook_slug": "2026-06-18-viola-vaina-pinzamiento-secuencial",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook.html",
+  "generated_at": "2026-06-19"
+}

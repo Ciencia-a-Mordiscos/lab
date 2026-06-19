@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una violeta dispara sus semillas de a una, con la misma fuerza cada vez
+
+**Biología** · *Science* (2026) · Muchas plantas lanzan sus semillas como una catapulta, pero ese disparo suele ser caótico: cada semilla sale con una fuerza distinta. Las violetas (*Viola* spp.) resolvieron eso apretando (*pinzando*) las semillas una tras otra, con fuerza pareja, gracias a la forma de la cáscara de su vaina. Kim et al. midieron 5 especies y separaron dos estrategias. **El hallazgo:** las violetas que disparan tienen la cáscara **~4 veces más rígida (58 vs 14 MPa) pero un 62% más delgada** que las dispersadas por hormigas — logran fuerza con menos material. Y el mismo principio funciona en valvas artificiales a lo largo de **4,4 órdenes de magnitud** de rigidez. ⚠️ Muestra chica (**3 vs 2 especies**): el contraste se sostiene en tamaños de efecto grandes (Cohen's d = 2–3,6), **no** en significancia estadística. ⚠️ Estudio **observacional** entre especies: están construidas distinto, no que disparar lo cause.
+
+[Ver notebook](papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook) · [Leer más](papers/2026-06-18-viola-vaina-pinzamiento-secuencial/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook.ipynb)
+
+
 ### La peste no nació en las ciudades
 
 **Medicina** · *Nature* (2026) · Durante décadas se creyó que la peste necesitaba aglomeración para volverse letal: ciudades, graneros, la vida densa del Neolítico. Pero el ADN antiguo de cuatro cementerios de cazadores-recolectores junto al lago **Baikal**, en Siberia, lo pone en duda: hace unos **5.500 años** estos grupos móviles ya morían de peste. **El hallazgo:** **39% de los individuos analizados** (18 de 46) dieron positivo a *Yersinia pestis*, y la mediana de edad al morir fue de apenas **14,5 años** — 7 de las 18 víctimas eran niños de 8 a 12. Los brotes llegaron en **dos olas** separadas por siglos. ⚠️ Es detección en **restos enterrados**, no la tasa de contagio de la población viva. ⚠️ Estudio **observacional**: vemos a quién tocó la peste, no una relación causa-efecto medida. ⚠️ Muestras chicas por cementerio (de 2 a 31 personas).

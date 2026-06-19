@@ -588,6 +588,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-06-18-viola-vaina-pinzamiento-secuencial/README
+    title: "Una violeta dispara sus semillas de a una"
+    sections:
+    - file: papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook
+      title: Notebook
   - file: papers/2026-06-07-peptidos-frio-polen-cultivos/README
     title: "Una helada en flor: los péptidos que salvan la cosecha"
     sections:
