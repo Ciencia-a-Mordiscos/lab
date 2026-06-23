@@ -776,6 +776,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-06-17-folato-sudor-prenatal/README
+    title: "Un sticker en la piel que lee tu nutrición en el sudor"
+    sections:
+    - file: papers/2026-06-17-folato-sudor-prenatal/notebook
+      title: Notebook
   - file: papers/2026-06-11-bioglues-ml-multitejido-trauma/README
     title: "Tu hígado es gelatina. Tu hueso es piedra."
     sections:

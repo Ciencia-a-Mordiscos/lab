@@ -1,0 +1,25 @@
+subject,day,sweat_folate_ng_ml,sweat_err,phase
+Subject_A,1,1.497,0.501,Control
+Subject_A,2,0.791,0.294,Control
+Subject_A,3,1.452,0.19,Control
+Subject_A,4,0.825,0.033,Control
+Subject_A,5,0.722,0.379,Before intake
+Subject_A,5,3.409,0.276,2hr after intake
+Subject_A,6,2.255,0.266,Before intake
+Subject_A,6,4.178,0.173,2hr after intake
+Subject_A,7,0.43,0.021,Before intake
+Subject_A,7,1.517,0.196,2hr after intake
+Subject_A,8,0.932,0.002,Before intake
+Subject_A,8,2.334,0.277,2hr after intake
+Subject_B,1,1.228,0.403,Control
+Subject_B,2,0.636,0.493,Control
+Subject_B,3,1.02,1.017,Control
+Subject_B,4,0.726,0.048,Control
+Subject_B,5,1.535,0.593,Before intake
+Subject_B,5,2.748,0.174,2hr after intake
+Subject_B,6,2.23,0.619,Before intake
+Subject_B,6,6.513,0.461,2hr after intake
+Subject_B,7,2.359,0.182,Before intake
+Subject_B,7,6.004,0.253,2hr after intake
+Subject_B,8,3.086,0.043,Before intake
+Subject_B,8,4.404,0.273,2hr after intake

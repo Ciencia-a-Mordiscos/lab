@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "paper_id": 2648,
+  "doi": "10.1038/s41551-026-01716-5",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El folato en sudor correlaciona fuerte con el de suero (Spearman ρ=0,81; Pearson r=0,84; R²=0,70), 33 pares de 7 personas, p<0,001",
+      "supported": "yes",
+      "detail": "Spearman por datos no normales (Shapiro p<0,01). Relación fuerte.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.81,
+        "interpretation": "fuerte"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El suero tiene ~10x más folato que el sudor",
+      "supported": "yes",
+      "detail": "Razón de medias 9,96. Justifica un sensor de alta sensibilidad.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tras la ingesta, el folato hace pico a la 1–2 h en sudor y en suero",
+      "supported": "yes",
+      "detail": "Promedio de 5 personas; máximo a la 1 h, alto hasta la 2 h en ambos fluidos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El sudor distingue periodos de control de periodos de ingesta de folato",
+      "supported": "partial",
+      "detail": "Salto ~1,0→~3,9 ng/ml (3,8x), d de Cohen=2,3. Solo 2 personas seguidas día a día: descriptivo, no test poblacional. Significancia (Wilcoxon p=0,008) la reporta el paper sobre su cohorte completa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El disco portátil sigue al ELISA de laboratorio (r=0,97; R²=0,95) aunque lee algo más bajo en concentraciones altas",
+      "supported": "yes",
+      "detail": "14 muestras con ambos métodos. Tracking excelente; requiere calibración de escala para un número clínico exacto.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El sensor cubre un rango dinámico de 400x (0,5–200 ng/ml)",
+      "supported": "yes",
+      "detail": "Curva de calibración de 7 puntos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.81,
+      "unit": "coeficiente",
+      "context": "Spearman ρ correlación folato sudor~suero (Pearson r=0,84), 33 pares de 7 personas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "strong correlation (5 part./28 pts)",
+        "our_calculation": "ρ=0,81 / r=0,84 (7 part./33 pts)",
+        "discrepancy_pct": 0.0,
+        "reason": "el paper enuncia 'fuerte' cualitativo; coincide"
+      }
+    },
+    {
+      "value": 10.0,
+      "unit": "veces",
+      "context": "el suero tiene ~10x más folato que el sudor (razón de medias 9,96)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "1-2",
+      "unit": "horas",
+      "context": "pico de folato tras la ingesta, en sudor y suero",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.8,
+      "unit": "veces",
+      "context": "sudor en control ~1,0 ng/ml → 2 h tras ingesta ~3,9 ng/ml (2 personas, descriptivo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.97,
+      "unit": "coeficiente",
+      "context": "correlación disco lab-on-a-disc vs ELISA de placa (R²=0,95), n=14",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 400,
+      "unit": "veces",
+      "context": "rango dinámico del sensor (0,5–200 ng/ml)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "presentan / construyeron un dispositivo"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "revelan / muestran"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "muestran (observacional para correlación, no causal)"
+    },
+    {
+      "abstract_verb": "creates possibilities",
+      "tier": "T3",
+      "cam_attenuator": "abre la posibilidad a futuro — NO afirmar uso prenatal/clínico probado"
+    }
+  ],
+  "narrative_hooks": [
+    "Un sticker en la piel mide tu folato en el sudor, sin una sola aguja.",
+    "El sudor sigue lo que dice la sangre: ρ=0,81 entre folato en sudor y en suero.",
+    "Ojo con el alcance: lo validaron en 7 adultos sanos (3 hombres), NO en embarazadas — lo 'prenatal' es la meta a futuro."
+  ],
+  "limitations": [
+    "Cohorte de 7 adultos sanos, ninguna embarazada — 'prenatal' es aplicación futura, no validada.",
+    "El seguimiento diario es de solo 2 personas: el salto control→ingesta es claro pero sin poder estadístico.",
+    "El disco lee algo más bajo que el ELISA de placa en concentraciones altas: sigue la tendencia pero requiere calibración para un número clínico.",
+    "Correlación sudor~suero no implica reemplazar el análisis de sangre para diagnóstico; mide biodisponibilidad.",
+    "Datos de un único laboratorio y dispositivo."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados yes + 1 parcial, 6 números clave"
+  },
+  "notebook_slug": "2026-06-17-folato-sudor-prenatal",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-17-folato-sudor-prenatal/notebook.html",
+  "generated_at": "2026-06-23T15:54:04Z"
+}

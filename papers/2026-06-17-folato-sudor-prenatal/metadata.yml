@@ -1,0 +1,31 @@
+titulo: "Un sticker en la piel que lee tu nutrición en el sudor"
+fecha: 2026-06-23
+categoria: tecnologia
+tags: [biosensores, folato, sudor, wearables, lab-on-a-disc, salud]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01716-5"
+    titulo: "Skin-interfaced microfluidic capsule and portable lab-on-a-disc platform for sweat-based monitoring of prenatal nutrient balance"
+    journal: Nature Biomedical Engineering
+    autores: "Madsen et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "correlacion_sudor_suero.csv"
+    descripcion: "33 pares de folato sudor/suero en 7 personas"
+    fuente: "Source Data Fig. 7f"
+  - nombre: "cinetica_temporal.csv"
+    descripcion: "Folato en sudor y suero hora a hora tras la ingesta (5 personas)"
+    fuente: "Source Data Fig. 7a-e"
+  - nombre: "seguimiento_diario.csv"
+    descripcion: "Seguimiento diario control vs ingesta (2 personas)"
+    fuente: "Source Data Fig. 7j-k"
+  - nombre: "validacion_dispositivo.csv"
+    descripcion: "Disco lab-on-a-disc vs ELISA de placa (14 muestras)"
+    fuente: "Source Data Fig. 6f"
+  - nombre: "calibracion_sensor.csv"
+    descripcion: "Curva de calibración del sensor (rango 0,5-200 ng/ml)"
+    fuente: "Source Data Fig. 6e"
+estado: publicado
