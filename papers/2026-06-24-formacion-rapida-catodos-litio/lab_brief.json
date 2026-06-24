@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "paper_id": 2655,
+  "doi": "10.1038/s41586-025-09553-3",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La formación rápida (2C) mejora la capacidad reversible ~20% frente a la lenta (0.2C)",
+      "supported": "yes",
+      "detail": "+20.9% (ciclado 0.2C) y +19.3% (ciclado 2C), media de los últimos 10 de 200 ciclos. Coincide con el titular del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "improve",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La ventaja de capacidad crece con el ciclado, no está presente de salida",
+      "supported": "yes",
+      "detail": "Ventaja en el ciclo 1 = +6.9%; sube a +20.9% al final. Positiva en los 200 ciclos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "improve",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La formación rápida pierde menos litio irreversible en la primera carga",
+      "supported": "yes",
+      "detail": "33.8 vs 79.0 mAh/g (ciclado 0.2C); 55.8 vs 93.9 mAh/g (ciclado 2C). Eficiencia 1er ciclo 86.4% vs 76.6%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhance/reduce",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La formación rápida retiene más capacidad tras 200 ciclos",
+      "supported": "yes",
+      "detail": "Rápida: 98.4% y 97.1%. Lenta: 87.3% y 85.3%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhance",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La formación rápida extiende la vida útil más de 36%",
+      "supported": "partial",
+      "detail": "Titular del paper, NO reproducible en este panel: ninguna condición baja del 80% de retención en 200 ciclos. Probable extrapolación con umbral propio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "improve",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El litio residual de la formación rápida ancla la red (efecto self-pinning)",
+      "supported": "partial",
+      "detail": "Mecanismo descrito por el paper con sincrotrón (Figs. 2-4). Aquí se muestra la consecuencia (menos pérdida, más retención), no el mecanismo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El enfoque podría extenderse a otros sistemas de electrodos",
+      "supported": "partial",
+      "detail": "El paper lo plantea como posibilidad a futuro, no como resultado medido.",
+      "certainty_tier": "T3",
+      "abstract_verb": "can also be extended",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 20.9,
+      "unit": "por ciento",
+      "context": "ventaja de capacidad de la formación rápida al final del ciclado (media últimos 10 ciclos, ciclado 0.2C)",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "20%",
+        "our_calculation": "20.9%",
+        "discrepancy_pct": 4.5,
+        "reason": "headline del paper = ventaja al final del ciclado, reproducible"
+      }
+    },
+    {
+      "value": 6.9,
+      "unit": "por ciento",
+      "context": "ventaja de capacidad de la formación rápida en el ciclo 1 (la ventaja crece con el ciclado)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 98.4,
+      "unit": "por ciento",
+      "context": "retención de capacidad a 200 ciclos, formación rápida (LLO-2/0.2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 87.3,
+      "unit": "por ciento",
+      "context": "retención de capacidad a 200 ciclos, formación lenta (LLO-0.2/0.2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 33.81,
+      "unit": "mAh/g",
+      "context": "capacidad irreversible 1er ciclo, formación rápida (LLO-2/0.2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 79.01,
+      "unit": "mAh/g",
+      "context": "capacidad irreversible 1er ciclo, formación lenta (LLO-0.2/0.2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 86.4,
+      "unit": "por ciento",
+      "context": "eficiencia coulómbica 1er ciclo, formación rápida (LLO-2/0.2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 36,
+      "unit": "por ciento",
+      "context": "extensión de vida útil reportada por el paper (titular, no reproducida en este panel)",
+      "source": "paper",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": ">36%",
+        "our_calculation": "no reproducible",
+        "reason": "ninguna condición baja del 80% retención en 200 ciclos; extrapolación con umbral propio del paper"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (sincrotron muestra)"
+    },
+    {
+      "abstract_verb": "improve",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa con numero (+20%)"
+    },
+    {
+      "abstract_verb": "outperform",
+      "tier": "T1",
+      "cam_attenuator": "'supero' - con numero, no inflar"
+    },
+    {
+      "abstract_verb": "enhance/reduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "can also be extended",
+      "tier": "T3",
+      "cam_attenuator": "'podria extenderse a otros sistemas' - meta declarada, NO afirmar como hecho"
+    },
+    {
+      "abstract_verb": "providing insights",
+      "tier": "T2",
+      "cam_attenuator": "'aporta pistas' - NO escalar a 'resuelve'"
+    }
+  ],
+  "narrative_hooks": [
+    "Toda la vida nos dijeron que una batería nueva se carga despacio la primera vez. Este paper hizo lo contrario y duró más.",
+    "Cargar rápido la primera vez deja litio residual que ancla la red cristalina: +20% de capacidad y mucha mejor retención.",
+    "La ventaja no está al inicio: en el ciclo 1 es apenas +7%, pero crece hasta +21% con el uso."
+  ],
+  "limitations": [
+    "Datos de celdas tipo moneda en laboratorio, no celdas comerciales.",
+    "El '+36% de vida útil' del titular no es reproducible con este panel de 200 ciclos (ninguna condición baja del 80% de retención).",
+    "El mecanismo (litio residual anclando la red, self-pinning) se observa por sincrotrón en otras figuras del paper, no en estas series de Fig. 1."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados, 8 números clave"
+  },
+  "notebook_slug": "2026-06-24-formacion-rapida-catodos-litio",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-24-formacion-rapida-catodos-litio/notebook.html",
+  "generated_at": "2026-06-24T00:00:00-05:00"
+}

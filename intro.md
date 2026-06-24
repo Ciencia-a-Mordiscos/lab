@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Cargar rápido una batería nueva la hace durar más
+
+**Tecnología** · *Nature* (2026) · Toda la industria "forma" sus baterías cargándolas despacio la primera vez, para no maltratarlas. Este equipo probó lo contrario en cátodos ricos en litio (LLO): subir la corriente de esa primera carga de 0.2C a 2C. **El hallazgo:** la formación rápida da **+20% de capacidad** y retiene **98% tras 200 ciclos**, frente al **87%** de la lenta — y pierde menos de la mitad de litio irreversible (**34 vs 79 mAh/g**). La ventaja no está al inicio: **crece de +7% (ciclo 1) a +21%** con el uso. ⚠️ El **+36% de vida útil** del titular no es reproducible con este panel de 200 ciclos. ⚠️ El mecanismo (litio residual que ancla la red, *self-pinning*) lo muestra el paper por sincrotrón, no estas series. ⚠️ Datos de celdas tipo moneda de laboratorio.
+
+[Ver notebook](papers/2026-06-24-formacion-rapida-catodos-litio/notebook) · [Leer más](papers/2026-06-24-formacion-rapida-catodos-litio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-24-formacion-rapida-catodos-litio/notebook.ipynb)
+
 ### Una violeta dispara sus semillas de a una, con la misma fuerza cada vez
 
 **Biología** · *Science* (2026) · Muchas plantas lanzan sus semillas como una catapulta, pero ese disparo suele ser caótico: cada semilla sale con una fuerza distinta. Las violetas (*Viola* spp.) resolvieron eso apretando (*pinzando*) las semillas una tras otra, con fuerza pareja, gracias a la forma de la cáscara de su vaina. Kim et al. midieron 5 especies y separaron dos estrategias. **El hallazgo:** las violetas que disparan tienen la cáscara **~4 veces más rígida (58 vs 14 MPa) pero un 62% más delgada** que las dispersadas por hormigas — logran fuerza con menos material. Y el mismo principio funciona en valvas artificiales a lo largo de **4,4 órdenes de magnitud** de rigidez. ⚠️ Muestra chica (**3 vs 2 especies**): el contraste se sostiene en tamaños de efecto grandes (Cohen's d = 2–3,6), **no** en significancia estadística. ⚠️ Estudio **observacional** entre especies: están construidas distinto, no que disparar lo cause.

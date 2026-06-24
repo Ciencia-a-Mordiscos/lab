@@ -1,0 +1,25 @@
+titulo: "Cargar rápido una batería nueva la hace durar más"
+fecha: 2026-06-24
+categoria: tecnología
+tags: [baterías, litio, almacenamiento-de-energía, materiales, electroquímica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-025-09553-3"
+    titulo: "Fast formation to reinforce lithium-rich cathodes"
+    journal: Nature
+    autores: "Fan et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "fig1e_ciclado.csv"
+    descripcion: "Capacidad vs ciclo (1-200) con desviación estándar, 4 condiciones"
+    fuente: "Source Data Fig. 1 (MOESM2, mismo DOI)"
+  - nombre: "fig1d_irrev_ce.csv"
+    descripcion: "Capacidad irreversible y eficiencia coulómbica del 1er ciclo"
+    fuente: "Source Data Fig. 1 (MOESM2, mismo DOI)"
+  - nombre: "fig1b_carga_inicial.csv"
+    descripcion: "Perfil de voltaje de la carga de formación, rápida vs lenta"
+    fuente: "Source Data Fig. 1 (MOESM2, mismo DOI)"
+estado: publicado

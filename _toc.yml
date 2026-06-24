@@ -776,6 +776,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-06-24-formacion-rapida-catodos-litio/README
+    title: "Cargar rápido una batería nueva la hace durar más"
+    sections:
+    - file: papers/2026-06-24-formacion-rapida-catodos-litio/notebook
+      title: Notebook
   - file: papers/2026-06-17-folato-sudor-prenatal/README
     title: "Un sticker en la piel que lee tu nutrición en el sudor"
     sections:
