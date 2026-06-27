@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "paper_id": 2696,
+  "doi": "10.1126/science.aeb5402",
+  "paper_type": "computational",
+  "study_design": "modelo_simulacion",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "En el modelo caen 109 impactores sobre la banda ecuatorial; mediana ~92 km, 90% por debajo de 250 km",
+      "supported": "yes",
+      "detail": "Catálogo del modelo (1 realización estocástica). IQR 77-129 km; la cola llega a ~3.000 km pero es 1 caso",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El 74% de los impactos del modelo ocurre en los primeros 200 Ma de la ventana",
+      "supported": "yes",
+      "detail": "Conteo directo sobre la columna de tiempo del modelo (81/109)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Un impacto típico (100 km, 26 km/s) eleva la temperatura del choque unos 4.700 K",
+      "supported": "yes",
+      "detail": "Fórmula de Melosh (1989) con las constantes Tillotson verbatim del código; presión pico 719 GPa",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Ese calor supera el punto de fusión del manto a toda profundidad (~1,9×) → columna fundida",
+      "supported": "yes",
+      "detail": "Solidus máx ~2.502 K a 706 km; 4.708/2.502 = 1,9. Conecta con 'extensively molten below a few kilometers'",
+      "certainty_tier": "T2",
+      "abstract_verb": "would have",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El salto de temperatura no depende del tamaño; el calor total escala con ~R³",
+      "supported": "yes",
+      "detail": "Núcleo isobárico de temperatura uniforme; el volumen calentado crece con el cubo del radio (escalado exacto)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El calor de impacto integrado en el tiempo habría superado al calor interno durante el Hadeano",
+      "supported": "partial",
+      "detail": "Conclusión cualitativa del modelo del paper; NO recomputada en el notebook (requeriría velocidades por impactor y un modelo radiogénico)",
+      "certainty_tier": "T2",
+      "abstract_verb": "would have",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 109,
+      "unit": "impactores",
+      "context": "catálogo del modelo en la banda ecuatorial (1 realización estocástica)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 91.6,
+      "unit": "km",
+      "context": "radio mediano del impactor en el catálogo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 90,
+      "unit": "por ciento",
+      "context": "impactores con radio menor a 250 km",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 74,
+      "unit": "por ciento",
+      "context": "impactos en los primeros 200 Ma de la ventana del modelo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4708,
+      "unit": "kelvin",
+      "context": "salto de temperatura pico del choque (impactor 100 km, 26 km/s)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 719,
+      "unit": "GPa",
+      "context": "presión pico de choque a 26 km/s",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2502,
+      "unit": "kelvin",
+      "context": "temperatura de fusión máxima del manto modelado (706 km)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.9,
+      "unit": "veces",
+      "context": "cuánto supera el calor de un impacto típico al punto de fusión máximo",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "'el modelo muestra' / marco condicional 'habría' (el paper usa 'would have')"
+    },
+    {
+      "abstract_verb": "would have",
+      "tier": "T2",
+      "cam_attenuator": "'habría estado' / 'en el modelo' — resultado contrafactual, no observación"
+    },
+    {
+      "abstract_verb": "likely",
+      "tier": "T2",
+      "cam_attenuator": "'es probable que' / 'todo apunta a'"
+    }
+  ],
+  "narrative_hooks": [
+    "El calor de un solo impacto típico habría fundido el manto a cualquier profundidad — y en el Hadeano cayeron más de cien.",
+    "Los modelos de la Tierra temprana sumaban el calor interno del planeta y se olvidaban del calor que traían los impactos.",
+    "La corteza continental duradera aparece justo cuando el bombardeo se calma: el modelo sugiere que no es coincidencia."
+  ],
+  "limitations": [
+    "Es una realización estocástica de la banda ecuatorial del modelo, no el flujo global del planeta.",
+    "Las edades están en 'tiempo de modelo' (Ma), sin calibrar a una fecha de calendario.",
+    "El núcleo isobárico es una simplificación de la física real del impacto (Melosh 1989).",
+    "El claim de que el calor de impacto superó al interno es la conclusión cualitativa del modelo del paper, no recomputada en el notebook.",
+    "El radio máximo (~3.000 km, tamaño Marte) es una cola estocástica, no un impacto típico."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados como 'yes' + 8 números clave: script denso"
+  },
+  "notebook_slug": "2026-06-25-calor-impactos-hadean-oculto",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-25-calor-impactos-hadean-oculto/notebook.html",
+  "generated_at": "2026-06-27T12:00:00-05:00"
+}

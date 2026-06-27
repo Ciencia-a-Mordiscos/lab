@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "En el modelo caen 109 impactores sobre la banda ecuatorial (una realización estocástica)",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "empirical evidence for an intense Hadean impact flux",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c2",
+      "text": "El radio mediano del impactor en el catálogo del modelo es ~92 km",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "El 90% de los impactores del modelo tiene radio menor a 250 km",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c4",
+      "text": "El 74% de los impactos del modelo cae en los primeros 200 Ma de la ventana",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "Un impactor de 100 km a 26 km/s eleva la temperatura del choque hasta ~4.708 K en el modelo",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c6",
+      "text": "La presión pico de choque a 26 km/s es ~719 GPa",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "El punto de fusión máximo del manto modelado es ~2.502 K a 706 km de profundidad",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "El calor de un impacto típico (~4.708 K) supera el punto de fusión máximo del manto ~1,9 veces",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "Earth's Hadean crust would have been extensively molten at depths below a few kilometers",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c9",
+      "text": "En el modelo caen 109 impactores; mediana ~92 km, 90% por debajo de 250 km",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "El 74% de los impactos del modelo ocurre en los primeros 200 Ma de la ventana",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa"
+    },
+    {
+      "id": "c11",
+      "text": "Un impacto típico de 100 km a 26 km/s eleva la temperatura del choque unos 4.700 K",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c12",
+      "text": "Ese calor supera el punto de fusión del manto a toda profundidad (~1,9×), fundiendo la columna",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "Earth's Hadean crust would have been extensively molten at depths below a few kilometers",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c13",
+      "text": "El salto de temperatura no depende del tamaño del impactor; el calor total escala con ~R³",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "contexto",
+      "certeza": "directa"
+    },
+    {
+      "id": "c14",
+      "text": "El calor de impacto integrado en el tiempo habría superado al calor interno durante el Hadeano",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "the time-integrated heat due to impacts would have dwarfed that produced internally throughout the Hadean",
+      "evidence_quote_scope": "abstract"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Science",
+      "tipo": "paper",
+      "titulo": "Impact heating and the hidden Hadean",
+      "url": "https://doi.org/10.1126/science.aeb5402",
+      "fecha_publicacion": "2026-06-25",
+      "fecha_consulta": "2026-06-27",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "thecraigoneill/Chthonian: v0.1 (modelo geodinamico Hadeano: catalogo de impactos, curva solidus, formula de calentamiento)",
+      "url": "https://doi.org/10.5281/zenodo.18919910",
+      "fecha_publicacion": "2026",
+      "fecha_consulta": "2026-06-27",
+      "rol": "base"
+    },
+    {
+      "id": "s3",
+      "medio": "Zenodo",
+      "tipo": "software",
+      "titulo": "ComputationalThermodynamics/MAGEMin v1.3.6 (termodinamica de fusion mantelica usada por el modelo)",
+      "url": "https://doi.org/10.5281/zenodo.10573416",
+      "fecha_publicacion": "2024",
+      "fecha_consulta": "2026-06-27",
+      "rol": "enriquecimiento"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Impact heating and the hidden Hadean](https://doi.org/10.1126/science.aeb5402)  \n*Science, 2026-06-25*\n\n**Dataset canónico**: [thecraigoneill/Chthonian: v0.1 (modelo geodinamico Hadeano: catalogo de impactos, curva solidus, formula de calentamiento)](https://doi.org/10.5281/zenodo.18919910)\n\n**Referencias citadas**: [ComputationalThermodynamics/MAGEMin v1.3.6 (termodinamica de fusion mantelica usada por el modelo)](https://doi.org/10.5281/zenodo.10573416)\n\n*14 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

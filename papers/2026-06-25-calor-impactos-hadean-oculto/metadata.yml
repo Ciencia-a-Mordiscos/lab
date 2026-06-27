@@ -1,0 +1,28 @@
+titulo: "El calor oculto del Hadeano"
+fecha: 2026-06-25
+categoria: geología
+tags: [hadeano, impactos, geodinámica, corteza, modelo, planetología]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb5402"
+    titulo: "Impact heating and the hidden Hadean"
+    journal: Science
+    autores: "O'Neill et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "impactos_hadeano.csv"
+    descripcion: "Catálogo de 109 impactos (banda ecuatorial del modelo): tiempo de modelo y radio"
+    fuente: "modelo Chthonian v0.1 (Zenodo)"
+  - nombre: "solidus_manto.csv"
+    descripcion: "Curva solidus de Stixrude: profundidad vs. temperatura de fusión del manto"
+    fuente: "modelo Chthonian v0.1 (Zenodo)"
+  - nombre: "calentamiento_vs_velocidad.csv"
+    descripcion: "Presión pico y salto de temperatura del choque vs. velocidad (impactor de 100 km)"
+    fuente: "fórmula de Melosh (1989) con constantes del modelo"
+  - nombre: "calor_vs_tamano.csv"
+    descripcion: "Energía térmica relativa vs. radio del impactor (escalado ~R³)"
+    fuente: "escalado del núcleo isobárico"
+estado: publicado

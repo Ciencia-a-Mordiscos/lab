@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El calor olvidado que pudo derretir la corteza del Hadeano
+
+**Geología** · *Science* (2026) · Los modelos de la Tierra primitiva calculaban si la corteza estaba fundida mirando solo el calor interno del planeta. Un modelo geodinámico nuevo (*Chthonian*) suma lo que faltaba: el calor del intenso bombardeo de impactos. **El hallazgo:** en sus salidas, un impactor típico de 100 km a 26 km/s eleva la temperatura del choque hasta **~4.700 K — casi el doble (1,9×) del punto de fusión máximo del manto (~2.500 K)**, fundiendo la columna a cualquier profundidad. De los **109 impactos** del modelo, el 90% mide menos de 250 km y el 74% cae en los primeros 200 Ma. ⚠️ Son las salidas de **una realización estocástica de la banda ecuatorial**, no el flujo global. ⚠️ Las edades están en *tiempo de modelo*, sin calibrar a calendario. ⚠️ Que el calor de impacto superara al interno es la conclusión **cualitativa del modelo**, no recomputada en el notebook.
+
+[Ver notebook](papers/2026-06-25-calor-impactos-hadean-oculto/notebook) · [Leer más](papers/2026-06-25-calor-impactos-hadean-oculto/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-25-calor-impactos-hadean-oculto/notebook.ipynb)
+
 ### El universo no se ve igual en todas las direcciones (hasta donde alcanzamos a mirar)
 
 **Astronomía** · *Nature* (2026) · El principio cosmológico —base de casi toda la cosmología— asume que, si te alejas lo suficiente, el universo se ve igual hacia cualquier dirección. Un equipo mapeó **150.136 galaxias** de DESI DR1 en cinco profundidades, del vecindario cósmico hasta **~1 gigaparsec** (mil millones de pársecs), y midió si hay direcciones preferidas. **El hallazgo:** la distribución de galaxias muestra **estructuras anisotrópicas que persisten hasta escalas de un gigaparsec**, con significancia conservadora **>3σ** según el estadístico ADPD del paper frente a catálogos simulados ΛCDM. En nuestro proxy didáctico, el cosmos cercano es **7× más direccional** que el azar; las muestras profundas mantienen un exceso más leve. ⚠️ El notebook usa un **proxy ilustrativo**, no el ADPD del paper: su razón (×) nunca es una significancia σ. ⚠️ 3σ no es 5σ (el umbral de descubrimiento): una señal fuerte que **reta** el supuesto de isotropía, no que refute ΛCDM. ⚠️ Un solo estudio observacional, sobre la proyección 2D de rebanadas finas.

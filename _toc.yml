@@ -305,6 +305,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-06-25-calor-impactos-hadean-oculto/README
+    title: "El calor oculto del Hadeano"
+    sections:
+    - file: papers/2026-06-25-calor-impactos-hadean-oculto/notebook
+      title: Notebook
   - file: papers/2026-05-26-ross-ice-shelf-mis-5e/README
     title: "La Antártida occidental se derritió antes — y dejó su firma en el polvo"
     sections:
