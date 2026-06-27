@@ -660,6 +660,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-06-24-anisotropia-cosmica-gigaparsec/README
+    title: "La anisotropía cósmica a escala de un gigaparsec"
+    sections:
+    - file: papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook
+      title: Notebook
   - file: papers/2026-06-05-astrobiologos-vida-extraterrestre/README
     title: "¿A los astrobiólogos los convence más Marte o K2-18 b?"
     sections:

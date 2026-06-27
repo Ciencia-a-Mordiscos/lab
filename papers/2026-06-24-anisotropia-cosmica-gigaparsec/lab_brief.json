@@ -1,0 +1,168 @@
+{
+  "version": "1.0",
+  "paper_id": 2682,
+  "doi": "10.1038/s41586-026-10702-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El mapa reúne 150.136 galaxias en 5 muestras de profundidad creciente",
+      "supported": "yes",
+      "detail": "Suma directa de los CSV (S1 27.685, S2 36.290, S3 48.291, S4 29.109, LRGS 8.761)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La muestra más profunda (LRGS) llega a ~1 Gpc/h",
+      "supported": "yes",
+      "detail": "r_max calculado = 1004,5 Mpc/h = 1,00 Gpc/h; coincide con el titular del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las galaxias forman filamentos y vacíos, no una nube uniforme",
+      "supported": "yes",
+      "detail": "Visible en la gráfica hero (S1); textura de telaraña cósmica",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La muestra cercana (S1) tiene direcciones preferidas muy por encima del azar isotrópico",
+      "supported": "yes",
+      "detail": "Proxy direccional S1 = 7,1× su control; cae fuera de la nube de 300 simulaciones isotrópicas",
+      "certainty_tier": "T1",
+      "abstract_verb": "detect",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El exceso direccional persiste —más débil— en las muestras profundas",
+      "supported": "partial",
+      "detail": "El proxy baja con la profundidad (S2 1,5×, S3 1,2×, S4 1,4×, LRGS 1,3×). S3 queda casi al nivel isotrópico en este proxy 2D. La persistencia rigurosa a 1 Gpc es del ADPD del paper, no de este proxy",
+      "certainty_tier": "T2",
+      "abstract_verb": "provide direct evidence",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La señal NO refuta ΛCDM ni el principio cosmológico",
+      "supported": "no",
+      "detail": "El paper reta el supuesto de isotropía con >3σ conservadora; no refuta ΛCDM. Es un estudio que pide confirmación, no un veredicto (5σ es el umbral de descubrimiento)",
+      "certainty_tier": "T2",
+      "abstract_verb": "challenge",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 150136,
+      "unit": "galaxias",
+      "context": "total del mapa en 5 muestras DESI DR1 (BGS + LRGS)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 1.0,
+      "unit": "Gpc/h",
+      "context": "alcance radial de la muestra más profunda (LRGS), r_max = 1004,5 Mpc/h",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 7.1,
+      "unit": "veces",
+      "context": "dispersión direccional de S1 (cercana) vs su control isotrópico (proxy didáctico)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 1.5,
+      "unit": "veces",
+      "context": "dispersión direccional S2 vs isotrópico (proxy didáctico)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 1.2,
+      "unit": "veces",
+      "context": "dispersión direccional S3 vs isotrópico (proxy didáctico, casi al nivel isotrópico)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 1.4,
+      "unit": "veces",
+      "context": "dispersión direccional S4 vs isotrópico (proxy didáctico)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 1.3,
+      "unit": "veces",
+      "context": "dispersión direccional LRGS (~1 Gpc) vs isotrópico (proxy didáctico)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "sigma (conservadora)",
+      "context": "significancia de la anisotropía del paper vía ADPD vs mocks ΛCDM — del paper, NO recalculada en el notebook",
+      "source": "paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": ">3σ",
+        "our_calculation": "no recalculable (el notebook usa un proxy, no el ADPD)",
+        "discrepancy_pct": null,
+        "reason": "el ADPD del paper requiere catálogos mock ΛCDM no disponibles aquí"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa descriptiva (la distribución muestra estructuras anisotrópicas)"
+    },
+    {
+      "abstract_verb": "detect",
+      "tier": "T1",
+      "cam_attenuator": "detectaron señales de anisotropía"
+    },
+    {
+      "abstract_verb": "provide direct evidence",
+      "tier": "T2",
+      "cam_attenuator": "da evidencia directa de — NO 'prueba/demuestra'"
+    },
+    {
+      "abstract_verb": "challenge",
+      "tier": "T2",
+      "cam_attenuator": "reta/pone en duda el supuesto de isotropía — NUNCA 'refuta ΛCDM'"
+    },
+    {
+      "abstract_verb": "call for / motivate",
+      "tier": "T3",
+      "cam_attenuator": "motiva nuevas pruebas / invita a reevaluar — intención, no hallazgo"
+    }
+  ],
+  "narrative_hooks": [
+    "El universo debería verse igual en todas las direcciones a gran escala — un mapa de 150.136 galaxias dice que no, al menos hasta donde alcanzamos a mirar.",
+    "El cosmos cercano es 7 veces más direccional que el azar; incluso a un gigaparsec la estructura no termina de aplanarse.",
+    "3σ no es 5σ: una señal fuerte que pide confirmación, no un veredicto contra el modelo estándar."
+  ],
+  "limitations": [
+    "El notebook calcula un proxy didáctico de anisotropía (dispersión del histograma de orientaciones), NO el ADPD del paper. La razón (×) nunca debe convertirse en una significancia σ.",
+    "Trabajamos sobre la proyección 2D de rebanadas finas, no sobre el volumen 3D completo.",
+    "El proxy depende del submuestreo (2.500 galaxias) y de la ventana de pares (100–300 Mpc/h); S3 queda casi al nivel isotrópico.",
+    "Un solo estudio con 3σ conservadora no es la última palabra; el umbral de descubrimiento en física es 5σ."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims 'yes' verificados + escala de certeza delicada que exige hedge explícito"
+  },
+  "notebook_slug": "2026-06-24-anisotropia-cosmica-gigaparsec",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook.html",
+  "generated_at": "2026-06-27T00:00:00-05:00"
+}

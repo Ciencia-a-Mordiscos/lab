@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El universo no se ve igual en todas las direcciones (hasta donde alcanzamos a mirar)
+
+**Astronomía** · *Nature* (2026) · El principio cosmológico —base de casi toda la cosmología— asume que, si te alejas lo suficiente, el universo se ve igual hacia cualquier dirección. Un equipo mapeó **150.136 galaxias** de DESI DR1 en cinco profundidades, del vecindario cósmico hasta **~1 gigaparsec** (mil millones de pársecs), y midió si hay direcciones preferidas. **El hallazgo:** la distribución de galaxias muestra **estructuras anisotrópicas que persisten hasta escalas de un gigaparsec**, con significancia conservadora **>3σ** según el estadístico ADPD del paper frente a catálogos simulados ΛCDM. En nuestro proxy didáctico, el cosmos cercano es **7× más direccional** que el azar; las muestras profundas mantienen un exceso más leve. ⚠️ El notebook usa un **proxy ilustrativo**, no el ADPD del paper: su razón (×) nunca es una significancia σ. ⚠️ 3σ no es 5σ (el umbral de descubrimiento): una señal fuerte que **reta** el supuesto de isotropía, no que refute ΛCDM. ⚠️ Un solo estudio observacional, sobre la proyección 2D de rebanadas finas.
+
+[Ver notebook](papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook) · [Leer más](papers/2026-06-24-anisotropia-cosmica-gigaparsec/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook.ipynb)
+
 ### Cargar rápido una batería nueva la hace durar más
 
 **Tecnología** · *Nature* (2026) · Toda la industria "forma" sus baterías cargándolas despacio la primera vez, para no maltratarlas. Este equipo probó lo contrario en cátodos ricos en litio (LLO): subir la corriente de esa primera carga de 0.2C a 2C. **El hallazgo:** la formación rápida da **+20% de capacidad** y retiene **98% tras 200 ciclos**, frente al **87%** de la lenta — y pierde menos de la mitad de litio irreversible (**34 vs 79 mAh/g**). La ventaja no está al inicio: **crece de +7% (ciclo 1) a +21%** con el uso. ⚠️ El **+36% de vida útil** del titular no es reproducible con este panel de 200 ciclos. ⚠️ El mecanismo (litio residual que ancla la red, *self-pinning*) lo muestra el paper por sincrotrón, no estas series. ⚠️ Datos de celdas tipo moneda de laboratorio.

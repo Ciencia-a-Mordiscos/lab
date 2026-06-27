@@ -1,0 +1,19 @@
+titulo: "La anisotropía cósmica a escala de un gigaparsec"
+fecha: 2026-06-24
+categoria: astronomia
+tags: [cosmologia, principio-cosmologico, anisotropia, desi, galaxias, gigaparsec, telarana-cosmica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10702-5"
+    titulo: "Detection of anisotropic cosmic structures on a gigaparsec scale"
+    journal: Nature
+    autores: "Sylos Labini & Galoppo"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "galaxias_S1..S4.csv, galaxias_LRGS.csv"
+    descripcion: "Posiciones comóviles (x,y,z, Mpc/h) de 150.136 galaxias DESI DR1 en 5 muestras de profundidad creciente"
+    fuente: "Zenodo (records/20118015), derivado de DESI DR1 (BGS + LRGS)"
+estado: publicado
