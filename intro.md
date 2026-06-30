@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una onda sísmica fue al núcleo de la Tierra, volvió y movió Japón entero
+
+**Geología** · *Science* (2026) · El terremoto de Tohoku-Oki de 2011 (Mw 9,0) lanzó una onda de corte tan fuerte que bajó hasta el núcleo de la Tierra, rebotó y volvió a la superficie. Al reaparecer en Japón —ya como onda **ScS**—, los GPS registraron un **escalón hacia el este de hasta 5 a 6 mm** en todo el país. **El hallazgo:** el salto apareció en **104 estaciones (8,5%)** de Hokkaido a Okinawa y ocurrió **casi al mismo tiempo** (mediana 110 s, rango 92-128 s) en más de 2.000 km, decayendo con la distancia a la ruptura (Spearman ρ = −0,73). ⚠️ Las series que exploramos son **sintéticas** (salida de modelo): reproducen el escalón pero se quedan en 4,79 mm, algo por debajo del observado. ⚠️ Que la ScS *disparara* el deslizamiento es la **interpretación** del paper (*likely*), no una medición — estudio observacional. ⚠️ El peligro sísmico se plantea como posibilidad (*potentially*).
+
+[Ver notebook](papers/2026-06-18-scs-tohoku-megathrust-slip/notebook) · [Leer más](papers/2026-06-18-scs-tohoku-megathrust-slip/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-18-scs-tohoku-megathrust-slip/notebook.ipynb)
+
 ### El calor olvidado que pudo derretir la corteza del Hadeano
 
 **Geología** · *Science* (2026) · Los modelos de la Tierra primitiva calculaban si la corteza estaba fundida mirando solo el calor interno del planeta. Un modelo geodinámico nuevo (*Chthonian*) suma lo que faltaba: el calor del intenso bombardeo de impactos. **El hallazgo:** en sus salidas, un impactor típico de 100 km a 26 km/s eleva la temperatura del choque hasta **~4.700 K — casi el doble (1,9×) del punto de fusión máximo del manto (~2.500 K)**, fundiendo la columna a cualquier profundidad. De los **109 impactos** del modelo, el 90% mide menos de 250 km y el 74% cae en los primeros 200 Ma. ⚠️ Son las salidas de **una realización estocástica de la banda ecuatorial**, no el flujo global. ⚠️ Las edades están en *tiempo de modelo*, sin calibrar a calendario. ⚠️ Que el calor de impacto superara al interno es la conclusión **cualitativa del modelo**, no recomputada en el notebook.

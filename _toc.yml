@@ -305,6 +305,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-06-18-scs-tohoku-megathrust-slip/README
+    title: "Una onda sísmica que movió Japón entero"
+    sections:
+    - file: papers/2026-06-18-scs-tohoku-megathrust-slip/notebook
+      title: Notebook
   - file: papers/2026-06-25-calor-impactos-hadean-oculto/README
     title: "El calor oculto del Hadeano"
     sections:

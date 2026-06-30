@@ -1,0 +1,25 @@
+titulo: "Una onda sísmica fue al núcleo de la Tierra, volvió y movió Japón entero"
+fecha: 2026-06-18
+categoria: geologia
+tags: [sismologia, terremoto, tohoku, ondas-sismicas, nucleo-terrestre, gnss, geofisica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec4190"
+    titulo: "ScS-triggered slip on megathrust interfaces after the 2011 Mw 9.0 Tohoku-Oki earthquake"
+    journal: Science
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "step_por_estacion.csv"
+    descripcion: "Escalón, pico-a-pico, rise time y distancia de 1.221 estaciones GNSS"
+    fuente: "Zenodo (series sintéticas GEONET)"
+  - nombre: "timeseries_0550.csv"
+    descripcion: "Serie sintética 1 Hz de la estación 0550 (1.800 s)"
+    fuente: "Zenodo (series sintéticas GEONET)"
+  - nombre: "step_por_distancia.csv"
+    descripcion: "Escalón promedio/máximo agregado por banda de distancia"
+    fuente: "Derivado de Zenodo"
+estado: publicado

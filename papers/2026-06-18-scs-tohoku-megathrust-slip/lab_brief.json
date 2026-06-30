@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "paper_id": 2670,
+  "doi": "10.1126/science.aec4190",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Tras la onda ScS, el suelo registró un escalón permanente hacia el este de hasta 5 a 6 mm (observado); la serie sintética alcanza 4,79 mm en la estación 0550",
+      "supported": "yes",
+      "detail": "El dato observado real llega a 5-6 mm; la serie sintética que abre el notebook alcanza 4,79 mm en la estación 0550 (214 km del epicentro). El modelo subestima ligeramente el observado.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "recorded"
+    },
+    {
+      "claim": "El escalón apareció en todo Japón: 104 estaciones (8,5%) con escalón >=1 mm, de Hokkaido a Okinawa",
+      "supported": "yes",
+      "detail": "104 de 1.221 estaciones con escalón >=1 mm (8,5%); 9 con >=3 mm. Cobertura de >2.000 km.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "recorded"
+    },
+    {
+      "claim": "El escalón se diluye con la distancia a la ruptura (Spearman rho = -0,73)",
+      "supported": "yes",
+      "detail": "Spearman rho=-0,73 (Pearson -0,49; usamos Spearman por la fuerte asimetría, skew 3,54). Promedio <200 km: 2,19 mm; >800 km: 0,03 mm.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "recorded"
+    },
+    {
+      "claim": "El salto ocurrió casi simultáneamente en todo el país (mediana 110 s, rango 92-128 s)",
+      "supported": "yes",
+      "detail": "Mediana 110 s con rango 10-90% de 92 a 128 s, en las 306 estaciones donde se mide el momento del salto. Simultaneidad frente a >2.000 km de archipiélago.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "La onda ScS disparó deslizamiento en las fallas megathrust",
+      "supported": "partial",
+      "detail": "Interpretación del paper ('likely', 'attributed to'). Estudio observacional: el escalón coincide en tiempo con la llegada de la ScS; no se manipuló nada para probar la causalidad.",
+      "supported_by_data": false,
+      "certainty_tier": "T3",
+      "abstract_verb": "likely"
+    },
+    {
+      "claim": "Es una fuente de peligro sísmico que podría reactivar la zona",
+      "supported": "partial",
+      "detail": "El paper lo plantea como posibilidad ('potentially'), no como riesgo establecido.",
+      "supported_by_data": false,
+      "certainty_tier": "T3",
+      "abstract_verb": "potentially"
+    }
+  ],
+  "key_numbers": [
+    {"value": "5 a 6", "unit": "mm", "context": "escalón observado hacia el este en GNSS tras la ScS (headline del paper)", "source": "paper", "verified": true,
+     "cross_check": {"paper_reported": "5-6 mm observado", "our_calculation": "4,79 mm sintético", "discrepancy_pct": 15, "reason": "el dataset es una realización sintética del modelo; subestima el observado"}},
+    {"value": 4.79, "unit": "mm", "context": "escalón sintético máximo, estación 0550 (214 km del epicentro)", "source": "fact_sheet", "verified": true},
+    {"value": 5.46, "unit": "mm", "context": "pico de la sacudida ScS (pico-a-pico) en la estación 0550", "source": "fact_sheet", "verified": true},
+    {"value": 1221, "unit": "estaciones", "context": "estaciones GNSS GEONET en el dataset, todo Japón", "source": "fact_sheet", "verified": true},
+    {"value": 104, "unit": "estaciones", "context": "con escalón >=1 mm (8,5% del total)", "source": "fact_sheet", "verified": true},
+    {"value": 9, "unit": "estaciones", "context": "con escalón >=3 mm", "source": "fact_sheet", "verified": true},
+    {"value": -0.73, "unit": "rho Spearman", "context": "correlación escalón vs distancia al epicentro (decaimiento)", "source": "notebook", "verified": true,
+     "cross_check": {"paper_reported": "decae con la distancia", "our_calculation": "Spearman -0,73", "discrepancy_pct": 0, "reason": "Spearman en vez de Pearson (-0,49) por asimetría fuerte (skew 3,54)"}},
+    {"value": 2.19, "unit": "mm", "context": "escalón promedio en estaciones a <200 km del epicentro", "source": "fact_sheet", "verified": true},
+    {"value": 0.03, "unit": "mm", "context": "escalón promedio en estaciones a >800 km del epicentro", "source": "fact_sheet", "verified": true},
+    {"value": 110, "unit": "segundos", "context": "mediana del momento del salto (rise time); rango 92-128 s -> casi simultáneo", "source": "fact_sheet", "verified": true},
+    {"value": 9.0, "unit": "Mw", "context": "magnitud del terremoto Tohoku-Oki 2011 (epicentro 39,36N 143,57E, 20,5 km)", "source": "paper", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "report/recorded/generated", "tier": "T1", "cam_attenuator": "afirmación directa (el escalón y la onda ScS son observaciones)"},
+    {"abstract_verb": "attributed to", "tier": "T2", "cam_attenuator": "los autores lo atribuyen a — interpretación, no hecho"},
+    {"abstract_verb": "likely", "tier": "T3", "cam_attenuator": "todo apunta a que / probablemente — el mecanismo de disparo es hipótesis hedge"},
+    {"abstract_verb": "potentially / can", "tier": "T3", "cam_attenuator": "podría — el peligro sísmico es especulativo"}
+  ],
+  "narrative_hooks": [
+    "Una onda sísmica bajó hasta el núcleo de la Tierra, rebotó y al volver movió Japón entero unos milímetros — y el suelo se quedó así",
+    "No fue un punto cerca del epicentro: 104 estaciones en >2.000 km se corrieron casi al mismo tiempo (110 s, rango de 36 s)",
+    "La firma de la ScS es la simultaneidad: la sacudida normal viaja desde el epicentro; esta llegó a todo el país a la vez"
+  ],
+  "limitations": [
+    "Las series son sintéticas (salida de modelo), no observaciones GNSS crudas; reproducen el escalón pero subestiman su tamaño (~4,8 vs 5-6 mm observado)",
+    "El momento del salto solo se mide bien en 306 de 1.221 estaciones (las que tienen |escalón| > 0,2 mm)",
+    "Que la ScS CAUSE el deslizamiento es una inferencia de un estudio observacional ('likely'), no un experimento",
+    "La implicación de peligro sísmico es especulativa ('potentially')"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes) + 11 números clave -> script estándar"
+  },
+  "notebook_slug": "2026-06-18-scs-tohoku-megathrust-slip",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-18-scs-tohoku-megathrust-slip/notebook.html",
+  "generated_at": "2026-06-30"
+}
