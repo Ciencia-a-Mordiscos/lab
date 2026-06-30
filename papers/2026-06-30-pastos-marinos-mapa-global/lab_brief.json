@@ -1,0 +1,178 @@
+{
+  "version": "1.0",
+  "paper_id": 2679,
+  "doi": "10.1038/s41586-026-10704-3",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El mundo tiene 148.506 km² de pastos marinos mapeados a 10 m",
+      "supported": "yes",
+      "detail": "Suma por país (148.508) y por celda (148.507) reproducen el titular del paper con <0,01% de diferencia",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El 69% del área se concentra en 5 países (Bahamas, Cuba, Australia, EE.UU., Indonesia)",
+      "supported": "yes",
+      "detail": "Bahamas 36,1% + Cuba 13,8% + Australia 10,0% + EE.UU. 5,8% + Indonesia 3,2% = 69,0%",
+      "certainty_tier": "T1",
+      "abstract_verb": "is concentrated",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Una sola franja latitudinal (20-30°N) concentra el 59,3% del pasto marino mundial",
+      "supported": "yes",
+      "detail": "88.100 km² de 148.507; Caribe y Golfo de México. 82,6% del total está en el hemisferio norte",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "31 de 1.987 celdas de 1° (1,6%) concentran la mitad del área mundial",
+      "supported": "yes",
+      "detail": "Distribución muy sesgada (asimetría 10,7); mediana por celda 9,2 km², máxima 6.989 km²",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Bahamas concentra ~42% del carbono orgánico mapeado",
+      "supported": "yes",
+      "detail": "266,7 de 639 Tg C; la densidad de carbono por km² varía entre países (0,0032-0,0050 Tg C/km²)",
+      "certainty_tier": "T1",
+      "abstract_verb": "identified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Solo el 21% del pasto marino está dentro de áreas marinas protegidas",
+      "supported": "partial",
+      "detail": "Cifra del abstract; no presente en los datos abiertos, no recalculada en el notebook",
+      "certainty_tier": "T1",
+      "abstract_verb": "located within",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Se perdió un 4% (5.969 km²) y se degradó un 4,2% (6.221 km²) entre 2019 y 2024",
+      "supported": "partial",
+      "detail": "Cifras del abstract. La columna 'gross_area_loss' del dataset por país suma 44.171 km² (pérdida bruta por píxel) y NO equivale a esa pérdida neta del 4%",
+      "certainty_tier": "T1",
+      "abstract_verb": "was lost / was degraded",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 148506,
+      "unit": "km²",
+      "context": "área global de pastos marinos mapeada (5.961 intermareal + 142.545 submareal)",
+      "source": "paper_abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "148.506",
+        "our_calculation": "148.507-148.508",
+        "discrepancy_pct": 0.001,
+        "reason": "suma directa de CSVs por país y por celda"
+      }
+    },
+    {
+      "value": 119,
+      "unit": "países",
+      "context": "número de países con pastos marinos en el dataset",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 69.0,
+      "unit": "por ciento",
+      "context": "concentración del área en los 5 primeros países",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": 36.1,
+      "unit": "por ciento",
+      "context": "área de Bahamas sobre el total global",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 59.3,
+      "unit": "por ciento",
+      "context": "área en la franja latitudinal 20-30°N (88.100 km²)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 82.6,
+      "unit": "por ciento",
+      "context": "área en el hemisferio norte",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 31,
+      "unit": "celdas",
+      "context": "celdas de 1° (de 1.987, el 1,6%) que concentran la mitad del área",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 639,
+      "unit": "Tg C",
+      "context": "carbono orgánico total mapeado; Bahamas concentra el 41,7%",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 108.7,
+      "unit": "km²",
+      "context": "mediana de área por país (IQR 25,8-572,8) — distribución muy sesgada",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present / identified",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — paper de mapeo presenta el dataset"
+    },
+    {
+      "abstract_verb": "is concentrated",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa descriptiva: 'el 69% se concentra en...'"
+    },
+    {
+      "abstract_verb": "was lost / was degraded",
+      "tier": "T1",
+      "cam_attenuator": "medición directa de cambio, SIN atribución causal del porqué (observacional)"
+    },
+    {
+      "abstract_verb": "to inform policy",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de los autores — NO escalar a 'esto salvará los pastos'"
+    }
+  ],
+  "narrative_hooks": [
+    "Casi todos los pastos marinos del mundo caben en 5 países: el 69% del total, y Bahamas sola guarda más de un tercio",
+    "31 de 1.987 celdas del planeta (1,6%) concentran la mitad del pasto marino mundial",
+    "Una sola franja del Caribe y el Golfo de México (20-30°N) tiene el 59% de todos los pastos marinos del mundo"
+  ],
+  "limitations": [
+    "El mapa cubre solo aguas claras y poco profundas, donde el satélite ve el fondo; praderas en aguas turbias o profundas quedan fuera",
+    "Es un censo observacional: mide cuánto y dónde hay pasto, no por qué se perdió (sin atribución causal)",
+    "La pérdida neta del abstract (5.969 km²) no es reconstruible desde la tabla por país abierta: esa columna reporta pérdida bruta (44.171 km²), una métrica distinta",
+    "Las cifras de protección (21% en AMP) y de pérdida/degradación (4% / 4,2%) provienen del abstract, no de los datos abiertos"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados 'yes' + 9 números clave → script denso"
+  },
+  "notebook_slug": "2026-06-30-pastos-marinos-mapa-global",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-30-pastos-marinos-mapa-global/notebook.html",
+  "generated_at": "2026-06-30T16:10:28+00:00"
+}

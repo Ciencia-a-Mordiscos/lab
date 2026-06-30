@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Casi todos los pastos marinos del mundo caben en 5 países
+
+**Ecología** · *Nature* (2026) · Los pastos marinos protegen las costas y atrapan carbono, pero son de los ecosistemas menos mapeados. Un equipo construyó el **primer mapa global a 10 m** con 4,75 millones de imágenes de Sentinel-2 y un clasificador de aprendizaje profundo. **El hallazgo:** hay **148.506 km²** de pastos marinos en el mundo, y están extremadamente concentrados: el **69% en 5 países** (Bahamas sola, el 36%), y **31 de 1.987 celdas de 1° (1,6%)** reúnen la mitad del área mundial. Una sola franja del Caribe y el Golfo de México (20-30°N) tiene el **59,3%**. ⚠️ Solo el **21%** está en áreas marinas protegidas (cifra del paper). ⚠️ Es un censo **observacional**: mide cuánto y dónde hay pasto, no por qué se perdió. ⚠️ La pérdida neta del abstract (4%, 5.969 km²) **no** equivale a la columna de pérdida bruta del dataset (44.171 km²).
+
+[Ver notebook](papers/2026-06-30-pastos-marinos-mapa-global/notebook) · [Leer más](papers/2026-06-30-pastos-marinos-mapa-global/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-30-pastos-marinos-mapa-global/notebook.ipynb)
+
 ### Una onda sísmica fue al núcleo de la Tierra, volvió y movió Japón entero
 
 **Geología** · *Science* (2026) · El terremoto de Tohoku-Oki de 2011 (Mw 9,0) lanzó una onda de corte tan fuerte que bajó hasta el núcleo de la Tierra, rebotó y volvió a la superficie. Al reaparecer en Japón —ya como onda **ScS**—, los GPS registraron un **escalón hacia el este de hasta 5 a 6 mm** en todo el país. **El hallazgo:** el salto apareció en **104 estaciones (8,5%)** de Hokkaido a Okinawa y ocurrió **casi al mismo tiempo** (mediana 110 s, rango 92-128 s) en más de 2.000 km, decayendo con la distancia a la ruptura (Spearman ρ = −0,73). ⚠️ Las series que exploramos son **sintéticas** (salida de modelo): reproducen el escalón pero se quedan en 4,79 mm, algo por debajo del observado. ⚠️ Que la ScS *disparara* el deslizamiento es la **interpretación** del paper (*likely*), no una medición — estudio observacional. ⚠️ El peligro sísmico se plantea como posibilidad (*potentially*).

@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-06-30-pastos-marinos-mapa-global/README
+    title: "Casi todos los pastos marinos del mundo caben en 5 países"
+    sections:
+    - file: papers/2026-06-30-pastos-marinos-mapa-global/notebook
+      title: Notebook
   - file: papers/2026-06-12-co2-seeps-hidratos-mayotte/README
     title: "CO₂ brotando del fondo del mar: el campo de seeps de Mayotte"
     sections:

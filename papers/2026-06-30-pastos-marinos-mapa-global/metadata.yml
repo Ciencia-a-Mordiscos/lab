@@ -1,0 +1,22 @@
+titulo: "Casi todos los pastos marinos del mundo caben en 5 países"
+fecha: 2026-06-30
+categoria: ecologia
+tags: [pastos-marinos, teledeteccion, conservacion, carbono-azul, biodiversidad-marina, sentinel-2]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10704-3"
+    titulo: "Global high-resolution mapping of seagrass to support conservation"
+    journal: Nature
+    autores: "Peng et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "seagrass_por_pais.csv"
+    descripcion: "Área, pérdida bruta y carbono orgánico de pastos marinos por país (119 países, 2019)"
+    fuente: "Nature Source Data (MOESM5)"
+  - nombre: "seagrass_grid_2019.csv"
+    descripcion: "Área de pastos marinos por celda de 1° (1.987 celdas, 2019)"
+    fuente: "Nature Source Data (MOESM4)"
+estado: publicado
