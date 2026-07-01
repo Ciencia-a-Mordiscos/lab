@@ -1,0 +1,4 @@
+metodo,auc,ci_low,ci_high,tipo
+Modelo ECG (deep learning),0.872,0.843,0.899,este_paper
+Puntaje AHA/ACC (10 años),0.697,,,comparador_clinico
+Modelo ECG-SEER (cardiopatía),0.655,,,comparador_dl_previo

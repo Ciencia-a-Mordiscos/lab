@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Un biomarcador en el ECG para la muerte súbita, hallado con deep learning
+
+**Medicina** · *Nature* (2026) · La muerte súbita cardíaca es, en teoría, evitable con un desfibrilador; el cuello de botella es saber a quién ponérselo. El examen estándar de hoy (la FEVI) se le escapa a la mayoría. Un equipo entrenó un modelo de aprendizaje profundo sobre **441.614 electrocardiogramas** de una región de Suecia ligados a certificados de defunción. **El hallazgo:** el modelo ordena el riesgo de muerte súbita con un **AUC de 0,87** frente al **0,70** del estándar clínico, y aísla un grupo de alto riesgo (2,2% de la muestra, **7,0% anual** de muerte súbita) del que el **86,1% es invisible para la FEVI**. Generaliza sin reentrenar a EE.UU. (AUC 0,82) y Taiwán (0,77), y en un control de muertes **no** arrítmicas cae a 0,58 (casi azar), prueba de que detecta arritmia y no muerte genérica. ⚠️ El AUC **ordena** el riesgo, no diagnostica. ⚠️ El beneficio del desfibrilador (54,4% menos mortalidad) es **observacional**: sugiere, no prueba. ⚠️ El mecanismo del biomarcador es una **hipótesis preliminar**.
+
+[Ver notebook](papers/2026-07-01-biomarcador-ecg-muerte-subita/notebook) · [Leer más](papers/2026-07-01-biomarcador-ecg-muerte-subita/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-01-biomarcador-ecg-muerte-subita/notebook.ipynb)
+
 ### Casi todos los pastos marinos del mundo caben en 5 países
 
 **Ecología** · *Nature* (2026) · Los pastos marinos protegen las costas y atrapan carbono, pero son de los ecosistemas menos mapeados. Un equipo construyó el **primer mapa global a 10 m** con 4,75 millones de imágenes de Sentinel-2 y un clasificador de aprendizaje profundo. **El hallazgo:** hay **148.506 km²** de pastos marinos en el mundo, y están extremadamente concentrados: el **69% en 5 países** (Bahamas sola, el 36%), y **31 de 1.987 celdas de 1° (1,6%)** reúnen la mitad del área mundial. Una sola franja del Caribe y el Golfo de México (20-30°N) tiene el **59,3%**. ⚠️ Solo el **21%** está en áreas marinas protegidas (cifra del paper). ⚠️ Es un censo **observacional**: mide cuánto y dónde hay pasto, no por qué se perdió. ⚠️ La pérdida neta del abstract (4%, 5.969 km²) **no** equivale a la columna de pérdida bruta del dataset (44.171 km²).

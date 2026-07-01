@@ -1,0 +1,198 @@
+{
+  "version": "1.0",
+  "paper_id": 2683,
+  "doi": "10.1038/s41586-026-10674-6",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El modelo ordena el riesgo de muerte súbita mejor que el estándar clínico",
+      "supported": "yes",
+      "detail": "AUC 0,87 (IC 95%: 0,84–0,90) vs 0,70 (AHA/ACC) en el lockbox sueco que el modelo nunca vio",
+      "certainty_tier": "T1",
+      "abstract_verb": "apply"
+    },
+    {
+      "claim": "El modelo generaliza zero-shot a otras poblaciones",
+      "supported": "yes",
+      "detail": "AUC 0,82 en EE.UU. (251.858 ECG) y 0,77 en Taiwán (4.268 pacientes), sin reentrenar",
+      "certainty_tier": "T1",
+      "abstract_verb": "validate"
+    },
+    {
+      "claim": "El modelo es específico de arritmia, no de muerte genérica",
+      "supported": "yes",
+      "detail": "En un control de muertes NO arrítmicas el AUC cae a 0,58 — casi azar",
+      "certainty_tier": "T1",
+      "abstract_verb": "predict"
+    },
+    {
+      "claim": "El modelo marca un grupo de riesgo que el estándar actual no ve",
+      "supported": "yes",
+      "detail": "Grupo de alto riesgo: 2,2% de la muestra, 7,0% anual de MSC; 86,1% no lo detecta la FEVI",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal"
+    },
+    {
+      "claim": "Implantar un desfibrilador reduce la mortalidad en el grupo de alto riesgo",
+      "supported": "partial",
+      "detail": "54,4% menor de lo esperado, pero es observacional (no aleatorizado): sugiere, no prueba",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest"
+    },
+    {
+      "claim": "El biomarcador revela un mecanismo nuevo de la muerte súbita",
+      "supported": "partial",
+      "detail": "Hipótesis formada y probada de forma preliminar — pregunta abierta, no conclusión",
+      "certainty_tier": "T3",
+      "abstract_verb": "hypothesis"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.872,
+      "unit": "AUC",
+      "context": "discriminación de muerte súbita, Suecia lockbox 40% (IC 95%: 0,843–0,899)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.697,
+      "unit": "AUC",
+      "context": "puntaje clínico AHA/ACC (estándar comparador)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.655,
+      "unit": "AUC",
+      "context": "modelo de deep learning anterior (SEER)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.822,
+      "unit": "AUC",
+      "context": "generalización zero-shot en EE.UU. (Sharp HealthCare, 251.858 ECG)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.767,
+      "unit": "AUC",
+      "context": "generalización zero-shot en Taiwán (Nightingale, 4.268 pacientes)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.717,
+      "unit": "AUC",
+      "context": "arritmia mortal (VF/VT) en Suecia",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.582,
+      "unit": "AUC",
+      "context": "control de muertes NO arrítmicas — cerca del azar, prueba de especificidad",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.2,
+      "unit": "% de la muestra",
+      "context": "tamaño del grupo de alto riesgo señalado por el modelo ECG",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 7.0,
+      "unit": "% anual",
+      "context": "tasa anual de muerte súbita en el grupo de alto riesgo del ECG",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 1.9,
+      "unit": "% de la muestra",
+      "context": "tamaño del grupo con FEVI reducida (estándar actual)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 4.6,
+      "unit": "% anual",
+      "context": "tasa anual de muerte súbita en el grupo con FEVI reducida",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 86.1,
+      "unit": "%",
+      "context": "del grupo de alto riesgo del ECG NO lo detecta la FEVI",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 54.4,
+      "unit": "% menor mortalidad de lo esperado",
+      "context": "pacientes de alto riesgo con desfibrilador — asociación observacional, sugiere beneficio, NO causal",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "apply",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa ('aplicaron deep learning')"
+    },
+    {
+      "abstract_verb": "validate",
+      "tier": "T1",
+      "cam_attenuator": "'validaron externamente' — 3 cohortes"
+    },
+    {
+      "abstract_verb": "predict",
+      "tier": "T1",
+      "cam_attenuator": "'predice' (capacidad del modelo, predictivo no causal)"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'revela un biomarcador visible'"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'sugiere un beneficio de mortalidad' — NO afirmar; observacional"
+    },
+    {
+      "abstract_verb": "hypothesis (preliminarily test)",
+      "tier": "T3",
+      "cam_attenuator": "'la pregunta es si / si se confirma' — mecanismo abierto"
+    }
+  ],
+  "narrative_hooks": [
+    "El corazón ya avisa en el electrocardiograma; el examen estándar de hoy no sabe leer la señal.",
+    "86,1% de los pacientes de alto riesgo que marca el modelo son invisibles para la FEVI, el estándar actual.",
+    "El modelo ordena el riesgo de muerte súbita con AUC 0,87 — el estándar clínico se queda en 0,70.",
+    "Un control clave: en muertes NO arrítmicas el modelo cae a 0,58 (casi azar), prueba de que detecta arritmia y no muerte genérica."
+  ],
+  "limitations": [
+    "Valores agregados del texto Open Access (AUC, tasas, %); sin datos por-sujeto, no hay tamaños de efecto individuales (Cohen's d).",
+    "Diseño observacional: asocia patrones con desenlaces, no manipula — no establece causa.",
+    "El beneficio del desfibrilador (54,4%) es observacional, no aleatorizado; los autores advierten sobre factores no medidos.",
+    "El mecanismo del biomarcador es una hipótesis preliminar, no una conclusión.",
+    "El AUC mide discriminación (ordenar el riesgo), nunca un diagnóstico individual."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados, 13 números clave"
+  },
+  "notebook_slug": "2026-07-01-biomarcador-ecg-muerte-subita",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-01-biomarcador-ecg-muerte-subita/notebook.html",
+  "generated_at": "2026-07-01T15:50:29.741408+00:00"
+}
