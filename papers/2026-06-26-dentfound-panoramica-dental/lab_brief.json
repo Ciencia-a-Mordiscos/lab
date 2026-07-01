@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "paper_id": 2690,
+  "doi": "10.1038/s41551-026-01713-8",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "DentFound queda #1 en F1/Recall/Accuracy en las 4 cohortes",
+      "supported": "yes",
+      "detail": "Se cumple 4/4. Margen sobre el 2do (DentVLM): +1,8 a +3,1 pp en 3 cohortes; +23,3 pp solo en YSH.",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperform",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los reportes de DentFound son más completos que los del radiólogo humano",
+      "supported": "yes",
+      "detail": "Recall 0,811 vs 0,518 (+56,6%, Cohen's d ≈ 0,94); F1 +45,5% (d ≈ 0,89). Efecto grande.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.94,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "DentFound es mejor que el humano en general",
+      "supported": "partial",
+      "detail": "Solo en completitud objetiva. En ratings subjetivos de expertos el humano queda arriba en 10/12 pares (brecha ~0,3/5). El abstract dice 'superior OR comparable' — literal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La 'guía por instancias' (máscara) es la pieza clave del método",
+      "supported": "yes",
+      "detail": "Quitarla baja CIDEr 46% (0,81 → 0,44). Con máscara: +86,1% CIDEr, +34,1% BLEU-4, +23,2% ROUGE-L.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "DentFound diagnostica a nivel clínico certificado",
+      "supported": "no",
+      "detail": "Es apoyo diagnóstico, no diagnóstico certificado. El título dice 'towards' (hacia). No está aprobado para uso clínico real.",
+      "certainty_tier": "T3",
+      "abstract_verb": "towards",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.811,
+      "unit": "recall (0-1)",
+      "context": "completitud de reportes de DentFound (vs 0,518 del humano, +56,6%)",
+      "source": "source_data_fig4d",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "broader coverage",
+        "our_calculation": "Recall +56,6%",
+        "discrepancy_pct": 0,
+        "reason": "media directa del Source Data"
+      }
+    },
+    {
+      "value": 45.5,
+      "unit": "por ciento",
+      "context": "ventaja relativa de F1 de DentFound sobre el humano (0,827 vs 0,568)",
+      "source": "source_data_fig4d",
+      "verified": true
+    },
+    {
+      "value": 19.6,
+      "unit": "por ciento",
+      "context": "ventaja relativa de precisión de DentFound sobre el humano (0,884 vs 0,740)",
+      "source": "source_data_fig4d",
+      "verified": true
+    },
+    {
+      "value": 94.2,
+      "unit": "F1 por ciento",
+      "context": "mejor F1 de DentFound (cohorte ASH); las 4 cohortes: 84,78 / 94,20 / 81,42 / 86,25, todas #1",
+      "source": "source_data_fig2",
+      "verified": true
+    },
+    {
+      "value": 23.32,
+      "unit": "puntos porcentuales",
+      "context": "margen de DentFound sobre DentVLM en YSH; en las otras 3 cohortes el margen es +1,8 a +3,1 pp",
+      "source": "source_data_fig2",
+      "verified": true
+    },
+    {
+      "value": 86.1,
+      "unit": "por ciento",
+      "context": "subida de CIDEr al añadir la máscara instance-guidance (0,437 → 0,813)",
+      "source": "source_data_fig6a",
+      "verified": true
+    },
+    {
+      "value": 2,
+      "unit": "de 12 pares",
+      "context": "casos donde DentFound iguala o supera al humano en ratings subjetivos de expertos (4 grupos x 3 dimensiones)",
+      "source": "source_data_fig4b",
+      "verified": true
+    },
+    {
+      "value": 101000,
+      "unit": "pacientes",
+      "context": "tamaño del dataset de entrenamiento/evaluación (2-98 años, 98 enfermedades, 11 categorías post-tratamiento)",
+      "source": "abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "outperform",
+      "tier": "T1",
+      "cam_attenuator": "superó por X — afirmación directa con el número"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "la evaluación de expertos mostró"
+    },
+    {
+      "abstract_verb": "potential",
+      "tier": "T2",
+      "cam_attenuator": "el potencial / podría apoyar — no uso clínico validado"
+    },
+    {
+      "abstract_verb": "towards (title)",
+      "tier": "T3",
+      "cam_attenuator": "hacia / objetivo declarado — no certificación clínica"
+    }
+  ],
+  "narrative_hooks": [
+    "Una IA que leyó 101.000 radiografías dentales escribe reportes más completos que un radiólogo humano — porque el humano se enfoca en la queja principal y se deja hallazgos por fuera.",
+    "Gana en completitud (Recall +56,6%), pero los expertos todavía valoran un poco más al humano en criterio clínico (10/12 pares). 'Más completo' no es 'mejor'.",
+    "La pieza que da nombre al paper —la máscara que le dice al modelo dónde mirar— casi duplica el CIDEr (+86%)."
+  ],
+  "limitations": [
+    "Cohen's d se estimó de media y desviación de los reportes, sin el n exacto por reporte — referencia del tamaño del efecto, no test formal.",
+    "Las imágenes clínicas multi-hospital no son públicas (privacidad); los CSV vienen del Source Data de figuras (revisado por pares), no del corpus de imágenes.",
+    "CIDEr/BLEU-4/ROUGE-L miden solape de texto con un reporte de referencia; premian coincidir con ese estilo, no el acierto clínico.",
+    "DentFound no está aprobado para uso clínico; el título dice 'towards clinical-level' (objetivo declarado). En categorías post-tratamiento (no incluidas) DentVLM supera a DentFound en algunas."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados 'yes' + 8 números clave"
+  },
+  "notebook_slug": "2026-06-26-dentfound-panoramica-dental",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-26-dentfound-panoramica-dental/notebook.html",
+  "generated_at": "2026-07-01T16:16:36Z"
+}

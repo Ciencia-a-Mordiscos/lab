@@ -1,0 +1,7 @@
+who,metric,mean,sd,q25,median,q75
+DentFound,Precision,0.88445,0.20753,0.8,1,1
+Human,Precision,0.73956,0.38107,0.5,1,1
+DentFound,Recall,0.81072,0.25172,0.6667,1,1
+Human,Recall,0.51783,0.35943,0.1818,0.5,0.8333
+DentFound,F1-score,0.82654,0.2221,0.6667,0.9231,1
+Human,F1-score,0.56814,0.34619,0.2857,0.6667,0.8571

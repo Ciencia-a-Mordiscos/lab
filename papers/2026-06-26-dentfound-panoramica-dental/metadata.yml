@@ -1,0 +1,28 @@
+titulo: "¿Una IA lee tu radiografía dental mejor que el dentista?"
+fecha: 2026-07-01
+categoria: tecnologia
+tags: [inteligencia-artificial, medicina, odontologia, vision-lenguaje, benchmark]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01713-8"
+    titulo: "Towards clinical-level interpretation of dental panoramic radiography using an instance-guided vision-language model"
+    journal: Nature Biomedical Engineering
+    autores: "Zhu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "benchmark_cohorts.csv"
+    descripcion: "F1/Recall/Accuracy de 4 modelos en 4 cohortes"
+    fuente: "Source Data (Fig 2)"
+  - nombre: "ai_vs_human_report.csv"
+    descripcion: "Completitud DentFound vs radiólogo humano"
+    fuente: "Source Data (Fig 4d)"
+  - nombre: "expert_ratings.csv"
+    descripcion: "Ratings de expertos AI vs Human (3 dimensiones)"
+    fuente: "Source Data (Fig 4b)"
+  - nombre: "ablation_mask.csv"
+    descripcion: "Ablación de la máscara instance-guidance"
+    fuente: "Source Data (Fig 6a)"
+estado: publicado

@@ -801,6 +801,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-06-26-dentfound-panoramica-dental/README
+    title: "¿Una IA lee tu radiografía dental mejor que el dentista?"
+    sections:
+    - file: papers/2026-06-26-dentfound-panoramica-dental/notebook
+      title: Notebook
   - file: papers/2026-06-24-formacion-rapida-catodos-litio/README
     title: "Cargar rápido una batería nueva la hace durar más"
     sections:

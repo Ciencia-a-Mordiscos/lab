@@ -1,0 +1,9 @@
+rater_group,source,lesion_localization,diagnosis_accuracy,clinical_value
+Junior dentists,AI,4.51,4.06,4.07
+Junior dentists,Human,4.62,4.11,4.03
+Junior radiologists,AI,4.32,3.52,3.45
+Junior radiologists,Human,4.42,4.04,3.98
+Senior dentists,AI,3.53,3.43,3.36
+Senior dentists,Human,3.64,3.57,3.49
+Senior radiologists,AI,4.76,3.54,2.54
+Senior radiologists,Human,4.69,4.05,3.32

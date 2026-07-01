@@ -1,0 +1,17 @@
+cohort,sample_number,model,f1_pct,recall_pct,accuracy_pct
+Internal cohort,56351,BiomedGPT,60.54,43.59,43.42
+Internal cohort,56351,DentVLM,82.98,71.18,70.92
+Internal cohort,56351,Flamingo-CXF,68.1,51.84,51.63
+Internal cohort,56351,DentFound,84.78,73.87,73.58
+ASH,3838,BiomedGPT,69.95,53.93,53.79
+ASH,3838,DentVLM,91.12,83.89,83.69
+ASH,3838,Flamingo-CXF,77.82,63.85,63.69
+ASH,3838,DentFound,94.2,89.24,89.03
+SRH,5563,BiomedGPT,47.05,30.82,30.77
+SRH,5563,DentVLM,79.2,65.66,65.56
+SRH,5563,Flamingo-CXF,59.07,41.99,41.91
+SRH,5563,DentFound,81.42,68.78,68.67
+YSH,4058,BiomedGPT,62.17,45.34,45.11
+YSH,4058,DentVLM,62.93,46.33,45.91
+YSH,4058,Flamingo-CXF,60.86,43.97,43.74
+YSH,4058,DentFound,86.25,76.2,75.83
