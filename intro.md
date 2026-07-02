@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### La atmósfera de un planeta que orbita una enana blanca
+
+**Astronomía** · *Nature* (2026) · Cuando una estrella como el Sol muere, deja una enana blanca del tamaño de la Tierra. WD 1856 b es un planeta gigante que sobrevivió a esa muerte y hoy la orbita tan de cerca que, al pasar por delante, **tapa 51–56% de su luz** — el tránsito más profundo conocido, porque el planeta es más grande que la estrella. El James Webb aprovechó ese eclipse descomunal para leer su atmósfera. **El hallazgo:** el espectro revela aerosoles e hidrocarburos, acota la masa a **4,3–10,9 masas de Júpiter** y mide una temperatura efectiva de **~390–412 K**, unos **242 K por encima** de los 160 K de equilibrio esperados. ⚠️ El metano es el candidato preferido con evidencia moderada (odds 17:1–30:1), no una detección confirmada. ⚠️ Masa y temperatura salen de ajustar modelos al espectro (por eso dos pipelines independientes). ⚠️ Todo apunta a un recalentamiento hace 3,0–5,5 Gyr, pero es una inferencia de modelos de enfriamiento, no una medición.
+
+[Ver notebook](papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook) · [Leer más](papers/2026-07-01-atmosfera-enana-blanca-wd1856/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook.ipynb)
+
 ### Una huella de hace 4.500 millones de años en una lava de hoy
 
 **Geología** · *Nature* (2026) · El manto terrestre guarda parches químicos de distintas edades, pero fechar su origen es dificilísimo. Un equipo midió con altísima precisión el neodimio en lavas de dos volcanes vecinos de las Comoras. **El hallazgo:** las lavas del volcán submarino Fani Maore traen una anomalía de ¹⁴²Nd de **+3,2 ppm** (n=13), distinta del estándar (Welch p < 0,00001) y de su vecino Mayotte (p = 0,028; Cohen's d = 1,15). Como el ¹⁴²Nd solo se fabrica con el ¹⁴⁶Sm — un reloj radiactivo extinto hace ~4.500 millones de años — esa firma **tuvo** que crearse en los primeros 100 millones de años de la Tierra. El mecanismo: la bridgmanita cristalizada de un océano de magma agarra Sm **2,1×** más que Nd, duplicando la razón Sm/Nd (0,96 → 2,07). ⚠️ Que el material sea bridgmanita de un océano de magma es la hipótesis de los autores ('suggest'), no una prueba directa. ⚠️ Las anomalías son de pocas ppm, cerca del límite de detección.

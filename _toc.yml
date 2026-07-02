@@ -685,6 +685,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-07-01-atmosfera-enana-blanca-wd1856/README
+    title: "La atmósfera de un planeta que orbita una enana blanca"
+    sections:
+    - file: papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook
+      title: Notebook
   - file: papers/2026-06-24-anisotropia-cosmica-gigaparsec/README
     title: "La anisotropía cósmica a escala de un gigaparsec"
     sections:

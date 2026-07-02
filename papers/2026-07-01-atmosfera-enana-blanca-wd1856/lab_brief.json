@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "paper_id": 2713,
+  "doi": "10.1038/s41586-026-10514-7",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El tránsito de WD 1856 b tapa 51–56% de la luz de la estrella (el más profundo conocido)",
+      "supported": "yes",
+      "detail": "Directo del espectro (espectro_transmision.csv); consistente en ambos pipelines. El planeta es mayor que la enana blanca del tamaño de la Tierra.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "Masa del planeta entre 4,3 y 10,9 masas de Júpiter",
+      "supported": "yes",
+      "detail": "Unión de los intervalos de 68% de ambos posteriores (posterior_mp.csv); medianas 7,8 (FIREFLy) y 6,7 (Juniper). Coincide con el paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "constrain"
+    },
+    {
+      "claim": "Temperatura efectiva medida ~390–412 K, muy por encima de los 160 K de equilibrio",
+      "supported": "yes",
+      "detail": "Posteriores de Teff (posterior_teff.csv), mediana combinada ~402 K; los 160 K son la expectativa teórica citada en el paper. Exceso de ~242 K.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find"
+    },
+    {
+      "claim": "La atmósfera contiene aerosoles e hidrocarburos",
+      "supported": "yes",
+      "detail": "Detección directa en el paper con odds altísimos (aerosoles 2·10⁵:1 a 2·10⁶:1; hidrocarburos 167:1 a 5.377:1). No recomputado en el notebook.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal"
+    },
+    {
+      "claim": "El hidrocarburo dominante sería metano (CH₄, ~7%)",
+      "supported": "partial",
+      "detail": "El metano es el candidato preferido pero con evidencia moderada (odds 17:1 a 30:1). No confirmado.",
+      "certainty_tier": "T2",
+      "abstract_verb": "preferred"
+    },
+    {
+      "claim": "El planeta sufrió un recalentamiento hace 3,0–5,5 Gyr en la fase de enana blanca",
+      "supported": "partial",
+      "detail": "Inferencia del paper a partir de modelos de enfriamiento; los datos son consistentes con ello, no lo prueban.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "51-56",
+      "unit": "por ciento",
+      "context": "profundidad del tránsito (tapa más de la mitad de su estrella; el más profundo conocido)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.8,
+      "unit": "masas de Júpiter",
+      "context": "masa mediana del planeta (pipeline FIREFLy)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "4.3-10.9 MJ (rango)",
+        "our_calculation": "mediana 7.8, 68% CI 5.2-10.9",
+        "discrepancy_pct": 0,
+        "reason": "mediana de un pipeline vs rango unión del paper"
+      }
+    },
+    {
+      "value": 6.7,
+      "unit": "masas de Júpiter",
+      "context": "masa mediana del planeta (pipeline Juniper)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "390-412",
+      "unit": "kelvin",
+      "context": "temperatura efectiva medida (unión 68% CI de ambos pipelines)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 160,
+      "unit": "kelvin",
+      "context": "temperatura de equilibrio esperada (del paper)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 242,
+      "unit": "kelvin",
+      "context": "exceso de temperatura sobre lo esperado (medido ~402 K menos 160 K)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "por ciento",
+      "context": "abundancia de metano — candidato preferido, odds moderado 17:1 a 30:1",
+      "source": "fact_sheet",
+      "verified": false
+    },
+    {
+      "value": 0.02,
+      "unit": "unidades astronómicas",
+      "context": "radio de la órbita circular actual del planeta",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'revela' — detección directa (odds ratios altos)"
+    },
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "'reportamos'/'detectamos'"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "'encuentra' — afirmación directa"
+    },
+    {
+      "abstract_verb": "constrain",
+      "tier": "T1",
+      "cam_attenuator": "'acota a [rango]' — siempre con incertidumbre"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'todo apunta a' — NO afirmar el recalentamiento como hecho"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' — NO usar 'confirma'"
+    },
+    {
+      "abstract_verb": "CH4 preferred (17:1-30:1)",
+      "tier": "T2",
+      "cam_attenuator": "'el candidato preferido es metano' — NO 'es metano'; odds moderado"
+    }
+  ],
+  "narrative_hooks": [
+    "Un planeta que le tapa más de la mitad de la luz a su estrella — porque la enana blanca que orbita es más pequeña que él.",
+    "El James Webb leyó la atmósfera de un mundo que sobrevivió a la muerte de su estrella.",
+    "La temperatura medida ronda los 400 K: unos 242 K por encima de lo que debería. Todo apunta a que algo lo recalentó."
+  ],
+  "limitations": [
+    "La masa y la temperatura salen de ajustar modelos de atmósfera al espectro; dependen de esos supuestos (por eso hay dos pipelines independientes).",
+    "El metano es el candidato preferido con evidencia moderada (odds 17:1 a 30:1), no una detección confirmada.",
+    "El recalentamiento y su origen por evolución de marea son una interpretación basada en modelos de enfriamiento, no una medición directa."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes) + 2 parciales, 8 números clave"
+  },
+  "notebook_slug": "2026-07-01-atmosfera-enana-blanca-wd1856",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook.html",
+  "generated_at": "2026-07-02T01:57:06Z"
+}

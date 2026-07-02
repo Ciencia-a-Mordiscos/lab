@@ -1,0 +1,25 @@
+titulo: "La atmósfera de un planeta que orbita una enana blanca"
+fecha: 2026-07-01
+categoria: astronomia
+tags: [astronomia, exoplanetas, enana-blanca, jwst, atmosferas, espectroscopia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10514-7"
+    titulo: "Aerosols and hydrocarbons in the atmosphere of a white dwarf planet"
+    journal: Nature
+    autores: "Vanderburg et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "espectro_transmision.csv"
+    descripcion: "Espectro de transmisión JWST NIRSpec PRISM, 2 pipelines"
+    fuente: "Zenodo 10.5281/zenodo.18200586"
+  - nombre: "posterior_mp.csv"
+    descripcion: "Posterior de la masa del planeta"
+    fuente: "Zenodo 10.5281/zenodo.18200586"
+  - nombre: "posterior_teff.csv"
+    descripcion: "Posterior de la temperatura efectiva"
+    fuente: "Zenodo 10.5281/zenodo.18200586"
+estado: publicado
