@@ -1,0 +1,223 @@
+{
+  "version": "1.0",
+  "paper_id": 2698,
+  "doi": "10.1126/science.adp5208",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "NiMoCat es el único de los 50 catalizadores con conversión de CH4 igual o mayor al 99%",
+      "supported": "yes",
+      "detail": "1 de 50 en la Tabla S1; el máximo del resto del campo es 97%",
+      "certainty_tier": "T1",
+      "abstract_verb": "yielded",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "conteo directo"
+      }
+    },
+    {
+      "claim": "NiMoCat mantiene actividad durante 850 h de operación continua",
+      "supported": "yes",
+      "detail": "Tabla S1. De los cuatro catalizadores que llegan o pasan las 500 h, es el único que además mantiene 99% de conversión; los otros tres se quedan entre 40% y 91%",
+      "certainty_tier": "T1",
+      "abstract_verb": "maintains",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n/a"
+      }
+    },
+    {
+      "claim": "Al pasar de polvo a pellet de 5 mm la conversión de CH4 cae ~22 puntos",
+      "supported": "yes",
+      "detail": "Tabla S4: polvo 97,7% -> pellet 5 mm 75,4%. La caída se atenúa con pellets más pequeños (3 mm: 83,2%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "develop",
+      "effect_size": {
+        "measure": "delta_pct_points",
+        "value": 22.28,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La actividad por sitio (TOF) sube ~20 veces al pasar de 550 a 750 °C",
+      "supported": "yes",
+      "detail": "Tabla S2: TOF 0,57 -> 12,1 s-1 (ratio 21,2×)",
+      "certainty_tier": "T1",
+      "abstract_verb": "develop",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 21.2,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La energía de activación del consumo de CH4 es de ~79 kJ/mol",
+      "supported": "partial",
+      "detail": "Valor reportado por el paper (régimen diferencial). Un ajuste ingenuo sobre los 5 puntos de TOF da ~105 kJ/mol y NO lo reproduce; el notebook no lo recalcula",
+      "certainty_tier": "T1",
+      "abstract_verb": "develop",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "reportado, no reproducido"
+      }
+    },
+    {
+      "claim": "NiMoCat produce gas de síntesis 'cuantitativo' (selectividad cercana al 100%)",
+      "supported": "yes",
+      "detail": "El paper reporta selectividad cercana al 100% sin metanación ni subproductos oxidativos; no equivale a 'sin ninguna pérdida'",
+      "certainty_tier": "T1",
+      "abstract_verb": "yielded",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n/a"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 50,
+      "unit": "catalizadores",
+      "context": "tamaño del campo comparado en Tabla S1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 99,
+      "unit": "por ciento",
+      "context": "conversión de CH4 de NiMoCat (único >=99% de 50)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "por ciento",
+      "context": "conversión de CO2 de NiMoCat",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 850,
+      "unit": "horas",
+      "context": "tiempo en operación continua de NiMoCat",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 79,
+      "unit": "por ciento",
+      "context": "mediana de conversión de CH4 del resto del campo (n=49)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 97.7,
+      "unit": "por ciento",
+      "context": "conversión de CH4 en polvo (laboratorio)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 75.42,
+      "unit": "por ciento",
+      "context": "conversión de CH4 en pellet de 5 mm (forma de reactor)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 22.3,
+      "unit": "puntos porcentuales",
+      "context": "caída de conversión de CH4 polvo -> pellet 5 mm",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "97,7% -> 75,42%",
+        "our_calculation": "22,28 pts",
+        "discrepancy_pct": 0.0,
+        "reason": "resta directa de Tabla S4"
+      }
+    },
+    {
+      "value": 20,
+      "unit": "veces",
+      "context": "aumento de actividad por sitio (TOF) de 550 a 750 °C",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "TOF 0,57 -> 12,1 s-1",
+        "our_calculation": "21,2×",
+        "discrepancy_pct": 6.0,
+        "reason": "redondeo a ~20×"
+      }
+    },
+    {
+      "value": 78.65,
+      "unit": "kJ/mol",
+      "context": "energía de activación del CH4 reportada por el paper (no reproducida por el notebook)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "78,65 kJ/mol (régimen diferencial)",
+        "our_calculation": "~105 kJ/mol (ajuste ingenuo sobre 5 puntos TOF)",
+        "discrepancy_pct": 33.0,
+        "reason": "el paper usa régimen diferencial X<15% con densidad de sitios; el ajuste sobre TOF no aplica — el notebook NO afirma reproducirlo"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (desarrollaron)"
+    },
+    {
+      "abstract_verb": "yielded",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (produjo)"
+    },
+    {
+      "abstract_verb": "maintains",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (mantiene actividad)"
+    },
+    {
+      "abstract_verb": "enables",
+      "tier": "T1",
+      "cam_attenuator": "permite/habilita"
+    },
+    {
+      "abstract_verb": "showcases",
+      "tier": "T2",
+      "cam_attenuator": "los autores muestran (LCA = demostración de caso)"
+    },
+    {
+      "abstract_verb": "offers",
+      "tier": "T2",
+      "cam_attenuator": "ofrece una vía (no 'resuelve')"
+    }
+  ],
+  "narrative_hooks": [
+    "50 catalizadores compiten por la misma reacción y solo uno llega al 99% sin cansarse",
+    "El 99% se midió con el catalizador en polvo; prensarlo en pellets de reactor le cuesta ~22 puntos de conversión",
+    "El campeón de durabilidad y conversión cae al puesto 28 de 50 cuando la métrica es rendimiento por gramo"
+  ],
+  "limitations": [
+    "La comparación de la Tabla S1 junta estudios medidos en condiciones distintas (T, flujo, alimentación); es un mapa indicativo, no un ensayo cabeza a cabeza controlado (lo dice el propio pie de tabla)",
+    "'Escala industrial' = síntesis a escala de kilogramos + reactor de alta presión; no implica despliegue en plantas comerciales",
+    "El análisis de ciclo de vida (biogás -> dimetil éter) es una demostración de caso de los autores, no una prueba universal de sostenibilidad",
+    "La energía de activación (79 kJ/mol) es un valor reportado por el paper; el notebook no lo reproduce con los 5 puntos de TOF"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados 'yes' + 10 números clave -> script denso"
+  },
+  "notebook_slug": "2026-06-25-nimocat-reformado-residuos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-25-nimocat-reformado-residuos/notebook.html",
+  "generated_at": "2026-07-02T15:54:50+00:00"
+}

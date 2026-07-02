@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Un catalizador que convierte basura en combustible — y aguanta 850 horas
+
+**Química** · *Science* (2026) · Reformar metano con CO₂ convierte residuos y gas en la materia prima de los combustibles — pero los catalizadores se llenan de hollín y mueren rápido. De **50 catalizadores** publicados para esa reacción, uno destaca solo: **NiMoCat** es el único que cruza el **99% de conversión de CH₄** y encima aguanta **850 horas** sin apagarse (la mediana del campo es 79% y 40 horas). **El hallazgo:** también muestra la letra pequeña del escalado — ese 99% era en polvo de laboratorio; al prensarlo en pellets de reactor, la conversión **cae ~22 puntos** (97,7% → 75,4%). ⚠️ La tabla de 50 junta estudios medidos en condiciones distintas: es un mapa indicativo, no un pique controlado. ⚠️ "Escala industrial" = kilogramos + reactor de alta presión, no despliegue comercial. ⚠️ La energía de activación (79 kJ/mol) es un dato reportado por el paper, no reproducido aquí.
+
+[Ver notebook](papers/2026-06-25-nimocat-reformado-residuos/notebook) · [Leer más](papers/2026-06-25-nimocat-reformado-residuos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-25-nimocat-reformado-residuos/notebook.ipynb)
+
 ### La atmósfera de un planeta que orbita una enana blanca
 
 **Astronomía** · *Nature* (2026) · Cuando una estrella como el Sol muere, deja una enana blanca del tamaño de la Tierra. WD 1856 b es un planeta gigante que sobrevivió a esa muerte y hoy la orbita tan de cerca que, al pasar por delante, **tapa 51–56% de su luz** — el tránsito más profundo conocido, porque el planeta es más grande que la estrella. El James Webb aprovechó ese eclipse descomunal para leer su atmósfera. **El hallazgo:** el espectro revela aerosoles e hidrocarburos, acota la masa a **4,3–10,9 masas de Júpiter** y mide una temperatura efectiva de **~390–412 K**, unos **242 K por encima** de los 160 K de equilibrio esperados. ⚠️ El metano es el candidato preferido con evidencia moderada (odds 17:1–30:1), no una detección confirmada. ⚠️ Masa y temperatura salen de ajustar modelos al espectro (por eso dos pipelines independientes). ⚠️ Todo apunta a un recalentamiento hace 3,0–5,5 Gyr, pero es una inferencia de modelos de enfriamiento, no una medición.

@@ -1,0 +1,51 @@
+idx,catalizador,temperatura_c,tiempo_estabilidad_h,conversion_ch4_pct,conversion_co2_pct,sty_ch4,ratio_h2_co,se_desactiva,coke_nota,referencia
+1,NiMoCat,800,850,99,100,3.97,1.0,0,no detectado (TGA/Raman),4
+2,Ni3Fe1/CeO2-Al2O3,700,10,73.7,81.6,14.78,0.87,0,6.5 mg coke/gcat·h,38
+3,Rh/Al2O3 0.05%,550,6,10,12,1.2,0.75,0,2.5% perdida TGA,39
+4,R3.0CZSm,550,10,60,77,2.41,0.77,0,no detectado (TGA),40
+5,NiCo/MAO-2,750,110,84.4,86.3,10.15,0.95,0,0.83 mg coke/gcat·h,41
+6,5Ni/CeO2-G,700,50,60,73,4.01,0.7,0,9.6% perdida TGA,42
+7,Ni0.9Co0.1/TiO2,700,10,30,46,1.8,0.6,0,no detectado,43
+8,5Ni+3Sr/10Zr+Al,746,86,86.8,92.3,3.41,1.02,0,16% perdida TGA,44
+9,Ni-dBeta HD_red,650,60,60,79.1,0.04,,0,0.21% perdida TGA,45
+10,Ni/CeO2-SGS,700,45,5.0,79.1,3.01,0.4,0,0.072 mg coke/gcat·h,46
+11,Ni3ZnC0.7/Al2O3,650,1,56,69,3.37,0.95,0,N/A,47
+12,N8C2@SiO2,800,100,94,95,0.44,0.86,1,0.2% perdida TGA,48
+13,In0.5Ni@SiO2,800,430,95,96,5.71,1.08,0,5% perdida TGA,49
+14,0.5Cu-Ni@SiO2,750,50,85,89,10.23,0.9,0,0.3% perdida TGA,50
+15,Ni0.44@S-1,750,100,85.1,88.7,18.94,0.98,0,2.1% perdida TGA,51
+16,CoNi@ZSM-5,750,10,80,85,2.89,0.88,0,6.1% perdida TGA,52
+17,Ni-La-Imp-P,700,20,79,77,8.42,0.83,1,18.49% perdida TGA,53
+18,Ni/MCM-41,700,20,80,89,8.42,,1,7.0% perdida TGA,54
+19,Ni-SBA-15,700,15,85,89,6.74,0.89,1,coke via XRD,55
+20,Ni/MgAl2O4,750,50,96,98,7.7,0.97,0,3.58 mg coke/gcat·h,56
+21,Ni/Al2O3,750,50,93,96,7.46,0.96,0,0.6 mg coke/gcat·h,56
+22,Ru-Co@SiO2-P,750,10,84,72,4.44,0.99,1,0.5 mg coke/gcat·h,57
+23,10Ni/CeMgMnO2,700,5,66,72,2.49,0.93,1,coke via TPO,58
+24,Ni-In/SiO2,675,24,80,30,12.91,0.77,1,no detectado,59
+25,Ni/Mg0.85Zr0.15O,900,200,86,97,4.31,1.25,0,1.5% perdida TGA,60
+26,Ni/SBA-15-DP,750,40,61,,48.12,0.9,1,50% perdida TGA,61
+27,La0.46Sr0.34Ti0.9Ni0.1O3,750,25,40,40,2.4,0.6,1,no detectado,62
+28,La0.4Ce0.6Ni0.5Fe0.5O3,750,25,63,73,2.41,0.9,1,no detectado,63
+29,Ni-MCF,650,4,60,70,6.5,1.0,0,nanotubos en TEM,64
+30,Mo2C in CNT,850,24,90,95,0.9,,1,oxidacion CNT,65
+31,0.5Ni.CeNixOy,800,140,88.2,91.7,7.07,1.05,1,0.045 g coke/gcat·h,66
+32,NiPS@silica-0.4,800,23,50,60,5.74,0.78,1,7.6% perdida TGA,67
+33,CoAl0.5Ga1.5O4-R,700,1000,40,55,8.02,1.0,0,no detectado (TGA/Raman),68
+34,Ni@SiO2/Al2O3/FeCrAl,800,500,90.8,89.9,1.44,,0,sin carbono TGA,69
+35,Ni/ZrO2,800,1.67,85,90,3.91,,1,N/A,70
+36,10%Ni/Ce0.95Mn0.05O2,700,15,65,72,2.41,,1,coke severo TEM/TPO,71
+37,Ni@Al2O3,800,50,90,90,10.35,1.05,1,15% perdida TGA,72
+38,3NiCo-CeZrO2/S,750,550,68,73,2.73,0.83,0,N/A,73
+39,NiMgO-Al2O3/FeCrAl-900,800,270,91,89,1.27,0.88,1,0.52 mg coke/gcat·h,74
+40,Ni-3La2O3/SiO2,700,40,79,79,18.05,0.98,1,5.9 mg coke/gcat·h,75
+41,Ni5-600-1000,900,10,50,,153.98,,0,0.02%/h,76
+42,Ni-Co/La2O3,650,10,30,40,10.74,,0,50% perdida TGA,77
+43,10%Ni-SiO2-ROR,600,12,8,,2.56,0.1,0,19 mg coke/LCH4,78
+44,ALD Ni/NP-Al2O3,850,50,70,,1.12,0.74,0,nanotubos en TEM,79
+45,5Ni/La2O3-LOC,700,50,70,75,4.21,0.88,0,10.3% perdida TGA,80
+46,7Ni3Co/SiO2,750,100,84,87,11.22,0.8,0,curva exotermica DTA,81
+47,Ni2Mg4Al1.8La0.2,800,14,80,79,6.42,1.05,0,75% perdida TGA,82
+48,0.2Pd/5Ni-MgO,750,200,97,96,3.22,0.99,0,0.3% perdida TGA,83
+49,"Pt,Pd,Ni/MgCeO",900,200,97,99,4.86,1.0,0,2.4% perdida TGA,84
+50,10CoMgO,700,15,67,77,2.69,0.85,0,cualitativo SEM/TPO,85

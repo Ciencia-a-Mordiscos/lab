@@ -1,0 +1,25 @@
+titulo: "Un catalizador que convierte basura en combustible — y aguanta 850 horas"
+fecha: 2026-06-25
+categoria: quimica
+tags: [catalisis, reformado-seco, co2, combustibles, syngas, escalado-industrial, niquel]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adp5208"
+    titulo: "Industrial-scale nanocrystalline Ni–Mo–MgO catalysts for hybrid reforming of waste to fuels"
+    journal: Science
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "catalizadores_drm.csv"
+    descripcion: "50 catalizadores para reformado seco de metano — conversión, durabilidad, rendimiento (Tabla S1)"
+    fuente: "Supplementary Materials"
+  - nombre: "conversion_pellets.csv"
+    descripcion: "Conversión de CH4/CO2 en polvo vs pellets de 3/4/5 mm (Tabla S4)"
+    fuente: "Supplementary Materials"
+  - nombre: "tof_temperatura.csv"
+    descripcion: "Actividad por sitio (TOF) de 550 a 750 °C (Tabla S2)"
+    fuente: "Supplementary Materials"
+estado: publicado

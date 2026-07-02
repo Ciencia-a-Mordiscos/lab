@@ -787,6 +787,11 @@ parts:
       title: Notebook
 - caption: Química
   chapters:
+  - file: papers/2026-06-25-nimocat-reformado-residuos/README
+    title: "NiMoCat: convertir basura en combustible y aguantar 850 h"
+    sections:
+    - file: papers/2026-06-25-nimocat-reformado-residuos/notebook
+      title: Notebook
   - file: papers/2026-04-29-tfa-mineralizacion-tandem-radicales/README
     title: "TFA: el químico eterno que nadie sabía cómo destruir"
     sections:
