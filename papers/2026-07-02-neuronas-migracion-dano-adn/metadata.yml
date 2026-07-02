@@ -1,0 +1,28 @@
+titulo: "Para llegar a su sitio en el cerebro, una neurona se rompe el ADN"
+fecha: 2026-07-02
+categoria: neurociencia
+tags: [neurociencia, adn, migracion-neuronal, cerebelo, desarrollo, reparacion-adn]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10648-8"
+    titulo: "Confined migration induces non-lethal DNA damage in developing neurons"
+    journal: Nature
+    autores: "Zhang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "gamma_h2ax_desarrollo.csv"
+    descripcion: "% de neuronas con daño al ADN por estadio y capa (P4-P30)"
+    fuente: "Source Data Fig. 1"
+  - nombre: "corredor_dano.csv"
+    descripcion: "% de neuronas con daño según ancho del corredor (2-5 µm)"
+    fuente: "Source Data Fig. 1"
+  - nombre: "reparacion_53bp1_min.csv"
+    descripcion: "Vida media de los focos de reparación 53BP1 (min)"
+    fuente: "Source Data Fig. 1"
+  - nombre: "andar_lig4.csv"
+    descripcion: "Ancho de la base trasera al caminar, Control vs Lig4-KO"
+    fuente: "Source Data Fig. 5"
+estado: publicado

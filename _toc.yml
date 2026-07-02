@@ -544,6 +544,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-07-02-neuronas-migracion-dano-adn/README
+    title: "Una neurona se rompe el ADN para migrar"
+    sections:
+    - file: papers/2026-07-02-neuronas-migracion-dano-adn/notebook
+      title: Notebook
   - file: papers/2026-06-04-reactivacion-memoria-sueno/README
     title: "El miedo fragmenta el sueño (en ratones)"
     sections:

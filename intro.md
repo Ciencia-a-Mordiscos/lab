@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Para llegar a su sitio en el cerebro, una neurona se rompe el ADN
+
+**Neurociencia** · *Nature* (2026) · Para migrar a su capa final en el cerebelo, las neuronas recién nacidas se apretujan por pasadizos más estrechos que su propio núcleo — y el apretón les parte las dos cadenas del ADN. **El hallazgo:** durante la migración, **el 41% de las neuronas** tienen el ADN roto (día 4); en el cerebro adulto el daño baja a **0,2%** (día 30). El culpable es mecánico: en corredores de **3 µm** el daño llega al 42%, contra 8% en los de 5 µm (unas 5 veces más). Y la neurona no muere — repara cada corte en una o dos horas (mediana **82 min**). Cuando apagan la Ligasa IV que sella los cortes, el ratón camina de adulto con las patas **+17% más abiertas**. ⚠️ La curva de daño por desarrollo es descriptiva: muestra cuándo ocurre el daño, no prueba el mecanismo (eso lo aporta el experimento de corredores). ⚠️ El andar Control vs mutante está pseudorreplicado (varias huellas por ratón, sin IDs). ⚠️ El salto a "riesgo de enfermedad" es del paper, en modo condicional; el déficit motor global es leve.
+
+[Ver notebook](papers/2026-07-02-neuronas-migracion-dano-adn/notebook) · [Leer más](papers/2026-07-02-neuronas-migracion-dano-adn/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-02-neuronas-migracion-dano-adn/notebook.ipynb)
+
 ### Un catalizador que convierte basura en combustible — y aguanta 850 horas
 
 **Química** · *Science* (2026) · Reformar metano con CO₂ convierte residuos y gas en la materia prima de los combustibles — pero los catalizadores se llenan de hollín y mueren rápido. De **50 catalizadores** publicados para esa reacción, uno destaca solo: **NiMoCat** es el único que cruza el **99% de conversión de CH₄** y encima aguanta **850 horas** sin apagarse (la mediana del campo es 79% y 40 horas). **El hallazgo:** también muestra la letra pequeña del escalado — ese 99% era en polvo de laboratorio; al prensarlo en pellets de reactor, la conversión **cae ~22 puntos** (97,7% → 75,4%). ⚠️ La tabla de 50 junta estudios medidos en condiciones distintas: es un mapa indicativo, no un pique controlado. ⚠️ "Escala industrial" = kilogramos + reactor de alta presión, no despliegue comercial. ⚠️ La energía de activación (79 kJ/mol) es un dato reportado por el paper, no reproducido aquí.

@@ -1,0 +1,178 @@
+{
+  "version": "1.0",
+  "paper_id": 2657,
+  "doi": "10.1038/s41586-026-10648-8",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "El daño al ADN es alto durante la migración (41% en P4) y cae a ~0,2% en el adulto (P30)",
+      "supported": "yes",
+      "detail": "Diseño descriptivo (se mide en distintos estadios, no se manipula) → el daño acompaña a la migración, no se prueba que la cause.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "none",
+        "value": null,
+        "interpretation": "descriptivo"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Corredores más estrechos se asocian a más daño (~5×: 42% a 3 µm vs 8% a 5 µm)",
+      "supported": "yes",
+      "detail": "Diseño experimental (corredores fabricados) → causalidad moderada. Spearman ρ = −0,76 (p < 0,001).",
+      "certainty_tier": "T1",
+      "abstract_verb": "increase",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -0.76,
+        "interpretation": "fuerte"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La neurona repara el corte sobre la marcha, sin morir (mediana 82 min)",
+      "supported": "yes",
+      "detail": "n = 66 focos; distribución con cola larga (IQR 51–129 min) → la mediana describe el caso típico.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "median_min",
+        "value": 82,
+        "interpretation": "una a dos horas"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Sin reparación (Ligasa IV apagada), el ratón camina más abierto (+0,43 cm, +17%)",
+      "supported": "partial",
+      "detail": "Experimental, pero pseudorreplicado (varias huellas/ratón sin IDs). Mann-Whitney p < 0,001, Cohen's d = 0,93; interpretar como andar más amplio y variable.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.93,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El daño mal reparado podría ser un riesgo de enfermedad",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como posibilidad (suggesting... potential disease risk), no como hecho. El déficit motor global es leve.",
+      "certainty_tier": "T3",
+      "abstract_verb": "suggest",
+      "effect_size": {
+        "measure": "none",
+        "value": null,
+        "interpretation": "condicional"
+      },
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 41,
+      "unit": "por ciento",
+      "context": "neuronas con daño en el ADN durante la migración (capa ML, día 4)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.2,
+      "unit": "por ciento",
+      "context": "neuronas con daño en el cerebro adulto (capa ML, día 30)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 42,
+      "unit": "por ciento",
+      "context": "neuronas con daño en corredores estrechos de 3 µm",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "por ciento",
+      "context": "neuronas con daño en corredores anchos de 5 µm",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 82,
+      "unit": "minutos",
+      "context": "vida media (mediana) de un foco de reparación 53BP1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.57,
+      "unit": "cm",
+      "context": "ancho del andar en ratones control",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.0,
+      "unit": "cm",
+      "context": "ancho del andar en ratones sin reparación (Lig4-KO)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17,
+      "unit": "por ciento",
+      "context": "aumento del ancho del andar sin reparación",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (hallazgo central: la migracion neuronal se acompana de roturas de ADN)"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'la secuenciacion revelo' (DSBs en regiones transcripcionalmente inactivas)"
+    },
+    {
+      "abstract_verb": "increase",
+      "tier": "T1",
+      "cam_attenuator": "'aumenta' (TOP2beta-DSBs con migracion confinada; experimental medido)"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'el paper sugiere' — deficit motor leve como riesgo potencial de enfermedad; NO afirmar como hecho"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "'podria' (contexto: dano en cancer puede contribuir a transformacion maligna — no es el hallazgo de este paper)"
+    }
+  ],
+  "narrative_hooks": [
+    "Para llegar a su sitio en el cerebro, una neurona recién nacida se aprieta por pasadizos más estrechos que su propio núcleo — y se rompe el ADN.",
+    "El daño al ADN que asociamos con cáncer y envejecimiento aparece como parte normal del desarrollo del cerebro, y desaparece al llegar el adulto.",
+    "La neurona no muere: repara el corte sobre la marcha en una o dos horas y sigue migrando."
+  ],
+  "limitations": [
+    "El andar Control vs mutante está pseudorreplicado (varias huellas por ratón, sin identificador de ratón); el tamaño exacto del efecto hay que tomarlo con pinzas.",
+    "La curva de daño por desarrollo es descriptiva: muestra cuándo ocurre el daño, no prueba por sí sola el mecanismo (eso lo aporta el experimento de corredores).",
+    "El salto de 'andar más abierto' a 'riesgo de enfermedad' es del paper, en modo condicional; el déficit motor global es leve."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (3 yes, 2 partial) + 8 números clave → script denso"
+  },
+  "notebook_slug": "2026-07-02-neuronas-migracion-dano-adn",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-02-neuronas-migracion-dano-adn/notebook.html",
+  "generated_at": "2026-07-02T12:00:00-05:00"
+}
