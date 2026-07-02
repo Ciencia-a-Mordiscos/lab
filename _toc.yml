@@ -310,6 +310,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-07-01-bridgmanita-hadeana-manto/README
+    title: "Una huella del Hadeano en una lava de hoy"
+    sections:
+    - file: papers/2026-07-01-bridgmanita-hadeana-manto/notebook
+      title: Notebook
   - file: papers/2026-06-18-scs-tohoku-megathrust-slip/README
     title: "Una onda sísmica que movió Japón entero"
     sections:

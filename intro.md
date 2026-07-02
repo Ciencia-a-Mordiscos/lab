@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una huella de hace 4.500 millones de años en una lava de hoy
+
+**Geología** · *Nature* (2026) · El manto terrestre guarda parches químicos de distintas edades, pero fechar su origen es dificilísimo. Un equipo midió con altísima precisión el neodimio en lavas de dos volcanes vecinos de las Comoras. **El hallazgo:** las lavas del volcán submarino Fani Maore traen una anomalía de ¹⁴²Nd de **+3,2 ppm** (n=13), distinta del estándar (Welch p < 0,00001) y de su vecino Mayotte (p = 0,028; Cohen's d = 1,15). Como el ¹⁴²Nd solo se fabrica con el ¹⁴⁶Sm — un reloj radiactivo extinto hace ~4.500 millones de años — esa firma **tuvo** que crearse en los primeros 100 millones de años de la Tierra. El mecanismo: la bridgmanita cristalizada de un océano de magma agarra Sm **2,1×** más que Nd, duplicando la razón Sm/Nd (0,96 → 2,07). ⚠️ Que el material sea bridgmanita de un océano de magma es la hipótesis de los autores ('suggest'), no una prueba directa. ⚠️ Las anomalías son de pocas ppm, cerca del límite de detección.
+
+[Ver notebook](papers/2026-07-01-bridgmanita-hadeana-manto/notebook) · [Leer más](papers/2026-07-01-bridgmanita-hadeana-manto/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-01-bridgmanita-hadeana-manto/notebook.ipynb)
+
 ### ¿Una IA lee tu radiografía dental mejor que el dentista?
 
 **Tecnología** · *Nature Biomedical Engineering* (2026) · Interpretar una radiografía panorámica dental toma tiempo y faltan especialistas, así que los reportes salen incompletos. Un equipo entrenó DentFound, un modelo de visión y lenguaje, sobre más de **101.000 pacientes** (98 enfermedades, 11 categorías post-tratamiento). **El hallazgo:** DentFound queda #1 en F1 en las 4 cohortes hospitalarias (84,78% a 94,20%) y escribe reportes **más completos** que un radiólogo humano — Recall **0,811 vs 0,518 (+56,6%)**, porque el humano se centra en la queja principal y omite hallazgos incidentales. La máscara *instance-guidance* que da nombre al método casi duplica el CIDEr (**+86%**). ⚠️ 'Más completo' no es 'mejor': en los ratings subjetivos de expertos el humano queda arriba en **10 de 12** pares. ⚠️ Es **apoyo diagnóstico**, no diagnóstico certificado — el título dice *towards clinical-level*. ⚠️ Las imágenes clínicas no son públicas; los datos vienen del Source Data de figuras.

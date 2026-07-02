@@ -1,0 +1,25 @@
+titulo: "Una huella de hace 4.500 millones de años en una lava de hoy"
+fecha: 2026-07-01
+categoria: geologia
+tags: [geoquimica, manto, isotopos, hadeano, bridgmanita, neodimio, comoras, oceano-de-magma]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10719-w"
+    titulo: "Hadean bridgmanite in the source of a present-day ocean island"
+    journal: Nature
+    autores: "Israel et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "mu142nd_todos.csv"
+    descripcion: "Anomalías de 142Nd (ppm) y error 2se por muestra: 13 Fani Maore, 8 Mayotte, 23 estándar JNdi-1"
+    fuente: "Nature Supplementary Data 1 / EarthChem IEDA/114197"
+  - nombre: "particion_brg_melt.csv"
+    descripcion: "Coeficientes de partición D(Brg/fundido) para Nd y Sm (DAC 53 y 97 GPa)"
+    fuente: "Nature Supplementary Data 2"
+  - nombre: "bridgmanita_composicion.csv"
+    descripcion: "Fracciones molares bulk vs bridgmanita a 53 y 97 GPa"
+    fuente: "Nature Supplementary Data 2"
+estado: publicado

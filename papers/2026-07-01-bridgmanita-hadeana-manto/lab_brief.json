@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "paper_id": 2709,
+  "doi": "10.1038/s41586-026-10719-w",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Fani Maore tiene una anomalía positiva de 142Nd de +3,2 ppm",
+      "supported": "yes",
+      "detail": "Media +3,17 ppm, n=13; distinta del estándar JNdi-1 con Welch p<0,00001, Cohen's d=1,98",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.98,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Fani Maore se distingue estadísticamente de su vecino Mayotte",
+      "supported": "yes",
+      "detail": "Δ=1,99 ppm; Welch p=0,0275; Cohen's d=1,15 (grande)",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.15,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Mayotte NO muestra la anomalía robusta (no se distingue del estándar)",
+      "supported": "yes",
+      "detail": "Media +1,17 ppm pero Welch p=0,1412 vs estándar",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La bridgmanita atrapa Sm unas 2,1 veces más que Nd",
+      "supported": "yes",
+      "detail": "D_Sm/D_Nd = 0,537/0,251 = 2,14 (DAC a 53 y 97 GPa)",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La razón Sm/Nd se duplica en la bridgmanita al cristalizar",
+      "supported": "yes",
+      "detail": "0,96 (bulk) → 2,07 (Brg 53 GPa), desde fracciones molares",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La señal exige material formado en los primeros 100 Myr de la Tierra",
+      "supported": "partial",
+      "detail": "Inferencia fuerte: solo el 146Sm extinto puede fabricar 142Nd; el origen se deduce, no se observa directamente",
+      "certainty_tier": "T2",
+      "abstract_verb": "require",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Ese material es bridgmanita cristalizada de un océano de magma",
+      "supported": "partial",
+      "detail": "Hipótesis de los autores ('suggest'), la más consistente con la partición; no es prueba directa",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.17,
+      "unit": "ppm",
+      "context": "anomalía media de 142Nd en Fani Maore (n=13)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.17,
+      "unit": "ppm",
+      "context": "anomalía media de 142Nd en Mayotte (n=8), no distinguible del estándar",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0275,
+      "unit": "p-value",
+      "context": "Welch t-test Fani Maore vs Mayotte",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1.15,
+      "unit": "cohen_d",
+      "context": "tamaño de efecto Fani vs Mayotte (grande)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "millones de años",
+      "context": "ventana temporal (Hadeano) en que pudo formarse la señal",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.14,
+      "unit": "ratio",
+      "context": "D_Sm/D_Nd: la bridgmanita agarra Sm ~2x más que Nd",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 21,
+      "unit": "lavas",
+      "context": "total de lavas analizadas (13 Fani Maore + 8 Mayotte)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "reportan / midieron — afirmación directa"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "identifican — la anomalía existe (p<1e-5)"
+    },
+    {
+      "abstract_verb": "require",
+      "tier": "T2",
+      "cam_attenuator": "las anomalías exigen material LREE-depleted <100 Myr — inferencia fuerte"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "sugieren que es bridgmanita — no afirmar como hecho"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "podría estar más extendida — pregunta abierta"
+    }
+  ],
+  "narrative_hooks": [
+    "Una huella química de hace 4.500 millones de años, escondida en una lava submarina de hoy",
+    "Dos volcanes casi tocándose en las Comoras — y solo uno guarda la firma del Hadeano",
+    "+3 partes por millón: minúsculo, pero imposible de fabricar después de los primeros 100 Myr de la Tierra",
+    "El reloj que lo prueba (146Sm) se agotó hace 4.500 millones de años: la señal no pudo nacer más tarde"
+  ],
+  "limitations": [
+    "Las anomalías de 142Nd son de pocas ppm, cerca del límite de detección; errores 2se grandes en análisis individuales",
+    "La atribución a bridgmanita de un océano de magma descansa en coeficientes de partición de laboratorio (±0,12–0,14)",
+    "Que la bridgmanita hadeana esté 'más extendida' en el manto es pregunta abierta, no resultado medido",
+    "El origen exacto de la heterogeneidad se infiere del sistema isotópico, no se observa directamente"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (yes) + 2 inferencias + 7 números clave"
+  },
+  "notebook_slug": "2026-07-01-bridgmanita-hadeana-manto",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-01-bridgmanita-hadeana-manto/notebook.html",
+  "generated_at": "2026-07-01T20:37:06"
+}
