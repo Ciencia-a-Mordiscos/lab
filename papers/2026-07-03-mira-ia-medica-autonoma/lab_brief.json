@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "paper_id": 2660,
+  "doi": "10.1038/s41586-026-10675-5",
+  "paper_type": "computational",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "MIRA superó a los médicos board-certified en precisión diagnóstica global",
+      "supported": "yes",
+      "detail": "87,8% vs 78,1% (+9,7 pp); MIRA ≥ médicos en los 8 diagnósticos (gana 7, empata 1 en cáncer de páncreas)",
+      "certainty_tier": "T1",
+      "abstract_verb": "outperform"
+    },
+    {
+      "claim": "La mayor ventaja de MIRA está en neumonía",
+      "supported": "yes",
+      "detail": "76,9% vs 57,7% (+19,2 pp). Segunda mayor en infección urinaria (75,6% vs 60,0%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "MIRA no gana en todas las tareas: los médicos ganan en radiología",
+      "supported": "yes",
+      "detail": "Radiología: 61,5% (médicos) vs 55,3% (MIRA). Sangre y microbiología: ambos por debajo de 52%",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "MIRA recetó de forma segura en la simulación",
+      "supported": "yes",
+      "detail": "0 de 56 escenarios inseguros por chequeo; solo 3 flags, todos de duplicación terapéutica",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "MIRA nunca omitió un ingreso necesario en la muestra",
+      "supported": "partial",
+      "detail": "0 falsos negativos (sensibilidad 100%) pero 9 falsos positivos (especificidad 78,6%). Solo 2 condiciones, n=80 — señal, no garantía",
+      "certainty_tier": "T2",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "MIRA transcribe recetas con alta fidelidad",
+      "supported": "yes",
+      "detail": "98,7% promedio sobre 468 prescripciones; campo más flojo la vía (96,8%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 87.8,
+      "unit": "por ciento",
+      "context": "precisión diagnóstica global de MIRA en simulación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 78.1,
+      "unit": "por ciento",
+      "context": "precisión diagnóstica global de médicos board-certified",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.7,
+      "unit": "puntos porcentuales",
+      "context": "ventaja de MIRA sobre médicos en diagnóstico global",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 19.2,
+      "unit": "puntos porcentuales",
+      "context": "mayor brecha, en neumonía (76,9 vs 57,7)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "diagnósticos",
+      "context": "MIRA igualó o superó en los 8; ganó 7, empató 1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 55.3,
+      "unit": "por ciento",
+      "context": "precisión de MIRA en radiología — única tarea donde ganan los médicos (61,5%)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0,
+      "unit": "escenarios",
+      "context": "escenarios inseguros de 56 por chequeo de seguridad de medicación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "flags",
+      "context": "avisos de riesgo potencial, todos por duplicación terapéutica",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "por ciento",
+      "context": "sensibilidad en decisiones de ingreso (0 falsos negativos), n=80, 2 condiciones",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 78.6,
+      "unit": "por ciento",
+      "context": "especificidad en decisiones de ingreso (9 falsos positivos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 98.7,
+      "unit": "por ciento",
+      "context": "fidelidad media de transcripción de recetas (n=468)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "outperform",
+      "tier": "T1",
+      "cam_attenuator": "'superó por +9,7 pp' con número exacto — NO inflar a 'reemplaza médicos'"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa DENTRO de la simulación"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren' — para el potencial de copiloto, NO afirmar"
+    },
+    {
+      "abstract_verb": "possibly",
+      "tier": "T3",
+      "cam_attenuator": "'podría' — hedge sobre 'más efectivo compañero de decisión'"
+    }
+  ],
+  "narrative_hooks": [
+    "87,8% contra 78,1%: en simulación sobre casos retrospectivos, una IA acertó más diagnósticos que médicos certificados",
+    "La trampa está en la palabra 'simulación': casos ya cerrados, sin paciente enfrente, médicos bajo las mismas restricciones",
+    "No es una goleada: en radiología ganan los médicos y en neumonía ambos rondan el 75%",
+    "Nunca mandó a casa a quien debía quedarse (0 falsos negativos), pero ingresó de más 9 veces"
+  ],
+  "limitations": [
+    "Simulación sobre casos RETROSPECTIVOS de MIMIC-IV en un EHR sandbox, no despliegue clínico real",
+    "Los médicos comparados respondían bajo las mismas restricciones (expediente cerrado, sin paciente presente)",
+    "Sensibilidad 100% en ingresos medida sobre 80 casos y solo 2 diagnósticos (embolia pulmonar y neumonía)",
+    "El propio paper pide estudios prospectivos del mundo real para generalización, seguridad y gobernanza"
+  ],
+  "suggested_word_range": {
+    "min": 200,
+    "max": 250,
+    "reason": "6 claims verificados (5 yes + 1 partial) y 11 números clave, pero el formato corto (<90s) acota el máximo"
+  },
+  "notebook_slug": "2026-07-03-mira-ia-medica-autonoma",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-03-mira-ia-medica-autonoma/notebook.html",
+  "generated_at": "2026-07-03T00:00:00Z"
+}

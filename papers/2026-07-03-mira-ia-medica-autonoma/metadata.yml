@@ -1,0 +1,31 @@
+titulo: "¿Puede una IA manejar un caso clínico mejor que un médico?"
+fecha: 2026-07-03
+categoria: tecnologia
+tags: [inteligencia-artificial, medicina, llm, diagnostico, ehr, benchmark]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10675-5"
+    titulo: "Towards autonomous medical artificial intelligence agents"
+    journal: Nature
+    autores: "Ferber et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "diagnostico_mira_vs_medicos.csv"
+    descripcion: "Precisión diagnóstica MIRA vs médicos board-certified, por diagnóstico"
+    fuente: "Source Data (Fig. 3a)"
+  - nombre: "precision_por_tarea.csv"
+    descripcion: "Precisión por tarea clínica (examen, sangre, microbiología, radiología)"
+    fuente: "Source Data (Fig. 3c)"
+  - nombre: "seguridad_medicacion.csv"
+    descripcion: "Chequeos de seguridad de medicación sobre 56 escenarios"
+    fuente: "Source Data (Fig. 5a)"
+  - nombre: "decision_ingreso.csv"
+    descripcion: "Matriz de confusión de decisiones de ingreso (embolia pulmonar, neumonía)"
+    fuente: "Source Data (Fig. 5d)"
+  - nombre: "transcripcion_recetas.csv"
+    descripcion: "Fidelidad de transcripción de recetas por campo (468 prescripciones)"
+    fuente: "Source Data (Fig. 5b)"
+estado: publicado

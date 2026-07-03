@@ -1,0 +1,10 @@
+diagnostico,precision_mira_pct,precision_medicos_bc_pct
+Overall,87.8,78.1
+Appendicitis,100.0,88.4
+Cholecystitis,84.4,80.0
+Diverticulitis,88.6,81.8
+Lung Embolism,91.1,88.9
+Pancreatic Cancer,85.7,85.7
+Pancreatitis,95.2,78.6
+Pneumonia,76.9,57.7
+Urinary Tract Infection,75.6,60.0
