@@ -690,6 +690,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-06-22-3i-atlas-isotopos-origen-frio/README
+    title: "El carbono de 3I/ATLAS es casi el doble de primitivo que el del Sol"
+    sections:
+    - file: papers/2026-06-22-3i-atlas-isotopos-origen-frio/notebook
+      title: Notebook
   - file: papers/2026-07-01-atmosfera-enana-blanca-wd1856/README
     title: "La atmósfera de un planeta que orbita una enana blanca"
     sections:

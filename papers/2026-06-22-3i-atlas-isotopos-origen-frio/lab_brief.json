@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "paper_id": 2674,
+  "doi": "10.1038/s41586-026-10771-6",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El 12C/13C de 3I/ATLAS (~147-166) casi duplica el solar (89)",
+      "supported": "yes",
+      "detail": "JWST en CO2 (166 central) y CO (147.5); VLT en CN (147) solapa la banda. Cociente CO2/Sol = 1.87x",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1.87,
+        "interpretation": "casi el doble"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El gradiente galactico actual no alcanza la banda de 3I/ATLAS",
+      "supported": "yes",
+      "detail": "El maximo del gradiente (~97 a 16 kpc) queda por debajo del minimo de 3I/ATLAS (141). Para llegar a 141 harian falta 25.2 kpc, fuera de la galaxia poblada",
+      "certainty_tier": "T1",
+      "abstract_verb": "exceeds",
+      "effect_size": {
+        "measure": "gap",
+        "value": 69,
+        "interpretation": "166 vs max galactico 97"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El agua de 3I/ATLAS esta muy enriquecida en deuterio",
+      "supported": "yes",
+      "detail": "HDO/H2O = 0.98% +/- 0.06 (JWST), >1 orden de magnitud sobre cometas conocidos; ALMA da limite consistente (>0.66%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "is enriched",
+      "effect_size": {
+        "measure": "pct",
+        "value": 0.98,
+        "interpretation": "1 orden de magnitud sobre cometas"
+      },
+      "supported_by_data": false
+    },
+    {
+      "claim": "Se formo a temperatura muy baja (formacion frio)",
+      "supported": "partial",
+      "detail": "Los datos INDICAN formacion a <=30 K (agua) y <25 K (hipervolatiles); el paper lo enmarca como inferencia, no medicion directa",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "Podria tener hasta ~12 mil millones de anos",
+      "supported": "partial",
+      "detail": "Estimacion dependiente de modelos de evolucion quimica galactica; la edad dinamica independiente da ~3-11 Gyr",
+      "certainty_tier": "T3",
+      "abstract_verb": "may",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 166,
+      "unit": "adimensional",
+      "context": "12C/13C de CO2 en 3I/ATLAS (central de 141-191, JWST)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 89,
+      "unit": "adimensional",
+      "context": "12C/13C del Sistema Solar (Ayres et al. 2013)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.87,
+      "unit": "veces",
+      "context": "cociente 3I/ATLAS (CO2 central) / solar",
+      "source": "fact_sheet",
+      "cross_check": {
+        "paper_reported": "141-191 CO2 vs 89 solar",
+        "our_calculation": "166/89 = 1.87",
+        "discrepancy_pct": 0.0,
+        "reason": "cociente directo de centrales"
+      }
+    },
+    {
+      "value": 97.1,
+      "unit": "adimensional",
+      "context": "maximo del gradiente galactico 12C/13C a 16 kpc",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "reproduce SI Fig.2",
+        "our_calculation": "4.77*16 + 20.76 = 97.08",
+        "discrepancy_pct": 0.0,
+        "reason": "ecuacion Yan et al. 2023"
+      }
+    },
+    {
+      "value": 0.98,
+      "unit": "por ciento",
+      "context": "D/H (HDO/H2O) del agua de 3I/ATLAS (+/- 0.06)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 25.2,
+      "unit": "kpc",
+      "context": "radio galactico necesario para que el gradiente alcance 141 (fuera de la galaxia poblada)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "gradiente no alcanza (SI Fig.2)",
+        "our_calculation": "(141-20.76)/4.77 = 25.2",
+        "discrepancy_pct": 0.0,
+        "reason": "inversion de la ecuacion del gradiente"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (medición)"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'revela' — medición directa"
+    },
+    {
+      "abstract_verb": "is enriched",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'está enriquecido en deuterio'"
+    },
+    {
+      "abstract_verb": "exceeds",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'supera los valores típicos'"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'los datos indican' formación a ≲30 K — NO afirmar directamente"
+    },
+    {
+      "abstract_verb": "imply",
+      "tier": "T2",
+      "cam_attenuator": "'la composición sugiere' — NO usar 'confirma'"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "'podría haberse formado hace hasta ~12 mil millones de años'"
+    },
+    {
+      "abstract_verb": "represents",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que es un fragmento preservado' — meta-claim interpretativo"
+    }
+  ],
+  "narrative_hooks": [
+    "El carbono de 3I/ATLAS es casi el doble de primitivo que el del Sol",
+    "Ningun lugar de la Via Lactea actual produce ese carbono: haria falta un radio de 25 kpc, fuera de la galaxia",
+    "Su agua tiene 10 veces mas deuterio que cualquier cometa conocido"
+  ],
+  "limitations": [
+    "Sin dataset numerico descargable: cifras destiladas del abstract + Supplementary (MOESM1) peer-reviewed",
+    "El gradiente galactico se computo de la ecuacion publicada (Yan et al. 2023), no se remidio",
+    "La edad ~12 Gyr es dependiente de modelos de evolucion quimica galactica",
+    "El 12C/13C de CN proviene de un trabajo aun en revision (Opitom et al.), usado como corroboracion"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados (yes), 5 en tabla, 6 numeros clave"
+  },
+  "notebook_slug": "2026-06-22-3i-atlas-isotopos-origen-frio",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-22-3i-atlas-isotopos-origen-frio/notebook.html",
+  "generated_at": "2026-07-03T11:22:57.159997"
+}

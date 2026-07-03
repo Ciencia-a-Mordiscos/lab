@@ -1,0 +1,6 @@
+objeto,tipo,ratio_min,ratio_max,ratio_central,err_plus,err_minus,metodo,fuente
+3I/ATLAS (CO2),objeto interestelar,141,191,166.0,,,JWST IR,Cordiner+ 2026 (este paper)
+3I/ATLAS (CO),objeto interestelar,123,172,147.5,,,JWST IR,Cordiner+ 2026 (este paper)
+3I/ATLAS (CN),objeto interestelar,107,234,147.0,87,40,VLT UVES,"Opitom+ (en revision), citado en SI"
+Sistema Solar (Sol),referencia,89,89,89.0,6,6,Ayres+ 2013,referencia solar (SI Fig. 13)
+Estrellas tipo solar (63),poblacion estelar,71,105,88.0,,,Botelho+ 2020,ref [18] en SI (0-9 Gyr)

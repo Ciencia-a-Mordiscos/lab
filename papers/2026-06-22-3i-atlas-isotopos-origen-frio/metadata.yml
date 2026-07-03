@@ -1,0 +1,28 @@
+titulo: "El carbono de 3I/ATLAS es casi el doble de primitivo que el del Sol"
+fecha: 2026-07-03
+categoria: astronomia
+tags: [astronomia, objeto-interestelar, isotopos, cometas, via-lactea, jwst]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10771-6"
+    titulo: "Isotopic evidence for a cold and distant origin of 3I/ATLAS"
+    journal: Nature
+    autores: "Cordiner et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "isotopos_12c13c_comparacion.csv"
+    descripcion: "12C/13C de 3I/ATLAS (CO2, CO, CN) vs Sol y 63 estrellas tipo solar"
+    fuente: "Abstract + Supplementary (MOESM1)"
+  - nombre: "gradiente_galactico_12c13c.csv"
+    descripcion: "Gradiente radial galactico 12C/13C con banda 1sigma (0-16 kpc)"
+    fuente: "Ecuacion de Yan et al. (2023) citada en SI"
+  - nombre: "evidencia_origen.csv"
+    descripcion: "8 lineas de evidencia (origen frio / epoca distante) con fuerza"
+    fuente: "Supplementary Table 1"
+  - nombre: "dh_astration_tiempo.csv"
+    descripcion: "D/H elemental: Big Bang -> ISM local por astracion"
+    fuente: "Supplementary (refs 31,32)"
+estado: publicado
