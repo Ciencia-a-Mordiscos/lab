@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "paper_id": 2686,
+  "doi": "10.1038/s41586-026-10696-0",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La onda directa se detecta con SNR de filtro adaptado ~15,8 (Hanford) y ~17,1 (Livingston).",
+      "supported": "yes",
+      "detail": "Mediana del posterior descargado: 15,81 (H1) y 17,14 (L1), a dos decimales del abstract. El grueso de la distribución cae muy lejos del cero.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "El remanente tiene ~63 masas solares y espín ~0,68.",
+      "supported": "yes",
+      "detail": "Mediana del posterior NRSur7dq4: 62,7 M_sol (90% cred. 61,6-63,7) y espín 0,68 (90% cred. 0,66-0,69).",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "measured"
+    },
+    {
+      "claim": "La onda directa oscila cerca de 2*Omega_H y se apaga al ritmo de kappa.",
+      "supported": "yes",
+      "detail": "Los cocientes frecuencia/(2*Omega_H) y apagado/kappa se acercan a 1 cerca de la fusion (maximos 1,13 y 0,99): la firma esperada del horizonte.",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "measured"
+    },
+    {
+      "claim": "Es la primera evidencia observacional de una onda directa, en pleno acuerdo con un agujero negro de Kerr.",
+      "supported": "partial",
+      "detail": "El paper la enmarca como primera evidencia de su clase; una deteccion aun no repetida en muchos eventos. El acuerdo con Kerr es afirmacion del paper.",
+      "supported_by_data": false,
+      "certainty_tier": "T2",
+      "abstract_verb": "evidence"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 15.8,
+      "unit": "SNR filtro adaptado",
+      "context": "significancia de la onda directa en Hanford (H1)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "15.8 (+0.1/-0.5)",
+        "our_calculation": "15.81 (mediana posterior)",
+        "discrepancy_pct": 0.06,
+        "reason": "mediana vs valor 90% credible del paper"
+      }
+    },
+    {
+      "value": 17.1,
+      "unit": "SNR filtro adaptado",
+      "context": "significancia de la onda directa en Livingston (L1)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "17.1 (+0.1/-0.4)",
+        "our_calculation": "17.14 (mediana posterior)",
+        "discrepancy_pct": 0.23,
+        "reason": "mediana vs valor 90% credible del paper"
+      }
+    },
+    {
+      "value": 62.7,
+      "unit": "masas solares",
+      "context": "masa final del remanente (marco fuente)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.68,
+      "unit": "adimensional",
+      "context": "espin final del remanente (0 = quieto, 1 = maximo de Kerr)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 33.6,
+      "unit": "masas solares",
+      "context": "masa del progenitor mayor (marco fuente)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 32.2,
+      "unit": "masas solares",
+      "context": "masa del progenitor menor (marco fuente)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.12,
+      "unit": "masas solares",
+      "context": "energia radiada como ondas gravitacionales (masa 1 + masa 2 - masa final)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.13,
+      "unit": "cociente",
+      "context": "maximo de frecuencia de oscilacion / (2*Omega_H): cerca de la fusion la onda alcanza la velocidad de arrastre del horizonte",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.99,
+      "unit": "cociente",
+      "context": "maximo de ritmo de apagado / kappa: la onda directa se apaga a la gravedad superficial del horizonte",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "'reportan' / 'detectaron' — afirmacion directa de la deteccion"
+    },
+    {
+      "abstract_verb": "measured / in full agreement",
+      "tier": "T1",
+      "cam_attenuator": "'lo medido coincide con' — no descalar a 'sugiere'"
+    },
+    {
+      "abstract_verb": "evidence",
+      "tier": "T2",
+      "cam_attenuator": "'primera evidencia observacional' — primera deteccion de su tipo, aun no replicada"
+    }
+  ],
+  "narrative_hooks": [
+    "Un agujero negro arrastra el espacio a su alrededor; en GW250114 medimos ese giro directamente en la onda.",
+    "La onda directa es una fraccion pequeña de una señal enorme: solo se ve porque GW250114 es de las mas fuertes jamas detectadas.",
+    "Dos numeros del horizonte —a que velocidad arrastra y con que fuerza atrapa— leidos directo de la onda gravitacional."
+  ],
+  "limitations": [
+    "Un solo evento, de los mas fuertes registrados; la onda directa es tenue y solo visible por esa potencia excepcional.",
+    "Los cocientes de la huella provienen del modelo analitico del paper normalizado con el espin del remanente (chi_f = 0,6725), no de una medicion independiente del horizonte.",
+    "Primera evidencia de su clase: aun no repetida en muchos eventos.",
+    "Trabajamos con muestras submuestreadas de los posteriores publicados, no con la cadena MCMC completa."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados yes + 1 partial, 9 numeros clave"
+  },
+  "notebook_slug": "2026-06-24-gw250114-horizonte-agujero-negro",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-06-24-gw250114-horizonte-agujero-negro/notebook.html",
+  "generated_at": "2026-07-06"
+}

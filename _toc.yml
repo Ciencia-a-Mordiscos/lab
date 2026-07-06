@@ -690,6 +690,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-06-24-gw250114-horizonte-agujero-negro/README
+    title: "GW250114: la huella del horizonte de un agujero negro"
+    sections:
+    - file: papers/2026-06-24-gw250114-horizonte-agujero-negro/notebook
+      title: Notebook
   - file: papers/2026-06-22-3i-atlas-isotopos-origen-frio/README
     title: "El carbono de 3I/ATLAS es casi el doble de primitivo que el del Sol"
     sections:

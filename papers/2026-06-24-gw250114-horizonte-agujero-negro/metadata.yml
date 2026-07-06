@@ -1,0 +1,28 @@
+titulo: "GW250114: la huella del horizonte de un agujero negro"
+fecha: 2026-07-06
+categoria: astronomía
+tags: [ondas-gravitacionales, agujeros-negros, ligo, horizonte, kerr, frame-dragging]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10696-0"
+    titulo: "GW250114 reveals signatures of post-merger black-hole horizon"
+    journal: Nature
+    autores: "Lu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "strain_blanqueado.csv"
+    descripcion: "Forma de onda blanqueada H1: observada, modelo NRSur7dq4 y con la onda directa sustraída"
+    fuente: "Release de código GW250114 (Zenodo 20017347)"
+  - nombre: "snr_onda_directa.csv"
+    descripcion: "Posterior de la SNR de la onda directa (H1/L1, óptima y filtro adaptado)"
+    fuente: "Release de código GW250114 (Zenodo 20017347)"
+  - nombre: "frecuencia_onda_directa.csv"
+    descripcion: "Frecuencia compleja de la onda directa normalizada a 2·Omega_H y kappa"
+    fuente: "Release de código GW250114 (Zenodo 20017347)"
+  - nombre: "remanente_posterior.csv"
+    descripcion: "Posterior NRSur7dq4 del remanente y progenitores"
+    fuente: "Scripts de figuras del descubrimiento (Zenodo 16877102)"
+estado: publicado
