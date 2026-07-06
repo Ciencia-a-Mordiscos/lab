@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "paper_id": 2704,
+  "doi": "10.1038/s41559-026-03102-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "El humano no tiene el parto más apretado del reino primate",
+      "supported": "yes",
+      "detail": "Puesto 13 de 29; 12 especies con CPP mayor. Más extremo: tamarino (CPP 2,80)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El humano SÍ es el simio con el parto más apretado",
+      "supported": "yes",
+      "detail": "Homo 1,00 vs gibón 0,81 (siguiente simio); gorila el más holgado (0,41)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "A menor masa materna, encaje más apretado (asociación)",
+      "supported": "yes",
+      "detail": "Spearman rho=-0,70 (p≈3e-5). Estudio observacional: correlación, no causa",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -0.7,
+        "interpretation": "fuerte negativa"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La unicidad del parto humano sería un artefacto de medición",
+      "supported": "partial",
+      "detail": "Hipótesis que matiza la idea clásica (may be an artefact), no veredicto cerrado",
+      "certainty_tier": "T3",
+      "abstract_verb": "may",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 29,
+      "unit": "especies",
+      "context": "primates actuales analizados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.0,
+      "unit": "CPP",
+      "context": "proporción cefalopélvica del humano (sinciput): cabeza = entrada pélvica",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "puesto de 29",
+      "context": "posición del humano en el ranking de estrechez (12 especies más apretadas)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.41,
+      "unit": "CPP",
+      "context": "gorila, el simio con el encaje más holgado",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.8,
+      "unit": "CPP",
+      "context": "tamarino de cabeza de algodón (Saguinus oedipus), el más apretado de todos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.7,
+      "unit": "Spearman rho",
+      "context": "correlación CPP vs masa corporal materna (p≈3e-5)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa en contexto observacional: 'los datos muestran que los humanos no son los únicos'"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'los datos revelan/muestran' (descriptivo sobre el propio dataset)"
+    },
+    {
+      "abstract_verb": "explains",
+      "tier": "T1",
+      "cam_attenuator": "'explica' (descriptivo, mismos datos)"
+    },
+    {
+      "abstract_verb": "thought to result from",
+      "tier": "T2",
+      "cam_attenuator": "'se creía que' — la hipótesis clásica que el paper matiza, NO un dato nuevo"
+    },
+    {
+      "abstract_verb": "may be an artefact",
+      "tier": "T3",
+      "cam_attenuator": "'todo apunta a que la idea de unicidad es un artefacto de medición' — NO endurecer a 'es un mito comprobado'"
+    }
+  ],
+  "narrative_hooks": [
+    "El parto humano se creía el más difícil del reino primate; entre 29 especies, el humano queda en el puesto 13.",
+    "Doce primates —tamarinos, gálagos, monos ardilla— tienen un parto más apretado que el humano.",
+    "El humano sí es el simio con el encaje más apretado, pero no el primate: la fama venía de mirar solo a la familia de al lado.",
+    "El factor que separa apretados de holgados no es el cerebro, sino el tamaño de la madre (Spearman -0,70)."
+  ],
+  "limitations": [
+    "Estudio observacional/comparativo: describe patrones entre especies, no prueba causas.",
+    "Usa medidas derivadas de las tablas suplementarias; los datos crudos de tomografía (CT) están restringidos.",
+    "CPP es un cociente de áreas 2D del plano de entrada pélvico: una simplificación útil del parto, no su geometría completa.",
+    "La correlación se reporta con Spearman porque la distribución de CPP no es normal (Shapiro p<0,001)."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados (yes) + 6 números clave"
+  },
+  "notebook_slug": "2026-07-06-parto-cefalopelvico-primates",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-06-parto-cefalopelvico-primates/notebook.html",
+  "generated_at": "2026-07-06T09:27:36.423963"
+}

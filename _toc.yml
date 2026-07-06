@@ -618,6 +618,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-07-06-parto-cefalopelvico-primates/README
+    title: "El parto humano no es el más difícil de los primates"
+    sections:
+    - file: papers/2026-07-06-parto-cefalopelvico-primates/notebook
+      title: Notebook
   - file: papers/2026-06-18-viola-vaina-pinzamiento-secuencial/README
     title: "Una violeta dispara sus semillas de a una"
     sections:

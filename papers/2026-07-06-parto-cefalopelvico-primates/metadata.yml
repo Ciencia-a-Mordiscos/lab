@@ -1,0 +1,22 @@
+titulo: "El parto humano no es el más difícil de los primates"
+fecha: 2026-07-06
+categoria: biología
+tags: [primates, evolución, parto, dilema-obstétrico, cefalopélvico, morfometría]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03102-5"
+    titulo: "Comparative primate analysis shows that humans are not unique in having a tight cephalopelvic fit at birth"
+    journal: Nature Ecology & Evolution
+    autores: "Torres-Tamayo et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cpp_primates.csv"
+    descripcion: "Tabla S1: proporciones cefalopélvicas (sinciput y cara) + áreas y medidas lineales de 29 especies"
+    fuente: "Supplementary Information (MOESM2)"
+  - nombre: "cpp_bodymass.csv"
+    descripcion: "Merge Tabla S1 (CPP sinciput) + Tabla S4 (masa corporal femenina) de 29 especies"
+    fuente: "Supplementary Information (MOESM2)"
+estado: publicado
