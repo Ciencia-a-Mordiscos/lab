@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "paper_id": 2705,
+  "doi": "10.1038/s41586-026-10837-5",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "nonhuman_primate",
+  "verification_table": [
+    {
+      "claim": "El inmunógeno cebador engancha a los precursores de las celulas B",
+      "supported": "yes",
+      "detail": "Kd mediana ~57 pM (picomolar); el 100% de los 239 anticuerpos medidos se une (<1 uM) al cebador N332-GT5",
+      "certainty_tier": "T1",
+      "abstract_verb": "prime",
+      "effect_size": null
+    },
+    {
+      "claim": "La amplitud de union madura con el tiempo",
+      "supported": "yes",
+      "detail": "Mediana de aislados unidos: 0 (sem 12) -> 4 (sem 56) -> 7 de 11 (sem 82); n=36-56 por semana",
+      "certainty_tier": "T1",
+      "abstract_verb": "generate",
+      "effect_size": null
+    },
+    {
+      "claim": "Los anticuerpos apuntan al supersitio del glicano N332",
+      "supported": "yes",
+      "detail": "55 de 56 anticuerpos (98%) pierden la union al quitar el glicano N332 -> epitopo buscado (mimetismo BG18)",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit",
+      "effect_size": null
+    },
+    {
+      "claim": "Firma estructural tipo BG18: HCDR3 largas",
+      "supported": "yes",
+      "detail": "HCDR3 mediana 21 aa (rango 20-24), n=292 en 17 primates; coincide con la clase esperada",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit",
+      "effect_size": null
+    },
+    {
+      "claim": "La amplitud es parcial, no universal",
+      "supported": "partial",
+      "detail": "Por aislado va de 90% (SF162P3, DU156) a 1% (0712); cuatro resisten (<40%): 0712, 0860, 1026, DU422",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": null
+    },
+    {
+      "claim": "Neutralizacion viral (matar el virus)",
+      "supported": "no",
+      "detail": "NO reproducido aqui: los % de neutralizacion (hasta 67% de amplitud; bnAb en >=50% de animales; suero en 44%) viven en tablas del SI no publicas. Aqui medimos UNION, el paso previo",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 57,
+      "unit": "picomolar",
+      "context": "Kd mediana del cebador N332-GT5 a los precursores",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 100,
+      "unit": "por ciento",
+      "context": "anticuerpos que unen el cebador <1 uM (n=239)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "de 11 aislados",
+      "context": "amplitud mediana de union en la semana 82",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 98,
+      "unit": "por ciento",
+      "context": "anticuerpos que pierden la union sin el glicano N332 (55 de 56)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 21,
+      "unit": "aminoacidos",
+      "context": "longitud mediana de la HCDR3 (n=292, 17 primates)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 73,
+      "unit": "anticuerpos maduros",
+      "context": "medidos en semanas 72 y 82; 7 no unieron ningun aislado",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa, pero 'prueba de concepto', NO 'vacuna lista'"
+    },
+    {
+      "abstract_verb": "proof of principle",
+      "tier": "T1",
+      "cam_attenuator": "prueba de concepto EN PRIMATES; hedge de escala: NO humanos, amplitud PARCIAL"
+    },
+    {
+      "abstract_verb": "support",
+      "tier": "T3",
+      "cam_attenuator": "'apoya la optimizacion futura' — es un paso, no un logro clinico"
+    }
+  ],
+  "narrative_hooks": [
+    "Durante casi 40 anos ninguna vacuna logro que un animal normal fabricara los anticuerpos amplios contra el VIH. En 2026, en monos, se logro.",
+    "En la semana 82, la mitad de los anticuerpos ya se pegaba a 7 de los 11 VIH del panel.",
+    "Quitale un solo azucar (el glicano N332) y el 98% de los anticuerpos suelta el virus: le apuntaban exactamente ahi."
+  ],
+  "limitations": [
+    "Todo lo graficado es UNION (afinidad SPR), no neutralizacion viral.",
+    "Estudio en primates no humanos, no en personas: prueba de concepto, no una vacuna lista.",
+    "El panel son 11 aislados clinicos; la amplitud 'hasta 67%' del paper es contra un panel de referencia distinto.",
+    "La semana 95 tiene n=11 y no debe leerse como una caida real de la amplitud."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados yes + 1 partial + 6 numeros clave"
+  },
+  "notebook_slug": "2026-07-08-vacuna-hiv-anticuerpos-primates",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-08-vacuna-hiv-anticuerpos-primates/notebook.html",
+  "generated_at": "2026-07-08"
+}

@@ -1,0 +1,25 @@
+titulo: "Una vacuna hizo que monos fabricaran anticuerpos contra el VIH"
+fecha: 2026-07-08
+categoria: medicina
+tags: [vih, vacunas, anticuerpos, inmunologia, primates, germline-targeting, bnAb]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10837-5"
+    titulo: "Vaccination elicits HIV broadly neutralizing antibodies in primates"
+    journal: Nature
+    autores: "Steichen, Madden, Flynn et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "kd_matrix.csv"
+    descripcion: "Matriz Kd (SPR) anticuerpo x inmunogeno, 3348 mediciones"
+    fuente: "Supplementary Data 2 (MOESM4)"
+  - nombre: "control_n332.csv"
+    descripcion: "Kd pareado con/sin glicano N332"
+    fuente: "Supplementary Data 2 (MOESM4)"
+  - nombre: "cdr3_longitudes.csv"
+    descripcion: "Longitud HCDR3 de anticuerpos clase BG18 tipo I"
+    fuente: "Supplementary Data 1 (MOESM3)"
+estado: publicado
