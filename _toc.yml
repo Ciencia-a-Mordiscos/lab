@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-07-08-karenia-cristata-mortandad-marina/README
+    title: "Un millón de animales muertos: el culpable estaba en el agua"
+    sections:
+    - file: papers/2026-07-08-karenia-cristata-mortandad-marina/notebook
+      title: Notebook
   - file: papers/2026-06-30-pastos-marinos-mapa-global/README
     title: "Casi todos los pastos marinos del mundo caben en 5 países"
     sections:

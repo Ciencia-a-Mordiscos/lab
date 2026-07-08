@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "paper_id": 2726,
+  "doi": "10.1038/s41559-026-03115-0",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "marine_invertebrates_and_fish_cells",
+  "verification_table": [
+    {
+      "claim": "K. cristata dominó la floración: 88,6% del total de células de Karenia, la más abundante en 96 de 115 muestras, 11x sobre la segunda especie.",
+      "supported": "yes",
+      "detail": "qPCR sobre 115 muestras (36 sitios x 22 fechas). Suma cross-muestras. Dato descriptivo/observacional.",
+      "certainty_tier": "T1",
+      "abstract_verb": "dominate",
+      "effect_size": {"measure": "ratio", "value": 11.3, "interpretation": "dominancia extrema"}
+    },
+    {
+      "claim": "El sobrenadante de K. cristata es tóxico para células de branquia de trucha: dosis-respuesta monotónica fuerte, EC50 ~27 cell/mL.",
+      "supported": "yes",
+      "detail": "Bioensayo in vitro RTgill-W1, 2h, 8 concentraciones, n=40. Spearman rho=-0,93, p<0,001. Viabilidad de ~100% a ~2%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "spearman_rho", "value": -0.933, "interpretation": "muy fuerte"}
+    },
+    {
+      "claim": "El cultivo aislado de K. cristata reproduce la toxicidad del material de campo sobre invertebrados (rotíferos y Artemia).",
+      "supported": "yes",
+      "detail": "Comparación WL (campo) vs KC (cultivo puro): ambos matan igual. Cierra el vínculo causal alga->muerte.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "spearman_rho", "value": 0.91, "interpretation": "fuerte (rotíferos)"}
+    },
+    {
+      "claim": "Rotíferos más sensibles que Artemia: rotíferos hasta 100% de mortalidad; Artemia hasta ~80% con línea base más alta (18%).",
+      "supported": "yes",
+      "detail": "Series de dilución; endpoints control vs dosis máxima. Artemia dosis-respuesta más débil (rho~0,56-0,68) pero significativa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "porcentaje", "value": 100, "interpretation": "mortalidad máxima rotíferos"}
+    },
+    {
+      "claim": "Las concentraciones de K. cristata en el mar superaron ampliamente el umbral letal medido en laboratorio: mediana ~337 cell/mL, ~12x el EC50 de branquia; picos de ~15.000 cell/mL.",
+      "supported": "yes",
+      "detail": "Conversión abundancia campo cells/L -> cells/mL comparada contra EC50 gill (27 cell/mL). Indicador de potencia, no dosis letal en la naturaleza.",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "ratio", "value": 12, "interpretation": "mediana sobre umbral letal"}
+    }
+  ],
+  "key_numbers": [
+    {"value": 88.6, "unit": "por ciento", "context": "K. cristata como fracción del total de células de Karenia (suma cross-muestras)", "source": "fact_sheet", "verified": true},
+    {"value": 96, "unit": "de 115 muestras", "context": "muestras donde K. cristata fue la especie más abundante", "source": "fact_sheet", "verified": true},
+    {"value": 11.3, "unit": "veces", "context": "K. cristata sobre la segunda especie (K. papilionacea) por abundancia total", "source": "fact_sheet", "verified": true},
+    {"value": 15015440, "unit": "cells/L", "context": "abundancia máxima de K. cristata en una muestra", "source": "fact_sheet", "verified": true},
+    {"value": 336584, "unit": "cells/L", "context": "mediana de K. cristata donde presente", "source": "fact_sheet", "verified": true},
+    {"value": 27.2, "unit": "cell/mL", "context": "EC50 estimado sobre células de branquia (RTgill-W1)", "source": "notebook", "verified": true},
+    {"value": -0.933, "unit": "Spearman rho", "context": "dosis-respuesta viabilidad de branquia vs concentración (n=40, p=1.8e-18)", "source": "notebook", "verified": true},
+    {"value": 100, "unit": "por ciento", "context": "mortalidad máxima de rotíferos a dosis alta", "source": "fact_sheet", "verified": true},
+    {"value": 83, "unit": "por ciento", "context": "mortalidad máxima de Artemia (más resistente)", "source": "fact_sheet", "verified": true},
+    {"value": 12, "unit": "veces", "context": "mediana de campo (~337 cell/mL) sobre el EC50 de branquia (27 cell/mL)", "source": "notebook", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "dominate", "tier": "T1", "cam_attenuator": "afirmación directa descriptiva (muestreo qPCR)"},
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa (toxicidad experimental con control ASW)"},
+    {"abstract_verb": "appear", "tier": "T2", "cam_attenuator": "'todo apunta a' — mecanismo hidrodinámico no probado"},
+    {"abstract_verb": "represent (emerging threat)", "tier": "T2", "cam_attenuator": "'los autores plantean una amenaza emergente' — no escalar"}
+  ],
+  "narrative_hooks": [
+    "Un millón de animales muertos en 20.000 km2, y el culpable estaba en el agua: una sola alga nueva dominó el 88,6% del muestreo.",
+    "En el laboratorio bastan 27 células por mililitro para matar media branquia; el mar tenía la mediana en ~337, doce veces por encima."
+  ],
+  "limitations": [
+    "El EC50 de ~27 cell/mL viene de células de branquia de trucha in vitro (2h), no del pez entero ni de las especies que murieron: indicador de potencia, no dosis letal en la naturaleza.",
+    "Las diluciones de invertebrados son pocas y ruidosas: se reporta tendencia (Spearman) y extremos, no una LC50 puntual.",
+    "El mecanismo que concentró la floración (hidrodinámica, condiciones oceánicas) no se prueba con estos datos; los autores lo plantean como hipótesis."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados yes + 10 números clave -> script denso"
+  },
+  "notebook_slug": "2026-07-08-karenia-cristata-mortandad-marina",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-08-karenia-cristata-mortandad-marina/notebook.html",
+  "generated_at": "2026-07-08"
+}
