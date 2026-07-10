@@ -1,0 +1,21 @@
+predictor,study_label,outcome_label,exp_type,r,r_ci_lo,r_ci_hi
+gpt,Allen et al. 2024,COVID-19 attitudes,Survey experiments,0.4922693884399558,0.71,1
+gpt,Broockman et al. 2024,Political attitudes,Survey experiments,0.1999389916114113,-0.09428571428571428,0.494047619047619
+gpt,Dellavigna & Linos 2022,Various behavioural outcomes,Field experiments,0.2711271406199791,-0.24,0.71
+gpt,Dellavigna & Pope 2018,Typing task effort,Survey experiments,0.6912827524694458,0.3100000000000001,0.8800000000000001
+gpt,Vlasceanu et al. 2024,Climate-related attitudes,Survey experiments,0.4725385602062129,0.2150000000000001,1
+gpt,Goldwert et al. 2026,Climate-related attitudes,Survey experiments,0.2973055612995961,-0.24,0.77
+gpt,Mason et al. 2025,Intention to vote,Survey experiments,0.2392125207800603,-0.4399999999999999,0.77
+gpt,Milkman et al. 2021,Gym attendance,Field experiments,0.04939929377682982,-0.05999999999999994,0.3600000000000001
+gpt,Milkman et al. 2022,Flu vaccination,Field experiments,0.4853383748816544,0.1100000000000001,0.78
+gpt,Milkman et al. 2024,COVID-19 vaccination,Field experiments,0.1692809882141633,-0.6,0.79
+gpt,Voelkel et al. 2024,Democracy-related attitudes,Survey experiments,0.3380142640094481,-0.04999999999999999,0.66
+gpt,Saccardo et al. 2024,COVID-19 vaccination,Field experiments,0.6549551569305923,0.28,1
+gpt,Tappin et al. 2023,UBI & Immigration policy support,Survey experiments,0.4149720678532874,-0.1125,0.865
+gpt,Voelkel et al. 2025,Climate-related attitudes,Survey experiments,0.8435506417617835,0.685,0.995
+gpt,Zickfeld et al. 2025,Tax compliance,Survey experiments,0.3588684684868345,-0.07999999999999996,0.75
+gpt,,,Average,0.39350784407357,0.3552539682539683,0.5962301587301587
+gpt,,,Average,0.4272516706680333,0.3563809523809525,0.6569404761904762
+gpt,,,Average,0.3260201908846437,0.1520000000000001,0.5940000000000001
+gpt,,,Average,0.3373098704751088,0.220952380952381,0.5306613756613757
+expert,,,Average,0.262141990433599,0.1448677248677249,0.4602645502645503

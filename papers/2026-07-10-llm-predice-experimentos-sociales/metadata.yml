@@ -1,0 +1,25 @@
+titulo: "¿Puede una IA adivinar cómo reaccionará la gente antes de preguntarle?"
+fecha: 2026-07-10
+categoria: tecnologia
+tags: [inteligencia-artificial, llm, gpt-4, ciencias-sociales, experimentos, prediccion]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10742-x"
+    titulo: "Large language models can predict the results of social science experiments"
+    journal: Nature
+    autores: "Hewitt et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "predicciones_vs_reales.csv"
+    descripcion: "Efecto real vs predicho por GPT-4 para 3.356 contrastes (Fig 1)"
+    fuente: "Code Ocean capsule 9843791 / Nature Supplementary"
+  - nombre: "correlacion_por_modelo.csv"
+    descripcion: "Correlación cruda y ajustada por modelo, con IC 95%"
+    fuente: "Nature Supplementary (MOESM4)"
+  - nombre: "gpt_vs_expertos_megastudias.csv"
+    descripcion: "r de GPT vs expertos en 15 megastudios de campo"
+    fuente: "Nature Supplementary (MOESM5)"
+estado: publicado

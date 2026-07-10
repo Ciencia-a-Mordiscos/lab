@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "paper_id": 2732,
+  "doi": "10.1038/s41586-026-10742-x",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Las predicciones de GPT-4 se correlacionan fuerte con los efectos reales de los experimentos",
+      "supported": "yes",
+      "detail": "Pearson r = 0,80 sobre 3.356 contrastes (cálculo propio, sin ponderar); a nivel de estudio el paper reporta 0,85 crudo / 0,92 ajustado por error de medición. Spearman 0,68 como cota conservadora.",
+      "certainty_tier": "T1",
+      "abstract_verb": "strongly correlated",
+      "effect_size": {"measure": "pearson_r", "value": 0.805, "interpretation": "fuerte"}
+    },
+    {
+      "claim": "La IA acierta incluso en estudios que no pudo haber leído (posteriores a su corte de entrenamiento)",
+      "supported": "yes",
+      "detail": "No publicados antes del corte: r = 0,87; ya publicados: r = 0,69. Evidencia contra la hipótesis de mera memorización. Patrón dentro de este archivo, no garantía universal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "remained high",
+      "effect_size": {"measure": "pearson_r", "value": 0.869, "interpretation": "fuerte"}
+    },
+    {
+      "claim": "GPT-4 queda a la altura de los pronósticos humanos combinados",
+      "supported": "yes",
+      "detail": "r ajustado 0,92 (GPT-4) vs 0,89–0,93 (humanos). Modelos abiertos 0,81–0,86; el viejo davinci-002 se cae a 0,24.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving accuracy similar to",
+      "effect_size": {"measure": "pearson_r_adj", "value": 0.915, "interpretation": "fuerte"}
+    },
+    {
+      "claim": "La IA sobreestima sistemáticamente el tamaño de los efectos",
+      "supported": "yes",
+      "detail": "Magnitud media predicha 0,114 vs real 0,083 (+39%); pendiente de regresión real~predicho 0,55 (<1 confirma inflación sistemática).",
+      "certainty_tier": "T1",
+      "abstract_verb": "systematically overestimated",
+      "effect_size": {"measure": "regression_slope", "value": 0.551, "interpretation": "sobreestimación"}
+    },
+    {
+      "claim": "En megastudios de campo el acierto baja, comparable al de los expertos humanos",
+      "supported": "partial",
+      "detail": "r de GPT ~0,34 (global), comparable a expertos ~0,26. Encuestas 0,44 vs campo 0,33 (media simple de los 15 megastudios). Correlación más modesta que en el archivo principal.",
+      "certainty_tier": "T1",
+      "abstract_verb": "lower but comparable",
+      "effect_size": {"measure": "pearson_r", "value": 0.337, "interpretation": "modesto"}
+    }
+  ],
+  "key_numbers": [
+    {"value": 0.805, "unit": "r (Pearson)", "context": "correlación predicho vs real, pooled sobre 3.356 contrastes (cálculo propio)", "source": "notebook", "verified": true,
+     "cross_check": {"paper_reported": "0.851 (raw) / 0.915 (adj)", "our_calculation": "0.805", "discrepancy_pct": 5.4, "reason": "nuestro Pearson no-ponderado a nivel contraste; el paper computa correlación meta-analítica a nivel de estudio ponderada por precisión, y r_adj disattenúa por error de medición"}},
+    {"value": 0.915, "unit": "r_adj", "context": "GPT-4, correlación ajustada por error de medición (paper)", "source": "fact_sheet", "verified": true},
+    {"value": 0.851, "unit": "r_raw", "context": "GPT-4, correlación cruda a nivel de estudio (paper)", "source": "fact_sheet", "verified": true},
+    {"value": 0.933, "unit": "r_adj", "context": "humanos, pronósticos combinados (referencia)", "source": "fact_sheet", "verified": true},
+    {"value": 0.235, "unit": "r_adj", "context": "davinci-002 (modelo de 2021), casi al azar", "source": "fact_sheet", "verified": true},
+    {"value": 0.551, "unit": "pendiente", "context": "regresión efecto real ~ efecto predicho; <1 = sobreestimación", "source": "notebook", "verified": true},
+    {"value": 39, "unit": "por ciento", "context": "cuánto más grande es la magnitud media predicha (0,114) que la real (0,083)", "source": "notebook", "verified": true},
+    {"value": 0.689, "unit": "r (Pearson)", "context": "estudios ya publicados antes del corte de entrenamiento", "source": "notebook", "verified": true},
+    {"value": 0.869, "unit": "r (Pearson)", "context": "estudios no publicados (la IA no los vio)", "source": "notebook", "verified": true},
+    {"value": 0.337, "unit": "r (Pearson)", "context": "GPT en el archivo secundario de megastudios de campo", "source": "fact_sheet", "verified": true},
+    {"value": 0.262, "unit": "r (Pearson)", "context": "expertos humanos en los mismos megastudios", "source": "fact_sheet", "verified": true},
+    {"value": 70, "unit": "experimentos", "context": "experimentos preregistrados representativos de EE. UU. en el archivo principal", "source": "fact_sheet", "verified": true},
+    {"value": 469, "unit": "efectos", "context": "efectos experimentales en el archivo principal", "source": "fact_sheet", "verified": true},
+    {"value": 119330, "unit": "participantes", "context": "participantes totales en el archivo principal", "source": "fact_sheet", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "strongly correlated", "tier": "T1", "cam_attenuator": "afirmación directa: 'se correlacionaron fuerte con los efectos reales'"},
+    {"abstract_verb": "achieving accuracy similar to", "tier": "T1", "cam_attenuator": "afirmación directa con dato: 'a la altura de los pronósticos humanos'"},
+    {"abstract_verb": "systematically overestimated", "tier": "T1", "cam_attenuator": "afirmación directa: 'sobreestima sistemáticamente el tamaño de los efectos'"},
+    {"abstract_verb": "can predict", "tier": "T2", "cam_attenuator": "'puede adivinar / es capaz de predecir' — NO 'siempre acierta'"},
+    {"abstract_verb": "can augment", "tier": "T2", "cam_attenuator": "'puede complementar los métodos experimentales' — NO 'reemplaza a los científicos'"}
+  ],
+  "narrative_hooks": [
+    "Una IA predijo el resultado de 70 experimentos sociales sin correr ninguno — y acertó tanto como un grupo de humanos expertos.",
+    "Los estudios que la IA NO pudo leer los predijo incluso mejor (r=0,87) que los que sí — evidencia de que no solo memoriza.",
+    "Ordena bien pero exagera: la IA infla el tamaño de los efectos un 39% en promedio."
+  ],
+  "limitations": [
+    "Solo experimentos de encuesta representativos de EE. UU.; no generaliza a otras culturas ni garantiza comportamiento real.",
+    "La correlación de Pearson se apoya en la estructura simétrica de los contrastes (A-vs-B y B-vs-A); la de rangos (Spearman 0,68) es más conservadora.",
+    "Correlación ≠ exactitud: la IA ordena bien pero infla magnitudes, así que no sirve para estimar el tamaño exacto de un efecto.",
+    "'Predecir' es a nivel agregado de un grupo, no de una persona; en megastudios de campo el acierto baja a ~0,34."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados 'yes' + 1 parcial, 14 números clave — script estándar denso"
+  },
+  "notebook_slug": "2026-07-10-llm-predice-experimentos-sociales",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-10-llm-predice-experimentos-sociales/notebook.html",
+  "generated_at": "2026-07-10"
+}

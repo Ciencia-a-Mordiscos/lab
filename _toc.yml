@@ -846,6 +846,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-07-10-llm-predice-experimentos-sociales/README
+    title: "¿Puede una IA adivinar cómo reaccionará la gente?"
+    sections:
+    - file: papers/2026-07-10-llm-predice-experimentos-sociales/notebook
+      title: Notebook
   - file: papers/2026-07-03-mira-ia-medica-autonoma/README
     title: "¿Puede una IA manejar un caso clínico mejor que un médico?"
     sections:
