@@ -1,0 +1,22 @@
+titulo: "Un robot humanoide operó en un laboratorio de cirugía. ¿Qué tan bien lo hizo?"
+fecha: 2026-07-10
+categoria: tecnología
+tags: [robótica, cirugía, humanoides, laparoscopia, da-vinci, benchmarking]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10796-x"
+    titulo: "In vivo feasibility study of humanoid robots in surgery"
+    journal: Nature
+    autores: "et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "peg_transfer_data.csv"
+    descripcion: "Peg transfer: 13 participantes × 3 modalidades (duración + errores)"
+    fuente: "Zenodo 20434260"
+  - nombre: "oring_transfer_data.csv"
+    descripcion: "O-ring transfer: 18 participantes × 3 plataformas × 6 intentos (tiempo + error ponderado)"
+    fuente: "Zenodo 20434260"
+estado: publicado

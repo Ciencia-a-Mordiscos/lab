@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "paper_id": 2729,
+  "doi": "10.1038/s41586-026-10796-x",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El humanoide es más lento que el da Vinci en peg transfer",
+      "supported": "yes",
+      "detail": "Mediana 351 s vs 102 s (~3,4×). Pareado dz=0,82, Wilcoxon p=0,001, n=11",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {
+        "measure": "cohen_dz",
+        "value": 0.82,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El humanoide es más rápido que la laparoscopia manual en peg transfer",
+      "supported": "yes",
+      "detail": "Mediana 351 s vs 696 s (~2×). Pareado dz=-0,83, p=0,010, n=11",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {
+        "measure": "cohen_dz",
+        "value": -0.83,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La precisión del humanoide iguala a la del dVRK en o-ring",
+      "supported": "yes",
+      "detail": "Error ponderado/intento: dz=-0,04, Wilcoxon p=0,72 → sin diferencia detectable, n=18",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {
+        "measure": "cohen_dz",
+        "value": -0.04,
+        "interpretation": "nulo"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El humanoide comete menos error ponderado que la laparoscopia manual en o-ring",
+      "supported": "partial",
+      "detail": "Mediana 5,2 vs 6,7; dz=-0,62, p=0,022. Real pero efecto moderado",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantify",
+      "effect_size": {
+        "measure": "cohen_dz",
+        "value": -0.62,
+        "interpretation": "moderado"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los cirujanos manejan el humanoide más rápido que los novatos",
+      "supported": "yes",
+      "detail": "Mediana 41,9 s vs 108,7 s por intento. Diferencia descriptiva, grupos pequeños (6 vs 12)",
+      "certainty_tier": "T2",
+      "abstract_verb": "quantify",
+      "effect_size": {
+        "measure": "median_ratio",
+        "value": 0.39,
+        "interpretation": "descriptivo"
+      },
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 102,
+      "unit": "segundos",
+      "context": "mediana de duración peg transfer, da Vinci",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 351,
+      "unit": "segundos",
+      "context": "mediana de duración peg transfer, humanoide",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 696,
+      "unit": "segundos",
+      "context": "mediana de duración peg transfer, manual",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 3.4,
+      "unit": "veces",
+      "context": "humanoide más lento que da Vinci (peg, medianas)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 0.72,
+      "unit": "p-value",
+      "context": "error o-ring humanoide vs dVRK: sin diferencia (Wilcoxon)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 0.022,
+      "unit": "p-value",
+      "context": "error o-ring humanoide vs manual: menor (Wilcoxon)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 41.9,
+      "unit": "segundos",
+      "context": "mediana tiempo/intento o-ring, cirujanos con el humanoide (vs 108,7 novatos)",
+      "source": "dataset",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "presentan / evaluaron sistemáticamente"
+    },
+    {
+      "abstract_verb": "quantify",
+      "tier": "T1",
+      "cam_attenuator": "cuantificaron"
+    },
+    {
+      "abstract_verb": "feasibility",
+      "tier": "T2",
+      "cam_attenuator": "viabilidad técnica, NO eficacia clínica"
+    },
+    {
+      "abstract_verb": "can perform",
+      "tier": "T2",
+      "cam_attenuator": "pueden hacer las tareas EN EL SCOPE probado (teleoperación, dry-lab)"
+    }
+  ],
+  "narrative_hooks": [
+    "Un robot humanoide de propósito general hizo las mismas pruebas que un cirujano para certificarse en laparoscopia.",
+    "El humanoide es ~3,4× más lento que el da Vinci, pero ~2× más rápido que la mano humana con instrumentos.",
+    "En precisión, el humanoide empata con el dVRK: la diferencia de error no es estadísticamente distinguible.",
+    "Con el humanoide, los cirujanos tardan menos de la mitad que los novatos: la destreza se transfiere al mando del robot."
+  ],
+  "limitations": [
+    "Tareas de laboratorio (dry-lab), no cirugía en un paciente real.",
+    "El humanoide es teleoperado: una persona lo dirige, no opera de forma autónoma.",
+    "Muestras pequeñas (n=13 peg, n=18 o-ring) con casos incompletos en peg.",
+    "Estudio de viabilidad técnica, NO de eficacia clínica; el paper marca retos por resolver antes de uso clínico.",
+    "Los estudios in vivo porcinos que menciona el abstract no están en el dataset público."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes) + 1 parcial, 7 números clave — script estándar"
+  },
+  "notebook_slug": "2026-07-08-humanoides-cirugia-laparoscopica",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-08-humanoides-cirugia-laparoscopica/notebook.html",
+  "generated_at": "2026-07-10T00:00:00-05:00"
+}

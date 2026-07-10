@@ -1,0 +1,40 @@
+Participant,Notes,Modality,Duration (s),Drops,Collision,Failed Pick Up,Total Error
+Participant 1,Junior,da Vinci,98,0,1,0,1
+Participant 1,Junior,Humanoid,,,,,
+Participant 1,Junior,Manual,,,,,
+Participant 2,Junior,da Vinci,146,0,3,1,4
+Participant 2,Junior,Humanoid,647,5,3,6,9
+Participant 2,Junior,Manual,696,1,14,7,22
+Participant 3,Junior,da Vinci,222,0,1,0,1
+Participant 3,Junior,Humanoid,841,5,4,3,12
+Participant 3,Junior,Manual,1933,6,15,3,24
+Participant 4,Junior,da Vinci,115,0,2,0,2
+Participant 4,Junior,Humanoid,406,0,1,3,4
+Participant 4,Junior,Manual,934,6,5,7,18
+Participant 5,Junior,da Vinci,117,0,2,0,2
+Participant 5,Junior,Humanoid,284,1,2,0,3
+Participant 5,Junior,Manual,437,0,4,3,7
+Participant 6,Junior,da Vinci,,,,,
+Participant 6,Junior,Humanoid,260,0,2,1,3
+Participant 6,Junior,Manual,,,,,
+Participant 7,Senior,da Vinci,82,0,0,0,0
+Participant 7,Senior,Humanoid,354,1,1,2,4
+Participant 7,Senior,Manual,1026,2,14,4,20
+Participant 8,Junior,da Vinci,234,1,0,0,1
+Participant 8,Junior,Humanoid,2344,9,7,8,24
+Participant 8,Junior,Manual,2688,12,30,21,63
+Participant 9,Junior,da Vinci,95,0,0,0,0
+Participant 9,Junior,Humanoid,574,1,3,2,6
+Participant 9,Junior,Manual,717,8,4,3,15
+Participant 10,Senior,da Vinci,51,0,1,0,1
+Participant 10,Senior,Humanoid,300,1,0,1,2
+Participant 10,Senior,Manual,205,2,1,0,3
+Participant 11,Senior,da Vinci,78,1,2,0,3
+Participant 11,Senior,Humanoid,168,0,1,2,3
+Participant 11,Senior,Manual,325,2,1,3,6
+Participant 12,Senior,da Vinci,106,0,0,1,1
+Participant 12,Senior,Humanoid,195,1,1,1,3
+Participant 12,Senior,Manual,402,3,3,2,8
+Participant 13,Senior,da Vinci,75,0,0,0,0
+Participant 13,Senior,Humanoid,348,2,0,0,2
+Participant 13,Senior,Manual,293,0,0,6,6
