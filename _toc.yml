@@ -839,6 +839,11 @@ parts:
       title: Notebook
 - caption: Física
   chapters:
+  - file: papers/2026-07-09-verificacion-tratado-espacial-neutrones/README
+    title: "Verificar el tratado espacial con protones cósmicos"
+    sections:
+    - file: papers/2026-07-09-verificacion-tratado-espacial-neutrones/notebook
+      title: Notebook
   - file: papers/2026-03-11-diamante-hexagonal-meteoritos/README
     title: 'Diamante hexagonal: el cristal de los meteoritos'
     sections:

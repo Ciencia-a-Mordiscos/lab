@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "paper_id": 2734,
+  "doi": "10.1038/s41586-026-10783-2",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los protones ~1 GeV del cinturón pueden astillar (spallation) neutrones del material de un arma",
+      "supported": "yes",
+      "detail": "Física de spallation conocida, simulada con Geant4. El espectro de neutrones (pico a 0,15 MeV) sale de esa simulación",
+      "certainty_tier": "T1",
+      "abstract_verb": "observing/induced",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Un CubeSat 9U identificaría un arma termonuclear a 4 km en ~1 semana (7,25 días con 1 detector)",
+      "supported": "partial",
+      "detail": "La ley de escala da 173,9 h = 7,25 días a 4 km con n=1, reproduciendo el titular del abstract. Es un cálculo/simulación, no una medición en órbita",
+      "certainty_tier": "T3",
+      "abstract_verb": "calculations show / feasibility",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Con 10 CubeSats el tiempo de observación baja a ~17 horas",
+      "supported": "partial",
+      "detail": "17,4 h al dividir por n=10 en la misma ley de escala. Mismo estatus: cálculo, no medida",
+      "certainty_tier": "T3",
+      "abstract_verb": "calculations show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Este método ya verifica el Tratado del Espacio Exterior",
+      "supported": "no",
+      "detail": "Es un estudio conceptual y de viabilidad. No hay hardware volado ni validación en órbita; el paper dice que 'estimulará' investigación futura",
+      "certainty_tier": "T3",
+      "abstract_verb": "conceptual study / will stimulate",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1967,
+      "unit": "año",
+      "context": "el Tratado del Espacio Exterior se abrió a firmas",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 117,
+      "unit": "países",
+      "context": "parte del tratado, incluidos China, EE.UU. y Rusia",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "km",
+      "context": "distancia de detección del arma termonuclear (en simulación)",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 7.25,
+      "unit": "días",
+      "context": "tiempo de observación con 1 CubeSat 9U a 4 km (ley de escala)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~1 semana",
+        "our_calculation": "7,25 días (173,9 h)",
+        "discrepancy_pct": 3.6,
+        "reason": "la fórmula analítica reproduce el titular del abstract"
+      }
+    },
+    {
+      "value": 17.4,
+      "unit": "horas",
+      "context": "tiempo de observación con 10 CubeSats a 4 km",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.15,
+      "unit": "MeV",
+      "context": "energía del pico del espectro de neutrones por spallation (dato: 0,148 MeV)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 48615,
+      "unit": "protones cm⁻² s⁻¹ MeV⁻¹",
+      "context": "flujo de protones a 0,1 MeV (cinturón interno)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0077,
+      "unit": "protones cm⁻² s⁻¹ MeV⁻¹",
+      "context": "flujo de protones cerca de 1.200 MeV (~1 GeV)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present (concept and feasibility study)",
+      "tier": "T1",
+      "cam_attenuator": "'se presenta un estudio de viabilidad' — afirmación directa SOLO sobre lo que hicieron (calcular/simular)"
+    },
+    {
+      "abstract_verb": "show (the calculations show)",
+      "tier": "T1",
+      "cam_attenuator": "'las simulaciones/cálculos muestran' — NO 'un CubeSat detecta'. Es modelo_simulacion: el 'show' aplica al cálculo, no a una capacidad probada en órbita"
+    },
+    {
+      "abstract_verb": "is possible / feasibility",
+      "tier": "T3",
+      "cam_attenuator": "'sería posible' / 'es viable en principio' — el claim central es de VIABILIDAD, no de hecho demostrado"
+    },
+    {
+      "abstract_verb": "conceptual study",
+      "tier": "T3",
+      "cam_attenuator": "'estudio conceptual' — nadie ha construido ni volado el detector; enmarcar como pregunta abierta / próximo paso"
+    },
+    {
+      "abstract_verb": "will stimulate future research",
+      "tier": "T3",
+      "cam_attenuator": "'busca abrir la puerta a' — forward-looking, NO 'ya resuelve la verificación del tratado'"
+    }
+  ],
+  "narrative_hooks": [
+    "Un arma nuclear escondida en un satélite podría delatarse sola: los protones del cinturón de Van Allen la astillan y sueltan neutrones.",
+    "El Tratado del Espacio Exterior lleva desde 1967 sin una forma publicada de verificarse — hasta esta propuesta.",
+    "4 km en una semana con un solo CubeSat; 17 horas con diez.",
+    "El tiempo de detección crece con el cuadrado de la distancia: cada kilómetro extra cuesta caro."
+  ],
+  "limitations": [
+    "Todo son simulaciones (Geant4) y una fórmula analítica de escala; ningún detector ha sido construido ni volado.",
+    "La ley de escala asume un arma termonuclear concreta y un punto orbital fijo del cinturón interno.",
+    "El flujo de protones proviene de un modelo de ambiente (AP9/Irene), no de medidas en el momento de una inspección.",
+    "Los 4 km y la '~1 semana' son el mejor caso presentado; distancias mayores disparan el tiempo (crece con d²)."
+  ],
+  "suggested_word_range": {
+    "min": 180,
+    "max": 230,
+    "reason": "1 claim directo + 2 en-simulación verificados + 8 números clave; estudio conceptual pide precisión sobre certeza"
+  },
+  "notebook_slug": "2026-07-09-verificacion-tratado-espacial-neutrones",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-09-verificacion-tratado-espacial-neutrones/notebook.html",
+  "generated_at": "2026-07-12T10:59:54.415745"
+}

@@ -1,0 +1,25 @@
+titulo: "Verificación del Tratado del Espacio Exterior con protones cósmicos"
+fecha: 2026-07-12
+categoria: física
+tags: [física, espacio, neutrones, van-allen, tratado-espacial, cubesat, spallation, geant4]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10783-2"
+    titulo: "Verification of the Outer Space Treaty with cosmic protons"
+    journal: Nature
+    autores: "Danagoulian et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "diff.AP9.output_mean_flux.AP9_i316.tsv"
+    descripcion: "Espectro de flujo de protones del cinturón interno de Van Allen (AP9/Irene)"
+    fuente: "github.com/ustajan/kosmos"
+  - nombre: "neutron_spallation.tsv"
+    descripcion: "Espectro de neutrones por spallation (Geant4), pico a 0,15 MeV"
+    fuente: "github.com/ustajan/kosmos"
+  - nombre: "diff.AE9.output_mean_flux.AE9_i316.tsv"
+    descripcion: "Espectro de flujo de electrones de fondo (AE9/Irene)"
+    fuente: "github.com/ustajan/kosmos"
+estado: publicado
