@@ -1,0 +1,28 @@
+titulo: "El bosque que también es una biblioteca"
+fecha: 2026-07-08
+categoria: ecología
+tags: [amazonía, etnobotánica, cambio climático, pueblos indígenas, biodiversidad, plantas]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10741-y"
+    titulo: "The forest of knowledge under global change"
+    journal: Nature
+    autores: "Cámara-Leret et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "perdida_por_region.csv"
+    descripcion: "Pérdida proyectada de especies/servicios por tipo de región lingüística (media±SD, Wilcoxon)"
+    fuente: "Texto del paper (Open Access)"
+  - nombre: "categorias_uso.csv"
+    descripcion: "Especies modeladas por categoría de uso"
+    fuente: "Texto del paper (Open Access)"
+  - nombre: "palmas_citadas.csv"
+    descripcion: "5 palmas top: referencias vs grupos indígenas"
+    fuente: "Texto del paper (Open Access)"
+  - nombre: "familias_utilizadas.csv"
+    descripcion: "Top 5 familias por especies utilizadas"
+    fuente: "Texto del paper (Open Access)"
+estado: publicado

@@ -1,0 +1,5 @@
+variable,tipo_region,media_pct,sd_pct,wilcoxon_W,p_value
+especies_perdidas,lenguas_amenazadas,39,27,863,0.0043
+especies_perdidas,lenguas_no_amenazadas,25,20,863,0.0043
+servicios_perdidos,lenguas_amenazadas,27,20,824,0.0018
+servicios_perdidos,lenguas_no_amenazadas,17,15,824,0.0018

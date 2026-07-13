@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "paper_id": 2739,
+  "doi": "10.1038/s41586-026-10741-y",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "En las regiones con lenguas indigenas amenazadas se proyecta perder mas especies utiles (39% vs 25%) hacia 2060-2080",
+      "supported": "yes",
+      "detail": "+14 pp, ratio 1,56x, Wilcoxon P=0,0043, tamano de efecto d~=0,59 (medio). Comparacion observacional de valores proyectados, no causal.",
+      "certainty_tier": "T2",
+      "abstract_verb": "projected to experience",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.59,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "Lo mismo ocurre con los servicios de las plantas: 27% de perdida proyectada en regiones amenazadas vs 17% en no amenazadas",
+      "supported": "yes",
+      "detail": "+10 pp, ratio 1,59x, Wilcoxon P=0,0018, d~=0,57 (medio).",
+      "certainty_tier": "T2",
+      "abstract_verb": "projected to experience",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.57,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "La medicina es la categoria de uso con mas especies modeladas (1.238)",
+      "supported": "yes",
+      "detail": "Es el subconjunto modelable (occ>=5, CBI>=0,7), no el total de 3.862 especies medicinales. Especies multiuso cuentan en varias categorias.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "La palma mas citada no es la que usan mas pueblos: Bactris gasipaes lidera en citas (178) pero Mauritia flexuosa en alcance cultural (66 grupos)",
+      "supported": "yes",
+      "detail": "Spearman rho=0,10 con n=5 -> sin correlacion clara. El gancho es la divergencia, no una correlacion.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    },
+    {
+      "claim": "Fabaceae es la familia con mas especies utiles (662), casi el doble de la siguiente",
+      "supported": "yes",
+      "detail": "662 especies, 11,4% de las 5.796 utilizadas; ~2x Rubiaceae (339).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 39,
+      "unit": "por ciento",
+      "context": "perdida proyectada de especies utiles en regiones con lenguas amenazadas (hacia 2060-2080)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 25,
+      "unit": "por ciento",
+      "context": "perdida proyectada de especies en regiones con lenguas no amenazadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27,
+      "unit": "por ciento",
+      "context": "perdida proyectada de servicios de las plantas en regiones amenazadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17,
+      "unit": "por ciento",
+      "context": "perdida proyectada de servicios en regiones no amenazadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1238,
+      "unit": "especies",
+      "context": "especies modeladas de uso medicinal (subconjunto occ>=5, CBI>=0,7)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 178,
+      "unit": "referencias",
+      "context": "citas de Bactris gasipaes, la palma mas documentada",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 66,
+      "unit": "grupos indigenas",
+      "context": "pueblos que usan Mauritia flexuosa, el mayor alcance cultural",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 662,
+      "unit": "especies",
+      "context": "especies utiles de la familia Fabaceae (la mas representada)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5796,
+      "unit": "especies",
+      "context": "plantas nativas con uso conocido (~un tercio de la flora amazonica con semilla)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 90536,
+      "unit": "reportes",
+      "context": "reportes de uso recopilados de 700 referencias en toda la cuenca",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 156,
+      "unit": "lenguas",
+      "context": "lenguas indigenas vivas en la cuenca, 55% de ellas amenazadas",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "projected to experience",
+      "tier": "T2",
+      "cam_attenuator": "se proyecta que experimenten"
+    },
+    {
+      "abstract_verb": "may (lose)",
+      "tier": "T3",
+      "cam_attenuator": "podria perder"
+    },
+    {
+      "abstract_verb": "demonstrate (methodological)",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (claim metodologico)"
+    }
+  ],
+  "narrative_hooks": [
+    "5.796 plantas amazonicas tienen un uso conocido - un tercio de toda la flora con semilla del bioma.",
+    "Donde las lenguas indigenas estan amenazadas, se proyecta perder ~1,5 veces mas bosque util hacia 2060-2080.",
+    "La palma mas citada no es la que usan mas pueblos: citar mucho y ser usada por muchos son cosas distintas."
+  ],
+  "limitations": [
+    "Toda 'perdida' es una proyeccion de modelos de distribucion (SDM) a 2060-2080, no una medicion.",
+    "La comparacion entre regiones es observacional: coincidencia espacial, no causalidad.",
+    "Valores extraidos del texto del paper (Open Access), no del ZIP de rasters de 10,5 GB; consistentes con los comentarios del codigo R en Zenodo.",
+    "El tamano de efecto d se estima a partir de las medias y desviaciones reportadas; el paper usa Wilcoxon (no parametrico).",
+    "La relacion citas-pueblos en palmas usa n=5: cualquier correlacion es anecdotica."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 11 numeros clave - script denso"
+  },
+  "notebook_slug": "2026-07-08-amazonia-conocimiento",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-08-amazonia-conocimiento/notebook.html",
+  "generated_at": "2026-07-13T00:00:00-05:00"
+}

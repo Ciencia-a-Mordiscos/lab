@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-07-08-amazonia-conocimiento/README
+    title: "El bosque que también es una biblioteca"
+    sections:
+    - file: papers/2026-07-08-amazonia-conocimiento/notebook
+      title: Notebook
   - file: papers/2026-07-08-karenia-cristata-mortandad-marina/README
     title: "Un millón de animales muertos: el culpable estaba en el agua"
     sections:
