@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "paper_id": 2742,
+  "doi": "10.1126/science.adx6925",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "551 mosquitos muestreados en 9 países (475 pasaron control de calidad)",
+      "supported": "yes",
+      "detail": "Conteo directo de la tabla de metadata",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tres super-poblaciones: fuente asiática (58), Península e Irán (117), frente africano (376)",
+      "supported": "yes",
+      "detail": "Suma 551; composición directa del CSV",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Gradiente de longitud de este a oeste: 72,5 → 55,6 → 37,3 °E",
+      "supported": "yes",
+      "detail": "Centroides calculados sobre las coordenadas de captura",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El 88% del muestreo es de 2022-2023",
+      "supported": "yes",
+      "detail": "487 de 551; refleja la respuesta al brote africano, no la fecha de la invasión",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Yibuti funcionó como cabeza de puente de la invasión",
+      "supported": "partial",
+      "detail": "Reconstrucción genómica del paper, no derivable de nuestra tabla de coordenadas",
+      "certainty_tier": "T2",
+      "abstract_verb": "supports",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La ruta sur de Asia → Yibuti → frentes en Sudán, Etiopía y Yemen",
+      "supported": "partial",
+      "detail": "Inferida del ADN; el abstract la enmarca como 'supports an invasion scenario'",
+      "certainty_tier": "T2",
+      "abstract_verb": "supports",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La resistencia a insecticidas está mediada sobre todo por genes de detoxificación metabólica",
+      "supported": "no",
+      "detail": "No reproducible desde nuestros datos: requiere genotipos (VCF/zarr) embargados",
+      "certainty_tier": "T1",
+      "abstract_verb": "is predominantly mediated by",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 551,
+      "unit": "mosquitos",
+      "context": "muestras en la tabla de metadata que grafica el notebook",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 475,
+      "unit": "mosquitos",
+      "context": "de los 551, pasaron control de calidad (data_qc_pass==1)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 645,
+      "unit": "genomas completos",
+      "context": "análisis total del paper (incluye datos públicos MalariaGEN, no en nuestro CSV)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 126,
+      "unit": "millones",
+      "context": "citadinos africanos que el paper reporta en riesgo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9,
+      "unit": "países",
+      "context": "de India y Afganistán a Sudán y Yemen",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 58,
+      "unit": "mosquitos",
+      "context": "super-población fuente sudasiática (Asia)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 117,
+      "unit": "mosquitos",
+      "context": "super-población Península Arábiga e Irán",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 376,
+      "unit": "mosquitos",
+      "context": "super-población frente africano (Cuerno de África y Yemen)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "mosquitos",
+      "context": "Yibuti (Djibouti City), la cabeza de puente inferida",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 88,
+      "unit": "por ciento",
+      "context": "487 de 551 mosquitos son de 2022-2023: refleja la respuesta al brote, no la fecha de la invasión",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 231,
+      "unit": "mosquitos",
+      "context": "Sudán, la población más muestreada (esfuerzo de vigilancia, no densidad real)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 35,
+      "unit": "grados de longitud",
+      "context": "separación entre el centroide de la fuente asiática (72,5°E) y el frente africano (37,3°E)",
+      "source": "dataset",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "supports (an invasion scenario)",
+      "tier": "T2",
+      "cam_attenuator": "los genomas respaldan un escenario en que; la ruta es inferida"
+    },
+    {
+      "abstract_verb": "show (contrasting rates and routes)",
+      "tier": "T1",
+      "cam_attenuator": "muestran; describir diferencias observadas sin verbos causales"
+    },
+    {
+      "abstract_verb": "is predominantly mediated by",
+      "tier": "T1",
+      "cam_attenuator": "está mediada sobre todo por genes de detoxificación"
+    },
+    {
+      "abstract_verb": "threatens (126 million)",
+      "tier": "T1",
+      "cam_attenuator": "amenaza a 126 millones (cifra del abstract, usar tal cual)"
+    }
+  ],
+  "narrative_hooks": [
+    "Un mosquito de malaria asiático que cría en tanques de agua urbanos entró a África y el paper reporta 126 millones de citadinos en riesgo.",
+    "Secuenciado en 9 países, dibuja un gradiente de 35 grados de longitud desde el sur de Asia hasta el Cuerno de África.",
+    "Trae mutaciones de resistencia a insecticidas que, según los genomas, llegaron importadas desde el sur de Asia."
+  ],
+  "limitations": [
+    "La tabla es el metadato de muestreo, no el ADN: no reproduce Fst, admixture ni frecuencias de resistencia (genotipos embargados en ENA/MalariaGEN).",
+    "El número de mosquitos por región refleja el esfuerzo de vigilancia, no la densidad real del mosquito.",
+    "El 88% del muestreo concentrado en 2022-2023 es la foto de cuándo empezó la respuesta científica, no una serie histórica de la invasión.",
+    "La ruta y la cabeza de puente (Yibuti) son reconstrucción genómica del paper, no hechos derivables de nuestras coordenadas."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados 'yes' + 12 números clave"
+  },
+  "notebook_slug": "2026-07-10-stephensi-mosquito-invasor-africa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-10-stephensi-mosquito-invasor-africa/notebook.html",
+  "generated_at": "2026-07-13T11:27:16.997163"
+}

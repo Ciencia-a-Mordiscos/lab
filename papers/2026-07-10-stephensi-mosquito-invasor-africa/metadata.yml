@@ -1,0 +1,19 @@
+titulo: "Un mosquito cruzó un océano de ciudades"
+fecha: 2026-07-13
+categoria: ecologia
+tags: [mosquito, malaria, invasion-biologica, genomica, anopheles-stephensi, africa, vigilancia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adx6925"
+    titulo: "The origin, history, and resistance architecture of an invasive urban malaria mosquito in Africa"
+    journal: Science
+    autores: "Dennis et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "muestras_stephensi.csv"
+    descripcion: "Tabla de 551 mosquitos secuenciados con geografía, super-población y fecha"
+    fuente: "Repositorio AsGARD (Zenodo)"
+estado: publicado

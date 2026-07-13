@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-07-10-stephensi-mosquito-invasor-africa/README
+    title: "Un mosquito cruzó un océano de ciudades"
+    sections:
+    - file: papers/2026-07-10-stephensi-mosquito-invasor-africa/notebook
+      title: Notebook
   - file: papers/2026-07-08-amazonia-conocimiento/README
     title: "El bosque que también es una biblioteca"
     sections:

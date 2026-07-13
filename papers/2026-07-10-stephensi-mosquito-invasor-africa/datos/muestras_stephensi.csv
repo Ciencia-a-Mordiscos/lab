@@ -1,0 +1,552 @@
+sample_id,country,location,admin1_name,latitude,longitude,analysis_pop,pop_code,SuperPopulation,collection_method,collection_date,data_qc_pass
+AfNA1,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNA2,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,
+AfNC4,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNC7,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfND7,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfND8,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNE1,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNE6,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNE7,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNF1,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNF2,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNG1,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNG8,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNH7,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfNH8,Afghanistan,Nangarhar,Nangarhar,34.1718,70.6217,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkB9,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkC4,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkC5,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkE3,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkE4,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkE5,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkF3,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkF4,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkF7,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkH3,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+AfkH4,Afghanistan,Kunar,Kunar,34.8466,71.0973,Afghanistan & Pakistan,APA,Asia,larvae,01/01/2017,1.0
+Babi_I_01,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_02,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_03,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_04,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_05,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_06,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_07,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_08,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_09,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_10,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_11,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_12,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_13,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_14,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_15,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_16,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_17,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_18,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Babi_I_19,Ethiopia,Babile,Oromia,9.2,41.0,Ethiopia Babile,ETB,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+C1aSud001,Sudan,HaiElShati,WhiteNile,13.171508,32.664543,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud002,Sudan,AlHideiba,Gezira,14.4850604,33.6572116,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud004,Sudan,Tabat,Gezira,14.6686857,33.0836311,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud007,Sudan,ElZedab,RiverNile,17.4308,33.85513,Sudan,SUD,Horn of Africa & Yemen,Prokopack,26/07/2022,1.0
+C1aSud008,Sudan,ElZedab,RiverNile,17.4308,33.85513,Sudan,SUD,Horn of Africa & Yemen,Prokopack,26/07/2022,1.0
+C1aSud009,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud011,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud012,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud015,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud018,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud020,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud022,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud023,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud024,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud025,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud027,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud028,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud029,Sudan,SouthShandi,RiverNile,16.6328282,33.2554837,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud030,Sudan,SouthShandi,RiverNile,16.6328282,33.2554837,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud031,Sudan,SouthShandi,RiverNile,16.6328282,33.2554837,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud032,Sudan,SouthShandi,RiverNile,16.6328282,33.2554837,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud033,Sudan,SouthShandi,RiverNile,16.6328282,33.2554837,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud035,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud036,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud037,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud038,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud039,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud040,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud041,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud042,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud043,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud044,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud045,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud046,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud047,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud048,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud049,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud050,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud051,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud052,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud053,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud054,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud055,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud058,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud059,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud060,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud061,Sudan,AlGalaa,Sennar,13.5194564,33.6245931,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud063,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud065,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud066,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud067,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud068,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud069,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud070,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud071,Sudan,AlShukria,Kassala,15.3700786,36.3766632,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud072,Sudan,ElMeaileg,Gezira,15.0135466,33.0864865,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud073,Sudan,ElMeaileg,Gezira,15.0135466,33.0864865,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud074,Sudan,ElMeaileg,Gezira,15.0135466,33.0864865,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud075,Sudan,ElMeaileg,Gezira,15.0135466,33.0864865,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud076,Sudan,ElMeaileg,Gezira,15.0135466,33.0864865,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud077,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud078,Sudan,ElZedab,RiverNile,17.4308,33.85513,Sudan,SUD,Horn of Africa & Yemen,Prokopack,26/07/2022,1.0
+C1aSud080,Sudan,GeziraIslang,Khartoum,15.88349,32.52324,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud081,Sudan,GeziraIslang,Khartoum,15.88349,32.52324,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud082,Sudan,GeziraIslang,Khartoum,15.88349,32.52324,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud083,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud086,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud087,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud088,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud089,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud090,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud092,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud093,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud094,Sudan,GeziraIslang,Khartoum,15.88349,32.52324,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud095,Sudan,GeziraIslang,Khartoum,15.88349,32.52324,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud096,Sudan,GeziraIslang,Khartoum,15.88349,32.52324,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud097,Sudan,GeziraIslang,Khartoum,15.88349,32.52324,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud098,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud099,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud100,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud101,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud102,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,30/07/2022,1.0
+C1aSud103,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud105,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,31/07/2022,1.0
+C1aSud106,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,01/08/2022,1.0
+C1aSud107,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud108,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,02/08/2022,1.0
+C1aSud110,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,03/08/2022,1.0
+C1aSud112,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,04/08/2022,1.0
+C1aSud113,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud115,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud116,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/08/2022,1.0
+C1aSud117,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,06/08/2022,1.0
+C1aSud118,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud119,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,07/08/2022,1.0
+C1aSud120,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,08/08/2022,1.0
+C1aSud121,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud122,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud123,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,09/08/2022,1.0
+C1aSud124,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud125,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud126,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,10/08/2022,1.0
+C1aSud127,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud128,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud130,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,11/08/2022,1.0
+C1aSud131,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,12/08/2022,1.0
+C1aSud132,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,13/08/2022,1.0
+C1aSud134,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,14/08/2022,1.0
+C1aSud137,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud138,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud142,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud143,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud144,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud146,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud148,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud150,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud152,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud153,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud154,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud157,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud160,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud162,Sudan,ElZedab,RiverNile,17.4308,33.85513,Sudan,SUD,Horn of Africa & Yemen,Prokopack,26/07/2022,1.0
+C1aSud163,Sudan,ElZedab,RiverNile,17.4308,33.85513,Sudan,SUD,Horn of Africa & Yemen,Prokopack,26/07/2022,1.0
+C1aSud164,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,CDC,28/07/2022,1.0
+C1aSud165,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,CDC,28/07/2022,1.0
+C1aSud166,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud167,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud168,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud171,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud173,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud174,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud175,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud176,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud177,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud178,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud179,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud181,Sudan,Agaja,Northern,19.1882189,30.4786908,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud182,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud184,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud185,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud186,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+C1aSud187,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud188,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud190,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud191,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+C1aSud193,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud195,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud196,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud198,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/02/2023,1.0
+C1aSud199,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+C1aSud200,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+C1aSud201,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,26/07/2022,1.0
+C1aSud202,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud203,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,27/07/2022,1.0
+C1aSud204,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+C1aSud205,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud206,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud207,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud208,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,29/07/2022,1.0
+C1aSud209,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,30/07/2022,1.0
+C1aSud210,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,31/07/2022,1.0
+C1aSud211,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,01/08/2022,1.0
+C1aSud213,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud214,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,02/08/2022,1.0
+C1aSud216,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,03/08/2022,1.0
+C1aSud217,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,04/08/2022,1.0
+C1aSud218,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,05/08/2022,1.0
+C1aSud220,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,06/08/2022,1.0
+C1aSud221,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud222,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,07/08/2022,1.0
+C1aSud223,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,08/08/2022,1.0
+C1aSud224,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,09/08/2022,1.0
+C1aSud225,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud226,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud227,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud228,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud229,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud230,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,23/07/2022,1.0
+C1aSud231,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,10/08/2022,1.0
+C1aSud232,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,11/08/2022,1.0
+DAsgPak035,Pakistan,Asgharo,KhyberPakhtunkhwa,33.55101313,71.53222067,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+DAzCPak017,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+DAzCPak018,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+DAzCPak019,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+DLakPak026,Pakistan,Lakhtibanda,KhyberPakhtunkhwa,33.55101313,71.53222067,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+Dana_I_04,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_12,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_13,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_14,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_16,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_17,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_18,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_19,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_20,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_21,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_22,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_23,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_24,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_25,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_26,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_27,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_28,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_29,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Dana_I_30,Ethiopia,Danan,Somali,6.513496767,43.49424426,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/10/2023,1.0
+Djib_F_01,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_03,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_04,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_05,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_06,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_07,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_08,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_10,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_11,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_12,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_13,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_15,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_16,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_17,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_19,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_21,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_22,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_24,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_26,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_27,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_28,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Djib_F_29,Djibouti,DjiboutiCity,DjiboutiCity,11.8251,42.5903,Djibouti City,DJI,Horn of Africa & Yemen,CDC/BGPro,01/10/2023,1.0
+Dubt_I_02,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_03,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_04,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_05,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_06,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_07,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_10,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_12,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_15,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_16,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_19,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_20,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_22,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_23,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_26,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_27,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_28,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Dubt_I_30,Ethiopia,Dubti,Afar,11.733333,41.083333,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+E10,SaudiArabia,AlHofuf,Eastern,25.384805,49.710295,Southeastern Ethiopia,SAE,KSA & Iran,larvae,23/10/2023,1.0
+E12,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E20,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E23,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E24,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E27,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E29,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E31,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E33,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E34,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,05/11/2023,1.0
+E35,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,larvae,05/11/2023,1.0
+E37,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,06/12/2023,1.0
+E39,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,06/12/2023,1.0
+E41,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,06/12/2023,1.0
+E42,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,06/12/2023,1.0
+E43,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,06/12/2023,1.0
+E45,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,06/12/2023,1.0
+E46,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,11/12/2023,1.0
+E47,SaudiArabia,AlHofuf,Eastern,25.3655,49.636685,Southeastern Ethiopia,SAE,KSA & Iran,blackhole,11/12/2023,1.0
+E5,SaudiArabia,AlHofuf,Eastern,25.384805,49.710295,Southeastern Ethiopia,SAE,KSA & Iran,larvae,22/10/2023,1.0
+E8,SaudiArabia,AlHofuf,Eastern,25.384805,49.710295,Southeastern Ethiopia,SAE,KSA & Iran,larvae,22/10/2023,1.0
+E9,SaudiArabia,AlHofuf,Eastern,25.384805,49.710295,Southeastern Ethiopia,SAE,KSA & Iran,larvae,23/10/2023,1.0
+I2_42_1,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_42_2,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_42_3,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_42_5,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_43_1,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_43_2,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_43_4,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_43_5,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_43_6,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_44_1,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_44_2,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_44_3,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_44_4,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_44_5,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_45_2,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_45_4,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_46_1,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_46_2,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_46_3,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_46_5,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_48_1,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_48_2,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_48_4,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_48_5,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I2_49_1,Iran,Chabahar,Sistan and Baluchestan,25.29178627,60.65077766,Iran,IRS,KSA & Iran,larvae,01/07/2023,
+I3_57_2,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_57_4,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_57_5,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_58_1,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_58_2,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_58_3,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_58_4,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_58_5,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_59_1,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_59_2,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_59_3,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_59_4,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_59_5,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_60_1,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_60_2,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_60_3,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_60_5,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_61_3,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_61_4,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_62_3,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_62_5,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_63_2,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_64_1,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_64_3,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I3_64_5,Iran,Saravan,Sistan and Baluchestan,27.40819746,62.27300369,Iran,IRS,KSA & Iran,PSC,01/07/2023,
+I4_68_1,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_68_2,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_68_3,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_68_4,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_68_5,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_68_6,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_69_1,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_69_10,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_69_4,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_69_5,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_69_7,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_69_9,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_10,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_11,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_2,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_3,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_4,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_5,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_6,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_7,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_70_9,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_71_1,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_71_2,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_71_4,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+I4_71_5,Iran,Bandar Abbas,Hormozgan,27.18605298,56.26708981,Iran,IRH,KSA & Iran,PSC,01/07/2023,
+Jiga_I_01,Ethiopia,Jiga,Amhara,10.4019152,37.2224323,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Jiga_I_02,Ethiopia,Jiga,Amhara,10.4019152,37.2224323,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Jiga_I_03,Ethiopia,Jiga,Amhara,10.4019152,37.2224323,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Jiga_I_04,Ethiopia,Jiga,Amhara,10.4019152,37.2224323,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Jiga_I_05,Ethiopia,Jiga,Amhara,10.4019152,37.2224323,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Jiga_I_07,Ethiopia,Jiga,Amhara,10.4019152,37.2224323,Southeastern Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_01,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_02,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_03,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_04,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_06,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_07,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_08,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_09,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_10,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_11,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_12,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_13,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_14,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_15,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_16,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_17,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_18,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_19,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Kebr_I_20,Ethiopia,KebriDehar,Somali,6.732545,44.238128,Southeastern Ethiopia,ETS,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_03,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_07,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_08,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_11,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_16,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_25,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_26,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_28,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_A_31,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_01,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_02,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_04,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_05,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_07,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_08,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_09,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_10,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_25,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_29,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+Modj_I_31,Ethiopia,Modjo,Oromia,8.598811,39.119852,Western Ethiopia,ETW,Horn of Africa & Yemen,larvae,01/01/2023,1.0
+MuzSud233,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud234,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud236,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud237,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud238,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud239,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud240,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud241,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud243,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud244,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud245,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud246,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud247,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud248,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud249,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+MuzSud250,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+PMJDE2,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+PMJDE4,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+PMJDF4,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+PMJDG2,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+PMJDG4,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+PMJDH2,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+PMJDH3,Pakistan,Azakhel,KhyberPakhtunkhwa,34.1718,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+Plate1_A2,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate1_A4,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate1_B3,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate1_D2,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate1_D3,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate1_E12,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,15/08/2022,1.0
+Plate1_E2,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate1_G12,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,16/08/2022,1.0
+Plate1_G2,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate1_H10,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,12/08/2022,1.0
+Plate1_H12,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,17/08/2022,1.0
+Plate1_H2,Sudan,Wafara,WhiteNile,13.012012,31.867825,Sudan,SUD,Horn of Africa & Yemen,Prokopack,25/07/2022,1.0
+Plate2_A10,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,13/08/2022,1.0
+Plate2_A3,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+Plate2_A6,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+Plate2_A9,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_B1,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,18/08/2022,1.0
+Plate2_B11,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_B4,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+Plate2_B5,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+Plate2_B6,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+Plate2_B8,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_C2,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,19/08/2022,1.0
+Plate2_D2,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,20/08/2022,1.0
+Plate2_D8,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_E12,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_E2,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,21/08/2022,1.0
+Plate2_E7,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_F12,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_F2,Sudan,Haiya,RedSea,18.3349676,36.3892839,Sudan,SUD,Horn of Africa & Yemen,Prokopack,22/08/2022,1.0
+Plate2_F8,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_G11,Sudan,PortSudan,RedSea,19.6387626,37.1906463,Sudan,SUD,Horn of Africa & Yemen,PSC,05/02/2023,1.0
+Plate2_G4,Sudan,Galalabat,Gedarif,12.9858162,35.844346,Sudan,SUD,Horn of Africa & Yemen,Prokopack,24/07/2022,1.0
+Plate2_H5,Sudan,Arkaweet,Khartoum,15.5373164,32.6010626,Sudan,SUD,Horn of Africa & Yemen,Prokopack,28/07/2022,1.0
+Plate2_H9,Sudan,ElSalamaniaWest,Khartoum,15.3840372,32.4500117,Sudan,SUD,Horn of Africa & Yemen,Prokopack,14/08/2022,1.0
+QAzCPak030,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+QAzCPak062,Pakistan,Azakhel,KhyberPakhtunkhwa,34.01779221,71.87858623,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+QNagPak004,Pakistan,Naguman,KhyberPakhtunkhwa,34.12472786,71.6084575,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+QNagPak012,Pakistan,Naguman,KhyberPakhtunkhwa,34.12472786,71.6084575,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+QNagpak028,Pakistan,Naguman,KhyberPakhtunkhwa,34.12472786,71.6084575,Afghanistan & Pakistan,APA,Asia,PSC,01/04/2005,1.0
+R1,SaudiArabia,Riyadh,Riyadh,24.58742,46.717158,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,26/11/2023,1.0
+R11B,SaudiArabia,Riyadh,Riyadh,24.521563,46.722447,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,26/11/2023,1.0
+R16,SaudiArabia,Riyadh,Riyadh,24.62364,46.59505,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,03/12/2023,1.0
+R17B,SaudiArabia,Riyadh,Riyadh,24.64376,46.67058,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,03/12/2023,1.0
+R17,SaudiArabia,Riyadh,Riyadh,24.64376,46.67058,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,03/12/2023,1.0
+R17D,SaudiArabia,Riyadh,Riyadh,24.64376,46.67058,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,03/12/2023,1.0
+R17E,SaudiArabia,Riyadh,Riyadh,24.64376,46.67058,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,03/12/2023,1.0
+R17F,SaudiArabia,Riyadh,Riyadh,24.64376,46.67058,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,03/12/2023,1.0
+R1C,SaudiArabia,Riyadh,Riyadh,24.566438,46.577957,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,18/11/2023,1.0
+R1D,SaudiArabia,Riyadh,Riyadh,24.566438,46.577957,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,18/11/2023,1.0
+R1E,SaudiArabia,Riyadh,Riyadh,24.566438,46.577957,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,18/11/2023,1.0
+R20,SaudiArabia,Riyadh,Riyadh,24.62072,46.59143,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,05/12/2023,1.0
+R20B,SaudiArabia,Riyadh,Riyadh,24.62072,46.59143,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,05/12/2023,1.0
+R21,SaudiArabia,Riyadh,Riyadh,24.61955,46.54148,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,05/12/2023,1.0
+R22,SaudiArabia,Riyadh,Riyadh,24.62288,46.5962,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,11/12/2023,1.0
+R3,SaudiArabia,Riyadh,Riyadh,24.652454,46.560015,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,18/11/2023,1.0
+R3D,SaudiArabia,Riyadh,Riyadh,24.652454,46.560015,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,18/11/2023,1.0
+R3E,SaudiArabia,Riyadh,Riyadh,24.652454,46.560015,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,18/11/2023,1.0
+R4,SaudiArabia,Riyadh,Riyadh,24.65902,46.604225,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,20/11/2023,1.0
+R5,SaudiArabia,Riyadh,Riyadh,24.55019,46.538182,Saudia Arabia Riyadh,SAR,KSA & Iran,blackhole,20/11/2023,1.0
+SRR15257906,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15257908,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15257909,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15257910,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15257912,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15257913,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15257914,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15257915,India,Bengaluru,Karnataka,12.971599,77.5946,India Bengaluru,INB,Asia,,13/09/2021,1.0
+SRR15293886,India,Mangaluru,Karnataka,12.87931228,74.84650985,India Mangaluru,INM,Asia,,13/09/2021,1.0
+SRR15293887,India,Mangaluru,Karnataka,12.87931228,74.84650985,India Mangaluru,INM,Asia,,13/09/2021,1.0
+SRR15293888,India,Mangaluru,Karnataka,12.87931228,74.84650985,India Mangaluru,INM,Asia,,13/09/2021,1.0
+SRR15293889,India,Mangaluru,Karnataka,12.87931228,74.84650985,India Mangaluru,INM,Asia,,13/09/2021,1.0
+SRR15293892,India,Mangaluru,Karnataka,12.87931228,74.84650985,India Mangaluru,INM,Asia,,13/09/2021,1.0
+SRR15293893,India,Mangaluru,Karnataka,12.87931228,74.84650985,India Mangaluru,INM,Asia,,13/09/2021,1.0
+SRR15293894,India,Mangaluru,Karnataka,12.87931228,74.84650985,India Mangaluru,INM,Asia,,13/09/2021,1.0
+Yem001,Yemen,AdenCity,Aden,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/01/2021,1.0
+Yem002,Yemen,AdenCity,Aden,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/01/2021,1.0
+Yem006,Yemen,AdenCity,Aden,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/01/2021,1.0
+Yem008,Yemen,AdenCity,Aden,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/01/2021,1.0
+Yem011,Yemen,AdenCity,Aden,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/01/2021,1.0
+Yem012,Yemen,AdenCity,Aden,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/01/2021,1.0
+Yeme_A_01,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_02,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_03,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_04,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_05,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_06,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_08,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_09,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_10,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_11,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_12,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_13,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_14,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_15,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_17,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
+Yeme_A_19,Yemen,AdenCity,AdenCity,12.79,45.02,Yemen,YEM,Horn of Africa & Yemen,CDC,01/07/2022,1.0
