@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "paper_id": 2743,
+  "doi": "10.1126/science.aeb6744",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "Las aves buceadoras que se propulsan con las alas baten unas 3 veces más lento bajo el agua que en el aire.",
+      "supported": "yes",
+      "detail": "13 aves pareadas: 8,41 Hz aire → 2,84 Hz agua. Mediana del ratio = 3,0x (rango 1,74-3,93). Wilcoxon pareado p=0,000244, d de Cohen=3,23 (efecto gigante). Todas las 13 especies frenan; ninguna acelera.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 3.23, "interpretation": "gigante"},
+      "supported_by_data": true
+    },
+    {
+      "claim": "En el robot, alas más grandes generan más sustentación en el aire.",
+      "supported": "yes",
+      "detail": "Sustentación media por envergadura: 1,48 → 2,28 → 2,49 N (spans 33/43/53), promediando 15 condiciones de frecuencia y viento por tamaño.",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhance",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Alas grandes no sacrifican sustancialmente el empuje bajo el agua.",
+      "supported": "partial",
+      "detail": "Empuje medio por ciclo al nadar: 28,7 (env. 33) → 19,8 (43) → 20,9 (53). Hay algo de costo al pasar de la más pequeña, pero se estabiliza. Es un principio demostrado por el robot, no una medición en aves reales.",
+      "certainty_tier": "T2",
+      "abstract_verb": "affect",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El robot no iguala la eficiencia energética de un ave real.",
+      "supported": "no",
+      "detail": "Costo de transporte del robot: 1,10 J/Nm en aire (aves ~0,78) y 5,10 bajo el agua (aves ~0,46). El robot demuestra que el truco funciona pero gasta ~10x más energía nadando.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {"value": 13, "unit": "aves", "context": "aves wing-propelled con frecuencia medida en aire y agua (pareadas)", "source": "fact_sheet", "verified": true},
+    {"value": 8.41, "unit": "Hz", "context": "batido medio en el aire", "source": "fact_sheet", "verified": true},
+    {"value": 2.84, "unit": "Hz", "context": "batido medio bajo el agua", "source": "fact_sheet", "verified": true},
+    {"value": 3.0, "unit": "veces", "context": "mediana del ratio aire/agua: cuántas veces más lento bate bajo el agua", "source": "fact_sheet", "verified": true},
+    {"value": 3.23, "unit": "d de Cohen", "context": "tamaño de efecto pareado (gigante)", "source": "notebook", "verified": true},
+    {"value": 0.000244, "unit": "p", "context": "Wilcoxon pareado aire vs agua", "source": "notebook", "verified": true},
+    {"value": 0.78, "unit": "J/Nm", "context": "costo de transporte mediano de las aves en aire", "source": "fact_sheet", "verified": true},
+    {"value": 0.46, "unit": "J/Nm", "context": "costo de transporte mediano de las aves en agua", "source": "fact_sheet", "verified": true},
+    {"value": 5.1, "unit": "J/Nm", "context": "costo de transporte del robot bajo el agua (~10x el de un ave)", "source": "fact_sheet", "verified": true}
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmación directa del patrón medido"},
+    {"abstract_verb": "enable", "tier": "T1", "cam_attenuator": "el robot demostró el principio; NO afirmar que prueba el mecanismo en aves reales"},
+    {"abstract_verb": "enhance", "tier": "T1", "cam_attenuator": "mejora/aumenta con número"},
+    {"abstract_verb": "affect", "tier": "T2", "cam_attenuator": "influye en/afecta — no cuantificado como causa fuerte"}
+  ],
+  "narrative_hooks": [
+    "Un frailecillo bate sus alas casi 9 veces por segundo en el aire; se lanza al mar y sigue con las mismas alas, pero de repente en cámara lenta.",
+    "Ninguna de las 13 especies acelera bajo el agua: todas cambian de marcha, sin excepción.",
+    "El robot demuestra que el truco funciona, pero nadar todavía le cuesta 10 veces más energía que a un ave: la evolución llegó primero."
+  ],
+  "limitations": [
+    "La comparación entre especies es observacional: se miden aves en el campo, no se manipulan; el porqué del cambio de marcha se infiere.",
+    "Los experimentos de envergadura y empuje vienen de un robot, no de aves: prueban el principio físico, no reproducen la biología.",
+    "El costo de transporte del robot no está optimizado y queda muy por encima del de un animal.",
+    "El empuje al nadar por envergadura tiene pocas condiciones por tamaño (n=3), con dispersión alta."
+  ],
+  "suggested_word_range": {"min": 190, "max": 250, "reason": "2 claims yes + 1 partial + 1 no; varios números clave, historia con giro robot/eficiencia"},
+  "notebook_slug": "2026-07-09-leaping-out-water-flapping-wings",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-09-leaping-out-water-flapping-wings/notebook.html",
+  "generated_at": "2026-07-15"
+}

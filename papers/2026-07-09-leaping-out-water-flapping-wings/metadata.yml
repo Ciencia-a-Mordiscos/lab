@@ -1,0 +1,28 @@
+titulo: "Un ave que vuela y bucea con las mismas alas — pero cambia de marcha"
+fecha: 2026-07-15
+categoria: tecnologia
+tags: [biomecanica, robotica, aves-buceadoras, locomocion, frecuencia-batido, bioinspiracion]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb6744"
+    titulo: "Leaping out of the water: Aerial-aquatic locomotion with flapping wings"
+    journal: Science
+    autores: "Zufferey et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "flapping_frequency_animals.csv"
+    descripcion: "Frecuencia de batido en aire y agua para 36 animales buceadores"
+    fuente: "Zenodo 10.5281/zenodo.19378356"
+  - nombre: "wingsize_flight_forces_power.csv"
+    descripcion: "Robot en vuelo: fuerzas y potencia por envergadura y frecuencia"
+    fuente: "Zenodo 10.5281/zenodo.19378356"
+  - nombre: "wingsize_swim_power.csv"
+    descripcion: "Robot nadando: empuje por ciclo por envergadura"
+    fuente: "Zenodo 10.5281/zenodo.19378356"
+  - nombre: "cost_of_transport_animals.csv"
+    descripcion: "Costo de transporte (J/Nm) de animales y robot, aire y agua"
+    fuente: "Zenodo 10.5281/zenodo.19378356"
+estado: publicado
