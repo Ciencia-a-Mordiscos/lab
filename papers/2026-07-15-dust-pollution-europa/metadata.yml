@@ -1,0 +1,28 @@
+titulo: "Rising dust pollution across Europe — el polvo del desierto que respira Europa"
+fecha: 2026-07-16
+categoria: ecología
+tags: [polvo, sahara, calidad-aire, cambio-climatico, nucleo-de-hielo, sequia, pm10, europa]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10743-w"
+    titulo: "Rising dust pollution across Europe in a changing climate"
+    journal: Nature
+    autores: "Vasilakos et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "gradiente_sitios.csv"
+    descripcion: "106 estaciones europeas: aluminio (trazador de polvo) vs latitud"
+    fuente: "Zenodo 10.5281/zenodo.19236528 (Fig1)"
+  - nombre: "icecore_ca.csv"
+    descripcion: "Núcleo de hielo alpino: calcio (proxy de polvo) 1750–2020"
+    fuente: "Zenodo 10.5281/zenodo.19236528 (Fig5)"
+  - nombre: "sequia_polvo.csv"
+    descripcion: "Calcio del hielo vs índice de sequía marroquí (PDSI), 1880–2018"
+    fuente: "Zenodo 10.5281/zenodo.19236528 (Fig5)"
+  - nombre: "ciclo_estacional.csv"
+    descripcion: "Ciclo estacional del polvo (medias mensuales normalizadas)"
+    fuente: "Zenodo 10.5281/zenodo.19236528 (Fig2)"
+estado: publicado

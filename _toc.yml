@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-07-15-dust-pollution-europa/README
+    title: "El polvo del desierto que respira Europa"
+    sections:
+    - file: papers/2026-07-15-dust-pollution-europa/notebook
+      title: Notebook
   - file: papers/2026-07-15-transformacion-sistemas-alimentarios/README
     title: "Si el mundo comiera sano, ¿qué le pasaría al campo?"
     sections:

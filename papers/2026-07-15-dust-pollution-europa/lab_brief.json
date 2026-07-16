@@ -1,0 +1,220 @@
+{
+  "version": "1.0",
+  "paper_id": 2756,
+  "doi": "10.1038/s41586-026-10743-w",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El sur de Europa carga más del triple de polvo mineral que el norte (trazador de aluminio)",
+      "supported": "yes",
+      "detail": "Al_mean sur 0,449 vs norte 0,130 µg/m³ (ratio 3,45×). Latitud vs Al: Spearman ρ=-0,747, p=3,8e-20, n=106 estaciones. Distinto del PM10 modelado (ratio 2,53×).",
+      "certainty_tier": "T1",
+      "abstract_verb": "establish",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -0.747,
+        "interpretation": "fuerte"
+      }
+    },
+    {
+      "claim": "El polvo aumentó fuertemente desde la era preindustrial",
+      "supported": "yes",
+      "detail": "Calcio del núcleo de hielo alpino: 104,5 ppb (1750-1850) → 223,5 ppb (2000-2020) = +114% (raw). Paper reporta +110%; consistente.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "pct_change",
+        "value": 114.0,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La subida del polvo va asociada a la sequía norteafricana",
+      "supported": "partial",
+      "detail": "Calcio suavizado vs PDSI Marruecos: Spearman ρ=-0,778, p=2,2e-29, n=139 años. Asociación fuerte pero observacional — no causa probada. Datos suavizados a 20 años reducen los grados de libertad reales.",
+      "certainty_tier": "T2",
+      "abstract_verb": "associated with",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -0.778,
+        "interpretation": "fuerte"
+      }
+    },
+    {
+      "claim": "El polvo tiene un ciclo estacional marcado, con máximo en verano",
+      "supported": "yes",
+      "detail": "Medias mensuales normalizadas: máximo en junio-agosto, mínimo en diciembre-enero. Señal robusta en todas las bandas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "establish",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "ratio_verano_invierno",
+        "value": 1.83,
+        "interpretation": "claro"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.45,
+      "unit": "veces",
+      "context": "el sur carga 3,45× más trazador de polvo (Al) que el norte",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "gradiente sur>norte",
+        "our_calculation": "3,45x (Al)",
+        "discrepancy_pct": null,
+        "reason": "Al trazador, no PM10"
+      }
+    },
+    {
+      "value": 0.449,
+      "unit": "µg/m³",
+      "context": "Al_mean medio en el sur (lat<45°N), n=57 estaciones",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.13,
+      "unit": "µg/m³",
+      "context": "Al_mean medio en el norte/centro (lat>=45°N), n=49 estaciones",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.747,
+      "unit": "spearman_rho",
+      "context": "latitud vs Al, p=3,8e-20, n=106 (más al norte, menos polvo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 110,
+      "unit": "%",
+      "context": "aumento del polvo en el núcleo de hielo desde preindustrial (paper headline)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "110%",
+        "our_calculation": "114% (raw 1750-1850 vs 2000-2020)",
+        "discrepancy_pct": 3.6,
+        "reason": "raw vs LPF; dentro de tolerancia"
+      }
+    },
+    {
+      "value": 104.5,
+      "unit": "ppb",
+      "context": "calcio preindustrial medio (1750-1850) en el hielo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 223.5,
+      "unit": "ppb",
+      "context": "calcio reciente medio (2000-2020) en el hielo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.778,
+      "unit": "spearman_rho",
+      "context": "calcio suavizado vs sequía marroquí (PDSI), p=2,2e-29, n=139 años",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.53,
+      "unit": "veces",
+      "context": "ratio sur/norte del PM10 de polvo MODELADO (paper, no reproducido aquí)",
+      "source": "paper_abstract",
+      "verified": false,
+      "cross_check": {
+        "paper_reported": "5,28 vs 2,09 µg/m³",
+        "our_calculation": "no reproducido (output del modelo RF)",
+        "discrepancy_pct": null,
+        "reason": "PM10 modelado ≠ Al trazador"
+      }
+    },
+    {
+      "value": 0.67,
+      "unit": "%",
+      "context": "aumento en mortalidad diaria ASOCIADO (no causal) a eventos de polvo, sur (paper)",
+      "source": "paper_abstract",
+      "verified": false
+    },
+    {
+      "value": "junio-agosto",
+      "unit": "meses",
+      "context": "pico del ciclo estacional del polvo",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "desarrollaron/construyeron un modelo — afirmacion directa del artefacto"
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "establecieron/compilaron la base de datos — directo"
+    },
+    {
+      "abstract_verb": "show (ice core)",
+      "tier": "T1",
+      "cam_attenuator": "el registro muestra +110% — medicion directa del ice core"
+    },
+    {
+      "abstract_verb": "linked to (mortalidad)",
+      "tier": "T2",
+      "cam_attenuator": "asociado a / vinculado a — NO causal (observacional)"
+    },
+    {
+      "abstract_verb": "linked to (circulacion)",
+      "tier": "T2",
+      "cam_attenuator": "asociado a cambios en circulacion atmosferica — correlacion"
+    },
+    {
+      "abstract_verb": "associated with (desertificacion)",
+      "tier": "T2",
+      "cam_attenuator": "asociado principalmente a desertificacion norteafricana"
+    },
+    {
+      "abstract_verb": "remains unclear",
+      "tier": "T3",
+      "cam_attenuator": "aun no estaba claro si — marco explicito de incertidumbre que el paper resuelve"
+    },
+    {
+      "abstract_verb": "may pose",
+      "tier": "T3",
+      "cam_attenuator": "podria representar riesgos crecientes — proyeccion a futuro con hedge"
+    }
+  ],
+  "narrative_hooks": [
+    "El aire del sur de Europa carga más del triple de polvo del desierto que el del norte.",
+    "Un hilo de hielo en los Alpes muestra que el polvo se duplicó en poco más de un siglo.",
+    "Cuando el norte de África se seca, el polvo termina en los glaciares alpinos: sequía y polvo se mueven casi en espejo (ρ=-0,78)."
+  ],
+  "limitations": [
+    "El aluminio (trazador medido) y el PM10 de polvo (modelo ML) son variables distintas: coinciden en el gradiente sur>norte pero sus magnitudes (3,45× vs 2,53×) no son intercambiables.",
+    "El núcleo de hielo es un único punto en los Alpes: captura la señal regional del polvo, no el promedio de toda Europa.",
+    "Las correlaciones con la sequía usan series suavizadas a 20 años, lo que eleva la correlación pero reduce los grados de libertad efectivos.",
+    "El vínculo polvo-mortalidad (+0,67%) es una asociación reportada por los investigadores, no reproducida en el notebook, y es observacional (no causal)."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados 'yes' + 1 parcial, 4 números clave reproducidos"
+  },
+  "notebook_slug": "2026-07-15-dust-pollution-europa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-15-dust-pollution-europa/notebook.html",
+  "generated_at": "2026-07-16T00:00:00Z"
+}
