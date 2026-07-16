@@ -1,0 +1,25 @@
+titulo: "Si el mundo comiera sano, ¿qué le pasaría al campo?"
+fecha: 2026-07-15
+categoria: ecologia
+tags: [sistemas-alimentarios, eat-lancet, agricultura, ganaderia, modelos, sostenibilidad, dieta]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10775-2"
+    titulo: "Food systems transformation would reshape global agriculture"
+    journal: Nature
+    autores: "Gibson et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "produccion_sector_modelo.csv"
+    descripcion: "Cambio % de producción física vs BAU 2050, por sector × modelo"
+    fuente: "Zenodo 17570720 (ensamble AgMIP, agregado a nivel de modelo)"
+  - nombre: "tierra_agricola_modelo.csv"
+    descripcion: "Cambio % de tierra agrícola vs 2020 y vs BAU, EL2 2050 (n=5 modelos)"
+    fuente: "Zenodo 17570720"
+  - nombre: "trayectoria_produccion_agr.csv"
+    descripcion: "Trayectoria 2020-2050 de producción agrícola total, por modelo × año × escenario"
+    fuente: "Zenodo 17570720"
+estado: publicado

@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "paper_id": 2753,
+  "doi": "10.1038/s41586-026-10775-2",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La producción agrícola total baja ~17 % vs BAU en 2050",
+      "supported": "yes",
+      "detail": "Mediana reproducida −16,6 % (n=9); los 9 modelos coinciden en la dirección. Rango −2 % a −32 %. Coincide con el −17 % del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "La ganadería es lo que más se contrae (producción física)",
+      "supported": "yes",
+      "detail": "Rumiantes −53 %, no-rumiantes −45 %, lácteos −27 % (medianas, n=9).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "Verduras, frutas, nueces y legumbres suben ~23 %",
+      "supported": "yes",
+      "detail": "Mediana física reproducida +23,4 % (n=9). El paper reporta +23 % en valor; aquí coincide en cantidad física.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "La tierra agrícola baja ~6 % vs 2020",
+      "supported": "partial",
+      "detail": "Mediana −5,0 % con los 5 modelos que reportan tierra (el paper cita −6 %). Rango +1 % a −26 % idéntico al paper. Muestra pequeña.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "El valor de la producción caería US$1,6 billones (−26 %) bajo el escenario",
+      "supported": "partial",
+      "detail": "Citado del paper, no reproducido. Las unidades de valor difieren entre modelos, así que el notebook no lo recalcula (honestidad de fuente).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": -17,
+      "unit": "por ciento",
+      "context": "producción agrícola total vs BAU 2050",
+      "source": "reproducido+paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-17%",
+        "our_calculation": "-16,6%",
+        "discrepancy_pct": 2.4,
+        "reason": "mediana de 9 modelos disponibles"
+      }
+    },
+    {
+      "value": -6,
+      "unit": "por ciento",
+      "context": "tierra agrícola vs 2020",
+      "source": "reproducido+paper",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "-6%",
+        "our_calculation": "-5,0%",
+        "discrepancy_pct": 20.0,
+        "reason": "solo 5 de 10 modelos reportan tierra"
+      }
+    },
+    {
+      "value": -53,
+      "unit": "por ciento",
+      "context": "producción física carne de rumiantes vs BAU",
+      "source": "reproducido",
+      "verified": true
+    },
+    {
+      "value": -45,
+      "unit": "por ciento",
+      "context": "producción física carne no-rumiante vs BAU",
+      "source": "reproducido",
+      "verified": true
+    },
+    {
+      "value": -27,
+      "unit": "por ciento",
+      "context": "producción física de lácteos vs BAU",
+      "source": "reproducido",
+      "verified": true
+    },
+    {
+      "value": 23,
+      "unit": "por ciento",
+      "context": "producción física de verduras, frutas, nueces y legumbres vs BAU",
+      "source": "reproducido",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "+23% (valor)",
+        "our_calculation": "+23,4% (físico)",
+        "discrepancy_pct": 1.7,
+        "reason": "coincide física con valor del abstract"
+      }
+    },
+    {
+      "value": 1.5,
+      "unit": "por ciento",
+      "context": "producción física de oleaginosas vs BAU (la excepción, casi plana)",
+      "source": "reproducido",
+      "verified": true
+    },
+    {
+      "value": "-US$1,6 billones",
+      "unit": "valor",
+      "context": "valor total de la producción (−26 %), citado del paper, no reproducido",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": "-49 a -83",
+      "unit": "por ciento",
+      "context": "valor de la producción ganadera, citado del paper, no reproducido",
+      "source": "paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "los modelos proyectan / bajo este escenario — nunca pasará/ocurrirá"
+    },
+    {
+      "abstract_verb": "highlight",
+      "tier": "T2",
+      "cam_attenuator": "los autores subrayan / plantean"
+    },
+    {
+      "abstract_verb": "dependent on the assumed policies",
+      "tier": "T2",
+      "cam_attenuator": "condicional obligatorio: los resultados dependen de las políticas asumidas — la transformación no es inevitable"
+    }
+  ],
+  "narrative_hooks": [
+    "−53 %: el recorte en producción de carne de rumiantes que los modelos proyectan si el mundo comiera sano",
+    "De nueve grandes grupos de alimentos, solo dos suben; el campo se reordena hacia el plato saludable",
+    "Los 10 modelos coinciden en la dirección de la caída, pero discuten la magnitud (−2 % a −32 %)"
+  ],
+  "limitations": [
+    "Son proyecciones de modelos, no observaciones; dependen de los supuestos de política del escenario (la transformación no es inevitable).",
+    "La tierra agrícola solo la reportan 5 de los 10 modelos.",
+    "Las cifras de valor económico ($1,6 billones, ganadería −49 a −83 %) se citan del paper: las unidades monetarias no son homogéneas entre modelos y no se reproducen.",
+    "Todo es a escala mundial; por región el cuadro puede cambiar."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados 'yes' + 2 parciales, 9 números clave"
+  },
+  "notebook_slug": "2026-07-15-transformacion-sistemas-alimentarios",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-15-transformacion-sistemas-alimentarios/notebook.html",
+  "generated_at": "2026-07-16T00:00:00-05:00"
+}

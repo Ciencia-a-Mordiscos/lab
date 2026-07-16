@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-07-15-transformacion-sistemas-alimentarios/README
+    title: "Si el mundo comiera sano, ¿qué le pasaría al campo?"
+    sections:
+    - file: papers/2026-07-15-transformacion-sistemas-alimentarios/notebook
+      title: Notebook
   - file: papers/2026-07-10-stephensi-mosquito-invasor-africa/README
     title: "Un mosquito cruzó un océano de ciudades"
     sections:
