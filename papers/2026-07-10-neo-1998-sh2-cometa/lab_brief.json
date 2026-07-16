@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "paper_id": 2746,
+  "doi": "10.1038/s41550-026-02913-7",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "1998 SH2 tiene órbita de cometa (T_J < 3)",
+      "supported": "yes",
+      "detail": "T_J = 2,91 calculado desde sus elementos orbitales; bajo la frontera clásica de 3.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal"
+    },
+    {
+      "claim": "Su empujón es ~10x el de una roca típica",
+      "supported": "yes",
+      "detail": "|A2| = 6,96e-13 au/día² vs mediana asteroidal 6,5e-14; ajuste JPL a 14σ (SNR 14,2).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "Es un cometa débil, no uno normal",
+      "supported": "yes",
+      "detail": "Su |A2| queda ~316x por debajo de la mediana cometaria (2,2e-10).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "El empujón se debe a gas escapando (outgassing)",
+      "supported": "partial",
+      "detail": "A2 consistente con outgassing, no medición directa. La prueba (cola tenue) la aportan los autores con telescopios de gran apertura; no se reproduce en el notebook.",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with"
+    },
+    {
+      "claim": "~5% de los asteroides NEO podrían ser cometas ocultos",
+      "supported": "partial",
+      "detail": "2.120 de 42.007 (5,05%) tienen T_J < 3. Filtro dinámico, no confirmación: T_J<3 acierta en 97% de cometas conocidos pero deja fuera a 6.",
+      "certainty_tier": "T3",
+      "abstract_verb": "suggest"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 2.913,
+      "unit": "adimensional",
+      "context": "parámetro de Tisserand de 1998 SH2 (< 3 = lado cometario)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.0,
+      "unit": "adimensional",
+      "context": "frontera clásica asteroide/cometa del parámetro de Tisserand",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2120,
+      "unit": "objetos",
+      "context": "NEO asteroides con T_J < 3 (5,05% de 42.007)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 202,
+      "unit": "objetos",
+      "context": "NEO cometas con T_J < 3 (97,12% de 208 — valida el discriminante)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "objetos",
+      "context": "NEO cometas con T_J >= 3 (caveat: el criterio no es perfecto)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.069,
+      "unit": "adimensional",
+      "context": "mediana T_J asteroides NEO (IQR 3,46-4,94)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.756,
+      "unit": "adimensional",
+      "context": "mediana T_J cometas NEO (IQR 2,25-2,80)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -6.96e-13,
+      "unit": "au/día²",
+      "context": "A2 ajustado de 1998 SH2 (JPL orbit_id 72; SNR 14,2; solo transversal)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.2e-10,
+      "unit": "au/día²",
+      "context": "mediana |A2| cometas NEO; 1998 SH2 es ~316x más débil",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.5e-14,
+      "unit": "au/día²",
+      "context": "mediana |A2| asteroides NEO (escala Yarkovsky); 1998 SH2 es ~10x mayor",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 578,
+      "unit": "objetos",
+      "context": "NEO asteroides con A2 ajustado (1,4%)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 60,
+      "unit": "objetos",
+      "context": "NEO cometas con A2 ajustado (28,8%)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "revela"
+    },
+    {
+      "abstract_verb": "prove",
+      "tier": "T1",
+      "cam_attenuator": "prueban (basado en el tail visual, no reproducible en el notebook)"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "consistente con — NO afirmar causa (A2 puede ser outgassing o Yarkovsky)"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren — NO afirmar directamente"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "podría / puede quedar sin detectar"
+    },
+    {
+      "abstract_verb": "could",
+      "tier": "T3",
+      "cam_attenuator": "podría / podrían ser en realidad"
+    }
+  ],
+  "narrative_hooks": [
+    "Lo llaman asteroide peligroso, pero deja una cola tenue: 1998 SH2 se disfrazó de roca durante 27 años.",
+    "El 5% de los asteroides cercanos a la Tierra se mueve como un cometa.",
+    "Su empujón invisible es 10 veces el de una roca, pero 316 veces más débil que el de un cometa típico: un cometa débil."
+  ],
+  "limitations": [
+    "T_J es un discriminante estadístico, no una prueba: 6 cometas conocidos viven sobre la frontera de 3, y no todo asteroide con T_J<3 es cometa.",
+    "El A2 de 1998 SH2 es solo transversal (sin componente radial A1 ajustada).",
+    "El notebook NO reproduce la detección de la cola visual — la evidencia observacional directa de que es un cometa la aportan los autores con telescopios de gran apertura."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados 'yes' + 2 parciales, 12 números clave"
+  },
+  "notebook_slug": "2026-07-10-neo-1998-sh2-cometa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-10-neo-1998-sh2-cometa/notebook.html",
+  "generated_at": "2026-07-16T15:51:08+00:00"
+}

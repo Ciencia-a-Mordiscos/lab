@@ -1,0 +1,25 @@
+titulo: "El asteroide que era un cometa disfrazado"
+fecha: 2026-07-16
+categoria: astronomía
+tags: [neo, cometas, asteroides, tisserand, aceleración-no-gravitacional, riesgo-de-impacto, 1998-sh2]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02913-7"
+    titulo: "Non-gravitational acceleration indicative of cometary activity of near-Earth object (875163) 1998 SH2"
+    journal: Nature Astronomy
+    autores: "Farnocchia et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "neo_asteroides.csv"
+    descripcion: "42.007 NEOs clasificados asteroide con elementos orbitales y parámetros no-gravitacionales"
+    fuente: "NASA/JPL Small-Body Database Query API"
+  - nombre: "neo_cometas.csv"
+    descripcion: "208 NEOs clasificados cometa, mismos campos"
+    fuente: "NASA/JPL Small-Body Database Query API"
+  - nombre: "objeto_1998_sh2.csv"
+    descripcion: "Registro full-precision de 1998 SH2 (orbit_id 72, A₂ ajustado)"
+    fuente: "NASA/JPL Small-Body Database (sbdb.api)"
+estado: publicado

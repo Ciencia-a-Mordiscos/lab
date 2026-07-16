@@ -715,6 +715,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-07-10-neo-1998-sh2-cometa/README
+    title: "El asteroide que era un cometa disfrazado"
+    sections:
+    - file: papers/2026-07-10-neo-1998-sh2-cometa/notebook
+      title: Notebook
   - file: papers/2026-06-24-gw250114-horizonte-agujero-negro/README
     title: "GW250114: la huella del horizonte de un agujero negro"
     sections:
