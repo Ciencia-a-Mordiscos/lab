@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "paper_id": 2755,
+  "doi": "10.1038/s41586-026-10757-4",
+  "paper_type": "computational",
+  "study_design": "simulacion_reanalisis_estadistico",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Un modelo con respuesta lineal más error de medición reproduce la saturación aparente",
+      "supported": "yes",
+      "detail": "Simulación controlada (semilla 42): la verdad es lineal por construcción y la curva medida se dobla igual. El vínculo causal error→saturación es firme porque el ruido está controlado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En el decil más extremo la curva medida cae ~30% por debajo de la recta real (hasta ~41% en la punta)",
+      "supported": "yes",
+      "detail": "Promedio sobre el 10% más extremo de las mediciones (por masa). La cola es escasa, así que es orden de magnitud.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El límite de saturación reportado sube con el año del estudio",
+      "supported": "partial",
+      "detail": "Tendencia positiva (ρ=0,64) pero con solo 9 estudios y p≈0,06: apunta hacia arriba, no lo demuestra.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Corrigiendo el error, el impacto de tormentas extremas puede ser el doble",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como posibilidad ('can be twice as large'). En la punta de la simulación el hueco de ~41% implica ~1,7x.",
+      "certainty_tier": "T3",
+      "abstract_verb": "can",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 30,
+      "unit": "por ciento",
+      "context": "hueco de la curva medida bajo la recta real en el decil más extremo de la simulación",
+      "source": "notebook_montecarlo",
+      "verified": true
+    },
+    {
+      "value": 41,
+      "unit": "por ciento",
+      "context": "hueco en la punta extrema → impacto real ~1,7x el medido",
+      "source": "notebook_montecarlo",
+      "verified": true
+    },
+    {
+      "value": 9,
+      "unit": "estudios",
+      "context": "estudios de saturación reunidos, 1981-2005",
+      "source": "extended_data_table_2",
+      "verified": true
+    },
+    {
+      "value": 0.641,
+      "unit": "rho Spearman",
+      "context": "límite de saturación vs año (p=0,063, n=9): sugestivo, no significativo",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 4.0,
+      "unit": "mV/m",
+      "context": "límite de saturación mediano reportado por los 9 estudios",
+      "source": "extended_data_table_2",
+      "verified": true
+    },
+    {
+      "value": 2,
+      "unit": "veces",
+      "context": "el impacto de tormentas extremas puede ser hasta el doble de lo pensado (paper, hedge 'can be twice')",
+      "source": "abstract",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "can be twice as large",
+        "our_calculation": "~1,7x en la punta de la simulación",
+        "discrepancy_pct": null,
+        "reason": "el 2x es la corrección máxima estimada por el paper; la simulación reproducida llega a ~1,7x en su bin más extremo"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren"
+    },
+    {
+      "abstract_verb": "can (be twice)",
+      "tier": "T3",
+      "cam_attenuator": "puede llegar a ser el doble"
+    }
+  ],
+  "narrative_hooks": [
+    "Durante casi 40 años la Tierra parecía tener un techo a las tormentas solares; el techo nunca existió.",
+    "La saturación era un espejismo estadístico: regresión a la media por medir lo extremo con error.",
+    "Corregido el sesgo, el impacto de una tormenta extrema podría acercarse al doble de lo pensado."
+  ],
+  "limitations": [
+    "La parte cuantitativa vive en una simulación Monte Carlo reproducida, no en observaciones crudas: muestra que el artefacto PUEDE explicar la saturación, no que sea la única causa.",
+    "Los 9 estudios reportan un solo número cada uno, sin barras de error; n=9 es muy poco para afirmar una tendencia temporal (p≈0,06).",
+    "Las unidades del driver están normalizadas para la demostración del mecanismo."
+  ],
+  "suggested_word_range": {
+    "min": 150,
+    "max": 190,
+    "reason": "2 claims verificados fuertes (mecanismo + hueco) y 2 hedged (tendencia, 2x); mecanismo estadístico único → script conciso"
+  },
+  "notebook_slug": "2026-07-15-regresion-media-geomagnetica",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-15-regresion-media-geomagnetica/notebook.html",
+  "generated_at": "2026-07-16T00:00:00-05:00"
+}

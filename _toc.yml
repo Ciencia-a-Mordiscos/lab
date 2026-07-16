@@ -720,6 +720,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-07-15-regresion-media-geomagnetica/README
+    title: "El techo que no existe: regresión a la media en tormentas solares"
+    sections:
+    - file: papers/2026-07-15-regresion-media-geomagnetica/notebook
+      title: Notebook
   - file: papers/2026-07-10-neo-1998-sh2-cometa/README
     title: "El asteroide que era un cometa disfrazado"
     sections:

@@ -1,0 +1,22 @@
+titulo: "El techo que no existe: regresión a la media en las tormentas solares"
+fecha: 2026-07-16
+categoria: astronomía
+tags: [regresión a la media, viento solar, tormentas geomagnéticas, clima espacial, estadística, monte carlo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10757-4"
+    titulo: "Regression to the mean can explain saturation of geomagnetic storms"
+    journal: Nature
+    autores: "Sivadas et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "curva_regresion_media.csv"
+    descripcion: "Curva de regresión a la media reproducida por Monte Carlo (Code 4, semilla 42)"
+    fuente: "Repositorio archivado (Zenodo)"
+  - nombre: "saturacion_estudios.csv"
+    descripcion: "9 estudios de saturación 1981-2005, límite en mV/m"
+    fuente: "Extended Data Table 2"
+estado: publicado
