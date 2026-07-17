@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-07-16-mar-aral-carbono/README
+    title: "El Mar de Aral se secó y empezó a exhalar carbono"
+    sections:
+    - file: papers/2026-07-16-mar-aral-carbono/notebook
+      title: Notebook
   - file: papers/2026-07-15-dust-pollution-europa/README
     title: "El polvo del desierto que respira Europa"
     sections:

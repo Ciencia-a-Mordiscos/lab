@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### El Mar de Aral se secó y empezó a exhalar carbono
+
+**Ecología** · *Science* (2026) · El Mar de Aral, cuarto lago más grande del mundo, se secó tras desviar su agua para regar algodón. El equipo midió qué hace el lecho ahora expuesto: **111 mediciones** de flujo de CO₂ (cámaras IRGA) en **14 sitios**, con luz y a oscuras. **El hallazgo:** el barro seco es una **fuente** de carbono, no un sumidero — ~**80%** de las mediciones dan emisión neta, y emite casi igual con luz que a oscuras (Mann-Whitney p=0,03; Cohen's d≈0,30, efecto pequeño). Hacia 2022 quedaron **62.625 km²** de lecho al descubierto. Desde 1960 el lecho ha liberado unos **204 Tg C (±53)**, volviendo la cuenca de sumidero presunto a fuente neta. ⚠️ La cifra de 204 Tg C es una **integración a escala de sistema** (space-for-time), no un dato de una sola tabla; la citamos como la calculó el equipo. ⚠️ El flujo se midió en **una sola campaña** (sep 2022); la trayectoria temporal se **infiere** de la cronosecuencia. ⚠️ Reinundar **podría** evitar ~**165 Tg C** más (≈604 Mt CO₂): es un **escenario modelado**, no un logro.
+
+[Ver notebook](papers/2026-07-16-mar-aral-carbono/notebook) · [Leer más](papers/2026-07-16-mar-aral-carbono/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-16-mar-aral-carbono/notebook.ipynb)
+
 ### El polvo del desierto que respira Europa
 
 **Ecología** · *Nature* (2026) · El polvo del Sáhara no se queda en el desierto: el viento lo empuja miles de kilómetros hasta los pulmones y los glaciares de Europa. Abrimos los datos de **106 estaciones** europeas y un **núcleo de hielo alpino** que guarda, año a año, cuánto polvo llegó desde 1750. **El hallazgo:** el sur de Europa carga **3,45 veces** más trazador de polvo (aluminio) que el norte (ρ=−0,75, n=106), y el hielo muestra que el polvo **subió +114 %** (raw) desde la era preindustrial — consistente con el **+110 %** del paper. Todo apunta a la sequía del norte de África: calcio del hielo y sequía marroquí se mueven casi en espejo (ρ=−0,78, n=139 años). ⚠️ El trazador **aluminio** (3,45×) no es el **PM10 modelado** del paper (2,53×): coinciden en el gradiente, no en la magnitud. ⚠️ El vínculo sequía→polvo es una **asociación** observacional, no causa probada. ⚠️ El vínculo polvo→mortalidad (+0,67 %) lo reportan los investigadores; no lo reproducimos aquí.

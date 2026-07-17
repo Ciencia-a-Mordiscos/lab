@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "paper_id": 2766,
+  "doi": "10.1126/science.aeb2344",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El lecho expuesto del Mar de Aral emite CO₂: es fuente de carbono, no sumidero.",
+      "supported": "yes",
+      "detail": "111 mediciones IRGA en 14 sitios; ~80% con flujo neto positivo, en luz y en oscuridad.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El sedimento emite con luz y a oscuras casi por igual; ambas condiciones son fuente neta.",
+      "supported": "yes",
+      "detail": "Mann-Whitney p=0,027; Cohen's d≈0,30 (efecto pequeño). No es 'la fotosíntesis compensa'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.3,
+        "interpretation": "pequeño"
+      }
+    },
+    {
+      "claim": "Hacia 2022 se expusieron unos 62.625 km² de lecho seco acumulados desde 1960.",
+      "supported": "yes",
+      "detail": "Reconstrucción por teledetección + dataciones 210Pb, área acumulada.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Desde 1960 el lecho seco ha liberado unos 204 Tg C (±53).",
+      "supported": "partial",
+      "detail": "Integración a escala de sistema (cronosecuencia + área + stocks), cifra del paper; no recomputada en el notebook.",
+      "certainty_tier": "T1",
+      "abstract_verb": "released"
+    },
+    {
+      "claim": "Reinundar el lago podría evitar unos 165 Tg C más (≈604 Mt CO₂ en reinundación completa).",
+      "supported": "partial",
+      "detail": "Escenario modelado, no un resultado observado. Propuesta de mitigación (condicional).",
+      "certainty_tier": "T3",
+      "abstract_verb": "could",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El crecimiento de vegetación compensa menos del 1% del carbono emitido.",
+      "supported": "partial",
+      "detail": "Del abstract; no recalculado con estos CSV.",
+      "certainty_tier": "T1",
+      "abstract_verb": "quantified"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 204,
+      "unit": "Tg C",
+      "context": "carbono liberado desde 1960 (integración de escala de sistema)",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": 62625,
+      "unit": "km²",
+      "context": "lecho expuesto acumulado a 2022",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 0.286,
+      "unit": "µmol/m²/s",
+      "context": "mediana del flujo de CO₂ con luz (Clear)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 0.108,
+      "unit": "µmol/m²/s",
+      "context": "mediana del flujo de CO₂ a oscuras (Dark)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 80,
+      "unit": "por ciento",
+      "context": "mediciones con emisión neta (flujo > 0)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 0.3,
+      "unit": "Cohen's d",
+      "context": "tamaño de efecto Clear vs Dark (pequeño)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 604,
+      "unit": "Mt CO₂",
+      "context": "emisión evitable en reinundación completa (57,3 km³)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 165,
+      "unit": "Tg C",
+      "context": "carbono evitable con reinundación completa",
+      "source": "paper_abstract",
+      "verified": true
+    },
+    {
+      "value": 0.39,
+      "unit": "por ciento",
+      "context": "mediana de carbono orgánico en el sedimento (n=554)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 1,
+      "unit": "por ciento",
+      "context": "compensación máxima por vegetación (menos de)",
+      "source": "paper_abstract",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "quantified",
+      "tier": "T1",
+      "cam_attenuator": "medicion directa: 'cuantificaron' / 'midieron'"
+    },
+    {
+      "abstract_verb": "released (have released)",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa medida: 'el lecho ha liberado 204 Tg C'"
+    },
+    {
+      "abstract_verb": "transforming",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (resultado del calculo): 'convierte la cuenca en fuente neta'"
+    },
+    {
+      "abstract_verb": "presumed",
+      "tier": "T2",
+      "cam_attenuator": "'lo que se creia un sumidero'"
+    },
+    {
+      "abstract_verb": "could (prevent)",
+      "tier": "T3",
+      "cam_attenuator": "'podria evitar' — reflooding es escenario, NO logro. NO afirmar como hecho."
+    },
+    {
+      "abstract_verb": "opportunity (mitigation opportunity)",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de los autores: 'reencuadra la restauracion como oportunidad climatica'. NO escalar a solucion probada."
+    }
+  ],
+  "narrative_hooks": [
+    "Un lago se seca, y el barro que queda empieza a exhalar el carbono que guardó durante milenios.",
+    "El lecho seco del Mar de Aral es una fuente de CO₂: emite con luz y a oscuras.",
+    "Lo que se creía un sumidero de carbono resultó ser una fuente neta."
+  ],
+  "limitations": [
+    "El flujo de CO₂ se midió en una sola campaña (septiembre 2022), no a lo largo del año.",
+    "La trayectoria temporal se infiere de una sustitución espacio-por-tiempo (cronosecuencia), no de seguir el mismo punto año a año.",
+    "La cifra de 204 Tg C es una estimación con incertidumbre (±53 Tg C).",
+    "La reinundación es un escenario modelado, no un resultado observado."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados con datos + cifras clave del abstract"
+  },
+  "notebook_slug": "2026-07-16-mar-aral-carbono",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-16-mar-aral-carbono/notebook.html",
+  "generated_at": "2026-07-17T10:49:23"
+}

@@ -1,0 +1,28 @@
+titulo: "El Mar de Aral se secó y empezó a exhalar carbono"
+fecha: 2026-07-17
+categoria: ecología
+tags: [clima, carbono, aral, desecación, co2, asia-central, limnología]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb2344"
+    titulo: "Drying of the Aral Sea reshapes the anthropogenic carbon inventory of Central Asia"
+    journal: Science
+    autores: "Marcé et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "flujo_co2_sitios.csv"
+    descripcion: "Flujo de CO₂ (IRGA) en 14 sitios del lecho expuesto, condiciones Clear/Dark"
+    fuente: "Zenodo 10.5281/zenodo.16809289"
+  - nombre: "desecacion_area.csv"
+    descripcion: "Área de lecho expuesto acumulada por año, 1960-2022"
+    fuente: "Zenodo 10.5281/zenodo.16809289"
+  - nombre: "reflooding_escenarios.csv"
+    descripcion: "Escenarios de reinundación: agua devuelta vs CO₂ evitado"
+    fuente: "Zenodo 10.5281/zenodo.16809289"
+  - nombre: "carbono_organico_sedimento.csv"
+    descripcion: "Carbono orgánico del sedimento (%), 554 muestras"
+    fuente: "Zenodo 10.5281/zenodo.16809289"
+estado: publicado
