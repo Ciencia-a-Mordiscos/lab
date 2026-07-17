@@ -1,0 +1,22 @@
+titulo: "La dieta keto aceleró los tumores intestinales — y no fueron las cetonas"
+fecha: 2026-07-17
+categoria: medicina
+tags: [dieta-cetogenica, cancer-intestinal, oxidacion-de-grasas, cpt1a, poliposis-familiar, ratones]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10779-y"
+    titulo: "Ketogenic diet mediates intestinal tumorigenesis through lipids not ketones"
+    journal: Nature
+    autores: "Shay et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "fig1i_tumor_number.csv"
+    descripcion: "Número de tumores por ratón, dieta keto vs control"
+    fuente: "Nature Source Data (MOESM3)"
+  - nombre: "fig5g_survival_cpt1a.csv"
+    descripcion: "Supervivencia bajo keto: WT vs Cpt1a-iKO (rescate por bloqueo de FAO)"
+    fuente: "Nature Source Data (MOESM7)"
+estado: publicado

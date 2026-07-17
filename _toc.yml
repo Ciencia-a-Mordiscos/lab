@@ -407,6 +407,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-07-17-keto-tumores/README
+    title: "La dieta keto aceleró los tumores... y no eran las cetonas"
+    sections:
+    - file: papers/2026-07-17-keto-tumores/notebook
+      title: Notebook
   - file: papers/2026-07-08-vacuna-hiv-anticuerpos-primates/README
     title: "Una vacuna hizo que monos fabricaran anticuerpos contra el VIH"
     sections:

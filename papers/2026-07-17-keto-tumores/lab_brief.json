@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "paper_id": 2759,
+  "doi": "10.1038/s41586-026-10779-y",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "La dieta cetogénica indujo cetosis real (β-hidroxibutirato ~9x más alto que el control)",
+      "supported": "yes",
+      "detail": "BHB fold ~9x por mediana; Cohen d = 7,0; Mann-Whitney p = 0,003; n = 7 vs 5. Escala normalizada de intensidad (no mM): solo se interpreta el fold-change.",
+      "certainty_tier": "T1",
+      "abstract_verb": "induce",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 7.03,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "La dieta keto aumenta el número de tumores intestinales (mediana 18 vs 7, ~2,6x)",
+      "supported": "yes",
+      "detail": "Mann-Whitney p = 0,008; Cohen d = 1,8; n = 7 vs 9. Test de permutación p = 0,033.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.76,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La dieta keto aumenta el área tumoral total (~4x la mediana del control)",
+      "supported": "yes",
+      "detail": "Cohen d = 2,5; Mann-Whitney p = 0,0007; n = 7 vs 9. Área mostrada relativa a la mediana del control (unidad absoluta del paper no verificable públicamente).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.53,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La dieta keto acorta la supervivencia (45% de los ratones keto alcanzó el desenlace vs 11% en control)",
+      "supported": "yes",
+      "detail": "Análisis descriptivo del % de eventos; n = 20 keto vs 27 control. Sin hazard ratio formal en este notebook.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "event_rate_pct",
+        "value": 45.0,
+        "interpretation": "vs 11% control"
+      }
+    },
+    {
+      "claim": "El efecto NO viene de las cetonas: modular HMGCS2 o la ketólisis no alteró la tumorigénesis",
+      "supported": "yes",
+      "detail": "Resultado nulo reportado en el paper (Figs de manipulación genética de la vía cetogénica); no reanalizado en este notebook, se toma del artículo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "null_result",
+        "value": 0,
+        "interpretation": "sin efecto"
+      }
+    },
+    {
+      "claim": "Apagar la oxidación de grasas (CPT1A-iKO) bajo keto rescata la supervivencia y reduce el área tumoral",
+      "supported": "partial",
+      "detail": "Fuerte en supervivencia (0% eventos sin CPT1A vs 25% con CPT1A) y área (Cohen d = 1,5; p = 0,001; n = 12 vs 30); moderado en número de tumores (Cohen d = 0,8; p = 0,038).",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.45,
+        "interpretation": "grande (área); moderado en número"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9.0,
+      "unit": "x (fold, mediana)",
+      "context": "BHB keto vs control — valida la cetosis",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 18,
+      "unit": "tumores (mediana)",
+      "context": "tumores por ratón bajo dieta keto",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "tumores (mediana)",
+      "context": "tumores por ratón bajo dieta control",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 2.6,
+      "unit": "x (fold, mediana)",
+      "context": "keto vs control en número de tumores",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 4.4,
+      "unit": "x (fold, mediana)",
+      "context": "keto vs control en área tumoral total",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 45,
+      "unit": "por ciento",
+      "context": "ratones keto que alcanzaron el desenlace de mortalidad (vs 11% control)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0,
+      "unit": "por ciento",
+      "context": "eventos bajo keto en Cpt1a-iKO (100% supervivencia) vs 25% en WT",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1.45,
+      "unit": "cohen_d",
+      "context": "reducción de área tumoral al apagar CPT1A bajo keto (p=0,0013)",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'la keto aceleró los tumores y acortó la supervivencia'"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'es la oxidación de lípidos, no las cetonas'"
+    },
+    {
+      "abstract_verb": "highlight",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim: NO escalar a 'la keto es peligrosa'"
+    }
+  ],
+  "narrative_hooks": [
+    "La dieta keto —la que se vende para adelgazar— aceleró los tumores intestinales en ratones propensos: mediana 18 vs 7.",
+    "El sospechoso obvio era inocente: apagar las cetonas no cambió nada. El acelerador era la quema de grasas.",
+    "Apagar una sola enzima (CPT1A) bajo la misma dieta keto llevó la supervivencia al 100%."
+  ],
+  "limitations": [
+    "Todo es en ratones con mutación Apc (modelo de poliposis adenomatosa familiar, FAP); no es evidencia de que la keto cause cáncer en humanos sanos.",
+    "El BHB está en unidades normalizadas de intensidad, no en concentración: sirve para confirmar cetosis por fold-change, no como valor absoluto.",
+    "La supervivencia se resume de forma descriptiva (% de eventos, días), sin hazard ratio ni intervalos de confianza.",
+    "El resultado nulo sobre cetonas y los knockouts genéticos se toman del paper; el notebook reanaliza tumores, área y supervivencia (Figs 1 y 5)."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados 'yes' + 1 parcial, 8 números clave — script denso"
+  },
+  "notebook_slug": "2026-07-17-keto-tumores",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-17-keto-tumores/notebook.html",
+  "generated_at": "2026-07-17"
+}
