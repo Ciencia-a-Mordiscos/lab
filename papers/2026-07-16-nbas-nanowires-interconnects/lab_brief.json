@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "paper_id": 2765,
+  "doi": "10.1126/science.adx3027",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El nanohilo de 40 nm reduce su resistividad ~70% frente al material en bloque",
+      "supported": "yes",
+      "detail": "Dato medido del abstract (10,5 ± 1,9 µΩ·cm). La curva completa vive en el paper paywalled; aquí se cita, no se re-mide.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La conducción es dominada por la superficie",
+      "supported": "partial",
+      "detail": "Mecanismo atribuido por cálculos DFT, no medido directo. Explica la resistividad pero es hipótesis teórica.",
+      "certainty_tier": "T2",
+      "abstract_verb": "attribute",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El NbAs bota el calor como un metal (109,68 W/m·K)",
+      "supported": "yes",
+      "detail": "Monocristal en la liga de Ru (117) y Co (100). Pero es el 27% del cobre (401) y el NbP lo supera.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los nanohilos son NbAs estequiométrico (Nb:As ~1,012)",
+      "supported": "yes",
+      "detail": "Proporción atómica media 1,012; desviación máxima <1 punto porcentual, dentro del margen de EDX.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El NbAs aguanta más corriente de ruptura que el cobre",
+      "supported": "no",
+      "detail": "Falso: el cobre (100–145) supera al NbAs (mediana 42 MA/cm²). El NbAs sí bate a TaSe₃ y WTe₂.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 10.5,
+      "unit": "µΩ·cm",
+      "context": "resistividad a temperatura ambiente del nanohilo de 40 nm",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 70,
+      "unit": "por ciento",
+      "context": "reducción de resistividad frente al NbAs en bloque",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 40,
+      "unit": "nm",
+      "context": "diámetro mínimo de nanohilo sintetizado",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 42.2,
+      "unit": "MA/cm²",
+      "context": "mediana de corriente de ruptura del NbAs 40 nm (n=6, rango 25,8–78,7)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 109.68,
+      "unit": "W/m·K",
+      "context": "conductividad térmica del NbAs monocristalino",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 27,
+      "unit": "por ciento",
+      "context": "conductividad térmica del NbAs como fracción de la del cobre (401 W/m·K)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.012,
+      "unit": "razón atómica",
+      "context": "proporción atómica Nb:As media en los nanohilos (EDX)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (reportan/presentan)"
+    },
+    {
+      "abstract_verb": "exhibit",
+      "tier": "T1",
+      "cam_attenuator": "dato medido directo (exhibió/mostró)"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "dato medido directo (reveló)"
+    },
+    {
+      "abstract_verb": "attribute",
+      "tier": "T2",
+      "cam_attenuator": "los cálculos atribuyen — mecanismo teórico, NO medido"
+    }
+  ],
+  "narrative_hooks": [
+    "Un cable de cobre empeora al adelgazarlo; este nanohilo de NbAs de 40 nm mejora: baja su resistividad ~70% frente al bloque.",
+    "Un material cuántico de Weyl que, contra toda expectativa, bota el calor como un metal común (109,68 W/m·K, en la liga del rutenio y el cobalto)."
+  ],
+  "limitations": [
+    "La curva resistividad-vs-diámetro (hallazgo central) no está en los CSV; se cita del abstract porque la figura vive tras muro de pago.",
+    "Las comparaciones de breakdown y térmica usan pocos puntos por material (n=2–6): sirven para ubicar órdenes de magnitud, no para tests estadísticos.",
+    "El mecanismo de conducción dominada por superficie es teórico (atribuido por cálculos DFT), no una medición directa.",
+    "El cobre sigue superando al NbAs en corriente de ruptura y en conductividad térmica absoluta; la ventaja del NbAs es la resistividad a diámetros pequeños."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados yes + 7 números clave"
+  },
+  "notebook_slug": "2026-07-16-nbas-nanowires-interconnects",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-16-nbas-nanowires-interconnects/notebook.html",
+  "generated_at": "2026-07-18T00:00:00-05:00"
+}

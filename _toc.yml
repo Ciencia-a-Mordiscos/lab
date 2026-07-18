@@ -891,6 +891,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-07-16-nbas-nanowires-interconnects/README
+    title: "Un cable que mejora al encogerse: nanohilos de NbAs"
+    sections:
+    - file: papers/2026-07-16-nbas-nanowires-interconnects/notebook
+      title: Notebook
   - file: papers/2026-07-09-leaping-out-water-flapping-wings/README
     title: "Un ave que vuela y bucea con las mismas alas"
     sections:

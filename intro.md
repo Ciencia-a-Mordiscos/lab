@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Un cable que mejora al encogerse: nanohilos de NbAs
+
+**Tecnología** · *Science* (2026) · Los cables de cobre de un chip empeoran al adelgazarlos: los electrones rebotan contra las paredes y la resistencia sube. Un equipo probó lo contrario con nanohilos de arseniuro de niobio (**NbAs**), un semimetal de Weyl. **El hallazgo:** un nanohilo de **40 nm** baja su resistividad a **10,5 ± 1,9 µΩ·cm**, ~**70 % menos** que el material en bloque — encoger el cable lo mejoró. Y bota el calor como un metal: **109,68 W/m·K**, en la liga del rutenio (117) y el cobalto (100). Los cuatro nanohilos son NbAs estequiométrico (Nb:As ≈ **1,012** por EDX). ⚠️ La curva resistividad-vs-diámetro (el hallazgo central) se **cita del abstract**: su figura vive tras muro de pago. ⚠️ El mecanismo de "conducción por superficie" lo **atribuyen cálculos DFT**, no se midió. ⚠️ El cobre todavía gana en corriente de ruptura (100–145 vs mediana 42 MA/cm²) y en conductividad térmica absoluta.
+
+[Ver notebook](papers/2026-07-16-nbas-nanowires-interconnects/notebook) · [Leer más](papers/2026-07-16-nbas-nanowires-interconnects/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-16-nbas-nanowires-interconnects/notebook.ipynb)
+
 ### La dieta keto aceleró los tumores intestinales — y no fueron las cetonas
 
 **Medicina** · *Nature* (2026) · A ratones propensos a los pólipos intestinales (modelo de la poliposis familiar, *Apc*-mutantes) se les dio una dieta cetogénica. **El hallazgo:** más tumores (**mediana 18 vs 7** por ratón, ~**2,6x**; Cohen d=1,8; p=0,008), área tumoral ~**4x** mayor (d=2,5) y peor supervivencia (**45%** de eventos vs **11%** en control). El giro: apagar las **cetonas** (HMGCS2/ketólisis) **no cambió nada** — el acelerador es la **oxidación de las grasas** de la dieta. Apagar la enzima **CPT1A** bajo la misma keto rescató la supervivencia al **100%** (0 eventos vs 25% en WT) y bajó el área tumoral (d=1,5; p=0,001). ⚠️ Todo en **ratones** con riesgo genético (FAP): **no** es evidencia de que la keto cause cáncer en humanos sanos. ⚠️ El resultado nulo sobre cetonas y los knockouts se toman del paper; reanalizamos tumores, área y supervivencia (Figs 1 y 5). ⚠️ El BHB va en unidades normalizadas de intensidad: solo se lee el fold-change.

@@ -1,0 +1,28 @@
+titulo: "Un cable que mejora al encogerse: nanohilos de NbAs para interconectores"
+fecha: 2026-07-16
+categoria: tecnologia
+tags: [interconectores, semimetal-weyl, nanohilos, nbas, resistividad, conductividad-termica, chips]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adx3027"
+    titulo: "Surface-dominant transport in Weyl semimetal NbAs nanowires for next-generation interconnects"
+    journal: Science
+    autores: "Cheon et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "conductividad_termica_materiales.csv"
+    descripcion: "Conductividad térmica de metales y semimetales topológicos"
+    fuente: "Supplementary Materials, Table S7"
+  - nombre: "densidad_corriente_ruptura.csv"
+    descripcion: "Corriente de ruptura de conductores nanoscópicos"
+    fuente: "Supplementary Materials, Table S5"
+  - nombre: "composicion_edx.csv"
+    descripcion: "Proporción atómica Nb:As por EDX"
+    fuente: "Supplementary Materials, Table S4"
+  - nombre: "dielectricos_low_k.csv"
+    descripcion: "Dieléctricos low-k y su conductividad térmica"
+    fuente: "Supplementary Materials, Table S8"
+estado: publicado
