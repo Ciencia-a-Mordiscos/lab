@@ -891,6 +891,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-07-18-memoria-un-electron-cuantica/README
+    title: "Una memoria hecha de un solo electrón"
+    sections:
+    - file: papers/2026-07-18-memoria-un-electron-cuantica/notebook
+      title: Notebook
   - file: papers/2026-07-16-nbas-nanowires-interconnects/README
     title: "Un cable que mejora al encogerse: nanohilos de NbAs"
     sections:

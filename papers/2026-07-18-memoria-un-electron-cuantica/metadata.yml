@@ -1,0 +1,28 @@
+titulo: "Una memoria hecha de un solo electrón"
+fecha: 2026-07-18
+categoria: tecnologia
+tags: [nanotecnologia, memoria, electronica, materiales-2d, cuantica, semiconductores]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeg6638"
+    titulo: "Robust single-electron memory with quantum states manipulation"
+    journal: Science
+    autores: "Liu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "senal_vs_area.csv"
+    descripcion: "Señal cuántica (%) vs área de almacenamiento, por grosor de canal (Fig 1d)"
+    fuente: "Figshare"
+  - nombre: "escalera_electron.csv"
+    descripcion: "ΔVth normalizado (V*) vs voltaje de programación, quitar/añadir electrón (Fig 2d)"
+    fuente: "Figshare"
+  - nombre: "retencion.csv"
+    descripcion: "Vth de los estados N(0)…N(-3) vs tiempo, 1–5000 s (Fig 3b)"
+    fuente: "Figshare"
+  - nombre: "benchmark.csv"
+    descripcion: "|ΔVth cuántico| físico (V) vs área, por familia de dispositivo (Fig 3c)"
+    fuente: "Figshare"
+estado: publicado

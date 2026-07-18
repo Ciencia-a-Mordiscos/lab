@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "paper_id": 2771,
+  "doi": "10.1126/science.aeg6638",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Cambiar un solo electrón desplaza Vth ~0,5 V de forma no volátil",
+      "supported": "yes",
+      "detail": "El máximo físico del canal 2D en el benchmark (Fig 3c) es 0,503 V, coincide con el 0,5 V del abstract",
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "El canal 2D ultradelgado conserva mucha más señal cuántica al miniaturizar",
+      "supported": "yes",
+      "detail": "A 100 nm²: 91% (0,7 nm) vs 13% (20 nm), ~7× más señal — supresión de capacitancia de borde",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La carga entra y sale de a un electrón (escalones enteros de V*)",
+      "supported": "yes",
+      "detail": "Plateaus en múltiplos enteros de V* al quitar (0,-1,-2,-3) y al añadir (0,+1,+2,+3)",
+      "certainty_tier": "T1",
+      "abstract_verb": "verify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los estados de carga son estables en el tiempo (retención)",
+      "supported": "yes",
+      "detail": "4 estados separados ~1 V*, ruido sd≈0,06 V* → separación/ruido ≈16:1, de 1 a 5.000 s",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "separacion_ruido",
+        "value": 16.25,
+        "interpretation": "estados nítidamente resueltos"
+      }
+    },
+    {
+      "claim": "La señal por electrón es ~14× mayor que la de dispositivos bulk industriales",
+      "supported": "yes",
+      "detail": "Cálculo propio sobre el dataset: 0,503 V (2D) vs 0,037 V (industrial) = ×13,6",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "0,5 V",
+      "unit": "voltios",
+      "context": "desplazamiento físico de Vth por un electrón (no volátil)",
+      "source": "abstract + Fig 3c",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.5 V",
+        "our_calculation": "0.503 V (máx canal 2D)",
+        "discrepancy_pct": 0.6,
+        "reason": "máximo físico del canal 2D en el benchmark"
+      }
+    },
+    {
+      "value": 91,
+      "unit": "por ciento",
+      "context": "señal cuántica conservada por el canal 2D (0,7 nm) a 100 nm²",
+      "source": "Fig 1d",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "por ciento",
+      "context": "señal cuántica conservada por el canal grueso (20 nm) a 100 nm²",
+      "source": "Fig 1d",
+      "verified": true
+    },
+    {
+      "value": 16,
+      "unit": "razón",
+      "context": "separación entre estados de retención (~1 V*) sobre el ruido (sd≈0,06 V*)",
+      "source": "Fig 3b (cálculo propio)",
+      "verified": true
+    },
+    {
+      "value": 14,
+      "unit": "veces",
+      "context": "ventaja del canal 2D (0,503 V) frente al bulk industrial (0,037 V) en señal por electrón",
+      "source": "Fig 3c (cálculo propio)",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "no lo reporta como cifra",
+        "our_calculation": "0.503/0.037 = 13.6×",
+        "discrepancy_pct": 0,
+        "reason": "cálculo propio con los máximos por familia"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (el paper PRESENTA el dispositivo)"
+    },
+    {
+      "abstract_verb": "verify",
+      "tier": "T1",
+      "cam_attenuator": "'verificaron' / 'confirmaron'"
+    },
+    {
+      "abstract_verb": "predict/observe",
+      "tier": "T1",
+      "cam_attenuator": "'predijeron y observaron' — el efecto se observó, no queda hipotético"
+    }
+  ],
+  "narrative_hooks": [
+    "Un electrón. Ese es todo el hardware que necesita esta memoria para guardar un bit.",
+    "Mover un solo electrón desplaza el voltaje de la memoria medio voltio... y ahí se queda.",
+    "El canal 2D saca ~14 veces más señal por electrón que los dispositivos bulk de la industria."
+  ],
+  "limitations": [
+    "Es la caracterización de un solo dispositivo de laboratorio, no una línea de producción.",
+    "La retención se midió hasta 5.000 s (no años); sin datos de resistencia a ciclos ni de variación entre chips.",
+    "La ventaja ×14 es un cálculo propio sobre el dataset de benchmark, no una cifra del abstract.",
+    "V* es una unidad normalizada (1 V* ≈ 1 electrón), no voltios físicos."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados yes, 6 números clave — script denso"
+  },
+  "notebook_slug": "2026-07-18-memoria-un-electron-cuantica",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-18-memoria-un-electron-cuantica/notebook.html",
+  "generated_at": "2026-07-18T12:00:00-05:00"
+}

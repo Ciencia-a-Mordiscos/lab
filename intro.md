@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Una memoria hecha de un solo electrón
+
+**Tecnología** · *Science* (2026) · El sueño de la miniaturización es guardar un bit con **un solo electrón**. El problema: al encoger el dispositivo, la *capacitancia de borde* se dispara y ahoga la señal del electrón. Un equipo esquivó ese muro con una estructura 2D coplanar (drenaje-canal-fuente en el mismo plano). **El hallazgo:** cambiar **un electrón** desplaza el voltaje umbral **~0,5 V** de forma no volátil. Los datos lo confirman de tres formas: a 100 nm² el canal 2D conserva **91 %** de la señal frente al **13 %** de un canal grueso (~7×); el desplazamiento avanza en **escalones enteros** (un electrón por escalón); y los cuatro estados de carga se mantienen separados ~1 V\* con un ruido 16 veces menor, de 1 a 5.000 s. Frente a dispositivos bulk industriales, la señal por electrón es ~**14×** mayor (cálculo propio sobre el dataset). ⚠️ Es la caracterización de **un** dispositivo de laboratorio (retención medida hasta 5.000 s, no años). ⚠️ V\* es una unidad normalizada (1 V\* ≈ 1 electrón), no voltios físicos.
+
+[Ver notebook](papers/2026-07-18-memoria-un-electron-cuantica/notebook) · [Leer más](papers/2026-07-18-memoria-un-electron-cuantica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-18-memoria-un-electron-cuantica/notebook.ipynb)
+
 ### Un cable que mejora al encogerse: nanohilos de NbAs
 
 **Tecnología** · *Science* (2026) · Los cables de cobre de un chip empeoran al adelgazarlos: los electrones rebotan contra las paredes y la resistencia sube. Un equipo probó lo contrario con nanohilos de arseniuro de niobio (**NbAs**), un semimetal de Weyl. **El hallazgo:** un nanohilo de **40 nm** baja su resistividad a **10,5 ± 1,9 µΩ·cm**, ~**70 % menos** que el material en bloque — encoger el cable lo mejoró. Y bota el calor como un metal: **109,68 W/m·K**, en la liga del rutenio (117) y el cobalto (100). Los cuatro nanohilos son NbAs estequiométrico (Nb:As ≈ **1,012** por EDX). ⚠️ La curva resistividad-vs-diámetro (el hallazgo central) se **cita del abstract**: su figura vive tras muro de pago. ⚠️ El mecanismo de "conducción por superficie" lo **atribuyen cálculos DFT**, no se midió. ⚠️ El cobre todavía gana en corriente de ruptura (100–145 vs mediana 42 MA/cm²) y en conductividad térmica absoluta.
