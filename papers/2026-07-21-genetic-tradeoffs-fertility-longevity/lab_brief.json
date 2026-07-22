@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "paper_id": 2780,
+  "doi": "10.1038/s41559-026-03140-z",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Los alelos que aumentan la fertilidad tienden a acortar la longevidad",
+      "supported": "yes",
+      "detail": "r = -0,35 (Pearson) / rho = -0,36 (Spearman), n=285, p<0,0001. Correlación moderada (88% de dispersión sin explicar). Observacional: asociación, no causa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "Los alelos de riesgo, en promedio, acortan la vida en este subconjunto de 285 loci",
+      "supported": "partial",
+      "detail": "Corrimiento medio leve (z=-0,16) y NO significativo aquí (p=0,109). El efecto medio se apoya en el análisis genómico completo + MR, no en estos 285 loci.",
+      "certainty_tier": "T2",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "La predisposición genética a la enfermedad reduce causalmente la longevidad",
+      "supported": "yes",
+      "detail": "Randomización mendeliana: 22 de 43 enfermedades con efecto significativo; 30 de 43 apuntan a menor longevidad. Único lugar donde el diseño permite hablar de causa.",
+      "certainty_tier": "T1",
+      "abstract_verb": "detect a causal effect"
+    },
+    {
+      "claim": "La predisposición a la enfermedad reduce causalmente la fertilidad",
+      "supported": "no",
+      "detail": "Solo 12 de 45 pruebas significativas; el paper lo describe como sin evidencia robusta.",
+      "certainty_tier": "T3",
+      "abstract_verb": "no robust evidence"
+    },
+    {
+      "claim": "Estar afectado por una enfermedad casi siempre implica tener menos hijos",
+      "supported": "no",
+      "detail": "Al revés para la mayoría: en 44 de 62 enfermedades los afectados tienen MÁS hijos que los no afectados.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "El giro reproductivo (menos hijos) ocurre en las enfermedades de aparición temprana",
+      "supported": "yes",
+      "detail": "Aparición <40 años: +11,8 pp de exceso sin hijos (n=15); aparición >=40: -2,0 pp (n=47); brecha grande (Cohen's d=1,85; Mann-Whitney p<0,0001). Correlación edad-coste r=-0,59.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reverses",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.85,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Los alelos que suben la fertilidad parecen favorecidos por la selección reciente",
+      "supported": "yes",
+      "detail": "SDS medio +0,28, 56,3% positivos, p=7e-5 (t) / 6e-4 (Wilcoxon), n=293. Ventana ~2.000-3.000 años (SDS), NO 50.000 años (eso es iHS/nSL).",
+      "certainty_tier": "T2",
+      "abstract_verb": "appear to have been favoured"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": -0.351,
+      "unit": "coeficiente r",
+      "context": "correlación fertilidad vs longevidad de 285 alelos de riesgo (Pearson)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 285,
+      "unit": "loci",
+      "context": "loci pleiotrópicos analizados (fertilidad + riesgo de enfermedad)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 62,
+      "unit": "enfermedades",
+      "context": "enfermedades con datos de longevidad y fertilidad",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.161,
+      "unit": "z medio",
+      "context": "corrimiento medio de longevidad de los alelos de riesgo (p=0,109, no significativo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.277,
+      "unit": "SDS medio",
+      "context": "señal de selección reciente sobre alelos pro-fertilidad (n=293, p=7e-5)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 56.3,
+      "unit": "por ciento",
+      "context": "alelos pro-fertilidad con SDS positivo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.591,
+      "unit": "coeficiente r",
+      "context": "correlación edad de aparición vs exceso de personas sin hijos (n=62)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.82,
+      "unit": "puntos porcentuales",
+      "context": "exceso de personas sin hijos en enfermedades de aparición temprana (<40a, n=15)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -2.04,
+      "unit": "puntos porcentuales",
+      "context": "exceso de personas sin hijos en enfermedades de aparición tardía (>=40a, n=47)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 44,
+      "unit": "de 62 enfermedades",
+      "context": "enfermedades donde los afectados tienen MÁS hijos que los no afectados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "de 43",
+      "context": "enfermedades con efecto causal significativo sobre la longevidad (randomización mendeliana)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "de 45",
+      "context": "enfermedades con efecto causal significativo sobre la fertilidad (MR) = no robusto",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "los datos muestran una asociación (observacional, sin verbo causal)"
+    },
+    {
+      "abstract_verb": "detect a causal effect (MR)",
+      "tier": "T1",
+      "cam_attenuator": "detectan un efecto causal SOLO sobre la longevidad, vía randomización mendeliana"
+    },
+    {
+      "abstract_verb": "no robust evidence (fertility)",
+      "tier": "T3",
+      "cam_attenuator": "sin evidencia robusta de efecto causal sobre la fertilidad"
+    },
+    {
+      "abstract_verb": "appear to have been favoured",
+      "tier": "T2",
+      "cam_attenuator": "parecen haber sido favorecidos por la selección, no 'fueron seleccionados'"
+    },
+    {
+      "abstract_verb": "support / help explain",
+      "tier": "T2",
+      "cam_attenuator": "apoyan la pleiotropía antagónica / ayudan a explicar la persistencia"
+    }
+  ],
+  "narrative_hooks": [
+    "Si un gen te enferma deberías tener menos hijos y ese gen debería desaparecer — pero no desaparece.",
+    "Para la mayoría de enfermedades, los afectados tienen MÁS hijos que los no afectados (44 de 62); el giro solo llega con las enfermedades tempranas.",
+    "Los alelos que más suben la fertilidad son justo los que más recortan la longevidad (r = -0,35)."
+  ],
+  "limitations": [
+    "Estudio observacional; salvo la randomización mendeliana sobre longevidad, todo es asociación, no causa.",
+    "El SDS capta selección de los últimos ~2.000-3.000 años; los '50.000 años' del abstract vienen de otras firmas (iHS/nSL) ausentes en este archivo.",
+    "Datos de ascendencia mayoritariamente europea (UK Biobank, FinRegistry): no generaliza sin más a otras poblaciones.",
+    "La correlación del trade-off es moderada (r=-0,35): tendencia poblacional, no el destino de ningún gen concreto."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados como 'yes' + 12 números clave"
+  },
+  "notebook_slug": "2026-07-21-genetic-tradeoffs-fertility-longevity",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-21-genetic-tradeoffs-fertility-longevity/notebook.html",
+  "generated_at": "2026-07-22T12:00:00-05:00"
+}

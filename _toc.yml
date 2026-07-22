@@ -658,6 +658,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-07-21-genetic-tradeoffs-fertility-longevity/README
+    title: "Los genes que nos enferman... y por qué la evolución no los borra"
+    sections:
+    - file: papers/2026-07-21-genetic-tradeoffs-fertility-longevity/notebook
+      title: Notebook
   - file: papers/2026-07-06-parto-cefalopelvico-primates/README
     title: "El parto humano no es el más difícil de los primates"
     sections:

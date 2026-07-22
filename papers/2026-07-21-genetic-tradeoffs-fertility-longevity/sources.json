@@ -1,0 +1,250 @@
+{
+  "version": "1.0",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "La correlación entre el efecto en fertilidad y el efecto en longevidad de 285 alelos de riesgo es r = -0,35 (Pearson).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "disease-risk alleles are, on average, associated with reduced longevity and increased fertility",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c2",
+      "text": "Se analizaron 285 loci pleiotrópicos que combinan efecto sobre la fertilidad y sobre el riesgo de enfermedad.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c3",
+      "text": "El estudio cruza datos genómicos de 62 enfermedades con longevidad y fertilidad.",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "across 62 diseases",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c4",
+      "text": "El corrimiento medio de longevidad de los alelos de riesgo en este subconjunto es z = -0,16 y no es significativo (p = 0,11).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c5",
+      "text": "El SDS medio de los alelos que aumentan la fertilidad es +0,28 (n = 293), señal de selección reciente.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "appear to have been favoured by natural selection over the past 50,000 years",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c6",
+      "text": "El 56,3% de los alelos pro-fertilidad tiene SDS positivo.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c7",
+      "text": "La correlación entre la edad típica de aparición de la enfermedad y el exceso de personas sin hijos es r = -0,59 (n = 62).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c8",
+      "text": "En las enfermedades de aparición temprana (<40 años, n = 15) el exceso de personas sin hijos entre afectados es +11,8 puntos porcentuales.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "for early-onset diseases, the pattern reverses, indicating reproductive costs of early morbidity",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c9",
+      "text": "En las enfermedades de aparición tardía (>=40 años, n = 47) el exceso es -2,0 puntos porcentuales.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa"
+    },
+    {
+      "id": "c10",
+      "text": "En 44 de 62 enfermedades los afectados tienen más hijos que los no afectados.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "For most diseases, affected individuals had more children than unaffected ones",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c11",
+      "text": "La randomización mendeliana detecta un efecto causal significativo sobre la longevidad en 22 de 43 enfermedades.",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "we detect a causal effect of genetic liability to disease on longevity, but no robust evidence for a causal effect on fertility",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c12",
+      "text": "Solo 12 de 45 enfermedades muestran un efecto causal significativo sobre la fertilidad (no robusto).",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "dato_numerico",
+      "certeza": "directa",
+      "evidence_quote_from_source": "we detect a causal effect of genetic liability to disease on longevity, but no robust evidence for a causal effect on fertility",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c13",
+      "text": "Los alelos que aumentan la fertilidad tienden a acortar la longevidad (asociación observacional).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "disease-risk alleles are, on average, associated with reduced longevity and increased fertility",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c14",
+      "text": "En promedio los alelos de riesgo se asocian a menor longevidad, pero en este subconjunto de 285 loci el efecto medio no alcanza significancia.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "contexto",
+      "certeza": "inferida"
+    },
+    {
+      "id": "c15",
+      "text": "La predisposición genética a la enfermedad reduce causalmente la longevidad (randomización mendeliana).",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "we detect a causal effect of genetic liability to disease on longevity, but no robust evidence for a causal effect on fertility",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c16",
+      "text": "No hay evidencia robusta de un efecto causal de la enfermedad sobre la fertilidad.",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "we detect a causal effect of genetic liability to disease on longevity, but no robust evidence for a causal effect on fertility",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c17",
+      "text": "Para la mayoría de enfermedades, estar afectado no implica tener menos hijos; ocurre lo contrario.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "For most diseases, affected individuals had more children than unaffected ones",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c18",
+      "text": "El coste reproductivo aparece en las enfermedades de aparición temprana, donde el patrón se invierte.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ],
+      "tipo": "evento",
+      "certeza": "directa",
+      "evidence_quote_from_source": "for early-onset diseases, the pattern reverses, indicating reproductive costs of early morbidity",
+      "evidence_quote_scope": "abstract"
+    },
+    {
+      "id": "c19",
+      "text": "Los resultados apoyan la pleiotropía antagónica y ayudan a explicar la persistencia de los alelos de riesgo.",
+      "source_ids": [
+        "s1"
+      ],
+      "tipo": "contexto",
+      "certeza": "inferida",
+      "evidence_quote_from_source": "these results support antagonistic pleiotropy and help explain the persistence of disease-risk alleles",
+      "evidence_quote_scope": "abstract"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "medio": "Nature Ecology & Evolution",
+      "tipo": "paper",
+      "titulo": "Genetic trade-offs in fertility and longevity explain the maintenance of disease-associated alleles in humans",
+      "url": "https://doi.org/10.1038/s41559-026-03140-z",
+      "fecha_publicacion": "2026-07-21",
+      "fecha_consulta": "2026-07-22",
+      "rol": "primaria"
+    },
+    {
+      "id": "s2",
+      "medio": "Zenodo",
+      "tipo": "dataset",
+      "titulo": "ecgenomics/whywegetsick: Reproducibility release for published manuscript",
+      "url": "https://doi.org/10.5281/zenodo.20439635",
+      "fecha_publicacion": "2026-07-21",
+      "fecha_consulta": "2026-07-22",
+      "rol": "base"
+    },
+    {
+      "id": "s3",
+      "medio": "Figshare",
+      "tipo": "dataset",
+      "titulo": "Supplementary Tables S1-S16 (whywegetsick)",
+      "url": "https://doi.org/10.6084/m9.figshare.32403876",
+      "fecha_publicacion": "2026-07-21",
+      "fecha_consulta": "2026-07-22",
+      "rol": "enriquecimiento"
+    }
+  ],
+  "_render": {
+    "notebook_footer": "## Fuentes\n\n**Paper**: [Genetic trade-offs in fertility and longevity explain the maintenance of disease-associated alleles in humans](https://doi.org/10.1038/s41559-026-03140-z)  \n*Nature Ecology & Evolution, 2026-07-21*\n\n**Dataset canónico**: [ecgenomics/whywegetsick: Reproducibility release for published manuscript](https://doi.org/10.5281/zenodo.20439635)  \n*Zenodo — datos de reproducibilidad del manuscrito*\n\n**Referencias citadas**: [Supplementary Tables S1-S16](https://doi.org/10.6084/m9.figshare.32403876)\n\n*19 afirmaciones del notebook verificadas contra estas fuentes*"
+  }
+}

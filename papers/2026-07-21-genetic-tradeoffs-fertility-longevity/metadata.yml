@@ -1,0 +1,28 @@
+titulo: "Los genes que nos enferman... y por qué la evolución no los borra"
+fecha: 2026-07-22
+categoria: biologia
+tags: [genetica, evolucion, pleiotropia-antagonica, fertilidad, longevidad, seleccion-natural]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03140-z"
+    titulo: "Genetic trade-offs in fertility and longevity explain the maintenance of disease-associated alleles in humans"
+    journal: "Nature Ecology & Evolution"
+    autores: "Brigos-Barril et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "tradeoff_loci.csv"
+    descripcion: "285 loci pleiotrópicos con efecto en fertilidad y longevidad"
+    fuente: "Zenodo 20439635"
+  - nombre: "childlessness_by_onset.csv"
+    descripcion: "% sin hijos en afectados vs no afectados por 62 enfermedades"
+    fuente: "Zenodo 20439635"
+  - nombre: "seleccion_sds.csv"
+    descripcion: "SDS de 293 alelos pro-fertilidad (selección reciente)"
+    fuente: "Zenodo 20439635"
+  - nombre: "mr_results.csv"
+    descripcion: "Randomización mendeliana sobre longevidad y fertilidad"
+    fuente: "Zenodo 20439635"
+estado: publicado
