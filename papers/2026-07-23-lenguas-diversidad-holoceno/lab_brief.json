@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "paper_id": 2793,
+  "doi": "10.1126/science.adx4343",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Antes de la domesticación de plantas y animales había ~4.500-6.000 lenguas",
+      "supported": "yes",
+      "detail": "Reprodujimos la mediana global de 21.600 draws: 5.317 (mitad central 4.540-6.183), dentro del rango del paper. Estimación de modelo, no medición.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered"
+    },
+    {
+      "claim": "El rango 4.500-6.000 es robusto entre las 8 formas de modelar",
+      "supported": "yes",
+      "detail": "Las 8 medianas por escenario van de 3.980 a 6.053, todas cerca de la franja del paper; los IC 95% la solapan ampliamente.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered"
+    },
+    {
+      "claim": "Hoy hay ~1,4 veces más lenguas que antes de la agricultura (no 'el doble')",
+      "supported": "yes",
+      "detail": "7.500 (paper) / 5.317 (mediana) = 1,41. Explícitamente no 'el doble'.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered"
+    },
+    {
+      "claim": "El aumento de población acompañó al aumento de diversidad lingüística",
+      "supported": "partial",
+      "detail": "La población pasó de ~4,4 M a ~7.400 M (factor ~1.670). El paper lo modela como asociación ('precipitated'), no causa demostrada.",
+      "certainty_tier": "T2",
+      "abstract_verb": "precipitated"
+    },
+    {
+      "claim": "Hubo una 'edad de oro' con decenas de miles de lenguas hace 3.000-1.000 años",
+      "supported": "partial",
+      "detail": "Es el pico del rise-and-fall que estima el paper; NO reproducido por el notebook (curva completa en archivo de 1,4 GB). Atribuido al modelo de los autores.",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered"
+    },
+    {
+      "claim": "Una sola forma temporal domina las trayectorias de diversidad",
+      "supported": "yes",
+      "detail": "FPCA: PC1 explica 75,5% de la variación entre trayectorias (PC1+PC2 = 90%).",
+      "certainty_tier": "T1",
+      "abstract_verb": "uncovered"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 5317,
+      "unit": "lenguas",
+      "context": "mediana estimada de lenguas ~12 kybp (antes de domesticación), 21.600 draws",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "4500-6000",
+        "our_calculation": "5317 (IQR 4540-6183)",
+        "discrepancy_pct": 0.0,
+        "reason": "5317 dentro del rango del paper; el rango es el spread de medianas entre escenarios"
+      }
+    },
+    {
+      "value": 7500,
+      "unit": "lenguas",
+      "context": "número de lenguas hoy (cifra del paper)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.41,
+      "unit": "x",
+      "context": "razón hoy vs antes de la domesticación (7500/5317)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": [
+        3980,
+        6053
+      ],
+      "unit": "lenguas",
+      "context": "rango de medianas entre los 8 escenarios de modelado",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1671,
+      "unit": "x",
+      "context": "factor de crecimiento de la población global 12 kybp→2017 (4,4 M→7,4 mil M)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 75.5,
+      "unit": "por ciento",
+      "context": "varianza de las trayectorias explicada por el primer componente del FPCA (PC1+PC2=90%)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 339,
+      "unit": "sociedades cazadoras-recolectoras",
+      "context": "base etnográfica (Binford) para modelar lenguas por población",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "uncovered",
+      "tier": "T1",
+      "cam_attenuator": "'el modelo estimó/reveló' — estimación de modelo, no observación directa"
+    },
+    {
+      "abstract_verb": "precipitated",
+      "tier": "T2",
+      "cam_attenuator": "'acompañó a'/'vino con' — asociación, NO causal directo"
+    },
+    {
+      "abstract_verb": "likely",
+      "tier": "T2",
+      "cam_attenuator": "'es probable que'/'todo apunta a que' — hedge"
+    }
+  ],
+  "narrative_hooks": [
+    "Antes de sembrar la primera semilla, el mundo hablaba menos idiomas que hoy: entre 4.500 y 6.000, frente a 7.500.",
+    "El salto de entonces a hoy no es 'el doble' — es apenas 1,4 veces.",
+    "El número no es un número: es una nube ancha de 21.600 estimaciones. El rango ES el hallazgo."
+  ],
+  "limitations": [
+    "Todo son estimaciones de modelo con intervalos amplios (la población del año 0 va de 58 M a 406 M según la fuente).",
+    "El conteo de lenguas de hoy varía según el criterio: 7.500 en el paper, 8.111 en Glottolog crudo.",
+    "El pico de la 'edad de oro' y el rol de los imperios provienen de partes del modelo que estos CSVs no reproducen.",
+    "La relación población→diversidad es una asociación modelada, no una causa demostrada."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims 'yes' + 2 'partial'; 7 números clave"
+  },
+  "notebook_slug": "2026-07-23-lenguas-diversidad-holoceno",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-23-lenguas-diversidad-holoceno/notebook.html",
+  "generated_at": "2026-07-24T00:00:00-05:00"
+}

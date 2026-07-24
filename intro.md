@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Antes de la agricultura, el mundo hablaba menos idiomas que hoy
+
+**Antropología** · *Science* (2026) · Hace ~12.000 años, antes de domesticar plantas y animales, el mundo tenía **menos** lenguas que hoy. Un equipo cruzó modelado estadístico, **339** sociedades cazadoras-recolectoras y paleodemografía para estimarlo. **El hallazgo:** entre **4.500 y 6.000** lenguas entonces (nuestra mediana de 21.600 estimaciones: **5.317**, mitad central 4.540–6.183) frente a **~7.500** hoy — un salto de apenas **×1,4**, no "el doble". El rango es robusto: las **8** formas de modelar dan medianas de **3.980 a 6.053**. El motor que el paper **asocia** (no "causa") es la población, que se multiplicó **~1.670×** (de ~4,4 M a ~7.400 M). ⚠️ Todo son **estimaciones de modelo** con intervalos amplios. ⚠️ La "edad de oro" de decenas de miles de lenguas (hace 3.000–1.000 años) y el rol de los imperios son claims del paper **no reproducidos** por el notebook.
+
+[Ver notebook](papers/2026-07-23-lenguas-diversidad-holoceno/notebook) · [Leer más](papers/2026-07-23-lenguas-diversidad-holoceno/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-23-lenguas-diversidad-holoceno/notebook.ipynb)
+
 ### Los genes que nos enferman... y por qué la evolución no los borra
 
 **Biología** · *Nature Ecology & Evolution* (2026) · Si un gen te sube el riesgo de enfermedad deberías tener menos hijos y ese gen debería desaparecer — pero miles siguen ahí. El estudio cruza datos genómicos de **62 enfermedades** con longevidad y fertilidad para probar la **pleiotropía antagónica** (un mismo gen ayuda temprano y cobra tarde). **El hallazgo:** entre **285** alelos de riesgo, los que más suben la fertilidad son los que más recortan la longevidad (**r = −0,35**, n=285, p<0,0001). Y hay un giro: para la mayoría de enfermedades los afectados tienen **más** hijos (44 de 62), salvo en las de **aparición temprana** (<40 años: +11,8 pp sin hijos; d=1,85). La randomización mendeliana detecta efecto causal sobre la longevidad (22 de 43), pero **no** sobre la fertilidad (12 de 45). Y los alelos pro-fertilidad **parecen** favorecidos por la selección reciente (SDS +0,28, 56 % positivos). ⚠️ Estudio **observacional**: salvo la randomización mendeliana, todo es asociación. ⚠️ El SDS capta ~2.000–3.000 años; los "50.000 años" del abstract vienen de otras firmas (iHS/nSL).

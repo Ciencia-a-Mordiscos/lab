@@ -646,6 +646,11 @@ parts:
       title: Notebook
 - caption: Arqueología
   chapters:
+  - file: papers/2026-07-23-lenguas-diversidad-holoceno/README
+    title: "Antes de la agricultura, el mundo hablaba menos idiomas que hoy"
+    sections:
+    - file: papers/2026-07-23-lenguas-diversidad-holoceno/notebook
+      title: Notebook
   - file: papers/2026-04-07-discontinuidad-paris-neolitico/README
     title: Discontinuidad genética en París al final del Neolítico
     sections:

@@ -1,0 +1,28 @@
+titulo: "Antes de la agricultura, el mundo hablaba menos idiomas que hoy"
+fecha: 2026-07-23
+categoria: antropologia
+tags: [lenguas, diversidad-linguistica, holoceno, paleodemografia, modelado, historia-humana]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adx4343"
+    titulo: "The rise and fall of language diversity through the Holocene"
+    journal: Science
+    autores: "Blasi, Hamilton, Gray & Bowern"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "early_holocene_languages.csv"
+    descripcion: "21.600 estimaciones Monte-Carlo del nº de lenguas ~12 kybp, 8 escenarios"
+    fuente: "OSF (10.17605/OSF.IO/NEUTV)"
+  - nombre: "scenarios_summary.csv"
+    descripcion: "Resumen por escenario: mediana e IC 95%"
+    fuente: "OSF (10.17605/OSF.IO/NEUTV)"
+  - nombre: "global_population.csv"
+    descripcion: "Trayectoria de población global -10000 a 2017 con banda"
+    fuente: "OSF (10.17605/OSF.IO/NEUTV)"
+  - nombre: "fpca_variance.csv"
+    descripcion: "Varianza por componente del FPCA de las trayectorias"
+    fuente: "OSF (10.17605/OSF.IO/NEUTV)"
+estado: publicado
