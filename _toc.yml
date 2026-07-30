@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-07-29-geoglifos-amazonia-lidar/README
+    title: "Más de 20.000 obras de tierra bajo la selva amazónica"
+    sections:
+    - file: papers/2026-07-29-geoglifos-amazonia-lidar/notebook
+      title: Notebook
   - file: papers/2026-07-16-mar-aral-carbono/README
     title: "El Mar de Aral se secó y empezó a exhalar carbono"
     sections:

@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Más de 20.000 obras de tierra bajo la selva amazónica
+
+**Ecología** · *Nature* (2026) · Un LiDAR aerotransportado voló **4.430 km** sobre el suroeste de la Amazonía y, al "quitar" el bosque, dejó al descubierto una civilización precolonial de constructores. **El hallazgo:** **406 geoglifos** catalogados en una sola campaña — tantos como los que antes se estimaban para **toda** la Amazonía —, con tamaño mediano de **2,12 ha** (rango 0,16–15,59) y una distribución muy asimétrica: casi todos pequeños, unos pocos monumentales. Los recintos que cumplen la definición **Aquiry** tienden a ser mayores (medianas 2,25 vs 1,50 ha), pero la diferencia **no** alcanza significancia (Mann-Whitney p=0,09). ⚠️ La cifra de **>20.000** geoglifos es una **extrapolación**, no un conteo directo. ⚠️ La población de **1,25–3 millones** (año 100–300 d.C.) es una **propuesta** que asume ~300 personas por geoglifo, no una medición.
+
+[Ver notebook](papers/2026-07-29-geoglifos-amazonia-lidar/notebook) · [Leer más](papers/2026-07-29-geoglifos-amazonia-lidar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-29-geoglifos-amazonia-lidar/notebook.ipynb)
+
 ### Antes de la agricultura, el mundo hablaba menos idiomas que hoy
 
 **Antropología** · *Science* (2026) · Hace ~12.000 años, antes de domesticar plantas y animales, el mundo tenía **menos** lenguas que hoy. Un equipo cruzó modelado estadístico, **339** sociedades cazadoras-recolectoras y paleodemografía para estimarlo. **El hallazgo:** entre **4.500 y 6.000** lenguas entonces (nuestra mediana de 21.600 estimaciones: **5.317**, mitad central 4.540–6.183) frente a **~7.500** hoy — un salto de apenas **×1,4**, no "el doble". El rango es robusto: las **8** formas de modelar dan medianas de **3.980 a 6.053**. El motor que el paper **asocia** (no "causa") es la población, que se multiplicó **~1.670×** (de ~4,4 M a ~7.400 M). ⚠️ Todo son **estimaciones de modelo** con intervalos amplios. ⚠️ La "edad de oro" de decenas de miles de lenguas (hace 3.000–1.000 años) y el rol de los imperios son claims del paper **no reproducidos** por el notebook.

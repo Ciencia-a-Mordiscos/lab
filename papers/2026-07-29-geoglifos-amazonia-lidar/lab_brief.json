@@ -1,0 +1,166 @@
+{
+  "version": "1.0",
+  "paper_id": 2811,
+  "doi": "10.1038/s41586-026-10835-7",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El catálogo público documenta 406 geoglifos con coordenadas y tamaño",
+      "supported": "yes",
+      "detail": "406 filas en Supplementary Table 2 (subset público; 26 en territorios indígenas no se publican)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Se documentaron 432 obras de tierra en el vuelo; 396 son nuevas (36 ya conocidas)",
+      "supported": "yes",
+      "detail": "Cifras del paper; el catálogo público (406) excluye 26 en territorios indígenas",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El tamaño mediano es 2,12 ha (rango 0,16–15,59 ha), con distribución asimétrica a la derecha",
+      "supported": "yes",
+      "detail": "Calculado sobre las 406 filas; skew=1,62, Shapiro p<0,001 (no normal) → mediana como central",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los recintos que cumplen la definición Aquiry tienden a ser mayores",
+      "supported": "partial",
+      "detail": "Medianas 2,25 vs 1,50 ha, pero Mann-Whitney p=0,09 — no alcanza significancia",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La región contiene más de 20.000 geoglifos, tantos como lo estimado para toda la Amazonía",
+      "supported": "partial",
+      "detail": "Extrapolación del paper a partir de la densidad observada, no un conteo directo",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La población del área en el año 100–300 d.C. habría sido de 1,25–3 millones de personas",
+      "supported": "partial",
+      "detail": "PROPUESTA, no medición: asume ~300 personas por geoglifo para construirlo y mantenerlo",
+      "certainty_tier": "T2",
+      "abstract_verb": "propose",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 406,
+      "unit": "geoglifos",
+      "context": "catálogo público (Supplementary Table 2)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 432,
+      "unit": "geoglifos",
+      "context": "total documentados en el vuelo LiDAR",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 396,
+      "unit": "geoglifos",
+      "context": "nuevos (432 documentados menos 36 ya conocidos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4430,
+      "unit": "km",
+      "context": "vuelo LiDAR aerotransportado (ALS) en 2024, Acre y Amazonas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.12,
+      "unit": "hectáreas",
+      "context": "tamaño mediano de los 406 geoglifos",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 15.59,
+      "unit": "hectáreas",
+      "context": "el geoglifo más grande del catálogo",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 284,
+      "unit": "geoglifos",
+      "context": "cumplen la definición Aquiry (122 no la cumplen)",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": 1190,
+      "unit": "hectáreas",
+      "context": "superficie total sumada de los 406 geoglifos",
+      "source": "dataset",
+      "verified": true
+    },
+    {
+      "value": "> 20.000",
+      "unit": "geoglifos",
+      "context": "extrapolación a la región (tanto como toda la Amazonía)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "1,25-3 millones",
+      "unit": "personas",
+      "context": "población propuesta en el año 100-300 d.C. (asume ~300 personas/geoglifo)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa del conteo (observacional)"
+    },
+    {
+      "abstract_verb": "propose",
+      "tier": "T2",
+      "cam_attenuator": "'los autores proponen que' — población es estimación, no medición"
+    },
+    {
+      "abstract_verb": "appears",
+      "tier": "T2",
+      "cam_attenuator": "'todo apunta a' — no certeza"
+    }
+  ],
+  "narrative_hooks": [
+    "Un láser atravesó las copas de la selva amazónica y encontró 406 obras de tierra escondidas bajo los árboles.",
+    "En una sola campaña de vuelo aparecieron tantos geoglifos como los que antes se creía que había en TODA la Amazonía.",
+    "La cifra de 1,25-3 millones de habitantes no se midió: se propone asumiendo ~300 personas por cada geoglifo."
+  ],
+  "limitations": [
+    "El catálogo cubre solo lo que interceptó el corredor de vuelo (4.430 km), no toda la región; 13 geoglifos quedan parcialmente fuera del barrido.",
+    "La cifra de población es un modelo con un supuesto explícito (~300 personas/geoglifo), no un censo.",
+    "La extrapolación a >20.000 depende de que la densidad observada valga para áreas no sobrevoladas.",
+    "26 geoglifos en territorios indígenas no se publican; el catálogo abierto tiene 406 de 432 documentados."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims 'yes' verificados + 3 'partial' con atenuadores (estándar)"
+  },
+  "notebook_slug": "2026-07-29-geoglifos-amazonia-lidar",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-29-geoglifos-amazonia-lidar/notebook.html",
+  "generated_at": "2026-07-30T12:00:00-05:00"
+}

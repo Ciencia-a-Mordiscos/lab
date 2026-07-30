@@ -1,0 +1,26 @@
+titulo: Más de 20.000 obras de tierra bajo la selva amazónica
+fecha: '2026-07-29'
+categoria: ecología
+tags:
+- arqueología
+- amazonía
+- lidar
+- geoglifos
+- precolonial
+- teledetección
+formato: corto
+video_youtube: ''
+fuentes:
+- doi: 10.1038/s41586-026-10835-7
+  titulo: Over 20,000 precolonial earthworks in the Southwest Amazonia
+  journal: Nature
+  autores: Pärssinen et al.
+  verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+- nombre: geoglifos_amazonia.csv
+  descripcion: Catálogo público de 406 geoglifos (coordenadas, tamaño, contorno, definición
+    Aquiry)
+  fuente: Supplementary Table 2 (MOESM1)
+estado: publicado
