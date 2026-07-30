@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Cuando el río y el aire se recalientan el mismo día
+
+**Ecología** · *Nature Geoscience* (2026) · En **796 cuencas** de EE. UU. y Europa Central, que una ola de calor del aire y una del río coincidan el mismo día pasó de rareza a algo casi tres veces más frecuente en cuatro décadas. **El hallazgo:** los eventos compuestos suben **~0,40 por década** (1981-2019), y las olas fluviales se intensificaron **+114% / +148% / +95%** (frecuencia/duración/intensidad) frente a apenas **+27% / +33% / +22%** de las atmosféricas. ⚠️ El "triplicado" del título se lee por línea de tendencia (~2,8x); por medias de década es **~2x**. ⚠️ Estudio **observacional**: mide tendencias y coincidencias, no causas. Las cifras de atribución (clima 59%), el +128% de montaña y la proyección del 98,5% a 2100 son **reportadas por el paper**, no recalculadas.
+
+[Ver notebook](papers/2026-07-30-olas-calor-compuestas-rios/notebook) · [Leer más](papers/2026-07-30-olas-calor-compuestas-rios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-30-olas-calor-compuestas-rios/notebook.ipynb)
+
 ### Más de 20.000 obras de tierra bajo la selva amazónica
 
 **Ecología** · *Nature* (2026) · Un LiDAR aerotransportado voló **4.430 km** sobre el suroeste de la Amazonía y, al "quitar" el bosque, dejó al descubierto una civilización precolonial de constructores. **El hallazgo:** **406 geoglifos** catalogados en una sola campaña — tantos como los que antes se estimaban para **toda** la Amazonía —, con tamaño mediano de **2,12 ha** (rango 0,16–15,59) y una distribución muy asimétrica: casi todos pequeños, unos pocos monumentales. Los recintos que cumplen la definición **Aquiry** tienden a ser mayores (medianas 2,25 vs 1,50 ha), pero la diferencia **no** alcanza significancia (Mann-Whitney p=0,09). ⚠️ La cifra de **>20.000** geoglifos es una **extrapolación**, no un conteo directo. ⚠️ La población de **1,25–3 millones** (año 100–300 d.C.) es una **propuesta** que asume ~300 personas por geoglifo, no una medición.

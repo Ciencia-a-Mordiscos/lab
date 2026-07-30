@@ -1,0 +1,28 @@
+titulo: "Cuando el río y el aire se recalientan el mismo día"
+fecha: 2026-07-30
+categoria: ecologia
+tags: [olas-de-calor, rios, cambio-climatico, ecologia-acuatica, hidrologia]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-02040-y"
+    titulo: "Threefold increase in atmospheric-riverine compound heatwaves under climate change"
+    journal: Nature Geoscience
+    autores: "Zhou et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "AHW_RHW_metric.csv"
+    descripcion: "Métricas anuales 1981-2019 de olas de calor atmosféricas y fluviales (frecuencia, duración, intensidad)"
+    fuente: "Repositorio YuZhouWater (GitHub)"
+  - nombre: "ARCH_frequency_by_time_gap.csv"
+    descripcion: "Frecuencia anual de eventos compuestos bajo 6 definiciones de solape"
+    fuente: "Repositorio YuZhouWater (GitHub)"
+  - nombre: "Future_heatwave_duration.csv"
+    descripcion: "Proyección 1981-2100 de duración media bajo SSP2-4.5 y SSP5-8.5"
+    fuente: "Repositorio YuZhouWater (GitHub)"
+  - nombre: "attribute_data.csv"
+    descripcion: "65 atributos estáticos por cuenca (clima, topografía, hidrología) para 796 cuencas"
+    fuente: "Repositorio YuZhouWater (GitHub)"
+estado: publicado

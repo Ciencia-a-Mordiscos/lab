@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "paper_id": 2816,
+  "doi": "10.1038/s41561-026-02040-y",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los eventos compuestos río-aire suben ~0,40-0,42 eventos por década (1981-2019)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Pendiente OLS reproducida de los CSVs; estable entre la definición estricta (gap1: 0,42/déc) y la laxa (gap20: 0,50/déc), todas positivas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find"
+    },
+    {
+      "claim": "La frecuencia de eventos compuestos se 'triplicó' en cuatro décadas",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Cierto por línea de tendencia (~2,76x gap1, hasta ~2,95x gap20); por medias de década es ~1,97x (~2x). El titular toma la lectura de tendencia. Ambas registradas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find"
+    },
+    {
+      "claim": "Las olas de calor fluviales se intensificaron mucho más que las atmosféricas",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "RHW +113,6%/+147,8%/+94,8% (frec/dur/int) vs AHW +26,6%/+32,6%/+22,1% entre 1981-1990 y 2010-2019. Reproducido.",
+      "certainty_tier": "T1",
+      "abstract_verb": "coincides with"
+    },
+    {
+      "claim": "Bajo altas emisiones la duración de olas fluviales se dispara hacia 2100",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "SSP5-8.5: ~32 -> ~294 días/año en 2090s; SSP2-4.5: ~192 días/año. Proyección condicional al escenario.",
+      "certainty_tier": "T3",
+      "abstract_verb": "will coincide"
+    },
+    {
+      "claim": "Los factores más asociados son climáticos (59,2%), topográficos (22,4%) e hidrológicos (18,3%)",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Importancia de variables del modelo LSTM reportada por el paper; no recomputada desde los CSVs pequeños.",
+      "certainty_tier": "T2",
+      "abstract_verb": "primarily controlled by"
+    },
+    {
+      "claim": "+128%/década en ríos de alta montaña (>3.000 m); +16% temperatura del agua y -2,9% oxígeno disuelto en compuestas; 98,5% de coincidencia hacia 2100",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Salidas de modelo/proyección reportadas por el paper; las columnas de proporción y atribución no están en los CSVs públicos pequeños.",
+      "certainty_tier": "T2",
+      "abstract_verb": "drive/will coincide"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.42,
+      "unit": "eventos por década",
+      "context": "tendencia de eventos compuestos río-aire, definición estricta (gap1)",
+      "source": "notebook_computed",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.40",
+        "our_calculation": "0.42",
+        "discrepancy_pct": 5.0,
+        "reason": "detección primaria exacta del paper vs OLS sobre gap1"
+      }
+    },
+    {
+      "value": 1.97,
+      "unit": "x",
+      "context": "ratio de medias de década (2010s/1980s) de eventos compuestos - lectura honesta ~2x",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 2.76,
+      "unit": "x",
+      "context": "ratio por línea de tendencia (gap1) - origen del 'triplicado' del título",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 113.6,
+      "unit": "por ciento",
+      "context": "aumento de frecuencia de olas fluviales (RHW), 2010s vs 1980s",
+      "source": "notebook_computed",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "114%",
+        "our_calculation": "113.6%",
+        "discrepancy_pct": 0.4,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 147.8,
+      "unit": "por ciento",
+      "context": "aumento de duración de olas fluviales (RHW)",
+      "source": "notebook_computed",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "148%",
+        "our_calculation": "147.8%",
+        "discrepancy_pct": 0.1,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 94.8,
+      "unit": "por ciento",
+      "context": "aumento de intensidad de olas fluviales (RHW)",
+      "source": "notebook_computed",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "95%",
+        "our_calculation": "94.8%",
+        "discrepancy_pct": 0.2,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 26.6,
+      "unit": "por ciento",
+      "context": "aumento de frecuencia de olas atmosféricas (AHW) - contraste",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 796,
+      "unit": "cuencas",
+      "context": "cuencas de ríos analizadas (EEUU + Europa Central)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 484,
+      "unit": "metros",
+      "context": "elevación media mediana de las cuencas",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "cuencas",
+      "context": "cuencas por encima de 3.000 m de elevación",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 294,
+      "unit": "días por año",
+      "context": "duración proyectada de olas fluviales bajo SSP5-8.5 en 2090s (desde ~32 hoy)",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 192,
+      "unit": "días por año",
+      "context": "duración proyectada de olas fluviales bajo SSP2-4.5 en 2090s",
+      "source": "notebook_computed",
+      "verified": true
+    },
+    {
+      "value": 59.2,
+      "unit": "por ciento",
+      "context": "peso de factores climáticos en la ocurrencia compuesta (importancia LSTM, paper-reported)",
+      "source": "paper",
+      "verified": false
+    },
+    {
+      "value": 128,
+      "unit": "por ciento por década",
+      "context": "tendencia amplificada en ríos de alta montaña >3.000 m (paper-reported)",
+      "source": "paper",
+      "verified": false
+    },
+    {
+      "value": 16,
+      "unit": "por ciento",
+      "context": "aumento adicional de temperatura del agua en compuestas vs RHW aislada (paper-reported)",
+      "source": "paper",
+      "verified": false
+    },
+    {
+      "value": 2.9,
+      "unit": "por ciento",
+      "context": "caída adicional de oxígeno disuelto en compuestas (paper-reported)",
+      "source": "paper",
+      "verified": false
+    },
+    {
+      "value": 98.5,
+      "unit": "por ciento",
+      "context": "RHW que coincidirán con AHW hacia 2100 bajo altas emisiones (paper-reported, condicional)",
+      "source": "paper",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "analyse/find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa de la tendencia observada (asociación, no causa)"
+    },
+    {
+      "abstract_verb": "coincides with / far outpacing",
+      "tier": "T1",
+      "cam_attenuator": "'coincide con' / 'muy por encima de' - descriptivo, sin causalidad"
+    },
+    {
+      "abstract_verb": "primarily controlled by (59.2%)",
+      "tier": "T2",
+      "cam_attenuator": "'los factores más asociados son...' - salida de modelo (importancia LSTM), no experimento"
+    },
+    {
+      "abstract_verb": "will coincide by 2100 (98.5%)",
+      "tier": "T3",
+      "cam_attenuator": "'si se cumple el escenario de altas emisiones...' - proyección condicional"
+    },
+    {
+      "abstract_verb": "highlight the escalating threats",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de los autores - 'los autores subrayan que...', no escalar a alarma"
+    }
+  ],
+  "narrative_hooks": [
+    "En cuatro décadas, que un río y el aire que lo rodea hiervan el mismo día pasó de rareza a ocurrir casi tres veces más seguido.",
+    "El agua de los ríos se recalienta mucho más rápido que el aire: +114% en frecuencia frente a +27% del aire.",
+    "El 'triplicado' del título depende de cómo lo cuentes: ~2x por medias de década, ~2,8x por línea de tendencia - y el patrón sube sin importar cómo definas 'compuesto'."
+  ],
+  "limitations": [
+    "Estudio observacional: mide tendencias y coincidencias, no relaciones de causa.",
+    "Las cifras de atribución (climático/topográfico/hidrológico), +128% de montaña y 16%/-2,9% de temperatura/oxígeno son salidas de modelo reportadas por el paper, no recalculadas desde los CSVs públicos.",
+    "Las 796 cuencas están sesgadas a EEUU y Europa Central; no representan al planeta.",
+    "La proyección a 2100 depende del escenario de emisiones que se cumpla."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims 'yes' verificados + varias cifras paper-reported de contraste"
+  },
+  "notebook_slug": "2026-07-30-olas-calor-compuestas-rios",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-30-olas-calor-compuestas-rios/notebook.html",
+  "generated_at": "2026-07-30T00:00:00Z"
+}
