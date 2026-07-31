@@ -417,6 +417,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-07-31-etoposido-teniposido-levadura/README
+    title: "Fabricar un medicamento contra el cáncer en levadura"
+    sections:
+    - file: papers/2026-07-31-etoposido-teniposido-levadura/notebook
+      title: Notebook
   - file: papers/2026-07-17-keto-tumores/README
     title: "La dieta keto aceleró los tumores... y no eran las cetonas"
     sections:

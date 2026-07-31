@@ -1,0 +1,218 @@
+{
+  "version": "1.0",
+  "paper_id": 2820,
+  "doi": "10.1126/science.aef5438",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "yeast",
+  "verification_table": [
+    {
+      "claim": "Añadir una carboxil-ácido reductasa (CAR) sube el alcohol coniferílico ~6,8× (de 4,47 a 30,4 mg/L, mejor de 5 enzimas: NiCAR)",
+      "supported": "yes",
+      "detail": "Computado del CSV Data S4, Fig 3B.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reconstructed",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Iterar la cepa sube el alcohol coniferílico otras 3,4× (de 26,1 a 89,4 mg/L a lo largo de 9 cepas)",
+      "supported": "yes",
+      "detail": "Computado del CSV Data S4, Fig 3D.",
+      "certainty_tier": "T1",
+      "abstract_verb": "reconstructed",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Subir la proteína dirigente ScDIR a 6 copias consume el precursor (cae 81 %, 66→12 mg/L) y maximiza el pinoresinol (1,76×, 4,01 mg/L)",
+      "supported": "yes",
+      "detail": "Computado del CSV Data S4, Fig 4.",
+      "certainty_tier": "T1",
+      "abstract_verb": "established",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El precursor real del etopósido (4′-demetil-epipodofilotoxina-4-O-glucósido, 132 µg/L) rinde 12× menos que el glucósido estrella vecino (podofilotoxina 4-O-glucósido, 1.620 µg/L)",
+      "supported": "yes",
+      "detail": "132 vs 1.620 µg/L. Queda a media tabla (7.º de 12), no es el mínimo. Data S4, Fig 5.",
+      "certainty_tier": "T1",
+      "abstract_verb": "streamlines",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 4.47,
+      "unit": "mg/L",
+      "context": "baseline CAL sin CAR (HY06)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 30.4,
+      "unit": "mg/L",
+      "context": "mejor CAR (NiCAR, HY16), CAL",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.8,
+      "unit": "x",
+      "context": "mejora por anadir CAR",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "enzimas",
+      "context": "n enzimas CAR tamizadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26.1,
+      "unit": "mg/L",
+      "context": "CAL cepa inicial (HY23)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 89.4,
+      "unit": "mg/L",
+      "context": "CAL cepa final (HY114)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.4,
+      "unit": "x",
+      "context": "mejora por iteracion de cepas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9,
+      "unit": "cepas",
+      "context": "n cepas en la iteracion",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 66.2,
+      "unit": "mg/L",
+      "context": "CAL con 0 copias ScDIR (SH11)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12.4,
+      "unit": "mg/L",
+      "context": "CAL con 6 copias ScDIR (SH19)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 81,
+      "unit": "%",
+      "context": "caida de CAL al subir DIR a 6 copias",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.28,
+      "unit": "mg/L",
+      "context": "PIN con 0 copias ScDIR (SH11)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.01,
+      "unit": "mg/L",
+      "context": "PIN con 6 copias ScDIR (SH19), maximo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.76,
+      "unit": "x",
+      "context": "aumento de PIN a 6 copias",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1620,
+      "unit": "ug/L",
+      "context": "glucosido estrella: podofilotoxina 4-O-glucosido (comp 25, SH31)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 132,
+      "unit": "ug/L",
+      "context": "precursor objetivo etoposido (comp 28, SH37)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 35.6,
+      "unit": "ug/L",
+      "context": "precursor objetivo etoposido (comp 28, SH34)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "x",
+      "context": "ratio glucosido estrella / precursor objetivo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 317,
+      "unit": "ug/L",
+      "context": "podofilotoxina aglicona (comp 19, SH25)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "reconstructed",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa (constructivo: reconstruyeron la ruta)"
+    },
+    {
+      "abstract_verb": "established",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: establecieron una ruta quimioenzimatica"
+    },
+    {
+      "abstract_verb": "enables",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: permite/habilita una cadena de suministro (capacidad demostrada)"
+    },
+    {
+      "abstract_verb": "streamlines",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: simplifica la sintesis a un solo paso quimico"
+    }
+  ],
+  "narrative_hooks": [
+    "El etopósido, medicamento esencial de primera línea contra el cáncer de pulmón de células pequeñas, hoy depende de arrancar una planta del Himalaya en peligro de extinción.",
+    "Un equipo metió en la levadura de cerveza 45 enzimas y más de 60 ediciones genéticas para que el precursor del fármaco salga de un tanque y no de un bosque.",
+    "El dato honesto: el precursor que de verdad se convierte en etopósido rinde 12 veces menos que el glucósido vecino que sí sobra — sigue siendo el cuello de botella."
+  ],
+  "limitations": [
+    "Son concentraciones de una sola tanda de fermentación por cepa (con réplicas técnicas), no rendimientos a escala industrial.",
+    "El paper reconstruye y mide un sistema: es prueba de concepto de la ruta, no demostración de que ya se pueda abastecer el mercado.",
+    "El paso químico final que convierte el precursor en etopósido no se cuantifica en estos datos.",
+    "El objetivo real (compuesto 28) sigue siendo el cuello de botella: 132 µg/L, 12× por debajo del glucósido estrella."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes), 19 números clave — script estándar"
+  },
+  "notebook_slug": "2026-07-31-etoposido-teniposido-levadura",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-31-etoposido-teniposido-levadura/notebook.html",
+  "generated_at": "2026-07-31T00:00:00Z"
+}

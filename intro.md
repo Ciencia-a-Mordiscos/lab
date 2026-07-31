@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### Fabricar un medicamento contra el cáncer en levadura
+
+**Medicina** · *Science* (2026) · El etopósido, medicamento esencial de primera línea contra el cáncer de pulmón de células pequeñas, hoy depende de arrancar una planta del Himalaya en peligro de extinción. Un equipo reconstruyó esa ruta dentro de la levadura de cerveza — **más de 60 ediciones genéticas** y **45 enzimas** — para fabricar el precursor en un tanque. **El hallazgo:** la levadura ya produce **12 lignanos distintos**; el glucósido estrella llega a **1.620 µg/L**, pero el precursor real del etopósido se queda en **132 µg/L** — **12× menos**, todavía el cuello de botella. ⚠️ Son concentraciones de una sola tanda de fermentación (prueba de concepto), no rendimientos a escala industrial. El paper usa verbos constructivos (*reconstructed*, *established*): reconstruyeron y midieron el sistema.
+
+[Ver notebook](papers/2026-07-31-etoposido-teniposido-levadura/notebook) · [Leer más](papers/2026-07-31-etoposido-teniposido-levadura/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-31-etoposido-teniposido-levadura/notebook.ipynb)
+
 ### Cuando el río y el aire se recalientan el mismo día
 
 **Ecología** · *Nature Geoscience* (2026) · En **796 cuencas** de EE. UU. y Europa Central, que una ola de calor del aire y una del río coincidan el mismo día pasó de rareza a algo casi tres veces más frecuente en cuatro décadas. **El hallazgo:** los eventos compuestos suben **~0,40 por década** (1981-2019), y las olas fluviales se intensificaron **+114% / +148% / +95%** (frecuencia/duración/intensidad) frente a apenas **+27% / +33% / +22%** de las atmosféricas. ⚠️ El "triplicado" del título se lee por línea de tendencia (~2,8x); por medias de década es **~2x**. ⚠️ Estudio **observacional**: mide tendencias y coincidencias, no causas. Las cifras de atribución (clima 59%), el +128% de montaña y la proyección del 98,5% a 2100 son **reportadas por el paper**, no recalculadas.
