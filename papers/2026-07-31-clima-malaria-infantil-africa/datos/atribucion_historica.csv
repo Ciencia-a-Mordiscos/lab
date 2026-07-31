@@ -1,0 +1,6 @@
+region,efecto_pp,ci_bajo_pp,ci_alto_pp,efecto_por_1000,ci_bajo_por_1000,ci_alto_por_1000,prob_positivo
+Sub-Saharan Africa (continent-wide),0.0729,-0.4109,0.5988,0.729,-4.109,5.988,0.59
+Southern Africa,0.6076,-0.2435,1.611,6.076,-2.435,16.11,0.91
+West Africa,-0.4043,-0.9622,0.041,-4.043,-9.622,0.41,0.04
+East Africa,0.3252,-0.2994,1.0048,3.252,-2.994,10.048,0.84
+Central Africa,0.1734,-0.2991,0.7007,1.734,-2.991,7.007,0.75

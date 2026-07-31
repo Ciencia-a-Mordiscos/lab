@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### ¿El cambio climático ya subió la malaria infantil en África?
+
+**Medicina** · *Nature* (2026) · Durante décadas se discutió si el calentamiento ya había cambiado la carga de malaria en niños africanos. Un equipo juntó **50.425 encuestas clínicas** de 1900 a 2016 y modeló qué habría pasado sin el calentamiento humano. **El hallazgo:** la respuesta no es que subió ni que bajó — **se movió de sitio**. El calor empujó la malaria hacia arriba en el sur (**+6,08 casos por cada 1.000**) y el este (**+3,25**), y hacia abajo en el oeste (**-4,04**), donde la carga es mayor. El neto continental queda en **+0,73 casos por cada 1.000** (IC 95%: **-4,11 a +5,99**). ⚠️ Los **cinco** intervalos de confianza cruzan el cero: el paper mismo dice *probablemente*. ⚠️ Contraintuitivo: bajo **emisiones altas (SSP5-RCP8.5)** el modelo proyecta **menos** malaria a 2100 (**-20,39 por cada 1.000**), porque África Occidental se calienta por encima del óptimo de transmisión (**24,9 °C**). ⚠️ Diseño **observacional**: el modelo atribuye, no demuestra causalidad.
+
+[Ver notebook](papers/2026-07-31-clima-malaria-infantil-africa/notebook) · [Leer más](papers/2026-07-31-clima-malaria-infantil-africa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-31-clima-malaria-infantil-africa/notebook.ipynb)
+
 ### Fabricar un medicamento contra el cáncer en levadura
 
 **Medicina** · *Science* (2026) · El etopósido, medicamento esencial de primera línea contra el cáncer de pulmón de células pequeñas, hoy depende de arrancar una planta del Himalaya en peligro de extinción. Un equipo reconstruyó esa ruta dentro de la levadura de cerveza — **más de 60 ediciones genéticas** y **45 enzimas** — para fabricar el precursor en un tanque. **El hallazgo:** la levadura ya produce **12 lignanos distintos**; el glucósido estrella llega a **1.620 µg/L**, pero el precursor real del etopósido se queda en **132 µg/L** — **12× menos**, todavía el cuello de botella. ⚠️ Son concentraciones de una sola tanda de fermentación (prueba de concepto), no rendimientos a escala industrial. El paper usa verbos constructivos (*reconstructed*, *established*): reconstruyeron y midieron el sistema.

@@ -1,0 +1,37 @@
+titulo: "¿El cambio climático ya subió la malaria infantil en África?"
+fecha: 2026-07-31
+categoria: medicina
+tags: [malaria, cambio-climatico, africa, salud-infantil, epidemiologia, modelos-climaticos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10840-w"
+    titulo: "The past and future impact of climate change on childhood malaria in Africa"
+    journal: Nature
+    autores: "Carlson et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "atribucion_historica.csv"
+    descripcion: "Impacto histórico atribuido al cambio climático por región, con IC 95%"
+    fuente: "Tablas de resultados del repositorio de código de los autores"
+  - nombre: "proyecciones_futuro.csv"
+    descripcion: "Proyecciones 2048-2052 y 2096-2100 por región y escenario SSP"
+    fuente: "Tablas de resultados del repositorio de código de los autores"
+  - nombre: "beneficio_mitigacion.csv"
+    descripcion: "Diferencia SSP2-RCP4.5 menos SSP1-RCP2.6 por región"
+    fuente: "Tablas de resultados del repositorio de código de los autores"
+  - nombre: "coeficientes_robustez.csv"
+    descripcion: "Coeficientes del modelo bajo 6 niveles de agrupamiento de errores estándar"
+    fuente: "Tablas de resultados del repositorio de código de los autores"
+  - nombre: "sensibilidad_fuente_climatica.csv"
+    descripcion: "Coeficientes con CRU vs ERA5"
+    fuente: "Tablas de resultados del repositorio de código de los autores"
+  - nombre: "impacto_mensual.csv"
+    descripcion: "Mes de máximo impacto e impacto anual promedio por región"
+    fuente: "Tablas de resultados del repositorio de código de los autores"
+  - nombre: "curva_termica.csv"
+    descripcion: "Derivado: curva de respuesta térmica reconstruida, relativa al óptimo"
+    fuente: "Cálculo propio a partir de los coeficientes publicados"
+estado: publicado

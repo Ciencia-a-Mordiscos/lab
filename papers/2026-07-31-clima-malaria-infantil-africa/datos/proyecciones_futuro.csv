@@ -1,0 +1,31 @@
+region,escenario,escenario_label,periodo,efecto_pp,ci_bajo_pp,ci_alto_pp,efecto_por_1000,ci_bajo_por_1000,ci_alto_por_1000,prob_positivo
+Sub-Saharan Africa (continent-wide),SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2048-2052,-0.109,-0.483,0.204,-1.09,-4.83,2.04,0.244
+Sub-Saharan Africa (continent-wide),SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2096-2100,-0.115,-0.585,0.189,-1.15,-5.85,1.89,0.306
+Sub-Saharan Africa (continent-wide),SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2048-2052,-0.181,-0.671,0.252,-1.81,-6.71,2.52,0.225
+Sub-Saharan Africa (continent-wide),SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2096-2100,-0.488,-1.501,0.311,-4.88,-15.01,3.11,0.131
+Sub-Saharan Africa (continent-wide),SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2048-2052,-0.286,-0.936,0.318,-2.86,-9.36,3.18,0.192
+Sub-Saharan Africa (continent-wide),SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2096-2100,-2.039,-5.21,-0.004,-20.39,-52.1,-0.04,0.025
+Southern Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2048-2052,0.318,-0.257,0.964,3.18,-2.57,9.64,0.874
+Southern Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2096-2100,0.342,-0.196,1.085,3.42,-1.96,10.85,0.89
+Southern Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2048-2052,0.502,-0.259,1.287,5.02,-2.59,12.87,0.904
+Southern Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2096-2100,0.838,-0.495,2.272,8.38,-4.95,22.72,0.885
+Southern Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2048-2052,0.836,-0.391,2.131,8.36,-3.91,21.31,0.909
+Southern Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2096-2100,0.404,-2.891,3.061,4.04,-28.91,30.61,0.63
+West Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2048-2052,-0.499,-1.032,-0.151,-4.99,-10.32,-1.51,0.001
+West Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2096-2100,-0.493,-1.166,0.061,-4.93,-11.66,0.61,0.088
+West Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2048-2052,-0.764,-1.421,-0.256,-7.64,-14.21,-2.56,0.0
+West Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2096-2100,-1.622,-3.279,-0.522,-16.22,-32.79,-5.22,0.0
+West Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2048-2052,-1.127,-1.999,-0.381,-11.27,-19.99,-3.81,0.0
+West Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2096-2100,-4.502,-9.435,-1.63,-45.02,-94.35,-16.3,0.0
+East Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2048-2052,0.106,-0.276,0.549,1.06,-2.76,5.49,0.697
+East Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2096-2100,0.092,-0.368,0.512,0.92,-3.68,5.12,0.753
+East Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2048-2052,0.118,-0.393,0.637,1.18,-3.93,6.37,0.675
+East Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2096-2100,0.111,-0.74,0.982,1.11,-7.4,9.82,0.588
+East Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2048-2052,0.142,-0.527,0.803,1.42,-5.27,8.03,0.66
+East Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2096-2100,-0.678,-3.001,1.104,-6.78,-30.01,11.04,0.269
+Central Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2048-2052,-0.052,-0.431,0.241,-0.52,-4.31,2.41,0.386
+Central Africa,SSP1-RCP2.6,SSP1-RCP2.6 (emisiones bajas),2096-2100,-0.086,-0.506,0.274,-0.86,-5.06,2.74,0.36
+Central Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2048-2052,-0.043,-0.591,0.429,-0.43,-5.91,4.29,0.454
+Central Africa,SSP2-RCP4.5,SSP2-RCP4.5 (intermedias),2096-2100,-0.278,-1.353,0.591,-2.78,-13.53,5.91,0.293
+Central Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2048-2052,-0.149,-0.842,0.518,-1.49,-8.42,5.18,0.345
+Central Africa,SSP5-RCP8.5,SSP5-RCP8.5 (emisiones altas),2096-2100,-1.564,-4.719,0.481,-15.64,-47.19,4.81,0.087

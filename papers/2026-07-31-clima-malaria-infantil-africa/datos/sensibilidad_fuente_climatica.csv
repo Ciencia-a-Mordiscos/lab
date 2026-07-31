@@ -1,0 +1,19 @@
+variable,fuente_climatica,coeficiente,error_estandar
+Temperatura media (°C),CRU (completo),4.36,1.52
+Temperatura media (°C),CRU (submuestra),4.35,1.56
+Temperatura media (°C),ERA5,2.83,1.25
+Temperatura media² (°C²),CRU (completo),-0.09,0.03
+Temperatura media² (°C²),CRU (submuestra),-0.09,0.03
+Temperatura media² (°C²),ERA5,-0.06,0.02
+Inundación,CRU (completo),-0.15,0.91
+Inundación,CRU (submuestra),-0.17,0.92
+Inundación,ERA5,-0.22,1.01
+Sequía,CRU (completo),-0.26,0.76
+Sequía,CRU (submuestra),-0.45,0.78
+Sequía,ERA5,0.84,0.88
+Intervención 1955-69,CRU (completo),-4.84,1.68
+Intervención 1955-69,CRU (submuestra),-3.75,1.65
+Intervención 1955-69,ERA5,-3.67,1.65
+Intervención 2000-15,CRU (completo),-3.36,2.91
+Intervención 2000-15,CRU (submuestra),-0.82,2.94
+Intervención 2000-15,ERA5,-0.72,2.95

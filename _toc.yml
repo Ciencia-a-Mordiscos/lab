@@ -417,6 +417,11 @@ parts:
       title: Notebook
 - caption: Medicina
   chapters:
+  - file: papers/2026-07-31-clima-malaria-infantil-africa/README
+    title: "¿El cambio climático ya subió la malaria infantil en África?"
+    sections:
+    - file: papers/2026-07-31-clima-malaria-infantil-africa/notebook
+      title: Notebook
   - file: papers/2026-07-31-etoposido-teniposido-levadura/README
     title: "Fabricar un medicamento contra el cáncer en levadura"
     sections:

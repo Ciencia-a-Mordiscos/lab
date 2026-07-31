@@ -1,0 +1,37 @@
+variable,nivel_clustering,coeficiente,error_estandar
+Temperatura media (°C),ADM1,4.36,1.09
+Temperatura media (°C),país,4.36,1.84
+Temperatura media (°C),año,4.36,1.46
+Temperatura media (°C),país-año,4.36,1.4
+Temperatura media (°C),país-5 años (principal),4.36,1.52
+Temperatura media (°C),país-década,4.36,1.69
+Temperatura media² (°C²),ADM1,-0.09,0.02
+Temperatura media² (°C²),país,-0.09,0.03
+Temperatura media² (°C²),año,-0.09,0.03
+Temperatura media² (°C²),país-año,-0.09,0.03
+Temperatura media² (°C²),país-5 años (principal),-0.09,0.03
+Temperatura media² (°C²),país-década,-0.09,0.03
+Inundación,ADM1,-0.15,0.77
+Inundación,país,-0.15,0.67
+Inundación,año,-0.15,0.92
+Inundación,país-año,-0.15,0.94
+Inundación,país-5 años (principal),-0.15,0.91
+Inundación,país-década,-0.15,0.88
+Sequía,ADM1,-0.26,0.81
+Sequía,país,-0.26,0.82
+Sequía,año,-0.26,0.89
+Sequía,país-año,-0.26,0.81
+Sequía,país-5 años (principal),-0.26,0.76
+Sequía,país-década,-0.26,0.85
+Intervención 1955-69,ADM1,-4.84,1.27
+Intervención 1955-69,país,-4.84,2.21
+Intervención 1955-69,año,-4.84,1.51
+Intervención 1955-69,país-año,-4.84,1.51
+Intervención 1955-69,país-5 años (principal),-4.84,1.68
+Intervención 1955-69,país-década,-4.84,1.78
+Intervención 2000-15,ADM1,-3.36,1.61
+Intervención 2000-15,país,-3.36,2.71
+Intervención 2000-15,año,-3.36,3.49
+Intervención 2000-15,país-año,-3.36,2.15
+Intervención 2000-15,país-5 años (principal),-3.36,2.91
+Intervención 2000-15,país-década,-3.36,2.89

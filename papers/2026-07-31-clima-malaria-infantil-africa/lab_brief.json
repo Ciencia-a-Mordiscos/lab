@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "paper_id": 2814,
+  "doi": "10.1038/s41586-026-10840-w",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El modelo sitúa el óptimo de transmisión de la malaria en 24,9 °C (IC 95%: 21,0 a 27,1 °C)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "El máximo de la curva reconstruida cae en 25,0 °C; con los coeficientes redondeados de las tablas publicadas da 24,2 °C. Los tres valores caben dentro del IC del paper. Coincide con el pico observado en laboratorio.",
+      "certainty_tier": "T1",
+      "abstract_verb": "robust (effect)"
+    },
+    {
+      "claim": "El calentamiento ya ocurrido probablemente subió la malaria en África Oriental (+3,25) y África Austral (+6,08 casos por cada 1.000)",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Las estimaciones van en esa dirección pero ambos intervalos de confianza cruzan el cero (-2,99 a +10,05 y -2,44 a +16,11). El abstract lo enmarca con 'probably'.",
+      "certainty_tier": "T3",
+      "abstract_verb": "probably"
+    },
+    {
+      "claim": "El impacto histórico neto sobre el continente es cercano a cero: +0,73 casos por cada 1.000 (IC 95%: -4,11 a +5,99)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "El paper lo redondea a 1 caso por cada 1.000. Es una redistribución entre regiones (oeste abajo, sur y este arriba), no un aumento continental.",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate"
+    },
+    {
+      "claim": "Bajo emisiones altas (SSP5-RCP8.5) el modelo proyecta menos malaria a fin de siglo: -20,39 casos por cada 1.000 en 2096-2100",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "IC 95%: -52,10 a -0,04. Único resultado continental cuyo intervalo no incluye el cero, y por apenas 0,04 casos. Lo empuja África Occidental (-45,02 en ese mismo escenario y periodo), que se calienta por encima del óptimo.",
+      "certainty_tier": "T2",
+      "abstract_verb": "project"
+    },
+    {
+      "claim": "Pasar de emisiones intermedias a bajas dejaría +4,97 casos por cada 1.000 evitables en África Austral en 2096-2100",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "IC 95%: -3,94 a +14,14 — cruza el cero. En África Occidental, misma comparación y periodo, el signo se invierte: -11,29 (IC -22,18 a -3,64).",
+      "certainty_tier": "T3",
+      "abstract_verb": "could"
+    },
+    {
+      "claim": "El coeficiente de temperatura (4,36) no cambia bajo 6 niveles de agrupamiento de errores estándar",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Los errores estándar van de 1,09 a 1,84 (ratio 1,7×); el valor t más bajo es 2,37, significativo en las 6 especificaciones.",
+      "certainty_tier": "T1",
+      "abstract_verb": "robust (effect)"
+    },
+    {
+      "claim": "El modelo explica el 53% de la variación (R² = 0,53; ajustado 0,49; n = 9.875)",
+      "supported": "no",
+      "supported_by_data": false,
+      "detail": "El 47% restante queda fuera del modelo: mosquiteros, medicamentos, conflicto armado, urbanización. Cifra reportada en el paper; no está en las tablas de resultados usadas y el notebook no la recalcula.",
+      "certainty_tier": "T1",
+      "abstract_verb": "estimate"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.73,
+      "unit": "casos por cada 1.000 niños",
+      "context": "impacto histórico atribuido al cambio climático, África subsahariana completa (IC 95%: -4,11 a +5,99)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1 excess case per 1,000 (CI -4 to 6)",
+        "our_calculation": "+0,73 (IC -4,11 a +5,99)",
+        "discrepancy_pct": 0.0,
+        "reason": "el paper redondea a la unidad"
+      }
+    },
+    {
+      "value": -20.39,
+      "unit": "casos por cada 1.000 niños",
+      "context": "proyección continental 2096-2100 bajo SSP5-RCP8.5 (emisiones altas), IC 95%: -52,10 a -0,04 — casos evitados",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "avert 20 (CI 0-52)",
+        "our_calculation": "-20,39 (IC -52,10 a -0,04)",
+        "discrepancy_pct": 0.0,
+        "reason": "signo invertido: el paper lo enuncia como casos evitados"
+      }
+    },
+    {
+      "value": -45.02,
+      "unit": "casos por cada 1.000 niños",
+      "context": "proyección África Occidental 2096-2100 bajo SSP5-RCP8.5, la región que arrastra el total continental",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -1.15,
+      "unit": "casos por cada 1.000 niños",
+      "context": "proyección continental 2096-2100 bajo SSP1-RCP2.6 (emisiones bajas), IC 95%: -5,85 a +1,89",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.97,
+      "unit": "casos por cada 1.000 niños",
+      "context": "beneficio de pasar de SSP2-RCP4.5 a SSP1-RCP2.6 en África Austral, 2096-2100 (IC 95%: -3,94 a +14,14)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 24.9,
+      "unit": "°C",
+      "context": "temperatura óptima de transmisión ajustada por el modelo (IC 95%: 21,0-27,1 °C)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "24,9 °C",
+        "our_calculation": "máximo de la curva reconstruida en 25,0 °C",
+        "discrepancy_pct": 0.4,
+        "reason": "redondeo de coeficientes y malla de 0,25 °C"
+      }
+    },
+    {
+      "value": 4.36,
+      "unit": "coeficiente",
+      "context": "coeficiente de temperatura del modelo, idéntico en los 6 niveles de agrupamiento de errores (SE 1,09-1,84; t mínimo 2,37)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 50425,
+      "unit": "encuestas",
+      "context": "encuestas de prevalencia 1900-2016 condensadas en 9.875 valores mensuales a nivel de región administrativa",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "robust (effect)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'un efecto sólido' — sostenido por 6 especificaciones. NO descalar a 'sugieren'"
+    },
+    {
+      "abstract_verb": "estimate",
+      "tier": "T2",
+      "cam_attenuator": "'estimamos que' / 'el modelo estima' — no es una medición directa"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' — NUNCA 'confirma'"
+    },
+    {
+      "abstract_verb": "probably",
+      "tier": "T3",
+      "cam_attenuator": "'probablemente' — hedge EXPLÍCITO del paper sobre el resultado histórico. Prohibido quitarlo"
+    },
+    {
+      "abstract_verb": "project",
+      "tier": "T2",
+      "cam_attenuator": "'proyectan que' — escenario modelado, no pronóstico"
+    },
+    {
+      "abstract_verb": "could",
+      "tier": "T3",
+      "cam_attenuator": "'podría' — NUNCA 'va a'"
+    },
+    {
+      "abstract_verb": "resolves (a decades-old debate)",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de los autores: 'los autores plantean que zanja un debate de décadas'. NO 'resuelve definitivamente'"
+    }
+  ],
+  "narrative_hooks": [
+    "El resultado no es que la malaria subió ni que bajó: es que se movió de sitio. Bajó en África Occidental, subió en el sur y el este, y el neto continental quedó en +0,73 casos por cada 1.000 — con un intervalo que cruza el cero.",
+    "El mosquito tiene una temperatura favorita: 24,9 °C. Por eso el mismo grado de calor hace cosas opuestas según dónde caiga.",
+    "Bajo el escenario de emisiones más altas el modelo proyecta MENOS malaria (-20,39 casos por cada 1.000 a 2100). No es una buena noticia: es África Occidental calentándose por encima de lo que el parásito aguanta.",
+    "Los cinco intervalos de confianza del resultado histórico cruzan el cero. El propio paper dice 'probablemente' — y ese hedge es el resultado, no una nota al pie."
+  ],
+  "limitations": [
+    "Diseño observacional: el modelo atribuye estadísticamente comparando con un mundo simulado sin calentamiento humano; no es un experimento y no demuestra causalidad.",
+    "Ninguna de las 5 estimaciones históricas se distingue de cero; solo 2 de los 6 titulares del notebook tienen intervalos que excluyen el cero.",
+    "La curva de respuesta térmica del notebook es una reconstrucción nuestra a partir de los coeficientes publicados, expresada respecto a su propio máximo — no es la curva formal del paper.",
+    "Con datos climáticos ERA5 en vez de CRU el coeficiente de temperatura cae de 4,36 a 2,83 (35% menos), aunque los intervalos de confianza de ambos se solapan casi por completo.",
+    "El modelo explica el 53% de la variación; el 47% restante (mosquiteros, fármacos, conflicto, urbanización) queda fuera.",
+    "El subgrupo de África Oriental de alta elevación (>1 km) que cita el abstract no está en las tablas usadas: esa cifra es del paper, no del notebook.",
+    "El dataset oficial de Zenodo (11,8 GB) no se descargó; los números vienen de las tablas de resultados publicadas en el repositorio de código de los autores."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados como 'yes' y 8 números clave — script estándar"
+  },
+  "notebook_slug": "2026-07-31-clima-malaria-infantil-africa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-31-clima-malaria-infantil-africa/notebook.html",
+  "generated_at": "2026-07-31T11:30:00-05:00"
+}
