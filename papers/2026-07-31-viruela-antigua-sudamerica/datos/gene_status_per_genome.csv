@@ -1,0 +1,215 @@
+gene_label,status_cam9_208,status_vk382,status_vk388,status_vk470,status_vk281,lineage_group
+B23R;B24R/C17L;C18L,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+20088,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+26765,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+C8L,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+A25L,Inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+A37R,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+A39R,Inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+A44L,Inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+A53R,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+B2R;B3R,Inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+B12R,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+193435*,Inactive,Stop,Stop,noCoverage,noCoverage,aVARV+CAM9+mVARV
+C13L;C14L,Possibly inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+215231,Absent,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+B16R,Inactive,Stop,Stop,Stop,Stop,aVARV+CAM9+mVARV
+C9L,Inactive,Stop,Stop,Stop,UncertainStop,aVARV+CAM9+mVARV
+A9L,Possibly intact,UncertainFunction,UncertainFunction,Stop,Stop,Undetermined
+A52R,Possibly inactive,Stop,Stop,UncertainStop,Stop,aVARV+CAM9+mVARV
+202711,Inactive,Stop,Stop,Stop,UncertainStop,aVARV+CAM9+mVARV
+8281,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+8318,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+9217,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+10160,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+12346,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+12699,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+14342,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+14947,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+15374,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+18018,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+19440,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+K4L,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+K6L;K5L,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+B9R,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+B10R,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+B11R,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+202819,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+C15L/B21R,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+213858,Absent,noCoverage,noCoverage,noCoverage,noCoverage,aVARV+CAM9+mVARV
+C5L,Possibly intact,Present,Present,Present,Present,mVARV
+E7R,Possibly intact,Present,Present,Present,Present,mVARV
+B6R,Possibly intact,Present,Present,Present,Present,mVARV
+B7R,Possibly inactive,Present,Present,Present,Present,CAM9+mVARV
+CrmE,Absent,Present,Present,Present,Present,CAM9+mVARV
+22682,Possibly intact,Stop,Stop,Present,Present,Undetermined
+C2L,Inactive,Present,Present,Stop,Stop,CAM9+mVARV
+K1L,Inactive,Present,Present,Stop,Stop,CAM9+mVARV
+F3L,Inactive,Present,Present,Stop,UncertainStop,CAM9+mVARV
+A35R,Possibly inactive,Stop,Present,Present,Stop,CAM9+mVARV
+A40R,Possibly inactive,Present,Stop,noCoverage,noCoverage,CAM9+mVARV
+168145,Possibly inactive,Present,Present,Stop,Stop,CAM9+mVARV
+A55R,Inactive,Present,Present,UncertainStop,Present,CAM9+mVARV
+A57R,Inactive,Present,Present,Stop,Stop,CAM9+mVARV
+CrmB (B28R/C22),Possibly intact,ND,Stop,Stop,Stop,aVARV
+ C1L,Possibly intact,Present,Stop,Present,Present,aVARV
+ E5R,Possibly intact,Stop,Present,Stop,Stop,aVARV
+ F10L,Possibly intact,Present,Present,Present,UncertainStop,aVARV
+I8R,Possibly intact,Present,Present,Present,UncertainStop,aVARV
+ B20R,Possibly intact,Present,Present,Present,UncertainStop,aVARV
+210863,Possibly intact,Present,Present,Present,UncertainStop,aVARV
+C23L/B29R,Possibly intact,ND,ND,ND,ND,Intact
+C19;C20L/B25/B27R,Possibly intact,ND,ND,ND,ND,Intact
+C16L/B22R,Possibly intact,ND,ND,ND,ND,Intact
+C11R,Possibly intact,Present,Present,Present,Present,Intact
+C10L,Possibly intact,Present,Present,Present,Present,Intact
+26154,Possibly intact,Present,Present,Present,Present,Intact
+26324,Possibly intact,Present,Present,Present,Present,Intact
+28912,Possibly intact,Present,Present,Present,Present,Intact
+C7L,Possibly intact,Present,Present,Present,Present,Intact
+32306,Unknown,Present,Present,Present,Present,Undetermined
+C6L,Possibly intact,Present,Present,Present,Present,Intact
+C4L,Possibly intact,Present,Present,Present,Present,Intact
+C3L,Possibly intact,Present,Present,Present,Present,Intact
+N1L,Possibly intact,Present,Present,Present,Present,Intact
+N2L,Possibly intact,Present,Present,Present,Present,Intact
+M1L,Possibly intact,Present,Present,Present,Present,Intact
+M2L,Possibly intact,Present,Present,Present,Present,Intact
+K2L,Possibly intact,Present,Present,Present,Present,Intact
+K3L,Possibly intact,Present,Present,Present,Present,Intact
+K7R,Possibly intact,Present,Present,Present,Present,Intact
+F1L,Possibly intact,Present,Present,Present,Present,Intact
+F2L,Possibly intact,Present,Present,Present,Present,Intact
+F4L,Possibly intact,Present,Present,Present,Present,Intact
+F5L,Possibly intact,Present,Present,Present,Present,Intact
+F6L,Possibly intact,Present,Present,Present,Present,Intact
+F7L,Possibly intact,Present,Present,Present,Present,Intact
+F8L,Possibly intact,Present,Present,Present,Present,Intact
+F9L,Possibly intact,Present,Present,Present,Present,Intact
+F11L,Possibly intact,Present,Present,Present,Present,Intact
+F12L,Possibly intact,Present,Present,Present,Present,Intact
+F13L,Possibly intact,Present,Present,Present,Present,Intact
+F14L,Possibly inactive,Present,Present,Present,Present,CAM9
+F14.5L,Possibly intact,Present,Present,Present,Present,Intact
+F15L,Possibly intact,Present,Present,Present,Present,Intact
+F16L,Possibly intact,Present,Present,Present,Present,Intact
+E1L,Possibly intact,Present,Present,Present,Present,Intact
+F17R,Possibly intact,Present,Present,Present,Present,Intact
+E2L,Possibly intact,Present,Present,Present,Present,Intact
+E3L,Possibly intact,Present,Present,Present,Present,Intact
+E4L,Possibly intact,Present,Present,Present,Present,Intact
+E6R,Possibly intact,Present,Present,Present,Present,Intact
+E8R,Possibly intact,Present,Present,Present,Present,Intact
+E9L,Possibly intact,Present,Present,Present,Present,Intact
+E11L,Possibly intact,Present,Present,Present,Present,Intact
+E10R,Possibly intact,Present,Present,Present,Present,Intact
+O1L,Possibly intact,Present,Present,Present,Present,Intact
+O2L,Possibly intact,Present,Present,Present,Present,Intact
+75977,Possibly intact,Present,Present,Present,Present,Intact
+I1L,Possibly intact,Present,Present,Present,Present,Intact
+I2L,Possibly intact,Present,Present,Present,Present,Intact
+I3L,Possibly intact,Present,Present,Present,Present,Intact
+I4L,Possibly intact,Present,Present,Present,Present,Intact
+I5L,Possibly intact,Present,Present,Present,Present,Intact
+I6L,Possibly intact,Present,Present,Present,Present,Intact
+I7L,Possibly intact,Present,Present,Present,Present,Intact
+G1L,Possibly intact,Present,Present,Present,Present,Intact
+G3L,Possibly inactive,Present,Present,Present,Present,CAM9
+G4L,Possibly intact,Present,Present,Present,Present,Intact
+G2R,Possibly intact,Present,Present,Present,Present,Intact
+G5R,Possibly intact,Present,Present,Present,Present,Intact
+G5.5R,Possibly intact,Present,Present,Present,Present,Intact
+G7L,Possibly intact,Present,Present,Present,Present,Intact
+G6R,Possibly intact,Present,Present,Present,Present,Intact
+G8R,Possibly intact,Present,Present,Present,Present,Intact
+G9R,Possibly intact,Present,Present,Present,Present,Intact
+L1R,Possibly intact,Present,Present,Present,Present,Intact
+L3L,Possibly intact,Present,Present,Present,Present,Intact
+L2R,Possibly intact,Present,Present,Present,Present,Intact
+L4R,Possibly intact,Present,Present,Present,Present,Intact
+L5R,Possibly intact,Present,Present,Present,Present,Intact
+J1R,Possibly intact,Present,Present,Present,Present,Intact
+J2R,Possibly intact,Present,Present,Present,Present,Intact
+J3R,Possibly intact,Present,Present,Present,Present,Intact
+J4R,Possibly intact,Present,Present,Present,Present,Intact
+J5R,Possibly intact,Present,Present,Present,Present,Intact
+H1L,Possibly intact,Present,Present,Present,Present,Intact
+J6R,Possibly intact,Present,Present,Present,Present,Intact
+H2R,Possibly intact,Present,Present,Present,Present,Intact
+H3L,Possibly intact,Present,Present,Present,Present,Intact
+H4L,Possibly intact,Present,Present,Present,Present,Intact
+H5R,Possibly intact,Present,Present,Present,Present,Intact
+H6R,Possibly intact,Present,Present,Present,Present,Intact
+H7R,Possibly intact,Present,Present,Present,Present,Intact
+D2L,Possibly intact,Present,Present,Present,Present,Intact
+D1R,Possibly intact,Present,Present,Present,Present,Intact
+D3R,Possibly intact,Present,Present,Present,Present,Intact
+D4R,Possibly intact,Present,Present,Present,Present,Intact
+D5R,Possibly intact,Present,Present,Present,Present,Intact
+D6R,Possibly intact,Present,Present,Present,Present,Intact
+D8L,Possibly intact,Present,Present,Present,Present,Intact
+D7R,Possibly intact,Present,Present,Present,Present,Intact
+D9R,Possibly intact,Present,Present,Present,Present,Intact
+D10R,Possibly intact,Present,Present,Present,Present,Intact
+D11L,Possibly intact,Present,Present,Present,Present,Intact
+D12L,Possibly intact,Present,Present,Present,Present,Intact
+D13L,Possibly intact,Present,Present,Present,Present,Intact
+A1L,Possibly intact,Present,Present,Present,Present,Intact
+A2L,Possibly intact,Present,Present,Present,Present,Intact
+A2.5L,Possibly intact,Present,Present,Present,Present,Intact
+A3L,Possibly intact,Present,Present,Present,Present,Intact
+A4L,Possibly intact,Present,Present,Present,Present,Intact
+A6L,Possibly intact,Present,Present,Present,Present,Intact
+A5R,Possibly intact,Present,Present,Present,Present,Intact
+A7L,Possibly intact,Present,Present,Present,Present,Intact
+A8R,Possibly intact,Present,Present,Present,Present,Intact
+A10R,Possibly intact,Present,Present,Present,Present,Intact
+A11R,Possibly intact,Present,Present,Present,Present,Intact
+A12L,Possibly intact,Present,Present,Present,Present,Intact
+A13L,Possibly intact,Present,Present,Present,Present,Intact
+A14L,Possibly intact,Present,Present,Present,Present,Intact
+A14.5L,Possibly intact,Present,Present,Present,Present,Intact
+A15L,Possibly intact,Present,Present,Present,Present,Intact
+A16L,Possibly intact,Present,Present,Present,Present,Intact
+A17L,Possibly intact,Present,Present,Present,Present,Intact
+A19L,Possibly intact,Present,Present,Present,Present,Intact
+A18R,Possibly intact,Present,Present,Present,Present,Intact
+A21L,Possibly intact,Present,Present,Present,Present,Intact
+A20R,Possibly intact,Present,Present,Present,Present,Intact
+A22R,Possibly intact,Present,Present,Present,Present,Intact
+A23R,Possibly intact,Present,Present,Present,Present,Intact
+A24R,Possibly intact,Present,Present,Present,Present,Intact
+A26L,Possibly intact,Present,Present,Present,Present,Intact
+A27L,Possibly intact,Present,Present,Present,Present,Intact
+A28L,Possibly intact,Present,Present,Present,Present,Intact
+A29L,Possibly intact,Present,Present,Present,Present,Intact
+A30L,Possibly intact,Present,Present,Present,Present,Intact
+A30.5L,Possibly intact,Present,Present,Present,Present,Intact
+A32L,Possibly intact,Present,Present,Present,Present,Intact
+A31R,Possibly intact,Present,Present,Present,Present,Intact
+A33R,Possibly intact,Present,Present,Present,Present,Intact
+A34R,Possibly intact,Present,Present,Present,Present,Intact
+A36R,Possibly intact,Present,Present,Present,Present,Intact
+A38L,Possibly intact,Present,Present,Present,Present,Intact
+163365,Possibly intact,Present,Present,Present,Present,Intact
+A41L,Possibly intact,Present,Present,Present,Present,Intact
+A42R,Possibly intact,Present,Present,Present,Present,Intact
+A43R,Possibly intact,Present,Present,Present,Present,Intact
+A45R,Possibly intact,Present,Present,Present,Present,Intact
+A46R,Possibly intact,Present,Present,Present,Present,Intact
+A47L,Possibly intact,Present,Present,Present,Present,Intact
+A48R,Possibly intact,Present,Present,Present,Present,Intact
+A49R,Possibly intact,Present,Present,Present,Present,Intact
+A50R,Possibly intact,Present,Present,Present,Present,Intact
+A51R,Possibly intact,Present,Present,Present,Present,Intact
+A56R,Possibly intact,Present,Present,Present,Present,Intact
+B1R,Possibly intact,Present,Present,Present,Present,Intact
+B4R,Possibly intact,Present,Present,Present,Present,Intact
+B5R,Possibly intact,Present,Present,Present,Present,Intact
+B8R,Possibly intact,Present,Present,Present,Present,Intact
+B13R;B14R,Possibly intact,Present,Present,Present,Present,Intact
+B15R,Possibly intact,Present,Present,Present,Present,Intact
+B17L,Possibly intact,Present,Present,Present,Present,Intact
+B18R,Possibly intact,Present,Present,Present,Present,Intact
+B19R,Possibly intact,Present,Present,Present,Present,Intact
+C12L,Possibly intact,Present,Present,Present,Present,Intact

@@ -1,0 +1,34 @@
+titulo: "El genoma de la viruela que llegó a América"
+fecha: 2026-07-31
+categoria: medicina
+tags: [paleogenomica, viruela, adn-antiguo, evolucion-viral, chile, colonizacion, genomica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aee6957"
+    titulo: "The genomic identity of early smallpox in South America"
+    journal: Science
+    autores: "Romero González et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "substitution_rates.csv"
+    descripcion: "Tasas sinónimas y no sinónimas por rama y clase de gen"
+    fuente: "Supplementary Table S14"
+  - nombre: "gene_status_by_group.csv"
+    descripcion: "Inventario de 214 genes ortólogos por grupo funcional"
+    fuente: "Supplementary Table S10"
+  - nombre: "gene_status_per_genome.csv"
+    descripcion: "Estado gen a gen en CAM9_208 y cuatro genomas medievales"
+    fuente: "Supplementary Table S11"
+  - nombre: "inactivation_by_lineage.csv"
+    descripcion: "Conteo de genes por categoría de linaje"
+    fuente: "Derivado de Supplementary Table S11"
+  - nombre: "inactivating_mutations.csv"
+    descripcion: "Las 20 mutaciones inactivantes con su rama y gen"
+    fuente: "Supplementary Table S12"
+  - nombre: "genome_coverage.csv"
+    descripcion: "Cobertura y daño terminal de los dos genomas antiguos"
+    fuente: "Table 1 del artículo"
+estado: publicado

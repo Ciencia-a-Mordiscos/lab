@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "paper_id": 2823,
+  "doi": "10.1126/science.aee6957",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "Orthopoxvirus variola (ADN antiguo de restos humanos, Camarones 9, norte de Chile)",
+  "verification_table": [
+    {
+      "claim": "En los genes que aún funcionan, la tasa de mutaciones silenciosas cae entre 3,1 y 3,8 veces en la rama 1594-1794 CE",
+      "supported": "yes",
+      "detail": "Recalculado desde la tabla S14: 3,09× / 3,16× / 3,79× frente a las otras tres ramas",
+      "certainty_tier": "T1",
+      "abstract_verb": "we further identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las mutaciones que cambian la proteína caen menos: entre 1,6 y 2,2 veces",
+      "supported": "yes",
+      "detail": "Recalculado: 1,57× / 2,09× / 2,24×. La asimetría entre ambas clases da p = 0,041 en una prueba exacta de Fisher: margen estrecho",
+      "certainty_tier": "T1",
+      "abstract_verb": "we further identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El dN/dS de esa rama sube a 0,27 frente a 0,14-0,19 en las otras tres",
+      "supported": "yes",
+      "detail": "0,267 contra 0,136 / 0,147 / 0,189. La rama lenta es la de dN/dS más alto: se frenó el reloj, no se apretó el filtro",
+      "certainty_tier": "T1",
+      "abstract_verb": "we further identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "49 de los 214 genes analizados están rotos en CAM9_208 (22,9%)",
+      "supported": "yes",
+      "detail": "21 ausentes + 13 inactivos + 15 posiblemente inactivos (tablas S10 y S11)",
+      "certainty_tier": "T1",
+      "abstract_verb": "we report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "37 de esos 49 ya estaban rotos en todos los linajes muestreados",
+      "supported": "yes",
+      "detail": "En 18 hay codón de parada visible en los genomas medievales; en los otros 19 el gen falta por completo",
+      "certainty_tier": "T1",
+      "abstract_verb": "we report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Solo 2 genes rotos son exclusivos del linaje chileno: F14L y G3L",
+      "supported": "yes",
+      "detail": "Tabla S11; ambos aparecen presentes en los cuatro genomas medievales",
+      "certainty_tier": "T1",
+      "abstract_verb": "we report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Entre CAM9 y las cepas modernas se rompieron 3 genes nuevos: C5L, E7R y B6R",
+      "supported": "yes",
+      "detail": "La tabla S12 lista 13 mutaciones en 7 genes en esa rama, pero solo 3 quedan clasificados como inactivados nuevos en S11",
+      "certainty_tier": "T1",
+      "abstract_verb": "we further identify",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El subgrupo génico A3 desapareció entero del genoma de CAM9_208",
+      "supported": "yes",
+      "detail": "19 de 19 genes ausentes en la tabla S10",
+      "certainty_tier": "T1",
+      "abstract_verb": "we report",
+      "supported_by_data": true
+    },
+    {
+      "claim": "De trece muestras óseas cribadas, dos dieron positivo a variola",
+      "supported": "partial",
+      "detail": "Cifra del texto del paper. Los datos publicados solo traen las dos muestras positivas, así que el denominador no es recalculable",
+      "certainty_tier": "T1",
+      "abstract_verb": "we report",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El linaje CAM9 divergió alrededor de 1296 CE",
+      "supported": "partial",
+      "detail": "Estimación de reloj molecular (HPD 95%: 1124-1460). No recalculable con las tablas publicadas",
+      "certainty_tier": "T2",
+      "abstract_verb": "diverged around",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Los genes ya rotos evolucionan sin filtro aparente",
+      "supported": "partial",
+      "detail": "Su dN/dS promedia 0,854 y va de 0,630 a 1,145. El paper reporta IC 95% que solapan 1, pero esos intervalos no están en la tabla S14",
+      "certainty_tier": "T2",
+      "abstract_verb": "our data suggest",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El ritmo de inactivación génica es de 1 a 2 genes por siglo",
+      "supported": "partial",
+      "detail": "Cifra del paper, no recalculada: las tablas no traen las fechas de cada evento de inactivación",
+      "certainty_tier": "T1",
+      "abstract_verb": "we further identify",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El rebote de las tasas después de 1794 podría coincidir con la vacunación masiva",
+      "supported": "no",
+      "detail": "Hipótesis explícita de los autores ('potentially coinciding'), no un resultado medido. Los datos muestran el rebote; la causa queda abierta",
+      "certainty_tier": "T3",
+      "abstract_verb": "potentially coinciding",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La viruela causó entre 3 y 4 millones de muertes en América",
+      "supported": "no",
+      "detail": "Cifra que el paper cita de una referencia externa, no un resultado de este estudio",
+      "certainty_tier": "T3",
+      "abstract_verb": "cited",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 13,
+      "unit": "muestras",
+      "context": "muestras óseas cribadas en Camarones 9; dos dieron positivo a variola",
+      "source": "paper (texto)",
+      "verified": false
+    },
+    {
+      "value": 84.851,
+      "unit": "×",
+      "context": "cobertura media del genoma CAM9_208 (98,99% cubierto ≥1×)",
+      "source": "Table 1",
+      "verified": true
+    },
+    {
+      "value": 99.912,
+      "unit": "por ciento",
+      "context": "identidad entre los dos genomas CAM9",
+      "source": "paper (texto)",
+      "verified": false
+    },
+    {
+      "value": 188890,
+      "unit": "pares de bases",
+      "context": "longitud del genoma ensamblado de CAM9_208, en un solo contig",
+      "source": "paper (texto)",
+      "verified": false
+    },
+    {
+      "value": 1296,
+      "unit": "año CE",
+      "context": "divergencia estimada del linaje CAM9 (HPD 95%: 1124-1460 CE)",
+      "source": "BEAST, paper (texto)",
+      "verified": false
+    },
+    {
+      "value": 214,
+      "unit": "genes",
+      "context": "genes ortólogos analizados en CAM9_208",
+      "source": "Tabla S10",
+      "verified": true
+    },
+    {
+      "value": 49,
+      "unit": "genes",
+      "context": "genes rotos en CAM9_208 (21 ausentes + 13 inactivos + 15 posiblemente inactivos) = 22,9%",
+      "source": "Tablas S10-S11",
+      "verified": true
+    },
+    {
+      "value": 37,
+      "unit": "genes",
+      "context": "genes ya rotos en todos los linajes de variola muestreados",
+      "source": "Tabla S11",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "genes",
+      "context": "genes inactivados de nuevo entre CAM9 y el ancestro moderno: C5L, E7R, B6R",
+      "source": "Tablas S11-S12",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "13 mutaciones en la rama",
+        "our_calculation": "13 mutaciones sobre 7 genes, 3 genes clasificados como rotos nuevos",
+        "discrepancy_pct": 0,
+        "reason": "una mutación no equivale a un gen inactivado"
+      }
+    },
+    {
+      "value": "3,1-3,8",
+      "unit": "veces",
+      "context": "caída de la tasa sinónima en la rama 1594-1794 CE frente a las otras tres (genes intactos)",
+      "source": "Tabla S14 (recalculado)",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3,1 a 3,8 veces",
+        "our_calculation": "3,09-3,79×",
+        "discrepancy_pct": 0.3,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 0.267,
+      "unit": "ratio",
+      "context": "dN/dS de genes intactos en la rama constreñida, frente a 0,136-0,189 en las otras",
+      "source": "Tabla S14",
+      "verified": true
+    },
+    {
+      "value": "3-4",
+      "unit": "millones",
+      "context": "muertes por viruela estimadas en América — cifra que el paper cita de una referencia externa",
+      "source": "paper (texto, ref. 6)",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we report",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'recuperaron', 'secuenciaron'"
+    },
+    {
+      "abstract_verb": "we further identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'identificaron un ritmo constante'"
+    },
+    {
+      "abstract_verb": "providing direct molecular evidence",
+      "tier": "T1",
+      "cam_attenuator": "'es evidencia molecular directa de'"
+    },
+    {
+      "abstract_verb": "linking variola evolution to shifts in human demography",
+      "tier": "T2",
+      "cam_attenuator": "'vinculan' / 'conectan' — asociación, NUNCA causa"
+    },
+    {
+      "abstract_verb": "our data suggest",
+      "tier": "T2",
+      "cam_attenuator": "'los datos apuntan a'"
+    },
+    {
+      "abstract_verb": "potentially coinciding (vacunación)",
+      "tier": "T3",
+      "cam_attenuator": "'podría coincidir con' — NO afirmar que la vacunación causó el rebote"
+    },
+    {
+      "abstract_verb": "cannot exclude",
+      "tier": "T3",
+      "cam_attenuator": "'no se puede descartar que'"
+    }
+  ],
+  "narrative_hooks": [
+    "De trece muestras de hueso del norte de Chile, dos guardaban el ADN del virus.",
+    "El linaje de viruela que llegó a América está extinto: no aparece en ninguna cepa conocida, ni antigua ni moderna.",
+    "Cuando la viruela llegó a América ya venía con 49 de sus 214 genes rotos.",
+    "Trece mutaciones en esa rama, pero solo tres genes quedaron efectivamente apagados.",
+    "Hay un tramo de dos siglos en que el reloj del virus corre entre tres y cuatro veces más lento."
+  ],
+  "limitations": [
+    "Solo hay dos genomas antiguos americanos, y uno (CAM9_205) tiene 3,206× de cobertura: todo el análisis funcional se apoya en CAM9_208.",
+    "El paper no puede descartar que el linaje ancestral de las cepas del siglo XX también llegara a América en ese periodo.",
+    "No hay muestreo del Viejo Mundo fuera del norte de Europa, así que no se puede ubicar el origen geográfico preciso de la cepa.",
+    "Es un estudio comparativo, no experimental: vincula la evolución del virus con cambios demográficos, pero no establece causalidad.",
+    "Las lesiones de las momias se habían atribuido antes al arsénico; el diagnóstico de viruela es molecular, no óseo.",
+    "Los IC 95% de bootstrap de las tasas no están en la tabla S14: el notebook grafica valores puntuales."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "8 claims verificados como 'yes' y 12 números clave"
+  },
+  "notebook_slug": "2026-07-31-viruela-antigua-sudamerica",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-07-31-viruela-antigua-sudamerica/notebook.html",
+  "generated_at": "2026-07-31T18:20:00-05:00"
+}
