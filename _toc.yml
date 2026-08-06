@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-08-06-mariposas-desplazamientos-clima/README
+    title: "1.758 mariposas que cambiaron de sitio"
+    sections:
+    - file: papers/2026-08-06-mariposas-desplazamientos-clima/notebook
+      title: Notebook
   - file: papers/2026-07-30-olas-calor-compuestas-rios/README
     title: "Cuando el río y el aire se recalientan el mismo día"
     sections:

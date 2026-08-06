@@ -1,0 +1,7 @@
+pais,tipo,pct,base
+Suecia,expansion_horizontal,61,fauna_nacional
+Chequia,contraccion_horizontal,63,fauna_nacional
+Reino Unido,desplazamiento_elevacional,18,fauna_nacional
+Chequia,expansion_horizontal,84,especies_con_desplazamiento_global
+Suecia,contraccion_horizontal,85,especies_con_desplazamiento_global
+Mexico,desplazamiento_elevacional,39,especies_con_desplazamiento_global

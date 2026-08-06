@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "paper_id": 2830,
+  "doi": "10.1038/s41559-026-03117-y",
+  "paper_type": "meta-analysis",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El 81,2% de las especies del inventario tiene registros de expansión de su área",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "1.427 de 1.758, conteo directo. El resumen del paper redondea a 80% (diferencia del 1,5%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "experienced"
+    },
+    {
+      "claim": "El 27,3% de las especies contrajo su área y el 21,7% cambió de altitud",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "480 y 381 sobre 1.758. El paper dice 27% y 22%",
+      "certainty_tier": "T1",
+      "abstract_verb": "contracted"
+    },
+    {
+      "claim": "El inventario cubre el 9,1% de la diversidad de mariposas conocida",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "1.758 de 19.327 especies descritas. El paper escribe «~10%»; el notebook usa la cifra exacta y nunca «10%» pelado",
+      "certainty_tier": "T1",
+      "abstract_verb": "representing"
+    },
+    {
+      "claim": "Nymphalidae aporta el 37,4% de las especies del inventario, y las tres familias más grandes suman el 80,7%",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "657 de 1.758 sobre el listado del Supplementary: 1.758 filas, 1.758 especies únicas, 6 familias, 0 duplicados",
+      "certainty_tier": "T1",
+      "abstract_verb": "compile"
+    },
+    {
+      "claim": "Nymphalidae es la familia con mayor proporción de especies desplazadas respecto a su total conocido",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Es una afirmación del paper (Fig. 1e, círculos abiertos). El total conocido por familia no aparece en el texto ni en el Supplementary: no se pudo recomputar y no se estimó. Usar solo citando al paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "El 79% de los desplazamientos está asociado al cambio climático y a eventos meteorológicos extremos",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "278 de 352 especies CON amenaza atribuida. Esas 352 son el 20,0% de las 1.758: el porcentaje NO aplica al total. El paper dice «associated with», no «caused by»",
+      "certainty_tier": "T2",
+      "abstract_verb": "associated with"
+    },
+    {
+      "claim": "Europa reporta proporcionalmente muchas más contracciones que los trópicos",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Composición europea 41,3 / 37,4 / 21,3 frente a 80,3% de expansión en los trópicos. χ² = 389,13 (gl = 4), p < 0,001, V de Cramér = 0,277 — asociación moderada, no fuerte. Cifras del texto del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "cramers_v",
+        "value": 0.277,
+        "interpretation": "moderado"
+      }
+    },
+    {
+      "claim": "El tipo de fuente cambia qué desplazamiento se reporta: los estudios en inglés sobre-representan la expansión y las evaluaciones de expertos sobre-representan la contracción",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Residuos estandarizados: inglés +2,94 expansión / −4,14 contracción; expertos +5,73 contracción / −4,68 expansión. χ² = 38,14 (gl = 4), p < 0,001, V de Cramér = 0,161 — asociación débil. Cifras del texto del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cramers_v",
+        "value": 0.161,
+        "interpretation": "débil"
+      }
+    },
+    {
+      "claim": "El 65% de las especies del inventario entra con un solo registro, de un solo estudio, en un solo país",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Cifra del paper. Solo 94 especies (5,3% de las 1.758; el paper redondea a 5%) tienen más de diez registros independientes. Es la limitación estructural del inventario",
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "El dataset NO permite decir cuántos kilómetros ni cuántos metros de altitud se movieron las mariposas",
+      "supported": "no",
+      "supported_by_data": true,
+      "detail": "Los autores declaran que no pudieron compilar tasas estandarizadas de desplazamiento. Es un inventario de prevalencia de reportes, no de magnitudes. Ningún claim sobre «cuánto» se movieron es admisible",
+      "certainty_tier": "T1",
+      "abstract_verb": "compile"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1758,
+      "unit": "especies",
+      "context": "mariposas con desplazamiento documentado, en 105 países y territorios",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.1,
+      "unit": "por ciento",
+      "context": "de las 19.327 especies de mariposas conocidas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~10%",
+        "our_calculation": "9,1%",
+        "discrepancy_pct": 9.0,
+        "reason": "el paper redondea con «~»; usar 9,1% o «cerca del 10%», nunca «10%» pelado"
+      }
+    },
+    {
+      "value": 6182,
+      "unit": "registros",
+      "context": "extraídos de 567 estudios en 15 idiomas más 68 evaluaciones de expertos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1427,
+      "unit": "especies",
+      "context": "con registros de expansión horizontal — el 81,2%, documentado en 97 países",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "80%",
+        "our_calculation": "81,2%",
+        "discrepancy_pct": 1.5,
+        "reason": "redondeo del abstract"
+      }
+    },
+    {
+      "value": 480,
+      "unit": "especies",
+      "context": "con registros de contracción horizontal — el 27,3%, documentado en solo 27 países",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 381,
+      "unit": "especies",
+      "context": "con desplazamiento elevacional — el 21,7%, documentado en solo 18 países",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 409,
+      "unit": "especies",
+      "context": "el 23% que aparece en más de un tipo de desplazamiento: por eso 1.427+480+381 = 2.288 sobre 1.758 y la suma NO es aditiva",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 65,
+      "unit": "por ciento",
+      "context": "de las especies entra al inventario con un solo registro, de un solo estudio, en un solo país",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 94,
+      "unit": "especies",
+      "context": "el 5,3% de las 1.758 (el paper redondea a 5%) tiene más de diez registros independientes",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 278,
+      "unit": "especies",
+      "context": "con el clima atribuido, sobre las 352 que tienen alguna amenaza registrada (79%). Esas 352 son solo el 20,0% de las 1.758",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "79%",
+        "our_calculation": "79,0% (278/352)",
+        "discrepancy_pct": 0.0,
+        "reason": "coincide, pero el denominador es el subconjunto con amenaza atribuida, no el total"
+      }
+    },
+    {
+      "value": 80.3,
+      "unit": "por ciento",
+      "context": "de los registros tropicales son de expansión, frente al 41,3% en Europa",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2014,
+      "unit": "año (mediana)",
+      "context": "de los 461 estudios con año recuperado (81,3% de los 567); IQR 2008–2018, rango 1948–2024, el 71,8% desde 2010",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — «los datos muestran»"
+    },
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "«reportan» / «documentan»"
+    },
+    {
+      "abstract_verb": "compile",
+      "tier": "T1",
+      "cam_attenuator": "«compilaron» — el equipo ejecutó; no descalar a «propone» ni «sugiere»"
+    },
+    {
+      "abstract_verb": "associated with",
+      "tier": "T2",
+      "cam_attenuator": "«asociado a» / «vinculado a» — NUNCA «causado por», «empujó», «desplazó»"
+    },
+    {
+      "abstract_verb": "call for",
+      "tier": "T2",
+      "cam_attenuator": "«los autores piden» — recomendación, no hallazgo"
+    }
+  ],
+  "narrative_hooks": [
+    "1.758 especies de mariposas cambiaron de sitio en 105 países. El 65% entró a esa lista con un solo registro, de un solo estudio, en un solo país.",
+    "El título del paper dice «inducido por el clima». El resumen dice «asociado al clima». Nos quedamos con el resumen.",
+    "Los tres números no suman: 1.427 más 480 más 381 dan 2.288 sobre 1.758 especies. No es un error — 409 mariposas hacen dos cosas distintas según dónde las mires.",
+    "Cuatro especies tienen registros de subir Y de bajar de altitud. Una mariposa no hace lo mismo en todo el planeta.",
+    "Este mapa no dice dónde se mueven las mariposas: dice dónde hay gente contándolas.",
+    "Si el estudio está en inglés, sale más expansión. Si el dato lo puso un experto, sale más contracción. La misma pregunta, dos retratos."
+  ],
+  "limitations": [
+    "Los porcentajes por país miden cobertura de documentación, no prevalencia real: un valor bajo en un país tropical refleja escasez de datos, no ausencia de desplazamiento (afirmación textual del paper)",
+    "Europa domina el inventario por esfuerzo de monitoreo; el mapa de la evidencia y el mapa del fenómeno no son el mismo mapa",
+    "Los tipos de desplazamiento y las amenazas por tipo NO son aditivos: ninguna de esas sumas admite leerse como «% del total»",
+    "Los porcentajes por país del paper vienen en dos bases distintas (fauna nacional vs. las 1.758 globales): Suecia aparece con 61% y con 85% según cuál se use, y no son comparables",
+    "La distribución de años cubre 461 de los 567 estudios (81,3%): solo se recuperó el año de las citas con formato (AAAA)",
+    "La ventana de búsqueda declarada arranca en 1991, pero 4 referencias son anteriores; la más vieja es de 1948",
+    "Todos los porcentajes son a nivel de especie. El abstract habla de «range shifts», que suena a nivel de registro; el único cálculo reproducible con lo publicado es por especie",
+    "El dataset no contiene magnitudes de desplazamiento: no hay kilómetros ni metros de altitud"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados con 'yes' y 12 números clave — script denso"
+  },
+  "notebook_slug": "2026-08-06-mariposas-desplazamientos-clima",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-06-mariposas-desplazamientos-clima/notebook.html",
+  "generated_at": "2026-08-06T10:55:00-05:00"
+}

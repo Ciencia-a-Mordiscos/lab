@@ -1,0 +1,40 @@
+titulo: "1.758 mariposas cambiaron de sitio. El 65% tiene un solo registro detrás"
+fecha: 2026-08-06
+categoria: ecología
+tags: [mariposas, cambio-climático, biodiversidad, desplazamiento-de-rango, sesgo-de-muestreo, meta-síntesis]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41559-026-03117-y"
+    titulo: "Extensive climate-induced range shifts in butterflies across the globe"
+    journal: Nature Ecology & Evolution
+    autores: "Chowdhury et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "especies_familia.csv"
+    descripcion: "1.758 especies de mariposas con desplazamiento documentado y su familia"
+    fuente: "Supplementary Information (Sección 3)"
+  - nombre: "familias_resumen.csv"
+    descripcion: "Conteo y porcentaje de especies por familia"
+    fuente: "Derivado de especies_familia.csv"
+  - nombre: "tipos_desplazamiento.csv"
+    descripcion: "Especies y países por tipo de desplazamiento (no aditivo)"
+    fuente: "Texto del paper (acceso abierto)"
+  - nombre: "composicion_regional.csv"
+    descripcion: "Composición de los registros por región; solo Europa tiene desglose completo"
+    fuente: "Texto del paper (acceso abierto)"
+  - nombre: "amenaza_clima_por_tipo.csv"
+    descripcion: "Especies con el clima atribuido, por tipo de desplazamiento (no aditivo)"
+    fuente: "Texto del paper (acceso abierto)"
+  - nombre: "paises_destacados.csv"
+    descripcion: "Porcentajes por país en dos bases distintas (fauna nacional vs global)"
+    fuente: "Texto del paper (acceso abierto)"
+  - nombre: "concentracion_evidencia.csv"
+    descripcion: "Cuántos registros independientes sostienen a cada especie"
+    fuente: "Texto del paper (acceso abierto)"
+  - nombre: "estudios_por_anio.csv"
+    descripcion: "Año de publicación de 461 de los 567 estudios revisados (81,3%)"
+    fuente: "Supplementary Information (Sección 2)"
+estado: publicado
