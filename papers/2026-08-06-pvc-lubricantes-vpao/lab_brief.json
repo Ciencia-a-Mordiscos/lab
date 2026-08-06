@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "paper_id": 2832,
+  "doi": "10.1038/s41586-026-10867-z",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La dosis de AlCl3 controla la viscosidad del aceite: de 40 a 120 mol%, la viscosidad dinamica cae de 14,54 a 0,25 Pa.s",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Spearman rho = -1,00 (p = 0,003 exacto por permutacion, el minimo posible con n = 6) entre carga de AlCl3 y viscosidad, masa molar y CH2/CH3. n = 6 condiciones, una corrida por condicion, sin replicas: no hay barras de error y el orden perfecto no prueba una ley general. Spearman y no Pearson porque la viscosidad no pasa Shapiro-Wilk (p = 0,005).",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -1.0,
+        "interpretation": "monotonia perfecta en n = 6"
+      }
+    },
+    {
+      "claim": "El PVC sube la viscosidad frente a la misma olefina sin PVC: 3,70 vs 0,10 Pa.s = 37,0 veces",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "v8PAO (con PVC) vs c8PAO (control sin PVC), misma olefina C8 y mismo solvente, con una sola medicion por condicion (n = 1 vs 1): es la magnitud reportada, no una diferencia con prueba estadistica.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 37.0,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La reaccion limpia los metales del plastico de desecho: de 16.954 ppm a 6 ppm (99,965% menos)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Suma de 8 metales por ICP-MS. El lavado previo del PVC ya elimina el 85,5%; el calcio, que era el 94% de la carga metalica (15.958 ppm), desaparece por completo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "effect_size": {
+        "measure": "reduccion_pct",
+        "value": 99.965,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El titanio del lubricante no es atribuible al reciclaje: sobreviven 6-7 ppm, pero el PVC virgen ya traia 5 ppm",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Ti = 6 ppm en v8PAO y 7 ppm en v10PAO-mix-hexanos; PVC virgen (nunca fue basura) = 5 ppm. Es el unico de los 8 metales que cruza al aceite.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "Usar residuo real en vez de PVC de laboratorio no empeora la estabilidad termica",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Mann-Whitney sobre Td5%: residuo real (n = 10, mediana 204 C, rango 152-261, IQR 192-206) vs laboratorio (n = 3, mediana 189 C), U = 23,0, p = 0,204, r rango-biserial = 0,53 (el efecto puntual, +14 C de media, va a favor del residuo real). Es ausencia de diferencia demostrada; con n = 3 en un grupo tampoco se descarta una diferencia pequena.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "NO se puede afirmar que el aceite con PVC sea mas estable que el comercial: el signo se invierte segun el solvente",
+      "supported": "no",
+      "supported_by_data": true,
+      "detail": "Td5%: en diclorometano los aceites con PVC se degradan 17 C mas tarde que el control (188 vs 171 C); en hexanos, 59 C antes (217 vs 276 C) y ahi el control es un unico dato. Diferencias absolutas en C: Td5%/Td50%/Tg son escala de intervalo, nunca porcentajes.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit"
+    },
+    {
+      "claim": "Los 17 aceites siguen fluidos muy por debajo de cero: Tg entre -47 y -83 C",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Temperatura de transicion vitrea de los 17 lubricantes de la Tabla S6, con y sin PVC, en ambos solventes.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit"
+    },
+    {
+      "claim": "El PVC NO domina la receta: aporta el 30% de la masa reactiva y el 3,8% del costo de los tres insumos del acoplamiento",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Por 100 kg de lubricante: 115 kg de 1-deceno + 49,3 kg de PVC (masa reactiva) + 52,6 kg de AlCl3 (catalizador). Costo de los tres: 106,49 + 17,31 + 4,93 = 128,73 USD; el 1-deceno, petroquimico virgen, pone el 82,7%. Descomposicion didactica: excluye hexanos recuperados por destilacion, niquel Raney (96,24 USD/100 kg a precio de lista pero reciclable segun el SI), capital, energia y mano de obra.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report"
+    },
+    {
+      "claim": "Que sea economicamente atractivo a escala industrial es potencial, no resultado: el analisis tecno-economico modela una planta de 50.000 t/ano",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "El abstract usa 'highlights an economical approach' y 'offer high financial incentives' (T2). Es un modelo con supuestos de mercado (Tablas S7-S9), no una planta construida. El multiplicador de valor de mercado es real: PVC de desecho 100 USD/t frente a lubricante PAO 3.212 USD/t = 32,1 veces.",
+      "certainty_tier": "T2",
+      "abstract_verb": "highlights"
+    },
+    {
+      "claim": "KV100 de 14,9 a 26,3 cSt, indice de viscosidad hasta 130 y coeficiente de friccion de 0,08 a 0,15 son cifras del paper, no reproducibles con estos datos",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Viven en figuras del paper (paywalled). Nuestras tablas traen viscosidad DINAMICA en Pa.s, magnitud distinta de la viscosidad cinematica en centistokes: no son comparables y no se mezclan en la misma frase.",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibit"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 58.2,
+      "unit": "veces",
+      "context": "factor en que la dosis de AlCl3 (40 -> 120 mol%) mueve la viscosidad dinamica: 14,54 -> 0,25 Pa.s",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 37.0,
+      "unit": "veces",
+      "context": "viscosidad del aceite con PVC frente al control sin PVC, misma olefina C8: 3,70 vs 0,10 Pa.s (n = 1 vs 1)",
+      "source": "csv",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "over thirty times",
+        "our_calculation": "37,0x",
+        "discrepancy_pct": 0.0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 32.1,
+      "unit": "veces",
+      "context": "multiplicador de valor de mercado: PVC de desecho 100 USD/t -> lubricante PAO 3.212 USD/t",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 99.965,
+      "unit": "por ciento",
+      "context": "metales eliminados del plastico al lubricante: 16.954 ppm -> 6 ppm (suma de 8 metales, ICP-MS)",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 30,
+      "unit": "por ciento",
+      "context": "de la masa reactiva (PVC + 1-deceno) que aporta el PVC: 49,3 de 164,3 kg por cada 100 kg de lubricante",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 3.8,
+      "unit": "por ciento",
+      "context": "del costo de los tres insumos del acoplamiento que aporta el PVC: 4,93 de 128,73 USD por 100 kg. El 1-deceno pone el 82,7%",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 0.204,
+      "unit": "valor p",
+      "context": "Mann-Whitney sobre Td5%, residuo real (n = 10) vs PVC de laboratorio (n = 3): no hay diferencia demostrada",
+      "source": "csv",
+      "verified": true
+    },
+    {
+      "value": 70,
+      "unit": "grados Celsius",
+      "context": "temperatura de la reaccion de upcycling, reportada en el abstract",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: 'reportan', 'describen el metodo'"
+    },
+    {
+      "abstract_verb": "exhibit",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa de medicion: 'muestra', 'exhibe'"
+    },
+    {
+      "abstract_verb": "highlights",
+      "tier": "T2",
+      "cam_attenuator": "'el trabajo destaca', 'el trabajo plantea'"
+    },
+    {
+      "abstract_verb": "offer",
+      "tier": "T2",
+      "cam_attenuator": "'ofrece una ruta' — potencial, no logro"
+    },
+    {
+      "abstract_verb": "essential",
+      "tier": "T2",
+      "cam_attenuator": "'segun los autores, es clave'"
+    }
+  ],
+  "narrative_hooks": [
+    "Una tonelada de PVC de desecho se cotiza en 100 dolares. Una tonelada de lubricante sintetico, en 3.212.",
+    "El plastico mas dificil de reciclar del mundo tiene un 56,7% de cloro. Estos lo desarmaron a 70 C para hacer aceite de motor.",
+    "Una sola perilla —cuanto catalizador echas— decide si sale un aceite ligero o una miel: 58 veces de diferencia.",
+    "Metieron tarjetas, guantes, tuberias y ranas de juguete al reactor. La prueba estadistica no distingue el resultado del PVC de laboratorio.",
+    "El dato incomodo: el PVC pone el 30% de la masa y el 3,8% del costo. El otro insumo es petroleo virgen."
+  ],
+  "limitations": [
+    "n pequeno en todas las tablas (6 a 17 filas): son condiciones experimentales individuales, no muestreos. Sin replicas por condicion no hay barras de error posibles.",
+    "El solvente esta confundido con el tipo de olefina: los aceites hechos en hexanos son casi todos v10PAO, asi que la diferencia de +76 C en Td50% no se puede atribuir solo al solvente.",
+    "No se puede generalizar que los solventes clorados ramifiquen mas: el CCl4 (CH2/CH3 = 2,48) cae dentro del rango de los hidrocarburos.",
+    "Td5%, Td50% y Tg estan en C (escala de intervalo): solo diferencias absolutas, nunca porcentajes.",
+    "El rho de Spearman opera sobre rangos: rho al cuadrado no se interpreta como varianza explicada.",
+    "La descomposicion de costo del notebook es didactica, no el analisis tecno-economico del paper: excluye hexanos recuperados, capital, energia y mano de obra.",
+    "Cloro residual (<100 ppm, >99,98% de reduccion), friccion a seis meses y volumen de desgaste (243.000 um3 del vPAO-DCM frente a 24.900 del PAO comercial) salen del texto del Supplementary, no de tablas recalculables.",
+    "El repositorio Dryad citado en el Data availability del paper todavia no era publico al generar el notebook."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims 'yes' verificados y 8 numeros clave: script denso"
+  },
+  "notebook_slug": "2026-08-06-pvc-lubricantes-vpao",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-06-pvc-lubricantes-vpao/notebook.html",
+  "generated_at": "2026-08-06T00:00:00-05:00"
+}

@@ -897,6 +897,11 @@ parts:
       title: Notebook
 - caption: Química
   chapters:
+  - file: papers/2026-08-06-pvc-lubricantes-vpao/README
+    title: "Convirtieron tuberías de PVC en aceite de motor"
+    sections:
+    - file: papers/2026-08-06-pvc-lubricantes-vpao/notebook
+      title: Notebook
   - file: papers/2026-06-25-nimocat-reformado-residuos/README
     title: "NiMoCat: convertir basura en combustible y aguantar 850 h"
     sections:

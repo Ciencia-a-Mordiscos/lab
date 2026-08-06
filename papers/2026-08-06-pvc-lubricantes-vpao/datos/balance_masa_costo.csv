@@ -1,0 +1,7 @@
+material,kg_por_100kg_lubricante,precio_usd_ton,costo_usd_por_100kg,nota
+1-Deceno,115.0,926,106.49,co-reactivo: aporta la mayor parte de la masa
+PVC (residuo),49.3,100,4.93,plantilla/esqueleto; insumo mas barato
+Cloruro de aluminio,52.6,329,17.31,catalizador estequiometrico
+Niquel Raney,5.77,16680,96.24,"catalizador de hidrogenacion, reciclable"
+Nitrogeno,1.58,250,0.4,atmosfera inerte
+Hidrogeno,0.078,1280,0.1,hidrogenacion

@@ -1,0 +1,7 @@
+lubricante,feedstock,solvente,ich2_ich3,branching_ratio_pct,viscosidad_dinamica_pas
+c8PAO,sin PVC,DCM,1.23,35.5,0.1
+v10PAO,lab-grade,DCM,1.0,38.5,2.2
+v8PAO,lab-grade,DCM,0.93,46.0,3.7
+v6PAO,lab-grade,DCM,0.63,65.2,16.4
+v10PAO-mix-DCM,residuo real,DCM,0.87,38.4,2.98
+v10PAO-mix-hexanos,residuo real,hexanos,2.65,17.1,0.37

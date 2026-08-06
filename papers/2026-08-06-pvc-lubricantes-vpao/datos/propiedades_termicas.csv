@@ -1,0 +1,18 @@
+lubricante,feedstock,solvente,td5_c,td50_c,tg_c
+c6PAO,sin PVC,DCM,170,295,-53
+c8PAO,sin PVC,DCM,178,323,-62
+c10PAO,sin PVC,DCM,166,340,-77
+v6PAO,lab-grade,DCM,176,325,-47
+v8PAO,lab-grade,DCM,200,362,-54
+v10PAO,lab-grade,DCM,189,364,-61
+v8PAO,tarjetas,DCM,187,335,-54
+v8PAO,guantes,DCM,205,364,-53
+v8PAO,tuberias,DCM,205,367,-53
+v8PAO,ranas de juguete,DCM,193,359,-50
+v10PAO,mezcla residuos,DCM,152,323,-49
+c10PAO,sin PVC,hexanos,276,420,-82
+v10PAO,tarjetas,hexanos,192,413,-76
+v10PAO,guantes,hexanos,221,415,-83
+v10PAO,tuberias,hexanos,261,411,-75
+v10PAO,ranas de juguete,hexanos,202,424,-78
+v10PAO,mezcla residuos,hexanos,207,416,-76

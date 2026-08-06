@@ -1,0 +1,37 @@
+titulo: "Convirtieron tuberías de PVC en aceite de motor"
+fecha: 2026-08-06
+categoria: quimica
+tags: [pvc, reciclaje, lubricantes, polimeros, catalisis, upcycling, economia-circular]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10867-z"
+    titulo: "Upcycling of polyvinyl chloride into polyalphaolefin lubricants"
+    journal: Nature
+    autores: "Munyaneza Nuwayo et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "alcl3_dosis.csv"
+    descripcion: "Dosis-respuesta de la carga de AlCl3 (40-120 mol%) sobre CH2/CH3, masa molar y viscosidad dinamica. 6 condiciones"
+    fuente: "Supplementary Information, Tabla S2"
+  - nombre: "olefina_solvente.csv"
+    descripcion: "Efecto de la longitud de la alfa-olefina y del solvente sobre ramificacion y viscosidad, incluye control sin PVC. 6 aceites"
+    fuente: "Supplementary Information, Tabla S1"
+  - nombre: "solventes.csv"
+    descripcion: "Relacion CH2/CH3 en 6 solventes a 50 mol% de AlCl3"
+    fuente: "Supplementary Information, Tabla S4"
+  - nombre: "metales_icpms.csv"
+    descripcion: "ICP-MS de 8 metales en 5 muestras (formato largo). 40 filas"
+    fuente: "Supplementary Information, Tabla S5"
+  - nombre: "propiedades_termicas.csv"
+    descripcion: "Td5%, Td50% y Tg de 17 lubricantes por materia prima y solvente"
+    fuente: "Supplementary Information, Tabla S6"
+  - nombre: "precios_usd_ton.csv"
+    descripcion: "Precios de mercado de insumos y producto en USD/tonelada. 8 filas"
+    fuente: "Supplementary Information, Tabla S8"
+  - nombre: "balance_masa_costo.csv"
+    descripcion: "Balance de masa por 100 kg de lubricante cruzado con precios de la Tabla S8. 6 insumos"
+    fuente: "Supplementary Information, Tabla S8 + SI 12.2.4"
+estado: publicado
