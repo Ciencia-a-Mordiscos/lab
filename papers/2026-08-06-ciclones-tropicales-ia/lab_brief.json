@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "paper_id": 2844,
+  "doi": "10.1038/s41586-026-10953-2",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El pronóstico oficial del NHC ganó 22,9 h de anticipación (umbral 300 km) en el Atlántico entre 2005-2014 y 2015-2024",
+      "supported": "yes",
+      "detail": "Interpolación sobre la curva error-vs-horizonte del archivo de verificación del NHC; horizontes de soporte 72-96 h y 96-120 h. Cálculo NUESTRO sobre el pronóstico oficial, no el del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Ese valor coincide con las ~22 h que el paper atribuye a una década de progreso operativo",
+      "supported": "partial",
+      "detail": "Diferencia menor al 5 % (3,9 % sin redondear), pero son cosas distintas: el paper mide el ensamble ECMWF a escala global y nosotros el pronóstico oficial del NHC en el Atlántico. Convergencia independiente, no reproducción",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El error de pista a 48 h en el Atlántico bajó de 359,6 km (1990) a 98,5 km (2025)",
+      "supported": "yes",
+      "detail": "Spearman rho = -0,948 (p = 1,6e-18), n = 36 años. Spearman y no Pearson porque la serie no es normal (Shapiro-Wilk p = 0,013)",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El error de intensidad a 48 h bajó 4,44 kt entre 1990-2009 y 2010-2025",
+      "supported": "yes",
+      "detail": "Mann-Whitney U p = 1,3e-05, Cohen's d pooled = 2,03 (efecto grande), n = 20 vs 16 años. Ambos grupos pasan Shapiro-Wilk",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Esa mejora de intensidad es un escalón y no una tendencia continua",
+      "supported": "partial",
+      "detail": "Dentro de cada periodo la pendiente no es significativa (p = 0,363 y p = 0,102), pero con n = 20 y 16 el test carece de potencia: sobre la serie completa 1990-2025 la caída sí es significativa (-0,214 kt/año, p = 6,3e-07). Compatible con un escalón, no establecido",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggesting",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En el Pacífico Nororiental 2015-2024 el error medio de pista nunca alcanza 300 km dentro de las 120 h verificadas",
+      "supported": "yes",
+      "detail": "Error máximo medido a 120 h = 234,9 km. Dato censurado, no faltante",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las 256 tormentas de 2023-2025 corresponden al set de evaluación del paper",
+      "supported": "partial",
+      "detail": "Conteo NUESTRO aplicando el protocolo descrito por el paper (naturaleza tropical/subtropical, viento máx >= 34 kt) sobre IBTrACS v04r01. El paper no publica su conteo exacto",
+      "certainty_tier": "T3",
+      "abstract_verb": "evaluated on",
+      "supported_by_data": true
+    },
+    {
+      "claim": "WN-C ofrece un día o más de ventaja de lead time sobre los modelos operativos líderes",
+      "supported": "no",
+      "detail": "Citado del paper, no verificado aquí: el paper no publica sus scorecards como datos. Es además un promedio sobre pista, intensidad y radios de viento y sobre varios modelos de referencia",
+      "certainty_tier": "T1",
+      "abstract_verb": "offer",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 22.9,
+      "unit": "horas",
+      "context": "ganancia de anticipación del NHC oficial en el Atlántico (umbral 300 km) entre 2005-2014 y 2015-2024",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~22 h (ECMWF ENS, global)",
+        "our_calculation": "22,9 h (NHC OFCL, Atlántico)",
+        "discrepancy_pct": 3.9,
+        "reason": "modelos y ámbitos distintos: convergencia independiente, no reproducción"
+      }
+    },
+    {
+      "value": 112.8,
+      "unit": "horas",
+      "context": "anticipación del NHC oficial en el Atlántico con error medio bajo 300 km, década 2015-2024",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 98.5,
+      "unit": "km",
+      "context": "error medio de pista a 48 h en el Atlántico, 2025 (desde 359,6 km en 1990)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 4.44,
+      "unit": "kt",
+      "context": "caída del error medio de intensidad a 48 h entre 1990-2009 y 2010-2025 (Cohen's d = 2,03)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 256,
+      "unit": "tormentas",
+      "context": "tormentas tropicales/subtropicales con viento máx >= 34 kt en 2023-2025, seis cuencas (IBTrACS v04r01)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 30.1,
+      "unit": "por ciento",
+      "context": "de esas 256 tormentas alcanzaron categoría de huracán mayor (>= 96 kt)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1000,
+      "unit": "miembros",
+      "context": "tamaño máximo de ensamble que WN-C puede generar, frente a 50 de los sistemas convencionales",
+      "source": "paper",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "introduce",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa sobre lo que construyeron"
+    },
+    {
+      "abstract_verb": "achieved",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggesting",
+      "tier": "T2",
+      "cam_attenuator": "atenuador obligatorio; aplica solo al claim de que la alta resolución no sería requisito"
+    },
+    {
+      "abstract_verb": "represents a step-change",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de los autores; nunca 'revolución' ni 'lo cambia todo'"
+    }
+  ],
+  "narrative_hooks": [
+    "El centro de huracanes de EE. UU. tardó una década en ganar 22,9 horas de anticipación; un modelo de IA dice que gana un día de golpe",
+    "En el Pacífico Nororiental el pronóstico ya es tan bueno que se salió de la escala con la que se mide",
+    "Acertar dónde va el huracán mejoró sin parar 36 años; acertar su fuerza estuvo atascado hasta 2010"
+  ],
+  "limitations": [
+    "No se verificó WN-C: el paper publica pesos y código, no los resultados tabulados de sus figuras. Toda cifra del modelo es cita",
+    "28 de los 32 autores son de Google DeepMind o Google Research: quienes construyeron el modelo corrieron su evaluación (con revisión por pares y coautoría del NHC, CIRA y Met Office)",
+    "Nuestra vara sale del pronóstico oficial del NHC en dos cuencas; el paper compara contra modelos globales. Sirve para dar escala, no para arbitrar",
+    "El archivo de verificación del NHC solo cubre Atlántico y Pacífico Nororiental: cuatro de las seis cuencas quedan fuera de la serie histórica",
+    "La ganancia por década depende del umbral elegido (300 km es la elección del paper): entre 150 y 300 km va de 18,9 a 22,9 h",
+    "El escalón de intensidad es compatible con los datos pero no queda establecido frente a una caída continua (falta de potencia con n = 20 y 16)"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados como 'yes', 3 parciales y 7 números clave"
+  },
+  "notebook_slug": "2026-08-06-ciclones-tropicales-ia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-06-ciclones-tropicales-ia/notebook.html",
+  "generated_at": "2026-08-07T11:00:00-05:00"
+}

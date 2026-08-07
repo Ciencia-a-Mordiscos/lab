@@ -936,6 +936,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-08-06-ciclones-tropicales-ia/README
+    title: "El pronóstico de huracanes ganó 23 horas en una década"
+    sections:
+    - file: papers/2026-08-06-ciclones-tropicales-ia/notebook
+      title: Notebook
   - file: papers/2026-07-18-memoria-un-electron-cuantica/README
     title: "Una memoria hecha de un solo electrón"
     sections:

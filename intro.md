@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### [El pronóstico de huracanes ganó 23 horas en una década](papers/2026-08-06-ciclones-tropicales-ia/README.md)
+
+Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día o más. Reconstruimos la vara: una década entera de progreso del centro de huracanes de EE. UU. compró 22,9 horas.
+
+[Notebook](papers/2026-08-06-ciclones-tropicales-ia/notebook.ipynb) · [README](papers/2026-08-06-ciclones-tropicales-ia/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-06-ciclones-tropicales-ia/notebook.ipynb)
+
+
 ### Convirtieron tuberías de PVC en aceite de motor
 
 **Química** · *Nature* (2026) · El PVC es el plástico más difícil de reciclar: el **56,7%** de su peso es cloro. Un equipo lo desarmó con cloruro de aluminio a **70 °C** y lo convirtió en polialfaolefina — el aceite base sintético de los lubricantes de motor. **El hallazgo:** una sola perilla, la carga de catalizador, mueve la viscosidad **58,2 veces** (14,54 → 0,25 Pa·s) con ρ = **−1,00** en las seis condiciones medidas. Metieron tarjetas, guantes, tuberías y ranas de juguete al reactor y la prueba de Mann-Whitney **no distingue** el resultado del PVC de laboratorio (p = **0,204**). Un detalle que se ve en los datos: de **16.954 ppm** de metales en el residuo quedan **6** en el aceite, y el único que sobrevive —titanio— ya venía en el PVC virgen. ⚠️ El dato incómodo: el PVC pone el **30%** de la masa reactiva y el **3,8%** del costo; el 1-deceno, petroquímico virgen, pone el **82,7%**. ⚠️ **n pequeño** en todo (6 a 17 filas) y **sin réplicas** por condición: no hay barras de error posibles. ⚠️ KV100, índice de viscosidad y fricción son cifras del **abstract**, no reproducibles aquí: nuestras tablas traen viscosidad *dinámica*, otra magnitud.

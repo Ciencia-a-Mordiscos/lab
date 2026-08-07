@@ -1,0 +1,25 @@
+titulo: "El pronóstico de huracanes ganó 23 horas en una década. Google dice que gana un día de golpe"
+fecha: 2026-08-06
+categoria: tecnología
+tags: [inteligencia-artificial, meteorología, huracanes, ciclones-tropicales, pronóstico, clima]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10953-2"
+    titulo: "Operational Tropical Cyclone Forecasting with AI"
+    journal: Nature
+    autores: "Alet et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ibtracs_tormentas_2023_2025.csv"
+    descripcion: "256 tormentas tropicales/subtropicales 2023-2025, viento máx >= 34 kt, seis cuencas"
+    fuente: "IBTrACS v04r01 (NOAA NCEI)"
+  - nombre: "nhc_error_anual.csv"
+    descripcion: "Error medio anual del pronóstico oficial del NHC por cuenca, año y horizonte (1970-2025)"
+    fuente: "NHC Forecast Verification"
+  - nombre: "nhc_decadas.csv"
+    descripcion: "Error de pista e intensidad agregado por décadas y cuenca"
+    fuente: "NHC Forecast Verification"
+estado: publicado
