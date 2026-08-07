@@ -1,0 +1,238 @@
+{
+  "version": "1.0",
+  "paper_id": 2846,
+  "doi": "10.1126/science.adv5441",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Retirar un carro de gasolina que todavía funciona reduce las emisiones acumuladas en la mayoría de los escenarios modelados",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "160 de 210 casillas dan beneficio positivo (76,2%); con la red promedio de EE. UU., 60 de 70 (86%), mediana 41% (IQR 20–56). El abstract usa el mismo alcance: 'across most contexts', no en todos",
+      "certainty_tier": "T1",
+      "abstract_verb": "found ... yields consistent emissions reductions across most contexts"
+    },
+    {
+      "claim": "La intensidad de carbono de la red eléctrica es la palanca principal del resultado",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "La mediana pasa de 54,5% (200 g/kWh) a 41,0% (350) a 3,5% (699); las casillas positivas caen de 91% a 86% a 51%",
+      "certainty_tier": "T1",
+      "abstract_verb": "evaluated"
+    },
+    {
+      "claim": "Retirar un híbrido eficiente puede aumentar las emisiones en vez de bajarlas",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Con red sucia (699 g/kWh) los híbridos retirados tienen mediana −29,5% y solo el 25% de los casos da positivo (n=28). El peor par, Toyota Prius Hybrid → Rivian R1S, llega a −144%",
+      "certainty_tier": "T1",
+      "abstract_verb": "evaluated"
+    },
+    {
+      "claim": "Pesa más el tamaño de lo que se retira y de lo que se compra que la marca del vehículo",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "A 350 g/kWh: camioneta retirada mediana 61% vs carro 19%; carro eléctrico comprado 57% vs camioneta eléctrica 25%",
+      "certainty_tier": "T1",
+      "abstract_verb": "evaluated"
+    },
+    {
+      "claim": "El promedio ponderado de la red eléctrica de EE. UU. es ~348 kg CO2/MWh",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Nuestra reconstrucción desde la Tabla S3 da 347,5 (0,1% de diferencia con el paper). Ponderado por generación; el promedio simple entre subredes daría 395,4",
+      "certainty_tier": "T1",
+      "abstract_verb": "evaluated"
+    },
+    {
+      "claim": "El 92% de los escenarios da reducción neta de emisiones",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Cifra del análisis continuo del paper (Fig. 2A), no de las tablas discretas. Nuestra matriz da 76,2% porque un tercio de sus casillas usa Puerto Rico (699 g/kWh), el extremo sucio. MÉTRICAS DISTINTAS — no intercambiables",
+      "certainty_tier": "T1",
+      "abstract_verb": "found"
+    },
+    {
+      "claim": "Las subredes por encima de 400 kg CO2/MWh son un tercio de la generación de EE. UU.",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "El paper dice 33%; nuestra reconstrucción con corte estricto >400 da 31,1% (con ≥395 daría 34,9%). Diferencia de definición del corte, no de unidades",
+      "certainty_tier": "T1",
+      "abstract_verb": "evaluated"
+    },
+    {
+      "claim": "Retirar la camioneta más vendida rinde 55%",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "La Tabla S5 da 46% para Ford F-150 → F-150 Lightning a 350 g/kWh. El 55% del texto promedia dos enfoques sobre la Fig. 3 y la tabla usa el par concreto con versión de rango extendido (~20% más intensiva de fabricar según el SM). Métricas distintas",
+      "certainty_tier": "T1",
+      "abstract_verb": "evaluated"
+    },
+    {
+      "claim": "Chatarrizar un carro que todavía funciona es económicamente prohibitivo en las condiciones de mercado actuales",
+      "supported": "yes",
+      "supported_by_data": false,
+      "detail": "Está literal en el abstract. La propuesta del paper es de política pública (subsidios de chatarrización), no una recomendación de consumo individual",
+      "certainty_tier": "T1",
+      "abstract_verb": "remains economically prohibitive"
+    },
+    {
+      "claim": "La clasificación carro / SUV / camioneta y la etiqueta 'híbrido' son derivadas nuestras",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Las Tablas S5–S7 no traen columna de clase: la asignamos por convención EPA y 'híbrido' sale del nombre del modelo. Útil para agrupar, no es un dato del paper (regla 54)",
+      "certainty_tier": "T4",
+      "abstract_verb": "n/a"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 160,
+      "unit": "de 210 escenarios",
+      "context": "casillas de la matriz discreta con beneficio de retiro positivo (76,2%)",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "92%",
+        "our_calculation": "76,2%",
+        "discrepancy_pct": 17.0,
+        "reason": "MÉTRICA DISTINTA: el 92% es del análisis continuo (Fig. 2A); nuestra matriz discreta incluye Puerto Rico (699 g/kWh) en un tercio de las celdas. No equiparar"
+      }
+    },
+    {
+      "value": 41,
+      "unit": "por ciento",
+      "context": "mediana del beneficio de retiro con la red promedio de EE. UU. (350 g CO2/kWh), IQR 20–56, 60/70 casillas positivas",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 54.5,
+      "unit": "por ciento",
+      "context": "mediana con la red de California (200 g/kWh); baja a 3,5% con la de Puerto Rico (699) — 51 puntos de diferencia",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 20,
+      "unit": "por ciento",
+      "context": "mediana al retirar un híbrido a 350 g/kWh, frente al 50% de los no híbridos",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -29.5,
+      "unit": "por ciento",
+      "context": "mediana al retirar un híbrido con red sucia (699 g/kWh); solo el 25% de esos casos da positivo (n=28)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 61,
+      "unit": "por ciento",
+      "context": "mediana retirando una camioneta a 350 g/kWh, frente a 41% de un SUV y 19% de un carro",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 57,
+      "unit": "por ciento",
+      "context": "mediana comprando un carro eléctrico a 350 g/kWh, frente a 25% comprando una camioneta eléctrica",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -144,
+      "unit": "por ciento",
+      "context": "peor caso de la matriz: retirar un Toyota Prius Hybrid por un Rivian R1S en Puerto Rico",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 347.5,
+      "unit": "kg CO2/MWh",
+      "context": "promedio ponderado por generación de las 27 subredes de EE. UU. (eGRID 2023)",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "348",
+        "our_calculation": "347,5",
+        "discrepancy_pct": 0.14,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 31.1,
+      "unit": "por ciento",
+      "context": "fracción de la generación de EE. UU. que sale de subredes por encima de 400 kg CO2/MWh",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "33%",
+        "our_calculation": "31,1%",
+        "discrepancy_pct": 5.8,
+        "reason": "definición del corte: con ≥395 da 34,9%"
+      }
+    },
+    {
+      "value": 723,
+      "unit": "g CO2/kWh",
+      "context": "red más limpia a la que un eléctrico empataría con su equivalente de gasolina solo en fase de uso; la peor subred del país está en 699, así que manejando el eléctrico emite menos en las 27",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 7054,
+      "unit": "km al año",
+      "context": "kilometraje anual de equilibrio para un carro (SUV 6.837, camioneta 10.794) — 34 a 54% de los 20.000 km/año de referencia",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "found ... yields consistent emissions reductions across most contexts",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa CON el alcance literal: 'en la mayoría de los contextos'. Prohibido 'siempre' o 'en todos los casos'"
+    },
+    {
+      "abstract_verb": "demonstrate (a major mitigation potential)",
+      "tier": "T1",
+      "cam_attenuator": "el objeto es un POTENCIAL de mitigación para política pública, no una reducción ya lograda"
+    },
+    {
+      "abstract_verb": "remains economically prohibitive",
+      "tier": "T1-limitación",
+      "cam_attenuator": "el freno económico lo pone el propio abstract — incluirlo, es el 'nombra lo incómodo'"
+    },
+    {
+      "abstract_verb": "evaluated / estimated (modelo)",
+      "tier": "marco",
+      "cam_attenuator": "todo resultado es CALCULADO por un modelo de ciclo de vida. Verbos: 'el modelo calcula', 'las cuentas dan'. Prohibido 'se midió', 'se comprobó en la práctica'"
+    }
+  ],
+  "narrative_hooks": [
+    "Tu carro prende, gasta lo de siempre y le quedan años. En 160 de 210 cuentas, chatarrizarlo igual emite menos.",
+    "Manejando, el eléctrico emite menos en las 27 subredes de EE. UU. Toda la discusión está en fabricar la batería.",
+    "El peor cambio posible no es comprar eléctrico: es retirar un Prius para comprar una camioneta eléctrica grande.",
+    "La misma cuenta da 54,5% en California y 3,5% en Puerto Rico. El resultado no vive en el carro, vive en el enchufe."
+  ],
+  "limitations": [
+    "Es un modelo de ciclo de vida, no una medición de carros reales: se suman inventarios de emisiones bajo supuestos declarados",
+    "Todo el análisis es de Estados Unidos — flota, red eléctrica, kilometrajes y precios. No extrapolar a Colombia ni a Latinoamérica",
+    "Las Tablas S3 y S5–S7 son imágenes dentro del PDF suplementario; la transcripción a CSV es nuestra",
+    "Si el carro se revende en vez de chatarrizarse, el beneficio se anula con un factor de desplazamiento de 81 / 65 / 42% según la red",
+    "Los autores declaran supuestos conservadores (batería a 100 kg CO2eq/kWh, sin crédito por reciclaje): su beneficio calculado es más un piso que un techo",
+    "NO es consejo de consumo: la recomendación del paper es de política pública (subsidios de chatarrización)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados como 'yes' y 12 números clave — script denso"
+  },
+  "notebook_slug": "2026-08-06-retirar-carro-gasolina",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-06-retirar-carro-gasolina/notebook.html",
+  "generated_at": "2026-08-07T00:00:00-05:00"
+}

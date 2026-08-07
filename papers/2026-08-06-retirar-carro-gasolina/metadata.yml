@@ -1,0 +1,28 @@
+titulo: "El carro que todavía sirve"
+fecha: 2026-08-06
+categoria: ecología
+tags: [clima, transporte, ciclo-de-vida, vehículos-eléctricos, emisiones, red-eléctrica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adv5441"
+    titulo: "The climate benefits of retiring a fully operational internal combustion engine vehicle"
+    journal: Science
+    autores: "Campbell y Geyer"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "beneficio_retiro_matriz.csv"
+    descripcion: "Beneficio de retiro (%) para 10 vehículos de gasolina/híbridos x 7 eléctricos x 3 redes"
+    fuente: "Supplementary Materials, Tablas S5-S7"
+  - nombre: "subredes_electricas_eeuu.csv"
+    descripcion: "27 subredes eGRID 2023: intensidad de carbono y generación neta"
+    fuente: "Supplementary Materials, Tabla S3"
+  - nombre: "eficiencias_referencia.csv"
+    descripcion: "Emisiones de uso y consumo eléctrico por clase y categoría de vehículo"
+    fuente: "Supplementary Materials, Tablas S1-S2"
+  - nombre: "umbral_kilometraje_anual.csv"
+    descripcion: "Kilometraje anual de equilibrio por clase de vehículo"
+    fuente: "Texto del paper, sección Mileage thresholds"
+estado: publicado

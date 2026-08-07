@@ -1,0 +1,211 @@
+vehiculo_ice,vehiculo_bev,red_g_kwh,red_nombre,beneficio_pct,clase_ice,clase_bev,ice_es_hibrido
+Toyota Prius Hybrid,Tesla Model 3,200,California,35,Carro,Carro,1
+Toyota Prius Hybrid,Chevrolet Bolt EUV,200,California,34,Carro,Carro,1
+Toyota Prius Hybrid,Ford Mustang Mach-E,200,California,20,Carro,SUV,1
+Toyota Prius Hybrid,Tesla Model Y,200,California,32,Carro,SUV,1
+Toyota Prius Hybrid,Rivian R1S,200,California,-16,Carro,SUV,1
+Toyota Prius Hybrid,Ford F-150 Lightning,200,California,-13,Carro,Camioneta,1
+Toyota Prius Hybrid,Rivian R1T,200,California,-15,Carro,Camioneta,1
+Toyota Camry,Tesla Model 3,200,California,66,Carro,Carro,0
+Toyota Camry,Chevrolet Bolt EUV,200,California,65,Carro,Carro,0
+Toyota Camry,Ford Mustang Mach-E,200,California,57,Carro,SUV,0
+Toyota Camry,Tesla Model Y,200,California,64,Carro,SUV,0
+Toyota Camry,Rivian R1S,200,California,39,Carro,SUV,0
+Toyota Camry,Ford F-150 Lightning,200,California,40,Carro,Camioneta,0
+Toyota Camry,Rivian R1T,200,California,39,Carro,Camioneta,0
+Toyota Camry Hybrid,Tesla Model 3,200,California,43,Carro,Carro,1
+Toyota Camry Hybrid,Chevrolet Bolt EUV,200,California,41,Carro,Carro,1
+Toyota Camry Hybrid,Ford Mustang Mach-E,200,California,29,Carro,SUV,1
+Toyota Camry Hybrid,Tesla Model Y,200,California,39,Carro,SUV,1
+Toyota Camry Hybrid,Rivian R1S,200,California,-3,Carro,SUV,1
+Toyota Camry Hybrid,Ford F-150 Lightning,200,California,0,Carro,Camioneta,1
+Toyota Camry Hybrid,Rivian R1T,200,California,-3,Carro,Camioneta,1
+Honda Civic,Tesla Model 3,200,California,60,Carro,Carro,0
+Honda Civic,Chevrolet Bolt EUV,200,California,60,Carro,Carro,0
+Honda Civic,Ford Mustang Mach-E,200,California,51,Carro,SUV,0
+Honda Civic,Tesla Model Y,200,California,58,Carro,SUV,0
+Honda Civic,Rivian R1S,200,California,29,Carro,SUV,0
+Honda Civic,Ford F-150 Lightning,200,California,31,Carro,Camioneta,0
+Honda Civic,Rivian R1T,200,California,29,Carro,Camioneta,0
+Chevrolet Equinox,Tesla Model 3,200,California,69,SUV,Carro,0
+Chevrolet Equinox,Chevrolet Bolt EUV,200,California,68,SUV,Carro,0
+Chevrolet Equinox,Ford Mustang Mach-E,200,California,61,SUV,SUV,0
+Chevrolet Equinox,Tesla Model Y,200,California,67,SUV,SUV,0
+Chevrolet Equinox,Rivian R1S,200,California,44,SUV,SUV,0
+Chevrolet Equinox,Ford F-150 Lightning,200,California,46,SUV,Camioneta,0
+Chevrolet Equinox,Rivian R1T,200,California,44,SUV,Camioneta,0
+Toyota RAV4,Tesla Model 3,200,California,69,SUV,Carro,0
+Toyota RAV4,Chevrolet Bolt EUV,200,California,69,SUV,Carro,0
+Toyota RAV4,Ford Mustang Mach-E,200,California,62,SUV,SUV,0
+Toyota RAV4,Tesla Model Y,200,California,67,SUV,SUV,0
+Toyota RAV4,Rivian R1S,200,California,45,SUV,SUV,0
+Toyota RAV4,Ford F-150 Lightning,200,California,46,SUV,Camioneta,0
+Toyota RAV4,Rivian R1T,200,California,45,SUV,Camioneta,0
+Toyota RAV4 Hybrid,Tesla Model 3,200,California,56,SUV,Carro,1
+Toyota RAV4 Hybrid,Chevrolet Bolt EUV,200,California,55,SUV,Carro,1
+Toyota RAV4 Hybrid,Ford Mustang Mach-E,200,California,45,SUV,SUV,1
+Toyota RAV4 Hybrid,Tesla Model Y,200,California,54,SUV,SUV,1
+Toyota RAV4 Hybrid,Rivian R1S,200,California,21,SUV,SUV,1
+Toyota RAV4 Hybrid,Ford F-150 Lightning,200,California,23,SUV,Camioneta,1
+Toyota RAV4 Hybrid,Rivian R1T,200,California,22,SUV,Camioneta,1
+Ford F-150,Tesla Model 3,200,California,76,Camioneta,Carro,0
+Ford F-150,Chevrolet Bolt EUV,200,California,76,Camioneta,Carro,0
+Ford F-150,Ford Mustang Mach-E,200,California,70,Camioneta,SUV,0
+Ford F-150,Tesla Model Y,200,California,75,Camioneta,SUV,0
+Ford F-150,Rivian R1S,200,California,57,Camioneta,SUV,0
+Ford F-150,Ford F-150 Lightning,200,California,58,Camioneta,Camioneta,0
+Ford F-150,Rivian R1T,200,California,57,Camioneta,Camioneta,0
+Ford F-150 Hybrid,Tesla Model 3,200,California,72,Camioneta,Carro,1
+Ford F-150 Hybrid,Chevrolet Bolt EUV,200,California,71,Camioneta,Carro,1
+Ford F-150 Hybrid,Ford Mustang Mach-E,200,California,65,Camioneta,SUV,1
+Ford F-150 Hybrid,Tesla Model Y,200,California,70,Camioneta,SUV,1
+Ford F-150 Hybrid,Rivian R1S,200,California,49,Camioneta,SUV,1
+Ford F-150 Hybrid,Ford F-150 Lightning,200,California,51,Camioneta,Camioneta,1
+Ford F-150 Hybrid,Rivian R1T,200,California,50,Camioneta,Camioneta,1
+Chevy Silverado,Tesla Model 3,200,California,80,Camioneta,Carro,0
+Chevy Silverado,Chevrolet Bolt EUV,200,California,80,Camioneta,Carro,0
+Chevy Silverado,Ford Mustang Mach-E,200,California,75,Camioneta,SUV,0
+Chevy Silverado,Tesla Model Y,200,California,79,Camioneta,SUV,0
+Chevy Silverado,Rivian R1S,200,California,64,Camioneta,SUV,0
+Chevy Silverado,Ford F-150 Lightning,200,California,65,Camioneta,Camioneta,0
+Chevy Silverado,Rivian R1T,200,California,64,Camioneta,Camioneta,0
+Toyota Prius Hybrid,Tesla Model 3,350,Media EEUU,18,Carro,Carro,1
+Toyota Prius Hybrid,Chevrolet Bolt EUV,350,Media EEUU,13,Carro,Carro,1
+Toyota Prius Hybrid,Ford Mustang Mach-E,350,Media EEUU,-5,Carro,SUV,1
+Toyota Prius Hybrid,Tesla Model Y,350,Media EEUU,13,Carro,SUV,1
+Toyota Prius Hybrid,Rivian R1S,350,Media EEUU,-50,Carro,SUV,1
+Toyota Prius Hybrid,Ford F-150 Lightning,350,Media EEUU,-47,Carro,Camioneta,1
+Toyota Prius Hybrid,Rivian R1T,350,Media EEUU,-50,Carro,Camioneta,1
+Toyota Camry,Tesla Model 3,350,Media EEUU,56,Carro,Carro,0
+Toyota Camry,Chevrolet Bolt EUV,350,Media EEUU,54,Carro,Carro,0
+Toyota Camry,Ford Mustang Mach-E,350,Media EEUU,44,Carro,SUV,0
+Toyota Camry,Tesla Model Y,350,Media EEUU,54,Carro,SUV,0
+Toyota Camry,Rivian R1S,350,Media EEUU,20,Carro,SUV,0
+Toyota Camry,Ford F-150 Lightning,350,Media EEUU,22,Carro,Camioneta,0
+Toyota Camry,Rivian R1T,350,Media EEUU,21,Carro,Camioneta,0
+Toyota Camry Hybrid,Tesla Model 3,350,Media EEUU,27,Carro,Carro,1
+Toyota Camry Hybrid,Chevrolet Bolt EUV,350,Media EEUU,22,Carro,Carro,1
+Toyota Camry Hybrid,Ford Mustang Mach-E,350,Media EEUU,7,Carro,SUV,1
+Toyota Camry Hybrid,Tesla Model Y,350,Media EEUU,22,Carro,SUV,1
+Toyota Camry Hybrid,Rivian R1S,350,Media EEUU,-33,Carro,SUV,1
+Toyota Camry Hybrid,Ford F-150 Lightning,350,Media EEUU,-30,Carro,Camioneta,1
+Toyota Camry Hybrid,Rivian R1T,350,Media EEUU,-33,Carro,Camioneta,1
+Honda Civic,Tesla Model 3,350,Media EEUU,50,Carro,Carro,0
+Honda Civic,Chevrolet Bolt EUV,350,Media EEUU,46,Carro,Carro,0
+Honda Civic,Ford Mustang Mach-E,350,Media EEUU,36,Carro,SUV,0
+Honda Civic,Tesla Model Y,350,Media EEUU,47,Carro,SUV,0
+Honda Civic,Rivian R1S,350,Media EEUU,8,Carro,SUV,0
+Honda Civic,Ford F-150 Lightning,350,Media EEUU,10,Carro,Camioneta,0
+Honda Civic,Rivian R1T,350,Media EEUU,8,Carro,Camioneta,0
+Chevrolet Equinox,Tesla Model 3,350,Media EEUU,61,SUV,Carro,0
+Chevrolet Equinox,Chevrolet Bolt EUV,350,Media EEUU,58,SUV,Carro,0
+Chevrolet Equinox,Ford Mustang Mach-E,350,Media EEUU,49,SUV,SUV,0
+Chevrolet Equinox,Tesla Model Y,350,Media EEUU,58,SUV,SUV,0
+Chevrolet Equinox,Rivian R1S,350,Media EEUU,28,SUV,SUV,0
+Chevrolet Equinox,Ford F-150 Lightning,350,Media EEUU,29,SUV,Camioneta,0
+Chevrolet Equinox,Rivian R1T,350,Media EEUU,28,SUV,Camioneta,0
+Toyota RAV4,Tesla Model 3,350,Media EEUU,61,SUV,Carro,0
+Toyota RAV4,Chevrolet Bolt EUV,350,Media EEUU,58,SUV,Carro,0
+Toyota RAV4,Ford Mustang Mach-E,350,Media EEUU,50,SUV,SUV,0
+Toyota RAV4,Tesla Model Y,350,Media EEUU,58,SUV,SUV,0
+Toyota RAV4,Rivian R1S,350,Media EEUU,28,SUV,SUV,0
+Toyota RAV4,Ford F-150 Lightning,350,Media EEUU,30,SUV,Camioneta,0
+Toyota RAV4,Rivian R1T,350,Media EEUU,29,SUV,Camioneta,0
+Toyota RAV4 Hybrid,Tesla Model 3,350,Media EEUU,44,SUV,Carro,1
+Toyota RAV4 Hybrid,Chevrolet Bolt EUV,350,Media EEUU,41,SUV,Carro,1
+Toyota RAV4 Hybrid,Ford Mustang Mach-E,350,Media EEUU,29,SUV,SUV,1
+Toyota RAV4 Hybrid,Tesla Model Y,350,Media EEUU,41,SUV,SUV,1
+Toyota RAV4 Hybrid,Rivian R1S,350,Media EEUU,-2,SUV,SUV,1
+Toyota RAV4 Hybrid,Ford F-150 Lightning,350,Media EEUU,0,SUV,Camioneta,1
+Toyota RAV4 Hybrid,Rivian R1T,350,Media EEUU,-2,SUV,Camioneta,1
+Ford F-150,Tesla Model 3,350,Media EEUU,70,Camioneta,Carro,0
+Ford F-150,Chevrolet Bolt EUV,350,Media EEUU,68,Camioneta,Carro,0
+Ford F-150,Ford Mustang Mach-E,350,Media EEUU,61,Camioneta,SUV,0
+Ford F-150,Tesla Model Y,350,Media EEUU,68,Camioneta,SUV,0
+Ford F-150,Rivian R1S,350,Media EEUU,44,Camioneta,SUV,0
+Ford F-150,Ford F-150 Lightning,350,Media EEUU,46,Camioneta,Camioneta,0
+Ford F-150,Rivian R1T,350,Media EEUU,44,Camioneta,Camioneta,0
+Ford F-150 Hybrid,Tesla Model 3,350,Media EEUU,64,Camioneta,Carro,1
+Ford F-150 Hybrid,Chevrolet Bolt EUV,350,Media EEUU,62,Camioneta,Carro,1
+Ford F-150 Hybrid,Ford Mustang Mach-E,350,Media EEUU,54,Camioneta,SUV,1
+Ford F-150 Hybrid,Tesla Model Y,350,Media EEUU,62,Camioneta,SUV,1
+Ford F-150 Hybrid,Rivian R1S,350,Media EEUU,34,Camioneta,SUV,1
+Ford F-150 Hybrid,Ford F-150 Lightning,350,Media EEUU,36,Camioneta,Camioneta,1
+Ford F-150 Hybrid,Rivian R1T,350,Media EEUU,35,Camioneta,Camioneta,1
+Chevy Silverado,Tesla Model 3,350,Media EEUU,75,Camioneta,Carro,0
+Chevy Silverado,Chevrolet Bolt EUV,350,Media EEUU,73,Camioneta,Carro,0
+Chevy Silverado,Ford Mustang Mach-E,350,Media EEUU,68,Camioneta,SUV,0
+Chevy Silverado,Tesla Model Y,350,Media EEUU,73,Camioneta,SUV,0
+Chevy Silverado,Rivian R1S,350,Media EEUU,54,Camioneta,SUV,0
+Chevy Silverado,Ford F-150 Lightning,350,Media EEUU,55,Camioneta,Camioneta,0
+Chevy Silverado,Rivian R1T,350,Media EEUU,54,Camioneta,Camioneta,0
+Toyota Prius Hybrid,Tesla Model 3,699,Puerto Rico,-30,Carro,Carro,1
+Toyota Prius Hybrid,Chevrolet Bolt EUV,699,Puerto Rico,-45,Carro,Carro,1
+Toyota Prius Hybrid,Ford Mustang Mach-E,699,Puerto Rico,-72,Carro,SUV,1
+Toyota Prius Hybrid,Tesla Model Y,699,Puerto Rico,-40,Carro,SUV,1
+Toyota Prius Hybrid,Rivian R1S,699,Puerto Rico,-144,Carro,SUV,1
+Toyota Prius Hybrid,Ford F-150 Lightning,699,Puerto Rico,-139,Carro,Camioneta,1
+Toyota Prius Hybrid,Rivian R1T,699,Puerto Rico,-142,Carro,Camioneta,1
+Toyota Camry,Tesla Model 3,699,Puerto Rico,31,Carro,Carro,0
+Toyota Camry,Chevrolet Bolt EUV,699,Puerto Rico,23,Carro,Carro,0
+Toyota Camry,Ford Mustang Mach-E,699,Puerto Rico,9,Carro,SUV,0
+Toyota Camry,Tesla Model Y,699,Puerto Rico,26,Carro,SUV,0
+Toyota Camry,Rivian R1S,699,Puerto Rico,-30,Carro,SUV,0
+Toyota Camry,Ford F-150 Lightning,699,Puerto Rico,-27,Carro,Camioneta,0
+Toyota Camry,Rivian R1T,699,Puerto Rico,-29,Carro,Camioneta,0
+Toyota Camry Hybrid,Tesla Model 3,699,Puerto Rico,-16,Carro,Carro,1
+Toyota Camry Hybrid,Chevrolet Bolt EUV,699,Puerto Rico,-29,Carro,Carro,1
+Toyota Camry Hybrid,Ford Mustang Mach-E,699,Puerto Rico,-53,Carro,SUV,1
+Toyota Camry Hybrid,Tesla Model Y,699,Puerto Rico,-24,Carro,SUV,1
+Toyota Camry Hybrid,Rivian R1S,699,Puerto Rico,-117,Carro,SUV,1
+Toyota Camry Hybrid,Ford F-150 Lightning,699,Puerto Rico,-113,Carro,Camioneta,1
+Toyota Camry Hybrid,Rivian R1T,699,Puerto Rico,-115,Carro,Camioneta,1
+Honda Civic,Tesla Model 3,699,Puerto Rico,20,Carro,Carro,0
+Honda Civic,Chevrolet Bolt EUV,699,Puerto Rico,11,Carro,Carro,0
+Honda Civic,Ford Mustang Mach-E,699,Puerto Rico,-5,Carro,SUV,0
+Honda Civic,Tesla Model Y,699,Puerto Rico,14,Carro,SUV,0
+Honda Civic,Rivian R1S,699,Puerto Rico,-50,Carro,SUV,0
+Honda Civic,Ford F-150 Lightning,699,Puerto Rico,-46,Carro,Camioneta,0
+Honda Civic,Rivian R1T,699,Puerto Rico,-48,Carro,Camioneta,0
+Chevrolet Equinox,Tesla Model 3,699,Puerto Rico,37,SUV,Carro,0
+Chevrolet Equinox,Chevrolet Bolt EUV,699,Puerto Rico,30,SUV,Carro,0
+Chevrolet Equinox,Ford Mustang Mach-E,699,Puerto Rico,17,SUV,SUV,0
+Chevrolet Equinox,Tesla Model Y,699,Puerto Rico,33,SUV,SUV,0
+Chevrolet Equinox,Rivian R1S,699,Puerto Rico,-18,SUV,SUV,0
+Chevrolet Equinox,Ford F-150 Lightning,699,Puerto Rico,-15,SUV,Camioneta,0
+Chevrolet Equinox,Rivian R1T,699,Puerto Rico,-17,SUV,Camioneta,0
+Toyota RAV4,Tesla Model 3,699,Puerto Rico,38,SUV,Carro,0
+Toyota RAV4,Chevrolet Bolt EUV,699,Puerto Rico,31,SUV,Carro,0
+Toyota RAV4,Ford Mustang Mach-E,699,Puerto Rico,18,SUV,SUV,0
+Toyota RAV4,Tesla Model Y,699,Puerto Rico,33,SUV,SUV,0
+Toyota RAV4,Rivian R1S,699,Puerto Rico,-17,SUV,SUV,0
+Toyota RAV4,Ford F-150 Lightning,699,Puerto Rico,-14,SUV,Camioneta,0
+Toyota RAV4,Rivian R1T,699,Puerto Rico,-16,SUV,Camioneta,0
+Toyota RAV4 Hybrid,Tesla Model 3,699,Puerto Rico,12,SUV,Carro,1
+Toyota RAV4 Hybrid,Chevrolet Bolt EUV,699,Puerto Rico,2,SUV,Carro,1
+Toyota RAV4 Hybrid,Ford Mustang Mach-E,699,Puerto Rico,-17,SUV,SUV,1
+Toyota RAV4 Hybrid,Tesla Model Y,699,Puerto Rico,5,SUV,SUV,1
+Toyota RAV4 Hybrid,Rivian R1S,699,Puerto Rico,-66,SUV,SUV,1
+Toyota RAV4 Hybrid,Ford F-150 Lightning,699,Puerto Rico,-62,SUV,Camioneta,1
+Toyota RAV4 Hybrid,Rivian R1T,699,Puerto Rico,-65,SUV,Camioneta,1
+Ford F-150,Tesla Model 3,699,Puerto Rico,52,Camioneta,Carro,0
+Ford F-150,Chevrolet Bolt EUV,699,Puerto Rico,46,Camioneta,Carro,0
+Ford F-150,Ford Mustang Mach-E,699,Puerto Rico,36,Camioneta,SUV,0
+Ford F-150,Tesla Model Y,699,Puerto Rico,48,Camioneta,SUV,0
+Ford F-150,Rivian R1S,699,Puerto Rico,9,Camioneta,SUV,0
+Ford F-150,Ford F-150 Lightning,699,Puerto Rico,11,Camioneta,Camioneta,0
+Ford F-150,Rivian R1T,699,Puerto Rico,10,Camioneta,Camioneta,0
+Ford F-150 Hybrid,Tesla Model 3,699,Puerto Rico,43,Camioneta,Carro,1
+Ford F-150 Hybrid,Chevrolet Bolt EUV,699,Puerto Rico,37,Camioneta,Carro,1
+Ford F-150 Hybrid,Ford Mustang Mach-E,699,Puerto Rico,25,Camioneta,SUV,1
+Ford F-150 Hybrid,Tesla Model Y,699,Puerto Rico,39,Camioneta,SUV,1
+Ford F-150 Hybrid,Rivian R1S,699,Puerto Rico,-7,Camioneta,SUV,1
+Ford F-150 Hybrid,Ford F-150 Lightning,699,Puerto Rico,-5,Camioneta,Camioneta,1
+Ford F-150 Hybrid,Rivian R1T,699,Puerto Rico,-6,Camioneta,Camioneta,1
+Chevy Silverado,Tesla Model 3,699,Puerto Rico,60,Camioneta,Carro,0
+Chevy Silverado,Chevrolet Bolt EUV,699,Puerto Rico,55,Camioneta,Carro,0
+Chevy Silverado,Ford Mustang Mach-E,699,Puerto Rico,47,Camioneta,SUV,0
+Chevy Silverado,Tesla Model Y,699,Puerto Rico,57,Camioneta,SUV,0
+Chevy Silverado,Rivian R1S,699,Puerto Rico,25,Camioneta,SUV,0
+Chevy Silverado,Ford F-150 Lightning,699,Puerto Rico,26,Camioneta,Camioneta,0
+Chevy Silverado,Rivian R1T,699,Puerto Rico,25,Camioneta,Camioneta,0

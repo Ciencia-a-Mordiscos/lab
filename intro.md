@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### [El carro que todavía sirve](papers/2026-08-06-retirar-carro-gasolina/README.md)
+
+**Ecología** · *Science* (2026) · Tu carro prende, gasta lo de siempre y le quedan años. Cambiarlo por uno eléctrico suena a desperdicio: la batería nueva llega con emisiones de fábrica que el que ya tienes dejó pagadas. Un equipo hizo la cuenta de ciclo de vida para **210 combinaciones** de vehículo retirado, eléctrico de reemplazo y red eléctrica. **El hallazgo:** en **160 de las 210** (76,2%) chatarrizar el carro que todavía funciona emite menos — pero el resultado no vive en el carro, vive en el enchufe: la mediana pasa de **54,5%** en California a **41%** con el promedio de EE. UU. y a **3,5%** en Puerto Rico. Un detalle que se ve en los datos: manejando, el eléctrico emite menos en **las 27 subredes** del país (la peor empataría a 723 g CO₂/kWh y está en 699) — toda la discusión está en fabricar la batería. ⚠️ El bloque rojo son los **híbridos**: retirar uno deja mediana **20%** frente al 50% de los que no lo son, y con red sucia cae a **−29,5%**. ⚠️ El **92%** que cita el paper sale de su análisis continuo, no de estas tablas: nuestra matriz discreta da 76,2%. No son la misma métrica. ⚠️ Es un **modelo** de ciclo de vida, no una medición, y todo es Estados Unidos. Su propuesta es de **política pública** — el propio resumen dice que hoy chatarrizar sigue siendo económicamente prohibitivo para el dueño.
+
+[Ver notebook](papers/2026-08-06-retirar-carro-gasolina/notebook) · [Leer más](papers/2026-08-06-retirar-carro-gasolina/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-06-retirar-carro-gasolina/notebook.ipynb)
+
 ### [El pronóstico de huracanes ganó 23 horas en una década](papers/2026-08-06-ciclones-tropicales-ia/README.md)
 
 Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día o más. Reconstruimos la vara: una década entera de progreso del centro de huracanes de EE. UU. compró 22,9 horas.

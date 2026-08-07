@@ -1,0 +1,25 @@
+clase,categoria,tren,modelo,emisiones_g_km,consumo_kwh_100km
+Carro,Alta eficiencia,ICE/HEV,Toyota Prius,117,
+SUV,Alta eficiencia,ICE/HEV,Kia Niro HEV,126,
+Camioneta,Alta eficiencia,ICE/HEV,Ford Maverick HEV,175,
+Carro,Baja eficiencia,ICE/HEV,Ford Mustang,548,
+SUV,Baja eficiencia,ICE/HEV,Mercedes-Benz G,598,
+Camioneta,Baja eficiencia,ICE/HEV,Ford F-150 Raptor,555,
+Carro,Más vendido,ICE/HEV,Toyota Camry,174,
+SUV,Más vendido,ICE/HEV,Toyota RAV4,179,
+Camioneta,Más vendido,ICE/HEV,Ford F-150 ICEV,249,
+Carro,Media ponderada,ICE/HEV,,193,
+SUV,Media ponderada,ICE/HEV,,231,
+Camioneta,Media ponderada,ICE/HEV,,325,
+Carro,Alta eficiencia,BEV,Lucid Air,,14.4
+SUV,Alta eficiencia,BEV,Tesla Model Y,,14.9
+Camioneta,Alta eficiencia,BEV,Ford F-150,,24.2
+Carro,Baja eficiencia,BEV,Mercedes-Benz EQE,,30.0
+SUV,Baja eficiencia,BEV,GMC Hummer SUV,,44.7
+Camioneta,Baja eficiencia,BEV,GMC Hummer Truck,,44.7
+Carro,Más vendido,BEV,Tesla Model 3,,15.1
+SUV,Más vendido,BEV,Tesla Model Y,,16.4
+Camioneta,Más vendido,BEV,Ford F-150,,29.0
+Carro,Media ponderada,BEV,,,16.6
+SUV,Media ponderada,BEV,,,17.8
+Camioneta,Media ponderada,BEV,,,29.0

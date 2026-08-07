@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-08-06-retirar-carro-gasolina/README
+    title: "El carro que todavía sirve"
+    sections:
+    - file: papers/2026-08-06-retirar-carro-gasolina/notebook
+      title: Notebook
   - file: papers/2026-08-06-mariposas-desplazamientos-clima/README
     title: "1.758 mariposas que cambiaron de sitio"
     sections:
