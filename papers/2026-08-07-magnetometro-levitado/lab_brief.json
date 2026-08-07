@@ -1,0 +1,159 @@
+{
+  "version": "1.0",
+  "paper_id": 2847,
+  "doi": "10.1126/science.adx1707",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Alcanzaron una sensibilidad de 32 fT/√Hz",
+      "supported": "yes",
+      "detail": "El mínimo del espectro depositado es 32,94 fT/√Hz a 304,84 Hz; la media de 5 repeticiones ahí es 30,31 ± 2,43 y el 32 del paper cae dentro de la banda.",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El magnetómetro funciona a temperatura ambiente y bajo el campo magnético de la Tierra",
+      "supported": "partial",
+      "detail": "Lo declara el resumen del paper, pero ninguno de los cinco CSV depositados trae temperatura ni campo de fondo: no es verificable con estos datos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Iguala la sensibilidad de los SQUID y de los magnetómetros atómicos, pero solo en su resonancia",
+      "supported": "partial",
+      "detail": "El pico contiguo bajo 100 fT/√Hz alrededor del récord mide 0,04 Hz (4 puntos, 304,82–304,85 Hz) y un solo punto baja de 40 fT/√Hz. Los SQUID y los atómicos operan en banda ancha.",
+      "certainty_tier": "T2",
+      "abstract_verb": "matching the performance of",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El sensor es compatible con un piso de ruido Johnson, pero los datos no lo confirman",
+      "supported": "partial",
+      "detail": "La cota Johnson (32,0 fT/√Hz) queda pegada al total medido (32,94) y la detección óptica aporta 1,39 — 24 veces menos. Pero ese 32,0 es constante en todo el archivo, no un espectro medido.",
+      "certainty_tier": "T2",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El presupuesto de ruido no cierra: la suma en cuadratura supera al total medido",
+      "supported": "no",
+      "detail": "La suma en cuadratura de los cinco componentes da 39,49 fT/√Hz, por encima del total medido de 32,94. Son estimaciones independientes y algunas son cotas teóricas.",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las aplicaciones en biología y química son una proyección de los autores, no un resultado medido",
+      "supported": "partial",
+      "detail": "El resumen del paper las enuncia como potencial. No hay ninguna medición biológica ni química en los datos depositados.",
+      "certainty_tier": "T2",
+      "abstract_verb": "adequate for",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 32.94,
+      "unit": "fT/√Hz",
+      "context": "mínimo del espectro depositado, a 304,84 Hz",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "32",
+        "our_calculation": "32,94",
+        "discrepancy_pct": 2.9,
+        "reason": "el paper redondea; 32,94 es el mínimo del espectro único depositado"
+      }
+    },
+    {
+      "value": 30.31,
+      "unit": "fT/√Hz",
+      "context": "media de las 5 repeticiones en 304,84 Hz, error estándar ± 2,43",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.04,
+      "unit": "Hz",
+      "context": "ancho contiguo del pico por debajo de 100 fT/√Hz alrededor del récord (304,82–304,85 Hz)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 14317,
+      "unit": "veces",
+      "context": "cuánto peor mide el sensor a 1,25 Hz (471.559 fT/√Hz) que en su resonancia",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1.39,
+      "unit": "fT/√Hz",
+      "context": "ruido de la detección óptica en resonancia — 24 veces por debajo del total medido",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 39.49,
+      "unit": "fT/√Hz",
+      "context": "suma en cuadratura de los cinco componentes de ruido; supera al total medido de 32,94",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1117,
+      "unit": "veces",
+      "context": "cuánto por debajo de la mediana de las 2.399 ventanas (36.783 fT/√Hz) cae el récord",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: demostraron, construyeron"
+    },
+    {
+      "abstract_verb": "achieved",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: alcanzaron, lograron"
+    },
+    {
+      "abstract_verb": "matching the performance of",
+      "tier": "T2",
+      "cam_attenuator": "iguala a los SQUID EN SU FRECUENCIA DE RESONANCIA — el alcance es obligatorio"
+    },
+    {
+      "abstract_verb": "adequate for a wide range of applications",
+      "tier": "T2",
+      "cam_attenuator": "los autores plantean que servirá para..."
+    }
+  ],
+  "narrative_hooks": [
+    "32 femtoteslas: mil millones de veces por debajo del campo de la Tierra, medido por un imán que flota en el aire y sin frío.",
+    "El récord existe en una rebanada de 0,04 Hz de ancho. A 1 Hz el mismo sensor es 14.317 veces peor.",
+    "El láser no es el límite: lee 24 veces más fino que el mayor de los ruidos estimados.",
+    "El presupuesto de ruido no cierra — la suma de las partes (39,49) supera al total medido (32,94)."
+  ],
+  "limitations": [
+    "Es un sensor resonante de banda estrecha: el récord vive en un pico de 0,04 Hz alrededor de 304,84 Hz.",
+    "El factor de calidad Q no es calculable: el pico ocupa 1-2 puntos de 0,01 Hz, no está resuelto.",
+    "Cinco repeticiones son pocas; los valores individuales en la resonancia van de 24,5 a 38,8 fT/√Hz.",
+    "Dos componentes del presupuesto de ruido (Johnson 32,0 y aire 20,0) son constantes en el archivo: cotas estimadas, no espectros medidos.",
+    "El pico de la curva de respuesta (304,27 Hz) y el mínimo del espectro de sensibilidad (304,84 Hz) no coinciden: son registros distintos.",
+    "Los acrónimos CP y NCP de los datos no se pueden expandir: el paper está tras muro de pago y no hay preprint público."
+  ],
+  "suggested_word_range": {
+    "min": 150,
+    "max": 190,
+    "reason": "1 claim verificado como yes, 4 parciales con alcance obligatorio y 7 números clave: el script necesita espacio para el alcance, no para más datos"
+  },
+  "notebook_slug": "2026-08-07-magnetometro-levitado",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-07-magnetometro-levitado/notebook.html",
+  "generated_at": "2026-08-07T18:36:39"
+}

@@ -929,6 +929,11 @@ parts:
       title: Notebook
 - caption: Física
   chapters:
+  - file: papers/2026-08-07-magnetometro-levitado/README
+    title: "Un imán flotando midió 32 femtoteslas"
+    sections:
+    - file: papers/2026-08-07-magnetometro-levitado/notebook
+      title: Notebook
   - file: papers/2026-07-09-verificacion-tratado-espacial-neutrones/README
     title: "Verificar el tratado espacial con protones cósmicos"
     sections:

@@ -1,0 +1,31 @@
+titulo: "Un imán flotando midió 32 femtoteslas — pero solo en una nota"
+fecha: 2026-08-07
+categoria: física
+tags: [magnetometría, levitación, sensores, ruido-johnson, resonancia, instrumentación]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adx1707"
+    titulo: "Levitated sensor for magnetometry in ambient environment"
+    journal: Science
+    autores: "Ji et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "sensibilidad_banda_completa.csv"
+    descripcion: "Sensibilidad de 1 a 1.200 Hz, envolvente por ventana de 0,5 Hz"
+    fuente: "Zenodo 10.5281/zenodo.19631231"
+  - nombre: "presupuesto_ruido_zoom.csv"
+    descripcion: "Presupuesto de ruido de 303,5 a 306,0 Hz a 0,01 Hz de resolución"
+    fuente: "Zenodo 10.5281/zenodo.19631231"
+  - nombre: "espectros_repeticiones.csv"
+    descripcion: "Cinco espectros repetidos, media y banda de incertidumbre"
+    fuente: "Zenodo 10.5281/zenodo.19631231"
+  - nombre: "curva_respuesta_medida.csv"
+    descripcion: "13 puntos de respuesta con barra de error"
+    fuente: "Zenodo 10.5281/zenodo.19631231"
+  - nombre: "respuesta_campo_guia.csv"
+    descripcion: "6 puntos de respuesta para dos campos guía"
+    fuente: "Zenodo 10.5281/zenodo.19631231"
+estado: publicado
