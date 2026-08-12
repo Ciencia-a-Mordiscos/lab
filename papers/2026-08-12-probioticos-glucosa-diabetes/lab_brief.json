@@ -1,0 +1,220 @@
+{
+  "version": "1.0",
+  "paper_id": 2854,
+  "doi": "10.1038/s41586-026-10909-6",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "El sensor tiene umbral: casi mudo hasta 5 mM, se dispara a 10 mM",
+      "supported": "yes",
+      "detail": "Salto de 9,9x entre 5 y 10 mM (0,299 -> 2,951). d de Cohen = 6,33; t p = 0,0015. Spearman rho = 0,916, p = 5,6e-09, n = 21",
+      "certainty_tier": "T1",
+      "abstract_verb": "created",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 6.33,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La respuesta satura: mas azucar ya no da mas senal",
+      "supported": "yes",
+      "detail": "Meseta en 5,63 desde 15 mM; 25 mM (5,37) no supera a 20 mM (5,99)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El circuito se apaga y vuelve a encenderse",
+      "supported": "partial",
+      "detail": "Las dos secuencias van en espejo (rho = -0,699, p = 0,0114) y ninguna se queda en su maximo. El pie de figura esta tras paywall: no se puede verificar que hora llevaba glucosa, asi que no se afirma el cronograma",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El azucar real sube la glucemia del raton; el edulcorante no",
+      "supported": "yes",
+      "detail": "Cola +6,27 mM a los 15 min (d = 6,11; p = 0,0022). Cola dietetica +0,43 mM, no separable del control (p = 0,1275). Chocolate +4,17 mM (d = 2,74). n = 6 por grupo",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 6.11,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El probiotico baja la glucosa en ayunas de los monos un 30,3%",
+      "supported": "yes",
+      "detail": "15,16 -> 10,57 mM (-4,59 mM). d pareado = 2,58; t pareado p = 0,0045 (calculo propio: la Tabla S16 no lista test para este panel). Wilcoxon p = 0,0625, el minimo posible con n = 5. Los 5 de 5 bajan",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating",
+      "effect_size": {
+        "measure": "cohen_d_pareado",
+        "value": 2.58,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El tratamiento NO normaliza la glucosa de los monos",
+      "supported": "no",
+      "detail": "Terminan en 10,57 mM frente a 5,07 mM de los no diabeticos: quedan 5,50 mM por encima. Cierran en promedio el 44,5% de su distancia al valor sano (rango 24,0%-58,8%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los monos manejan mejor una carga de azucar tras el tratamiento",
+      "supported": "yes",
+      "detail": "Area bajo la curva 3.649 -> 2.665 (-27,0%). d pareado = 1,94; t pareado p = 0,0123, identico al que reporta el paper en la Tabla S16 (Fig. 5j). Pico 22,22 -> 16,84 mM. Uno de los cinco monos apenas baja (-4%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrating",
+      "effect_size": {
+        "measure": "cohen_d_pareado",
+        "value": 1.94,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Nada de esto se ha probado en personas",
+      "supported": "no",
+      "detail": "El paper no incluye ensayos humanos. La limitacion esta en su propio titulo: in mice and monkeys",
+      "certainty_tier": "T2",
+      "abstract_verb": "in mice and monkeys",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9.9,
+      "unit": "veces",
+      "context": "salto de senal del sensor entre 5 y 10 mM de glucosa",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 48.6,
+      "unit": "veces",
+      "context": "induccion maxima del sensor a 20 mM frente a 0 mM",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 6.27,
+      "unit": "mM",
+      "context": "subida de glucemia del raton 15 min despues de la Coca-Cola (d = 6,11)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.43,
+      "unit": "mM",
+      "context": "subida tras la Coca-Cola dietetica, no separable del control (p = 0,1275)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 30.3,
+      "unit": "por ciento",
+      "context": "caida de la glucosa en ayunas de los 5 monos tratados (15,16 -> 10,57 mM)",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "sin test listado para Fig. 5h en la Tabla S16",
+        "our_calculation": "t pareado p = 0,0045",
+        "discrepancy_pct": 0,
+        "reason": "agregacion propia (media de dias 1-34 por mono); el paper no reporta este contraste"
+      }
+    },
+    {
+      "value": 5.5,
+      "unit": "mM",
+      "context": "brecha que queda entre los monos tratados (10,57) y los no diabeticos (5,07)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 27.0,
+      "unit": "por ciento",
+      "context": "caida del area bajo la curva de glucosa, pareado, 5 de 5 monos bajan",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "two-tailed paired t-test P = 0,0123",
+        "our_calculation": "t pareado p = 0,0123",
+        "discrepancy_pct": 0,
+        "reason": "reproduce exactamente el p del paper"
+      }
+    },
+    {
+      "value": 44.5,
+      "unit": "por ciento",
+      "context": "fraccion media de la distancia al valor sano que cierra cada mono (rango 24,0-58,8)",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "developed",
+      "tier": "T1",
+      "cam_attenuator": "\"desarrollaron\" / \"construyeron\" — NUNCA \"proponen\" ni \"plantean\": lo hicieron y lo midieron"
+    },
+    {
+      "abstract_verb": "created",
+      "tier": "T1",
+      "cam_attenuator": "\"crearon\" — afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, dentro del scope ratón/mono"
+    },
+    {
+      "abstract_verb": "demonstrating",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, dentro del scope ratón/mono"
+    },
+    {
+      "abstract_verb": "enables",
+      "tier": "T1",
+      "cam_attenuator": "\"permite\" — SOLO dentro del scope probado; no extrapolar a personas"
+    },
+    {
+      "abstract_verb": "in mice and monkeys (título)",
+      "tier": "T2",
+      "cam_attenuator": "scope limitation OBLIGATORIA: \"en ratones y monos\". NUNCA \"tratamiento para la diabetes\", \"cura\", \"los pacientes\", ni ningún \"haz X\". El canal reporta lo que el estudio midió, no receta."
+    }
+  ],
+  "narrative_hooks": [
+    "Cinco monos diabeticos tomaron una bacteria modificada 34 dias: el azucar en ayunas les bajo un 30,3%. Y aun asi no volvieron a estar sanos.",
+    "No es un dial, es un interruptor: la bacteria esta casi muda hasta 5 mM y salta casi diez veces al llegar a 10.",
+    "La Coca-Cola les sube la glucemia 6,27 mM en 15 minutos. La dietetica, 0,43: indistinguible del agua con sal.",
+    "Bajaron, pero se quedaron a mitad de camino: cerraron el 44,5% de la distancia hasta un mono sano."
+  ],
+  "limitations": [
+    "n = 5 monos y n = 6 ratones por grupo. Con n = 5 el Wilcoxon bilateral no baja de p = 0,0625 por construccion.",
+    "El cuerpo del paper esta tras paywall: solo abstract, pies de figuras suplementarias, Source Data y Tabla S16.",
+    "El p = 0,0045 de la glucosa en ayunas es calculo propio; la Tabla S16 no lista test para ese panel.",
+    "Uno de los cinco monos apenas baja el area bajo la curva (-4% frente a -29% a -37% de los otros cuatro).",
+    "Se excluyo el panel de senal por alimento (ED Fig. 8f): el control muestra la senal mas alta, al reves que la glucemia, y no se resuelve sin el texto del paper.",
+    "Se excluyeron los ratones db/db y DIO: el valor 34,0 mM se repite como techo del glucometro (dato censurado).",
+    "La sigla GIFT nunca se expande en el texto accesible; no se infiere que significa.",
+    "Los datos son del propio paper, no de un repositorio independiente: reproducen, no replican."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "6 claims verificados como si y 8 numeros clave"
+  },
+  "notebook_slug": "2026-08-12-probioticos-glucosa-diabetes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-12-probioticos-glucosa-diabetes/notebook.html",
+  "generated_at": "2026-08-12T18:32:22.548230"
+}

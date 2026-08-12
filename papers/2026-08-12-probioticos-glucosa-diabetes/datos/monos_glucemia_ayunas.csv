@@ -1,0 +1,146 @@
+dia,grupo,mono,glucosa_mM
+-5,No diabeticos,1,3.9
+-5,No diabeticos,2,4.2
+-5,No diabeticos,3,5.5
+-5,No diabeticos,4,4.5
+-5,No diabeticos,5,4.5
+-5,Diabeticos sin tratar,1,16.8
+-5,Diabeticos sin tratar,2,16.5
+-5,Diabeticos sin tratar,3,15.2
+-5,Diabeticos sin tratar,4,18.4
+-5,Diabeticos sin tratar,5,12.3
+-5,Diabeticos GIFT-GLP-1,1,15.5
+-5,Diabeticos GIFT-GLP-1,2,15.3
+-5,Diabeticos GIFT-GLP-1,3,16.6
+-5,Diabeticos GIFT-GLP-1,4,13.5
+-5,Diabeticos GIFT-GLP-1,5,14.9
+-1,Diabeticos GIFT-GLP-1,1,15.7
+-1,Diabeticos GIFT-GLP-1,2,16
+-1,Diabeticos GIFT-GLP-1,3,16.3
+-1,Diabeticos GIFT-GLP-1,4,13.4
+-1,Diabeticos GIFT-GLP-1,5,15.3
+0,Diabeticos GIFT-GLP-1,1,15.6
+0,Diabeticos GIFT-GLP-1,2,15.5
+0,Diabeticos GIFT-GLP-1,3,15.6
+0,Diabeticos GIFT-GLP-1,4,13.5
+0,Diabeticos GIFT-GLP-1,5,14.7
+1,No diabeticos,1,3.5
+1,No diabeticos,2,4.6
+1,No diabeticos,3,6.8
+1,No diabeticos,4,4.4
+1,No diabeticos,5,4.6
+1,Diabeticos sin tratar,1,19.1
+1,Diabeticos sin tratar,2,13.1
+1,Diabeticos sin tratar,3,15.5
+1,Diabeticos sin tratar,4,19.3
+1,Diabeticos sin tratar,5,12.2
+1,Diabeticos GIFT-GLP-1,1,12.6
+1,Diabeticos GIFT-GLP-1,2,10.5
+1,Diabeticos GIFT-GLP-1,3,9
+1,Diabeticos GIFT-GLP-1,4,12
+1,Diabeticos GIFT-GLP-1,5,8.2
+4,Diabeticos GIFT-GLP-1,1,12.2
+4,Diabeticos GIFT-GLP-1,2,10.7
+4,Diabeticos GIFT-GLP-1,3,8.8
+4,Diabeticos GIFT-GLP-1,4,12
+4,Diabeticos GIFT-GLP-1,5,7.4
+7,No diabeticos,1,3.7
+7,No diabeticos,2,4.2
+7,No diabeticos,3,7.6
+7,No diabeticos,4,4.9
+7,No diabeticos,5,5
+7,Diabeticos sin tratar,1,20
+7,Diabeticos sin tratar,2,16.9
+7,Diabeticos sin tratar,3,17.1
+7,Diabeticos sin tratar,4,19.5
+7,Diabeticos sin tratar,5,12.2
+7,Diabeticos GIFT-GLP-1,1,11.8
+7,Diabeticos GIFT-GLP-1,2,11.9
+7,Diabeticos GIFT-GLP-1,3,9.9
+7,Diabeticos GIFT-GLP-1,4,10.8
+7,Diabeticos GIFT-GLP-1,5,9.7
+10,Diabeticos GIFT-GLP-1,1,11.9
+10,Diabeticos GIFT-GLP-1,2,10.7
+10,Diabeticos GIFT-GLP-1,3,11.3
+10,Diabeticos GIFT-GLP-1,4,11.2
+10,Diabeticos GIFT-GLP-1,5,10.5
+13,No diabeticos,1,3.5
+13,No diabeticos,2,4.5
+13,No diabeticos,3,8.1
+13,No diabeticos,4,4.7
+13,No diabeticos,5,4.6
+13,Diabeticos sin tratar,1,19.5
+13,Diabeticos sin tratar,2,14.4
+13,Diabeticos sin tratar,3,15.9
+13,Diabeticos sin tratar,4,19.2
+13,Diabeticos sin tratar,5,14.1
+13,Diabeticos GIFT-GLP-1,1,12
+13,Diabeticos GIFT-GLP-1,2,8.7
+13,Diabeticos GIFT-GLP-1,3,11.4
+13,Diabeticos GIFT-GLP-1,4,10.3
+13,Diabeticos GIFT-GLP-1,5,10.1
+16,Diabeticos GIFT-GLP-1,1,12.2
+16,Diabeticos GIFT-GLP-1,2,10
+16,Diabeticos GIFT-GLP-1,3,6.7
+16,Diabeticos GIFT-GLP-1,4,12.4
+16,Diabeticos GIFT-GLP-1,5,11
+19,No diabeticos,1,4.3
+19,No diabeticos,2,4.5
+19,No diabeticos,3,7.7
+19,No diabeticos,4,4.2
+19,No diabeticos,5,4.9
+19,Diabeticos sin tratar,1,19.8
+19,Diabeticos sin tratar,2,16.3
+19,Diabeticos sin tratar,3,19.8
+19,Diabeticos sin tratar,4,18.4
+19,Diabeticos sin tratar,5,13.8
+19,Diabeticos GIFT-GLP-1,1,11.9
+19,Diabeticos GIFT-GLP-1,2,11.4
+19,Diabeticos GIFT-GLP-1,3,6
+19,Diabeticos GIFT-GLP-1,4,11.1
+19,Diabeticos GIFT-GLP-1,5,8.8
+22,Diabeticos GIFT-GLP-1,1,11.6
+22,Diabeticos GIFT-GLP-1,2,5.9
+22,Diabeticos GIFT-GLP-1,3,11.1
+22,Diabeticos GIFT-GLP-1,4,10.7
+22,Diabeticos GIFT-GLP-1,5,10.5
+25,No diabeticos,1,5
+25,No diabeticos,2,5.5
+25,No diabeticos,3,9.3
+25,No diabeticos,4,4.1
+25,No diabeticos,5,4.7
+25,Diabeticos sin tratar,1,18.1
+25,Diabeticos sin tratar,2,16.1
+25,Diabeticos sin tratar,3,16.7
+25,Diabeticos sin tratar,4,18.8
+25,Diabeticos sin tratar,5,14.1
+25,Diabeticos GIFT-GLP-1,1,12.5
+25,Diabeticos GIFT-GLP-1,2,7.7
+25,Diabeticos GIFT-GLP-1,3,10
+25,Diabeticos GIFT-GLP-1,4,12
+25,Diabeticos GIFT-GLP-1,5,11.5
+28,Diabeticos GIFT-GLP-1,1,11.7
+28,Diabeticos GIFT-GLP-1,2,12.9
+28,Diabeticos GIFT-GLP-1,3,8.5
+28,Diabeticos GIFT-GLP-1,4,11.8
+28,Diabeticos GIFT-GLP-1,5,10.3
+31,No diabeticos,1,4.5
+31,No diabeticos,2,5.2
+31,No diabeticos,3,7.4
+31,No diabeticos,4,4.4
+31,No diabeticos,5,4.6
+31,Diabeticos sin tratar,1,15.5
+31,Diabeticos sin tratar,2,18.5
+31,Diabeticos sin tratar,3,18.1
+31,Diabeticos sin tratar,4,18.2
+31,Diabeticos sin tratar,5,14.1
+31,Diabeticos GIFT-GLP-1,1,12.4
+31,Diabeticos GIFT-GLP-1,2,9.7
+31,Diabeticos GIFT-GLP-1,3,11.1
+31,Diabeticos GIFT-GLP-1,4,11.7
+31,Diabeticos GIFT-GLP-1,5,10.5
+34,Diabeticos GIFT-GLP-1,1,11
+34,Diabeticos GIFT-GLP-1,2,9.7
+34,Diabeticos GIFT-GLP-1,3,11.9
+34,Diabeticos GIFT-GLP-1,4,11.4
+34,Diabeticos GIFT-GLP-1,5,9.2

@@ -1,0 +1,61 @@
+tiempo_min,grupo,animal,glucosa_mM
+0,GIFT_GLP-1,1,10.2
+0,GIFT_GLP-1,2,10.1
+0,GIFT_GLP-1,3,10.3
+0,GIFT_GLP-1,4,10.8
+0,GIFT_GLP-1,5,9.1
+0,GIFT_GLP-1,6,11
+0,GIFT_Lux (control),1,10.8
+0,GIFT_Lux (control),2,12.7
+0,GIFT_Lux (control),3,10.2
+0,GIFT_Lux (control),4,12.6
+0,GIFT_Lux (control),5,10.8
+0,GIFT_Lux (control),6,11.1
+15,GIFT_GLP-1,1,10.6
+15,GIFT_GLP-1,2,11.9
+15,GIFT_GLP-1,3,12.8
+15,GIFT_GLP-1,4,12.4
+15,GIFT_GLP-1,5,12.1
+15,GIFT_GLP-1,6,10.2
+15,GIFT_Lux (control),1,16.3
+15,GIFT_Lux (control),2,16.1
+15,GIFT_Lux (control),3,17.3
+15,GIFT_Lux (control),4,15.3
+15,GIFT_Lux (control),5,18.6
+15,GIFT_Lux (control),6,16.9
+30,GIFT_GLP-1,1,10.6
+30,GIFT_GLP-1,2,10.4
+30,GIFT_GLP-1,3,10.7
+30,GIFT_GLP-1,4,9.2
+30,GIFT_GLP-1,5,10.3
+30,GIFT_GLP-1,6,10.5
+30,GIFT_Lux (control),1,11.2
+30,GIFT_Lux (control),2,12.5
+30,GIFT_Lux (control),3,11.7
+30,GIFT_Lux (control),4,9.9
+30,GIFT_Lux (control),5,13.3
+30,GIFT_Lux (control),6,11
+45,GIFT_GLP-1,1,8.3
+45,GIFT_GLP-1,2,8.9
+45,GIFT_GLP-1,3,10.3
+45,GIFT_GLP-1,4,10.8
+45,GIFT_GLP-1,5,11.5
+45,GIFT_GLP-1,6,11.8
+45,GIFT_Lux (control),1,13.8
+45,GIFT_Lux (control),2,10.5
+45,GIFT_Lux (control),3,10.7
+45,GIFT_Lux (control),4,11.2
+45,GIFT_Lux (control),5,13.1
+45,GIFT_Lux (control),6,11.7
+60,GIFT_GLP-1,1,11.6
+60,GIFT_GLP-1,2,9.2
+60,GIFT_GLP-1,3,10.8
+60,GIFT_GLP-1,4,10.1
+60,GIFT_GLP-1,5,11.7
+60,GIFT_GLP-1,6,10.8
+60,GIFT_Lux (control),1,11.6
+60,GIFT_Lux (control),2,11.6
+60,GIFT_Lux (control),3,12
+60,GIFT_Lux (control),4,11
+60,GIFT_Lux (control),5,13.4
+60,GIFT_Lux (control),6,12.3

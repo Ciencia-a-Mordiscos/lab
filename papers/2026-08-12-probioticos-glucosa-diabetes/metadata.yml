@@ -1,0 +1,28 @@
+titulo: "Un probiótico que solo trabaja cuando el azúcar sube"
+fecha: 2026-08-12
+categoria: medicina
+tags: [diabetes, probioticos, biologia-sintetica, glucosa, glp-1, monos, ratones]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10909-6"
+    titulo: "Glucose-responsive probiotics for glycaemic modulation in mice and monkeys"
+    journal: Nature
+    autores: "Guan et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "monos_glucemia_ayunas.csv"
+    descripcion: "Glucosa en ayunas de 3 grupos de 5 monos durante 34 días"
+    fuente: "Source Data (Fig. 5h)"
+  - nombre: "monos_auc.csv"
+    descripcion: "Área bajo la curva de glucosa, pareada, antes y después del tratamiento"
+    fuente: "Source Data (Fig. 5j)"
+  - nombre: "sensor_dosis_respuesta.csv"
+    descripcion: "Respuesta del sensor a glucosa 0-25 mM, 3 réplicas"
+    fuente: "Source Data (Fig. 1c)"
+  - nombre: "comida_real_glucemia.csv"
+    descripcion: "Glucemia de ratones tras cola, cola dietética, chocolate, pienso o control"
+    fuente: "Source Data (Extended Data Fig. 8e)"
+estado: publicado

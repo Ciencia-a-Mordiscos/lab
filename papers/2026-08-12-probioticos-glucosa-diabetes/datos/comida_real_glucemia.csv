@@ -1,0 +1,151 @@
+tiempo_min,alimento,raton,glucosa_mM
+0,Cola dietetica,1,8.4
+0,Cola dietetica,2,8.3
+0,Cola dietetica,3,9.2
+0,Cola dietetica,4,8.8
+0,Cola dietetica,5,7.8
+0,Cola dietetica,6,7.1
+0,Cola,1,8.9
+0,Cola,2,7.8
+0,Cola,3,9.2
+0,Cola,4,7.7
+0,Cola,5,9.2
+0,Cola,6,6.9
+0,PBS,1,8.6
+0,PBS,2,7.3
+0,PBS,3,8.4
+0,PBS,4,7.4
+0,PBS,5,8
+0,PBS,6,7.1
+0,Chocolate,1,8.4
+0,Chocolate,2,7.9
+0,Chocolate,3,7.6
+0,Chocolate,4,7.2
+0,Chocolate,5,8.8
+0,Chocolate,6,8.9
+0,Pienso estandar,1,7.7
+0,Pienso estandar,2,8.1
+0,Pienso estandar,3,8.1
+0,Pienso estandar,4,6.3
+0,Pienso estandar,5,7.5
+0,Pienso estandar,6,7.7
+15,Cola dietetica,1,8.2
+15,Cola dietetica,2,7.9
+15,Cola dietetica,3,7.4
+15,Cola dietetica,4,9.7
+15,Cola dietetica,5,9.3
+15,Cola dietetica,6,9.7
+15,Cola,1,14.4
+15,Cola,2,16.5
+15,Cola,3,14.9
+15,Cola,4,14.1
+15,Cola,5,12.4
+15,Cola,6,15
+15,PBS,1,7.8
+15,PBS,2,8.8
+15,PBS,3,8.7
+15,PBS,4,7.1
+15,PBS,5,6.9
+15,PBS,6,7.7
+15,Chocolate,1,8.9
+15,Chocolate,2,13.7
+15,Chocolate,3,12.9
+15,Chocolate,4,15.2
+15,Chocolate,5,11.5
+15,Chocolate,6,11.6
+15,Pienso estandar,1,8.3
+15,Pienso estandar,2,8.7
+15,Pienso estandar,3,8.7
+15,Pienso estandar,4,6.9
+15,Pienso estandar,5,8.1
+15,Pienso estandar,6,8.3
+30,Cola dietetica,1,9.7
+30,Cola dietetica,2,9.8
+30,Cola dietetica,3,8.2
+30,Cola dietetica,4,9.4
+30,Cola dietetica,5,9.4
+30,Cola dietetica,6,7.9
+30,Cola,1,10.6
+30,Cola,2,11.3
+30,Cola,3,10.9
+30,Cola,4,9.9
+30,Cola,5,10.8
+30,Cola,6,8.7
+30,PBS,1,8.1
+30,PBS,2,8.6
+30,PBS,3,6.5
+30,PBS,4,8.3
+30,PBS,5,8.7
+30,PBS,6,8.4
+30,Chocolate,1,10.6
+30,Chocolate,2,9.6
+30,Chocolate,3,12.1
+30,Chocolate,4,9.2
+30,Chocolate,5,9.3
+30,Chocolate,6,12
+30,Pienso estandar,1,8.5
+30,Pienso estandar,2,7.6
+30,Pienso estandar,3,7.2
+30,Pienso estandar,4,9
+30,Pienso estandar,5,7.5
+30,Pienso estandar,6,8.8
+45,Cola dietetica,1,8.9
+45,Cola dietetica,2,10.2
+45,Cola dietetica,3,8.9
+45,Cola dietetica,4,8.2
+45,Cola dietetica,5,9.4
+45,Cola dietetica,6,7.9
+45,Cola,1,8.9
+45,Cola,2,9.4
+45,Cola,3,8.7
+45,Cola,4,9.1
+45,Cola,5,8.3
+45,Cola,6,8.9
+45,PBS,1,7.8
+45,PBS,2,7.5
+45,PBS,3,7.2
+45,PBS,4,8.6
+45,PBS,5,9.6
+45,PBS,6,8.9
+45,Chocolate,1,10.8
+45,Chocolate,2,9.2
+45,Chocolate,3,10.3
+45,Chocolate,4,9.9
+45,Chocolate,5,10.8
+45,Chocolate,6,11.6
+45,Pienso estandar,1,9
+45,Pienso estandar,2,8.2
+45,Pienso estandar,3,9
+45,Pienso estandar,4,7.9
+45,Pienso estandar,5,7.7
+45,Pienso estandar,6,8.3
+60,Cola dietetica,1,8.9
+60,Cola dietetica,2,7.6
+60,Cola dietetica,3,9.4
+60,Cola dietetica,4,8
+60,Cola dietetica,5,7.6
+60,Cola dietetica,6,8.7
+60,Cola,1,8.7
+60,Cola,2,8.6
+60,Cola,3,9
+60,Cola,4,8.5
+60,Cola,5,9.4
+60,Cola,6,8.5
+60,PBS,1,7.8
+60,PBS,2,8.3
+60,PBS,3,7.9
+60,PBS,4,7.9
+60,PBS,5,8.8
+60,PBS,6,8.3
+60,Chocolate,1,9.4
+60,Chocolate,2,10.6
+60,Chocolate,3,9.3
+60,Chocolate,4,10
+60,Chocolate,5,9.8
+60,Chocolate,6,11.9
+60,Pienso estandar,1,8.6
+60,Pienso estandar,2,8.6
+60,Pienso estandar,3,7.6
+60,Pienso estandar,4,7.1
+60,Pienso estandar,5,8
+60,Pienso estandar,6,7.5
