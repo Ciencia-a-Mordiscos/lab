@@ -1,0 +1,211 @@
+{
+  "version": "1.0",
+  "paper_id": 2855,
+  "doi": "10.1038/s41586-026-10888-8",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "1342 es el año con más crecidas grandes y extraordinarias de los últimos 700 años",
+      "supported": "yes",
+      "detail": "Puesto #1 de 715 años con 62 series fluviales afectadas (clase 2+3) en el conteo crudo. El segundo, 1845, tiene 47.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "Las crecidas de 1341-1343 cubrieron gran parte de Europa",
+      "supported": "yes",
+      "detail": "163 registros con coordenada, de 36,1°N a 54,3°N y de 5,5°O a 29,0°E, en 15 países actuales, 113 localidades y 86 cuerpos de agua.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "Las crecidas causaron hambruna y destruyeron infraestructura",
+      "supported": "yes",
+      "detail": "391 marcas de impacto en 29 categorías: cosechas n=43, hambruna y precios del grano n=42, casas n=39, puentes n=34 (severidad media 4,53/5), víctimas mortales n=22.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show"
+    },
+    {
+      "claim": "1343 fue el tercer año del registro",
+      "supported": "partial",
+      "detail": "El paper lo sitúa en el top ten con su serie corregida por sesgo. El conteo crudo lo pone en el puesto #12 (o #4 contando solo clase 3). Ambos son correctos: miden cosas distintas.",
+      "certainty_tier": "T2",
+      "abstract_verb": "ranks"
+    },
+    {
+      "claim": "Las erupciones volcánicas y el retroceso del hielo ártico causaron la secuencia de crecidas",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como causa plausible y añade que los modelos climáticos disponibles no permiten todavía una explicación causal directa. Los datos muestran anomalía fuerte de circulación en 1342 (NAO percentil 8, jet percentil 2), pero el sulfato volcánico tocó techo en 1341 y para 1342 había caído casi a la mediana del periodo.",
+      "certainty_tier": "T3",
+      "abstract_verb": "plausible cause"
+    },
+    {
+      "claim": "Hubo 16 eventos mayores, 4 con periodo de retorno de 500 a 1.000 años",
+      "supported": "partial",
+      "detail": "No computable desde los CSV: el agrupamiento de los 166 registros en 16 eventos lo hicieron los autores a mano, y ellos mismos etiquetan sus periodos de retorno como estimaciones expertas y subjetivas. Se cita como dato del paper.",
+      "certainty_tier": "T3",
+      "abstract_verb": "expert-based, subjective estimates"
+    },
+    {
+      "claim": "Alemania fue la región más golpeada",
+      "supported": "no",
+      "detail": "Alemania aporta 76 de 166 registros, pero eso refleja qué archivos sobrevivieron, no dónde llovió más. Los propios autores señalan la distribución geográfica desigual de los archivos.",
+      "certainty_tier": "T3",
+      "abstract_verb": "n/a"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 62,
+      "unit": "series fluviales",
+      "context": "con crecida clase 2 o 3 en 1342 — puesto #1 de 715 años [CRUDO]",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "series fluviales",
+      "context": "mediana anual de la serie de 715 años (IQR 2-10)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 47,
+      "unit": "series fluviales",
+      "context": "el segundo año del registro, 1845 [CRUDO]",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 166,
+      "unit": "registros",
+      "context": "documentales de crecidas entre 1341 y 1343",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 80,
+      "unit": "registros",
+      "context": "de clase 3 (extraordinaria), el 48% de los 166",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "países actuales",
+      "context": "cubiertos por los registros; 113 localidades y 86 cuerpos de agua",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2020,
+      "unit": "kilómetros",
+      "context": "de extensión norte-sur, de 36,1°N a 54,3°N",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 83,
+      "unit": "por ciento",
+      "context": "de las fuentes son contemporáneas al evento (138 de 166)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 391,
+      "unit": "marcas de impacto",
+      "context": "en 29 categorías sobre 178 registros documentales",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 34,
+      "unit": "registros",
+      "context": "mencionan puentes destruidos, con severidad media 4,53 sobre 5",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.82,
+      "unit": "índice NAO",
+      "context": "en 1342, desde +0,31 en 1341 — percentil 8 del periodo 1200-1500",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 41.8,
+      "unit": "grados norte",
+      "context": "posición del jet del Atlántico Norte en 1342, frente a una mediana de 47,5°N (percentil 2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 16,
+      "unit": "eventos mayores",
+      "context": "identificados por los autores entre finales de 1341 y 1343 [PAPER]",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'el nuevo conjunto de datos sugiere'"
+    },
+    {
+      "abstract_verb": "plausible cause",
+      "tier": "T3",
+      "cam_attenuator": "'una causa plausible' / 'lo que mejor encaja, sin confirmar'"
+    },
+    {
+      "abstract_verb": "could be responsible",
+      "tier": "T3",
+      "cam_attenuator": "'podría ser responsable'"
+    },
+    {
+      "abstract_verb": "paradigm shift",
+      "tier": "T2",
+      "cam_attenuator": "'cambió la forma de construir' / 'un antes y un después en la protección contra crecidas'"
+    },
+    {
+      "abstract_verb": "expert-based, subjective estimates",
+      "tier": "T3",
+      "cam_attenuator": "'estimaciones expertas, no medidas'"
+    },
+    {
+      "abstract_verb": "unprepared / urgent need",
+      "tier": "T2",
+      "cam_attenuator": "'los autores concluyen que la gestión actual no contempla estas secuencias'"
+    }
+  ],
+  "narrative_hooks": [
+    "En un solo año, 1342, los archivos europeos registran 62 crecidas grandes o extraordinarias. La mediana de los otros 714 años: 5.",
+    "El agua llegó de Andalucía a la costa del mar del Norte y hasta Constantinopla — unos 2.020 km de norte a sur, en cuestión de meses.",
+    "Alemania aporta 76 de los 166 registros. No porque lloviera más ahí: porque sus archivos sobrevivieron mejor.",
+    "La explicación volcánica es la parte que los propios autores dejan abierta: el sulfato tocó techo en 1341, no en 1342."
+  ],
+  "limitations": [
+    "Sesgo de supervivencia documental: un vacío en el mapa puede ser ausencia de crecida o ausencia de archivo, y no se distinguen.",
+    "Sesgo de registro: las crónicas anotan lo excepcional, así que el 48% de registros clase 3 dice tanto del cronista como de la crecida.",
+    "Las escalas de intensidad (1-3) y de severidad del impacto (1-5) son ordinales y las asignan historiadores leyendo textos: sus medias son descriptivas.",
+    "La serie de 715 años del notebook es el conteo crudo, sin la corrección de sesgo del paper; por eso el ranking de 1343 no coincide (#12 crudo vs top ten en el paper). El puesto #1 de 1342 se sostiene en ambas.",
+    "Solo 9 de los 166 registros traen duración, demasiado pocos para generalizar.",
+    "Los índices climáticos son reconstrucciones publicadas por otros equipos, con su propia incertidumbre."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados como soportados y 13 números clave"
+  },
+  "notebook_slug": "2026-08-12-megainundaciones-europa-1342",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-12-megainundaciones-europa-1342/notebook.html",
+  "generated_at": "2026-08-12T19:06:39"
+}

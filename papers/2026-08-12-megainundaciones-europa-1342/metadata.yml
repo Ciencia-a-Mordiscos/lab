@@ -1,0 +1,28 @@
+titulo: "Las megacrecidas que dejaron a Europa bajo el agua en 1342"
+fecha: 2026-08-12
+categoria: ecologia
+tags: [inundaciones, clima, historia, edad-media, europa, riesgo, paleoclima]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10888-8"
+    titulo: "Cascading continental-scale floods across Europe in 1342-1343"
+    journal: Nature
+    autores: "Kiss et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "inundaciones_documentadas.csv"
+    descripcion: "166 registros documentales de crecidas 1341-1343 con localidad, coordenadas e intensidad"
+    fuente: "Supplementary Data 1 (MOESM2)"
+  - nombre: "frecuencia_700_anios.csv"
+    descripcion: "Conteo anual crudo de crecidas por clase, 1300-2014, sobre 402 series fluviales"
+    fuente: "Supplementary Data 4 (MOESM5)"
+  - nombre: "impactos_socioeconomicos.csv"
+    descripcion: "29 categorias de impacto socioeconomico con severidad media y maxima"
+    fuente: "Supplementary Data 3 (MOESM4)"
+  - nombre: "causas_climaticas.csv"
+    descripcion: "Forzantes climaticos anuales 1200-1500 (NAO, jet, sulfato volcanico, hielo artico)"
+    fuente: "Supplementary Data 5/6 (MOESM7)"
+estado: publicado
