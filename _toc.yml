@@ -956,6 +956,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-08-17-robot-endovascular-cilios-flujo/README
+    title: "Un robot con cilios que destapa arterias"
+    sections:
+    - file: papers/2026-08-17-robot-endovascular-cilios-flujo/notebook
+      title: Notebook
   - file: papers/2026-08-06-ciclones-tropicales-ia/README
     title: "El pronóstico de huracanes ganó 23 horas en una década"
     sections:

@@ -1,0 +1,199 @@
+{
+  "version": "1.0",
+  "paper_id": 2875,
+  "doi": "10.1038/s41551-026-01771-y",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "porcino (in vivo) + phantoms de vaso con sangre porcina (in vitro)",
+  "verification_table": [
+    {
+      "claim": "Con el robot, el vaso ocluido del cerdo se recanalizó en 45,0 min frente a 163,3 min sin él (−72,4%)",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Separación total entre grupos (90 min de margen) y d de Cohen = 9,5 (g de Hedges = 7,6). Pero con n=3+3 el p exacto por permutación a dos colas es 0,10, el mínimo aritméticamente alcanzable: el efecto es enorme, el diseño no permite llamarlo significativo",
+      "certainty_tier": "T1",
+      "abstract_verb": "accelerating",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 9.53,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "In vitro el tiempo de recanalización baja de 95,0 a 40,4 min (−57,5%)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "n=5+5, separación total, p exacto a dos colas = 0,008 (también el mínimo alcanzable), d = 4,4 (g = 4,0)",
+      "certainty_tier": "T1",
+      "abstract_verb": "accelerating",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.4,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "La onda metacronal antipléctica genera más flujo que la simpléctica",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Gana en las 10 frecuencias con batido; ratio mediana 3,16x (rango 2,61–3,60). La curva simpléctica no es monótona: cae entre 16 y 18 Hz",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhanced",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 3.16,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Cubrir 180° del tubo con cilios da 4,34 veces más flujo que cubrir los 360°",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "2,5693 mm/s a 180° frente a 0,5924 mm/s a 360°. Caveat: 180° y 135° difieren 0,0345 mm/s, menos que sus propias desviaciones — entre esos dos no hay ganador",
+      "certainty_tier": "T1",
+      "abstract_verb": "optimize",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 4.34,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Con el robot llega más tPA al interior del coágulo",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Área bajo la curva 0–50 min = 1,81x; meseta 15–50 min = 1,61x; por encima en los 10 tiempos posteriores al inicio, partiendo de basales casi iguales (70,3 vs 68,7 ng/ml). 3 réplicas técnicas por punto, sin valores crudos: no hay test posible. El pico de 4,65x del minuto 10 se descarta (CV 46%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "improve",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 1.81,
+        "interpretation": "moderado"
+      }
+    },
+    {
+      "claim": "La ganancia de flujo del robot es casi constante en absoluto (~2 mm/s) y decreciente en relativo al subir el flujo de fondo",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "+2,18 / +2,00 / +2,16 / +2,00 mm/s para fondos de 0 / 5 / 10 / 15 mm/s, es decir +64% / +35% / +22%. Con la rama parada el porcentaje no existe (base = 0)",
+      "certainty_tier": "T1",
+      "abstract_verb": "restore",
+      "effect_size": {
+        "measure": "diferencia_absoluta",
+        "value": 2.09,
+        "interpretation": "constante"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 45.0,
+      "unit": "minutos",
+      "context": "recanalización in vivo (cerdo) con robot, n=3",
+      "source": "source_data_fig6h",
+      "verified": true
+    },
+    {
+      "value": 163.3,
+      "unit": "minutos",
+      "context": "recanalización in vivo (cerdo) sin robot, n=3",
+      "source": "source_data_fig6h",
+      "verified": true
+    },
+    {
+      "value": 72.4,
+      "unit": "por ciento",
+      "context": "reducción del tiempo de recanalización in vivo",
+      "source": "calculado",
+      "verified": true
+    },
+    {
+      "value": 57.5,
+      "unit": "por ciento",
+      "context": "reducción del tiempo de recanalización in vitro (95,0 -> 40,4 min, n=5+5)",
+      "source": "calculado",
+      "verified": true
+    },
+    {
+      "value": 3.16,
+      "unit": "veces",
+      "context": "flujo de la onda antipléctica frente a la simpléctica (mediana de 10 frecuencias)",
+      "source": "source_data_fig3e",
+      "verified": true
+    },
+    {
+      "value": 4.34,
+      "unit": "veces",
+      "context": "flujo con cobertura de 180° frente a 360°",
+      "source": "source_data_fig3g",
+      "verified": true
+    },
+    {
+      "value": 1.81,
+      "unit": "veces",
+      "context": "área bajo la curva de tPA en el coágulo, con robot vs sin robot (0-50 min)",
+      "source": "source_data_fig5j",
+      "verified": true
+    },
+    {
+      "value": 2.0,
+      "unit": "mm/s",
+      "context": "ganancia absoluta de flujo que añade el robot a 20 Hz, casi constante en los 4 flujos de fondo medidos",
+      "source": "source_data_fig4f",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "propose",
+      "tier": "T2",
+      "cam_attenuator": "\"proponen\" — aplica al concepto del robot"
+    },
+    {
+      "abstract_verb": "validate",
+      "tier": "T2",
+      "cam_attenuator": "\"validaron en phantoms de vaso y en un modelo porcino\" — scope literal, no extrapolar a humanos"
+    },
+    {
+      "abstract_verb": "restore",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa acotada al escenario medido"
+    },
+    {
+      "abstract_verb": "improve",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con el número medido (1,81x AUC)"
+    },
+    {
+      "abstract_verb": "accelerating",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa etiquetando régimen (2,35x in vitro / 3,63x in vivo)"
+    },
+    {
+      "abstract_verb": "allows",
+      "tier": "T2",
+      "cam_attenuator": "\"permite\" — capacidad en banco y animal, no en clínica"
+    }
+  ],
+  "narrative_hooks": [
+    "163 minutos, o 45: el mismo coágulo, el mismo fármaco, el mismo cerdo — la diferencia es un robot batiendo cilios adentro",
+    "Forrar el tubo entero de cilios da 4,3 veces MENOS flujo que forrar la mitad: los cilios de un lado empujan contra los del otro",
+    "Cambiar el sentido en que viaja la ola de cilios triplica el flujo, con los mismos cilios a la misma velocidad",
+    "El robot no multiplica el flujo: le suma unos 2 mm/s fijos. Por eso pesa más justo donde el vaso está peor"
+  ],
+  "limitations": [
+    "Muestras muy pequeñas: 3 animales por grupo in vivo, 5 réplicas por grupo in vitro. Ningún test de permutación a dos colas puede dar p < 0,10 con 3+3",
+    "Los Source Data publican medias y desviaciones estándar, no mediciones individuales: solo las Figs. 5g y 6h traen valores crudos por réplica; en los barridos de flujo no se pueden recalcular tests",
+    "Alcance: phantoms de vaso con sangre porcina y un modelo porcino vivo. No hay datos en personas y no es un tratamiento disponible",
+    "El paper está tras muro de pago: el cuerpo y los Methods no son accesibles; el contexto no numérico sale del abstract y del Supplementary Information",
+    "La verificación cruzada es interna (recomputar medias/s.d. contra las columnas Average/SD del propio Source Data, discrepancia máx. 0,03%): confirma la lectura de las hojas, no el experimento"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados como yes + 1 parcial, 8 números clave"
+  },
+  "notebook_slug": "2026-08-17-robot-endovascular-cilios-flujo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-17-robot-endovascular-cilios-flujo/notebook.html",
+  "generated_at": "2026-08-17T11:05:53"
+}

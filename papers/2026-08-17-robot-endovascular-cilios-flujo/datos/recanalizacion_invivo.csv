@@ -1,0 +1,7 @@
+condicion,grupo,tiempo_min
+sin_robot,1,170
+sin_robot,2,150
+sin_robot,3,170
+con_robot,1,35
+con_robot,2,40
+con_robot,3,60

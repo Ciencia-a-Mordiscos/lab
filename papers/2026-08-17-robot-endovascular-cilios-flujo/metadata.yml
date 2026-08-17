@@ -1,0 +1,25 @@
+titulo: "Un robot con cilios que destapa arterias"
+fecha: 2026-08-17
+categoria: tecnología
+tags: [robótica-blanda, endovascular, cilios, trombolisis, tPA, biomedicina, magnetismo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41551-026-01771-y"
+    titulo: "A miniature endovascular soft robot for active blood flow regulation in occluded vessels"
+    journal: Nature Biomedical Engineering
+    autores: "Fang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "recanalizacion_invivo.csv"
+    descripcion: "Tiempo de recanalización en modelo porcino, valores crudos por réplica"
+    fuente: "Source Data Fig. 6h"
+  - nombre: "recanalizacion_invitro.csv"
+    descripcion: "Tiempo de recanalización en phantom de vaso, valores crudos por réplica"
+    fuente: "Source Data Fig. 5g"
+  - nombre: "tpa_concentracion.csv"
+    descripcion: "Concentración de tPA dentro del coágulo a lo largo de 50 min"
+    fuente: "Source Data Fig. 5j"
+estado: publicado
