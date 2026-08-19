@@ -1,0 +1,228 @@
+{
+  "version": "1.0",
+  "paper_id": 2877,
+  "doi": "10.1038/s41550-026-02931-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los 39 cúmulos globulares trazan más de una secuencia en el plano edad–metalicidad",
+      "supported": "yes",
+      "detail": "Las dos curvas ajustadas del paper (Suppl. Tabla 2) reproducen la figura y no se cruzan en todo el rango observado. La evidencia bayesiana del paper favorece tres secuencias sobre dos (Δ log Z = 5,3); ese ajuste es del paper, no lo recalcula el notebook",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las dos fusiones están separadas por unos 1.800 millones de años",
+      "supported": "partial",
+      "detail": "12,19 − 10,43 = 1,76 reproducido exacto, pero es una diferencia entre parámetros ajustados con errores asimétricos (+0,49/−0,59 y +0,65/−0,67). Propagados en cuadratura: 1,76 +0,81/−0,89, compatible con un hueco de 0,87 o de 2,57",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El material de LKH quedó en los 6 kiloparsecs interiores de la Vía Láctea",
+      "supported": "yes",
+      "detail": "13/14 candidatos dentro de 6 kpc contra 0/14 en GSE. Mann-Whitney p = 7,5e-06, d = 2,72. Único fuera: NGC 6121 (M4) a 6,31 kpc. Salvedad: los nacidos in situ también están dentro (10/11), así que el radio separa de GSE pero no identifica a LKH",
+      "certainty_tier": "T1",
+      "abstract_verb": "deposited",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.72,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Los cúmulos de LKH son más viejos que los de GSE",
+      "supported": "no",
+      "detail": "Con las etiquetas dinámicas públicas la edad sola NO separa: p = 0,077, d = 0,64, n = 14/14, diferencia de medias 0,52. La separación del paper vive en el plano conjunto edad–metalicidad",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.64,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "El progenitor LKH tenía una masa estelar parecida a la de GSE",
+      "supported": "partial",
+      "detail": "Ajustes: LKH 6,30e8 y GSE 4,49e8 masas solares, con errores enormes y asimétricos (+8,95/−3,60 y +5,69/−2,36). Los intervalos se solapan: consistentes entre sí, sin poder decir cuál fue mayor",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Las edades nuevas son más precisas que las de los catálogos anteriores",
+      "supported": "partial",
+      "detail": "0,26 contra 0,91 (Dotter) y 0,43 (VandenBerg): el salto es de 3,5 veces contra un catálogo y de 1,7 contra el otro. Reproducimos 0,251 promediando los errores de los 17 cúmulos nuevos (3,5% del valor del paper)",
+      "certainty_tier": "T1",
+      "abstract_verb": "enables",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Fue una sola galaxia la que cayó en ese evento",
+      "supported": "partial",
+      "detail": "El abstract dice 'at least one merger'. El propio paper deja abierto que la tercera secuencia corresponda a más de un evento",
+      "certainty_tier": "T3",
+      "abstract_verb": "at least one",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 39,
+      "unit": "cúmulos globulares",
+      "context": "muestra total con edad homogénea (17 nuevos + 22 de CARMA-IV)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "39",
+        "our_calculation": "39",
+        "discrepancy_pct": 0.0,
+        "reason": "reconstrucción nuestra, el paper no publica la lista"
+      }
+    },
+    {
+      "value": 1.76,
+      "unit": "miles de millones de años",
+      "context": "diferencia entre los tiempos de acreción ajustados de LKH y GSE (t_f)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~1,8",
+        "our_calculation": "1,76",
+        "discrepancy_pct": 2.2,
+        "reason": "redondeo del paper"
+      }
+    },
+    {
+      "value": 12.26,
+      "unit": "miles de millones de años",
+      "context": "época de acreción de LKH anclando GSE en 10,5",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~12,3",
+        "our_calculation": "12,26",
+        "discrepancy_pct": 0.3,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 2.72,
+      "unit": "d de Cohen",
+      "context": "separación en distancia galactocéntrica entre candidatos LKH y GSE (p = 7,5e-06)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "de 14 candidatos LKH",
+      "context": "dentro de los 6 kpc interiores, frente a 0 de 14 en GSE",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.26,
+      "unit": "miles de millones de años",
+      "context": "error medio de edad de CARMA; reproducimos 0,251 con los 17 nuevos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0,26",
+        "our_calculation": "0,251",
+        "discrepancy_pct": 3.5,
+        "reason": "promedio sobre los 17 cúmulos nuevos"
+      }
+    },
+    {
+      "value": 14.48,
+      "unit": "miles de millones de años",
+      "context": "NGC 4372, el más viejo de la muestra y cero de la escala de edad relativa",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.3,
+      "unit": "1e8 masas solares",
+      "context": "masa estelar ajustada del progenitor LKH (+8,95/−3,60)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'muestran que'"
+    },
+    {
+      "abstract_verb": "reveals",
+      "tier": "T1",
+      "cam_attenuator": "'revela'"
+    },
+    {
+      "abstract_verb": "discovery",
+      "tier": "T1",
+      "cam_attenuator": "'el hallazgo'"
+    },
+    {
+      "abstract_verb": "presented",
+      "tier": "T1",
+      "cam_attenuator": "'presentaron'"
+    },
+    {
+      "abstract_verb": "established",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "estimate",
+      "tier": "T2",
+      "cam_attenuator": "'estiman que' — aplica al 1,8 Gyr y a las masas; son ajustes con error, no mediciones"
+    },
+    {
+      "abstract_verb": "about",
+      "tier": "T2",
+      "cam_attenuator": "'unos' / 'alrededor de' — no precisar más que el paper"
+    },
+    {
+      "abstract_verb": "at least one",
+      "tier": "T3",
+      "cam_attenuator": "'al menos una fusión' — el número de eventos NO está cerrado"
+    },
+    {
+      "abstract_verb": "yet to be established",
+      "tier": "T3",
+      "cam_attenuator": "'todavía no estaba establecido' (describe el estado PREVIO del debate)"
+    }
+  ],
+  "narrative_hooks": [
+    "La Vía Láctea se tragó al menos una galaxia entera unos 1.800 millones de años antes de la fusión más antigua que teníamos confirmada",
+    "No se mide: se ajusta. El 1,8 del titular es la resta de dos parámetros, no un hueco que se lea en el gráfico",
+    "13 de 14 candidatos quedaron dentro de los 6 kiloparsecs interiores; de GSE, ninguno",
+    "Los cúmulos globulares son escombros que no se borran: si una galaxia cayó, sus cúmulos siguen orbitando"
+  ],
+  "limitations": [
+    "Los grupos del notebook salen de la asociación dinámica pública de CARMA (30/10/2025), anterior al paper y sin la etiqueta LKH: son un proxy de la clasificación bayesiana, no la clasificación del paper",
+    "Nuestro grupo de candidatos tiene 14 cúmulos y el paper cuenta 12 miembros de LKH: son conjuntos distintos",
+    "La lista de los 39 es una reconstrucción nuestra; el paper no la publica explícita",
+    "Grupos pequeños (n = 14, 14 y 11), muy por debajo de 30: se usa Mann-Whitney y se reporta tamaño del efecto",
+    "Las edades son relativas, no absolutas: ancladas a NGC 4372 y dependientes de los modelos BaSTI. No sirven para fechar el Universo",
+    "La distancia galactocéntrica se calculó fuera del notebook y llega resuelta en el CSV; las celdas no la reproducen",
+    "Diseño observacional: los verbos causales sobre la física son inferencia del paper, no medición"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "2 claims 'yes' y 4 'partial' verificados, 8 números clave"
+  },
+  "notebook_slug": "2026-08-19-fusion-lkh-cumulos-globulares",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-19-fusion-lkh-cumulos-globulares/notebook.html",
+  "generated_at": "2026-08-19T10:59:35.484656-05:00"
+}

@@ -1,0 +1,25 @@
+titulo: "La fusión que se nos había escondido"
+fecha: 2026-08-19
+categoria: astronomía
+tags: [astronomía, vía láctea, cúmulos globulares, fusiones galácticas, hubble, arqueología galáctica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41550-026-02931-5"
+    titulo: "Evidence of a massive accretion event 1.8 billion years before the Gaia-Sausage-Enceladus merger"
+    journal: Nature Astronomy
+    autores: "Massari et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cumulos_39.csv"
+    descripcion: "39 cúmulos globulares con edad homogénea, metalicidad, asociación dinámica y distancia galactocéntrica"
+    fuente: "CARMA (INAF OAS Bologna) + Supplementary Table 1"
+  - nombre: "modelos_amr.csv"
+    descripcion: "Parámetros ajustados de la relación edad-metalicidad para LKH y GSE"
+    fuente: "Supplementary Table 2"
+  - nombre: "precision_edades.csv"
+    descripcion: "Error medio de edad por catálogo: CARMA, VandenBerg y Dotter"
+    fuente: "Methods del paper"
+estado: publicado

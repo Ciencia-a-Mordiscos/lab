@@ -790,6 +790,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-08-19-fusion-lkh-cumulos-globulares/README
+    title: "La fusión que se nos había escondido"
+    sections:
+    - file: papers/2026-08-19-fusion-lkh-cumulos-globulares/notebook
+      title: Notebook
   - file: papers/2026-07-15-regresion-media-geomagnetica/README
     title: "El techo que no existe: regresión a la media en tormentas solares"
     sections:
