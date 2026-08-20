@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-08-19-metano-tropical-huascaran/README
+    title: "El metano que los polos no contaron"
+    sections:
+    - file: papers/2026-08-19-metano-tropical-huascaran/notebook
+      title: Notebook
   - file: papers/2026-08-12-megainundaciones-europa-1342/README
     title: "Las megacrecidas de 1342"
     sections:

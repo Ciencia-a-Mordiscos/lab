@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "paper_id": 2881,
+  "doi": "10.1038/s41586-026-10938-1",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El Huascarán aporta un registro de unos 2.000 años de CH₄ atmosférico desde el trópico (50 muestras, −165 a 2012 CE)",
+      "supported": "yes",
+      "detail": "Span real 2.177 años; resolución irregular (mediana 25 años entre muestras, huecos de hasta 665). '2.000 años' es el redondeo del paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las tendencias y magnitudes coinciden a grandes rasgos con los registros polares",
+      "supported": "yes",
+      "detail": "Misma escala y forma general con desnivel sistemático. Punto a punto contra Law Dome la correlación es moderada: Pearson r=0,518 (r²=0,268, n=31; Shapiro p>0,05 en ambas variables). No es coincidencia punto a punto.",
+      "certainty_tier": "T1",
+      "abstract_verb": "find (broadly consistent)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El Huascarán está sistemáticamente por encima de los cuatro testigos polares en el preindustrial",
+      "supported": "yes",
+      "detail": "+62,3 ppb de media (mediana +62,8; DE 32,4; Cohen's d=1,92 contra cero), 119 de 123 comparaciones positivas a partir de 31 muestras tropicales × 4 testigos. Desnivel muy desigual: Antártida +85,4 ppb vs Groenlandia +38,9 (d=2,06).",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El δ¹³C-CH₄ del Huascarán es consistente con una fuente tropical biogénica dominante",
+      "supported": "partial",
+      "detail": "Dirección correcta: −49,06‰ (n=5) vs −48,58‰ en polares (n=76), Δ=−0,48‰, Cohen's d=−0,74, Mann-Whitney p=0,030. Con n=5 el intervalo es demasiado ancho para tomarlo como medición del efecto.",
+      "certainty_tier": "T2",
+      "abstract_verb": "align with",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las emisiones ecuatoriales preindustriales son más altas que lo estimado solo con hielo polar",
+      "supported": "partial",
+      "detail": "Es lo que el modelo de 4 cajas INFIERE, no lo que el hielo mide. Trópicos 161,4 → 212,5 Tg CH₄/año (+31,6%); Trópico Sur 80,1 → 124,7 (+55,6%). El abstract no da cifra: sale de re-ejecutar el código de los autores.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La dominancia tropical de la fuente de CH₄ se sostiene a lo largo del registro",
+      "supported": "yes",
+      "detail": "Trópicos > extratrópicos en los 360 pasos del modelo (−1 a 1819 CE) en AMBOS escenarios. El Huascarán no crea la dominancia: la sube del 78% al 85% del total.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 6768,
+      "unit": "metros",
+      "context": "altitud del Summit Core A en el Nevado Huascarán, Perú",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 765.4,
+      "unit": "ppb",
+      "context": "CH₄ preindustrial medio en el Huascarán (<1750 CE, n=32; mediana 765,5; IQR 756,8–778,8)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1838,
+      "unit": "ppb",
+      "context": "CH₄ en el Huascarán en 2012 CE",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 2.4,
+      "unit": "veces",
+      "context": "el CH₄ de 2012 respecto al nivel preindustrial del mismo testigo (+140%)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1946.3,
+      "unit": "ppb",
+      "context": "promedio global de CH₄ en Mauna Loa (NOAA) en 2024",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 62.3,
+      "unit": "ppb",
+      "context": "desnivel medio del Huascarán sobre los testigos polares en el preindustrial (119 de 123 comparaciones positivas)",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "sin cifra en el abstract",
+        "our_calculation": "+62,3 ppb",
+        "discrepancy_pct": 0.0,
+        "reason": "el paper describe la consistencia cualitativamente; la cifra es nuestro cálculo"
+      }
+    },
+    {
+      "value": 0.518,
+      "unit": "r de Pearson",
+      "context": "correlación punto a punto SCA vs Law Dome en el preindustrial (r²=0,268, n=31, Shapiro p>0,05)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -0.48,
+      "unit": "por mil",
+      "context": "diferencia de δ¹³C-CH₄ entre el Huascarán (n=5) y los polares (n=76) en la ventana 1530–1999 CE",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 212.5,
+      "unit": "Tg CH₄/año",
+      "context": "emisión tropical preindustrial que estima el modelo de 4 cajas al añadir el Huascarán (desde 161,4 solo con polares, +31,6%)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 124.7,
+      "unit": "Tg CH₄/año",
+      "context": "emisión de la caja Trópico Sur al añadir el Huascarán (desde 80,1; +55,6%)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 85.2,
+      "unit": "por ciento",
+      "context": "fracción tropical del presupuesto global de CH₄ con el Huascarán, frente al 78,0% solo con polares",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "Tg CH₄/año",
+      "context": "emisión del hemisferio sur, FIJADA por el modelo y no resuelta — limitación",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'presentan' / 'midieron'",
+      "alcance": "el registro de 2.000 años del Huascarán",
+      "nota": "El registro EXISTE y está medido. Aquí no hay que atenuar."
+    },
+    {
+      "abstract_verb": "find (broadly consistent)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa acotada: 'las tendencias coinciden a grandes rasgos'",
+      "alcance": "comparación con registros polares",
+      "nota": "'broadly' es parte del claim — no borrarlo."
+    },
+    {
+      "abstract_verb": "align with",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' / 'apunta a'",
+      "alcance": "δ13C consistente con fuente tropical dominante",
+      "nota": "Con n=5 el hedge es obligatorio."
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren' / 'todo apunta a'",
+      "alcance": "dominancia ecuatorial sostenida durante dos milenios",
+      "nota": "⚠️ NO afirmar directamente. NO 'demuestra'."
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren' / 'todo apunta a'",
+      "alcance": "TITULAR: las emisiones ecuatoriales son más altas que las estimadas solo con hielo polar",
+      "nota": "⚠️ Este es el claim central y va en T2. Escribir 'demuestra' aquí es escalación de certeza."
+    },
+    {
+      "abstract_verb": "hypothesis (supporting the long-standing…)",
+      "tier": "T3",
+      "cam_attenuator": "'refuerza una hipótesis vieja' / 'suma evidencia a favor de'",
+      "alcance": "que las emisiones de baja latitud dominaron la variabilidad preindustrial del CH4",
+      "nota": "⚠️ El paper APOYA una hipótesis, no la cierra. NO 'resuelve el debate' ni 'zanja la cuestión'."
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "alcance": "SOLO 'the importance of tropical ice cores on the reconstruction of CH4 variability' — un meta-claim de MÉTODO",
+      "nota": "⚠️ TRAMPA DE ALCANCE: el único T1 fuerte del abstract cuelga del valor del método, no del resultado físico. NO reciclarlo para decir que el paper 'demuestra' que los trópicos dominan."
+    }
+  ],
+  "narrative_hooks": [
+    "A 6.768 metros en los Andes peruanos hay hielo que guarda 2.000 años de aire, y ese aire tenía más metano que el de los polos en 119 de 123 comparaciones.",
+    "Durante décadas la historia del metano se leyó en Groenlandia y la Antártida. El problema es que el metano no se fabrica ahí.",
+    "El testigo tropical no crea la dominancia del trópico en el presupuesto de metano: ya estaba en los datos polares (78%). La sube al 85%.",
+    "El desnivel de 62 ppb es un dato. El salto a toneladas de metano al año pasa por un parámetro que el modelo fija y no mide."
+  ],
+  "limitations": [
+    "El modelo de 4 cajas cubre de −1 a 1819 CE: su resultado es preindustrial y no dice nada del metano actual.",
+    "La emisión del hemisferio sur está fijada en 10 Tg/año en la corrida con Huascarán y topada en ese valor en la polar: el modelo la asume, no la resuelve.",
+    "La incertidumbre Monte Carlo (0,56% → 1,54% en los trópicos) solo propaga ruido gaussiano de σ=5 ppb en las concentraciones; los tiempos de vida del CH₄ y las tasas de intercambio entre cajas son parámetros fijos sin incertidumbre asociada.",
+    "El salto de ppb a Tg/año depende de la vida del CH₄ tropical, fijada en 6 años: bajarla a 4 sube la emisión tropical un 41,8%, más que todo el efecto del propio Huascarán.",
+    "El δ¹³C del Huascarán son 5 mediciones (1535, 1650, 1821, 1900 y 1999 CE) contra 76 valores polares agrupados de 4 testigos con ventanas de edad distintas.",
+    "Cada caja del modelo se asume igual a un cuarto de la masa troposférica.",
+    "Las 123 comparaciones del desnivel salen de 31 muestras tropicales independientes cruzadas contra 4 testigos: no son 123 observaciones independientes.",
+    "Error analítico reportado por el paper (no recomputable desde los CSV): ±3,74 ppb en el Huascarán, ±2,4 ppb en los polares.",
+    "Registro observacional: el modelo estima qué emisiones son compatibles con lo medido, no identifica qué las produjo."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims 'yes' y 2 'partial' verificados, 12 números clave"
+  },
+  "notebook_slug": "2026-08-19-metano-tropical-huascaran",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-19-metano-tropical-huascaran/notebook.html",
+  "generated_at": "2026-08-20T11:32:45.400338"
+}

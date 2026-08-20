@@ -1,0 +1,25 @@
+titulo: "El metano que los polos no supieron contar"
+fecha: 2026-08-20
+categoria: ecología
+tags: [metano, testigos-de-hielo, paleoclima, andes, atmósfera, isótopos, perú]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10938-1"
+    titulo: "A global atmospheric methane record from a tropical ice core"
+    journal: Nature
+    autores: "Lamantia et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ch4_registros.csv"
+    descripcion: "CH₄ (ppb) por registro y año CE — 6 registros, 916 filas"
+    fuente: "Zenodo 10.5281/zenodo.18657346"
+  - nombre: "d13c_registros.csv"
+    descripcion: "δ¹³C-CH₄ (‰ VPDB) por registro — 171 filas"
+    fuente: "Zenodo 10.5281/zenodo.18657346"
+  - nombre: "huascaran_20yr_avgs.csv"
+    descripcion: "Promedios de 20 años del Huascarán SCA, entrada del modelo de 4 cajas"
+    fuente: "Zenodo 10.5281/zenodo.18657346"
+estado: publicado

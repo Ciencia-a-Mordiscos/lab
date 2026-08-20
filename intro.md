@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### [El metano que los polos no supieron contar](papers/2026-08-19-metano-tropical-huascaran/README.md)
+
+**Ecología** · *Nature* (2026) · La historia del metano atmosférico se leyó siempre en Groenlandia y la Antártida, aunque el metano natural se fabrica en humedales tropicales. Lamantia et al. perforaron hielo a **6.768 m** en el Nevado Huascarán y sacaron unos **2.000 años** de aire tropical: el primer registro histórico global de CH₄ de baja latitud. **El hallazgo:** ese testigo corre **+62,3 ppb** por encima de los cuatro registros polares en el preindustrial (119 de 123 comparaciones), y al meterlo en el modelo de 4 cajas de los autores la emisión tropical estimada sube de **161,4 a 212,5 Tg CH₄/año**. El notebook re-ejecuta ese modelo con la semilla original y pone a prueba de cuánto depende la cifra de un parámetro que el modelo fija y no mide.
+
+[Notebook](papers/2026-08-19-metano-tropical-huascaran/notebook.ipynb) · [README](papers/2026-08-19-metano-tropical-huascaran/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-metano-tropical-huascaran/notebook.ipynb)
+
 ### [La fusión que se nos había escondido](papers/2026-08-19-fusion-lkh-cumulos-globulares/README.md)
 
 **Astronomía** · *Nature Astronomy* (2026) · Los cúmulos globulares son escombros que no se borran: si la Vía Láctea se tragó una galaxia, sus cúmulos siguen orbitando. Massari et al. datan 39 con el Hubble a **0,26** miles de millones de años de error (contra 0,91 y 0,43 de los catálogos previos) y los ven ordenarse en secuencias distintas del plano edad–metalicidad. **El hallazgo:** los dos progenitores dejaron de formar cúmulos con **1,76 mil millones de años de diferencia**, y **13 de 14 candidatos** al nuevo progenitor —bautizado LKH— quedaron dentro de los **6 kiloparsecs interiores**, frente a **0 de 14** en Gaia-Sausage-Enceladus (d = 2,72, p = 7,5e-06). ⚠️ El 1,8 del titular **no es el hueco entre las curvas**: es la resta de dos parámetros ajustados, y propagada da **+0,81/−0,89**. ⚠️ Con las etiquetas públicas la **edad sola no separa** LKH de GSE (p = 0,077). ⚠️ Nuestros grupos son un **proxy** de la clasificación bayesiana del paper, y las edades son **relativas**, no absolutas.
