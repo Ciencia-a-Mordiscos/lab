@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### [Más hoja verde, menos aves](papers/2026-08-20-solar-china-aves-diversidad/README.md)
+
+**Ecología** · *Science* (2026) · China empujó los paneles solares con políticas de provincia, municipio y condado. Zhang et al. cruzaron ese empuje contra listas de aves de ciencia ciudadana en **2.344 condados** por **120 meses**. **El hallazgo:** donde la política apretó más fuerte, un condado pierde **unas 4 especies de aves** por cada desviación estándar de rigor (11,3 por ciento de su riqueza) mientras su **índice de área foliar sube** — más hoja por metro cuadrado, menos verdor y menos diversidad, lo que los autores bautizaron *enverdecimiento inferior*. El notebook rehace las 21 regresiones del paquete de réplica con `reghdfe` reescrito en numpy, y marca lo que **no** se pudo reproducir: la conversión de suelo que el abstract da como mecanismo.
+
+[Notebook](papers/2026-08-20-solar-china-aves-diversidad/notebook.ipynb) · [README](papers/2026-08-20-solar-china-aves-diversidad/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-20-solar-china-aves-diversidad/notebook.ipynb)
+
 ### [El metano que los polos no supieron contar](papers/2026-08-19-metano-tropical-huascaran/README.md)
 
 **Ecología** · *Nature* (2026) · La historia del metano atmosférico se leyó siempre en Groenlandia y la Antártida, aunque el metano natural se fabrica en humedales tropicales. Lamantia et al. perforaron hielo a **6.768 m** en el Nevado Huascarán y sacaron unos **2.000 años** de aire tropical: el primer registro histórico global de CH₄ de baja latitud. **El hallazgo:** ese testigo corre **+62,3 ppb** por encima de los cuatro registros polares en el preindustrial (119 de 123 comparaciones), y al meterlo en el modelo de 4 cajas de los autores la emisión tropical estimada sube de **161,4 a 212,5 Tg CH₄/año**. El notebook re-ejecuta ese modelo con la semilla original y pone a prueba de cuánto depende la cifra de un parámetro que el modelo fija y no mide.

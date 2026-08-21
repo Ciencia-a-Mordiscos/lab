@@ -1,0 +1,22 @@
+titulo: "Más hoja verde, menos aves"
+fecha: 2026-08-20
+categoria: ecología
+tags: [energía solar, biodiversidad, aves, china, econometría, panel, teledetección, política ambiental]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aee0747"
+    titulo: "China's solar expansion policy reduces bird diversity"
+    journal: Science
+    autores: "Zhang et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "panel_base.csv"
+    descripcion: "Panel de estimación condado-mes: Shannon de aves, índice de rigor de política fotovoltaica, controles y mecanismos"
+    fuente: "Paquete de réplica de los autores (GitHub)"
+  - nombre: "panel_rasgos.csv"
+    descripcion: "Índices de Shannon por subcomunidad de aves, riqueza y equitatividad"
+    fuente: "Paquete de réplica de los autores (GitHub)"
+estado: publicado

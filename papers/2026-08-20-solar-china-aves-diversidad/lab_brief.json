@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "paper_id": 2893,
+  "doi": "10.1126/science.aee0747",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "aves (comunidad; índices de Shannon por condado-mes desde ciencia ciudadana)",
+  "verification_table": [
+    {
+      "claim": "Donde el rigor de política fotovoltaica sube, el índice de Shannon de aves baja: β −0,0125 (EE 0,0037; t −3,43; p 0,0006)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "N 46.371, 2.344 condados. Reproduce la Tabla 1 col. 3 al cuarto decimal. Panel observacional con efectos fijos, no experimento.",
+      "certainty_tier": "T1",
+      "abstract_verb": "led to reductions",
+      "effect_size": {
+        "measure": "beta_estandarizado",
+        "value": -0.0524,
+        "interpretation": "pequeño (DE de Shannon por DE de PSI)"
+      }
+    },
+    {
+      "claim": "El efecto se concentra fuera del desierto y fuera de la franja Tres-Nortes; el contraste por pobreza no se distingue de cero",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Desierto vs no desierto +0,0355 (EE 0,0125; p 0,004); Tres-Nortes +0,0252 (EE 0,0087; p 0,004); pobreza +0,0139 (EE 0,0077; p 0,07). Submuestreo de desierto: 298 condados contra 2.046.",
+      "certainty_tier": "T1",
+      "abstract_verb": "disproportionately affecting",
+      "effect_size": {
+        "measure": "diferencia_de_betas",
+        "value": 0.0355,
+        "interpretation": "contraste desierto significativo al 5 por ciento"
+      }
+    },
+    {
+      "claim": "Le pega a las especies extendidas y no a las endémicas: diferencia pareada −0,0092 (EE 0,0034; p 0,007)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "No endémicas −0,0127*** (N 46.217) frente a endémicas +0,0022 (p 0,32; N 24.581). El eje del paper es endemismo, no rareza.",
+      "certainty_tier": "T1",
+      "abstract_verb": "as well as widespread species",
+      "effect_size": {
+        "measure": "contraste_pareado",
+        "value": -0.0092,
+        "interpretation": "pequeño pero significativo"
+      }
+    },
+    {
+      "claim": "El área foliar sube (+0,0039***) mientras el verdor (−0,0609***) y la luz nocturna (−0,2220***) bajan",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Reproduce la Tabla 2. Los autores acuñan 'enverdecimiento inferior' para esa combinación; no es vocabulario previo de la ecología.",
+      "certainty_tier": "T1",
+      "abstract_verb": "Paradoxically, the leaf area index increased",
+      "effect_size": {
+        "measure": "beta_estandarizado",
+        "value": 0.0224,
+        "interpretation": "pequeño (DE de LAI por DE de PSI)"
+      }
+    },
+    {
+      "claim": "Lo que se pierde son especies, no equilibrio: riqueza −0,9751*** (EE 0,1829), unas 4 especies menos por desviación estándar de PSI",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "−4,01 especies, 11,3 por ciento de la riqueza media (35,48). La equitatividad no baja: sube +0,0018*** (unos +0,007 puntos sobre una media de 0,80).",
+      "certainty_tier": "T1",
+      "abstract_verb": "reductions in bird diversity",
+      "effect_size": {
+        "measure": "cambio_absoluto",
+        "value": -4.01,
+        "interpretation": "11,3 por ciento de la riqueza media"
+      }
+    },
+    {
+      "claim": "La conversión de cultivos y pastizales en suelo desarrollado como mecanismo NO fue reproducida",
+      "supported": "no",
+      "supported_by_data": false,
+      "detail": "Esa regresión no existe en el paquete de réplica y el material suplementario de Science no es accesible. Solo reprodujimos NDVI, luz nocturna y área foliar.",
+      "certainty_tier": "T2",
+      "abstract_verb": "operated primarily through",
+      "effect_size": null
+    },
+    {
+      "claim": "Los autores recomiendan salvaguardas de biodiversidad para el desarrollo fotovoltaico",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Es la recomendación de los autores, no un resultado de los datos ni una posición del canal. Se reporta atribuida.",
+      "certainty_tier": "T2",
+      "abstract_verb": "We argue",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": -0.0125,
+      "unit": "puntos de Shannon por punto de PSI",
+      "context": "efecto central del paper, con controles completos",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 46371,
+      "unit": "observaciones",
+      "context": "muestra de estimación: 2.344 condados por 120 meses",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -4.01,
+      "unit": "especies",
+      "context": "riqueza perdida por cada desviación estándar de rigor de política",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 11.3,
+      "unit": "por ciento",
+      "context": "esa pérdida como fracción de la riqueza media (35,48 especies)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.0039,
+      "unit": "puntos de área foliar por punto de PSI",
+      "context": "la paradoja: el LAI sube mientras la diversidad baja",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -0.0609,
+      "unit": "puntos de NDVI por punto de PSI",
+      "context": "el verdor por satélite baja",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -0.0092,
+      "unit": "puntos de Shannon",
+      "context": "contraste pareado extendidas contra endémicas (EE 0,0034; p 0,007)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 59.2,
+      "unit": "por ciento",
+      "context": "condados-mes que nunca tuvieron política fotovoltaica (PSI en cero)",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "argue (We argue that future photovoltaic development should be accompanied by strict biodiversity safeguards)",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores argumentan que\" / \"lo que proponen es\"",
+      "warning": "NO presentar la recomendación de política como hecho ni como consejo del canal. La fuente SÍ enuncia la salvaguarda, así que se puede reportar — atribuida."
+    },
+    {
+      "abstract_verb": "led to reductions",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa PERO con el diseño a la vista: \"en los condados donde la política apretó más, la diversidad cayó\"",
+      "warning": "Los autores escriben causal ('led to'). El diseño es panel observacional con efectos fijos + IV, no experimento. No escalar a 'los paneles matan aves' ni a 'la energía solar destruye la biodiversidad'."
+    },
+    {
+      "abstract_verb": "examined",
+      "tier": "T1",
+      "cam_attenuator": "\"midieron\" / \"examinaron\"",
+      "warning": null
+    },
+    {
+      "abstract_verb": "operated primarily through",
+      "tier": "T2",
+      "cam_attenuator": "\"el mecanismo que proponen es\"",
+      "warning": "El mecanismo de conversión de suelo NO está en el paquete de réplica — ver limite_de_alcance_CRITICO."
+    },
+    {
+      "abstract_verb": "we term (“inferior greening”)",
+      "tier": "T2",
+      "cam_attenuator": "\"le pusieron nombre a esto\" / \"lo bautizaron\"",
+      "warning": "Es un término ACUÑADO por los autores en este paper, no vocabulario establecido de la ecología. Decirlo así."
+    },
+    {
+      "abstract_verb": "Paradoxically, the leaf area index increased",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con el número: +0,0039 por punto de PSI",
+      "warning": "Reproducido exactamente. Es el dato más vistoso del paper: más hoja, menos aves."
+    },
+    {
+      "abstract_verb": "Could ... create a green dilemma",
+      "tier": "T3",
+      "cam_attenuator": "enmarcar como pregunta — es como abre el propio abstract",
+      "warning": null
+    }
+  ],
+  "narrative_hooks": [
+    "China llenó de paneles solares 2.344 condados. El paisaje quedó más frondoso y las aves se fueron.",
+    "Más hoja por metro cuadrado, menos verdor, menos aves: los autores lo bautizaron enverdecimiento inferior.",
+    "Cuatro especies menos por condado-mes: el 11 por ciento de las aves que había.",
+    "A las endémicas no les pasó nada. Las que se perdieron fueron las comunes, las del cultivo y el pastizal."
+  ],
+  "limitations": [
+    "Los índices de aves salen de ciencia ciudadana: el esfuerzo de observación no es parejo entre condados ni meses.",
+    "El PSI mide rigor de política, no capacidad instalada: un condado con política estricta y ningún panel puesto cuenta igual.",
+    "La marca de condado pobre se fusiona por nombre de condado en el código original; nueve identificadores quedan inconsistentes.",
+    "Las colas vienen recortadas al 1 y 99 por ciento: 459 condados-mes están clavados en 162 especies por el recorte, no por el campo.",
+    "Los cortes por subgrupo son exploratorios: unas 28 pruebas sin corrección por comparaciones múltiples.",
+    "El mecanismo de conversión de suelo del abstract no se pudo reproducir: no está en el paquete de réplica."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados como yes/partial con datos, 8 números clave"
+  },
+  "notebook_slug": "2026-08-20-solar-china-aves-diversidad",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-20-solar-china-aves-diversidad/notebook.html",
+  "generated_at": "2026-08-21T18:39:26.654297"
+}

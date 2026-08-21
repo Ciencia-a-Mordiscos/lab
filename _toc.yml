@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-08-20-solar-china-aves-diversidad/README
+    title: "Más hoja verde, menos aves"
+    sections:
+    - file: papers/2026-08-20-solar-china-aves-diversidad/notebook
+      title: Notebook
   - file: papers/2026-08-19-metano-tropical-huascaran/README
     title: "El metano que los polos no contaron"
     sections:
