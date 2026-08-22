@@ -1,0 +1,25 @@
+titulo: "La rendija de Young, encogida siete órdenes de magnitud"
+fecha: 2026-08-21
+categoria: fisica
+tags: [interferencia, doble-rendija, silicio, microscopia-electronica, fonones, vibraciones, stem]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10914-9"
+    titulo: "Atomic-scale double-slit interferometry with a focused electron probe"
+    journal: Nature
+    autores: "Tabata et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cbed_exp_300k.npy"
+    descripcion: "Patrón de dispersión medido a 300 K, 182x182 cuentas de electrones"
+    fuente: "Zenodo 10.5281/zenodo.18189080 (figure2)"
+  - nombre: "correlaciones_temperatura.csv"
+    descripcion: "Coeficientes de correlación entre columnas, rigideces y desplazamientos para 300/500/900 K"
+    fuente: "Zenodo 10.5281/zenodo.18189080 (figure4) + cómputo propio"
+  - nombre: "dispersion_fonones.csv"
+    descripcion: "9.696 modos de vibración del silicio con peso proxy del desorden entre columnas"
+    fuente: "Zenodo 10.5281/zenodo.18189080 (si110_band.yaml)"
+estado: publicado

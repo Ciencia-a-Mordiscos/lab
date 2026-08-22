@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "paper_id": 2882,
+  "doi": "10.1038/s41586-026-10914-9",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Las franjas se generan entre dos columnas de silicio separadas 1,36 Å",
+      "supported": "yes",
+      "detail": "El paper lo afirma directamente. El archivo de celda cristalina da 1,3575 Å de separación proyectada, dentro del redondeo",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El patrón de 300 K reúne unos 33 millones de electrones",
+      "supported": "yes",
+      "detail": "El archivo medido suma 33.127.287 cuentas; el paper reporta 3,3 × 10⁷",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las franjas persisten de 300 K a 900 K",
+      "supported": "partial",
+      "detail": "Se muestra de forma cualitativa: ni el paper ni el paquete de datos publican visibilidad por temperatura, y medirla exige la geometría de máscara que no viene incluida",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las columnas se acompañan más a lo largo del enlace que de lado (ρx > ρy)",
+      "supported": "yes",
+      "detail": "Se cumple en las tres temperaturas: 0,362 vs 0,184 (300 K), 0,402 vs 0,263 (500 K), 0,418 vs 0,288 (900 K)",
+      "certainty_tier": "T1",
+      "abstract_verb": "map to",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Nuestro mínimo de rejilla reproduce el ajuste publicado a 300 K y 500 K",
+      "supported": "yes",
+      "detail": "Mínimos en (0,40 ; 0,24) y (0,40 ; 0,26), a menos de un paso de rejilla del ajuste publicado",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El mínimo de rejilla a 900 K se aparta del ajuste publicado",
+      "supported": "partial",
+      "detail": "(0,46 ; 0,36) frente a (0,418 ; 0,288). A 900 K hay 89 celdas dentro del 2% del mínimo contra 5 a 300 K: el valle es tan plano que el mínimo de rejilla deja de ser informativo",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El átomo se agita un 62,5% más de 300 K a 900 K y aun así el acuerdo entre columnas sube",
+      "supported": "yes",
+      "detail": "Desplazamiento típico 0,08 -> 0,13 Å; los coeficientes suben +0,056 y +0,104 en absoluto, consistente con la dependencia moderada que reporta el paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "map to",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El enlace resiste unas 3 veces más el estiramiento que el corte lateral",
+      "supported": "yes",
+      "detail": "Razón de rigideces 3,22 a 300 K con κ = ρ/(1−ρ)²; baja a 2,17 a 900 K",
+      "certainty_tier": "T1",
+      "abstract_verb": "map to",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En el punto Gamma las tres ramas acústicas dan desplazamiento relativo cero exacto",
+      "supported": "yes",
+      "detail": "Cero exacto en las tres. En Gamma el factor de fase vale 1 en cualquier convención, así que no depende de cómo se elija",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Solo una parte de los modos degrada la visibilidad de las franjas",
+      "supported": "partial",
+      "detail": "El paper lo enuncia con atenuador (indicating). Nuestro cálculo es un proxy didáctico: el 10% de los modos concentra el 57,3% del aporte. Va como ilustración del mecanismo, no como reproducción de la figura del paper",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicating",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1.36,
+      "unit": "ångström",
+      "context": "separación entre las dos columnas de silicio que hacen de rendijas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.36 Å",
+        "our_calculation": "1.3575 Å",
+        "discrepancy_pct": 0.2,
+        "reason": "celda cristalina del cálculo de fonones vs redondeo del paper"
+      }
+    },
+    {
+      "value": 33127287,
+      "unit": "electrones",
+      "context": "dosis total del patrón medido a 300 K, sumando 356 pares de columnas equivalentes",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3.3e7",
+        "our_calculation": "3.3127e7",
+        "discrepancy_pct": 0.4,
+        "reason": "redondeo del paper — confirma que el archivo es el patrón publicado"
+      }
+    },
+    {
+      "value": 62.5,
+      "unit": "por ciento",
+      "context": "aumento del desplazamiento típico de un átomo de silicio entre 300 K y 900 K (0,08 -> 0,13 Å)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 3.218,
+      "unit": "veces",
+      "context": "razón de rigideces del enlace Si-Si a 300 K: resiste el estiramiento 3,2 veces más que el corte lateral",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.0,
+      "unit": "adimensional",
+      "context": "desplazamiento relativo entre columnas de las tres ramas acústicas en el punto Gamma — cero exacto",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 57.3,
+      "unit": "por ciento",
+      "context": "porción del desorden entre columnas que concentra el 10% de modos más dañinos (métrica proxy propia)",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: generaron / lograron"
+    },
+    {
+      "abstract_verb": "indicating",
+      "tier": "T2",
+      "cam_attenuator": "todo apunta a que — NO afirmar directamente"
+    },
+    {
+      "abstract_verb": "map to",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "enables",
+      "tier": "T2",
+      "cam_attenuator": "permite / habilita — capacidad, no resultado obtenido"
+    },
+    {
+      "abstract_verb": "opening routes to examine",
+      "tier": "T2",
+      "cam_attenuator": "abre la puerta a — NO escalar a revoluciona"
+    }
+  ],
+  "narrative_hooks": [
+    "1,36 ångströms: la separación entre las dos rendijas de este experimento son dos columnas de átomos de silicio vecinas dentro de un cristal",
+    "Las rendijas vibran. A 900 K cada átomo se mueve un 62,5% más que a 300 K, sobre un hueco de apenas 1,36 Å — y el patrón sigue ahí",
+    "La clave es que las dos columnas no tiemblan cada una por su lado: el enlace las obliga a acompañarse",
+    "En el punto Gamma las tres ramas acústicas dan cero exacto: mueven a las dos columnas en bloque y no borran nada",
+    "El enlace Si-Si resiste 3,2 veces más el estiramiento que el corte lateral, y eso se lee en las franjas"
+  ],
+  "limitations": [
+    "Analizamos las salidas publicadas de las figuras, no los datos crudos del microscopio ni las simulaciones (que se regeneran con multislice en GPU)",
+    "figure3.zip pesa 135,9 MB y quedó fuera del límite de descarga: trabajamos con figure2 y figure4",
+    "El espesor de la muestra cambia entre temperaturas (12,7 / 10,8 / 10,4 nm), así que ninguna métrica de intensidad total sirve de termómetro",
+    "No medimos visibilidad de franjas por temperatura: exige la geometría de máscara del paper, que no viene en el paquete de datos",
+    "El peso por modo es un proxy didáctico sin factor de fase entre átomos; el orden de los modos fuera de Gamma puede depender de esa convención",
+    "Con solo tres temperaturas no hay base para ajustar una tendencia ni reportar significancia estadística"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "7 claims soportados y 6 números clave verificados"
+  },
+  "notebook_slug": "2026-08-19-doble-rendija-atomica-silicio",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-19-doble-rendija-atomica-silicio/notebook.html",
+  "generated_at": "2026-08-21T19:17:55"
+}

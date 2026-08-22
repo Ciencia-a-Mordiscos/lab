@@ -954,6 +954,11 @@ parts:
       title: Notebook
 - caption: Física
   chapters:
+  - file: papers/2026-08-19-doble-rendija-atomica-silicio/README
+    title: "Doble rendija atómica en silicio"
+    sections:
+    - file: papers/2026-08-19-doble-rendija-atomica-silicio/notebook
+      title: Notebook
   - file: papers/2026-08-07-magnetometro-levitado/README
     title: "Un imán flotando midió 32 femtoteslas"
     sections:

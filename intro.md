@@ -12,6 +12,13 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### La rendija de Young, encogida siete órdenes de magnitud
+
+Un haz de electrones enfocado cubre a la vez dos columnas vecinas de átomos de silicio, separadas 1,36 Å, y sale con franjas de interferencia. A 900 K cada átomo se mueve un 62,5% más que a 300 K y las franjas siguen ahí: las dos columnas no tiemblan por separado.
+
+[Notebook](papers/2026-08-19-doble-rendija-atomica-silicio/notebook.ipynb) · [README](papers/2026-08-19-doble-rendija-atomica-silicio/) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-doble-rendija-atomica-silicio/notebook.ipynb)
+
+
 ### [Más hoja verde, menos aves](papers/2026-08-20-solar-china-aves-diversidad/README.md)
 
 **Ecología** · *Science* (2026) · China empujó los paneles solares con políticas de provincia, municipio y condado. Zhang et al. cruzaron ese empuje contra listas de aves de ciencia ciudadana en **2.344 condados** por **120 meses**. **El hallazgo:** donde la política apretó más fuerte, un condado pierde **unas 4 especies de aves** por cada desviación estándar de rigor (11,3 por ciento de su riqueza) mientras su **índice de área foliar sube** — más hoja por metro cuadrado, menos verdor y menos diversidad, lo que los autores bautizaron *enverdecimiento inferior*. El notebook rehace las 21 regresiones del paquete de réplica con `reghdfe` reescrito en numpy, y marca lo que **no** se pudo reproducir: la conversión de suelo que el abstract da como mecanismo.
