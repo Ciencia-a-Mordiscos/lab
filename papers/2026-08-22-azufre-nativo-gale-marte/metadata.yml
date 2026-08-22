@@ -1,0 +1,25 @@
+titulo: "El azufre que en Marte no debería estar suelto"
+fecha: 2026-08-22
+categoria: astronomía
+tags: [marte, curiosity, azufre, gale, apxs, geoquímica, espectroscopía, planetario]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adu5501"
+    titulo: "A native sulfur deposit in Gale crater, Mars"
+    journal: Science
+    autores: "VanBommel et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "composicion_apxs.csv"
+    descripcion: "Composición elemental APXS de 26 objetivos en Gediz Vallis: 12 óxidos con error 1σ, 3 trazas en ppm y razón Compton/Rayleigh, agrupados en 4 poblaciones"
+    fuente: "Supplementary Materials — Data S1"
+  - nombre: "espectros_apxs.csv"
+    descripcion: "Espectros APXS crudos en formato largo: 28 objetivos × 1.024 canales, con energía calibrada y cuentas por segundo"
+    fuente: "Supplementary Materials — Data S2"
+  - nombre: "espectros_metadatos.csv"
+    descripcion: "Por objetivo: sol, ganancia (eV/canal), offset, tiempo de integración y temperatura del cabezal del detector"
+    fuente: "Supplementary Materials — Data S2 (metadatos)"
+estado: publicado

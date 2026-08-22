@@ -10,6 +10,7 @@ Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://cienciaamo
 
 | Fecha | Paper | Categoría | Notebook | Colab |
 |-------|-------|-----------|----------|-------|
+| [El azufre que en Marte no debería estar suelto](papers/2026-08-22-azufre-nativo-gale-marte/README.md) | Astronomía | Science | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-22-azufre-nativo-gale-marte/notebook.ipynb) |
 | [La rendija de Young, encogida siete órdenes de magnitud](papers/2026-08-19-doble-rendija-atomica-silicio/) | Física | Nature | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-doble-rendija-atomica-silicio/notebook.ipynb) |
 | [Más hoja verde, menos aves](papers/2026-08-20-solar-china-aves-diversidad/README.md) | Ecología | Science | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-20-solar-china-aves-diversidad/notebook.ipynb) |
 | [El metano que los polos no supieron contar](papers/2026-08-19-metano-tropical-huascaran/README.md) | Ecología | Nature | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-metano-tropical-huascaran/notebook.ipynb) |

@@ -800,6 +800,11 @@ parts:
       title: Notebook
 - caption: Astronomía
   chapters:
+  - file: papers/2026-08-22-azufre-nativo-gale-marte/README
+    title: "El azufre que no debería estar suelto"
+    sections:
+    - file: papers/2026-08-22-azufre-nativo-gale-marte/notebook
+      title: Notebook
   - file: papers/2026-08-19-fusion-lkh-cumulos-globulares/README
     title: "La fusión que se nos había escondido"
     sections:

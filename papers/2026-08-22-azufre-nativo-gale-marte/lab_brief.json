@@ -1,0 +1,197 @@
+{
+  "version": "1.0",
+  "paper_id": 2896,
+  "doi": "10.1126/science.adu5501",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Las piedras claras del depósito tienen 83,28 wt% de azufre (reportado como SO₃) frente a 16,39 wt% en las rocas vecinas de Gediz Vallis",
+      "supported": "yes",
+      "detail": "+66,90 puntos porcentuales, 5,08x. d de Cohen = 18,87; Mann-Whitney p = 2,79e-05. n = 10 análisis sobre 5 piedras vs 16 análisis vecinos. Ningún análisis cae entre 19,80 y 72,08 wt%",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 18.87,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El pico de emisión del azufre domina el espectro de las piedras claras, y en las rocas vecinas manda el silicio",
+      "supported": "yes",
+      "detail": "En Snow_Lakes S Kα llega a 42,40 cuentas/s, 6,88 veces el pico elemental más alto fuera del azufre. En Rixford_Pass el orden se invierte: Si 8,52 cuentas/s contra 2,01 de azufre (0,24x). Ventana 1-8 keV, espectros normalizados por tiempo de integración",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "ratio",
+        "value": 6.88,
+        "interpretation": "dominante"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "A las piedras claras les faltan los cationes que un sulfato necesitaría: FeO cae a 0,07 de su valor vecino, CaO a 0,18, SiO₂ a 0,21 y MgO a 0,32",
+      "supported": "yes",
+      "detail": "CaO 1,12 vs 6,18 wt% (d = 7,91); MgO 2,29 vs 7,20 (d = 4,45); FeO 1,36 vs 18,28 (d = 13,23); SiO₂ 7,78 vs 37,61 (d = 13,65)",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 13.65,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La razón Compton/Rayleigh de las piedras claras es 1,39 frente a 1,83 en el resto, señal de poca concentración de elementos ligeros",
+      "supported": "yes",
+      "detail": "d de Cohen = 5,60; Mann-Whitney p = 2,71e-05. Medida independiente de las concentraciones de óxidos. El paper extrapola 1,245 ± 0,054 para piedra clara sin arena",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 5.6,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El material de las piedras claras es azufre elemental (S⁰) y no un sulfato",
+      "supported": "partial",
+      "detail": "Es la conclusión afirmada del paper, sostenida por cuatro líneas de evidencia. El APXS mide elementos, no forma química: reporta el azufre como SO₃ por convención de calibración. Los datos del notebook son compatibles con S⁰ y descartan un sulfato común, pero no miden la molécula",
+      "certainty_tier": "T1",
+      "abstract_verb": "found",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "El depósito se formó en el sitio, dentro del cañón encajado en el suelo de Gediz Vallis",
+      "supported": "partial",
+      "detail": "El abstract dice «appears to have formed in place». Es lectura de la geología del cañón, no una medición; el APXS no la toca",
+      "certainty_tier": "T2",
+      "abstract_verb": "appears to have formed",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "La fuente del azufre fue vapor magmático enfriado en la criosfera someras y liberado por descompresión durante la erosión de Gediz Vallis",
+      "supported": "partial",
+      "detail": "El abstract dice «We propose». Es la hipótesis de los autores sobre el origen; ningún dato del notebook la prueba ni la contradice",
+      "certainty_tier": "T2",
+      "abstract_verb": "propose",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 83.28,
+      "unit": "wt%",
+      "context": "azufre medio en las piedras claras, reportado como SO₃ (mediana 83,06; IQR 82,43-86,49; rango 72,08-88,08)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 16.39,
+      "unit": "wt%",
+      "context": "azufre medio en las rocas vecinas de Gediz Vallis (mediana 17,48; IQR 15,51-18,29)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 66.9,
+      "unit": "puntos porcentuales",
+      "context": "diferencia absoluta entre piedras claras y rocas vecinas; 5,08x",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 18.87,
+      "unit": "d de Cohen",
+      "context": "tamaño de efecto del contraste de azufre, Mann-Whitney p = 2,79e-05",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.39,
+      "unit": "razón Compton/Rayleigh",
+      "context": "media en piedras claras frente a 1,83 en el resto (d = 5,60)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26,
+      "unit": "análisis APXS",
+      "context": "total de la campaña, entre los soles 4.196 y 4.318; 10 de ellos sobre 5 piedras claras",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2100,
+      "unit": "metros cuadrados",
+      "context": "área del depósito triangular de piedras claras en el suelo de Gediz Vallis",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 42.4,
+      "unit": "cuentas por segundo",
+      "context": "pico S Kα en Snow_Lakes, 21 veces el de Rixford_Pass y 6,88 veces el siguiente pico elemental",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "found",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: «encontraron que las piedras son de azufre nativo». El HALLAZGO COMPOSICIONAL está afirmado — no descalarlo a «sugieren»."
+    },
+    {
+      "abstract_verb": "appears to have formed",
+      "tier": "T2",
+      "cam_attenuator": "«parece haberse formado en el sitio» / «todo apunta a que se formó ahí». NO afirmar como establecido."
+    },
+    {
+      "abstract_verb": "implies",
+      "tier": "T2",
+      "cam_attenuator": "«implica que» con marco de inferencia. NO usar «demuestra»."
+    },
+    {
+      "abstract_verb": "propose",
+      "tier": "T2",
+      "cam_attenuator": "«proponen que» / «la hipótesis que manejan». El vapor magmático y la trampa de hielo son PROPUESTA, no medición."
+    },
+    {
+      "abstract_verb": "unlikely / cannot fully exclude",
+      "tier": "T3",
+      "cam_attenuator": "«consideran improbable», «no pueden descartar del todo». Son juicios de plausibilidad de los autores."
+    }
+  ],
+  "narrative_hooks": [
+    "En Marte el azufre siempre viene agarrado a otra cosa. Una rueda de Curiosity partió una piedra clara y adentro había azufre elemental.",
+    "No es que sobre azufre: es que falta todo lo demás. El hierro cae a un catorceavo de su valor vecino.",
+    "La columna de datos se llama SO3 y eso no quiere decir sulfato — el instrumento reporta el azufre como si lo fuera, por convención."
+  ],
+  "limitations": [
+    "Diseño observacional: Curiosity midió lo que había, no hay manipulación experimental ni causa demostrada.",
+    "El APXS mide elementos, no forma química: la columna SO3_pct es azufre reportado como si fuera sulfato, por convención de calibración.",
+    "Los 26 análisis no son 26 rocas: hay medidas repetidas sobre el mismo objetivo, así que los tests tratan como independientes medidas que no lo son. Agregando por roca (6 vs 12) el contraste aguanta (SO₃ d = 23,28; p = 1,08e-04).",
+    "El p-valor está topado por el n: 2,79e-05 es el mínimo alcanzable con 10 contra 16 observaciones.",
+    "Las cuentas por segundo no son proxy proporcional de concentración: dependen también del polvo, la geometría y la temperatura del cabezal.",
+    "El 1,39 de Compton/Rayleigh incluye arena y polvo; el paper extrapola 1,245 ± 0,054 para la piedra limpia.",
+    "El número de piedras (5) viene del paper: el CSV no trae el mapeo objetivo → piedra.",
+    "Puede haber un recubrimiento de azufre oxidado de ~1 μm que el APXS no resuelva."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados como yes y 8 números clave"
+  },
+  "notebook_slug": "2026-08-22-azufre-nativo-gale-marte",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-22-azufre-nativo-gale-marte/notebook.html",
+  "generated_at": "2026-08-22T11:30:00-05:00"
+}
