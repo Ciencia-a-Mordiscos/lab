@@ -1,0 +1,7 @@
+analisis,matriz,backbone,metodo,soporte_pct
+"Matriz grande, sin restricción",grande (23 taxa),no,Bayesiano (probabilidad posterior),92.9
+"Matriz grande, con backbone molecular",grande (23 taxa),sí,Bayesiano (probabilidad posterior),91.9
+"Matriz pequeña, sin restricción",pequeña (17 taxa),no,Bayesiano (probabilidad posterior),86.9
+"Matriz pequeña, con backbone molecular",pequeña (17 taxa),sí,Bayesiano (probabilidad posterior),90.0
+"Matriz grande, sin restricción",grande (23 taxa),no,Parsimonia (jackknife),66.7
+"Matriz grande, con backbone molecular",grande (23 taxa),sí,Parsimonia (jackknife),20.0

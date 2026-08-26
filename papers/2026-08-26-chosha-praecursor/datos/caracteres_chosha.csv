@@ -1,0 +1,59 @@
+n_caracter,caracter_es,caracter_en,region,tipo_anatomia,estado_chosha,codificado
+1,Tagmosis (división del cuerpo),Tagmosis,Cuerpo y cabeza,Externa,1,1
+2,Escamas o macroquetas en el tegumento,Body integument covered by scales or macrochaetae ,Cuerpo y cabeza,Externa,0,1
+3,Escudo cefálico o caparazón,Head shield or carapace,Cuerpo y cabeza,Externa,1,1
+4,Ocelos frontales,Frontal ocelli,Cuerpo y cabeza,Externa,?,0
+5,Ojos laterales,Lateral eyes,Cuerpo y cabeza,Externa,0,1
+6,Contacto entre los ojos laterales,Contact of lateral eyes,Cuerpo y cabeza,Externa,0,1
+7,Antenas (A1),Antennae (A1),Antenas y piezas bucales,Externa,2,1
+8,Antenas (A2),Antennae (A2),Antenas y piezas bucales,Externa,1,1
+9,Órgano de Johnston,Johnston?s organ,Antenas y piezas bucales,Externa,?,0
+10,Articulación basal de la mandíbula,Basal articulation of the mandible,Antenas y piezas bucales,Externa,?,0
+11,Lacinia mobilis,Lacinia mobilis,Antenas y piezas bucales,Externa,?,0
+12,Palpo mandibular,Mandibular palp,Antenas y piezas bucales,Externa,1,1
+13,Paragnatos o hipofaringe,Paragnathes or hypopharynx,Antenas y piezas bucales,Externa,?,0
+14,Palpo de la primera maxila,Palp of the first maxillae,Antenas y piezas bucales,Externa,?,0
+15,Fusión de la segunda maxila,Fusion of Mx2,Antenas y piezas bucales,Externa,1,1
+16,Endoesqueleto cuticular de la cabeza,Cuticular head endoskeleton,Antenas y piezas bucales,Externa,?,0
+17,Número de patas torácicas o del tronco,Number of thoracic or trunk limbs,Patas torácicas,Externa,1,1
+18,Tipo de toracópodo,Types of thoracopod,Patas torácicas,Externa,1,1
+19,Patas más anteriores del tronco,Anteriormost trunk limbs,Patas torácicas,Externa,0,1
+20,Procesos coxales,Coxal processes,Patas torácicas,Externa,0,1
+21,Tarso y pretarso,Tarsus and pretarsus,Patas torácicas,Externa,1,1
+22,Uña pretarsal en adultos,Pretarsal claw in adults,Patas torácicas,Externa,1,1
+23,Subdivisión del tarso,Subdivision of tarsus,Patas torácicas,Externa,0,1
+24,Articulación del pretarso,Articulation of the pretarsus,Patas torácicas,Externa,1,1
+25,Alas,Wings,Abdomen y extremo posterior,Externa,0,1
+26,Número de segmentos abdominales,Number of abdominal segments,Abdomen y extremo posterior,Externa,3,1
+27,Presencia de apéndices abdominales,Presence of abdominal appendages,Abdomen y extremo posterior,Externa,0,1
+28,Estructura de los apéndices abdominales,Structure of the abdominal appendages,Abdomen y extremo posterior,Externa,4,1
+29,Segmentación de los apéndices abdominales,Segmentation of abdominal appendages,Abdomen y extremo posterior,Externa,2,1
+30,Filamento terminal,Terminal filament,Abdomen y extremo posterior,Externa,1,1
+31,Ramas caudales o cercos,Caudal rami or cerci,Abdomen y extremo posterior,Externa,0,1
+32,Presencia de ovipositor,Ovipositor presence,Abdomen y extremo posterior,Externa,1,1
+33,Morfología del ovipositor,Ovipositor morphology,Abdomen y extremo posterior,Externa,?,0
+34,Deutocerebro,Deutocerebrum,Sistema nervioso,Interna o blanda,?,0
+35,Tritocerebro,Tritocerebrum,Sistema nervioso,Interna o blanda,?,0
+36,Cordón nervioso ventral,Ventral nerve cord,Sistema nervioso,Interna o blanda,?,0
+37,Sistema traqueal,Tracheal system,Sistema respiratorio,Interna o blanda,?,0
+38,Número y disposición de espiráculos,Number and arrangement of spiracles,Sistema respiratorio,Interna o blanda,?,0
+39,Corazón,Heart,Sistema circulatorio,Interna o blanda,?,0
+40,Número de ostiolos,Number of ostia,Sistema circulatorio,Interna o blanda,?,0
+41,Sistema arterial,Arterial system,Sistema circulatorio,Interna o blanda,?,0
+42,Intestino anterior,Foregut,Digestivo y excretor,Interna o blanda,?,0
+43,Intestino medio,Midgut,Digestivo y excretor,Interna o blanda,?,0
+44,Órganos excretores segmentarios,Segmental excretory organs,Digestivo y excretor,Interna o blanda,?,0
+45,Túbulos de Malpighi,Malpighian tubules,Digestivo y excretor,Interna o blanda,?,0
+46,Ovarios,Ovaries,Reproductor y espermatozoide,Interna o blanda,?,0
+47,Paridad de los gonoporos masculinos,Parity of the male gonopores,Reproductor y espermatozoide,Interna o blanda,1,1
+48,Gonópodos o gonocoxitos masculinos,Male gonopods or gonocoxites at the posterior end of the trunk,Reproductor y espermatozoide,Interna o blanda,?,0
+49,Pene,Penis,Reproductor y espermatozoide,Interna o blanda,?,0
+50,Forma del espermatozoide,Sperm shape,Reproductor y espermatozoide,Interna o blanda,?,0
+51,Acrosoma,Acrosome,Reproductor y espermatozoide,Interna o blanda,?,0
+52,Núcleo del espermatozoide,Sperm nucleus,Reproductor y espermatozoide,Interna o blanda,?,0
+53,Patrón axonemal,Axonemal pattern,Reproductor y espermatozoide,Interna o blanda,?,0
+54,Emparejamiento de espermatozoides,Sperm pairing,Reproductor y espermatozoide,Interna o blanda,?,0
+55,Fecundación,Fertilization,Reproductor y espermatozoide,Interna o blanda,?,0
+56,Tejidos extraembrionarios,Extra-embryonic tissues,Desarrollo,Interna o blanda,?,0
+57,Desarrollo postembrionario,Postembryonic development,Desarrollo,Interna o blanda,?,0
+58,Metamorfosis,Metamorphosis,Desarrollo,Interna o blanda,?,0

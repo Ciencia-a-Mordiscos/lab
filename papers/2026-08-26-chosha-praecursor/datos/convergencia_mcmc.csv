@@ -1,0 +1,9 @@
+analisis,matriz,backbone,parametro,media,min_ESS,avg_ESS,PSRF
+largeunconstr,grande (23 taxa),no,TL,4.0331,281.3,291.1,0.9984
+largeunconstr,grande (23 taxa),no,alpha,1.5914,265.1,283.1,0.9993
+largeconstr,grande (23 taxa),sí,TL,4.216,125.9,176.7,1.0008
+largeconstr,grande (23 taxa),sí,alpha,1.6467,181.8,216.9,1.001
+smallunconstr,pequeña (17 taxa),no,TL,2.9433,263.1,282.0,1.0015
+smallunconstr,pequeña (17 taxa),no,alpha,1.4638,301.0,301.0,0.9989
+smallconstr,pequeña (17 taxa),sí,TL,2.9987,287.5,294.2,1.0009
+smallconstr,pequeña (17 taxa),sí,alpha,1.642,248.9,275.0,1.0

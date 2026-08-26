@@ -723,6 +723,11 @@ parts:
       title: Notebook
 - caption: Biología
   chapters:
+  - file: papers/2026-08-26-chosha-praecursor/README
+    title: "Chosha praecursor: 26 caracteres para el insecto más antiguo"
+    sections:
+    - file: papers/2026-08-26-chosha-praecursor/notebook
+      title: Notebook
   - file: papers/2026-07-21-genetic-tradeoffs-fertility-longevity/README
     title: "Los genes que nos enferman... y por qué la evolución no los borra"
     sections:

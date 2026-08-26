@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### [Chosha praecursor: 26 caracteres para decidir el insecto más antiguo](papers/2026-08-26-chosha-praecursor/README.md)
+
+**Biología** · *Nature* (2026) · Un fósil del Carbonífero en Texas con patas abdominales en forma de remo. De los 58 caracteres de la matriz filogenética aporta **26** — el mejor de los 5 fósiles. **El hallazgo:** el test de topologías de los propios autores rechaza las **3** ubicaciones que sacan a *Chosha* de Hexapoda (p = 0,0259 / 0,0153 / 0,0146), pero **no rechaza** la alternativa "hexápodo fuera de Insecta" (**p = 0,1945**). Por eso el abstract dice *strongly favouring* y no *demonstrates*. El fósil conserva **75,8 %** de la anatomía externa y **4,0 %** de la interna o blanda: nervioso, respiratorio, circulatorio y digestivo van a cero. ⚠️ El soporte del grupo de 4 fósiles pasa de **91,9 %** bayesiano a **20,0 %** de remuestreo sobre los mismos datos — dos métricas distintas, veredictos opuestos. ⚠️ La datación de **324 millones de años** y el modo de vida semiacuático **no están** en los datos publicados.
+
+[Notebook](papers/2026-08-26-chosha-praecursor/notebook.ipynb) · [README](papers/2026-08-26-chosha-praecursor/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-26-chosha-praecursor/notebook.ipynb)
+
 ### [Un bosque perturbado tarda una década en soltar el 82 % de su calor extra](papers/2026-08-25-bosques-perturbados-calor-europa/README.md)
 
 **Ecología** · *Nature Geoscience* (2026) · Un bosque europeo quemado, talado o comido por escarabajos está **1,70 °C más caliente** en verano que el bosque intacto de al lado. Este notebook sigue la anomalía año a año. **El hallazgo:** **el 82,07 % de ese calor se disipa en diez años** — pero la mitad se va antes del año 4 y la otra mitad tarda casi seis años más; al año 10 todavía quedan **0,36 °C**. El modelo se apoya en poquísimas variables (los 3 primeros predictores de 21 suman **~63 %**) y cambia de guardia según el bosque: en hoja ancha manda el cambio de vegetación (**27,7 %**), en acícula el cambio de albedo (**28,3 %**). ⚠️ Es **observacional**: nadie quemó un bosque: SHAP mide el peso dentro del modelo, no la causa en el mundo. ⚠️ El **1,70 °C** del abstract y los **2,00 °C** del año 1 de esta cohorte **no son el mismo dato** — distinto alcance y distinto estadístico.

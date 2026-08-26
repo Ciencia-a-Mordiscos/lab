@@ -1,0 +1,6 @@
+n_topologia,hipotesis,ubicacion,ln_L,delta_ln_L,p_valor,rechazada_al_5pct
+1,Hermana de Insecta (dentro de los insectos),Insecta,-1298.0437,0.0,0.6367,0
+2,"Hermana de Hexapoda (hexápodo, pero fuera de Insecta)",Hexapoda,-1303.4819,5.4383,0.1945,0
+3,"Hermana de Remipedia (crustáceo, fuera de Hexapoda)",Fuera de Hexapoda,-1309.1026,11.0589,0.0259,1
+4,Hermana de Labiocarida = Remipedia + Hexapoda,Fuera de Hexapoda,-1309.3792,11.3355,0.0153,1
+5,Hermana de Athalassocarida = Branchiopoda + Remipedia + Hexapoda,Fuera de Hexapoda,-1309.8373,11.7936,0.0146,1

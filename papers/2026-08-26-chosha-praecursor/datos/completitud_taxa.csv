@@ -1,0 +1,24 @@
+taxon,linaje,tipo,n_codificados,n_total,pct_completitud,n_ext_codificados,pct_de_los_58_externos
+Archaeognatha Dilta hibernica,Archaeognatha,Actual,58,58,100.0,33,100.0
+Plecoptera Perlodes microcephala,Plecoptera,Actual,57,58,98.3,32,97.0
+Orthoptera Chorthippus brunneus,Orthoptera,Actual,57,58,98.3,32,97.0
+Collembola Anurida maritima,Collembola,Actual,56,58,96.6,32,97.0
+Collembola Sphaeridia pumilis,Collembola,Actual,56,58,96.6,32,97.0
+Zygentoma Thermobia domestica,Zygentoma,Actual,56,58,96.6,33,100.0
+Diplura Campodea fragilis,Diplura,Actual,55,58,94.8,31,93.9
+Zygentoma Tricholepidion gertschi,Zygentoma,Actual,53,58,91.4,33,100.0
+Diptera Drosophila melanogaster,Diptera,Actual,53,58,91.4,28,84.8
+Malacostraca Allanaspides sp,Malacostraca,Actual,52,58,89.7,29,87.9
+Protura Acerentomon sp,Protura,Actual,52,58,89.7,30,90.9
+Malacostraca Nebalia sp,Malacostraca,Actual,51,58,87.9,28,84.8
+Malacostraca Euphausia,Malacostraca,Actual,50,58,86.2,29,87.9
+Protura Eosentomon transitorium,Protura,Actual,50,58,86.2,29,87.9
+Branchiopoda Artemia salina,Branchiopoda,Actual,49,58,84.5,27,81.8
+Cephalocarida Lightiella incisa,Cephalocarida,Actual,48,58,82.8,26,78.8
+Remipedia Xibalbanus tulumensis,Remipedia,Actual,46,58,79.3,26,78.8
+Mystacocarida Derocheilocaris remanei,Mystacocarida,Actual,44,58,75.9,24,72.7
+Chosha praecursor,Fósil paleozoico,Fósil,26,58,44.8,25,75.8
+Monura Dasyleptus triassicus,Fósil paleozoico,Fósil,24,58,41.4,24,72.7
+Mazon Creek CMNIF 2342,Fósil paleozoico,Fósil,22,58,37.9,22,66.7
+Mazon Creek CMNIF 790,Fósil paleozoico,Fósil,20,58,34.5,20,60.6
+Leverhulmia mariae,Fósil paleozoico,Fósil,16,58,27.6,16,48.5

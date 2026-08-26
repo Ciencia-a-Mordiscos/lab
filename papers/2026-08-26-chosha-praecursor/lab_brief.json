@@ -1,0 +1,228 @@
+{
+  "version": "1.0",
+  "paper_id": 2909,
+  "doi": "10.1038/s41586-026-10961-2",
+  "paper_type": "descriptive",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El análisis filogenético ubica a Chosha praecursor dentro de Hexapoda",
+      "supported": "yes",
+      "detail": "El test de Shimodaira-Hasegawa rechaza las 3 topologías que la sacan de Hexapoda (p = 0,0259 / 0,0153 / 0,0146) y no rechaza las 2 que la dejan dentro",
+      "certainty_tier": "T1",
+      "abstract_verb": "recovers",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La evidencia favorece con fuerza que Chosha sea un insecto de divergencia temprana, pero no lo confirma",
+      "supported": "partial",
+      "detail": "La topología 'hermana de Insecta' tiene la mejor verosimilitud (ln L = -1298,04) y p = 0,6367, pero la alternativa 'hexápodo fuera de Insecta' no se rechaza (p = 0,1945). El abstract dice 'strongly favouring', no 'demonstrates'",
+      "certainty_tier": "T2",
+      "abstract_verb": "strongly favouring",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Chosha praecursor es el fósil mejor codificado de la matriz, con 26 de 58 caracteres (44,8 %)",
+      "supported": "yes",
+      "detail": "Por encima de Dasyleptus triassicus (41,4 %), Mazon Creek CMNIF 2342 (37,9 %), CMNIF 790 (34,5 %) y Leverhulmia mariae (27,6 %)",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Lo que el fósil conserva es anatomía externa: 75,8 % de los caracteres externos frente al 4,0 % de los internos o blandos",
+      "supported": "yes",
+      "detail": "25 de 33 caracteres externos codificados frente a 1 de 25 internos o blandos. Sistema nervioso, respiratorio, circulatorio, digestivo y desarrollo: 0 caracteres",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveals",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El soporte del grupo que forman los 4 fósiles depende del método: bayesiano 86,9-92,9 %, remuestreo de parsimonia 20,0-66,7 %",
+      "supported": "partial",
+      "detail": "En la matriz grande con esqueleto molecular el mismo grupo pasa de 91,9 % bayesiano a 20,0 % de remuestreo. Son metricas distintas (probabilidad posterior vs frecuencia de remuestreo), asi que lo que cuenta es el desacuerdo de veredicto",
+      "certainty_tier": "T2",
+      "abstract_verb": "demonstrates",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las cuatro cadenas bayesianas convergieron",
+      "supported": "yes",
+      "detail": "PSRF entre 0,9984 y 1,0015 y tamano efectivo de muestra minimo entre 125,9 y 301,0 en los 4 analisis",
+      "certainty_tier": "T1",
+      "abstract_verb": "reconstruction",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El fosil presenta ovipositor y filamento terminal, rasgos de insecto",
+      "supported": "partial",
+      "detail": "Los caracteres 32 (presencia de ovipositor) y 30 (filamento terminal) aparecen codificados en la matriz, consistente con el paper. Pero el archivo no trae etiquetas de estado: se puede ver que estan codificados, no que significa cada estado",
+      "certainty_tier": "T1",
+      "abstract_verb": "possesses",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Chosha praecursor tiene unos 324 millones de anos y viene de la Formacion Tesnus, en Texas",
+      "supported": "no",
+      "detail": "La datacion y la geologia no estan en el repositorio de datos. Es informacion del articulo, no verificable con estos archivos",
+      "certainty_tier": "T1",
+      "abstract_verb": "describe",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Los apendices abdominales sugieren un modo de vida semiacuatico en al menos algunos insectos del linaje troncal",
+      "supported": "no",
+      "detail": "Inferencia del equipo a partir de la morfologia. El abstract la enuncia como sugerencia y con alcance limitado ('at least some'). Los datos publicados no la tocan",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Estos fosiles del grupo troncal representan los insectos mas antiguos sin discusion",
+      "supported": "no",
+      "detail": "Requiere comparar contra el registro fosil completo, ausente del dataset. Es un planteamiento de los autores",
+      "certainty_tier": "T2",
+      "abstract_verb": "represent",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.6367,
+      "unit": "valor p",
+      "context": "test SH para la topologia 'hermana de Insecta' — la mejor de las cinco, no rechazada",
+      "source": "test_topologias.csv",
+      "verified": true
+    },
+    {
+      "value": 0.1945,
+      "unit": "valor p",
+      "context": "test SH para 'hexapodo fuera de Insecta' — NO se rechaza, y por eso el paper dice 'strongly favouring' y no 'demonstrates'",
+      "source": "test_topologias.csv",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "de 5 topologias",
+      "context": "hipotesis rechazadas al 5 % — son exactamente las tres que sacan a Chosha de Hexapoda (p = 0,0259 / 0,0153 / 0,0146)",
+      "source": "test_topologias.csv",
+      "verified": true
+    },
+    {
+      "value": 26,
+      "unit": "de 58 caracteres",
+      "context": "lo que Chosha praecursor permite codificar en la matriz = 44,8 %, el mejor de los 5 fosiles",
+      "source": "completitud_taxa.csv",
+      "verified": true
+    },
+    {
+      "value": 75.8,
+      "unit": "por ciento",
+      "context": "caracteres de anatomia externa codificados en Chosha (25 de 33), frente al 4,0 % de los internos o blandos (1 de 25)",
+      "source": "caracteres_chosha.csv",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "de 8 caracteres",
+      "context": "patas toracicas de Chosha, la region mejor conservada; abdomen 8 de 9; sistema nervioso, respiratorio, circulatorio, digestivo y desarrollo: 0",
+      "source": "caracteres_chosha.csv",
+      "verified": true
+    },
+    {
+      "value": 92.9,
+      "unit": "por ciento",
+      "context": "soporte bayesiano maximo del grupo de 4 fosiles (matriz grande sin restriccion); el minimo bayesiano es 86,9 %",
+      "source": "soportes_clado_fosil.csv",
+      "verified": true
+    },
+    {
+      "value": 20.0,
+      "unit": "por ciento",
+      "context": "soporte del mismo grupo por remuestreo jackknife de parsimonia en la matriz grande con esqueleto molecular, donde el bayesiano da 91,9 %",
+      "source": "soportes_clado_fosil.csv",
+      "verified": true
+    },
+    {
+      "value": 31.1,
+      "unit": "puntos porcentuales",
+      "context": "brecha entre el fosil mejor codificado (Chosha, 44,8 %) y el taxon actual peor codificado (Mystacocarida, 75,9 %) — no hay solapamiento",
+      "source": "completitud_taxa.csv",
+      "verified": true
+    },
+    {
+      "value": 324,
+      "unit": "millones de anos",
+      "context": "edad de Chosha praecursor segun el paper (Mississippiense tardio, Formacion Tesnus, Texas) — NO verificable con los datos publicados",
+      "source": "paper_abstract",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "describe",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "reveals",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "recovers as a hexapod",
+      "tier": "T1",
+      "cam_attenuator": "'el analisis lo ubica como hexapodo' — respaldado por el test SH"
+    },
+    {
+      "abstract_verb": "strongly favouring",
+      "tier": "T2",
+      "cam_attenuator": "'la evidencia apunta con fuerza a' — NUNCA 'demuestra que es un insecto'"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'sugieren' / 'todo apunta a' — aplica al modo de vida semiacuatico"
+    },
+    {
+      "abstract_verb": "at least some",
+      "tier": "T2",
+      "cam_attenuator": "conservar el alcance: 'en al menos algunos', no en todos"
+    },
+    {
+      "abstract_verb": "represent",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que representan' — no escalar"
+    },
+    {
+      "abstract_verb": "partly reconcile",
+      "tier": "T2",
+      "cam_attenuator": "conservar el 'en parte' — es el hedge de alcance del propio paper"
+    }
+  ],
+  "narrative_hooks": [
+    "El test que corrieron los propios autores descarta que Chosha sea un crustaceo, pero no descarta que sea un hexapodo que nunca llego a insecto: p = 0,1945.",
+    "De 58 caracteres anatomicos, el fosil aporta 26. Con eso hay que ubicarlo en el arbol de la vida.",
+    "Las patas toracicas estan completas, 8 de 8. El sistema nervioso, el respiratorio, el circulatorio y el digestivo van a cero: una piedra no guarda un cerebro.",
+    "El mismo grupo de cuatro fosiles tiene 91,9 % de soporte con un metodo y 20,0 % con el otro, sobre exactamente los mismos datos.",
+    "Entre el fosil mejor conocido y el ser vivo peor conocido de la matriz hay 31,1 puntos de vacio: ni un solo taxon en medio."
+  ],
+  "limitations": [
+    "La matriz no trae etiquetas de estado: se puede saber CUANTOS caracteres estan codificados, nunca QUE significa el estado '0' o el '4'.",
+    "La completitud de codificacion es una simplificacion didactica nuestra, no una metrica estandar en filogenetica. Ademas descarta tanto los '?' como los '-' (inaplicable), y solo los taxa actuales tienen '-', asi que estrecha artificialmente la distancia fosil/actual.",
+    "El test de topologias se corrio con 19 taxa, excluyendo a Leverhulmia, a los dos ejemplares de Mazon Creek y a Dasyleptus: sus valores hablan solo de Chosha.",
+    "No hay una matriz sino dos: la grande de 23 taxa y una recortada a 17. Los dos analisis de parsimonia solo corren sobre la grande.",
+    "Cinco fosiles no son una muestra: toda la comparacion descansa en n = 5 de un lado y n = 18 del otro.",
+    "Es un analisis comparativo, no experimental. Ninguna cifra dice que causo la forma de Chosha.",
+    "La datacion (324 millones de anos), la geologia y el modo de vida semiacuatico no estan en los datos publicados."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims soportados (5 'yes' + varios 'partial') y 10 numeros clave verificados"
+  },
+  "notebook_slug": "2026-08-26-chosha-praecursor",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-26-chosha-praecursor/notebook.html",
+  "generated_at": "2026-08-26T18:30:00-05:00"
+}

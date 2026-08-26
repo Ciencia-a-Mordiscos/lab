@@ -1,0 +1,31 @@
+titulo: "Chosha praecursor: 26 caracteres para decidir el insecto más antiguo"
+fecha: 2026-08-26
+categoria: biología
+tags: [paleontología, filogenia, insectos, carbonífero, fósiles, evolución]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10961-2"
+    titulo: "Amphibious stem-insect sheds light on colonization of land"
+    journal: Nature
+    autores: "Tihelka et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "test_topologias.csv"
+    descripcion: "Test de Shimodaira-Hasegawa sobre 5 ubicaciones de Chosha"
+    fuente: "Zenodo 10.5281/zenodo.19565989"
+  - nombre: "caracteres_chosha.csv"
+    descripcion: "Los 58 caracteres de la matriz y el estado codificado en Chosha"
+    fuente: "Zenodo 10.5281/zenodo.19565989"
+  - nombre: "completitud_taxa.csv"
+    descripcion: "Caracteres codificados por taxón (23 taxa)"
+    fuente: "Zenodo 10.5281/zenodo.19565989"
+  - nombre: "soportes_clado_fosil.csv"
+    descripcion: "Soporte bayesiano y de parsimonia del clado de 4 fósiles"
+    fuente: "Zenodo 10.5281/zenodo.19565989"
+  - nombre: "convergencia_mcmc.csv"
+    descripcion: "PSRF y ESS de los 4 análisis de MrBayes"
+    fuente: "Zenodo 10.5281/zenodo.19565989"
+estado: publicado
