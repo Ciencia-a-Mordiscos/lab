@@ -1,0 +1,43 @@
+tipo_bosque,predictor,predictor_es,shap_medio_abs_c,contribucion_relativa_pct
+Broadleaf,EVI_difference,EVI change,0.367402092483015,27.6967908334742
+Broadleaf,albedo_difference,Albedo change,0.281759247280073,21.2405620353784
+Broadleaf,disturbance_size,Disturbance size,0.181227906686759,13.6619565522033
+Broadleaf,roughness_vh_difference,Roughness change - VH,0.111806659926244,8.42860108073475
+Broadleaf,longitude,Longitude,0.0440282034851081,3.31908818063428
+Broadleaf,latitude,Latitude,0.0399164565076701,3.00912207449531
+Broadleaf,EVI_mean,Mean local EVI,0.0360229290345486,2.71560655503098
+Broadleaf,temperature,Local temperature,0.0318668146697478,2.40229579116481
+Broadleaf,albedo_mean,Mean local albedo,0.0301163539929601,2.27033643595386
+Broadleaf,sand,Sand content,0.0293572236545799,2.21310901502285
+Broadleaf,radiation,Local net radiation,0.0267282497474895,2.01492249975495
+Broadleaf,roughness_vv_difference,Roughness change - VV,0.0252461108437345,1.90319071585022
+Broadleaf,slope,Slope,0.0216226968620736,1.63003783728357
+Broadleaf,clay,Clay content,0.0206394565536774,1.55591577396965
+Broadleaf,elevation,Elevation,0.0198902803031101,1.49943874693604
+Broadleaf,roughness_vv_mean,Roughness mean - VV,0.0175690687792187,1.32445305313397
+Broadleaf,precipitation,Local precipitation,0.0169450582830845,1.27741170921425
+Broadleaf,roughness_vh_mean,Roughness mean - VH,0.0168694342359729,1.27171075253032
+Broadleaf,dominant_forest_type,Forest type,0.0042965073577067,0.323894359982144
+Broadleaf,dominant_agent_type,Agent type,0.0032042766028701,0.241555997252226
+Broadleaf,dominant_leaf_type,Leaf type,0.0,0.0
+Needleleaf,albedo_difference,Albedo change,0.371248085136308,28.2980672627237
+Needleleaf,EVI_difference,EVI change,0.248991728531212,18.9791812104594
+Needleleaf,disturbance_size,Disturbance size,0.202302233163016,15.4203144222126
+Needleleaf,roughness_vh_difference,Roughness change - VH,0.0903450267350399,6.88647226951229
+Needleleaf,longitude,Longitude,0.076685258220851,5.84526811605295
+Needleleaf,latitude,Latitude,0.0527354008187793,4.01971075203954
+Needleleaf,temperature,Local temperature,0.0317379800632916,2.41920034223005
+Needleleaf,slope,Slope,0.0277491334699392,2.11515392766625
+Needleleaf,roughness_vv_difference,Roughness change - VV,0.0268309474376672,2.04516598391325
+Needleleaf,EVI_mean,Mean local EVI,0.0264269756860029,2.01437358320191
+Needleleaf,albedo_mean,Mean local albedo,0.0238580022979644,1.8185557873898
+Needleleaf,precipitation,Local precipitation,0.0202466660518582,1.54328477565352
+Needleleaf,elevation,Elevation,0.0198863195356069,1.51581767114031
+Needleleaf,radiation,Local net radiation,0.0188878837396953,1.43971275789923
+Needleleaf,roughness_vv_mean,Roughness mean - VV,0.0182067274352013,1.38779220209644
+Needleleaf,sand,Sand content,0.0165062534876024,1.25817503213852
+Needleleaf,roughness_vh_mean,Roughness mean - VH,0.0157404987929304,1.19980603651497
+Needleleaf,clay,Clay content,0.0136788823110441,1.04266108625094
+Needleleaf,dominant_forest_type,Forest type,0.005978856804448,0.455733238177761
+Needleleaf,dominant_agent_type,Agent type,0.0038774268848042,0.295553542726549
+Needleleaf,dominant_leaf_type,Leaf type,0.0,0.0

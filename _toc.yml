@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-08-25-bosques-perturbados-calor-europa/README
+    title: "Una década para soltar el calor"
+    sections:
+    - file: papers/2026-08-25-bosques-perturbados-calor-europa/notebook
+      title: Notebook
   - file: papers/2026-08-20-solar-china-aves-diversidad/README
     title: "Más hoja verde, menos aves"
     sections:

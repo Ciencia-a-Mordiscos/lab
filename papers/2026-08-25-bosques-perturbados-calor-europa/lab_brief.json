@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "paper_id": 2905,
+  "doi": "10.1038/s41561-026-02071-5",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El bosque perturbado está 1,70 °C más caliente en verano que el bosque intacto a 100-500 m",
+      "supported": "yes",
+      "supported_by_data": false,
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "detail": "Verbatim del abstract. NO reproducible aquí: vive en un CSV de 676 MB que no se descargó"
+    },
+    {
+      "claim": "Más del 82 % del calentamiento se disipa en diez años",
+      "supported": "yes",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "detail": "Réplica exacta: 82,07 % sobre la trayectoria de la cohorte (año 1: 2,00 °C → año 10: 0,36 °C)"
+    },
+    {
+      "claim": "La caída es más fuerte al principio: del año 1 al 2 se va el 27,9 %",
+      "supported": "yes",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "detail": "La mitad del calor cruza el umbral entre el año 3 y el año 4"
+    },
+    {
+      "claim": "La recuperación NO es monótona: en el año 9 la anomalía sube 0,032 °C sobre el año 8",
+      "supported": "no",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "detail": "Única diferencia positiva de las 9. Un punto por año, sin dispersión intra-año para juzgarlo"
+    },
+    {
+      "claim": "La pérdida de vegetación y estructura del dosel lleva el mayor peso",
+      "supported": "partial",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "driven primarily by",
+      "detail": "Soportado como importancia dentro del modelo (SHAP), no como efecto causal. Diseño observacional"
+    },
+    {
+      "claim": "Los bosques de acícula se calientan más que los de hoja ancha",
+      "supported": "partial",
+      "supported_by_data": false,
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "detail": "Lo dice el abstract. Nuestros CSV muestran el cambio de reparto de predictores (albedo 28,3 % en acícula vs EVI 27,7 % en hoja ancha), no las anomalías por tipo"
+    },
+    {
+      "claim": "El tamaño del parche es un factor secundario frente a EVI y albedo, no marginal",
+      "supported": "partial",
+      "supported_by_data": true,
+      "certainty_tier": "T2",
+      "abstract_verb": "emerging as",
+      "detail": "Su aporte va de −0,45 a +0,37 °C, pero es el 3.º de 21 predictores (13,7 % hoja ancha, 15,4 % acícula)"
+    },
+    {
+      "claim": "El modelo se apoya en pocas variables: los 3 primeros suman cerca del 63 % de 21",
+      "supported": "yes",
+      "supported_by_data": true,
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "detail": "62,6 % en hoja ancha y 62,7 % en acícula. 33 de las 42 contribuciones quedan bajo el reparto igualitario de 4,76 %"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1.7,
+      "unit": "°C",
+      "context": "bosque perturbado vs bosque intacto a 100-500 m del borde",
+      "source": "abstract",
+      "verified": true
+    },
+    {
+      "value": 82.07,
+      "unit": "por ciento",
+      "context": "del calentamiento disipado en diez años",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "more than 82%",
+        "our_calculation": "82,07%",
+        "discrepancy_pct": 0.0,
+        "reason": "réplica exacta"
+      }
+    },
+    {
+      "value": 1.997,
+      "unit": "°C",
+      "context": "mediana anual de la anomalía en el año 1 de la cohorte",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.358,
+      "unit": "°C",
+      "context": "mediana anual de la anomalía en el año 10",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 27.9,
+      "unit": "por ciento",
+      "context": "caída del calor entre el año 1 y el año 2",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1.19,
+      "unit": "ha",
+      "context": "tamaño mediano del parche perturbado en Europa",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "driven primarily by",
+      "tier": "T2",
+      "cam_attenuator": "el peso principal recae en"
+    },
+    {
+      "abstract_verb": "emerging as",
+      "tier": "T2",
+      "cam_attenuator": "aparece como el predictor más fuerte"
+    },
+    {
+      "abstract_verb": "potential",
+      "tier": "T3",
+      "cam_attenuator": "el potencial de / podría servir para"
+    }
+  ],
+  "narrative_hooks": [
+    "Un bosque europeo quemado, talado o comido por escarabajos está 1,70 °C más caliente que el intacto de al lado.",
+    "El 82 % de ese calor se va en diez años — pero la mitad tarda menos de un lustro y la otra mitad casi seis años más.",
+    "El parche perturbado mediano en Europa es de 1,19 hectáreas — dato que reporta el paper, no recalculado por el notebook: la perturbación típica no es el incendio de portada.",
+    "En pinares manda el albedo; en hayedos manda la hoja que se perdió. El modelo cambia de guardia según el bosque."
+  ],
+  "limitations": [
+    "Los cuartiles intra-año no se exportaron en la fuente: no hay IQR ni barras de error posibles para la trayectoria.",
+    "n = 10 es la trayectoria completa de una sola cohorte, un punto por año.",
+    "El satélite mide temperatura de superficie inferida de radiancia, no temperatura del aire.",
+    "Diseño observacional: SHAP mide importancia dentro del modelo, no efecto causal medido.",
+    "El 1,70 °C del abstract no es reproducible con los CSV descargados (el original pesa 676 MB).",
+    "Las columnas base_LST_anomaly_C y adjusted_LST_anomaly_C de la fuente son idénticas.",
+    "El tamaño mediano del parche (1,19 ha) y el conteo de 1.425.501 eventos se citan del texto del paper; no se replican con los CSV descargados."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims 'yes' verificados y 6 números clave"
+  },
+  "notebook_slug": "2026-08-25-bosques-perturbados-calor-europa",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-08-25-bosques-perturbados-calor-europa/notebook.html",
+  "generated_at": "2026-08-25T18:30:20.308477"
+}

@@ -1,0 +1,28 @@
+titulo: "Un bosque perturbado tarda una década en soltar el 82 % de su calor extra"
+fecha: 2026-08-25
+categoria: ecología
+tags: [bosques, teledetección, temperatura, europa, perturbaciones, landsat, shap]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-02071-5"
+    titulo: "Disturbance characteristics and forest properties regulate surface warming and recovery across Europe"
+    journal: Nature Geoscience
+    autores: "Su et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "recuperacion_termica.csv"
+    descripcion: "Trayectoria de 10 años: anomalía de temperatura y huella térmica de una cohorte"
+    fuente: "Figshare — Source Data Extended Data Fig. 3"
+  - nombre: "huella_total_anual.csv"
+    descripcion: "Huella térmica anual total con cohortes solapadas"
+    fuente: "Figshare — Source Data Extended Data Fig. 3, panel c"
+  - nombre: "importancia_predictores.csv"
+    descripcion: "Contribución relativa SHAP de 21 predictores en 2 tipos de bosque"
+    fuente: "Figshare — Source Data Extended Data Fig. 2"
+  - nombre: "shap_tamano_parche.csv"
+    descripcion: "Aporte SHAP del tamaño del parche por agente de perturbación (450 puntos)"
+    fuente: "Figshare — Source Data Extended Data Fig. 1"
+estado: publicado

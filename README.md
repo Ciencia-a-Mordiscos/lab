@@ -10,6 +10,7 @@ Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://cienciaamo
 
 | Fecha | Paper | Categoría | Notebook | Colab |
 |-------|-------|-----------|----------|-------|
+| [Un bosque perturbado tarda una década en soltar el 82 % de su calor extra](papers/2026-08-25-bosques-perturbados-calor-europa/README.md) | Ecología | Nature Geoscience | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-25-bosques-perturbados-calor-europa/notebook.ipynb) |
 | [El azufre que en Marte no debería estar suelto](papers/2026-08-22-azufre-nativo-gale-marte/README.md) | Astronomía | Science | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-22-azufre-nativo-gale-marte/notebook.ipynb) |
 | [La rendija de Young, encogida siete órdenes de magnitud](papers/2026-08-19-doble-rendija-atomica-silicio/) | Física | Nature | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-doble-rendija-atomica-silicio/notebook.ipynb) |
 | [Más hoja verde, menos aves](papers/2026-08-20-solar-china-aves-diversidad/README.md) | Ecología | Science | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-20-solar-china-aves-diversidad/notebook.ipynb) |

@@ -12,6 +12,12 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+### [Un bosque perturbado tarda una década en soltar el 82 % de su calor extra](papers/2026-08-25-bosques-perturbados-calor-europa/README.md)
+
+**Ecología** · *Nature Geoscience* (2026) · Un bosque europeo quemado, talado o comido por escarabajos está **1,70 °C más caliente** en verano que el bosque intacto de al lado. Este notebook sigue la anomalía año a año. **El hallazgo:** **el 82,07 % de ese calor se disipa en diez años** — pero la mitad se va antes del año 4 y la otra mitad tarda casi seis años más; al año 10 todavía quedan **0,36 °C**. El modelo se apoya en poquísimas variables (los 3 primeros predictores de 21 suman **~63 %**) y cambia de guardia según el bosque: en hoja ancha manda el cambio de vegetación (**27,7 %**), en acícula el cambio de albedo (**28,3 %**). ⚠️ Es **observacional**: nadie quemó un bosque: SHAP mide el peso dentro del modelo, no la causa en el mundo. ⚠️ El **1,70 °C** del abstract y los **2,00 °C** del año 1 de esta cohorte **no son el mismo dato** — distinto alcance y distinto estadístico.
+
+[Notebook](papers/2026-08-25-bosques-perturbados-calor-europa/notebook.ipynb) · [README](papers/2026-08-25-bosques-perturbados-calor-europa/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-25-bosques-perturbados-calor-europa/notebook.ipynb)
+
 ### [El azufre que en Marte no debería estar suelto](papers/2026-08-22-azufre-nativo-gale-marte/README.md)
 
 **Astronomía** · *Science* (2026) · En Marte el azufre siempre viene agarrado a otra cosa. En el valle de Gediz, Curiosity le apuntó el espectrómetro a un parche de **2.100 m²** de piedras claras y una rueda del rover partió una. **El hallazgo:** en 10 análisis sobre cinco piedras el azufre llega a **83,28 wt%** de media contra **16,39** en las rocas vecinas (**5,08x**, d = 18,87) — y falta todo lo demás: hierro a **0,07** de su valor vecino, calcio a **0,18**. Los cationes que un sulfato necesitaría no están, y la razón Compton/Rayleigh (**1,39 vs 1,83**) lo confirma por una vía independiente. ⚠️ La columna del CSV se llama `SO3_pct` y **eso no quiere decir sulfato**: el APXS reporta el azufre *como si fuera* SO₃ por convención de calibración. ⚠️ El origen —vapor magmático atrapado en la criosfera— es lo que los autores **proponen**, no lo que el rover midió.
