@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/kuBd3sup5Yc)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-01959-6](https://doi.org/10.1038/s41561-026-01959-6)
 - **Datos originales:** [CSIRO Data Collection](https://doi.org/10.25919/9dqy-2x95) + [GitHub (AMOC Analysis)](https://github.com/ncahill89/AMOC-Analysis)

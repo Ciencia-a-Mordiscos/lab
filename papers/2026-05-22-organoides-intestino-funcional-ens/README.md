@@ -35,6 +35,6 @@ Todos los archivos vienen del Source Data publicado con el paper en Nature Biome
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/0WSen7oM184)
 - **Paper:** [Nature Biomedical Engineering — DOI: 10.1038/s41551-026-01688-6](https://doi.org/10.1038/s41551-026-01688-6)
 - **Datos originales:** Supplementary Materials del paper (Source Data Fig 1f, 3f, 3g, 5c, 5f, 6j, Extended Data Fig 1j-l)

@@ -3,7 +3,7 @@ fecha: 2026-04-27
 categoria: ecologia
 tags: [resistencia-antibiotica, calentamiento-global, microbiologia, suelos, metagenomica, salud-publica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/oyUlXwrdmoU"
 fuentes:
   - doi: "10.1038/s41586-026-10413-x"
     titulo: "Decade-long warming accelerates antibiotic resistance in grassland soils"

@@ -3,7 +3,7 @@ fecha: 2026-04-17
 categoria: astronomía
 tags: [agujero-negro, jet, cygnus-x1, vlbi, bayesiano, viento-estelar, potencia-cinética]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/tw-sWkeloBU"
 fuentes:
   - doi: "10.1038/s41550-026-02828-3"
     titulo: "A jet bent by a stellar wind in the black hole X-ray binary Cygnus X-1"

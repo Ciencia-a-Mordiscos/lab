@@ -3,7 +3,7 @@ fecha: 2026-06-06
 categoria: medicina
 tags: [antibioticos, resistencia, ribosoma, manikomicina, streptomyces, farmacocinetica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/JHTfY5Rp8oM"
 fuentes:
   - doi: "10.1038/s41586-026-10589-2"
     titulo: "A natural depsipeptide antibiotic binds the E-site of the bacterial ribosome"

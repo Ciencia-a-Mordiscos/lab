@@ -3,7 +3,7 @@ fecha: 2026-04-29
 categoria: medicina
 tags: [inmunologia, macrofagos, trogocitosis, antigenos, pulmon, citometria]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/GimJkmeFQNI"
 fuentes:
   - doi: "10.1038/s41586-026-10435-5"
     titulo: "Submicrometre sampling of living cells by macrophages"

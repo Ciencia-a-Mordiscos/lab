@@ -25,6 +25,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/1LP-NksBNKY)
 - **Paper:** [State media control influences large language models — Nature, DOI: 10.1038/s41586-026-10506-7](https://doi.org/10.1038/s41586-026-10506-7)
 - **Datos originales:** [Harvard Dataverse — Replication Data (CC0)](https://doi.org/10.7910/DVN/NECR2K)

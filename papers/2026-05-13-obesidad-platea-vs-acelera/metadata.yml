@@ -3,7 +3,7 @@ fecha: 2026-05-13
 categoria: medicina
 tags: [obesidad, epidemiologia, salud-publica, NCD-RisC, BMI, paises-en-desarrollo, paises-desarrollados]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/_sDKEX926eU"
 fuentes:
   - doi: "10.1038/s41586-026-10383-0"
     titulo: "Obesity rise plateaus in developed nations and accelerates in developing nations"

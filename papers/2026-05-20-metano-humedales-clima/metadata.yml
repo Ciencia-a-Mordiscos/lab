@@ -3,7 +3,7 @@ fecha: 2026-05-20
 categoria: ecologia
 tags: [metano, humedales, clima, ensamble, modelos, ch4, calentamiento]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/GviaEF_Qxs8"
 fuentes:
   - doi: "10.1038/s41561-026-01987-2"
     titulo: "Emergent constraints on future methane emissions from global wetlands"

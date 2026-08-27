@@ -3,7 +3,7 @@ fecha: 2026-04-15
 categoria: medicina
 tags: [mitocondrias, LHON, transplante, neurociencia, terapia-genica, heteroplasmia]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/rO6rgSjl4QA"
 fuentes:
   - doi: "10.1038/s41586-026-10391-0"
     titulo: "Cell-type-targeted mitochondrial transplantation rescues cell degeneration"

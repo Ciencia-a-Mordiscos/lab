@@ -25,7 +25,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/ebIm9hRm6sA)
 - **Paper:** [Nature Ecology & Evolution — DOI: 10.1038/s41559-026-03102-5](https://doi.org/10.1038/s41559-026-03102-5)
 - **Datos originales:** [Supplementary Information (MOESM2)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41559-026-03102-5/MediaObjects/41559_2026_3102_MOESM2_ESM.xlsx)
 - **Código de réplica:** [OSF](https://osf.io/2yk8s/)

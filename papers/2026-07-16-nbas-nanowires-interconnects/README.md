@@ -35,6 +35,6 @@ Transcritos de las tablas del material suplementario (mismo DOI):
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/tWjuNqXdS54)
 - **Paper:** [Science — DOI: 10.1126/science.adx3027](https://doi.org/10.1126/science.adx3027)
 - **Datos originales:** [Material suplementario (Science)](https://www.science.org/doi/suppl/10.1126/science.adx3027/suppl_file/science.adx3027_sm.pdf)

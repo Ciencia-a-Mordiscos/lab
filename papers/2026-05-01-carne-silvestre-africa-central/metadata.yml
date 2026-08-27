@@ -3,7 +3,7 @@ fecha: 2026-05-01
 categoria: ecologia
 tags: [ecologia, africa, carne-silvestre, bosques, modelo-bayesiano, conservacion]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/s0VIfLdDwXg"
 fuentes:
   - doi: "10.1038/s41586-026-10422-w"
     titulo: "Increase in wild animal consumption across Central Africa"

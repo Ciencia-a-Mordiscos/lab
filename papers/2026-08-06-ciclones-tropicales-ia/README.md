@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/N_MrgrSR2ec)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10953-2](https://doi.org/10.1038/s41586-026-10953-2)
 - **Datos originales:** [IBTrACS (NOAA NCEI)](https://www.ncei.noaa.gov/products/international-best-track-archive) · [NHC Forecast Verification](https://www.nhc.noaa.gov/verification/verify7.shtml)

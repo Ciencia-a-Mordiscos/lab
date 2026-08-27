@@ -3,7 +3,7 @@ fecha: 2026-07-31
 categoria: medicina
 tags: [biología sintética, ingeniería metabólica, cáncer, etopósido, levadura, lignanos]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/3FS8UWSDAic"
 fuentes:
   - doi: "10.1126/science.aef5438"
     titulo: "Enabling sustainable supply of the essential cancer medicines etoposide and teniposide in yeast"

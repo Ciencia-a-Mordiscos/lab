@@ -30,6 +30,6 @@ Todos derivados de los Source Data oficiales del paper (MOESM4, MOESM7, MOESM10)
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/Q5GflGh5nJ8)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10380-3](https://doi.org/10.1038/s41586-026-10380-3)
 - **Datos originales:** [Source Data MOESM4-MOESM10](https://www.nature.com/articles/s41586-026-10380-3#Sec27) · Dataset canónico (no usado aquí, listado por reproducibilidad): [OSF](https://doi.org/10.17605/OSF.IO/26BFC)

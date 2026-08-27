@@ -35,6 +35,6 @@ Todos derivados del Source Data (Figs. 2–6) que Nature publica junto al paper.
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/pTjdi9LV6dM)
 - **Paper:** [Nature Biomedical Engineering — DOI: 10.1038/s41551-026-01771-y](https://doi.org/10.1038/s41551-026-01771-y)
 - **Datos originales:** [Source Data Figs. 2–6](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41551-026-01771-y/MediaObjects/41551_2026_1771_MOESM11_ESM.xlsx)

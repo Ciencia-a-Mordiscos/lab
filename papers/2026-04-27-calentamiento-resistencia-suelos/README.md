@@ -28,7 +28,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/oyUlXwrdmoU)
 - **Paper:** [Wu et al. (2026), *Nature* — DOI: 10.1038/s41586-026-10413-x](https://doi.org/10.1038/s41586-026-10413-x)
 - **Datos originales:** [Figshare 28829036](https://doi.org/10.6084/m9.figshare.28829036)
 - **Código análisis (autores):** [Linwei-Wu/warming_soil_resistome](https://github.com/Linwei-Wu/warming_soil_resistome)

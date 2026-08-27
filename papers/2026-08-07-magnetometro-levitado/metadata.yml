@@ -3,7 +3,7 @@ fecha: 2026-08-07
 categoria: física
 tags: [magnetometría, levitación, sensores, ruido-johnson, resonancia, instrumentación]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/IT2pe2D4Edc"
 fuentes:
   - doi: "10.1126/science.adx1707"
     titulo: "Levitated sensor for magnetometry in ambient environment"

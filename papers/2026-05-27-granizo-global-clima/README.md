@@ -27,6 +27,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/wODVICAUVU8)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10543-2](https://doi.org/10.1038/s41586-026-10543-2)
 - **Datos originales:** [Figshare 30103471 (datos)](https://doi.org/10.6084/m9.figshare.30103471.v3) · [Figshare 30103474 (código)](https://doi.org/10.6084/m9.figshare.30103474.v2) · [Zenodo 18152366 (trayectorias raw)](https://doi.org/10.5281/zenodo.18152366)

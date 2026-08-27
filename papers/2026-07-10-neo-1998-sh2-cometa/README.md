@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/4rE-pLwCIYk)
 - **Paper:** [Nature Astronomy — DOI: 10.1038/s41550-026-02913-7](https://doi.org/10.1038/s41550-026-02913-7)
 - **Datos originales:** [NASA/JPL Small-Body Database](https://ssd-api.jpl.nasa.gov/doc/sbdb_query.html)

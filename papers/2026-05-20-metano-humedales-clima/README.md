@@ -31,6 +31,6 @@ Todos los archivos provienen de FUMEMIP (Future Wetland Methane Model Intercompa
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/GviaEF_Qxs8)
 - **Paper:** Nature Geoscience — DOI: [10.1038/s41561-026-01987-2](https://doi.org/10.1038/s41561-026-01987-2)
 - **Datos originales:** [FUMEMIP / Zenodo](https://doi.org/10.5281/zenodo.15087724)

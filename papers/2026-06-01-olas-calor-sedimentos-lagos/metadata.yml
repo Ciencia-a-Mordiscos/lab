@@ -3,7 +3,7 @@ fecha: 2026-06-01
 categoria: ecologia
 tags: [ecologia, lagos, clima, ola_de_calor, simulacion, ssp, ensemble, sedimento]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/1ffoaSKU3n4"
 fuentes:
   - doi: "10.1038/s41561-026-01986-3"
     titulo: "Lake sediment heatwaves under global warming"

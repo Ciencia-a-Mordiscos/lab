@@ -27,6 +27,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/UQWyiyVUKPo)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-01985-4](https://doi.org/10.1038/s41561-026-01985-4)
 - **Datos originales:** [Zenodo — hxyocean/TC-carbon-fluxes](https://doi.org/10.5281/zenodo.20077254)

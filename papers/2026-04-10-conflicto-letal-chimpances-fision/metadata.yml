@@ -3,7 +3,7 @@ fecha: 2026-04-10
 categoria: biologia
 tags: [chimpancés, primates, comportamiento, redes sociales, fisión, conflicto, etología]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/PBsecCsjTMg"
 fuentes:
   - doi: "10.1126/science.adz4944"
     titulo: "Lethal conflict after group fission in wild chimpanzees"

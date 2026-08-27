@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/Jn_slU06Orc)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10551-2](https://doi.org/10.1038/s41586-026-10551-2)
 - **Datos originales:** [OMorton/AFR_MiningForestLoss (GitHub)](https://github.com/OMorton/AFR_MiningForestLoss)

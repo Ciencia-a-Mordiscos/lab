@@ -3,7 +3,7 @@ fecha: 2026-04-15
 categoria: neurociencia
 tags: [neurociencia, imaginería, VTC, electrofisiología, percepción, código-neural, neuronas-individuales]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/LYrlPrJrY8c"
 fuentes:
   - doi: "10.1126/science.adt8343"
     titulo: "A shared code for perceiving and imagining objects in human ventral temporal cortex"

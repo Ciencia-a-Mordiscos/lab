@@ -3,7 +3,7 @@ fecha: 2026-05-23
 categoria: medicina
 tags: [tdp-43, ela, rna-chaperones, neurodegeneracion, biofisica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/vm9gbrZWtKo"
 fuentes:
   - doi: "10.1126/science.adv3301"
     titulo: "Short RNA chaperones promote aggregation-resistant TDP-43 conformers to mitigate neurodegeneration"

@@ -27,6 +27,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/_1bsehJ26HM)
 - **Paper:** [Science — DOI: 10.1126/science.adw8526](https://doi.org/10.1126/science.adw8526)
 - **Datos originales:** [GitHub — BICC-UNIL-EPFL/multiSpecies_limbRegeneration](https://github.com/BICC-UNIL-EPFL/multiSpecies_limbRegeneration)

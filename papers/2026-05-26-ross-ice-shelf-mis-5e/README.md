@@ -28,6 +28,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/A7lJOVGykP0)
 - **Paper:** Nature Geoscience (2026) — DOI: [10.1038/s41561-026-01988-1](https://doi.org/10.1038/s41561-026-01988-1)
 - **Datos originales:** [Supplementary Material del paper](https://static-content.springer.com/esm/art%3A10.1038%2Fs41561-026-01988-1/MediaObjects/41561_2026_1988_MOESM2_ESM.xlsx) (Source Data XLSX)

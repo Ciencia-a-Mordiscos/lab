@@ -3,7 +3,7 @@ fecha: 2026-04-03
 categoria: astronomia
 tags: [exoplanetas, trappist-1, jwst, atmósfera, infrarrojo, curva-de-fase]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/G2VQo2nsyzE"
 fuentes:
   - doi: "10.1038/s41550-026-02806-9"
     titulo: "No thick atmosphere around TRAPPIST-1 b and c from JWST thermal phase curves"

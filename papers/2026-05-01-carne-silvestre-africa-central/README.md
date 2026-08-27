@@ -26,7 +26,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/s0VIfLdDwXg)
 - **Paper:** [*Increase in wild animal consumption across Central Africa*](https://doi.org/10.1038/s41586-026-10422-w) — Bessone et al., Nature, 2026
 - **Datos originales:** [Zenodo doi:10.5281/zenodo.19021125](https://doi.org/10.5281/zenodo.19021125)
 - **Código del paper:** [github.com/mattiabessone/Increase-in-wild-animal-consumption-across-Central-Africa](https://github.com/mattiabessone/Increase-in-wild-animal-consumption-across-Central-Africa)

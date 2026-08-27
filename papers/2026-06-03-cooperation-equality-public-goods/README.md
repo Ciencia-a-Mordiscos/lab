@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/fi0ObFVUD28)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10550-3](https://doi.org/10.1038/s41586-026-10550-3)
 - **Datos originales:** [Zenodo — anzhisheng/cooperation-and-inequality v1.0.2](https://doi.org/10.5281/zenodo.19166894)

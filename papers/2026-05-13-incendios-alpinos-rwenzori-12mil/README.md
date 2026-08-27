@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/5Rmm9Qgyb4M)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10511-w](https://doi.org/10.1038/s41586-026-10511-w)
 - **Datos originales:** [PANGAEA — Lake Kopello](https://doi.pangaea.de/10.1594/PANGAEA.987871) · [Lake Mahoma charcoal](https://doi.pangaea.de/10.1594/PANGAEA.987874) · [Lake Mahoma pollen](https://doi.pangaea.de/10.1594/PANGAEA.987876)

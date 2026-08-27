@@ -26,7 +26,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/ixHrugj3PnI)
 - **Paper:** [Science — DOI: 10.1126/science.aeb5171](https://doi.org/10.1126/science.aeb5171)
 - **Código y datos originales:** [github.com/wanglabcumc/Ec19](https://github.com/wanglabcumc/Ec19)
 - **Datos del pipeline computacional:** [Zenodo 10.5281/zenodo.18155920](https://doi.org/10.5281/zenodo.18155920) · [10.5281/zenodo.18202555](https://doi.org/10.5281/zenodo.18202555)

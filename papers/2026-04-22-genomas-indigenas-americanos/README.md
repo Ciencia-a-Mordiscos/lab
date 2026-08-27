@@ -29,6 +29,6 @@ Todos extraídos del Supplementary Information del paper (MOESM3). Los genomas i
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/uKWYTlzcUBw)
 - **Paper:** [Castro e Silva et al. (2026), *Nature*](https://doi.org/10.1038/s41586-026-10406-w)
 - **Datos originales:** [Supplementary MOESM3 (Springer Nature)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10406-w/MediaObjects/41586_2026_10406_MOESM3_ESM.zip)

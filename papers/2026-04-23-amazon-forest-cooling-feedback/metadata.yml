@@ -3,7 +3,7 @@ fecha: 2026-04-23
 categoria: ecologia
 tags: [amazon, deforestacion, clima, satelite, radiative-forcing, ceres, modis, nubes]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/It5l-D_Wva0"
 fuentes:
   - doi: "10.1126/science.adz8296"
     titulo: "Amazon forest loss: An all-sky biophysical top-of-atmosphere cooling feedback"

@@ -29,7 +29,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/oYGb9VwGUPc)
 - **Paper:** [Nature Biomedical Engineering — DOI: 10.1038/s41551-026-01713-8](https://doi.org/10.1038/s41551-026-01713-8)
 - **Datos originales:** [Source Data del paper](https://doi.org/10.1038/s41551-026-01713-8)
 - **Código del modelo:** [github.com/ahukui/DentFound](https://github.com/ahukui/DentFound)

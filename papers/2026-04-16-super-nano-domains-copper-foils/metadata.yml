@@ -3,7 +3,7 @@ fecha: 2026-05-04
 categoria: tecnologia
 tags: [materiales, cobre, electrodeposicion, nanotecnologia, electronica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/6xG4ZxNHXhM"
 fuentes:
   - doi: "10.1126/science.aed7758"
     titulo: "Super-nano domains enable strength-conductivity synergy in copper foils"

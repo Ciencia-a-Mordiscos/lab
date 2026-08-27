@@ -3,7 +3,7 @@ fecha: 2026-04-21
 categoria: tecnologia
 tags: [ingenieria, biomimetica, agua, torres-enfriamiento, materiales]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/gJJdUxUL0uA"
 fuentes:
   - doi: "10.1038/s44221-026-00635-8"
     titulo: "A bioinspired hierarchical architecture for the high-yield recovery of industrial water vapour"

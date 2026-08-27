@@ -3,7 +3,7 @@ fecha: 2026-06-25
 categoria: quimica
 tags: [catalisis, reformado-seco, co2, combustibles, syngas, escalado-industrial, niquel]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/JeZ3VVodBy8"
 fuentes:
   - doi: "10.1126/science.adp5208"
     titulo: "Industrial-scale nanocrystalline Ni–Mo–MgO catalysts for hybrid reforming of waste to fuels"

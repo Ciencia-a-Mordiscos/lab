@@ -32,7 +32,7 @@ Los CSVs son **valores reconstruidos a partir de las figuras y tabla 1 del paper
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/LYnOSR6BYB0)
 - **Paper:** Wunderling, N. *et al.* (2026). *Deforestation-induced drying lowers Amazon climate threshold*. **Nature**. DOI: [10.1038/s41586-026-10456-0](https://doi.org/10.1038/s41586-026-10456-0)
 - **Código del modelo:** [Figshare archive](https://doi.org/10.6084/m9.figshare.28191128) — PyCascades + escenarios SSP land-use (550 MB).
 - **Escenario BaU de deforestación:** [Soares-Filho et al. (2013), ORNL DAAC](https://doi.org/10.3334/ORNLDAAC/1153)

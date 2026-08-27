@@ -3,7 +3,7 @@ fecha: 2026-05-03
 categoria: ecologia
 tags: [peces, mesotermos, atunes, fisiologia-termica, escalamiento-metabolico, cambio-climatico]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/51p2itg5FtY"
 fuentes:
   - doi: "10.1126/science.adt2981"
     titulo: "Mesothermic fishes face high fuel demands and overheating risk in warming oceans"

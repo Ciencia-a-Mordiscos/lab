@@ -3,7 +3,7 @@ fecha: 2026-06-07
 categoria: neurociencia
 tags: [sueño, memoria, miedo, ratones, fragmentación, neurociencia]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/RgIHryvoD6E"
 fuentes:
   - doi: "10.1126/science.aed8630"
     titulo: "Memory reactivation underlies experience-dependent adaptive regulation of sleep"

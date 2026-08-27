@@ -29,6 +29,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/vE4msi4HtP4)
 - **Paper:** [Nature Water — DOI: 10.1038/s44221-026-00655-4](https://doi.org/10.1038/s44221-026-00655-4)
 - **Datos originales:** [Source Data del paper (Nature Water)](https://doi.org/10.1038/s44221-026-00655-4)

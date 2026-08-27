@@ -28,6 +28,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/NUjxX0rcRHA)
 - **Paper:** [Science — DOI: 10.1126/science.aec4190](https://doi.org/10.1126/science.aec4190)
 - **Datos originales:** [Zenodo (series sintéticas GEONET)](https://doi.org/10.5281/zenodo.19597316) · [PANGAEA (1-Hz PPP observado)](https://doi.org/10.1594/PANGAEA.914110)

@@ -28,6 +28,6 @@ Agregados en el servidor desde el archivo crudo (`manuscript_data_upload_101125.
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/In8f98R0zgs)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10775-2](https://doi.org/10.1038/s41586-026-10775-2)
 - **Datos originales:** [Zenodo (records/17570720)](https://zenodo.org/records/17570720)

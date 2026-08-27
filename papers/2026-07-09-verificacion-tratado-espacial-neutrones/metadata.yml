@@ -3,7 +3,7 @@ fecha: 2026-07-12
 categoria: física
 tags: [física, espacio, neutrones, van-allen, tratado-espacial, cubesat, spallation, geant4]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/8gzX809Zmz4"
 fuentes:
   - doi: "10.1038/s41586-026-10783-2"
     titulo: "Verification of the Outer Space Treaty with cosmic protons"

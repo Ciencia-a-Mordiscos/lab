@@ -30,6 +30,6 @@ Las tablas del Supplementary Information del paper, transcritas a CSV. El datase
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/RpWmgbNWNWg)
 - **Paper:** [Nature Biomedical Engineering — DOI: 10.1038/s41551-026-01660-4](https://doi.org/10.1038/s41551-026-01660-4)
 - **Datos originales:** [Supplementary Information (MOESM1)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41551-026-01660-4/MediaObjects/41551_2026_1660_MOESM1_ESM.pdf) · [Dataset crudo en Figshare](https://doi.org/10.6084/m9.figshare.31043818.v2)

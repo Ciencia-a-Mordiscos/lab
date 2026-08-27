@@ -3,7 +3,7 @@ fecha: 2026-05-27
 categoria: clima
 tags: [granizo, cambio-climatico, modelo, proyecciones, tormentas-severas, atmosfera]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/wODVICAUVU8"
 fuentes:
   - doi: "10.1038/s41586-026-10543-2"
     titulo: "Rising global hail damage potential in a warming world"

@@ -25,6 +25,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/MiD3kGpSeQc)
 - **Paper:** [Dopamine drives persistent remodelling of the maternal brain — Nature, DOI: 10.1038/s41586-026-10509-4](https://doi.org/10.1038/s41586-026-10509-4)
 - **Datos originales:** [Supplementary Information del paper (Springer Nature MOESM5)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10509-4/MediaObjects/41586_2026_10509_MOESM5_ESM.xlsx)

@@ -3,7 +3,7 @@ fecha: 2026-04-17
 categoria: tecnologia
 tags: [quantum-dots, perovskita, LEDs, superreticula, pantallas, nanotecnologia]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/yOJ-lwDdSyg"
 fuentes:
   - doi: "10.1038/s41586-026-10392-z"
     titulo: "Pixelated quantum-dot superlattice LEDs"

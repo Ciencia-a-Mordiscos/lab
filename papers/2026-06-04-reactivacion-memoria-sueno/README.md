@@ -26,7 +26,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/RgIHryvoD6E)
 - **Paper:** [Science — DOI: 10.1126/science.aed8630](https://doi.org/10.1126/science.aed8630)
 - **Datos originales:** [Zenodo 10.5281/zenodo.18733745](https://doi.org/10.5281/zenodo.18733745)
 - **Código del paper:** [Bolei-engram/Memory-to-sleep-code](https://github.com/Bolei-engram/Memory-to-sleep-code)

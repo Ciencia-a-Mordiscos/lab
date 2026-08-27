@@ -3,7 +3,7 @@ fecha: 2026-04-05
 categoria: tecnologia
 tags: [robustez-analitica, meta-ciencia, ciencia-social, reanalisis, cohen-d, multi100]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/oVx8bTC7jZs"
 fuentes:
   - doi: "10.1038/s41586-025-09844-9"
     titulo: "Investigating the analytical robustness of the social and behavioural sciences"

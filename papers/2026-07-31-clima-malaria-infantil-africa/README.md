@@ -47,7 +47,7 @@ de los autores (los valores reproducen las cifras del resumen del paper).
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/dhW36wYgP1g)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10840-w](https://doi.org/10.1038/s41586-026-10840-w) · acceso abierto (CC-BY 4.0)
 - **Datos originales:** [cjcarlson/falciparum](https://github.com/cjcarlson/falciparum) ·
   [Zenodo (11,8 GB, no descargado)](https://doi.org/10.5281/zenodo.20399793)

@@ -3,7 +3,7 @@ fecha: 2026-04-09
 categoria: medicina
 tags: [farmacogenomica, glp1, tirzepatida, semaglutida, gwas, obesidad, efectos-secundarios, medicina-precision]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/5JoFrQzNC4w"
 fuentes:
   - doi: "10.1038/s41586-026-10330-z"
     titulo: "Genetic predictors of GLP1 receptor agonist weight loss and side effects"

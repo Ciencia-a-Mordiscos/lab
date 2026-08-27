@@ -25,6 +25,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/HsOg6AocG50)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10452-4](https://doi.org/10.1038/s41586-026-10452-4)
 - **Datos originales:** [Nature Supplementary Materials (MOESM3)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10452-4/MediaObjects/41586_2026_10452_MOESM3_ESM.xlsx) · [GEO GSE320042](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320042) · [Stanford / Redivis](https://doi.org/10.25936/pm3t-cn37) · [Código en GitHub](https://github.com/digitalcytometry/spatialecotyper)

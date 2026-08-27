@@ -3,7 +3,7 @@ fecha: 2026-04-28
 categoria: medicina
 tags: [genetica, neurodegeneracion, huntington, biomarcadores, epidemiologia, atrofia-cerebral, str]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/X0HkRksNPeQ"
 fuentes:
   - doi: "10.1038/s41586-026-10345-6"
     titulo: "Population-scale repeat expansions elucidate disease risk and brain atrophy"

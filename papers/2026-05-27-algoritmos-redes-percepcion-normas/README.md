@@ -31,7 +31,7 @@ Todos derivados de `study4_combined_data.csv` (Supplementary Materials del paper
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/IQpXQImmOTM)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10536-1](https://doi.org/10.1038/s41586-026-10536-1)
 - **Datos originales:** Supplementary Materials del paper en Nature
 

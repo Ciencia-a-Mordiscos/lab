@@ -3,7 +3,7 @@ fecha: 2026-07-18
 categoria: tecnologia
 tags: [nanotecnologia, memoria, electronica, materiales-2d, cuantica, semiconductores]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/8hHPh9yF6wM"
 fuentes:
   - doi: "10.1126/science.aeg6638"
     titulo: "Robust single-electron memory with quantum states manipulation"

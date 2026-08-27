@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/bWZLS76dsXY)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10719-w](https://doi.org/10.1038/s41586-026-10719-w)
 - **Datos originales:** [EarthChem (IEDA)](https://doi.org/10.60520/IEDA/114197)

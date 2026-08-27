@@ -30,6 +30,6 @@ Los CSVs son agregados servidor-side de los rasters originales `ET_PERSISTENCE.t
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/YLKU-CntIfc)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-01981-8](https://doi.org/10.1038/s41561-026-01981-8)
 - **Datos originales:** [Zenodo 10.5281/zenodo.18763054](https://doi.org/10.5281/zenodo.18763054)

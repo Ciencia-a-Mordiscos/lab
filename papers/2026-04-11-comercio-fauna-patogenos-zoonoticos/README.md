@@ -24,6 +24,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/r8pZobUOLbQ)
 - **Paper:** [Science — DOI: 10.1126/science.adw5518](https://doi.org/10.1126/science.adw5518)
 - **Datos originales:** [GitHub — JGippet/WildlifeTrade_ZoonoticPathogens](https://github.com/JGippet/WildlifeTrade_ZoonoticPathogens) (CC-BY 4.0)

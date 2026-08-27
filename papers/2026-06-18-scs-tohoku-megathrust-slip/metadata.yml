@@ -3,7 +3,7 @@ fecha: 2026-06-18
 categoria: geologia
 tags: [sismologia, terremoto, tohoku, ondas-sismicas, nucleo-terrestre, gnss, geofisica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/NUjxX0rcRHA"
 fuentes:
   - doi: "10.1126/science.aec4190"
     titulo: "ScS-triggered slip on megathrust interfaces after the 2011 Mw 9.0 Tohoku-Oki earthquake"

@@ -28,6 +28,6 @@ Todo viene de los **Source Data MOESM7-8** del propio paper en Nature, freely ac
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/GimJkmeFQNI)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10435-5](https://doi.org/10.1038/s41586-026-10435-5)
 - **Datos originales:** [Source Data MOESM7](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10435-5/MediaObjects/41586_2026_10435_MOESM7_ESM.xlsx) · [MOESM8](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10435-5/MediaObjects/41586_2026_10435_MOESM8_ESM.xlsx)

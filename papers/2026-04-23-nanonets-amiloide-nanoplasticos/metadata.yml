@@ -3,7 +3,7 @@ fecha: 2026-04-23
 categoria: tecnologia
 tags: [nanoplasticos, amiloide, magnetico, agua, reciclable, in-vivo]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/vhEGy6-EWFQ"
 fuentes:
   - doi: "10.1038/s44221-026-00620-1"
     titulo: "Recyclable amyloid-based magnetic nanonets for active capture and removal of nanoplastics from water"

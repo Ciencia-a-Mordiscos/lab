@@ -28,7 +28,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/2X5nz7_mMVg)
 - **Paper:** [Nature Ecology & Evolution — DOI: 10.1038/s41559-026-03027-z](https://doi.org/10.1038/s41559-026-03027-z)
 - **Datos originales:** [Supplementary Tables (Nature)](https://www.nature.com/articles/s41559-026-03027-z#Sec30)
 - **Genomas:** [European Nucleotide Archive — PRJEB95770](https://www.ebi.ac.uk/ena/browser/view/PRJEB95770)

@@ -3,7 +3,7 @@ fecha: 2026-06-07
 categoria: ecologia
 tags: [deforestacion, bosques, teledeteccion, ganaderia, cobertura-arborea, satelite]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/qPO0mdpG1iY"
 fuentes:
   - doi: "10.1126/science.adz9042"
     titulo: "Global extent and drivers of tree cover loss quantified with high-resolution satellite data"

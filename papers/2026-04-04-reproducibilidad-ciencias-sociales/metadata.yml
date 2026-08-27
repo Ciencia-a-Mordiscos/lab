@@ -3,7 +3,7 @@ fecha: 2026-04-04
 categoria: tecnologia
 tags: [reproducibilidad, ciencia-social, meta-ciencia, open-data, p-values]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/533wZ7tikUo"
 fuentes:
   - doi: "10.1038/s41586-026-10203-5"
     titulo: "Investigating the reproducibility of the social and behavioural sciences"

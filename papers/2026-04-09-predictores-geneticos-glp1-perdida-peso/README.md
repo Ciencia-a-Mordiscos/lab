@@ -30,6 +30,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/5JoFrQzNC4w)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10330-z](https://doi.org/10.1038/s41586-026-10330-z)
 - **Datos originales:** Supplementary Data (Nature) — Tables + GWAS Summary Statistics

@@ -3,7 +3,7 @@ fecha: 2026-05-06
 categoria: medicina
 tags: [oncología, inmunoterapia, biopsia líquida, cfDNA, melanoma, microambiente tumoral, machine learning]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/HsOg6AocG50"
 fuentes:
   - doi: "10.1038/s41586-026-10452-4"
     titulo: "Non-invasive profiling of the tumour microenvironment with spatial ecotypes"

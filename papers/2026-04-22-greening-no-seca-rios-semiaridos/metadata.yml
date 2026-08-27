@@ -3,7 +3,7 @@ fecha: 2026-04-22
 categoria: ecologia
 tags: [ecologia, hidrologia, revegetacion, clima, feedback-atmosferico]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/9WzkC7zhACk"
 fuentes:
   - doi: "10.1038/s44221-026-00631-y"
     titulo: "Energy-mediated feedbacks of vegetation greening enhance precipitation efficiency and sustain water yield in global semi-arid regions"

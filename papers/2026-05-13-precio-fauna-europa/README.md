@@ -30,6 +30,6 @@ Cinco CSVs pre-agregados, extraídos del *Dataset.xlsx* publicado en Figshare (C
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/j732Mq4OYJw)
 - **Paper:** [Hidden patterns in fauna compensation values in European biodiversity legislation](https://doi.org/10.1038/s41559-026-03067-5) — *Nature Ecology & Evolution*, 2026.
 - **Datos originales:** [Figshare DOI 10.6084/m9.figshare.30031285](https://doi.org/10.6084/m9.figshare.30031285)

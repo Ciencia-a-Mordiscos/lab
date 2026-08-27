@@ -30,6 +30,6 @@ Todos derivan de `MatlabCodeData.zip` depositado por los autores en Zenodo (CC-B
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/IT2pe2D4Edc)
 - **Paper:** [Science — DOI: 10.1126/science.adx1707](https://doi.org/10.1126/science.adx1707)
 - **Datos originales:** [Zenodo 10.5281/zenodo.19631231](https://doi.org/10.5281/zenodo.19631231)

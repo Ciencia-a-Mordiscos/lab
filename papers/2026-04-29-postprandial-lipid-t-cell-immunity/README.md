@@ -29,7 +29,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/hlJaBS5bOYU)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10432-8](https://doi.org/10.1038/s41586-026-10432-8)
 - **Tablas suplementarias:** Tablas S1 (demografía) + S2 (diarios de comida) del paper
 - **Corrección publicada:** 2026-05-14, sobre el etiquetado de Fig 3h (no afecta la conclusión)

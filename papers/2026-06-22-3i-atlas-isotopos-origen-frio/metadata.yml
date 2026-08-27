@@ -3,7 +3,7 @@ fecha: 2026-07-03
 categoria: astronomia
 tags: [astronomia, objeto-interestelar, isotopos, cometas, via-lactea, jwst]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/twQA9z-RHyo"
 fuentes:
   - doi: "10.1038/s41586-026-10771-6"
     titulo: "Isotopic evidence for a cold and distant origin of 3I/ATLAS"

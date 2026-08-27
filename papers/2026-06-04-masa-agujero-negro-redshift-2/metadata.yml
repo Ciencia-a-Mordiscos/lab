@@ -3,7 +3,7 @@ fecha: 2026-06-04
 categoria: astronomía
 tags: [agujero-negro, jwst, lente-gravitacional, galaxias, dinamica-estelar, redshift]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/vdCKhEI9ZuM"
 fuentes:
   - doi: "10.1126/science.adx5816"
     titulo: "A stellar dynamical mass measurement of an inactive black hole at redshift 2"

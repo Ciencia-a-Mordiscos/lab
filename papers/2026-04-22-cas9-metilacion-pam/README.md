@@ -27,6 +27,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/Vx0SaEnOOw8)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10384-z](https://doi.org/10.1038/s41586-026-10384-z)
 - **Estructuras:** PDB 9AR4-9AR7 · EMDB EMD-43769 a EMD-43772

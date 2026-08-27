@@ -31,6 +31,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/I1Gz748RZZI)
 - **Paper:** [Nature Ecology & Evolution — DOI: 10.1038/s41559-026-03117-y](https://doi.org/10.1038/s41559-026-03117-y)
 - **Datos originales:** [Supplementary Information del mismo DOI](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41559-026-03117-y/MediaObjects/41559_2026_3117_MOESM1_ESM.pdf)

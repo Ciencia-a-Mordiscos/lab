@@ -3,7 +3,7 @@ fecha: 2026-04-08
 categoria: ecologia
 tags: [desalinización, agricultura, energía solar, agua, circular, sostenibilidad, soja]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/751vCh7OeAk"
 fuentes:
   - doi: "10.1038/s44221-026-00615-y"
     titulo: "Solar-powered circular desalination agriculture enabled by amyloid fibril-based bioevaporators"

@@ -32,6 +32,6 @@ Columnas: `x_mpch, y_mpch, z_mpch` (coordenadas comóviles en Mpc/h).
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/HdNMtY8i86g)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10702-5](https://doi.org/10.1038/s41586-026-10702-5)
 - **Datos originales:** [Zenodo](https://zenodo.org/records/20118015) · [DESI DR1](https://data.desi.lbl.gov/doc/releases/dr1/)

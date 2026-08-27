@@ -3,7 +3,7 @@ fecha: 2026-07-10
 categoria: tecnología
 tags: [robótica, cirugía, humanoides, laparoscopia, da-vinci, benchmarking]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/nhFdbk_UEOg"
 fuentes:
   - doi: "10.1038/s41586-026-10796-x"
     titulo: "In vivo feasibility study of humanoid robots in surgery"

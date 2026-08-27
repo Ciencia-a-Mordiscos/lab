@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/p9hJJWC36R0)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10674-6](https://doi.org/10.1038/s41586-026-10674-6)
 - **Código y modelo:** [alexmschubert/ECG-SCD](https://github.com/alexmschubert/ECG-SCD)

@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/xEeXPYVIy2Y)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10349-2](https://doi.org/10.1038/s41586-026-10349-2)
 - **Datos originales:** [ForestGEO GitHub](https://github.com/mdetto/Positive-Interactions) + Supplementary Tables

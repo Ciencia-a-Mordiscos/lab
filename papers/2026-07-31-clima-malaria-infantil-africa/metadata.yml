@@ -3,7 +3,7 @@ fecha: 2026-07-31
 categoria: medicina
 tags: [malaria, cambio-climatico, africa, salud-infantil, epidemiologia, modelos-climaticos]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/dhW36wYgP1g"
 fuentes:
   - doi: "10.1038/s41586-026-10840-w"
     titulo: "The past and future impact of climate change on childhood malaria in Africa"

@@ -29,6 +29,6 @@ Las Tablas S3 y S5–S7 son imágenes dentro del PDF suplementario: la transcrip
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/S3CjLYbIRwo)
 - **Paper:** [Science — DOI: 10.1126/science.adv5441](https://doi.org/10.1126/science.adv5441)
 - **Datos originales:** [Supplementary Materials, mismo DOI](https://www.science.org/doi/suppl/10.1126/science.adv5441/suppl_file/science.adv5441_sm.pdf)

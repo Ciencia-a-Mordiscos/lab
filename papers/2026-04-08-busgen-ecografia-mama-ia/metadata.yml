@@ -3,7 +3,7 @@ fecha: 2026-04-08
 categoria: tecnologia
 tags: [ia, deep-learning, ecografia, cancer-mama, datos-sinteticos, foundation-model]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/4xRH8vPwLtc"
 fuentes:
   - doi: "10.1038/s41551-026-01639-1"
     titulo: "A foundation generative model for breast ultrasound image analysis"

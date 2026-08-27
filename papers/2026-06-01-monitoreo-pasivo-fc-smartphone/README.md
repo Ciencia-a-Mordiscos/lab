@@ -32,6 +32,6 @@ Todos los CSVs vienen del Supplementary Information del paper original (Springer
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/k70eXJMAZgU)
 - **Paper:** [*Nature* — DOI: 10.1038/s41586-026-10507-6](https://doi.org/10.1038/s41586-026-10507-6)
 - **Datos originales:** [Supplementary Information del paper](https://www.nature.com/articles/s41586-026-10507-6)

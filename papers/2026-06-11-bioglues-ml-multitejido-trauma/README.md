@@ -34,6 +34,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/sdXqL_-ytzs)
 - **Paper:** [Nature Biomedical Engineering — DOI: 10.1038/s41551-026-01705-8](https://doi.org/10.1038/s41551-026-01705-8)
 - **Datos originales:** [Figshare — Source Data oficial](https://doi.org/10.6084/m9.figshare.31769131)

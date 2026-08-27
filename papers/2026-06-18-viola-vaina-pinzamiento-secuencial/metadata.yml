@@ -3,7 +3,7 @@ fecha: 2026-06-18
 categoria: biologia
 tags: [biomecanica, violetas, dispersion-semillas, biomimetica, actuadores, morfogeometria]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/W0_iUjfGs90"
 fuentes:
   - doi: "10.1126/science.aed2953"
     titulo: "Viola seed pod architecture shapes sequential, force-augmented pinching"

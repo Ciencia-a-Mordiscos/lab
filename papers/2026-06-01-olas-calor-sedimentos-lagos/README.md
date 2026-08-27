@@ -26,7 +26,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/1ffoaSKU3n4)
 - **Paper:** [*Lake sediment heatwaves under global warming* — Nature Geoscience, junio 2026](https://doi.org/10.1038/s41561-026-01986-3)
 - **Datos originales:** [Zenodo 18507326](https://doi.org/10.5281/zenodo.18507326)
 - **Forzamiento climático:** [ISIMIP3b protocol](https://www.isimip.org/protocol/3/)

@@ -3,7 +3,7 @@ fecha: 2026-05-14
 categoria: tecnologia
 tags: [cobre, electronica-flexible, corrosion, catecol, dopamina, dft, exafs, tinta-conductora]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/mlhtbWGncnM"
 fuentes:
   - doi: "10.1126/science.aed4488"
     titulo: "A molecular pathway to corrosion-resistant printable copper"

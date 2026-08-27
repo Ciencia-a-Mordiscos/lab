@@ -30,6 +30,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/5hdXlfV99uM)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10410-0](https://doi.org/10.1038/s41586-026-10410-0)
 - **Datos originales:** [lujainibrahim/warm_ai_2025 en GitHub](https://github.com/lujainibrahim/warm_ai_2025)

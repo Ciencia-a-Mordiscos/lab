@@ -3,7 +3,7 @@ fecha: 2026-06-02
 categoria: medicina
 tags: [cardiologia, sonogenetica, ultrasonido, ingenieria-biomedica, terapia-genica, ratas, in-vitro]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/TNdsZPuM3Aw"
 fuentes:
   - doi: "10.1038/s41551-026-01673-z"
     titulo: "A wearable non-invasive sonogenetic pacemaker"

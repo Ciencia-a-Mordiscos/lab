@@ -3,7 +3,7 @@ fecha: 2026-05-25
 categoria: medicina
 tags: [microglia, derrame, neurociencia, oligonucleotido-antisentido, recuperacion-motora, zfp384]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/pCcqcN-FJxo"
 fuentes:
   - doi: "10.1038/s41586-026-10480-0"
     titulo: "Sustaining microglial reparative function enhances stroke recovery"

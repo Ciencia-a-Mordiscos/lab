@@ -27,6 +27,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/fs-0o4rsjys)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10453-3](https://doi.org/10.1038/s41586-026-10453-3)
 - **Datos originales:** Source Data del paper en Nature (MOESM7, MOESM9, MOESM10)

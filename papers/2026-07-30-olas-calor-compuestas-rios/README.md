@@ -27,6 +27,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/X31pkRbLUL8)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-02040-y](https://doi.org/10.1038/s41561-026-02040-y)
 - **Datos originales:** [Repositorio YuZhouWater (GitHub)](https://github.com/YuZhouWater/atmospheric-riverine-compound-heatwaves)

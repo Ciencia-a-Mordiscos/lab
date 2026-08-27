@@ -3,7 +3,7 @@ fecha: 2026-07-13
 categoria: ecologia
 tags: [mosquito, malaria, invasion-biologica, genomica, anopheles-stephensi, africa, vigilancia]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/cKXiW2KZRJQ"
 fuentes:
   - doi: "10.1126/science.adx6925"
     titulo: "The origin, history, and resistance architecture of an invasive urban malaria mosquito in Africa"

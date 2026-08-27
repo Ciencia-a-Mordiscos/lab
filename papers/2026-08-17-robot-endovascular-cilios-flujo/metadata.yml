@@ -3,7 +3,7 @@ fecha: 2026-08-17
 categoria: tecnología
 tags: [robótica-blanda, endovascular, cilios, trombolisis, tPA, biomedicina, magnetismo]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/pTjdi9LV6dM"
 fuentes:
   - doi: "10.1038/s41551-026-01771-y"
     titulo: "A miniature endovascular soft robot for active blood flow regulation in occluded vessels"

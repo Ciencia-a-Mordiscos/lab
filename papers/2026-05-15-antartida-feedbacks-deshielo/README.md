@@ -29,6 +29,6 @@ Los tres CSVs corresponden a la simulación SSP5-8.5 del paper, promediada sobre
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/aBVIIwcXwxs)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-01975-6](https://doi.org/10.1038/s41561-026-01975-6)
 - **Datos originales:** [Zenodo: mkyoungs/NG_SO_IceShelf](https://zenodo.org/records/17992455)

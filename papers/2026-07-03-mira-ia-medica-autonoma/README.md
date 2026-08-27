@@ -28,7 +28,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/Qo2Pl8C7rIc)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10675-5](https://doi.org/10.1038/s41586-026-10675-5)
 - **Datos originales:** Source Data (Figs. 3–5) del artículo · [MIMIC-IV v2.2 (PhysioNet)](https://physionet.org/content/mimiciv/2.2/)
 - **Código de MIRA:** [Dyke-F/MIRA](https://github.com/Dyke-F/MIRA)

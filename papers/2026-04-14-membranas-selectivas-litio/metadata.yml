@@ -3,7 +3,7 @@ fecha: 2026-04-14
 categoria: química
 tags: [litio, membranas, MOF, ZIF, selectividad iónica, extracción, baterías, Li2CO3]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/BRMjeoQQbBg"
 fuentes:
   - doi: "10.1038/s44221-026-00633-w"
     titulo: "Scalable glass composite membranes for highly selective lithium enrichment"

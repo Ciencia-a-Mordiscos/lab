@@ -3,7 +3,7 @@ fecha: 2026-05-16
 categoria: biologia
 tags: [biologia, biologia-sintetica, ia-generativa, ribosoma, ecoli, aminoacidos]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/ixHrugj3PnI"
 fuentes:
   - doi: "10.1126/science.aeb5171"
     titulo: "Toward life with a 19–amino acid alphabet through generative artificial intelligence design"

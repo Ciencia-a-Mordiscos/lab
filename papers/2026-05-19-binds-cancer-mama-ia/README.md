@@ -31,6 +31,6 @@ Origen: Supplementary Source Data del paper (Nature Biomedical Engineering, 2026
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/c63p_gdmKdU)
 - **Paper:** [Nat. Biomed. Eng. — DOI: 10.1038/s41551-026-01654-2](https://doi.org/10.1038/s41551-026-01654-2)
 - **Código de BINDS:** [github.com/lyhkevin/BINDS](https://github.com/lyhkevin/BINDS) (MIT)

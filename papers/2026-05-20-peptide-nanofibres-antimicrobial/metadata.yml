@@ -3,7 +3,7 @@ fecha: 2026-05-20
 categoria: medicina
 tags: [antibiotico, mrsa, peptido, antimicrobiano, resistencia, nanofibra]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/DwREQWr100c"
 fuentes:
   - doi: "10.1038/s41551-026-01680-0"
     titulo: "Modular peptide nanofibres that self-assemble on bacterial membranes overcome antimicrobial resistance"

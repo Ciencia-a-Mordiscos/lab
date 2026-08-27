@@ -25,6 +25,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/S0LfDVhHtkA)
 - **Paper:** [Nature Astronomy — DOI: 10.1038/s41550-026-02824-7](https://doi.org/10.1038/s41550-026-02824-7)
 - **Datos originales:** [OSF — DH9AK](https://osf.io/dh9ak/)

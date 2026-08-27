@@ -3,7 +3,7 @@ fecha: 2026-07-16
 categoria: astronomía
 tags: [neo, cometas, asteroides, tisserand, aceleración-no-gravitacional, riesgo-de-impacto, 1998-sh2]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/4rE-pLwCIYk"
 fuentes:
   - doi: "10.1038/s41550-026-02913-7"
     titulo: "Non-gravitational acceleration indicative of cometary activity of near-Earth object (875163) 1998 SH2"

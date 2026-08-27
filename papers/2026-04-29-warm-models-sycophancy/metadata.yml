@@ -9,7 +9,7 @@ tags:
   - safety
   - benchmarks
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/5hdXlfV99uM"
 fuentes:
   - doi: "10.1038/s41586-026-10410-0"
     titulo: "Training language models to be warm can reduce accuracy and increase sycophancy"

@@ -8,7 +8,7 @@ tags:
   - materiales
   - estabilidad
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/IHgr_eflnHc"
 fuentes:
   - doi: "10.1126/science.aef1620"
     titulo: "AI-guided design of efficient perovskite solar cells operationally stable at 100°C"

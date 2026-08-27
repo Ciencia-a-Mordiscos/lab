@@ -31,7 +31,7 @@ Todos los CSVs son derivados procesados de [Zenodo 18838606](https://zenodo.org/
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/QEj72-meBis)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10421-x](https://doi.org/10.1038/s41586-026-10421-x)
 - **Datos originales:** [Zenodo 18838606](https://zenodo.org/records/18838606)
 - **Código original (R):** [tom-timberlake/micropoll_main](https://github.com/tom-timberlake/micropoll_main)

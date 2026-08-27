@@ -28,6 +28,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/T0YAFbn4idU)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-01945-y](https://doi.org/10.1038/s41561-026-01945-y)
 - **Datos originales:** [NERSC EcoSLIM Portal](https://portal.nersc.gov/cfs/ecoslim/) + [ESS-DIVE](https://doi.org/10.15485/3013287) + [USGS](https://doi.org/10.5066/F7P55KJN)

@@ -3,7 +3,7 @@ fecha: 2026-04-11
 categoria: ecologia
 tags: [zoonosis, comercio-fauna, patogenos, mamiferos, cites, salud-publica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/r8pZobUOLbQ"
 fuentes:
   - doi: "10.1126/science.adw5518"
     titulo: "Wildlife trade drives animal-to-human pathogen transmission over 40 years"

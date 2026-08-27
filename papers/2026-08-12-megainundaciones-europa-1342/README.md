@@ -29,6 +29,6 @@ Todos derivan del Supplementary Material del paper. Los scripts de extracción e
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/_ZEPDWzkkh0)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10888-8](https://doi.org/10.1038/s41586-026-10888-8)
 - **Datos originales:** [Supplementary Material del paper](https://doi.org/10.1038/s41586-026-10888-8)

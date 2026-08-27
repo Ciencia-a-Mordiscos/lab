@@ -3,7 +3,7 @@ fecha: 2026-05-13
 categoria: tecnología
 tags: [llm, libertad-de-prensa, common-crawl, rsf, auditoría, ia]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/1LP-NksBNKY"
 fuentes:
   - doi: "10.1038/s41586-026-10506-7"
     titulo: "State media control influences large language models"

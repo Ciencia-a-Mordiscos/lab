@@ -29,6 +29,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/4xRH8vPwLtc)
 - **Paper:** [Nature Biomedical Engineering — DOI: 10.1038/s41551-026-01639-1](https://doi.org/10.1038/s41551-026-01639-1)
 - **Datos originales:** [Supplementary Materials (Nature)](https://www.nature.com/articles/s41551-026-01639-1#Sec31)

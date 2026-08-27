@@ -3,7 +3,7 @@ fecha: 2026-04-05
 categoria: tecnologia
 tags: [replicabilidad, ciencia-social, meta-ciencia, open-data, p-values, SCORE]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/Ba7hqigdLeo"
 fuentes:
   - doi: "10.1038/s41586-025-10078-y"
     titulo: "Investigating the replicability of the social and behavioural sciences"

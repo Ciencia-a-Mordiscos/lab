@@ -3,7 +3,7 @@ fecha: 2026-06-08
 categoria: tecnologia
 tags: [agua, desinfeccion, dispositivo, electroporacion, sensor, energia, salud-publica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/vE4msi4HtP4"
 fuentes:
   - doi: "10.1038/s44221-026-00655-4"
     titulo: "Self-powered floating capsule for decentralized water detection and disinfection"

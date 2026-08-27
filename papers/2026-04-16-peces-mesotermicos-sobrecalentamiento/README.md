@@ -25,6 +25,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/51p2itg5FtY)
 - **Paper:** [Mesothermic fishes face high fuel demands and overheating risk in warming oceans — Science, 2026](https://doi.org/10.1126/science.adt2981)
 - **Datos originales:** [paquete predictFishRMR (Zenodo)](https://doi.org/10.5281/zenodo.16409669)

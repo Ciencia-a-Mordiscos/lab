@@ -3,7 +3,7 @@ fecha: 2026-07-08
 categoria: medicina
 tags: [vih, vacunas, anticuerpos, inmunologia, primates, germline-targeting, bnAb]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/h81qBvc-o80"
 fuentes:
   - doi: "10.1038/s41586-026-10837-5"
     titulo: "Vaccination elicits HIV broadly neutralizing antibodies in primates"

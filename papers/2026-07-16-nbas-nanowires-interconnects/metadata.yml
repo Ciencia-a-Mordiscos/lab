@@ -3,7 +3,7 @@ fecha: 2026-07-16
 categoria: tecnologia
 tags: [interconectores, semimetal-weyl, nanohilos, nbas, resistividad, conductividad-termica, chips]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/tWjuNqXdS54"
 fuentes:
   - doi: "10.1126/science.adx3027"
     titulo: "Surface-dominant transport in Weyl semimetal NbAs nanowires for next-generation interconnects"

@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/oVx8bTC7jZs)
 - **Paper:** [Nature — DOI: 10.1038/s41586-025-09844-9](https://doi.org/10.1038/s41586-025-09844-9)
 - **Datos originales:** [github.com/marton-balazs-kovacs/multi100](https://github.com/marton-balazs-kovacs/multi100)

@@ -3,7 +3,7 @@ fecha: 2026-05-28
 categoria: ecologia
 tags: [clima, urbanizacion, tormentas, radar, texas, conveccion, frentes-frios]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/4JJg9mnzgy0"
 fuentes:
   - doi: "10.1038/s41586-026-10479-7"
     titulo: "Divergent urban storm response to convective, frontal and tropical systems"

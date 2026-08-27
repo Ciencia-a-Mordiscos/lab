@@ -28,6 +28,6 @@ Todos los datos provienen del Source Data del paper (Fig 6).
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/pCcqcN-FJxo)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10480-0](https://doi.org/10.1038/s41586-026-10480-0)
 - **Datos originales:** [Springer Source Data Fig 6](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10480-0/MediaObjects/)

@@ -3,7 +3,7 @@ fecha: 2026-05-14
 categoria: medicina
 tags: [hidrogel, bacterias, terapia, biomateriales, ingenieria-genetica, mooney]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/cuOzCgkDi7E"
 fuentes:
   - doi: "10.1126/science.aec2071"
     titulo: "Implantable living materials autonomously deliver therapeutics using contained engineered bacteria"

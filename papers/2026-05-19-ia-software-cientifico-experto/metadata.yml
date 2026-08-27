@@ -11,7 +11,7 @@ tags:
   - llm
   - tree-search
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/O2xI9_i2bQE"
 fuentes:
   - doi: "10.1038/s41586-026-10658-6"
     titulo: "An AI system to help scientists write expert-level empirical software"

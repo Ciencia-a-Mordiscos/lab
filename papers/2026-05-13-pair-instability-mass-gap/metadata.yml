@@ -3,7 +3,7 @@ fecha: 2026-05-13
 categoria: astronomía
 tags: [agujeros-negros, ondas-gravitacionales, ligo, gwtc-4, mass-gap, astrofisica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/WEzTR0A4EXA"
 fuentes:
   - doi: "10.1038/s41550-026-02847-0"
     titulo: "Gravitational-wave constraints on the pair-instability mass gap and nuclear burning in massive stars"

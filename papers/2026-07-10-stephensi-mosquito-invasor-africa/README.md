@@ -28,6 +28,6 @@ Los genotipos crudos (SNP/CNV) están embargados en ENA/MalariaGEN. Por eso el n
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/cKXiW2KZRJQ)
 - **Paper:** [Science — DOI: 10.1126/science.adx6925](https://doi.org/10.1126/science.adx6925)
 - **Datos originales:** [Repositorio AsGARD en Zenodo](https://doi.org/10.5281/zenodo.19324618)

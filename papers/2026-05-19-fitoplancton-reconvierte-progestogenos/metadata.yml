@@ -3,7 +3,7 @@ fecha: 2026-05-19
 categoria: ecologia
 tags: [fitoplancton, contaminacion-acuatica, progestogenos, metagenomica, nature-water]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/XZOR8p6peyM"
 fuentes:
   - doi: "10.1038/s44221-026-00646-5"
     titulo: "Chemoproteomics reveals global occurrence of a phytoplankton lyase capable of reconverting progestogens"

@@ -3,7 +3,7 @@ fecha: 2026-05-27
 categoria: ecologia
 tags: [evapotranspiracion, deforestacion, amazonia, cerrado, satelite, hidrologia]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/YLKU-CntIfc"
 fuentes:
   - doi: "10.1038/s41561-026-01981-8"
     titulo: "Evapotranspiration declines prolonged by deforestation and fire in South American biomes"

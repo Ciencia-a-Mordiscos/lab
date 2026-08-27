@@ -3,7 +3,7 @@ fecha: 2026-05-06
 categoria: geologia
 tags: [terremotos, nucleacion, foreshocks, friccion, sismologia, laboratorio]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/lvgNtmgpUq4"
 fuentes:
   - doi: "10.1038/s41586-026-10497-5"
     titulo: "Foreshock-induced slip transients set mainshock nucleation timing"

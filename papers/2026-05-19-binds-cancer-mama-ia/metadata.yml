@@ -3,7 +3,7 @@ fecha: 2026-05-19
 categoria: medicina
 tags: [cancer-de-mama, deep-learning, ia-medica, imagenologia, validacion-retrospectiva, auroc]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/c63p_gdmKdU"
 fuentes:
   - doi: "10.1038/s41551-026-01654-2"
     titulo: "A deep learning system for non-invasive breast cancer diagnosis with multimodal data"

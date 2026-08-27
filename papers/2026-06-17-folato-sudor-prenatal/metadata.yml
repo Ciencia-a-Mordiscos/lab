@@ -3,7 +3,7 @@ fecha: 2026-06-23
 categoria: tecnologia
 tags: [biosensores, folato, sudor, wearables, lab-on-a-disc, salud]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/vyxgtAuFCvA"
 fuentes:
   - doi: "10.1038/s41551-026-01716-5"
     titulo: "Skin-interfaced microfluidic capsule and portable lab-on-a-disc platform for sweat-based monitoring of prenatal nutrient balance"

@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/NtBdIb3JngA)
 - **Paper:** *Accelerated Himalayan river meandering and dynamics due to climate change* — Lin et al., **Science** (2026). [DOI: 10.1126/science.adg8401](https://doi.org/10.1126/science.adg8401)
 - **Datos originales:** [Zenodo 10.5281/zenodo.17853501](https://doi.org/10.5281/zenodo.17853501)

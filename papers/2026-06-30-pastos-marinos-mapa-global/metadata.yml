@@ -3,7 +3,7 @@ fecha: 2026-06-30
 categoria: ecologia
 tags: [pastos-marinos, teledeteccion, conservacion, carbono-azul, biodiversidad-marina, sentinel-2]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/hP3R4INmoOI"
 fuentes:
   - doi: "10.1038/s41586-026-10704-3"
     titulo: "Global high-resolution mapping of seagrass to support conservation"

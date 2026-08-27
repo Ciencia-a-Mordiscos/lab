@@ -3,7 +3,7 @@ fecha: 2026-05-02
 categoria: ecologia
 tags: [ecologia, fenologia, herbivoria, satelite, robles, defensa-vegetal, cambio-climatico]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/yVAD464EbFo"
 fuentes:
   - doi: "10.1038/s41559-026-03071-9"
     titulo: "Satellite data show trees delay budburst across landscapes to escape herbivores"

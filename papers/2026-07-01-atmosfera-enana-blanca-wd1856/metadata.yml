@@ -3,7 +3,7 @@ fecha: 2026-07-01
 categoria: astronomia
 tags: [astronomia, exoplanetas, enana-blanca, jwst, atmosferas, espectroscopia]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/X1SItsxdkwg"
 fuentes:
   - doi: "10.1038/s41586-026-10514-7"
     titulo: "Aerosols and hydrocarbons in the atmosphere of a white dwarf planet"
