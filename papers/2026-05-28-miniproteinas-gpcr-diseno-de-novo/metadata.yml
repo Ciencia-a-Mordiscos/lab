@@ -3,7 +3,7 @@ fecha: 2026-05-28
 categoria: tecnologia
 tags: [biologia-computacional, diseno-de-proteinas, gpcr, rfdiffusion, celulas-madre, in-vivo, ratones]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/4L6OKRbUD6g"
 fuentes:
   - doi: "10.1038/s41586-026-10656-8"
     titulo: "De novo design of miniproteins targeting GPCRs"

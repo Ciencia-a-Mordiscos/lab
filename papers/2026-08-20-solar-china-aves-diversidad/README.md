@@ -27,6 +27,6 @@ Ambos se construyeron replicando el orden exacto del do-file de Stata de los aut
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/N1AHpCjDQ5A)
 - **Paper:** [Science — DOI: 10.1126/science.aee0747](https://doi.org/10.1126/science.aee0747)
 - **Datos originales:** [Paquete de réplica de los autores (GitHub)](https://github.com/jianke22/China-s-solar-expansion-policy-reduces-bird-diversity)

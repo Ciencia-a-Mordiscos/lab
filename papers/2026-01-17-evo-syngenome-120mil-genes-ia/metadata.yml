@@ -3,7 +3,7 @@ fecha: 2026-01-17
 categoria: tecnologia
 tags: [biologia-sintetica, IA, modelos-lenguaje, anti-CRISPR, diseno-de-novo, genoma, evo]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/AUlRoQtWfLY"
 fuentes:
   - doi: "10.1038/s41586-025-09749-7"
     titulo: "Semantic design of functional de novo genes from a genomic language model"

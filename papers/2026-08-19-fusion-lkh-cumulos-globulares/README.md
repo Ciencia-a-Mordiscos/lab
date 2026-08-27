@@ -29,6 +29,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/YB8he8DhwjU)
 - **Paper:** [Nature Astronomy — DOI: 10.1038/s41550-026-02931-5](https://doi.org/10.1038/s41550-026-02931-5)
 - **Datos originales:** [CARMA (INAF OAS Bologna)](https://www.oas.inaf.it/en/research/m2-en/carma-en) · [HUGS / HST (STScI)](https://archive.stsci.edu/prepds/hugs)

@@ -29,6 +29,6 @@ Todos derivados del dataset completo de Gourevitch et al. (2026) en Zenodo (172 
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/mrPrqMvj6ao)
 - **Paper:** [Nature Water — DOI: 10.1038/s44221-026-00656-3](https://doi.org/10.1038/s44221-026-00656-3)
 - **Datos originales:** [Zenodo 10.5281/zenodo.19699730](https://doi.org/10.5281/zenodo.19699730)

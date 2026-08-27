@@ -34,6 +34,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/AkbPcNil1lM)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10909-6](https://doi.org/10.1038/s41586-026-10909-6)
 - **Datos originales:** Source Data del propio paper (Figs. 1, 3 y 5 + Extended Data Fig. 8 + Supplementary Table 16)

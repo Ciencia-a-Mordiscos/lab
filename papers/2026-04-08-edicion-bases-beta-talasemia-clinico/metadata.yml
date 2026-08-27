@@ -3,7 +3,7 @@ fecha: 2026-04-28
 categoria: medicina
 tags: [base-editing, terapia-genica, beta-talasemia, hemoglobina, ensayo-clinico, crispr]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/nrgHIBu8apA"
 fuentes:
   - doi: "10.1038/s41586-026-10342-9"
     titulo: "Clinical application of base editing for treating β-thalassaemia"

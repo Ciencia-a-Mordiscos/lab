@@ -29,7 +29,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/nzvCAJbcli4)
 - **Paper:** [Science — DOI: 10.1126/science.aee6957](https://doi.org/10.1126/science.aee6957)
 - **Datos originales:** [Supplementary Tables S9–S14](https://www.science.org/doi/suppl/10.1126/science.aee6957/suppl_file/science.aee6957_tables_s9_to_s14.zip)
 - **Lecturas crudas:** [European Nucleotide Archive PRJEB104199](https://www.ebi.ac.uk/ena/browser/view/PRJEB104199)

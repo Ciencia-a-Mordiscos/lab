@@ -3,7 +3,7 @@ fecha: 2026-08-21
 categoria: fisica
 tags: [interferencia, doble-rendija, silicio, microscopia-electronica, fonones, vibraciones, stem]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/TRGSfrMh43A"
 fuentes:
   - doi: "10.1038/s41586-026-10914-9"
     titulo: "Atomic-scale double-slit interferometry with a focused electron probe"

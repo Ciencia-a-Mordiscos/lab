@@ -3,7 +3,7 @@ fecha: 2026-07-16
 categoria: astronomía
 tags: [regresión a la media, viento solar, tormentas geomagnéticas, clima espacial, estadística, monte carlo]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/pawJeQgkbDY"
 fuentes:
   - doi: "10.1038/s41586-026-10757-4"
     titulo: "Regression to the mean can explain saturation of geomagnetic storms"

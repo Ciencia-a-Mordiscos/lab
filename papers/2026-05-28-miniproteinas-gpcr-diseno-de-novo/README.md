@@ -31,6 +31,6 @@ Cinco CSVs extraídos del Source Data MOESM3 del paper (Nature):
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/4L6OKRbUD6g)
 - **Paper:** [Vázquez Torres et al. (2026), *Nature* — DOI: 10.1038/s41586-026-10656-8](https://doi.org/10.1038/s41586-026-10656-8)
 - **Datos originales:** [Source Data MOESM3 (Nature, Supplementary)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-10656-8/MediaObjects/41586_2026_10656_MOESM3_ESM.xlsx)

@@ -3,7 +3,7 @@ fecha: 2025-11-05
 categoria: neurociencia
 tags: [neurociencia, neuroingeniería, optogenética, biomateriales, ratones]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/d461mVRwl3k"
 fuentes:
   - doi: "10.1038/s41587-025-02809-3"
     titulo: "A nonsurgical brain implant enabled through a cell–electronics hybrid for focal neuromodulation"

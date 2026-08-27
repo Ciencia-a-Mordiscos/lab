@@ -3,7 +3,7 @@ fecha: 2026-04-30
 categoria: biologia
 tags: [microbioma, rumen, metano, ciliados, eucariotas, metanogenos, genomica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/FtOOk14rSPM"
 fuentes:
   - doi: "10.1126/science.adv4244"
     titulo: "Rumen ciliates modulate methane emissions in ruminants"

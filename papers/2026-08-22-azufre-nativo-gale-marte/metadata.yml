@@ -3,7 +3,7 @@ fecha: 2026-08-22
 categoria: astronomía
 tags: [marte, curiosity, azufre, gale, apxs, geoquímica, espectroscopía, planetario]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/YV4szcwYGIE"
 fuentes:
   - doi: "10.1126/science.adu5501"
     titulo: "A native sulfur deposit in Gale crater, Mars"

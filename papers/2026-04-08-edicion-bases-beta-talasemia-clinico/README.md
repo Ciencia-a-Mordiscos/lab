@@ -42,7 +42,7 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/nrgHIBu8apA)
 - **Paper:** [*Nature* — DOI: 10.1038/s41586-026-10342-9](https://doi.org/10.1038/s41586-026-10342-9)
 - **Trial:** [ClinicalTrials.gov NCT06024876](https://clinicaltrials.gov/study/NCT06024876)
 - **Datos originales:** Source Data MOESM3, MOESM6, MOESM11 y MOESM13 del [paper en Nature](https://www.nature.com/articles/s41586-026-10342-9#Sec)

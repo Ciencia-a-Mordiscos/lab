@@ -3,7 +3,7 @@ fecha: 2026-01-17
 categoria: astronomia
 tags: [astronomia, estrellas-m, cme, lofar, radio-astronomia, exoplanetas, mcmc]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/h6Cx-_ZEm3E"
 fuentes:
   - doi: "10.1038/s41586-025-09715-3"
     titulo: "Radio burst from a stellar coronal mass ejection"

@@ -3,7 +3,7 @@ fecha: 2026-04-01
 categoria: ecologia
 tags: [co2, vegetacion, drylands, tierras-secas, vpd, gpp, ciclo-carbono, modelos-climaticos, esm, dgvm, fluxnet, ml-upscaling, cambio-climatico]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/ll4bRlKzWWY"
 fuentes:
   - doi: "10.1038/s41561-026-01957-8"
     titulo: "Dryland dominance in the slowdown of global vegetation carbon uptake"

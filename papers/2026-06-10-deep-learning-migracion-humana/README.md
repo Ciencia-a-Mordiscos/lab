@@ -26,6 +26,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/ya1KCDnbaq8)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10611-7](https://doi.org/10.1038/s41586-026-10611-7)
 - **Datos originales:** [ThGaskin/Migration_flows (HuggingFace)](https://huggingface.co/datasets/ThGaskin/Migration_flows)

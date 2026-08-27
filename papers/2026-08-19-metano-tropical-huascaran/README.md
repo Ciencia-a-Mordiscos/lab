@@ -29,6 +29,6 @@ El notebook **re-ejecuta el modelo de 4 cajas** de los autores con su semilla or
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/eFBHwEd7lAw)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10938-1](https://doi.org/10.1038/s41586-026-10938-1)
 - **Datos originales:** [Zenodo 10.5281/zenodo.18657346](https://doi.org/10.5281/zenodo.18657346)
