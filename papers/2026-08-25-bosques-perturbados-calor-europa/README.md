@@ -30,6 +30,6 @@ Los CSV con las anomalías a nivel de píxel (676 MB cada uno) no se descargaron
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/hCaP33FXDxA)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-02071-5](https://doi.org/10.1038/s41561-026-02071-5)
 - **Datos originales:** [Figshare](https://doi.org/10.6084/m9.figshare.31147237)

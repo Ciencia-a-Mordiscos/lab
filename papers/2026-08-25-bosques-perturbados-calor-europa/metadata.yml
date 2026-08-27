@@ -3,7 +3,7 @@ fecha: 2026-08-25
 categoria: ecología
 tags: [bosques, teledetección, temperatura, europa, perturbaciones, landsat, shap]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/hCaP33FXDxA"
 fuentes:
   - doi: "10.1038/s41561-026-02071-5"
     titulo: "Disturbance characteristics and forest properties regulate surface warming and recovery across Europe"
