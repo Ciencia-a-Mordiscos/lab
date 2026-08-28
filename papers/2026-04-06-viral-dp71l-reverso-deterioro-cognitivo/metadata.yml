@@ -28,4 +28,7 @@ datasets:
   - nombre: "rpkm_per_sample.csv"
     descripcion: "RPKM por gen por muestra (12 muestras: 2 ensayos × 2 genotipos × 3 réplicas)"
     fuente: "GEO GSE310398"
+titulo_corto: "Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo"
+card_descripcion: |
+  Reineke et al. (2026) muestran que una variante humana del gen **PPP1R15B (R658C)** mantiene encendida una respuesta de estrés celular llamada **ISR** — y eso solo basta para deteriorar la memoria. La proteína viral **DP71L** la apaga y revierte los déficits cognitivos en ratones con Down, Alzheimer y envejecimiento. Este notebook usa el dataset público **GSE310398** para verificar la firma molecular: **ATF4 sube su eficiencia traduccional 53% en el cerebro mutante** (p ≈ 0,005, Cohen's d ≈ 5), **CHOP +41%**, y solo **1,6% de los 10.908 genes expresados** cambian — el ISR es un escalpelo molecular, no un mazo.
 estado: publicado

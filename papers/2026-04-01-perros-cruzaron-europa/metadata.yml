@@ -22,4 +22,8 @@ datasets:
   - nombre: "isotopos.csv"
     descripcion: "12 muestras isotópicas δ¹³C/δ¹⁵N de Gough's Cave y Pınarbaşı (Table 6)"
     fuente: "Supplementary Table 6"
+titulo_corto: "Los mismos perros cruzaron toda Europa"
+titulo_card: "🐕 Los mismos perros cruzaron toda Europa"
+card_descripcion: |
+  148 cánidos antiguos (74 perros, 73 lobos) de 25 países, genomas nucleares y mitocondriales, isótopos estables δ¹³C/δ¹⁵N
 estado: publicado

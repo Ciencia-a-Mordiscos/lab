@@ -22,4 +22,7 @@ datasets:
   - nombre: "estratificacion_riesgo.csv"
     descripcion: "Estratificación de riesgo: grupo ECG vs FEVI reducida"
     fuente: "Texto Open Access del paper"
+titulo_corto: "Un biomarcador en el ECG para la muerte súbita"
+card_descripcion: |
+  La muerte súbita cardíaca es, en teoría, evitable con un desfibrilador; el cuello de botella es saber a quién ponérselo. El examen estándar de hoy (la FEVI) se le escapa a la mayoría. Un equipo entrenó un modelo de aprendizaje profundo sobre **441.614 electrocardiogramas** de una región de Suecia ligados a certificados de defunción. **El hallazgo:** el modelo ordena el riesgo de muerte súbita con un **AUC de 0,87** frente al **0,70** del estándar clínico, y aísla un grupo de alto riesgo (2,2% de la muestra, **7,0% anual** de muerte súbita) del que el **86,1% es invisible para la FEVI**. Generaliza sin reentrenar a EE.UU. (AUC 0,82) y Taiwán (0,77), y en un control de muertes **no** arrítmicas cae a 0,58 (casi azar), prueba de que detecta arritmia y no muerte genérica. ⚠️ El AUC **ordena** el riesgo, no diagnostica. ⚠️ El beneficio del desfibrilador (54,4% menos mortalidad) es **observacional**: sugiere, no prueba. ⚠️ El mecanismo del biomarcador es una **hipótesis preliminar**.
 estado: publicado

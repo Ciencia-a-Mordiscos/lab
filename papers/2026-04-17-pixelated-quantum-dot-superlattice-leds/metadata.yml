@@ -28,4 +28,7 @@ datasets:
   - nombre: "lifetime_vs_eqe.csv"
     descripcion: "Benchmark T50 vs EQE"
     fuente: "Supplementary / Zenodo"
+titulo_corto: "LEDs de superretículas de quantum dots pixeladas"
+card_descripcion: |
+  Quantum dots de perovskita (CsPbBr₃) organizados en superretículas hexagonales: 30,9% EQE, 117.144 cd/m², 5.080 PPI. Vida media extrapolada de 12.411 horas (~1,4 años), 1.460× más que el mejor LED pixelado de perovskita anterior. La clave: un ligando (BHOA+F) que permite transporte de banda con movilidad 17× mayor a temperatura ambiente.
 estado: publicado

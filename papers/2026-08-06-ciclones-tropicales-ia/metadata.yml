@@ -22,4 +22,8 @@ datasets:
   - nombre: "nhc_decadas.csv"
     descripcion: "Error de pista e intensidad agregado por décadas y cuenca"
     fuente: "NHC Forecast Verification"
+titulo_corto: "El pronóstico de huracanes ganó 23 horas en una década"
+titulo_card: "El pronóstico de huracanes ganó 23 horas en una década"
+card_descripcion: |
+  Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día o más. Reconstruimos la vara: una década entera de progreso del centro de huracanes de EE. UU. compró 22,9 horas.
 estado: publicado

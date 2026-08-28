@@ -27,4 +27,8 @@ datasets:
     descripcion: "3,849 celdas con intensidad media y tendencia (grilla 2x2°)"
     fuente: "Zenodo (procesado de ERA5)"
 
+titulo_corto: "Océano dispara olas de calor"
+titulo_card: "🌊 Océano dispara olas de calor"
+card_descripcion: |
+  42 años de olas de calor húmedo, mapa global de tendencias, comparación por décadas
 estado: publicado

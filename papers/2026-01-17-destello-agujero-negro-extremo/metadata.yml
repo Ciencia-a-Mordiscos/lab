@@ -25,4 +25,8 @@ datasets:
   - nombre: "wise_photometry.csv"
     descripcion: "Fotometría infrarroja WISE W1+W2 (52 obs, 2010-2023)"
     fuente: "Supplementary Materials del paper"
+titulo_corto: "Un destello 40 veces más brillante de un agujero negro"
+titulo_card: "Un destello 40 veces más brillante de un agujero negro"
+card_descripcion: |
+  Hinkle et al. (2025) describen el destello más luminoso jamás registrado de un agujero negro supermasivo: el núcleo galáctico activo **J224554.84+374326.5** (z = 2,6) brilló más de **40×** sobre su nivel normal en 2018 y liberó ~**10⁵⁴ erg** en UV+óptico — equivalente a convertir una masa solar entera en radiación. En ZTF g (filtro más azul) la amplitud alcanza **151×** pico→mínimo; el eco infrarrojo de WISE es apenas **1,9×**. Seis años después, todavía se está apagando.
 estado: publicado

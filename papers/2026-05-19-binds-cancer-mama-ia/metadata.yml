@@ -28,4 +28,7 @@ datasets:
   - nombre: "auroc_subtipo_por_modalidad.csv"
     descripcion: "AUROC para clasificación de subtipo molecular por modalidad."
     fuente: "Supplementary MOESM4 (fig 3b radar plot)"
+titulo_corto: "BINDS: cáncer de mama por IA, examinado por dentro"
+card_descripcion: |
+  Liu et al. (2026) **introducen BINDS**, un modelo de deep learning multimodal que combina ecografía, mamografía y resonancia para diagnosticar cáncer de mama sobre **27.048 participantes** (8 centros + 7 datasets públicos). El paper anuncia un **AUROC de 0,973**. Bajamos los Source Data (MOESM3, MOESM4, MOESM7) y desmenuzamos ese número. El headline vive en el mejor escenario: paciente con las tres modalidades y esquema two-stage. Con solo ultrasonido, BINDS cae a **0,876**. Con las tres modalidades juntas sube a **0,950** — una ganancia trimodal de **+4,1 puntos porcentuales** sobre la mejor modalidad única. En **BI-RADS 4A** (el subgrupo clínicamente más ambiguo, donde más se necesitaría ayuda) el intervalo de confianza se abre a **[0,76–0,97]** — ancho del CI = 0,21, el mayor de todos los subgrupos. Sorpresa de eficiencia: la **mamografía alcanza 0,87 con solo 10%** de los datos de entrenamiento; la señal está en la imagen, no en el volumen. ⚠️ Validación retrospectiva, no ensayo clínico prospectivo. ⚠️ El 0,973 está **+6,0 puntos porcentuales sobre la mediana** de las 69 AUROCs que reporta el propio paper. ⚠️ Los autores escriben *"highlight the potential"*, no *"demonstrates"*: el modelo **podría asistir**, no probó reemplazar al radiólogo.
 estado: publicado

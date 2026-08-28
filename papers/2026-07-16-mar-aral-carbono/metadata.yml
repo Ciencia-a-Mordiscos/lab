@@ -25,4 +25,7 @@ datasets:
   - nombre: "carbono_organico_sedimento.csv"
     descripcion: "Carbono orgánico del sedimento (%), 554 muestras"
     fuente: "Zenodo 10.5281/zenodo.16809289"
+titulo_corto: "El Mar de Aral se secó y empezó a exhalar carbono"
+card_descripcion: |
+  El Mar de Aral, cuarto lago más grande del mundo, se secó tras desviar su agua para regar algodón. El equipo midió qué hace el lecho ahora expuesto: **111 mediciones** de flujo de CO₂ (cámaras IRGA) en **14 sitios**, con luz y a oscuras. **El hallazgo:** el barro seco es una **fuente** de carbono, no un sumidero — ~**80%** de las mediciones dan emisión neta, y emite casi igual con luz que a oscuras (Mann-Whitney p=0,03; Cohen's d≈0,30, efecto pequeño). Hacia 2022 quedaron **62.625 km²** de lecho al descubierto. Desde 1960 el lecho ha liberado unos **204 Tg C (±53)**, volviendo la cuenca de sumidero presunto a fuente neta. ⚠️ La cifra de 204 Tg C es una **integración a escala de sistema** (space-for-time), no un dato de una sola tabla; la citamos como la calculó el equipo. ⚠️ El flujo se midió en **una sola campaña** (sep 2022); la trayectoria temporal se **infiere** de la cronosecuencia. ⚠️ Reinundar **podría** evitar ~**165 Tg C** más (≈604 Mt CO₂): es un **escenario modelado**, no un logro.
 estado: publicado

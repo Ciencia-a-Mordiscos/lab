@@ -22,4 +22,8 @@ datasets:
   - nombre: "muestras_completas.csv"
     descripcion: "Catálogo de 12 muestras con localidad, edad y fósiles"
     fuente: "Supplementary Data 1 + texto del paper"
+titulo_corto: "Fantasmas de 241 millones de años"
+titulo_card: "⛰️ Fantasmas de 241 millones de años revelan un secreto"
+card_descripcion: |
+  Slater et al. (2025), fósiles fantasma de cocolitóforos en rocas del Triásico Medio (Suiza y Austria). El récord fósil se extiende ~26 millones de años hacia atrás (de ~215 Ma a ~241 Ma). Más de 100 huellas preservadas en heces de zooplancton fosilizadas. Las muestras con alta materia orgánica amorfa (media 73%) contienen los fantasmas.
 estado: publicado

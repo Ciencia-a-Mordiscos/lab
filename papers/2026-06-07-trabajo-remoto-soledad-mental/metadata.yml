@@ -25,4 +25,7 @@ datasets:
   - nombre: "atribucion_nacional.csv"
     descripcion: "Fraccion del aumento nacional atribuible al trabajo remoto (~1/3)"
     fuente: "Texto de acceso abierto (valores transcritos)"
+titulo_corto: "¿El trabajo remoto te deja solo?"
+card_descripcion: |
+  El trabajo remoto en EE.UU. se cuadruplicó (7%→28% entre 2019 y 2023). Con cinco encuestas nacionales (588.322 trabajadores) y un diseño de diferencias en diferencias —remotables vs no remotables, 2011-2024 sin 2020-2021—, el equipo midió qué le hizo eso al aislamiento y la salud mental. **El hallazgo:** el daño se concentra en **quien vive solo** — suma **+7,0 pp** de días enteros sin compañía, **diez veces** lo de quien cohabita (p=0,006), y **13x** en días sin contacto humano (p=0,036). La salud mental empeora en varias señales (uso de servicios +58%, días deprimido +21,7%). Los autores **estiman** que el trabajo remoto explica **cerca de un tercio** del aumento nacional de soledad y distrés. ⚠️ Observacional/diferencias-en-diferencias: la causalidad descansa en supuestos, no en un sorteo. ⚠️ Valores transcritos del texto de acceso abierto (dataset Dryad en curación). ⚠️ El K-6 mide riesgo de distrés, no diagnóstico clínico.
 estado: publicado

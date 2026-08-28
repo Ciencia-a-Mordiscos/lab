@@ -19,4 +19,7 @@ datasets:
   - nombre: "cpp_bodymass.csv"
     descripcion: "Merge Tabla S1 (CPP sinciput) + Tabla S4 (masa corporal femenina) de 29 especies"
     fuente: "Supplementary Information (MOESM2)"
+titulo_corto: "El parto humano no es el más difícil de los primates"
+card_descripcion: |
+  El libro de texto repetía que el parto humano es el más apretado del reino primate, el precio de un cerebro grande en una pelvis bípeda. Un equipo midió en 3D la pelvis y el cráneo neonatal de **29 especies** y reordenó la lista. **El hallazgo:** el humano queda en el **puesto 13 de 29** en estrechez cefalopélvica — **12 especies** tienen un parto más apretado, la más extrema el tamarino (CPP **2,80**). Eso sí, entre los simios el humano es la excepción: el ape con el encaje más justo (**1,00** frente al **0,41** del gorila). ¿El factor que separa apretados de holgados? No el cerebro, sino el tamaño de la madre: a menor masa materna, encaje más apretado (**Spearman ρ = -0,70**). ⚠️ Estudio observacional/comparativo: muestra asociación, no causa. ⚠️ Usa medidas derivadas de las tablas suplementarias; los datos crudos de tomografía están restringidos. ⚠️ El reframe "la unicidad del parto humano es un artefacto de medición" el paper lo enmarca como hipótesis (*may be an artefact*), no como veredicto.
 estado: publicado

@@ -25,4 +25,8 @@ datasets:
   - nombre: "features_acusticos.csv"
     descripcion: "168 estímulos con 12 features acústicos"
     fuente: "acoustic-features.xlsx del repo original"
+titulo_corto: "Música: preferencias compartidas con animales"
+titulo_card: "🎵 Música: preferencias compartidas con animales"
+card_descripcion: |
+  48,567 trials, 16 especies, 4196 participantes globales — los humanos coinciden con las preferencias acústicas de ranas, grillos y aves un 54% de las veces
 estado: publicado

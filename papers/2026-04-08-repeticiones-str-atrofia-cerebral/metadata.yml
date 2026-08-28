@@ -28,4 +28,7 @@ datasets:
   - nombre: "frecuencias_por_ancestralidad.csv"
     descripcion: "Frecuencias premutación y patogénicas por locus y ancestralidad (35 loci × 5 grupos)"
     fuente: "Nature Supplementary Table 6 (MOESM3 ZIP)"
+titulo_corto: "Expansiones STR revelan atrofia cerebral preclínica"
+card_descripcion: |
+  Regeneron Genetics Center et al. (2026) cruzan **37 loci STR patogénicos** con 7.671 rasgos clínicos en **1.020.833 muestras** de 5 cohortes (UK Biobank, GHS, Mayo, Penn, MCPS). El método recupera las asociaciones canónicas con OR enormes — **HTT-Huntington OR=1.396** (p=3·10⁻¹²²), DMPK-distrofia miotónica OR=601, C9ORF72-motoneurona OR=99 — lo que da licencia para mirar el hallazgo más fuerte: en una sub-cohorte con imagen cerebral (~58k–63k normales), los **9 portadores patogénicos de HTT** muestran un **22,1% menos de volumen del putamen** (p=1,4·10⁻¹⁸) y los **10 de CACNA1A** un **24,6% menos de volumen del cerebelo**, todos sin diagnóstico clínico aún. NfL en sangre sube **1,9× en HTT** (p=2,1·10⁻¹²) — biomarcador validado de daño neuronal. El gap más dramático: **44 portadores de C9orf72 por cada paciente diagnosticado** con motoneurona. ⚠️ Estudio observacional **transversal**: el abstract dice *"occur earlier than diagnosis"* (parece preceder), NO "comienza antes" — sin seguimiento longitudinal individual. Penetrancia incompleta + edad de aparición tardía + subdiagnóstico no se separan. n=9 y n=10 son señales fuertes pero muestras chicas. Sub-cohorte de imagen es ~98% europea.
 estado: publicado

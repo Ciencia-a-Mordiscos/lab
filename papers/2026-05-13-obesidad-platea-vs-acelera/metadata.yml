@@ -31,4 +31,7 @@ datasets:
   - nombre: "estudios_por_anio.csv"
     descripcion: "Cobertura de estudios y participantes por año (1975-2025)"
     fuente: "NCD-RisC supplementary"
+titulo_corto: "La obesidad mundial: dónde se frenó, dónde se aceleró"
+card_descripcion: |
+  NCD-RisC (2026) integraron **4.050 estudios poblacionales** con altura y peso medidos (no autoreportados) de **232 millones** de personas en **200 países** entre 1980 y 2024. El mundo sigue subiendo — mujeres adultas **×2,55** (de 6,8% a 17,2%), hombres **×4,18** (de 3,2% a 13,4%) — pero la curva ya no es la misma en todos lados. En **Italia** (chicos pico 15,0% en 2009 → 12,5% en 2024), **Francia** (6,3% en 2007 → 4,3%, caída relativa **32%**) y Portugal hay indicios de declive en niños. **EE. UU. se estancó** después de 2010 (22,6% → 23,4%, plateau). En cambio, las regiones de ingreso medio aceleran: Sur de Asia mujeres pasó de **0,11 a 0,37 pp/año** (×3,4); Latinoamérica de **0,45 a 0,70** (×1,6). Solo **HIC occidental y Europa central/oriental** se desaceleran en mujeres adultas — el resto del mundo va más rápido que antes. ⚠️ Estudio observacional, no causal: el paper dice *"social, economic and technological trends MAY have helped control"* — atenuador condicional. ⚠️ El cruce LMIC vs HIC es heterogéneo: Sur de Asia (11,6%) y África subsahariana (16,5%) siguen por debajo de HIC occidental (27,4%). ⚠️ Las prevalencias son estimaciones de un modelo bayesiano jerárquico con intervalos de incertidumbre 95%.
 estado: publicado

@@ -28,4 +28,7 @@ datasets:
   - nombre: "calibracion_sensor.csv"
     descripcion: "Curva de calibración del sensor (rango 0,5-200 ng/ml)"
     fuente: "Source Data Fig. 6e"
+titulo_corto: "Un sticker en la piel que lee tu nutrición en el sudor"
+card_descripcion: |
+  Medir folato hoy pide un pinchazo en el brazo y un laboratorio. Un equipo construyó una microcápsula que se pega a la piel, recoge microlitros de sudor limpio y los pasa a un *lab-on-a-disc* portátil que corre el ensayo completo. La pregunta de fondo: ¿el folato del sudor refleja el de la sangre? **El hallazgo:** sí lo sigue — **Spearman ρ = 0,84** entre folato en sudor y en suero (33 pares de 7 personas), con pico a la **1–2 h** tras la ingesta en ambos fluidos, y el disco portátil concuerda con el ELISA de laboratorio (**r = 0,97**). ⚠️ Validado en **7 adultos sanos (3 hombres, 4 mujeres), ninguna embarazada**: lo "prenatal" es la meta a futuro, no algo probado aquí. ⚠️ El seguimiento diario es de **solo 2 personas** (descriptivo, no test poblacional). ⚠️ El disco lee algo más bajo en concentraciones altas: sigue la tendencia, requiere calibración.
 estado: publicado

@@ -25,4 +25,7 @@ datasets:
   - nombre: "mineralizacion_curva.csv"
     descripcion: "% mineralización del TFA vs unidad relativa de exposición. Fig 1c."
     fuente: "Figshare 10.6084/m9.figshare.30812798 (Source data Fig 1)"
+titulo_corto: "TFA: el químico eterno que nadie sabía cómo destruir"
+card_descripcion: |
+  Jiang et al. (2026) demuestran la mineralización completa del **TFA** (el PFAS más pequeño y más recalcitrante) bajo condiciones ambientales, vía una ruta tandem oxidativa/reductiva. La clave es un radical olvidado: el **anión radical de oxígeno (O•⁻)**, la forma desprotonada del •OH, que ataca al TFA con **k = 5,1 × 10⁷ M⁻¹ s⁻¹** — **50 veces más rápido** que el electrón hidratado, la vía clásica. En este Lab abrimos los datos del paper y verificamos: el ajuste lineal sobre 4 concentraciones (2-20 mM) da **5,14 × 10⁷ M⁻¹ s⁻¹**, dentro del 1% del valor reportado. La mineralización llega al **96,84%** en agua deionizada, y el método se extiende a PFBA, PFHxA y PFOA. El gráfico de iones revela el lado real: **NO₃⁻ apaga la reacción al 0,8%** y **CO₃²⁻ cae 74 puntos** — en agua de la llave o de río, el techo del 97% bajaría según composición iónica.
 estado: publicado

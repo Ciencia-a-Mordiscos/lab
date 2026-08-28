@@ -19,4 +19,8 @@ datasets:
   - nombre: "cmip_rebound_resumen.csv"
     descripcion: "Resumen de rebound por modelo (pico, mínimo, magnitud)"
     fuente: "Derivado de Global.tas.Z_yr.nc"
+titulo_corto: "Océano profundo vs emisiones cero"
+titulo_card: "🌊 El océano profundo y la promesa de emisiones cero"
+card_descripcion: |
+  14 modelos CMIP6, 300 años de simulación — 12/14 muestran rebound de temperatura post net-zero por calor devuelto del océano profundo
 estado: publicado

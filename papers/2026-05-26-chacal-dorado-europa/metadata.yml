@@ -28,4 +28,7 @@ datasets:
   - nombre: "gradiente_humanos.csv"
     descripcion: "Quintiles dist_human × presencia de lobo"
     fuente: "Derivado de surveys.csv"
+titulo_corto: "Chacal dorado en Europa: el lobo lo limita, los humanos lo escudan"
+card_descripcion: |
+  Ranc et al. (2026) compilaron **8.991 muestreos acústicos** en **12 países** entre 2001 y 2019 para entender qué expande al chacal dorado por Europa. Bajamos los datos de Zenodo y los desmenuzamos en tres actos. **Acto 1:** la prevalencia del chacal cae de **23,9%** (n=6.185) sin lobo a **17,3%** (n=2.806) con lobo — una caída relativa del **28%**, chi² = 49,1, p < 10⁻¹¹. **Acto 2:** el efecto no es uniforme — en paisajes abiertos (0-30% bosque) la diferencia con/sin lobo casi desaparece, pero en bosques densos (>30%) la presencia del chacal con lobo se reduce de **~25% a ~10%**. El bosque es el árbitro. **Acto 3:** Hungría — **3.385 muestreos, el 38% del dataset**, prácticamente sin lobos (0,06% de prevalencia). Ahí el chacal está al **22,7%**, en el cuartil superior de Europa: el "experimento natural" que el resto del continente quizá esté a punto de repetir. ⚠️ Dataset observacional — la causalidad lobo → menos chacal sale del modelo multivariado del paper, no del análisis bivariado. ⚠️ Los porcentajes 75%, 6×, 18% son proyecciones del SDM, no estadísticos descriptivos.
 estado: publicado

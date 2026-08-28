@@ -16,4 +16,8 @@ datasets:
   - nombre: "benchmarks_variantes.csv"
     descripcion: "705 comparaciones de rendimiento (AUROC/AUPRC) de 25 modelos en 4 datasets de variantes genéticas"
     fuente: "Supplementary Table 3"
+titulo_corto: "Evo 2: IA que lee todo el ADN de la vida"
+titulo_card: "🧬 9 Billones de Bases de ADN Enseñaron a una IA a Escribir Vida"
+card_descripcion: |
+  Nguyen et al. (2026), 705 benchmarks de predicción de variantes genéticas — Evo 2 (40B parámetros) compite con modelos especializados sin entrenamiento específico y lidera en BRCA1 (AUROC 0,901)
 estado: publicado

@@ -22,4 +22,8 @@ datasets:
   - nombre: "datasets.csv"
     descripcion: "20 datasets del meta-análisis con ecosistema y tamaño"
     fuente: "Supplementary Materials (MOESM2)"
+titulo_corto: "248 químicos sintéticos en el océano"
+titulo_card: "🧪 248 químicos sintéticos en el océano"
+card_descripcion: |
+  2,315 muestras de agua de mar, 21 datasets, 248 xenobióticos — ftalatos, protector solar, fármacos y pesticidas desde arrecifes hasta mar abierto
 estado: publicado

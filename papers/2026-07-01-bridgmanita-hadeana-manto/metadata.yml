@@ -22,4 +22,7 @@ datasets:
   - nombre: "bridgmanita_composicion.csv"
     descripcion: "Fracciones molares bulk vs bridgmanita a 53 y 97 GPa"
     fuente: "Nature Supplementary Data 2"
+titulo_corto: "Una huella del Hadeano en una lava de hoy"
+card_descripcion: |
+  El manto terrestre guarda parches químicos de distintas edades, pero fechar su origen es dificilísimo. Un equipo midió con altísima precisión el neodimio en lavas de dos volcanes vecinos de las Comoras. **El hallazgo:** las lavas del volcán submarino Fani Maore traen una anomalía de ¹⁴²Nd de **+3,2 ppm** (n=13), distinta del estándar (Welch p < 0,00001) y de su vecino Mayotte (p = 0,028; Cohen's d = 1,15). Como el ¹⁴²Nd solo se fabrica con el ¹⁴⁶Sm — un reloj radiactivo extinto hace ~4.500 millones de años — esa firma **tuvo** que crearse en los primeros 100 millones de años de la Tierra. El mecanismo: la bridgmanita cristalizada de un océano de magma agarra Sm **2,1×** más que Nd, duplicando la razón Sm/Nd (0,96 → 2,07). ⚠️ Que el material sea bridgmanita de un océano de magma es la hipótesis de los autores ('suggest'), no una prueba directa. ⚠️ Las anomalías son de pocas ppm, cerca del límite de detección.
 estado: publicado

@@ -28,4 +28,7 @@ datasets:
   - nombre: "ciclado_productividad.csv"
     descripcion: "72 ciclos consecutivos en 24 h — agua colectada por ciclo y acumulado (Fig. 5e)"
     fuente: "MOESM8 ESM — Source Data Fig. 5"
+titulo_corto: "Cómo una membrana flexible saca agua del aire 5 veces más rápido"
+card_descripcion: |
+  Bai et al. (2026) imprimieron en 3D una membrana de nanoláminas de zeolita EMM-8 dentro de una matriz flexible de poliuretano (TPU). El cuello de botella histórico de la captura atmosférica de agua —la cinética se desploma cuando apilas el sorbente en un dispositivo real— se rompe: la membrana llega al **50% de su capacidad en 4.6 minutos**, entre **2.4× y 10.5× más rápido** que cualquier sorbente publicado (rango 11-48 min). Productividad máxima: **13.79 g de agua por g de sorbente y día** a 59.3% RH (vs 8.96 del mejor competidor previo, CAL, que necesita 72.5% RH). A humedades bajas (38.1% RH, condiciones casi desérticas) ya alcanza **11.81 g/g/d**. En 24 h corren **72 ciclos** estables (CV ≈ 3%) acumulando **11.78 veces el peso de la membrana en agua** (≈ 13.29 L/m²). Desorción a 80°C deja residual ≈ 0% en 20 min. ⚠️ La proyección de escalabilidad industrial ("*promising routes*") es proyección de los autores, no resultado validado a escala de planta. ⚠️ Ciclado medido solo 24 h continuas — degradación de la matriz TPU a meses/años requiere otro estudio. ⚠️ La comparación con sorbentes de literatura usa publicaciones independientes (no se remidieron en el mismo aparato).
 estado: publicado

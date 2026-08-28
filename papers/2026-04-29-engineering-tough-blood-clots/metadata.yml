@@ -28,4 +28,7 @@ datasets:
   - nombre: "mechanical_headline.csv"
     descripcion: "Headlines mecánicos: 13× toughness, 4× adhesion"
     fuente: "Abstract del paper (Nature)"
+titulo_corto: "Coágulos de sangre 13 veces más resistentes que el natural"
+card_descripcion: |
+  Jiang et al. (2026) cargan glóbulos rojos con un polímero (hialuronato modificado con tetrazina) y los reticulan con luz visible: el coágulo "ingenierizado" (**EBC**) se forma en segundos, exhibe **13× más resistencia a fractura** y **4× más adhesión** que un coágulo nativo. *In vivo* en lesiones hepáticas de rata (4 mm × 3 mm), regenera **78% del tejido en día 5** contra **20%** del estándar clínico Floseal — un gap de **58 puntos porcentuales** que se reduce a 16 pp en día 28. Y entre **14 biomateriales** comparados (Surgicel, CoSeal, gelatina, cianoacrilato…), EBC es el único con respuesta de cuerpo extraño "**mínima**". El polímero se descompone *in vitro* con hialuronidasa: el peso molecular cae **9.3×** en 60 min — no persiste en el tejido. En este Lab abrimos los CSVs transcritos del Supplementary Information (Tablas S1-S3) y verificamos cada claim numérico. ⚠️ La Tabla S3 reporta **n=1 por (biomaterial × día)** — estimación visual de histología, sin SD; los headlines mecánicos están en figuras paywalled.
 estado: publicado

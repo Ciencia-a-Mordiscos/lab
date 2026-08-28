@@ -22,4 +22,7 @@ datasets:
   - nombre: "espectros_metadatos.csv"
     descripcion: "Por objetivo: sol, ganancia (eV/canal), offset, tiempo de integración y temperatura del cabezal del detector"
     fuente: "Supplementary Materials — Data S2 (metadatos)"
+titulo_corto: "El azufre que no debería estar suelto"
+card_descripcion: |
+  En Marte el azufre siempre viene agarrado a otra cosa. En el valle de Gediz, Curiosity le apuntó el espectrómetro a un parche de **2.100 m²** de piedras claras y una rueda del rover partió una. **El hallazgo:** en 10 análisis sobre cinco piedras el azufre llega a **83,28 wt%** de media contra **16,39** en las rocas vecinas (**5,08x**, d = 18,87) — y falta todo lo demás: hierro a **0,07** de su valor vecino, calcio a **0,18**. Los cationes que un sulfato necesitaría no están, y la razón Compton/Rayleigh (**1,39 vs 1,83**) lo confirma por una vía independiente. ⚠️ La columna del CSV se llama `SO3_pct` y **eso no quiere decir sulfato**: el APXS reporta el azufre *como si fuera* SO₃ por convención de calibración. ⚠️ El origen —vapor magmático atrapado en la criosfera— es lo que los autores **proponen**, no lo que el rover midió.
 estado: publicado

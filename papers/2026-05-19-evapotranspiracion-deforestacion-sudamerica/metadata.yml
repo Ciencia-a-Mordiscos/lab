@@ -28,4 +28,8 @@ datasets:
   - nombre: "summary_stats.csv"
     descripcion: "14 métricas globales (media, mediana, std, percentiles, % hotspots)"
     fuente: "Cross-cálculo Zenodo"
+titulo_corto: "1,6 millones de km² de selva no han vuelto a \"sudar\" igual"
+titulo_card: "1,6 millones de km² de selva no han vuelto a \"sudar\" igual"
+card_descripcion: |
+  Ahmad et al. (2026) cruzaron el modelo hidrológico **Noah-MP** con datos satelitales de humedad del suelo, biomasa y agua subterránea a **1 km de resolución, 2003–2020**, para mapear cómo cae y se recupera la evapotranspiración (ET) en casi **12 millones de km²** de la Sudamérica tropical. Bajamos los rasters de Zenodo, los agregamos servidor-side a 5 CSVs y los desmenuzamos en tres actos. **Acto 1:** la cola larga — el **36%** del territorio recupera ET en un año, pero el **13,5%** (1,6 M km², más que Perú entero) no la ha recuperado en 7 años o más. **Acto 2:** el bajón es continental — **85%** del territorio bajo -1σ ESI, **43%** bajo -2σ (decline severo). **Acto 3:** los parches que más tardan también caen más profundo — Spearman ρ = **-0,36** (p<10⁻⁹), gradiente de **+0,09σ** (sin decline) a **-2,28σ** (decline severo) a medida que la persistencia sube de 0 a 7+ años. ⚠️ Los rasters publicados no incluyen máscara de tipo de stress (deforestación/fuego/sequía) ni de bioma — los headlines **21–22% más persistencia por deforestación** y **Cerrado vs Pantanal** son del modelo Noah-MP completo, no replicables desde el raster final.
 estado: publicado

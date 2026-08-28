@@ -22,4 +22,8 @@ datasets:
   - nombre: "metodos_evaluacion_replica.csv"
     descripcion: "12 métodos de evaluación de replicación"
     fuente: "Tabla repli_binary del analyst package"
+titulo_corto: "¿Se puede replicar la ciencia social?"
+titulo_card: "🔬 ¿Se puede replicar la ciencia social?"
+card_descripcion: |
+  Protzko et al. (2025), 274 claims de 164 papers replicados, 55,1% se replica, efecto mediano se reduce a la mitad
 estado: publicado

@@ -28,4 +28,7 @@ datasets:
   - nombre: "top_proteins_per_organ.csv"
     descripcion: "Top proteínas Olink por reloj orgánico (543 entradas)"
     fuente: "Supplementary Table 4"
+titulo_corto: "Tu plasma tiene 11 relojes. Uno por órgano."
+card_descripcion: |
+  Liu et al. (2025) entrenaron 11 relojes proteómicos del envejecimiento — uno organismal y diez órgano-específicos — sobre el panel Olink (**2.924 proteínas**) en plasma de **43.616 personas** del UK Biobank, y los validaron en cohortes de China (n=3.977) y Estados Unidos (n=800; cross-cohort r=0.98 y r=0.93). Por cada **desviación estándar** que el reloj cerebral marca "más viejo" que la edad cronológica, el riesgo de muerte sube **44%** (HR=1.44, IC 95% 1.38–1.49) y el de demencia casi se duplica (HR=1.88). Entre los 11 órganos, el cerebro lidera ambos rankings — queda 22% por encima del segundo (páncreas) en magnitud de efecto sobre mortalidad, y 38% por encima en demencia (HR 1.88 vs 1.36 del segundo, Organismal). Los 11 relojes no se mueven juntos: las correlaciones plasmáticas entre órganos van de 0.03 a 0.56, y la mayoría de pares (70/90) está por debajo de 0.30 — cada órgano envejece por su lado. ⚠️ Diseño observacional (Cox regression): los HR predicen riesgo, no demuestran causalidad. ⚠️ El histograma de brain score muestra un pico artificial centrado en la mediana (~11% del sample): los modelos Olink imputan proteínas faltantes con la mediana, y el residual hereda ese pico — anotado explícitamente en la gráfica.
 estado: publicado

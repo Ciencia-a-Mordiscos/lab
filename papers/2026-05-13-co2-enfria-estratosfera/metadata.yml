@@ -31,4 +31,7 @@ datasets:
   - nombre: "forzamiento_vs_sst.csv"
     descripcion: "IRF, ERF y % amplificación por SST (247-307 K)"
     fuente: "Zenodo 16929030"
+titulo_corto: "El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)"
+card_descripcion: |
+  Cohen et al. (2026) usan un modelo radiativo idealizado (Konrad 1D) corrido a **6 concentraciones de CO₂ (70 → 2240 ppm)** y lo cruzan con **36 modelos CMIP6 + 3 reanálisis** (ERA5, JRA-55, MERRA-2) para explicar por qué el CO₂ calienta abajo y **enfría arriba**. A 1 hPa (≈48 km) cada duplicación de CO₂ enfría la estratopausa **~9 K** — pero la tropopausa no se mueve: la temperatura a 100 hPa varía menos de **0,3 K** entre 70 y 2240 ppm. Y ese enfriamiento estratosférico **amplifica el forzamiento radiativo** del CO₂ entre **50 % y 70 %** según el setup numérico. Los 34 modelos CMIP6 que llegan a 1 hPa muestran enfriamiento (mediana −0,92 K/déc); los reanálisis observacionales muestran enfriamiento aún más intenso en estratosfera alta (ERA5: −1,84 K/déc a 3 hPa). ⚠️ Konrad es 1D idealizado: SST fija a 287 K, sin dinámica meridional, sin H₂O variable. ⚠️ El paper reporta amplificación "*about 50 %*" pero nuestro cálculo directo (ERF − IRF)/IRF da +62,9 % en el barrido de duplicaciones y +69,2 % en el barrido SST — el paper no especifica la definición usada. ⚠️ Las tendencias CMIP6 1980-2019 mezclan la firma del CO₂ con la recuperación del ozono y la variabilidad solar — no son enfriamiento puro de CO₂.
 estado: publicado

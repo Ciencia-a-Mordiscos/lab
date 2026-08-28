@@ -22,4 +22,7 @@ datasets:
   - nombre: "precision_edades.csv"
     descripcion: "Error medio de edad por catálogo: CARMA, VandenBerg y Dotter"
     fuente: "Methods del paper"
+titulo_corto: "La fusión que se nos había escondido"
+card_descripcion: |
+  Los cúmulos globulares son escombros que no se borran: si la Vía Láctea se tragó una galaxia, sus cúmulos siguen orbitando. Massari et al. datan 39 con el Hubble a **0,26** miles de millones de años de error (contra 0,91 y 0,43 de los catálogos previos) y los ven ordenarse en secuencias distintas del plano edad–metalicidad. **El hallazgo:** los dos progenitores dejaron de formar cúmulos con **1,76 mil millones de años de diferencia**, y **13 de 14 candidatos** al nuevo progenitor —bautizado LKH— quedaron dentro de los **6 kiloparsecs interiores**, frente a **0 de 14** en Gaia-Sausage-Enceladus (d = 2,72, p = 7,5e-06). ⚠️ El 1,8 del titular **no es el hueco entre las curvas**: es la resta de dos parámetros ajustados, y propagada da **+0,81/−0,89**. ⚠️ Con las etiquetas públicas la **edad sola no separa** LKH de GSE (p = 0,077). ⚠️ Nuestros grupos son un **proxy** de la clasificación bayesiana del paper, y las edades son **relativas**, no absolutas.
 estado: publicado

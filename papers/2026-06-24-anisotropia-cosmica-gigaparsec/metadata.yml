@@ -16,4 +16,8 @@ datasets:
   - nombre: "galaxias_S1..S4.csv, galaxias_LRGS.csv"
     descripcion: "Posiciones comóviles (x,y,z, Mpc/h) de 150.136 galaxias DESI DR1 en 5 muestras de profundidad creciente"
     fuente: "Zenodo (records/20118015), derivado de DESI DR1 (BGS + LRGS)"
+titulo_corto: "La anisotropía cósmica a escala de un gigaparsec"
+titulo_card: "El universo no se ve igual en todas las direcciones (hasta donde alcanzamos a mirar)"
+card_descripcion: |
+  El principio cosmológico —base de casi toda la cosmología— asume que, si te alejas lo suficiente, el universo se ve igual hacia cualquier dirección. Un equipo mapeó **150.136 galaxias** de DESI DR1 en cinco profundidades, del vecindario cósmico hasta **~1 gigaparsec** (mil millones de pársecs), y midió si hay direcciones preferidas. **El hallazgo:** la distribución de galaxias muestra **estructuras anisotrópicas que persisten hasta escalas de un gigaparsec**, con significancia conservadora **>3σ** según el estadístico ADPD del paper frente a catálogos simulados ΛCDM. En nuestro proxy didáctico, el cosmos cercano es **7× más direccional** que el azar; las muestras profundas mantienen un exceso más leve. ⚠️ El notebook usa un **proxy ilustrativo**, no el ADPD del paper: su razón (×) nunca es una significancia σ. ⚠️ 3σ no es 5σ (el umbral de descubrimiento): una señal fuerte que **reta** el supuesto de isotropía, no que refute ΛCDM. ⚠️ Un solo estudio observacional, sobre la proyección 2D de rebanadas finas.
 estado: publicado

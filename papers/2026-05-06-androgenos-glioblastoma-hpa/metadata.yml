@@ -19,4 +19,7 @@ datasets:
   - nombre: "mfp_rescue_castrated.csv"
     descripcion: "Supervivencia de 20 ratones castrados (Vehículo vs Mifepristona)"
     fuente: "Source Data Fig. 3b"
+titulo_corto: "La sorpresa de los andrógenos en el cerebro"
+card_descripcion: |
+  En la mayoría de los cánceres los andrógenos ayudan al tumor — por eso bloquearlos es estándar contra próstata. En glioblastoma, este equipo demostró lo contrario. **Acto 1 (Fig 1a):** castrar ratones con GBM intracraneal redujo la mediana de supervivencia 23% (26 → 20 días, *d* = 0,94, log-rank *p* = 0,020, *n* = 27). **Acto 2 (Fig 3b):** bloquear glucocorticoides con mifepristona en castrados subió la mediana 51% (17,5 → 26,5 días, *d* = 0,85, log-rank *p* = 0,048, *n* = 20). **Acto 3 (cohorte humana):** en 1.272 hombres con GBM, testosterona+temozolomida vs temozolomida sola → 38% menos riesgo de muerte (HR crudo 0,62; ajustado 0,66, *p* = 0,003). Mecanismo propuesto: sin andrógenos, el eje hipotálamo-pituitaria-adrenal (HPA) hipersuelta cortisol y apaga la inmunidad antitumoral. ⚠️ La cohorte humana es retrospectiva, no aleatorizada — asociación robusta, no causalidad probada. ⚠️ Solo replicamos las dos curvas de supervivencia; mediciones moleculares directas viven en otras figuras del paper.
 estado: publicado

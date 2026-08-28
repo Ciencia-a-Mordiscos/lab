@@ -25,4 +25,7 @@ datasets:
   - nombre: "observacion_vs_esm_por_aridez.csv"
     descripcion: "ML observado vs ESMs (CMIP6) por bin de aridez"
     fuente: "Zenodo 18476284 (Source Data Fig. 3c)"
+titulo_corto: "Las plantas absorben menos CO₂ desde 2001 — y las tierras secas son las culpables"
+card_descripcion: |
+  Li et al. (2026) cruzan **40 años de torres FLUXNET con machine learning satelital (1982–2022)** y detectan que la absorción de carbono vegetal del planeta se está frenando, pero el frenado no se reparte por igual: en las regiones húmedas la fotosíntesis sigue subiendo casi al mismo ritmo (slope cae solo **−12,6%**, p=4×10⁻⁷), mientras que en las **tierras secas** el ritmo cayó **−71,7%** (de **+2,73 a +0,77 gC/m²/año**, y el segundo slope ya no es significativo: p=0,21). El sospechoso climático es el **VPD** ("sed del aire"): en esas mismas zonas su tendencia se aceleró **×12** después de 2001 (de +0,35 a +4,31 Pa/año por año). Los **ESMs CMIP6** (los modelos del IPCC) predicen lo contrario de lo observado: **+0,48 vs −1,95** en cambio de tendencia — divergencia de signo, no solo de magnitud. ⚠️ El paper habla de "atribuido principalmente a", **no causalidad** — es estudio observacional, los autores son cuidadosos y el notebook lo respeta.
 estado: publicado

@@ -19,4 +19,8 @@ datasets:
   - nombre: "densidad_grid.csv"
     descripcion: "Grid global 1°×1° con densidad de pluviómetros y clasificación WMO"
     fuente: "Supplementary MOESM5"
+titulo_corto: "Nadie sabe cuánto llueve en el planeta"
+titulo_card: "🌧️ Nadie sabe cuánto llueve en casi todo el planeta"
+card_descripcion: |
+  221.483 pluviómetros, 15.386 tiles globales, 68,7% sin cobertura, solo 13,4% cumple WMO
 estado: publicado

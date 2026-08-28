@@ -28,4 +28,7 @@ datasets:
   - nombre: "glp1r_gipr_dose_response.csv"
     descripcion: "Dosis-respuesta para receptores GLP1R y GIPR"
     fuente: "Source Data MOESM3, Fig 4"
+titulo_corto: "Diseñaron una proteína desde cero. Funcionó en un ratón vivo"
+card_descripcion: |
+  Vázquez Torres et al. (2026) diseñaron *de novo* miniproteínas (~50-80 aminoácidos) que se pegan a 4 receptores GPCR distintos (MRGPRX1, CXCR4, GLP1R, GIPR) usando los modelos generativos RFdiffusion y ProteinMPNN. Bajamos las 5 tablas del Source Data MOESM3 (Figs. 2, 3, 4, 5) y las desmenuzamos. **Acto 1:** una de las miniproteínas, dCX1_001, bloquea el receptor CXCR4 *in vitro* prácticamente al 100% — la respuesta a 100 nM del ligando natural CXCL12 cae de **50,6% a -1,4%** con la miniproteína a 1 µM. **Acto 2:** en ratones vivos, dCX1_001 moviliza **células madre hematopoyéticas** a un nivel que el abstract describe como *comparable* al fármaco FDA AMD3100 (Mozobil): la mediana del fold-change a lo largo de 9 puntos temporales es **1,71×**, queda por encima del fármaco en **6 de 9** tiempos (pico **3,71× a la 1 h**, Cohen's d=1,09), por debajo en 3. **Acto 3:** la palabra "comparable" del paper aguanta — los datos la sostienen sin escalar. ⚠️ n=5 ratones por grupo por timepoint — IC al 95% amplios. ⚠️ Bloqueo *in vitro* no garantiza efecto *in vivo* (farmacocinética, vida media). ⚠️ Claim "fewer adverse effects" del abstract no verificable con Source Data MOESM3.
 estado: publicado

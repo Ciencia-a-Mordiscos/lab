@@ -19,4 +19,7 @@ datasets:
   - nombre: "modelos_climaticos.csv"
     descripcion: "12 escenarios atmosféricos VPL (SM Table 6)"
     fuente: "Supplementary Materials"
+titulo_corto: "TRAPPIST-1 b y c: rocas desnudas"
+card_descripcion: |
+  El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1. Resultado: rocas desnudas sin atmósfera. 490 K de día, cero de noche.
 estado: publicado

@@ -34,4 +34,7 @@ datasets:
   - nombre: "curva_termica.csv"
     descripcion: "Derivado: curva de respuesta térmica reconstruida, relativa al óptimo"
     fuente: "Cálculo propio a partir de los coeficientes publicados"
+titulo_corto: "¿El cambio climático ya subió la malaria infantil en África?"
+card_descripcion: |
+  Durante décadas se discutió si el calentamiento ya había cambiado la carga de malaria en niños africanos. Un equipo juntó **50.425 encuestas clínicas** de 1900 a 2016 y modeló qué habría pasado sin el calentamiento humano. **El hallazgo:** la respuesta no es que subió ni que bajó — **se movió de sitio**. El calor empujó la malaria hacia arriba en el sur (**+6,08 casos por cada 1.000**) y el este (**+3,25**), y hacia abajo en el oeste (**-4,04**), donde la carga es mayor. El neto continental queda en **+0,73 casos por cada 1.000** (IC 95%: **-4,11 a +5,99**). ⚠️ Los **cinco** intervalos de confianza cruzan el cero: el paper mismo dice *probablemente*. ⚠️ Contraintuitivo: bajo **emisiones altas (SSP5-RCP8.5)** el modelo proyecta **menos** malaria a 2100 (**-20,39 por cada 1.000**), porque África Occidental se calienta por encima del óptimo de transmisión (**24,9 °C**). ⚠️ Diseño **observacional**: el modelo atribuye, no demuestra causalidad.
 estado: publicado

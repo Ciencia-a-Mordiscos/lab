@@ -25,4 +25,8 @@ datasets:
   - nombre: "impacto_por_dem.csv"
     descripcion: "Comparación de impacto global por modelo de elevación digital"
     fuente: "Supplementary Table 4 (MOESM4)"
+titulo_corto: "Nadie midió bien el nivel del mar"
+titulo_card: "🌊 Nadie midió bien el nivel del mar y 132 millones lo pagarán"
+card_descripcion: |
+  386 evaluaciones de riesgo costero, offset MDT vs geoide EGM96/EGM2008, 4 DEMs, 77–132M personas bajo nivel del mar con +1 m de subida
 estado: publicado

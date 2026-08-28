@@ -28,4 +28,8 @@ datasets:
   - nombre: "emisiones_regionales.csv"
     descripcion: "Emisiones por región y tipo (stack gas vs i-PM)"
     fuente: "Zenodo (Figure 5b)"
+titulo_corto: "Una industria causa el 86% de estos contaminantes"
+titulo_card: "🏭 Una Industria Causa el 86% de Estos Contaminantes"
+card_descripcion: |
+  Yang et al. (2025), inventario global de emisiones de Cl/BrPAHs usando XGBoost: 5.143 kg en 184 países, la sinterización de mineral de hierro genera el 86,1% del total. Australia lidera con 1.393 kg (27% global, 47 g/persona — 236× la mediana)
 estado: publicado

@@ -22,4 +22,8 @@ datasets:
   - nombre: "mediciones_vuelo.csv"
     descripcion: "Mediciones in-flight detrás del A321neo"
     fuente: "Paper texto"
+titulo_corto: "Estelas de aviones limpios siguen calentando"
+titulo_card: "✈️ Las estelas de los aviones limpios siguen calentando el planeta"
+card_descripcion: |
+  Voigt et al. (2026), motores lean-burn con bajo hollín forman estelas masivas, datos de mediciones in-flight y modelo ACM (Zenodo)
 estado: publicado

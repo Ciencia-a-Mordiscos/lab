@@ -25,4 +25,7 @@ datasets:
   - nombre: "familias_utilizadas.csv"
     descripcion: "Top 5 familias por especies utilizadas"
     fuente: "Texto del paper (Open Access)"
+titulo_corto: "El bosque que también es una biblioteca"
+card_descripcion: |
+  En la Amazonía, **5.796 plantas nativas** tienen un uso conocido —un tercio de la flora con semilla del bioma—, documentado en **90.536 reportes** de 700 referencias. El equipo cruzó modelos de distribución (**8.429 SDM** a 2060–2080) con el mapa de lenguas indígenas (**156 vivas, 55% amenazadas**). **El hallazgo:** donde las lenguas están amenazadas se proyecta perder **~1,5 veces más** bosque útil (**39% vs 25%** de especies, Wilcoxon P=0,0043; **27% vs 17%** de servicios, P=0,0018). Y una divergencia curiosa: la palma más citada (*Bactris gasipaes*, 178 refs) no es la que usan más pueblos (*Mauritia flexuosa*, 66 grupos). ⚠️ Toda 'pérdida' es **proyección** SDM, no medición. ⚠️ La coincidencia regional es **observacional**: no que perder la lengua *cause* perder la planta. ⚠️ Valores del texto Open Access del paper, no del ZIP de rásters de 10,5 GB.
 estado: publicado

@@ -22,4 +22,7 @@ datasets:
   - nombre: "greenland_metano_completo.csv"
     descripcion: "Dataset completo: 96 mediciones × 30 columnas"
     fuente: "PANGAEA 993007"
+titulo_corto: "El metano que respira Groenlandia se cocinó hace 2.000 años"
+card_descripcion: |
+  Saunders et al. (2026) muestrearon **96 puntos en 26 ríos** que salen de bajo el hielo de Groenlandia occidental durante tres veranos (2021-2023), a lo largo de **1.840 km** de costa (61,2°N–77,7°N). **50 de 53 mediciones (94%)** de CH₄ disuelto están supersaturadas respecto a la atmósfera; la mediana es **43 nmol/L** y el máximo del suroeste alcanza **49.613 nmol/L — 16.500× el equilibrio atmosférico**. La firma isotópica confirma origen biogénico microbiano (δ¹³C mediana **−57,8‰**, 13 de 16 muestras bajo el umbral −50‰). Las 7 muestras datadas por ¹⁴C dan edades del carbono entre **1,5 y 4,1 mil años antes del presente** — ninguna cae dentro del Holocene Thermal Maximum (5–11 ka). Los datos son consistentes con una Groenlandia más pequeña durante el HTM y posterior re-avance que sepultó la materia orgánica. ⚠️ El flujo "**715 toneladas/año**" y la persistencia "**200 años más**" son proyecciones de un modelo de degradación (MATLAB en Zenodo), no medidas. ⚠️ Diseño observacional — los datos muestran patrones, no causalidad. ⚠️ n=7 en ¹⁴C y n=16 en isótopos: tamaños pequeños para inferencias regionales finas.
 estado: publicado

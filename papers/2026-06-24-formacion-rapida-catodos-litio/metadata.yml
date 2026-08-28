@@ -22,4 +22,7 @@ datasets:
   - nombre: "fig1b_carga_inicial.csv"
     descripcion: "Perfil de voltaje de la carga de formación, rápida vs lenta"
     fuente: "Source Data Fig. 1 (MOESM2, mismo DOI)"
+titulo_corto: "Cargar rápido una batería nueva la hace durar más"
+card_descripcion: |
+  Toda la industria "forma" sus baterías cargándolas despacio la primera vez, para no maltratarlas. Este equipo probó lo contrario en cátodos ricos en litio (LLO): subir la corriente de esa primera carga de 0.2C a 2C. **El hallazgo:** la formación rápida da **+20% de capacidad** y retiene **98% tras 200 ciclos**, frente al **87%** de la lenta — y pierde menos de la mitad de litio irreversible (**34 vs 79 mAh/g**). La ventaja no está al inicio: **crece de +7% (ciclo 1) a +21%** con el uso. ⚠️ El **+36% de vida útil** del titular no es reproducible con este panel de 200 ciclos. ⚠️ El mecanismo (litio residual que ancla la red, *self-pinning*) lo muestra el paper por sincrotrón, no estas series. ⚠️ Datos de celdas tipo moneda de laboratorio.
 estado: publicado

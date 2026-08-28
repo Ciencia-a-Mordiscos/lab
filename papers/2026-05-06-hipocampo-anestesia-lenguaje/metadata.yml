@@ -31,4 +31,7 @@ datasets:
   - nombre: "categorias_codificadas_por_unidad.csv"
     descripcion: "Distribución de unidades por número de categorías semánticas"
     fuente: "Tablas suplementarias del paper"
+titulo_corto: "Hipocampo bajo anestesia: oddball, plasticidad y predicción semántica"
+card_descripcion: |
+  Saponati et al. (2026) registraron actividad neuronal con electrodos Neuropixels en el **hipocampo de 7 pacientes** con epilepsia anestesiados con propofol antes de su lobectomía. Tres pacientes escucharon una secuencia de tonos con *oddballs* (sonidos raros entre tonos repetidos); cuatro escucharon habla natural. Resultado: **43 de 150 unidades (28,7%)** discriminaron el oddball bajo anestesia (p<0,05 en p5 y p6); el effect size **creció en los ~10 minutos del experimento** — plasticidad representacional medible. Para el lenguaje, la correlación semántica all-words fue **0,397 en anestesiados (n=368 unidades) vs 0,226 en despiertos (n=356)** — un factor de **1,76×**. Las bandas alpha y beta concentran el encoding (45% de canales en alpha para oddball; 46% en beta para tono). ⚠️ La comparación anaesth vs awake usa hardware distinto (Neuropixels vs microcables EMU): es informativa, no controlada — el paper lo enmarca como "comparable", no como superioridad. ⚠️ Solo propofol — no generaliza a otras anestesias. ⚠️ Los autores enmarcan los resultados de lenguaje como *indicate* (no *demonstrate*).
 estado: publicado

@@ -31,4 +31,7 @@ datasets:
   - nombre: "blinding_raters.csv"
     descripcion: "Test de cegado — médicos clasificando respuestas IA vs humano"
     fuente: "Tabla S7"
+titulo_corto: "¿Está la IA superando a los médicos en razonamiento clínico?"
+card_descripcion: |
+  Brodeur et al. (2026) pusieron al modelo o1-preview de OpenAI a competir con cientos de médicos en **seis tareas de razonamiento clínico**, desde los casos clinico-patológicos del NEJM hasta diagnóstico en urgencias reales. El titular: la IA ganó casi todas. En CPCs del NEJM, **o1 alcanzó 66.3% top-1 vs 24.3% de los médicos en los 101 casos solapados** (gap 42 pp, ratio 2.73×). Pero el gap se cierra cuando los médicos tienen información completa: en urgencias reales con n=76 pacientes, la ventaja sobre el médico de planta cae de **+11.8 pp en triage a +2.7 pp en admisión** (no significativo). Y en el experimento *Landmark*, el equipo humano-IA (médicos+GPT-4 = 76%) no fue mejor que el médico solo (74%, p=0.055) — la dyad asistida no mejoró al clínico. ⚠️ Las rúbricas aditivas premian enumeración (Grey Matters: gap 55 pp, en parte artefacto de medición). ⚠️ El test de blinding es de 3 opciones (humano/IA/no puedo decir), no binario: los raters mayoritariamente se abstuvieron (83.6% y 94.4%); al menos uno discriminaba muy bien cuando se atrevía (92.6%). ⚠️ El propio paper pide *"urgent need for prospective trials"*.
 estado: publicado

@@ -22,4 +22,8 @@ datasets:
   - nombre: "diff.AE9.output_mean_flux.AE9_i316.tsv"
     descripcion: "Espectro de flujo de electrones de fondo (AE9/Irene)"
     fuente: "github.com/ustajan/kosmos"
+titulo_corto: "Verificar el tratado espacial con protones cósmicos"
+titulo_card: "¿Cómo atrapar un arma nuclear escondida en el espacio? Con protones cósmicos"
+card_descripcion: |
+  El Tratado del Espacio Exterior prohíbe armas nucleares en órbita desde **1967** (**117 países**), pero nadie había publicado cómo verificarlo. La propuesta: usar los protones de **~1 GeV** atrapados en el cinturón interno de Van Allen como linterna natural — cuando golpean una ojiva, le arrancan neutrones por *spallation* que un detector podría ver. **El hallazgo (en simulación):** un CubeSat 9U identificaría un arma termonuclear a **4 km en ~1 semana** (7,25 días con 1 detector); con **10 CubeSats, en 17 horas**. El pico de neutrones cae cerca de **0,15 MeV** y el tiempo de observación crece con el **cuadrado de la distancia**. ⚠️ Es un **estudio conceptual y de viabilidad**: ningún detector ha volado. ⚠️ Todo son simulaciones Geant4 más una fórmula analítica. ⚠️ Asume un arma y un punto orbital concretos.
 estado: publicado

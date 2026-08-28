@@ -25,4 +25,7 @@ datasets:
   - nombre: "ablation_mask.csv"
     descripcion: "Ablación de la máscara instance-guidance"
     fuente: "Source Data (Fig 6a)"
+titulo_corto: "¿Una IA lee tu radiografía dental mejor que el dentista?"
+card_descripcion: |
+  Interpretar una radiografía panorámica dental toma tiempo y faltan especialistas, así que los reportes salen incompletos. Un equipo entrenó DentFound, un modelo de visión y lenguaje, sobre más de **101.000 pacientes** (98 enfermedades, 11 categorías post-tratamiento). **El hallazgo:** DentFound queda #1 en F1 en las 4 cohortes hospitalarias (84,78% a 94,20%) y escribe reportes **más completos** que un radiólogo humano — Recall **0,811 vs 0,518 (+56,6%)**, porque el humano se centra en la queja principal y omite hallazgos incidentales. La máscara *instance-guidance* que da nombre al método casi duplica el CIDEr (**+86%**). ⚠️ 'Más completo' no es 'mejor': en los ratings subjetivos de expertos el humano queda arriba en **10 de 12** pares. ⚠️ Es **apoyo diagnóstico**, no diagnóstico certificado — el título dice *towards clinical-level*. ⚠️ Las imágenes clínicas no son públicas; los datos vienen del Source Data de figuras.
 estado: publicado

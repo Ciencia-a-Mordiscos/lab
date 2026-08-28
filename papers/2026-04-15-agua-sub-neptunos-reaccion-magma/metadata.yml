@@ -22,4 +22,8 @@ datasets:
   - nombre: "agua_por_composicion.csv"
     descripcion: "Producción de agua por ratio Mg/Si"
     fuente: "Supplementary Code 2"
+titulo_corto: "Planetas húmedos sin migrar desde lejos"
+titulo_card: "🪐 Planetas húmedos sin migrar desde lejos"
+card_descripcion: |
+  Luo et al. (2025), experimentos de alta presión (8–42 GPa, 2.725–3.924 K) que simulan el interior de sub-Neptunos. Al comprimir una mezcla primordial (~5% H₂ + ~76% silicato + ~19% Fe), el hidrógeno reduce el silicato y produce 18,1 ± 0,5 wt% de H₂O — ~1.800× más que las predicciones previas (0,01 wt%). Una aleación Fe₀,₇₃Si₀,₂₇ confirma la reducción. Un sub-Neptuno de 5 M⊕ con 5% de envolvente podría generar 2–4 wt% H₂O sin migrar desde órbitas lejanas.
 estado: publicado

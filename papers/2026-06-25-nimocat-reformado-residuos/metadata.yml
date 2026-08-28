@@ -22,4 +22,7 @@ datasets:
   - nombre: "tof_temperatura.csv"
     descripcion: "Actividad por sitio (TOF) de 550 a 750 °C (Tabla S2)"
     fuente: "Supplementary Materials"
+titulo_corto: "NiMoCat: convertir basura en combustible y aguantar 850 h"
+card_descripcion: |
+  Reformar metano con CO₂ convierte residuos y gas en la materia prima de los combustibles — pero los catalizadores se llenan de hollín y mueren rápido. De **50 catalizadores** publicados para esa reacción, uno destaca solo: **NiMoCat** es el único que cruza el **99% de conversión de CH₄** y encima aguanta **850 horas** sin apagarse (la mediana del campo es 79% y 40 horas). **El hallazgo:** también muestra la letra pequeña del escalado — ese 99% era en polvo de laboratorio; al prensarlo en pellets de reactor, la conversión **cae ~22 puntos** (97,7% → 75,4%). ⚠️ La tabla de 50 junta estudios medidos en condiciones distintas: es un mapa indicativo, no un pique controlado. ⚠️ "Escala industrial" = kilogramos + reactor de alta presión, no despliegue comercial. ⚠️ La energía de activación (79 kJ/mol) es un dato reportado por el paper, no reproducido aquí.
 estado: publicado

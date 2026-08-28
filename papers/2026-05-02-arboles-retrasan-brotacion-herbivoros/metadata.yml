@@ -25,4 +25,7 @@ datasets:
   - nombre: "parasitoid_virus.csv"
     descripcion: "Tasas de parasitismo y virus por plot × año-par"
     fuente: "Zenodo parasitoidvirus.csv"
+titulo_corto: "Los robles retrasan su brotación tres días tras un año de herbivoría"
+card_descripcion: |
+  Mallick et al. (2026) usan **5 años de imágenes de radar satelital** sobre **27.500 píxeles** de bosque de roble en el centro de Europa, distribuidos en **60 sitios** bajo manipulación experimental de carga herbívora. Los árboles que sufrieron mucha herbivoría retrasan la salida de sus hojas el año siguiente: **3 días en promedio** — suficiente para cancelar una década de adelanto fenológico provocado por el calentamiento. El efecto **se duplica en el año del brote (6,9 días)** cuando uno esperaría que la presión desbordara la respuesta. Y se replica en **98,3% de los 240 plot-año** (Cohen's d *one-sample* = 2,03). ⚠️ La cifra del **55%** del titular ("la herbivoría siguiente cae 55%") requiere caveat: la métrica cruda `(Δherbi/herbi)×100` es inestable cuando la herbivoría base ≈ 0, y los píxeles que adelantaron brotación dan también −55%. El paper sostiene su resultado con un GAM con efectos espaciales/aleatorios; este Lab muestra el camino crudo y dónde se rompe.
 estado: publicado

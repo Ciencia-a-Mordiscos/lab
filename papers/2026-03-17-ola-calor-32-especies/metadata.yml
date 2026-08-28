@@ -22,4 +22,8 @@ datasets:
   - nombre: "wildfire_stats_2000_2020.csv"
     descripcion: "Histórico de incendios 2000-2020"
     fuente: "GitHub/Zenodo"
+titulo_corto: "Ola de calor vs 32 especies"
+titulo_card: "🌡️ Ola de calor vs 32 especies"
+card_descripcion: |
+  Meta-análisis de 25 especies, ola de calor 2021 Norteamérica, tamaños de efecto (log response ratio), incendios MODIS 2000-2021
 estado: publicado

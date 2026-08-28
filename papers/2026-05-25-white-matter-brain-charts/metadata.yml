@@ -22,4 +22,8 @@ datasets:
   - nombre: "ranking_tractos_efecto_MS.csv"
     descripcion: "72 tractos × FA media (CN, MS), diferencia, Cohen's d pooled, p Mann-Whitney — computado en este notebook"
     fuente: "Derivado en FASE 3 del análisis"
+titulo_corto: "Charts normativos de sustancia blanca: 72 vías, 0-90 años"
+titulo_card: "Tu cerebro tiene 72 autopistas blancas. Ahora hay un mapa de cómo cambian del nacimiento a los 90 años"
+card_descripcion: |
+  Kim et al. (2026) procesaron **35.120 escáneres cerebrales** de estudios globales para construir los primeros charts normativos lifespan de **72 vías de sustancia blanca**, de 0 a 100 años — el equivalente para los "cables" del cerebro de las curvas de crecimiento pediátrico. Bajamos los datos derivados (Zenodo) y los desmenuzamos en tres actos. **Acto 1:** el volumen del Fascículo Arcuato izquierdo (vía clave del lenguaje) pica cerca de los **16 años** y se mantiene en meseta hasta los 40 antes de declinar. **Acto 2:** en una cohorte de validación (38 controles + 33 pacientes con esclerosis múltiple), la **Radiación Óptica** muestra un efecto **grande** (Cohen's d = **1,21**, p < 0,001) mientras que los **tractos motores** (cortico-espinal) están **preservados** (d = 0,02, p = 0,96). **Acto 3:** el volumen del Fascículo Arcuato izquierdo NO discrimina MS de controles — 35/38 controles y 32/33 pacientes caen dentro de la banda normativa. La señal clínica vive en la microestructura por tracto, no en el volumen agregado. ⚠️ Cohorte clínica pequeña (n = 71) con desbalance de sexo. ⚠️ Estudio observacional transversal — asociación entre MS y baja FA, no causalidad establecida en un solo corte. ⚠️ El dataset público derivado cubre 1 de los 72 tractos del chart normativo.
 estado: publicado

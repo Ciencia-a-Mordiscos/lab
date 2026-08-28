@@ -25,4 +25,8 @@ datasets:
   - nombre: "perfil_ejemplo.csv"
     descripcion: "Perfiles de respuesta de 3 neuronas selectivas a 500 estímulos"
     fuente: "OSF (doi:10.17605/OSF.IO/G9XH6)"
+titulo_corto: "Código neural compartido: ver e imaginar"
+titulo_card: "🧠 Tu cerebro reutiliza el mismo código para ver e imaginar"
+card_descripcion: |
+  367 neuronas individuales grabadas en la corteza temporal ventral (VTC) de 16 pacientes epilépticos. Al imaginar un objeto sin verlo, el 74% de las neuronas reactivan el mismo código que usaron al percibirlo (ρ = 0,56 a nivel de población, n = 338). Evidencia directa de un modelo generativo en el cerebro humano.
 estado: publicado

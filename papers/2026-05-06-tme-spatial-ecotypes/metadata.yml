@@ -19,4 +19,7 @@ datasets:
   - nombre: "liquid_se_ici_response.csv"
     descripcion: "Asociaciones entre los 9 SEs medidos en cfDNA y respuesta a inmunoterapia en 78 melanomas pre-tratamiento (z-score, p-value, AUC por subgrupo clínico)"
     fuente: "Supplementary Table 27 (Newman et al., Nature 2026)"
+titulo_corto: "Una gota de sangre que predice si la inmunoterapia funcionará"
+card_descripcion: |
+  Newman et al. (2026) identificaron **9 ecosistemas espaciales (SEs)** integrando >10 millones de transcriptomas de tumores humanos. La sorpresa clínica: esas firmas se pueden recuperar desde sangre — fragmentos de ADN tumoral flotando libres (cfDNA). En **78 pacientes con melanoma metastásico** medidos antes de empezar inmunoterapia, **SE7 predice no-respuesta con AUC = 0,80** (z = -4,49, p = 3·10⁻⁶) y **SE4 predice respuesta con AUC = 0,76**. Siete de las ocho SEs medibles en cfDNA salen significativas; solo SE2 queda en ruido. Los 9 ecosistemas están presentes en los **17 tipos de cáncer** del atlas TCGA (7.076 muestras): la abundancia de SE7 varía hasta 1,5× entre cánceres (0,054 en tiroides → 0,080 en esófago) — conservación = presencia, no nivel uniforme. ⚠️ Estudio observacional retrospectivo — asociaciones, no causalidad. ⚠️ El AUC del subgrupo Female (0,90 con n = 25) es sospechosamente alto: bandera roja de overfitting con muestra pequeña; el subgrupo Male (n = 53) es más confiable. ⚠️ El paper enmarca el uso clínico con "implications for risk stratification" — implicación a futuro, no resultado validado.
 estado: publicado

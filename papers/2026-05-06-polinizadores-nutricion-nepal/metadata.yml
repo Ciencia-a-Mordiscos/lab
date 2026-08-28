@@ -28,4 +28,8 @@ datasets:
   - nombre: "pollen_capacity_OTU.csv"
     descripcion: "Capacidad media de carga de polen por taxa"
     fuente: "Zenodo 18838606"
+titulo_corto: "Polinizadores y nutrición en Nepal"
+titulo_card: "1 de cada 3 visitas a una flor en Nepal la hace la misma especie"
+card_descripcion: |
+  Timberlake et al. (2026) registraron **10.974 visitas de insectos a flores** en 10 aldeas del Himalaya nepalí (Patarasi, Jumla) sobre **51 cultivos** distintos. La estructura ecológica está concentrada: tres taxa de polinizadores hacen el **76,5% de las visitas**, y *Apis cerana* — la abeja de la miel asiática — hace una de cada tres. Cuando se cruza esa red con la dependencia de polinización por cultivo, aparecen **9 cultivos con dependencia ≥85%**: rábano, daikon, calabaza, cebolla, repollo y otros, donde perder polinizadores es perder casi toda la producción. Bajo el escenario hipotético de pérdida total, los 29 cultivos modelados perderían en promedio **59% del rendimiento**. ⚠️ Los headlines del paper sobre **44% del ingreso agrícola** y **20% del consumo de vitamina A/folato/E** se citan al paper, no se reproducen aquí (requieren el dataset dietético individual de 776 MB en Git LFS). ⚠️ La categoría "Fly" agrupa toda Diptera; el desglose específico de sirfidae (hoverflies) vive en otra tabla del estudio. ⚠️ Los escenarios de yield son proyecciones modelísticas, no observaciones.
 estado: publicado

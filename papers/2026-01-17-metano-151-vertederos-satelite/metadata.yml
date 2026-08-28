@@ -19,4 +19,7 @@ datasets:
   - nombre: "plumas_detectadas_1085.csv"
     descripcion: "1085 detecciones individuales de plumas de metano por GHGSat (2021-2022)"
     fuente: "Zenodo 10.5281/zenodo.16641834"
+titulo_corto: "151 vertederos del mundo, 1085 detecciones satelitales"
+card_descripcion: |
+  Dogniaux et al. (2025) observaron 151 vertederos en 6 continentes con el satélite **GHGSat** durante 2021-2022 y cruzaron las emisiones medidas con los reportes nacionales y el inventario **Climate TRACE**. El resultado: **a escala de instalación, las tres estimaciones no se correlacionan** (Spearman ρ=0,12, p=0,21, n=109). En un vertedero de Turquía el satélite ve **240 veces más metano** del que estima el modelo; en dos vertederos de Corea del Sur, el modelo estima **76 y 186 veces más** de lo que mide el satélite. Solo **41 de 109 sitios (38%)** acuerdan dentro de un factor 2.
 estado: publicado

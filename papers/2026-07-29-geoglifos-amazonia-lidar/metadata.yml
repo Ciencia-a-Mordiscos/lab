@@ -23,4 +23,7 @@ datasets:
   descripcion: Catálogo público de 406 geoglifos (coordenadas, tamaño, contorno, definición
     Aquiry)
   fuente: Supplementary Table 2 (MOESM1)
+titulo_corto: "Más de 20.000 obras de tierra bajo la selva amazónica"
+card_descripcion: |
+  Un LiDAR aerotransportado voló **4.430 km** sobre el suroeste de la Amazonía y, al "quitar" el bosque, dejó al descubierto una civilización precolonial de constructores. **El hallazgo:** **406 geoglifos** catalogados en una sola campaña — tantos como los que antes se estimaban para **toda** la Amazonía —, con tamaño mediano de **2,12 ha** (rango 0,16–15,59) y una distribución muy asimétrica: casi todos pequeños, unos pocos monumentales. Los recintos que cumplen la definición **Aquiry** tienden a ser mayores (medianas 2,25 vs 1,50 ha), pero la diferencia **no** alcanza significancia (Mann-Whitney p=0,09). ⚠️ La cifra de **>20.000** geoglifos es una **extrapolación**, no un conteo directo. ⚠️ La población de **1,25–3 millones** (año 100–300 d.C.) es una **propuesta** que asume ~300 personas por geoglifo, no una medición.
 estado: publicado

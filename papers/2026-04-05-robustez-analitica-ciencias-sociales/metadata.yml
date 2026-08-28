@@ -22,4 +22,8 @@ datasets:
   - nombre: "conclusiones_por_disciplina.csv"
     descripcion: "Tasas de acuerdo por disciplina académica"
     fuente: "Agregación desde multi100 processed data"
+titulo_corto: "¿Se puede confiar en un solo análisis?"
+titulo_card: "📊 ¿Se puede confiar en un solo análisis?"
+card_descripcion: |
+  Kovács et al. (2025), 504 reanálisis de 100 estudios sociales, solo 34% coinciden en tamaño del efecto (±0,05 d), 74% llegan a la misma conclusión
 estado: publicado

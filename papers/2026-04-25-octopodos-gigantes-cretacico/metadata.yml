@@ -19,4 +19,7 @@ datasets:
   - nombre: "distancia_gower_a_fosiles.csv"
     descripcion: "Distancia Gower de cada cefalópodo moderno a los 2 fósiles cretácicos"
     fuente: "Figshare — doi.org/10.6084/m9.figshare.29561630 (CC BY 4.0)"
+titulo_corto: "Pulpos gigantes del Cretácico: ¿quiénes eran?"
+card_descripcion: |
+  Ikegami et al. (2026) describen dos fósiles cretácicos de cefalópodos del Pacífico canadiense (~100–72 Ma), con tamaños estimados de **7 a 19 metros**. Durante 370 millones de años los apex marinos han sido vertebrados — entonces, ¿qué linaje de pulpos eran estos invertebrados gigantes? Abrimos los datos morfológicos públicos (Figshare, CC BY 4.0): **PCoA sobre 19 caracteres mandibulares en 21 taxa** — 9 cirrados modernos (linaje Dumbo), 10 incirrados (linaje *Octopus*), 2 fósiles. PC1 + PC2 explican **81,1% de la varianza**. Resultado: los fósiles caen pegados al cluster cirrado. **9 de 9 cirrados modernos están más cerca morfológicamente de los fósiles que cualquiera de los 10 no-cirrados** (mediana 0,129 vs 0,351; ratio 2,72×; Mann-Whitney p=0,0003; Cohen's d=4,5). Sin solape entre grupos. El tamaño 7–19 m viene del paper, no de los CSVs públicos.
 estado: publicado

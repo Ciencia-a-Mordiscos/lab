@@ -22,4 +22,8 @@ datasets:
   - nombre: "xrd_patrones.csv"
     descripcion: "Difracción de rayos X: HD observado (radial/axial) y HOPG"
     fuente: "Source Data Fig. 1a (MOESM4)"
+titulo_corto: "Diamante hexagonal: el cristal de los meteoritos"
+titulo_card: "💎 Crearon el diamante imposible que solo existía en meteoritos"
+card_descripcion: |
+  Diamante hexagonal (lonsdaleíta) puro a escala milimétrica, dureza Vickers 280 GPa, XRD con 9 picos hexagonales, TGA estabilidad térmica
 estado: publicado

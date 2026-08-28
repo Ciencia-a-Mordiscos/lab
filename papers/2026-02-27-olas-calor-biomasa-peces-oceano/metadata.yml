@@ -25,4 +25,8 @@ datasets:
   - nombre: "especies_extremas_mhw.csv"
     descripcion: "Top especies ganadoras y perdedoras ante anomalías térmicas"
     fuente: "Supplementary Data S1 (MOESM4)"
+titulo_corto: "Olas de calor cambian 176% la vida oceánica"
+titulo_card: "🌊 Las Olas de Calor Cambian 176% la Vida en el Océano"
+card_descripcion: |
+  Blowes et al. (2026), 702.037 estimaciones de biomasa en 1.566 especies de peces — las olas de calor crean ganadores (+176%) en el borde frío y perdedores (-43,4%) en el borde cálido
 estado: publicado

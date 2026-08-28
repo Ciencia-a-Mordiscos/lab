@@ -29,4 +29,8 @@ datasets:
     descripcion: "P-values de proporciones celulares por sexo"
     fuente: "Supplementary Materials — Source Data Fig. 3"
 
+titulo_corto: "Hormona alimenta tumores en niños"
+titulo_card: "🧬 Hormona alimenta tumores en niños"
+card_descripcion: |
+  Respuesta dosis-efecto de testosterona en 6 líneas PFA, comparación de hormonas, control en otros tumores cerebrales
 estado: publicado

@@ -16,4 +16,8 @@ datasets:
   - nombre: "mamiferos_comercio_patogenos.csv"
     descripcion: "6.456 mamíferos silvestres — comercio (legal/ilegal/vivo/producto), patógenos zoonóticos, taxonomía, biogeografía"
     fuente: "DataTableS1 — GitHub repo"
+titulo_corto: "Comercio de fauna y patógenos zoonóticos"
+titulo_card: "🦠 Comercio de fauna silvestre y patógenos zoonóticos"
+card_descripcion: |
+  Gippet et al. (2026), 6.456 especies de mamíferos silvestres cruzadas con 40 años de datos de comercio internacional (CITES, LEMIS). Las especies comerciadas tienen 1,5x más probabilidad de compartir patógenos con humanos (ajustado). El comercio ilegal dispara el riesgo: 72,4% de las especies ilegales son zoonóticas vs 30,6% de las solo legales (Cohen's h = 0,86).
 estado: publicado

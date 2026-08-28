@@ -25,4 +25,7 @@ datasets:
   - nombre: "causas_climaticas.csv"
     descripcion: "Forzantes climaticos anuales 1200-1500 (NAO, jet, sulfato volcanico, hielo artico)"
     fuente: "Supplementary Data 5/6 (MOESM7)"
+titulo_corto: "Las megacrecidas de 1342"
+card_descripcion: |
+  No hay estaciones de aforo en el siglo XIV: hay crónicas de monasterios, actas municipales y cuentas de reparación de puentes. Kiss et al. reunieron **166 registros** de crecidas entre 1341 y 1343, del sur de España a la costa del mar del Norte y hasta Constantinopla — unos **2.020 km** de norte a sur. **El hallazgo:** 1342 es el **puesto #1 de 715 años**, con **62 series fluviales** afectadas frente a una mediana anual de **5** y a las **47** del segundo año del registro (1845). El agua se llevó puentes (n=34, severidad **4,53/5**), cosechas (n=43) y trajo hambruna (n=42). ⚠️ **Alemania aporta 76 de los 166 registros**, pero eso dice qué archivos sobrevivieron, no dónde llovió más. ⚠️ Nuestro conteo es **crudo**: el paper usa una serie corregida por sesgo, y por eso su 1343 entra en el *top ten* mientras el nuestro queda #12. ⚠️ La causa volcánica es **plausible, no demostrada** — el sulfato tocó techo en **1341** y para 1342 ya había caído casi a la mediana; los propios autores dicen que los modelos climáticos todavía no permiten una explicación causal directa.
 estado: publicado

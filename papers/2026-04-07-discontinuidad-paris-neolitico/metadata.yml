@@ -28,4 +28,8 @@ datasets:
   - nombre: "estroncio.csv"
     descripcion: "190 mediciones de estroncio isotópico"
     fuente: "Supplementary Table 11"
+titulo_corto: "Discontinuidad genética en París al final del Neolítico"
+titulo_card: "🦴 Discontinuidad Genética en la Cuenca de París al Final del Neolítico"
+card_descripcion: |
+  Tallman et al. (2026), 132 genomas antiguos de una tumba colectiva cerca de París — dos fases de entierro separadas por ~316 años revelan un recambio poblacional completo: de un grupo diverso a uno casi clonal con más ancestría agrícola, evidencia de *Yersinia pestis* y *Borrelia recurrentis*
 estado: publicado

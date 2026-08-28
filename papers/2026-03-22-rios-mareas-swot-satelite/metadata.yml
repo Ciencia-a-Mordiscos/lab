@@ -25,4 +25,8 @@ datasets:
   - nombre: "distribucion_amplitudes.csv"
     descripcion: "Histograma de amplitudes (50 bins)"
     fuente: "Agregado de rios_mareas.csv"
+titulo_corto: "Ríos con mareas: SWOT satelital"
+titulo_card: "🌊 165,000 km de ríos donde el océano manda"
+card_descripcion: |
+  41,910 tramos SWORD, satélite SWOT — 49.9% tidal, amplitud mediana 0.78 m, 3 tipos de marea (semidiurna/mixta/diurna)
 estado: publicado

@@ -28,4 +28,7 @@ datasets:
   - nombre: "precio_vs_masa.csv"
     descripcion: "6.790 entradas especie-país con masa corporal adulta, duración generacional, estatus IUCN, país y precio"
     fuente: "Figshare Dataset.xlsx → subset con trait data"
+titulo_corto: "El precio oculto de la fauna en Europa"
+card_descripcion: |
+  Las leyes de 24 países europeos asignan precios oficiales a cada especie para calcular multas. Sobre **9.971 entradas (3.031 especies únicas)** los autores muestran que el orden del precio se predice mejor por la **clase taxonómica** y la **lentitud reproductiva** que por el riesgo de extinción. Mamíferos cobran **7,1× más** que el resto de fauna y aves **3,7× más** (Mann-Whitney p ≈ 10⁻²³³ y 10⁻²⁶¹). La duración generacional es la correlación más fuerte (ρ Spearman ≈ 0,36). La categoría IUCN influye pero **no es estrictamente monotónica**: las especies *En peligro* (€443) reciben más que las *En peligro crítico* (€358). Y la correlación con longevidad máxima es **ligeramente negativa** (ρ = −0,089) — vivir muchos años no encarece el precio legal. Entre países, ratio Kosovo/Bulgaria = **411×** para la misma legislación europea. ⚠️ Datos pre-agregados — los tests inferenciales son del paper sobre el dataset full, no recomputados aquí. ⚠️ España aporta el 33% del dataset; algunos países tienen muestras chicas (Polonia n=12).
 estado: publicado

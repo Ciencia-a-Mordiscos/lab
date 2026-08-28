@@ -22,4 +22,8 @@ datasets:
   - nombre: "distribucion_respuestas.csv"
     descripcion: "Distribución agregada de las 5 categorías Likert para ambas encuestas"
     fuente: "Derivado de Supplementary Data 1"
+titulo_corto: "¿A los astrobiólogos los convence más Marte o K2-18 b?"
+titulo_card: "¿A los astrobiólogos los convence más Marte o K2-18 b?"
+card_descripcion: |
+  Tras los dos anuncios de posible vida de 2025 —gases raros en el exoplaneta **K2-18 b** (abril) y la roca marciana **Cheyava Falls** (septiembre)— alguien encuestó a la comunidad: **920 astrobiólogos** votaron qué tan de acuerdo estaban con que cada anuncio fuera evidencia de vida. **El hallazgo:** Marte convenció más —confianza media **41% vs 28%** para K2-18 b, **+12 puntos** (Cohen's *d* = 0,57, Mann-Whitney p=3,8·10⁻¹⁷)—, pero aun en el caso más persuasivo **3 de cada 4** expertos (sin contar indecisos) siguieron sin verlo como vida; con K2-18 b fueron **9 de cada 10**. ⚠️ La encuesta mide **opinión/confianza experta**, no la validez física de cada evidencia. ⚠️ Son **dos encuestas independientes** (distintos respondientes y fechas), no una comparación pareada. ⚠️ Tasas de respuesta 39% y 33%: posible sesgo de autoselección.
 estado: publicado

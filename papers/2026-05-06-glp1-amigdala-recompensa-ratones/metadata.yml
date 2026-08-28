@@ -22,4 +22,7 @@ datasets:
   - nombre: "rescate_aav_completo.csv"
     descripcion: "Rescate AAV-hGlp1r región-específica, dieta SD vs HFD (Fig 4)"
     fuente: "Source Data Fig 4 (Supplementary)"
+titulo_corto: "Las píldoras anti-obesidad pasan por la amígdala"
+card_descripcion: |
+  Las nuevas píldoras anti-obesidad (Danuglipron, Orforglipron) actúan sobre el mismo receptor que Ozempic — pero solo se unen a la versión humana. Para estudiarlas, el equipo creó ratones humanizados (S33W: una sola letra del aminoácido 33 cambiada). **Acto 1:** Liraglutide funciona en ambos genotipos (≈−52% a 2h, *d* = −1.94 en WT). Danuglipron solo en S33W (−51.5%, *d* = −1.39) — en WT no hay efecto (*d* = +0.31). **Acto 2:** las pastillas activan más Fos en CeA (amígdala central, *d* = 0.45, *p* = 0.030), NTS y AP — pero **no** en DMH (saturado por GLP-1 endógeno). **Acto 3:** rescate AAV región-específica revela la disociación causal: devolver el receptor solo en CeA basta para suprimir comida palatable (−29%, *p* = 0.031, *d* pareado = −1.03), pero no afecta el chow normal (*p* = 0.94). El hipotálamo hace lo opuesto: controla la ingesta homeostática (*d* pareado = −1.12), no la hedónica. ⚠️ Modelo S33W humaniza UN aminoácido — la arquitectura del circuito en cerebros humanos está por confirmar. ⚠️ *n* pequeños (6-10) en pareados de Fig 4.
 estado: publicado

@@ -25,4 +25,7 @@ datasets:
   - nombre: "durabilidad_ciclos.csv"
     descripcion: "Log de remoción sostenido por ciclo (0-120) para 3 patógenos"
     fuente: "Source Data (MOESM7, Figura 4f)"
+titulo_corto: "Una cápsula que potabiliza agua solo agitándola"
+card_descripcion: |
+  Una **cápsula flotante** del tamaño de un pulgar detecta y desinfecta agua **sin pilas ni químicos**: la energía sale de **agitarla a mano** (inducción electromagnética). Mide los sólidos disueltos (TDS) y, si pasa el filtro, mata microbios por **electroporación** —campos eléctricos que rompen su membrana—. **El hallazgo:** logra **desinfección completa (6 log = sin microbios vivos detectables)** en **20–25 min** —la espora *B. subtilis* es la más dura, necesita 25 min frente a 20 de *E. coli* y MS2— y la sostiene **120 ciclos sin degradarse**; su sensor casero acierta con **2,33 mg/L de error** frente a un medidor comercial. ⚠️ Todo es **laboratorio** con microbios de referencia y aguas recolectadas, no despliegue real en campo. ⚠️ Los '≥6 log' son **límites de detección** (sin microbios vivos detectables), no un conteo exacto. ⚠️ El TDS es un **sustituto** de contaminación química; no detecta todos los contaminantes específicos.
 estado: publicado

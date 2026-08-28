@@ -28,4 +28,7 @@ datasets:
   - nombre: "convergencia_mcmc.csv"
     descripcion: "PSRF y ESS de los 4 análisis de MrBayes"
     fuente: "Zenodo 10.5281/zenodo.19565989"
+titulo_corto: "Chosha praecursor: 26 caracteres para el insecto más antiguo"
+card_descripcion: |
+  Un fósil del Carbonífero en Texas con patas abdominales en forma de remo. De los 58 caracteres de la matriz filogenética aporta **26** — el mejor de los 5 fósiles. **El hallazgo:** el test de topologías de los propios autores rechaza las **3** ubicaciones que sacan a *Chosha* de Hexapoda (p = 0,0259 / 0,0153 / 0,0146), pero **no rechaza** la alternativa "hexápodo fuera de Insecta" (**p = 0,1945**). Por eso el abstract dice *strongly favouring* y no *demonstrates*. El fósil conserva **75,8 %** de la anatomía externa y **4,0 %** de la interna o blanda: nervioso, respiratorio, circulatorio y digestivo van a cero. ⚠️ El soporte del grupo de 4 fósiles pasa de **91,9 %** bayesiano a **20,0 %** de remuestreo sobre los mismos datos — dos métricas distintas, veredictos opuestos. ⚠️ La datación de **324 millones de años** y el modo de vida semiacuático **no están** en los datos publicados.
 estado: publicado

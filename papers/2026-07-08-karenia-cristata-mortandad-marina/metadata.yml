@@ -22,4 +22,7 @@ datasets:
   - nombre: "mortalidad_invertebrados.csv"
     descripcion: "Mortalidad de rotíferos y Artemia, campo (WL) vs cultivo aislado (KC)"
     fuente: "Zenodo 10.5281/zenodo.20227729"
+titulo_corto: "Un millón de animales muertos: el culpable estaba en el agua"
+card_descripcion: |
+  En 2025 la costa de Australia del Sur amaneció cubierta de cadáveres: cerca de **un millón de animales** de **más de 600 especies** murieron a lo largo de **20.000 km²** durante más de un año. Un equipo tomó 115 muestras de agua y contó por qPCR el ADN de siete algas del género *Karenia*. **El hallazgo:** una especie nueva, *Karenia cristata*, **dominó el 88,6%** de todas las células (la más abundante en **96 de 115 muestras**, 11× sobre la segunda). Aislaron su cultivo y midieron el veneno: sobre células de branquia de trucha la viabilidad se desploma con un **EC50 ≈ 27 células/mL** (Spearman **ρ = −0,93**), y sobre invertebrados el cultivo puro mata igual que el agua del mar — cerrando el vínculo causal. El remate: en el mar la mediana rondaba **~337 células/mL**, unas **12 veces** por encima de esa dosis letal de laboratorio. ⚠️ El EC50 viene de células de branquia *in vitro* (2 h), no del pez entero: es indicador de potencia, no dosis letal en la naturaleza. ⚠️ Las diluciones de invertebrados son pocas y ruidosas — se reporta tendencia y extremos, no una LC50 puntual. ⚠️ El mecanismo hidrodinámico que concentró la floración el paper lo enmarca como hipótesis (*appear to have entrained*), no como hecho.
 estado: publicado

@@ -25,4 +25,7 @@ datasets:
   - nombre: "tabla12_australasian_counts.csv"
     descripcion: "Tests D con |Z|>3 por población (36 antiguas, 114 contemporáneas)"
     fuente: "Supplementary MOESM3 del paper (Tabla 12)"
+titulo_corto: "128 Genomas Indígenas Americanos: Dos Pistas Inesperadas"
+card_descripcion: |
+  Castro e Silva et al. (2026) presentan el **mayor conjunto de genomas indígenas americanos secuenciados hasta hoy**: 128 individuos de 45 poblaciones, 8 países. Dos pistas inesperadas en los datos: **(1)** el aislamiento por distancia *global* (Spearman ρ = 0,50) es una **paradoja de Simpson** — dentro de Sudamérica la correlación cae a 0,15 y entre Norte y Sudamérica es *negativa* (ρ = −0,29); **(2)** la señal genética compartida con Papúa/Australia (*Ypykuéra*) aparece en muestras pre-colombinas de **~6.800 años** y está concentrada en unos pocos individuos antiguos.
 estado: publicado

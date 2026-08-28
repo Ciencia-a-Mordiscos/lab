@@ -29,4 +29,8 @@ datasets:
   - nombre: "series_temporales.csv"
     descripcion: "Mediana y media anual por tratamiento (2010-2020)"
     fuente: "Figshare 28829036 (agregado por año)"
+titulo_corto: "+23,9% más resistencia antibiótica en suelo calentado 3°C"
+titulo_card: "+23,9% más genes de resistencia a antibióticos en un suelo calentado 3°C"
+card_descripcion: |
+  Wu et al. (2026) calientan parcelas de pradera en Oklahoma a **+3°C constantes durante 11 años (2010–2020)** y secuencian el ADN del suelo en 88 muestras finales. La abundancia de genes de resistencia a antibióticos sube **+23,9%** vs control (LMM ajustado; nuestra mediana directa da +23,6%, coincide a 0,3 puntos). Cohen's d = 0,24 — efecto pequeño pero consistente: en los 11 de los 11 años la mediana del calentado supera a la control. Las clases más afectadas son **glicopéptidos (+24,4%, p=0,023) y rifamicinas (+25,6%, p=0,003)** — dos antibióticos que los hospitales reservan para infecciones difíciles. MLS/macrólidos sube más que ambas (+31,8%, p=0,0008) pero el abstract no lo destaca. Mann-Whitney unilateral en abundancia total: p=0,009. ⚠️ El paper enmarca la transferencia horizontal de genes como hipótesis especulativa (*could be further amplified*), no como observación directa — la sostenemos ahí, no escalamos.
 estado: publicado

@@ -22,4 +22,7 @@ datasets:
   - nombre: "pv_power_fig2g.csv"
     descripcion: "Potencia eléctrica generada por fotodiodos a 11 intensidades de luz NIR, con y sin cráneo de ratón"
     fuente: "Source Data MOESM3, sheet 'Fig. 2g'"
+titulo_corto: "Implante cerebral sin cirugía: 5.8x más células donde hay inflamación"
+card_descripcion: |
+  Yadav et al. (2025) diseñan un implante cerebral **sin cirugía**: macrófagos recubiertos con proteína conductora cargados con fotodiodos del tamaño de bacterias (SWEDs), inyectados en sangre y activados con luz infrarroja desde fuera del cráneo. Los datos del Source Data MOESM3 (Fig 4f, 5f, 2g) muestran que los híbridos con luz se concentran **5,76× más** que el control completo en la zona inflamada (315 vs 55 cells/mm²) — Cohen's d = 4,24, p = 0,029 (Mann-Whitney, n=4 vs n=4). Bootstrap de 10.000 re-muestreos: el 100% supera el umbral de "efecto grande". Los SWEDs persisten 6 meses sin decaimiento detectable (aunque n=2-3 limita el test formal: U=1, p=0,40 entre 1d y 6m). Y el cráneo de ratón apenas atenúa la luz NIR — solo **11,6% de pérdida** a 46 mW/mm². Prueba de concepto en ratones con inflamación inducida por LPS — distancia regulatoria significativa antes de aplicación clínica.
 estado: publicado

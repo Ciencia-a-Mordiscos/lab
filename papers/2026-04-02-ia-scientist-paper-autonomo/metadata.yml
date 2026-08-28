@@ -19,4 +19,8 @@ datasets:
   - nombre: "scores_por_decision.csv"
     descripcion: "Scores medios por categoría de decisión"
     fuente: "Agregación propia desde ratings_subset.tsv"
+titulo_corto: "¿Puede una IA revisar papers como un humano?"
+titulo_card: "🤖 ¿Puede una IA revisar papers como un humano?"
+card_descripcion: |
+  500 papers ICLR 2024, Claude-3.5-Sonnet vs GPT-4o vs revisores humanos, confusion matrix, Spearman ρ = 0,323
 estado: publicado

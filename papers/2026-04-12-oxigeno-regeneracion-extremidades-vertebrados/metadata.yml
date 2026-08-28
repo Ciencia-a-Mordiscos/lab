@@ -25,4 +25,8 @@ datasets:
   - nombre: "composicion_celular_tratamiento.csv"
     descripcion: "Composición celular de extremidades de ratón bajo tratamiento AER"
     fuente: "GitHub BICC-UNIL-EPFL"
+titulo_corto: "Oxígeno y regeneración de extremidades"
+titulo_card: "🧬 ¿Por qué un ajolote regenera su pata y tú no?"
+card_descripcion: |
+  Tsissios et al. (2026), scRNA-seq de 21.000+ células de 5 especies. Las especies regenerativas (Xenopus, ajolote) expresan hasta 29× menos los sensores de oxígeno (VHL, EGLN1, HIF1AN), dejando activo a HIF1A — el factor que enciende la regeneración. Factores AER remodelan la composición celular del ratón en ±18 puntos porcentuales.
 estado: publicado

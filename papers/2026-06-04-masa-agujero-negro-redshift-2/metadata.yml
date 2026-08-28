@@ -22,4 +22,8 @@ datasets:
   - nombre: "perfil_mge.csv"
     descripcion: "Descomposición MGE de brillo F200W y masa estelar (Tabla S1)"
     fuente: "Zenodo (Newman 2026)"
+titulo_corto: "Un agujero negro de 6.000 millones de soles a redshift 2"
+titulo_card: "Un agujero negro de 6.000 millones de soles a redshift 2"
+card_descripcion: |
+  El telescopio **James Webb** midió la masa del agujero negro inactivo de la galaxia **MRG-M0138**, a *redshift* **1,95** (su luz salió hace ~10.300 millones de años). Una **lente gravitacional** amplió la imagen lo suficiente para asomarse a su corazón. **El hallazgo:** pesa **6,0 ⁺²·¹₋₁·₇ × 10⁹ masas solares** —rivaliza con M87*—, y su firma está en los datos: las estrellas del centro (~60 pc) se mueven a ~459 km/s, un **~21% más rápido** que la meseta exterior (~380 km/s). ⚠️ La masa viene de modelos dinámicos del paper que corren en clúster de cómputo; el notebook reproduce el *observable* (el campo de velocidades V_rms), no recalcula la masa. ⚠️ El abstract dice que es 'consistente con' la relación M–σ (no igualdad exacta) — lo respetamos.
 estado: publicado

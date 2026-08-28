@@ -16,4 +16,7 @@ datasets:
   - nombre: "fig1c_episodios_sueno.csv"
     descripcion: "Episodios NREM/REM/Wake-MA por animal, Control vs CFC, fases Pre/Post"
     fuente: "Zenodo 10.5281/zenodo.18733745"
+titulo_corto: "El miedo fragmenta el sueño (en ratones)"
+card_descripcion: |
+  Le dieron un susto a un ratón (un protocolo estándar de miedo) y le grabaron el sueño antes y después. Bajamos los datos por animal de los episodios de vigilia y micro-despertar. **El hallazgo:** tras el miedo, el sueño se fragmenta — **+37 micro-despertares, un 22%** (*d* pareado = 1,13, Wilcoxon p=0,016), y **los 7 de 7 ratones** reaccionaron igual. El golpe es específico: el sueño REM no se movió (Δ≈0). ⚠️ Muestra pequeña (miedo n=7, Control n=5). ⚠️ El contraste entre grupos es significativo sobre los cambios (p=0,010), pero con n pequeño el resultado robusto es el cambio dentro de cada animal. ⚠️ Estudio en ratones — no se extrapola a insomnio ni a estrés postraumático humano.
 estado: publicado

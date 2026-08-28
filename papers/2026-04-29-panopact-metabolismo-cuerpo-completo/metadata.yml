@@ -25,4 +25,7 @@ datasets:
   - nombre: "atenuacion_optica.csv"
     descripcion: "µ_eff empírico a tres longitudes de onda"
     fuente: "Texto del paper — Development and calibration of 3D-PanoPACT"
+titulo_corto: "25 imágenes por segundo revelan el metabolismo de un cuerpo completo"
+card_descripcion: |
+  Wang et al. (2025) presentan **3D-PanoPACT**, un sistema de imagen fotoacústica panorámica con **1024 transductores** en anillo hemiesférico que reconstruye un volumen 3D del cuerpo de un ratón en cada pulso láser, sin escanear ni rotar. Eso desbloquea **25 cuadros por segundo** sobre el hígado completo (FOV 60 mm) y **5 modos** distintos con un rango de **125x en velocidad** (de 25 Hz a 0,2 Hz para cuerpo completo, 120 mm). La demostración funcional: una sonda fluorescente NIR-II (A1094) recorre 6 órganos del ratón vivo en menos de **10 minutos**, con picos temporales bien separados — corazón a **120 s** (C_max 14%) e hígado a **505 s** (C_max **75%**, casi el doble del promedio del resto: 38,6%). El compromiso ingenieril clave: el radio del transductor de 2,5 mm es **2,78x más sensible** que r=1,5 mm y **25x** más que r=0,5 mm, según simulaciones k-Wave + Field II. ⚠️ La sección farmacocinética es n=1 ratón, ventana 10 min: prueba de concepto técnica, no estudio poblacional ni clínico.
 estado: publicado

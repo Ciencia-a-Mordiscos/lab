@@ -19,4 +19,7 @@ datasets:
   - nombre: "seagrass_grid_2019.csv"
     descripcion: "Área de pastos marinos por celda de 1° (1.987 celdas, 2019)"
     fuente: "Nature Source Data (MOESM4)"
+titulo_corto: "Casi todos los pastos marinos del mundo caben en 5 países"
+card_descripcion: |
+  Los pastos marinos protegen las costas y atrapan carbono, pero son de los ecosistemas menos mapeados. Un equipo construyó el **primer mapa global a 10 m** con 4,75 millones de imágenes de Sentinel-2 y un clasificador de aprendizaje profundo. **El hallazgo:** hay **148.506 km²** de pastos marinos en el mundo, y están extremadamente concentrados: el **69% en 5 países** (Bahamas sola, el 36%), y **31 de 1.987 celdas de 1° (1,6%)** reúnen la mitad del área mundial. Una sola franja del Caribe y el Golfo de México (20-30°N) tiene el **59,3%**. ⚠️ Solo el **21%** está en áreas marinas protegidas (cifra del paper). ⚠️ Es un censo **observacional**: mide cuánto y dónde hay pasto, no por qué se perdió. ⚠️ La pérdida neta del abstract (4%, 5.969 km²) **no** equivale a la columna de pérdida bruta del dataset (44.171 km²).
 estado: publicado

@@ -22,4 +22,8 @@ datasets:
   - nombre: "efecto_tratamiento.csv"
     descripcion: "Control vs tratamiento de información (N=101.123)"
     fuente: "Calculado del replication package (gcd_raw)"
+titulo_corto: "Somos más cooperativos de lo que creemos"
+titulo_card: "Somos más cooperativos de lo que creemos"
+card_descripcion: |
+  A 101.123 personas de 125 países les pusieron un juego con dinero real: quedarse 100 dólares, o renunciar a 30 para donar 400 al clima *si la otra persona también coopera*. **El hallazgo:** cerca de **dos tercios coopera** (~73%), pero la gente cree que solo lo hace el **~45%** — una brecha de **28 puntos porcentuales**. Lo más asombroso: **124 de 125 países subestiman a su propia gente**; la única excepción del planeta es Egipto (que también es el menos cooperativo, 28%). La cooperación se *asocia* con las normas sociales y la paciencia (correlacional, no causal), y un experimento aleatorizado muestra que **decirle a la gente la verdad sobre los demás aumenta causalmente la cooperación** —aunque el empujón es pequeño (+0,76 pp, p=0,006). ⚠️ Salvo el tratamiento de información, todo es observacional. ⚠️ Cooperación medida con un juego de un solo turno. ⚠️ El efecto causal es real pero modesto.
 estado: publicado

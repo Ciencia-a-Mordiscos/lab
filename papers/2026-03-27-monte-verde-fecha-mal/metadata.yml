@@ -19,4 +19,8 @@ datasets:
   - nombre: "dataciones_luminiscencia.csv"
     descripcion: "6 dataciones de luminiscencia IR50 (Table 2)"
     fuente: "Paper Table 2"
+titulo_corto: "Monte Verde: la fecha estaba mal"
+titulo_card: "🏛️ Monte Verde: la fecha estaba mal"
+card_descripcion: |
+  23 dataciones ¹⁴C + 6 de luminiscencia, tefra volcánica debajo de la capa arqueológica, re-datación del sitio pre-Clovis más icónico de Sudamérica
 estado: publicado

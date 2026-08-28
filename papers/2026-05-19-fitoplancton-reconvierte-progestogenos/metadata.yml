@@ -31,4 +31,7 @@ datasets:
   - nombre: "procariotas_culturabilidad.csv"
     descripcion: "Breakdown culturable/no culturable por dominio"
     fuente: "Agregación de Table S1"
+titulo_corto: "Fitoplancton reconvierte progestogenos a su forma activa"
+card_descripcion: |
+  Mu et al. (2025) muestran que el fitoplancton hace exactamente lo contrario que el hígado humano: el cuerpo desactiva el **acetato de noretindrona (NEA)** —el progestógeno sintético que llevan muchas pastillas anticonceptivas— para excretarlo, y el fitoplancton le arranca el acetato, devolviéndolo a **noretindrona**, un neuroesteroide más potente que la molécula original. **18 especies cultivadas en lab —todas las que probaron— lo hacen**. Y no es local: el gen responsable, una *adenylosuccinate lyase*, aparece en **135 MAGs eukariotos repartidos en 11 océanos** (del Mediterráneo al Pacífico Sur, datos de TARA Oceans). Chromista + Plantae concentran el **86,7 %** de los MAGs — dos reinos evolutivamente muy distantes, lo que sugiere una huella molecular muy antigua. El mismo gen vive además en **29.709 genomas procariotas** (Pseudomonadota concentra el 41,6 %). ⚠️ Detectar el gen no es lo mismo que verlo activo: el paper sí muestra transcripción en metatranscriptomas, pero la actividad enzimática cuantitativa *in situ* no se mide. ⚠️ El paper usa "may exacerbate" para el riesgo ecológico — plausible, no cuantificado.
 estado: publicado

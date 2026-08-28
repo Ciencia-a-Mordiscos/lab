@@ -28,4 +28,7 @@ datasets:
   - nombre: "transcripcion_recetas.csv"
     descripcion: "Fidelidad de transcripción de recetas por campo (468 prescripciones)"
     fuente: "Source Data (Fig. 5b)"
+titulo_corto: "¿Puede una IA manejar un caso clínico mejor que un médico?"
+card_descripcion: |
+  MIRA es un agente de IA que no solo conversa: opera dentro de una historia clínica electrónica simulada, pide análisis, lee imágenes y propone tratamientos. **El hallazgo:** en una simulación sobre casos reales pero retrospectivos de MIMIC-IV, acertó **el 87,8% de los diagnósticos frente al 78,1% de los médicos certificados** (+9,7 pp), igualando o superándolos en los 8 diagnósticos (la mayor brecha en neumonía, +19,2 pp). Y no solo diagnostica: 0 de 56 escenarios inseguros al recetar, y en decisiones de ingreso nunca omitió uno necesario (sensibilidad 100%, aunque ingresó de más 9 veces). Pero no es una goleada: en **radiología ganan los médicos** (61,5% vs 55,3%), y en sangre y microbiología ambos rinden bajo. ⚠️ La trampa está en la palabra *simulación*: casos ya cerrados, sin paciente enfrente, con los médicos bajo las mismas restricciones. ⚠️ La sensibilidad del 100% se midió sobre 80 casos y solo 2 diagnósticos. ⚠️ El propio paper pide estudios prospectivos del mundo real antes de hablar de generalización, seguridad y gobernanza.
 estado: publicado

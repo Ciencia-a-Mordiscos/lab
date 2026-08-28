@@ -16,4 +16,7 @@ datasets:
   - nombre: "minas_niquel_PEMMSS.csv"
     descripcion: "Base mina-por-mina del paper: 487 depósitos de níquel (179 lateritas + 308 sulfuros magmáticos) con 36 columnas (geografía, grado, recurso, valores de prioridad biodiversidad terrestre/marina)."
     fuente: "Springer Supplementary Data MOESM3"
+titulo_corto: "El níquel para descarbonizar y los trópicos"
+card_descripcion: |
+  Hyman et al. (2026) construyeron una base mina-por-mina con **487 depósitos de níquel del mundo** (179 lateritas tropicales + 308 sulfuros magmáticos boreales) y corrieron **PEMMSS**, un modelo Monte Carlo bajo escenarios IEA APS/STEPS/NZE hasta 2050. El modelo proyecta que **entre el 78% y el 83% del suministro futuro vendrá de lateritas tropicales** — el mismo tipo de mina que es desproporcionadamente costera (**55% a ≤50 km del mar** vs 12% de sulfuros) y se concentra en la franja ecuatorial (mediana lat **−1,4°** vs +46,4° en sulfuros). PEMMSS las prioriza por economía: lateritas tienen mayor grado mediano (**1,11% Ni vs 0,54%**) y mayor recurso (**45 Mt vs 13 Mt**). ⚠️ Las cifras 78–83% y "mitad amenaza top 10% terrestre" son OUTPUTS del modelo, no reproducibles desde inputs públicos. ⚠️ Por count puro, solo 4 de 487 minas están en celdas TBCV ≥ 90 — el headline opera por volumen proyectado, no por count. ⚠️ Diseño no experimental: el paper proyecta riesgo bajo escenarios, no observa destrucción.
 estado: publicado

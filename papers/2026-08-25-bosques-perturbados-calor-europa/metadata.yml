@@ -25,4 +25,7 @@ datasets:
   - nombre: "shap_tamano_parche.csv"
     descripcion: "Aporte SHAP del tamaño del parche por agente de perturbación (450 puntos)"
     fuente: "Figshare — Source Data Extended Data Fig. 1"
+titulo_corto: "Una década para soltar el calor"
+card_descripcion: |
+  Un bosque europeo quemado, talado o comido por escarabajos está **1,70 °C más caliente** en verano que el bosque intacto de al lado. Este notebook sigue la anomalía año a año. **El hallazgo:** **el 82,07 % de ese calor se disipa en diez años** — pero la mitad se va antes del año 4 y la otra mitad tarda casi seis años más; al año 10 todavía quedan **0,36 °C**. El modelo se apoya en poquísimas variables (los 3 primeros predictores de 21 suman **~63 %**) y cambia de guardia según el bosque: en hoja ancha manda el cambio de vegetación (**27,7 %**), en acícula el cambio de albedo (**28,3 %**). ⚠️ Es **observacional**: nadie quemó un bosque: SHAP mide el peso dentro del modelo, no la causa en el mundo. ⚠️ El **1,70 °C** del abstract y los **2,00 °C** del año 1 de esta cohorte **no son el mismo dato** — distinto alcance y distinto estadístico.
 estado: publicado

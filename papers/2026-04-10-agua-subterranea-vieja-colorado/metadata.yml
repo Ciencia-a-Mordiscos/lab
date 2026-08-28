@@ -28,4 +28,8 @@ datasets:
   - nombre: "discharge_annual.csv"
     descripcion: "Caudal histórico anual USGS 1911-2024"
     fuente: "USGS/ESS-DIVE"
+titulo_corto: "Agua subterránea vieja en Colorado"
+titulo_card: "🏔️ El agua que sostiene los ríos de Colorado tiene 15 años"
+card_descripcion: |
+  Siirila-Woodburn et al. (2026), modelo hidrogeológico de alta resolución (ParFlow-CLM + EcoSLIM) en la cuenca del East River. Con +4 °C, el pico de nieve cae 21%, la edad media del agua subterránea sube y el sistema empieza a consumir reservas de décadas. 114 años de datos USGS confirman que el caudal ya lleva décadas bajando (p = 0,009).
 estado: publicado

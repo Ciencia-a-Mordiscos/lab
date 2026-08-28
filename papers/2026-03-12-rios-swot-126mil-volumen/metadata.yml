@@ -25,4 +25,8 @@ datasets:
   - nombre: "metricas_swot.csv"
     descripcion: "Métricas clave del estudio SWOT"
     fuente: "Texto del paper"
+titulo_corto: "126.674 ríos: SWOT mide el agua del mundo"
+titulo_card: "🛰️ 126.674 ríos: SWOT mide el agua del mundo"
+card_descripcion: |
+  126.674 tramos fluviales medidos por SWOT, ΔRSA global 313,1 ± 129,5 km³, 28% menos que modelos, Amazon 55% de variabilidad, Nilo −91% vs predicho
 estado: publicado

@@ -19,4 +19,8 @@ datasets:
   - nombre: "suelo_pareado.csv"
     descripcion: "1,115 parcelas — SOC 0-60cm y capa orgánica (kg C/m²)"
     fuente: "Zenodo (PairedAnalysis_SOC.csv)"
+titulo_corto: "Carbono de bosques vírgenes"
+titulo_card: "🌲 Carbono de los bosques vírgenes de Suecia"
+card_descripcion: |
+  324 parcelas primarias vs 28,580 secundarias, carbono en vegetación + madera muerta + suelo, análisis pareado por humedad
 estado: publicado

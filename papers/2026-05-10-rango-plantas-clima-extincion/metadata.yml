@@ -28,4 +28,7 @@ datasets:
   - nombre: "shift_rate_sample.csv"
     descripcion: "Sample aleatorio (n=10.000, seed=42) de Species × dispersal × scenario × Lat50/Ele50"
     fuente: "Zenodo 17427091"
+titulo_corto: "Plantas que no pueden seguirle el paso al clima"
+card_descripcion: |
+  Wang et al. (2026) construyeron el modelo de proyección de migración vegetal más grande del mundo: cruzaron **BioShifts** (14.488 observaciones de cambios de rango en 6.579 especies) con 6,8 millones de registros de ocurrencia, dos modelos de hábitat y proyecciones de 10 modelos climáticos globales. Mapearon hábitats actuales y futuros en cuadrículas de 8 × 8 km para **67.664 especies de plantas vasculares** bajo 4 escenarios de emisiones para 2081–2100. La mediana proyectada va de **0,04 a 1,84 km/año** entre escenarios — un factor de 42×. Los **árboles** se proyectan **26% más lentos** que las hierbas: tardan 15 años en producir su primera semilla, las hierbas un año. El modelo proyecta que **7 a 16% de las especies modeladas** perderían más del 90% de su rango, y atribuye **70–80% de esas pérdidas** a hábitats que desaparecen, no a límites de dispersión. ⚠️ Diseño de modeling_projection — toda cifra sobre 2081–2100 es una proyección bajo supuestos. ⚠️ Los datos abiertos en Zenodo son agregados, no rasters por celda; los headlines del 7–16% y 70–80% se citan al paper, no se recalculan aquí. ⚠️ La resolución 8 × 8 km no captura microrefugios topográficos donde algunas especies podrían persistir.
 estado: publicado

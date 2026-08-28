@@ -25,4 +25,7 @@ datasets:
   - nombre: "dh_astration_tiempo.csv"
     descripcion: "D/H elemental: Big Bang -> ISM local por astracion"
     fuente: "Supplementary (refs 31,32)"
+titulo_corto: "El carbono de 3I/ATLAS es casi el doble de primitivo que el del Sol"
+card_descripcion: |
+  3I/ATLAS es apenas el tercer objeto interestelar que cruza el sistema solar, y con JWST midieron la huella isotópica de su gas. **El hallazgo:** su ¹²C/¹³C ronda **147–166**, casi el doble del solar (**89**) — y ningún lugar de la Vía Láctea actual llega tan alto: el gradiente galáctico se queda en **~97** (para alcanzar 141 harían falta 25 kpc, fuera de la galaxia poblada). Su agua además rebosa deuterio: **D/H = 0,98%**, más de 10 veces el de cualquier cometa conocido. Ocho pistas independientes apuntan a lo mismo: nació **frío y muy antiguo**. ⚠️ No hay dataset descargable: las cifras se destilaron del abstract y el Supplementary revisado por pares. ⚠️ La edad de hasta **~12.000 millones de años** es dependiente de modelos de evolución química galáctica — el paper dice *may*, y la edad dinámica independiente da ~3–11 Gyr. ⚠️ La temperatura de formación (≲30 K) es inferencia, no medición directa.
 estado: publicado

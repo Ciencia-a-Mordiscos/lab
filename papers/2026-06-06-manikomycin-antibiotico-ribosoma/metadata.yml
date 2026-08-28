@@ -19,4 +19,8 @@ datasets:
   - nombre: "supervivencia_celegans.csv"
     descripcion: "Supervivencia Kaplan-Meier de C. elegans infectados con K. pneumoniae"
     fuente: "Supplementary Source Data (MOESM6)"
+titulo_corto: "Manikomicina: una bacteria \"agotada\" escondía un antibiótico nuevo"
+titulo_card: "Manikomicina: una bacteria \"agotada\" escondía un antibiótico nuevo"
+card_descripcion: |
+  Una bacteria del suelo estudiada durante 80 años, *Streptomyces rimosus* —la fuente de la oxitetraciclina—, se daba por exprimida. Con una técnica de separación más fina, el equipo halló en ella una molécula nueva, la **manikomicina**, que mata Enterobacteriaceae multirresistentes pegándose al **sitio E** del ribosoma bacteriano: el primer antibiótico conocido que ataca ese punto. Bajamos los Source Data de farmacocinética (ratón) y de supervivencia (gusanos *C. elegans*). **Eficacia:** la manikomicina rescata a **4 de cada 10** gusanos infectados con una cepa de laboratorio que, sin tratar, no dejaba ninguno vivo al día 7 (0% → 41%, Fisher p<0,001); en la cepa clínica, 19% → 47%. **Pero:** rescata **menos** que la polimixina B (antibiótico de último recurso) y su pico en sangre cae al **2,4%** en 4 horas. ⚠️ Eficacia in vivo solo en gusanos, no en mamíferos. ⚠️ Farmacocinética de vida corta (n=3 ratones). ⚠️ El paper la enmarca como candidato (*lead*), no como fármaco terminado.
 estado: publicado

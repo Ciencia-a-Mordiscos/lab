@@ -22,4 +22,8 @@ datasets:
   - nombre: "theia_mass_balance.csv"
     descripcion: "12 escenarios del cálculo de mass balance: composición isotópica calculada de Theia bajo 4 PEM (Enstatitas, Ordinarias, CI, CV) × 3 tamaños de impactor (Canónico, Half-Earth, Pequeño)."
     fuente: "Science Supplementary (Table S3)"
+titulo_corto: "Theia se formó en el Sistema Solar interior"
+titulo_card: "Theia se formó en el Sistema Solar interior"
+card_descripcion: |
+  Hopp et al. (2025) midieron isótopos de hierro (μ⁵⁴Fe) en **41 muestras** — 15 terrestres, 6 lunares, 14 enstatitas, 4 condritas ordinarias y 2 Rumuruti — y los cruzaron con cinco sistemas isotópicos más (O, Ti, Cr, Zr, Mo). Tras filtrar la exposición a rayos cósmicos galácticos, **la Luna y la Tierra son indistinguibles isotópicamente** y caen juntas en el extremo no carbonáceo del mapa meteorítico. El equipo usó balance de masas para reconstruir Theia bajo **12 escenarios** (4 mantos pre-impacto × 3 tamaños de impactor): solo las recetas no carbonáceas dan una Theia que existe en la naturaleza — las recetas CI (μ⁵⁴Cr=−766) y CV (−409) caen a cientos de ppm fuera del rango observado. **El 15% del Cr terrestre y el 85% del Mo provienen de Theia** bajo el escenario canónico. ⚠️ La conclusión "Theia se formó más cerca del Sol que la Tierra" es una inferencia bajo el modelo (el paper la enmarca con *suggest...might*), no una medición directa.
 estado: publicado

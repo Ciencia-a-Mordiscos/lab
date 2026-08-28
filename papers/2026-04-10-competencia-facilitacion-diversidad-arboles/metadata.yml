@@ -22,4 +22,8 @@ datasets:
   - nombre: "sitios_forestales.csv"
     descripcion: "Metadatos de 17 parcelas ForestGEO"
     fuente: "GitHub mdetto/Positive-Interactions"
+titulo_corto: "Competencia y facilitación en árboles globales"
+titulo_card: "🌳 2,7 millones de árboles: ¿compiten o cooperan?"
+card_descripcion: |
+  Detto et al. (2026), datos de 17 parcelas ForestGEO (~2,7 millones de árboles, >5.400 especies). La facilitación relativa cae de 46% en el trópico a 7% en Utah (ρ = −0,82, p < 0,001). La competencia domina en 15/17 parcelas. Temperatura del suelo y riqueza de especies son los predictores clave.
 estado: publicado

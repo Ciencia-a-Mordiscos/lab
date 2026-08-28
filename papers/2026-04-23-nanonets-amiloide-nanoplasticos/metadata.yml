@@ -31,4 +31,7 @@ datasets:
   - nombre: "aguas_reales_ciclos.csv"
     descripcion: "Capacidad adsorción normalizada (Q/Q1) en 4 aguas reales x 5 ciclos x 3 réplicas"
     fuente: "Fig 7 Source Data (Nature Water, MOESM11)"
+titulo_corto: "Una red biohíbrida que se mueve y captura nanoplásticos"
+card_descripcion: |
+  Fan et al. (2026) construyen una red diminuta — fibrillas amiloides de **lisozima** (la proteína de la clara del huevo) decoradas con nanopartículas de óxido de hierro: las **LAF-IONPs**. Bajo un campo magnético alterno, la red se sacude y caza nanoplásticos. Los datos de los Source Data MOESM8/10/11 muestran que el truco está en el movimiento: estática captura solo **40,1%**, dinámica **99,3%** (×2,47, Cohen d ≈ 71). La eficiencia se mantiene entre **94,6%** (10 mg/L) y **99,6%** (500 mg/L), aguanta **100 ciclos** de reuso cayendo apenas **4,3 puntos porcentuales** (de 100,1% a 95,8%), y reduce un **91,5%** del plástico bioacumulado en ratones C57BL/6. ⚠️ Solo ratones — no hay datos clínicos humanos; las eficiencias del 99% son sobre agua sintética con poliestireno puro.
 estado: publicado

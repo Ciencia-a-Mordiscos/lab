@@ -25,4 +25,7 @@ datasets:
   - nombre: "mr_results.csv"
     descripcion: "Randomización mendeliana sobre longevidad y fertilidad"
     fuente: "Zenodo 20439635"
+titulo_corto: "Los genes que nos enferman... y por qué la evolución no los borra"
+card_descripcion: |
+  Si un gen te sube el riesgo de enfermedad deberías tener menos hijos y ese gen debería desaparecer — pero miles siguen ahí. El estudio cruza datos genómicos de **62 enfermedades** con longevidad y fertilidad para probar la **pleiotropía antagónica** (un mismo gen ayuda temprano y cobra tarde). **El hallazgo:** entre **285** alelos de riesgo, los que más suben la fertilidad son los que más recortan la longevidad (**r = −0,35**, n=285, p<0,0001). Y hay un giro: para la mayoría de enfermedades los afectados tienen **más** hijos (44 de 62), salvo en las de **aparición temprana** (<40 años: +11,8 pp sin hijos; d=1,85). La randomización mendeliana detecta efecto causal sobre la longevidad (22 de 43), pero **no** sobre la fertilidad (12 de 45). Y los alelos pro-fertilidad **parecen** favorecidos por la selección reciente (SDS +0,28, 56 % positivos). ⚠️ Estudio **observacional**: salvo la randomización mendeliana, todo es asociación. ⚠️ El SDS capta ~2.000–3.000 años; los "50.000 años" del abstract vienen de otras firmas (iHS/nSL).
 estado: publicado

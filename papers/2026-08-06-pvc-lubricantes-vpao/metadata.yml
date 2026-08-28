@@ -34,4 +34,7 @@ datasets:
   - nombre: "balance_masa_costo.csv"
     descripcion: "Balance de masa por 100 kg de lubricante cruzado con precios de la Tabla S8. 6 insumos"
     fuente: "Supplementary Information, Tabla S8 + SI 12.2.4"
+titulo_corto: "Convirtieron tuberías de PVC en aceite de motor"
+card_descripcion: |
+  El PVC es el plástico más difícil de reciclar: el **56,7%** de su peso es cloro. Un equipo lo desarmó con cloruro de aluminio a **70 °C** y lo convirtió en polialfaolefina — el aceite base sintético de los lubricantes de motor. **El hallazgo:** una sola perilla, la carga de catalizador, mueve la viscosidad **58,2 veces** (14,54 → 0,25 Pa·s) con ρ = **−1,00** en las seis condiciones medidas. Metieron tarjetas, guantes, tuberías y ranas de juguete al reactor y la prueba de Mann-Whitney **no distingue** el resultado del PVC de laboratorio (p = **0,204**). Un detalle que se ve en los datos: de **16.954 ppm** de metales en el residuo quedan **6** en el aceite, y el único que sobrevive —titanio— ya venía en el PVC virgen. ⚠️ El dato incómodo: el PVC pone el **30%** de la masa reactiva y el **3,8%** del costo; el 1-deceno, petroquímico virgen, pone el **82,7%**. ⚠️ **n pequeño** en todo (6 a 17 filas) y **sin réplicas** por condición: no hay barras de error posibles. ⚠️ KV100, índice de viscosidad y fricción son cifras del **abstract**, no reproducibles aquí: nuestras tablas traen viscosidad *dinámica*, otra magnitud.
 estado: publicado

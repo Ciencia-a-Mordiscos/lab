@@ -25,4 +25,7 @@ datasets:
   - nombre: "benchmark.csv"
     descripcion: "|ΔVth cuántico| físico (V) vs área, por familia de dispositivo (Fig 3c)"
     fuente: "Figshare"
+titulo_corto: "Una memoria hecha de un solo electrón"
+card_descripcion: |
+  El sueño de la miniaturización es guardar un bit con **un solo electrón**. El problema: al encoger el dispositivo, la *capacitancia de borde* se dispara y ahoga la señal del electrón. Un equipo esquivó ese muro con una estructura 2D coplanar (drenaje-canal-fuente en el mismo plano). **El hallazgo:** cambiar **un electrón** desplaza el voltaje umbral **~0,5 V** de forma no volátil. Los datos lo confirman de tres formas: a 100 nm² el canal 2D conserva **91 %** de la señal frente al **13 %** de un canal grueso (~7×); el desplazamiento avanza en **escalones enteros** (un electrón por escalón); y los cuatro estados de carga se mantienen separados ~1 V\* con un ruido 16 veces menor, de 1 a 5.000 s. Frente a dispositivos bulk industriales, la señal por electrón es ~**14×** mayor (cálculo propio sobre el dataset). ⚠️ Es la caracterización de **un** dispositivo de laboratorio (retención medida hasta 5.000 s, no años). ⚠️ V\* es una unidad normalizada (1 V\* ≈ 1 electrón), no voltios físicos.
 estado: publicado

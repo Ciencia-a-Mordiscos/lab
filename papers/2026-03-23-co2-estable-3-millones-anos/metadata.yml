@@ -27,4 +27,8 @@ datasets:
     descripcion: "1,270 puntos composite EPICA Dome C (10-808 ka)"
     fuente: "Nature Supplementary Materials (MOESM4)"
 
+titulo_corto: "CO₂ estable 3 millones de años"
+titulo_card: "🧊 CO₂ estable 3 millones de años"
+card_descripcion: |
+  Hielo antártico de 3 Ma, ciclos glaciales, correlación CO₂-CH₄, histograma de anomalía
 estado: publicado

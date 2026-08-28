@@ -19,4 +19,7 @@ datasets:
   - nombre: "fig5g_survival_cpt1a.csv"
     descripcion: "Supervivencia bajo keto: WT vs Cpt1a-iKO (rescate por bloqueo de FAO)"
     fuente: "Nature Source Data (MOESM7)"
+titulo_corto: "La dieta keto aceleró los tumores... y no eran las cetonas"
+card_descripcion: |
+  A ratones propensos a los pólipos intestinales (modelo de la poliposis familiar, *Apc*-mutantes) se les dio una dieta cetogénica. **El hallazgo:** más tumores (**mediana 18 vs 7** por ratón, ~**2,6x**; Cohen d=1,8; p=0,008), área tumoral ~**4x** mayor (d=2,5) y peor supervivencia (**45%** de eventos vs **11%** en control). El giro: apagar las **cetonas** (HMGCS2/ketólisis) **no cambió nada** — el acelerador es la **oxidación de las grasas** de la dieta. Apagar la enzima **CPT1A** bajo la misma keto rescató la supervivencia al **100%** (0 eventos vs 25% en WT) y bajó el área tumoral (d=1,5; p=0,001). ⚠️ Todo en **ratones** con riesgo genético (FAP): **no** es evidencia de que la keto cause cáncer en humanos sanos. ⚠️ El resultado nulo sobre cetonas y los knockouts se toman del paper; reanalizamos tumores, área y supervivencia (Figs 1 y 5). ⚠️ El BHB va en unidades normalizadas de intensidad: solo se lee el fold-change.
 estado: publicado

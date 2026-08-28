@@ -30,4 +30,7 @@ datasets:
   - nombre: "computational_budget.csv"
     descripcion: "Presupuesto computacional por tarea (tokens + duración) para los 6 benchmarks."
     fuente: "Supplementary Table S1 (Nature SI)"
+titulo_corto: "IA escribe software científico expert-level"
+card_descripcion: |
+  Aygün et al. (2026) presentan **ERA** (*Empirical Research Assistance*) — un sistema que combina un modelo de lenguaje (LLM) con búsqueda en árbol (*Tree Search*) para escribir software científico que maximiza una métrica de calidad. Probaron ERA en **6 tareas** y abrimos las tablas del Supplementary para ponerle números a "expert-level". En **GIFT-Eval** (pronóstico de series temporales), **ERA Per-dataset queda #1 entre 32 modelos** con **MASE = 0.671**, por **1.19 % delante del segundo puesto humano** (TTM-R2-Finetuned, 0.679). ERA Unified ocupa el #6. Los 30 puestos restantes son sistemas diseñados por equipos humanos: foundation models, deep learning, modelos estadísticos clásicos. En **DLRSD** (segmentación de imágenes satelitales), **las 3 soluciones de ERA (mIoU 0.80–0.82)** superan al mejor paper previo (RE-Net 2021, **mIoU = 0.762**) por **5–7.6 % relativo**. ⚠️ El leaderboard GIFT-Eval es snapshot del 2025-05-18; otros releases pueden tener un nuevo #1. ⚠️ Dos claims del abstract (40 métodos single-cell, 14 modelos COVID que baten al ensemble CDC) no tienen tabla numérica completa reproducible en el Supplementary. ⚠️ "Expert-level" es la caracterización de los autores, no test ciego de comité independiente.
 estado: publicado

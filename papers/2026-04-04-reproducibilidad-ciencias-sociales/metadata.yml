@@ -22,4 +22,8 @@ datasets:
   - nombre: "disponibilidad_datos.csv"
     descripcion: "Disponibilidad de datos y código por disciplina"
     fuente: "OSF analyst package (RData → CSV)"
+titulo_corto: "¿Se puede confiar en la ciencia social?"
+titulo_card: "🔬 ¿Se puede confiar en la ciencia social?"
+card_descripcion: |
+  600 papers de 62 revistas (2009–2018), 573 claims evaluados, 55,5% precisamente reproducible, solo 19,6% comparte datos
 estado: publicado

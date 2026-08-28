@@ -28,4 +28,7 @@ datasets:
   - nombre: "hemostasia_tiempo.csv"
     descripcion: "Tiempo de hemostasia control vs TuneGlue-liver, n=3 c/u (Fig 5f)"
     fuente: "Figshare — Source Data oficial"
+titulo_corto: "Tu hígado es gelatina. Tu hueso es piedra."
+card_descripcion: |
+  Tu **hígado es casi líquido** y tu **hueso casi piedra**: entre ambos hay **135.417 veces** de diferencia en rigidez, y un solo pegamento médico no sirve para los dos. Un equipo usó **machine learning** para diseñar un pegamento distinto a la medida de cada tejido —los **TuneGlues**—. **El hallazgo:** el modelo predice el módulo elástico del tejido con **R²=0,97** y cada pegamento cae en el **régimen mecánico de su tejido** (5 de 6 dentro de ~2x, a lo largo de 5 órdenes de magnitud); en un hígado lesionado, el TuneGlue bajó el sangrado de **363 a 30 s** (~12x). ⚠️ Todo lo *in vivo* es en **modelos animales**, no humanos ni clínica. ⚠️ La hemostasia es **n=3 por grupo** (p=0,10 es el mínimo posible con ese n, no es significancia). ⚠️ El match tejido-pegamento es de **régimen, no exacto** (la piel queda a 2,1x).
 estado: publicado

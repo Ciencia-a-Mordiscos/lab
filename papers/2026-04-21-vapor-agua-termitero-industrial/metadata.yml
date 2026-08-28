@@ -25,4 +25,7 @@ datasets:
   - nombre: "thermal_conductivity.csv"
     descripcion: "Conductividad térmica de 5 muestras a 7 temperaturas (273-333 K)"
     fuente: "Supplementary Information (MOESM data)"
+titulo_corto: "Un termitero inspira cómo recuperar 83% del vapor industrial"
+card_descripcion: |
+  Zhang et al. (2026) copiaron la arquitectura pasiva de los termiteros africanos —cámaras, chimeneas y canales que enfrían sin perder humedad— para recuperar el vapor que las torres de enfriamiento industriales tiran al aire. El sistema de **cuatro capas apiladas** retiene **83,5%** del vapor a los 24 minutos, contra 27,2% sin tratamiento. **Una sola capa** (el recubrimiento de microesferas FAUTO) carga con +43,7 puntos porcentuales de la mejora; las otras tres capas juntas apenas suman +12,6 pp. Proyectado a una planta de 300 MW en China: **2,7×10⁸ toneladas de agua recuperadas al año** — equivalente al consumo doméstico de 2,2 millones de hogares.
 estado: publicado

@@ -19,4 +19,8 @@ datasets:
   - nombre: "estudio3_respuestas.csv"
     descripcion: "800 participantes, conversación real con GPT-4o"
     fuente: "OSF (doi.org/10.17605/OSF.IO/SMVW7)"
+titulo_corto: "La IA aduladora reduce la intención prosocial"
+titulo_card: "🤖 La IA aduladora reduce la intención prosocial"
+card_descripcion: |
+  1.604 participantes, diseño experimental, IA aduladora vs directa, repair d = 0,92, convicción d = 1,26
 estado: publicado

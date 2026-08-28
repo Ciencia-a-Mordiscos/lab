@@ -28,4 +28,7 @@ datasets:
   - nombre: "respuesta_campo_guia.csv"
     descripcion: "6 puntos de respuesta para dos campos guía"
     fuente: "Zenodo 10.5281/zenodo.19631231"
+titulo_corto: "Un imán flotando midió 32 femtoteslas"
+card_descripcion: |
+  Un imán diminuto que levita sin tocar nada, leído por un láser, alcanzó **32 femtoteslas por raíz de hercio**: mil millones de veces por debajo del campo magnético de la Tierra, a temperatura ambiente y sin blindaje. Abrimos los datos de Zenodo y el récord está: **32,94 fT/√Hz a 304,84 Hz**, con la media de cinco repeticiones en **30,3 ± 2,4**. **El hallazgo:** el récord vive en un pico contiguo de **0,04 Hz** de ancho — a 1,25 Hz el mismo sensor mide **14.317 veces peor**. ⚠️ El paper dice que *iguala a los SQUID*; los datos lo soportan solo en la resonancia, y los SQUID operan en banda ancha. ⚠️ El presupuesto de ruido no cierra: la suma en cuadratura de los componentes (**39,49**) supera al total medido (**32,94**), así que son estimaciones independientes, no sumandos. ⚠️ El factor Q no es calculable: el pico ocupa 1-2 puntos de 0,01 Hz, no está resuelto. ⚠️ Las aplicaciones en biología y química son una proyección del resumen, no un resultado medido.
 estado: publicado

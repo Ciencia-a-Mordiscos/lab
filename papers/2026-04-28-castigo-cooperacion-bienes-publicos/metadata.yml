@@ -25,4 +25,7 @@ datasets:
   - nombre: "df_analysis_val.csv"
     descripcion: "470 juegos individuales (validación)"
     fuente: "OSF — DOI 10.17605/OSF.IO/2D56W"
+titulo_corto: "El castigo no siempre promueve cooperación: depende mucho de las reglas"
+card_descripcion: |
+  Alsobay et al. (2026) corrieron un mega-experimento de **360 versiones** del juego de bienes públicos: **7.100 personas, 147.618 decisiones**, variando 14 parámetros del juego (rondas, magnitud del castigo, posibilidad de chatear, contribución todo-o-nada, etc.) para responder una pregunta vieja: ¿el castigo a quien no coopera realmente promueve cooperación? El paper encuentra **heterogeneidad masiva**: el efecto del castigo va **de +43% (mejora) a -44% (destruye)** en bienestar según los parámetros — y en los datos crudos pareados (170 condiciones) la nube va aún más lejos: de **+26% a -77,5%**. El **57,6% (98/170)** de las condiciones muestran que añadir castigo EMPEORA el bienestar; solo **42,4% (72/170)** lo mejora. El paper afirma que la **comunicación** emerge como el factor más predictivo, pero la **diferencia simple de medias entre con/sin chat es pequeña** (Cohen d=0,19, Mann-Whitney p=0,35) — la importancia surge en interacciones con los otros 13 parámetros, no como pendiente directa. ⚠️ Datos de Mechanical Turk (EE.UU.); el "factor #1 comunicación" es feature importance del modelo predictivo, no un efecto univariado significativo.
 estado: publicado

@@ -25,4 +25,8 @@ datasets:
   - nombre: "accuracy_readers.csv"
     descripcion: "Accuracy de 9 radiólogos con y sin asistencia de IA"
     fuente: "Supplementary Materials Fig. 4d"
+titulo_corto: "IA con imágenes inventadas vs 9 radiólogos"
+titulo_card: "🤖 ¿Puede una IA Entrenada con Imágenes Inventadas Superar a 9 Radiólogos?"
+card_descripcion: |
+  Chen et al. (2026), BUSGen — primer modelo generativo fundacional para ecografía mamaria, pre-entrenado con 3,5 millones de imágenes. A partir de 25K imágenes sintéticas, el modelo supera a los entrenados con datos reales (AUC 0,932 vs 0,925). Evaluado contra 9 radiólogos certificados: +15,9 pp de sensibilidad
 estado: publicado

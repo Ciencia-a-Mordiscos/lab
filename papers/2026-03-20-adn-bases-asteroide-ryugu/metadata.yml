@@ -16,4 +16,8 @@ datasets:
   - nombre: "nucleobases_resumen.csv"
     descripcion: "Concentraciones totales y ratios Pu/Py en 5 muestras extraterrestres"
     fuente: "Texto del paper (Table 1, Fig. 3)"
+titulo_corto: "Las 5 bases del ADN en un asteroide"
+titulo_card: "🧬 Las 5 bases del ADN en un asteroide"
+card_descripcion: |
+  A, G, C, T y U detectadas en Ryugu (Hayabusa2) — comparación con Bennu, Orgueil y Murchison, ratios purina/pirimidina distintos por cuerpo
 estado: publicado

@@ -16,4 +16,7 @@ datasets:
   - nombre: "gwtc4_o4a_bbh.csv"
     descripcion: "84 BBHs de O4a (GWTC-4.0) — medianas + 90% CI de masa, espín efectivo, distancia, SNR"
     fuente: "GWTC-4.0 PE Summary Table (Zenodo 17014085) — derivado a CSV por evento (NRSur7dq4 o Mixed)"
+titulo_corto: "Agujeros negros donde no deberían existir"
+card_descripcion: |
+  Antonini et al. (2026) combinan **153 fusiones de agujeros negros** del catálogo LIGO-Virgo-KAGRA (GWTC-1+2+3+4) con inferencia jerárquica Bayesiana para acotar el borde inferior del *mass gap* por inestabilidad de pares en **44,3 +5,9/−3,5 M_⊙** (90% CI) y la sección eficaz de la reacción ¹²C(α,γ)¹⁶O en **S₃₀₀ = 268 +195/−116 keV b**. Los datos revelan **dos poblaciones** con factor de Bayes B > 10⁴: una de espín bajo sin agujeros sobre el gap, otra de espín alto con orientación aleatoria que se extiende en todo el rango de masa — consistente con fusiones jerárquicas en cúmulos densos. En el subconjunto O4a (**84 BBHs** nuevos) verificamos: 30 eventos (35,7 %) tienen m₁ mediana por encima del borde del gap, y los **6 con m₁ > 70 M_⊙** tienen mediana de χ_eff = **+0,27** (nueve veces la mediana global de +0,03). Bootstrap p ≈ 0,0006. ⚠️ Diseño observacional — claims solo de asociación. ⚠️ El paper usa modelo de mixtura jerárquica; aquí mostramos un cross-check visual sobre el subset O4a. ⚠️ El S-factor del paper no se replica — requiere inferencia conjunta GW + evolución estelar.
 estado: publicado

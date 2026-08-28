@@ -25,4 +25,8 @@ datasets:
   - nombre: "escombros_literatura.csv"
     descripcion: "5 referencias previas"
     fuente: "Harvard Dataverse (Entrainment_in_Literature.xlsx)"
+titulo_corto: "Rocas del hielo de Groenlandia"
+titulo_card: "🧊 Rocas atrapadas en el hielo de Groenlandia"
+card_descripcion: |
+  4,946 ubicaciones de escombros rocosos en el manto de hielo, 11 modelos de extensión durante el último interglacial, radar 3D aerotransportado
 estado: publicado

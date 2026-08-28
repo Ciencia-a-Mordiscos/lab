@@ -22,4 +22,7 @@ datasets:
   - nombre: "trayectoria_produccion_agr.csv"
     descripcion: "Trayectoria 2020-2050 de producción agrícola total, por modelo × año × escenario"
     fuente: "Zenodo 17570720"
+titulo_corto: "Si el mundo comiera sano, ¿qué le pasaría al campo?"
+card_descripcion: |
+  ¿Y si el planeta adoptara una dieta saludable y sostenible (la de referencia **EAT-Lancet**), mejorara la productividad y redujera a la mitad el desperdicio de comida? Un ensamble de **diez modelos económicos globales** (AgMIP) lo proyecta a **2050**. **El hallazgo:** el campo se reordena. La producción física de **carne de rumiantes cae una mediana de −53 %** frente a seguir igual, la de aves y cerdo **−45 %** y la de lácteos **−27 %**, mientras **verduras, frutas, nueces y legumbres suben +23 %** (+23,4 % reproducido) — de nueve grandes grupos de alimentos, solo dos crecen. La **producción agrícola total baja ~17 %** vs BAU (mediana reproducida −16,6 %; los 9 modelos coinciden en la dirección) y la **tierra agrícola ~6 %** vs 2020 (−5 % con los 5 modelos que la reportan). ⚠️ Son **proyecciones de modelos**, no observaciones: dependen de las **políticas asumidas** — la transformación no es inevitable. ⚠️ Las cifras de **valor** ($1,6 billones, ganadería −49 a −83 %) se **citan del paper**, no se reproducen (unidades monetarias heterogéneas entre modelos). ⚠️ La tierra solo la reportan 5 de 10 modelos.
 estado: publicado

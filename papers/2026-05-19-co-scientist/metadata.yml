@@ -19,4 +19,7 @@ datasets:
   - nombre: "agent_ablations.csv"
     descripcion: "Métricas before/after de 7 ablations sobre 3 agentes"
     fuente: "Supplementary Information Tabla 1"
+titulo_corto: "Co-Scientist: el AI que propone 78 hipótesis y los humanos eligen una"
+card_descripcion: |
+  Gottweis et al. (2026) lanzan **Co-Scientist** — un sistema multi-agente AI sobre Gemini que genera, critica y refina hipótesis científicas en torneos internos. El paper lo valida en biomedicina, generando ideas para **reposicionar medicamentos (drug-repurposing)** contra **16 tipos de cáncer**. Abrimos las dos tablas cuantitativas del Supplementary (119 páginas) y la pregunta incómoda salta a la vista: de **78 propuestas totales**, **13 (17%)** fueron para leucemia mieloide aguda (LAML) — el único cáncer que el equipo llevó a validación in vitro (3 líneas celulares: MOLM-13, HL-60, NOMO-1). La distribución por cáncer no es neutral: mediana 3.5 propuestas/cáncer, LAML con 13 es outlier a **+2.67×** la media uniforme. En las ablations, **7/7 métricas mejoran** con los agentes activos, pero **2/7** lo hacen con deltas <2% (los AUCs sobre GPQA — benchmark externo). Las mejoras fuertes (Evolution calidad +19%, Reflection corrigiendo falso novelty +61%) aparecen en benchmarks construidos por el equipo. ⚠️ Validación solo in vitro, no clínica. ⚠️ Sistema sobre Gemini (de código cerrado), no reproducible de punta a punta. ⚠️ El paper usa *potential to accelerate* — el sistema propone, los humanos eligieron.
 estado: publicado

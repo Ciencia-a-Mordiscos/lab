@@ -31,4 +31,7 @@ datasets:
   - nombre: "genome_coverage.csv"
     descripcion: "Cobertura y daño terminal de los dos genomas antiguos"
     fuente: "Table 1 del artículo"
+titulo_corto: "El genoma de la viruela que llegó a América"
+card_descripcion: |
+  Dos personas enterradas en el norte de Chile murieron entre **1492 y 1631** con viruela. De sus huesos salieron los **primeros genomas antiguos del virus en América**: un linaje hoy extinto que se separó del tronco europeo alrededor de **1296**. **El hallazgo:** cuando llegó a América el virus ya venía con **49 de sus 214 genes rotos** (22,9%), y hay un tramo de dos siglos —**1594 a 1794**— en que su reloj molecular corre entre **3,1 y 3,8 veces más lento** antes de volver a acelerarse. Un detalle que se ve en los datos: en la rama hacia las cepas modernas hay **13 mutaciones** repartidas en 7 genes, pero solo **3 genes** quedan efectivamente apagados. ⚠️ Solo hay **dos** genomas antiguos americanos y el análisis funcional se apoya en uno solo. ⚠️ Que el rebote de las tasas coincida con la vacunación masiva es **hipótesis de los autores** (*potentially coinciding*), no un resultado medido. ⚠️ Diseño **observacional**: el estudio vincula evolución viral y demografía, no establece causalidad.
 estado: publicado

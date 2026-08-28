@@ -25,4 +25,8 @@ datasets:
   - nombre: "calor_vs_tamano.csv"
     descripcion: "Energía térmica relativa vs. radio del impactor (escalado ~R³)"
     fuente: "escalado del núcleo isobárico"
+titulo_corto: "El calor oculto del Hadeano"
+titulo_card: "El calor olvidado que pudo derretir la corteza del Hadeano"
+card_descripcion: |
+  Los modelos de la Tierra primitiva calculaban si la corteza estaba fundida mirando solo el calor interno del planeta. Un modelo geodinámico nuevo (*Chthonian*) suma lo que faltaba: el calor del intenso bombardeo de impactos. **El hallazgo:** en sus salidas, un impactor típico de 100 km a 26 km/s eleva la temperatura del choque hasta **~4.700 K — casi el doble (1,9×) del punto de fusión máximo del manto (~2.500 K)**, fundiendo la columna a cualquier profundidad. De los **109 impactos** del modelo, el 90% mide menos de 250 km y el 74% cae en los primeros 200 Ma. ⚠️ Son las salidas de **una realización estocástica de la banda ecuatorial**, no el flujo global. ⚠️ Las edades están en *tiempo de modelo*, sin calibrar a calendario. ⚠️ Que el calor de impacto superara al interno es la conclusión **cualitativa del modelo**, no recomputada en el notebook.
 estado: publicado

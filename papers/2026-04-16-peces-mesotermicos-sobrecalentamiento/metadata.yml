@@ -19,4 +19,7 @@ datasets:
   - nombre: "fitted_model_rmr.csv"
     descripcion: "4 coeficientes del modelo Bayesiano de RMR (γ, α, β, ψ) ajustado por los autores"
     fuente: "paquete predictFishRMR"
+titulo_corto: "El pez que se cocina a sí mismo cuando crece"
+card_descripcion: |
+  Payne et al. (2026) construyeron un modelo de producción y disipación de calor para peces, calibrado con **105 mediciones empíricas** del coeficiente de enfriamiento en **19 especies** — desde una larva de **0.3 gramos** hasta un tiburón ballena juvenil de **1600 kg** (6.7 órdenes de magnitud de masa). Los mesotermos (atunes, pez espada, marrajo) gastan **3.73× más energía** que un ectotermo del mismo tamaño y temperatura corporal — el paper redondea a "approximately four times". Verificamos el coeficiente Bayesiano `exp(ψ=1.3165)` y re-derivamos la pendiente del coeficiente de enfriamiento (OLS pooled = -0.621 vs paper -0.633, Δ ≈ 2%). El **scaling mismatch** entre producción de calor (∝ M^0.83) y disipación (K·m ∝ M^0.37) hace que el cociente crezca como **M^0.46**: pasar de 1 kg a 1000 kg multiplica el desbalance térmico por **24×**. ⚠️ El claim de que esto explica la biogeografía templada de los mesotermos grandes es interpretativo (el abstract usa "helping to explain") — no causal probado.
 estado: publicado

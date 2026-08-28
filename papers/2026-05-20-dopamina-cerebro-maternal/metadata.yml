@@ -19,4 +19,7 @@ datasets:
   - nombre: "fig4_pup_pickup.csv"
     descripcion: "51 ratones · latencia de pup retrieval por grupo × virus chemogenético"
     fuente: "Supplementary Information del paper (MOESM5)"
+titulo_corto: "Dopamina y cerebro maternal"
+card_descripcion: |
+  Un grupo demuestra que silenciar la liberación de **dopamina** en el **hipocampo dorsal** de una hembra virgen es **suficiente** para que recoja crías como una madre experimentada. Bajamos los datos conductuales del Supplementary (MOESM5) — 34 hembras en el test de aprendizaje contextual y 51 en el de recogida de crías — y los analizamos célula por celda. Acto 1: la maternidad casi duplica el aprendizaje contextual (Cohen *d* = 1,22, *p* = 0,021). Acto 2: el estrés postparto crónico tiende a borrar esa ventaja, con alta variabilidad individual (*d* = -0,50). Acto 3 — el golpe: **8 de 13 vírgenes con control viral nunca recogen cría** antes del cutoff de 900 s; con dopamina silenciada químicamente, **14 de 15 lo hacen en mediana 102 s** (Cohen *d* = -1,50, *p* = 0,0018). Y silenciar dopamina en madres **no** cambia su conducta — control de especificidad limpio. ⚠️ Estudio en ratón; la validación humana del paper es solo molecular, no conductual. ⚠️ Cutoff a 900 s introduce censura administrativa: subestima la diferencia real.
 estado: publicado

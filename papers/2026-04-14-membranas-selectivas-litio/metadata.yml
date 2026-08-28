@@ -28,4 +28,8 @@ datasets:
   - nombre: "capex.csv"
     descripcion: "Desglose CAPEX del sistema piloto"
     fuente: "Supplementary Table S4"
+titulo_corto: "Membranas selectivas de litio: 60× más selectivas"
+titulo_card: "⚗️ Membranas selectivas de litio: 60 veces más que la competencia"
+card_descripcion: |
+  Chen et al. (2026), membrana ISGC (polímero + ZIF-8 30%) logra selectividad K⁺/Li⁺ = 410,1 en salmueras multi-iónicas — 60× la mediana de los 10 competidores comparados. Poro óptimo a 2,686 Å (entre Li⁺ hidratado y K⁺ hidratado). Consumo energético: 1,02 kWh/kg, el menor entre 6 métodos de extracción. CAPEX total: 2.528 USD.
 estado: publicado

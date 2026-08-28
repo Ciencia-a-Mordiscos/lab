@@ -22,4 +22,7 @@ datasets:
   - nombre: "salinidad_cambio_por_sector.csv"
     descripcion: "Cambio de salinidad del agua continental (g/kg) por sector"
     fuente: "Zenodo 17992455"
+titulo_corto: "Dos tercios del deshielo extra de la Antártida vienen del propio deshielo"
+card_descripcion: |
+  Youngs et al. (2026) corren la primera simulación circumpolar de la Antártida con plataformas de hielo interactivas (MITgcm + GFDL-CM4, escenario SSP5-8.5) y descomponen el aumento del derretimiento basal en dos piezas: lo que mete el calentamiento directo del océano y lo que añade el propio agua de deshielo al volver a la cavidad. **El 66% del aumento total viene de la segunda pieza** — un feedback que la mayoría de modelos climáticos ni siquiera tiene. La firma es 531 Gt/año adicionales vs 274 Gt/año del calentamiento directo (suma sobre 10 sectores). Y el feedback no es uniforme: **amplifica en 4 sectores** (Weddell, Amery, Maud, Wilkes — cavidades densas donde el agua salina aligerada deja entrar agua cálida bajo la plataforma) y **protege en 6** (Bellingshausen, Amundsen, Ross, Adelie, Península, Enderby — donde el agua dulce de las cavidades densas forma un escudo aguas abajo). Weddell solo aporta el 87% del aumento circumpolar. ⚠️ Es un solo modelo bajo un solo forzamiento; otros modelos pueden dar magnitudes distintas. ⚠️ Los 10 sectores son una partición convencional del modelo, no fronteras físicas. ⚠️ El Spearman T vs deshielo por sector da ρ=-0,20 con p=0,58 (n=10): la geometría de cavidad, no el calentamiento neto, manda la respuesta.
 estado: publicado

@@ -29,4 +29,7 @@ datasets:
   - nombre: "nup_phosphorylation.csv"
     descripcion: "Intensidad relativa de fosforilación de 10 nucleoporinas, +VS vs -VS (~50 mediciones por condición)"
     fuente: "Source Data Figure 4 (MOESM10)"
+titulo_corto: "El HIV necesita tocar células para infectarlas"
+card_descripcion: |
+  Mesner et al. (2026) **muestran** por qué los linfocitos T CD4+ en reposo —donde el HIV vive en el cuerpo— no se infectan con virus libre en el laboratorio: les falta una señal que solo el contacto célula-célula activa. Bajamos los Source Data de las figuras 1, 3 y 4 (MOESM7/9/10) y verificamos los tres eslabones de la cascada. **Acto 1:** en 3 donantes pareados, el contacto multiplica la infección por **3,6×** (cell-free 3,1% vs cell-cell 11,4%, *t* pareado *p* = 0,016, Cohen *d* pareado = 4,5). **Acto 2:** silenciar **CDK1** con siRNA reduce la infección **−33%** (*p* = 0,021, *d* pareado = 4,0) — la quinasa del ciclo celular es necesaria. **Acto 3:** la quinasa no abre el poro entero. De **10 nucleoporinas** medidas, solo **3 cambian** con el contacto: **Nup54 (+32%)**, **Nup62 (+16%)** y **Tpr (+12%)**, con *d* entre 0,62 y 1,01. Las otras 7 no se mueven. ⚠️ *n* = 3 donantes en las figuras clave: efectos enormes pero potencia baja (*p* al borde). ⚠️ La cascada CD4 → LCK → CDK1 → Nup la apoyamos con la propuesta del paper, no con el Source Data — la activación de LCK no está en los CSVs abiertos.
 estado: publicado

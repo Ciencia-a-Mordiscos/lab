@@ -19,4 +19,8 @@ datasets:
   - nombre: "similitud_eosteus.csv"
     descripcion: "Coincidencia de caracteres entre Eosteus y 162 otros taxa"
     fuente: "Derivado de Supplementary Data 1"
+titulo_corto: "Pez imposible de 436 millones de años"
+titulo_card: "🐟 Descubrieron un Pez Imposible de 436 Millones de Años"
+card_descripcion: |
+  163 taxa × 709 caracteres morfológicos, matriz filogenética NEXUS, Eosteus 30,5% completitud, similitud 90,6% con actinopterigios
 estado: publicado

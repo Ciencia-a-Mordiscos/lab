@@ -19,4 +19,7 @@ datasets:
   - nombre: "feedback_summary.csv"
     descripcion: "24 valores resumen pre-calculados: estación × magnitud × cielo × umbral"
     fuente: "NOAA Chemical Sciences Laboratory — Supplementary del paper"
+titulo_corto: "El Amazonas que enfría: 6.8 W/m² de paradoja"
+card_descripcion: |
+  Dror et al. (2026) cruzan dos décadas de satélites CERES y MODIS sobre el Amazonas, separando el flujo radiativo en el techo de la atmósfera (TOA) por fracción de pérdida de bosque. Los datos resumidos del NOAA Chemical Sciences Laboratory (122 bins de f_loss, 24 valores de feedback) muestran que en zonas de alta deforestación (f_loss ≥ 0,5) el flujo de onda corta saliente sube **6,76 ± 0,60 W/m²** vs bosque intacto — coincidiendo al 0,6% con el headline del paper (6,8 ± 0,6). Las nubes amplifican ese efecto: la amplificación de albedo es **× 2,2** vs el cambio de suelo desnudo, y la del flujo SW **× 3,4**. La onda corta domina sobre la onda larga por **× 12**. La pendiente OLS contra f_loss llega a **11 W/m² por unidad** (R² = 0,61, p ≈ 0, n = 122). ⚠️ Solo balance radiativo — NO incluye carbono liberado, humedad atmosférica ni ciclo hidrológico continental. El propio abstract dice que estos resultados *"apoyan"* (no *"demuestran"*) su uso en políticas climáticas.
 estado: publicado

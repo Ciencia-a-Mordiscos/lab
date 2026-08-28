@@ -22,4 +22,7 @@ datasets:
   - nombre: "comodidades_deforestacion.csv"
     descripcion: "Deforestación adicional a 1 km por mineral, con IC 95%"
     fuente: "Texto Open Access del paper (Fig. 4)"
+titulo_corto: "Minería y deforestación en África subsahariana"
+card_descripcion: |
+  La demanda de minerales africanos crece rápido y, con ella, la presión sobre el bosque tropical. Un equipo rastreó **16.627 minas** con satélite (2001-2020) y midió cuánto bosque se pierde *de más* solo por tener una mina al lado. Alineamos cada mina a su año de apertura: la curva de pérdida a **1 km** se despega del fondo justo cuando la mina abre (reproducción cruda: **7,57 pp** adicionales a 10 años, dentro del IC del paper). **El golpe:** el paper estima que por cada hectárea de tala directa, la minería desencadena **34 hectáreas** de pérdida alrededor en cinco años — y el **cobalto** y el **cobre** de baterías y electrónica están entre los que más arrasan. ⚠️ Nuestra reproducción es descriptiva (medias crudas), no la diferencia-en-diferencias ajustada del paper. ⚠️ El 8,0 pp causal y el ratio 34:1 son cifras del paper, no recalculadas.
 estado: publicado

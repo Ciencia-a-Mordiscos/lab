@@ -31,4 +31,8 @@ datasets:
   - nombre: "gradiente_velocidad.csv"
     descripcion: "Gradiente de velocidad de grumos del Complejo H"
     fuente: "Zenodo"
+titulo_corto: "Estrellas naciendo fuera de la Vía Láctea"
+titulo_card: "⭐ Estrellas naciendo fuera de la Vía Láctea"
+card_descripcion: |
+  32 estrellas en 2 cúmulos abiertos (Emei-1 y Emei-2) dentro del Complejo H, Gaia DR3, isócronas PARSEC 11,2 Myr, metalicidad 0,05 Z⊙, distancia 13,8 kpc
 estado: publicado

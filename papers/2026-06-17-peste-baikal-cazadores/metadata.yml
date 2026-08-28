@@ -19,4 +19,7 @@ datasets:
   - nombre: "victimas_plaga.csv"
     descripcion: "18 víctimas con peste: cementerio, sexo, edad estimada, fecha cal BP"
     fuente: "Supplementary Tables (MOESM3)"
+titulo_corto: "La peste no nació en las ciudades"
+card_descripcion: |
+  Durante décadas se creyó que la peste necesitaba aglomeración para volverse letal: ciudades, graneros, la vida densa del Neolítico. Pero el ADN antiguo de cuatro cementerios de cazadores-recolectores junto al lago **Baikal**, en Siberia, lo pone en duda: hace unos **5.500 años** estos grupos móviles ya morían de peste. **El hallazgo:** **39% de los individuos analizados** (18 de 46) dieron positivo a *Yersinia pestis*, y la mediana de edad al morir fue de apenas **14,5 años** — 7 de las 18 víctimas eran niños de 8 a 12. Los brotes llegaron en **dos olas** separadas por siglos. ⚠️ Es detección en **restos enterrados**, no la tasa de contagio de la población viva. ⚠️ Estudio **observacional**: vemos a quién tocó la peste, no una relación causa-efecto medida. ⚠️ Muestras chicas por cementerio (de 2 a 31 personas).
 estado: publicado

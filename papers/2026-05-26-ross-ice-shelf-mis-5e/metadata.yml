@@ -25,4 +25,7 @@ datasets:
   - nombre: "psa_database.csv"
     descripcion: "Potential Source Areas (381 muestras, 11 regiones)"
     fuente: "Source Data XLSX (MOESM3_ESM)"
+titulo_corto: "La Antártida occidental se derritió antes — y dejó su firma en el polvo"
+card_descripcion: |
+  22 muestras Sr/Nd de un núcleo en Allan Hills (Antártida) muestran que el polvo cambió de fuente entre el último glacial y el último interglacial: 67% de muestras MIS 5e con firma volcánica antártica local vs solo 10% en MIS 6.
 estado: publicado

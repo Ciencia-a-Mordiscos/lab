@@ -34,4 +34,8 @@ datasets:
   - nombre: "gwas_resumen_fenotipos.csv"
     descripcion: "Resumen de señales significativas por fenotipo"
     fuente: "GWAS Summary Statistics (MOESM4)"
+titulo_corto: "GLP1: tu ADN decide los efectos secundarios"
+titulo_card: "💊 GLP1: tu ADN decide los efectos secundarios"
+card_descripcion: |
+  Aschebrook-Kilfoy et al. (2026), GWAS con 27.885 personas en tratamiento con semaglutida o tirzepatida. Una variante en GIPR (rs1800437) triplica el riesgo de vómitos con tirzepatida (CC 11,8% vs GG 3,9%, p = 2,2×10⁻¹⁰) pero no tiene efecto con semaglutida. Un modelo predictivo con genética mejora la predicción de vómitos (ΔAUC = +0,022) pero apenas mueve la eficacia (ΔR² = 0,001).
 estado: publicado

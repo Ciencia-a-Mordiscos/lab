@@ -19,4 +19,8 @@ datasets:
   - nombre: "oring_transfer_data.csv"
     descripcion: "O-ring transfer: 18 participantes × 3 plataformas × 6 intentos (tiempo + error ponderado)"
     fuente: "Zenodo 20434260"
+titulo_corto: "¿Qué tan bien opera un robot humanoide?"
+titulo_card: "¿Qué tan bien opera un robot humanoide? Lo midieron contra el da Vinci"
+card_descripcion: |
+  Investigadores montaron un sistema de teleoperación sobre un humanoide comercial y le pusieron las mismas dos pruebas del examen de laparoscopia (FLS) que hace un cirujano para certificarse, midiéndolo contra el **da Vinci** (el robot quirúrgico dedicado) y la **laparoscopia manual**. **El hallazgo:** el humanoide es **~3,4× más lento que el da Vinci**, pero **~2× más rápido que la mano humana** con instrumentos (medianas de peg transfer: 102 s / 351 s / 696 s). Y la sorpresa está en la precisión: **empata con el dVRK** —la diferencia de error por intento no es estadísticamente distinguible (**p=0,72**)— y comete menos error que la técnica manual (**p=0,022**). La experiencia pesa: con el humanoide, los cirujanos tardan **menos de la mitad** que los novatos (mediana 41,9 s vs 108,7 s por intento). ⚠️ Son tareas de laboratorio (*dry-lab*), no cirugía en un paciente. ⚠️ El humanoide es **teleoperado** —una persona lo dirige, no opera solo—. ⚠️ Es un estudio de **viabilidad técnica, no de eficacia clínica**; los estudios in vivo en cerdos que menciona el abstract no están en el dataset público.
 estado: publicado

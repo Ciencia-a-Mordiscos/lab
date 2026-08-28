@@ -22,4 +22,7 @@ datasets:
   - nombre: "cdr3_longitudes.csv"
     descripcion: "Longitud HCDR3 de anticuerpos clase BG18 tipo I"
     fuente: "Supplementary Data 1 (MOESM3)"
+titulo_corto: "Una vacuna hizo que monos fabricaran anticuerpos contra el VIH"
+card_descripcion: |
+  Durante casi 40 años, ninguna vacuna logró que un animal normal fabricara los anticuerpos raros que frenan muchas cepas de VIH a la vez. Un equipo probó la estrategia *germline-targeting* —guiar a las células B desde su versión más joven— en primates no humanos *outbred* (genéticamente diversos, como nosotros). **El hallazgo:** en la semana 82 **la mitad de los anticuerpos ya se pegaba a 7 de los 11 VIH** del panel, y **el 98% (55 de 56) apuntaba al supersitio del glicano N332** —el epítopo que el diseño buscaba—; el cebador engancha a los precursores a **57 picomolar** (100% de unión). Comparten además la firma estructural de la clase BG18: **HCDR3 de 21 aminoácidos** de mediana. Pero la amplitud es parcial: cuatro aislados (0712, 0860, 1026, DU422) resisten aun en anticuerpos maduros. ⚠️ Todo lo graficado es **unión** (afinidad SPR), no **neutralización** — los porcentajes de neutralización del paper (hasta **67%** de amplitud; bnAb en **≥50%** de los animales) viven en tablas del suplemento no públicas y no se reproducen aquí. ⚠️ Es prueba de concepto **en primates**, no una vacuna lista para humanos. ⚠️ La semana 95 tiene n=11 y no debe leerse como una caída real.
 estado: publicado

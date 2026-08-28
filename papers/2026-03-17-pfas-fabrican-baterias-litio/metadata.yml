@@ -31,4 +31,8 @@ datasets:
   - nombre: "voltaje_temperatura.csv"
     descripcion: "Temperatura alcanzada vs voltaje aplicado"
     fuente: "Supplementary Information, Source Data Fig. 1e"
+titulo_corto: "PFAS: los forever chemicals fabrican baterías"
+titulo_card: "🧪 Los \"forever chemicals\" fabrican baterías"
+card_descripcion: |
+  10 tipos de PFAS degradados >99,8%, fluorinación electrotérmica, recuperación de litio ~82% yield, ΔG de 5 cloruros metálicos, solubilidad 275× LiF vs NaCl
 estado: publicado

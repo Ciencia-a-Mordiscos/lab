@@ -25,4 +25,7 @@ datasets:
   - nombre: "fpca_variance.csv"
     descripcion: "Varianza por componente del FPCA de las trayectorias"
     fuente: "OSF (10.17605/OSF.IO/NEUTV)"
+titulo_corto: "Antes de la agricultura, el mundo hablaba menos idiomas que hoy"
+card_descripcion: |
+  Hace ~12.000 años, antes de domesticar plantas y animales, el mundo tenía **menos** lenguas que hoy. Un equipo cruzó modelado estadístico, **339** sociedades cazadoras-recolectoras y paleodemografía para estimarlo. **El hallazgo:** entre **4.500 y 6.000** lenguas entonces (nuestra mediana de 21.600 estimaciones: **5.317**, mitad central 4.540–6.183) frente a **~7.500** hoy — un salto de apenas **×1,4**, no "el doble". El rango es robusto: las **8** formas de modelar dan medianas de **3.980 a 6.053**. El motor que el paper **asocia** (no "causa") es la población, que se multiplicó **~1.670×** (de ~4,4 M a ~7.400 M). ⚠️ Todo son **estimaciones de modelo** con intervalos amplios. ⚠️ La "edad de oro" de decenas de miles de lenguas (hace 3.000–1.000 años) y el rol de los imperios son claims del paper **no reproducidos** por el notebook.
 estado: publicado

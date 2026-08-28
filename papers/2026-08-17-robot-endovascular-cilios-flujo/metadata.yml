@@ -22,4 +22,7 @@ datasets:
   - nombre: "tpa_concentracion.csv"
     descripcion: "Concentración de tPA dentro del coágulo a lo largo de 50 min"
     fuente: "Source Data Fig. 5j"
+titulo_corto: "Un robot con cilios que destapa arterias"
+card_descripcion: |
+  Cuando una arteria se tapa, detrás del tapón la sangre casi deja de moverse y el fármaco que disuelve coágulos llega solo por difusión. Fang et al. construyeron un robot blando de silicona con partículas magnéticas y un tapete de cilios que baten en ola coordinada: se navega con un imán desde fuera, se para junto al coágulo y empuja sangre. **El hallazgo:** en cerdos vivos el vaso se destapó en **45,0 min** frente a **163,3** sin robot (**−72,4%**), y en phantom en **40,4** frente a **95,0** (**−57,5%**), con separación total entre grupos. Por debajo hay dos sorpresas de diseño: cambiar el **sentido** en que viaja la ola de cilios triplica el flujo (**3,16x**, gana en las 10 frecuencias), y forrar el tubo **entero** de cilios da **4,34 veces menos** flujo que forrar la mitad — los de un lado empujan contra los del otro. ⚠️ Con **3 animales por grupo**, ningún test de permutación a dos colas puede bajar de **p = 0,10**: el efecto es enorme (d = 9,5), pero "significativo" no se puede escribir. ⚠️ Los Source Data publican **medias ± desviación**, no valores crudos, salvo en las dos figuras de recanalización. ⚠️ **Phantoms y cerdos: no hay datos en personas** ni es un tratamiento disponible.
 estado: publicado

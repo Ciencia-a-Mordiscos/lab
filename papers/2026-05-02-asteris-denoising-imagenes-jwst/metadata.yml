@@ -16,4 +16,8 @@ datasets:
   - nombre: "science.ady9404_data_s1.csv"
     descripcion: "Catálogo final ASTERIS — 163 candidatos a galaxias de alto redshift (z ≳ 9) detectados en imágenes profundas del JWST"
     fuente: "Science Supplementary Materials (data_s1.zip)"
+titulo_corto: "ASTERIS — denoising IA en imágenes JWST"
+titulo_card: "ASTERIS — una IA aprende a separar señal de ruido en imágenes JWST"
+card_descripcion: |
+  Guo et al. (2026) entrenan un transformer self-supervised que aprende cómo se comporta el ruido entre exposiciones distintas del James Webb y lo descuenta sin tocar la señal de las galaxias reales. El catálogo final post-ASTERIS publicado en el Supplementary tiene **163 candidatos** a galaxias de alto redshift en un parche de 0.09° × 0.07° del campo profundo GOODS-South — más pequeño que la Luna llena vista desde la Tierra. **El 95.1% (155/163) está en zphot ≥ 9** (universo ≤ 540 Myr post Big Bang), incluyendo **3 candidatos extremos en zphot ≥ 18** (universo ≤ 250 Myr, todos F200W dropouts). El **87.1% (142/163) son más débiles que M_UV = −18**, el umbral típico de búsquedas previas a ASTERIS — coherente con la afirmación del paper de detectar galaxias 1.0 magnitud más débiles. ⚠️ Las afirmaciones "3× más candidatos" y "1.0 magnitud de mejora" vienen del benchmarking del paper con mock data; data_s1 contiene solo el catálogo final post-ASTERIS, no el baseline pre-ASTERIS.
 estado: publicado

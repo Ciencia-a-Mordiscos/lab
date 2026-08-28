@@ -25,4 +25,7 @@ datasets:
   - nombre: "hcc_probes.csv"
     descripcion: "Sondas por gen en el panel HCC (31 genes, 91 sondas)"
     fuente: "Supplementary Data 4 (MOESM4_ESM.xlsx)"
+titulo_corto: "64 canales de ARN en una sola imagen"
+card_descripcion: |
+  Los microscopios de fluorescencia solo distinguen 4 colores, pero PRISM logra imagen espacial de **64 ARNs en una sola ronda** codificando cada uno con una combinación de 4 canales e intensidad. El equipo elige 64 codewords de un espacio de **1.296** posibles (4,9%) con separación mínima de **√2 ≈ 1,414** — la distancia que un píxel ruidoso no puede cruzar.
 estado: publicado

@@ -25,4 +25,7 @@ datasets:
   - nombre: "pendientes_por_continente.csv"
     descripcion: "Pendientes de regresión NPP/GPP vs log(patch_size) para los 6 continentes"
     fuente: "Repositorio Zenodo"
+titulo_corto: "Parches grandes de bosque capturan más carbono por hectárea"
+card_descripcion: |
+  Zou et al. (2026) mapearon **16,9 millones de parches forestales** en Estados Unidos continental con sensores remotos y, controlando por clima, suelo y topografía, midieron la productividad por unidad de área en cada uno. La curva sube de forma monótona: una hectárea metida en un parche de **~100 000 km² es 38% más productiva** que esa misma hectárea aislada. Análisis contrafactuales indican que la fragmentación que ya existe **redujo la NPP de CONUS en 0,16 GtC al año (14%)** vs un escenario de bosques contiguos. El Random Forest confirma que el tamaño del parche pesa más que las variables topográficas y de suelo — pero ojo: **el clima (MAT, precipitación) sí supera al tamaño**, matiz que el abstract no menciona. Replicando globalmente, **5 de 6 continentes** muestran la misma relación positiva; **Europa es la única excepción** (-0,003). ⚠️ Diseño OBSERVACIONAL — la asociación es robusta, no un experimento causal. ⚠️ El bin extremo de 134 000 km² es un único parche (n=1, sin SEM); por eso preferimos la regresión continua del paper (+38%) sobre el extremo discreto (+67%). ⚠️ Datos globales por continente con resolución más gruesa que CONUS — la pendiente de Europa puede estar sub-estimada.
 estado: publicado

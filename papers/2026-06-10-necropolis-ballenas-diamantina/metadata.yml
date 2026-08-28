@@ -19,4 +19,8 @@ datasets:
   - nombre: "comunidad_por_taxon.csv"
     descripcion: "Composición faunística: 20 taxa, 5 filos, individuos por taxon en 5 whale-falls modernos"
     fuente: "Supplementary Table 2 (MOESM3)"
+titulo_corto: "Una necrópolis de ballenas de 5,3 millones de años en el Índico"
+titulo_card: "Una necrópolis de ballenas de 5,3 millones de años en el Índico"
+card_descripcion: |
+  Cuando una ballena muere, su cuerpo cae kilómetros hasta el fondo del mar y se vuelve un **oasis de vida** en pleno desierto abisal. Antes se conocían apenas un puñado de estas caídas en todos los océanos; un sumergible rastreó la **Zona Diamantina** (Índico suroriental) y registró **486 restos de ballena** en 24 inmersiones, regados ~1.200 km de fondo. **El hallazgo:** el **83% descansa a más de 6 km de profundidad** (mediana 6.527 m) y la datación isotópica sitúa algunas caídas hace **al menos 5,3 millones de años** — el fondo del mar como archivo fósil de la evolución de las ballenas. Por número dominan los **gusanos (71%, incluidos 588 come-huesos *Osedax*)**, pero los especialistas que definen el oasis son estrellas frágiles, perforadores de hueso y bivalvos quimiosintéticos. ⚠️ Estudio **observacional**: describe distribución y composición, no prueba causas. ⚠️ La edad de **5,3 Ma** viene de datación isotópica del paper, no de estos datos. ⚠️ El conteo de huesos mezcla valores exactos, censurados ('40+') y texto libre, por eso **no se totaliza**.
 estado: publicado

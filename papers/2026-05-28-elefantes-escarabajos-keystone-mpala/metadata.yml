@@ -28,4 +28,7 @@ datasets:
   - nombre: "red_centralidad.csv"
     descripcion: "Métricas agregadas elefante vs promedio del resto"
     fuente: "Supplementary Information (red trófica §2.4d)"
+titulo_corto: "Quita los elefantes: pierdes el 67% de los escarabajos peloteros"
+card_descripcion: |
+  Pringle et al. (2026) cerraron 15 años un experimento en Mpala (Kenia): tres tratamientos en parcelas vecinas — todos los herbívoros, sin elefantes ni jirafas, sin nada silvestre. Capturaron **9.114 escarabajos peloteros** entre 2021 y 2023 y los clasificaron en 179 especies probables. Bajamos los datos del Supplementary Information (Tablas S6, S13, S16 y la red trófica de §2.4d). **Acto 1:** el elefante atrae a **88 especies** de escarabajos en la red trófica; la cebra, segunda, atrae a 63 (ratio 1,40×). Eigenvector centrality 1,00 vs 0,61 del resto. **Acto 2:** quitar elefantes 15 años redujo abundancia **−67%** (GLMM β=−0,93, Z=−4,65, P<0,001), riqueza −22%, biomasa −51%. Quitar el resto de herbívoros añadió solo −8% extra (Padj=0,55, no significativo). **Acto 3:** un elefante equivale a **1.594 ungulados <1.000 kg** en community importance per cápita en abundancia de escarabajos. ⚠️ La comparación Mpala vs Koija/Lekiji (sitios con ganado) es observacional, no causal — el patrón coincide con el experimento pero no lo prueba. ⚠️ Parcelas UHURU de 4 ha; los elefantes recorren cientos de km² al año.
 estado: publicado

@@ -25,4 +25,8 @@ datasets:
   - nombre: "ciclo_estacional.csv"
     descripcion: "Ciclo estacional del polvo (medias mensuales normalizadas)"
     fuente: "Zenodo 10.5281/zenodo.19236528 (Fig2)"
+titulo_corto: "El polvo del desierto que respira Europa"
+titulo_card: "El polvo del desierto que respira Europa"
+card_descripcion: |
+  El polvo del Sáhara no se queda en el desierto: el viento lo empuja miles de kilómetros hasta los pulmones y los glaciares de Europa. Abrimos los datos de **106 estaciones** europeas y un **núcleo de hielo alpino** que guarda, año a año, cuánto polvo llegó desde 1750. **El hallazgo:** el sur de Europa carga **3,45 veces** más trazador de polvo (aluminio) que el norte (ρ=−0,75, n=106), y el hielo muestra que el polvo **subió +114 %** (raw) desde la era preindustrial — consistente con el **+110 %** del paper. Todo apunta a la sequía del norte de África: calcio del hielo y sequía marroquí se mueven casi en espejo (ρ=−0,78, n=139 años). ⚠️ El trazador **aluminio** (3,45×) no es el **PM10 modelado** del paper (2,53×): coinciden en el gradiente, no en la magnitud. ⚠️ El vínculo sequía→polvo es una **asociación** observacional, no causa probada. ⚠️ El vínculo polvo→mortalidad (+0,67 %) lo reportan los investigadores; no lo reproducimos aquí.
 estado: publicado

@@ -31,4 +31,7 @@ datasets:
   - nombre: "adipose_calipers_vs_ust.csv"
     descripcion: "Caliper de pliegue vs UST en 2 voluntarios (25F, 27M)"
     fuente: "Supplementary Information MOESM1 — sección Adipose thickness estimation"
+titulo_corto: "Ultrasonido tomográfico del corte completo del cuerpo"
+card_descripcion: |
+  Yang et al. (2026) construyen un aro de **60 cm con 512 receptores** y un transmisor que gira. El sujeto se sienta con el torso en un tanque de agua, y el sistema genera una imagen del corte transversal completo — como una TAC, pero con ultrasonido y sin radiación. Lo validan en cadena: líquido conocido (5 mezclas etanol-agua, error promedio 0,52%), fantasma de grasa sintética (sobreestima ~3%), y humanos contra MRI 3T (**Pearson r = 0,987, diferencia máxima 3 mm en n=6 líneas**). Y algo incómodo: un caliper de consulta subestima la grasa **40,6%** en un voluntario promedio — pellizcar comprime 1,3 cm de tejido que la imagen sí ve.
 estado: publicado

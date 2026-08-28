@@ -22,4 +22,7 @@ datasets:
   - nombre: "huascaran_20yr_avgs.csv"
     descripcion: "Promedios de 20 años del Huascarán SCA, entrada del modelo de 4 cajas"
     fuente: "Zenodo 10.5281/zenodo.18657346"
+titulo_corto: "El metano que los polos no contaron"
+card_descripcion: |
+  La historia del metano atmosférico se leyó siempre en Groenlandia y la Antártida, aunque el metano natural se fabrica en humedales tropicales. Lamantia et al. perforaron hielo a **6.768 m** en el Nevado Huascarán y sacaron unos **2.000 años** de aire tropical: el primer registro histórico global de CH₄ de baja latitud. **El hallazgo:** ese testigo corre **+62,3 ppb** por encima de los cuatro registros polares en el preindustrial (119 de 123 comparaciones), y al meterlo en el modelo de 4 cajas de los autores la emisión tropical estimada sube de **161,4 a 212,5 Tg CH₄/año**. El notebook re-ejecuta ese modelo con la semilla original y pone a prueba de cuánto depende la cifra de un parámetro que el modelo fija y no mide.
 estado: publicado

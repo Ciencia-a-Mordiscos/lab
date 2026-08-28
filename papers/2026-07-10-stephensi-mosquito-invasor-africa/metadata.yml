@@ -16,4 +16,7 @@ datasets:
   - nombre: "muestras_stephensi.csv"
     descripcion: "Tabla de 551 mosquitos secuenciados con geografía, super-población y fecha"
     fuente: "Repositorio AsGARD (Zenodo)"
+titulo_corto: "Un mosquito cruzó un océano de ciudades"
+card_descripcion: |
+  *Anopheles stephensi* es un mosquito de malaria asiático que cría en el agua almacenada de las ciudades — por eso preocupa en África. Un equipo secuenció **645 genomas completos** por África, Medio Oriente y Asia; nosotros abrimos su tabla de muestreo (**551 mosquitos** con país, coordenadas y fecha) y dibujamos la geografía. **El hallazgo:** los mosquitos se reparten en tres bloques —fuente sudasiática (**58**), Península e Irán (**117**) y frente africano (**376**)— con un gradiente de longitud de **72,5 → 55,6 → 37,3 °E**, la huella espacial de la expansión. El **88%** del muestreo (487 de 551) es de 2022-2023: la foto de cuándo empezó la respuesta al brote, no la fecha de la invasión. ⚠️ La **ruta** (sur de Asia → cabeza de puente en Yibuti → frentes) es **reconstrucción genómica** del paper, no algo que se derive de nuestras coordenadas. ⚠️ Los genotipos crudos están embargados: el notebook reproduce la geografía del muestreo, **no** las frecuencias de resistencia ni la genética de poblaciones. ⚠️ El conteo por región refleja el esfuerzo de vigilancia, no la densidad real del mosquito.
 estado: publicado

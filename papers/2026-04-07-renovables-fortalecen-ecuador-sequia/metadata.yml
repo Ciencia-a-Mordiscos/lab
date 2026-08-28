@@ -25,4 +25,8 @@ datasets:
   - nombre: "caudal_total_mensual.csv"
     descripcion: "Caudal total mensual de 6 plantas principales"
     fuente: "Zenodo (REVUB model input)"
+titulo_corto: "Renovables fortalecen a Ecuador contra la sequía"
+titulo_card: "⚡ Renovables Fortalecen a Ecuador Contra la Sequía"
+card_descripcion: |
+  Sterl et al. (2026), 14 años de datos hidrológicos y factores de capacidad renovable — el río Paute cayó 42,4% en 2024 pero solar y eólica habrían seguido generando, revelando una "sinergia de año extremo"
 estado: publicado

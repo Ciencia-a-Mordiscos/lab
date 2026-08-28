@@ -25,4 +25,7 @@ datasets:
   - nombre: "attribute_data.csv"
     descripcion: "65 atributos estáticos por cuenca (clima, topografía, hidrología) para 796 cuencas"
     fuente: "Repositorio YuZhouWater (GitHub)"
+titulo_corto: "Cuando el río y el aire se recalientan el mismo día"
+card_descripcion: |
+  En **796 cuencas** de EE. UU. y Europa Central, que una ola de calor del aire y una del río coincidan el mismo día pasó de rareza a algo casi tres veces más frecuente en cuatro décadas. **El hallazgo:** los eventos compuestos suben **~0,40 por década** (1981-2019), y las olas fluviales se intensificaron **+114% / +148% / +95%** (frecuencia/duración/intensidad) frente a apenas **+27% / +33% / +22%** de las atmosféricas. ⚠️ El "triplicado" del título se lee por línea de tendencia (~2,8x); por medias de década es **~2x**. ⚠️ Estudio **observacional**: mide tendencias y coincidencias, no causas. Las cifras de atribución (clima 59%), el +128% de montaña y la proyección del 98,5% a 2100 son **reportadas por el paper**, no recalculadas.
 estado: publicado

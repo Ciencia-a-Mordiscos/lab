@@ -25,4 +25,8 @@ datasets:
   - nombre: "pacientes_demograficos.csv"
     descripcion: "Metadatos de 63 muestras TNBC"
     fuente: "Supplementary Table 3"
+titulo_corto: "Cáncer despierta armas contra cerebro"
+titulo_card: "🧫 Cáncer despierta armas contra tu cerebro"
+card_descripcion: |
+  Tumores TNBC expresan receptores NMDA del cerebro, anticuerpos anti-tumor causan encefalitis autoinmune — trade-off inmunidad vs neurotoxicidad
 estado: publicado

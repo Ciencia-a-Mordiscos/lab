@@ -22,4 +22,7 @@ datasets:
   - nombre: "aa_composition_global.csv"
     descripcion: "Composición global de los 20 aminoácidos sobre las 50 proteínas"
     fuente: "Derivado del FASTA"
+titulo_corto: "382 isoleucinas que sobraban"
+card_descripcion: |
+  El Wang Lab (Columbia, 2026) decidió probar si una *E. coli* podía vivir con **19 aminoácidos en vez de los 20 canónicos** — quitándole la isoleucina (Ile). Para empezar, rediseñaron el ribosoma: usando modelos generativos de IA (basados en lenguaje de proteínas y estructura) reemplazaron sistemáticamente los **382 residuos de Ile** distribuidos en sus **50 proteínas**, combinaron 21 subunidades rediseñadas en un locus genómico nativo y produjeron una célula **viable y evolutivamente estable**. Lo que abrimos aquí: el FASTA público con las 50 secuencias wild-type. Recuento desde los datos coincide **exactamente** con el headline del paper (382 Ile). La distribución es asimétrica: mediana **7 Ile/proteína**, pero **rpsA** sola tiene 30 (la más larga, 557 aa). Las **10 proteínas con más Ile concentran el 37 %** del rediseño. Ile es el **8º aminoácido más usado** en el ribosoma (5,61 %) — ni el más común ni el más raro. ⚠️ Matiz crítico: el paper rediseña SOLO el ribosoma — un organismo completo de 19 aminoácidos queda como *roadmap*. ⚠️ El FASTA público trae solo las secuencias wild-type; las variantes rediseñadas se validan dentro del paper.
 estado: publicado

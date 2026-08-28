@@ -34,4 +34,8 @@ datasets:
   - nombre: "germinacion_soja.csv"
     descripcion: "Germinación por método de riego"
     fuente: "Figshare"
+titulo_corto: "Agricultura circular con agua de mar y sol"
+titulo_card: "🌊 Agricultura Circular con Agua de Mar y Sol"
+card_descripcion: |
+  Sun et al. (2026), ensayo de campo de 3 meses en Hainan — desalinización solar + agricultura circular: las sojas crecen +134% vs evaporación natural, +49% más semilla que con ósmosis inversa industrial, el sistema elimina 99,99% del sodio y alimenta a 47 personas por 0,6 ha
 estado: publicado

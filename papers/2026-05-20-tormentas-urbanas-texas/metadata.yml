@@ -25,4 +25,7 @@ datasets:
   - nombre: "storm_pixelnum_monthly.csv"
     descripcion: "Conteo mensual de pixeles >=40 dBZ por ciudad x tipo"
     fuente: "Zenodo doi:10.5281/zenodo.19339621"
+titulo_corto: "Tormentas urbanas en Texas: la ciudad las parte en dos"
+card_descripcion: |
+  Liu et al. (2026) clasificaron **más de 40.000 tormentas** de temporada cálida en cuatro ciudades de Texas — Dallas, Austin, San Antonio y Houston — con datos de radar 3D entre 1995 y 2017. Bajamos los pickles de Zenodo, los aplanamos a 4 CSVs y los desmenuzamos. **Acto 1:** las tormentas locales (célula única + aisladas) crecen +7-31% sobre tres ciudades — Houston suma casi un tercio más; Dallas es la excepción (-5,2% en célula única). **Acto 2:** el pico es nocturno — **99,9%** de las tormentas locales sobre Houston caen entre 0-4 UTC (atardecer-noche local en Texas). **Acto 3:** los frentes fríos hacen lo contrario — pierden intensidad a baja altitud (1-5 km) al cruzar la ciudad: Dallas -17,8%, Austin -14,8%, San Antonio -14,2%, Houston -11,5%. El paper titula -16 a -28% con una métrica de intensidad más fina que no es reproducible solo con los datos públicos; el patrón cualitativo es idéntico. ⚠️ Solo Texas, solo temporada cálida (May-Sep). ⚠️ Es estudio observacional — los mecanismos (efectos térmicos, rugosidad urbana) son hipótesis del paper, no probados. ⚠️ Dallas no encaja en el rango +7-31% del headline — el rango refleja máximos por ciudad.
 estado: publicado

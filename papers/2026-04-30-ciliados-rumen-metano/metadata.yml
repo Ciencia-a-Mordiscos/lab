@@ -25,4 +25,7 @@ datasets:
   - nombre: "hb_split_ordenes.csv"
     descripcion: "Partición Vestibuliferida vs Entodiniomorphida con etiqueta de presencia de HB"
     fuente: "Reconstruido del texto del paper (Fig. 4 + Tables S1-S9)"
+titulo_corto: "450 vecinos invisibles dentro de una vaca"
+card_descripcion: |
+  Xie et al. (2026) catalogaron **450 genomas de ciliados del rumen** (87% nuevos para la ciencia), midieron emisiones de metano en **100 vacas** e integraron **1.877 datasets** metagenómicos/metatranscriptómicos públicos. Bajamos los catálogos abiertos del portal NGDC y desmenuzamos lo que cubre la data accesible. **Acto 1:** los tres dominios del rumen, ahora con sus protistas adentro — bacterias **12.540**, arqueas **158** (todas metanógenas), ciliados **450** (87% inéditos). **Acto 2:** Entodiniomorphida es **1,6× más diverso** que Vestibuliferida (277 vs 173 genomas), pero el paper enmarca a Vestibuliferida — cargado de **hidrogenobodies (HBs)** — como el orden que más promueve metanogénesis. Más diverso no es lo mismo que más impacto funcional. **Acto 3:** las células únicas (SAG) rinden mejores genomas que los reconstruidos de comunidad (MAG) — diferencia BUSCO de **17,6 pp**, Cohen's d = **1,65** (efecto grande), Mann-Whitney p ≈ 8,6×10⁻³⁰. ⚠️ Solo trabajamos con metadatos del catálogo — los genomas completos (>6,9 GB) y las Tables S1-S9 con las correlaciones ciliado-metano por vaca están detrás de paywall. ⚠️ El paper habla de **correlación** y **promoción mecanística** vía HBs, no de causalidad directa.
 estado: publicado

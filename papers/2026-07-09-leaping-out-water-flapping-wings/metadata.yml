@@ -25,4 +25,7 @@ datasets:
   - nombre: "cost_of_transport_animals.csv"
     descripcion: "Costo de transporte (J/Nm) de animales y robot, aire y agua"
     fuente: "Zenodo 10.5281/zenodo.19378356"
+titulo_corto: "Un ave que vuela y bucea con las mismas alas"
+card_descripcion: |
+  Hay aves —frailecillos, araos, pingüinos— que bucean con las alas (*wing-propelled*), no con las patas, y usan **las mismas alas** en dos fluidos que difieren ~800 veces en densidad. Abrimos los datos de campo de **13 especies** y los del **robot de alas batientes** que el equipo construyó para probar el principio. **El hallazgo:** todas frenan bajo el agua — el batido cae de **8,41 Hz** en aire a **2,84 Hz** en agua, una **mediana de 3 veces más lento** (Wilcoxon pareado P=0,0002, d de Cohen=3,2); ninguna de las 13 especies acelera. El robot reproduce el truco: alas más grandes suman sustentación en el aire (**1,48 → 2,49 N**) sin perder casi empuje al nadar. ⚠️ La comparación entre aves es **observacional**: el porqué del cambio de marcha se infiere, no se manipula. ⚠️ Los experimentos de envergadura vienen de **un robot**, no de aves. ⚠️ El robot gasta **~10x más energía** nadando que un ave real (costo de transporte 5,1 vs 0,46 J/Nm): demuestra el principio, no iguala la biología.
 estado: publicado

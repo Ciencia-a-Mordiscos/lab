@@ -25,4 +25,7 @@ datasets:
   - nombre: "distribucion_perdida_bloque.csv"
     descripcion: "% de cada bloque de 5×5 km que perdió árboles"
     fuente: "Zenodo (hoja Mapped_driver_proportions)"
+titulo_corto: "El mundo perdió 277.000 km² de árboles en un solo año"
+card_descripcion: |
+  En 2018 el planeta perdió 277.000 km² de cobertura arbórea —más que todo el Reino Unido—, pero el equipo miró 600 cuadros de 5×5 km con satélite de alta resolución (3–10 m) para separar lo que se pierde para siempre de lo que rota. Bajamos las proporciones por causa, por región y por bloque. **El hallazgo:** solo el **38,9%** fue conversión permanente; el resto rota o se recupera (silvicultura, agricultura migratoria, disturbios). Y cuando un bosque *natural* sí desaparece, el **pasto para ganado es la causa #1 (15,0%)**, más que cultivos (6,4%) y plantaciones (3,8%) juntos. América Latina encabeza con el **26,6%** del total. ⚠️ Es una estimación de 600 bloques, no un censo. ⚠️ Diseño observacional: proporciones y causas próximas, no causalidad activa. ⚠️ Un solo año (2018), no una tendencia.
 estado: publicado

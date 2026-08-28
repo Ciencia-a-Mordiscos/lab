@@ -22,4 +22,7 @@ datasets:
   - nombre: "gpt_vs_expertos_megastudias.csv"
     descripcion: "r de GPT vs expertos en 15 megastudios de campo"
     fuente: "Nature Supplementary (MOESM5)"
+titulo_corto: "¿Puede una IA adivinar cómo reaccionará la gente?"
+card_descripcion: |
+  Un equipo le pidió a GPT-4 que predijera el resultado de **70 experimentos sociales reales** —sin correr ninguno, solo leyendo el diseño— y comparó lo predicho con lo que de verdad pasó con **119.330 participantes** (**469 efectos**, 3.356 contrastes). **El hallazgo:** las predicciones se correlacionan fuerte con los efectos reales (**r = 0,80** en nuestro cálculo pooled; **0,85 crudo / 0,92 ajustado** a nivel de estudio en el paper), **a la altura de los pronósticos humanos** (r ajustado 0,89–0,93). Y algo revelador: los estudios que la IA **no pudo leer** —posteriores a su corte de entrenamiento— se predijeron incluso mejor (**r = 0,87**) que los ya publicados (**r = 0,69**), evidencia contra la mera memorización. Pero hay una trampa honesta: la IA **sobreestima** el tamaño de los efectos un **39%** en promedio (pendiente de regresión 0,55). ⚠️ En megastudios de campo el acierto baja a **r ≈ 0,34**, comparable al de expertos humanos (**0,26**). ⚠️ Solo experimentos de encuesta de EE. UU.; la correlación de rangos (Spearman 0,68) es más conservadora. ⚠️ Correlación ≠ exactitud: ordena bien pero no estima el tamaño exacto de un efecto.
 estado: publicado

@@ -22,4 +22,7 @@ datasets:
   - nombre: "dispersion_fonones.csv"
     descripcion: "9.696 modos de vibración del silicio con peso proxy del desorden entre columnas"
     fuente: "Zenodo 10.5281/zenodo.18189080 (si110_band.yaml)"
+titulo_corto: "Doble rendija atómica en silicio"
+card_descripcion: |
+  Un haz de electrones enfocado cubre a la vez dos columnas vecinas de átomos de silicio, separadas 1,36 Å, y sale con franjas de interferencia. A 900 K cada átomo se mueve un 62,5% más que a 300 K y las franjas siguen ahí: las dos columnas no tiemblan por separado.
 estado: publicado

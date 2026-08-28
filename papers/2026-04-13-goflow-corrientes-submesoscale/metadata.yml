@@ -25,4 +25,7 @@ datasets:
   - nombre: "snapshot_representativo.csv"
     descripcion: "Snapshot t=40 downsampled a 128×128 con vorticidad, divergencia y gradiente SST."
     fuente: "Zenodo 15815704"
+titulo_corto: "Un satélite ve temperatura. ¿Puede ver las corrientes del océano?"
+card_descripcion: |
+  Lenain et al. (2026) introducen **GOFLOW**, una red neuronal U-Net que recibe tres imágenes térmicas consecutivas de satélite geostacionario (GOES-East, 1 hora de separación) y devuelve el campo de velocidad superficial del océano. Validada contra la simulación de referencia LLC4320 en **41 snapshots del Gulf Stream**, alcanza correlación **r ≈ 0,97** para velocidades (u, v) y preserva la asimetría positiva de la vorticidad — el hallmark del régimen submesoscale. La divergencia, en cambio, es la variable más difícil: los autores lo admiten ("somewhat less accurately reproduced") y aquí se ve explícito en los datos.
 estado: publicado

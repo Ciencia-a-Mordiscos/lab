@@ -30,4 +30,7 @@ datasets:
   - nombre: "literatura_estabilidad.csv"
     descripcion: "51 estudios previos: temperatura, tiempo, retención y DOI (Supplementary)"
     fuente: "Supplementary Materials"
+titulo_corto: "Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta"
+card_descripcion: |
+  Lin et al. (2026) entrenaron una IA colaborativa de **cuatro agentes** que diseñó, pieza por pieza, las tres capas críticas de una celda solar de perovskita: el absorbente (FA₀.₉₂Cs₀.₀₈PbI₃, con apenas **8% de cesio**), la capa que transporta huecos (una molécula sintetizada ad hoc, MeO-DPPACz) y la interfaz dual de óxidos metálicos. El resultado: la celda retiene **97% del rendimiento inicial tras 1000 horas a 100°C** — un régimen donde, de **51 estudios previos** (44 DOIs únicos) que revisamos, **solo 1 había llegado** y aguantó 60%. Diferencia: 37 puntos porcentuales. Los datos confirman el porqué a nivel atómico: Cs₈ tiene **~74% menos defectos** (trampas) que la composición sin cesio, con Cohen's d ≈ 12,8 entre n=3 réplicas. La predicción del agente AI sobre la composición óptima cayó dentro de su propia banda de confianza 80%. ⚠️ El test se cortó a 1000 h; comportamiento de largo plazo desconocido. ⚠️ La curva clave son trazas single-device por composición — sin error bars inter-dispositivo en esa figura. ⚠️ La molécula HTM custom fue sintetizada ad hoc; escalabilidad no reportada.
 estado: publicado

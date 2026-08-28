@@ -19,4 +19,7 @@ datasets:
   - nombre: "saturacion_estudios.csv"
     descripcion: "9 estudios de saturación 1981-2005, límite en mV/m"
     fuente: "Extended Data Table 2"
+titulo_corto: "El techo que no existe: regresión a la media en tormentas solares"
+card_descripcion: |
+  Durante casi 40 años, la respuesta magnética de la Tierra al viento solar parecía chocar contra un techo cuando el empuje era extremo — la llamada **saturación**, con una decena de teorías físicas para explicarla. Este re-análisis muestra que el techo nunca existió: es **regresión a la media**, el sesgo que aparece al medir valores extremos con instrumentos imprecisos. Reproducimos su Monte Carlo (semilla 42) y reunimos **9 estudios** de 1981 a 2005. **El hallazgo:** una respuesta perfectamente **lineal** más error de medición basta para doblar la curva; en el **decil más extremo** cae **~30%** por debajo de la recta real (hasta **~41%** en la punta). Corregido el sesgo, el impacto de las tormentas extremas **podría acercarse al doble**. ⚠️ La parte cuantitativa vive en la **simulación**, no en observaciones crudas: muestra que el artefacto *puede* explicar la saturación, no que sea la única causa. ⚠️ La tendencia de los 9 estudios es **sugestiva, no significativa** (ρ=0,64, p≈0,06, n=9). ⚠️ El **2x** es la corrección máxima estimada por el paper ('can be twice'), no un hecho cerrado.
 estado: publicado

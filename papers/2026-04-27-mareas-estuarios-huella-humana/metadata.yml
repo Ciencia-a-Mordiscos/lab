@@ -22,4 +22,7 @@ datasets:
   - nombre: "intervenciones_resumen.csv"
     descripcion: "Agregado por tipo de intervención: número de eventos y estuarios afectados"
     fuente: "Derivado en el notebook"
+titulo_corto: "La huella humana en las mareas: 25 ríos cambiados"
+card_descripcion: |
+  Beemster et al. (2026) cruzan registros históricos (s. XIX–XX) y modernos (1990–2024) de **25 estuarios** en 9 países. **16 de 25 amplificaron** su rango máximo de marea (mediana **+8,6%**, rango de **+38,5%** en Coos Bay a **−17,2%** en James). La onda de marea entra y se transforma: la velocidad sube **~35%** (paper: 38%) en 21 de 24 estuarios. Pero el dato que reordena la intuición está en la geografía del cambio: **0 de 25 estuarios** tienen su máximo cambio en la boca. La mediana del punto de máximo cambio está a **94 km tierra adentro** (IQR 55–147 km), y la mediana del cambio interior es **57 cm** vs **6 cm** en la boca — casi un orden de magnitud. ¿Quién pone esa marca? Una huella humana cuantificada: **233 intervenciones** documentadas, lideradas por profundización de canales (113 eventos en **22 de 25 estuarios** — 88%) y recuperación de tierra (25 eventos en 14 de 25). ⚠️ Diseño observacional longitudinal: la concordancia espacio-temporal entre intervenciones y cambios respalda la lectura causal del paper, pero no la prueba como un experimento.
 estado: publicado

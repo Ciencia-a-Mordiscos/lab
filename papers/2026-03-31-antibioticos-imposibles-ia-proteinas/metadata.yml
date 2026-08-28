@@ -25,4 +25,8 @@ datasets:
   - nombre: "similitud_distribucion.csv"
     descripcion: "7.646 AMPs candidatos con score de similitud"
     fuente: "Source Data fig4b"
+titulo_corto: "74 antibióticos imposibles de encontrar"
+titulo_card: "🧬 Descubrieron 74 Antibióticos Imposibles de Encontrar"
+card_descripcion: |
+  HMD-AMP detecta 100% de AMPs remotos (vs 0% otros métodos), 91 validados experimentalmente, 74 activos, 4 de amplio espectro, MIC 1-4 µg/mL
 estado: publicado

@@ -16,4 +16,7 @@ datasets:
   - nombre: "rna_chaperones_tabla_s1.csv"
     descripcion: "17 RNAs evaluados como chaperonas de TDP-43: secuencia, IC50, KD, %UG, repeticiones UG, ΔG, tipo"
     fuente: "Supplementary Materials del paper (Tabla S1)"
+titulo_corto: "RNAs que detienen TDP-43"
+card_descripcion: |
+  TDP-43 es una proteína que se atasca dentro de las neuronas motoras hasta matarlas — eso pasa en el 97% de los casos de ELA. Este paper prueba 17 RNAs cortos como chaperonas que la mantienen soluble. **Acto 1:** la potencia (IC50) varía 9× entre el mejor (UG)17 = 0,20 µM y el peor AUG12 = 1,79 µM. **Acto 2:** el número de repeticiones UG predice la potencia (Spearman ρ = -0,66, *p* = 0,007, *n* = 15) — pero ni el % UG ni la estabilidad estructural lo hacen. **Acto 3:** RNAs modificados con más UGs son ~18% más potentes que sus contrapartes naturales (Cohen's d = -1,01, n=8 vs 4). ⚠️ Solo replicamos la capa in vitro (Tabla S1); los experimentos en ratones y neuronas humanas del paper viven en otras figuras. ⚠️ (UG)17 es un control sintético puro, no un candidato terapéutico.
 estado: publicado

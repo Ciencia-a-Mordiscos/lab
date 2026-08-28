@@ -25,4 +25,8 @@ datasets:
   - nombre: "dielectricos_low_k.csv"
     descripcion: "Dieléctricos low-k y su conductividad térmica"
     fuente: "Supplementary Materials, Table S8"
+titulo_corto: "Un cable que mejora al encogerse: nanohilos de NbAs"
+titulo_card: "Un cable que mejora al encogerse: nanohilos de NbAs"
+card_descripcion: |
+  Los cables de cobre de un chip empeoran al adelgazarlos: los electrones rebotan contra las paredes y la resistencia sube. Un equipo probó lo contrario con nanohilos de arseniuro de niobio (**NbAs**), un semimetal de Weyl. **El hallazgo:** un nanohilo de **40 nm** baja su resistividad a **10,5 ± 1,9 µΩ·cm**, ~**70 % menos** que el material en bloque — encoger el cable lo mejoró. Y bota el calor como un metal: **109,68 W/m·K**, en la liga del rutenio (117) y el cobalto (100). Los cuatro nanohilos son NbAs estequiométrico (Nb:As ≈ **1,012** por EDX). ⚠️ La curva resistividad-vs-diámetro (el hallazgo central) se **cita del abstract**: su figura vive tras muro de pago. ⚠️ El mecanismo de "conducción por superficie" lo **atribuyen cálculos DFT**, no se midió. ⚠️ El cobre todavía gana en corriente de ruptura (100–145 vs mediana 42 MA/cm²) y en conductividad térmica absoluta.
 estado: publicado

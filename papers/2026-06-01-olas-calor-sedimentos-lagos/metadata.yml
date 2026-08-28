@@ -22,4 +22,7 @@ datasets:
   - nombre: "ensemble_bandas.csv"
     descripcion: "Métricas desagregadas por banda latitudinal (Tropical / Temperada / Subpolar / Polar)"
     fuente: "Zenodo 18507326 (NetCDF originales)"
+titulo_corto: "Olas de calor en el sedimento de los lagos"
+card_descripcion: |
+  Pilla et al. (2026) simularon temperatura diaria en 41.499 lagos del planeta forzados por un ensemble de modelos climáticos globales (ISIMIP3b) bajo tres escenarios SSP, en dos ventanas de 30 años (1981-2010 y 2071-2100). Aquí reproducimos 3 de los 5 GCMs originales y desmenuzamos los promedios globales y latitudinales del Zenodo. **Acto 1:** en clima histórico, el sedimento **pelágico** (PHW, fondo profundo) ya dura ×1,6 más por evento que la superficie (13,4 vs 8,4 días). El sedimento **litoral** (LHW, somero) se comporta como la superficie (8,5 días) — el matiz pelágico vs litoral importa. **Acto 2:** bajo SSP5-8.5, el modelo proyecta que la duración del PHW se multiplica por ~8,8 (118,5 días por evento) y el retardo térmico entre superficie y fondo colapsa de ~22 días a ~1 día (-95%) — el lago profundo pierde su buffer. **Acto 3:** geografía nítida — cada evento PHW en lagos tropicales duraría ~168 días vs ~54 días en lagos polares bajo SSP5-8.5. Combinando duración y frecuencia, los lagos tropicales pasarían ~242 días/año en condiciones de heatwave. ⚠️ Reproducimos 3 de 5 GCMs — spread inter-modelo subestimado. ⚠️ Trabajamos sobre agregados globales y por banda, no lago a lago. ⚠️ Proyecciones de modelo de simulación, no observaciones futuras.
 estado: publicado

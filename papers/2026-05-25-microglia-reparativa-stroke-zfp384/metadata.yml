@@ -22,4 +22,7 @@ datasets:
   - nombre: "microglia_cell_interactions.csv"
     descripcion: "12 tipos celulares con interacciones moleculares significativas (NicheNet/CellChat)"
     fuente: "Supplementary Source Data Fig 6"
+titulo_corto: "Frenar UN gen mantiene la microglia reparadora 8 semanas tras un derrame"
+card_descripcion: |
+  Du et al. (2026) identifican `Zfp384` como el interruptor que convierte a la microglia de reparadora a dañina después de un derrame en ratones. Silenciarlo con un fármaco antisentido (ASO) 3 días post-derrame **mantiene la microglia en modo reparador hasta D56** — dos meses después de una sola intervención. Bajamos los Source Data de Fig 6 y verificamos por nuestra cuenta. **Acto 1:** en el Corner test al día 14, el grupo Zfp384-silenciado baja la asimetría motora de **0.38 a 0.17** (Cohen *d* = **2.16**, Mann-Whitney *p* = **0.0006**, *n* = 11 vs 10). **Acto 2:** el efecto se sostiene hasta D56 (*d* = 1.24, *p* = 0.0154) y replica en una prueba motora independiente (Cylinder), donde aparece desde D21 (*d* = 1.65) y dura hasta D56. **Acto 3:** la microglia rescatada habla con **12 tipos celulares** — OPCs el principal socio (388 interacciones moleculares), seguido de neuronas excitatorias y pericitos. ⚠️ Estudio en ratones — la confirmación humana del paper es observacional, no terapéutica. ⚠️ *n* pequeños (10-11) y la ventana terapéutica humana sigue por confirmarse.
 estado: publicado

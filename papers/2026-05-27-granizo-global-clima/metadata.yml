@@ -25,4 +25,7 @@ datasets:
   - nombre: "proyecciones_paper_late21c.csv"
     descripcion: "Rangos cuantitativos del paper para finales del s. XXI (daño, frecuencia de granizos grandes y pequeños)"
     fuente: "Abstract del paper (datos brutos futuros no descargables, >5 GB)"
+titulo_corto: "Granizos más grandes en un clima más cálido"
+card_descripcion: |
+  Wang et al. (2026) corrieron un modelo semi-3D de trayectorias de granizo forzado por **5 corridas del ensemble EC-Earth3** y validado contra observaciones reales en EEUU (**9.462 reportes**, 2010-2020) y China (**8.818 reportes**, 1986-1999). Bajamos 4 CSVs de Figshare y los desmenuzamos. **Acto 1:** el modelo proyecta para finales del s. XXI un incremento de **36,5–42,1%** en el daño global por granizo, **37,9–51,8%** más granizos ≥30 mm y **4,2–12,3%** menos pequeños (rangos según escenario SSP245/370/585). **Acto 2:** la validación US se sostiene — ratio simulado/observado **= 1,20** en la media del histograma agregado. **Acto 3:** el caso China muestra que el "error" 2,5x del modelo no es del modelo: entre los 70s y 90s, los reportes se cuadruplican (~170 → ~630/año) mientras el diámetro medio cae **40%** (17,1 → 10,2 mm) — densificación de la red de observación, no señal climática. ⚠️ Las cifras del futuro son proyecciones de modelo, no observaciones. ⚠️ Los NetCDFs del futuro pesan >5 GB y no son descargables; los rangos vienen del abstract. ⚠️ El muestreo global está sesgado a baja latitud por diseño (diversidad de entornos convectivos).
 estado: publicado

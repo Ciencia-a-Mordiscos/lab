@@ -19,4 +19,8 @@ datasets:
   - nombre: "wearables_por_grupo.csv"
     descripcion: "Resumen wearable por grupo de resistencia a la insulina"
     fuente: "Agregado de participantes.csv"
+titulo_corto: "Tu reloj ya predice diabetes tipo 2"
+titulo_card: "⌚ Tu reloj ya predice diabetes tipo 2"
+card_descripcion: |
+  1.165 participantes WEAR-ME, wearables + biomarcadores sanguíneos, HOMA-IR, redes neuronales profundas, AUROC 0,80
 estado: publicado

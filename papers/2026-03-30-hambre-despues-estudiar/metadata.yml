@@ -29,4 +29,8 @@ datasets:
     descripcion: "Preferencia por sucrosa con knockdown de Gr43a"
     fuente: "Supplementary Materials — Source Data Fig. 4d"
 
+titulo_corto: "Hambre después de estudiar"
+titulo_card: "🧠 Hambre después de estudiar"
+card_descripcion: |
+  Memoria en *Drosophila* por tipo de entrenamiento, silenciamiento Gr43a, preferencia por sucrosa post-aprendizaje
 estado: publicado

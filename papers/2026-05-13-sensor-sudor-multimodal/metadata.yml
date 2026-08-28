@@ -28,4 +28,7 @@ datasets:
   - nombre: "validacion_humana.csv"
     descripcion: "Cortisol/urea/lactato/glucosa en 3 participantes"
     fuente: "Supplementary Data MOESM15 (Fig. 7)"
+titulo_corto: "Sensor de sudor multimodal: 4 biomarcadores en 21 días"
+card_descripcion: |
+  Rajendran et al. (2026) construyen un sensor electroquímico inalámbrico, sin batería, que mide **cortisol, urea, lactato y glucosa** al mismo tiempo en sudor — y se autolimpia con un pulso de voltaje. Los 4 sensores mantienen entre **96,27% y 98,46%** de respuesta al día **21** (pérdida máxima 3,73 puntos). La regeneración recupera **100% en etapa 1** y **≥98,94% en etapa 2** (n=3 batches). El método **ECA** limpia el electrodo en **35 segundos**, el más rápido de los 4 probados (CV, DPV, ECA, LSV). En 3 participantes, el cortisol sube **+35,2% medio** con el estrés (3/3 consistente, Cohen's d pareado = 10,46). ⚠️ Validación humana con **n=3** — el patrón es consistente pero Wilcoxon p = 0,25 no alcanza significancia. ⚠️ El abstract dice *suggesting* para aplicaciones clínicas — prueba de concepto, no validación clínica. ⚠️ Sin comparación contra método gold-standard (ELISA/HPLC) en los CSVs del Source Data.
 estado: publicado

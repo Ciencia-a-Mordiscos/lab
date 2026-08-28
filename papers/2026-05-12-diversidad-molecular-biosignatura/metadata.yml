@@ -22,4 +22,7 @@ datasets:
   - nombre: "FA_abundances.csv"
     descripcion: "Abundancias de 39 ácidos grasos en 34 muestras"
     fuente: "Zenodo 10.5281/zenodo.16566388 (CC-BY-4.0)"
+titulo_corto: "Diversidad molecular como biosignatura"
+card_descripcion: |
+  Yoffe et al. (2026) proponen una bisagra para distinguir vida de química abiótica: no por **cuántos** tipos de moléculas hay, sino por **cómo se reparten**. Sobre **69 muestras de aminoácidos** (30 abióticas + 28 bióticas + 11 mixtas) la entropía de Shannon separa los grupos con un **Cohen's d = 2,06** (Mann-Whitney U one-sided, **p = 3,8 × 10⁻⁸**). La paradoja: las muestras abióticas tienen **más tipos** distintos en promedio (16,3 vs 14,1), pero los meteoritos como **Bennu** están dominados por **glicina al 64,2%** del total, mientras *E. coli* reparte sus 18 aminoácidos parejo (H = 2,78). ⚠️ Estudio observacional — los datos muestran asociación, no causalidad mecanística. ⚠️ Las 28 muestras bióticas son mayoritariamente microbios y fósiles de la Tierra; vida bioquímicamente exótica con 2-3 aminoácidos dominantes sería marcada como abiótica. ⚠️ Para ácidos grasos, con entropía de Shannon cruda el patrón **no replica** (p=0,76) — el paper usa un marco probabilístico con propagación de incertidumbres que excede el alcance del notebook.
 estado: publicado

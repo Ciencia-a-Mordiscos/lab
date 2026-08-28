@@ -25,4 +25,7 @@ datasets:
   - nombre: "mutations_per_colony.csv"
     descripcion: "Mutaciones por colonia"
     fuente: "Supplementary Materials PDF (Table S4 detalle)"
+titulo_corto: "Bacterias atrapadas seis meses: el hidrogel que no las deja escapar"
+card_descripcion: |
+  Harimoto et al. (2026, lab de David Mooney en Harvard) **logran** lo que la literatura previa había rondado pero no alcanzaba: **6 meses de contención completa** de bacterias modificadas dentro de un implante. Transcribimos las Tablas S1-S4 del Supplementary PDF (paper paywalled, SM accesible) y verificamos número por número. **Acto 1:** 4.320 horas de contención frente a una **mediana previa de 36 h** (24 estudios) y un **mejor previo de 504 h** — saltos de **120×** y **8,6×** respectivamente, mostrados en una escala logarítmica donde el nuevo punto vive en otro plano. **Acto 2:** la región rigidez+tenacidad que ocupan las 31 formulaciones de PVA está **vacía** en la literatura — work of fracture hasta **2,4·10⁷ J/m³** contra los **2.400 J/m³** del mejor no-PVA (cuatro órdenes de magnitud). **Acto 3:** la honestidad — **51 mutaciones en 31 colonias** recuperadas, de las cuales un **7,8%** son deleciones de gen completo. El hidrogel aguanta seis meses; el medicamento, en algunas colonias, ya no se produce al final del experimento. ⚠️ Modelo murino — falta validación clínica. ⚠️ N=1 de PVA frente a N=24 previos: marca técnica, no estadística inferencial. ⚠️ Sin datasets externos: la reproducibilidad depende de las tablas transcritas a mano.
 estado: publicado

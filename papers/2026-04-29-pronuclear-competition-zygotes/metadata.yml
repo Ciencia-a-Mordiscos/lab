@@ -22,4 +22,7 @@ datasets:
   - nombre: "fig5b_development_rates.csv"
     descripcion: "Tasas de desarrollo por lote para 2PN, 1PN, P1PN"
     fuente: "Source Data Fig. 5 (MOESM14)"
+titulo_corto: "Dos pronúcleos compiten por el citoplasma en el zigoto"
+card_descripcion: |
+  Mihajlović et al. (2026) micromanipularon zigotos de ratón para forzar la formación de **un solo pronúcleo biparental (1PN)** en lugar de los dos normales (2PN), y midieron tres cosas: volúmenes pronucleares (n=47 y 29), marcas químicas de histonas (n=47 vs 30) y tasas de desarrollo embrionario en 5 lotes experimentales. Sin la separación en dos compartimentos, el pronúcleo único termina ocupando el volumen que sumarían los dos del 2PN (**razón 1,08x**) y **H3K27me3 cae 39,6%** (Cohen's *d* = 1,66, p = 2×10⁻⁹ Mann-Whitney) — la marca que mantiene silenciados los genes que el embrión no debe encender todavía. El resultado clínico: solo **26,6%** de los zigotos 1PN llega a término, comparado con **54,7%** de los 2PN (χ² = 17,6, p = 3×10⁻⁵) — casi la mitad. El rescate experimental P1PN recupera al **41,2%**, sugiriendo reversibilidad parcial. ⚠️ Experimentos en ratón — traducción cuantitativa a humano requiere validación. ⚠️ El paper usa "*suggesting*" y "*provides evidence of*" para el mecanismo de competencia citoplasmática (T2) — los datos son consistentes pero la molécula limitante concreta no se identifica. ⚠️ Heterogeneidad alta entre lotes 1PN full-term (rango 0% a 67%).
 estado: publicado

@@ -22,4 +22,7 @@ datasets:
   - nombre: "rendimiento_solar.csv"
     descripcion: "Rendimiento diario vs intensidad solar por día de trial"
     fuente: "Source Data (mismo DOI)"
+titulo_corto: "Agua del aire, con sol: 1,3 litros en un día"
+card_descripcion: |
+  Un equipo armó una **maleta solar portátil** que saca agua potable **del aire** con telas-gel que atrapan vapor de noche y lo sueltan de día bajo sol concentrado. La probaron en dos climas opuestos. **El hallazgo:** cosechó **1,3 L en Austin** (dual módulo, ~62% humedad) y rindió en pleno **desierto de Chihuahua** (~26% humedad) — la humedad cae a **menos de la mitad** pero la tasa por área baja solo **~9%** (4,7→4,3 L/m²/día). Hasta nublado (~0,4 sol) saca **310 mL por módulo, el 54% de un día típico**. El motor: la capa exterior llega a **100 °C** mientras el condensador se mantiene frío. ⚠️ Son **dos jornadas de campo**, no un despliegue largo. ⚠️ La relación sol-rendimiento es **moderada** (Spearman r≈0,64, n=10). ⚠️ La 'palanca de equidad para el ODS 6' es **aspiración de los autores**; el geoespacial es asociación, no impacto medido.
 estado: publicado

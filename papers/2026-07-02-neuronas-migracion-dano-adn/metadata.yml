@@ -25,4 +25,7 @@ datasets:
   - nombre: "andar_lig4.csv"
     descripcion: "Ancho de la base trasera al caminar, Control vs Lig4-KO"
     fuente: "Source Data Fig. 5"
+titulo_corto: "Una neurona se rompe el ADN para migrar"
+card_descripcion: |
+  Para migrar a su capa final en el cerebelo, las neuronas recién nacidas se apretujan por pasadizos más estrechos que su propio núcleo — y el apretón les parte las dos cadenas del ADN. **El hallazgo:** durante la migración, **el 41% de las neuronas** tienen el ADN roto (día 4); en el cerebro adulto el daño baja a **0,2%** (día 30). El culpable es mecánico: en corredores de **3 µm** el daño llega al 42%, contra 8% en los de 5 µm (unas 5 veces más). Y la neurona no muere — repara cada corte en una o dos horas (mediana **82 min**). Cuando apagan la Ligasa IV que sella los cortes, el ratón camina de adulto con las patas **+17% más abiertas**. ⚠️ La curva de daño por desarrollo es descriptiva: muestra cuándo ocurre el daño, no prueba el mecanismo (eso lo aporta el experimento de corredores). ⚠️ El andar Control vs mutante está pseudorreplicado (varias huellas por ratón, sin IDs). ⚠️ El salto a "riesgo de enfermedad" es del paper, en modo condicional; el déficit motor global es leve.
 estado: publicado

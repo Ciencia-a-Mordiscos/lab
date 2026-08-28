@@ -48,4 +48,8 @@ datasets:
   - nombre: "mediana_r_espacial_por_noche.csv"
     descripcion: "Correlación espacial mediana por noche (60 registros)"
     fuente: "Zenodo — data_Fig5.mat (pnlE)"
+titulo_corto: "La brújula del cerebro en murciélagos"
+titulo_card: "La brújula del cerebro en murciélagos"
+card_descripcion: |
+  Palgi et al. (2025) registraron **97 neuronas brújula** en el presubículo de murciélagos volando libres sobre la selva de Zanzíbar — sin jaula, sin pistas controladas. La dirección preferida de esas neuronas drifteaba **1,72°/s la primera noche** y solo **0,20°/s la sexta**: una estabilización 8,4× con la experiencia (Spearman ρ = −0,60, p < 1e-8). Los datos sugieren que la brújula funciona igual con o sin luna.
 estado: publicado

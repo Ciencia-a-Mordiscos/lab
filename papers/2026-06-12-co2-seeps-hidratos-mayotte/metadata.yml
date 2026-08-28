@@ -19,4 +19,7 @@ datasets:
   - nombre: "flux_extrapolado.csv"
     descripcion: "6.000 estimaciones Monte Carlo del flujo total de CO₂"
     fuente: "SEANOE 10.17882/109663"
+titulo_corto: "CO₂ brotando del fondo del mar: el campo de seeps de Mayotte"
+card_descripcion: |
+  A más de 1.300 metros bajo el agua, frente a Mayotte, el fondo del mar suelta dióxido de carbono — un campo de fuentes (*seeps*) de CO₂ líquido que apareció tras el nacimiento de un volcán submarino en 2018. Un ROV midió el caudal de **22 fuentes** una por una. **El hallazgo:** las **7 fuentes "altas" sueltan dos tercios (65,5%) del caudal medido**, y el flujo total del campo se estima en **~154 mil toneladas de carbono al año** (~563 mil tCO₂). Pero ese total no es un número, es un rango: depende del modelo espacial que asumas (**148–198 mil tC/año, 34% de diferencia**). ⚠️ El flujo total es una **extrapolación Monte Carlo**, no una medición — solo se midieron 22 fuentes. ⚠️ Estudio **observacional**: describe lo que el ROV vio, no causas. ⚠️ 18 de las 22 fuentes están en un solo sitio (B0).
 estado: publicado

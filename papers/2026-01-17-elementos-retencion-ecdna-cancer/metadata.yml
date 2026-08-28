@@ -16,4 +16,7 @@ datasets:
   - nombre: "retention_elements_hg19.csv"
     descripcion: "18.487 ventanas genómicas de 1.000 pb con flags binarios de enriquecimiento (Retain-seq) en 3 cell lines: K562, COLO320DM, GBM39. Coordenadas hg19."
     fuente: "Figshare 30239047"
+titulo_corto: "Miles de elementos genéticos mantienen vivo el cáncer"
+card_descripcion: |
+  Sankar et al. (2025) presentan **Retain-seq**, un rastreo a escala de todo el genoma que identifica los "ganchos" que el ecDNA usa para sobrevivir la división celular: **18.487 retention elements** en 23 cromosomas humanos (todos menos chrY) — promotores ricos en CpG que anclan el ADN extracromosómico a los cromosomas durante la mitosis. La asimetría entre tipos de cáncer es brutal: **K562 (leucemia) usa 15.430 elementos**, mientras que **GBM39 (glioblastoma) apenas 941** — dieciséis veces menos. Y la maquinaria es altamente contexto-específica: **96,5% son específicos a una sola cell line**; apenas **15 son universales** en las 3 líneas estudiadas. **chr19** destaca con **1.329 elementos** — segundo en conteo bruto pero **primero en densidad por megabase** (22,5/Mb, 3,2× más que chr1). En este Lab abrimos el CSV de Figshare (coordenadas hg19, flags binarios de enriquecimiento) y verificamos cada hallazgo. ⚠️ Los datos son flags sí/no, no scores continuos; la metilación (que el paper enmarca con *suggests*) no está en este CSV.
 estado: publicado

@@ -19,4 +19,8 @@ datasets:
   - nombre: "individuos_antiguos.csv"
     descripcion: "22.274 individuos antiguos con fecha BP, región y cobertura (Supplementary Table 1)"
     fuente: "Supplementary Materials"
+titulo_corto: "ADN antiguo: selección direccional en Eurasia"
+titulo_card: "🧬 ADN antiguo revela selección direccional masiva en Eurasia"
+card_descripcion: |
+  Reich et al. (2026), 15.836 genomas antiguos de Eurasia occidental (10.016 nuevos). 77 señales poligénicas Bonferroni-significativas entre 696 rasgos. La pigmentación domina (γ = −1,80, p = 5,7 × 10⁻⁷⁴). Disminución en grasa corporal (16 medidas) y esquizofrenia. Aumento en inteligencia fluida — con el caveat de que estos rasgos se midieron en sociedades industrializadas actuales.
 estado: publicado

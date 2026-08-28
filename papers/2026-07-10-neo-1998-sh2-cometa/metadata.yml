@@ -22,4 +22,7 @@ datasets:
   - nombre: "objeto_1998_sh2.csv"
     descripcion: "Registro full-precision de 1998 SH2 (orbit_id 72, A₂ ajustado)"
     fuente: "NASA/JPL Small-Body Database (sbdb.api)"
+titulo_corto: "El asteroide que era un cometa disfrazado"
+card_descripcion: |
+  **875163 (1998 SH2)** está catalogado como asteroide potencialmente peligroso, pero su órbita se desvía año tras año como si algo la empujara desde adentro. Abrimos las tablas de la **NASA/JPL** con **42.007** asteroides y **208** cometas cercanos a la Tierra, más el registro de 1998 SH2. **El hallazgo:** dos pistas dinámicas lo delatan como cometa — su parámetro de Tisserand **T_J = 2,91** cae bajo la frontera clásica de 3 (donde viven los cometas), y tiene una aceleración no-gravitacional **|A₂| = 6,96·10⁻¹³ au/día²** ajustada a **14σ**, unas **10 veces** la de una roca típica. Pero es un **cometa débil**: su empujón queda **~316 veces** por debajo del cometa promedio. Y no está solo — **2.120 de 42.007** "asteroides" (5,05%) tienen órbita de cometa. ⚠️ El A₂ es **consistente con** una fuga de gas, no una medición directa: la prueba (una cola tenue) la aportan los autores con telescopios de gran apertura y **no** se reproduce en el notebook. ⚠️ T_J es un discriminante estadístico, no una prueba: 6 cometas conocidos viven sobre la frontera. ⚠️ El A₂ de 1998 SH2 es solo transversal (sin componente radial ajustada).
 estado: publicado

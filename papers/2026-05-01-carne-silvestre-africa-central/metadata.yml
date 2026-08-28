@@ -19,4 +19,7 @@ datasets:
   - nombre: "predictions.csv"
     descripcion: "Covariables por celda: REM (lejanía), FCI (condición del bosque), HPD, HDI, ED, loc_type."
     fuente: "GitHub mattiabessone/Increase-in-wild-animal-consumption-across-Central-Africa"
+titulo_corto: "Consumo de carne silvestre sube 51% en África Central (22 años)"
+card_descripcion: |
+  Bessone et al. (2026) cruzan datos de **más de 12.000 hogares en 252 ubicaciones** de África Central con un modelo Bayesiano espacial sobre una grilla de 90×90 km. La cifra global del consumo de carne silvestre creció de **0,73 a 1,10 millones de toneladas/año** entre 2000 y 2022 (estimación del paper) — y el patrón es casi universal: **94,8% de las 651 celdas** del bosque centroafricano consumen más que en 2000. En este Lab abrimos los CSVs de Zenodo (predicciones del modelo M_final), reproducimos la cifra agregada (1,06 → 1,61 Mt en nuestra suma por celda; el ratio de crecimiento coincide al 0,3% con el del paper), mapeamos los hotspots espaciales y verificamos los predictores con Spearman: **lejanía (REM) ρ = 0,89 y condición del bosque (FCI) ρ = 0,88** son los predictores positivos más fuertes. ⚠️ Los datos crudos por hogar están restringidos por acuerdo con las agencias estadísticas nacionales — solo se analiza el output del modelo Stan agregado a CSVs.
 estado: publicado

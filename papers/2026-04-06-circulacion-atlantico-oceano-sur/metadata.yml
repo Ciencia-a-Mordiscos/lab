@@ -22,4 +22,8 @@ datasets:
   - nombre: "caesar_amoc_proxy.csv"
     descripcion: "Proxy AMOC moderno"
     fuente: "GitHub (AMOC Analysis)"
+titulo_corto: "Circulación oceánica: la más débil en 1.300 años"
+titulo_card: "🌊 La circulación oceánica más débil en 1.300 años"
+card_descripcion: |
+  Thresher et al. (2026), corales bambú del Pacífico suroeste revelan que la circulación del Océano Sur y del Atlántico Norte están en mínimos del último milenio — y el Sur se mueve primero, con 20-50 años de ventaja
 estado: publicado

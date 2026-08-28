@@ -28,4 +28,7 @@ datasets:
   - nombre: "serie_global_E_Q.csv"
     descripcion: "Serie temporal global de medianas E y Q (20 años)"
     fuente: "Source Data Fig. 1d (MOESM3)"
+titulo_corto: "Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas"
+card_descripcion: |
+  47,4% de las cuencas con verdor + E↑ tienen también caudal subiendo. El patrón se invierte donde la teoría decía que sería peor: en zonas semiáridas. Tian et al. (2026), *Nature Water*.
 estado: publicado

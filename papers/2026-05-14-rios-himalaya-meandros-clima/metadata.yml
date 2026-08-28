@@ -19,4 +19,7 @@ datasets:
   - nombre: "clima_y_migracion_por_decada.csv"
     descripcion: "2.600 observaciones (650 meandros × 4 décadas) con variables climáticas y migración"
     fuente: "Zenodo 10.5281/zenodo.17853501 (Fig6_SEM.csv original)"
+titulo_corto: "Los ríos del Himalaya están serpenteando casi al doble de velocidad"
+card_descripcion: |
+  Lin et al. (2026) midieron cómo migra lateralmente cada uno de **650 meandros pareados** en tres cuencas mayores del Himalaya — **Yarlung Tsangpo, Ganges, Indus** — comparando dos ventanas: **1980s–90s vs 2000s–10s**. La mediana de migración pasó de **1,02 a 1,81 m/año (ratio = 1,77×)**; el **93%** de los meandros aceleró. **Wilcoxon p ≈ 10⁻⁹², Cohen's d pareado = 0,72**. Pero la aceleración no es uniforme: **Ganges 2,16×, Indus 1,91×, Yarlung Tsangpo 1,62×** — y el Yarlung aporta 75% de la muestra. La temperatura subió **+0,87 °C** en esas mismas décadas, pero la correlación directa T → migración es modesta (**ρ = 0,33**). ⚠️ Diseño **OBSERVACIONAL**: la causalidad clima → migración es hipótesis del paper, sostenida por un modelo SEM, no por la comparación pareada. ⚠️ El claim del paper sobre *"amplified sediment fluxes"* **no aparece en los datos crudos** — Qs cayó 43%; el paper lo sostiene con su SEM, no con medias temporales.
 estado: publicado

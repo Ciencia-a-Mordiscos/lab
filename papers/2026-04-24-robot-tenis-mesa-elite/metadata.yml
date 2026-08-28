@@ -19,4 +19,7 @@ datasets:
   - nombre: "shots_clean.csv"
     descripcion: "1.953 golpes pre-procesados (magnitudes de velocidad y spin) con metadata por jugador"
     fuente: "Derivado de match_data.csv"
+titulo_corto: "Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa"
+card_descripcion: |
+  D'Ambrosio et al. (2026) construyeron **Ace**, un robot autónomo de Sony con dos brazos KUKA y un controlador entrenado con aprendizaje por refuerzo. En abril de 2025 lo enfrentaron bajo reglas oficiales ITTF a siete humanos — **cinco élite de club amateur y dos profesionales japoneses**. Contra los élite **ganó 3 de 5 partidos (7/13 sets)**. Contra los profesionales **perdió ambos (1/7 sets)**. Abrimos los **4.024 eventos** grabados (99 rallies, 1.953 golpes) y vemos la brecha: el techo operativo de Ace vive en **13,3 m/s** (su percentil 95); el **26% de los golpes humanos viven por encima** de ese umbral. Entre élite y pro hay un salto que los datos no esconden.
 estado: publicado

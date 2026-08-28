@@ -22,4 +22,8 @@ datasets:
   - nombre: "deuda_climatica_resumen.csv"
     descripcion: "Deuda climática por ecosistema"
     fuente: "Agregado de Thermophilization_total.csv"
+titulo_corto: "Cumbres alpinas: termofilización 5x"
+titulo_card: "🏔️ Las cumbres cambian 5 veces más rápido"
+card_descripcion: |
+  6,067 parcelas europeas re-visitadas (12-78 años), termofilización 4.8x mayor en cumbres alpinas que bosques, deuda climática acumulada de 0.37°C
 estado: publicado

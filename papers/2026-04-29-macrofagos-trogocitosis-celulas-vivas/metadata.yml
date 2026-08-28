@@ -22,4 +22,7 @@ datasets:
   - nombre: "contacto_celula.csv"
     descripcion: "Uptake normalizado direct vs transwell — 3 réplicas biológicas pareadas (in vitro BMDM)"
     fuente: "Source Data MOESM8 (Fig 2e)"
+titulo_corto: "Macrófagos mordisqueando células vivas"
+card_descripcion: |
+  Fan, Thota, Serwas et al. (2026) muestran que los macrófagos no solo limpian células muertas — también arrancan **vesículas sub-micrométricas de células vivas y sanas** sin matarlas. En el pulmón de ratón, un único tipo celular (macrófagos alveolares) se lleva el **62,7 %** del material etiquetado, frente a apenas **0,55 %** en monocitos clásicos — un ratio ≈ 114× (Mann-Whitney U p = 0,008, Cohen's d ≈ 15 con n = 5 ratones). Las vesículas miden de mediana **0,09 µm²** (n = 77 vesículas de 23 células) — son ~835× más pequeñas en área que la sección de una célula entera. Y el muestreo es **estrictamente célula-célula**: separar las poblaciones con una membrana porosa (transwell) reduce el uptake un **77 %** (paired t-test p = 0,0018, n = 3 réplicas biológicas). ⚠️ Los tamaños muestrales son pequeños — los efectos son enormes pero los intervalos de confianza amplios. ⚠️ Todo el sistema está en ratón; el paper no aporta datos humanos directos. ⚠️ El claim de "no destructivo" lo soporta el paper con imaging y caspase assays que no están en el Source Data MOESM7/8.
 estado: publicado

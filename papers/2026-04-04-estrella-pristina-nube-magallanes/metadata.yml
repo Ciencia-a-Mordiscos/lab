@@ -22,4 +22,8 @@ datasets:
   - nombre: "espectro_j0715.csv"
     descripcion: "Espectro MIKE normalizado (86.464 puntos, 3.328-9.398 Å)"
     fuente: "Zenodo 10.5281/zenodo.18483957"
+titulo_corto: "Estrella casi prístina de la Nube de Magallanes"
+titulo_card: "⭐ Una estrella casi prístina de la Nube de Magallanes"
+card_descripcion: |
+  Ezzeddine et al. (2026), J0715−7334 tiene 20.000× menos hierro que el Sol — la única estrella ultra metal-poor que NO tiene exceso de carbono, huella de una supernova primordial de 30 M☉
 estado: publicado

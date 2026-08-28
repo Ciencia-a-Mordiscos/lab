@@ -22,4 +22,8 @@ datasets:
   - nombre: "tabla3_swimmers.csv"
     descripcion: "40 nadadores robóticos — longitud vs velocidad relativa"
     fuente: "Supplementary Table 3"
+titulo_corto: "Músculos artificiales con ultrasonido: 714× de salto en escala"
+titulo_card: "Músculos artificiales con ultrasonido: 714× de salto en escala"
+card_descripcion: |
+  Shi et al. (2025), más de 10.000 microburbujas programables forman músculos artificiales controlados por ultrasonido. Benchmark de 74 actuadores en 3 dimensiones (agarre, fuerza, natación). El stingraybot acústico de 50 mm es 714 veces más grande que la mediana de nadadores acústicos previos.
 estado: publicado

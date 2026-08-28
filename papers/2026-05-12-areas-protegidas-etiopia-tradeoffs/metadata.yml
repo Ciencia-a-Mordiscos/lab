@@ -28,4 +28,7 @@ datasets:
   - nombre: "stakeholder_priorities.csv"
     descripcion: "Encuesta a 37 profesionales conservacionistas etíopes"
     fuente: "Paper text + Supplementary Table 8"
+titulo_corto: "Áreas protegidas de Etiopía: cuando proteger funciona y duele a la vez"
+card_descripcion: |
+  Jago et al. (2026) caracterizaron la red de áreas protegidas de Etiopía (**79 unidades, 9,4% del territorio**) y aplicaron un diseño cuasi-experimental con matching estadístico sobre **4.702 gridcells emparejados** para estimar si funcionan, y sobre **802 hogares emparejados** (401 dentro de 10 km + 401 control) para medir el costo social. Las áreas estrictas se asocian con **-44% expansión agrícola** (CI 95%, p<0,001) y **+76% pastizales**, pero los hogares cercanos terminan con **~1,23 meses menos de comida adecuada** al año (ATT=-1,23; p<0,001). Proyectado a escala nacional sobre 3,2 M hogares, eso son ~**3,9 millones de hogar-meses perdidos** (CI 2,9–4,9 M). El **68% de las 25 PAs evaluadas** muestran trade-off; solo **20% son win-win**. Y el **77% de 37 profesionales conservacionistas etíopes** priorizan mejorar la red existente sobre expandirla (Kendall W=0,74). ⚠️ Diseño cuasi-experimental, no RCT — los efectos son estimados contra contrafactual estadístico. ⚠️ El headline 3,9 M es proyección poblacional desde n=802 hogares, no medición directa. ⚠️ El histograma de robustez del notebook es simulación basada en el SE reportado, no replicación de las 56 specs reales del paper.
 estado: publicado
