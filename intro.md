@@ -14,444 +14,581 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
-### [Chosha praecursor: 26 caracteres para decidir el insecto más antiguo](papers/2026-08-26-chosha-praecursor/README.md)
+### Chosha praecursor: 26 caracteres para decidir el insecto más antiguo
 
-**Biología** · *Nature* (2026) · Un fósil del Carbonífero en Texas con patas abdominales en forma de remo. De los 58 caracteres de la matriz filogenética aporta **26** — el mejor de los 5 fósiles. **El hallazgo:** el test de topologías de los propios autores rechaza las **3** ubicaciones que sacan a *Chosha* de Hexapoda (p = 0,0259 / 0,0153 / 0,0146), pero **no rechaza** la alternativa "hexápodo fuera de Insecta" (**p = 0,1945**). Por eso el abstract dice *strongly favouring* y no *demonstrates*. El fósil conserva **75,8 %** de la anatomía externa y **4,0 %** de la interna o blanda: nervioso, respiratorio, circulatorio y digestivo van a cero. ⚠️ El soporte del grupo de 4 fósiles pasa de **91,9 %** bayesiano a **20,0 %** de remuestreo sobre los mismos datos — dos métricas distintas, veredictos opuestos. ⚠️ La datación de **324 millones de años** y el modo de vida semiacuático **no están** en los datos publicados.
+**Biología** · *Nature* · Un fósil del Carbonífero en Texas con patas abdominales en forma de remo. De los 58 caracteres de la matriz filogenética aporta **26** — el mejor de los 5 fósiles. **El hallazgo:** el test de topologías de los propios autores rechaza las **3** ubicaciones que sacan a *Chosha* de Hexapoda (p = 0,0259 / 0,0153 / 0,0146), pero **no rechaza** la alternativa "hexápodo fuera de Insecta" (**p = 0,1945**). Por eso el abstract dice *strongly favouring* y no *demonstrates*. El fósil conserva **75,8 %** de la anatomía externa y **4,0 %** de la interna o blanda: nervioso, respiratorio, circulatorio y digestivo van a cero. ⚠️ El soporte del grupo de 4 fósiles pasa de **91,9 %** bayesiano a **20,0 %** de remuestreo sobre los mismos datos — dos métricas distintas, veredictos opuestos. ⚠️ La datación de **324 millones de años** y el modo de vida semiacuático **no están** en los datos publicados.
 
-[Notebook](papers/2026-08-26-chosha-praecursor/notebook.ipynb) · [README](papers/2026-08-26-chosha-praecursor/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-26-chosha-praecursor/notebook.ipynb)
+[Ver notebook](papers/2026-08-26-chosha-praecursor/notebook) · [Leer más](papers/2026-08-26-chosha-praecursor/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-26-chosha-praecursor/notebook.ipynb)
 
-### [Un bosque perturbado tarda una década en soltar el 82 % de su calor extra](papers/2026-08-25-bosques-perturbados-calor-europa/README.md)
+---
 
-**Ecología** · *Nature Geoscience* (2026) · Un bosque europeo quemado, talado o comido por escarabajos está **1,70 °C más caliente** en verano que el bosque intacto de al lado. Este notebook sigue la anomalía año a año. **El hallazgo:** **el 82,07 % de ese calor se disipa en diez años** — pero la mitad se va antes del año 4 y la otra mitad tarda casi seis años más; al año 10 todavía quedan **0,36 °C**. El modelo se apoya en poquísimas variables (los 3 primeros predictores de 21 suman **~63 %**) y cambia de guardia según el bosque: en hoja ancha manda el cambio de vegetación (**27,7 %**), en acícula el cambio de albedo (**28,3 %**). ⚠️ Es **observacional**: nadie quemó un bosque: SHAP mide el peso dentro del modelo, no la causa en el mundo. ⚠️ El **1,70 °C** del abstract y los **2,00 °C** del año 1 de esta cohorte **no son el mismo dato** — distinto alcance y distinto estadístico.
+### Un bosque perturbado tarda una década en soltar el 82 % de su calor extra
 
-[Notebook](papers/2026-08-25-bosques-perturbados-calor-europa/notebook.ipynb) · [README](papers/2026-08-25-bosques-perturbados-calor-europa/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-25-bosques-perturbados-calor-europa/notebook.ipynb)
+**Ecología** · *Nature Geoscience* · Un bosque europeo quemado, talado o comido por escarabajos está **1,70 °C más caliente** en verano que el bosque intacto de al lado. Este notebook sigue la anomalía año a año. **El hallazgo:** **el 82,07 % de ese calor se disipa en diez años** — pero la mitad se va antes del año 4 y la otra mitad tarda casi seis años más; al año 10 todavía quedan **0,36 °C**. El modelo se apoya en poquísimas variables (los 3 primeros predictores de 21 suman **~63 %**) y cambia de guardia según el bosque: en hoja ancha manda el cambio de vegetación (**27,7 %**), en acícula el cambio de albedo (**28,3 %**). ⚠️ Es **observacional**: nadie quemó un bosque: SHAP mide el peso dentro del modelo, no la causa en el mundo. ⚠️ El **1,70 °C** del abstract y los **2,00 °C** del año 1 de esta cohorte **no son el mismo dato** — distinto alcance y distinto estadístico.
 
-### [El azufre que en Marte no debería estar suelto](papers/2026-08-22-azufre-nativo-gale-marte/README.md)
+[Ver notebook](papers/2026-08-25-bosques-perturbados-calor-europa/notebook) · [Leer más](papers/2026-08-25-bosques-perturbados-calor-europa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-25-bosques-perturbados-calor-europa/notebook.ipynb)
 
-**Astronomía** · *Science* (2026) · En Marte el azufre siempre viene agarrado a otra cosa. En el valle de Gediz, Curiosity le apuntó el espectrómetro a un parche de **2.100 m²** de piedras claras y una rueda del rover partió una. **El hallazgo:** en 10 análisis sobre cinco piedras el azufre llega a **83,28 wt%** de media contra **16,39** en las rocas vecinas (**5,08x**, d = 18,87) — y falta todo lo demás: hierro a **0,07** de su valor vecino, calcio a **0,18**. Los cationes que un sulfato necesitaría no están, y la razón Compton/Rayleigh (**1,39 vs 1,83**) lo confirma por una vía independiente. ⚠️ La columna del CSV se llama `SO3_pct` y **eso no quiere decir sulfato**: el APXS reporta el azufre *como si fuera* SO₃ por convención de calibración. ⚠️ El origen —vapor magmático atrapado en la criosfera— es lo que los autores **proponen**, no lo que el rover midió.
+---
 
-[Notebook](papers/2026-08-22-azufre-nativo-gale-marte/notebook.ipynb) · [README](papers/2026-08-22-azufre-nativo-gale-marte/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-22-azufre-nativo-gale-marte/notebook.ipynb)
+### El azufre que en Marte no debería estar suelto
 
+**Astronomía** · *Science* · En Marte el azufre siempre viene agarrado a otra cosa. En el valle de Gediz, Curiosity le apuntó el espectrómetro a un parche de **2.100 m²** de piedras claras y una rueda del rover partió una. **El hallazgo:** en 10 análisis sobre cinco piedras el azufre llega a **83,28 wt%** de media contra **16,39** en las rocas vecinas (**5,08x**, d = 18,87) — y falta todo lo demás: hierro a **0,07** de su valor vecino, calcio a **0,18**. Los cationes que un sulfato necesitaría no están, y la razón Compton/Rayleigh (**1,39 vs 1,83**) lo confirma por una vía independiente. ⚠️ La columna del CSV se llama `SO3_pct` y **eso no quiere decir sulfato**: el APXS reporta el azufre *como si fuera* SO₃ por convención de calibración. ⚠️ El origen —vapor magmático atrapado en la criosfera— es lo que los autores **proponen**, no lo que el rover midió.
+
+[Ver notebook](papers/2026-08-22-azufre-nativo-gale-marte/notebook) · [Leer más](papers/2026-08-22-azufre-nativo-gale-marte/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-22-azufre-nativo-gale-marte/notebook.ipynb)
+
+---
 
 ### La rendija de Young, encogida siete órdenes de magnitud
 
-Un haz de electrones enfocado cubre a la vez dos columnas vecinas de átomos de silicio, separadas 1,36 Å, y sale con franjas de interferencia. A 900 K cada átomo se mueve un 62,5% más que a 300 K y las franjas siguen ahí: las dos columnas no tiemblan por separado.
+**Física** · *Nature* · Un haz de electrones enfocado cubre a la vez dos columnas vecinas de átomos de silicio, separadas 1,36 Å, y sale con franjas de interferencia. A 900 K cada átomo se mueve un 62,5% más que a 300 K y las franjas siguen ahí: las dos columnas no tiemblan por separado.
 
-[Notebook](papers/2026-08-19-doble-rendija-atomica-silicio/notebook.ipynb) · [README](papers/2026-08-19-doble-rendija-atomica-silicio/) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-doble-rendija-atomica-silicio/notebook.ipynb)
+[Ver notebook](papers/2026-08-19-doble-rendija-atomica-silicio/notebook) · [Leer más](papers/2026-08-19-doble-rendija-atomica-silicio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-doble-rendija-atomica-silicio/notebook.ipynb)
 
+---
 
-### [Más hoja verde, menos aves](papers/2026-08-20-solar-china-aves-diversidad/README.md)
+### Más hoja verde, menos aves
 
-**Ecología** · *Science* (2026) · China empujó los paneles solares con políticas de provincia, municipio y condado. Zhang et al. cruzaron ese empuje contra listas de aves de ciencia ciudadana en **2.344 condados** por **120 meses**. **El hallazgo:** donde la política apretó más fuerte, un condado pierde **unas 4 especies de aves** por cada desviación estándar de rigor (11,3 por ciento de su riqueza) mientras su **índice de área foliar sube** — más hoja por metro cuadrado, menos verdor y menos diversidad, lo que los autores bautizaron *enverdecimiento inferior*. El notebook rehace las 21 regresiones del paquete de réplica con `reghdfe` reescrito en numpy, y marca lo que **no** se pudo reproducir: la conversión de suelo que el abstract da como mecanismo.
+**Ecología** · *Science* · China empujó los paneles solares con políticas de provincia, municipio y condado. Zhang et al. cruzaron ese empuje contra listas de aves de ciencia ciudadana en **2.344 condados** por **120 meses**. **El hallazgo:** donde la política apretó más fuerte, un condado pierde **unas 4 especies de aves** por cada desviación estándar de rigor (11,3 por ciento de su riqueza) mientras su **índice de área foliar sube** — más hoja por metro cuadrado, menos verdor y menos diversidad, lo que los autores bautizaron *enverdecimiento inferior*. El notebook rehace las 21 regresiones del paquete de réplica con `reghdfe` reescrito en numpy, y marca lo que **no** se pudo reproducir: la conversión de suelo que el abstract da como mecanismo.
 
-[Notebook](papers/2026-08-20-solar-china-aves-diversidad/notebook.ipynb) · [README](papers/2026-08-20-solar-china-aves-diversidad/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-20-solar-china-aves-diversidad/notebook.ipynb)
+[Ver notebook](papers/2026-08-20-solar-china-aves-diversidad/notebook) · [Leer más](papers/2026-08-20-solar-china-aves-diversidad/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-20-solar-china-aves-diversidad/notebook.ipynb)
 
-### [El metano que los polos no supieron contar](papers/2026-08-19-metano-tropical-huascaran/README.md)
+---
 
-**Ecología** · *Nature* (2026) · La historia del metano atmosférico se leyó siempre en Groenlandia y la Antártida, aunque el metano natural se fabrica en humedales tropicales. Lamantia et al. perforaron hielo a **6.768 m** en el Nevado Huascarán y sacaron unos **2.000 años** de aire tropical: el primer registro histórico global de CH₄ de baja latitud. **El hallazgo:** ese testigo corre **+62,3 ppb** por encima de los cuatro registros polares en el preindustrial (119 de 123 comparaciones), y al meterlo en el modelo de 4 cajas de los autores la emisión tropical estimada sube de **161,4 a 212,5 Tg CH₄/año**. El notebook re-ejecuta ese modelo con la semilla original y pone a prueba de cuánto depende la cifra de un parámetro que el modelo fija y no mide.
+### El metano que los polos no supieron contar
 
-[Notebook](papers/2026-08-19-metano-tropical-huascaran/notebook.ipynb) · [README](papers/2026-08-19-metano-tropical-huascaran/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-metano-tropical-huascaran/notebook.ipynb)
+**Ecología** · *Nature* · La historia del metano atmosférico se leyó siempre en Groenlandia y la Antártida, aunque el metano natural se fabrica en humedales tropicales. Lamantia et al. perforaron hielo a **6.768 m** en el Nevado Huascarán y sacaron unos **2.000 años** de aire tropical: el primer registro histórico global de CH₄ de baja latitud. **El hallazgo:** ese testigo corre **+62,3 ppb** por encima de los cuatro registros polares en el preindustrial (119 de 123 comparaciones), y al meterlo en el modelo de 4 cajas de los autores la emisión tropical estimada sube de **161,4 a 212,5 Tg CH₄/año**. El notebook re-ejecuta ese modelo con la semilla original y pone a prueba de cuánto depende la cifra de un parámetro que el modelo fija y no mide.
 
-### [La fusión que se nos había escondido](papers/2026-08-19-fusion-lkh-cumulos-globulares/README.md)
+[Ver notebook](papers/2026-08-19-metano-tropical-huascaran/notebook) · [Leer más](papers/2026-08-19-metano-tropical-huascaran/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-metano-tropical-huascaran/notebook.ipynb)
 
-**Astronomía** · *Nature Astronomy* (2026) · Los cúmulos globulares son escombros que no se borran: si la Vía Láctea se tragó una galaxia, sus cúmulos siguen orbitando. Massari et al. datan 39 con el Hubble a **0,26** miles de millones de años de error (contra 0,91 y 0,43 de los catálogos previos) y los ven ordenarse en secuencias distintas del plano edad–metalicidad. **El hallazgo:** los dos progenitores dejaron de formar cúmulos con **1,76 mil millones de años de diferencia**, y **13 de 14 candidatos** al nuevo progenitor —bautizado LKH— quedaron dentro de los **6 kiloparsecs interiores**, frente a **0 de 14** en Gaia-Sausage-Enceladus (d = 2,72, p = 7,5e-06). ⚠️ El 1,8 del titular **no es el hueco entre las curvas**: es la resta de dos parámetros ajustados, y propagada da **+0,81/−0,89**. ⚠️ Con las etiquetas públicas la **edad sola no separa** LKH de GSE (p = 0,077). ⚠️ Nuestros grupos son un **proxy** de la clasificación bayesiana del paper, y las edades son **relativas**, no absolutas.
+---
+
+### La fusión que se nos había escondido
+
+**Astronomía** · *Nature Astronomy* · Los cúmulos globulares son escombros que no se borran: si la Vía Láctea se tragó una galaxia, sus cúmulos siguen orbitando. Massari et al. datan 39 con el Hubble a **0,26** miles de millones de años de error (contra 0,91 y 0,43 de los catálogos previos) y los ven ordenarse en secuencias distintas del plano edad–metalicidad. **El hallazgo:** los dos progenitores dejaron de formar cúmulos con **1,76 mil millones de años de diferencia**, y **13 de 14 candidatos** al nuevo progenitor —bautizado LKH— quedaron dentro de los **6 kiloparsecs interiores**, frente a **0 de 14** en Gaia-Sausage-Enceladus (d = 2,72, p = 7,5e-06). ⚠️ El 1,8 del titular **no es el hueco entre las curvas**: es la resta de dos parámetros ajustados, y propagada da **+0,81/−0,89**. ⚠️ Con las etiquetas públicas la **edad sola no separa** LKH de GSE (p = 0,077). ⚠️ Nuestros grupos son un **proxy** de la clasificación bayesiana del paper, y las edades son **relativas**, no absolutas.
 
 [Ver notebook](papers/2026-08-19-fusion-lkh-cumulos-globulares/notebook) · [Leer más](papers/2026-08-19-fusion-lkh-cumulos-globulares/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-19-fusion-lkh-cumulos-globulares/notebook.ipynb)
 
-### [Un robot con cilios que destapa arterias](papers/2026-08-17-robot-endovascular-cilios-flujo/README.md)
+---
 
-**Tecnología** · *Nature Biomedical Engineering* (2026) · Cuando una arteria se tapa, detrás del tapón la sangre casi deja de moverse y el fármaco que disuelve coágulos llega solo por difusión. Fang et al. construyeron un robot blando de silicona con partículas magnéticas y un tapete de cilios que baten en ola coordinada: se navega con un imán desde fuera, se para junto al coágulo y empuja sangre. **El hallazgo:** en cerdos vivos el vaso se destapó en **45,0 min** frente a **163,3** sin robot (**−72,4%**), y en phantom en **40,4** frente a **95,0** (**−57,5%**), con separación total entre grupos. Por debajo hay dos sorpresas de diseño: cambiar el **sentido** en que viaja la ola de cilios triplica el flujo (**3,16x**, gana en las 10 frecuencias), y forrar el tubo **entero** de cilios da **4,34 veces menos** flujo que forrar la mitad — los de un lado empujan contra los del otro. ⚠️ Con **3 animales por grupo**, ningún test de permutación a dos colas puede bajar de **p = 0,10**: el efecto es enorme (d = 9,5), pero "significativo" no se puede escribir. ⚠️ Los Source Data publican **medias ± desviación**, no valores crudos, salvo en las dos figuras de recanalización. ⚠️ **Phantoms y cerdos: no hay datos en personas** ni es un tratamiento disponible.
+### Un robot con cilios que destapa arterias
+
+**Tecnología** · *Nature Biomedical Engineering* · Cuando una arteria se tapa, detrás del tapón la sangre casi deja de moverse y el fármaco que disuelve coágulos llega solo por difusión. Fang et al. construyeron un robot blando de silicona con partículas magnéticas y un tapete de cilios que baten en ola coordinada: se navega con un imán desde fuera, se para junto al coágulo y empuja sangre. **El hallazgo:** en cerdos vivos el vaso se destapó en **45,0 min** frente a **163,3** sin robot (**−72,4%**), y en phantom en **40,4** frente a **95,0** (**−57,5%**), con separación total entre grupos. Por debajo hay dos sorpresas de diseño: cambiar el **sentido** en que viaja la ola de cilios triplica el flujo (**3,16x**, gana en las 10 frecuencias), y forrar el tubo **entero** de cilios da **4,34 veces menos** flujo que forrar la mitad — los de un lado empujan contra los del otro. ⚠️ Con **3 animales por grupo**, ningún test de permutación a dos colas puede bajar de **p = 0,10**: el efecto es enorme (d = 9,5), pero "significativo" no se puede escribir. ⚠️ Los Source Data publican **medias ± desviación**, no valores crudos, salvo en las dos figuras de recanalización. ⚠️ **Phantoms y cerdos: no hay datos en personas** ni es un tratamiento disponible.
 
 [Ver notebook](papers/2026-08-17-robot-endovascular-cilios-flujo/notebook) · [Leer más](papers/2026-08-17-robot-endovascular-cilios-flujo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-17-robot-endovascular-cilios-flujo/notebook.ipynb)
 
-### [Las megacrecidas que dejaron a Europa bajo el agua en 1342](papers/2026-08-12-megainundaciones-europa-1342/README.md)
+---
 
-**Ecología** · *Nature* (2026) · No hay estaciones de aforo en el siglo XIV: hay crónicas de monasterios, actas municipales y cuentas de reparación de puentes. Kiss et al. reunieron **166 registros** de crecidas entre 1341 y 1343, del sur de España a la costa del mar del Norte y hasta Constantinopla — unos **2.020 km** de norte a sur. **El hallazgo:** 1342 es el **puesto #1 de 715 años**, con **62 series fluviales** afectadas frente a una mediana anual de **5** y a las **47** del segundo año del registro (1845). El agua se llevó puentes (n=34, severidad **4,53/5**), cosechas (n=43) y trajo hambruna (n=42). ⚠️ **Alemania aporta 76 de los 166 registros**, pero eso dice qué archivos sobrevivieron, no dónde llovió más. ⚠️ Nuestro conteo es **crudo**: el paper usa una serie corregida por sesgo, y por eso su 1343 entra en el *top ten* mientras el nuestro queda #12. ⚠️ La causa volcánica es **plausible, no demostrada** — el sulfato tocó techo en **1341** y para 1342 ya había caído casi a la mediana; los propios autores dicen que los modelos climáticos todavía no permiten una explicación causal directa.
+### Un probiótico que solo trabaja cuando el azúcar sube
 
-[Ver notebook](papers/2026-08-12-megainundaciones-europa-1342/notebook) · [Leer más](papers/2026-08-12-megainundaciones-europa-1342/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-12-megainundaciones-europa-1342/notebook.ipynb)
-
-### [Un probiótico que solo trabaja cuando el azúcar sube](papers/2026-08-12-probioticos-glucosa-diabetes/README.md)
-
-**Medicina** · *Nature* (2026) · Le instalaron a la bacteria del probiótico un circuito que lee el azúcar: cuando la glucosa sube, fabrica GLP-1. Se toma por la boca y sale. Cinco monos diabéticos la tomaron 34 días. **El hallazgo:** la glucosa en ayunas bajó de **15,16 a 10,57 mM (−30,3%)** y los **5 de 5** bajaron — pero los monos sanos están en **5,07 mM**, así que los tratados quedan **5,50 mM por encima**: cierran el **44,5%** del camino, no se curan. El sensor no es un dial sino un interruptor: mudo hasta 5 mM, **9,9 veces** más señal al llegar a 10 (d = 6,33). Y sí distingue comida real: la Coca-Cola sube la glucemia del ratón **+6,27 mM**, la dietética **+0,43** (indistinguible del control). ⚠️ El p = 0,0045 de la glucosa en ayunas es **cálculo nuestro** — la tabla estadística del paper no lista test para ese panel; el del área bajo la curva (p = 0,0123) sí reproduce el suyo exactamente. ⚠️ Uno de los cinco monos apenas se movió (−4%). ⚠️ Con n = 5 el Wilcoxon no baja de p = 0,0625. ⚠️ **En personas no se ha probado**: está en el título del paper.
+**Medicina** · *Nature* · Le instalaron a la bacteria del probiótico un circuito que lee el azúcar: cuando la glucosa sube, fabrica GLP-1. Se toma por la boca y sale. Cinco monos diabéticos la tomaron 34 días. **El hallazgo:** la glucosa en ayunas bajó de **15,16 a 10,57 mM (−30,3%)** y los **5 de 5** bajaron — pero los monos sanos están en **5,07 mM**, así que los tratados quedan **5,50 mM por encima**: cierran el **44,5%** del camino, no se curan. El sensor no es un dial sino un interruptor: mudo hasta 5 mM, **9,9 veces** más señal al llegar a 10 (d = 6,33). Y sí distingue comida real: la Coca-Cola sube la glucemia del ratón **+6,27 mM**, la dietética **+0,43** (indistinguible del control). ⚠️ El p = 0,0045 de la glucosa en ayunas es **cálculo nuestro** — la tabla estadística del paper no lista test para ese panel; el del área bajo la curva (p = 0,0123) sí reproduce el suyo exactamente. ⚠️ Uno de los cinco monos apenas se movió (−4%). ⚠️ Con n = 5 el Wilcoxon no baja de p = 0,0625. ⚠️ **En personas no se ha probado**: está en el título del paper.
 
 [Ver notebook](papers/2026-08-12-probioticos-glucosa-diabetes/notebook) · [Leer más](papers/2026-08-12-probioticos-glucosa-diabetes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-12-probioticos-glucosa-diabetes/notebook.ipynb)
 
-### [Un imán flotando midió 32 femtoteslas — pero solo en una nota](papers/2026-08-07-magnetometro-levitado/README.md)
+---
 
-**Física** · *Science* (2026) · Un imán diminuto que levita sin tocar nada, leído por un láser, alcanzó **32 femtoteslas por raíz de hercio**: mil millones de veces por debajo del campo magnético de la Tierra, a temperatura ambiente y sin blindaje. Abrimos los datos de Zenodo y el récord está: **32,94 fT/√Hz a 304,84 Hz**, con la media de cinco repeticiones en **30,3 ± 2,4**. **El hallazgo:** el récord vive en un pico contiguo de **0,04 Hz** de ancho — a 1,25 Hz el mismo sensor mide **14.317 veces peor**. ⚠️ El paper dice que *iguala a los SQUID*; los datos lo soportan solo en la resonancia, y los SQUID operan en banda ancha. ⚠️ El presupuesto de ruido no cierra: la suma en cuadratura de los componentes (**39,49**) supera al total medido (**32,94**), así que son estimaciones independientes, no sumandos. ⚠️ El factor Q no es calculable: el pico ocupa 1-2 puntos de 0,01 Hz, no está resuelto. ⚠️ Las aplicaciones en biología y química son una proyección del resumen, no un resultado medido.
+### Las megacrecidas que dejaron a Europa bajo el agua en 1342
+
+**Ecología** · *Nature* · No hay estaciones de aforo en el siglo XIV: hay crónicas de monasterios, actas municipales y cuentas de reparación de puentes. Kiss et al. reunieron **166 registros** de crecidas entre 1341 y 1343, del sur de España a la costa del mar del Norte y hasta Constantinopla — unos **2.020 km** de norte a sur. **El hallazgo:** 1342 es el **puesto #1 de 715 años**, con **62 series fluviales** afectadas frente a una mediana anual de **5** y a las **47** del segundo año del registro (1845). El agua se llevó puentes (n=34, severidad **4,53/5**), cosechas (n=43) y trajo hambruna (n=42). ⚠️ **Alemania aporta 76 de los 166 registros**, pero eso dice qué archivos sobrevivieron, no dónde llovió más. ⚠️ Nuestro conteo es **crudo**: el paper usa una serie corregida por sesgo, y por eso su 1343 entra en el *top ten* mientras el nuestro queda #12. ⚠️ La causa volcánica es **plausible, no demostrada** — el sulfato tocó techo en **1341** y para 1342 ya había caído casi a la mediana; los propios autores dicen que los modelos climáticos todavía no permiten una explicación causal directa.
+
+[Ver notebook](papers/2026-08-12-megainundaciones-europa-1342/notebook) · [Leer más](papers/2026-08-12-megainundaciones-europa-1342/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-12-megainundaciones-europa-1342/notebook.ipynb)
+
+---
+
+### Un imán flotando midió 32 femtoteslas — pero solo en una nota
+
+**Física** · *Science* · Un imán diminuto que levita sin tocar nada, leído por un láser, alcanzó **32 femtoteslas por raíz de hercio**: mil millones de veces por debajo del campo magnético de la Tierra, a temperatura ambiente y sin blindaje. Abrimos los datos de Zenodo y el récord está: **32,94 fT/√Hz a 304,84 Hz**, con la media de cinco repeticiones en **30,3 ± 2,4**. **El hallazgo:** el récord vive en un pico contiguo de **0,04 Hz** de ancho — a 1,25 Hz el mismo sensor mide **14.317 veces peor**. ⚠️ El paper dice que *iguala a los SQUID*; los datos lo soportan solo en la resonancia, y los SQUID operan en banda ancha. ⚠️ El presupuesto de ruido no cierra: la suma en cuadratura de los componentes (**39,49**) supera al total medido (**32,94**), así que son estimaciones independientes, no sumandos. ⚠️ El factor Q no es calculable: el pico ocupa 1-2 puntos de 0,01 Hz, no está resuelto. ⚠️ Las aplicaciones en biología y química son una proyección del resumen, no un resultado medido.
 
 [Ver notebook](papers/2026-08-07-magnetometro-levitado/notebook) · [Leer más](papers/2026-08-07-magnetometro-levitado/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-07-magnetometro-levitado/notebook.ipynb)
 
-### [El carro que todavía sirve](papers/2026-08-06-retirar-carro-gasolina/README.md)
+---
 
-**Ecología** · *Science* (2026) · Tu carro prende, gasta lo de siempre y le quedan años. Cambiarlo por uno eléctrico suena a desperdicio: la batería nueva llega con emisiones de fábrica que el que ya tienes dejó pagadas. Un equipo hizo la cuenta de ciclo de vida para **210 combinaciones** de vehículo retirado, eléctrico de reemplazo y red eléctrica. **El hallazgo:** en **160 de las 210** (76,2%) chatarrizar el carro que todavía funciona emite menos — pero el resultado no vive en el carro, vive en el enchufe: la mediana pasa de **54,5%** en California a **41%** con el promedio de EE. UU. y a **3,5%** en Puerto Rico. Un detalle que se ve en los datos: manejando, el eléctrico emite menos en **las 27 subredes** del país (la peor empataría a 723 g CO₂/kWh y está en 699) — toda la discusión está en fabricar la batería. ⚠️ El bloque rojo son los **híbridos**: retirar uno deja mediana **20%** frente al 50% de los que no lo son, y con red sucia cae a **−29,5%**. ⚠️ El **92%** que cita el paper sale de su análisis continuo, no de estas tablas: nuestra matriz discreta da 76,2%. No son la misma métrica. ⚠️ Es un **modelo** de ciclo de vida, no una medición, y todo es Estados Unidos. Su propuesta es de **política pública** — el propio resumen dice que hoy chatarrizar sigue siendo económicamente prohibitivo para el dueño.
+### El carro que todavía sirve
+
+**Ecología** · *Science* · Tu carro prende, gasta lo de siempre y le quedan años. Cambiarlo por uno eléctrico suena a desperdicio: la batería nueva llega con emisiones de fábrica que el que ya tienes dejó pagadas. Un equipo hizo la cuenta de ciclo de vida para **210 combinaciones** de vehículo retirado, eléctrico de reemplazo y red eléctrica. **El hallazgo:** en **160 de las 210** (76,2%) chatarrizar el carro que todavía funciona emite menos — pero el resultado no vive en el carro, vive en el enchufe: la mediana pasa de **54,5%** en California a **41%** con el promedio de EE. UU. y a **3,5%** en Puerto Rico. Un detalle que se ve en los datos: manejando, el eléctrico emite menos en **las 27 subredes** del país (la peor empataría a 723 g CO₂/kWh y está en 699) — toda la discusión está en fabricar la batería. ⚠️ El bloque rojo son los **híbridos**: retirar uno deja mediana **20%** frente al 50% de los que no lo son, y con red sucia cae a **−29,5%**. ⚠️ El **92%** que cita el paper sale de su análisis continuo, no de estas tablas: nuestra matriz discreta da 76,2%. No son la misma métrica. ⚠️ Es un **modelo** de ciclo de vida, no una medición, y todo es Estados Unidos. Su propuesta es de **política pública** — el propio resumen dice que hoy chatarrizar sigue siendo económicamente prohibitivo para el dueño.
 
 [Ver notebook](papers/2026-08-06-retirar-carro-gasolina/notebook) · [Leer más](papers/2026-08-06-retirar-carro-gasolina/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-06-retirar-carro-gasolina/notebook.ipynb)
 
-### [El pronóstico de huracanes ganó 23 horas en una década](papers/2026-08-06-ciclones-tropicales-ia/README.md)
-
-Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día o más. Reconstruimos la vara: una década entera de progreso del centro de huracanes de EE. UU. compró 22,9 horas.
-
-[Notebook](papers/2026-08-06-ciclones-tropicales-ia/notebook.ipynb) · [README](papers/2026-08-06-ciclones-tropicales-ia/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-06-ciclones-tropicales-ia/notebook.ipynb)
-
+---
 
 ### Convirtieron tuberías de PVC en aceite de motor
 
-**Química** · *Nature* (2026) · El PVC es el plástico más difícil de reciclar: el **56,7%** de su peso es cloro. Un equipo lo desarmó con cloruro de aluminio a **70 °C** y lo convirtió en polialfaolefina — el aceite base sintético de los lubricantes de motor. **El hallazgo:** una sola perilla, la carga de catalizador, mueve la viscosidad **58,2 veces** (14,54 → 0,25 Pa·s) con ρ = **−1,00** en las seis condiciones medidas. Metieron tarjetas, guantes, tuberías y ranas de juguete al reactor y la prueba de Mann-Whitney **no distingue** el resultado del PVC de laboratorio (p = **0,204**). Un detalle que se ve en los datos: de **16.954 ppm** de metales en el residuo quedan **6** en el aceite, y el único que sobrevive —titanio— ya venía en el PVC virgen. ⚠️ El dato incómodo: el PVC pone el **30%** de la masa reactiva y el **3,8%** del costo; el 1-deceno, petroquímico virgen, pone el **82,7%**. ⚠️ **n pequeño** en todo (6 a 17 filas) y **sin réplicas** por condición: no hay barras de error posibles. ⚠️ KV100, índice de viscosidad y fricción son cifras del **abstract**, no reproducibles aquí: nuestras tablas traen viscosidad *dinámica*, otra magnitud.
+**Química** · *Nature* · El PVC es el plástico más difícil de reciclar: el **56,7%** de su peso es cloro. Un equipo lo desarmó con cloruro de aluminio a **70 °C** y lo convirtió en polialfaolefina — el aceite base sintético de los lubricantes de motor. **El hallazgo:** una sola perilla, la carga de catalizador, mueve la viscosidad **58,2 veces** (14,54 → 0,25 Pa·s) con ρ = **−1,00** en las seis condiciones medidas. Metieron tarjetas, guantes, tuberías y ranas de juguete al reactor y la prueba de Mann-Whitney **no distingue** el resultado del PVC de laboratorio (p = **0,204**). Un detalle que se ve en los datos: de **16.954 ppm** de metales en el residuo quedan **6** en el aceite, y el único que sobrevive —titanio— ya venía en el PVC virgen. ⚠️ El dato incómodo: el PVC pone el **30%** de la masa reactiva y el **3,8%** del costo; el 1-deceno, petroquímico virgen, pone el **82,7%**. ⚠️ **n pequeño** en todo (6 a 17 filas) y **sin réplicas** por condición: no hay barras de error posibles. ⚠️ KV100, índice de viscosidad y fricción son cifras del **abstract**, no reproducibles aquí: nuestras tablas traen viscosidad *dinámica*, otra magnitud.
 
 [Ver notebook](papers/2026-08-06-pvc-lubricantes-vpao/notebook) · [Leer más](papers/2026-08-06-pvc-lubricantes-vpao/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-06-pvc-lubricantes-vpao/notebook.ipynb)
 
+---
+
 ### 1.758 mariposas cambiaron de sitio. El 65% tiene un solo registro detrás
 
-**Ecología** · *Nature Ecology & Evolution* (2026) · Nadie salió al campo: un equipo revisó **567 estudios en quince idiomas** más **68 evaluaciones de expertos** y armó el inventario más grande de mariposas que se corrieron de lugar — **1.758 especies en 105 países**, el **9,1%** de la diversidad conocida. **El hallazgo:** el **81,2%** ganó terreno, pero el **65%** de las especies entró a la lista con **un solo registro, de un solo estudio, en un solo país**; solo **94** (5%) tienen más de diez registros independientes. Un detalle que se ve en los datos: **1.427 + 480 + 381 = 2.288** sobre 1.758 especies, porque **409** hacen más de una cosa según dónde se las mire — y cuatro suben **y** bajan de altitud. ⚠️ El título del paper dice *climate-induced* pero el resumen dice *associated with*: es **asociación**, no causa. ⚠️ El **79%** del clima sale de 278 sobre las **352 especies con amenaza atribuida**, que son el 20,0% del total — no del planeta. ⚠️ Los porcentajes por país miden **cobertura de documentación**, no prevalencia: el mapa dice dónde hay gente contando mariposas.
+**Ecología** · *Nature Ecology & Evolution* · Nadie salió al campo: un equipo revisó **567 estudios en quince idiomas** más **68 evaluaciones de expertos** y armó el inventario más grande de mariposas que se corrieron de lugar — **1.758 especies en 105 países**, el **9,1%** de la diversidad conocida. **El hallazgo:** el **81,2%** ganó terreno, pero el **65%** de las especies entró a la lista con **un solo registro, de un solo estudio, en un solo país**; solo **94** (5%) tienen más de diez registros independientes. Un detalle que se ve en los datos: **1.427 + 480 + 381 = 2.288** sobre 1.758 especies, porque **409** hacen más de una cosa según dónde se las mire — y cuatro suben **y** bajan de altitud. ⚠️ El título del paper dice *climate-induced* pero el resumen dice *associated with*: es **asociación**, no causa. ⚠️ El **79%** del clima sale de 278 sobre las **352 especies con amenaza atribuida**, que son el 20,0% del total — no del planeta. ⚠️ Los porcentajes por país miden **cobertura de documentación**, no prevalencia: el mapa dice dónde hay gente contando mariposas.
 
 [Ver notebook](papers/2026-08-06-mariposas-desplazamientos-clima/notebook) · [Leer más](papers/2026-08-06-mariposas-desplazamientos-clima/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-06-mariposas-desplazamientos-clima/notebook.ipynb)
 
+---
+
+### El pronóstico de huracanes ganó 23 horas en una década
+
+**Tecnología** · *Nature* · Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día o más. Reconstruimos la vara: una década entera de progreso del centro de huracanes de EE. UU. compró 22,9 horas.
+
+[Ver notebook](papers/2026-08-06-ciclones-tropicales-ia/notebook) · [Leer más](papers/2026-08-06-ciclones-tropicales-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-06-ciclones-tropicales-ia/notebook.ipynb)
+
+---
+
 ### El genoma de la viruela que llegó a América
 
-**Medicina** · *Science* (2026) · Dos personas enterradas en el norte de Chile murieron entre **1492 y 1631** con viruela. De sus huesos salieron los **primeros genomas antiguos del virus en América**: un linaje hoy extinto que se separó del tronco europeo alrededor de **1296**. **El hallazgo:** cuando llegó a América el virus ya venía con **49 de sus 214 genes rotos** (22,9%), y hay un tramo de dos siglos —**1594 a 1794**— en que su reloj molecular corre entre **3,1 y 3,8 veces más lento** antes de volver a acelerarse. Un detalle que se ve en los datos: en la rama hacia las cepas modernas hay **13 mutaciones** repartidas en 7 genes, pero solo **3 genes** quedan efectivamente apagados. ⚠️ Solo hay **dos** genomas antiguos americanos y el análisis funcional se apoya en uno solo. ⚠️ Que el rebote de las tasas coincida con la vacunación masiva es **hipótesis de los autores** (*potentially coinciding*), no un resultado medido. ⚠️ Diseño **observacional**: el estudio vincula evolución viral y demografía, no establece causalidad.
+**Medicina** · *Science* · Dos personas enterradas en el norte de Chile murieron entre **1492 y 1631** con viruela. De sus huesos salieron los **primeros genomas antiguos del virus en América**: un linaje hoy extinto que se separó del tronco europeo alrededor de **1296**. **El hallazgo:** cuando llegó a América el virus ya venía con **49 de sus 214 genes rotos** (22,9%), y hay un tramo de dos siglos —**1594 a 1794**— en que su reloj molecular corre entre **3,1 y 3,8 veces más lento** antes de volver a acelerarse. Un detalle que se ve en los datos: en la rama hacia las cepas modernas hay **13 mutaciones** repartidas en 7 genes, pero solo **3 genes** quedan efectivamente apagados. ⚠️ Solo hay **dos** genomas antiguos americanos y el análisis funcional se apoya en uno solo. ⚠️ Que el rebote de las tasas coincida con la vacunación masiva es **hipótesis de los autores** (*potentially coinciding*), no un resultado medido. ⚠️ Diseño **observacional**: el estudio vincula evolución viral y demografía, no establece causalidad.
 
 [Ver notebook](papers/2026-07-31-viruela-antigua-sudamerica/notebook) · [Leer más](papers/2026-07-31-viruela-antigua-sudamerica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-31-viruela-antigua-sudamerica/notebook.ipynb)
 
-### ¿El cambio climático ya subió la malaria infantil en África?
-
-**Medicina** · *Nature* (2026) · Durante décadas se discutió si el calentamiento ya había cambiado la carga de malaria en niños africanos. Un equipo juntó **50.425 encuestas clínicas** de 1900 a 2016 y modeló qué habría pasado sin el calentamiento humano. **El hallazgo:** la respuesta no es que subió ni que bajó — **se movió de sitio**. El calor empujó la malaria hacia arriba en el sur (**+6,08 casos por cada 1.000**) y el este (**+3,25**), y hacia abajo en el oeste (**-4,04**), donde la carga es mayor. El neto continental queda en **+0,73 casos por cada 1.000** (IC 95%: **-4,11 a +5,99**). ⚠️ Los **cinco** intervalos de confianza cruzan el cero: el paper mismo dice *probablemente*. ⚠️ Contraintuitivo: bajo **emisiones altas (SSP5-RCP8.5)** el modelo proyecta **menos** malaria a 2100 (**-20,39 por cada 1.000**), porque África Occidental se calienta por encima del óptimo de transmisión (**24,9 °C**). ⚠️ Diseño **observacional**: el modelo atribuye, no demuestra causalidad.
-
-[Ver notebook](papers/2026-07-31-clima-malaria-infantil-africa/notebook) · [Leer más](papers/2026-07-31-clima-malaria-infantil-africa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-31-clima-malaria-infantil-africa/notebook.ipynb)
+---
 
 ### Fabricar un medicamento contra el cáncer en levadura
 
-**Medicina** · *Science* (2026) · El etopósido, medicamento esencial de primera línea contra el cáncer de pulmón de células pequeñas, hoy depende de arrancar una planta del Himalaya en peligro de extinción. Un equipo reconstruyó esa ruta dentro de la levadura de cerveza — **más de 60 ediciones genéticas** y **45 enzimas** — para fabricar el precursor en un tanque. **El hallazgo:** la levadura ya produce **12 lignanos distintos**; el glucósido estrella llega a **1.620 µg/L**, pero el precursor real del etopósido se queda en **132 µg/L** — **12× menos**, todavía el cuello de botella. ⚠️ Son concentraciones de una sola tanda de fermentación (prueba de concepto), no rendimientos a escala industrial. El paper usa verbos constructivos (*reconstructed*, *established*): reconstruyeron y midieron el sistema.
+**Medicina** · *Science* · El etopósido, medicamento esencial de primera línea contra el cáncer de pulmón de células pequeñas, hoy depende de arrancar una planta del Himalaya en peligro de extinción. Un equipo reconstruyó esa ruta dentro de la levadura de cerveza — **más de 60 ediciones genéticas** y **45 enzimas** — para fabricar el precursor en un tanque. **El hallazgo:** la levadura ya produce **12 lignanos distintos**; el glucósido estrella llega a **1.620 µg/L**, pero el precursor real del etopósido se queda en **132 µg/L** — **12× menos**, todavía el cuello de botella. ⚠️ Son concentraciones de una sola tanda de fermentación (prueba de concepto), no rendimientos a escala industrial. El paper usa verbos constructivos (*reconstructed*, *established*): reconstruyeron y midieron el sistema.
 
 [Ver notebook](papers/2026-07-31-etoposido-teniposido-levadura/notebook) · [Leer más](papers/2026-07-31-etoposido-teniposido-levadura/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-31-etoposido-teniposido-levadura/notebook.ipynb)
 
+---
+
+### ¿El cambio climático ya subió la malaria infantil en África?
+
+**Medicina** · *Nature* · Durante décadas se discutió si el calentamiento ya había cambiado la carga de malaria en niños africanos. Un equipo juntó **50.425 encuestas clínicas** de 1900 a 2016 y modeló qué habría pasado sin el calentamiento humano. **El hallazgo:** la respuesta no es que subió ni que bajó — **se movió de sitio**. El calor empujó la malaria hacia arriba en el sur (**+6,08 casos por cada 1.000**) y el este (**+3,25**), y hacia abajo en el oeste (**-4,04**), donde la carga es mayor. El neto continental queda en **+0,73 casos por cada 1.000** (IC 95%: **-4,11 a +5,99**). ⚠️ Los **cinco** intervalos de confianza cruzan el cero: el paper mismo dice *probablemente*. ⚠️ Contraintuitivo: bajo **emisiones altas (SSP5-RCP8.5)** el modelo proyecta **menos** malaria a 2100 (**-20,39 por cada 1.000**), porque África Occidental se calienta por encima del óptimo de transmisión (**24,9 °C**). ⚠️ Diseño **observacional**: el modelo atribuye, no demuestra causalidad.
+
+[Ver notebook](papers/2026-07-31-clima-malaria-infantil-africa/notebook) · [Leer más](papers/2026-07-31-clima-malaria-infantil-africa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-31-clima-malaria-infantil-africa/notebook.ipynb)
+
+---
+
 ### Cuando el río y el aire se recalientan el mismo día
 
-**Ecología** · *Nature Geoscience* (2026) · En **796 cuencas** de EE. UU. y Europa Central, que una ola de calor del aire y una del río coincidan el mismo día pasó de rareza a algo casi tres veces más frecuente en cuatro décadas. **El hallazgo:** los eventos compuestos suben **~0,40 por década** (1981-2019), y las olas fluviales se intensificaron **+114% / +148% / +95%** (frecuencia/duración/intensidad) frente a apenas **+27% / +33% / +22%** de las atmosféricas. ⚠️ El "triplicado" del título se lee por línea de tendencia (~2,8x); por medias de década es **~2x**. ⚠️ Estudio **observacional**: mide tendencias y coincidencias, no causas. Las cifras de atribución (clima 59%), el +128% de montaña y la proyección del 98,5% a 2100 son **reportadas por el paper**, no recalculadas.
+**Ecología** · *Nature Geoscience* · En **796 cuencas** de EE. UU. y Europa Central, que una ola de calor del aire y una del río coincidan el mismo día pasó de rareza a algo casi tres veces más frecuente en cuatro décadas. **El hallazgo:** los eventos compuestos suben **~0,40 por década** (1981-2019), y las olas fluviales se intensificaron **+114% / +148% / +95%** (frecuencia/duración/intensidad) frente a apenas **+27% / +33% / +22%** de las atmosféricas. ⚠️ El "triplicado" del título se lee por línea de tendencia (~2,8x); por medias de década es **~2x**. ⚠️ Estudio **observacional**: mide tendencias y coincidencias, no causas. Las cifras de atribución (clima 59%), el +128% de montaña y la proyección del 98,5% a 2100 son **reportadas por el paper**, no recalculadas.
 
 [Ver notebook](papers/2026-07-30-olas-calor-compuestas-rios/notebook) · [Leer más](papers/2026-07-30-olas-calor-compuestas-rios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-30-olas-calor-compuestas-rios/notebook.ipynb)
 
+---
+
 ### Más de 20.000 obras de tierra bajo la selva amazónica
 
-**Ecología** · *Nature* (2026) · Un LiDAR aerotransportado voló **4.430 km** sobre el suroeste de la Amazonía y, al "quitar" el bosque, dejó al descubierto una civilización precolonial de constructores. **El hallazgo:** **406 geoglifos** catalogados en una sola campaña — tantos como los que antes se estimaban para **toda** la Amazonía —, con tamaño mediano de **2,12 ha** (rango 0,16–15,59) y una distribución muy asimétrica: casi todos pequeños, unos pocos monumentales. Los recintos que cumplen la definición **Aquiry** tienden a ser mayores (medianas 2,25 vs 1,50 ha), pero la diferencia **no** alcanza significancia (Mann-Whitney p=0,09). ⚠️ La cifra de **>20.000** geoglifos es una **extrapolación**, no un conteo directo. ⚠️ La población de **1,25–3 millones** (año 100–300 d.C.) es una **propuesta** que asume ~300 personas por geoglifo, no una medición.
+**Ecología** · *Nature* · Un LiDAR aerotransportado voló **4.430 km** sobre el suroeste de la Amazonía y, al "quitar" el bosque, dejó al descubierto una civilización precolonial de constructores. **El hallazgo:** **406 geoglifos** catalogados en una sola campaña — tantos como los que antes se estimaban para **toda** la Amazonía —, con tamaño mediano de **2,12 ha** (rango 0,16–15,59) y una distribución muy asimétrica: casi todos pequeños, unos pocos monumentales. Los recintos que cumplen la definición **Aquiry** tienden a ser mayores (medianas 2,25 vs 1,50 ha), pero la diferencia **no** alcanza significancia (Mann-Whitney p=0,09). ⚠️ La cifra de **>20.000** geoglifos es una **extrapolación**, no un conteo directo. ⚠️ La población de **1,25–3 millones** (año 100–300 d.C.) es una **propuesta** que asume ~300 personas por geoglifo, no una medición.
 
 [Ver notebook](papers/2026-07-29-geoglifos-amazonia-lidar/notebook) · [Leer más](papers/2026-07-29-geoglifos-amazonia-lidar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-29-geoglifos-amazonia-lidar/notebook.ipynb)
 
+---
+
 ### Antes de la agricultura, el mundo hablaba menos idiomas que hoy
 
-**Antropología** · *Science* (2026) · Hace ~12.000 años, antes de domesticar plantas y animales, el mundo tenía **menos** lenguas que hoy. Un equipo cruzó modelado estadístico, **339** sociedades cazadoras-recolectoras y paleodemografía para estimarlo. **El hallazgo:** entre **4.500 y 6.000** lenguas entonces (nuestra mediana de 21.600 estimaciones: **5.317**, mitad central 4.540–6.183) frente a **~7.500** hoy — un salto de apenas **×1,4**, no "el doble". El rango es robusto: las **8** formas de modelar dan medianas de **3.980 a 6.053**. El motor que el paper **asocia** (no "causa") es la población, que se multiplicó **~1.670×** (de ~4,4 M a ~7.400 M). ⚠️ Todo son **estimaciones de modelo** con intervalos amplios. ⚠️ La "edad de oro" de decenas de miles de lenguas (hace 3.000–1.000 años) y el rol de los imperios son claims del paper **no reproducidos** por el notebook.
+**Arqueología** · *Science* · Hace ~12.000 años, antes de domesticar plantas y animales, el mundo tenía **menos** lenguas que hoy. Un equipo cruzó modelado estadístico, **339** sociedades cazadoras-recolectoras y paleodemografía para estimarlo. **El hallazgo:** entre **4.500 y 6.000** lenguas entonces (nuestra mediana de 21.600 estimaciones: **5.317**, mitad central 4.540–6.183) frente a **~7.500** hoy — un salto de apenas **×1,4**, no "el doble". El rango es robusto: las **8** formas de modelar dan medianas de **3.980 a 6.053**. El motor que el paper **asocia** (no "causa") es la población, que se multiplicó **~1.670×** (de ~4,4 M a ~7.400 M). ⚠️ Todo son **estimaciones de modelo** con intervalos amplios. ⚠️ La "edad de oro" de decenas de miles de lenguas (hace 3.000–1.000 años) y el rol de los imperios son claims del paper **no reproducidos** por el notebook.
 
 [Ver notebook](papers/2026-07-23-lenguas-diversidad-holoceno/notebook) · [Leer más](papers/2026-07-23-lenguas-diversidad-holoceno/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-23-lenguas-diversidad-holoceno/notebook.ipynb)
 
+---
+
 ### Los genes que nos enferman... y por qué la evolución no los borra
 
-**Biología** · *Nature Ecology & Evolution* (2026) · Si un gen te sube el riesgo de enfermedad deberías tener menos hijos y ese gen debería desaparecer — pero miles siguen ahí. El estudio cruza datos genómicos de **62 enfermedades** con longevidad y fertilidad para probar la **pleiotropía antagónica** (un mismo gen ayuda temprano y cobra tarde). **El hallazgo:** entre **285** alelos de riesgo, los que más suben la fertilidad son los que más recortan la longevidad (**r = −0,35**, n=285, p<0,0001). Y hay un giro: para la mayoría de enfermedades los afectados tienen **más** hijos (44 de 62), salvo en las de **aparición temprana** (<40 años: +11,8 pp sin hijos; d=1,85). La randomización mendeliana detecta efecto causal sobre la longevidad (22 de 43), pero **no** sobre la fertilidad (12 de 45). Y los alelos pro-fertilidad **parecen** favorecidos por la selección reciente (SDS +0,28, 56 % positivos). ⚠️ Estudio **observacional**: salvo la randomización mendeliana, todo es asociación. ⚠️ El SDS capta ~2.000–3.000 años; los "50.000 años" del abstract vienen de otras firmas (iHS/nSL).
+**Biología** · *Nature Ecology & Evolution* · Si un gen te sube el riesgo de enfermedad deberías tener menos hijos y ese gen debería desaparecer — pero miles siguen ahí. El estudio cruza datos genómicos de **62 enfermedades** con longevidad y fertilidad para probar la **pleiotropía antagónica** (un mismo gen ayuda temprano y cobra tarde). **El hallazgo:** entre **285** alelos de riesgo, los que más suben la fertilidad son los que más recortan la longevidad (**r = −0,35**, n=285, p<0,0001). Y hay un giro: para la mayoría de enfermedades los afectados tienen **más** hijos (44 de 62), salvo en las de **aparición temprana** (<40 años: +11,8 pp sin hijos; d=1,85). La randomización mendeliana detecta efecto causal sobre la longevidad (22 de 43), pero **no** sobre la fertilidad (12 de 45). Y los alelos pro-fertilidad **parecen** favorecidos por la selección reciente (SDS +0,28, 56 % positivos). ⚠️ Estudio **observacional**: salvo la randomización mendeliana, todo es asociación. ⚠️ El SDS capta ~2.000–3.000 años; los "50.000 años" del abstract vienen de otras firmas (iHS/nSL).
 
 [Ver notebook](papers/2026-07-21-genetic-tradeoffs-fertility-longevity/notebook) · [Leer más](papers/2026-07-21-genetic-tradeoffs-fertility-longevity/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-21-genetic-tradeoffs-fertility-longevity/notebook.ipynb)
 
+---
+
 ### Una memoria hecha de un solo electrón
 
-**Tecnología** · *Science* (2026) · El sueño de la miniaturización es guardar un bit con **un solo electrón**. El problema: al encoger el dispositivo, la *capacitancia de borde* se dispara y ahoga la señal del electrón. Un equipo esquivó ese muro con una estructura 2D coplanar (drenaje-canal-fuente en el mismo plano). **El hallazgo:** cambiar **un electrón** desplaza el voltaje umbral **~0,5 V** de forma no volátil. Los datos lo confirman de tres formas: a 100 nm² el canal 2D conserva **91 %** de la señal frente al **13 %** de un canal grueso (~7×); el desplazamiento avanza en **escalones enteros** (un electrón por escalón); y los cuatro estados de carga se mantienen separados ~1 V\* con un ruido 16 veces menor, de 1 a 5.000 s. Frente a dispositivos bulk industriales, la señal por electrón es ~**14×** mayor (cálculo propio sobre el dataset). ⚠️ Es la caracterización de **un** dispositivo de laboratorio (retención medida hasta 5.000 s, no años). ⚠️ V\* es una unidad normalizada (1 V\* ≈ 1 electrón), no voltios físicos.
+**Tecnología** · *Science* · El sueño de la miniaturización es guardar un bit con **un solo electrón**. El problema: al encoger el dispositivo, la *capacitancia de borde* se dispara y ahoga la señal del electrón. Un equipo esquivó ese muro con una estructura 2D coplanar (drenaje-canal-fuente en el mismo plano). **El hallazgo:** cambiar **un electrón** desplaza el voltaje umbral **~0,5 V** de forma no volátil. Los datos lo confirman de tres formas: a 100 nm² el canal 2D conserva **91 %** de la señal frente al **13 %** de un canal grueso (~7×); el desplazamiento avanza en **escalones enteros** (un electrón por escalón); y los cuatro estados de carga se mantienen separados ~1 V\* con un ruido 16 veces menor, de 1 a 5.000 s. Frente a dispositivos bulk industriales, la señal por electrón es ~**14×** mayor (cálculo propio sobre el dataset). ⚠️ Es la caracterización de **un** dispositivo de laboratorio (retención medida hasta 5.000 s, no años). ⚠️ V\* es una unidad normalizada (1 V\* ≈ 1 electrón), no voltios físicos.
 
 [Ver notebook](papers/2026-07-18-memoria-un-electron-cuantica/notebook) · [Leer más](papers/2026-07-18-memoria-un-electron-cuantica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-18-memoria-un-electron-cuantica/notebook.ipynb)
 
-### Un cable que mejora al encogerse: nanohilos de NbAs
-
-**Tecnología** · *Science* (2026) · Los cables de cobre de un chip empeoran al adelgazarlos: los electrones rebotan contra las paredes y la resistencia sube. Un equipo probó lo contrario con nanohilos de arseniuro de niobio (**NbAs**), un semimetal de Weyl. **El hallazgo:** un nanohilo de **40 nm** baja su resistividad a **10,5 ± 1,9 µΩ·cm**, ~**70 % menos** que el material en bloque — encoger el cable lo mejoró. Y bota el calor como un metal: **109,68 W/m·K**, en la liga del rutenio (117) y el cobalto (100). Los cuatro nanohilos son NbAs estequiométrico (Nb:As ≈ **1,012** por EDX). ⚠️ La curva resistividad-vs-diámetro (el hallazgo central) se **cita del abstract**: su figura vive tras muro de pago. ⚠️ El mecanismo de "conducción por superficie" lo **atribuyen cálculos DFT**, no se midió. ⚠️ El cobre todavía gana en corriente de ruptura (100–145 vs mediana 42 MA/cm²) y en conductividad térmica absoluta.
-
-[Ver notebook](papers/2026-07-16-nbas-nanowires-interconnects/notebook) · [Leer más](papers/2026-07-16-nbas-nanowires-interconnects/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-16-nbas-nanowires-interconnects/notebook.ipynb)
+---
 
 ### La dieta keto aceleró los tumores intestinales — y no fueron las cetonas
 
-**Medicina** · *Nature* (2026) · A ratones propensos a los pólipos intestinales (modelo de la poliposis familiar, *Apc*-mutantes) se les dio una dieta cetogénica. **El hallazgo:** más tumores (**mediana 18 vs 7** por ratón, ~**2,6x**; Cohen d=1,8; p=0,008), área tumoral ~**4x** mayor (d=2,5) y peor supervivencia (**45%** de eventos vs **11%** en control). El giro: apagar las **cetonas** (HMGCS2/ketólisis) **no cambió nada** — el acelerador es la **oxidación de las grasas** de la dieta. Apagar la enzima **CPT1A** bajo la misma keto rescató la supervivencia al **100%** (0 eventos vs 25% en WT) y bajó el área tumoral (d=1,5; p=0,001). ⚠️ Todo en **ratones** con riesgo genético (FAP): **no** es evidencia de que la keto cause cáncer en humanos sanos. ⚠️ El resultado nulo sobre cetonas y los knockouts se toman del paper; reanalizamos tumores, área y supervivencia (Figs 1 y 5). ⚠️ El BHB va en unidades normalizadas de intensidad: solo se lee el fold-change.
+**Medicina** · *Nature* · A ratones propensos a los pólipos intestinales (modelo de la poliposis familiar, *Apc*-mutantes) se les dio una dieta cetogénica. **El hallazgo:** más tumores (**mediana 18 vs 7** por ratón, ~**2,6x**; Cohen d=1,8; p=0,008), área tumoral ~**4x** mayor (d=2,5) y peor supervivencia (**45%** de eventos vs **11%** en control). El giro: apagar las **cetonas** (HMGCS2/ketólisis) **no cambió nada** — el acelerador es la **oxidación de las grasas** de la dieta. Apagar la enzima **CPT1A** bajo la misma keto rescató la supervivencia al **100%** (0 eventos vs 25% en WT) y bajó el área tumoral (d=1,5; p=0,001). ⚠️ Todo en **ratones** con riesgo genético (FAP): **no** es evidencia de que la keto cause cáncer en humanos sanos. ⚠️ El resultado nulo sobre cetonas y los knockouts se toman del paper; reanalizamos tumores, área y supervivencia (Figs 1 y 5). ⚠️ El BHB va en unidades normalizadas de intensidad: solo se lee el fold-change.
 
 [Ver notebook](papers/2026-07-17-keto-tumores/notebook) · [Leer más](papers/2026-07-17-keto-tumores/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-17-keto-tumores/notebook.ipynb)
 
+---
+
 ### El Mar de Aral se secó y empezó a exhalar carbono
 
-**Ecología** · *Science* (2026) · El Mar de Aral, cuarto lago más grande del mundo, se secó tras desviar su agua para regar algodón. El equipo midió qué hace el lecho ahora expuesto: **111 mediciones** de flujo de CO₂ (cámaras IRGA) en **14 sitios**, con luz y a oscuras. **El hallazgo:** el barro seco es una **fuente** de carbono, no un sumidero — ~**80%** de las mediciones dan emisión neta, y emite casi igual con luz que a oscuras (Mann-Whitney p=0,03; Cohen's d≈0,30, efecto pequeño). Hacia 2022 quedaron **62.625 km²** de lecho al descubierto. Desde 1960 el lecho ha liberado unos **204 Tg C (±53)**, volviendo la cuenca de sumidero presunto a fuente neta. ⚠️ La cifra de 204 Tg C es una **integración a escala de sistema** (space-for-time), no un dato de una sola tabla; la citamos como la calculó el equipo. ⚠️ El flujo se midió en **una sola campaña** (sep 2022); la trayectoria temporal se **infiere** de la cronosecuencia. ⚠️ Reinundar **podría** evitar ~**165 Tg C** más (≈604 Mt CO₂): es un **escenario modelado**, no un logro.
+**Ecología** · *Science* · El Mar de Aral, cuarto lago más grande del mundo, se secó tras desviar su agua para regar algodón. El equipo midió qué hace el lecho ahora expuesto: **111 mediciones** de flujo de CO₂ (cámaras IRGA) en **14 sitios**, con luz y a oscuras. **El hallazgo:** el barro seco es una **fuente** de carbono, no un sumidero — ~**80%** de las mediciones dan emisión neta, y emite casi igual con luz que a oscuras (Mann-Whitney p=0,03; Cohen's d≈0,30, efecto pequeño). Hacia 2022 quedaron **62.625 km²** de lecho al descubierto. Desde 1960 el lecho ha liberado unos **204 Tg C (±53)**, volviendo la cuenca de sumidero presunto a fuente neta. ⚠️ La cifra de 204 Tg C es una **integración a escala de sistema** (space-for-time), no un dato de una sola tabla; la citamos como la calculó el equipo. ⚠️ El flujo se midió en **una sola campaña** (sep 2022); la trayectoria temporal se **infiere** de la cronosecuencia. ⚠️ Reinundar **podría** evitar ~**165 Tg C** más (≈604 Mt CO₂): es un **escenario modelado**, no un logro.
 
 [Ver notebook](papers/2026-07-16-mar-aral-carbono/notebook) · [Leer más](papers/2026-07-16-mar-aral-carbono/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-16-mar-aral-carbono/notebook.ipynb)
 
-### El polvo del desierto que respira Europa
+---
 
-**Ecología** · *Nature* (2026) · El polvo del Sáhara no se queda en el desierto: el viento lo empuja miles de kilómetros hasta los pulmones y los glaciares de Europa. Abrimos los datos de **106 estaciones** europeas y un **núcleo de hielo alpino** que guarda, año a año, cuánto polvo llegó desde 1750. **El hallazgo:** el sur de Europa carga **3,45 veces** más trazador de polvo (aluminio) que el norte (ρ=−0,75, n=106), y el hielo muestra que el polvo **subió +114 %** (raw) desde la era preindustrial — consistente con el **+110 %** del paper. Todo apunta a la sequía del norte de África: calcio del hielo y sequía marroquí se mueven casi en espejo (ρ=−0,78, n=139 años). ⚠️ El trazador **aluminio** (3,45×) no es el **PM10 modelado** del paper (2,53×): coinciden en el gradiente, no en la magnitud. ⚠️ El vínculo sequía→polvo es una **asociación** observacional, no causa probada. ⚠️ El vínculo polvo→mortalidad (+0,67 %) lo reportan los investigadores; no lo reproducimos aquí.
+### Un cable que mejora al encogerse: nanohilos de NbAs
 
-[Ver notebook](papers/2026-07-15-dust-pollution-europa/notebook) · [Leer más](papers/2026-07-15-dust-pollution-europa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-15-dust-pollution-europa/notebook.ipynb)
+**Tecnología** · *Science* · Los cables de cobre de un chip empeoran al adelgazarlos: los electrones rebotan contra las paredes y la resistencia sube. Un equipo probó lo contrario con nanohilos de arseniuro de niobio (**NbAs**), un semimetal de Weyl. **El hallazgo:** un nanohilo de **40 nm** baja su resistividad a **10,5 ± 1,9 µΩ·cm**, ~**70 % menos** que el material en bloque — encoger el cable lo mejoró. Y bota el calor como un metal: **109,68 W/m·K**, en la liga del rutenio (117) y el cobalto (100). Los cuatro nanohilos son NbAs estequiométrico (Nb:As ≈ **1,012** por EDX). ⚠️ La curva resistividad-vs-diámetro (el hallazgo central) se **cita del abstract**: su figura vive tras muro de pago. ⚠️ El mecanismo de "conducción por superficie" lo **atribuyen cálculos DFT**, no se midió. ⚠️ El cobre todavía gana en corriente de ruptura (100–145 vs mediana 42 MA/cm²) y en conductividad térmica absoluta.
+
+[Ver notebook](papers/2026-07-16-nbas-nanowires-interconnects/notebook) · [Leer más](papers/2026-07-16-nbas-nanowires-interconnects/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-16-nbas-nanowires-interconnects/notebook.ipynb)
+
+---
 
 ### El techo que no existe: regresión a la media en las tormentas solares
 
-**Astronomía** · *Nature* (2026) · Durante casi 40 años, la respuesta magnética de la Tierra al viento solar parecía chocar contra un techo cuando el empuje era extremo — la llamada **saturación**, con una decena de teorías físicas para explicarla. Este re-análisis muestra que el techo nunca existió: es **regresión a la media**, el sesgo que aparece al medir valores extremos con instrumentos imprecisos. Reproducimos su Monte Carlo (semilla 42) y reunimos **9 estudios** de 1981 a 2005. **El hallazgo:** una respuesta perfectamente **lineal** más error de medición basta para doblar la curva; en el **decil más extremo** cae **~30%** por debajo de la recta real (hasta **~41%** en la punta). Corregido el sesgo, el impacto de las tormentas extremas **podría acercarse al doble**. ⚠️ La parte cuantitativa vive en la **simulación**, no en observaciones crudas: muestra que el artefacto *puede* explicar la saturación, no que sea la única causa. ⚠️ La tendencia de los 9 estudios es **sugestiva, no significativa** (ρ=0,64, p≈0,06, n=9). ⚠️ El **2x** es la corrección máxima estimada por el paper ('can be twice'), no un hecho cerrado.
+**Astronomía** · *Nature* · Durante casi 40 años, la respuesta magnética de la Tierra al viento solar parecía chocar contra un techo cuando el empuje era extremo — la llamada **saturación**, con una decena de teorías físicas para explicarla. Este re-análisis muestra que el techo nunca existió: es **regresión a la media**, el sesgo que aparece al medir valores extremos con instrumentos imprecisos. Reproducimos su Monte Carlo (semilla 42) y reunimos **9 estudios** de 1981 a 2005. **El hallazgo:** una respuesta perfectamente **lineal** más error de medición basta para doblar la curva; en el **decil más extremo** cae **~30%** por debajo de la recta real (hasta **~41%** en la punta). Corregido el sesgo, el impacto de las tormentas extremas **podría acercarse al doble**. ⚠️ La parte cuantitativa vive en la **simulación**, no en observaciones crudas: muestra que el artefacto *puede* explicar la saturación, no que sea la única causa. ⚠️ La tendencia de los 9 estudios es **sugestiva, no significativa** (ρ=0,64, p≈0,06, n=9). ⚠️ El **2x** es la corrección máxima estimada por el paper ('can be twice'), no un hecho cerrado.
 
 [Ver notebook](papers/2026-07-15-regresion-media-geomagnetica/notebook) · [Leer más](papers/2026-07-15-regresion-media-geomagnetica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-15-regresion-media-geomagnetica/notebook.ipynb)
 
-### Si el mundo comiera sano, ¿qué le pasaría al campo?
+---
 
-**Ecología** · *Nature* (2026) · ¿Y si el planeta adoptara una dieta saludable y sostenible (la de referencia **EAT-Lancet**), mejorara la productividad y redujera a la mitad el desperdicio de comida? Un ensamble de **diez modelos económicos globales** (AgMIP) lo proyecta a **2050**. **El hallazgo:** el campo se reordena. La producción física de **carne de rumiantes cae una mediana de −53 %** frente a seguir igual, la de aves y cerdo **−45 %** y la de lácteos **−27 %**, mientras **verduras, frutas, nueces y legumbres suben +23 %** (+23,4 % reproducido) — de nueve grandes grupos de alimentos, solo dos crecen. La **producción agrícola total baja ~17 %** vs BAU (mediana reproducida −16,6 %; los 9 modelos coinciden en la dirección) y la **tierra agrícola ~6 %** vs 2020 (−5 % con los 5 modelos que la reportan). ⚠️ Son **proyecciones de modelos**, no observaciones: dependen de las **políticas asumidas** — la transformación no es inevitable. ⚠️ Las cifras de **valor** ($1,6 billones, ganadería −49 a −83 %) se **citan del paper**, no se reproducen (unidades monetarias heterogéneas entre modelos). ⚠️ La tierra solo la reportan 5 de 10 modelos.
+### El polvo del desierto que respira Europa
 
-[Ver notebook](papers/2026-07-15-transformacion-sistemas-alimentarios/notebook) · [Leer más](papers/2026-07-15-transformacion-sistemas-alimentarios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-15-transformacion-sistemas-alimentarios/notebook.ipynb)
+**Ecología** · *Nature* · El polvo del Sáhara no se queda en el desierto: el viento lo empuja miles de kilómetros hasta los pulmones y los glaciares de Europa. Abrimos los datos de **106 estaciones** europeas y un **núcleo de hielo alpino** que guarda, año a año, cuánto polvo llegó desde 1750. **El hallazgo:** el sur de Europa carga **3,45 veces** más trazador de polvo (aluminio) que el norte (ρ=−0,75, n=106), y el hielo muestra que el polvo **subió +114 %** (raw) desde la era preindustrial — consistente con el **+110 %** del paper. Todo apunta a la sequía del norte de África: calcio del hielo y sequía marroquí se mueven casi en espejo (ρ=−0,78, n=139 años). ⚠️ El trazador **aluminio** (3,45×) no es el **PM10 modelado** del paper (2,53×): coinciden en el gradiente, no en la magnitud. ⚠️ El vínculo sequía→polvo es una **asociación** observacional, no causa probada. ⚠️ El vínculo polvo→mortalidad (+0,67 %) lo reportan los investigadores; no lo reproducimos aquí.
+
+[Ver notebook](papers/2026-07-15-dust-pollution-europa/notebook) · [Leer más](papers/2026-07-15-dust-pollution-europa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-15-dust-pollution-europa/notebook.ipynb)
+
+---
 
 ### El asteroide que era un cometa disfrazado
 
-**Astronomía** · *Nature Astronomy* (2026) · **875163 (1998 SH2)** está catalogado como asteroide potencialmente peligroso, pero su órbita se desvía año tras año como si algo la empujara desde adentro. Abrimos las tablas de la **NASA/JPL** con **42.007** asteroides y **208** cometas cercanos a la Tierra, más el registro de 1998 SH2. **El hallazgo:** dos pistas dinámicas lo delatan como cometa — su parámetro de Tisserand **T_J = 2,91** cae bajo la frontera clásica de 3 (donde viven los cometas), y tiene una aceleración no-gravitacional **|A₂| = 6,96·10⁻¹³ au/día²** ajustada a **14σ**, unas **10 veces** la de una roca típica. Pero es un **cometa débil**: su empujón queda **~316 veces** por debajo del cometa promedio. Y no está solo — **2.120 de 42.007** "asteroides" (5,05%) tienen órbita de cometa. ⚠️ El A₂ es **consistente con** una fuga de gas, no una medición directa: la prueba (una cola tenue) la aportan los autores con telescopios de gran apertura y **no** se reproduce en el notebook. ⚠️ T_J es un discriminante estadístico, no una prueba: 6 cometas conocidos viven sobre la frontera. ⚠️ El A₂ de 1998 SH2 es solo transversal (sin componente radial ajustada).
+**Astronomía** · *Nature Astronomy* · **875163 (1998 SH2)** está catalogado como asteroide potencialmente peligroso, pero su órbita se desvía año tras año como si algo la empujara desde adentro. Abrimos las tablas de la **NASA/JPL** con **42.007** asteroides y **208** cometas cercanos a la Tierra, más el registro de 1998 SH2. **El hallazgo:** dos pistas dinámicas lo delatan como cometa — su parámetro de Tisserand **T_J = 2,91** cae bajo la frontera clásica de 3 (donde viven los cometas), y tiene una aceleración no-gravitacional **|A₂| = 6,96·10⁻¹³ au/día²** ajustada a **14σ**, unas **10 veces** la de una roca típica. Pero es un **cometa débil**: su empujón queda **~316 veces** por debajo del cometa promedio. Y no está solo — **2.120 de 42.007** "asteroides" (5,05%) tienen órbita de cometa. ⚠️ El A₂ es **consistente con** una fuga de gas, no una medición directa: la prueba (una cola tenue) la aportan los autores con telescopios de gran apertura y **no** se reproduce en el notebook. ⚠️ T_J es un discriminante estadístico, no una prueba: 6 cometas conocidos viven sobre la frontera. ⚠️ El A₂ de 1998 SH2 es solo transversal (sin componente radial ajustada).
 
 [Ver notebook](papers/2026-07-10-neo-1998-sh2-cometa/notebook) · [Leer más](papers/2026-07-10-neo-1998-sh2-cometa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-10-neo-1998-sh2-cometa/notebook.ipynb)
 
+---
+
+### Si el mundo comiera sano, ¿qué le pasaría al campo?
+
+**Ecología** · *Nature* · ¿Y si el planeta adoptara una dieta saludable y sostenible (la de referencia **EAT-Lancet**), mejorara la productividad y redujera a la mitad el desperdicio de comida? Un ensamble de **diez modelos económicos globales** (AgMIP) lo proyecta a **2050**. **El hallazgo:** el campo se reordena. La producción física de **carne de rumiantes cae una mediana de −53 %** frente a seguir igual, la de aves y cerdo **−45 %** y la de lácteos **−27 %**, mientras **verduras, frutas, nueces y legumbres suben +23 %** (+23,4 % reproducido) — de nueve grandes grupos de alimentos, solo dos crecen. La **producción agrícola total baja ~17 %** vs BAU (mediana reproducida −16,6 %; los 9 modelos coinciden en la dirección) y la **tierra agrícola ~6 %** vs 2020 (−5 % con los 5 modelos que la reportan). ⚠️ Son **proyecciones de modelos**, no observaciones: dependen de las **políticas asumidas** — la transformación no es inevitable. ⚠️ Las cifras de **valor** ($1,6 billones, ganadería −49 a −83 %) se **citan del paper**, no se reproducen (unidades monetarias heterogéneas entre modelos). ⚠️ La tierra solo la reportan 5 de 10 modelos.
+
+[Ver notebook](papers/2026-07-15-transformacion-sistemas-alimentarios/notebook) · [Leer más](papers/2026-07-15-transformacion-sistemas-alimentarios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-15-transformacion-sistemas-alimentarios/notebook.ipynb)
+
+---
+
 ### Un ave que vuela y bucea con las mismas alas — pero cambia de marcha
 
-**Tecnología** · *Science* (2026) · Hay aves —frailecillos, araos, pingüinos— que bucean con las alas (*wing-propelled*), no con las patas, y usan **las mismas alas** en dos fluidos que difieren ~800 veces en densidad. Abrimos los datos de campo de **13 especies** y los del **robot de alas batientes** que el equipo construyó para probar el principio. **El hallazgo:** todas frenan bajo el agua — el batido cae de **8,41 Hz** en aire a **2,84 Hz** en agua, una **mediana de 3 veces más lento** (Wilcoxon pareado P=0,0002, d de Cohen=3,2); ninguna de las 13 especies acelera. El robot reproduce el truco: alas más grandes suman sustentación en el aire (**1,48 → 2,49 N**) sin perder casi empuje al nadar. ⚠️ La comparación entre aves es **observacional**: el porqué del cambio de marcha se infiere, no se manipula. ⚠️ Los experimentos de envergadura vienen de **un robot**, no de aves. ⚠️ El robot gasta **~10x más energía** nadando que un ave real (costo de transporte 5,1 vs 0,46 J/Nm): demuestra el principio, no iguala la biología.
+**Tecnología** · *Science* · Hay aves —frailecillos, araos, pingüinos— que bucean con las alas (*wing-propelled*), no con las patas, y usan **las mismas alas** en dos fluidos que difieren ~800 veces en densidad. Abrimos los datos de campo de **13 especies** y los del **robot de alas batientes** que el equipo construyó para probar el principio. **El hallazgo:** todas frenan bajo el agua — el batido cae de **8,41 Hz** en aire a **2,84 Hz** en agua, una **mediana de 3 veces más lento** (Wilcoxon pareado P=0,0002, d de Cohen=3,2); ninguna de las 13 especies acelera. El robot reproduce el truco: alas más grandes suman sustentación en el aire (**1,48 → 2,49 N**) sin perder casi empuje al nadar. ⚠️ La comparación entre aves es **observacional**: el porqué del cambio de marcha se infiere, no se manipula. ⚠️ Los experimentos de envergadura vienen de **un robot**, no de aves. ⚠️ El robot gasta **~10x más energía** nadando que un ave real (costo de transporte 5,1 vs 0,46 J/Nm): demuestra el principio, no iguala la biología.
 
 [Ver notebook](papers/2026-07-09-leaping-out-water-flapping-wings/notebook) · [Leer más](papers/2026-07-09-leaping-out-water-flapping-wings/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-09-leaping-out-water-flapping-wings/notebook.ipynb)
 
+---
+
 ### Un mosquito cruzó un océano de ciudades
 
-**Ecología** · *Science* (2026) · *Anopheles stephensi* es un mosquito de malaria asiático que cría en el agua almacenada de las ciudades — por eso preocupa en África. Un equipo secuenció **645 genomas completos** por África, Medio Oriente y Asia; nosotros abrimos su tabla de muestreo (**551 mosquitos** con país, coordenadas y fecha) y dibujamos la geografía. **El hallazgo:** los mosquitos se reparten en tres bloques —fuente sudasiática (**58**), Península e Irán (**117**) y frente africano (**376**)— con un gradiente de longitud de **72,5 → 55,6 → 37,3 °E**, la huella espacial de la expansión. El **88%** del muestreo (487 de 551) es de 2022-2023: la foto de cuándo empezó la respuesta al brote, no la fecha de la invasión. ⚠️ La **ruta** (sur de Asia → cabeza de puente en Yibuti → frentes) es **reconstrucción genómica** del paper, no algo que se derive de nuestras coordenadas. ⚠️ Los genotipos crudos están embargados: el notebook reproduce la geografía del muestreo, **no** las frecuencias de resistencia ni la genética de poblaciones. ⚠️ El conteo por región refleja el esfuerzo de vigilancia, no la densidad real del mosquito.
+**Ecología** · *Science* · *Anopheles stephensi* es un mosquito de malaria asiático que cría en el agua almacenada de las ciudades — por eso preocupa en África. Un equipo secuenció **645 genomas completos** por África, Medio Oriente y Asia; nosotros abrimos su tabla de muestreo (**551 mosquitos** con país, coordenadas y fecha) y dibujamos la geografía. **El hallazgo:** los mosquitos se reparten en tres bloques —fuente sudasiática (**58**), Península e Irán (**117**) y frente africano (**376**)— con un gradiente de longitud de **72,5 → 55,6 → 37,3 °E**, la huella espacial de la expansión. El **88%** del muestreo (487 de 551) es de 2022-2023: la foto de cuándo empezó la respuesta al brote, no la fecha de la invasión. ⚠️ La **ruta** (sur de Asia → cabeza de puente en Yibuti → frentes) es **reconstrucción genómica** del paper, no algo que se derive de nuestras coordenadas. ⚠️ Los genotipos crudos están embargados: el notebook reproduce la geografía del muestreo, **no** las frecuencias de resistencia ni la genética de poblaciones. ⚠️ El conteo por región refleja el esfuerzo de vigilancia, no la densidad real del mosquito.
 
 [Ver notebook](papers/2026-07-10-stephensi-mosquito-invasor-africa/notebook) · [Leer más](papers/2026-07-10-stephensi-mosquito-invasor-africa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-10-stephensi-mosquito-invasor-africa/notebook.ipynb)
 
-### El bosque que también es una biblioteca
-
-**Ecología** · *Nature* (2026) · En la Amazonía, **5.796 plantas nativas** tienen un uso conocido —un tercio de la flora con semilla del bioma—, documentado en **90.536 reportes** de 700 referencias. El equipo cruzó modelos de distribución (**8.429 SDM** a 2060–2080) con el mapa de lenguas indígenas (**156 vivas, 55% amenazadas**). **El hallazgo:** donde las lenguas están amenazadas se proyecta perder **~1,5 veces más** bosque útil (**39% vs 25%** de especies, Wilcoxon P=0,0043; **27% vs 17%** de servicios, P=0,0018). Y una divergencia curiosa: la palma más citada (*Bactris gasipaes*, 178 refs) no es la que usan más pueblos (*Mauritia flexuosa*, 66 grupos). ⚠️ Toda 'pérdida' es **proyección** SDM, no medición. ⚠️ La coincidencia regional es **observacional**: no que perder la lengua *cause* perder la planta. ⚠️ Valores del texto Open Access del paper, no del ZIP de rásters de 10,5 GB.
-
-[Ver notebook](papers/2026-07-08-amazonia-conocimiento/notebook) · [Leer más](papers/2026-07-08-amazonia-conocimiento/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-08-amazonia-conocimiento/notebook.ipynb)
-
-### ¿Puede una IA adivinar cómo reaccionará la gente antes de preguntarle?
-
-**Tecnología** · *Nature* (2026) · Un equipo le pidió a GPT-4 que predijera el resultado de **70 experimentos sociales reales** —sin correr ninguno, solo leyendo el diseño— y comparó lo predicho con lo que de verdad pasó con **119.330 participantes** (**469 efectos**, 3.356 contrastes). **El hallazgo:** las predicciones se correlacionan fuerte con los efectos reales (**r = 0,80** en nuestro cálculo pooled; **0,85 crudo / 0,92 ajustado** a nivel de estudio en el paper), **a la altura de los pronósticos humanos** (r ajustado 0,89–0,93). Y algo revelador: los estudios que la IA **no pudo leer** —posteriores a su corte de entrenamiento— se predijeron incluso mejor (**r = 0,87**) que los ya publicados (**r = 0,69**), evidencia contra la mera memorización. Pero hay una trampa honesta: la IA **sobreestima** el tamaño de los efectos un **39%** en promedio (pendiente de regresión 0,55). ⚠️ En megastudios de campo el acierto baja a **r ≈ 0,34**, comparable al de expertos humanos (**0,26**). ⚠️ Solo experimentos de encuesta de EE. UU.; la correlación de rangos (Spearman 0,68) es más conservadora. ⚠️ Correlación ≠ exactitud: ordena bien pero no estima el tamaño exacto de un efecto.
-
-[Ver notebook](papers/2026-07-10-llm-predice-experimentos-sociales/notebook) · [Leer más](papers/2026-07-10-llm-predice-experimentos-sociales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-10-llm-predice-experimentos-sociales/notebook.ipynb)
+---
 
 ### ¿Cómo atrapar un arma nuclear escondida en el espacio? Con protones cósmicos
 
-**Física** · *Nature* (2026) · El Tratado del Espacio Exterior prohíbe armas nucleares en órbita desde **1967** (**117 países**), pero nadie había publicado cómo verificarlo. La propuesta: usar los protones de **~1 GeV** atrapados en el cinturón interno de Van Allen como linterna natural — cuando golpean una ojiva, le arrancan neutrones por *spallation* que un detector podría ver. **El hallazgo (en simulación):** un CubeSat 9U identificaría un arma termonuclear a **4 km en ~1 semana** (7,25 días con 1 detector); con **10 CubeSats, en 17 horas**. El pico de neutrones cae cerca de **0,15 MeV** y el tiempo de observación crece con el **cuadrado de la distancia**. ⚠️ Es un **estudio conceptual y de viabilidad**: ningún detector ha volado. ⚠️ Todo son simulaciones Geant4 más una fórmula analítica. ⚠️ Asume un arma y un punto orbital concretos.
+**Física** · *Nature* · El Tratado del Espacio Exterior prohíbe armas nucleares en órbita desde **1967** (**117 países**), pero nadie había publicado cómo verificarlo. La propuesta: usar los protones de **~1 GeV** atrapados en el cinturón interno de Van Allen como linterna natural — cuando golpean una ojiva, le arrancan neutrones por *spallation* que un detector podría ver. **El hallazgo (en simulación):** un CubeSat 9U identificaría un arma termonuclear a **4 km en ~1 semana** (7,25 días con 1 detector); con **10 CubeSats, en 17 horas**. El pico de neutrones cae cerca de **0,15 MeV** y el tiempo de observación crece con el **cuadrado de la distancia**. ⚠️ Es un **estudio conceptual y de viabilidad**: ningún detector ha volado. ⚠️ Todo son simulaciones Geant4 más una fórmula analítica. ⚠️ Asume un arma y un punto orbital concretos.
 
 [Ver notebook](papers/2026-07-09-verificacion-tratado-espacial-neutrones/notebook) · [Leer más](papers/2026-07-09-verificacion-tratado-espacial-neutrones/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-09-verificacion-tratado-espacial-neutrones/notebook.ipynb)
 
+---
+
+### ¿Puede una IA adivinar cómo reaccionará la gente antes de preguntarle?
+
+**Tecnología** · *Nature* · Un equipo le pidió a GPT-4 que predijera el resultado de **70 experimentos sociales reales** —sin correr ninguno, solo leyendo el diseño— y comparó lo predicho con lo que de verdad pasó con **119.330 participantes** (**469 efectos**, 3.356 contrastes). **El hallazgo:** las predicciones se correlacionan fuerte con los efectos reales (**r = 0,80** en nuestro cálculo pooled; **0,85 crudo / 0,92 ajustado** a nivel de estudio en el paper), **a la altura de los pronósticos humanos** (r ajustado 0,89–0,93). Y algo revelador: los estudios que la IA **no pudo leer** —posteriores a su corte de entrenamiento— se predijeron incluso mejor (**r = 0,87**) que los ya publicados (**r = 0,69**), evidencia contra la mera memorización. Pero hay una trampa honesta: la IA **sobreestima** el tamaño de los efectos un **39%** en promedio (pendiente de regresión 0,55). ⚠️ En megastudios de campo el acierto baja a **r ≈ 0,34**, comparable al de expertos humanos (**0,26**). ⚠️ Solo experimentos de encuesta de EE. UU.; la correlación de rangos (Spearman 0,68) es más conservadora. ⚠️ Correlación ≠ exactitud: ordena bien pero no estima el tamaño exacto de un efecto.
+
+[Ver notebook](papers/2026-07-10-llm-predice-experimentos-sociales/notebook) · [Leer más](papers/2026-07-10-llm-predice-experimentos-sociales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-10-llm-predice-experimentos-sociales/notebook.ipynb)
+
+---
+
 ### ¿Qué tan bien opera un robot humanoide? Lo midieron contra el da Vinci
 
-**Tecnología** · *Nature* (2026) · Investigadores montaron un sistema de teleoperación sobre un humanoide comercial y le pusieron las mismas dos pruebas del examen de laparoscopia (FLS) que hace un cirujano para certificarse, midiéndolo contra el **da Vinci** (el robot quirúrgico dedicado) y la **laparoscopia manual**. **El hallazgo:** el humanoide es **~3,4× más lento que el da Vinci**, pero **~2× más rápido que la mano humana** con instrumentos (medianas de peg transfer: 102 s / 351 s / 696 s). Y la sorpresa está en la precisión: **empata con el dVRK** —la diferencia de error por intento no es estadísticamente distinguible (**p=0,72**)— y comete menos error que la técnica manual (**p=0,022**). La experiencia pesa: con el humanoide, los cirujanos tardan **menos de la mitad** que los novatos (mediana 41,9 s vs 108,7 s por intento). ⚠️ Son tareas de laboratorio (*dry-lab*), no cirugía en un paciente. ⚠️ El humanoide es **teleoperado** —una persona lo dirige, no opera solo—. ⚠️ Es un estudio de **viabilidad técnica, no de eficacia clínica**; los estudios in vivo en cerdos que menciona el abstract no están en el dataset público.
+**Tecnología** · *Nature* · Investigadores montaron un sistema de teleoperación sobre un humanoide comercial y le pusieron las mismas dos pruebas del examen de laparoscopia (FLS) que hace un cirujano para certificarse, midiéndolo contra el **da Vinci** (el robot quirúrgico dedicado) y la **laparoscopia manual**. **El hallazgo:** el humanoide es **~3,4× más lento que el da Vinci**, pero **~2× más rápido que la mano humana** con instrumentos (medianas de peg transfer: 102 s / 351 s / 696 s). Y la sorpresa está en la precisión: **empata con el dVRK** —la diferencia de error por intento no es estadísticamente distinguible (**p=0,72**)— y comete menos error que la técnica manual (**p=0,022**). La experiencia pesa: con el humanoide, los cirujanos tardan **menos de la mitad** que los novatos (mediana 41,9 s vs 108,7 s por intento). ⚠️ Son tareas de laboratorio (*dry-lab*), no cirugía en un paciente. ⚠️ El humanoide es **teleoperado** —una persona lo dirige, no opera solo—. ⚠️ Es un estudio de **viabilidad técnica, no de eficacia clínica**; los estudios in vivo en cerdos que menciona el abstract no están en el dataset público.
 
 [Ver notebook](papers/2026-07-08-humanoides-cirugia-laparoscopica/notebook) · [Leer más](papers/2026-07-08-humanoides-cirugia-laparoscopica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-08-humanoides-cirugia-laparoscopica/notebook.ipynb)
 
+---
+
 ### Una vacuna hizo que monos fabricaran anticuerpos contra el VIH
 
-**Medicina** · *Nature* (2026) · Durante casi 40 años, ninguna vacuna logró que un animal normal fabricara los anticuerpos raros que frenan muchas cepas de VIH a la vez. Un equipo probó la estrategia *germline-targeting* —guiar a las células B desde su versión más joven— en primates no humanos *outbred* (genéticamente diversos, como nosotros). **El hallazgo:** en la semana 82 **la mitad de los anticuerpos ya se pegaba a 7 de los 11 VIH** del panel, y **el 98% (55 de 56) apuntaba al supersitio del glicano N332** —el epítopo que el diseño buscaba—; el cebador engancha a los precursores a **57 picomolar** (100% de unión). Comparten además la firma estructural de la clase BG18: **HCDR3 de 21 aminoácidos** de mediana. Pero la amplitud es parcial: cuatro aislados (0712, 0860, 1026, DU422) resisten aun en anticuerpos maduros. ⚠️ Todo lo graficado es **unión** (afinidad SPR), no **neutralización** — los porcentajes de neutralización del paper (hasta **67%** de amplitud; bnAb en **≥50%** de los animales) viven en tablas del suplemento no públicas y no se reproducen aquí. ⚠️ Es prueba de concepto **en primates**, no una vacuna lista para humanos. ⚠️ La semana 95 tiene n=11 y no debe leerse como una caída real.
+**Medicina** · *Nature* · Durante casi 40 años, ninguna vacuna logró que un animal normal fabricara los anticuerpos raros que frenan muchas cepas de VIH a la vez. Un equipo probó la estrategia *germline-targeting* —guiar a las células B desde su versión más joven— en primates no humanos *outbred* (genéticamente diversos, como nosotros). **El hallazgo:** en la semana 82 **la mitad de los anticuerpos ya se pegaba a 7 de los 11 VIH** del panel, y **el 98% (55 de 56) apuntaba al supersitio del glicano N332** —el epítopo que el diseño buscaba—; el cebador engancha a los precursores a **57 picomolar** (100% de unión). Comparten además la firma estructural de la clase BG18: **HCDR3 de 21 aminoácidos** de mediana. Pero la amplitud es parcial: cuatro aislados (0712, 0860, 1026, DU422) resisten aun en anticuerpos maduros. ⚠️ Todo lo graficado es **unión** (afinidad SPR), no **neutralización** — los porcentajes de neutralización del paper (hasta **67%** de amplitud; bnAb en **≥50%** de los animales) viven en tablas del suplemento no públicas y no se reproducen aquí. ⚠️ Es prueba de concepto **en primates**, no una vacuna lista para humanos. ⚠️ La semana 95 tiene n=11 y no debe leerse como una caída real.
 
 [Ver notebook](papers/2026-07-08-vacuna-hiv-anticuerpos-primates/notebook) · [Leer más](papers/2026-07-08-vacuna-hiv-anticuerpos-primates/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-08-vacuna-hiv-anticuerpos-primates/notebook.ipynb)
 
+---
+
 ### Un millón de animales muertos: encontraron al culpable en el agua
 
-**Ecología** · *Nature Ecology & Evolution* (2026) · En 2025 la costa de Australia del Sur amaneció cubierta de cadáveres: cerca de **un millón de animales** de **más de 600 especies** murieron a lo largo de **20.000 km²** durante más de un año. Un equipo tomó 115 muestras de agua y contó por qPCR el ADN de siete algas del género *Karenia*. **El hallazgo:** una especie nueva, *Karenia cristata*, **dominó el 88,6%** de todas las células (la más abundante en **96 de 115 muestras**, 11× sobre la segunda). Aislaron su cultivo y midieron el veneno: sobre células de branquia de trucha la viabilidad se desploma con un **EC50 ≈ 27 células/mL** (Spearman **ρ = −0,93**), y sobre invertebrados el cultivo puro mata igual que el agua del mar — cerrando el vínculo causal. El remate: en el mar la mediana rondaba **~337 células/mL**, unas **12 veces** por encima de esa dosis letal de laboratorio. ⚠️ El EC50 viene de células de branquia *in vitro* (2 h), no del pez entero: es indicador de potencia, no dosis letal en la naturaleza. ⚠️ Las diluciones de invertebrados son pocas y ruidosas — se reporta tendencia y extremos, no una LC50 puntual. ⚠️ El mecanismo hidrodinámico que concentró la floración el paper lo enmarca como hipótesis (*appear to have entrained*), no como hecho.
+**Ecología** · *Nature Ecology & Evolution* · En 2025 la costa de Australia del Sur amaneció cubierta de cadáveres: cerca de **un millón de animales** de **más de 600 especies** murieron a lo largo de **20.000 km²** durante más de un año. Un equipo tomó 115 muestras de agua y contó por qPCR el ADN de siete algas del género *Karenia*. **El hallazgo:** una especie nueva, *Karenia cristata*, **dominó el 88,6%** de todas las células (la más abundante en **96 de 115 muestras**, 11× sobre la segunda). Aislaron su cultivo y midieron el veneno: sobre células de branquia de trucha la viabilidad se desploma con un **EC50 ≈ 27 células/mL** (Spearman **ρ = −0,93**), y sobre invertebrados el cultivo puro mata igual que el agua del mar — cerrando el vínculo causal. El remate: en el mar la mediana rondaba **~337 células/mL**, unas **12 veces** por encima de esa dosis letal de laboratorio. ⚠️ El EC50 viene de células de branquia *in vitro* (2 h), no del pez entero: es indicador de potencia, no dosis letal en la naturaleza. ⚠️ Las diluciones de invertebrados son pocas y ruidosas — se reporta tendencia y extremos, no una LC50 puntual. ⚠️ El mecanismo hidrodinámico que concentró la floración el paper lo enmarca como hipótesis (*appear to have entrained*), no como hecho.
 
 [Ver notebook](papers/2026-07-08-karenia-cristata-mortandad-marina/notebook) · [Leer más](papers/2026-07-08-karenia-cristata-mortandad-marina/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-08-karenia-cristata-mortandad-marina/notebook.ipynb)
 
+---
+
+### El bosque que también es una biblioteca
+
+**Ecología** · *Nature* · En la Amazonía, **5.796 plantas nativas** tienen un uso conocido —un tercio de la flora con semilla del bioma—, documentado en **90.536 reportes** de 700 referencias. El equipo cruzó modelos de distribución (**8.429 SDM** a 2060–2080) con el mapa de lenguas indígenas (**156 vivas, 55% amenazadas**). **El hallazgo:** donde las lenguas están amenazadas se proyecta perder **~1,5 veces más** bosque útil (**39% vs 25%** de especies, Wilcoxon P=0,0043; **27% vs 17%** de servicios, P=0,0018). Y una divergencia curiosa: la palma más citada (*Bactris gasipaes*, 178 refs) no es la que usan más pueblos (*Mauritia flexuosa*, 66 grupos). ⚠️ Toda 'pérdida' es **proyección** SDM, no medición. ⚠️ La coincidencia regional es **observacional**: no que perder la lengua *cause* perder la planta. ⚠️ Valores del texto Open Access del paper, no del ZIP de rásters de 10,5 GB.
+
+[Ver notebook](papers/2026-07-08-amazonia-conocimiento/notebook) · [Leer más](papers/2026-07-08-amazonia-conocimiento/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-08-amazonia-conocimiento/notebook.ipynb)
+
+---
+
 ### El parto humano no es el más difícil de los primates
 
-**Biología** · *Nature Ecology & Evolution* (2026) · El libro de texto repetía que el parto humano es el más apretado del reino primate, el precio de un cerebro grande en una pelvis bípeda. Un equipo midió en 3D la pelvis y el cráneo neonatal de **29 especies** y reordenó la lista. **El hallazgo:** el humano queda en el **puesto 13 de 29** en estrechez cefalopélvica — **12 especies** tienen un parto más apretado, la más extrema el tamarino (CPP **2,80**). Eso sí, entre los simios el humano es la excepción: el ape con el encaje más justo (**1,00** frente al **0,41** del gorila). ¿El factor que separa apretados de holgados? No el cerebro, sino el tamaño de la madre: a menor masa materna, encaje más apretado (**Spearman ρ = -0,70**). ⚠️ Estudio observacional/comparativo: muestra asociación, no causa. ⚠️ Usa medidas derivadas de las tablas suplementarias; los datos crudos de tomografía están restringidos. ⚠️ El reframe "la unicidad del parto humano es un artefacto de medición" el paper lo enmarca como hipótesis (*may be an artefact*), no como veredicto.
+**Biología** · *Nature Ecology & Evolution* · El libro de texto repetía que el parto humano es el más apretado del reino primate, el precio de un cerebro grande en una pelvis bípeda. Un equipo midió en 3D la pelvis y el cráneo neonatal de **29 especies** y reordenó la lista. **El hallazgo:** el humano queda en el **puesto 13 de 29** en estrechez cefalopélvica — **12 especies** tienen un parto más apretado, la más extrema el tamarino (CPP **2,80**). Eso sí, entre los simios el humano es la excepción: el ape con el encaje más justo (**1,00** frente al **0,41** del gorila). ¿El factor que separa apretados de holgados? No el cerebro, sino el tamaño de la madre: a menor masa materna, encaje más apretado (**Spearman ρ = -0,70**). ⚠️ Estudio observacional/comparativo: muestra asociación, no causa. ⚠️ Usa medidas derivadas de las tablas suplementarias; los datos crudos de tomografía están restringidos. ⚠️ El reframe "la unicidad del parto humano es un artefacto de medición" el paper lo enmarca como hipótesis (*may be an artefact*), no como veredicto.
 
 [Ver notebook](papers/2026-07-06-parto-cefalopelvico-primates/notebook) · [Leer más](papers/2026-07-06-parto-cefalopelvico-primates/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-06-parto-cefalopelvico-primates/notebook.ipynb)
 
+---
+
 ### GW250114: la huella del horizonte de un agujero negro
 
-**Astronomía** · *Nature* (2026) · Un agujero negro arrastra el espacio a su alrededor: cualquier cosa que cruza su horizonte parece girar a una misma velocidad, la del propio horizonte. GW250114, una de las fusiones más ruidosas jamás detectadas, trajo escondida una "onda directa" que lleva esa firma. **El hallazgo:** la onda aparece con **SNR de filtro adaptado ≈ 15,8 (Hanford) / 17,1 (Livingston)**, y sus dos cocientes característicos convergen en **1** cerca de la fusión — la onda oscila a la velocidad de arrastre del horizonte (2·Ω_H) y se apaga a su gravedad superficial (κ), la firma de un agujero negro de Kerr. El remanente: **~63 masas solares** girando a **dos tercios** del máximo, tras radiar **~3,12 masas solares** en ondas gravitacionales. ⚠️ Es un solo evento, de los más fuertes registrados; la onda directa es tenue y solo se ve por esa potencia excepcional. ⚠️ Los cocientes de la huella salen del modelo analítico del paper normalizado con el espín del remanente (χ_f = 0,6725), no de una medición independiente del horizonte. ⚠️ El paper la enmarca como *primera evidencia* observacional de su clase, aún no repetida en muchos eventos.
+**Astronomía** · *Nature* · Un agujero negro arrastra el espacio a su alrededor: cualquier cosa que cruza su horizonte parece girar a una misma velocidad, la del propio horizonte. GW250114, una de las fusiones más ruidosas jamás detectadas, trajo escondida una "onda directa" que lleva esa firma. **El hallazgo:** la onda aparece con **SNR de filtro adaptado ≈ 15,8 (Hanford) / 17,1 (Livingston)**, y sus dos cocientes característicos convergen en **1** cerca de la fusión — la onda oscila a la velocidad de arrastre del horizonte (2·Ω_H) y se apaga a su gravedad superficial (κ), la firma de un agujero negro de Kerr. El remanente: **~63 masas solares** girando a **dos tercios** del máximo, tras radiar **~3,12 masas solares** en ondas gravitacionales. ⚠️ Es un solo evento, de los más fuertes registrados; la onda directa es tenue y solo se ve por esa potencia excepcional. ⚠️ Los cocientes de la huella salen del modelo analítico del paper normalizado con el espín del remanente (χ_f = 0,6725), no de una medición independiente del horizonte. ⚠️ El paper la enmarca como *primera evidencia* observacional de su clase, aún no repetida en muchos eventos.
 
 [Ver notebook](papers/2026-06-24-gw250114-horizonte-agujero-negro/notebook) · [Leer más](papers/2026-06-24-gw250114-horizonte-agujero-negro/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-24-gw250114-horizonte-agujero-negro/notebook.ipynb)
 
-### El carbono de 3I/ATLAS es casi el doble de primitivo que el del Sol
-
-**Astronomía** · *Nature* (2026) · 3I/ATLAS es apenas el tercer objeto interestelar que cruza el sistema solar, y con JWST midieron la huella isotópica de su gas. **El hallazgo:** su ¹²C/¹³C ronda **147–166**, casi el doble del solar (**89**) — y ningún lugar de la Vía Láctea actual llega tan alto: el gradiente galáctico se queda en **~97** (para alcanzar 141 harían falta 25 kpc, fuera de la galaxia poblada). Su agua además rebosa deuterio: **D/H = 0,98%**, más de 10 veces el de cualquier cometa conocido. Ocho pistas independientes apuntan a lo mismo: nació **frío y muy antiguo**. ⚠️ No hay dataset descargable: las cifras se destilaron del abstract y el Supplementary revisado por pares. ⚠️ La edad de hasta **~12.000 millones de años** es dependiente de modelos de evolución química galáctica — el paper dice *may*, y la edad dinámica independiente da ~3–11 Gyr. ⚠️ La temperatura de formación (≲30 K) es inferencia, no medición directa.
-
-[Ver notebook](papers/2026-06-22-3i-atlas-isotopos-origen-frio/notebook) · [Leer más](papers/2026-06-22-3i-atlas-isotopos-origen-frio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-22-3i-atlas-isotopos-origen-frio/notebook.ipynb)
+---
 
 ### ¿Puede una IA manejar un caso clínico mejor que un médico?
 
-**Tecnología** · *Nature* (2026) · MIRA es un agente de IA que no solo conversa: opera dentro de una historia clínica electrónica simulada, pide análisis, lee imágenes y propone tratamientos. **El hallazgo:** en una simulación sobre casos reales pero retrospectivos de MIMIC-IV, acertó **el 87,8% de los diagnósticos frente al 78,1% de los médicos certificados** (+9,7 pp), igualando o superándolos en los 8 diagnósticos (la mayor brecha en neumonía, +19,2 pp). Y no solo diagnostica: 0 de 56 escenarios inseguros al recetar, y en decisiones de ingreso nunca omitió uno necesario (sensibilidad 100%, aunque ingresó de más 9 veces). Pero no es una goleada: en **radiología ganan los médicos** (61,5% vs 55,3%), y en sangre y microbiología ambos rinden bajo. ⚠️ La trampa está en la palabra *simulación*: casos ya cerrados, sin paciente enfrente, con los médicos bajo las mismas restricciones. ⚠️ La sensibilidad del 100% se midió sobre 80 casos y solo 2 diagnósticos. ⚠️ El propio paper pide estudios prospectivos del mundo real antes de hablar de generalización, seguridad y gobernanza.
+**Tecnología** · *Nature* · MIRA es un agente de IA que no solo conversa: opera dentro de una historia clínica electrónica simulada, pide análisis, lee imágenes y propone tratamientos. **El hallazgo:** en una simulación sobre casos reales pero retrospectivos de MIMIC-IV, acertó **el 87,8% de los diagnósticos frente al 78,1% de los médicos certificados** (+9,7 pp), igualando o superándolos en los 8 diagnósticos (la mayor brecha en neumonía, +19,2 pp). Y no solo diagnostica: 0 de 56 escenarios inseguros al recetar, y en decisiones de ingreso nunca omitió uno necesario (sensibilidad 100%, aunque ingresó de más 9 veces). Pero no es una goleada: en **radiología ganan los médicos** (61,5% vs 55,3%), y en sangre y microbiología ambos rinden bajo. ⚠️ La trampa está en la palabra *simulación*: casos ya cerrados, sin paciente enfrente, con los médicos bajo las mismas restricciones. ⚠️ La sensibilidad del 100% se midió sobre 80 casos y solo 2 diagnósticos. ⚠️ El propio paper pide estudios prospectivos del mundo real antes de hablar de generalización, seguridad y gobernanza.
 
 [Ver notebook](papers/2026-07-03-mira-ia-medica-autonoma/notebook) · [Leer más](papers/2026-07-03-mira-ia-medica-autonoma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-03-mira-ia-medica-autonoma/notebook.ipynb)
 
+---
+
+### El carbono de 3I/ATLAS es casi el doble de primitivo que el del Sol
+
+**Astronomía** · *Nature* · 3I/ATLAS es apenas el tercer objeto interestelar que cruza el sistema solar, y con JWST midieron la huella isotópica de su gas. **El hallazgo:** su ¹²C/¹³C ronda **147–166**, casi el doble del solar (**89**) — y ningún lugar de la Vía Láctea actual llega tan alto: el gradiente galáctico se queda en **~97** (para alcanzar 141 harían falta 25 kpc, fuera de la galaxia poblada). Su agua además rebosa deuterio: **D/H = 0,98%**, más de 10 veces el de cualquier cometa conocido. Ocho pistas independientes apuntan a lo mismo: nació **frío y muy antiguo**. ⚠️ No hay dataset descargable: las cifras se destilaron del abstract y el Supplementary revisado por pares. ⚠️ La edad de hasta **~12.000 millones de años** es dependiente de modelos de evolución química galáctica — el paper dice *may*, y la edad dinámica independiente da ~3–11 Gyr. ⚠️ La temperatura de formación (≲30 K) es inferencia, no medición directa.
+
+[Ver notebook](papers/2026-06-22-3i-atlas-isotopos-origen-frio/notebook) · [Leer más](papers/2026-06-22-3i-atlas-isotopos-origen-frio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-22-3i-atlas-isotopos-origen-frio/notebook.ipynb)
+
+---
+
 ### Para llegar a su sitio en el cerebro, una neurona se rompe el ADN
 
-**Neurociencia** · *Nature* (2026) · Para migrar a su capa final en el cerebelo, las neuronas recién nacidas se apretujan por pasadizos más estrechos que su propio núcleo — y el apretón les parte las dos cadenas del ADN. **El hallazgo:** durante la migración, **el 41% de las neuronas** tienen el ADN roto (día 4); en el cerebro adulto el daño baja a **0,2%** (día 30). El culpable es mecánico: en corredores de **3 µm** el daño llega al 42%, contra 8% en los de 5 µm (unas 5 veces más). Y la neurona no muere — repara cada corte en una o dos horas (mediana **82 min**). Cuando apagan la Ligasa IV que sella los cortes, el ratón camina de adulto con las patas **+17% más abiertas**. ⚠️ La curva de daño por desarrollo es descriptiva: muestra cuándo ocurre el daño, no prueba el mecanismo (eso lo aporta el experimento de corredores). ⚠️ El andar Control vs mutante está pseudorreplicado (varias huellas por ratón, sin IDs). ⚠️ El salto a "riesgo de enfermedad" es del paper, en modo condicional; el déficit motor global es leve.
+**Neurociencia** · *Nature* · Para migrar a su capa final en el cerebelo, las neuronas recién nacidas se apretujan por pasadizos más estrechos que su propio núcleo — y el apretón les parte las dos cadenas del ADN. **El hallazgo:** durante la migración, **el 41% de las neuronas** tienen el ADN roto (día 4); en el cerebro adulto el daño baja a **0,2%** (día 30). El culpable es mecánico: en corredores de **3 µm** el daño llega al 42%, contra 8% en los de 5 µm (unas 5 veces más). Y la neurona no muere — repara cada corte en una o dos horas (mediana **82 min**). Cuando apagan la Ligasa IV que sella los cortes, el ratón camina de adulto con las patas **+17% más abiertas**. ⚠️ La curva de daño por desarrollo es descriptiva: muestra cuándo ocurre el daño, no prueba el mecanismo (eso lo aporta el experimento de corredores). ⚠️ El andar Control vs mutante está pseudorreplicado (varias huellas por ratón, sin IDs). ⚠️ El salto a "riesgo de enfermedad" es del paper, en modo condicional; el déficit motor global es leve.
 
 [Ver notebook](papers/2026-07-02-neuronas-migracion-dano-adn/notebook) · [Leer más](papers/2026-07-02-neuronas-migracion-dano-adn/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-02-neuronas-migracion-dano-adn/notebook.ipynb)
 
-### Un catalizador que convierte basura en combustible — y aguanta 850 horas
-
-**Química** · *Science* (2026) · Reformar metano con CO₂ convierte residuos y gas en la materia prima de los combustibles — pero los catalizadores se llenan de hollín y mueren rápido. De **50 catalizadores** publicados para esa reacción, uno destaca solo: **NiMoCat** es el único que cruza el **99% de conversión de CH₄** y encima aguanta **850 horas** sin apagarse (la mediana del campo es 79% y 40 horas). **El hallazgo:** también muestra la letra pequeña del escalado — ese 99% era en polvo de laboratorio; al prensarlo en pellets de reactor, la conversión **cae ~22 puntos** (97,7% → 75,4%). ⚠️ La tabla de 50 junta estudios medidos en condiciones distintas: es un mapa indicativo, no un pique controlado. ⚠️ "Escala industrial" = kilogramos + reactor de alta presión, no despliegue comercial. ⚠️ La energía de activación (79 kJ/mol) es un dato reportado por el paper, no reproducido aquí.
-
-[Ver notebook](papers/2026-06-25-nimocat-reformado-residuos/notebook) · [Leer más](papers/2026-06-25-nimocat-reformado-residuos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-25-nimocat-reformado-residuos/notebook.ipynb)
-
-### La atmósfera de un planeta que orbita una enana blanca
-
-**Astronomía** · *Nature* (2026) · Cuando una estrella como el Sol muere, deja una enana blanca del tamaño de la Tierra. WD 1856 b es un planeta gigante que sobrevivió a esa muerte y hoy la orbita tan de cerca que, al pasar por delante, **tapa 51–56% de su luz** — el tránsito más profundo conocido, porque el planeta es más grande que la estrella. El James Webb aprovechó ese eclipse descomunal para leer su atmósfera. **El hallazgo:** el espectro revela aerosoles e hidrocarburos, acota la masa a **4,3–10,9 masas de Júpiter** y mide una temperatura efectiva de **~390–412 K**, unos **242 K por encima** de los 160 K de equilibrio esperados. ⚠️ El metano es el candidato preferido con evidencia moderada (odds 17:1–30:1), no una detección confirmada. ⚠️ Masa y temperatura salen de ajustar modelos al espectro (por eso dos pipelines independientes). ⚠️ Todo apunta a un recalentamiento hace 3,0–5,5 Gyr, pero es una inferencia de modelos de enfriamiento, no una medición.
-
-[Ver notebook](papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook) · [Leer más](papers/2026-07-01-atmosfera-enana-blanca-wd1856/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook.ipynb)
+---
 
 ### Una huella de hace 4.500 millones de años en una lava de hoy
 
-**Geología** · *Nature* (2026) · El manto terrestre guarda parches químicos de distintas edades, pero fechar su origen es dificilísimo. Un equipo midió con altísima precisión el neodimio en lavas de dos volcanes vecinos de las Comoras. **El hallazgo:** las lavas del volcán submarino Fani Maore traen una anomalía de ¹⁴²Nd de **+3,2 ppm** (n=13), distinta del estándar (Welch p < 0,00001) y de su vecino Mayotte (p = 0,028; Cohen's d = 1,15). Como el ¹⁴²Nd solo se fabrica con el ¹⁴⁶Sm — un reloj radiactivo extinto hace ~4.500 millones de años — esa firma **tuvo** que crearse en los primeros 100 millones de años de la Tierra. El mecanismo: la bridgmanita cristalizada de un océano de magma agarra Sm **2,1×** más que Nd, duplicando la razón Sm/Nd (0,96 → 2,07). ⚠️ Que el material sea bridgmanita de un océano de magma es la hipótesis de los autores ('suggest'), no una prueba directa. ⚠️ Las anomalías son de pocas ppm, cerca del límite de detección.
+**Geología** · *Nature* · El manto terrestre guarda parches químicos de distintas edades, pero fechar su origen es dificilísimo. Un equipo midió con altísima precisión el neodimio en lavas de dos volcanes vecinos de las Comoras. **El hallazgo:** las lavas del volcán submarino Fani Maore traen una anomalía de ¹⁴²Nd de **+3,2 ppm** (n=13), distinta del estándar (Welch p < 0,00001) y de su vecino Mayotte (p = 0,028; Cohen's d = 1,15). Como el ¹⁴²Nd solo se fabrica con el ¹⁴⁶Sm — un reloj radiactivo extinto hace ~4.500 millones de años — esa firma **tuvo** que crearse en los primeros 100 millones de años de la Tierra. El mecanismo: la bridgmanita cristalizada de un océano de magma agarra Sm **2,1×** más que Nd, duplicando la razón Sm/Nd (0,96 → 2,07). ⚠️ Que el material sea bridgmanita de un océano de magma es la hipótesis de los autores ('suggest'), no una prueba directa. ⚠️ Las anomalías son de pocas ppm, cerca del límite de detección.
 
 [Ver notebook](papers/2026-07-01-bridgmanita-hadeana-manto/notebook) · [Leer más](papers/2026-07-01-bridgmanita-hadeana-manto/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-01-bridgmanita-hadeana-manto/notebook.ipynb)
 
-### ¿Una IA lee tu radiografía dental mejor que el dentista?
-
-**Tecnología** · *Nature Biomedical Engineering* (2026) · Interpretar una radiografía panorámica dental toma tiempo y faltan especialistas, así que los reportes salen incompletos. Un equipo entrenó DentFound, un modelo de visión y lenguaje, sobre más de **101.000 pacientes** (98 enfermedades, 11 categorías post-tratamiento). **El hallazgo:** DentFound queda #1 en F1 en las 4 cohortes hospitalarias (84,78% a 94,20%) y escribe reportes **más completos** que un radiólogo humano — Recall **0,811 vs 0,518 (+56,6%)**, porque el humano se centra en la queja principal y omite hallazgos incidentales. La máscara *instance-guidance* que da nombre al método casi duplica el CIDEr (**+86%**). ⚠️ 'Más completo' no es 'mejor': en los ratings subjetivos de expertos el humano queda arriba en **10 de 12** pares. ⚠️ Es **apoyo diagnóstico**, no diagnóstico certificado — el título dice *towards clinical-level*. ⚠️ Las imágenes clínicas no son públicas; los datos vienen del Source Data de figuras.
-
-[Ver notebook](papers/2026-06-26-dentfound-panoramica-dental/notebook) · [Leer más](papers/2026-06-26-dentfound-panoramica-dental/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-26-dentfound-panoramica-dental/notebook.ipynb)
+---
 
 ### Un biomarcador en el ECG para la muerte súbita, hallado con deep learning
 
-**Medicina** · *Nature* (2026) · La muerte súbita cardíaca es, en teoría, evitable con un desfibrilador; el cuello de botella es saber a quién ponérselo. El examen estándar de hoy (la FEVI) se le escapa a la mayoría. Un equipo entrenó un modelo de aprendizaje profundo sobre **441.614 electrocardiogramas** de una región de Suecia ligados a certificados de defunción. **El hallazgo:** el modelo ordena el riesgo de muerte súbita con un **AUC de 0,87** frente al **0,70** del estándar clínico, y aísla un grupo de alto riesgo (2,2% de la muestra, **7,0% anual** de muerte súbita) del que el **86,1% es invisible para la FEVI**. Generaliza sin reentrenar a EE.UU. (AUC 0,82) y Taiwán (0,77), y en un control de muertes **no** arrítmicas cae a 0,58 (casi azar), prueba de que detecta arritmia y no muerte genérica. ⚠️ El AUC **ordena** el riesgo, no diagnostica. ⚠️ El beneficio del desfibrilador (54,4% menos mortalidad) es **observacional**: sugiere, no prueba. ⚠️ El mecanismo del biomarcador es una **hipótesis preliminar**.
+**Medicina** · *Nature* · La muerte súbita cardíaca es, en teoría, evitable con un desfibrilador; el cuello de botella es saber a quién ponérselo. El examen estándar de hoy (la FEVI) se le escapa a la mayoría. Un equipo entrenó un modelo de aprendizaje profundo sobre **441.614 electrocardiogramas** de una región de Suecia ligados a certificados de defunción. **El hallazgo:** el modelo ordena el riesgo de muerte súbita con un **AUC de 0,87** frente al **0,70** del estándar clínico, y aísla un grupo de alto riesgo (2,2% de la muestra, **7,0% anual** de muerte súbita) del que el **86,1% es invisible para la FEVI**. Generaliza sin reentrenar a EE.UU. (AUC 0,82) y Taiwán (0,77), y en un control de muertes **no** arrítmicas cae a 0,58 (casi azar), prueba de que detecta arritmia y no muerte genérica. ⚠️ El AUC **ordena** el riesgo, no diagnostica. ⚠️ El beneficio del desfibrilador (54,4% menos mortalidad) es **observacional**: sugiere, no prueba. ⚠️ El mecanismo del biomarcador es una **hipótesis preliminar**.
 
 [Ver notebook](papers/2026-07-01-biomarcador-ecg-muerte-subita/notebook) · [Leer más](papers/2026-07-01-biomarcador-ecg-muerte-subita/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-01-biomarcador-ecg-muerte-subita/notebook.ipynb)
 
+---
+
+### La atmósfera de un planeta que orbita una enana blanca
+
+**Astronomía** · *Nature* · Cuando una estrella como el Sol muere, deja una enana blanca del tamaño de la Tierra. WD 1856 b es un planeta gigante que sobrevivió a esa muerte y hoy la orbita tan de cerca que, al pasar por delante, **tapa 51–56% de su luz** — el tránsito más profundo conocido, porque el planeta es más grande que la estrella. El James Webb aprovechó ese eclipse descomunal para leer su atmósfera. **El hallazgo:** el espectro revela aerosoles e hidrocarburos, acota la masa a **4,3–10,9 masas de Júpiter** y mide una temperatura efectiva de **~390–412 K**, unos **242 K por encima** de los 160 K de equilibrio esperados. ⚠️ El metano es el candidato preferido con evidencia moderada (odds 17:1–30:1), no una detección confirmada. ⚠️ Masa y temperatura salen de ajustar modelos al espectro (por eso dos pipelines independientes). ⚠️ Todo apunta a un recalentamiento hace 3,0–5,5 Gyr, pero es una inferencia de modelos de enfriamiento, no una medición.
+
+[Ver notebook](papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook) · [Leer más](papers/2026-07-01-atmosfera-enana-blanca-wd1856/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-07-01-atmosfera-enana-blanca-wd1856/notebook.ipynb)
+
+---
+
+### ¿Una IA lee tu radiografía dental mejor que el dentista?
+
+**Tecnología** · *Nature Biomedical Engineering* · Interpretar una radiografía panorámica dental toma tiempo y faltan especialistas, así que los reportes salen incompletos. Un equipo entrenó DentFound, un modelo de visión y lenguaje, sobre más de **101.000 pacientes** (98 enfermedades, 11 categorías post-tratamiento). **El hallazgo:** DentFound queda #1 en F1 en las 4 cohortes hospitalarias (84,78% a 94,20%) y escribe reportes **más completos** que un radiólogo humano — Recall **0,811 vs 0,518 (+56,6%)**, porque el humano se centra en la queja principal y omite hallazgos incidentales. La máscara *instance-guidance* que da nombre al método casi duplica el CIDEr (**+86%**). ⚠️ 'Más completo' no es 'mejor': en los ratings subjetivos de expertos el humano queda arriba en **10 de 12** pares. ⚠️ Es **apoyo diagnóstico**, no diagnóstico certificado — el título dice *towards clinical-level*. ⚠️ Las imágenes clínicas no son públicas; los datos vienen del Source Data de figuras.
+
+[Ver notebook](papers/2026-06-26-dentfound-panoramica-dental/notebook) · [Leer más](papers/2026-06-26-dentfound-panoramica-dental/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-26-dentfound-panoramica-dental/notebook.ipynb)
+
+---
+
 ### Casi todos los pastos marinos del mundo caben en 5 países
 
-**Ecología** · *Nature* (2026) · Los pastos marinos protegen las costas y atrapan carbono, pero son de los ecosistemas menos mapeados. Un equipo construyó el **primer mapa global a 10 m** con 4,75 millones de imágenes de Sentinel-2 y un clasificador de aprendizaje profundo. **El hallazgo:** hay **148.506 km²** de pastos marinos en el mundo, y están extremadamente concentrados: el **69% en 5 países** (Bahamas sola, el 36%), y **31 de 1.987 celdas de 1° (1,6%)** reúnen la mitad del área mundial. Una sola franja del Caribe y el Golfo de México (20-30°N) tiene el **59,3%**. ⚠️ Solo el **21%** está en áreas marinas protegidas (cifra del paper). ⚠️ Es un censo **observacional**: mide cuánto y dónde hay pasto, no por qué se perdió. ⚠️ La pérdida neta del abstract (4%, 5.969 km²) **no** equivale a la columna de pérdida bruta del dataset (44.171 km²).
+**Ecología** · *Nature* · Los pastos marinos protegen las costas y atrapan carbono, pero son de los ecosistemas menos mapeados. Un equipo construyó el **primer mapa global a 10 m** con 4,75 millones de imágenes de Sentinel-2 y un clasificador de aprendizaje profundo. **El hallazgo:** hay **148.506 km²** de pastos marinos en el mundo, y están extremadamente concentrados: el **69% en 5 países** (Bahamas sola, el 36%), y **31 de 1.987 celdas de 1° (1,6%)** reúnen la mitad del área mundial. Una sola franja del Caribe y el Golfo de México (20-30°N) tiene el **59,3%**. ⚠️ Solo el **21%** está en áreas marinas protegidas (cifra del paper). ⚠️ Es un censo **observacional**: mide cuánto y dónde hay pasto, no por qué se perdió. ⚠️ La pérdida neta del abstract (4%, 5.969 km²) **no** equivale a la columna de pérdida bruta del dataset (44.171 km²).
 
 [Ver notebook](papers/2026-06-30-pastos-marinos-mapa-global/notebook) · [Leer más](papers/2026-06-30-pastos-marinos-mapa-global/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-30-pastos-marinos-mapa-global/notebook.ipynb)
 
-### Una onda sísmica fue al núcleo de la Tierra, volvió y movió Japón entero
+---
 
-**Geología** · *Science* (2026) · El terremoto de Tohoku-Oki de 2011 (Mw 9,0) lanzó una onda de corte tan fuerte que bajó hasta el núcleo de la Tierra, rebotó y volvió a la superficie. Al reaparecer en Japón —ya como onda **ScS**—, los GPS registraron un **escalón hacia el este de hasta 5 a 6 mm** en todo el país. **El hallazgo:** el salto apareció en **104 estaciones (8,5%)** de Hokkaido a Okinawa y ocurrió **casi al mismo tiempo** (mediana 110 s, rango 92-128 s) en más de 2.000 km, decayendo con la distancia a la ruptura (Spearman ρ = −0,73). ⚠️ Las series que exploramos son **sintéticas** (salida de modelo): reproducen el escalón pero se quedan en 4,79 mm, algo por debajo del observado. ⚠️ Que la ScS *disparara* el deslizamiento es la **interpretación** del paper (*likely*), no una medición — estudio observacional. ⚠️ El peligro sísmico se plantea como posibilidad (*potentially*).
+### Un catalizador que convierte basura en combustible — y aguanta 850 horas
 
-[Ver notebook](papers/2026-06-18-scs-tohoku-megathrust-slip/notebook) · [Leer más](papers/2026-06-18-scs-tohoku-megathrust-slip/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-18-scs-tohoku-megathrust-slip/notebook.ipynb)
+**Química** · *Science* · Reformar metano con CO₂ convierte residuos y gas en la materia prima de los combustibles — pero los catalizadores se llenan de hollín y mueren rápido. De **50 catalizadores** publicados para esa reacción, uno destaca solo: **NiMoCat** es el único que cruza el **99% de conversión de CH₄** y encima aguanta **850 horas** sin apagarse (la mediana del campo es 79% y 40 horas). **El hallazgo:** también muestra la letra pequeña del escalado — ese 99% era en polvo de laboratorio; al prensarlo en pellets de reactor, la conversión **cae ~22 puntos** (97,7% → 75,4%). ⚠️ La tabla de 50 junta estudios medidos en condiciones distintas: es un mapa indicativo, no un pique controlado. ⚠️ "Escala industrial" = kilogramos + reactor de alta presión, no despliegue comercial. ⚠️ La energía de activación (79 kJ/mol) es un dato reportado por el paper, no reproducido aquí.
+
+[Ver notebook](papers/2026-06-25-nimocat-reformado-residuos/notebook) · [Leer más](papers/2026-06-25-nimocat-reformado-residuos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-25-nimocat-reformado-residuos/notebook.ipynb)
+
+---
 
 ### El calor olvidado que pudo derretir la corteza del Hadeano
 
-**Geología** · *Science* (2026) · Los modelos de la Tierra primitiva calculaban si la corteza estaba fundida mirando solo el calor interno del planeta. Un modelo geodinámico nuevo (*Chthonian*) suma lo que faltaba: el calor del intenso bombardeo de impactos. **El hallazgo:** en sus salidas, un impactor típico de 100 km a 26 km/s eleva la temperatura del choque hasta **~4.700 K — casi el doble (1,9×) del punto de fusión máximo del manto (~2.500 K)**, fundiendo la columna a cualquier profundidad. De los **109 impactos** del modelo, el 90% mide menos de 250 km y el 74% cae en los primeros 200 Ma. ⚠️ Son las salidas de **una realización estocástica de la banda ecuatorial**, no el flujo global. ⚠️ Las edades están en *tiempo de modelo*, sin calibrar a calendario. ⚠️ Que el calor de impacto superara al interno es la conclusión **cualitativa del modelo**, no recomputada en el notebook.
+**Geología** · *Science* · Los modelos de la Tierra primitiva calculaban si la corteza estaba fundida mirando solo el calor interno del planeta. Un modelo geodinámico nuevo (*Chthonian*) suma lo que faltaba: el calor del intenso bombardeo de impactos. **El hallazgo:** en sus salidas, un impactor típico de 100 km a 26 km/s eleva la temperatura del choque hasta **~4.700 K — casi el doble (1,9×) del punto de fusión máximo del manto (~2.500 K)**, fundiendo la columna a cualquier profundidad. De los **109 impactos** del modelo, el 90% mide menos de 250 km y el 74% cae en los primeros 200 Ma. ⚠️ Son las salidas de **una realización estocástica de la banda ecuatorial**, no el flujo global. ⚠️ Las edades están en *tiempo de modelo*, sin calibrar a calendario. ⚠️ Que el calor de impacto superara al interno es la conclusión **cualitativa del modelo**, no recomputada en el notebook.
 
 [Ver notebook](papers/2026-06-25-calor-impactos-hadean-oculto/notebook) · [Leer más](papers/2026-06-25-calor-impactos-hadean-oculto/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-25-calor-impactos-hadean-oculto/notebook.ipynb)
 
-### El universo no se ve igual en todas las direcciones (hasta donde alcanzamos a mirar)
-
-**Astronomía** · *Nature* (2026) · El principio cosmológico —base de casi toda la cosmología— asume que, si te alejas lo suficiente, el universo se ve igual hacia cualquier dirección. Un equipo mapeó **150.136 galaxias** de DESI DR1 en cinco profundidades, del vecindario cósmico hasta **~1 gigaparsec** (mil millones de pársecs), y midió si hay direcciones preferidas. **El hallazgo:** la distribución de galaxias muestra **estructuras anisotrópicas que persisten hasta escalas de un gigaparsec**, con significancia conservadora **>3σ** según el estadístico ADPD del paper frente a catálogos simulados ΛCDM. En nuestro proxy didáctico, el cosmos cercano es **7× más direccional** que el azar; las muestras profundas mantienen un exceso más leve. ⚠️ El notebook usa un **proxy ilustrativo**, no el ADPD del paper: su razón (×) nunca es una significancia σ. ⚠️ 3σ no es 5σ (el umbral de descubrimiento): una señal fuerte que **reta** el supuesto de isotropía, no que refute ΛCDM. ⚠️ Un solo estudio observacional, sobre la proyección 2D de rebanadas finas.
-
-[Ver notebook](papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook) · [Leer más](papers/2026-06-24-anisotropia-cosmica-gigaparsec/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook.ipynb)
+---
 
 ### Cargar rápido una batería nueva la hace durar más
 
-**Tecnología** · *Nature* (2026) · Toda la industria "forma" sus baterías cargándolas despacio la primera vez, para no maltratarlas. Este equipo probó lo contrario en cátodos ricos en litio (LLO): subir la corriente de esa primera carga de 0.2C a 2C. **El hallazgo:** la formación rápida da **+20% de capacidad** y retiene **98% tras 200 ciclos**, frente al **87%** de la lenta — y pierde menos de la mitad de litio irreversible (**34 vs 79 mAh/g**). La ventaja no está al inicio: **crece de +7% (ciclo 1) a +21%** con el uso. ⚠️ El **+36% de vida útil** del titular no es reproducible con este panel de 200 ciclos. ⚠️ El mecanismo (litio residual que ancla la red, *self-pinning*) lo muestra el paper por sincrotrón, no estas series. ⚠️ Datos de celdas tipo moneda de laboratorio.
+**Tecnología** · *Nature* · Toda la industria "forma" sus baterías cargándolas despacio la primera vez, para no maltratarlas. Este equipo probó lo contrario en cátodos ricos en litio (LLO): subir la corriente de esa primera carga de 0.2C a 2C. **El hallazgo:** la formación rápida da **+20% de capacidad** y retiene **98% tras 200 ciclos**, frente al **87%** de la lenta — y pierde menos de la mitad de litio irreversible (**34 vs 79 mAh/g**). La ventaja no está al inicio: **crece de +7% (ciclo 1) a +21%** con el uso. ⚠️ El **+36% de vida útil** del titular no es reproducible con este panel de 200 ciclos. ⚠️ El mecanismo (litio residual que ancla la red, *self-pinning*) lo muestra el paper por sincrotrón, no estas series. ⚠️ Datos de celdas tipo moneda de laboratorio.
 
 [Ver notebook](papers/2026-06-24-formacion-rapida-catodos-litio/notebook) · [Leer más](papers/2026-06-24-formacion-rapida-catodos-litio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-24-formacion-rapida-catodos-litio/notebook.ipynb)
 
-### Una violeta dispara sus semillas de a una, con la misma fuerza cada vez
+---
 
-**Biología** · *Science* (2026) · Muchas plantas lanzan sus semillas como una catapulta, pero ese disparo suele ser caótico: cada semilla sale con una fuerza distinta. Las violetas (*Viola* spp.) resolvieron eso apretando (*pinzando*) las semillas una tras otra, con fuerza pareja, gracias a la forma de la cáscara de su vaina. Kim et al. midieron 5 especies y separaron dos estrategias. **El hallazgo:** las violetas que disparan tienen la cáscara **~4 veces más rígida (58 vs 14 MPa) pero un 62% más delgada** que las dispersadas por hormigas — logran fuerza con menos material. Y el mismo principio funciona en valvas artificiales a lo largo de **4,4 órdenes de magnitud** de rigidez. ⚠️ Muestra chica (**3 vs 2 especies**): el contraste se sostiene en tamaños de efecto grandes (Cohen's d = 2–3,6), **no** en significancia estadística. ⚠️ Estudio **observacional** entre especies: están construidas distinto, no que disparar lo cause.
+### El universo no se ve igual en todas las direcciones (hasta donde alcanzamos a mirar)
 
-[Ver notebook](papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook) · [Leer más](papers/2026-06-18-viola-vaina-pinzamiento-secuencial/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook.ipynb)
+**Astronomía** · *Nature* · El principio cosmológico —base de casi toda la cosmología— asume que, si te alejas lo suficiente, el universo se ve igual hacia cualquier dirección. Un equipo mapeó **150.136 galaxias** de DESI DR1 en cinco profundidades, del vecindario cósmico hasta **~1 gigaparsec** (mil millones de pársecs), y midió si hay direcciones preferidas. **El hallazgo:** la distribución de galaxias muestra **estructuras anisotrópicas que persisten hasta escalas de un gigaparsec**, con significancia conservadora **>3σ** según el estadístico ADPD del paper frente a catálogos simulados ΛCDM. En nuestro proxy didáctico, el cosmos cercano es **7× más direccional** que el azar; las muestras profundas mantienen un exceso más leve. ⚠️ El notebook usa un **proxy ilustrativo**, no el ADPD del paper: su razón (×) nunca es una significancia σ. ⚠️ 3σ no es 5σ (el umbral de descubrimiento): una señal fuerte que **reta** el supuesto de isotropía, no que refute ΛCDM. ⚠️ Un solo estudio observacional, sobre la proyección 2D de rebanadas finas.
 
+[Ver notebook](papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook) · [Leer más](papers/2026-06-24-anisotropia-cosmica-gigaparsec/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-24-anisotropia-cosmica-gigaparsec/notebook.ipynb)
+
+---
 
 ### Un sticker en la piel que lee tu nutrición en el sudor
 
-**Tecnología** · *Nature Biomedical Engineering* (2026) · Medir folato hoy pide un pinchazo en el brazo y un laboratorio. Un equipo construyó una microcápsula que se pega a la piel, recoge microlitros de sudor limpio y los pasa a un *lab-on-a-disc* portátil que corre el ensayo completo. La pregunta de fondo: ¿el folato del sudor refleja el de la sangre? **El hallazgo:** sí lo sigue — **Spearman ρ = 0,84** entre folato en sudor y en suero (33 pares de 7 personas), con pico a la **1–2 h** tras la ingesta en ambos fluidos, y el disco portátil concuerda con el ELISA de laboratorio (**r = 0,97**). ⚠️ Validado en **7 adultos sanos (3 hombres, 4 mujeres), ninguna embarazada**: lo "prenatal" es la meta a futuro, no algo probado aquí. ⚠️ El seguimiento diario es de **solo 2 personas** (descriptivo, no test poblacional). ⚠️ El disco lee algo más bajo en concentraciones altas: sigue la tendencia, requiere calibración.
+**Tecnología** · *Nature Biomedical Engineering* · Medir folato hoy pide un pinchazo en el brazo y un laboratorio. Un equipo construyó una microcápsula que se pega a la piel, recoge microlitros de sudor limpio y los pasa a un *lab-on-a-disc* portátil que corre el ensayo completo. La pregunta de fondo: ¿el folato del sudor refleja el de la sangre? **El hallazgo:** sí lo sigue — **Spearman ρ = 0,84** entre folato en sudor y en suero (33 pares de 7 personas), con pico a la **1–2 h** tras la ingesta en ambos fluidos, y el disco portátil concuerda con el ELISA de laboratorio (**r = 0,97**). ⚠️ Validado en **7 adultos sanos (3 hombres, 4 mujeres), ninguna embarazada**: lo "prenatal" es la meta a futuro, no algo probado aquí. ⚠️ El seguimiento diario es de **solo 2 personas** (descriptivo, no test poblacional). ⚠️ El disco lee algo más bajo en concentraciones altas: sigue la tendencia, requiere calibración.
 
 [Ver notebook](papers/2026-06-17-folato-sudor-prenatal/notebook) · [Leer más](papers/2026-06-17-folato-sudor-prenatal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-17-folato-sudor-prenatal/notebook.ipynb)
 
+---
+
 ### La peste no nació en las ciudades
 
-**Medicina** · *Nature* (2026) · Durante décadas se creyó que la peste necesitaba aglomeración para volverse letal: ciudades, graneros, la vida densa del Neolítico. Pero el ADN antiguo de cuatro cementerios de cazadores-recolectores junto al lago **Baikal**, en Siberia, lo pone en duda: hace unos **5.500 años** estos grupos móviles ya morían de peste. **El hallazgo:** **39% de los individuos analizados** (18 de 46) dieron positivo a *Yersinia pestis*, y la mediana de edad al morir fue de apenas **14,5 años** — 7 de las 18 víctimas eran niños de 8 a 12. Los brotes llegaron en **dos olas** separadas por siglos. ⚠️ Es detección en **restos enterrados**, no la tasa de contagio de la población viva. ⚠️ Estudio **observacional**: vemos a quién tocó la peste, no una relación causa-efecto medida. ⚠️ Muestras chicas por cementerio (de 2 a 31 personas).
+**Medicina** · *Nature* · Durante décadas se creyó que la peste necesitaba aglomeración para volverse letal: ciudades, graneros, la vida densa del Neolítico. Pero el ADN antiguo de cuatro cementerios de cazadores-recolectores junto al lago **Baikal**, en Siberia, lo pone en duda: hace unos **5.500 años** estos grupos móviles ya morían de peste. **El hallazgo:** **39% de los individuos analizados** (18 de 46) dieron positivo a *Yersinia pestis*, y la mediana de edad al morir fue de apenas **14,5 años** — 7 de las 18 víctimas eran niños de 8 a 12. Los brotes llegaron en **dos olas** separadas por siglos. ⚠️ Es detección en **restos enterrados**, no la tasa de contagio de la población viva. ⚠️ Estudio **observacional**: vemos a quién tocó la peste, no una relación causa-efecto medida. ⚠️ Muestras chicas por cementerio (de 2 a 31 personas).
 
 [Ver notebook](papers/2026-06-17-peste-baikal-cazadores/notebook) · [Leer más](papers/2026-06-17-peste-baikal-cazadores/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-17-peste-baikal-cazadores/notebook.ipynb)
 
+---
+
+### Una violeta dispara sus semillas de a una, con la misma fuerza cada vez
+
+**Biología** · *Science* · Muchas plantas lanzan sus semillas como una catapulta, pero ese disparo suele ser caótico: cada semilla sale con una fuerza distinta. Las violetas (*Viola* spp.) resolvieron eso apretando (*pinzando*) las semillas una tras otra, con fuerza pareja, gracias a la forma de la cáscara de su vaina. Kim et al. midieron 5 especies y separaron dos estrategias. **El hallazgo:** las violetas que disparan tienen la cáscara **~4 veces más rígida (58 vs 14 MPa) pero un 62% más delgada** que las dispersadas por hormigas — logran fuerza con menos material. Y el mismo principio funciona en valvas artificiales a lo largo de **4,4 órdenes de magnitud** de rigidez. ⚠️ Muestra chica (**3 vs 2 especies**): el contraste se sostiene en tamaños de efecto grandes (Cohen's d = 2–3,6), **no** en significancia estadística. ⚠️ Estudio **observacional** entre especies: están construidas distinto, no que disparar lo cause.
+
+[Ver notebook](papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook) · [Leer más](papers/2026-06-18-viola-vaina-pinzamiento-secuencial/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-18-viola-vaina-pinzamiento-secuencial/notebook.ipynb)
+
+---
+
+### Una onda sísmica fue al núcleo de la Tierra, volvió y movió Japón entero
+
+**Geología** · *Science* · El terremoto de Tohoku-Oki de 2011 (Mw 9,0) lanzó una onda de corte tan fuerte que bajó hasta el núcleo de la Tierra, rebotó y volvió a la superficie. Al reaparecer en Japón —ya como onda **ScS**—, los GPS registraron un **escalón hacia el este de hasta 5 a 6 mm** en todo el país. **El hallazgo:** el salto apareció en **104 estaciones (8,5%)** de Hokkaido a Okinawa y ocurrió **casi al mismo tiempo** (mediana 110 s, rango 92-128 s) en más de 2.000 km, decayendo con la distancia a la ruptura (Spearman ρ = −0,73). ⚠️ Las series que exploramos son **sintéticas** (salida de modelo): reproducen el escalón pero se quedan en 4,79 mm, algo por debajo del observado. ⚠️ Que la ScS *disparara* el deslizamiento es la **interpretación** del paper (*likely*), no una medición — estudio observacional. ⚠️ El peligro sísmico se plantea como posibilidad (*potentially*).
+
+[Ver notebook](papers/2026-06-18-scs-tohoku-megathrust-slip/notebook) · [Leer más](papers/2026-06-18-scs-tohoku-megathrust-slip/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-18-scs-tohoku-megathrust-slip/notebook.ipynb)
+
+---
+
 ### CO₂ brotando del fondo del mar: el campo de seeps de Mayotte
 
-**Ecología** · *Nature Geoscience* (2026) · A más de 1.300 metros bajo el agua, frente a Mayotte, el fondo del mar suelta dióxido de carbono — un campo de fuentes (*seeps*) de CO₂ líquido que apareció tras el nacimiento de un volcán submarino en 2018. Un ROV midió el caudal de **22 fuentes** una por una. **El hallazgo:** las **7 fuentes "altas" sueltan dos tercios (65,5%) del caudal medido**, y el flujo total del campo se estima en **~154 mil toneladas de carbono al año** (~563 mil tCO₂). Pero ese total no es un número, es un rango: depende del modelo espacial que asumas (**148–198 mil tC/año, 34% de diferencia**). ⚠️ El flujo total es una **extrapolación Monte Carlo**, no una medición — solo se midieron 22 fuentes. ⚠️ Estudio **observacional**: describe lo que el ROV vio, no causas. ⚠️ 18 de las 22 fuentes están en un solo sitio (B0).
+**Ecología** · *Nature Geoscience* · A más de 1.300 metros bajo el agua, frente a Mayotte, el fondo del mar suelta dióxido de carbono — un campo de fuentes (*seeps*) de CO₂ líquido que apareció tras el nacimiento de un volcán submarino en 2018. Un ROV midió el caudal de **22 fuentes** una por una. **El hallazgo:** las **7 fuentes "altas" sueltan dos tercios (65,5%) del caudal medido**, y el flujo total del campo se estima en **~154 mil toneladas de carbono al año** (~563 mil tCO₂). Pero ese total no es un número, es un rango: depende del modelo espacial que asumas (**148–198 mil tC/año, 34% de diferencia**). ⚠️ El flujo total es una **extrapolación Monte Carlo**, no una medición — solo se midieron 22 fuentes. ⚠️ Estudio **observacional**: describe lo que el ROV vio, no causas. ⚠️ 18 de las 22 fuentes están en un solo sitio (B0).
 
 [Ver notebook](papers/2026-06-12-co2-seeps-hidratos-mayotte/notebook) · [Leer más](papers/2026-06-12-co2-seeps-hidratos-mayotte/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-12-co2-seeps-hidratos-mayotte/notebook.ipynb)
 
+---
+
 ### Tu hígado es gelatina. Tu hueso es piedra.
 
-**Tecnología** · *Nature Biomedical Engineering* (2026) · Tu **hígado es casi líquido** y tu **hueso casi piedra**: entre ambos hay **135.417 veces** de diferencia en rigidez, y un solo pegamento médico no sirve para los dos. Un equipo usó **machine learning** para diseñar un pegamento distinto a la medida de cada tejido —los **TuneGlues**—. **El hallazgo:** el modelo predice el módulo elástico del tejido con **R²=0,97** y cada pegamento cae en el **régimen mecánico de su tejido** (5 de 6 dentro de ~2x, a lo largo de 5 órdenes de magnitud); en un hígado lesionado, el TuneGlue bajó el sangrado de **363 a 30 s** (~12x). ⚠️ Todo lo *in vivo* es en **modelos animales**, no humanos ni clínica. ⚠️ La hemostasia es **n=3 por grupo** (p=0,10 es el mínimo posible con ese n, no es significancia). ⚠️ El match tejido-pegamento es de **régimen, no exacto** (la piel queda a 2,1x).
+**Tecnología** · *Nature Biomedical Engineering* · Tu **hígado es casi líquido** y tu **hueso casi piedra**: entre ambos hay **135.417 veces** de diferencia en rigidez, y un solo pegamento médico no sirve para los dos. Un equipo usó **machine learning** para diseñar un pegamento distinto a la medida de cada tejido —los **TuneGlues**—. **El hallazgo:** el modelo predice el módulo elástico del tejido con **R²=0,97** y cada pegamento cae en el **régimen mecánico de su tejido** (5 de 6 dentro de ~2x, a lo largo de 5 órdenes de magnitud); en un hígado lesionado, el TuneGlue bajó el sangrado de **363 a 30 s** (~12x). ⚠️ Todo lo *in vivo* es en **modelos animales**, no humanos ni clínica. ⚠️ La hemostasia es **n=3 por grupo** (p=0,10 es el mínimo posible con ese n, no es significancia). ⚠️ El match tejido-pegamento es de **régimen, no exacto** (la piel queda a 2,1x).
 
 [Ver notebook](papers/2026-06-11-bioglues-ml-multitejido-trauma/notebook) · [Leer más](papers/2026-06-11-bioglues-ml-multitejido-trauma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-11-bioglues-ml-multitejido-trauma/notebook.ipynb)
 
-### Aprendizaje profundo de cuatro décadas de migración humana
-
-**Tecnología** · *Nature* (2026) · Los datos de migración son escasos y cada país los define distinto. Un equipo entrenó un **conjunto de redes neuronales** para reconstruir, año por año, cuánta gente se movió entre **231 países** desde 1990 — con una **banda de incertidumbre** pegada a cada cifra. **El hallazgo:** el flujo migratorio global anual **pasó de 15,2 a 34,7 millones** de personas (1990→2023, **x2,28**), con un pico de **35,6 M en 2022**; la emigración de Ucrania se **multiplicó por 13,9** en 2022 con la invasión rusa. Y la incertidumbre, de apenas **2% global**, se **multiplica por 7 país por país** (mediana 15%): se cancela al sumar. ⚠️ Toda cifra es **estimación de un modelo**, no un conteo directo. ⚠️ El modelo supera estimaciones previas de 5 años en datos reservados, pero la **magnitud exacta no se extrajo**. ⚠️ Los flujos describen **cuánta gente se movió, no por qué** — sin causalidad.
-
-[Ver notebook](papers/2026-06-10-deep-learning-migracion-humana/notebook) · [Leer más](papers/2026-06-10-deep-learning-migracion-humana/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-10-deep-learning-migracion-humana/notebook.ipynb)
+---
 
 ### Una necrópolis de ballenas de 5,3 millones de años en el Índico
 
-**Ecología** · *Nature* (2026) · Cuando una ballena muere, su cuerpo cae kilómetros hasta el fondo del mar y se vuelve un **oasis de vida** en pleno desierto abisal. Antes se conocían apenas un puñado de estas caídas en todos los océanos; un sumergible rastreó la **Zona Diamantina** (Índico suroriental) y registró **486 restos de ballena** en 24 inmersiones, regados ~1.200 km de fondo. **El hallazgo:** el **83% descansa a más de 6 km de profundidad** (mediana 6.527 m) y la datación isotópica sitúa algunas caídas hace **al menos 5,3 millones de años** — el fondo del mar como archivo fósil de la evolución de las ballenas. Por número dominan los **gusanos (71%, incluidos 588 come-huesos *Osedax*)**, pero los especialistas que definen el oasis son estrellas frágiles, perforadores de hueso y bivalvos quimiosintéticos. ⚠️ Estudio **observacional**: describe distribución y composición, no prueba causas. ⚠️ La edad de **5,3 Ma** viene de datación isotópica del paper, no de estos datos. ⚠️ El conteo de huesos mezcla valores exactos, censurados ('40+') y texto libre, por eso **no se totaliza**.
+**Ecología** · *Nature* · Cuando una ballena muere, su cuerpo cae kilómetros hasta el fondo del mar y se vuelve un **oasis de vida** en pleno desierto abisal. Antes se conocían apenas un puñado de estas caídas en todos los océanos; un sumergible rastreó la **Zona Diamantina** (Índico suroriental) y registró **486 restos de ballena** en 24 inmersiones, regados ~1.200 km de fondo. **El hallazgo:** el **83% descansa a más de 6 km de profundidad** (mediana 6.527 m) y la datación isotópica sitúa algunas caídas hace **al menos 5,3 millones de años** — el fondo del mar como archivo fósil de la evolución de las ballenas. Por número dominan los **gusanos (71%, incluidos 588 come-huesos *Osedax*)**, pero los especialistas que definen el oasis son estrellas frágiles, perforadores de hueso y bivalvos quimiosintéticos. ⚠️ Estudio **observacional**: describe distribución y composición, no prueba causas. ⚠️ La edad de **5,3 Ma** viene de datación isotópica del paper, no de estos datos. ⚠️ El conteo de huesos mezcla valores exactos, censurados ('40+') y texto libre, por eso **no se totaliza**.
 
 [Ver notebook](papers/2026-06-10-necropolis-ballenas-diamantina/notebook) · [Leer más](papers/2026-06-10-necropolis-ballenas-diamantina/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-10-necropolis-ballenas-diamantina/notebook.ipynb)
 
+---
+
+### Aprendizaje profundo de cuatro décadas de migración humana
+
+**Tecnología** · *Nature* · Los datos de migración son escasos y cada país los define distinto. Un equipo entrenó un **conjunto de redes neuronales** para reconstruir, año por año, cuánta gente se movió entre **231 países** desde 1990 — con una **banda de incertidumbre** pegada a cada cifra. **El hallazgo:** el flujo migratorio global anual **pasó de 15,2 a 34,7 millones** de personas (1990→2023, **x2,28**), con un pico de **35,6 M en 2022**; la emigración de Ucrania se **multiplicó por 13,9** en 2022 con la invasión rusa. Y la incertidumbre, de apenas **2% global**, se **multiplica por 7 país por país** (mediana 15%): se cancela al sumar. ⚠️ Toda cifra es **estimación de un modelo**, no un conteo directo. ⚠️ El modelo supera estimaciones previas de 5 años en datos reservados, pero la **magnitud exacta no se extrajo**. ⚠️ Los flujos describen **cuánta gente se movió, no por qué** — sin causalidad.
+
+[Ver notebook](papers/2026-06-10-deep-learning-migracion-humana/notebook) · [Leer más](papers/2026-06-10-deep-learning-migracion-humana/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-10-deep-learning-migracion-humana/notebook.ipynb)
+
+---
+
 ### Agua del aire, con sol: 1,3 litros en un día
 
-**Tecnología** · *Nature Water* (2026) · Un equipo armó una **maleta solar portátil** que saca agua potable **del aire** con telas-gel que atrapan vapor de noche y lo sueltan de día bajo sol concentrado. La probaron en dos climas opuestos. **El hallazgo:** cosechó **1,3 L en Austin** (dual módulo, ~62% humedad) y rindió en pleno **desierto de Chihuahua** (~26% humedad) — la humedad cae a **menos de la mitad** pero la tasa por área baja solo **~9%** (4,7→4,3 L/m²/día). Hasta nublado (~0,4 sol) saca **310 mL por módulo, el 54% de un día típico**. El motor: la capa exterior llega a **100 °C** mientras el condensador se mantiene frío. ⚠️ Son **dos jornadas de campo**, no un despliegue largo. ⚠️ La relación sol-rendimiento es **moderada** (Spearman r≈0,64, n=10). ⚠️ La 'palanca de equidad para el ODS 6' es **aspiración de los autores**; el geoespacial es asociación, no impacto medido.
+**Tecnología** · *Nature Water* · Un equipo armó una **maleta solar portátil** que saca agua potable **del aire** con telas-gel que atrapan vapor de noche y lo sueltan de día bajo sol concentrado. La probaron en dos climas opuestos. **El hallazgo:** cosechó **1,3 L en Austin** (dual módulo, ~62% humedad) y rindió en pleno **desierto de Chihuahua** (~26% humedad) — la humedad cae a **menos de la mitad** pero la tasa por área baja solo **~9%** (4,7→4,3 L/m²/día). Hasta nublado (~0,4 sol) saca **310 mL por módulo, el 54% de un día típico**. El motor: la capa exterior llega a **100 °C** mientras el condensador se mantiene frío. ⚠️ Son **dos jornadas de campo**, no un despliegue largo. ⚠️ La relación sol-rendimiento es **moderada** (Spearman r≈0,64, n=10). ⚠️ La 'palanca de equidad para el ODS 6' es **aspiración de los autores**; el geoespacial es asociación, no impacto medido.
 
 [Ver notebook](papers/2026-06-09-cosecha-agua-atmosferica-solar/notebook) · [Leer más](papers/2026-06-09-cosecha-agua-atmosferica-solar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-09-cosecha-agua-atmosferica-solar/notebook.ipynb)
 
+---
+
 ### Una cápsula que potabiliza agua solo agitándola
 
-**Tecnología** · *Nature Water* (2026) · Una **cápsula flotante** del tamaño de un pulgar detecta y desinfecta agua **sin pilas ni químicos**: la energía sale de **agitarla a mano** (inducción electromagnética). Mide los sólidos disueltos (TDS) y, si pasa el filtro, mata microbios por **electroporación** —campos eléctricos que rompen su membrana—. **El hallazgo:** logra **desinfección completa (6 log = sin microbios vivos detectables)** en **20–25 min** —la espora *B. subtilis* es la más dura, necesita 25 min frente a 20 de *E. coli* y MS2— y la sostiene **120 ciclos sin degradarse**; su sensor casero acierta con **2,33 mg/L de error** frente a un medidor comercial. ⚠️ Todo es **laboratorio** con microbios de referencia y aguas recolectadas, no despliegue real en campo. ⚠️ Los '≥6 log' son **límites de detección** (sin microbios vivos detectables), no un conteo exacto. ⚠️ El TDS es un **sustituto** de contaminación química; no detecta todos los contaminantes específicos.
+**Tecnología** · *Nature Water* · Una **cápsula flotante** del tamaño de un pulgar detecta y desinfecta agua **sin pilas ni químicos**: la energía sale de **agitarla a mano** (inducción electromagnética). Mide los sólidos disueltos (TDS) y, si pasa el filtro, mata microbios por **electroporación** —campos eléctricos que rompen su membrana—. **El hallazgo:** logra **desinfección completa (6 log = sin microbios vivos detectables)** en **20–25 min** —la espora *B. subtilis* es la más dura, necesita 25 min frente a 20 de *E. coli* y MS2— y la sostiene **120 ciclos sin degradarse**; su sensor casero acierta con **2,33 mg/L de error** frente a un medidor comercial. ⚠️ Todo es **laboratorio** con microbios de referencia y aguas recolectadas, no despliegue real en campo. ⚠️ Los '≥6 log' son **límites de detección** (sin microbios vivos detectables), no un conteo exacto. ⚠️ El TDS es un **sustituto** de contaminación química; no detecta todos los contaminantes específicos.
 
 [Ver notebook](papers/2026-06-08-capsula-flotante-agua/notebook) · [Leer más](papers/2026-06-08-capsula-flotante-agua/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-08-capsula-flotante-agua/notebook.ipynb)
 
-### ¿A los astrobiólogos los convence más Marte o K2-18 b?
-
-**Astronomía** · *Nature Astronomy* (2026) · Tras los dos anuncios de posible vida de 2025 —gases raros en el exoplaneta **K2-18 b** (abril) y la roca marciana **Cheyava Falls** (septiembre)— alguien encuestó a la comunidad: **920 astrobiólogos** votaron qué tan de acuerdo estaban con que cada anuncio fuera evidencia de vida. **El hallazgo:** Marte convenció más —confianza media **41% vs 28%** para K2-18 b, **+12 puntos** (Cohen's *d* = 0,57, Mann-Whitney p=3,8·10⁻¹⁷)—, pero aun en el caso más persuasivo **3 de cada 4** expertos (sin contar indecisos) siguieron sin verlo como vida; con K2-18 b fueron **9 de cada 10**. ⚠️ La encuesta mide **opinión/confianza experta**, no la validez física de cada evidencia. ⚠️ Son **dos encuestas independientes** (distintos respondientes y fechas), no una comparación pareada. ⚠️ Tasas de respuesta 39% y 33%: posible sesgo de autoselección.
-
-[Ver notebook](papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook) · [Leer más](papers/2026-06-05-astrobiologos-vida-extraterrestre/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook.ipynb)
-
-### Un agujero negro de 6.000 millones de soles a redshift 2
-
-**Astronomía** · *Science* (2026) · El telescopio **James Webb** midió la masa del agujero negro inactivo de la galaxia **MRG-M0138**, a *redshift* **1,95** (su luz salió hace ~10.300 millones de años). Una **lente gravitacional** amplió la imagen lo suficiente para asomarse a su corazón. **El hallazgo:** pesa **6,0 ⁺²·¹₋₁·₇ × 10⁹ masas solares** —rivaliza con M87*—, y su firma está en los datos: las estrellas del centro (~60 pc) se mueven a ~459 km/s, un **~21% más rápido** que la meseta exterior (~380 km/s). ⚠️ La masa viene de modelos dinámicos del paper que corren en clúster de cómputo; el notebook reproduce el *observable* (el campo de velocidades V_rms), no recalcula la masa. ⚠️ El abstract dice que es 'consistente con' la relación M–σ (no igualdad exacta) — lo respetamos.
-
-[Ver notebook](papers/2026-06-04-masa-agujero-negro-redshift-2/notebook) · [Leer más](papers/2026-06-04-masa-agujero-negro-redshift-2/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-04-masa-agujero-negro-redshift-2/notebook.ipynb)
-
-### Cooperación vs. igualdad al repartir bienes públicos
-
-**Psicología** · *Nature* (2026) · Un modelo de teoría de juegos sobre **50 redes sociales reales** compara dos formas de repartir un bien público: **uniforme** (todos reciben lo mismo) vs **equitativa** (en proporción al aporte). **El hallazgo:** repartir por igual facilita más la cooperación en **40 de 50 redes (80%)**, pero a costa de triplicar la desigualdad — el Gini del beneficio sube de **0,10 a 0,33**, mientras que el reparto equitativo lo mantiene en **≈0**. En una red dispersa de ejemplo, bajo reparto uniforme **48 de 50 personas quedan peor que sin cooperar** y un solo nodo muy conectado se lleva **+5,6**. ⚠️ Es un modelo teórico: los mecanismos son causales solo dentro del modelo, no una medición de sociedades humanas reales. ⚠️ La 'inevitabilidad' de la desigualdad está atenuada en el paper ('may be') — decimos 'podría ser'. ⚠️ Las diferencias de umbral entre reglas son pequeñas (<2%); lo robusto es el contraste de igualdad (Gini).
-
-[Ver notebook](papers/2026-06-03-cooperation-equality-public-goods/notebook) · [Leer más](papers/2026-06-03-cooperation-equality-public-goods/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-03-cooperation-equality-public-goods/notebook.ipynb)
-
-### ¿El miedo te rompe el sueño? Lo que se ve en ratones
-
-**Neurociencia** · *Science* (2026) · Le dieron un susto a un ratón (un protocolo estándar de miedo) y le grabaron el sueño antes y después. Bajamos los datos por animal de los episodios de vigilia y micro-despertar. **El hallazgo:** tras el miedo, el sueño se fragmenta — **+37 micro-despertares, un 22%** (*d* pareado = 1,13, Wilcoxon p=0,016), y **los 7 de 7 ratones** reaccionaron igual. El golpe es específico: el sueño REM no se movió (Δ≈0). ⚠️ Muestra pequeña (miedo n=7, Control n=5). ⚠️ El contraste entre grupos es significativo sobre los cambios (p=0,010), pero con n pequeño el resultado robusto es el cambio dentro de cada animal. ⚠️ Estudio en ratones — no se extrapola a insomnio ni a estrés postraumático humano.
-
-[Ver notebook](papers/2026-06-04-reactivacion-memoria-sueno/notebook) · [Leer más](papers/2026-06-04-reactivacion-memoria-sueno/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-04-reactivacion-memoria-sueno/notebook.ipynb)
-
-### Somos más cooperativos de lo que creemos
-
-**Psicología** · *Science* (2026) · A 101.123 personas de 125 países les pusieron un juego con dinero real: quedarse 100 dólares, o renunciar a 30 para donar 400 al clima *si la otra persona también coopera*. **El hallazgo:** cerca de **dos tercios coopera** (~73%), pero la gente cree que solo lo hace el **~45%** — una brecha de **28 puntos porcentuales**. Lo más asombroso: **124 de 125 países subestiman a su propia gente**; la única excepción del planeta es Egipto (que también es el menos cooperativo, 28%). La cooperación se *asocia* con las normas sociales y la paciencia (correlacional, no causal), y un experimento aleatorizado muestra que **decirle a la gente la verdad sobre los demás aumenta causalmente la cooperación** —aunque el empujón es pequeño (+0,76 pp, p=0,006). ⚠️ Salvo el tratamiento de información, todo es observacional. ⚠️ Cooperación medida con un juego de un solo turno. ⚠️ El efecto causal es real pero modesto.
-
-[Ver notebook](papers/2026-06-07-homo-cooperans-cooperacion-global/notebook) · [Leer más](papers/2026-06-07-homo-cooperans-cooperacion-global/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-homo-cooperans-cooperacion-global/notebook.ipynb)
+---
 
 ### ¿El trabajo remoto te deja solo?
 
-**Psicología** · *Science* (2026) · El trabajo remoto en EE.UU. se cuadruplicó (7%→28% entre 2019 y 2023). Con cinco encuestas nacionales (588.322 trabajadores) y un diseño de diferencias en diferencias —remotables vs no remotables, 2011-2024 sin 2020-2021—, el equipo midió qué le hizo eso al aislamiento y la salud mental. **El hallazgo:** el daño se concentra en **quien vive solo** — suma **+7,0 pp** de días enteros sin compañía, **diez veces** lo de quien cohabita (p=0,006), y **13x** en días sin contacto humano (p=0,036). La salud mental empeora en varias señales (uso de servicios +58%, días deprimido +21,7%). Los autores **estiman** que el trabajo remoto explica **cerca de un tercio** del aumento nacional de soledad y distrés. ⚠️ Observacional/diferencias-en-diferencias: la causalidad descansa en supuestos, no en un sorteo. ⚠️ Valores transcritos del texto de acceso abierto (dataset Dryad en curación). ⚠️ El K-6 mide riesgo de distrés, no diagnóstico clínico.
+**Psicología** · *Science* · El trabajo remoto en EE.UU. se cuadruplicó (7%→28% entre 2019 y 2023). Con cinco encuestas nacionales (588.322 trabajadores) y un diseño de diferencias en diferencias —remotables vs no remotables, 2011-2024 sin 2020-2021—, el equipo midió qué le hizo eso al aislamiento y la salud mental. **El hallazgo:** el daño se concentra en **quien vive solo** — suma **+7,0 pp** de días enteros sin compañía, **diez veces** lo de quien cohabita (p=0,006), y **13x** en días sin contacto humano (p=0,036). La salud mental empeora en varias señales (uso de servicios +58%, días deprimido +21,7%). Los autores **estiman** que el trabajo remoto explica **cerca de un tercio** del aumento nacional de soledad y distrés. ⚠️ Observacional/diferencias-en-diferencias: la causalidad descansa en supuestos, no en un sorteo. ⚠️ Valores transcritos del texto de acceso abierto (dataset Dryad en curación). ⚠️ El K-6 mide riesgo de distrés, no diagnóstico clínico.
 
 [Ver notebook](papers/2026-06-07-trabajo-remoto-soledad-mental/notebook) · [Leer más](papers/2026-06-07-trabajo-remoto-soledad-mental/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-trabajo-remoto-soledad-mental/notebook.ipynb)
 
+---
+
 ### El mundo perdió 277.000 km² de árboles en un solo año
 
-**Ecología** · *Science* (2026) · En 2018 el planeta perdió 277.000 km² de cobertura arbórea —más que todo el Reino Unido—, pero el equipo miró 600 cuadros de 5×5 km con satélite de alta resolución (3–10 m) para separar lo que se pierde para siempre de lo que rota. Bajamos las proporciones por causa, por región y por bloque. **El hallazgo:** solo el **38,9%** fue conversión permanente; el resto rota o se recupera (silvicultura, agricultura migratoria, disturbios). Y cuando un bosque *natural* sí desaparece, el **pasto para ganado es la causa #1 (15,0%)**, más que cultivos (6,4%) y plantaciones (3,8%) juntos. América Latina encabeza con el **26,6%** del total. ⚠️ Es una estimación de 600 bloques, no un censo. ⚠️ Diseño observacional: proporciones y causas próximas, no causalidad activa. ⚠️ Un solo año (2018), no una tendencia.
+**Ecología** · *Science* · En 2018 el planeta perdió 277.000 km² de cobertura arbórea —más que todo el Reino Unido—, pero el equipo miró 600 cuadros de 5×5 km con satélite de alta resolución (3–10 m) para separar lo que se pierde para siempre de lo que rota. Bajamos las proporciones por causa, por región y por bloque. **El hallazgo:** solo el **38,9%** fue conversión permanente; el resto rota o se recupera (silvicultura, agricultura migratoria, disturbios). Y cuando un bosque *natural* sí desaparece, el **pasto para ganado es la causa #1 (15,0%)**, más que cultivos (6,4%) y plantaciones (3,8%) juntos. América Latina encabeza con el **26,6%** del total. ⚠️ Es una estimación de 600 bloques, no un censo. ⚠️ Diseño observacional: proporciones y causas próximas, no causalidad activa. ⚠️ Un solo año (2018), no una tendencia.
 
 [Ver notebook](papers/2026-06-07-perdida-cobertura-arborea-global/notebook) · [Leer más](papers/2026-06-07-perdida-cobertura-arborea-global/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-perdida-cobertura-arborea-global/notebook.ipynb)
 
+---
 
 ### Una helada en flor: los péptidos que salvan la cosecha
 
-**Biología** · *Nature* (2026) · Una noche de frío durante la floración puede dejar estéril un cultivo entero: el polen aborta y no hay grano. El equipo identificó en el tomate dos péptidos diminutos —**SlRGF9** y **SlRGF10**— que se encienden con el frío y protegen el polen. Bajamos los Source Data de viabilidad de polen y de rendimiento. **El hallazgo:** apagar los dos péptidos con CRISPR hunde la viabilidad del polen bajo frío de ~0,99 a **0,43** (caída del 56,6 %, Cohen's d = 6,4); apagar uno solo apenas afecta — se respaldan mutuamente. Subirlos dispara la cosecha de tomate (**+64 % y +99 %**), y el mismo truco recupera grano en arroz, una planta separada del tomate hace 150 millones de años. ⚠️ Muestras pequeñas (n=4–6). ⚠️ Rendimientos en unidad relativa, no kg/hectárea de campo. ⚠️ De tres líneas de arroz, una (L1) rinde por debajo del silvestre; el efecto real está en L2 y L3 (+16 %).
+**Biología** · *Nature* · Una noche de frío durante la floración puede dejar estéril un cultivo entero: el polen aborta y no hay grano. El equipo identificó en el tomate dos péptidos diminutos —**SlRGF9** y **SlRGF10**— que se encienden con el frío y protegen el polen. Bajamos los Source Data de viabilidad de polen y de rendimiento. **El hallazgo:** apagar los dos péptidos con CRISPR hunde la viabilidad del polen bajo frío de ~0,99 a **0,43** (caída del 56,6 %, Cohen's d = 6,4); apagar uno solo apenas afecta — se respaldan mutuamente. Subirlos dispara la cosecha de tomate (**+64 % y +99 %**), y el mismo truco recupera grano en arroz, una planta separada del tomate hace 150 millones de años. ⚠️ Muestras pequeñas (n=4–6). ⚠️ Rendimientos en unidad relativa, no kg/hectárea de campo. ⚠️ De tres líneas de arroz, una (L1) rinde por debajo del silvestre; el efecto real está en L2 y L3 (+16 %).
 
 [Ver notebook](papers/2026-06-07-peptidos-frio-polen-cultivos/notebook) · [Leer más](papers/2026-06-07-peptidos-frio-polen-cultivos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-peptidos-frio-polen-cultivos/notebook.ipynb)
 
+---
+
+### Somos más cooperativos de lo que creemos
+
+**Psicología** · *Science* · A 101.123 personas de 125 países les pusieron un juego con dinero real: quedarse 100 dólares, o renunciar a 30 para donar 400 al clima *si la otra persona también coopera*. **El hallazgo:** cerca de **dos tercios coopera** (~73%), pero la gente cree que solo lo hace el **~45%** — una brecha de **28 puntos porcentuales**. Lo más asombroso: **124 de 125 países subestiman a su propia gente**; la única excepción del planeta es Egipto (que también es el menos cooperativo, 28%). La cooperación se *asocia* con las normas sociales y la paciencia (correlacional, no causal), y un experimento aleatorizado muestra que **decirle a la gente la verdad sobre los demás aumenta causalmente la cooperación** —aunque el empujón es pequeño (+0,76 pp, p=0,006). ⚠️ Salvo el tratamiento de información, todo es observacional. ⚠️ Cooperación medida con un juego de un solo turno. ⚠️ El efecto causal es real pero modesto.
+
+[Ver notebook](papers/2026-06-07-homo-cooperans-cooperacion-global/notebook) · [Leer más](papers/2026-06-07-homo-cooperans-cooperacion-global/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-07-homo-cooperans-cooperacion-global/notebook.ipynb)
+
+---
+
+### ¿El miedo te rompe el sueño? Lo que se ve en ratones
+
+**Neurociencia** · *Science* · Le dieron un susto a un ratón (un protocolo estándar de miedo) y le grabaron el sueño antes y después. Bajamos los datos por animal de los episodios de vigilia y micro-despertar. **El hallazgo:** tras el miedo, el sueño se fragmenta — **+37 micro-despertares, un 22%** (*d* pareado = 1,13, Wilcoxon p=0,016), y **los 7 de 7 ratones** reaccionaron igual. El golpe es específico: el sueño REM no se movió (Δ≈0). ⚠️ Muestra pequeña (miedo n=7, Control n=5). ⚠️ El contraste entre grupos es significativo sobre los cambios (p=0,010), pero con n pequeño el resultado robusto es el cambio dentro de cada animal. ⚠️ Estudio en ratones — no se extrapola a insomnio ni a estrés postraumático humano.
+
+[Ver notebook](papers/2026-06-04-reactivacion-memoria-sueno/notebook) · [Leer más](papers/2026-06-04-reactivacion-memoria-sueno/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-04-reactivacion-memoria-sueno/notebook.ipynb)
+
+---
 
 ### Manikomicina: una bacteria "agotada" escondía un antibiótico nuevo
 
-**Medicina** · *Nature* (2026) · Una bacteria del suelo estudiada durante 80 años, *Streptomyces rimosus* —la fuente de la oxitetraciclina—, se daba por exprimida. Con una técnica de separación más fina, el equipo halló en ella una molécula nueva, la **manikomicina**, que mata Enterobacteriaceae multirresistentes pegándose al **sitio E** del ribosoma bacteriano: el primer antibiótico conocido que ataca ese punto. Bajamos los Source Data de farmacocinética (ratón) y de supervivencia (gusanos *C. elegans*). **Eficacia:** la manikomicina rescata a **4 de cada 10** gusanos infectados con una cepa de laboratorio que, sin tratar, no dejaba ninguno vivo al día 7 (0% → 41%, Fisher p<0,001); en la cepa clínica, 19% → 47%. **Pero:** rescata **menos** que la polimixina B (antibiótico de último recurso) y su pico en sangre cae al **2,4%** en 4 horas. ⚠️ Eficacia in vivo solo en gusanos, no en mamíferos. ⚠️ Farmacocinética de vida corta (n=3 ratones). ⚠️ El paper la enmarca como candidato (*lead*), no como fármaco terminado.
+**Medicina** · *Nature* · Una bacteria del suelo estudiada durante 80 años, *Streptomyces rimosus* —la fuente de la oxitetraciclina—, se daba por exprimida. Con una técnica de separación más fina, el equipo halló en ella una molécula nueva, la **manikomicina**, que mata Enterobacteriaceae multirresistentes pegándose al **sitio E** del ribosoma bacteriano: el primer antibiótico conocido que ataca ese punto. Bajamos los Source Data de farmacocinética (ratón) y de supervivencia (gusanos *C. elegans*). **Eficacia:** la manikomicina rescata a **4 de cada 10** gusanos infectados con una cepa de laboratorio que, sin tratar, no dejaba ninguno vivo al día 7 (0% → 41%, Fisher p<0,001); en la cepa clínica, 19% → 47%. **Pero:** rescata **menos** que la polimixina B (antibiótico de último recurso) y su pico en sangre cae al **2,4%** en 4 horas. ⚠️ Eficacia in vivo solo en gusanos, no en mamíferos. ⚠️ Farmacocinética de vida corta (n=3 ratones). ⚠️ El paper la enmarca como candidato (*lead*), no como fármaco terminado.
 
 [Ver notebook](papers/2026-06-06-manikomycin-antibiotico-ribosoma/notebook) · [Leer más](papers/2026-06-06-manikomycin-antibiotico-ribosoma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-06-manikomycin-antibiotico-ribosoma/notebook.ipynb)
 
+---
+
+### ¿A los astrobiólogos los convence más Marte o K2-18 b?
+
+**Astronomía** · *Nature Astronomy* · Tras los dos anuncios de posible vida de 2025 —gases raros en el exoplaneta **K2-18 b** (abril) y la roca marciana **Cheyava Falls** (septiembre)— alguien encuestó a la comunidad: **920 astrobiólogos** votaron qué tan de acuerdo estaban con que cada anuncio fuera evidencia de vida. **El hallazgo:** Marte convenció más —confianza media **41% vs 28%** para K2-18 b, **+12 puntos** (Cohen's *d* = 0,57, Mann-Whitney p=3,8·10⁻¹⁷)—, pero aun en el caso más persuasivo **3 de cada 4** expertos (sin contar indecisos) siguieron sin verlo como vida; con K2-18 b fueron **9 de cada 10**. ⚠️ La encuesta mide **opinión/confianza experta**, no la validez física de cada evidencia. ⚠️ Son **dos encuestas independientes** (distintos respondientes y fechas), no una comparación pareada. ⚠️ Tasas de respuesta 39% y 33%: posible sesgo de autoselección.
+
+[Ver notebook](papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook) · [Leer más](papers/2026-06-05-astrobiologos-vida-extraterrestre/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-05-astrobiologos-vida-extraterrestre/notebook.ipynb)
+
+---
+
+### Un agujero negro de 6.000 millones de soles a redshift 2
+
+**Astronomía** · *Science* · El telescopio **James Webb** midió la masa del agujero negro inactivo de la galaxia **MRG-M0138**, a *redshift* **1,95** (su luz salió hace ~10.300 millones de años). Una **lente gravitacional** amplió la imagen lo suficiente para asomarse a su corazón. **El hallazgo:** pesa **6,0 ⁺²·¹₋₁·₇ × 10⁹ masas solares** —rivaliza con M87*—, y su firma está en los datos: las estrellas del centro (~60 pc) se mueven a ~459 km/s, un **~21% más rápido** que la meseta exterior (~380 km/s). ⚠️ La masa viene de modelos dinámicos del paper que corren en clúster de cómputo; el notebook reproduce el *observable* (el campo de velocidades V_rms), no recalcula la masa. ⚠️ El abstract dice que es 'consistente con' la relación M–σ (no igualdad exacta) — lo respetamos.
+
+[Ver notebook](papers/2026-06-04-masa-agujero-negro-redshift-2/notebook) · [Leer más](papers/2026-06-04-masa-agujero-negro-redshift-2/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-04-masa-agujero-negro-redshift-2/notebook.ipynb)
+
+---
 
 ### Minería y deforestación en África subsahariana
 
-**Ecología** · *Nature* (2026) · La demanda de minerales africanos crece rápido y, con ella, la presión sobre el bosque tropical. Un equipo rastreó **16.627 minas** con satélite (2001-2020) y midió cuánto bosque se pierde *de más* solo por tener una mina al lado. Alineamos cada mina a su año de apertura: la curva de pérdida a **1 km** se despega del fondo justo cuando la mina abre (reproducción cruda: **7,57 pp** adicionales a 10 años, dentro del IC del paper). **El golpe:** el paper estima que por cada hectárea de tala directa, la minería desencadena **34 hectáreas** de pérdida alrededor en cinco años — y el **cobalto** y el **cobre** de baterías y electrónica están entre los que más arrasan. ⚠️ Nuestra reproducción es descriptiva (medias crudas), no la diferencia-en-diferencias ajustada del paper. ⚠️ El 8,0 pp causal y el ratio 34:1 son cifras del paper, no recalculadas.
+**Ecología** · *Nature* · La demanda de minerales africanos crece rápido y, con ella, la presión sobre el bosque tropical. Un equipo rastreó **16.627 minas** con satélite (2001-2020) y midió cuánto bosque se pierde *de más* solo por tener una mina al lado. Alineamos cada mina a su año de apertura: la curva de pérdida a **1 km** se despega del fondo justo cuando la mina abre (reproducción cruda: **7,57 pp** adicionales a 10 años, dentro del IC del paper). **El golpe:** el paper estima que por cada hectárea de tala directa, la minería desencadena **34 hectáreas** de pérdida alrededor en cinco años — y el **cobalto** y el **cobre** de baterías y electrónica están entre los que más arrasan. ⚠️ Nuestra reproducción es descriptiva (medias crudas), no la diferencia-en-diferencias ajustada del paper. ⚠️ El 8,0 pp causal y el ratio 34:1 son cifras del paper, no recalculadas.
 
 [Ver notebook](papers/2026-06-03-mineria-deforestacion-africa/notebook) · [Leer más](papers/2026-06-03-mineria-deforestacion-africa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-03-mineria-deforestacion-africa/notebook.ipynb)
+
+---
+
+### Cooperación vs. igualdad al repartir bienes públicos
+
+**Psicología** · *Nature* · Un modelo de teoría de juegos sobre **50 redes sociales reales** compara dos formas de repartir un bien público: **uniforme** (todos reciben lo mismo) vs **equitativa** (en proporción al aporte). **El hallazgo:** repartir por igual facilita más la cooperación en **40 de 50 redes (80%)**, pero a costa de triplicar la desigualdad — el Gini del beneficio sube de **0,10 a 0,33**, mientras que el reparto equitativo lo mantiene en **≈0**. En una red dispersa de ejemplo, bajo reparto uniforme **48 de 50 personas quedan peor que sin cooperar** y un solo nodo muy conectado se lleva **+5,6**. ⚠️ Es un modelo teórico: los mecanismos son causales solo dentro del modelo, no una medición de sociedades humanas reales. ⚠️ La 'inevitabilidad' de la desigualdad está atenuada en el paper ('may be') — decimos 'podría ser'. ⚠️ Las diferencias de umbral entre reglas son pequeñas (<2%); lo robusto es el contraste de igualdad (Gini).
+
+[Ver notebook](papers/2026-06-03-cooperation-equality-public-goods/notebook) · [Leer más](papers/2026-06-03-cooperation-equality-public-goods/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-03-cooperation-equality-public-goods/notebook.ipynb)
+
+---
 
 ### Un marcapasos sin cirugía: ultrasonido + un canal bacteriano
 
@@ -459,11 +596,15 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-06-02-marcapasos-ultrasonico-sonogenetico/notebook) · [Leer más](papers/2026-06-02-marcapasos-ultrasonico-sonogenetico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-02-marcapasos-ultrasonico-sonogenetico/notebook.ipynb)
 
+---
+
 ### Olas de calor en el sedimento de los lagos
 
 **Ecología** · *Nature Geoscience* · Pilla et al. (2026) simularon temperatura diaria en 41.499 lagos del planeta forzados por un ensemble de modelos climáticos globales (ISIMIP3b) bajo tres escenarios SSP, en dos ventanas de 30 años (1981-2010 y 2071-2100). Aquí reproducimos 3 de los 5 GCMs originales y desmenuzamos los promedios globales y latitudinales del Zenodo. **Acto 1:** en clima histórico, el sedimento **pelágico** (PHW, fondo profundo) ya dura ×1,6 más por evento que la superficie (13,4 vs 8,4 días). El sedimento **litoral** (LHW, somero) se comporta como la superficie (8,5 días) — el matiz pelágico vs litoral importa. **Acto 2:** bajo SSP5-8.5, el modelo proyecta que la duración del PHW se multiplica por ~8,8 (118,5 días por evento) y el retardo térmico entre superficie y fondo colapsa de ~22 días a ~1 día (-95%) — el lago profundo pierde su buffer. **Acto 3:** geografía nítida — cada evento PHW en lagos tropicales duraría ~168 días vs ~54 días en lagos polares bajo SSP5-8.5. Combinando duración y frecuencia, los lagos tropicales pasarían ~242 días/año en condiciones de heatwave. ⚠️ Reproducimos 3 de 5 GCMs — spread inter-modelo subestimado. ⚠️ Trabajamos sobre agregados globales y por banda, no lago a lago. ⚠️ Proyecciones de modelo de simulación, no observaciones futuras.
 
 [Ver notebook](papers/2026-06-01-olas-calor-sedimentos-lagos/notebook) · [Leer más](papers/2026-06-01-olas-calor-sedimentos-lagos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-01-olas-calor-sedimentos-lagos/notebook.ipynb)
+
+---
 
 ### Tu teléfono ya te toma el pulso
 
@@ -471,11 +612,15 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-06-01-monitoreo-pasivo-fc-smartphone/notebook) · [Leer más](papers/2026-06-01-monitoreo-pasivo-fc-smartphone/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-01-monitoreo-pasivo-fc-smartphone/notebook.ipynb)
 
+---
+
 ### Humedales aguas arriba: 10 mil millones de dólares en reclamos por inundaciones
 
 **Ecología** · *Nature Water* · Gourevitch, Gold & Garcia (2026) cruzaron 38 años de mapas anuales de humedales en Estados Unidos con cada reclamo del seguro federal de inundaciones (NFIP), usando regresión de panel con efectos fijos por subcuenca HUC12 — 83.359 unidades en total. Bajamos los datos del Supplemental de Zenodo (172 MB, 218 columnas) y los desmenuzamos en 4 CSVs agregados. **Acto 1:** la pérdida de humedales 1985-2023 sumó **US$10,12 mil millones** en reclamos adicionales (IC 95%: US$8,12-12,07B), equivalentes al **9,0%** del total nacional NFIP del periodo — el paper lo enmarca como estimación, no como hallazgo causal puro (panel observacional). **Acto 2:** la pérdida está extremadamente concentrada. **Tres regiones costeras** (Tejas-Golfo, Sureste y Misisipi Bajo) acumulan **97% del costo** (US$9,84B de US$10,12B); las **95 subcuencas** con pérdida >500 ha cada una (0,11% del total) concentran **44,6% del costo total**. La narrativa común de "se perdieron humedales en todo el país" se cae con los datos: el motor del daño no es la pérdida promedio, son outliers en costas de baja altitud. **Acto 3:** solo el **16,1%** de las subcuencas justifica conservar humedales económicamente (BCR ≥ 1) — pero la geografía del retorno no coincide con la geografía del daño. Mid-Atlántico tiene **49,5%** de subcuencas rentables (mejor proporción regional), Tennessee llega a **70,4%** con muchas menos subcuencas, mientras que las regiones que más perdieron (Tejas-Golfo, Sureste) tienen BCR ≥ 1 solo en 13-14% de sus subcuencas. ⚠️ El paper modela elasticidad sobre pérdida, no afirma simetría de beneficio para restauración. ⚠️ NFIP no captura todo el daño económico (sub-cobertura del seguro federal). ⚠️ El NPV total cae **6,6×** entre 1% y 7% de tasa de descuento — alta sensibilidad al horizonte temporal de la valoración política.
 
 [Ver notebook](papers/2026-06-01-humedales-eeuu-inundaciones-economia/notebook) · [Leer más](papers/2026-06-01-humedales-eeuu-inundaciones-economia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-06-01-humedales-eeuu-inundaciones-economia/notebook.ipynb)
+
+---
 
 ### Litio para baterías sin tostar la roca
 
@@ -483,11 +628,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-29-spodumene-litio-bajo-temperatura/notebook) · [Leer más](papers/2026-05-29-spodumene-litio-bajo-temperatura/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-29-spodumene-litio-bajo-temperatura/notebook.ipynb)
 
-### Quita los elefantes: pierdes el 67% de los escarabajos peloteros
-
-**Ecología** · *Science* · Pringle et al. (2026) cerraron 15 años un experimento en Mpala (Kenia): tres tratamientos en parcelas vecinas — todos los herbívoros, sin elefantes ni jirafas, sin nada silvestre. Capturaron **9.114 escarabajos peloteros** entre 2021 y 2023 y los clasificaron en 179 especies probables. Bajamos los datos del Supplementary Information (Tablas S6, S13, S16 y la red trófica de §2.4d). **Acto 1:** el elefante atrae a **88 especies** de escarabajos en la red trófica; la cebra, segunda, atrae a 63 (ratio 1,40×). Eigenvector centrality 1,00 vs 0,61 del resto. **Acto 2:** quitar elefantes 15 años redujo abundancia **−67%** (GLMM β=−0,93, Z=−4,65, P<0,001), riqueza −22%, biomasa −51%. Quitar el resto de herbívoros añadió solo −8% extra (Padj=0,55, no significativo). **Acto 3:** un elefante equivale a **1.594 ungulados <1.000 kg** en community importance per cápita en abundancia de escarabajos. ⚠️ La comparación Mpala vs Koija/Lekiji (sitios con ganado) es observacional, no causal — el patrón coincide con el experimento pero no lo prueba. ⚠️ Parcelas UHURU de 4 ha; los elefantes recorren cientos de km² al año.
-
-[Ver notebook](papers/2026-05-28-elefantes-escarabajos-keystone-mpala/notebook) · [Leer más](papers/2026-05-28-elefantes-escarabajos-keystone-mpala/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-28-elefantes-escarabajos-keystone-mpala/notebook.ipynb)
+---
 
 ### Memoria inflamatoria en células madre humanas
 
@@ -495,25 +636,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-29-celulas-madre-memoria-inflamatoria/notebook) · [Leer más](papers/2026-05-29-celulas-madre-memoria-inflamatoria/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-29-celulas-madre-memoria-inflamatoria/notebook.ipynb)
 
-### La Antártida occidental se derritió antes — y dejó su firma en el polvo
-
-22 muestras Sr/Nd de un núcleo en Allan Hills (Antártida) muestran que el polvo cambió de fuente entre el último glacial y el último interglacial: 67% de muestras MIS 5e con firma volcánica antártica local vs solo 10% en MIS 6.
-
-[Notebook](papers/2026-05-26-ross-ice-shelf-mis-5e/notebook.ipynb) · [README](papers/2026-05-26-ross-ice-shelf-mis-5e/README.md) · [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-26-ross-ice-shelf-mis-5e/notebook.ipynb)
-
-### Los huracanes liberan menos CO₂ del que creíamos
-
-**Ecología** · *Nature Geoscience* · Huang et al. (2026) reconstruyeron la huella de carbono de los ciclones tropicales día a día durante 28 años combinando IBTrACS (todos los ciclones del mundo), SOCAT (observaciones de CO₂ en superficie) y reanálisis atmosféricos. Bajamos las 3 tablas del supplementary y desmenuzamos lo que se puede recalcular. **Acto 1:** el día 0 dos procesos compiten — efflux pico **+14,6 mmol/m²/día** vs influx pico **−12,5**; el mínimo de ΔpCO₂ (**−9,5 µatm**) no cae el día del huracán, cae el día +2 (la estela fría sigue absorbiendo después). **Acto 2:** las aguas frías pre-tormenta se vuelven más sub-saturadas con el tiempo (pendiente **−0,09 µatm/año**, p=0,066 marginal); las aguas cálidas no cambian (p=0,44). Esa asimetría es la razón física del **44% de reducción** del outgassing global que el paper reporta para los 90s vs 2010s. **Acto 3:** bajo escenarios CMIP de alta emisión, la distribución de ΔpCO₂ se desplaza de **+12 a +1 µatm de media** y la probabilidad de efflux cae de **79% a 55%** — los ciclones pasarían de fuente a sumidero. ⚠️ La tendencia clave es marginal (p=0,066) y el fit predice ~2,5 µatm de cambio total, los endpoints raw sugieren 6 µatm. ⚠️ La validación in-situ son solo **37 ciclones**. ⚠️ La proyección CMIP es modelo, no observación. ⚠️ La cifra del 44% es cita del paper, no recálculo nuestro.
-
-[Ver notebook](papers/2026-05-28-ciclones-tropicales-co2-oceano/notebook) · [Leer más](papers/2026-05-28-ciclones-tropicales-co2-oceano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-28-ciclones-tropicales-co2-oceano/notebook.ipynb)
-
-
-### Hicieron crecer un intestino humano de 8 cm. En 10 semanas
-
-**Medicina** · *Nature Biomedical Engineering* · Park et al. (2026) inventaron un truco simple: una bandeja impresa en 3D que **confina físicamente** los esferoides mientras crecen. Con esa restricción, los organoides desarrollan solos su propio sistema nervioso entérico — el que controla la contracción del intestino. Bajamos los CSVs de Source Data (Figs. 1f, 3f-g, 5c, 5f, 6j y Extended Data 1j-l) y los desmenuzamos. **Acto 1:** misma jugada en tres órganos distintos — **intestino delgado ~7×**, **colon ~12×**, **estómago ~12×** en tamaño de injerto a 10 semanas (Mann-Whitney p≤0,004, Cohen's d entre 2,3 y 3,8). **Acto 2:** los nervios funcionan. La tetrodotoxina apaga la contracción (Wilcoxon pareado p=0,008, d pareado=0,99); la combinación L-NAME + atropina la apaga también (p=0,001), confirmando componentes excitatorios colinérgicos e inhibitorios nitrérgicos en el ENS desarrollado de novo. **Acto 3:** al conectar el injerto al lumen del huésped, la barrera no aumenta su permeabilidad (Mann-Whitney p=0,057, Cohen's d=4,0 — tendencia clara con n=3 vs 4, intervalo amplio). ⚠️ La anchura de 8 cm vive en el abstract — el Source Data Fig 1f es área en cm², no longitud lineal. ⚠️ L-NAME solo no alcanza significancia (p=0,195) — la confirmación de neuronas nitrérgicas se apoya en el contraste L-NAME vs L-NAME+atropina. ⚠️ Trasplante en rata RRG inmunocomprometida — el salto a clínica humana sigue lejos.
-
-[Ver notebook](papers/2026-05-22-organoides-intestino-funcional-ens/notebook) · [Leer más](papers/2026-05-22-organoides-intestino-funcional-ens/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-22-organoides-intestino-funcional-ens/notebook.ipynb)
-
+---
 
 ### Diseñaron una proteína desde cero. Funcionó en un ratón vivo
 
@@ -521,6 +644,23 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-28-miniproteinas-gpcr-diseno-de-novo/notebook) · [Leer más](papers/2026-05-28-miniproteinas-gpcr-diseno-de-novo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-28-miniproteinas-gpcr-diseno-de-novo/notebook.ipynb)
 
+---
+
+### Quita los elefantes: pierdes el 67% de los escarabajos peloteros
+
+**Ecología** · *Science* · Pringle et al. (2026) cerraron 15 años un experimento en Mpala (Kenia): tres tratamientos en parcelas vecinas — todos los herbívoros, sin elefantes ni jirafas, sin nada silvestre. Capturaron **9.114 escarabajos peloteros** entre 2021 y 2023 y los clasificaron en 179 especies probables. Bajamos los datos del Supplementary Information (Tablas S6, S13, S16 y la red trófica de §2.4d). **Acto 1:** el elefante atrae a **88 especies** de escarabajos en la red trófica; la cebra, segunda, atrae a 63 (ratio 1,40×). Eigenvector centrality 1,00 vs 0,61 del resto. **Acto 2:** quitar elefantes 15 años redujo abundancia **−67%** (GLMM β=−0,93, Z=−4,65, P<0,001), riqueza −22%, biomasa −51%. Quitar el resto de herbívoros añadió solo −8% extra (Padj=0,55, no significativo). **Acto 3:** un elefante equivale a **1.594 ungulados <1.000 kg** en community importance per cápita en abundancia de escarabajos. ⚠️ La comparación Mpala vs Koija/Lekiji (sitios con ganado) es observacional, no causal — el patrón coincide con el experimento pero no lo prueba. ⚠️ Parcelas UHURU de 4 ha; los elefantes recorren cientos de km² al año.
+
+[Ver notebook](papers/2026-05-28-elefantes-escarabajos-keystone-mpala/notebook) · [Leer más](papers/2026-05-28-elefantes-escarabajos-keystone-mpala/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-28-elefantes-escarabajos-keystone-mpala/notebook.ipynb)
+
+---
+
+### Los huracanes liberan menos CO₂ del que creíamos
+
+**Ecología** · *Nature Geoscience* · Huang et al. (2026) reconstruyeron la huella de carbono de los ciclones tropicales día a día durante 28 años combinando IBTrACS (todos los ciclones del mundo), SOCAT (observaciones de CO₂ en superficie) y reanálisis atmosféricos. Bajamos las 3 tablas del supplementary y desmenuzamos lo que se puede recalcular. **Acto 1:** el día 0 dos procesos compiten — efflux pico **+14,6 mmol/m²/día** vs influx pico **−12,5**; el mínimo de ΔpCO₂ (**−9,5 µatm**) no cae el día del huracán, cae el día +2 (la estela fría sigue absorbiendo después). **Acto 2:** las aguas frías pre-tormenta se vuelven más sub-saturadas con el tiempo (pendiente **−0,09 µatm/año**, p=0,066 marginal); las aguas cálidas no cambian (p=0,44). Esa asimetría es la razón física del **44% de reducción** del outgassing global que el paper reporta para los 90s vs 2010s. **Acto 3:** bajo escenarios CMIP de alta emisión, la distribución de ΔpCO₂ se desplaza de **+12 a +1 µatm de media** y la probabilidad de efflux cae de **79% a 55%** — los ciclones pasarían de fuente a sumidero. ⚠️ La tendencia clave es marginal (p=0,066) y el fit predice ~2,5 µatm de cambio total, los endpoints raw sugieren 6 µatm. ⚠️ La validación in-situ son solo **37 ciclones**. ⚠️ La proyección CMIP es modelo, no observación. ⚠️ La cifra del 44% es cita del paper, no recálculo nuestro.
+
+[Ver notebook](papers/2026-05-28-ciclones-tropicales-co2-oceano/notebook) · [Leer más](papers/2026-05-28-ciclones-tropicales-co2-oceano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-28-ciclones-tropicales-co2-oceano/notebook.ipynb)
+
+---
 
 ### El buffer del mercado de carbono forestal: probablemente 6,3 veces más pequeño de lo que el clima exige
 
@@ -528,6 +668,15 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-28-buffer-pool-bosques-carbono/notebook) · [Leer más](papers/2026-05-28-buffer-pool-bosques-carbono/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-28-buffer-pool-bosques-carbono/notebook.ipynb)
 
+---
+
+### Hicieron crecer un intestino humano de 8 cm. En 10 semanas
+
+**Medicina** · *Nature Biomedical Engineering* · Park et al. (2026) inventaron un truco simple: una bandeja impresa en 3D que **confina físicamente** los esferoides mientras crecen. Con esa restricción, los organoides desarrollan solos su propio sistema nervioso entérico — el que controla la contracción del intestino. Bajamos los CSVs de Source Data (Figs. 1f, 3f-g, 5c, 5f, 6j y Extended Data 1j-l) y los desmenuzamos. **Acto 1:** misma jugada en tres órganos distintos — **intestino delgado ~7×**, **colon ~12×**, **estómago ~12×** en tamaño de injerto a 10 semanas (Mann-Whitney p≤0,004, Cohen's d entre 2,3 y 3,8). **Acto 2:** los nervios funcionan. La tetrodotoxina apaga la contracción (Wilcoxon pareado p=0,008, d pareado=0,99); la combinación L-NAME + atropina la apaga también (p=0,001), confirmando componentes excitatorios colinérgicos e inhibitorios nitrérgicos en el ENS desarrollado de novo. **Acto 3:** al conectar el injerto al lumen del huésped, la barrera no aumenta su permeabilidad (Mann-Whitney p=0,057, Cohen's d=4,0 — tendencia clara con n=3 vs 4, intervalo amplio). ⚠️ La anchura de 8 cm vive en el abstract — el Source Data Fig 1f es área en cm², no longitud lineal. ⚠️ L-NAME solo no alcanza significancia (p=0,195) — la confirmación de neuronas nitrérgicas se apoya en el contraste L-NAME vs L-NAME+atropina. ⚠️ Trasplante en rata RRG inmunocomprometida — el salto a clínica humana sigue lejos.
+
+[Ver notebook](papers/2026-05-22-organoides-intestino-funcional-ens/notebook) · [Leer más](papers/2026-05-22-organoides-intestino-funcional-ens/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-22-organoides-intestino-funcional-ens/notebook.ipynb)
+
+---
 
 ### Tormentas urbanas en Texas: la ciudad las parte en dos
 
@@ -535,6 +684,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-20-tormentas-urbanas-texas/notebook) · [Leer más](papers/2026-05-20-tormentas-urbanas-texas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-20-tormentas-urbanas-texas/notebook.ipynb)
 
+---
 
 ### Granizos más grandes en un clima más cálido
 
@@ -542,6 +692,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-27-granizo-global-clima/notebook) · [Leer más](papers/2026-05-27-granizo-global-clima/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-27-granizo-global-clima/notebook.ipynb)
 
+---
 
 ### Algoritmos que distorsionan lo que crees que piensan los demás
 
@@ -549,13 +700,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-27-algoritmos-redes-percepcion-normas/notebook) · [Leer más](papers/2026-05-27-algoritmos-redes-percepcion-normas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-27-algoritmos-redes-percepcion-normas/notebook.ipynb)
 
-
-### Un péptido modular contra MRSA — 99,500× más potente que vancomicina
-
-**Medicina** · *Nature Biomedical Engineering* · Garrood et al. (2026) construyeron un péptido **modular de tres piezas** — ancla bifenilo + enlazador difenilalanina + cabeza catiónica — y probaron 7 anclas distintas sobre el mismo esqueleto contra MRSA. Bajamos las **Source Data Figs. 1, 2 y 4** del paper (4 CSVs, n=3 réplicas in vitro y n=3 ratones por dosis in vivo) y las desmenuzamos. **Acto 1:** a **128 μM**, Bip-FK9 deja MRSA en **100 CFU/mL** (límite de detección) mientras vancomicina sigue dejando **9,95 millones de CFU/mL** — diferencia de **~99.500×**. **Acto 2:** el ancla importa — las otras 6 variantes se quedan en el rango 1,3×10⁹–5,4×10⁹ CFU/mL; Bip-FK9 baja a 1,6×10⁷ (80× por debajo del siguiente mejor, Iso-FK9). **Acto 3:** PG (fosfatidilglicerol) es el blanco — solo PG libre bloquea la actividad (reducción 0,04 log) mientras CL, PA y Lysyl-PG no protegen (reducción 2,3–2,7 log). **Cierre in vivo:** la carga bacteriana pulmonar en ratones con neumonía MRSA cae de **82,4%** (0,5 μg/mL inhalado) a **1,4%** (24 μg/mL). ⚠️ n=3 por dosis (in vitro e in vivo). ⚠️ Eje Y in vivo en porcentaje según convención del paper (carga relativa al control), no CFU absolutos. ⚠️ Body del paper en paywall — verificación cruzada limitada al supplementary accesible. ⚠️ Resistencia tras pases y toxicidad histológica son claims del paper sin CSV propio en el Lab.
-
-[Ver notebook](papers/2026-05-20-peptide-nanofibres-antimicrobial/notebook) · [Leer más](papers/2026-05-20-peptide-nanofibres-antimicrobial/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-20-peptide-nanofibres-antimicrobial/notebook.ipynb)
-
+---
 
 ### 1,6 millones de km² de selva no han vuelto a "sudar" igual
 
@@ -563,13 +708,15 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/notebook) · [Leer más](papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/notebook.ipynb)
 
+---
 
-### 450 vecinos invisibles dentro de una vaca
+### La Antártida occidental se derritió antes — y dejó su firma en el polvo
 
-**Biología** · *Science* · Xie et al. (2026) catalogaron **450 genomas de ciliados del rumen** (87% nuevos para la ciencia), midieron emisiones de metano en **100 vacas** e integraron **1.877 datasets** metagenómicos/metatranscriptómicos públicos. Bajamos los catálogos abiertos del portal NGDC y desmenuzamos lo que cubre la data accesible. **Acto 1:** los tres dominios del rumen, ahora con sus protistas adentro — bacterias **12.540**, arqueas **158** (todas metanógenas), ciliados **450** (87% inéditos). **Acto 2:** Entodiniomorphida es **1,6× más diverso** que Vestibuliferida (277 vs 173 genomas), pero el paper enmarca a Vestibuliferida — cargado de **hidrogenobodies (HBs)** — como el orden que más promueve metanogénesis. Más diverso no es lo mismo que más impacto funcional. **Acto 3:** las células únicas (SAG) rinden mejores genomas que los reconstruidos de comunidad (MAG) — diferencia BUSCO de **17,6 pp**, Cohen's d = **1,65** (efecto grande), Mann-Whitney p ≈ 8,6×10⁻³⁰. ⚠️ Solo trabajamos con metadatos del catálogo — los genomas completos (>6,9 GB) y las Tables S1-S9 con las correlaciones ciliado-metano por vaca están detrás de paywall. ⚠️ El paper habla de **correlación** y **promoción mecanística** vía HBs, no de causalidad directa.
+**Geología** · *Nature Geoscience* · 22 muestras Sr/Nd de un núcleo en Allan Hills (Antártida) muestran que el polvo cambió de fuente entre el último glacial y el último interglacial: 67% de muestras MIS 5e con firma volcánica antártica local vs solo 10% en MIS 6.
 
-[Ver notebook](papers/2026-04-30-ciliados-rumen-metano/notebook) · [Leer más](papers/2026-04-30-ciliados-rumen-metano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-30-ciliados-rumen-metano/notebook.ipynb)
+[Ver notebook](papers/2026-05-26-ross-ice-shelf-mis-5e/notebook) · [Leer más](papers/2026-05-26-ross-ice-shelf-mis-5e/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-26-ross-ice-shelf-mis-5e/notebook.ipynb)
 
+---
 
 ### Chacal dorado en Europa: el lobo lo limita, los humanos lo escudan
 
@@ -577,13 +724,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-26-chacal-dorado-europa/notebook) · [Leer más](papers/2026-05-26-chacal-dorado-europa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-26-chacal-dorado-europa/notebook.ipynb)
 
-
-### Bacterias atrapadas seis meses: el hidrogel que no las deja escapar
-
-**Medicina** · *Science* · Harimoto et al. (2026, lab de David Mooney en Harvard) **logran** lo que la literatura previa había rondado pero no alcanzaba: **6 meses de contención completa** de bacterias modificadas dentro de un implante. Transcribimos las Tablas S1-S4 del Supplementary PDF (paper paywalled, SM accesible) y verificamos número por número. **Acto 1:** 4.320 horas de contención frente a una **mediana previa de 36 h** (24 estudios) y un **mejor previo de 504 h** — saltos de **120×** y **8,6×** respectivamente, mostrados en una escala logarítmica donde el nuevo punto vive en otro plano. **Acto 2:** la región rigidez+tenacidad que ocupan las 31 formulaciones de PVA está **vacía** en la literatura — work of fracture hasta **2,4·10⁷ J/m³** contra los **2.400 J/m³** del mejor no-PVA (cuatro órdenes de magnitud). **Acto 3:** la honestidad — **51 mutaciones en 31 colonias** recuperadas, de las cuales un **7,8%** son deleciones de gen completo. El hidrogel aguanta seis meses; el medicamento, en algunas colonias, ya no se produce al final del experimento. ⚠️ Modelo murino — falta validación clínica. ⚠️ N=1 de PVA frente a N=24 previos: marca técnica, no estadística inferencial. ⚠️ Sin datasets externos: la reproducibilidad depende de las tablas transcritas a mano.
-
-[Ver notebook](papers/2026-05-14-hidrogel-bacterias-terapia/notebook) · [Leer más](papers/2026-05-14-hidrogel-bacterias-terapia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-hidrogel-bacterias-terapia/notebook.ipynb)
-
+---
 
 ### Tu cerebro tiene 72 autopistas blancas. Ahora hay un mapa de cómo cambian del nacimiento a los 90 años
 
@@ -591,6 +732,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-25-white-matter-brain-charts/notebook) · [Leer más](papers/2026-05-25-white-matter-brain-charts/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-25-white-matter-brain-charts/notebook.ipynb)
 
+---
 
 ### Frenar UN gen mantiene la microglia reparadora 8 semanas tras un derrame
 
@@ -598,6 +740,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-25-microglia-reparativa-stroke-zfp384/notebook) · [Leer más](papers/2026-05-25-microglia-reparativa-stroke-zfp384/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-25-microglia-reparativa-stroke-zfp384/notebook.ipynb)
 
+---
 
 ### RNAs que detienen TDP-43
 
@@ -605,13 +748,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-23-rna-chaperones-tdp-43/notebook) · [Leer más](papers/2026-05-23-rna-chaperones-tdp-43/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-23-rna-chaperones-tdp-43/notebook.ipynb)
 
-
-### La sorpresa de los andrógenos en el cerebro
-
-**Medicina** · *Nature* · En la mayoría de los cánceres los andrógenos ayudan al tumor — por eso bloquearlos es estándar contra próstata. En glioblastoma, este equipo demostró lo contrario. **Acto 1 (Fig 1a):** castrar ratones con GBM intracraneal redujo la mediana de supervivencia 23% (26 → 20 días, *d* = 0,94, log-rank *p* = 0,020, *n* = 27). **Acto 2 (Fig 3b):** bloquear glucocorticoides con mifepristona en castrados subió la mediana 51% (17,5 → 26,5 días, *d* = 0,85, log-rank *p* = 0,048, *n* = 20). **Acto 3 (cohorte humana):** en 1.272 hombres con GBM, testosterona+temozolomida vs temozolomida sola → 38% menos riesgo de muerte (HR crudo 0,62; ajustado 0,66, *p* = 0,003). Mecanismo propuesto: sin andrógenos, el eje hipotálamo-pituitaria-adrenal (HPA) hipersuelta cortisol y apaga la inmunidad antitumoral. ⚠️ La cohorte humana es retrospectiva, no aleatorizada — asociación robusta, no causalidad probada. ⚠️ Solo replicamos las dos curvas de supervivencia; mediciones moleculares directas viven en otras figuras del paper.
-
-[Ver notebook](papers/2026-05-06-androgenos-glioblastoma-hpa/notebook) · [Leer más](papers/2026-05-06-androgenos-glioblastoma-hpa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-androgenos-glioblastoma-hpa/notebook.ipynb)
-
+---
 
 ### Las píldoras anti-obesidad pasan por la amígdala
 
@@ -619,12 +756,13 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 [Ver notebook](papers/2026-05-06-glp1-amigdala-recompensa-ratones/notebook) · [Leer más](papers/2026-05-06-glp1-amigdala-recompensa-ratones/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-glp1-amigdala-recompensa-ratones/notebook.ipynb)
 
+---
 
-### El HIV necesita tocar células para infectarlas
+### LiDAR de US$100 ve detrás de las paredes
 
-**Medicina** · *Nature* · Mesner et al. (2026) **muestran** por qué los linfocitos T CD4+ en reposo —donde el HIV vive en el cuerpo— no se infectan con virus libre en el laboratorio: les falta una señal que solo el contacto célula-célula activa. Bajamos los Source Data de las figuras 1, 3 y 4 (MOESM7/9/10) y verificamos los tres eslabones de la cascada. **Acto 1:** en 3 donantes pareados, el contacto multiplica la infección por **3,6×** (cell-free 3,1% vs cell-cell 11,4%, *t* pareado *p* = 0,016, Cohen *d* pareado = 4,5). **Acto 2:** silenciar **CDK1** con siRNA reduce la infección **−33%** (*p* = 0,021, *d* pareado = 4,0) — la quinasa del ciclo celular es necesaria. **Acto 3:** la quinasa no abre el poro entero. De **10 nucleoporinas** medidas, solo **3 cambian** con el contacto: **Nup54 (+32%)**, **Nup62 (+16%)** y **Tpr (+12%)**, con *d* entre 0,62 y 1,01. Las otras 7 no se mueven. ⚠️ *n* = 3 donantes en las figuras clave: efectos enormes pero potencia baja (*p* al borde). ⚠️ La cascada CD4 → LCK → CDK1 → Nup la apoyamos con la propuesta del paper, no con el Source Data — la activación de LCK no está en los CSVs abiertos.
+**Tecnología** · *Nature* · Somasundaram et al. (2026) demuestran **NLOS imaging (imaging non-line-of-sight)** sobre un sensor de mercado — el ST VL53L8CX, un multizone time-of-flight de menos de US$100, no el LiDAR del iPhone — para localizar objetos ocultos detrás de una pared con un error promedio de **3,8 cm** (vs 6,4 cm de *backprojection* y 15,7 cm de *phasor field*, los dos baselines clásicos del campo). El truco: el modelo MAS (*motion-induced aperture sampling*) que combina muchos cuadros aprovechando que cámara y objeto se mueven. Abrimos las dos tablas del Supplementary (errores por método y por dimensión) más el histograma SPAD y la trayectoria del particle filter sobre 475 cuadros (95 s a 5 fps). El titular esconde un matiz importante: los 3,8 cm son el promedio sobre 25.000 ensayos — la incertidumbre en un cuadro individual ronda los **24 cm**. La diferencia es estadística pura (el error promedio escala con √N) y el notebook la separa explícitamente. ⚠️ Solo 2 baselines comparados. ⚠️ Objetos planos en escenas controladas. ⚠️ Conocer la forma del objeto reduce el error hasta 2,5× (efecto fuerte en objetos no convexos como la "U").
 
-[Ver notebook](papers/2026-05-06-hiv-poros-nucleares-infeccion/notebook) · [Leer más](papers/2026-05-06-hiv-poros-nucleares-infeccion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-hiv-poros-nucleares-infeccion/notebook.ipynb)
+[Ver notebook](papers/2026-05-21-lidar-objetos-ocultos-celular/notebook) · [Leer más](papers/2026-05-21-lidar-objetos-ocultos-celular/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-21-lidar-objetos-ocultos-celular/notebook.ipynb)
 
 ---
 
@@ -636,27 +774,27 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
+### Un péptido modular contra MRSA — 99,500× más potente que vancomicina
+
+**Medicina** · *Nature Biomedical Engineering* · Garrood et al. (2026) construyeron un péptido **modular de tres piezas** — ancla bifenilo + enlazador difenilalanina + cabeza catiónica — y probaron 7 anclas distintas sobre el mismo esqueleto contra MRSA. Bajamos las **Source Data Figs. 1, 2 y 4** del paper (4 CSVs, n=3 réplicas in vitro y n=3 ratones por dosis in vivo) y las desmenuzamos. **Acto 1:** a **128 μM**, Bip-FK9 deja MRSA en **100 CFU/mL** (límite de detección) mientras vancomicina sigue dejando **9,95 millones de CFU/mL** — diferencia de **~99.500×**. **Acto 2:** el ancla importa — las otras 6 variantes se quedan en el rango 1,3×10⁹–5,4×10⁹ CFU/mL; Bip-FK9 baja a 1,6×10⁷ (80× por debajo del siguiente mejor, Iso-FK9). **Acto 3:** PG (fosfatidilglicerol) es el blanco — solo PG libre bloquea la actividad (reducción 0,04 log) mientras CL, PA y Lysyl-PG no protegen (reducción 2,3–2,7 log). **Cierre in vivo:** la carga bacteriana pulmonar en ratones con neumonía MRSA cae de **82,4%** (0,5 μg/mL inhalado) a **1,4%** (24 μg/mL). ⚠️ n=3 por dosis (in vitro e in vivo). ⚠️ Eje Y in vivo en porcentaje según convención del paper (carga relativa al control), no CFU absolutos. ⚠️ Body del paper en paywall — verificación cruzada limitada al supplementary accesible. ⚠️ Resistencia tras pases y toxicidad histológica son claims del paper sin CSV propio en el Lab.
+
+[Ver notebook](papers/2026-05-20-peptide-nanofibres-antimicrobial/notebook) · [Leer más](papers/2026-05-20-peptide-nanofibres-antimicrobial/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-20-peptide-nanofibres-antimicrobial/notebook.ipynb)
+
+---
+
+### Humedales y metano: 28 modelos, el mismo veredicto
+
+**Ecología** · *Nature Geoscience* · Zhang et al. (2026) corrieron un ensamble de **7 modelos terrestres × 4 forzantes climáticos = 28 simulaciones** del metano natural de humedales 2006-2099 bajo calentamiento alto. **Los 28 caminos aumentan** — la mediana global pasa de **224,5 Tg CH₄/año (2010s) a 327,6 Tg/año (2090s)**, un **+53,9 %** (P17-P83: 37-64 %). Los autores filtran ese ensamble con **163 años-sitio de torres de flujo (eddy-covariance)** y obtienen la cifra titular del paper: **50-60 % más emisiones por los 2090s**. Nuestra mediana cruda cae justo en esa banda. La descomposición regional muestra el contraste: **los trópicos aportan 72 % del aumento absoluto** (81,6 Tg/año), pero la región boreal **duplica sus emisiones** (+102 %) — el mayor cambio relativo del planeta, aunque pequeño en términos absolutos (7,2 Tg/año). Solo en la década 2030, el aumento adicional ya equivale a **9 % del CH₄ humano de 2020 (380 Tg)**, "comparable" — dice el paper — a lo que el **Global Methane Pledge** (recorte 30 %) prometió eliminar. ⚠️ Cubre alrededor de un tercio del recorte humano comprometido, no la totalidad. ⚠️ El filtro emergente no es replicable con los datos públicos (requiere series de temperatura de cada ESM). ⚠️ La cobertura observacional está sesgada a latitudes medias y altas — los trópicos, donde está la mayor masa del aumento, son justo donde queda más incertidumbre.
+
+[Ver notebook](papers/2026-05-20-metano-humedales-clima/notebook) · [Leer más](papers/2026-05-20-metano-humedales-clima/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-20-metano-humedales-clima/notebook.ipynb)
+
+---
+
 ### Dopamina y cerebro maternal
 
 **Neurociencia** · *Nature* · Un grupo demuestra que silenciar la liberación de **dopamina** en el **hipocampo dorsal** de una hembra virgen es **suficiente** para que recoja crías como una madre experimentada. Bajamos los datos conductuales del Supplementary (MOESM5) — 34 hembras en el test de aprendizaje contextual y 51 en el de recogida de crías — y los analizamos célula por celda. Acto 1: la maternidad casi duplica el aprendizaje contextual (Cohen *d* = 1,22, *p* = 0,021). Acto 2: el estrés postparto crónico tiende a borrar esa ventaja, con alta variabilidad individual (*d* = -0,50). Acto 3 — el golpe: **8 de 13 vírgenes con control viral nunca recogen cría** antes del cutoff de 900 s; con dopamina silenciada químicamente, **14 de 15 lo hacen en mediana 102 s** (Cohen *d* = -1,50, *p* = 0,0018). Y silenciar dopamina en madres **no** cambia su conducta — control de especificidad limpio. ⚠️ Estudio en ratón; la validación humana del paper es solo molecular, no conductual. ⚠️ Cutoff a 900 s introduce censura administrativa: subestima la diferencia real.
 
 [Ver notebook](papers/2026-05-20-dopamina-cerebro-maternal/notebook) · [Leer más](papers/2026-05-20-dopamina-cerebro-maternal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-20-dopamina-cerebro-maternal/notebook.ipynb)
-
----
-
-### BINDS: cáncer de mama por IA, examinado por dentro
-
-**Medicina** · *Nature Biomedical Engineering* · Liu et al. (2026) **introducen BINDS**, un modelo de deep learning multimodal que combina ecografía, mamografía y resonancia para diagnosticar cáncer de mama sobre **27.048 participantes** (8 centros + 7 datasets públicos). El paper anuncia un **AUROC de 0,973**. Bajamos los Source Data (MOESM3, MOESM4, MOESM7) y desmenuzamos ese número. El headline vive en el mejor escenario: paciente con las tres modalidades y esquema two-stage. Con solo ultrasonido, BINDS cae a **0,876**. Con las tres modalidades juntas sube a **0,950** — una ganancia trimodal de **+4,1 puntos porcentuales** sobre la mejor modalidad única. En **BI-RADS 4A** (el subgrupo clínicamente más ambiguo, donde más se necesitaría ayuda) el intervalo de confianza se abre a **[0,76–0,97]** — ancho del CI = 0,21, el mayor de todos los subgrupos. Sorpresa de eficiencia: la **mamografía alcanza 0,87 con solo 10%** de los datos de entrenamiento; la señal está en la imagen, no en el volumen. ⚠️ Validación retrospectiva, no ensayo clínico prospectivo. ⚠️ El 0,973 está **+6,0 puntos porcentuales sobre la mediana** de las 69 AUROCs que reporta el propio paper. ⚠️ Los autores escriben *"highlight the potential"*, no *"demonstrates"*: el modelo **podría asistir**, no probó reemplazar al radiólogo.
-
-[Ver notebook](papers/2026-05-19-binds-cancer-mama-ia/notebook) · [Leer más](papers/2026-05-19-binds-cancer-mama-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-19-binds-cancer-mama-ia/notebook.ipynb)
-
----
-
-### LiDAR de US$100 ve detrás de las paredes
-
-**Tecnología** · *Nature* · Somasundaram et al. (2026) demuestran **NLOS imaging (imaging non-line-of-sight)** sobre un sensor de mercado — el ST VL53L8CX, un multizone time-of-flight de menos de US$100, no el LiDAR del iPhone — para localizar objetos ocultos detrás de una pared con un error promedio de **3,8 cm** (vs 6,4 cm de *backprojection* y 15,7 cm de *phasor field*, los dos baselines clásicos del campo). El truco: el modelo MAS (*motion-induced aperture sampling*) que combina muchos cuadros aprovechando que cámara y objeto se mueven. Abrimos las dos tablas del Supplementary (errores por método y por dimensión) más el histograma SPAD y la trayectoria del particle filter sobre 475 cuadros (95 s a 5 fps). El titular esconde un matiz importante: los 3,8 cm son el promedio sobre 25.000 ensayos — la incertidumbre en un cuadro individual ronda los **24 cm**. La diferencia es estadística pura (el error promedio escala con √N) y el notebook la separa explícitamente. ⚠️ Solo 2 baselines comparados. ⚠️ Objetos planos en escenas controladas. ⚠️ Conocer la forma del objeto reduce el error hasta 2,5× (efecto fuerte en objetos no convexos como la "U").
-
-[Ver notebook](papers/2026-05-21-lidar-objetos-ocultos-celular/notebook) · [Leer más](papers/2026-05-21-lidar-objetos-ocultos-celular/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-21-lidar-objetos-ocultos-celular/notebook.ipynb)
 
 ---
 
@@ -676,30 +814,6 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Humedales y metano: 28 modelos, el mismo veredicto
-
-**Ecología** · *Nature Geoscience* · Zhang et al. (2026) corrieron un ensamble de **7 modelos terrestres × 4 forzantes climáticos = 28 simulaciones** del metano natural de humedales 2006-2099 bajo calentamiento alto. **Los 28 caminos aumentan** — la mediana global pasa de **224,5 Tg CH₄/año (2010s) a 327,6 Tg/año (2090s)**, un **+53,9 %** (P17-P83: 37-64 %). Los autores filtran ese ensamble con **163 años-sitio de torres de flujo (eddy-covariance)** y obtienen la cifra titular del paper: **50-60 % más emisiones por los 2090s**. Nuestra mediana cruda cae justo en esa banda. La descomposición regional muestra el contraste: **los trópicos aportan 72 % del aumento absoluto** (81,6 Tg/año), pero la región boreal **duplica sus emisiones** (+102 %) — el mayor cambio relativo del planeta, aunque pequeño en términos absolutos (7,2 Tg/año). Solo en la década 2030, el aumento adicional ya equivale a **9 % del CH₄ humano de 2020 (380 Tg)**, "comparable" — dice el paper — a lo que el **Global Methane Pledge** (recorte 30 %) prometió eliminar. ⚠️ Cubre alrededor de un tercio del recorte humano comprometido, no la totalidad. ⚠️ El filtro emergente no es replicable con los datos públicos (requiere series de temperatura de cada ESM). ⚠️ La cobertura observacional está sesgada a latitudes medias y altas — los trópicos, donde está la mayor masa del aumento, son justo donde queda más incertidumbre.
-
-[Ver notebook](papers/2026-05-20-metano-humedales-clima/notebook) · [Leer más](papers/2026-05-20-metano-humedales-clima/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-20-metano-humedales-clima/notebook.ipynb)
-
----
-
-### Una gota de sangre que predice si la inmunoterapia funcionará
-
-**Medicina** · *Nature* · Newman et al. (2026) identificaron **9 ecosistemas espaciales (SEs)** integrando >10 millones de transcriptomas de tumores humanos. La sorpresa clínica: esas firmas se pueden recuperar desde sangre — fragmentos de ADN tumoral flotando libres (cfDNA). En **78 pacientes con melanoma metastásico** medidos antes de empezar inmunoterapia, **SE7 predice no-respuesta con AUC = 0,80** (z = -4,49, p = 3·10⁻⁶) y **SE4 predice respuesta con AUC = 0,76**. Siete de las ocho SEs medibles en cfDNA salen significativas; solo SE2 queda en ruido. Los 9 ecosistemas están presentes en los **17 tipos de cáncer** del atlas TCGA (7.076 muestras): la abundancia de SE7 varía hasta 1,5× entre cánceres (0,054 en tiroides → 0,080 en esófago) — conservación = presencia, no nivel uniforme. ⚠️ Estudio observacional retrospectivo — asociaciones, no causalidad. ⚠️ El AUC del subgrupo Female (0,90 con n = 25) es sospechosamente alto: bandera roja de overfitting con muestra pequeña; el subgrupo Male (n = 53) es más confiable. ⚠️ El paper enmarca el uso clínico con "implications for risk stratification" — implicación a futuro, no resultado validado.
-
-[Ver notebook](papers/2026-05-06-tme-spatial-ecotypes/notebook) · [Leer más](papers/2026-05-06-tme-spatial-ecotypes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-tme-spatial-ecotypes/notebook.ipynb)
-
----
-
-### Cómo se decide un terremoto en 15 milisegundos
-
-**Geología** · *Nature* · Fryer et al. (2026) midieron **64 eventos de nucleación** en una falla artificial bajo cinco presiones (100-300 bar). Una sola variable —**Vmin**, la velocidad del pulso transitorio que aparece al inicio de la nucleación— explica el **78 por ciento** de la varianza en la duración del evento (tc), con correlación de Spearman **r = -0,91** sobre 47 eventos. El rango de Vmin cubre **5.224 veces** y aun así el ajuste se sostiene: tc ∝ Vmin⁻⁰⋅⁵⁴. La pendiente es del mismo orden que la predicción del modelo de fricción que el paper deriva (rate-and-state). **Uno de cada cuatro eventos arresta sin completar la nucleación** (17/64 = 26,6 %) — coincide con la predicción del modelo para impulsos por debajo del umbral. La medición da una distancia característica de slip de 0,3–3,0 mm — órdenes de magnitud menor que las inferidas para rotura dinámica. ⚠️ Las columnas de slip del CSV están en metros aunque el header dice [micron] — hubo que verificar dimensionalmente. ⚠️ La extensión a terremotos tectónicos reales el paper la enmarca como "seem to follow the same scaling" — consistente, no demostrada con los datos del CSV.
-
-[Ver notebook](papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook) · [Leer más](papers/2026-05-06-foreshocks-nucleacion-terremotos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook.ipynb)
-
----
-
 ### Fitoplancton reconvierte progestogenos a su forma activa
 
 **Ecología** · *Nature Water* · Mu et al. (2025) muestran que el fitoplancton hace exactamente lo contrario que el hígado humano: el cuerpo desactiva el **acetato de noretindrona (NEA)** —el progestógeno sintético que llevan muchas pastillas anticonceptivas— para excretarlo, y el fitoplancton le arranca el acetato, devolviéndolo a **noretindrona**, un neuroesteroide más potente que la molécula original. **18 especies cultivadas en lab —todas las que probaron— lo hacen**. Y no es local: el gen responsable, una *adenylosuccinate lyase*, aparece en **135 MAGs eukariotos repartidos en 11 océanos** (del Mediterráneo al Pacífico Sur, datos de TARA Oceans). Chromista + Plantae concentran el **86,7 %** de los MAGs — dos reinos evolutivamente muy distantes, lo que sugiere una huella molecular muy antigua. El mismo gen vive además en **29.709 genomas procariotas** (Pseudomonadota concentra el 41,6 %). ⚠️ Detectar el gen no es lo mismo que verlo activo: el paper sí muestra transcripción en metatranscriptomas, pero la actividad enzimática cuantitativa *in situ* no se mide. ⚠️ El paper usa "may exacerbate" para el riesgo ecológico — plausible, no cuantificado.
@@ -708,43 +822,11 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Macrófagos mordisqueando células vivas
+### BINDS: cáncer de mama por IA, examinado por dentro
 
-**Medicina** · *Nature* · Fan, Thota, Serwas et al. (2026) muestran que los macrófagos no solo limpian células muertas — también arrancan **vesículas sub-micrométricas de células vivas y sanas** sin matarlas. En el pulmón de ratón, un único tipo celular (macrófagos alveolares) se lleva el **62,7 %** del material etiquetado, frente a apenas **0,55 %** en monocitos clásicos — un ratio ≈ 114× (Mann-Whitney U p = 0,008, Cohen's d ≈ 15 con n = 5 ratones). Las vesículas miden de mediana **0,09 µm²** (n = 77 vesículas de 23 células) — son ~835× más pequeñas en área que la sección de una célula entera. Y el muestreo es **estrictamente célula-célula**: separar las poblaciones con una membrana porosa (transwell) reduce el uptake un **77 %** (paired t-test p = 0,0018, n = 3 réplicas biológicas). ⚠️ Los tamaños muestrales son pequeños — los efectos son enormes pero los intervalos de confianza amplios. ⚠️ Todo el sistema está en ratón; el paper no aporta datos humanos directos. ⚠️ El claim de "no destructivo" lo soporta el paper con imaging y caspase assays que no están en el Source Data MOESM7/8.
+**Medicina** · *Nature Biomedical Engineering* · Liu et al. (2026) **introducen BINDS**, un modelo de deep learning multimodal que combina ecografía, mamografía y resonancia para diagnosticar cáncer de mama sobre **27.048 participantes** (8 centros + 7 datasets públicos). El paper anuncia un **AUROC de 0,973**. Bajamos los Source Data (MOESM3, MOESM4, MOESM7) y desmenuzamos ese número. El headline vive en el mejor escenario: paciente con las tres modalidades y esquema two-stage. Con solo ultrasonido, BINDS cae a **0,876**. Con las tres modalidades juntas sube a **0,950** — una ganancia trimodal de **+4,1 puntos porcentuales** sobre la mejor modalidad única. En **BI-RADS 4A** (el subgrupo clínicamente más ambiguo, donde más se necesitaría ayuda) el intervalo de confianza se abre a **[0,76–0,97]** — ancho del CI = 0,21, el mayor de todos los subgrupos. Sorpresa de eficiencia: la **mamografía alcanza 0,87 con solo 10%** de los datos de entrenamiento; la señal está en la imagen, no en el volumen. ⚠️ Validación retrospectiva, no ensayo clínico prospectivo. ⚠️ El 0,973 está **+6,0 puntos porcentuales sobre la mediana** de las 69 AUROCs que reporta el propio paper. ⚠️ Los autores escriben *"highlight the potential"*, no *"demonstrates"*: el modelo **podría asistir**, no probó reemplazar al radiólogo.
 
-[Ver notebook](papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook) · [Leer más](papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook.ipynb)
-
----
-
-### Dos tercios del deshielo extra de la Antártida vienen del propio deshielo
-
-**Ecología** · *Nature Geoscience* · Youngs et al. (2026) corren la primera simulación circumpolar de la Antártida con plataformas de hielo interactivas (MITgcm + GFDL-CM4, escenario SSP5-8.5) y descomponen el aumento del derretimiento basal en dos piezas: lo que mete el calentamiento directo del océano y lo que añade el propio agua de deshielo al volver a la cavidad. **El 66% del aumento total viene de la segunda pieza** — un feedback que la mayoría de modelos climáticos ni siquiera tiene. La firma es 531 Gt/año adicionales vs 274 Gt/año del calentamiento directo (suma sobre 10 sectores). Y el feedback no es uniforme: **amplifica en 4 sectores** (Weddell, Amery, Maud, Wilkes — cavidades densas donde el agua salina aligerada deja entrar agua cálida bajo la plataforma) y **protege en 6** (Bellingshausen, Amundsen, Ross, Adelie, Península, Enderby — donde el agua dulce de las cavidades densas forma un escudo aguas abajo). Weddell solo aporta el 87% del aumento circumpolar. ⚠️ Es un solo modelo bajo un solo forzamiento; otros modelos pueden dar magnitudes distintas. ⚠️ Los 10 sectores son una partición convencional del modelo, no fronteras físicas. ⚠️ El Spearman T vs deshielo por sector da ρ=-0,20 con p=0,58 (n=10): la geometría de cavidad, no el calentamiento neto, manda la respuesta.
-
-[Ver notebook](papers/2026-05-15-antartida-feedbacks-deshielo/notebook) · [Leer más](papers/2026-05-15-antartida-feedbacks-deshielo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-15-antartida-feedbacks-deshielo/notebook.ipynb)
-
----
-
-### Imprimir circuitos de cobre a 150 °C
-
-**Tecnología** · *Science* · Anonymous et al. (2026) presentan una tinta de cobre que se funde en conductor a **150 °C, al aire**, con resistividad de **12,8 µΩ·cm** — cuatro veces mejor que cualquiera de los 3 métodos previos que operan a esa temperatura (mediana 52 µΩ·cm en n=30 papers de literatura), y muy por debajo de los 250 °C que pide la mediana global. La clave: catecoles, la misma familia química de la dopamina. Las simulaciones DFT muestran que catecol/dopamina se une al Cu⁺ con **E_int = -0,757 eV**, 13,8× más fuerte que el ácido cítrico clásico (-0,055 eV). EXAFS confirma partículas Cu(0) cristalinas (bond length 2,537 Å, idéntico al cobre macizo) pero pequeñas (coordinación 5,4 vs 10,4 del foil). El paper reporta además estabilidad de **>1000 h en ácido, >200 h en sulfuro, >240 h a 140 °C**. ⚠️ Las cinéticas de corrosión y los datos de impresión sobre PET viven en las figuras del paper que no extrajimos. ⚠️ DFT con n=5 ligandos: orden cualitativo informativo, no ranking estadístico. ⚠️ La curva resistividad-temperatura tiene 4 puntos — suficiente para la tendencia, no para modelo físico detallado.
-
-[Ver notebook](papers/2026-05-14-cobre-corrosion-catecol/notebook) · [Leer más](papers/2026-05-14-cobre-corrosion-catecol/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-cobre-corrosion-catecol/notebook.ipynb)
-
----
-
-### Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta
-
-**Tecnología** · *Science* · Lin et al. (2026) entrenaron una IA colaborativa de **cuatro agentes** que diseñó, pieza por pieza, las tres capas críticas de una celda solar de perovskita: el absorbente (FA₀.₉₂Cs₀.₀₈PbI₃, con apenas **8% de cesio**), la capa que transporta huecos (una molécula sintetizada ad hoc, MeO-DPPACz) y la interfaz dual de óxidos metálicos. El resultado: la celda retiene **97% del rendimiento inicial tras 1000 horas a 100°C** — un régimen donde, de **51 estudios previos** (44 DOIs únicos) que revisamos, **solo 1 había llegado** y aguantó 60%. Diferencia: 37 puntos porcentuales. Los datos confirman el porqué a nivel atómico: Cs₈ tiene **~74% menos defectos** (trampas) que la composición sin cesio, con Cohen's d ≈ 12,8 entre n=3 réplicas. La predicción del agente AI sobre la composición óptima cayó dentro de su propia banda de confianza 80%. ⚠️ El test se cortó a 1000 h; comportamiento de largo plazo desconocido. ⚠️ La curva clave son trazas single-device por composición — sin error bars inter-dispositivo en esa figura. ⚠️ La molécula HTM custom fue sintetizada ad hoc; escalabilidad no reportada.
-
-[Ver notebook](papers/2026-05-14-perovskita-ia-multiagente-100c/notebook) · [Leer más](papers/2026-05-14-perovskita-ia-multiagente-100c/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-perovskita-ia-multiagente-100c/notebook.ipynb)
-
----
-
-### ¿Está la IA superando a los médicos en razonamiento clínico?
-
-**Tecnología** · *Science* · Brodeur et al. (2026) pusieron al modelo o1-preview de OpenAI a competir con cientos de médicos en **seis tareas de razonamiento clínico**, desde los casos clinico-patológicos del NEJM hasta diagnóstico en urgencias reales. El titular: la IA ganó casi todas. En CPCs del NEJM, **o1 alcanzó 66.3% top-1 vs 24.3% de los médicos en los 101 casos solapados** (gap 42 pp, ratio 2.73×). Pero el gap se cierra cuando los médicos tienen información completa: en urgencias reales con n=76 pacientes, la ventaja sobre el médico de planta cae de **+11.8 pp en triage a +2.7 pp en admisión** (no significativo). Y en el experimento *Landmark*, el equipo humano-IA (médicos+GPT-4 = 76%) no fue mejor que el médico solo (74%, p=0.055) — la dyad asistida no mejoró al clínico. ⚠️ Las rúbricas aditivas premian enumeración (Grey Matters: gap 55 pp, en parte artefacto de medición). ⚠️ El test de blinding es de 3 opciones (humano/IA/no puedo decir), no binario: los raters mayoritariamente se abstuvieron (83.6% y 94.4%); al menos uno discriminaba muy bien cuando se atrevía (92.6%). ⚠️ El propio paper pide *"urgent need for prospective trials"*.
-
-[Ver notebook](papers/2026-04-30-llm-razonamiento-medico/notebook) · [Leer más](papers/2026-04-30-llm-razonamiento-medico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-30-llm-razonamiento-medico/notebook.ipynb)
+[Ver notebook](papers/2026-05-19-binds-cancer-mama-ia/notebook) · [Leer más](papers/2026-05-19-binds-cancer-mama-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-19-binds-cancer-mama-ia/notebook.ipynb)
 
 ---
 
@@ -764,19 +846,11 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Los ríos del Himalaya están serpenteando casi al doble de velocidad
+### Dos tercios del deshielo extra de la Antártida vienen del propio deshielo
 
-**Ecología** · *Science* · Lin et al. (2026) midieron cómo migra lateralmente cada uno de **650 meandros pareados** en tres cuencas mayores del Himalaya — **Yarlung Tsangpo, Ganges, Indus** — comparando dos ventanas: **1980s–90s vs 2000s–10s**. La mediana de migración pasó de **1,02 a 1,81 m/año (ratio = 1,77×)**; el **93%** de los meandros aceleró. **Wilcoxon p ≈ 10⁻⁹², Cohen's d pareado = 0,72**. Pero la aceleración no es uniforme: **Ganges 2,16×, Indus 1,91×, Yarlung Tsangpo 1,62×** — y el Yarlung aporta 75% de la muestra. La temperatura subió **+0,87 °C** en esas mismas décadas, pero la correlación directa T → migración es modesta (**ρ = 0,33**). ⚠️ Diseño **OBSERVACIONAL**: la causalidad clima → migración es hipótesis del paper, sostenida por un modelo SEM, no por la comparación pareada. ⚠️ El claim del paper sobre *"amplified sediment fluxes"* **no aparece en los datos crudos** — Qs cayó 43%; el paper lo sostiene con su SEM, no con medias temporales.
+**Ecología** · *Nature Geoscience* · Youngs et al. (2026) corren la primera simulación circumpolar de la Antártida con plataformas de hielo interactivas (MITgcm + GFDL-CM4, escenario SSP5-8.5) y descomponen el aumento del derretimiento basal en dos piezas: lo que mete el calentamiento directo del océano y lo que añade el propio agua de deshielo al volver a la cavidad. **El 66% del aumento total viene de la segunda pieza** — un feedback que la mayoría de modelos climáticos ni siquiera tiene. La firma es 531 Gt/año adicionales vs 274 Gt/año del calentamiento directo (suma sobre 10 sectores). Y el feedback no es uniforme: **amplifica en 4 sectores** (Weddell, Amery, Maud, Wilkes — cavidades densas donde el agua salina aligerada deja entrar agua cálida bajo la plataforma) y **protege en 6** (Bellingshausen, Amundsen, Ross, Adelie, Península, Enderby — donde el agua dulce de las cavidades densas forma un escudo aguas abajo). Weddell solo aporta el 87% del aumento circumpolar. ⚠️ Es un solo modelo bajo un solo forzamiento; otros modelos pueden dar magnitudes distintas. ⚠️ Los 10 sectores son una partición convencional del modelo, no fronteras físicas. ⚠️ El Spearman T vs deshielo por sector da ρ=-0,20 con p=0,58 (n=10): la geometría de cavidad, no el calentamiento neto, manda la respuesta.
 
-[Ver notebook](papers/2026-05-14-rios-himalaya-meandros-clima/notebook) · [Leer más](papers/2026-05-14-rios-himalaya-meandros-clima/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-rios-himalaya-meandros-clima/notebook.ipynb)
-
----
-
-### Comer antes de un examen inmunológico cambia el resultado
-
-**Medicina** · *Nature* · Hong et al. (2026) reclutaron 31 voluntarios que vinieron en ayunas, los dejaron comer durante 6 horas lo que quisieran (sin menú impuesto) y midieron cómo cambiaron sus células T entre las dos extracciones — más 6 controles que comieron continuamente o ayunaron continuamente. El hallazgo: comer aumenta la **capacidad metabólica de las células T** (más OCR mitocondrial, más IFN-γ y TNF), el efecto **persiste 7 días *in vitro* y hasta 40 semanas en ratones**, y los **quilomicrones** (lipoproteínas postprandiales) son el vehículo que lo transmite vía LDLR y mTORC1. Punto traslacional: las **células CAR-T fabricadas con sangre postprandial son terapéuticamente superiores**. Lo que abrimos aquí: la demografía pública (Tablas S1+S2) de los 37 participantes. Mediana de ayuno **13 h**, cumplimiento del protocolo 12–14 h del **68%** (21/31), BMI mediano **23,8 kg/m²** (rango 19–41 sin el outlier por error de transcripción), y elección dietaria diversa: **13 grasas, 11 carbohidratos, 5 proteínas, 2 vegetales**. ⚠️ Las mediciones funcionales del paper (OCR, ECAR, citoquinas, CAR-T) viven en figuras — no como CSVs descargables — así que el notebook se centra en el diseño humano del estudio. ⚠️ Cohorte n=31 de un solo centro (Pittsburgh). ⚠️ Corrección publicada (2026-05-14) sobre etiquetas de Fig 3h; conclusión cualitativa intacta.
-
-[Ver notebook](papers/2026-04-29-postprandial-lipid-t-cell-immunity/notebook) · [Leer más](papers/2026-04-29-postprandial-lipid-t-cell-immunity/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-postprandial-lipid-t-cell-immunity/notebook.ipynb)
+[Ver notebook](papers/2026-05-15-antartida-feedbacks-deshielo/notebook) · [Leer más](papers/2026-05-15-antartida-feedbacks-deshielo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-15-antartida-feedbacks-deshielo/notebook.ipynb)
 
 ---
 
@@ -788,67 +862,35 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Dos pronúcleos compiten por el citoplasma en el zigoto
+### Los ríos del Himalaya están serpenteando casi al doble de velocidad
 
-**Medicina** · *Nature* · Mihajlović et al. (2026) micromanipularon zigotos de ratón para forzar la formación de **un solo pronúcleo biparental (1PN)** en lugar de los dos normales (2PN), y midieron tres cosas: volúmenes pronucleares (n=47 y 29), marcas químicas de histonas (n=47 vs 30) y tasas de desarrollo embrionario en 5 lotes experimentales. Sin la separación en dos compartimentos, el pronúcleo único termina ocupando el volumen que sumarían los dos del 2PN (**razón 1,08x**) y **H3K27me3 cae 39,6%** (Cohen's *d* = 1,66, p = 2×10⁻⁹ Mann-Whitney) — la marca que mantiene silenciados los genes que el embrión no debe encender todavía. El resultado clínico: solo **26,6%** de los zigotos 1PN llega a término, comparado con **54,7%** de los 2PN (χ² = 17,6, p = 3×10⁻⁵) — casi la mitad. El rescate experimental P1PN recupera al **41,2%**, sugiriendo reversibilidad parcial. ⚠️ Experimentos en ratón — traducción cuantitativa a humano requiere validación. ⚠️ El paper usa "*suggesting*" y "*provides evidence of*" para el mecanismo de competencia citoplasmática (T2) — los datos son consistentes pero la molécula limitante concreta no se identifica. ⚠️ Heterogeneidad alta entre lotes 1PN full-term (rango 0% a 67%).
+**Ecología** · *Science* · Lin et al. (2026) midieron cómo migra lateralmente cada uno de **650 meandros pareados** en tres cuencas mayores del Himalaya — **Yarlung Tsangpo, Ganges, Indus** — comparando dos ventanas: **1980s–90s vs 2000s–10s**. La mediana de migración pasó de **1,02 a 1,81 m/año (ratio = 1,77×)**; el **93%** de los meandros aceleró. **Wilcoxon p ≈ 10⁻⁹², Cohen's d pareado = 0,72**. Pero la aceleración no es uniforme: **Ganges 2,16×, Indus 1,91×, Yarlung Tsangpo 1,62×** — y el Yarlung aporta 75% de la muestra. La temperatura subió **+0,87 °C** en esas mismas décadas, pero la correlación directa T → migración es modesta (**ρ = 0,33**). ⚠️ Diseño **OBSERVACIONAL**: la causalidad clima → migración es hipótesis del paper, sostenida por un modelo SEM, no por la comparación pareada. ⚠️ El claim del paper sobre *"amplified sediment fluxes"* **no aparece en los datos crudos** — Qs cayó 43%; el paper lo sostiene con su SEM, no con medias temporales.
 
-[Ver notebook](papers/2026-04-29-pronuclear-competition-zygotes/notebook) · [Leer más](papers/2026-04-29-pronuclear-competition-zygotes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-pronuclear-competition-zygotes/notebook.ipynb)
-
----
-
-### Proteínas de esmalte de 6 Homo erectus chinos revelan una variante única
-
-**Biología** · *Nature* · Bai et al. (2026) extrajeron **proteínas dentales fosilizadas** de 85 fósiles de tres sitios chinos (Zhoukoudian, Hexian, Sunjiadong) y obtuvieron **proteomas completos para 6 *Homo erectus*** de ~400 mil años — un 7% de éxito desde el screening inicial. Lo que encontraron en la ameloblastina (AMBN) reordena el árbol: los **6/6 chinos comparten A253G**, una variante que **no aparece en ningún otro linaje humano** conocido (Dmanisi, Atapuerca, Denisovanos, Neandertales, modernos). Y **4/4 determinados comparten M273V** con Denisovanos — un puente molecular sugerente. En el cromosoma 4 analizado, **Neandertal está MÁS cerca de *H. erectus* que Denisovano** en **99 de 127 ventanas** (Wilcoxon pareado p ≈ 2,6e-12, Cohen's d ≈ -0,75) — pero esa es UNA región del genoma, el paper la presenta como ejemplo de señal heterogénea. ⚠️ Cobertura proteómica modesta (mediana 18%, media 27% en los chinos); 2 de 6 chinos no preservaron la posición 273 — el respaldo directo de M273V es 4/6. ⚠️ Las afirmaciones sobre introgresión y coexistencia con Denisovanos están en T2 ("likely", "may have coexisted") — el notebook las atenúa. ⚠️ Datos crudos de espectrometría (PRIDE PXD068897) no descargados — confiamos en el procesamiento del paper para las identificaciones de variantes.
-
-[Ver notebook](papers/2026-05-13-homo-erectus-china-esmalte/notebook) · [Leer más](papers/2026-05-13-homo-erectus-china-esmalte/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-homo-erectus-china-esmalte/notebook.ipynb)
+[Ver notebook](papers/2026-05-14-rios-himalaya-meandros-clima/notebook) · [Leer más](papers/2026-05-14-rios-himalaya-meandros-clima/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-rios-himalaya-meandros-clima/notebook.ipynb)
 
 ---
 
-### El 100% del planeta responde igual a la lluvia más concentrada: con menos agua
+### Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta
 
-**Ecología** · *Nature* · Lesk & Mankin (2026) construyeron índices de **concentración Gini** (Gp) — qué tan desigual cae la lluvia anual en eventos diarios — para cada celda de 0.5° del land surface global, 1980-2022. Regresión panel: ¿qué le pasa a las reservas hídricas terrestres (TWS) cuando sube la Gini, manteniendo constante la precipitación total? Resultado: **100% de las 259.200 celdas** tienen respuesta negativa (más Gini → menos agua), mediana **-21,5 mm de TWS por unidad de Gini**. El efecto secante es **comparable** al humectante de la precipitación total — ratio promedio entre 3 productos independientes (CPC, GPCC, GPCP) ≈ **0,59**. De las **494 cuencas hidrográficas** analizadas (R² mediana 0,92), **28,3%** muestran drying significativo vs **15,4%** wetting significativo. Y la proyección a **+2°C** dice que la concentración sube en **100%** del land surface (mediana +0,0315 /K). ⚠️ Las regresiones son correlacionales; la causalidad descansa en modelos hidrológicos idealizados. ⚠️ El ratio efecto-secante/humectante varía 2,3× entre productos (0,35 a 0,81) — la magnitud comparable es robusta, pero el valor puntual no. ⚠️ Contraintuitivo: **82,4%** del globo en 1980-2022 vio la concentración Gini **bajando** — el efecto fuerte está en la proyección, no en el presente.
+**Tecnología** · *Science* · Lin et al. (2026) entrenaron una IA colaborativa de **cuatro agentes** que diseñó, pieza por pieza, las tres capas críticas de una celda solar de perovskita: el absorbente (FA₀.₉₂Cs₀.₀₈PbI₃, con apenas **8% de cesio**), la capa que transporta huecos (una molécula sintetizada ad hoc, MeO-DPPACz) y la interfaz dual de óxidos metálicos. El resultado: la celda retiene **97% del rendimiento inicial tras 1000 horas a 100°C** — un régimen donde, de **51 estudios previos** (44 DOIs únicos) que revisamos, **solo 1 había llegado** y aguantó 60%. Diferencia: 37 puntos porcentuales. Los datos confirman el porqué a nivel atómico: Cs₈ tiene **~74% menos defectos** (trampas) que la composición sin cesio, con Cohen's d ≈ 12,8 entre n=3 réplicas. La predicción del agente AI sobre la composición óptima cayó dentro de su propia banda de confianza 80%. ⚠️ El test se cortó a 1000 h; comportamiento de largo plazo desconocido. ⚠️ La curva clave son trazas single-device por composición — sin error bars inter-dispositivo en esa figura. ⚠️ La molécula HTM custom fue sintetizada ad hoc; escalabilidad no reportada.
 
-[Ver notebook](papers/2026-05-13-precipitacion-concentrada-agua/notebook) · [Leer más](papers/2026-05-13-precipitacion-concentrada-agua/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-precipitacion-concentrada-agua/notebook.ipynb)
-
----
-
-### La obesidad mundial: dónde se frenó, dónde se aceleró
-
-**Medicina** · *Nature* · NCD-RisC (2026) integraron **4.050 estudios poblacionales** con altura y peso medidos (no autoreportados) de **232 millones** de personas en **200 países** entre 1980 y 2024. El mundo sigue subiendo — mujeres adultas **×2,55** (de 6,8% a 17,2%), hombres **×4,18** (de 3,2% a 13,4%) — pero la curva ya no es la misma en todos lados. En **Italia** (chicos pico 15,0% en 2009 → 12,5% en 2024), **Francia** (6,3% en 2007 → 4,3%, caída relativa **32%**) y Portugal hay indicios de declive en niños. **EE. UU. se estancó** después de 2010 (22,6% → 23,4%, plateau). En cambio, las regiones de ingreso medio aceleran: Sur de Asia mujeres pasó de **0,11 a 0,37 pp/año** (×3,4); Latinoamérica de **0,45 a 0,70** (×1,6). Solo **HIC occidental y Europa central/oriental** se desaceleran en mujeres adultas — el resto del mundo va más rápido que antes. ⚠️ Estudio observacional, no causal: el paper dice *"social, economic and technological trends MAY have helped control"* — atenuador condicional. ⚠️ El cruce LMIC vs HIC es heterogéneo: Sur de Asia (11,6%) y África subsahariana (16,5%) siguen por debajo de HIC occidental (27,4%). ⚠️ Las prevalencias son estimaciones de un modelo bayesiano jerárquico con intervalos de incertidumbre 95%.
-
-[Ver notebook](papers/2026-05-13-obesidad-platea-vs-acelera/notebook) · [Leer más](papers/2026-05-13-obesidad-platea-vs-acelera/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-obesidad-platea-vs-acelera/notebook.ipynb)
+[Ver notebook](papers/2026-05-14-perovskita-ia-multiagente-100c/notebook) · [Leer más](papers/2026-05-14-perovskita-ia-multiagente-100c/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-perovskita-ia-multiagente-100c/notebook.ipynb)
 
 ---
 
-### LLMs y control estatal de medios
+### Bacterias atrapadas seis meses: el hidrogel que no las deja escapar
 
-**Tecnología** · *Nature* · Bing et al. (2026) auditan **45 idiomas en 36 países** para mapear cómo el control estatal de medios se filtra en los modelos grandes de lenguaje. El dato que abre la historia: el **chino representa el 5,30%** de Common Crawl — la base de entrenamiento más usada por los LLMs comerciales — mientras el **noruego solo el 0,33%**. China tiene un puntaje RSF de libertad de prensa de **23/100** (categoría "muy grave"); Noruega, **92/100** (la mejor). Pero la correlación cruda entre los 45 idiomas (Spearman **ρ=0,215, p=0,156**) **no es estadísticamente significativa**. Y hay un giro incómodo: si excluyes el chino, la correlación **cambia de signo** (ρ=0,299, p=0,049) — más libertad de prensa se asocia con MÁS peso en Common Crawl, al revés de la hipótesis. ⚠️ El paper sostiene su tesis causal con un **experimento de fine-tuning aparte** (no replicado aquí), no con esta correlación observacional. ⚠️ Vietnam tiene **RSF=22,31**, peor que China — la pinza causal idioma↔régimen es más sucia que el titular. ⚠️ El RSF se asigna por país principal del idioma; un mismo idioma puede hablarse en países con regímenes opuestos.
+**Medicina** · *Science* · Harimoto et al. (2026, lab de David Mooney en Harvard) **logran** lo que la literatura previa había rondado pero no alcanzaba: **6 meses de contención completa** de bacterias modificadas dentro de un implante. Transcribimos las Tablas S1-S4 del Supplementary PDF (paper paywalled, SM accesible) y verificamos número por número. **Acto 1:** 4.320 horas de contención frente a una **mediana previa de 36 h** (24 estudios) y un **mejor previo de 504 h** — saltos de **120×** y **8,6×** respectivamente, mostrados en una escala logarítmica donde el nuevo punto vive en otro plano. **Acto 2:** la región rigidez+tenacidad que ocupan las 31 formulaciones de PVA está **vacía** en la literatura — work of fracture hasta **2,4·10⁷ J/m³** contra los **2.400 J/m³** del mejor no-PVA (cuatro órdenes de magnitud). **Acto 3:** la honestidad — **51 mutaciones en 31 colonias** recuperadas, de las cuales un **7,8%** son deleciones de gen completo. El hidrogel aguanta seis meses; el medicamento, en algunas colonias, ya no se produce al final del experimento. ⚠️ Modelo murino — falta validación clínica. ⚠️ N=1 de PVA frente a N=24 previos: marca técnica, no estadística inferencial. ⚠️ Sin datasets externos: la reproducibilidad depende de las tablas transcritas a mano.
 
-[Ver notebook](papers/2026-05-13-llm-control-estatal-medios/notebook) · [Leer más](papers/2026-05-13-llm-control-estatal-medios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-llm-control-estatal-medios/notebook.ipynb)
-
----
-
-### Un drone vuelve a casa con una red de 3,4 kB
-
-**Tecnología** · *Nature* · Ou et al. (2026) entrenaron un drone Crazyflie de **32 gramos** para regresar a casa después de vuelos de hasta **600 m** sin GPS, usando una red neuronal de **3,4 kB** (la `compact`) o **42,3 kB** (la `attention`, con mecanismo de atención visual). La inspiración: el *learning flight* de la abeja melífera. El drone solo necesita explorar el **3,84%** del área total — cerca del **3,4%** estimado para abejas y por debajo del **7,6%** de las hormigas del desierto. En vuelos cortos exteriores (30–110 m) aterriza a menos de medio metro de casa el **100%** de las veces; en vuelos largos (200–600 m con viento variable), el **70%**. El viento alto recorta la tasa **30 puntos porcentuales** (de 80% a 50%) en el mismo rango. ⚠️ El LHA% de abeja y hormiga son **estimaciones derivadas** de comportamiento natural, no medidas directas — el paper lo enmarca como *verificación preliminar* de la estrategia bio-inspirada, no como equivalencia funcional. ⚠️ Las 800 simulaciones se corrieron en bosques sintéticos uniformes (40 árboles en 50×50 m).
-
-[Ver notebook](papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook) · [Leer más](papers/2026-05-13-bee-nav-navegacion-drones-abejas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook.ipynb)
+[Ver notebook](papers/2026-05-14-hidrogel-bacterias-terapia/notebook) · [Leer más](papers/2026-05-14-hidrogel-bacterias-terapia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-hidrogel-bacterias-terapia/notebook.ipynb)
 
 ---
 
-### Primer incendio alpino del siglo XXI en los Rwenzori — 12.000 años de registro
+### Imprimir circuitos de cobre a 150 °C
 
-**Ecología** · *Nature* · Mason et al. (2026) reconstruyen 12 milenios de registro de fuego en dos lagos de los montes Rwenzori (frontera Uganda-RDC). En el **Lago Kopello** (4.017 m, zona afroalpina), el pico de **2014 alcanzó 87 partículas de carbón por cm²/año** — **4,35× más alto** que el máximo de los 12.000 años anteriores (20) y **223× la media** del registro (0,39). En el **Lago Mahoma** (2.990 m, bosque), el cambio ocurrió antes: el fuego subió **5,5×** hace ~2.000 años (Mann-Whitney p<0,001, Cohen's d=2,2). El polen del mismo período cuenta el otro lado de la historia: **Poaceae +11 pp**, **Podocarpus +8,6 pp**, **Celtis africana −7,5 pp** — el dosel se abre. ⚠️ El 86% de muestras pre-1950 en Kopello tienen carbón >0: eso es transporte regional, no fuego local; lo sin precedentes es la **magnitud**, no la presencia. ⚠️ Diseño observacional — la coincidencia temporal con actividad humana es correlación, no causa. ⚠️ n=44 vs n=19 en polen.
+**Tecnología** · *Science* · Anonymous et al. (2026) presentan una tinta de cobre que se funde en conductor a **150 °C, al aire**, con resistividad de **12,8 µΩ·cm** — cuatro veces mejor que cualquiera de los 3 métodos previos que operan a esa temperatura (mediana 52 µΩ·cm en n=30 papers de literatura), y muy por debajo de los 250 °C que pide la mediana global. La clave: catecoles, la misma familia química de la dopamina. Las simulaciones DFT muestran que catecol/dopamina se une al Cu⁺ con **E_int = -0,757 eV**, 13,8× más fuerte que el ácido cítrico clásico (-0,055 eV). EXAFS confirma partículas Cu(0) cristalinas (bond length 2,537 Å, idéntico al cobre macizo) pero pequeñas (coordinación 5,4 vs 10,4 del foil). El paper reporta además estabilidad de **>1000 h en ácido, >200 h en sulfuro, >240 h a 140 °C**. ⚠️ Las cinéticas de corrosión y los datos de impresión sobre PET viven en las figuras del paper que no extrajimos. ⚠️ DFT con n=5 ligandos: orden cualitativo informativo, no ranking estadístico. ⚠️ La curva resistividad-temperatura tiene 4 puntos — suficiente para la tendencia, no para modelo físico detallado.
 
-[Ver notebook](papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook) · [Leer más](papers/2026-05-13-incendios-alpinos-rwenzori-12mil/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook.ipynb)
-
----
-
-### LAP1-B: la galaxia más químicamente primitiva conocida
-
-**Astronomía** · *Nature* · Nakajima et al. (2026) presentan observaciones del James Webb (NIRSpec/PRISM) sobre **LAP1-B**, una galaxia ultra-débil a redshift espectroscópico **z = 6,625 ± 0,001** — 800 millones de años después del Big Bang. La galaxia está amplificada **98 veces** por una lente gravitacional; sin esa amplificación no la habríamos visto. La abundancia de oxígeno gas-phase es **(4,2 ± 1,8) × 10⁻³ veces el valor solar** — unas 240 veces menos oxígeno por átomo de H que el sistema solar, y la convierte en la galaxia formadora de estrellas más químicamente primitiva conocida. Nuestro cross-check con λ_obs(Hα) = 5,0052 μm recupera z = 6,626 (diferencia 0,0014 con el paper, atribuible a la precisión del pico en el CSV). De las 9 líneas analizadas, **4 superan S/N = 3** (Hα, Lyα, [O III] 5007, Hβ). El log ξ_ion observado (≥26,1) se acerca al máximo teórico de Pop III zero-age (26,2). ⚠️ Una sola galaxia — no se puede generalizar. ⚠️ La masa estelar < 3.300 M☉ es un **límite superior 3σ**, no medición (el continuo estelar no se detecta). ⚠️ HeII/Hβ < 2,5 no distingue Pop III pura de Pop II extremadamente pobre en metales.
-
-[Ver notebook](papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook) · [Leer más](papers/2026-05-13-lap1-b-galaxia-reionizacion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook.ipynb)
+[Ver notebook](papers/2026-05-14-cobre-corrosion-catecol/notebook) · [Leer más](papers/2026-05-14-cobre-corrosion-catecol/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-14-cobre-corrosion-catecol/notebook.ipynb)
 
 ---
 
@@ -868,19 +910,11 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Agujeros negros donde no deberían existir
+### El 100% del planeta responde igual a la lluvia más concentrada: con menos agua
 
-**Astronomía** · *Nature Astronomy* · Antonini et al. (2026) combinan **153 fusiones de agujeros negros** del catálogo LIGO-Virgo-KAGRA (GWTC-1+2+3+4) con inferencia jerárquica Bayesiana para acotar el borde inferior del *mass gap* por inestabilidad de pares en **44,3 +5,9/−3,5 M_⊙** (90% CI) y la sección eficaz de la reacción ¹²C(α,γ)¹⁶O en **S₃₀₀ = 268 +195/−116 keV b**. Los datos revelan **dos poblaciones** con factor de Bayes B > 10⁴: una de espín bajo sin agujeros sobre el gap, otra de espín alto con orientación aleatoria que se extiende en todo el rango de masa — consistente con fusiones jerárquicas en cúmulos densos. En el subconjunto O4a (**84 BBHs** nuevos) verificamos: 30 eventos (35,7 %) tienen m₁ mediana por encima del borde del gap, y los **6 con m₁ > 70 M_⊙** tienen mediana de χ_eff = **+0,27** (nueve veces la mediana global de +0,03). Bootstrap p ≈ 0,0006. ⚠️ Diseño observacional — claims solo de asociación. ⚠️ El paper usa modelo de mixtura jerárquica; aquí mostramos un cross-check visual sobre el subset O4a. ⚠️ El S-factor del paper no se replica — requiere inferencia conjunta GW + evolución estelar.
+**Ecología** · *Nature* · Lesk & Mankin (2026) construyeron índices de **concentración Gini** (Gp) — qué tan desigual cae la lluvia anual en eventos diarios — para cada celda de 0.5° del land surface global, 1980-2022. Regresión panel: ¿qué le pasa a las reservas hídricas terrestres (TWS) cuando sube la Gini, manteniendo constante la precipitación total? Resultado: **100% de las 259.200 celdas** tienen respuesta negativa (más Gini → menos agua), mediana **-21,5 mm de TWS por unidad de Gini**. El efecto secante es **comparable** al humectante de la precipitación total — ratio promedio entre 3 productos independientes (CPC, GPCC, GPCP) ≈ **0,59**. De las **494 cuencas hidrográficas** analizadas (R² mediana 0,92), **28,3%** muestran drying significativo vs **15,4%** wetting significativo. Y la proyección a **+2°C** dice que la concentración sube en **100%** del land surface (mediana +0,0315 /K). ⚠️ Las regresiones son correlacionales; la causalidad descansa en modelos hidrológicos idealizados. ⚠️ El ratio efecto-secante/humectante varía 2,3× entre productos (0,35 a 0,81) — la magnitud comparable es robusta, pero el valor puntual no. ⚠️ Contraintuitivo: **82,4%** del globo en 1980-2022 vio la concentración Gini **bajando** — el efecto fuerte está en la proyección, no en el presente.
 
-[Ver notebook](papers/2026-05-13-pair-instability-mass-gap/notebook) · [Leer más](papers/2026-05-13-pair-instability-mass-gap/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-pair-instability-mass-gap/notebook.ipynb)
-
----
-
-### El metano que respira Groenlandia se cocinó hace 2.000 años
-
-**Geología** · *Nature Geoscience* · Saunders et al. (2026) muestrearon **96 puntos en 26 ríos** que salen de bajo el hielo de Groenlandia occidental durante tres veranos (2021-2023), a lo largo de **1.840 km** de costa (61,2°N–77,7°N). **50 de 53 mediciones (94%)** de CH₄ disuelto están supersaturadas respecto a la atmósfera; la mediana es **43 nmol/L** y el máximo del suroeste alcanza **49.613 nmol/L — 16.500× el equilibrio atmosférico**. La firma isotópica confirma origen biogénico microbiano (δ¹³C mediana **−57,8‰**, 13 de 16 muestras bajo el umbral −50‰). Las 7 muestras datadas por ¹⁴C dan edades del carbono entre **1,5 y 4,1 mil años antes del presente** — ninguna cae dentro del Holocene Thermal Maximum (5–11 ka). Los datos son consistentes con una Groenlandia más pequeña durante el HTM y posterior re-avance que sepultó la materia orgánica. ⚠️ El flujo "**715 toneladas/año**" y la persistencia "**200 años más**" son proyecciones de un modelo de degradación (MATLAB en Zenodo), no medidas. ⚠️ Diseño observacional — los datos muestran patrones, no causalidad. ⚠️ n=7 en ¹⁴C y n=16 en isótopos: tamaños pequeños para inferencias regionales finas.
-
-[Ver notebook](papers/2026-05-07-metano-subglacial-groenlandia/notebook) · [Leer más](papers/2026-05-07-metano-subglacial-groenlandia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-07-metano-subglacial-groenlandia/notebook.ipynb)
+[Ver notebook](papers/2026-05-13-precipitacion-concentrada-agua/notebook) · [Leer más](papers/2026-05-13-precipitacion-concentrada-agua/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-precipitacion-concentrada-agua/notebook.ipynb)
 
 ---
 
@@ -892,11 +926,67 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
+### Agujeros negros donde no deberían existir
+
+**Astronomía** · *Nature Astronomy* · Antonini et al. (2026) combinan **153 fusiones de agujeros negros** del catálogo LIGO-Virgo-KAGRA (GWTC-1+2+3+4) con inferencia jerárquica Bayesiana para acotar el borde inferior del *mass gap* por inestabilidad de pares en **44,3 +5,9/−3,5 M_⊙** (90% CI) y la sección eficaz de la reacción ¹²C(α,γ)¹⁶O en **S₃₀₀ = 268 +195/−116 keV b**. Los datos revelan **dos poblaciones** con factor de Bayes B > 10⁴: una de espín bajo sin agujeros sobre el gap, otra de espín alto con orientación aleatoria que se extiende en todo el rango de masa — consistente con fusiones jerárquicas en cúmulos densos. En el subconjunto O4a (**84 BBHs** nuevos) verificamos: 30 eventos (35,7 %) tienen m₁ mediana por encima del borde del gap, y los **6 con m₁ > 70 M_⊙** tienen mediana de χ_eff = **+0,27** (nueve veces la mediana global de +0,03). Bootstrap p ≈ 0,0006. ⚠️ Diseño observacional — claims solo de asociación. ⚠️ El paper usa modelo de mixtura jerárquica; aquí mostramos un cross-check visual sobre el subset O4a. ⚠️ El S-factor del paper no se replica — requiere inferencia conjunta GW + evolución estelar.
+
+[Ver notebook](papers/2026-05-13-pair-instability-mass-gap/notebook) · [Leer más](papers/2026-05-13-pair-instability-mass-gap/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-pair-instability-mass-gap/notebook.ipynb)
+
+---
+
+### La obesidad mundial: dónde se frenó, dónde se aceleró
+
+**Medicina** · *Nature* · NCD-RisC (2026) integraron **4.050 estudios poblacionales** con altura y peso medidos (no autoreportados) de **232 millones** de personas en **200 países** entre 1980 y 2024. El mundo sigue subiendo — mujeres adultas **×2,55** (de 6,8% a 17,2%), hombres **×4,18** (de 3,2% a 13,4%) — pero la curva ya no es la misma en todos lados. En **Italia** (chicos pico 15,0% en 2009 → 12,5% en 2024), **Francia** (6,3% en 2007 → 4,3%, caída relativa **32%**) y Portugal hay indicios de declive en niños. **EE. UU. se estancó** después de 2010 (22,6% → 23,4%, plateau). En cambio, las regiones de ingreso medio aceleran: Sur de Asia mujeres pasó de **0,11 a 0,37 pp/año** (×3,4); Latinoamérica de **0,45 a 0,70** (×1,6). Solo **HIC occidental y Europa central/oriental** se desaceleran en mujeres adultas — el resto del mundo va más rápido que antes. ⚠️ Estudio observacional, no causal: el paper dice *"social, economic and technological trends MAY have helped control"* — atenuador condicional. ⚠️ El cruce LMIC vs HIC es heterogéneo: Sur de Asia (11,6%) y África subsahariana (16,5%) siguen por debajo de HIC occidental (27,4%). ⚠️ Las prevalencias son estimaciones de un modelo bayesiano jerárquico con intervalos de incertidumbre 95%.
+
+[Ver notebook](papers/2026-05-13-obesidad-platea-vs-acelera/notebook) · [Leer más](papers/2026-05-13-obesidad-platea-vs-acelera/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-obesidad-platea-vs-acelera/notebook.ipynb)
+
+---
+
+### LLMs y control estatal de medios
+
+**Tecnología** · *Nature* · Bing et al. (2026) auditan **45 idiomas en 36 países** para mapear cómo el control estatal de medios se filtra en los modelos grandes de lenguaje. El dato que abre la historia: el **chino representa el 5,30%** de Common Crawl — la base de entrenamiento más usada por los LLMs comerciales — mientras el **noruego solo el 0,33%**. China tiene un puntaje RSF de libertad de prensa de **23/100** (categoría "muy grave"); Noruega, **92/100** (la mejor). Pero la correlación cruda entre los 45 idiomas (Spearman **ρ=0,215, p=0,156**) **no es estadísticamente significativa**. Y hay un giro incómodo: si excluyes el chino, la correlación **cambia de signo** (ρ=0,299, p=0,049) — más libertad de prensa se asocia con MÁS peso en Common Crawl, al revés de la hipótesis. ⚠️ El paper sostiene su tesis causal con un **experimento de fine-tuning aparte** (no replicado aquí), no con esta correlación observacional. ⚠️ Vietnam tiene **RSF=22,31**, peor que China — la pinza causal idioma↔régimen es más sucia que el titular. ⚠️ El RSF se asigna por país principal del idioma; un mismo idioma puede hablarse en países con regímenes opuestos.
+
+[Ver notebook](papers/2026-05-13-llm-control-estatal-medios/notebook) · [Leer más](papers/2026-05-13-llm-control-estatal-medios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-llm-control-estatal-medios/notebook.ipynb)
+
+---
+
+### LAP1-B: la galaxia más químicamente primitiva conocida
+
+**Astronomía** · *Nature* · Nakajima et al. (2026) presentan observaciones del James Webb (NIRSpec/PRISM) sobre **LAP1-B**, una galaxia ultra-débil a redshift espectroscópico **z = 6,625 ± 0,001** — 800 millones de años después del Big Bang. La galaxia está amplificada **98 veces** por una lente gravitacional; sin esa amplificación no la habríamos visto. La abundancia de oxígeno gas-phase es **(4,2 ± 1,8) × 10⁻³ veces el valor solar** — unas 240 veces menos oxígeno por átomo de H que el sistema solar, y la convierte en la galaxia formadora de estrellas más químicamente primitiva conocida. Nuestro cross-check con λ_obs(Hα) = 5,0052 μm recupera z = 6,626 (diferencia 0,0014 con el paper, atribuible a la precisión del pico en el CSV). De las 9 líneas analizadas, **4 superan S/N = 3** (Hα, Lyα, [O III] 5007, Hβ). El log ξ_ion observado (≥26,1) se acerca al máximo teórico de Pop III zero-age (26,2). ⚠️ Una sola galaxia — no se puede generalizar. ⚠️ La masa estelar < 3.300 M☉ es un **límite superior 3σ**, no medición (el continuo estelar no se detecta). ⚠️ HeII/Hβ < 2,5 no distingue Pop III pura de Pop II extremadamente pobre en metales.
+
+[Ver notebook](papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook) · [Leer más](papers/2026-05-13-lap1-b-galaxia-reionizacion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook.ipynb)
+
+---
+
+### Primer incendio alpino del siglo XXI en los Rwenzori — 12.000 años de registro
+
+**Ecología** · *Nature* · Mason et al. (2026) reconstruyen 12 milenios de registro de fuego en dos lagos de los montes Rwenzori (frontera Uganda-RDC). En el **Lago Kopello** (4.017 m, zona afroalpina), el pico de **2014 alcanzó 87 partículas de carbón por cm²/año** — **4,35× más alto** que el máximo de los 12.000 años anteriores (20) y **223× la media** del registro (0,39). En el **Lago Mahoma** (2.990 m, bosque), el cambio ocurrió antes: el fuego subió **5,5×** hace ~2.000 años (Mann-Whitney p<0,001, Cohen's d=2,2). El polen del mismo período cuenta el otro lado de la historia: **Poaceae +11 pp**, **Podocarpus +8,6 pp**, **Celtis africana −7,5 pp** — el dosel se abre. ⚠️ El 86% de muestras pre-1950 en Kopello tienen carbón >0: eso es transporte regional, no fuego local; lo sin precedentes es la **magnitud**, no la presencia. ⚠️ Diseño observacional — la coincidencia temporal con actividad humana es correlación, no causa. ⚠️ n=44 vs n=19 en polen.
+
+[Ver notebook](papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook) · [Leer más](papers/2026-05-13-incendios-alpinos-rwenzori-12mil/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook.ipynb)
+
+---
+
+### Proteínas de esmalte de 6 Homo erectus chinos revelan una variante única
+
+**Biología** · *Nature* · Bai et al. (2026) extrajeron **proteínas dentales fosilizadas** de 85 fósiles de tres sitios chinos (Zhoukoudian, Hexian, Sunjiadong) y obtuvieron **proteomas completos para 6 *Homo erectus*** de ~400 mil años — un 7% de éxito desde el screening inicial. Lo que encontraron en la ameloblastina (AMBN) reordena el árbol: los **6/6 chinos comparten A253G**, una variante que **no aparece en ningún otro linaje humano** conocido (Dmanisi, Atapuerca, Denisovanos, Neandertales, modernos). Y **4/4 determinados comparten M273V** con Denisovanos — un puente molecular sugerente. En el cromosoma 4 analizado, **Neandertal está MÁS cerca de *H. erectus* que Denisovano** en **99 de 127 ventanas** (Wilcoxon pareado p ≈ 2,6e-12, Cohen's d ≈ -0,75) — pero esa es UNA región del genoma, el paper la presenta como ejemplo de señal heterogénea. ⚠️ Cobertura proteómica modesta (mediana 18%, media 27% en los chinos); 2 de 6 chinos no preservaron la posición 273 — el respaldo directo de M273V es 4/6. ⚠️ Las afirmaciones sobre introgresión y coexistencia con Denisovanos están en T2 ("likely", "may have coexisted") — el notebook las atenúa. ⚠️ Datos crudos de espectrometría (PRIDE PXD068897) no descargados — confiamos en el procesamiento del paper para las identificaciones de variantes.
+
+[Ver notebook](papers/2026-05-13-homo-erectus-china-esmalte/notebook) · [Leer más](papers/2026-05-13-homo-erectus-china-esmalte/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-homo-erectus-china-esmalte/notebook.ipynb)
+
+---
+
 ### El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)
 
 **Ecología** · *Nature Geoscience* · Cohen et al. (2026) usan un modelo radiativo idealizado (Konrad 1D) corrido a **6 concentraciones de CO₂ (70 → 2240 ppm)** y lo cruzan con **36 modelos CMIP6 + 3 reanálisis** (ERA5, JRA-55, MERRA-2) para explicar por qué el CO₂ calienta abajo y **enfría arriba**. A 1 hPa (≈48 km) cada duplicación de CO₂ enfría la estratopausa **~9 K** — pero la tropopausa no se mueve: la temperatura a 100 hPa varía menos de **0,3 K** entre 70 y 2240 ppm. Y ese enfriamiento estratosférico **amplifica el forzamiento radiativo** del CO₂ entre **50 % y 70 %** según el setup numérico. Los 34 modelos CMIP6 que llegan a 1 hPa muestran enfriamiento (mediana −0,92 K/déc); los reanálisis observacionales muestran enfriamiento aún más intenso en estratosfera alta (ERA5: −1,84 K/déc a 3 hPa). ⚠️ Konrad es 1D idealizado: SST fija a 287 K, sin dinámica meridional, sin H₂O variable. ⚠️ El paper reporta amplificación "*about 50 %*" pero nuestro cálculo directo (ERF − IRF)/IRF da +62,9 % en el barrido de duplicaciones y +69,2 % en el barrido SST — el paper no especifica la definición usada. ⚠️ Las tendencias CMIP6 1980-2019 mezclan la firma del CO₂ con la recuperación del ozono y la variabilidad solar — no son enfriamiento puro de CO₂.
 
 [Ver notebook](papers/2026-05-13-co2-enfria-estratosfera/notebook) · [Leer más](papers/2026-05-13-co2-enfria-estratosfera/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-co2-enfria-estratosfera/notebook.ipynb)
+
+---
+
+### Un drone vuelve a casa con una red de 3,4 kB
+
+**Tecnología** · *Nature* · Ou et al. (2026) entrenaron un drone Crazyflie de **32 gramos** para regresar a casa después de vuelos de hasta **600 m** sin GPS, usando una red neuronal de **3,4 kB** (la `compact`) o **42,3 kB** (la `attention`, con mecanismo de atención visual). La inspiración: el *learning flight* de la abeja melífera. El drone solo necesita explorar el **3,84%** del área total — cerca del **3,4%** estimado para abejas y por debajo del **7,6%** de las hormigas del desierto. En vuelos cortos exteriores (30–110 m) aterriza a menos de medio metro de casa el **100%** de las veces; en vuelos largos (200–600 m con viento variable), el **70%**. El viento alto recorta la tasa **30 puntos porcentuales** (de 80% a 50%) en el mismo rango. ⚠️ El LHA% de abeja y hormiga son **estimaciones derivadas** de comportamiento natural, no medidas directas — el paper lo enmarca como *verificación preliminar* de la estrategia bio-inspirada, no como equivalencia funcional. ⚠️ Las 800 simulaciones se corrieron en bosques sintéticos uniformes (40 árboles en 50×50 m).
+
+[Ver notebook](papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook) · [Leer más](papers/2026-05-13-bee-nav-navegacion-drones-abejas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-13-bee-nav-navegacion-drones-abejas/notebook.ipynb)
 
 ---
 
@@ -932,6 +1022,30 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
+### Un LLM pasó 5.390 de 5.400 preguntas trampa de encuestas online
+
+**Tecnología** · *PNAS* · Kane (2025) levantó **300 personas sintéticas** con OpenAI o4-mini y las pasó por las tres defensas estándar de las encuestas online. Resultado: el bot acertó el **99,81% de attention checks** (5.390/5.400 trials), declinó el **97,67% de reverse shibboleth** (1.758/1.800 — citar la Constitución, traducir mandarín, FORTRAN) y rechazó el **100% de preguntas absurdas** (1.800/1.800 — ¿fue presidente?, ¿pasó dos semanas sin dormir?). De **21 tareas testeadas, una sola** queda por debajo del 95%: cálculo matemático (88,3% decline) — los LLMs no pueden evitar resolverlo cuando se les pide. La triple coherencia — acertar, declinar y rechazar como humano al mismo tiempo — vuelve obsoletos los métodos de detección actuales. ⚠️ Single-author paper sin réplica independiente todavía. ⚠️ Sin grupo control humano emparejado en las MISMAS 21 tareas — la "indistinguibilidad" se infiere por construcción, no se compara directamente. ⚠️ Un único modelo (o4-mini, junio 2025).
+
+[Ver notebook](papers/2026-05-08-llm-evade-anti-bots-encuestas/notebook) · [Leer más](papers/2026-05-08-llm-evade-anti-bots-encuestas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-08-llm-evade-anti-bots-encuestas/notebook.ipynb)
+
+---
+
+### El metano que respira Groenlandia se cocinó hace 2.000 años
+
+**Geología** · *Nature Geoscience* · Saunders et al. (2026) muestrearon **96 puntos en 26 ríos** que salen de bajo el hielo de Groenlandia occidental durante tres veranos (2021-2023), a lo largo de **1.840 km** de costa (61,2°N–77,7°N). **50 de 53 mediciones (94%)** de CH₄ disuelto están supersaturadas respecto a la atmósfera; la mediana es **43 nmol/L** y el máximo del suroeste alcanza **49.613 nmol/L — 16.500× el equilibrio atmosférico**. La firma isotópica confirma origen biogénico microbiano (δ¹³C mediana **−57,8‰**, 13 de 16 muestras bajo el umbral −50‰). Las 7 muestras datadas por ¹⁴C dan edades del carbono entre **1,5 y 4,1 mil años antes del presente** — ninguna cae dentro del Holocene Thermal Maximum (5–11 ka). Los datos son consistentes con una Groenlandia más pequeña durante el HTM y posterior re-avance que sepultó la materia orgánica. ⚠️ El flujo "**715 toneladas/año**" y la persistencia "**200 años más**" son proyecciones de un modelo de degradación (MATLAB en Zenodo), no medidas. ⚠️ Diseño observacional — los datos muestran patrones, no causalidad. ⚠️ n=7 en ¹⁴C y n=16 en isótopos: tamaños pequeños para inferencias regionales finas.
+
+[Ver notebook](papers/2026-05-07-metano-subglacial-groenlandia/notebook) · [Leer más](papers/2026-05-07-metano-subglacial-groenlandia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-07-metano-subglacial-groenlandia/notebook.ipynb)
+
+---
+
+### Una gota de sangre que predice si la inmunoterapia funcionará
+
+**Medicina** · *Nature* · Newman et al. (2026) identificaron **9 ecosistemas espaciales (SEs)** integrando >10 millones de transcriptomas de tumores humanos. La sorpresa clínica: esas firmas se pueden recuperar desde sangre — fragmentos de ADN tumoral flotando libres (cfDNA). En **78 pacientes con melanoma metastásico** medidos antes de empezar inmunoterapia, **SE7 predice no-respuesta con AUC = 0,80** (z = -4,49, p = 3·10⁻⁶) y **SE4 predice respuesta con AUC = 0,76**. Siete de las ocho SEs medibles en cfDNA salen significativas; solo SE2 queda en ruido. Los 9 ecosistemas están presentes en los **17 tipos de cáncer** del atlas TCGA (7.076 muestras): la abundancia de SE7 varía hasta 1,5× entre cánceres (0,054 en tiroides → 0,080 en esófago) — conservación = presencia, no nivel uniforme. ⚠️ Estudio observacional retrospectivo — asociaciones, no causalidad. ⚠️ El AUC del subgrupo Female (0,90 con n = 25) es sospechosamente alto: bandera roja de overfitting con muestra pequeña; el subgrupo Male (n = 53) es más confiable. ⚠️ El paper enmarca el uso clínico con "implications for risk stratification" — implicación a futuro, no resultado validado.
+
+[Ver notebook](papers/2026-05-06-tme-spatial-ecotypes/notebook) · [Leer más](papers/2026-05-06-tme-spatial-ecotypes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-tme-spatial-ecotypes/notebook.ipynb)
+
+---
+
 ### 1 de cada 3 visitas a una flor en Nepal la hace la misma especie
 
 **Ecología** · *Nature* · Timberlake et al. (2026) registraron **10.974 visitas de insectos a flores** en 10 aldeas del Himalaya nepalí (Patarasi, Jumla) sobre **51 cultivos** distintos. La estructura ecológica está concentrada: tres taxa de polinizadores hacen el **76,5% de las visitas**, y *Apis cerana* — la abeja de la miel asiática — hace una de cada tres. Cuando se cruza esa red con la dependencia de polinización por cultivo, aparecen **9 cultivos con dependencia ≥85%**: rábano, daikon, calabaza, cebolla, repollo y otros, donde perder polinizadores es perder casi toda la producción. Bajo el escenario hipotético de pérdida total, los 29 cultivos modelados perderían en promedio **59% del rendimiento**. ⚠️ Los headlines del paper sobre **44% del ingreso agrícola** y **20% del consumo de vitamina A/folato/E** se citan al paper, no se reproducen aquí (requieren el dataset dietético individual de 776 MB en Git LFS). ⚠️ La categoría "Fly" agrupa toda Diptera; el desglose específico de sirfidae (hoverflies) vive en otra tabla del estudio. ⚠️ Los escenarios de yield son proyecciones modelísticas, no observaciones.
@@ -948,19 +1062,11 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Una superficie oscura, plana y aburrida — y eso lo dice todo
+### El HIV necesita tocar células para infectarlas
 
-**Astronomía** · *Nature Astronomy* · Whittaker et al. (2026) tomaron el primer espectro infrarrojo medio (5–12 μm) del planeta rocoso **LHS 3844 b** con el James Webb durante 3 eclipses secundarios. La cara diurna está a **985 K** (~712 °C) y refleja apenas el 22% de la luz que recibe — más oscura que Marte, comparable a la Luna o Mercurio. Pero el resultado clave es lo que el espectro **no** muestra: **χ²_red = 1.30 contra un modelo lineal** en 12 bandas espectrales — un espectro plano, sin features detectables. Eso descarta una atmósfera densa de CO₂ (**< 100 mbar a 5σ**), disfavorece SO₂ volcánico (**< 10 μbar a 3σ**), y descarta polvo basáltico fresco. El mejor ajuste cualitativo del paper: superficie tipo basalto oscuro o material rico en olivino, meteorizado por intemperismo espacial. ⚠️ El ajuste lineal verifica que el espectro es plano, pero "plano" no implica "basalto" — la identificación composicional viene del cruce con la base RELAB de >100 espectros de laboratorio, no replicado aquí. ⚠️ Las bandas 11.4 y 12.1 μm tienen barras de error 5× mayores que las primeras (>190 ppm vs ~35 ppm), dominando la incertidumbre.
+**Medicina** · *Nature* · Mesner et al. (2026) **muestran** por qué los linfocitos T CD4+ en reposo —donde el HIV vive en el cuerpo— no se infectan con virus libre en el laboratorio: les falta una señal que solo el contacto célula-célula activa. Bajamos los Source Data de las figuras 1, 3 y 4 (MOESM7/9/10) y verificamos los tres eslabones de la cascada. **Acto 1:** en 3 donantes pareados, el contacto multiplica la infección por **3,6×** (cell-free 3,1% vs cell-cell 11,4%, *t* pareado *p* = 0,016, Cohen *d* pareado = 4,5). **Acto 2:** silenciar **CDK1** con siRNA reduce la infección **−33%** (*p* = 0,021, *d* pareado = 4,0) — la quinasa del ciclo celular es necesaria. **Acto 3:** la quinasa no abre el poro entero. De **10 nucleoporinas** medidas, solo **3 cambian** con el contacto: **Nup54 (+32%)**, **Nup62 (+16%)** y **Tpr (+12%)**, con *d* entre 0,62 y 1,01. Las otras 7 no se mueven. ⚠️ *n* = 3 donantes en las figuras clave: efectos enormes pero potencia baja (*p* al borde). ⚠️ La cascada CD4 → LCK → CDK1 → Nup la apoyamos con la propuesta del paper, no con el Source Data — la activación de LCK no está en los CSVs abiertos.
 
-[Ver notebook](papers/2026-05-04-lhs-3844b-superficie-jwst/notebook) · [Leer más](papers/2026-05-04-lhs-3844b-superficie-jwst/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-04-lhs-3844b-superficie-jwst/notebook.ipynb)
-
----
-
-### Un LLM pasó 5.390 de 5.400 preguntas trampa de encuestas online
-
-**Tecnología** · *PNAS* · Kane (2025) levantó **300 personas sintéticas** con OpenAI o4-mini y las pasó por las tres defensas estándar de las encuestas online. Resultado: el bot acertó el **99,81% de attention checks** (5.390/5.400 trials), declinó el **97,67% de reverse shibboleth** (1.758/1.800 — citar la Constitución, traducir mandarín, FORTRAN) y rechazó el **100% de preguntas absurdas** (1.800/1.800 — ¿fue presidente?, ¿pasó dos semanas sin dormir?). De **21 tareas testeadas, una sola** queda por debajo del 95%: cálculo matemático (88,3% decline) — los LLMs no pueden evitar resolverlo cuando se les pide. La triple coherencia — acertar, declinar y rechazar como humano al mismo tiempo — vuelve obsoletos los métodos de detección actuales. ⚠️ Single-author paper sin réplica independiente todavía. ⚠️ Sin grupo control humano emparejado en las MISMAS 21 tareas — la "indistinguibilidad" se infiere por construcción, no se compara directamente. ⚠️ Un único modelo (o4-mini, junio 2025).
-
-[Ver notebook](papers/2026-05-08-llm-evade-anti-bots-encuestas/notebook) · [Leer más](papers/2026-05-08-llm-evade-anti-bots-encuestas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-08-llm-evade-anti-bots-encuestas/notebook.ipynb)
+[Ver notebook](papers/2026-05-06-hiv-poros-nucleares-infeccion/notebook) · [Leer más](papers/2026-05-06-hiv-poros-nucleares-infeccion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-hiv-poros-nucleares-infeccion/notebook.ipynb)
 
 ---
 
@@ -972,19 +1078,19 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Una atmósfera donde los modelos no la esperaban
+### Cómo se decide un terremoto en 15 milisegundos
 
-**Astronomía** · *Nature Astronomy* · Arimatsu et al. (2026) registraron una **ocultación estelar** del 10 de enero de 2024 en (612533) 2002 XV93 —un *plutino* de **~250 km de radio**— desde tres telescopios en Japón: Kyoto, Kiso y Fukushima. La curva de luz no cae en escalón: la luz se atenúa de forma gradual, y eso solo lo hace el aire. Derivan una **presión superficial de 100–200 nbar**, **50–100 veces menor** que la de Plutón pero por encima del techo previo de 1–100 nbar establecido para TNOs > 500 km. Tres composiciones (N₂, CH₄, CO) ajustan la curva con calidad similar — la curva sola no decide qué se respira. Kiso es la curva crítica: con σ ≈ 0,06 es **5,2 veces más precisa** que las otras dos, y el ajuste χ² del paper se hace contra ella sola. ⚠️ Los autores presentan dos hipótesis especulativas para el origen — *criovulcanismo activo* o *un impacto reciente* — sin medirlas. ⚠️ Una sola ocultación de ~10 minutos no distingue entre atmósfera estable y transitoria.
+**Geología** · *Nature* · Fryer et al. (2026) midieron **64 eventos de nucleación** en una falla artificial bajo cinco presiones (100-300 bar). Una sola variable —**Vmin**, la velocidad del pulso transitorio que aparece al inicio de la nucleación— explica el **78 por ciento** de la varianza en la duración del evento (tc), con correlación de Spearman **r = -0,91** sobre 47 eventos. El rango de Vmin cubre **5.224 veces** y aun así el ajuste se sostiene: tc ∝ Vmin⁻⁰⋅⁵⁴. La pendiente es del mismo orden que la predicción del modelo de fricción que el paper deriva (rate-and-state). **Uno de cada cuatro eventos arresta sin completar la nucleación** (17/64 = 26,6 %) — coincide con la predicción del modelo para impulsos por debajo del umbral. La medición da una distancia característica de slip de 0,3–3,0 mm — órdenes de magnitud menor que las inferidas para rotura dinámica. ⚠️ Las columnas de slip del CSV están en metros aunque el header dice [micron] — hubo que verificar dimensionalmente. ⚠️ La extensión a terremotos tectónicos reales el paper la enmarca como "seem to follow the same scaling" — consistente, no demostrada con los datos del CSV.
 
-[Ver notebook](papers/2026-05-04-atmosfera-tno-2002-xv93/notebook) · [Leer más](papers/2026-05-04-atmosfera-tno-2002-xv93/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-04-atmosfera-tno-2002-xv93/notebook.ipynb)
+[Ver notebook](papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook) · [Leer más](papers/2026-05-06-foreshocks-nucleacion-terremotos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook.ipynb)
 
 ---
 
-### El feed de TikTok favorece sistemáticamente a Republicanos en EE.UU.
+### La sorpresa de los andrógenos en el cerebro
 
-**Tecnología** · *Nature* · Ibrahim et al. (2026) desplegaron **20 cuentas controladas (sock puppets)** en TikTok — 9 con seed Demócrata, 9 Republicano, 2 neutrales — durante **27 semanas** de la campaña presidencial 2024 en Georgia, Nueva York y Texas. Recolectaron **más de 280.000 recomendaciones** del feed *For You*; **24.547** fueron clasificadas por humanos+LLM como políticas. Resultado: los bots Republicanos recibieron **+13,1 puntos porcentuales** más contenido co-partisano que los Demócratas (38,4% vs 25,3%, Mann-Whitney U=4, p=0,0015, **Cohen's d=2,54**). El sesgo aparece en los 3 estados, en **25 de 27 semanas**, y se concentra en tópicos: inmigración, COVID, Ucrania y la salida de Biden cargan contra Demócratas; **el aborto es el único tópico donde el sesgo se invierte** (30,7% anti-Rep vs 17,0% anti-Dem). El paper modela 15 métricas de engagement con 4 modelos distintos y la asimetría persiste tras ajustar — no se explica por qué la gente engancha más con un lado. ⚠️ Los bots no son usuarios reales: el claim causal aplica al algoritmo cuando consume seed partidista controlado, no a la experiencia de un humano que también busca y sigue cuentas. ⚠️ El paper concluye que el sesgo *existe*, no que sea intencional.
+**Medicina** · *Nature* · En la mayoría de los cánceres los andrógenos ayudan al tumor — por eso bloquearlos es estándar contra próstata. En glioblastoma, este equipo demostró lo contrario. **Acto 1 (Fig 1a):** castrar ratones con GBM intracraneal redujo la mediana de supervivencia 23% (26 → 20 días, *d* = 0,94, log-rank *p* = 0,020, *n* = 27). **Acto 2 (Fig 3b):** bloquear glucocorticoides con mifepristona en castrados subió la mediana 51% (17,5 → 26,5 días, *d* = 0,85, log-rank *p* = 0,048, *n* = 20). **Acto 3 (cohorte humana):** en 1.272 hombres con GBM, testosterona+temozolomida vs temozolomida sola → 38% menos riesgo de muerte (HR crudo 0,62; ajustado 0,66, *p* = 0,003). Mecanismo propuesto: sin andrógenos, el eje hipotálamo-pituitaria-adrenal (HPA) hipersuelta cortisol y apaga la inmunidad antitumoral. ⚠️ La cohorte humana es retrospectiva, no aleatorizada — asociación robusta, no causalidad probada. ⚠️ Solo replicamos las dos curvas de supervivencia; mediciones moleculares directas viven en otras figuras del paper.
 
-[Ver notebook](papers/2026-05-06-tiktok-sesgo-republicano/notebook) · [Leer más](papers/2026-05-06-tiktok-sesgo-republicano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-tiktok-sesgo-republicano/notebook.ipynb)
+[Ver notebook](papers/2026-05-06-androgenos-glioblastoma-hpa/notebook) · [Leer más](papers/2026-05-06-androgenos-glioblastoma-hpa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-06-androgenos-glioblastoma-hpa/notebook.ipynb)
 
 ---
 
@@ -996,19 +1102,21 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Tu plasma tiene 11 relojes. Uno por órgano.
+### Una superficie oscura, plana y aburrida — y eso lo dice todo
 
-**Medicina** · *Nature Aging* · Liu et al. (2025) entrenaron 11 relojes proteómicos del envejecimiento — uno organismal y diez órgano-específicos — sobre el panel Olink (**2.924 proteínas**) en plasma de **43.616 personas** del UK Biobank, y los validaron en cohortes de China (n=3.977) y Estados Unidos (n=800; cross-cohort r=0.98 y r=0.93). Por cada **desviación estándar** que el reloj cerebral marca "más viejo" que la edad cronológica, el riesgo de muerte sube **44%** (HR=1.44, IC 95% 1.38–1.49) y el de demencia casi se duplica (HR=1.88). Entre los 11 órganos, el cerebro lidera ambos rankings — queda 22% por encima del segundo (páncreas) en magnitud de efecto sobre mortalidad, y 38% por encima en demencia (HR 1.88 vs 1.36 del segundo, Organismal). Los 11 relojes no se mueven juntos: las correlaciones plasmáticas entre órganos van de 0.03 a 0.56, y la mayoría de pares (70/90) está por debajo de 0.30 — cada órgano envejece por su lado. ⚠️ Diseño observacional (Cox regression): los HR predicen riesgo, no demuestran causalidad. ⚠️ El histograma de brain score muestra un pico artificial centrado en la mediana (~11% del sample): los modelos Olink imputan proteínas faltantes con la mediana, y el residual hereda ese pico — anotado explícitamente en la gráfica.
+**Astronomía** · *Nature Astronomy* · Whittaker et al. (2026) tomaron el primer espectro infrarrojo medio (5–12 μm) del planeta rocoso **LHS 3844 b** con el James Webb durante 3 eclipses secundarios. La cara diurna está a **985 K** (~712 °C) y refleja apenas el 22% de la luz que recibe — más oscura que Marte, comparable a la Luna o Mercurio. Pero el resultado clave es lo que el espectro **no** muestra: **χ²_red = 1.30 contra un modelo lineal** en 12 bandas espectrales — un espectro plano, sin features detectables. Eso descarta una atmósfera densa de CO₂ (**< 100 mbar a 5σ**), disfavorece SO₂ volcánico (**< 10 μbar a 3σ**), y descarta polvo basáltico fresco. El mejor ajuste cualitativo del paper: superficie tipo basalto oscuro o material rico en olivino, meteorizado por intemperismo espacial. ⚠️ El ajuste lineal verifica que el espectro es plano, pero "plano" no implica "basalto" — la identificación composicional viene del cruce con la base RELAB de >100 espectros de laboratorio, no replicado aquí. ⚠️ Las bandas 11.4 y 12.1 μm tienen barras de error 5× mayores que las primeras (>190 ppm vs ~35 ppm), dominando la incertidumbre.
 
-[Ver notebook](papers/2025-11-26-organ-proteomic-aging-clocks/notebook) · [Leer más](papers/2025-11-26-organ-proteomic-aging-clocks/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-26-organ-proteomic-aging-clocks/notebook.ipynb)
+[Ver notebook](papers/2026-05-04-lhs-3844b-superficie-jwst/notebook) · [Leer más](papers/2026-05-04-lhs-3844b-superficie-jwst/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-04-lhs-3844b-superficie-jwst/notebook.ipynb)
 
 ---
 
-### Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas
+### Una atmósfera donde los modelos no la esperaban
 
-47,4% de las cuencas con verdor + E↑ tienen también caudal subiendo. El patrón se invierte donde la teoría decía que sería peor: en zonas semiáridas. Tian et al. (2026), *Nature Water*.
+**Astronomía** · *Nature Astronomy* · Arimatsu et al. (2026) registraron una **ocultación estelar** del 10 de enero de 2024 en (612533) 2002 XV93 —un *plutino* de **~250 km de radio**— desde tres telescopios en Japón: Kyoto, Kiso y Fukushima. La curva de luz no cae en escalón: la luz se atenúa de forma gradual, y eso solo lo hace el aire. Derivan una **presión superficial de 100–200 nbar**, **50–100 veces menor** que la de Plutón pero por encima del techo previo de 1–100 nbar establecido para TNOs > 500 km. Tres composiciones (N₂, CH₄, CO) ajustan la curva con calidad similar — la curva sola no decide qué se respira. Kiso es la curva crítica: con σ ≈ 0,06 es **5,2 veces más precisa** que las otras dos, y el ajuste χ² del paper se hace contra ella sola. ⚠️ Los autores presentan dos hipótesis especulativas para el origen — *criovulcanismo activo* o *un impacto reciente* — sin medirlas. ⚠️ Una sola ocultación de ~10 minutos no distingue entre atmósfera estable y transitoria.
 
-[Notebook](papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook.ipynb) · [README](papers/2026-04-22-greening-no-seca-rios-semiaridos/README.md) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook.ipynb)
+[Ver notebook](papers/2026-05-04-atmosfera-tno-2002-xv93/notebook) · [Leer más](papers/2026-05-04-atmosfera-tno-2002-xv93/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-04-atmosfera-tno-2002-xv93/notebook.ipynb)
+
+---
 
 ### Super-nano dominios en láminas de cobre — fuerza y conductividad sin sacrificar ninguna
 
@@ -1034,19 +1142,11 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Theia se formó en el Sistema Solar interior
+### ASTERIS — una IA aprende a separar señal de ruido en imágenes JWST
 
-**Astronomía** · *Science* · Hopp et al. (2025) midieron isótopos de hierro (μ⁵⁴Fe) en **41 muestras** — 15 terrestres, 6 lunares, 14 enstatitas, 4 condritas ordinarias y 2 Rumuruti — y los cruzaron con cinco sistemas isotópicos más (O, Ti, Cr, Zr, Mo). Tras filtrar la exposición a rayos cósmicos galácticos, **la Luna y la Tierra son indistinguibles isotópicamente** y caen juntas en el extremo no carbonáceo del mapa meteorítico. El equipo usó balance de masas para reconstruir Theia bajo **12 escenarios** (4 mantos pre-impacto × 3 tamaños de impactor): solo las recetas no carbonáceas dan una Theia que existe en la naturaleza — las recetas CI (μ⁵⁴Cr=−766) y CV (−409) caen a cientos de ppm fuera del rango observado. **El 15% del Cr terrestre y el 85% del Mo provienen de Theia** bajo el escenario canónico. ⚠️ La conclusión "Theia se formó más cerca del Sol que la Tierra" es una inferencia bajo el modelo (el paper la enmarca con *suggest...might*), no una medición directa.
+**Astronomía** · *Science* · Guo et al. (2026) entrenan un transformer self-supervised que aprende cómo se comporta el ruido entre exposiciones distintas del James Webb y lo descuenta sin tocar la señal de las galaxias reales. El catálogo final post-ASTERIS publicado en el Supplementary tiene **163 candidatos** a galaxias de alto redshift en un parche de 0.09° × 0.07° del campo profundo GOODS-South — más pequeño que la Luna llena vista desde la Tierra. **El 95.1% (155/163) está en zphot ≥ 9** (universo ≤ 540 Myr post Big Bang), incluyendo **3 candidatos extremos en zphot ≥ 18** (universo ≤ 250 Myr, todos F200W dropouts). El **87.1% (142/163) son más débiles que M_UV = −18**, el umbral típico de búsquedas previas a ASTERIS — coherente con la afirmación del paper de detectar galaxias 1.0 magnitud más débiles. ⚠️ Las afirmaciones "3× más candidatos" y "1.0 magnitud de mejora" vienen del benchmarking del paper con mock data; data_s1 contiene solo el catálogo final post-ASTERIS, no el baseline pre-ASTERIS.
 
-[Ver notebook](papers/2025-11-20-theia-sistema-solar-interior/notebook) · [Leer más](papers/2025-11-20-theia-sistema-solar-interior/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-20-theia-sistema-solar-interior/notebook.ipynb)
-
----
-
-### IA multiagente diseña catalizador que destruye PFOA en 5 minutos
-
-**Tecnología** · *Nature Water* · Bao et al. (2026) presentan **ECOMATS**, un sistema multiagente con 7 LLMs fine-tuneados que diseñó autónomamente un catalizador para degradar **PFOA** — uno de los "químicos eternos". El catalizador focal `(FeTCPP)Co2(MeIm)2` degrada **90,5% del PFOA en 5 minutos** (verificado a 90,52% sobre 6 réplicas independientes, CV=8%). Su constante de velocidad **k=0,465 min⁻¹** es **45× la mediana** de 9 catalizadores reportados — pero solo **1,4× el mejor competidor previo** (P-Fe/Co/N@BC, k=0,330). En aguas residuales reales de **31 provincias de China**, mantiene remoción ≥85% en **28 de 31** (mediana 89,4%). El sistema multiagente separa con limpieza los buenos candidatos del ruido (Cohen's d = 2,60). En este Lab abrimos los CSVs del Source Data (MOESM4) y verificamos cada cifra. ⚠️ El paper dice "surpassing most reported analogues" — no "el más rápido del mundo". La revolución es el método (IA diseñando), no necesariamente el resultado bruto.
-
-[Ver notebook](papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook) · [Leer más](papers/2026-05-02-ai-multiagente-catalizadores-agua/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook.ipynb)
+[Ver notebook](papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook) · [Leer más](papers/2026-05-02-asteris-denoising-imagenes-jwst/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook.ipynb)
 
 ---
 
@@ -1058,19 +1158,11 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### ASTERIS — una IA aprende a separar señal de ruido en imágenes JWST
+### IA multiagente diseña catalizador que destruye PFOA en 5 minutos
 
-**Astronomía** · *Science* · Guo et al. (2026) entrenan un transformer self-supervised que aprende cómo se comporta el ruido entre exposiciones distintas del James Webb y lo descuenta sin tocar la señal de las galaxias reales. El catálogo final post-ASTERIS publicado en el Supplementary tiene **163 candidatos** a galaxias de alto redshift en un parche de 0.09° × 0.07° del campo profundo GOODS-South — más pequeño que la Luna llena vista desde la Tierra. **El 95.1% (155/163) está en zphot ≥ 9** (universo ≤ 540 Myr post Big Bang), incluyendo **3 candidatos extremos en zphot ≥ 18** (universo ≤ 250 Myr, todos F200W dropouts). El **87.1% (142/163) son más débiles que M_UV = −18**, el umbral típico de búsquedas previas a ASTERIS — coherente con la afirmación del paper de detectar galaxias 1.0 magnitud más débiles. ⚠️ Las afirmaciones "3× más candidatos" y "1.0 magnitud de mejora" vienen del benchmarking del paper con mock data; data_s1 contiene solo el catálogo final post-ASTERIS, no el baseline pre-ASTERIS.
+**Tecnología** · *Nature Water* · Bao et al. (2026) presentan **ECOMATS**, un sistema multiagente con 7 LLMs fine-tuneados que diseñó autónomamente un catalizador para degradar **PFOA** — uno de los "químicos eternos". El catalizador focal `(FeTCPP)Co2(MeIm)2` degrada **90,5% del PFOA en 5 minutos** (verificado a 90,52% sobre 6 réplicas independientes, CV=8%). Su constante de velocidad **k=0,465 min⁻¹** es **45× la mediana** de 9 catalizadores reportados — pero solo **1,4× el mejor competidor previo** (P-Fe/Co/N@BC, k=0,330). En aguas residuales reales de **31 provincias de China**, mantiene remoción ≥85% en **28 de 31** (mediana 89,4%). El sistema multiagente separa con limpieza los buenos candidatos del ruido (Cohen's d = 2,60). En este Lab abrimos los CSVs del Source Data (MOESM4) y verificamos cada cifra. ⚠️ El paper dice "surpassing most reported analogues" — no "el más rápido del mundo". La revolución es el método (IA diseñando), no necesariamente el resultado bruto.
 
-[Ver notebook](papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook) · [Leer más](papers/2026-05-02-asteris-denoising-imagenes-jwst/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook.ipynb)
-
----
-
-### Miles de elementos genéticos mantienen vivo el cáncer
-
-**Medicina** · *Nature* · Sankar et al. (2025) presentan **Retain-seq**, un rastreo a escala de todo el genoma que identifica los "ganchos" que el ecDNA usa para sobrevivir la división celular: **18.487 retention elements** en 23 cromosomas humanos (todos menos chrY) — promotores ricos en CpG que anclan el ADN extracromosómico a los cromosomas durante la mitosis. La asimetría entre tipos de cáncer es brutal: **K562 (leucemia) usa 15.430 elementos**, mientras que **GBM39 (glioblastoma) apenas 941** — dieciséis veces menos. Y la maquinaria es altamente contexto-específica: **96,5% son específicos a una sola cell line**; apenas **15 son universales** en las 3 líneas estudiadas. **chr19** destaca con **1.329 elementos** — segundo en conteo bruto pero **primero en densidad por megabase** (22,5/Mb, 3,2× más que chr1). En este Lab abrimos el CSV de Figshare (coordenadas hg19, flags binarios de enriquecimiento) y verificamos cada hallazgo. ⚠️ Los datos son flags sí/no, no scores continuos; la metilación (que el paper enmarca con *suggests*) no está en este CSV.
-
-[Ver notebook](papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook) · [Leer más](papers/2026-01-17-elementos-retencion-ecdna-cancer/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook.ipynb)
+[Ver notebook](papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook) · [Leer más](papers/2026-05-02-ai-multiagente-catalizadores-agua/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook.ipynb)
 
 ---
 
@@ -1082,19 +1174,19 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Coágulos de sangre 13 veces más resistentes que el natural
+### ¿Está la IA superando a los médicos en razonamiento clínico?
 
-**Medicina** · *Nature* · Jiang et al. (2026) cargan glóbulos rojos con un polímero (hialuronato modificado con tetrazina) y los reticulan con luz visible: el coágulo "ingenierizado" (**EBC**) se forma en segundos, exhibe **13× más resistencia a fractura** y **4× más adhesión** que un coágulo nativo. *In vivo* en lesiones hepáticas de rata (4 mm × 3 mm), regenera **78% del tejido en día 5** contra **20%** del estándar clínico Floseal — un gap de **58 puntos porcentuales** que se reduce a 16 pp en día 28. Y entre **14 biomateriales** comparados (Surgicel, CoSeal, gelatina, cianoacrilato…), EBC es el único con respuesta de cuerpo extraño "**mínima**". El polímero se descompone *in vitro* con hialuronidasa: el peso molecular cae **9.3×** en 60 min — no persiste en el tejido. En este Lab abrimos los CSVs transcritos del Supplementary Information (Tablas S1-S3) y verificamos cada claim numérico. ⚠️ La Tabla S3 reporta **n=1 por (biomaterial × día)** — estimación visual de histología, sin SD; los headlines mecánicos están en figuras paywalled.
+**Tecnología** · *Science* · Brodeur et al. (2026) pusieron al modelo o1-preview de OpenAI a competir con cientos de médicos en **seis tareas de razonamiento clínico**, desde los casos clinico-patológicos del NEJM hasta diagnóstico en urgencias reales. El titular: la IA ganó casi todas. En CPCs del NEJM, **o1 alcanzó 66.3% top-1 vs 24.3% de los médicos en los 101 casos solapados** (gap 42 pp, ratio 2.73×). Pero el gap se cierra cuando los médicos tienen información completa: en urgencias reales con n=76 pacientes, la ventaja sobre el médico de planta cae de **+11.8 pp en triage a +2.7 pp en admisión** (no significativo). Y en el experimento *Landmark*, el equipo humano-IA (médicos+GPT-4 = 76%) no fue mejor que el médico solo (74%, p=0.055) — la dyad asistida no mejoró al clínico. ⚠️ Las rúbricas aditivas premian enumeración (Grey Matters: gap 55 pp, en parte artefacto de medición). ⚠️ El test de blinding es de 3 opciones (humano/IA/no puedo decir), no binario: los raters mayoritariamente se abstuvieron (83.6% y 94.4%); al menos uno discriminaba muy bien cuando se atrevía (92.6%). ⚠️ El propio paper pide *"urgent need for prospective trials"*.
 
-[Ver notebook](papers/2026-04-29-engineering-tough-blood-clots/notebook) · [Leer más](papers/2026-04-29-engineering-tough-blood-clots/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-engineering-tough-blood-clots/notebook.ipynb)
+[Ver notebook](papers/2026-04-30-llm-razonamiento-medico/notebook) · [Leer más](papers/2026-04-30-llm-razonamiento-medico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-30-llm-razonamiento-medico/notebook.ipynb)
 
 ---
 
-### Un polímero atraviesa la piel y entrega insulina sin agujas
+### 450 vecinos invisibles dentro de una vaca
 
-**Medicina** · *Nature* · Wei et al. (2025) diseñan **OP**, un polímero zwitteriónico que cambia su carga eléctrica con el pH (neutro en el frasco, catiónico al tocar la piel) y forma puentes con la matriz lipídica del estrato córneo — el punto débil que las proteínas grandes no podían atravesar. Aplicado tópicamente en **ratones T1D (n=8)** a 116 U/kg dosis equivalente, la glucemia cae de **487 mg/dL al rango normal en 4 horas (78 mg/dL)** y se mantiene 12 horas — el dibujo de una insulina basal lenta. La insulina inyectada (s.c. 5 U/kg) hace lo contrario: pico rápido y rebote a hiperglucemia (470 mg/dL @ 8h). El control PEG-I (mismo polímero sin la química zwitteriónica) no se mueve — confirma que el efecto es de la carga, no del envoltorio. Replicado en **minicerdos diabéticos (n=3)** a 29 U/kg: **89 mg/dL @ 6h**, Cohen's d = 5,4 vs PBS. En este Lab abrimos los CSVs derivados de Source Data Fig. 3 (Springer ESM, MOESM14), reconstruimos las trayectorias de glucemia para los 5 brazos en ambas especies, y verificamos cada claim con Cohen's d y Mann-Whitney. ⚠️ El paper enmarca la traducción clínica como *may enable*: solo modelos animales, sin humanos, comparador limitado a insulina rápida.
+**Biología** · *Science* · Xie et al. (2026) catalogaron **450 genomas de ciliados del rumen** (87% nuevos para la ciencia), midieron emisiones de metano en **100 vacas** e integraron **1.877 datasets** metagenómicos/metatranscriptómicos públicos. Bajamos los catálogos abiertos del portal NGDC y desmenuzamos lo que cubre la data accesible. **Acto 1:** los tres dominios del rumen, ahora con sus protistas adentro — bacterias **12.540**, arqueas **158** (todas metanógenas), ciliados **450** (87% inéditos). **Acto 2:** Entodiniomorphida es **1,6× más diverso** que Vestibuliferida (277 vs 173 genomas), pero el paper enmarca a Vestibuliferida — cargado de **hidrogenobodies (HBs)** — como el orden que más promueve metanogénesis. Más diverso no es lo mismo que más impacto funcional. **Acto 3:** las células únicas (SAG) rinden mejores genomas que los reconstruidos de comunidad (MAG) — diferencia BUSCO de **17,6 pp**, Cohen's d = **1,65** (efecto grande), Mann-Whitney p ≈ 8,6×10⁻³⁰. ⚠️ Solo trabajamos con metadatos del catálogo — los genomas completos (>6,9 GB) y las Tables S1-S9 con las correlaciones ciliado-metano por vaca están detrás de paywall. ⚠️ El paper habla de **correlación** y **promoción mecanística** vía HBs, no de causalidad directa.
 
-[Ver notebook](papers/2026-01-17-polimero-insulina-sin-agujas/notebook) · [Leer más](papers/2026-01-17-polimero-insulina-sin-agujas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-polimero-insulina-sin-agujas/notebook.ipynb)
+[Ver notebook](papers/2026-04-30-ciliados-rumen-metano/notebook) · [Leer más](papers/2026-04-30-ciliados-rumen-metano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-30-ciliados-rumen-metano/notebook.ipynb)
 
 ---
 
@@ -1106,27 +1198,27 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### El gen anti-CRISPR diseñado por una IA que supera al control humano
-
-**Tecnología** · *Nature* · Hayes et al. (2025) entrenan **Evo 1.5**, un modelo de lenguaje genómico, sobre 2,7 millones de genomas procariotas, y le piden generar **anti-CRISPR** y **antitoxinas** condicionadas por contexto genómico. Sintetizan físicamente **86 anti-CRISPR** y **8 antitoxinas T2** y las prueban en *E. coli*: **17%** de las anti-CRISPR muestran actividad medible y **50%** de las antitoxinas rescatan crecimiento. El golpe: **EvoAcr2** —con **0 hits** en BLAST de secuencia y **0 hits** en Foldseek estructural— alcanza una supervivencia relativa de **1,01**, **0,14 puntos por encima** del control natural AcrIIA2 (0,87). En este Lab abrimos los CSVs de Supplementary, distinguimos los **verdaderamente de novo** (EvoAcr1, EvoAcr2) de los **redescubrimientos** (EvoAcr4, EvoAcr5, con 100% y 96% de identidad BLAST a Acrs naturales de *Listeria*) y verificamos la correlación: Spearman **ρ = −0,727** entre identidad estructural y actividad (n=7, p=0,064) — la novedad no penaliza la función. ⚠️ También publican **SynGenome** con **120 mil millones de pares de bases** sintéticas (≈120 millones de genes potenciales — el short del canal usa la cifra de pb sin la unidad explícita; aquí la dejamos clara).
-
-[Ver notebook](papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook) · [Leer más](papers/2026-01-17-evo-syngenome-120mil-genes-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook.ipynb)
-
----
-
-### Una sola metilación apaga la enzima
-
-**Medicina** · *Nature* · Pacesa et al. (2026) caracterizan **ThermoCas9**, una variante de Cas9 que rechaza el ADN cuando una citosina específica del PAM lleva un grupo metilo (5mCpG o 5mCpC). En 4 sitios genómicos × 2 líneas celulares (HEK293T, HCT116), la edición **cae a 0% en sitios metilados** y oscila **16–33% en los no metilados** — un diseño cruzado que controla el efecto de cromatina porque la secuencia es idéntica entre líneas. *In vitro* la preferencia se cuantifica como **Ki = 64 ± 9 nM (sin metilar) vs 767 ± 250 nM (metilado)**: ratio **12×**, que en el peor caso (cotas) se queda en 7×. La aplicación clínica: con un ThermoCas9 catalíticamente reforzado (CE-RNP) sobre genes luminales hipometilados en cáncer de mama, MCF-7 (cáncer) edita hasta **78% en GATA3** mientras MCF-10A (normal) se queda en **14–28%** — ventana terapéutica real pero no absoluta. Cuatro estructuras crio-EM (PDB 9AR4–9AR7, **2,2–3,5 Å**) revelan el bolsillo molecular que rechaza el grupo metilo. ⚠️ El paper enmarca la traducción clínica como *shows promise*: solo líneas celulares humanas, sin datos *in vivo*.
-
-[Ver notebook](papers/2026-04-22-cas9-metilacion-pam/notebook) · [Leer más](papers/2026-04-22-cas9-metilacion-pam/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-cas9-metilacion-pam/notebook.ipynb)
-
----
-
 ### TFA: el químico eterno más pequeño que nadie sabía cómo destruir
 
 **Química** · *Nature Water* · Jiang et al. (2026) demuestran la mineralización completa del **TFA** (el PFAS más pequeño y más recalcitrante) bajo condiciones ambientales, vía una ruta tandem oxidativa/reductiva. La clave es un radical olvidado: el **anión radical de oxígeno (O•⁻)**, la forma desprotonada del •OH, que ataca al TFA con **k = 5,1 × 10⁷ M⁻¹ s⁻¹** — **50 veces más rápido** que el electrón hidratado, la vía clásica. En este Lab abrimos los datos del paper y verificamos: el ajuste lineal sobre 4 concentraciones (2-20 mM) da **5,14 × 10⁷ M⁻¹ s⁻¹**, dentro del 1% del valor reportado. La mineralización llega al **96,84%** en agua deionizada, y el método se extiende a PFBA, PFHxA y PFOA. El gráfico de iones revela el lado real: **NO₃⁻ apaga la reacción al 0,8%** y **CO₃²⁻ cae 74 puntos** — en agua de la llave o de río, el techo del 97% bajaría según composición iónica.
 
 [Ver notebook](papers/2026-04-29-tfa-mineralizacion-tandem-radicales/notebook) · [Leer más](papers/2026-04-29-tfa-mineralizacion-tandem-radicales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-tfa-mineralizacion-tandem-radicales/notebook.ipynb)
+
+---
+
+### Dos pronúcleos compiten por el citoplasma en el zigoto
+
+**Medicina** · *Nature* · Mihajlović et al. (2026) micromanipularon zigotos de ratón para forzar la formación de **un solo pronúcleo biparental (1PN)** en lugar de los dos normales (2PN), y midieron tres cosas: volúmenes pronucleares (n=47 y 29), marcas químicas de histonas (n=47 vs 30) y tasas de desarrollo embrionario en 5 lotes experimentales. Sin la separación en dos compartimentos, el pronúcleo único termina ocupando el volumen que sumarían los dos del 2PN (**razón 1,08x**) y **H3K27me3 cae 39,6%** (Cohen's *d* = 1,66, p = 2×10⁻⁹ Mann-Whitney) — la marca que mantiene silenciados los genes que el embrión no debe encender todavía. El resultado clínico: solo **26,6%** de los zigotos 1PN llega a término, comparado con **54,7%** de los 2PN (χ² = 17,6, p = 3×10⁻⁵) — casi la mitad. El rescate experimental P1PN recupera al **41,2%**, sugiriendo reversibilidad parcial. ⚠️ Experimentos en ratón — traducción cuantitativa a humano requiere validación. ⚠️ El paper usa "*suggesting*" y "*provides evidence of*" para el mecanismo de competencia citoplasmática (T2) — los datos son consistentes pero la molécula limitante concreta no se identifica. ⚠️ Heterogeneidad alta entre lotes 1PN full-term (rango 0% a 67%).
+
+[Ver notebook](papers/2026-04-29-pronuclear-competition-zygotes/notebook) · [Leer más](papers/2026-04-29-pronuclear-competition-zygotes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-pronuclear-competition-zygotes/notebook.ipynb)
+
+---
+
+### Comer antes de un examen inmunológico cambia el resultado
+
+**Medicina** · *Nature* · Hong et al. (2026) reclutaron 31 voluntarios que vinieron en ayunas, los dejaron comer durante 6 horas lo que quisieran (sin menú impuesto) y midieron cómo cambiaron sus células T entre las dos extracciones — más 6 controles que comieron continuamente o ayunaron continuamente. El hallazgo: comer aumenta la **capacidad metabólica de las células T** (más OCR mitocondrial, más IFN-γ y TNF), el efecto **persiste 7 días *in vitro* y hasta 40 semanas en ratones**, y los **quilomicrones** (lipoproteínas postprandiales) son el vehículo que lo transmite vía LDLR y mTORC1. Punto traslacional: las **células CAR-T fabricadas con sangre postprandial son terapéuticamente superiores**. Lo que abrimos aquí: la demografía pública (Tablas S1+S2) de los 37 participantes. Mediana de ayuno **13 h**, cumplimiento del protocolo 12–14 h del **68%** (21/31), BMI mediano **23,8 kg/m²** (rango 19–41 sin el outlier por error de transcripción), y elección dietaria diversa: **13 grasas, 11 carbohidratos, 5 proteínas, 2 vegetales**. ⚠️ Las mediciones funcionales del paper (OCR, ECAR, citoquinas, CAR-T) viven en figuras — no como CSVs descargables — así que el notebook se centra en el diseño humano del estudio. ⚠️ Cohorte n=31 de un solo centro (Pittsburgh). ⚠️ Corrección publicada (2026-05-14) sobre etiquetas de Fig 3h; conclusión cualitativa intacta.
+
+[Ver notebook](papers/2026-04-29-postprandial-lipid-t-cell-immunity/notebook) · [Leer más](papers/2026-04-29-postprandial-lipid-t-cell-immunity/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-postprandial-lipid-t-cell-immunity/notebook.ipynb)
 
 ---
 
@@ -1138,11 +1230,19 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Primera eyección de masa coronal fuera del Sol
+### Macrófagos mordisqueando células vivas
 
-**Astronomía** · *Nature* · Callingham et al. (2025) reportan, con LOFAR, la primera detección directa de un análogo de **type II radio burst** desde una estrella distinta del Sol — la M dwarf temprana **StKM 1-1262** a ~32 años luz. El burst dura ~4 minutos en banda HBA (120-167 MHz) y muestra deriva en frecuencia + polarización Stokes V idénticas a las CMEs solares (la firma física de una onda de choque saliendo de la corona). El equipo descarta una explicación alternativa (loop magnético cerrado, modelo ECMI) ajustando con MCMC **6.356 muestras posteriores × 9 parámetros** y mostrando que recupera la deriva pero NO la sub-estructura del burst. La tasa derivada de eventos similares es **0,84 × 10⁻³ por día por estrella M** (rango asimétrico -0,69 / +1,94, basado en n=1 detección en ~10.500 h de monitoreo) — en promedio una vez cada ~3 años por estrella, con varianza enorme. ⚠️ El paper enmarca la implicación para erosión atmosférica de exoplanetas como hipótesis (*implies*), no demostración: una detección no establece estadística poblacional.
+**Medicina** · *Nature* · Fan, Thota, Serwas et al. (2026) muestran que los macrófagos no solo limpian células muertas — también arrancan **vesículas sub-micrométricas de células vivas y sanas** sin matarlas. En el pulmón de ratón, un único tipo celular (macrófagos alveolares) se lleva el **62,7 %** del material etiquetado, frente a apenas **0,55 %** en monocitos clásicos — un ratio ≈ 114× (Mann-Whitney U p = 0,008, Cohen's d ≈ 15 con n = 5 ratones). Las vesículas miden de mediana **0,09 µm²** (n = 77 vesículas de 23 células) — son ~835× más pequeñas en área que la sección de una célula entera. Y el muestreo es **estrictamente célula-célula**: separar las poblaciones con una membrana porosa (transwell) reduce el uptake un **77 %** (paired t-test p = 0,0018, n = 3 réplicas biológicas). ⚠️ Los tamaños muestrales son pequeños — los efectos son enormes pero los intervalos de confianza amplios. ⚠️ Todo el sistema está en ratón; el paper no aporta datos humanos directos. ⚠️ El claim de "no destructivo" lo soporta el paper con imaging y caspase assays que no están en el Source Data MOESM7/8.
 
-[Ver notebook](papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook) · [Leer más](papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook.ipynb)
+[Ver notebook](papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook) · [Leer más](papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook.ipynb)
+
+---
+
+### Coágulos de sangre 13 veces más resistentes que el natural
+
+**Medicina** · *Nature* · Jiang et al. (2026) cargan glóbulos rojos con un polímero (hialuronato modificado con tetrazina) y los reticulan con luz visible: el coágulo "ingenierizado" (**EBC**) se forma en segundos, exhibe **13× más resistencia a fractura** y **4× más adhesión** que un coágulo nativo. *In vivo* en lesiones hepáticas de rata (4 mm × 3 mm), regenera **78% del tejido en día 5** contra **20%** del estándar clínico Floseal — un gap de **58 puntos porcentuales** que se reduce a 16 pp en día 28. Y entre **14 biomateriales** comparados (Surgicel, CoSeal, gelatina, cianoacrilato…), EBC es el único con respuesta de cuerpo extraño "**mínima**". El polímero se descompone *in vitro* con hialuronidasa: el peso molecular cae **9.3×** en 60 min — no persiste en el tejido. En este Lab abrimos los CSVs transcritos del Supplementary Information (Tablas S1-S3) y verificamos cada claim numérico. ⚠️ La Tabla S3 reporta **n=1 por (biomaterial × día)** — estimación visual de histología, sin SD; los headlines mecánicos están en figuras paywalled.
+
+[Ver notebook](papers/2026-04-29-engineering-tough-blood-clots/notebook) · [Leer más](papers/2026-04-29-engineering-tough-blood-clots/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-29-engineering-tough-blood-clots/notebook.ipynb)
 
 ---
 
@@ -1170,27 +1270,11 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Las plantas absorben menos CO₂ desde 2001 — y son las tierras secas las culpables
+### 1,65 MJ/kg en una pirimidona: cinco veces más densidad que el azobenceno
 
-**Ecología** · *Nature Geoscience* · Li et al. (2026) cruzan **40 años de torres FLUXNET con machine learning satelital (1982–2022)** y detectan que la absorción de carbono vegetal del planeta se está frenando, pero el frenado no se reparte por igual: en las regiones húmedas la fotosíntesis sigue subiendo casi al mismo ritmo (slope cae solo **−12,6%**, p=4×10⁻⁷), mientras que en las **tierras secas** el ritmo cayó **−71,7%** (de **+2,73 a +0,77 gC/m²/año**, y el segundo slope ya no es significativo: p=0,21). El sospechoso climático es el **VPD** ("sed del aire"): en esas mismas zonas su tendencia se aceleró **×12** después de 2001 (de +0,35 a +4,31 Pa/año por año). Los **ESMs CMIP6** (los modelos del IPCC) predicen lo contrario de lo observado: **+0,48 vs −1,95** en cambio de tendencia — divergencia de signo, no solo de magnitud. ⚠️ El paper habla de "atribuido principalmente a", **no causalidad** — es estudio observacional, los autores son cuidadosos y el notebook lo respeta.
+**Tecnología** · *Science* · Nguyen et al. (2026) sintetizan **4 pirimidonas** (P-1 a P-4, bases del ADN modificadas) y las irradian con UV a **310 nm** para forzarlas al isómero Dewar — un anillo tensionado, como un resorte molecular. Los datos de las Tablas S1-S7 del Supporting muestran que **D-3 almacena 1,65 MJ/kg** medido por DSC, **5,2×** la densidad energética del cis-azobenceno (0,318 MJ/kg) que llevaba 40 años siendo el referente MOST. Una gota de HCl en 1 mL de agua sobre 106 mg de D-3 sube la temperatura **75,76 K** por cámara IR — alcanza ~100°C desde temperatura ambiente. La eficiencia de transferencia es **87% (vs 42% en azobenceno)**, y el control sin Dewar (P-3 directo) apenas calienta 7 K — el calor viene de la reversión, no del ácido. P-3 ganó la carrera entre las 4 candidatas a pesar de no tener el Φ más alto (5,4% vs 7,8% de P-4) porque P-4 es líquido inmiscible. ⚠️ ΔG‡ = 117 kJ/mol extrapolado por Eyring desde mediciones a 85-95°C; la estabilidad real a temperatura ambiente no se midió directamente. El paper cierra con hedge T2 explícito ("apuntan el camino" hacia almacenamiento solar descentralizado).
 
-[Ver notebook](papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook) · [Leer más](papers/2026-04-01-tierras-secas-frenan-co2-vegetal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook.ipynb)
-
----
-
-### Un vidrio con la fuerza del diamante y la tenacidad de un metal
-
-**Tecnología** · *Nature* · Cai et al. (2026) sintetizan **5 vidrios metálicos masivos** Re-Co-Ta-B y miden una combinación que llevaba décadas vacía en el plano resistencia-tenacidad: **6,43 GPa de fuerza** (cerca del diamante policristalino, 6,9-7,0 GPa) con **30 MPa·m^1/2 de tenacidad** — **3,4×** la mejor cerámica de su nivel de resistencia (PCD K1C=8,8). A **900 K** mantiene **4,4 GPa** (caída del **31,6%**, mejor que la mayoría de BMGs comparables). En los 8 materiales del dataset con σy ≥ 5 GPa, la mediana de tenacidad es 5,97 — el Re-Co-Ta-B la quintuplica. Más renio sube la temperatura de transición vítrea (Tg, 1001-1113 K) pero baja el espesor crítico de colada (3-4 mm). ⚠️ El mecanismo atómico (orden de corto rango heredado del Re7B3 + enlaces Re-B direccionales) viene de DFT computacional — el paper lo presenta como hipótesis (*suggests*), no como observación directa. Renio ~1500 USD/kg: investigación, no producción a escala.
-
-[Ver notebook](papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook) · [Leer más](papers/2026-04-22-vidrio-metalico-resistencia-ceramica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook.ipynb)
-
----
-
-### +23,9% más genes de resistencia a antibióticos en un suelo calentado 3°C
-
-**Ecología** · *Nature* · Wu et al. (2026) calientan parcelas de pradera en Oklahoma a **+3°C constantes durante 11 años (2010–2020)** y secuencian el ADN del suelo en 88 muestras finales. La abundancia de genes de resistencia a antibióticos sube **+23,9%** vs control (LMM ajustado; nuestra mediana directa da +23,6%, coincide a 0,3 puntos). Cohen's d = 0,24 — efecto pequeño pero consistente: en los 11 de los 11 años la mediana del calentado supera a la control. Las clases más afectadas son **glicopéptidos (+24,4%, p=0,023) y rifamicinas (+25,6%, p=0,003)** — dos antibióticos que los hospitales reservan para infecciones difíciles. MLS/macrólidos sube más que ambas (+31,8%, p=0,0008) pero el abstract no lo destaca. Mann-Whitney unilateral en abundancia total: p=0,009. ⚠️ El paper enmarca la transferencia horizontal de genes como hipótesis especulativa (*could be further amplified*), no como observación directa — la sostenemos ahí, no escalamos.
-
-[Ver notebook](papers/2026-04-27-calentamiento-resistencia-suelos/notebook) · [Leer más](papers/2026-04-27-calentamiento-resistencia-suelos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-27-calentamiento-resistencia-suelos/notebook.ipynb)
+[Ver notebook](papers/2026-04-27-pirimidona-dewar-energia-solar/notebook) · [Leer más](papers/2026-04-27-pirimidona-dewar-energia-solar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-27-pirimidona-dewar-energia-solar/notebook.ipynb)
 
 ---
 
@@ -1202,43 +1286,35 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### 1,65 MJ/kg en una pirimidona: cinco veces más densidad que el azobenceno
+### +23,9% más genes de resistencia a antibióticos en un suelo calentado 3°C
 
-**Tecnología** · *Science* · Nguyen et al. (2026) sintetizan **4 pirimidonas** (P-1 a P-4, bases del ADN modificadas) y las irradian con UV a **310 nm** para forzarlas al isómero Dewar — un anillo tensionado, como un resorte molecular. Los datos de las Tablas S1-S7 del Supporting muestran que **D-3 almacena 1,65 MJ/kg** medido por DSC, **5,2×** la densidad energética del cis-azobenceno (0,318 MJ/kg) que llevaba 40 años siendo el referente MOST. Una gota de HCl en 1 mL de agua sobre 106 mg de D-3 sube la temperatura **75,76 K** por cámara IR — alcanza ~100°C desde temperatura ambiente. La eficiencia de transferencia es **87% (vs 42% en azobenceno)**, y el control sin Dewar (P-3 directo) apenas calienta 7 K — el calor viene de la reversión, no del ácido. P-3 ganó la carrera entre las 4 candidatas a pesar de no tener el Φ más alto (5,4% vs 7,8% de P-4) porque P-4 es líquido inmiscible. ⚠️ ΔG‡ = 117 kJ/mol extrapolado por Eyring desde mediciones a 85-95°C; la estabilidad real a temperatura ambiente no se midió directamente. El paper cierra con hedge T2 explícito ("apuntan el camino" hacia almacenamiento solar descentralizado).
+**Ecología** · *Nature* · Wu et al. (2026) calientan parcelas de pradera en Oklahoma a **+3°C constantes durante 11 años (2010–2020)** y secuencian el ADN del suelo en 88 muestras finales. La abundancia de genes de resistencia a antibióticos sube **+23,9%** vs control (LMM ajustado; nuestra mediana directa da +23,6%, coincide a 0,3 puntos). Cohen's d = 0,24 — efecto pequeño pero consistente: en los 11 de los 11 años la mediana del calentado supera a la control. Las clases más afectadas son **glicopéptidos (+24,4%, p=0,023) y rifamicinas (+25,6%, p=0,003)** — dos antibióticos que los hospitales reservan para infecciones difíciles. MLS/macrólidos sube más que ambas (+31,8%, p=0,0008) pero el abstract no lo destaca. Mann-Whitney unilateral en abundancia total: p=0,009. ⚠️ El paper enmarca la transferencia horizontal de genes como hipótesis especulativa (*could be further amplified*), no como observación directa — la sostenemos ahí, no escalamos.
 
-[Ver notebook](papers/2026-04-27-pirimidona-dewar-energia-solar/notebook) · [Leer más](papers/2026-04-27-pirimidona-dewar-energia-solar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-27-pirimidona-dewar-energia-solar/notebook.ipynb)
-
----
-
-### El Amazonas que enfría: 6.8 W/m² de paradoja
-
-**Ecología** · *Science* · Dror et al. (2026) cruzan dos décadas de satélites CERES y MODIS sobre el Amazonas, separando el flujo radiativo en el techo de la atmósfera (TOA) por fracción de pérdida de bosque. Los datos resumidos del NOAA Chemical Sciences Laboratory (122 bins de f_loss, 24 valores de feedback) muestran que en zonas de alta deforestación (f_loss ≥ 0,5) el flujo de onda corta saliente sube **6,76 ± 0,60 W/m²** vs bosque intacto — coincidiendo al 0,6% con el headline del paper (6,8 ± 0,6). Las nubes amplifican ese efecto: la amplificación de albedo es **× 2,2** vs el cambio de suelo desnudo, y la del flujo SW **× 3,4**. La onda corta domina sobre la onda larga por **× 12**. La pendiente OLS contra f_loss llega a **11 W/m² por unidad** (R² = 0,61, p ≈ 0, n = 122). ⚠️ Solo balance radiativo — NO incluye carbono liberado, humedad atmosférica ni ciclo hidrológico continental. El propio abstract dice que estos resultados *"apoyan"* (no *"demuestran"*) su uso en políticas climáticas.
-
-[Ver notebook](papers/2026-04-23-amazon-forest-cooling-feedback/notebook) · [Leer más](papers/2026-04-23-amazon-forest-cooling-feedback/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-23-amazon-forest-cooling-feedback/notebook.ipynb)
+[Ver notebook](papers/2026-04-27-calentamiento-resistencia-suelos/notebook) · [Leer más](papers/2026-04-27-calentamiento-resistencia-suelos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-27-calentamiento-resistencia-suelos/notebook.ipynb)
 
 ---
 
-### Una red biohíbrida que se mueve y captura nanoplásticos
+### Pulpos gigantes del Cretácico: ¿quiénes eran?
 
-**Tecnología** · *Nature Water* · Fan et al. (2026) construyen una red diminuta — fibrillas amiloides de **lisozima** (la proteína de la clara del huevo) decoradas con nanopartículas de óxido de hierro: las **LAF-IONPs**. Bajo un campo magnético alterno, la red se sacude y caza nanoplásticos. Los datos de los Source Data MOESM8/10/11 muestran que el truco está en el movimiento: estática captura solo **40,1%**, dinámica **99,3%** (×2,47, Cohen d ≈ 71). La eficiencia se mantiene entre **94,6%** (10 mg/L) y **99,6%** (500 mg/L), aguanta **100 ciclos** de reuso cayendo apenas **4,3 puntos porcentuales** (de 100,1% a 95,8%), y reduce un **91,5%** del plástico bioacumulado en ratones C57BL/6. ⚠️ Solo ratones — no hay datos clínicos humanos; las eficiencias del 99% son sobre agua sintética con poliestireno puro.
+**Biología** · *Science* · Ikegami et al. (2026) describen dos fósiles cretácicos de cefalópodos del Pacífico canadiense (~100–72 Ma), con tamaños estimados de **7 a 19 metros**. Durante 370 millones de años los apex marinos han sido vertebrados — entonces, ¿qué linaje de pulpos eran estos invertebrados gigantes? Abrimos los datos morfológicos públicos (Figshare, CC BY 4.0): **PCoA sobre 19 caracteres mandibulares en 21 taxa** — 9 cirrados modernos (linaje Dumbo), 10 incirrados (linaje *Octopus*), 2 fósiles. PC1 + PC2 explican **81,1% de la varianza**. Resultado: los fósiles caen pegados al cluster cirrado. **9 de 9 cirrados modernos están más cerca morfológicamente de los fósiles que cualquiera de los 10 no-cirrados** (mediana 0,129 vs 0,351; ratio 2,72×; Mann-Whitney p=0,0003; Cohen's d=4,5). Sin solape entre grupos. El tamaño 7–19 m viene del paper, no de los CSVs públicos.
 
-[Ver notebook](papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook) · [Leer más](papers/2026-04-23-nanonets-amiloide-nanoplasticos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook.ipynb)
-
----
-
-### La cooperación cae cada vez más rápido
-
-**Psicología** · *Nature* · Sabin et al. (2026) siguen durante 5 años a 7.108 prestatarios en Sierra Leona — 47.931 pagos de microcréditos en grupo (joint-liability). Los datos de los Source Data MOESM4-MOESM10 muestran que la cooperación cae cada vez más rápido: el ciclo 4 cae **3,37×** más empinado que el ciclo 1 (-19,07 pp vs -5,66 pp en 6 rondas). Cuando el préstamo reinicia, la cooperación rebota — y el rebote crece: reinicio 1 = -0,33σ, reinicio 2 = +5,47σ, reinicio 3 = **+15,9σ** (5,4× su error estándar). Y la motivación económica, la que la teoría racional clásica predice como dominante, es la **menos** mencionada por los entrevistados (17,2% vs 54,7% solidaridad). ⚠️ Diseño observacional con atrición fuerte (-81% de los grupos no llegan al ciclo 4): el patrón es robusto, la causa sigue abierta.
-
-[Ver notebook](papers/2026-04-22-punctuated-decline-cooperation/notebook) · [Leer más](papers/2026-04-22-punctuated-decline-cooperation/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-punctuated-decline-cooperation/notebook.ipynb)
+[Ver notebook](papers/2026-04-25-octopodos-gigantes-cretacico/notebook) · [Leer más](papers/2026-04-25-octopodos-gigantes-cretacico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-25-octopodos-gigantes-cretacico/notebook.ipynb)
 
 ---
 
-### Un implante cerebral sin cirugía: 5.8x más células donde hay inflamación
+### Ultrasonido tomográfico del corte completo del cuerpo
 
-**Neurociencia** · *Nature Biotechnology* · Yadav et al. (2025) diseñan un implante cerebral **sin cirugía**: macrófagos recubiertos con proteína conductora cargados con fotodiodos del tamaño de bacterias (SWEDs), inyectados en sangre y activados con luz infrarroja desde fuera del cráneo. Los datos del Source Data MOESM3 (Fig 4f, 5f, 2g) muestran que los híbridos con luz se concentran **5,76× más** que el control completo en la zona inflamada (315 vs 55 cells/mm²) — Cohen's d = 4,24, p = 0,029 (Mann-Whitney, n=4 vs n=4). Bootstrap de 10.000 re-muestreos: el 100% supera el umbral de "efecto grande". Los SWEDs persisten 6 meses sin decaimiento detectable (aunque n=2-3 limita el test formal: U=1, p=0,40 entre 1d y 6m). Y el cráneo de ratón apenas atenúa la luz NIR — solo **11,6% de pérdida** a 46 mW/mm². Prueba de concepto en ratones con inflamación inducida por LPS — distancia regulatoria significativa antes de aplicación clínica.
+**Medicina** · *Nature Biomedical Engineering* · Yang et al. (2026) construyen un aro de **60 cm con 512 receptores** y un transmisor que gira. El sujeto se sienta con el torso en un tanque de agua, y el sistema genera una imagen del corte transversal completo — como una TAC, pero con ultrasonido y sin radiación. Lo validan en cadena: líquido conocido (5 mezclas etanol-agua, error promedio 0,52%), fantasma de grasa sintética (sobreestima ~3%), y humanos contra MRI 3T (**Pearson r = 0,987, diferencia máxima 3 mm en n=6 líneas**). Y algo incómodo: un caliper de consulta subestima la grasa **40,6%** en un voluntario promedio — pellizcar comprime 1,3 cm de tejido que la imagen sí ve.
 
-[Ver notebook](papers/2025-11-05-implantes-cerebrales-circulatronics/notebook) · [Leer más](papers/2025-11-05-implantes-cerebrales-circulatronics/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-05-implantes-cerebrales-circulatronics/notebook.ipynb)
+[Ver notebook](papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook) · [Leer más](papers/2026-04-24-ultrasonido-tomografia-corte-completo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook.ipynb)
+
+---
+
+### Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa
+
+**Tecnología** · *Nature* · D'Ambrosio et al. (2026) construyeron **Ace**, un robot autónomo de Sony con dos brazos KUKA y un controlador entrenado con aprendizaje por refuerzo. En abril de 2025 lo enfrentaron bajo reglas oficiales ITTF a siete humanos — **cinco élite de club amateur y dos profesionales japoneses**. Contra los élite **ganó 3 de 5 partidos (7/13 sets)**. Contra los profesionales **perdió ambos (1/7 sets)**. Abrimos los **4.024 eventos** grabados (99 rallies, 1.953 golpes) y vemos la brecha: el techo operativo de Ace vive en **13,3 m/s** (su percentil 95); el **26% de los golpes humanos viven por encima** de ese umbral. Entre élite y pro hay un salto que los datos no esconden.
+
+[Ver notebook](papers/2026-04-24-robot-tenis-mesa-elite/notebook) · [Leer más](papers/2026-04-24-robot-tenis-mesa-elite/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-24-robot-tenis-mesa-elite/notebook.ipynb)
 
 ---
 
@@ -1250,170 +1326,129 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ---
 
-### Pulpos gigantes del Cretácico: ¿quiénes eran?
+### Una red biohíbrida que se mueve y captura nanoplásticos
 
-**Biología** · Science · Ikegami et al. (2026) describen dos fósiles cretácicos de cefalópodos del Pacífico canadiense (~100–72 Ma), con tamaños estimados de **7 a 19 metros**. Durante 370 millones de años los apex marinos han sido vertebrados — entonces, ¿qué linaje de pulpos eran estos invertebrados gigantes? Abrimos los datos morfológicos públicos (Figshare, CC BY 4.0): **PCoA sobre 19 caracteres mandibulares en 21 taxa** — 9 cirrados modernos (linaje Dumbo), 10 incirrados (linaje *Octopus*), 2 fósiles. PC1 + PC2 explican **81,1% de la varianza**. Resultado: los fósiles caen pegados al cluster cirrado. **9 de 9 cirrados modernos están más cerca morfológicamente de los fósiles que cualquiera de los 10 no-cirrados** (mediana 0,129 vs 0,351; ratio 2,72×; Mann-Whitney p=0,0003; Cohen's d=4,5). Sin solape entre grupos. El tamaño 7–19 m viene del paper, no de los CSVs públicos.
+**Tecnología** · *Nature Water* · Fan et al. (2026) construyen una red diminuta — fibrillas amiloides de **lisozima** (la proteína de la clara del huevo) decoradas con nanopartículas de óxido de hierro: las **LAF-IONPs**. Bajo un campo magnético alterno, la red se sacude y caza nanoplásticos. Los datos de los Source Data MOESM8/10/11 muestran que el truco está en el movimiento: estática captura solo **40,1%**, dinámica **99,3%** (×2,47, Cohen d ≈ 71). La eficiencia se mantiene entre **94,6%** (10 mg/L) y **99,6%** (500 mg/L), aguanta **100 ciclos** de reuso cayendo apenas **4,3 puntos porcentuales** (de 100,1% a 95,8%), y reduce un **91,5%** del plástico bioacumulado en ratones C57BL/6. ⚠️ Solo ratones — no hay datos clínicos humanos; las eficiencias del 99% son sobre agua sintética con poliestireno puro.
 
-[Ver notebook](papers/2026-04-25-octopodos-gigantes-cretacico/notebook) · [Leer más](papers/2026-04-25-octopodos-gigantes-cretacico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-25-octopodos-gigantes-cretacico/notebook.ipynb)
-
----
-
-### ¿Puede una IA entender el mundo sin haberlo vivido?
-
-**Tecnología** · PNAS · Xu et al. (2025) tomaron **66 modelos de lenguaje** — de 70 millones a 47 mil millones de parámetros — y midieron qué tan parecida era su representación interna de conceptos a la humana. Con datos abiertos de Zenodo, reproducimos dos de los tres claims: (1) cuanto más alineado con humanos es un modelo, mejor razona en 8 benchmarks (**Spearman ρ = 0,83, n = 66**), y (2) dentro de Llama-3-70B, la representación converge con más ejemplos *in-context* y la precisión sube en paralelo (**ρ = 0,98, n = 8 demos**). El giro incómodo: el modelo más alineado no es el más grande. **Llama-3 8B (0,74) gana a Mistral 8x7B de 47 mil millones de parámetros (0,72)**. El tercer claim del paper — similitud con actividad cerebral fMRI — no se reproduce aquí (requiere datos adicionales).
-
-[Ver notebook](papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook) · [Leer más](papers/2025-10-31-ia-conceptos-humanos-sin-vivir/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook.ipynb)
+[Ver notebook](papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook) · [Leer más](papers/2026-04-23-nanonets-amiloide-nanoplasticos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook.ipynb)
 
 ---
 
-### Ultrasonido tomográfico del corte completo del cuerpo
+### El Amazonas que enfría: 6.8 W/m² de paradoja
 
-**Medicina** · Nature Biomedical Engineering · Yang et al. (2026) construyen un aro de **60 cm con 512 receptores** y un transmisor que gira. El sujeto se sienta con el torso en un tanque de agua, y el sistema genera una imagen del corte transversal completo — como una TAC, pero con ultrasonido y sin radiación. Lo validan en cadena: líquido conocido (5 mezclas etanol-agua, error promedio 0,52%), fantasma de grasa sintética (sobreestima ~3%), y humanos contra MRI 3T (**Pearson r = 0,987, diferencia máxima 3 mm en n=6 líneas**). Y algo incómodo: un caliper de consulta subestima la grasa **40,6%** en un voluntario promedio — pellizcar comprime 1,3 cm de tejido que la imagen sí ve.
+**Ecología** · *Science* · Dror et al. (2026) cruzan dos décadas de satélites CERES y MODIS sobre el Amazonas, separando el flujo radiativo en el techo de la atmósfera (TOA) por fracción de pérdida de bosque. Los datos resumidos del NOAA Chemical Sciences Laboratory (122 bins de f_loss, 24 valores de feedback) muestran que en zonas de alta deforestación (f_loss ≥ 0,5) el flujo de onda corta saliente sube **6,76 ± 0,60 W/m²** vs bosque intacto — coincidiendo al 0,6% con el headline del paper (6,8 ± 0,6). Las nubes amplifican ese efecto: la amplificación de albedo es **× 2,2** vs el cambio de suelo desnudo, y la del flujo SW **× 3,4**. La onda corta domina sobre la onda larga por **× 12**. La pendiente OLS contra f_loss llega a **11 W/m² por unidad** (R² = 0,61, p ≈ 0, n = 122). ⚠️ Solo balance radiativo — NO incluye carbono liberado, humedad atmosférica ni ciclo hidrológico continental. El propio abstract dice que estos resultados *"apoyan"* (no *"demuestran"*) su uso en políticas climáticas.
 
-[Ver notebook](papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook) · [Leer más](papers/2026-04-24-ultrasonido-tomografia-corte-completo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook.ipynb)
-
----
-
-### Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa
-
-**Tecnología** · Nature · D'Ambrosio et al. (2026) construyeron **Ace**, un robot autónomo de Sony con dos brazos KUKA y un controlador entrenado con aprendizaje por refuerzo. En abril de 2025 lo enfrentaron bajo reglas oficiales ITTF a siete humanos — **cinco élite de club amateur y dos profesionales japoneses**. Contra los élite **ganó 3 de 5 partidos (7/13 sets)**. Contra los profesionales **perdió ambos (1/7 sets)**. Abrimos los **4.024 eventos** grabados (99 rallies, 1.953 golpes) y vemos la brecha: el techo operativo de Ace vive en **13,3 m/s** (su percentil 95); el **26% de los golpes humanos viven por encima** de ese umbral. Entre élite y pro hay un salto que los datos no esconden.
-
-[Ver notebook](papers/2026-04-24-robot-tenis-mesa-elite/notebook) · [Leer más](papers/2026-04-24-robot-tenis-mesa-elite/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-24-robot-tenis-mesa-elite/notebook.ipynb)
-
----
-
-### 333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro
-
-**Neurociencia** · Nature · Iglesias et al. (2025) tomaron **5 hemisferios cerebrales completos**, los seccionaron en cerca de **10.000 láminas histológicas**, las alinearon en 3D con métodos de IA y delinearon manualmente **333 regiones de interés**. El error medio de registro 3D **baja un 31% (de 1,44 a 0,99 mm)** frente al pipeline anterior — y los 5 hemisferios mejoran a la vez, sin un solo caso donde el método previo gane. En la prueba clínica con 383 escáneres ADNI, **NextBrain clasifica Alzheimer vs control con AUROC 0,953 (acierto 90,3%)**, por encima de FreeSurfer (0,911) y Allen MNI (0,929). Pero atención: **AUROC no es diagnóstico** — es capacidad de ranking.
-
-[Ver notebook](papers/2025-11-05-nextbrain-atlas-333-regiones/notebook) · [Leer más](papers/2025-11-05-nextbrain-atlas-333-regiones/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-05-nextbrain-atlas-333-regiones/notebook.ipynb)
+[Ver notebook](papers/2026-04-23-amazon-forest-cooling-feedback/notebook) · [Leer más](papers/2026-04-23-amazon-forest-cooling-feedback/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-23-amazon-forest-cooling-feedback/notebook.ipynb)
 
 ---
 
 ### 128 Genomas Indígenas Americanos: Dos Pistas Inesperadas
 
-**Biología** · Nature · Castro e Silva et al. (2026) presentan el **mayor conjunto de genomas indígenas americanos secuenciados hasta hoy**: 128 individuos de 45 poblaciones, 8 países. Dos pistas inesperadas en los datos: **(1)** el aislamiento por distancia *global* (Spearman ρ = 0,50) es una **paradoja de Simpson** — dentro de Sudamérica la correlación cae a 0,15 y entre Norte y Sudamérica es *negativa* (ρ = −0,29); **(2)** la señal genética compartida con Papúa/Australia (*Ypykuéra*) aparece en muestras pre-colombinas de **~6.800 años** y está concentrada en unos pocos individuos antiguos.
+**Biología** · *Nature* · Castro e Silva et al. (2026) presentan el **mayor conjunto de genomas indígenas americanos secuenciados hasta hoy**: 128 individuos de 45 poblaciones, 8 países. Dos pistas inesperadas en los datos: **(1)** el aislamiento por distancia *global* (Spearman ρ = 0,50) es una **paradoja de Simpson** — dentro de Sudamérica la correlación cae a 0,15 y entre Norte y Sudamérica es *negativa* (ρ = −0,29); **(2)** la señal genética compartida con Papúa/Australia (*Ypykuéra*) aparece en muestras pre-colombinas de **~6.800 años** y está concentrada en unos pocos individuos antiguos.
 
 [Ver notebook](papers/2026-04-22-genomas-indigenas-americanos/notebook) · [Leer más](papers/2026-04-22-genomas-indigenas-americanos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-genomas-indigenas-americanos/notebook.ipynb)
 
 ---
 
-### 151 vertederos del mundo, 1085 detecciones satelitales
+### Un vidrio con la fuerza del diamante y la tenacidad de un metal
 
-**Ecología** · Nature · Dogniaux et al. (2025) observaron 151 vertederos en 6 continentes con el satélite **GHGSat** durante 2021-2022 y cruzaron las emisiones medidas con los reportes nacionales y el inventario **Climate TRACE**. El resultado: **a escala de instalación, las tres estimaciones no se correlacionan** (Spearman ρ=0,12, p=0,21, n=109). En un vertedero de Turquía el satélite ve **240 veces más metano** del que estima el modelo; en dos vertederos de Corea del Sur, el modelo estima **76 y 186 veces más** de lo que mide el satélite. Solo **41 de 109 sitios (38%)** acuerdan dentro de un factor 2.
+**Tecnología** · *Nature* · Cai et al. (2026) sintetizan **5 vidrios metálicos masivos** Re-Co-Ta-B y miden una combinación que llevaba décadas vacía en el plano resistencia-tenacidad: **6,43 GPa de fuerza** (cerca del diamante policristalino, 6,9-7,0 GPa) con **30 MPa·m^1/2 de tenacidad** — **3,4×** la mejor cerámica de su nivel de resistencia (PCD K1C=8,8). A **900 K** mantiene **4,4 GPa** (caída del **31,6%**, mejor que la mayoría de BMGs comparables). En los 8 materiales del dataset con σy ≥ 5 GPa, la mediana de tenacidad es 5,97 — el Re-Co-Ta-B la quintuplica. Más renio sube la temperatura de transición vítrea (Tg, 1001-1113 K) pero baja el espesor crítico de colada (3-4 mm). ⚠️ El mecanismo atómico (orden de corto rango heredado del Re7B3 + enlaces Re-B direccionales) viene de DFT computacional — el paper lo presenta como hipótesis (*suggests*), no como observación directa. Renio ~1500 USD/kg: investigación, no producción a escala.
 
-[Ver notebook](papers/2026-01-17-metano-151-vertederos-satelite/notebook) · [Leer más](papers/2026-01-17-metano-151-vertederos-satelite/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-metano-151-vertederos-satelite/notebook.ipynb)
+[Ver notebook](papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook) · [Leer más](papers/2026-04-22-vidrio-metalico-resistencia-ceramica/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook.ipynb)
+
+---
+
+### La cooperación cae cada vez más rápido
+
+**Psicología** · *Nature* · Sabin et al. (2026) siguen durante 5 años a 7.108 prestatarios en Sierra Leona — 47.931 pagos de microcréditos en grupo (joint-liability). Los datos de los Source Data MOESM4-MOESM10 muestran que la cooperación cae cada vez más rápido: el ciclo 4 cae **3,37×** más empinado que el ciclo 1 (-19,07 pp vs -5,66 pp en 6 rondas). Cuando el préstamo reinicia, la cooperación rebota — y el rebote crece: reinicio 1 = -0,33σ, reinicio 2 = +5,47σ, reinicio 3 = **+15,9σ** (5,4× su error estándar). Y la motivación económica, la que la teoría racional clásica predice como dominante, es la **menos** mencionada por los entrevistados (17,2% vs 54,7% solidaridad). ⚠️ Diseño observacional con atrición fuerte (-81% de los grupos no llegan al ciclo 4): el patrón es robusto, la causa sigue abierta.
+
+[Ver notebook](papers/2026-04-22-punctuated-decline-cooperation/notebook) · [Leer más](papers/2026-04-22-punctuated-decline-cooperation/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-punctuated-decline-cooperation/notebook.ipynb)
+
+---
+
+### Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas
+
+**Ecología** · *Nature Water* · 47,4% de las cuencas con verdor + E↑ tienen también caudal subiendo. El patrón se invierte donde la teoría decía que sería peor: en zonas semiáridas. Tian et al. (2026), *Nature Water*.
+
+[Ver notebook](papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook) · [Leer más](papers/2026-04-22-greening-no-seca-rios-semiaridos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook.ipynb)
+
+---
+
+### Una sola metilación apaga la enzima
+
+**Medicina** · *Nature* · Pacesa et al. (2026) caracterizan **ThermoCas9**, una variante de Cas9 que rechaza el ADN cuando una citosina específica del PAM lleva un grupo metilo (5mCpG o 5mCpC). En 4 sitios genómicos × 2 líneas celulares (HEK293T, HCT116), la edición **cae a 0% en sitios metilados** y oscila **16–33% en los no metilados** — un diseño cruzado que controla el efecto de cromatina porque la secuencia es idéntica entre líneas. *In vitro* la preferencia se cuantifica como **Ki = 64 ± 9 nM (sin metilar) vs 767 ± 250 nM (metilado)**: ratio **12×**, que en el peor caso (cotas) se queda en 7×. La aplicación clínica: con un ThermoCas9 catalíticamente reforzado (CE-RNP) sobre genes luminales hipometilados en cáncer de mama, MCF-7 (cáncer) edita hasta **78% en GATA3** mientras MCF-10A (normal) se queda en **14–28%** — ventana terapéutica real pero no absoluta. Cuatro estructuras crio-EM (PDB 9AR4–9AR7, **2,2–3,5 Å**) revelan el bolsillo molecular que rechaza el grupo metilo. ⚠️ El paper enmarca la traducción clínica como *shows promise*: solo líneas celulares humanas, sin datos *in vivo*.
+
+[Ver notebook](papers/2026-04-22-cas9-metilacion-pam/notebook) · [Leer más](papers/2026-04-22-cas9-metilacion-pam/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-22-cas9-metilacion-pam/notebook.ipynb)
 
 ---
 
 ### Un termitero inspira cómo recuperar 83% del vapor industrial
 
-**Tecnología** · Nature Water · Zhang et al. (2026) copiaron la arquitectura pasiva de los termiteros africanos —cámaras, chimeneas y canales que enfrían sin perder humedad— para recuperar el vapor que las torres de enfriamiento industriales tiran al aire. El sistema de **cuatro capas apiladas** retiene **83,5%** del vapor a los 24 minutos, contra 27,2% sin tratamiento. **Una sola capa** (el recubrimiento de microesferas FAUTO) carga con +43,7 puntos porcentuales de la mejora; las otras tres capas juntas apenas suman +12,6 pp. Proyectado a una planta de 300 MW en China: **2,7×10⁸ toneladas de agua recuperadas al año** — equivalente al consumo doméstico de 2,2 millones de hogares.
+**Tecnología** · *Nature Water* · Zhang et al. (2026) copiaron la arquitectura pasiva de los termiteros africanos —cámaras, chimeneas y canales que enfrían sin perder humedad— para recuperar el vapor que las torres de enfriamiento industriales tiran al aire. El sistema de **cuatro capas apiladas** retiene **83,5%** del vapor a los 24 minutos, contra 27,2% sin tratamiento. **Una sola capa** (el recubrimiento de microesferas FAUTO) carga con +43,7 puntos porcentuales de la mejora; las otras tres capas juntas apenas suman +12,6 pp. Proyectado a una planta de 300 MW en China: **2,7×10⁸ toneladas de agua recuperadas al año** — equivalente al consumo doméstico de 2,2 millones de hogares.
 
 [Ver notebook](papers/2026-04-21-vapor-agua-termitero-industrial/notebook) · [Leer más](papers/2026-04-21-vapor-agua-termitero-industrial/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-21-vapor-agua-termitero-industrial/notebook.ipynb)
 
 ---
 
-### Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo
-
-**Neurociencia** · Science · Reineke et al. (2026) muestran que una variante humana del gen **PPP1R15B (R658C)** mantiene encendida una respuesta de estrés celular llamada **ISR** — y eso solo basta para deteriorar la memoria. La proteína viral **DP71L** la apaga y revierte los déficits cognitivos en ratones con Down, Alzheimer y envejecimiento. Este notebook usa el dataset público **GSE310398** para verificar la firma molecular: **ATF4 sube su eficiencia traduccional 53% en el cerebro mutante** (p ≈ 0,005, Cohen's d ≈ 5), **CHOP +41%**, y solo **1,6% de los 10.908 genes expresados** cambian — el ISR es un escalpelo molecular, no un mazo.
-
-[Ver notebook](papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook) · [Leer más](papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook.ipynb)
-
----
-
-### Un satélite ve temperatura. ¿Puede ver las corrientes del océano?
-
-**Ecología** · Nature Geoscience · Lenain et al. (2026) introducen **GOFLOW**, una red neuronal U-Net que recibe tres imágenes térmicas consecutivas de satélite geostacionario (GOES-East, 1 hora de separación) y devuelve el campo de velocidad superficial del océano. Validada contra la simulación de referencia LLC4320 en **41 snapshots del Gulf Stream**, alcanza correlación **r ≈ 0,97** para velocidades (u, v) y preserva la asimetría positiva de la vorticidad — el hallmark del régimen submesoscale. La divergencia, en cambio, es la variable más difícil: los autores lo admiten ("somewhat less accurately reproduced") y aquí se ve explícito en los datos.
-
-[Ver notebook](papers/2026-04-13-goflow-corrientes-submesoscale/notebook) · [Leer más](papers/2026-04-13-goflow-corrientes-submesoscale/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-13-goflow-corrientes-submesoscale/notebook.ipynb)
-
----
-
-### Un destello 40 veces más brillante de un agujero negro
-
-**Astronomía** · Nature Astronomy · Hinkle et al. (2025) describen el destello más luminoso jamás registrado de un agujero negro supermasivo: el núcleo galáctico activo **J224554.84+374326.5** (z = 2,6) brilló más de **40×** sobre su nivel normal en 2018 y liberó ~**10⁵⁴ erg** en UV+óptico — equivalente a convertir una masa solar entera en radiación. En ZTF g (filtro más azul) la amplitud alcanza **151×** pico→mínimo; el eco infrarrojo de WISE es apenas **1,9×**. Seis años después, todavía se está apagando.
-
-[Ver notebook](papers/2026-01-17-destello-agujero-negro-extremo/notebook) · [Leer más](papers/2026-01-17-destello-agujero-negro-extremo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-destello-agujero-negro-extremo/notebook.ipynb)
-
----
-
-### La brújula del cerebro en murciélagos
-
-**Neurociencia** · Science · Palgi et al. (2025) registraron **97 neuronas brújula** en el presubículo de murciélagos volando libres sobre la selva de Zanzíbar — sin jaula, sin pistas controladas. La dirección preferida de esas neuronas drifteaba **1,72°/s la primera noche** y solo **0,20°/s la sexta**: una estabilización 8,4× con la experiencia (Spearman ρ = −0,60, p < 1e-8). Los datos sugieren que la brújula funciona igual con o sin luna.
-
-[Ver notebook](papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook) · [Leer más](papers/2025-10-16-brujula-cerebral-murcielagos-isla/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook.ipynb)
-
----
-
-### 64 canales de ARN en una sola imagen
-
-**Biología** · Nature Biotechnology · Los microscopios de fluorescencia solo distinguen 4 colores, pero PRISM logra imagen espacial de **64 ARNs en una sola ronda** codificando cada uno con una combinación de 4 canales e intensidad. El equipo elige 64 codewords de un espacio de **1.296** posibles (4,9%) con separación mínima de **√2 ≈ 1,414** — la distancia que un píxel ruidoso no puede cruzar.
-
-[Ver notebook](papers/2025-10-30-prism-64-barcodes/notebook) · [Leer más](papers/2025-10-30-prism-64-barcodes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-prism-64-barcodes/notebook.ipynb)
-
----
-
-### Reparar una mitocondria enferma — célula por célula
-
-**Medicina** · Nature · Un equipo desarrolló **MitoCatch**, un sistema que dirige mitocondrias sanas solo a las células enfermas. Lo probaron en 127 neuronas derivadas de un paciente con ceguera hereditaria (LHON). En las tratadas, la mediana de ADN mitocondrial sano saltó de 0% a **43,5%** (IQR 25,9 – 65,6). Sin los *binders*, la captación es literalmente cero (n=19).
-
-[Ver notebook](papers/2026-04-15-transplante-mitocondrial-dirigido/notebook) · [Leer más](papers/2026-04-15-transplante-mitocondrial-dirigido/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-transplante-mitocondrial-dirigido/notebook.ipynb)
-
----
-
-### Una cámara grabó un terremoto desde la falla
-
-**Geología** · Science · Una cámara CCTV a metros de la falla de Sagaing grabó la ruptura superficial durante el terremoto Mw 7,7 de Mandalay (Myanmar, 28 de marzo de 2025). Del video extrajeron la primera medición directa de la velocidad de deslizamiento: un pulso de 1,4 s, velocidad pico de 3,5 m/s y ~3 m de desplazamiento acumulado. Dos modelos con distinta velocidad de ruptura ajustan los datos igual de bien, pero implican un stress drop 5× diferente.
-
-[Ver notebook](papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook) · [Leer más](papers/2025-10-30-terremoto-cctv-falla-myanmar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook.ipynb)
-
----
-
 ### LEDs de superretículas de quantum dots pixeladas
 
-**Tecnología** · Nature · Quantum dots de perovskita (CsPbBr₃) organizados en superretículas hexagonales: 30,9% EQE, 117.144 cd/m², 5.080 PPI. Vida media extrapolada de 12.411 horas (~1,4 años), 1.460× más que el mejor LED pixelado de perovskita anterior. La clave: un ligando (BHOA+F) que permite transporte de banda con movilidad 17× mayor a temperatura ambiente.
+**Tecnología** · *Nature* · Quantum dots de perovskita (CsPbBr₃) organizados en superretículas hexagonales: 30,9% EQE, 117.144 cd/m², 5.080 PPI. Vida media extrapolada de 12.411 horas (~1,4 años), 1.460× más que el mejor LED pixelado de perovskita anterior. La clave: un ligando (BHOA+F) que permite transporte de banda con movilidad 17× mayor a temperatura ambiente.
 
 [Ver notebook](papers/2026-04-17-pixelated-quantum-dot-superlattice-leds/notebook) · [Leer más](papers/2026-04-17-pixelated-quantum-dot-superlattice-leds/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-17-pixelated-quantum-dot-superlattice-leds/notebook.ipynb)
 
 ---
 
-
 ### Jet de Cygnus X-1 doblado por viento estelar
 
-**Astronomía** · Nature Astronomy · Miller-Jones et al. (2026), 18 años de observaciones VLBI revelan que el viento estelar dobla el jet de Cygnus X-1. Mediante inferencia bayesiana, miden por primera vez la potencia cinética instantánea del jet: log₁₀(L_jet) = 37,28 erg/s — comparable a la luminosidad en rayos X. El jet viaja a ~68% de la velocidad de la luz con un desalineamiento de ~5° respecto al eje orbital.
+**Astronomía** · *Nature Astronomy* · Miller-Jones et al. (2026), 18 años de observaciones VLBI revelan que el viento estelar dobla el jet de Cygnus X-1. Mediante inferencia bayesiana, miden por primera vez la potencia cinética instantánea del jet: log₁₀(L_jet) = 37,28 erg/s — comparable a la luminosidad en rayos X. El jet viaja a ~68% de la velocidad de la luz con un desalineamiento de ~5° respecto al eje orbital.
 
 [Ver notebook](papers/2026-04-17-jet-cygnus-x1-viento-estelar/notebook) · [Leer más](papers/2026-04-17-jet-cygnus-x1-viento-estelar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-17-jet-cygnus-x1-viento-estelar/notebook.ipynb)
 
 ---
 
-### Músculos artificiales con ultrasonido: 714× de salto en escala
-
-**Tecnología** · Nature · Shi et al. (2025), más de 10.000 microburbujas programables forman músculos artificiales controlados por ultrasonido. Benchmark de 74 actuadores en 3 dimensiones (agarre, fuerza, natación). El stingraybot acústico de 50 mm es 714 veces más grande que la mediana de nadadores acústicos previos.
-
-[Ver notebook](papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/notebook) · [Leer más](papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/notebook.ipynb)
-
----
-
 ### 🧬 ADN antiguo revela selección direccional masiva en Eurasia
 
-**Biología** · Nature · Reich et al. (2026), 15.836 genomas antiguos de Eurasia occidental (10.016 nuevos). 77 señales poligénicas Bonferroni-significativas entre 696 rasgos. La pigmentación domina (γ = −1,80, p = 5,7 × 10⁻⁷⁴). Disminución en grasa corporal (16 medidas) y esquizofrenia. Aumento en inteligencia fluida — con el caveat de que estos rasgos se midieron en sociedades industrializadas actuales.
+**Biología** · *Nature* · Reich et al. (2026), 15.836 genomas antiguos de Eurasia occidental (10.016 nuevos). 77 señales poligénicas Bonferroni-significativas entre 696 rasgos. La pigmentación domina (γ = −1,80, p = 5,7 × 10⁻⁷⁴). Disminución en grasa corporal (16 medidas) y esquizofrenia. Aumento en inteligencia fluida — con el caveat de que estos rasgos se midieron en sociedades industrializadas actuales.
 
 [Ver notebook](papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/notebook) · [Leer más](papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/notebook.ipynb)
 
 ---
 
+### Músculos artificiales con ultrasonido: 714× de salto en escala
+
+**Tecnología** · *Nature* · Shi et al. (2025), más de 10.000 microburbujas programables forman músculos artificiales controlados por ultrasonido. Benchmark de 74 actuadores en 3 dimensiones (agarre, fuerza, natación). El stingraybot acústico de 50 mm es 714 veces más grande que la mediana de nadadores acústicos previos.
+
+[Ver notebook](papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/notebook) · [Leer más](papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-musculos-artificiales-ultrasonido-microburbujas/notebook.ipynb)
+
+---
+
+### Reparar una mitocondria enferma — célula por célula
+
+**Medicina** · *Nature* · Un equipo desarrolló **MitoCatch**, un sistema que dirige mitocondrias sanas solo a las células enfermas. Lo probaron en 127 neuronas derivadas de un paciente con ceguera hereditaria (LHON). En las tratadas, la mediana de ADN mitocondrial sano saltó de 0% a **43,5%** (IQR 25,9 – 65,6). Sin los *binders*, la captación es literalmente cero (n=19).
+
+[Ver notebook](papers/2026-04-15-transplante-mitocondrial-dirigido/notebook) · [Leer más](papers/2026-04-15-transplante-mitocondrial-dirigido/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-transplante-mitocondrial-dirigido/notebook.ipynb)
+
+---
+
 ### 🌊 ¿Tuvo Marte un océano? La firma que dejó en el suelo
 
-**Geología** · Nature · Benjamin et al. (2026), análisis topográfico de 408.690 puntos de elevación en Marte. Las shorelines propuestas varían hasta 6,7 km — demasiado para ser playas reales. La verdadera firma de un océano es una zona plana circunglobal entre −3.800 m y −1.800 m: una plataforma costera 5× más ancha que la terrestre. El 77% de los deltas convergen ahí.
+**Geología** · *Nature* · Benjamin et al. (2026), análisis topográfico de 408.690 puntos de elevación en Marte. Las shorelines propuestas varían hasta 6,7 km — demasiado para ser playas reales. La verdadera firma de un océano es una zona plana circunglobal entre −3.800 m y −1.800 m: una plataforma costera 5× más ancha que la terrestre. El 77% de los deltas convergen ahí.
 
 [Ver notebook](papers/2026-04-15-firma-topografica-oceanos-marte/notebook) · [Leer más](papers/2026-04-15-firma-topografica-oceanos-marte/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-firma-topografica-oceanos-marte/notebook.ipynb)
 
 ---
 
+### 🧠 Tu cerebro reutiliza el mismo código para ver e imaginar
+
+**Neurociencia** · *Science* · 367 neuronas individuales grabadas en la corteza temporal ventral (VTC) de 16 pacientes epilépticos. Al imaginar un objeto sin verlo, el 74% de las neuronas reactivan el mismo código que usaron al percibirlo (ρ = 0,56 a nivel de población, n = 338). Evidencia directa de un modelo generativo en el cerebro humano.
+
+[Ver notebook](papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook) · [Leer más](papers/2026-04-15-codigo-neural-percepcion-imaginacion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook.ipynb)
+
+---
+
 ### 🪐 Planetas húmedos sin migrar desde lejos
 
-**Astronomía** · Nature · Luo et al. (2025), experimentos de alta presión (8–42 GPa, 2.725–3.924 K) que simulan el interior de sub-Neptunos. Al comprimir una mezcla primordial (~5% H₂ + ~76% silicato + ~19% Fe), el hidrógeno reduce el silicato y produce 18,1 ± 0,5 wt% de H₂O — ~1.800× más que las predicciones previas (0,01 wt%). Una aleación Fe₀,₇₃Si₀,₂₇ confirma la reducción. Un sub-Neptuno de 5 M⊕ con 5% de envolvente podría generar 2–4 wt% H₂O sin migrar desde órbitas lejanas.
+**Astronomía** · *Nature* · Luo et al. (2025), experimentos de alta presión (8–42 GPa, 2.725–3.924 K) que simulan el interior de sub-Neptunos. Al comprimir una mezcla primordial (~5% H₂ + ~76% silicato + ~19% Fe), el hidrógeno reduce el silicato y produce 18,1 ± 0,5 wt% de H₂O — ~1.800× más que las predicciones previas (0,01 wt%). Una aleación Fe₀,₇₃Si₀,₂₇ confirma la reducción. Un sub-Neptuno de 5 M⊕ con 5% de envolvente podría generar 2–4 wt% H₂O sin migrar desde órbitas lejanas.
 
 [Ver notebook](papers/2026-04-15-agua-sub-neptunos-reaccion-magma/notebook) · [Leer más](papers/2026-04-15-agua-sub-neptunos-reaccion-magma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-agua-sub-neptunos-reaccion-magma/notebook.ipynb)
 
@@ -1421,23 +1456,15 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ### 🌍 ¿De qué está hecha la Tierra? De nada que conozcamos
 
-**Astronomía** · Nature Astronomy · Render et al. (2026), 10 anomalías isotópicas nucleosintéticas en 17 cuerpos del Sistema Solar. La Tierra es el endmember del array no-carbonáceo: z₀ = −2,37, más extremo que cualquier meteorito conocido. 0% de material del Sistema Solar exterior. Mercurio y Venus serían aún más extremos.
+**Astronomía** · *Nature Astronomy* · Render et al. (2026), 10 anomalías isotópicas nucleosintéticas en 17 cuerpos del Sistema Solar. La Tierra es el endmember del array no-carbonáceo: z₀ = −2,37, más extremo que cualquier meteorito conocido. 0% de material del Sistema Solar exterior. Mercurio y Venus serían aún más extremos.
 
 [Ver notebook](papers/2026-04-15-acrecion-homogenea-tierra-sistema-solar/notebook) · [Leer más](papers/2026-04-15-acrecion-homogenea-tierra-sistema-solar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-acrecion-homogenea-tierra-sistema-solar/notebook.ipynb)
 
 ---
 
-### 🧠 Tu cerebro reutiliza el mismo código para ver e imaginar
-
-**Neurociencia** · Science (2026) · 367 neuronas individuales grabadas en la corteza temporal ventral (VTC) de 16 pacientes epilépticos. Al imaginar un objeto sin verlo, el 74% de las neuronas reactivan el mismo código que usaron al percibirlo (ρ = 0,56 a nivel de población, n = 338). Evidencia directa de un modelo generativo en el cerebro humano.
-
-[Ver notebook](papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook) · [Leer más](papers/2026-04-15-codigo-neural-percepcion-imaginacion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook.ipynb)
-
----
-
 ### ⚗️ Membranas selectivas de litio: 60 veces más que la competencia
 
-**Química** · Nature Water · Chen et al. (2026), membrana ISGC (polímero + ZIF-8 30%) logra selectividad K⁺/Li⁺ = 410,1 en salmueras multi-iónicas — 60× la mediana de los 10 competidores comparados. Poro óptimo a 2,686 Å (entre Li⁺ hidratado y K⁺ hidratado). Consumo energético: 1,02 kWh/kg, el menor entre 6 métodos de extracción. CAPEX total: 2.528 USD.
+**Química** · *Nature Water* · Chen et al. (2026), membrana ISGC (polímero + ZIF-8 30%) logra selectividad K⁺/Li⁺ = 410,1 en salmueras multi-iónicas — 60× la mediana de los 10 competidores comparados. Poro óptimo a 2,686 Å (entre Li⁺ hidratado y K⁺ hidratado). Consumo energético: 1,02 kWh/kg, el menor entre 6 métodos de extracción. CAPEX total: 2.528 USD.
 
 [Ver notebook](papers/2026-04-14-membranas-selectivas-litio/notebook) · [Leer más](papers/2026-04-14-membranas-selectivas-litio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-14-membranas-selectivas-litio/notebook.ipynb)
 
@@ -1445,55 +1472,47 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ### ☀️ Celdas solares de perovskita: cuando la IA fabrica mejor que el humano
 
-**Tecnología** · Nature (2026) · 756 celdas solares fabricadas por una plataforma autónoma de IA (optimización bayesiana + ML) vs. 36 controles manuales. Las 20 condiciones automatizadas superan al control: +2,9 pp de eficiencia (22,4% → 25,3%), Cohen's d = 6,54. La ganancia viene del voltaje (VOC) y el factor de llenado (FF), no de la corriente.
+**Tecnología** · *Nature* · 756 celdas solares fabricadas por una plataforma autónoma de IA (optimización bayesiana + ML) vs. 36 controles manuales. Las 20 condiciones automatizadas superan al control: +2,9 pp de eficiencia (22,4% → 25,3%), Cohen's d = 6,54. La ganancia viene del voltaje (VOC) y el factor de llenado (FF), no de la corriente.
 
 [Ver notebook](papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/notebook) · [Leer más](papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/notebook.ipynb)
 
 ---
 
-### 🐍 8 moléculas contra 17 serpientes letales
+### Un satélite ve temperatura. ¿Puede ver las corrientes del océano?
 
-**Medicina** · Nature · Ahmadi et al. (2025), proteómica de venenos de 16 elapidos africanos (133 entradas de toxinas). Las cobras escupidoras (Afronaja) producen citotoxinas (CTx, 85% de sus 3FTx) que destruyen tejido, mientras mambas y cobras de capa producen neurotoxinas (sNTx, lNTx). Un cocktail de 8 nanobodies de alpaca cubre 7 subfamilias de toxinas, protegiendo contra 17/18 especies en ratones — superando al antiveneno comercial de plasma en modelos preclínicos.
+**Ecología** · *Nature Geoscience* · Lenain et al. (2026) introducen **GOFLOW**, una red neuronal U-Net que recibe tres imágenes térmicas consecutivas de satélite geostacionario (GOES-East, 1 hora de separación) y devuelve el campo de velocidad superficial del océano. Validada contra la simulación de referencia LLC4320 en **41 snapshots del Gulf Stream**, alcanza correlación **r ≈ 0,97** para velocidades (u, v) y preserva la asimetría positiva de la vorticidad — el hallmark del régimen submesoscale. La divergencia, en cambio, es la variable más difícil: los autores lo admiten ("somewhat less accurately reproduced") y aquí se ve explícito en los datos.
 
-[Ver notebook](papers/2026-01-17-nanobodies-antivenom-serpientes/notebook) · [Leer más](papers/2026-01-17-nanobodies-antivenom-serpientes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-nanobodies-antivenom-serpientes/notebook.ipynb)
+[Ver notebook](papers/2026-04-13-goflow-corrientes-submesoscale/notebook) · [Leer más](papers/2026-04-13-goflow-corrientes-submesoscale/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-13-goflow-corrientes-submesoscale/notebook.ipynb)
 
 ---
 
 ### 🧬 ¿Por qué un ajolote regenera su pata y tú no?
 
-**Biología** · Science · Tsissios et al. (2026), scRNA-seq de 21.000+ células de 5 especies. Las especies regenerativas (Xenopus, ajolote) expresan hasta 29× menos los sensores de oxígeno (VHL, EGLN1, HIF1AN), dejando activo a HIF1A — el factor que enciende la regeneración. Factores AER remodelan la composición celular del ratón en ±18 puntos porcentuales.
+**Biología** · *Science* · Tsissios et al. (2026), scRNA-seq de 21.000+ células de 5 especies. Las especies regenerativas (Xenopus, ajolote) expresan hasta 29× menos los sensores de oxígeno (VHL, EGLN1, HIF1AN), dejando activo a HIF1A — el factor que enciende la regeneración. Factores AER remodelan la composición celular del ratón en ±18 puntos porcentuales.
 
 [Ver notebook](papers/2026-04-12-oxigeno-regeneracion-extremidades-vertebrados/notebook) · [Leer más](papers/2026-04-12-oxigeno-regeneracion-extremidades-vertebrados/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-12-oxigeno-regeneracion-extremidades-vertebrados/notebook.ipynb)
 
 ---
 
-### 🐒 Conflicto letal tras la fisión de chimpancés salvajes
-
-**Biología** · Science · Sandel et al. (2026), 30 años de datos del grupo de chimpancés más grande conocido (~200 individuos) en Ngogo, Uganda. La conectividad social cayó 67,7% (de 35,8 a 11,5 conexiones/individuo) tras la fisión de 2015-2018. Los machos Western lanzaron 24 ataques letales contra el grupo Central: ≥7 machos adultos y 17 crías muertos (2018-2024).
-
-[Ver notebook](papers/2026-04-10-conflicto-letal-chimpances-fision/notebook) · [Leer más](papers/2026-04-10-conflicto-letal-chimpances-fision/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-10-conflicto-letal-chimpances-fision/notebook.ipynb)
-
----
-
-### ⛰️ Fantasmas de 241 millones de años revelan un secreto
-
-**Geología** · Nature Communications · Slater et al. (2025), fósiles fantasma de cocolitóforos en rocas del Triásico Medio (Suiza y Austria). El récord fósil se extiende ~26 millones de años hacia atrás (de ~215 Ma a ~241 Ma). Más de 100 huellas preservadas en heces de zooplancton fosilizadas. Las muestras con alta materia orgánica amorfa (media 73%) contienen los fantasmas.
-
-[Ver notebook](papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook) · [Leer más](papers/2026-01-17-fantasmas-cocolitoforos-triasico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook.ipynb)
-
----
-
 ### 🦠 Comercio de fauna silvestre y patógenos zoonóticos
 
-**Ecología** · Science · Gippet et al. (2026), 6.456 especies de mamíferos silvestres cruzadas con 40 años de datos de comercio internacional (CITES, LEMIS). Las especies comerciadas tienen 1,5x más probabilidad de compartir patógenos con humanos (ajustado). El comercio ilegal dispara el riesgo: 72,4% de las especies ilegales son zoonóticas vs 30,6% de las solo legales (Cohen's h = 0,86).
+**Ecología** · *Science* · Gippet et al. (2026), 6.456 especies de mamíferos silvestres cruzadas con 40 años de datos de comercio internacional (CITES, LEMIS). Las especies comerciadas tienen 1,5x más probabilidad de compartir patógenos con humanos (ajustado). El comercio ilegal dispara el riesgo: 72,4% de las especies ilegales son zoonóticas vs 30,6% de las solo legales (Cohen's h = 0,86).
 
 [Ver notebook](papers/2026-04-11-comercio-fauna-patogenos-zoonoticos/notebook) · [Leer más](papers/2026-04-11-comercio-fauna-patogenos-zoonoticos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-11-comercio-fauna-patogenos-zoonoticos/notebook.ipynb)
 
 ---
 
+### 🐒 Conflicto letal tras la fisión de chimpancés salvajes
+
+**Biología** · *Science* · Sandel et al. (2026), 30 años de datos del grupo de chimpancés más grande conocido (~200 individuos) en Ngogo, Uganda. La conectividad social cayó 67,7% (de 35,8 a 11,5 conexiones/individuo) tras la fisión de 2015-2018. Los machos Western lanzaron 24 ataques letales contra el grupo Central: ≥7 machos adultos y 17 crías muertos (2018-2024).
+
+[Ver notebook](papers/2026-04-10-conflicto-letal-chimpances-fision/notebook) · [Leer más](papers/2026-04-10-conflicto-letal-chimpances-fision/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-10-conflicto-letal-chimpances-fision/notebook.ipynb)
+
+---
+
 ### 🌳 2,7 millones de árboles: ¿compiten o cooperan?
 
-**Ecología** · Nature · Detto et al. (2026), datos de 17 parcelas ForestGEO (~2,7 millones de árboles, >5.400 especies). La facilitación relativa cae de 46% en el trópico a 7% en Utah (ρ = −0,82, p < 0,001). La competencia domina en 15/17 parcelas. Temperatura del suelo y riqueza de especies son los predictores clave.
+**Ecología** · *Nature* · Detto et al. (2026), datos de 17 parcelas ForestGEO (~2,7 millones de árboles, >5.400 especies). La facilitación relativa cae de 46% en el trópico a 7% en Utah (ρ = −0,82, p < 0,001). La competencia domina en 15/17 parcelas. Temperatura del suelo y riqueza de especies son los predictores clave.
 
 [Ver notebook](papers/2026-04-10-competencia-facilitacion-diversidad-arboles/notebook) · [Leer más](papers/2026-04-10-competencia-facilitacion-diversidad-arboles/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-10-competencia-facilitacion-diversidad-arboles/notebook.ipynb)
 
@@ -1501,7 +1520,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ### 🏔️ El agua que sostiene los ríos de Colorado tiene 15 años
 
-**Geología** · Nature Geoscience · Siirila-Woodburn et al. (2026), modelo hidrogeológico de alta resolución (ParFlow-CLM + EcoSLIM) en la cuenca del East River. Con +4 °C, el pico de nieve cae 21%, la edad media del agua subterránea sube y el sistema empieza a consumir reservas de décadas. 114 años de datos USGS confirman que el caudal ya lleva décadas bajando (p = 0,009).
+**Geología** · *Nature Geoscience* · Siirila-Woodburn et al. (2026), modelo hidrogeológico de alta resolución (ParFlow-CLM + EcoSLIM) en la cuenca del East River. Con +4 °C, el pico de nieve cae 21%, la edad media del agua subterránea sube y el sistema empieza a consumir reservas de décadas. 114 años de datos USGS confirman que el caudal ya lleva décadas bajando (p = 0,009).
 
 [Ver notebook](papers/2026-04-10-agua-subterranea-vieja-colorado/notebook) · [Leer más](papers/2026-04-10-agua-subterranea-vieja-colorado/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-10-agua-subterranea-vieja-colorado/notebook.ipynb)
 
@@ -1509,7 +1528,7 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ### 💊 GLP1: tu ADN decide los efectos secundarios
 
-**Medicina** · Nature · Aschebrook-Kilfoy et al. (2026), GWAS con 27.885 personas en tratamiento con semaglutida o tirzepatida. Una variante en GIPR (rs1800437) triplica el riesgo de vómitos con tirzepatida (CC 11,8% vs GG 3,9%, p = 2,2×10⁻¹⁰) pero no tiene efecto con semaglutida. Un modelo predictivo con genética mejora la predicción de vómitos (ΔAUC = +0,022) pero apenas mueve la eficacia (ΔR² = 0,001).
+**Medicina** · *Nature* · Aschebrook-Kilfoy et al. (2026), GWAS con 27.885 personas en tratamiento con semaglutida o tirzepatida. Una variante en GIPR (rs1800437) triplica el riesgo de vómitos con tirzepatida (CC 11,8% vs GG 3,9%, p = 2,2×10⁻¹⁰) pero no tiene efecto con semaglutida. Un modelo predictivo con genética mejora la predicción de vómitos (ΔAUC = +0,022) pero apenas mueve la eficacia (ΔR² = 0,001).
 
 [Ver notebook](papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/notebook) · [Leer más](papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/notebook.ipynb)
 
@@ -1517,119 +1536,71 @@ Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día
 
 ### Biodiversidad resiliente en un bosque tropical
 
-¿Cuánto tarda un bosque tropical en volver a la vida? 16 grupos taxonómicos en Ecuador — desde bacterias hasta murciélagos. La abundancia recupera >90% en 30 años, pero la composición de especies se queda en ~75%.
+**Ecología** · *Nature* · ¿Cuánto tarda un bosque tropical en volver a la vida? 16 grupos taxonómicos en Ecuador — desde bacterias hasta murciélagos. La abundancia recupera >90% en 30 años, pero la composición de especies se queda en ~75%.
 
-[Notebook](papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook.ipynb) · [README](papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/README.md) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook.ipynb)
-
----
-
-
-### 🏭 Una Industria Causa el 86% de Estos Contaminantes
-
-**Ecología** · Nature Sustainability · Yang et al. (2025), inventario global de emisiones de Cl/BrPAHs usando XGBoost: 5.143 kg en 184 países, la sinterización de mineral de hierro genera el 86,1% del total. Australia lidera con 1.393 kg (27% global, 47 g/persona — 236× la mediana)
-
-[Ver notebook](papers/2026-01-17-industria-86-contaminantes-emergentes/notebook) · [Leer más](papers/2026-01-17-industria-86-contaminantes-emergentes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-industria-86-contaminantes-emergentes/notebook.ipynb)
-
----
-
-### 🤖 ¿Puede una IA Entrenada con Imágenes Inventadas Superar a 9 Radiólogos?
-
-**Tecnología** · Nature Biomedical Engineering · Chen et al. (2026), BUSGen — primer modelo generativo fundacional para ecografía mamaria, pre-entrenado con 3,5 millones de imágenes. A partir de 25K imágenes sintéticas, el modelo supera a los entrenados con datos reales (AUC 0,932 vs 0,925). Evaluado contra 9 radiólogos certificados: +15,9 pp de sensibilidad
-
-[Ver notebook](papers/2026-04-08-busgen-ecografia-mama-ia/notebook) · [Leer más](papers/2026-04-08-busgen-ecografia-mama-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-08-busgen-ecografia-mama-ia/notebook.ipynb)
+[Ver notebook](papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook) · [Leer más](papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook.ipynb)
 
 ---
 
 ### 🌊 Agricultura Circular con Agua de Mar y Sol
 
-**Ecología** · Nature Water · Sun et al. (2026), ensayo de campo de 3 meses en Hainan — desalinización solar + agricultura circular: las sojas crecen +134% vs evaporación natural, +49% más semilla que con ósmosis inversa industrial, el sistema elimina 99,99% del sodio y alimenta a 47 personas por 0,6 ha
+**Ecología** · *Nature Water* · Sun et al. (2026), ensayo de campo de 3 meses en Hainan — desalinización solar + agricultura circular: las sojas crecen +134% vs evaporación natural, +49% más semilla que con ósmosis inversa industrial, el sistema elimina 99,99% del sodio y alimenta a 47 personas por 0,6 ha
 
 [Ver notebook](papers/2026-04-08-desalinizacion-solar-agricultura-circular/notebook) · [Leer más](papers/2026-04-08-desalinizacion-solar-agricultura-circular/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-08-desalinizacion-solar-agricultura-circular/notebook.ipynb)
 
 ---
 
-### 🌿 Los Bosques Tropicales Ahora Liberan Carbono
+### 🤖 ¿Puede una IA Entrenada con Imágenes Inventadas Superar a 9 Radiólogos?
 
-**Ecología** · Nature · Carle et al. (2025), 48 años de censos forestales en 20 parcelas de Queensland, Australia — los bosques pasaron de absorber +0,62 Mg C ha⁻¹ yr⁻¹ a liberar −0,93, impulsados por mortalidad extrema sin evidencia de fertilización por CO₂
+**Tecnología** · *Nature Biomedical Engineering* · Chen et al. (2026), BUSGen — primer modelo generativo fundacional para ecografía mamaria, pre-entrenado con 3,5 millones de imágenes. A partir de 25K imágenes sintéticas, el modelo supera a los entrenados con datos reales (AUC 0,932 vs 0,925). Evaluado contra 9 radiólogos certificados: +15,9 pp de sensibilidad
 
-[Ver notebook](papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook) · [Leer más](papers/2026-01-17-bosques-tropicales-liberan-carbono/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook.ipynb)
-
----
-
-### 🦴 Discontinuidad Genética en la Cuenca de París al Final del Neolítico
-
-**Arqueología** · Nature Ecology & Evolution · Tallman et al. (2026), 132 genomas antiguos de una tumba colectiva cerca de París — dos fases de entierro separadas por ~316 años revelan un recambio poblacional completo: de un grupo diverso a uno casi clonal con más ancestría agrícola, evidencia de *Yersinia pestis* y *Borrelia recurrentis*
-
-[Ver notebook](papers/2026-04-07-discontinuidad-paris-neolitico/notebook) · [Leer más](papers/2026-04-07-discontinuidad-paris-neolitico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-07-discontinuidad-paris-neolitico/notebook.ipynb)
+[Ver notebook](papers/2026-04-08-busgen-ecografia-mama-ia/notebook) · [Leer más](papers/2026-04-08-busgen-ecografia-mama-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-08-busgen-ecografia-mama-ia/notebook.ipynb)
 
 ---
 
 ### ⚡ Renovables Fortalecen a Ecuador Contra la Sequía
 
-**Ecología** · Nature Water · Sterl et al. (2026), 14 años de datos hidrológicos y factores de capacidad renovable — el río Paute cayó 42,4% en 2024 pero solar y eólica habrían seguido generando, revelando una "sinergia de año extremo"
+**Ecología** · *Nature Water* · Sterl et al. (2026), 14 años de datos hidrológicos y factores de capacidad renovable — el río Paute cayó 42,4% en 2024 pero solar y eólica habrían seguido generando, revelando una "sinergia de año extremo"
 
 [Ver notebook](papers/2026-04-07-renovables-fortalecen-ecuador-sequia/notebook) · [Leer más](papers/2026-04-07-renovables-fortalecen-ecuador-sequia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-07-renovables-fortalecen-ecuador-sequia/notebook.ipynb)
 
 ---
 
-### 🧬 9 Billones de Bases de ADN Enseñaron a una IA a Escribir Vida
+### 🦴 Discontinuidad Genética en la Cuenca de París al Final del Neolítico
 
-**Tecnología** · Nature · Nguyen et al. (2026), 705 benchmarks de predicción de variantes genéticas — Evo 2 (40B parámetros) compite con modelos especializados sin entrenamiento específico y lidera en BRCA1 (AUROC 0,901)
+**Arqueología** · *Nature Ecology & Evolution* · Tallman et al. (2026), 132 genomas antiguos de una tumba colectiva cerca de París — dos fases de entierro separadas por ~316 años revelan un recambio poblacional completo: de un grupo diverso a uno casi clonal con más ancestría agrícola, evidencia de *Yersinia pestis* y *Borrelia recurrentis*
 
-[Ver notebook](papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook) · [Leer más](papers/2026-03-09-evo2-ia-adn-escribir-vida/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook.ipynb)
-
----
-
-### 🌊 Las Olas de Calor Cambian 176% la Vida en el Océano
-
-**Ecología** · Nature Ecology & Evolution · Blowes et al. (2026), 702.037 estimaciones de biomasa en 1.566 especies de peces — las olas de calor crean ganadores (+176%) en el borde frío y perdedores (-43,4%) en el borde cálido
-
-[Ver notebook](papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook) · [Leer más](papers/2026-02-27-olas-calor-biomasa-peces-oceano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook.ipynb)
+[Ver notebook](papers/2026-04-07-discontinuidad-paris-neolitico/notebook) · [Leer más](papers/2026-04-07-discontinuidad-paris-neolitico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-07-discontinuidad-paris-neolitico/notebook.ipynb)
 
 ---
 
+### Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo
+
+**Neurociencia** · *Science* · Reineke et al. (2026) muestran que una variante humana del gen **PPP1R15B (R658C)** mantiene encendida una respuesta de estrés celular llamada **ISR** — y eso solo basta para deteriorar la memoria. La proteína viral **DP71L** la apaga y revierte los déficits cognitivos en ratones con Down, Alzheimer y envejecimiento. Este notebook usa el dataset público **GSE310398** para verificar la firma molecular: **ATF4 sube su eficiencia traduccional 53% en el cerebro mutante** (p ≈ 0,005, Cohen's d ≈ 5), **CHOP +41%**, y solo **1,6% de los 10.908 genes expresados** cambian — el ISR es un escalpelo molecular, no un mazo.
+
+[Ver notebook](papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook) · [Leer más](papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook.ipynb)
+
+---
 
 ### 🌊 La circulación oceánica más débil en 1.300 años
 
-**Geología** · Nature Geoscience · Thresher et al. (2026), corales bambú del Pacífico suroeste revelan que la circulación del Océano Sur y del Atlántico Norte están en mínimos del último milenio — y el Sur se mueve primero, con 20-50 años de ventaja
+**Geología** · *Nature Geoscience* · Thresher et al. (2026), corales bambú del Pacífico suroeste revelan que la circulación del Océano Sur y del Atlántico Norte están en mínimos del último milenio — y el Sur se mueve primero, con 20-50 años de ventaja
 
 [Ver notebook](papers/2026-04-06-circulacion-atlantico-oceano-sur/notebook) · [Leer más](papers/2026-04-06-circulacion-atlantico-oceano-sur/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-06-circulacion-atlantico-oceano-sur/notebook.ipynb)
 
 ---
 
-### ⭐ Una estrella casi prístina de la Nube de Magallanes
-
-**Astronomía** · Nature Astronomy · Ezzeddine et al. (2026), J0715−7334 tiene 20.000× menos hierro que el Sol — la única estrella ultra metal-poor que NO tiene exceso de carbono, huella de una supernova primordial de 30 M☉
-
-[Ver notebook](papers/2026-04-04-estrella-pristina-nube-magallanes/notebook) · [Leer más](papers/2026-04-04-estrella-pristina-nube-magallanes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-04-estrella-pristina-nube-magallanes/notebook.ipynb)
-
----
-
-### TRAPPIST-1 b y c: rocas desnudas a 40 años-luz
-
-El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1. Resultado: rocas desnudas sin atmósfera. 490 K de día, cero de noche.
-
-[Notebook](papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook.ipynb) · [README](papers/2026-04-03-trappist-1-sin-atmosfera-jwst/README.md) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook.ipynb)
-
 ### 📊 ¿Se puede confiar en un solo análisis?
 
-**Tecnología** · Nature · Kovács et al. (2025), 504 reanálisis de 100 estudios sociales, solo 34% coinciden en tamaño del efecto (±0,05 d), 74% llegan a la misma conclusión
+**Tecnología** · *Nature* · Kovács et al. (2025), 504 reanálisis de 100 estudios sociales, solo 34% coinciden en tamaño del efecto (±0,05 d), 74% llegan a la misma conclusión
 
 [Ver notebook](papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook) · [Leer más](papers/2026-04-05-robustez-analitica-ciencias-sociales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook.ipynb)
 
 ---
 
-### ✈️ Las estelas de los aviones limpios siguen calentando el planeta
-
-**Ecología** · Nature · Voigt et al. (2026), motores lean-burn con bajo hollín forman estelas masivas, datos de mediciones in-flight y modelo ACM (Zenodo)
-
-[Ver notebook](papers/2026-04-04-estelas-aviones-hollin-bajo/notebook) · [Leer más](papers/2026-04-04-estelas-aviones-hollin-bajo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-04-estelas-aviones-hollin-bajo/notebook.ipynb)
-
----
-
 ### 🔬 ¿Se puede replicar la ciencia social?
 
-**Tecnología** · Nature · Protzko et al. (2025), 274 claims de 164 papers replicados, 55,1% se replica, efecto mediano se reduce a la mitad
+**Tecnología** · *Nature* · Protzko et al. (2025), 274 claims de 164 papers replicados, 55,1% se replica, efecto mediano se reduce a la mitad
 
 [Ver notebook](papers/2026-04-05-replicabilidad-ciencias-sociales/notebook) · [Leer más](papers/2026-04-05-replicabilidad-ciencias-sociales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-05-replicabilidad-ciencias-sociales/notebook.ipynb)
 
@@ -1637,7 +1608,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🔬 ¿Se puede confiar en la ciencia social?
 
-**Tecnología** · Nature · 600 papers de 62 revistas (2009–2018), 573 claims evaluados, 55,5% precisamente reproducible, solo 19,6% comparte datos
+**Tecnología** · *Nature* · 600 papers de 62 revistas (2009–2018), 573 claims evaluados, 55,5% precisamente reproducible, solo 19,6% comparte datos
 
 [Ver notebook](papers/2026-04-04-reproducibilidad-ciencias-sociales/notebook) · [Leer más](papers/2026-04-04-reproducibilidad-ciencias-sociales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-04-reproducibilidad-ciencias-sociales/notebook.ipynb)
 
@@ -1645,16 +1616,39 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🤖 La IA aduladora reduce la intención prosocial
 
-**Tecnología** · Science · 1.604 participantes, diseño experimental, IA aduladora vs directa, repair d = 0,92, convicción d = 1,26
+**Tecnología** · *Science* · 1.604 participantes, diseño experimental, IA aduladora vs directa, repair d = 0,92, convicción d = 1,26
 
 [Ver notebook](papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/notebook) · [Leer más](papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/notebook.ipynb)
 
 ---
 
+### ⭐ Una estrella casi prístina de la Nube de Magallanes
+
+**Astronomía** · *Nature Astronomy* · Ezzeddine et al. (2026), J0715−7334 tiene 20.000× menos hierro que el Sol — la única estrella ultra metal-poor que NO tiene exceso de carbono, huella de una supernova primordial de 30 M☉
+
+[Ver notebook](papers/2026-04-04-estrella-pristina-nube-magallanes/notebook) · [Leer más](papers/2026-04-04-estrella-pristina-nube-magallanes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-04-estrella-pristina-nube-magallanes/notebook.ipynb)
+
+---
+
+### ✈️ Las estelas de los aviones limpios siguen calentando el planeta
+
+**Ecología** · *Nature* · Voigt et al. (2026), motores lean-burn con bajo hollín forman estelas masivas, datos de mediciones in-flight y modelo ACM (Zenodo)
+
+[Ver notebook](papers/2026-04-04-estelas-aviones-hollin-bajo/notebook) · [Leer más](papers/2026-04-04-estelas-aviones-hollin-bajo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-04-estelas-aviones-hollin-bajo/notebook.ipynb)
+
+---
+
+### TRAPPIST-1 b y c: rocas desnudas a 40 años-luz
+
+**Astronomía** · *Nature Astronomy* · El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1. Resultado: rocas desnudas sin atmósfera. 490 K de día, cero de noche.
+
+[Ver notebook](papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook) · [Leer más](papers/2026-04-03-trappist-1-sin-atmosfera-jwst/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook.ipynb)
+
+---
 
 ### 🌧️ Nadie sabe cuánto llueve en casi todo el planeta
 
-**Ecología** · Nature · 221.483 pluviómetros, 15.386 tiles globales, 68,7% sin cobertura, solo 13,4% cumple WMO
+**Ecología** · *Nature* · 221.483 pluviómetros, 15.386 tiles globales, 68,7% sin cobertura, solo 13,4% cumple WMO
 
 [Ver notebook](papers/2026-04-02-lluvia-pluviometros-planeta/notebook) · [Leer más](papers/2026-04-02-lluvia-pluviometros-planeta/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-02-lluvia-pluviometros-planeta/notebook.ipynb)
 
@@ -1662,15 +1656,23 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🤖 ¿Puede una IA revisar papers como un humano?
 
-**Tecnología** · Nature · 500 papers ICLR 2024, Claude-3.5-Sonnet vs GPT-4o vs revisores humanos, confusion matrix, Spearman ρ = 0,323
+**Tecnología** · *Nature* · 500 papers ICLR 2024, Claude-3.5-Sonnet vs GPT-4o vs revisores humanos, confusion matrix, Spearman ρ = 0,323
 
 [Ver notebook](papers/2026-04-02-ia-scientist-paper-autonomo/notebook) · [Leer más](papers/2026-04-02-ia-scientist-paper-autonomo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-02-ia-scientist-paper-autonomo/notebook.ipynb)
 
 ---
 
+### Las plantas absorben menos CO₂ desde 2001 — y son las tierras secas las culpables
+
+**Ecología** · *Nature Geoscience* · Li et al. (2026) cruzan **40 años de torres FLUXNET con machine learning satelital (1982–2022)** y detectan que la absorción de carbono vegetal del planeta se está frenando, pero el frenado no se reparte por igual: en las regiones húmedas la fotosíntesis sigue subiendo casi al mismo ritmo (slope cae solo **−12,6%**, p=4×10⁻⁷), mientras que en las **tierras secas** el ritmo cayó **−71,7%** (de **+2,73 a +0,77 gC/m²/año**, y el segundo slope ya no es significativo: p=0,21). El sospechoso climático es el **VPD** ("sed del aire"): en esas mismas zonas su tendencia se aceleró **×12** después de 2001 (de +0,35 a +4,31 Pa/año por año). Los **ESMs CMIP6** (los modelos del IPCC) predicen lo contrario de lo observado: **+0,48 vs −1,95** en cambio de tendencia — divergencia de signo, no solo de magnitud. ⚠️ El paper habla de "atribuido principalmente a", **no causalidad** — es estudio observacional, los autores son cuidadosos y el notebook lo respeta.
+
+[Ver notebook](papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook) · [Leer más](papers/2026-04-01-tierras-secas-frenan-co2-vegetal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook.ipynb)
+
+---
+
 ### 🐕 Los mismos perros cruzaron toda Europa
 
-**Biología** · Nature · 148 cánidos antiguos (74 perros, 73 lobos) de 25 países, genomas nucleares y mitocondriales, isótopos estables δ¹³C/δ¹⁵N
+**Biología** · *Nature* · 148 cánidos antiguos (74 perros, 73 lobos) de 25 países, genomas nucleares y mitocondriales, isótopos estables δ¹³C/δ¹⁵N
 
 [Ver notebook](papers/2026-04-01-perros-cruzaron-europa/notebook) · [Leer más](papers/2026-04-01-perros-cruzaron-europa/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-04-01-perros-cruzaron-europa/notebook.ipynb)
 
@@ -1678,47 +1680,39 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🧬 Descubrieron 74 Antibióticos Imposibles de Encontrar
 
-**Tecnología** · Nature Biomedical Engineering · HMD-AMP detecta 100% de AMPs remotos (vs 0% otros métodos), 91 validados experimentalmente, 74 activos, 4 de amplio espectro, MIC 1-4 µg/mL
+**Tecnología** · *Nature Biomedical Engineering* · HMD-AMP detecta 100% de AMPs remotos (vs 0% otros métodos), 91 validados experimentalmente, 74 activos, 4 de amplio espectro, MIC 1-4 µg/mL
 
 [Ver notebook](papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook) · [Leer más](papers/2026-03-31-antibioticos-imposibles-ia-proteinas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook.ipynb)
 
 ---
 
-### 🧠 Hambre después de estudiar
-
-**Neurociencia** · Nature · Memoria en *Drosophila* por tipo de entrenamiento, silenciamiento Gr43a, preferencia por sucrosa post-aprendizaje
-
-[Ver notebook](papers/2026-03-30-hambre-despues-estudiar/notebook) · [Leer más](papers/2026-03-30-hambre-despues-estudiar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-30-hambre-despues-estudiar/notebook.ipynb)
-
----
-
 ### 🧬 Hormona alimenta tumores en niños
 
-**Medicina** · Nature · Respuesta dosis-efecto de testosterona en 6 líneas PFA, comparación de hormonas, control en otros tumores cerebrales
+**Medicina** · *Nature* · Respuesta dosis-efecto de testosterona en 6 líneas PFA, comparación de hormonas, control en otros tumores cerebrales
 
 [Ver notebook](papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook) · [Leer más](papers/2026-03-30-hormona-alimenta-tumores-ninos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook.ipynb)
 
 ---
 
+### 🧠 Hambre después de estudiar
+
+**Neurociencia** · *Nature* · Memoria en *Drosophila* por tipo de entrenamiento, silenciamiento Gr43a, preferencia por sucrosa post-aprendizaje
+
+[Ver notebook](papers/2026-03-30-hambre-despues-estudiar/notebook) · [Leer más](papers/2026-03-30-hambre-despues-estudiar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-30-hambre-despues-estudiar/notebook.ipynb)
+
+---
+
 ### 🧫 Cáncer despierta armas contra tu cerebro
 
-**Medicina** · Nature · Tumores TNBC expresan receptores NMDA del cerebro, anticuerpos anti-tumor causan encefalitis autoinmune — trade-off inmunidad vs neurotoxicidad
+**Medicina** · *Nature* · Tumores TNBC expresan receptores NMDA del cerebro, anticuerpos anti-tumor causan encefalitis autoinmune — trade-off inmunidad vs neurotoxicidad
 
 [Ver notebook](papers/2026-03-29-cancer-despierta-armas-cerebro/notebook) · [Leer más](papers/2026-03-29-cancer-despierta-armas-cerebro/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-29-cancer-despierta-armas-cerebro/notebook.ipynb)
 
 ---
 
-### 🌲 Carbono de los bosques vírgenes de Suecia
-
-**Ecología** · Science · 324 parcelas primarias vs 28,580 secundarias, carbono en vegetación + madera muerta + suelo, análisis pareado por humedad
-
-[Ver notebook](papers/2026-03-28-carbono-bosques-virgenes/notebook) · [Leer más](papers/2026-03-28-carbono-bosques-virgenes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-carbono-bosques-virgenes/notebook.ipynb)
-
----
-
 ### 🧊 Rocas atrapadas en el hielo de Groenlandia
 
-**Geología** · Nature Geoscience · 4,946 ubicaciones de escombros rocosos en el manto de hielo, 11 modelos de extensión durante el último interglacial, radar 3D aerotransportado
+**Geología** · *Nature Geoscience* · 4,946 ubicaciones de escombros rocosos en el manto de hielo, 11 modelos de extensión durante el último interglacial, radar 3D aerotransportado
 
 [Ver notebook](papers/2026-03-28-rocas-hielo-groenlandia/notebook) · [Leer más](papers/2026-03-28-rocas-hielo-groenlandia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-rocas-hielo-groenlandia/notebook.ipynb)
 
@@ -1726,15 +1720,23 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🌊 Océano dispara olas de calor
 
-**Ecología** · Nature Geoscience · 42 años de olas de calor húmedo, mapa global de tendencias, comparación por décadas
+**Ecología** · *Nature Geoscience* · 42 años de olas de calor húmedo, mapa global de tendencias, comparación por décadas
 
 [Ver notebook](papers/2026-03-28-oceano-dispara-olas-de-calor/notebook) · [Leer más](papers/2026-03-28-oceano-dispara-olas-de-calor/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-oceano-dispara-olas-de-calor/notebook.ipynb)
 
 ---
 
+### 🌲 Carbono de los bosques vírgenes de Suecia
+
+**Ecología** · *Science* · 324 parcelas primarias vs 28,580 secundarias, carbono en vegetación + madera muerta + suelo, análisis pareado por humedad
+
+[Ver notebook](papers/2026-03-28-carbono-bosques-virgenes/notebook) · [Leer más](papers/2026-03-28-carbono-bosques-virgenes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-28-carbono-bosques-virgenes/notebook.ipynb)
+
+---
+
 ### 🏛️ Monte Verde: la fecha estaba mal
 
-**Arqueología** · Science · 23 dataciones ¹⁴C + 6 de luminiscencia, tefra volcánica debajo de la capa arqueológica, re-datación del sitio pre-Clovis más icónico de Sudamérica
+**Arqueología** · *Science* · 23 dataciones ¹⁴C + 6 de luminiscencia, tefra volcánica debajo de la capa arqueológica, re-datación del sitio pre-Clovis más icónico de Sudamérica
 
 [Ver notebook](papers/2026-03-27-monte-verde-fecha-mal/notebook) · [Leer más](papers/2026-03-27-monte-verde-fecha-mal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-27-monte-verde-fecha-mal/notebook.ipynb)
 
@@ -1742,7 +1744,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🎵 Música: preferencias compartidas con animales
 
-**Biología** · Science · 48,567 trials, 16 especies, 4196 participantes globales — los humanos coinciden con las preferencias acústicas de ranas, grillos y aves un 54% de las veces
+**Biología** · *Science* · 48,567 trials, 16 especies, 4196 participantes globales — los humanos coinciden con las preferencias acústicas de ranas, grillos y aves un 54% de las veces
 
 [Ver notebook](papers/2026-03-26-musica-preferencias-animales/notebook) · [Leer más](papers/2026-03-26-musica-preferencias-animales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-26-musica-preferencias-animales/notebook.ipynb)
 
@@ -1750,7 +1752,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🏔️ Las cumbres cambian 5 veces más rápido
 
-**Ecología** · Nature · 6,067 parcelas europeas re-visitadas (12-78 años), termofilización 4.8x mayor en cumbres alpinas que bosques, deuda climática acumulada de 0.37°C
+**Ecología** · *Nature* · 6,067 parcelas europeas re-visitadas (12-78 años), termofilización 4.8x mayor en cumbres alpinas que bosques, deuda climática acumulada de 0.37°C
 
 [Ver notebook](papers/2026-03-24-termofilizacion-cumbres-alpinas/notebook) · [Leer más](papers/2026-03-24-termofilizacion-cumbres-alpinas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-24-termofilizacion-cumbres-alpinas/notebook.ipynb)
 
@@ -1758,7 +1760,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🧊 CO₂ estable 3 millones de años
 
-**Geología** · Nature · Hielo antártico de 3 Ma, ciclos glaciales, correlación CO₂-CH₄, histograma de anomalía
+**Geología** · *Nature* · Hielo antártico de 3 Ma, ciclos glaciales, correlación CO₂-CH₄, histograma de anomalía
 
 [Ver notebook](papers/2026-03-23-co2-estable-3-millones-anos/notebook) · [Leer más](papers/2026-03-23-co2-estable-3-millones-anos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-23-co2-estable-3-millones-anos/notebook.ipynb)
 
@@ -1766,71 +1768,71 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🌊 165,000 km de ríos donde el océano manda
 
-**Ecología** · Nature · 41,910 tramos SWORD, satélite SWOT — 49.9% tidal, amplitud mediana 0.78 m, 3 tipos de marea (semidiurna/mixta/diurna)
+**Ecología** · *Nature* · 41,910 tramos SWORD, satélite SWOT — 49.9% tidal, amplitud mediana 0.78 m, 3 tipos de marea (semidiurna/mixta/diurna)
 
 [Ver notebook](papers/2026-03-22-rios-mareas-swot-satelite/notebook) · [Leer más](papers/2026-03-22-rios-mareas-swot-satelite/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-22-rios-mareas-swot-satelite/notebook.ipynb)
 
 ---
 
-### 🧪 248 químicos sintéticos en el océano
-
-**Ecología** · Nature Geoscience · 2,315 muestras de agua de mar, 21 datasets, 248 xenobióticos — ftalatos, protector solar, fármacos y pesticidas desde arrecifes hasta mar abierto
-
-[Ver notebook](papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook) · [Leer más](papers/2026-03-21-oceano-248-quimicos-sinteticos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook.ipynb)
-
----
-
 ### 🌊 El océano profundo y la promesa de emisiones cero
 
-**Ecología** · Nature Geoscience · 14 modelos CMIP6, 300 años de simulación — 12/14 muestran rebound de temperatura post net-zero por calor devuelto del océano profundo
+**Ecología** · *Nature Geoscience* · 14 modelos CMIP6, 300 años de simulación — 12/14 muestran rebound de temperatura post net-zero por calor devuelto del océano profundo
 
 [Ver notebook](papers/2026-03-21-oceano-profundo-emisiones-cero/notebook) · [Leer más](papers/2026-03-21-oceano-profundo-emisiones-cero/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-21-oceano-profundo-emisiones-cero/notebook.ipynb)
 
 ---
 
-### 🧬 Las 5 bases del ADN en un asteroide
+### 🧪 248 químicos sintéticos en el océano
 
-**Astronomía** · Nature Astronomy · A, G, C, T y U detectadas en Ryugu (Hayabusa2) — comparación con Bennu, Orgueil y Murchison, ratios purina/pirimidina distintos por cuerpo
+**Ecología** · *Nature Geoscience* · 2,315 muestras de agua de mar, 21 datasets, 248 xenobióticos — ftalatos, protector solar, fármacos y pesticidas desde arrecifes hasta mar abierto
 
-[Ver notebook](papers/2026-03-20-adn-bases-asteroide-ryugu/notebook) · [Leer más](papers/2026-03-20-adn-bases-asteroide-ryugu/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-20-adn-bases-asteroide-ryugu/notebook.ipynb)
+[Ver notebook](papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook) · [Leer más](papers/2026-03-21-oceano-248-quimicos-sinteticos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook.ipynb)
 
 ---
 
 ### ⌚ Tu reloj ya predice diabetes tipo 2
 
-**Tecnología** · Nature · 1.165 participantes WEAR-ME, wearables + biomarcadores sanguíneos, HOMA-IR, redes neuronales profundas, AUROC 0,80
+**Tecnología** · *Nature* · 1.165 participantes WEAR-ME, wearables + biomarcadores sanguíneos, HOMA-IR, redes neuronales profundas, AUROC 0,80
 
 [Ver notebook](papers/2026-03-20-reloj-predice-diabetes/notebook) · [Leer más](papers/2026-03-20-reloj-predice-diabetes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-20-reloj-predice-diabetes/notebook.ipynb)
 
 ---
 
+### 🧬 Las 5 bases del ADN en un asteroide
+
+**Astronomía** · *Nature Astronomy* · A, G, C, T y U detectadas en Ryugu (Hayabusa2) — comparación con Bennu, Orgueil y Murchison, ratios purina/pirimidina distintos por cuerpo
+
+[Ver notebook](papers/2026-03-20-adn-bases-asteroide-ryugu/notebook) · [Leer más](papers/2026-03-20-adn-bases-asteroide-ryugu/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-20-adn-bases-asteroide-ryugu/notebook.ipynb)
+
+---
+
 ### ⭐ Estrellas naciendo fuera de la Vía Láctea
 
-**Astronomía** · Nature Astronomy · 32 estrellas en 2 cúmulos abiertos (Emei-1 y Emei-2) dentro del Complejo H, Gaia DR3, isócronas PARSEC 11,2 Myr, metalicidad 0,05 Z⊙, distancia 13,8 kpc
+**Astronomía** · *Nature Astronomy* · 32 estrellas en 2 cúmulos abiertos (Emei-1 y Emei-2) dentro del Complejo H, Gaia DR3, isócronas PARSEC 11,2 Myr, metalicidad 0,05 Z⊙, distancia 13,8 kpc
 
 [Ver notebook](papers/2026-03-19-estrellas-fuera-via-lactea/notebook) · [Leer más](papers/2026-03-19-estrellas-fuera-via-lactea/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-19-estrellas-fuera-via-lactea/notebook.ipynb)
 
 ---
 
-### 🌡️ Ola de calor vs 32 especies
-
-**Ecología** · Nature Ecology & Evolution · Meta-análisis de 25 especies, ola de calor 2021 Norteamérica, tamaños de efecto (log response ratio), incendios MODIS 2000-2021
-
-[Ver notebook](papers/2026-03-17-ola-calor-32-especies/notebook) · [Leer más](papers/2026-03-17-ola-calor-32-especies/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-17-ola-calor-32-especies/notebook.ipynb)
-
----
-
 ### 🧪 Los "forever chemicals" fabrican baterías
 
-**Química** · Nature Water · 10 tipos de PFAS degradados >99,8%, fluorinación electrotérmica, recuperación de litio ~82% yield, ΔG de 5 cloruros metálicos, solubilidad 275× LiF vs NaCl
+**Química** · *Nature Water* · 10 tipos de PFAS degradados >99,8%, fluorinación electrotérmica, recuperación de litio ~82% yield, ΔG de 5 cloruros metálicos, solubilidad 275× LiF vs NaCl
 
 [Ver notebook](papers/2026-03-17-pfas-fabrican-baterias-litio/notebook) · [Leer más](papers/2026-03-17-pfas-fabrican-baterias-litio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-17-pfas-fabrican-baterias-litio/notebook.ipynb)
 
 ---
 
+### 🌡️ Ola de calor vs 32 especies
+
+**Ecología** · *Nature Ecology & Evolution* · Meta-análisis de 25 especies, ola de calor 2021 Norteamérica, tamaños de efecto (log response ratio), incendios MODIS 2000-2021
+
+[Ver notebook](papers/2026-03-17-ola-calor-32-especies/notebook) · [Leer más](papers/2026-03-17-ola-calor-32-especies/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-17-ola-calor-32-especies/notebook.ipynb)
+
+---
+
 ### 🐠 2.795 arrecifes: ¿sirve protegerlos?
 
-**Ecología** · Nature Ecology & Evolution · 2.795 arrecifes tropicales, 22 contribuciones de peces, modelo bayesiano contrafactual, MPAs compensan ~5% de degradación, Cohen's d = 0,33 (protección total vs sin)
+**Ecología** · *Nature Ecology & Evolution* · 2.795 arrecifes tropicales, 22 contribuciones de peces, modelo bayesiano contrafactual, MPAs compensan ~5% de degradación, Cohen's d = 0,33 (protección total vs sin)
 
 [Ver notebook](papers/2026-03-16-arrecifes-mpa-solo-5-porciento/notebook) · [Leer más](papers/2026-03-16-arrecifes-mpa-solo-5-porciento/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-16-arrecifes-mpa-solo-5-porciento/notebook.ipynb)
 
@@ -1838,7 +1840,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🐟 Descubrieron un Pez Imposible de 436 Millones de Años
 
-**Biología** · Nature · 163 taxa × 709 caracteres morfológicos, matriz filogenética NEXUS, Eosteus 30,5% completitud, similitud 90,6% con actinopterigios
+**Biología** · *Nature* · 163 taxa × 709 caracteres morfológicos, matriz filogenética NEXUS, Eosteus 30,5% completitud, similitud 90,6% con actinopterigios
 
 [Ver notebook](papers/2026-03-13-pez-imposible-436-millones-anos/notebook) · [Leer más](papers/2026-03-13-pez-imposible-436-millones-anos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-13-pez-imposible-436-millones-anos/notebook.ipynb)
 
@@ -1846,7 +1848,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🛰️ 126.674 ríos: SWOT mide el agua del mundo
 
-**Ecología** · Nature · 126.674 tramos fluviales medidos por SWOT, ΔRSA global 313,1 ± 129,5 km³, 28% menos que modelos, Amazon 55% de variabilidad, Nilo −91% vs predicho
+**Ecología** · *Nature* · 126.674 tramos fluviales medidos por SWOT, ΔRSA global 313,1 ± 129,5 km³, 28% menos que modelos, Amazon 55% de variabilidad, Nilo −91% vs predicho
 
 [Ver notebook](papers/2026-03-12-rios-swot-126mil-volumen/notebook) · [Leer más](papers/2026-03-12-rios-swot-126mil-volumen/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-12-rios-swot-126mil-volumen/notebook.ipynb)
 
@@ -1854,7 +1856,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🌫️ En 1 minuto esta IA destruye décadas de pronósticos del aire
 
-**Tecnología** · Nature · AI-GAMFS vs CAMS y GEOS-FP, 289 estaciones AERONET, 42 años MERRA-2, Vision Transformer + U-Net, AOD r = 0,978
+**Tecnología** · *Nature* · AI-GAMFS vs CAMS y GEOS-FP, 289 estaciones AERONET, 42 años MERRA-2, Vision Transformer + U-Net, AOD r = 0,978
 
 [Ver notebook](papers/2026-03-12-ia-pronostico-aerosoles/notebook) · [Leer más](papers/2026-03-12-ia-pronostico-aerosoles/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-12-ia-pronostico-aerosoles/notebook.ipynb)
 
@@ -1862,7 +1864,7 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 🌊 Nadie midió bien el nivel del mar y 132 millones lo pagarán
 
-**Ecología** · Nature · 386 evaluaciones de riesgo costero, offset MDT vs geoide EGM96/EGM2008, 4 DEMs, 77–132M personas bajo nivel del mar con +1 m de subida
+**Ecología** · *Nature* · 386 evaluaciones de riesgo costero, offset MDT vs geoide EGM96/EGM2008, 4 DEMs, 77–132M personas bajo nivel del mar con +1 m de subida
 
 [Ver notebook](papers/2026-03-11-nivel-mar-132-millones/notebook) · [Leer más](papers/2026-03-11-nivel-mar-132-millones/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-11-nivel-mar-132-millones/notebook.ipynb)
 
@@ -1870,11 +1872,169 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 
 ### 💎 Crearon el diamante imposible que solo existía en meteoritos
 
-**Física** · Nature · Diamante hexagonal (lonsdaleíta) puro a escala milimétrica, dureza Vickers 280 GPa, XRD con 9 picos hexagonales, TGA estabilidad térmica
+**Física** · *Nature* · Diamante hexagonal (lonsdaleíta) puro a escala milimétrica, dureza Vickers 280 GPa, XRD con 9 picos hexagonales, TGA estabilidad térmica
 
 [Ver notebook](papers/2026-03-11-diamante-hexagonal-meteoritos/notebook) · [Leer más](papers/2026-03-11-diamante-hexagonal-meteoritos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-11-diamante-hexagonal-meteoritos/notebook.ipynb)
 
 ---
+
+### 🧬 9 Billones de Bases de ADN Enseñaron a una IA a Escribir Vida
+
+**Tecnología** · *Nature* · Nguyen et al. (2026), 705 benchmarks de predicción de variantes genéticas — Evo 2 (40B parámetros) compite con modelos especializados sin entrenamiento específico y lidera en BRCA1 (AUROC 0,901)
+
+[Ver notebook](papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook) · [Leer más](papers/2026-03-09-evo2-ia-adn-escribir-vida/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook.ipynb)
+
+---
+
+### 🌊 Las Olas de Calor Cambian 176% la Vida en el Océano
+
+**Ecología** · *Nature Ecology & Evolution* · Blowes et al. (2026), 702.037 estimaciones de biomasa en 1.566 especies de peces — las olas de calor crean ganadores (+176%) en el borde frío y perdedores (-43,4%) en el borde cálido
+
+[Ver notebook](papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook) · [Leer más](papers/2026-02-27-olas-calor-biomasa-peces-oceano/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook.ipynb)
+
+---
+
+### Primera eyección de masa coronal fuera del Sol
+
+**Astronomía** · *Nature* · Callingham et al. (2025) reportan, con LOFAR, la primera detección directa de un análogo de **type II radio burst** desde una estrella distinta del Sol — la M dwarf temprana **StKM 1-1262** a ~32 años luz. El burst dura ~4 minutos en banda HBA (120-167 MHz) y muestra deriva en frecuencia + polarización Stokes V idénticas a las CMEs solares (la firma física de una onda de choque saliendo de la corona). El equipo descarta una explicación alternativa (loop magnético cerrado, modelo ECMI) ajustando con MCMC **6.356 muestras posteriores × 9 parámetros** y mostrando que recupera la deriva pero NO la sub-estructura del burst. La tasa derivada de eventos similares es **0,84 × 10⁻³ por día por estrella M** (rango asimétrico -0,69 / +1,94, basado en n=1 detección en ~10.500 h de monitoreo) — en promedio una vez cada ~3 años por estrella, con varianza enorme. ⚠️ El paper enmarca la implicación para erosión atmosférica de exoplanetas como hipótesis (*implies*), no demostración: una detección no establece estadística poblacional.
+
+[Ver notebook](papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook) · [Leer más](papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook.ipynb)
+
+---
+
+### Un polímero atraviesa la piel y entrega insulina sin agujas
+
+**Medicina** · *Nature* · Wei et al. (2025) diseñan **OP**, un polímero zwitteriónico que cambia su carga eléctrica con el pH (neutro en el frasco, catiónico al tocar la piel) y forma puentes con la matriz lipídica del estrato córneo — el punto débil que las proteínas grandes no podían atravesar. Aplicado tópicamente en **ratones T1D (n=8)** a 116 U/kg dosis equivalente, la glucemia cae de **487 mg/dL al rango normal en 4 horas (78 mg/dL)** y se mantiene 12 horas — el dibujo de una insulina basal lenta. La insulina inyectada (s.c. 5 U/kg) hace lo contrario: pico rápido y rebote a hiperglucemia (470 mg/dL @ 8h). El control PEG-I (mismo polímero sin la química zwitteriónica) no se mueve — confirma que el efecto es de la carga, no del envoltorio. Replicado en **minicerdos diabéticos (n=3)** a 29 U/kg: **89 mg/dL @ 6h**, Cohen's d = 5,4 vs PBS. En este Lab abrimos los CSVs derivados de Source Data Fig. 3 (Springer ESM, MOESM14), reconstruimos las trayectorias de glucemia para los 5 brazos en ambas especies, y verificamos cada claim con Cohen's d y Mann-Whitney. ⚠️ El paper enmarca la traducción clínica como *may enable*: solo modelos animales, sin humanos, comparador limitado a insulina rápida.
+
+[Ver notebook](papers/2026-01-17-polimero-insulina-sin-agujas/notebook) · [Leer más](papers/2026-01-17-polimero-insulina-sin-agujas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-polimero-insulina-sin-agujas/notebook.ipynb)
+
+---
+
+### 🐍 8 moléculas contra 17 serpientes letales
+
+**Medicina** · *Nature* · Ahmadi et al. (2025), proteómica de venenos de 16 elapidos africanos (133 entradas de toxinas). Las cobras escupidoras (Afronaja) producen citotoxinas (CTx, 85% de sus 3FTx) que destruyen tejido, mientras mambas y cobras de capa producen neurotoxinas (sNTx, lNTx). Un cocktail de 8 nanobodies de alpaca cubre 7 subfamilias de toxinas, protegiendo contra 17/18 especies en ratones — superando al antiveneno comercial de plasma en modelos preclínicos.
+
+[Ver notebook](papers/2026-01-17-nanobodies-antivenom-serpientes/notebook) · [Leer más](papers/2026-01-17-nanobodies-antivenom-serpientes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-nanobodies-antivenom-serpientes/notebook.ipynb)
+
+---
+
+### 151 vertederos del mundo, 1085 detecciones satelitales
+
+**Ecología** · *Nature* · Dogniaux et al. (2025) observaron 151 vertederos en 6 continentes con el satélite **GHGSat** durante 2021-2022 y cruzaron las emisiones medidas con los reportes nacionales y el inventario **Climate TRACE**. El resultado: **a escala de instalación, las tres estimaciones no se correlacionan** (Spearman ρ=0,12, p=0,21, n=109). En un vertedero de Turquía el satélite ve **240 veces más metano** del que estima el modelo; en dos vertederos de Corea del Sur, el modelo estima **76 y 186 veces más** de lo que mide el satélite. Solo **41 de 109 sitios (38%)** acuerdan dentro de un factor 2.
+
+[Ver notebook](papers/2026-01-17-metano-151-vertederos-satelite/notebook) · [Leer más](papers/2026-01-17-metano-151-vertederos-satelite/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-metano-151-vertederos-satelite/notebook.ipynb)
+
+---
+
+### 🏭 Una Industria Causa el 86% de Estos Contaminantes
+
+**Ecología** · *Nature Sustainability* · Yang et al. (2025), inventario global de emisiones de Cl/BrPAHs usando XGBoost: 5.143 kg en 184 países, la sinterización de mineral de hierro genera el 86,1% del total. Australia lidera con 1.393 kg (27% global, 47 g/persona — 236× la mediana)
+
+[Ver notebook](papers/2026-01-17-industria-86-contaminantes-emergentes/notebook) · [Leer más](papers/2026-01-17-industria-86-contaminantes-emergentes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-industria-86-contaminantes-emergentes/notebook.ipynb)
+
+---
+
+### ⛰️ Fantasmas de 241 millones de años revelan un secreto
+
+**Geología** · *Nature Communications* · Slater et al. (2025), fósiles fantasma de cocolitóforos en rocas del Triásico Medio (Suiza y Austria). El récord fósil se extiende ~26 millones de años hacia atrás (de ~215 Ma a ~241 Ma). Más de 100 huellas preservadas en heces de zooplancton fosilizadas. Las muestras con alta materia orgánica amorfa (media 73%) contienen los fantasmas.
+
+[Ver notebook](papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook) · [Leer más](papers/2026-01-17-fantasmas-cocolitoforos-triasico/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook.ipynb)
+
+---
+
+### El gen anti-CRISPR diseñado por una IA que supera al control humano
+
+**Tecnología** · *Nature* · Hayes et al. (2025) entrenan **Evo 1.5**, un modelo de lenguaje genómico, sobre 2,7 millones de genomas procariotas, y le piden generar **anti-CRISPR** y **antitoxinas** condicionadas por contexto genómico. Sintetizan físicamente **86 anti-CRISPR** y **8 antitoxinas T2** y las prueban en *E. coli*: **17%** de las anti-CRISPR muestran actividad medible y **50%** de las antitoxinas rescatan crecimiento. El golpe: **EvoAcr2** —con **0 hits** en BLAST de secuencia y **0 hits** en Foldseek estructural— alcanza una supervivencia relativa de **1,01**, **0,14 puntos por encima** del control natural AcrIIA2 (0,87). En este Lab abrimos los CSVs de Supplementary, distinguimos los **verdaderamente de novo** (EvoAcr1, EvoAcr2) de los **redescubrimientos** (EvoAcr4, EvoAcr5, con 100% y 96% de identidad BLAST a Acrs naturales de *Listeria*) y verificamos la correlación: Spearman **ρ = −0,727** entre identidad estructural y actividad (n=7, p=0,064) — la novedad no penaliza la función. ⚠️ También publican **SynGenome** con **120 mil millones de pares de bases** sintéticas (≈120 millones de genes potenciales — el short del canal usa la cifra de pb sin la unidad explícita; aquí la dejamos clara).
+
+[Ver notebook](papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook) · [Leer más](papers/2026-01-17-evo-syngenome-120mil-genes-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook.ipynb)
+
+---
+
+### Miles de elementos genéticos mantienen vivo el cáncer
+
+**Medicina** · *Nature* · Sankar et al. (2025) presentan **Retain-seq**, un rastreo a escala de todo el genoma que identifica los "ganchos" que el ecDNA usa para sobrevivir la división celular: **18.487 retention elements** en 23 cromosomas humanos (todos menos chrY) — promotores ricos en CpG que anclan el ADN extracromosómico a los cromosomas durante la mitosis. La asimetría entre tipos de cáncer es brutal: **K562 (leucemia) usa 15.430 elementos**, mientras que **GBM39 (glioblastoma) apenas 941** — dieciséis veces menos. Y la maquinaria es altamente contexto-específica: **96,5% son específicos a una sola cell line**; apenas **15 son universales** en las 3 líneas estudiadas. **chr19** destaca con **1.329 elementos** — segundo en conteo bruto pero **primero en densidad por megabase** (22,5/Mb, 3,2× más que chr1). En este Lab abrimos el CSV de Figshare (coordenadas hg19, flags binarios de enriquecimiento) y verificamos cada hallazgo. ⚠️ Los datos son flags sí/no, no scores continuos; la metilación (que el paper enmarca con *suggests*) no está en este CSV.
+
+[Ver notebook](papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook) · [Leer más](papers/2026-01-17-elementos-retencion-ecdna-cancer/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook.ipynb)
+
+---
+
+### Un destello 40 veces más brillante de un agujero negro
+
+**Astronomía** · *Nature Astronomy* · Hinkle et al. (2025) describen el destello más luminoso jamás registrado de un agujero negro supermasivo: el núcleo galáctico activo **J224554.84+374326.5** (z = 2,6) brilló más de **40×** sobre su nivel normal en 2018 y liberó ~**10⁵⁴ erg** en UV+óptico — equivalente a convertir una masa solar entera en radiación. En ZTF g (filtro más azul) la amplitud alcanza **151×** pico→mínimo; el eco infrarrojo de WISE es apenas **1,9×**. Seis años después, todavía se está apagando.
+
+[Ver notebook](papers/2026-01-17-destello-agujero-negro-extremo/notebook) · [Leer más](papers/2026-01-17-destello-agujero-negro-extremo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-destello-agujero-negro-extremo/notebook.ipynb)
+
+---
+
+### 🌿 Los Bosques Tropicales Ahora Liberan Carbono
+
+**Ecología** · *Nature* · Carle et al. (2025), 48 años de censos forestales en 20 parcelas de Queensland, Australia — los bosques pasaron de absorber +0,62 Mg C ha⁻¹ yr⁻¹ a liberar −0,93, impulsados por mortalidad extrema sin evidencia de fertilización por CO₂
+
+[Ver notebook](papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook) · [Leer más](papers/2026-01-17-bosques-tropicales-liberan-carbono/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook.ipynb)
+
+---
+
+### Tu plasma tiene 11 relojes. Uno por órgano.
+
+**Medicina** · *Nature Aging* · Liu et al. (2025) entrenaron 11 relojes proteómicos del envejecimiento — uno organismal y diez órgano-específicos — sobre el panel Olink (**2.924 proteínas**) en plasma de **43.616 personas** del UK Biobank, y los validaron en cohortes de China (n=3.977) y Estados Unidos (n=800; cross-cohort r=0.98 y r=0.93). Por cada **desviación estándar** que el reloj cerebral marca "más viejo" que la edad cronológica, el riesgo de muerte sube **44%** (HR=1.44, IC 95% 1.38–1.49) y el de demencia casi se duplica (HR=1.88). Entre los 11 órganos, el cerebro lidera ambos rankings — queda 22% por encima del segundo (páncreas) en magnitud de efecto sobre mortalidad, y 38% por encima en demencia (HR 1.88 vs 1.36 del segundo, Organismal). Los 11 relojes no se mueven juntos: las correlaciones plasmáticas entre órganos van de 0.03 a 0.56, y la mayoría de pares (70/90) está por debajo de 0.30 — cada órgano envejece por su lado. ⚠️ Diseño observacional (Cox regression): los HR predicen riesgo, no demuestran causalidad. ⚠️ El histograma de brain score muestra un pico artificial centrado en la mediana (~11% del sample): los modelos Olink imputan proteínas faltantes con la mediana, y el residual hereda ese pico — anotado explícitamente en la gráfica.
+
+[Ver notebook](papers/2025-11-26-organ-proteomic-aging-clocks/notebook) · [Leer más](papers/2025-11-26-organ-proteomic-aging-clocks/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-26-organ-proteomic-aging-clocks/notebook.ipynb)
+
+---
+
+### Theia se formó en el Sistema Solar interior
+
+**Astronomía** · *Science* · Hopp et al. (2025) midieron isótopos de hierro (μ⁵⁴Fe) en **41 muestras** — 15 terrestres, 6 lunares, 14 enstatitas, 4 condritas ordinarias y 2 Rumuruti — y los cruzaron con cinco sistemas isotópicos más (O, Ti, Cr, Zr, Mo). Tras filtrar la exposición a rayos cósmicos galácticos, **la Luna y la Tierra son indistinguibles isotópicamente** y caen juntas en el extremo no carbonáceo del mapa meteorítico. El equipo usó balance de masas para reconstruir Theia bajo **12 escenarios** (4 mantos pre-impacto × 3 tamaños de impactor): solo las recetas no carbonáceas dan una Theia que existe en la naturaleza — las recetas CI (μ⁵⁴Cr=−766) y CV (−409) caen a cientos de ppm fuera del rango observado. **El 15% del Cr terrestre y el 85% del Mo provienen de Theia** bajo el escenario canónico. ⚠️ La conclusión "Theia se formó más cerca del Sol que la Tierra" es una inferencia bajo el modelo (el paper la enmarca con *suggest...might*), no una medición directa.
+
+[Ver notebook](papers/2025-11-20-theia-sistema-solar-interior/notebook) · [Leer más](papers/2025-11-20-theia-sistema-solar-interior/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-20-theia-sistema-solar-interior/notebook.ipynb)
+
+---
+
+### 333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro
+
+**Neurociencia** · *Nature* · Iglesias et al. (2025) tomaron **5 hemisferios cerebrales completos**, los seccionaron en cerca de **10.000 láminas histológicas**, las alinearon en 3D con métodos de IA y delinearon manualmente **333 regiones de interés**. El error medio de registro 3D **baja un 31% (de 1,44 a 0,99 mm)** frente al pipeline anterior — y los 5 hemisferios mejoran a la vez, sin un solo caso donde el método previo gane. En la prueba clínica con 383 escáneres ADNI, **NextBrain clasifica Alzheimer vs control con AUROC 0,953 (acierto 90,3%)**, por encima de FreeSurfer (0,911) y Allen MNI (0,929). Pero atención: **AUROC no es diagnóstico** — es capacidad de ranking.
+
+[Ver notebook](papers/2025-11-05-nextbrain-atlas-333-regiones/notebook) · [Leer más](papers/2025-11-05-nextbrain-atlas-333-regiones/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-05-nextbrain-atlas-333-regiones/notebook.ipynb)
+
+---
+
+### Un implante cerebral sin cirugía: 5.8x más células donde hay inflamación
+
+**Neurociencia** · *Nature Biotechnology* · Yadav et al. (2025) diseñan un implante cerebral **sin cirugía**: macrófagos recubiertos con proteína conductora cargados con fotodiodos del tamaño de bacterias (SWEDs), inyectados en sangre y activados con luz infrarroja desde fuera del cráneo. Los datos del Source Data MOESM3 (Fig 4f, 5f, 2g) muestran que los híbridos con luz se concentran **5,76× más** que el control completo en la zona inflamada (315 vs 55 cells/mm²) — Cohen's d = 4,24, p = 0,029 (Mann-Whitney, n=4 vs n=4). Bootstrap de 10.000 re-muestreos: el 100% supera el umbral de "efecto grande". Los SWEDs persisten 6 meses sin decaimiento detectable (aunque n=2-3 limita el test formal: U=1, p=0,40 entre 1d y 6m). Y el cráneo de ratón apenas atenúa la luz NIR — solo **11,6% de pérdida** a 46 mW/mm². Prueba de concepto en ratones con inflamación inducida por LPS — distancia regulatoria significativa antes de aplicación clínica.
+
+[Ver notebook](papers/2025-11-05-implantes-cerebrales-circulatronics/notebook) · [Leer más](papers/2025-11-05-implantes-cerebrales-circulatronics/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-11-05-implantes-cerebrales-circulatronics/notebook.ipynb)
+
+---
+
+### ¿Puede una IA entender el mundo sin haberlo vivido?
+
+**Tecnología** · *Proceedings of the National Academy of Sciences* · Xu et al. (2025) tomaron **66 modelos de lenguaje** — de 70 millones a 47 mil millones de parámetros — y midieron qué tan parecida era su representación interna de conceptos a la humana. Con datos abiertos de Zenodo, reproducimos dos de los tres claims: (1) cuanto más alineado con humanos es un modelo, mejor razona en 8 benchmarks (**Spearman ρ = 0,83, n = 66**), y (2) dentro de Llama-3-70B, la representación converge con más ejemplos *in-context* y la precisión sube en paralelo (**ρ = 0,98, n = 8 demos**). El giro incómodo: el modelo más alineado no es el más grande. **Llama-3 8B (0,74) gana a Mistral 8x7B de 47 mil millones de parámetros (0,72)**. El tercer claim del paper — similitud con actividad cerebral fMRI — no se reproduce aquí (requiere datos adicionales).
+
+[Ver notebook](papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook) · [Leer más](papers/2025-10-31-ia-conceptos-humanos-sin-vivir/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook.ipynb)
+
+---
+
+### Una cámara grabó un terremoto desde la falla
+
+**Geología** · *Science* · Una cámara CCTV a metros de la falla de Sagaing grabó la ruptura superficial durante el terremoto Mw 7,7 de Mandalay (Myanmar, 28 de marzo de 2025). Del video extrajeron la primera medición directa de la velocidad de deslizamiento: un pulso de 1,4 s, velocidad pico de 3,5 m/s y ~3 m de desplazamiento acumulado. Dos modelos con distinta velocidad de ruptura ajustan los datos igual de bien, pero implican un stress drop 5× diferente.
+
+[Ver notebook](papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook) · [Leer más](papers/2025-10-30-terremoto-cctv-falla-myanmar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook.ipynb)
+
+---
+
+### 64 canales de ARN en una sola imagen
+
+**Biología** · *Nature Biotechnology* · Los microscopios de fluorescencia solo distinguen 4 colores, pero PRISM logra imagen espacial de **64 ARNs en una sola ronda** codificando cada uno con una combinación de 4 canales e intensidad. El equipo elige 64 codewords de un espacio de **1.296** posibles (4,9%) con separación mínima de **√2 ≈ 1,414** — la distancia que un píxel ruidoso no puede cruzar.
+
+[Ver notebook](papers/2025-10-30-prism-64-barcodes/notebook) · [Leer más](papers/2025-10-30-prism-64-barcodes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-prism-64-barcodes/notebook.ipynb)
+
+---
+
+### La brújula del cerebro en murciélagos
+
+**Neurociencia** · *Science* · Palgi et al. (2025) registraron **97 neuronas brújula** en el presubículo de murciélagos volando libres sobre la selva de Zanzíbar — sin jaula, sin pistas controladas. La dirección preferida de esas neuronas drifteaba **1,72°/s la primera noche** y solo **0,20°/s la sexta**: una estabilización 8,4× con la experiencia (Spearman ρ = −0,60, p < 1e-8). Los datos sugieren que la brújula funciona igual con o sin luna.
+
+[Ver notebook](papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook) · [Leer más](papers/2025-10-16-brujula-cerebral-murcielagos-isla/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook.ipynb)
 
 <!-- LAB-INDEX:END -->
 

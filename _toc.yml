@@ -63,15 +63,15 @@ parts:
     sections:
     - file: papers/2026-07-10-stephensi-mosquito-invasor-africa/notebook
       title: Notebook
-  - file: papers/2026-07-08-amazonia-conocimiento/README
-    title: "El bosque que también es una biblioteca"
-    sections:
-    - file: papers/2026-07-08-amazonia-conocimiento/notebook
-      title: Notebook
   - file: papers/2026-07-08-karenia-cristata-mortandad-marina/README
     title: "Un millón de animales muertos: el culpable estaba en el agua"
     sections:
     - file: papers/2026-07-08-karenia-cristata-mortandad-marina/notebook
+      title: Notebook
+  - file: papers/2026-07-08-amazonia-conocimiento/README
+    title: "El bosque que también es una biblioteca"
+    sections:
+    - file: papers/2026-07-08-amazonia-conocimiento/notebook
       title: Notebook
   - file: papers/2026-06-30-pastos-marinos-mapa-global/README
     title: "Casi todos los pastos marinos del mundo caben en 5 países"
@@ -134,7 +134,7 @@ parts:
     - file: papers/2026-05-27-granizo-global-clima/notebook
       title: Notebook
   - file: papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/README
-    title: '1,6 millones de km² de selva no han vuelto a "sudar" igual'
+    title: "1,6 millones de km² de selva no han vuelto a \"sudar\" igual"
     sections:
     - file: papers/2026-05-19-evapotranspiracion-deforestacion-sudamerica/notebook
       title: Notebook
@@ -158,15 +158,15 @@ parts:
     sections:
     - file: papers/2026-05-19-fitoplancton-reconvierte-progestogenos/notebook
       title: Notebook
-  - file: papers/2026-05-15-antartida-feedbacks-deshielo/README
-    title: "Dos tercios del deshielo extra de la Antártida vienen del propio deshielo"
-    sections:
-    - file: papers/2026-05-15-antartida-feedbacks-deshielo/notebook
-      title: Notebook
   - file: papers/2026-05-15-parches-bosque-productividad/README
     title: "Parches grandes de bosque capturan más carbono por hectárea"
     sections:
     - file: papers/2026-05-15-parches-bosque-productividad/notebook
+      title: Notebook
+  - file: papers/2026-05-15-antartida-feedbacks-deshielo/README
+    title: "Dos tercios del deshielo extra de la Antártida vienen del propio deshielo"
+    sections:
+    - file: papers/2026-05-15-antartida-feedbacks-deshielo/notebook
       title: Notebook
   - file: papers/2026-05-14-rios-himalaya-meandros-clima/README
     title: "Los ríos del Himalaya están serpenteando casi al doble de velocidad"
@@ -178,15 +178,15 @@ parts:
     sections:
     - file: papers/2026-05-13-precipitacion-concentrada-agua/notebook
       title: Notebook
-  - file: papers/2026-05-13-incendios-alpinos-rwenzori-12mil/README
-    title: "Primer incendio alpino del siglo XXI en los Rwenzori"
-    sections:
-    - file: papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook
-      title: Notebook
   - file: papers/2026-05-13-precio-fauna-europa/README
     title: "El precio oculto de la fauna en Europa"
     sections:
     - file: papers/2026-05-13-precio-fauna-europa/notebook
+      title: Notebook
+  - file: papers/2026-05-13-incendios-alpinos-rwenzori-12mil/README
+    title: "Primer incendio alpino del siglo XXI en los Rwenzori"
+    sections:
+    - file: papers/2026-05-13-incendios-alpinos-rwenzori-12mil/notebook
       title: Notebook
   - file: papers/2026-05-13-co2-enfria-estratosfera/README
     title: "El CO₂ enfría la estratosfera (y eso amplifica su forzamiento)"
@@ -223,11 +223,6 @@ parts:
     sections:
     - file: papers/2026-05-06-amazon-deforestacion-umbral/notebook
       title: Notebook
-  - file: papers/2026-04-22-greening-no-seca-rios-semiaridos/README
-    title: "Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas"
-    sections:
-    - file: papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook
-      title: Notebook
   - file: papers/2026-04-22-oropouche-expansion-brasil/README
     title: "Oropouche en Brasil: 9× más casos en un año"
     sections:
@@ -248,30 +243,25 @@ parts:
     sections:
     - file: papers/2026-05-01-carne-silvestre-africa-central/notebook
       title: Notebook
-  - file: papers/2026-04-01-tierras-secas-frenan-co2-vegetal/README
-    title: "Las plantas absorben menos CO₂ desde 2001 — y las tierras secas son las culpables"
+  - file: papers/2026-04-27-mareas-estuarios-huella-humana/README
+    title: "La huella humana en las mareas: 25 ríos cambiados"
     sections:
-    - file: papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook
+    - file: papers/2026-04-27-mareas-estuarios-huella-humana/notebook
       title: Notebook
   - file: papers/2026-04-27-calentamiento-resistencia-suelos/README
     title: "+23,9% más resistencia antibiótica en suelo calentado 3°C"
     sections:
     - file: papers/2026-04-27-calentamiento-resistencia-suelos/notebook
       title: Notebook
-  - file: papers/2026-04-27-mareas-estuarios-huella-humana/README
-    title: "La huella humana en las mareas: 25 ríos cambiados"
-    sections:
-    - file: papers/2026-04-27-mareas-estuarios-huella-humana/notebook
-      title: Notebook
   - file: papers/2026-04-23-amazon-forest-cooling-feedback/README
     title: "El Amazonas que enfría: 6.8 W/m² de paradoja"
     sections:
     - file: papers/2026-04-23-amazon-forest-cooling-feedback/notebook
       title: Notebook
-  - file: papers/2026-01-17-metano-151-vertederos-satelite/README
-    title: "151 vertederos del mundo, 1085 detecciones satelitales"
+  - file: papers/2026-04-22-greening-no-seca-rios-semiaridos/README
+    title: "Más vegetación, ¿menos caudal? Los datos dicen lo contrario en zonas secas"
     sections:
-    - file: papers/2026-01-17-metano-151-vertederos-satelite/notebook
+    - file: papers/2026-04-22-greening-no-seca-rios-semiaridos/notebook
       title: Notebook
   - file: papers/2026-04-13-goflow-corrientes-submesoscale/README
     title: "Un satélite ve temperatura. ¿Puede ver las corrientes del océano?"
@@ -289,94 +279,104 @@ parts:
     - file: papers/2026-04-10-competencia-facilitacion-diversidad-arboles/notebook
       title: Notebook
   - file: papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/README
-    title: Biodiversidad resiliente en bosque tropical
+    title: "Biodiversidad resiliente en bosque tropical"
     sections:
     - file: papers/2026-04-09-biodiversidad-resiliencia-bosque-tropical/notebook
       title: Notebook
-  - file: papers/2026-01-17-industria-86-contaminantes-emergentes/README
-    title: Una industria causa el 86% de estos contaminantes
-    sections:
-    - file: papers/2026-01-17-industria-86-contaminantes-emergentes/notebook
-      title: Notebook
   - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/README
-    title: Agricultura circular con agua de mar y sol
+    title: "Agricultura circular con agua de mar y sol"
     sections:
     - file: papers/2026-04-08-desalinizacion-solar-agricultura-circular/notebook
       title: Notebook
-  - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/README
-    title: Bosques tropicales ahora liberan carbono
-    sections:
-    - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook
-      title: Notebook
   - file: papers/2026-04-07-renovables-fortalecen-ecuador-sequia/README
-    title: Renovables fortalecen a Ecuador contra la sequía
+    title: "Renovables fortalecen a Ecuador contra la sequía"
     sections:
     - file: papers/2026-04-07-renovables-fortalecen-ecuador-sequia/notebook
       title: Notebook
-  - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/README
-    title: Olas de calor cambian 176% la vida oceánica
-    sections:
-    - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook
-      title: Notebook
   - file: papers/2026-04-04-estelas-aviones-hollin-bajo/README
-    title: Estelas de aviones limpios siguen calentando
+    title: "Estelas de aviones limpios siguen calentando"
     sections:
     - file: papers/2026-04-04-estelas-aviones-hollin-bajo/notebook
       title: Notebook
   - file: papers/2026-04-02-lluvia-pluviometros-planeta/README
-    title: Nadie sabe cuánto llueve en el planeta
+    title: "Nadie sabe cuánto llueve en el planeta"
     sections:
     - file: papers/2026-04-02-lluvia-pluviometros-planeta/notebook
       title: Notebook
-  - file: papers/2026-03-28-carbono-bosques-virgenes/README
-    title: Carbono de bosques vírgenes
+  - file: papers/2026-04-01-tierras-secas-frenan-co2-vegetal/README
+    title: "Las plantas absorben menos CO₂ desde 2001 — y las tierras secas son las culpables"
     sections:
-    - file: papers/2026-03-28-carbono-bosques-virgenes/notebook
+    - file: papers/2026-04-01-tierras-secas-frenan-co2-vegetal/notebook
       title: Notebook
   - file: papers/2026-03-28-oceano-dispara-olas-de-calor/README
-    title: Océano dispara olas de calor
+    title: "Océano dispara olas de calor"
     sections:
     - file: papers/2026-03-28-oceano-dispara-olas-de-calor/notebook
       title: Notebook
+  - file: papers/2026-03-28-carbono-bosques-virgenes/README
+    title: "Carbono de bosques vírgenes"
+    sections:
+    - file: papers/2026-03-28-carbono-bosques-virgenes/notebook
+      title: Notebook
   - file: papers/2026-03-24-termofilizacion-cumbres-alpinas/README
-    title: 'Cumbres alpinas: termofilización 5x'
+    title: "Cumbres alpinas: termofilización 5x"
     sections:
     - file: papers/2026-03-24-termofilizacion-cumbres-alpinas/notebook
       title: Notebook
   - file: papers/2026-03-22-rios-mareas-swot-satelite/README
-    title: 'Ríos con mareas: SWOT satelital'
+    title: "Ríos con mareas: SWOT satelital"
     sections:
     - file: papers/2026-03-22-rios-mareas-swot-satelite/notebook
       title: Notebook
-  - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/README
-    title: 248 químicos sintéticos en el océano
-    sections:
-    - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook
-      title: Notebook
   - file: papers/2026-03-21-oceano-profundo-emisiones-cero/README
-    title: Océano profundo vs emisiones cero
+    title: "Océano profundo vs emisiones cero"
     sections:
     - file: papers/2026-03-21-oceano-profundo-emisiones-cero/notebook
       title: Notebook
+  - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/README
+    title: "248 químicos sintéticos en el océano"
+    sections:
+    - file: papers/2026-03-21-oceano-248-quimicos-sinteticos/notebook
+      title: Notebook
   - file: papers/2026-03-17-ola-calor-32-especies/README
-    title: Ola de calor vs 32 especies
+    title: "Ola de calor vs 32 especies"
     sections:
     - file: papers/2026-03-17-ola-calor-32-especies/notebook
       title: Notebook
   - file: papers/2026-03-16-arrecifes-mpa-solo-5-porciento/README
-    title: '2.795 arrecifes: ¿sirve protegerlos?'
+    title: "2.795 arrecifes: ¿sirve protegerlos?"
     sections:
     - file: papers/2026-03-16-arrecifes-mpa-solo-5-porciento/notebook
       title: Notebook
   - file: papers/2026-03-12-rios-swot-126mil-volumen/README
-    title: '126.674 ríos: SWOT mide el agua del mundo'
+    title: "126.674 ríos: SWOT mide el agua del mundo"
     sections:
     - file: papers/2026-03-12-rios-swot-126mil-volumen/notebook
       title: Notebook
   - file: papers/2026-03-11-nivel-mar-132-millones/README
-    title: Nadie midió bien el nivel del mar
+    title: "Nadie midió bien el nivel del mar"
     sections:
     - file: papers/2026-03-11-nivel-mar-132-millones/notebook
+      title: Notebook
+  - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/README
+    title: "Olas de calor cambian 176% la vida oceánica"
+    sections:
+    - file: papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook
+      title: Notebook
+  - file: papers/2026-01-17-metano-151-vertederos-satelite/README
+    title: "151 vertederos del mundo, 1085 detecciones satelitales"
+    sections:
+    - file: papers/2026-01-17-metano-151-vertederos-satelite/notebook
+      title: Notebook
+  - file: papers/2026-01-17-industria-86-contaminantes-emergentes/README
+    title: "Una industria causa el 86% de estos contaminantes"
+    sections:
+    - file: papers/2026-01-17-industria-86-contaminantes-emergentes/notebook
+      title: Notebook
+  - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/README
+    title: "Bosques tropicales ahora liberan carbono"
+    sections:
+    - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook
       title: Notebook
 - caption: Geología
   chapters:
@@ -385,65 +385,65 @@ parts:
     sections:
     - file: papers/2026-07-01-bridgmanita-hadeana-manto/notebook
       title: Notebook
-  - file: papers/2026-06-18-scs-tohoku-megathrust-slip/README
-    title: "Una onda sísmica que movió Japón entero"
-    sections:
-    - file: papers/2026-06-18-scs-tohoku-megathrust-slip/notebook
-      title: Notebook
   - file: papers/2026-06-25-calor-impactos-hadean-oculto/README
     title: "El calor oculto del Hadeano"
     sections:
     - file: papers/2026-06-25-calor-impactos-hadean-oculto/notebook
+      title: Notebook
+  - file: papers/2026-06-18-scs-tohoku-megathrust-slip/README
+    title: "Una onda sísmica que movió Japón entero"
+    sections:
+    - file: papers/2026-06-18-scs-tohoku-megathrust-slip/notebook
       title: Notebook
   - file: papers/2026-05-26-ross-ice-shelf-mis-5e/README
     title: "La Antártida occidental se derritió antes — y dejó su firma en el polvo"
     sections:
     - file: papers/2026-05-26-ross-ice-shelf-mis-5e/notebook
       title: Notebook
-  - file: papers/2026-05-06-foreshocks-nucleacion-terremotos/README
-    title: "Cómo se decide un terremoto en 15 milisegundos"
-    sections:
-    - file: papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook
-      title: Notebook
   - file: papers/2026-05-07-metano-subglacial-groenlandia/README
     title: "El metano que respira Groenlandia se cocinó hace 2.000 años"
     sections:
     - file: papers/2026-05-07-metano-subglacial-groenlandia/notebook
       title: Notebook
-  - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/README
-    title: "Una cámara grabó un terremoto desde la falla"
+  - file: papers/2026-05-06-foreshocks-nucleacion-terremotos/README
+    title: "Cómo se decide un terremoto en 15 milisegundos"
     sections:
-    - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook
+    - file: papers/2026-05-06-foreshocks-nucleacion-terremotos/notebook
       title: Notebook
   - file: papers/2026-04-15-firma-topografica-oceanos-marte/README
     title: "¿Tuvo Marte un océano?"
     sections:
     - file: papers/2026-04-15-firma-topografica-oceanos-marte/notebook
       title: Notebook
+  - file: papers/2026-04-10-agua-subterranea-vieja-colorado/README
+    title: "Agua subterránea vieja en Colorado"
+    sections:
+    - file: papers/2026-04-10-agua-subterranea-vieja-colorado/notebook
+      title: Notebook
+  - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/README
+    title: "Circulación oceánica: la más débil en 1.300 años"
+    sections:
+    - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/notebook
+      title: Notebook
+  - file: papers/2026-03-28-rocas-hielo-groenlandia/README
+    title: "Rocas del hielo de Groenlandia"
+    sections:
+    - file: papers/2026-03-28-rocas-hielo-groenlandia/notebook
+      title: Notebook
+  - file: papers/2026-03-23-co2-estable-3-millones-anos/README
+    title: "CO₂ estable 3 millones de años"
+    sections:
+    - file: papers/2026-03-23-co2-estable-3-millones-anos/notebook
+      title: Notebook
   - file: papers/2026-01-17-fantasmas-cocolitoforos-triasico/README
     title: "Fantasmas de 241 millones de años"
     sections:
     - file: papers/2026-01-17-fantasmas-cocolitoforos-triasico/notebook
       title: Notebook
-  - file: papers/2026-04-10-agua-subterranea-vieja-colorado/README
-    title: 'Agua subterránea vieja en Colorado'
+  - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/README
+    title: "Una cámara grabó un terremoto desde la falla"
     sections:
-    - file: papers/2026-04-10-agua-subterranea-vieja-colorado/notebook
-      title: Notebook
-  - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/README
-    title: 'Circulación oceánica: la más débil en 1.300 años'
-    sections:
-    - file: papers/2026-04-06-circulacion-atlantico-oceano-sur/notebook
-      title: Notebook
-  - file: papers/2026-03-28-rocas-hielo-groenlandia/README
-    title: Rocas del hielo de Groenlandia
-    sections:
-    - file: papers/2026-03-28-rocas-hielo-groenlandia/notebook
-      title: Notebook
-  - file: papers/2026-03-23-co2-estable-3-millones-anos/README
-    title: CO₂ estable 3 millones de años
-    sections:
-    - file: papers/2026-03-23-co2-estable-3-millones-anos/notebook
+    - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook
       title: Notebook
 - caption: Medicina
   chapters:
@@ -457,15 +457,15 @@ parts:
     sections:
     - file: papers/2026-07-31-viruela-antigua-sudamerica/notebook
       title: Notebook
-  - file: papers/2026-07-31-clima-malaria-infantil-africa/README
-    title: "¿El cambio climático ya subió la malaria infantil en África?"
-    sections:
-    - file: papers/2026-07-31-clima-malaria-infantil-africa/notebook
-      title: Notebook
   - file: papers/2026-07-31-etoposido-teniposido-levadura/README
     title: "Fabricar un medicamento contra el cáncer en levadura"
     sections:
     - file: papers/2026-07-31-etoposido-teniposido-levadura/notebook
+      title: Notebook
+  - file: papers/2026-07-31-clima-malaria-infantil-africa/README
+    title: "¿El cambio climático ya subió la malaria infantil en África?"
+    sections:
+    - file: papers/2026-07-31-clima-malaria-infantil-africa/notebook
       title: Notebook
   - file: papers/2026-07-17-keto-tumores/README
     title: "La dieta keto aceleró los tumores... y no eran las cetonas"
@@ -488,7 +488,7 @@ parts:
     - file: papers/2026-06-17-peste-baikal-cazadores/notebook
       title: Notebook
   - file: papers/2026-06-06-manikomycin-antibiotico-ribosoma/README
-    title: 'Manikomicina: una bacteria "agotada" escondía un antibiótico nuevo'
+    title: "Manikomicina: una bacteria \"agotada\" escondía un antibiótico nuevo"
     sections:
     - file: papers/2026-06-06-manikomycin-antibiotico-ribosoma/notebook
       title: Notebook
@@ -507,16 +507,6 @@ parts:
     sections:
     - file: papers/2026-05-22-organoides-intestino-funcional-ens/notebook
       title: Notebook
-  - file: papers/2026-05-20-peptide-nanofibres-antimicrobial/README
-    title: "Un péptido modular contra MRSA — 99,500× más potente que vancomicina"
-    sections:
-    - file: papers/2026-05-20-peptide-nanofibres-antimicrobial/notebook
-      title: Notebook
-  - file: papers/2026-05-14-hidrogel-bacterias-terapia/README
-    title: "Bacterias atrapadas seis meses: el hidrogel que no las deja escapar"
-    sections:
-    - file: papers/2026-05-14-hidrogel-bacterias-terapia/notebook
-      title: Notebook
   - file: papers/2026-05-25-microglia-reparativa-stroke-zfp384/README
     title: "Frenar UN gen mantiene la microglia reparadora 8 semanas tras un derrame"
     sections:
@@ -527,45 +517,20 @@ parts:
     sections:
     - file: papers/2026-05-23-rna-chaperones-tdp-43/notebook
       title: Notebook
-  - file: papers/2026-05-06-androgenos-glioblastoma-hpa/README
-    title: "La sorpresa de los andrógenos en el cerebro"
+  - file: papers/2026-05-20-peptide-nanofibres-antimicrobial/README
+    title: "Un péptido modular contra MRSA — 99,500× más potente que vancomicina"
     sections:
-    - file: papers/2026-05-06-androgenos-glioblastoma-hpa/notebook
-      title: Notebook
-  - file: papers/2026-05-06-hiv-poros-nucleares-infeccion/README
-    title: "El HIV necesita tocar células para infectarlas"
-    sections:
-    - file: papers/2026-05-06-hiv-poros-nucleares-infeccion/notebook
+    - file: papers/2026-05-20-peptide-nanofibres-antimicrobial/notebook
       title: Notebook
   - file: papers/2026-05-19-binds-cancer-mama-ia/README
     title: "BINDS: cáncer de mama por IA, examinado por dentro"
     sections:
     - file: papers/2026-05-19-binds-cancer-mama-ia/notebook
       title: Notebook
-  - file: papers/2026-05-06-tme-spatial-ecotypes/README
-    title: "Una gota de sangre que predice si la inmunoterapia funcionará"
+  - file: papers/2026-05-14-hidrogel-bacterias-terapia/README
+    title: "Bacterias atrapadas seis meses: el hidrogel que no las deja escapar"
     sections:
-    - file: papers/2026-05-06-tme-spatial-ecotypes/notebook
-      title: Notebook
-  - file: papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/README
-    title: "Macrófagos mordisqueando células vivas"
-    sections:
-    - file: papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook
-      title: Notebook
-  - file: papers/2026-04-29-postprandial-lipid-t-cell-immunity/README
-    title: "Comer antes de un examen inmunológico cambia el resultado"
-    sections:
-    - file: papers/2026-04-29-postprandial-lipid-t-cell-immunity/notebook
-      title: Notebook
-  - file: papers/2026-04-29-pronuclear-competition-zygotes/README
-    title: "Dos pronúcleos compiten por el citoplasma en el zigoto"
-    sections:
-    - file: papers/2026-04-29-pronuclear-competition-zygotes/notebook
-      title: Notebook
-  - file: papers/2026-05-13-obesidad-platea-vs-acelera/README
-    title: "La obesidad mundial: dónde se frenó, dónde se aceleró"
-    sections:
-    - file: papers/2026-05-13-obesidad-platea-vs-acelera/notebook
+    - file: papers/2026-05-14-hidrogel-bacterias-terapia/notebook
       title: Notebook
   - file: papers/2026-05-13-sueno-relojes-biologicos-edad/README
     title: "¿Cuántas horas debe dormir tu cuerpo? 23 relojes biológicos contestan distinto"
@@ -577,30 +542,45 @@ parts:
     sections:
     - file: papers/2026-05-13-sensor-sudor-multimodal/notebook
       title: Notebook
-  - file: papers/2025-11-26-organ-proteomic-aging-clocks/README
-    title: "Tu plasma tiene 11 relojes. Uno por órgano."
+  - file: papers/2026-05-13-obesidad-platea-vs-acelera/README
+    title: "La obesidad mundial: dónde se frenó, dónde se aceleró"
     sections:
-    - file: papers/2025-11-26-organ-proteomic-aging-clocks/notebook
+    - file: papers/2026-05-13-obesidad-platea-vs-acelera/notebook
       title: Notebook
-  - file: papers/2026-01-17-elementos-retencion-ecdna-cancer/README
-    title: "Miles de elementos genéticos mantienen vivo el cáncer"
+  - file: papers/2026-05-06-tme-spatial-ecotypes/README
+    title: "Una gota de sangre que predice si la inmunoterapia funcionará"
     sections:
-    - file: papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook
+    - file: papers/2026-05-06-tme-spatial-ecotypes/notebook
+      title: Notebook
+  - file: papers/2026-05-06-hiv-poros-nucleares-infeccion/README
+    title: "El HIV necesita tocar células para infectarlas"
+    sections:
+    - file: papers/2026-05-06-hiv-poros-nucleares-infeccion/notebook
+      title: Notebook
+  - file: papers/2026-05-06-androgenos-glioblastoma-hpa/README
+    title: "La sorpresa de los andrógenos en el cerebro"
+    sections:
+    - file: papers/2026-05-06-androgenos-glioblastoma-hpa/notebook
+      title: Notebook
+  - file: papers/2026-04-29-pronuclear-competition-zygotes/README
+    title: "Dos pronúcleos compiten por el citoplasma en el zigoto"
+    sections:
+    - file: papers/2026-04-29-pronuclear-competition-zygotes/notebook
+      title: Notebook
+  - file: papers/2026-04-29-postprandial-lipid-t-cell-immunity/README
+    title: "Comer antes de un examen inmunológico cambia el resultado"
+    sections:
+    - file: papers/2026-04-29-postprandial-lipid-t-cell-immunity/notebook
+      title: Notebook
+  - file: papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/README
+    title: "Macrófagos mordisqueando células vivas"
+    sections:
+    - file: papers/2026-04-29-macrofagos-trogocitosis-celulas-vivas/notebook
       title: Notebook
   - file: papers/2026-04-29-engineering-tough-blood-clots/README
     title: "Coágulos de sangre 13 veces más resistentes que el natural"
     sections:
     - file: papers/2026-04-29-engineering-tough-blood-clots/notebook
-      title: Notebook
-  - file: papers/2026-01-17-polimero-insulina-sin-agujas/README
-    title: "Un polímero atraviesa la piel y entrega insulina sin agujas"
-    sections:
-    - file: papers/2026-01-17-polimero-insulina-sin-agujas/notebook
-      title: Notebook
-  - file: papers/2026-04-22-cas9-metilacion-pam/README
-    title: "Una sola metilación apaga la enzima"
-    sections:
-    - file: papers/2026-04-22-cas9-metilacion-pam/notebook
       title: Notebook
   - file: papers/2026-04-08-repeticiones-str-atrofia-cerebral/README
     title: "Expansiones STR revelan atrofia cerebral preclínica"
@@ -617,30 +597,50 @@ parts:
     sections:
     - file: papers/2026-04-24-ultrasonido-tomografia-corte-completo/notebook
       title: Notebook
+  - file: papers/2026-04-22-cas9-metilacion-pam/README
+    title: "Una sola metilación apaga la enzima"
+    sections:
+    - file: papers/2026-04-22-cas9-metilacion-pam/notebook
+      title: Notebook
   - file: papers/2026-04-15-transplante-mitocondrial-dirigido/README
     title: "Reparar una mitocondria enferma — célula por célula"
     sections:
     - file: papers/2026-04-15-transplante-mitocondrial-dirigido/notebook
+      title: Notebook
+  - file: papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/README
+    title: "GLP1: tu ADN decide los efectos secundarios"
+    sections:
+    - file: papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/notebook
+      title: Notebook
+  - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
+    title: "Hormona alimenta tumores en niños"
+    sections:
+    - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook
+      title: Notebook
+  - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
+    title: "Cáncer despierta armas contra cerebro"
+    sections:
+    - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
+      title: Notebook
+  - file: papers/2026-01-17-polimero-insulina-sin-agujas/README
+    title: "Un polímero atraviesa la piel y entrega insulina sin agujas"
+    sections:
+    - file: papers/2026-01-17-polimero-insulina-sin-agujas/notebook
       title: Notebook
   - file: papers/2026-01-17-nanobodies-antivenom-serpientes/README
     title: "8 moléculas contra 17 serpientes letales"
     sections:
     - file: papers/2026-01-17-nanobodies-antivenom-serpientes/notebook
       title: Notebook
-  - file: papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/README
-    title: 'GLP1: tu ADN decide los efectos secundarios'
+  - file: papers/2026-01-17-elementos-retencion-ecdna-cancer/README
+    title: "Miles de elementos genéticos mantienen vivo el cáncer"
     sections:
-    - file: papers/2026-04-09-predictores-geneticos-glp1-perdida-peso/notebook
+    - file: papers/2026-01-17-elementos-retencion-ecdna-cancer/notebook
       title: Notebook
-  - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/README
-    title: Hormona alimenta tumores en niños
+  - file: papers/2025-11-26-organ-proteomic-aging-clocks/README
+    title: "Tu plasma tiene 11 relojes. Uno por órgano."
     sections:
-    - file: papers/2026-03-30-hormona-alimenta-tumores-ninos/notebook
-      title: Notebook
-  - file: papers/2026-03-29-cancer-despierta-armas-cerebro/README
-    title: Cáncer despierta armas contra cerebro
-    sections:
-    - file: papers/2026-03-29-cancer-despierta-armas-cerebro/notebook
+    - file: papers/2025-11-26-organ-proteomic-aging-clocks/notebook
       title: Notebook
 - caption: Neurociencia
   chapters:
@@ -674,35 +674,35 @@ parts:
     sections:
     - file: papers/2026-05-06-hipocampo-anestesia-lenguaje/notebook
       title: Notebook
-  - file: papers/2025-11-05-implantes-cerebrales-circulatronics/README
-    title: "Implante cerebral sin cirugía: 5.8x más células donde hay inflamación"
+  - file: papers/2026-04-15-codigo-neural-percepcion-imaginacion/README
+    title: "Código neural compartido: ver e imaginar"
     sections:
-    - file: papers/2025-11-05-implantes-cerebrales-circulatronics/notebook
-      title: Notebook
-  - file: papers/2025-11-05-nextbrain-atlas-333-regiones/README
-    title: "333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro"
-    sections:
-    - file: papers/2025-11-05-nextbrain-atlas-333-regiones/notebook
+    - file: papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook
       title: Notebook
   - file: papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/README
     title: "Una proteína viral le devolvió la memoria a ratones con deterioro cognitivo"
     sections:
     - file: papers/2026-04-06-viral-dp71l-reverso-deterioro-cognitivo/notebook
       title: Notebook
+  - file: papers/2026-03-30-hambre-despues-estudiar/README
+    title: "Hambre después de estudiar"
+    sections:
+    - file: papers/2026-03-30-hambre-despues-estudiar/notebook
+      title: Notebook
+  - file: papers/2025-11-05-nextbrain-atlas-333-regiones/README
+    title: "333 piezas del cerebro: el atlas que está reescribiendo cómo medimos lo que hay dentro"
+    sections:
+    - file: papers/2025-11-05-nextbrain-atlas-333-regiones/notebook
+      title: Notebook
+  - file: papers/2025-11-05-implantes-cerebrales-circulatronics/README
+    title: "Implante cerebral sin cirugía: 5.8x más células donde hay inflamación"
+    sections:
+    - file: papers/2025-11-05-implantes-cerebrales-circulatronics/notebook
+      title: Notebook
   - file: papers/2025-10-16-brujula-cerebral-murcielagos-isla/README
     title: "La brújula del cerebro en murciélagos"
     sections:
     - file: papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook
-      title: Notebook
-  - file: papers/2026-04-15-codigo-neural-percepcion-imaginacion/README
-    title: "Código neural compartido: ver e imaginar"
-    sections:
-    - file: papers/2026-04-15-codigo-neural-percepcion-imaginacion/notebook
-      title: Notebook
-  - file: papers/2026-03-30-hambre-despues-estudiar/README
-    title: Hambre después de estudiar
-    sections:
-    - file: papers/2026-03-30-hambre-despues-estudiar/notebook
       title: Notebook
 - caption: Arqueología
   chapters:
@@ -712,12 +712,12 @@ parts:
     - file: papers/2026-07-23-lenguas-diversidad-holoceno/notebook
       title: Notebook
   - file: papers/2026-04-07-discontinuidad-paris-neolitico/README
-    title: Discontinuidad genética en París al final del Neolítico
+    title: "Discontinuidad genética en París al final del Neolítico"
     sections:
     - file: papers/2026-04-07-discontinuidad-paris-neolitico/notebook
       title: Notebook
   - file: papers/2026-03-27-monte-verde-fecha-mal/README
-    title: 'Monte Verde: la fecha estaba mal'
+    title: "Monte Verde: la fecha estaba mal"
     sections:
     - file: papers/2026-03-27-monte-verde-fecha-mal/notebook
       title: Notebook
@@ -748,11 +748,6 @@ parts:
     sections:
     - file: papers/2026-06-07-peptidos-frio-polen-cultivos/notebook
       title: Notebook
-  - file: papers/2026-04-30-ciliados-rumen-metano/README
-    title: "450 vecinos invisibles dentro de una vaca"
-    sections:
-    - file: papers/2026-04-30-ciliados-rumen-metano/notebook
-      title: Notebook
   - file: papers/2026-05-16-19-aminoacidos-ec19/README
     title: "382 isoleucinas que sobraban"
     sections:
@@ -763,6 +758,11 @@ parts:
     sections:
     - file: papers/2026-05-13-homo-erectus-china-esmalte/notebook
       title: Notebook
+  - file: papers/2026-04-30-ciliados-rumen-metano/README
+    title: "450 vecinos invisibles dentro de una vaca"
+    sections:
+    - file: papers/2026-04-30-ciliados-rumen-metano/notebook
+      title: Notebook
   - file: papers/2026-04-25-octopodos-gigantes-cretacico/README
     title: "Pulpos gigantes del Cretácico: ¿quiénes eran?"
     sections:
@@ -772,11 +772,6 @@ parts:
     title: "128 Genomas Indígenas Americanos: Dos Pistas Inesperadas"
     sections:
     - file: papers/2026-04-22-genomas-indigenas-americanos/notebook
-      title: Notebook
-  - file: papers/2025-10-30-prism-64-barcodes/README
-    title: "64 canales de ARN en una sola imagen"
-    sections:
-    - file: papers/2025-10-30-prism-64-barcodes/notebook
       title: Notebook
   - file: papers/2026-04-16-adn-antiguo-seleccion-direccional-eurasia/README
     title: "ADN antiguo: selección direccional en Eurasia"
@@ -794,19 +789,24 @@ parts:
     - file: papers/2026-04-10-conflicto-letal-chimpances-fision/notebook
       title: Notebook
   - file: papers/2026-04-01-perros-cruzaron-europa/README
-    title: Los mismos perros cruzaron toda Europa
+    title: "Los mismos perros cruzaron toda Europa"
     sections:
     - file: papers/2026-04-01-perros-cruzaron-europa/notebook
       title: Notebook
   - file: papers/2026-03-26-musica-preferencias-animales/README
-    title: 'Música: preferencias compartidas con animales'
+    title: "Música: preferencias compartidas con animales"
     sections:
     - file: papers/2026-03-26-musica-preferencias-animales/notebook
       title: Notebook
   - file: papers/2026-03-13-pez-imposible-436-millones-anos/README
-    title: Pez imposible de 436 millones de años
+    title: "Pez imposible de 436 millones de años"
     sections:
     - file: papers/2026-03-13-pez-imposible-436-millones-anos/notebook
+      title: Notebook
+  - file: papers/2025-10-30-prism-64-barcodes/README
+    title: "64 canales de ARN en una sola imagen"
+    sections:
+    - file: papers/2025-10-30-prism-64-barcodes/notebook
       title: Notebook
 - caption: Astronomía
   chapters:
@@ -860,15 +860,15 @@ parts:
     sections:
     - file: papers/2026-06-04-masa-agujero-negro-redshift-2/notebook
       title: Notebook
-  - file: papers/2026-05-13-lap1-b-galaxia-reionizacion/README
-    title: "LAP1-B: la galaxia más químicamente primitiva conocida"
-    sections:
-    - file: papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook
-      title: Notebook
   - file: papers/2026-05-13-pair-instability-mass-gap/README
     title: "Agujeros negros donde no deberían existir"
     sections:
     - file: papers/2026-05-13-pair-instability-mass-gap/notebook
+      title: Notebook
+  - file: papers/2026-05-13-lap1-b-galaxia-reionizacion/README
+    title: "LAP1-B: la galaxia más químicamente primitiva conocida"
+    sections:
+    - file: papers/2026-05-13-lap1-b-galaxia-reionizacion/notebook
       title: Notebook
   - file: papers/2026-05-12-diversidad-molecular-biosignatura/README
     title: "Diversidad molecular como biosignatura"
@@ -885,20 +885,10 @@ parts:
     sections:
     - file: papers/2026-05-04-atmosfera-tno-2002-xv93/notebook
       title: Notebook
-  - file: papers/2025-11-20-theia-sistema-solar-interior/README
-    title: "Theia se formó en el Sistema Solar interior"
-    sections:
-    - file: papers/2025-11-20-theia-sistema-solar-interior/notebook
-      title: Notebook
   - file: papers/2026-05-02-asteris-denoising-imagenes-jwst/README
     title: "ASTERIS — denoising IA en imágenes JWST"
     sections:
     - file: papers/2026-05-02-asteris-denoising-imagenes-jwst/notebook
-      title: Notebook
-  - file: papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/README
-    title: "Primera eyección de masa coronal fuera del Sol"
-    sections:
-    - file: papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook
       title: Notebook
   - file: papers/2026-04-17-jet-cygnus-x1-viento-estelar/README
     title: "Jet de Cygnus X-1 doblado por viento estelar"
@@ -916,29 +906,39 @@ parts:
     - file: papers/2026-04-15-acrecion-homogenea-tierra-sistema-solar/notebook
       title: Notebook
   - file: papers/2026-04-04-estrella-pristina-nube-magallanes/README
-    title: Estrella casi prístina de la Nube de Magallanes
+    title: "Estrella casi prístina de la Nube de Magallanes"
     sections:
     - file: papers/2026-04-04-estrella-pristina-nube-magallanes/notebook
       title: Notebook
   - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/README
-    title: 'TRAPPIST-1 b y c: rocas desnudas'
+    title: "TRAPPIST-1 b y c: rocas desnudas"
     sections:
     - file: papers/2026-04-03-trappist-1-sin-atmosfera-jwst/notebook
       title: Notebook
   - file: papers/2026-03-20-adn-bases-asteroide-ryugu/README
-    title: Las 5 bases del ADN en un asteroide
+    title: "Las 5 bases del ADN en un asteroide"
     sections:
     - file: papers/2026-03-20-adn-bases-asteroide-ryugu/notebook
       title: Notebook
   - file: papers/2026-03-19-estrellas-fuera-via-lactea/README
-    title: Estrellas naciendo fuera de la Vía Láctea
+    title: "Estrellas naciendo fuera de la Vía Láctea"
     sections:
     - file: papers/2026-03-19-estrellas-fuera-via-lactea/notebook
+      title: Notebook
+  - file: papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/README
+    title: "Primera eyección de masa coronal fuera del Sol"
+    sections:
+    - file: papers/2026-01-17-primera-eyeccion-estelar-fuera-sol/notebook
       title: Notebook
   - file: papers/2026-01-17-destello-agujero-negro-extremo/README
     title: "Un destello 40 veces más brillante de un agujero negro"
     sections:
     - file: papers/2026-01-17-destello-agujero-negro-extremo/notebook
+      title: Notebook
+  - file: papers/2025-11-20-theia-sistema-solar-interior/README
+    title: "Theia se formó en el Sistema Solar interior"
+    sections:
+    - file: papers/2025-11-20-theia-sistema-solar-interior/notebook
       title: Notebook
 - caption: Química
   chapters:
@@ -963,7 +963,7 @@ parts:
     - file: papers/2026-04-14-membranas-selectivas-litio/notebook
       title: Notebook
   - file: papers/2026-03-17-pfas-fabrican-baterias-litio/README
-    title: 'PFAS: los forever chemicals fabrican baterías'
+    title: "PFAS: los forever chemicals fabrican baterías"
     sections:
     - file: papers/2026-03-17-pfas-fabrican-baterias-litio/notebook
       title: Notebook
@@ -985,7 +985,7 @@ parts:
     - file: papers/2026-07-09-verificacion-tratado-espacial-neutrones/notebook
       title: Notebook
   - file: papers/2026-03-11-diamante-hexagonal-meteoritos/README
-    title: 'Diamante hexagonal: el cristal de los meteoritos'
+    title: "Diamante hexagonal: el cristal de los meteoritos"
     sections:
     - file: papers/2026-03-11-diamante-hexagonal-meteoritos/notebook
       title: Notebook
@@ -1101,25 +1101,20 @@ parts:
     sections:
     - file: papers/2026-05-19-ia-software-cientifico-experto/notebook
       title: Notebook
-  - file: papers/2026-05-14-cobre-corrosion-catecol/README
-    title: "Imprimir circuitos de cobre a 150 °C"
+  - file: papers/2026-05-14-zeolitas-agua-aire/README
+    title: "Cómo una membrana flexible saca agua del aire 5 veces más rápido"
     sections:
-    - file: papers/2026-05-14-cobre-corrosion-catecol/notebook
+    - file: papers/2026-05-14-zeolitas-agua-aire/notebook
       title: Notebook
   - file: papers/2026-05-14-perovskita-ia-multiagente-100c/README
     title: "Perovskita estable a 100°C: una IA de cuatro agentes encontró la receta"
     sections:
     - file: papers/2026-05-14-perovskita-ia-multiagente-100c/notebook
       title: Notebook
-  - file: papers/2026-04-30-llm-razonamiento-medico/README
-    title: "¿Está la IA superando a los médicos en razonamiento clínico?"
+  - file: papers/2026-05-14-cobre-corrosion-catecol/README
+    title: "Imprimir circuitos de cobre a 150 °C"
     sections:
-    - file: papers/2026-04-30-llm-razonamiento-medico/notebook
-      title: Notebook
-  - file: papers/2026-05-14-zeolitas-agua-aire/README
-    title: "Cómo una membrana flexible saca agua del aire 5 veces más rápido"
-    sections:
-    - file: papers/2026-05-14-zeolitas-agua-aire/notebook
+    - file: papers/2026-05-14-cobre-corrosion-catecol/notebook
       title: Notebook
   - file: papers/2026-05-13-llm-control-estatal-medios/README
     title: "LLMs y control estatal de medios"
@@ -1136,11 +1131,6 @@ parts:
     sections:
     - file: papers/2026-05-08-llm-evade-anti-bots-encuestas/notebook
       title: Notebook
-  - file: papers/2026-05-06-tiktok-sesgo-republicano/README
-    title: "El feed de TikTok favorece sistemáticamente a Republicanos en EE.UU."
-    sections:
-    - file: papers/2026-05-06-tiktok-sesgo-republicano/notebook
-      title: Notebook
   - file: papers/2026-04-16-super-nano-domains-copper-foils/README
     title: "Super-nano dominios en láminas de cobre — fuerza y conductividad sin sacrificar ninguna"
     sections:
@@ -1151,50 +1141,45 @@ parts:
     sections:
     - file: papers/2026-05-02-ai-multiagente-catalizadores-agua/notebook
       title: Notebook
+  - file: papers/2026-04-30-llm-razonamiento-medico/README
+    title: "¿Está la IA superando a los médicos en razonamiento clínico?"
+    sections:
+    - file: papers/2026-04-30-llm-razonamiento-medico/notebook
+      title: Notebook
   - file: papers/2026-04-29-warm-models-sycophancy/README
     title: "Modelos cálidos: más errores cuando más importa"
     sections:
     - file: papers/2026-04-29-warm-models-sycophancy/notebook
-      title: Notebook
-  - file: papers/2026-01-17-evo-syngenome-120mil-genes-ia/README
-    title: "El gen anti-CRISPR diseñado por una IA que supera al control humano"
-    sections:
-    - file: papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook
       title: Notebook
   - file: papers/2026-04-29-panopact-metabolismo-cuerpo-completo/README
     title: "25 imágenes por segundo revelan el metabolismo de un cuerpo completo"
     sections:
     - file: papers/2026-04-29-panopact-metabolismo-cuerpo-completo/notebook
       title: Notebook
-  - file: papers/2026-04-22-vidrio-metalico-resistencia-ceramica/README
-    title: "Un vidrio con la fuerza del diamante y la tenacidad de un metal"
-    sections:
-    - file: papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook
-      title: Notebook
   - file: papers/2026-04-27-pirimidona-dewar-energia-solar/README
     title: "1,65 MJ/kg en una pirimidona: cinco veces más densidad que el azobenceno"
     sections:
     - file: papers/2026-04-27-pirimidona-dewar-energia-solar/notebook
       title: Notebook
-  - file: papers/2026-04-23-nanonets-amiloide-nanoplasticos/README
-    title: "Una red biohíbrida que se mueve y captura nanoplásticos"
+  - file: papers/2026-04-24-robot-tenis-mesa-elite/README
+    title: "Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa"
     sections:
-    - file: papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook
+    - file: papers/2026-04-24-robot-tenis-mesa-elite/notebook
       title: Notebook
   - file: papers/2026-04-23-nanotubos-carbono-conductividad/README
     title: "Nanotubos al 41% del cobre con la mitad del peso"
     sections:
     - file: papers/2026-04-23-nanotubos-carbono-conductividad/notebook
       title: Notebook
-  - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/README
-    title: "¿Puede una IA entender el mundo sin haberlo vivido?"
+  - file: papers/2026-04-23-nanonets-amiloide-nanoplasticos/README
+    title: "Una red biohíbrida que se mueve y captura nanoplásticos"
     sections:
-    - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook
+    - file: papers/2026-04-23-nanonets-amiloide-nanoplasticos/notebook
       title: Notebook
-  - file: papers/2026-04-24-robot-tenis-mesa-elite/README
-    title: "Un robot le ganó 3 de 5 partidos a jugadores de élite en tenis de mesa"
+  - file: papers/2026-04-22-vidrio-metalico-resistencia-ceramica/README
+    title: "Un vidrio con la fuerza del diamante y la tenacidad de un metal"
     sections:
-    - file: papers/2026-04-24-robot-tenis-mesa-elite/notebook
+    - file: papers/2026-04-22-vidrio-metalico-resistencia-ceramica/notebook
       title: Notebook
   - file: papers/2026-04-21-vapor-agua-termitero-industrial/README
     title: "Un termitero inspira cómo recuperar 83% del vapor industrial"
@@ -1217,71 +1202,81 @@ parts:
     - file: papers/2026-04-14-celulas-solares-perovskita-ia-autonoma/notebook
       title: Notebook
   - file: papers/2026-04-08-busgen-ecografia-mama-ia/README
-    title: IA con imágenes inventadas vs 9 radiólogos
+    title: "IA con imágenes inventadas vs 9 radiólogos"
     sections:
     - file: papers/2026-04-08-busgen-ecografia-mama-ia/notebook
       title: Notebook
-  - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/README
-    title: 'Evo 2: IA que lee todo el ADN de la vida'
-    sections:
-    - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook
-      title: Notebook
   - file: papers/2026-04-05-robustez-analitica-ciencias-sociales/README
-    title: ¿Se puede confiar en un solo análisis?
+    title: "¿Se puede confiar en un solo análisis?"
     sections:
     - file: papers/2026-04-05-robustez-analitica-ciencias-sociales/notebook
       title: Notebook
   - file: papers/2026-04-05-replicabilidad-ciencias-sociales/README
-    title: ¿Se puede replicar la ciencia social?
+    title: "¿Se puede replicar la ciencia social?"
     sections:
     - file: papers/2026-04-05-replicabilidad-ciencias-sociales/notebook
       title: Notebook
   - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/README
-    title: ¿Se puede confiar en la ciencia social?
+    title: "¿Se puede confiar en la ciencia social?"
     sections:
     - file: papers/2026-04-04-reproducibilidad-ciencias-sociales/notebook
       title: Notebook
   - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/README
-    title: La IA aduladora reduce la intención prosocial
+    title: "La IA aduladora reduce la intención prosocial"
     sections:
     - file: papers/2026-04-04-ia-aduladora-reduce-intencion-prosocial/notebook
       title: Notebook
   - file: papers/2026-04-02-ia-scientist-paper-autonomo/README
-    title: ¿Puede una IA revisar papers como un humano?
+    title: "¿Puede una IA revisar papers como un humano?"
     sections:
     - file: papers/2026-04-02-ia-scientist-paper-autonomo/notebook
       title: Notebook
   - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/README
-    title: 74 antibióticos imposibles de encontrar
+    title: "74 antibióticos imposibles de encontrar"
     sections:
     - file: papers/2026-03-31-antibioticos-imposibles-ia-proteinas/notebook
       title: Notebook
   - file: papers/2026-03-20-reloj-predice-diabetes/README
-    title: Tu reloj ya predice diabetes tipo 2
+    title: "Tu reloj ya predice diabetes tipo 2"
     sections:
     - file: papers/2026-03-20-reloj-predice-diabetes/notebook
       title: Notebook
   - file: papers/2026-03-12-ia-pronostico-aerosoles/README
-    title: IA destruye décadas de pronósticos del aire
+    title: "IA destruye décadas de pronósticos del aire"
     sections:
     - file: papers/2026-03-12-ia-pronostico-aerosoles/notebook
       title: Notebook
+  - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/README
+    title: "Evo 2: IA que lee todo el ADN de la vida"
+    sections:
+    - file: papers/2026-03-09-evo2-ia-adn-escribir-vida/notebook
+      title: Notebook
+  - file: papers/2026-01-17-evo-syngenome-120mil-genes-ia/README
+    title: "El gen anti-CRISPR diseñado por una IA que supera al control humano"
+    sections:
+    - file: papers/2026-01-17-evo-syngenome-120mil-genes-ia/notebook
+      title: Notebook
+  - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/README
+    title: "¿Puede una IA entender el mundo sin haberlo vivido?"
+    sections:
+    - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook
+      title: Notebook
 - caption: Psicología
   chapters:
-  - file: papers/2026-06-03-cooperation-equality-public-goods/README
-    title: "Cooperación vs. igualdad al repartir bienes públicos"
+  - file: papers/2026-06-07-trabajo-remoto-soledad-mental/README
+    title: "¿El trabajo remoto te deja solo?"
     sections:
-    - file: papers/2026-06-03-cooperation-equality-public-goods/notebook
+    - file: papers/2026-06-07-trabajo-remoto-soledad-mental/notebook
       title: Notebook
   - file: papers/2026-06-07-homo-cooperans-cooperacion-global/README
     title: "Somos más cooperativos de lo que creemos"
     sections:
     - file: papers/2026-06-07-homo-cooperans-cooperacion-global/notebook
       title: Notebook
-  - file: papers/2026-06-07-trabajo-remoto-soledad-mental/README
-    title: "¿El trabajo remoto te deja solo?"
+  - file: papers/2026-06-03-cooperation-equality-public-goods/README
+    title: "Cooperación vs. igualdad al repartir bienes públicos"
     sections:
-    - file: papers/2026-06-07-trabajo-remoto-soledad-mental/notebook
+    - file: papers/2026-06-03-cooperation-equality-public-goods/notebook
       title: Notebook
   - file: papers/2026-04-28-castigo-cooperacion-bienes-publicos/README
     title: "El castigo no siempre promueve cooperación: depende mucho de las reglas"
@@ -1289,7 +1284,7 @@ parts:
     - file: papers/2026-04-28-castigo-cooperacion-bienes-publicos/notebook
       title: Notebook
   - file: papers/2026-04-22-punctuated-decline-cooperation/README
-    title: La cooperación cae cada vez más rápido
+    title: "La cooperación cae cada vez más rápido"
     sections:
     - file: papers/2026-04-22-punctuated-decline-cooperation/notebook
       title: Notebook
