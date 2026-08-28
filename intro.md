@@ -12,6 +12,8 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 ## Notebooks
 
+<!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
+
 ### [Chosha praecursor: 26 caracteres para decidir el insecto más antiguo](papers/2026-08-26-chosha-praecursor/README.md)
 
 **Biología** · *Nature* (2026) · Un fósil del Carbonífero en Texas con patas abdominales en forma de remo. De los 58 caracteres de la matriz filogenética aporta **26** — el mejor de los 5 fósiles. **El hallazgo:** el test de topologías de los propios autores rechaza las **3** ubicaciones que sacan a *Chosha* de Hexapoda (p = 0,0259 / 0,0153 / 0,0146), pero **no rechaza** la alternativa "hexápodo fuera de Insecta" (**p = 0,1945**). Por eso el abstract dice *strongly favouring* y no *demonstrates*. El fósil conserva **75,8 %** de la anatomía externa y **4,0 %** de la interna o blanda: nervioso, respiratorio, circulatorio y digestivo van a cero. ⚠️ El soporte del grupo de 4 fósiles pasa de **91,9 %** bayesiano a **20,0 %** de remuestreo sobre los mismos datos — dos métricas distintas, veredictos opuestos. ⚠️ La datación de **324 millones de años** y el modo de vida semiacuático **no están** en los datos publicados.
@@ -1873,6 +1875,8 @@ El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1.
 [Ver notebook](papers/2026-03-11-diamante-hexagonal-meteoritos/notebook) · [Leer más](papers/2026-03-11-diamante-hexagonal-meteoritos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-11-diamante-hexagonal-meteoritos/notebook.ipynb)
 
 ---
+
+<!-- LAB-INDEX:END -->
 
 ## ¿Cómo funciona?
 

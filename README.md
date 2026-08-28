@@ -8,6 +8,8 @@ Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://cienciaamo
 
 ## Papers
 
+<!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
+
 | Fecha | Paper | Categoría | Notebook | Colab |
 |-------|-------|-----------|----------|-------|
 | [Chosha praecursor: 26 caracteres para decidir el insecto más antiguo](papers/2026-08-26-chosha-praecursor/README.md) | Biología | Nature | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-08-26-chosha-praecursor/notebook.ipynb) |
@@ -261,6 +263,8 @@ Investigaciones reproducibles del canal [Ciencia a Mordiscos](https://cienciaamo
 | 2026-03-11 | [Crearon el diamante imposible que solo existía en meteoritos](papers/2026-03-11-diamante-hexagonal-meteoritos/) | Física | [Abrir](papers/2026-03-11-diamante-hexagonal-meteoritos/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-03-11-diamante-hexagonal-meteoritos/notebook.ipynb) |
 | 2026-02-27 | [Las Olas de Calor Cambian 176% la Vida en el Océano](papers/2026-02-27-olas-calor-biomasa-peces-oceano/) | Ecología | [Abrir](papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-02-27-olas-calor-biomasa-peces-oceano/notebook.ipynb) |
 | 2025-10-30 | [Una cámara grabó un terremoto desde la falla](papers/2025-10-30-terremoto-cctv-falla-myanmar/) | Geología | [Abrir](papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook.ipynb) |
+
+<!-- LAB-INDEX:END -->
 
 ## Cómo usar
 
