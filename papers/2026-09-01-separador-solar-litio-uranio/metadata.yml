@@ -1,0 +1,54 @@
+titulo: "Sol, agua de mar y una torre de seis pisos"
+titulo_corto: "Separador solar de litio y uranio"
+card_descripcion: |
+  El resumen anuncia 11,6 veces más uranio bajo un sol de laboratorio. Los datos
+  publicados dicen 11,5x — y que son dos efectos multiplicándose: ×3,27 por la luz
+  y ×3,51 por apilar seis cámaras. ⚠️ Todo medido en solución dopada con 2,5 mg/L,
+  unas 750 veces el uranio real del mar; sin dopar la mejora baja a 1,6x. ⚠️ Y en
+  la jornada exterior de Shenzhen ninguna de las 389 mediciones de sol llegó al
+  «1 sol» de referencia.
+fecha: 2026-09-01
+categoria: tecnología
+tags: [energía solar, desalinización, litio, uranio, materiales, agua]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s44221-026-00700-2"
+    titulo: "Solar-powered resource separator for clean water production, electricity generation and critical resource recovery"
+    journal: Nature Water
+    autores: "Yu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ac_vs_irradiancia.csv"
+    descripcion: "Capacidad de adsorción monoetapa frente al flujo solar (0-1,5 soles)"
+    fuente: "Source Data (MOESM2), Fig. 3b"
+  - nombre: "rendimiento_por_etapas.csv"
+    descripcion: "Agua, electricidad y captura para 1-6 cámaras bajo 1 sol"
+    fuente: "Source Data (MOESM2), Fig. 3c y 3d"
+  - nombre: "ciclos_estabilidad.csv"
+    descripcion: "20 ciclos de ~2 días en agua de mar dopada"
+    fuente: "Source Data (MOESM2), Fig. 3e"
+  - nombre: "dia_exterior.csv"
+    descripcion: "Jornada exterior en Shenzhen, 5 ventanas de 2 h, agua de mar sin dopar"
+    fuente: "Source Data (MOESM2), Fig. 5b"
+  - nombre: "flujo_solar_exterior.csv"
+    descripcion: "Flujo solar de esa jornada, 389 mediciones"
+    fuente: "Source Data (MOESM2), Fig. 5b"
+  - nombre: "camaras_agua_natural.csv"
+    descripcion: "Temperatura y captura por cámara en agua de mar natural, 7 días"
+    fuente: "Supplementary Table 4 (MOESM1)"
+  - nombre: "contribucion_campos.csv"
+    descripcion: "Reparto de la mejora entre los campos físicos, por cámara"
+    fuente: "Source Data (MOESM2), Fig. 4e"
+  - nombre: "campos_delta_ac.csv"
+    descripcion: "Aporte de cada campo físico a 0,5 / 1,0 / 1,5 soles"
+    fuente: "Source Data (MOESM2), Fig. 4a-4c"
+  - nombre: "ingreso_neto_anual.csv"
+    descripcion: "Ingreso neto anual modelado según la vida útil de la mecha capilar"
+    fuente: "Source Data (MOESM2), Fig. 5h"
+  - nombre: "gwp_vida_util.csv"
+    descripcion: "Huella de carbono y su reducción según la vida útil de la mecha"
+    fuente: "Source Data (MOESM2), Fig. 5j"
+estado: publicado

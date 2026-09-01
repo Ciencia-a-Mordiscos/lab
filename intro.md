@@ -14,6 +14,19 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Sol, agua de mar y una torre de seis pisos
+
+**Tecnología** · *Nature Water* · El resumen anuncia 11,6 veces más uranio bajo un sol de laboratorio. Los datos
+publicados dicen 11,5x — y que son dos efectos multiplicándose: ×3,27 por la luz
+y ×3,51 por apilar seis cámaras. ⚠️ Todo medido en solución dopada con 2,5 mg/L,
+unas 750 veces el uranio real del mar; sin dopar la mejora baja a 1,6x. ⚠️ Y en
+la jornada exterior de Shenzhen ninguna de las 389 mediciones de sol llegó al
+«1 sol» de referencia.
+
+[Ver notebook](papers/2026-09-01-separador-solar-litio-uranio/notebook) · [Leer más](papers/2026-09-01-separador-solar-litio-uranio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-01-separador-solar-litio-uranio/notebook.ipynb)
+
+---
+
 ### Chosha praecursor: 26 caracteres para decidir el insecto más antiguo
 
 **Biología** · *Nature* · Un fósil del Carbonífero en Texas con patas abdominales en forma de remo. De los 58 caracteres de la matriz filogenética aporta **26** — el mejor de los 5 fósiles. **El hallazgo:** el test de topologías de los propios autores rechaza las **3** ubicaciones que sacan a *Chosha* de Hexapoda (p = 0,0259 / 0,0153 / 0,0146), pero **no rechaza** la alternativa "hexápodo fuera de Insecta" (**p = 0,1945**). Por eso el abstract dice *strongly favouring* y no *demonstrates*. El fósil conserva **75,8 %** de la anatomía externa y **4,0 %** de la interna o blanda: nervioso, respiratorio, circulatorio y digestivo van a cero. ⚠️ El soporte del grupo de 4 fósiles pasa de **91,9 %** bayesiano a **20,0 %** de remuestreo sobre los mismos datos — dos métricas distintas, veredictos opuestos. ⚠️ La datación de **324 millones de años** y el modo de vida semiacuático **no están** en los datos publicados.

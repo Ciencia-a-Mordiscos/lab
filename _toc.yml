@@ -991,6 +991,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-09-01-separador-solar-litio-uranio/README
+    title: "Separador solar de litio y uranio"
+    sections:
+    - file: papers/2026-09-01-separador-solar-litio-uranio/notebook
+      title: Notebook
   - file: papers/2026-08-17-robot-endovascular-cilios-flujo/README
     title: "Un robot con cilios que destapa arterias"
     sections:

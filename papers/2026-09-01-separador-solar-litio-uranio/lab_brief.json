@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "paper_id": 2922,
+  "doi": "10.1038/s44221-026-00700-2",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Bajo 1 sol y con 6 cámaras, la captura de uranio es 11,5 veces la de una cámara a oscuras",
+      "supported": "yes",
+      "detail": "Recomputado del Source Data: 5,06/0,44 g m-2 = 11,50. El resumen del paper dice 11,6x (0,9% de desvío). Litio: 7,17/0,71 = 10,10 frente a 10,2x. Medido en solución dopada con 2,5 mg/L, no en agua de mar.",
+      "certainty_tier": "T1",
+      "abstract_verb": "increases by up to",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El salto se parte en un factor de luz (x3,27) y uno de etapas (x3,51)",
+      "supported": "yes",
+      "detail": "Luz x3,27 y etapas x3,51 (uranio); x3,11 y x3,24 (litio). Que el producto dé 11,50 es una identidad algebraica, no prueba de independencia: faltan 6 cámaras medidas a oscuras.",
+      "certainty_tier": "T1",
+      "abstract_verb": "increases by up to",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El párrafo de resultados del paper reporta otros valores para el mismo salto que su propio resumen",
+      "supported": "yes",
+      "detail": "El cuerpo dice 10,6x y 9,2x; el resumen dice 11,6x y 10,2x. Los datos publicados cuadran con el resumen a menos del 1%.",
+      "certainty_tier": "T1",
+      "abstract_verb": "increases by up to",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Seis cámaras triplican el agua con una caída eléctrica del 2,0%",
+      "supported": "yes",
+      "detail": "1,26 -> 4,01 kg m-2 h-1 (+218%) mientras la salida cae 124,6 -> 122,1 W m-2. Ganancia marginal decreciente: +1,01 en la 2a cámara, +0,17 en la 6a.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La captura cae piso por piso conforme la cadena se enfría, en agua de mar natural",
+      "supported": "yes",
+      "detail": "42,6 -> 27,5 °C y x3,62 (uranio) y x3,34 (litio) entre la cámara 1 y la 6. Spearman rho = 1,00 con n = 6 cámaras del mismo aparato: descriptivo, no contraste de hipótesis.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En 20 ciclos (~40 días) hay una degradación leve pero sistemática",
+      "supported": "partial",
+      "detail": "El uranio cae 2,8% y el litio 2,7% con tendencia monótona (Spearman rho = -0,95 y -0,99 frente al número de ciclo). El agua no muestra tendencia (rho = -0,14, p = 0,55). En agua de mar dopada.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En la jornada exterior el pico fue de 154,7 W m-2 y el día dio 19,82 kg m-2 de agua",
+      "supported": "yes",
+      "detail": "Ambos en el Source Data. El resumen escribe el pico como «154,7 W» sin superficie; el SI declara que el separador mide ~1 m2 y su panel fotovoltaico 0,192 m2, y reporta la jornada ya normalizada en 1,02 kWh m-2. La suma de las 5 ventanas da 20,04 kg m-2 contra 19,82 reportado (1,1%).",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El sol de esa jornada nunca alcanzó el «1 sol» del laboratorio",
+      "supported": "yes",
+      "detail": "0 de 389 mediciones >= 1,0 kW m-2. Media 0,518, mediana 0,572, RIC 0,389-0,707, máximo 0,760 kW m-2.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El aparato rinde un ingreso neto anual superior a US$20 m-2",
+      "supported": "partial",
+      "detail": "Es un modelo económico, no un ingreso medido. Con mechas capilares de 1 año son US$4,16 m-2; los US$20 solo se cruzan a partir de 18 años de vida útil, que el paper describe como objetivo de diseño y no como vida demostrada.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En agua de mar sin dopar la mejora baja a 1,6x (uranio) y 2,7x (litio)",
+      "supported": "partial",
+      "detail": "Tomado del material suplementario citado en el cuerpo (Fig. 37). No se pudo recomputar: esos datos no vienen en el Source Data.",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 11.5,
+      "unit": "veces",
+      "context": "mejora de captura de uranio, 6 cámaras bajo 1 sol frente a 1 cámara a oscuras, en solución dopada de 2,5 mg/L",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "11.6x",
+        "our_calculation": "11.50x",
+        "discrepancy_pct": 0.9,
+        "reason": "el cuerpo del paper reporta 10,6x; el resumen y los datos coinciden"
+      }
+    },
+    {
+      "value": 10.1,
+      "unit": "veces",
+      "context": "mejora de captura de litio en las mismas condiciones",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "10.2x",
+        "our_calculation": "10.10x",
+        "discrepancy_pct": 1.0,
+        "reason": "el cuerpo del paper reporta 9,2x"
+      }
+    },
+    {
+      "value": 3.27,
+      "unit": "veces",
+      "context": "factor atribuible solo a la luz (1 cámara: oscuridad -> 1 sol), uranio",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3.3x",
+        "our_calculation": "3.27x",
+        "discrepancy_pct": 0.9
+      }
+    },
+    {
+      "value": 3.51,
+      "unit": "veces",
+      "context": "factor atribuible solo a apilar etapas (1 -> 6 cámaras bajo 1 sol), uranio",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3.5x",
+        "our_calculation": "3.51x",
+        "discrepancy_pct": 0.3
+      }
+    },
+    {
+      "value": 218,
+      "unit": "por ciento",
+      "context": "aumento de producción de agua al pasar de 1 a 6 cámaras (1,26 -> 4,01 kg m-2 h-1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 154.7,
+      "unit": "vatios por metro cuadrado",
+      "context": "pico de salida eléctrica en la jornada exterior de Shenzhen",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "154.7 W",
+        "our_calculation": "154.7 W m-2",
+        "discrepancy_pct": 0.0,
+        "reason": "el resumen omite la superficie; el SI declara ~1 m2 de aparato"
+      }
+    },
+    {
+      "value": 19.82,
+      "unit": "kilogramos por metro cuadrado",
+      "context": "agua recogida en la jornada exterior de 10 h",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "19.82",
+        "our_calculation": "20.04",
+        "discrepancy_pct": 1.1,
+        "reason": "la suma de las 5 ventanas da 20,04; las 4 primeras coinciden exactas"
+      }
+    },
+    {
+      "value": 0,
+      "unit": "mediciones",
+      "context": "cuántas de las 389 lecturas de sol de la jornada alcanzaron el 1 sol de laboratorio (1,0 kW m-2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.16,
+      "unit": "dólares por metro cuadrado y año",
+      "context": "ingreso neto modelado si la mecha capilar dura 1 año, frente a los US$20 del resumen",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "20.12 (a 20 años)",
+        "our_calculation": "4.16 (a 1 año)",
+        "reason": "el umbral de US$20 solo se cruza a los 18 años de vida útil"
+      }
+    },
+    {
+      "value": 750,
+      "unit": "veces",
+      "context": "cuánto más uranio tiene la solución dopada de 2,5 mg/L que el agua de mar real (3,33 ug/L)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "propose",
+      "tier": "T2",
+      "cam_attenuator": "'proponen' — no presentar como hecho"
+    },
+    {
+      "abstract_verb": "increases by up to",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con el número exacto Y el medio de medición al lado"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'el análisis económico sugiere' — no es un ingreso medido"
+    },
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "'presentan' / 'construyeron'"
+    },
+    {
+      "abstract_verb": "promising pathway",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que abre una vía' — nunca 'revolución' ni 'salto'"
+    }
+  ],
+  "narrative_hooks": [
+    "Las 11,5 veces más uranio no son un efecto: son dos multiplicándose, la luz (x3,27) y las etapas (x3,51).",
+    "El sol con el que se midió todo el paper nunca salió: ninguna de las 389 lecturas de la jornada real llegó a 1 kW m-2, y la media fue la mitad.",
+    "El titular se midió en agua con 750 veces más uranio del que tiene el mar; sin dopar, la mejora baja de 11,5x a 1,6x.",
+    "Cada cámara vive del calor sobrante de la anterior, así que la de abajo trabaja 15 grados más fría y capta 3,6 veces menos.",
+    "Los US$20 al año del resumen suponen mechas capilares de 18 años; con mechas de 1 año son US$4,16."
+  ],
+  "limitations": [
+    "El titular (11,5x) se midió en solución dopada con 2,5 mg/L, unas 750 veces el uranio real del mar (3,33 ug/L) y 14 veces su litio.",
+    "La captura absoluta en agua de mar real es diminuta: 2,63 umol m-2 de uranio y 4,50 mmol m-2 de litio.",
+    "La descomposición por campos físicos es semi-cuantitativa por declaración de los propios autores: los campos están acoplados de forma no lineal.",
+    "El gradiente por cámara viene de una tabla suplementaria transcrita, n = 6 cámaras de un solo aparato, y su base de m-2 no está declarada.",
+    "El ingreso anual es un modelo dominado por un parámetro no medido: la vida útil de la mecha capilar.",
+    "Todo lo cuantitativo es un prototipo, en un patio, durante un día; no hay instalación en operación.",
+    "El paper se contradice consigo mismo: su cuerpo reporta 10,6x y 9,2x donde su resumen y sus datos dicen 11,6x y 10,2x."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados como 'yes' y 10 números clave: script denso"
+  },
+  "notebook_slug": "2026-09-01-separador-solar-litio-uranio",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-01-separador-solar-litio-uranio/notebook.html",
+  "generated_at": "2026-09-01T11:00:12-05:00"
+}
