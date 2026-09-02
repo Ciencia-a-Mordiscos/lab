@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "paper_id": 2942,
+  "doi": "10.1038/s41586-026-10952-3",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "in_vitro",
+  "verification_table": [
+    {
+      "claim": "STV-C8 necesita muchísimo menos ARN que una nanopartícula lipídica para producir la misma señal",
+      "supported": "yes",
+      "detail": "12.991 veces menos (10,5 pg contra 136.673 pg por unidad de señal). d de Cohen = 24,0. n=3 vs 3: el p de Mann-Whitney da 0,1 porque ese es el mínimo posible con ese tamaño, no porque falte diferencia; la evidencia es la magnitud",
+      "certainty_tier": "T1",
+      "abstract_verb": "surpass",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 24.01,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "La curva dosis-respuesta de STV-C8 está desplazada más de mil veces respecto a la nanopartícula lipídica",
+      "supported": "yes",
+      "detail": "2.294 veces en la dosis que enciende la mitad de las células (0,76 pg contra 1.743 pg), n=3 por punto. Es el claim de la Fig. 2g, distinto del anterior (Ext. Data Fig. 6h)",
+      "certainty_tier": "T1",
+      "abstract_verb": "surpass",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "ratio_de50",
+        "value": 2294.0,
+        "interpretation": "tres órdenes de magnitud"
+      }
+    },
+    {
+      "claim": "La jaula ganadora entrega 10,7 veces más ARN que el andamio icosaédrico de referencia",
+      "supported": "yes",
+      "detail": "Razón de medias 10,75 (10,77 contra 1,00). Mann-Whitney p = 0,0022; d de Cohen = 15,1 con n=6 vs 6",
+      "certainty_tier": "T1",
+      "abstract_verb": "create",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 15.13,
+        "interpretation": "muy grande"
+      }
+    },
+    {
+      "claim": "Poner una jaula de proteína diseñada por IA es mejor que no poner ninguna",
+      "supported": "yes",
+      "detail": "36 de 39 jaulas superan al control «no cage» en entrega de ARN",
+      "certainty_tier": "T1",
+      "abstract_verb": "create",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "conteo",
+        "value": 36,
+        "interpretation": "36 de 39"
+      }
+    },
+    {
+      "claim": "La forma icosaédrica, a la que converge casi cualquier cápside viral, no es la mejor en este ensayo",
+      "supported": "partial",
+      "detail": "HE0902 queda 28ª de 39 en entrega y 2ª de 39 en liberación. Es un resultado de este ensayo y con estos dominios fusionados; no dice que la cápside viral sea mala como virus",
+      "certainty_tier": "T2",
+      "abstract_verb": "investigate",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "rango",
+        "value": 28,
+        "interpretation": "28 de 39"
+      }
+    },
+    {
+      "claim": "Salir bien de la célula productora predice solo en parte entregar bien el ARN",
+      "supported": "partial",
+      "detail": "rho de Spearman = 0,60 (liberación → entrega) y 0,63 (captación → entrega) sobre 39 jaulas. Correlación moderada: hay jaulas que rompen el patrón en ambas direcciones. Spearman y no Pearson porque Shapiro rechaza normalidad (p = 0,0046 y 0,0007)",
+      "certainty_tier": "T2",
+      "abstract_verb": "investigate",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.6,
+        "interpretation": "moderada"
+      }
+    },
+    {
+      "claim": "El paper construyó más de 100 vehículos, pero el cribado reproducido aquí tiene 39 jaulas",
+      "supported": "partial",
+      "detail": "El abstract habla de «más de 100»; los paneles de la Fig. 1 contienen 39 constructos más el control. El resto son variantes que no están en estos datos",
+      "certainty_tier": "T1",
+      "abstract_verb": "create",
+      "supported_by_data": true,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 12991,
+      "unit": "veces",
+      "context": "menos ARN por unidad de señal que una nanopartícula lipídica",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "more than 10,000-fold lower",
+        "our_calculation": "12.991x",
+        "discrepancy_pct": 0.0,
+        "reason": "razón de medias, n=3; coincide con el «más de 10.000» del paper"
+      }
+    },
+    {
+      "value": 2294,
+      "unit": "veces",
+      "context": "desplazamiento de la dosis que enciende la mitad de las células (Fig. 2g)",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "more than 1,000-fold higher",
+        "our_calculation": "2.294x",
+        "discrepancy_pct": 0.0,
+        "reason": "interpolación del 50 % en log10; el paper reporta «más de 1.000»"
+      }
+    },
+    {
+      "value": 10.7,
+      "unit": "veces",
+      "context": "más ARN entregado por HE0690 (STV-C8) que por el andamio icosaédrico HE0902",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 39,
+      "unit": "jaulas",
+      "context": "constructos del cribado de la Fig. 1, más un control «no cage»",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 36,
+      "unit": "de 39",
+      "context": "jaulas que superan al control sin jaula en entrega de ARN",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 28,
+      "unit": "de 39",
+      "context": "puesto del andamio icosaédrico HE0902 en entrega (2º de 39 en liberación)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.6,
+      "unit": "rho de Spearman",
+      "context": "correlación entre liberación y entrega sobre las 39 jaulas (0,63 para captación)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 91.3,
+      "unit": "por ciento",
+      "context": "células encendidas por STV-C8 con 1 µl, contra 3,3 % de EPN, 2,4 % de VLP y 1,4 % de SEND",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "confirm",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, acotada a un solo ratón"
+    },
+    {
+      "abstract_verb": "surpass",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa sobre lo medido en cultivo"
+    }
+  ],
+  "narrative_hooks": [
+    "Los virus llevan miles de millones de años metiendo ARN en células ajenas y casi todos llegaron a la misma forma. Una IA dibujó otra, y gasta 12.991 veces menos ARN.",
+    "El andamio con forma de cápside viral es el segundo mejor de 39 saliendo de la célula, y el 28º entregando: es excelente saliendo de casa y mediocre haciendo el trabajo.",
+    "36 de 39 jaulas diseñadas por IA funcionan mejor que no poner jaula ninguna."
+  ],
+  "limitations": [
+    "Todo lo graficado en el notebook es cultivo celular (HEK293T y células reporteras); no hay pacientes en ninguna gráfica.",
+    "La comparación del titular (Ext. Data Fig. 6h) y la curva dosis-respuesta (Fig. 2g) van con n=3.",
+    "Con n=3 vs 3 el p mínimo alcanzable por Mann-Whitney es 0,1: el contraste no tiene resolución y la evidencia es la magnitud.",
+    "Las señales del cribado son relativas a HE0902, no eficiencias absolutas ni porcentajes de células.",
+    "Siete constructos quedan con 5 réplicas en vez de 6 en alguno de los tres paneles.",
+    "Los tres paneles del cribado traen los constructos en orden distinto; el cruce va por nombre, nunca por posición.",
+    "La simetría de los constructos no está en los datos fuente: solo cinco la tienen declarada en el texto del paper.",
+    "El ratón, el cerdo y las células de paciente con Duchenne son un animal por experimento y no están en estos datos."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims soportados y 3 parciales, con 8 números clave"
+  },
+  "notebook_slug": "2026-09-02-vehiculos-arn-proteinas-ia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-02-vehiculos-arn-proteinas-ia/notebook.html",
+  "generated_at": "2026-09-02T18:51:50.620564-05:00"
+}

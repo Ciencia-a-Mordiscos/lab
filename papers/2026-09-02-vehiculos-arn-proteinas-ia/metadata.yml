@@ -1,0 +1,55 @@
+titulo: "Una IA diseñó un envase para ARN que ningún virus inventó"
+titulo_corto: "Vehículos de ARN diseñados por IA"
+card_descripcion: |
+  Los virus llevan miles de millones de años metiendo material genético en
+  células ajenas, y casi todos convergieron en la misma forma de cápsula. Un
+  equipo probó si esa convergencia era el techo: cribaron 39 jaulas de proteína
+  dibujadas por modelos generativos, midiendo tres pasos encadenados (salir de
+  la célula productora, llegar a la diana, entregar el ARN). La ganadora gasta
+  12.991 veces menos ARN que una nanopartícula lipídica para la misma señal, y
+  entrega 10,7 veces más que el andamio icosaédrico — que en este ensayo queda
+  28º de 39. ⚠️ Todo lo graficado aquí es cultivo celular, con n=3 en la
+  comparación del titular. ⚠️ La cadena entre pasos es floja: ρ ≈ 0,60 sobre 39
+  jaulas, así que salir bien de casa no garantiza entregar bien.
+fecha: 2026-09-02
+categoria: biologia
+tags: [proteinas, inteligencia-artificial, arn, diseno-de-proteinas, virus, terapia-genica]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10952-3"
+    titulo: "Creating bottom-up RNA transfer vehicles from synthetic protein assemblies"
+    journal: Nature
+    autores: "Schuhmacher et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "screening_liberacion.csv"
+    descripcion: "Señal HiBiT en el sobrenadante: cuánto vehículo sale de la célula productora (39 jaulas + control, n=6)"
+    fuente: "Source Data del artículo (Fig. 1f)"
+  - nombre: "screening_captacion.csv"
+    descripcion: "Reconstitución de NanoLuc en la célula diana: cuánto vehículo llega (n=6)"
+    fuente: "Source Data del artículo (Fig. 1g)"
+  - nombre: "screening_entrega.csv"
+    descripcion: "Firefly partida en el lisado: cuánto del ARN transportado termina funcionando (n=6)"
+    fuente: "Source Data del artículo (Fig. 1h)"
+  - nombre: "dosis_por_mfi.csv"
+    descripcion: "Picogramos de ARN por unidad de señal, nanopartícula lipídica vs STV-C8 (n=3). Menos es mejor"
+    fuente: "Source Data del artículo (Extended Data Fig. 6h)"
+  - nombre: "curva_dosis_egfp.csv"
+    descripcion: "Curva dosis-respuesta, 8 dosis por vehículo, % de células encendidas (n=3)"
+    fuente: "Source Data del artículo (Fig. 2g)"
+  - nombre: "benchmark_vehiculos.csv"
+    descripcion: "STV contra EPN, VLP y SEND a dos volúmenes (n=4; sin tratar n=3)"
+    fuente: "Source Data del artículo (Extended Data Fig. 6g)"
+  - nombre: "rnabp_liberacion_arn.csv"
+    descripcion: "ARN liberado según el dominio de unión a ARN fusionado (n=6)"
+    fuente: "Source Data del artículo (Fig. 1c)"
+  - nombre: "reprogramacion_ascl1.csv"
+    descripcion: "Astrocitos primarios de ratón ASCL1+ tras la transducción (n=6 control / n=4 tratado)"
+    fuente: "Source Data del artículo (Fig. 3f)"
+  - nombre: "estabilidad_sangre.csv"
+    descripcion: "Entrega de ARN tras pretratar el vehículo con PBS, suero o sangre completa humana (n=6)"
+    fuente: "Source Data del artículo (Fig. 3l)"
+estado: publicado

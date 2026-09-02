@@ -14,6 +14,23 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Una IA diseñó un envase para ARN que ningún virus inventó
+
+**Biología** · *Nature* · Los virus llevan miles de millones de años metiendo material genético en
+células ajenas, y casi todos convergieron en la misma forma de cápsula. Un
+equipo probó si esa convergencia era el techo: cribaron 39 jaulas de proteína
+dibujadas por modelos generativos, midiendo tres pasos encadenados (salir de
+la célula productora, llegar a la diana, entregar el ARN). La ganadora gasta
+12.991 veces menos ARN que una nanopartícula lipídica para la misma señal, y
+entrega 10,7 veces más que el andamio icosaédrico — que en este ensayo queda
+28º de 39. ⚠️ Todo lo graficado aquí es cultivo celular, con n=3 en la
+comparación del titular. ⚠️ La cadena entre pasos es floja: ρ ≈ 0,60 sobre 39
+jaulas, así que salir bien de casa no garantiza entregar bien.
+
+[Ver notebook](papers/2026-09-02-vehiculos-arn-proteinas-ia/notebook) · [Leer más](papers/2026-09-02-vehiculos-arn-proteinas-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-02-vehiculos-arn-proteinas-ia/notebook.ipynb)
+
+---
+
 ### Sol, agua de mar y una torre de seis pisos
 
 **Tecnología** · *Nature Water* · El resumen anuncia 11,6 veces más uranio bajo un sol de laboratorio. Los datos
