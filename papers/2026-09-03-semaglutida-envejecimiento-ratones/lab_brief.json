@@ -35,7 +35,7 @@
     {
       "claim": "Tras 3 meses de tratamiento mejoraron la función física y cognitiva",
       "supported": "yes",
-      "detail": "12 de 13 medidas independientes con p < 0,05, todas con |d| > 0,8 (rango 0,87 a 2,66). Los tests son de una cola, decisión declarada de los autores.",
+      "detail": "12 de 13 medidas independientes con p < 0,05, todas con |d| > 0,8 (rango 0,87 a 2,66). 10 de las 13 usan tests de una cola (decisión declarada de los autores); dos usan regresión beta y una regresión binomial negativa.",
       "certainty_tier": "T1",
       "abstract_verb": "improved",
       "effect_size": {
@@ -208,10 +208,11 @@
     "Una sola dosis probada (10 nmol/kg/día): no sabemos si el efecto depende de ella.",
     "La cohorte de longevidad (n = 39/40) y la de fisiología (n = 10 por grupo) son grupos distintos.",
     "El mecanismo es hipótesis, no resultado: el abstract dice que el marco propuesto podría ayudar a explicar los efectos.",
-    "La batería de los 3 meses usó tests de una cola, decisión declarada de los autores.",
+    "10 de las 13 medidas de la batería se analizaron con tests de una cola, decisión declarada de los autores; dos van con regresión beta y una con regresión binomial negativa.",
     "El Source Data no publica las unidades de cada prueba; el notebook grafica cambio porcentual y no afirma unidades no verificables.",
     "La pendiente normalizada como % del basal es una construcción del notebook para comparar nueve pruebas en un mismo eje, no una métrica estándar del campo.",
-    "No hay datos humanos: nada de esto se ha medido en personas."
+    "No hay datos humanos: nada de esto se ha medido en personas.",
+    "La reducción de ingesta del 24% con la que se calibró el brazo de restricción calórica viene del texto del paper: ningún CSV del notebook contiene datos de comida, así que no es verificable desde aquí."
   ],
   "suggested_word_range": {
     "min": 190,
