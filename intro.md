@@ -43,6 +43,20 @@ jaulas, así que salir bien de casa no garantiza entregar bien.
 
 ---
 
+### IA explicable en un coche autónomo: ayuda solo cuando el coche hace algo raro
+
+**Tecnología** · *Nature* · Un coche autónomo hace algo inesperado y quien lo mira acierta el porqué el 16,7 % de las veces.
+Con las explicaciones de CW-Net encima, 36,9 %: +20,3 puntos porcentuales, d = 1,00. Reproducimos
+las 6 comparaciones del estudio aleatorizado (n = 99) y las réplicas coinciden con el paper a tres
+decimales. ⚠️ El efecto vive entero en las situaciones sorprendentes: en las rutinarias no hay
+ninguna mejora, y la comprensión llega a bajar 8,1 pp desde un techo del 94,1 %. ⚠️ Aun con
+explicaciones, dos de cada tres respuestas siguen siendo incorrectas. ⚠️ Toda la estadística sale
+de repeticiones en pantalla: el despliegue en el coche real fue 1 conductor y 3 situaciones.
+
+[Ver notebook](papers/2026-09-02-ia-explicable-coche-autonomo/notebook) · [Leer más](papers/2026-09-02-ia-explicable-coche-autonomo/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-02-ia-explicable-coche-autonomo/notebook.ipynb)
+
+---
+
 ### Sol, agua de mar y una torre de seis pisos
 
 **Tecnología** · *Nature Water* · El resumen anuncia 11,6 veces más uranio bajo un sol de laboratorio. Los datos

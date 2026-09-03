@@ -1,0 +1,204 @@
+{
+  "version": "1.0",
+  "paper_id": 2948,
+  "doi": "10.1038/s41586-026-10950-5",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Con las explicaciones de CW-Net, los espectadores entendieron mejor qué percibía el coche en situaciones sorprendentes: 13,1 puntos porcentuales más de aciertos.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "69,3 % a 82,4 %. d de Cohen 1,29 (IC 95 %: 0,86-1,72), p = 7,2e-09. Pasa la corrección de Bonferroni para 6 comparaciones (umbral 0,00833). n = 99, asignación aleatoria entre grupos.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 1.29, "interpretation": "grande"}
+    },
+    {
+      "claim": "Entender por qué el coche actuaba así subió 20,3 puntos porcentuales en situaciones sorprendentes: es la mayor ganancia de las seis comparaciones.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "16,7 % a 36,9 %. d de Cohen 1,00 (IC 95 %: 0,58-1,41), p = 2,8e-06. Pasa Bonferroni.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.996, "interpretation": "grande"}
+    },
+    {
+      "claim": "Aun con las explicaciones, la gente sigue sin entender al coche en situaciones sorprendentes: acierta el 36,9 % de las veces.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "La mediana individual es 33,3 % (rango intercuartilico 16,7-50,0). Dos de cada tres respuestas siguen siendo incorrectas pese al efecto grande.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "porcentaje_absoluto", "value": 36.93, "interpretation": "mayoritariamente fallo"}
+    },
+    {
+      "claim": "En situaciones rutinarias las explicaciones no aportan nada.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Percepcion +0,8 pp (d = 0,085, p = 0,667) y proyeccion -3,1 pp (d = -0,142, p = 0,481). Los dos intervalos de confianza cruzan el cero.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": 0.085, "interpretation": "nulo"}
+    },
+    {
+      "claim": "La comprension en situaciones rutinarias baja 8,1 puntos porcentuales con las explicaciones, pero el grupo de control partia de un techo del 94,1 %.",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "d de Cohen -0,514 (IC 95 %: -0,915 a -0,114), p = 0,0112: no pasa el umbral corregido de 0,00833. 35 de 48 personas del control tenian puntaje perfecto, asi que hay margen para bajar y casi ninguno para subir.",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "cohen_d", "value": -0.514, "interpretation": "medio, negativo, no significativo tras correccion"}
+    },
+    {
+      "claim": "Tras ver la explicacion, el modelo mental mejoro en 75 de 117 observaciones del simulador y empeoro en 6.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Wilcoxon de rangos con signo unilateral: p = 0,0003 en expertos (27 observaciones) y p = 5,9e-11 en no expertos (90 observaciones). Es una medida antes/despues dentro de la misma persona, sin grupo de control.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "conteo", "value": 75, "interpretation": "75 de 117 observaciones"}
+    },
+    {
+      "claim": "Mejorar el modelo mental no es lo mismo que acertar mas: la prediccion concreta solo cambio en 32 de 117 observaciones.",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "29 mejoraron y 3 empeoraron; 85 no se movieron. La mediana del cambio en prediccion es 0 puntos en expertos y 1 en no expertos, frente a 1 y 3 en modelo mental.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "conteo", "value": 32, "interpretation": "32 de 117 observaciones"}
+    },
+    {
+      "claim": "Los no expertos se movieron mas que los expertos tras ver la explicacion: mediana de 3 puntos frente a 1.",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "No lo pusimos a prueba estadisticamente y el paper tampoco compara los dos grupos entre si. El grupo experto son 9 personas (27 observaciones).",
+      "certainty_tier": "T3",
+      "abstract_verb": "show",
+      "effect_size": {"measure": "diferencia_de_medianas", "value": 2, "interpretation": "no testeada"}
+    },
+    {
+      "claim": "El titular de que CW-Net mejora el modelo mental del conductor del coche real descansa en un despliegue de 1 conductor de seguridad y 3 situaciones.",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "El despliegue en circuito privado no trae estadistica y no es reproducible. Toda la estadistica del paper y de este notebook sale de repeticiones grabadas vistas en pantalla.",
+      "certainty_tier": "T2",
+      "abstract_verb": "deploy",
+      "effect_size": {"measure": "n", "value": 1, "interpretation": "1 conductor, 3 situaciones"}
+    },
+    {
+      "claim": "CW-Net explica sin sacrificar rendimiento de conduccion.",
+      "supported": "no",
+      "supported_by_data": false,
+      "detail": "No verificable con datos publicos: los pesos del modelo del coche son propiedad intelectual y las tablas de rendimiento del paper no vienen acompanadas de datos.",
+      "certainty_tier": "T2",
+      "abstract_verb": "achieve",
+      "effect_size": {"measure": "no_verificable", "value": 0, "interpretation": "sin datos publicos"}
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 20.26,
+      "unit": "puntos porcentuales",
+      "context": "ganancia en comprension (por que actua asi) en situaciones sorprendentes, de 16,67 % a 36,93 %",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "d = 0,996 IC[0,578;1,413]",
+        "our_calculation": "d = 0,9956 IC[0,578;1,413]",
+        "discrepancy_pct": 0.0,
+        "reason": "replica exacta desde los datos por participante"
+      }
+    },
+    {
+      "value": 13.08,
+      "unit": "puntos porcentuales",
+      "context": "ganancia en percepcion (que ve el coche) en situaciones sorprendentes, de 69,27 % a 82,35 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12.79,
+      "unit": "puntos porcentuales",
+      "context": "ganancia en proyeccion (que hara ahora) en situaciones sorprendentes, de 43,75 % a 56,54 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 36.93,
+      "unit": "por ciento",
+      "context": "aciertos de comprension con CW-Net en situaciones sorprendentes: el techo alcanzado sigue siendo mayoritariamente fallo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0,
+      "unit": "personas de 48",
+      "context": "participantes del grupo de control que alcanzaron el 82,35 % que promedio el grupo con CW-Net en percepcion sorprendente; el maximo individual del control fue 79,17 %",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -8.15,
+      "unit": "puntos porcentuales",
+      "context": "caida de la comprension en situaciones rutinarias, desde un control que partia de 94,10 %; p = 0,0112 no pasa el umbral corregido de 0,008333",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 99,
+      "unit": "personas",
+      "context": "participantes del estudio SAGAT aleatorizado: 48 en el grupo de control y 51 en el experimental",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 75,
+      "unit": "observaciones de 117",
+      "context": "observaciones del simulador en que el modelo mental mejoro tras ver la explicacion; 36 sin cambio y 6 empeoraron. Son 39 personas x 3 escenarios, no 117 personas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.29,
+      "unit": "d de Cohen",
+      "context": "tamano del efecto mas grande de las seis comparaciones: percepcion en situaciones sorprendentes, IC 95 % 0,857-1,723",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {"abstract_verb": "introduce", "tier": "T1", "cam_attenuator": "construyeron / montaron: el equipo no propone CW-Net, lo puso en un coche"},
+    {"abstract_verb": "show", "tier": "T1", "cam_attenuator": "afirmacion directa (los dos estudios con humanos son experimentales), pero el show cubre repeticiones en pantalla, no el coche"},
+    {"abstract_verb": "demonstrates", "tier": "T1", "cam_attenuator": "afirmacion directa"},
+    {"abstract_verb": "achieve (without sacrificing performance)", "tier": "T1", "cam_attenuator": "no verificable con datos publicos: atribuir al paper, no afirmar"},
+    {"abstract_verb": "establishes", "tier": "T1", "cam_attenuator": "los autores plantean que es una ruta validada en despliegue. NO escalar a hito ni a revolucion"},
+    {"abstract_verb": "anticipate / could", "tier": "T3", "cam_attenuator": "el equipo anticipa que / podria. La extension a drones y cirujanos roboticos es especulacion declarada"},
+    {"abstract_verb": "deploy (real self-driving car)", "tier": "T2", "cam_attenuator": "desplegado en un coche de pruebas, en circuito privado, con 1 conductor de seguridad. NO extrapolar a flotas"}
+  ],
+  "narrative_hooks": [
+    "Cuando el coche autonomo hacia algo inesperado, quien lo miraba acertaba el porque el 16,7 % de las veces. Con las explicaciones encima: 36,9 %. Veinte puntos mas, y todavia falla dos de cada tres.",
+    "Ninguna de las 48 personas sin explicaciones llego al promedio del grupo que si las tenia. Ninguna: el mejor del control se quedo en 79,2 % y el grupo con CW-Net promedio 82,4 %.",
+    "Las explicaciones solo sirven cuando el coche hace algo raro. En lo rutinario no cambian nada, y en una de las medidas hasta empeoran, aunque el control ya partia del 94 % de aciertos.",
+    "Sentirse mas capaz de anticipar al coche y acertar mas son cosas distintas: el modelo mental mejoro en 75 de 117 observaciones, pero la prediccion concreta solo cambio en 32.",
+    "El titular dice que las explicaciones mejoran el modelo mental del conductor. El coche real de ese titular llevaba 1 conductor de seguridad y se midio en 3 situaciones: toda la estadistica sale de repeticiones vistas en pantalla."
+  ],
+  "limitations": [
+    "Nada de lo que tiene estadistica paso dentro del coche: los dos estudios usan repeticiones grabadas vistas en pantalla. El despliegue real es una demostracion de 3 situaciones con 1 conductor de seguridad en circuito privado.",
+    "El grupo de control tambien leia una explicacion (velocidad y direccion) para igualar la carga cognitiva. El contraste es entre tipos de explicacion, no entre tener y no tener explicacion.",
+    "En el estudio de simulador, 27 y 90 son observaciones (persona x escenario), no personas: son 9 expertos y 30 no expertos. Los pies de figura del paper cuentan observaciones.",
+    "El estudio de simulador no tiene grupo de control: mide antes/despues dentro de la misma persona, asi que no separa el efecto de la explicacion del efecto de ver la escena por segunda vez.",
+    "La comprension en situaciones rutinarias parte de un techo del 94,1 % en el control, con 35 de 48 personas en puntaje perfecto. Una caida desde ahi no significa lo mismo que una caida desde la mitad de la escala.",
+    "Conflicto de interes declarado y fuerte: financia Motional (Hyundai + Aptiv), 7 de los 9 autores trabajan ahi, representantes de la financiadora participaron en la recoleccion de datos, el analisis y la decision de publicar, y hay patentes pendientes sobre la arquitectura.",
+    "Los pesos del modelo del coche no son publicos, asi que el claim de que CW-Net no sacrifica rendimiento no se puede verificar de forma independiente."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados como soportados, 3 parciales y 9 numeros clave: el script necesita espacio para la ganancia y para el caveat de que solo aplica a situaciones sorprendentes"
+  },
+  "notebook_slug": "2026-09-02-ia-explicable-coche-autonomo",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-02-ia-explicable-coche-autonomo/notebook.html",
+  "generated_at": "2026-09-03T18:25:00-05:00"
+}

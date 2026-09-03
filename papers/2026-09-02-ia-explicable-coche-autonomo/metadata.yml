@@ -1,0 +1,34 @@
+titulo: "IA explicable en un coche autónomo: ayuda solo cuando el coche hace algo raro"
+titulo_corto: "IA explicable al volante"
+fecha: 2026-09-02
+categoria: tecnologia
+tags: [inteligencia artificial, coches autónomos, explicabilidad, interacción humano-máquina, redes neuronales]
+formato: corto
+video_youtube: ""
+card_descripcion: |
+  Un coche autónomo hace algo inesperado y quien lo mira acierta el porqué el 16,7 % de las veces.
+  Con las explicaciones de CW-Net encima, 36,9 %: +20,3 puntos porcentuales, d = 1,00. Reproducimos
+  las 6 comparaciones del estudio aleatorizado (n = 99) y las réplicas coinciden con el paper a tres
+  decimales. ⚠️ El efecto vive entero en las situaciones sorprendentes: en las rutinarias no hay
+  ninguna mejora, y la comprensión llega a bajar 8,1 pp desde un techo del 94,1 %. ⚠️ Aun con
+  explicaciones, dos de cada tres respuestas siguen siendo incorrectas. ⚠️ Toda la estadística sale
+  de repeticiones en pantalla: el despliegue en el coche real fue 1 conductor y 3 situaciones.
+fuentes:
+  - doi: "10.1038/s41586-026-10950-5"
+    titulo: "Explainable deep learning improves human mental models of self-driving cars"
+    journal: Nature
+    autores: "Kenny et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "sagat_precision_participante.csv"
+    descripcion: "Precisión por participante en el estudio SAGAT (99 personas × 2 valencias)"
+    fuente: "Repositorio público del paper (GitHub)"
+  - nombre: "sagat_efectos.csv"
+    descripcion: "Las 6 comparaciones del paper: diferencia en pp, t de Welch, d de Cohen con IC 95 % y corrección de Bonferroni"
+    fuente: "Repositorio público del paper (GitHub)"
+  - nombre: "simulador_modelo_mental.csv"
+    descripcion: "Cambio antes/después en modelo mental y predicción (117 observaciones)"
+    fuente: "Repositorio público del paper (GitHub)"
+estado: publicado

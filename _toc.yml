@@ -1001,6 +1001,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-09-02-ia-explicable-coche-autonomo/README
+    title: "IA explicable al volante"
+    sections:
+    - file: papers/2026-09-02-ia-explicable-coche-autonomo/notebook
+      title: Notebook
   - file: papers/2026-09-01-separador-solar-litio-uranio/README
     title: "Separador solar de litio y uranio"
     sections:

@@ -1,0 +1,7 @@
+valencia,dimension,media_control,sd_control,n_control,media_experimental,sd_experimental,n_experimental,diferencia_pp,t_welch,p_valor,d_cohen,ic95_bajo,ic95_alto,bonferroni_significativo
+sorprendente,percepcion,0.6927,0.0624,48,0.8235,0.1276,51,13.0821,6.5376,7.220375468599948e-09,1.2902,0.857,1.7234,True
+sorprendente,comprension,0.1667,0.1613,48,0.3693,0.2364,51,20.2614,5.0064,2.7983115025262806e-06,0.9956,0.5778,1.4134,True
+sorprendente,proyeccion,0.4375,0.1994,48,0.5654,0.2213,51,12.7859,3.0235,0.0031986056599221,0.6061,0.203,1.0092,True
+rutinario,percepcion,0.8733,0.0309,48,0.8815,0.1329,51,0.8272,0.4322,0.6672615751077168,0.0846,-0.3098,0.4789,False
+rutinario,comprension,0.941,0.1114,48,0.8595,0.1926,51,-8.1495,-2.5961,0.0111924614596182,-0.5142,-0.9148,-0.1136,False
+rutinario,proyeccion,0.8125,0.2052,48,0.781,0.2369,51,-3.1454,-0.7074,0.4810469599841306,-0.1416,-0.5363,0.253,False
