@@ -11,7 +11,7 @@ fecha: 2026-09-01
 categoria: tecnología
 tags: [energía solar, desalinización, litio, uranio, materiales, agua]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/0M1k80kh0UE"
 fuentes:
   - doi: "10.1038/s44221-026-00700-2"
     titulo: "Solar-powered resource separator for clean water production, electricity generation and critical resource recovery"

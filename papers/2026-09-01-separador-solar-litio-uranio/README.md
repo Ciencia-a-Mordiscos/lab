@@ -33,6 +33,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/0M1k80kh0UE)
 - **Paper:** [Nature Water — DOI: 10.1038/s44221-026-00700-2](https://doi.org/10.1038/s44221-026-00700-2)
 - **Datos originales:** [Source Data (MOESM2)](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44221-026-00700-2/MediaObjects/44221_2026_700_MOESM2_ESM.xlsx) y [Supplementary Information (MOESM1)](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44221-026-00700-2/MediaObjects/44221_2026_700_MOESM1_ESM.pdf)
