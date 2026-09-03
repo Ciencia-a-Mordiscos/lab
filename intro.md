@@ -14,6 +14,18 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### La semaglutida alargó la vida de ratonas viejas un 12%
+
+**Medicina** · *Nature* · Ratonas de 20 meses tratadas con semaglutida vivieron 92 días más de mediana
+(742 → 834 d, log-rank p = 5,7 × 10⁻⁶, d = 1,00) y mejoraron en 12 de 13 pruebas
+físicas y cognitivas. Frente a un brazo de restricción calórica calibrado a la
+misma reducción de comida (24%), el fármaco mejora 3 de 9 medidas sobre su basal
+y la dieta ninguna. ⚠️ Solo ratonas hembra, una sola dosis, sin datos humanos.
+
+[Ver notebook](papers/2026-09-03-semaglutida-envejecimiento-ratones/notebook) · [Leer más](papers/2026-09-03-semaglutida-envejecimiento-ratones/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-03-semaglutida-envejecimiento-ratones/notebook.ipynb)
+
+---
+
 ### Una IA diseñó un envase para ARN que ningún virus inventó
 
 **Biología** · *Nature* · Los virus llevan miles de millones de años metiendo material genético en

@@ -1,0 +1,811 @@
+subfigura,prueba,medida,direccion_mejora,grupo,mes,raton,valor
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont1,24.3158
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont2,30.8304
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont3,30.3595
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont4,24.6496
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont5,22.7707
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont6,6.70402
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont7,16.8182
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont8,17.6315
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont9,30.3038
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,0,Cont10,16.2869
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema1,14.7093
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema2,14.1793
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema3,31.2653
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema4,28.0488
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema5,20.4736
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema6,19.5253
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema7,28.9236
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema8,17.9811
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema9,31.7697
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,0,Sema10,29.8358
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest1,26.3555
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest2,18.0549
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest3,19.1226
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest4,15.0782
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest5,28.4491
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest6,19.4273
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest7,17.2056
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest8,26.1781
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest9,26.2197
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest10,12.8632
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont1,6.87413
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont2,18.3505
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont3,15.2589
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont4,7.26434
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont5,12.7285
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont6,13.4158
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont7,10.8217
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont8,13.9184
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont9,15.4539
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,2,Cont10,15.8053
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema1,22.7912
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema2,20.5233
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema3,25.7375
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema4,23.6284
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema5,21.5214
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema6,19.1251
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema7,26.6523
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema8,24.1196
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema9,21.1054
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,2,Sema10,22.8053
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest1,21.0654
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest2,22.0895
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest3,20.7705
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest4,19.2488
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest5,20.7208
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest6,30.0049
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest7,18.0472
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest8,14.9968
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest9,12.843
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest10,12.1104
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont1,7.51416
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont2,9.17638
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont3,10.4911
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont4,9.43944
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont5,9.72572
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont6,11.2613
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont7,10.8127
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont8,12.3641
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont9,7.95141
+a,Campo abierto,Movimiento total,mas_es_mejor,Control,4,Cont10,7.15627
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema1,17.833
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema2,16.1095
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema3,17.4845
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema4,22.6029
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema5,14.0863
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema6,25.374
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema7,24.6104
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema8,41.7371
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema9,16.0415
+a,Campo abierto,Movimiento total,mas_es_mejor,Semaglutida,4,Sema10,16.6138
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest1,15.2009
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest2,18.1882
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest3,14.1871
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest4,15.3584
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest5,14.7356
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest6,15.2113
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest7,14.4889
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest8,16.2886
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest9,18.6762
+a,Campo abierto,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest10,12.77787
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont1,67.59989999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont2,30.6
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont3,403.00002
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont4,183.33297
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont5,110.99997000000002
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont6,1.53333
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont7,34.066602
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont8,125.33301
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont9,64.599903
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,0,Cont10,31.133304000000003
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema1,110.99997000000002
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema2,106.73298000000001
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema3,116.26703999999998
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema4,218.99997
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema5,49.933296
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema6,40.333302
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema7,145.53296999999998
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema8,62.06660100000001
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema9,158.733
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,0,Sema10,70.666596
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest1,100.66698000000001
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest2,56.533302000000006
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest3,152.93304
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest4,213.39999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest5,198.333
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest6,54.666603
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest7,124.39998
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest8,164.79999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest9,45.0
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,0,Rest10,115.33301999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont1,5.933331000000001
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont2,115.13304
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont3,179.60004
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont4,10.333296
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont5,59.199903000000006
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont6,22.066596
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont7,16.866603
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont8,167.20002
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont9,66.799899
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,2,Cont10,85.46660100000001
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema1,126.9333
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema2,173.79989999999998
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema3,93.99959999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema4,162.53280000000004
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema5,265.266
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema6,353.60009999999994
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema7,112.2669
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema8,221.20019999999997
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema9,260.26559999999995
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,2,Sema10,116.1999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest1,36.999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest2,26.600004
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest3,113.93297999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest4,46.400003999999996
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest5,221.00004
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest6,97.66655999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest7,80.999901
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest8,215.26596
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest9,120.86703000000001
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,2,Rest10,248.26599000000002
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont1,39.26664
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont2,66.33333
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont3,135.46710000000002
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont4,13.86666
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont5,63.266580000000005
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont6,73.06659
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont7,65.26656
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont8,44.86661999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont9,39.99996
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Control,4,Cont10,48.86657999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema1,135.5328
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema2,220.6656
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema3,144.8667
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema4,255.0663
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema5,281.133
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema6,400.1328
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema7,193.93290000000005
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema8,230.3334
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema9,265.3326
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Semaglutida,4,Sema10,118.4004
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest1,59.533289999999994
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest2,45.0
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest3,114.06689999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest4,84.19986
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest5,159.00029999999998
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest6,120.267
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest7,93.79979999999999
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest8,124.53300000000002
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest9,176.7996
+b,Campo abierto,Tiempo en el centro,mas_es_mejor,Restriccion calorica,4,Rest10,144.7326
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont1,4.24854
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont2,12.688
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont3,7.68823
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont4,13.3428
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont5,8.69922
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont6,8.39307
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont7,8.10319
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont8,10.8299
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont9,5.43977
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,0,Cont10,9.44682
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema1,8.71786
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema2,8.55718
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema3,13.423
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema4,8.55229
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema5,11.092
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema6,8.80844
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema7,7.68781
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema8,7.68988
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema9,6.41921
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,0,Sema10,7.57899
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest1,10.7085
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest2,8.88643
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest3,8.12934
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest4,8.08582
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest5,8.26248
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest6,8.30392
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest7,11.2269
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest8,11.076
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest9,8.33546
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,0,Rest10,10.3368
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont1,7.61432
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont2,6.57004
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont3,4.88217
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont4,2.21308
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont5,4.74556
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont6,8.92788
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont7,5.3205
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont8,4.79015
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont9,6.33851
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,2,Cont10,3.9904
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema1,8.66511
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema2,4.54627
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema3,9.57002
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema4,10.282
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema5,8.34504
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema6,6.53831
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema7,13.8415
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema8,12.8136
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema9,10.1961
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,2,Sema10,7.7062
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest1,9.16806
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest2,5.47674
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest3,16.2683
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest4,12.1024
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest5,8.5437
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest6,5.06027
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest7,4.6738
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest8,9.24108
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest9,9.34232
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,2,Rest10,8.29477
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont1,4.65909
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont2,4.63222
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont3,4.6633
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont4,6.84178
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont5,3.51846
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont6,4.82163
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont7,5.54754
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont8,3.26575
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont9,3.71586
+c,Cruz elevada,Movimiento total,mas_es_mejor,Control,4,Cont10,1.70178
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema1,12.4814
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema2,7.76123
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema3,8.1723
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema4,8.74678
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema5,6.72727
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema6,13.2953
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema7,14.1151
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema8,14.7403
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema9,10.7265
+c,Cruz elevada,Movimiento total,mas_es_mejor,Semaglutida,4,Sema10,8.90148
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest1,11.0024
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest2,10.0341
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest3,7.89532
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest4,10.2855
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest5,7.8302
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest6,7.10869
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest7,8.14461
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest8,7.17771
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest9,6.81948
+c,Cruz elevada,Movimiento total,mas_es_mejor,Restriccion calorica,4,Rest10,6.36653
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont1,19.867
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont2,127.267
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont3,46.601
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont4,54.867
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont5,43.734
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont6,57.201
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont7,105.4
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont8,72.867
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont9,15.001
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,0,Cont10,76.534
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema1,43.467
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema2,39.001
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema3,115.667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema4,39.667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema5,110.0
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema6,57.134
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema7,49.601
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema8,80.267
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema9,65.201
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,0,Sema10,49.601
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest1,124.6
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest2,38.734
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest3,106.867
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest4,61.867
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest5,57.201
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest6,41.767
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest7,58.634
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest8,71.901
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest9,40.334
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,0,Rest10,42.834
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont1,23.8666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont2,14.4667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont3,11.8667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont4,11.6
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont5,13.6667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont6,22.4
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont7,19.6666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont8,11.8667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont9,24.3333
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,2,Cont10,42.2666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema1,99.4666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema2,70.4666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema3,25.7333
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema4,33.6
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema5,60.8666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema6,58.0666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema7,182.466
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema8,70.6666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema9,78.533
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,2,Sema10,55.3664
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest1,33.6665
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest2,24.0666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest3,81.833
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest4,67.2331
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest5,36.0332
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest6,28.8666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest7,21.7332
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest8,97.7997
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest9,89.9998
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,2,Rest10,72.8999
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont1,5.73331
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont2,3.536
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont3,23.0666
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont4,9.334
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont5,2.801
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont6,11.0667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont7,49.001
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont8,12.467
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont9,31.934
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Control,4,Cont10,8.79999
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema1,70.5331
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema2,137.667
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema3,17.401
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema4,66.734
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema5,147.899
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema6,74.033
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema7,92.0663
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema8,70.9997
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema9,55.7331
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Semaglutida,4,Sema10,129.302
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest1,56.269
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest2,44.902
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest3,65.6664
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest4,14.936
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest5,34.936
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest6,24.267
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest7,20.502
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest8,43.8
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest9,10.201
+d,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,Restriccion calorica,4,Rest10,72.867
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont1,25.8
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont2,41.1999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont3,37.7333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont4,21.7333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont5,30.6
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont6,59.0666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont7,39.1333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont8,15.2
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont9,47.0666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,0,Cont10,50.3999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema1,42.4
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema2,19.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema3,36.7333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema4,40.0
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema5,49.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema6,15.9333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema7,33.1333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema8,37.9333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema9,67.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,0,Sema10,23.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest1,66.9333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest2,45.4
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest3,40.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest4,25.2
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest5,50.5999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest6,12.6667
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest7,50.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest8,12.6667
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest9,32.2
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,0,Rest10,5.13333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont1,12.8667
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont2,34.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont3,37.2
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont4,23.0666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont5,33.1333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont6,42.4
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont7,26.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont8,24.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont9,33.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,2,Cont10,24.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema1,57.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema2,57.5333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema3,51.3999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema4,48.8
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema5,27.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema6,44.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema7,54.1999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema8,53.0666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema9,36.5333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,2,Sema10,55.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest1,17.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest2,59.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest3,37.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest4,33.8
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest5,45.8
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest6,44.5333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest7,22.9333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest8,32.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest9,31.9333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,2,Rest10,31.4
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont1,16.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont2,36.4666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont3,16.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont4,30.5333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont5,29.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont6,21.4
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont7,11.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont8,33.9333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont9,12.3333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Control,4,Cont10,31.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema1,69.9999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema2,63.1333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema3,71.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema4,54.8666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema5,53.9999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema6,66.5999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema7,61.3333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema8,43.7333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema9,66.5999
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Semaglutida,4,Sema10,42.8
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest1,19.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest2,16.0
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest3,40.5333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest4,34.2666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest5,34.2
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest6,37.2
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest7,48.6666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest8,58.5333
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest9,27.0666
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,Restriccion calorica,4,Rest10,44.2666
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont1,73.03333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont2,67.76667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont3,68.73333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont4,63.26667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont5,71.76667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont6,60.43333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont7,59.43333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont8,55.83333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont9,70.9
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,0,Cont10,64.66667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema1,62.56667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema2,66.83333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema3,78.13333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema4,66.63333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema5,68.6
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema6,62.9
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema7,61.63333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema8,71.96667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema9,60.96667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema10,70.96667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest1,81.8667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest2,56.9333
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest3,55.8333
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest4,58.8
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest5,68.5
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest6,66.4667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest7,60.8667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest8,62.5667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest9,74.9
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest10,78.4333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont1,38.43333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont2,27.43333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont3,39.3
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont4,43.1
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont5,56.56667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont6,30.6
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont7,49.26667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont8,52.83333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont9,37.26667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,2,Cont10,62.6
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema1,81.06667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema2,78.06667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema3,85.46667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema4,50.4
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema5,68.6
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema6,57.76667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema7,94.2
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema8,64.63333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema9,52.93333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema10,46.2
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest1,83.1
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest2,74.66667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest3,91.63333
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest4,58.76667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest5,71.86667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest6,68.43333
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest7,64.06667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest8,65.23333
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest9,67.3
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest10,51.86667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont1,29.26667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont2,34.96667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont3,34.83333
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont4,29.9
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont5,33.5
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont6,26.8
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont7,35.46667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont8,39.06667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont9,29.56667
+f,Rotarod,Latencia de caida,mas_es_mejor,Control,4,Cont10,39.33333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema1,76.96667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema2,73.86667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema3,84.13333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema4,56.53333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema5,78.26667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema6,68.06667
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema7,74.8
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema8,71.93333
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema9,51.1
+f,Rotarod,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema10,48.26667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest1,60.0333
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest2,64.7
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest3,77.2
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest4,76.4
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest5,56.3
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest6,79.1
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest7,60.3667
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest8,64.2333
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest9,65.3
+f,Rotarod,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest10,57.2333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont1,168.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont2,123.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont3,142.3333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont4,218.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont5,207.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont6,230.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont7,120.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont8,259.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont9,168.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,0,Cont10,162.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema1,211.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema2,191.3333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema3,252.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema4,224.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema5,122.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema6,154.6667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema7,145.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema8,140.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema9,193.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,0,Sema10,180.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest1,271.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest2,176.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest3,241.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest4,147.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest5,162.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest6,168.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest7,209.667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest8,159.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest9,119.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,0,Rest10,141.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont1,85.33333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont2,81.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont3,107.6667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont4,88.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont5,66.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont6,81.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont7,84.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont8,122.3333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont9,80.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,2,Cont10,110.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema1,217.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema2,155.3333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema3,210.3333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema4,210.6667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema5,142.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema6,202.3333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema7,167.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema8,133.3333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema9,208.6667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,2,Sema10,128.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest1,171.667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest2,115.667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest3,198.667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest4,118.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest5,189.333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest6,190.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest7,191.333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest8,100.333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest9,195.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,2,Rest10,134.333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont1,61.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont2,56.333333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont3,83.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont4,67.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont5,46.333333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont6,53.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont7,66.333333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont8,80.666667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont9,60.333333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Control,4,Cont10,67.666667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema1,188.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema2,168.33333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema3,189.33333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema4,204.33333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema5,148.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema6,203.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema7,159.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema8,152.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema9,211.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Semaglutida,4,Sema10,110.66667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest1,187.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest2,152.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest3,195.3333333
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest4,113.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest5,189.6666667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest6,172.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest7,195.6666667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest8,91.66666667
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest9,183.0
+g,Rejilla invertida,Latencia de caida,mas_es_mejor,Restriccion calorica,4,Rest10,111.6666667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont1,7.0833333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont2,14.616667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont3,37.166667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont4,22.033333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont5,31.333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont6,23.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont7,17.666667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont8,25.333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont9,22.666667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,0,Cont10,13.616667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema1,23.333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema2,21.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema3,29.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema4,20.666667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema5,18.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema6,27.033333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema7,19.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema8,5.75
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema9,21.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,0,Sema10,16.533333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest1,23.4333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest2,30.5
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest3,17.1333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest4,18.6
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest5,5.98333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest6,6.86667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest7,23.3333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest8,15.9667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest9,14.3667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,0,Rest10,34.3667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont1,4.6
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont2,5.6833333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont3,8.45
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont4,3.15
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont5,7.25
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont6,4.1333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont7,6.7
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont8,8.3
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont9,10.433333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,2,Cont10,3.2
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema1,29.983333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema2,28.016667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema3,38.9
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema4,13.333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema5,15.616667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema6,12.9
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema7,16.233333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema8,5.7833333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema9,12.2
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,2,Sema10,18.333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest1,5.16667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest2,6.98333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest3,23.4833
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest4,8.56667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest5,27.1167
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest6,13.2333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest7,14.1167
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest8,24.0667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest9,16.8833
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,2,Rest10,23.3
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont1,2.15
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont2,4.9666667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont3,7.1333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont4,2.6333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont5,7.0333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont6,2.5333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont7,6.2833333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont8,5.3333333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont9,7.6666667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Control,4,Cont10,1.7166667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema1,26.666667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema2,21.433333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema3,30.066667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema4,15.183333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema5,14.833333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema6,11.633333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema7,15.116667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema8,5.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema9,15.05
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Semaglutida,4,Sema10,16.533333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest1,5.33333
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest2,6.41667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest3,23.3667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest4,8.7
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest5,24.1
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest6,12.7667
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest7,17.0
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest8,20.6
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest9,15.0833
+h,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,Restriccion calorica,4,Rest10,18.1833
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont1,21.683
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont2,27.653
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont3,25.68
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont4,25.635
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont5,23.925
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont6,22.47
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont7,24.398
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont8,24.293
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont9,22.335
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,0,Cont10,24.098
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema1,24.503
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema2,29.79
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema3,24.225
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema4,21.81
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema5,27.075
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema6,21.128
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema7,25.268
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema8,24.78
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema9,25.335
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,0,Sema10,23.595
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest1,22.665
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest2,21.825
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest3,19.65
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest4,28.425
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest5,25.86
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest6,24.36
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest7,23.085
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest8,25.523
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest9,26.145
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,0,Rest10,22.95
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont1,24.413
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont2,24.068
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont3,34.178
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont4,34.028
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont5,27.21
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont6,22.673
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont7,20.49
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont8,20.46
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont9,28.755
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,2,Cont10,21.968
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema1,19.23
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema2,20.445
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema3,19.26
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema4,16.995
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema5,23.91
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema6,20.438
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema7,21.368
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema8,17.303
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema9,19.62
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,2,Sema10,20.273
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest1,23.31
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest2,21.323
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest3,25.958
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest4,27.083
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest5,20.955
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest6,20.685
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest7,22.86
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest8,25.875
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest9,23.213
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,2,Rest10,21.353
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont1,24.12
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont2,22.058
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont3,22.658
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont4,24.053
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont5,30.165
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont6,27.398
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont7,30.923
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont8,37.358
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont9,26.408
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Control,4,Cont10,26.64
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema1,20.873
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema2,17.01
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema3,15.368
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema4,20.078
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema5,16.785
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema6,20.933
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema7,18.18
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema8,15.998
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema9,17.16
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Semaglutida,4,Sema10,17.445
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest1,21.848
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest2,22.958
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest3,32.183
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest4,24.06
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest5,21.165
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest6,19.35
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest7,20.475
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest8,25.733
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest9,21.555
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,Restriccion calorica,4,Rest10,22.515

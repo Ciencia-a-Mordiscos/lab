@@ -1,0 +1,44 @@
+titulo: "La semaglutida alargó la vida de ratonas viejas un 12%"
+titulo_corto: "Semaglutida y longevidad en ratonas"
+card_descripcion: |
+  Ratonas de 20 meses tratadas con semaglutida vivieron 92 días más de mediana
+  (742 → 834 d, log-rank p = 5,7 × 10⁻⁶, d = 1,00) y mejoraron en 12 de 13 pruebas
+  físicas y cognitivas. Frente a un brazo de restricción calórica calibrado a la
+  misma reducción de comida (24%), el fármaco mejora 3 de 9 medidas sobre su basal
+  y la dieta ninguna. ⚠️ Solo ratonas hembra, una sola dosis, sin datos humanos.
+fecha: 2026-09-03
+categoria: medicina
+tags: [envejecimiento, semaglutida, glp-1, longevidad, restriccion-calorica, raton]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10940-7"
+    titulo: "Late-life semaglutide treatment slows ageing and extends lifespan in female mice"
+    journal: Nature
+    autores: "Feng et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "supervivencia_ratones.csv"
+    descripcion: "Edad de muerte de las 79 ratonas de la cohorte de longevidad, sin censura"
+    fuente: "Source Data Fig. 1 (MOESM6)"
+  - nombre: "bateria_fisiologica_ratones.csv"
+    descripcion: "Valores individuales de 14 paneles fisiológicos, n = 10 por grupo"
+    fuente: "Source Data Fig. 1 (MOESM6)"
+  - nombre: "bateria_fisiologica_resumen.csv"
+    descripcion: "Medias, cambio porcentual, test y p reportados por los autores para cada panel"
+    fuente: "Source Data Fig. 1 (MOESM6)"
+  - nombre: "curva_glucosa.csv"
+    descripcion: "Glucemia por ratona en 7 tiempos de la prueba de tolerancia a la glucosa"
+    fuente: "Source Data Fig. 1p (MOESM6)"
+  - nombre: "trayectorias_sema_vs_rc.csv"
+    descripcion: "9 medidas x 3 grupos x 3 tiempos x 10 ratonas, comparación contra restricción calórica"
+    fuente: "Source Data Fig. 5 (MOESM9)"
+  - nombre: "pendientes_lme.csv"
+    descripcion: "Pendiente mensual y p por grupo del modelo mixto de los autores"
+    fuente: "Source Data Fig. 5 (MOESM9)"
+  - nombre: "comparaciones_pareadas_lme.csv"
+    descripcion: "Contrastes pareados entre grupos con p ajustado y diferencia de pendientes"
+    fuente: "Source Data Fig. 5 (MOESM9)"
+estado: publicado

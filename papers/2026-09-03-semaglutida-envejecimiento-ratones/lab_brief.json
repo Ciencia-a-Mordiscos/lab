@@ -1,0 +1,224 @@
+{
+  "version": "1.0",
+  "paper_id": 2943,
+  "doi": "10.1038/s41586-026-10940-7",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "La semaglutida alargó la vida de ratonas viejas: la mediana pasó de 742 a 834 días",
+      "supported": "yes",
+      "detail": "Log-rank recalculado por nosotros sobre las 79 edades de muerte: chi2 = 20,60, p = 5,7e-06, idéntico al del paper. Cohen d = 1,00. Sin censura.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.995,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El efecto no lo producen unas pocas ratonas excepcionales: la distribución entera se desplaza",
+      "supported": "yes",
+      "detail": "El cuartil inferior tratado (771 d) supera la mediana control (742 d). La mediana tratada cae en el percentil 90 del control: solo 4 de las 39 control llegaron a esa edad.",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.995,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tras 3 meses de tratamiento mejoraron la función física y cognitiva",
+      "supported": "yes",
+      "detail": "12 de 13 medidas independientes con p < 0,05, todas con |d| > 0,8 (rango 0,87 a 2,66). Los tests son de una cola, decisión declarada de los autores.",
+      "certainty_tier": "T1",
+      "abstract_verb": "improved",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.28,
+        "interpretation": "grande (mediana de los 13 paneles)"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "No todas las medidas de la batería mejoraron: el conteo de entradas a los brazos no alcanza significancia",
+      "supported": "partial",
+      "detail": "p = 0,2406 con regresión binomial negativa, el test propio de datos de conteo. El notebook lo grafica en gris.",
+      "certainty_tier": "T1",
+      "abstract_verb": "improved",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.846,
+        "interpretation": "grande pero no significativo con n = 10"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La semaglutida hace algo más que replicar la restricción calórica",
+      "supported": "partial",
+      "detail": "Mejora 3 de 9 medidas sobre su propio basal frente a 0 de la dieta, y se separa de ella en 4 con p ajustado < 0,05. Con n = 10 por grupo y 5 meses, \"no detectamos diferencia\" en las otras 5 no equivale a \"no hay diferencia\".",
+      "certainty_tier": "T2",
+      "abstract_verb": "supporting",
+      "effect_size": {
+        "measure": "medidas_con_p_ajustado_menor_005",
+        "value": 4,
+        "interpretation": "4 de 9"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Frenar el deterioro no es mérito exclusivo del fármaco: la dieta lo frena igual",
+      "supported": "no",
+      "detail": "Ninguno de los dos grupos intervenidos empeora de forma significativa en ninguna de las 9 medidas, mientras el control empeora en 8 de 9.",
+      "certainty_tier": "T2",
+      "abstract_verb": "recapitulated",
+      "effect_size": {
+        "measure": "medidas_con_deterioro_significativo",
+        "value": 0,
+        "interpretation": "0 de 9 en ambos grupos intervenidos"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "No hay datos que muestren que esto pase en humanos",
+      "supported": "no",
+      "detail": "El estudio es íntegramente en ratonas hembra C57BL/6. El propio paper pide un ensayo clínico largo diseñado para medir envejecimiento.",
+      "certainty_tier": "T3",
+      "abstract_verb": "may",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 92,
+      "unit": "días",
+      "context": "diferencia en la mediana de vida entre ratonas tratadas (834 d) y control (742 d)",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 12.4,
+      "unit": "por ciento",
+      "context": "aumento de la mediana de vida",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 9.4,
+      "unit": "por ciento",
+      "context": "aumento de la media de vida (750,5 a 820,8 días)",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 0.995,
+      "unit": "d de Cohen",
+      "context": "tamaño del efecto sobre la longevidad, n = 39 control y 40 tratadas",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 5.7e-06,
+      "unit": "valor p",
+      "context": "log-rank Mantel-Cox recalculado sobre las 79 edades de muerte, sin censura",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "de 13 medidas",
+      "context": "medidas independientes de la batería fisiológica con p < 0,05 tras 3 meses",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 0.2406,
+      "unit": "valor p",
+      "context": "entradas a los brazos de la cruz elevada, regresión binomial negativa: la única medida sin significancia",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 20.4,
+      "unit": "por ciento",
+      "context": "reducción del área bajo la curva de glucosa en las tratadas",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "de 9 medidas",
+      "context": "medidas en que el grupo control se deteriora significativamente a lo largo de 5 meses",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "de 9 medidas",
+      "context": "medidas en que la semaglutida mejora sobre su propio basal, frente a 0 de la restricción calórica",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "de 9 medidas",
+      "context": "medidas donde las trayectorias de semaglutida y restricción calórica se separan con p ajustado < 0,05",
+      "source": "source_data",
+      "verified": true
+    },
+    {
+      "value": 24,
+      "unit": "por ciento",
+      "context": "reducción de ingesta que produjo la semaglutida, y con la que se calibró el brazo de restricción calórica",
+      "source": "source_data",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: extendió, frenó, mejoró — siempre con el alcance \"en ratonas hembra\""
+    },
+    {
+      "abstract_verb": "supporting",
+      "tier": "T2",
+      "cam_attenuator": "respalda la idea de que funciona como mimético de la restricción calórica; nunca \"prueba\""
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "podría ayudar a explicar; el mecanismo es hipótesis, no resultado"
+    }
+  ],
+  "narrative_hooks": [
+    "92 días separan la mediana de vida de dos grupos de ratonas que solo se diferencian en una inyección diaria.",
+    "El tratamiento empezó a los 20 meses, unos 609 días, con la mayor parte de la vida ya recorrida.",
+    "El grupo control se deteriora en 8 de 9 medidas; ni el fármaco ni la dieta empeoran en ninguna. La diferencia está en que la semaglutida mejora 3 sobre su propio basal y la dieta ninguna.",
+    "El único panel sin significancia se analizó con regresión binomial negativa: un test t sobre esos mismos diez pares habría dado p = 0,04 y un asterisco."
+  ],
+  "limitations": [
+    "Solo ratonas hembra C57BL/6, una sola cepa; el paper lo justifica por la agresión entre machos, pero no hay datos de machos.",
+    "Una sola dosis probada (10 nmol/kg/día): no sabemos si el efecto depende de ella.",
+    "La cohorte de longevidad (n = 39/40) y la de fisiología (n = 10 por grupo) son grupos distintos.",
+    "El mecanismo es hipótesis, no resultado: el abstract dice que el marco propuesto podría ayudar a explicar los efectos.",
+    "La batería de los 3 meses usó tests de una cola, decisión declarada de los autores.",
+    "El Source Data no publica las unidades de cada prueba; el notebook grafica cambio porcentual y no afirma unidades no verificables.",
+    "La pendiente normalizada como % del basal es una construcción del notebook para comparar nueve pruebas en un mismo eje, no una métrica estándar del campo.",
+    "No hay datos humanos: nada de esto se ha medido en personas."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados, 12 números clave"
+  },
+  "notebook_slug": "2026-09-03-semaglutida-envejecimiento-ratones",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-03-semaglutida-envejecimiento-ratones/notebook.html",
+  "generated_at": "2026-09-03T11:30:40.058060-05:00"
+}

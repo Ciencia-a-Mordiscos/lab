@@ -1,0 +1,28 @@
+subfigura,prueba,medida,comparacion,p_ajustado,diferencia_pendiente
+a,Campo abierto,Movimiento total,Ctrl vs. Sema,0.0452,-2.514
+a,Campo abierto,Movimiento total,Ctrl vs. CR,0.1946,-1.7733999999999999
+a,Campo abierto,Movimiento total,Sema vs. CR,0.7397,0.7406
+b,Campo abierto,Tiempo en el centro,Ctrl vs. Sema,0.0022,-40.6765
+b,Campo abierto,Tiempo en el centro,Ctrl vs. CR,0.6866,-8.9449
+b,Campo abierto,Tiempo en el centro,Sema vs. CR,0.0172,31.7316
+c,Cruz elevada,Movimiento total,Ctrl vs. Sema,0.0003,-1.5663
+c,Cruz elevada,Movimiento total,Ctrl vs. CR,0.0576,-0.8705999999999999
+c,Cruz elevada,Movimiento total,Sema vs. CR,0.1555,0.6957
+d,Cruz elevada,Tiempo en brazos abiertos,Ctrl vs. Sema,0.0023,-16.858999999999998
+d,Cruz elevada,Tiempo en brazos abiertos,Ctrl vs. CR,0.5275,-5.130199999999999
+d,Cruz elevada,Tiempo en brazos abiertos,Sema vs. CR,0.043,11.7288
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,Ctrl vs. Sema,0.0001,-8.9016
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,Ctrl vs. CR,0.1718,-3.6500000000000004
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,Sema vs. CR,0.0298,5.2516
+f,Rotarod,Latencia de caida,Ctrl vs. Sema,1.6×10-5,-8.396600000000001
+f,Rotarod,Latencia de caida,Ctrl vs. CR,3.8×10-5,-7.9708000000000006
+f,Rotarod,Latencia de caida,Sema vs. CR,0.9627,0.4258
+g,Rejilla invertida,Latencia de caida,Ctrl vs. Sema,2.2×10-5,-26.957
+g,Rejilla invertida,Latencia de caida,Ctrl vs. CR,0.0001,-23.8233
+g,Rejilla invertida,Latencia de caida,Sema vs. CR,0.7987,3.1337
+h,Cinta de correr,Tiempo hasta agotamiento,Ctrl vs. Sema,0.0075,-3.4317
+h,Cinta de correr,Tiempo hasta agotamiento,Ctrl vs. CR,0.0128,-3.2017
+h,Cinta de correr,Tiempo hasta agotamiento,Sema vs. CR,0.9735,0.22999999999999998
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,Ctrl vs. Sema,2.3×10-5,2.4322999999999997
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,Ctrl vs. CR,0.139,0.9564999999999999
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,Sema vs. CR,0.0116,-1.4758

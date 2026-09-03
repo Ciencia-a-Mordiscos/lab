@@ -1,0 +1,28 @@
+subfigura,prueba,medida,grupo,pendiente_por_mes,p_valor
+a,Campo abierto,Movimiento total,Control,-3.1195,0.0001
+a,Campo abierto,Movimiento total,Semaglutida,-0.6055,0.3972
+a,Campo abierto,Movimiento total,Restriccion calorica,-1.3461,0.0665
+b,Campo abierto,Tiempo en el centro,Control,-11.5482,0.1403
+b,Campo abierto,Tiempo en el centro,Semaglutida,29.1283,0.0007
+b,Campo abierto,Tiempo en el centro,Restriccion calorica,-2.6033,0.7346
+c,Cruz elevada,Movimiento total,Control,-1.1378,6.0×10-5
+c,Cruz elevada,Movimiento total,Semaglutida,0.4285,0.1081
+c,Cruz elevada,Movimiento total,Restriccion calorica,-0.2672,0.313
+d,Cruz elevada,Tiempo en brazos abiertos,Control,-11.54,0.0012
+d,Cruz elevada,Tiempo en brazos abiertos,Semaglutida,5.319,0.1179
+d,Cruz elevada,Tiempo en brazos abiertos,Restriccion calorica,-6.4098,0.061
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,Control,-3.1983,0.0279
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,Semaglutida,5.7033,0.0002
+e,Laberinto de Barnes,Tiempo en cuadrante objetivo,Restriccion calorica,0.4517,0.7511
+f,Rotarod,Latencia de caida,Control,-8.0783,1.0×10-8
+f,Rotarod,Latencia de caida,Semaglutida,0.3183,0.7826
+f,Rotarod,Latencia de caida,Restriccion calorica,-0.1075,0.9257
+g,Rejilla invertida,Latencia de caida,Control,-28.89,5.6×10-9
+g,Rejilla invertida,Latencia de caida,Semaglutida,-1.933,0.5802
+g,Rejilla invertida,Latencia de caida,Restriccion calorica,-5.0667,0.1539
+h,Cinta de correr,Tiempo hasta agotamiento,Control,-4.1767,5.0×10-6
+h,Cinta de correr,Tiempo hasta agotamiento,Semaglutida,-0.745,0.3206
+h,Cinta de correr,Tiempo hasta agotamiento,Restriccion calorica,-0.975,0.1965
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,Control,0.7403,0.0388
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,Semaglutida,-1.692,1.1×10-5
+i,Tolerancia a la glucosa,Area bajo la curva de glucosa,Restriccion calorica,-0.2162,0.5393

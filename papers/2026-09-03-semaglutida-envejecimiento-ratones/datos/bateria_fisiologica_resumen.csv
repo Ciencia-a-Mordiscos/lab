@@ -1,0 +1,15 @@
+subfigura,prueba,medida,direccion_mejora,n_control,n_semaglutida,media_control,media_semaglutida,cambio_pct,test_estadistico,p_valor
+c,Campo abierto,Movimiento total,mas_es_mejor,10,10,13.81,20.7276,50.1,One-sided Student’s t-test,0.0028
+d,Campo abierto,Tiempo en el centro,mas_es_mejor,10,10,80.8213,185.7858,129.9,One-sided Mann-Whitney U test,0.0116
+e,Cruz elevada,Movimiento total,mas_es_mejor,10,10,5.3588,7.6839,43.4,One-sided Welch’s t-test,0.0234
+f,Cruz elevada,Entradas a los brazos,mas_es_mejor,10,10,16.5,23.4,41.8,Negative binomial regression,0.2406
+g,Cruz elevada,% entradas a brazos abiertos,mas_es_mejor,10,10,28.5959,40.12,40.3,Beta regression,0.0231
+h,Cruz elevada,Tiempo en brazos abiertos,mas_es_mejor,10,10,20.4807,80.8807,294.9,One-sided Mann-Whitney U test,0.0026
+i,Laberinto de Barnes,Tiempo en cuadrante objetivo,mas_es_mejor,10,10,28.42,52.1133,83.4,One-sided Student’s t-test,0.0052
+j,Laberinto de Barnes,% huecos en cuadrante objetivo,mas_es_mejor,10,10,32.7895,50.9094,55.3,Beta regression,0.0359
+k,Laberinto de Barnes,Latencia al hueco de escape,menos_es_mejor,10,10,89.7666,38.9866,-56.6,One-sided Mann-Whitney U test,0.0102
+l,Rotarod,Latencia de caida,mas_es_mejor,10,10,42.3767,62.3933,47.2,One-sided Student’s t-test,0.0047
+m,Rejilla invertida,Latencia de caida,mas_es_mejor,10,10,81.5,182.3,123.7,One-sided Student’s t-test,2.5×10-5
+n,Cinta de correr,Tiempo hasta agotamiento,mas_es_mejor,10,10,6.0633,16.775,176.7,One-sided Mann-Whitney U test,0.0019
+o,Cinta de correr,Distancia hasta agotamiento,mas_es_mejor,10,10,72.76,201.3,176.7,One-sided Mann-Whitney U test,0.0019
+q,Tolerancia a la glucosa,Area bajo la curva de glucosa,menos_es_mejor,10,10,25.6509,20.4251,-20.4,One-sided Student’s t-test,6.3×10-6
