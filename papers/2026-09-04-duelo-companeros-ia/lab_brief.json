@@ -1,0 +1,252 @@
+{
+  "version": "1.0",
+  "paper_id": 2956,
+  "doi": "10.1038/s41562-026-02569-3",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Tras el cambio de Replika, los posts negativos suben 24,7 puntos porcentuales",
+      "supported": "yes",
+      "detail": "13,1% -> 37,8%; IC95 20,1-29,2; d=2,84; 30 dias antes contra 30 despues",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.84,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Tras el despliegue de GPT-5, los posts negativos suben 13,0 puntos porcentuales",
+      "supported": "yes",
+      "detail": "19,6% -> 32,6%; IC95 10,8-15,2; d=3,07; mismo diseno",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 3.07,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La tristeza sube mas en Replika que en ChatGPT",
+      "supported": "yes",
+      "detail": "+10,2 contra +2,1 puntos porcentuales; d=2,67 contra 1,41",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.67,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las menciones a la propia salud mental suben mas en Replika",
+      "supported": "yes",
+      "detail": "+3,1 contra +0,3 puntos; d=1,72 contra 0,63. El efecto en ChatGPT es el mas pequeno de los doce",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.72,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El enojo distingue a las dos comunidades",
+      "supported": "no",
+      "detail": "Es donde mas se parecen: +13,3 contra +9,9 puntos, y en tamano del efecto ChatGPT queda por encima (d 3,66 contra 2,90)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.9,
+        "interpretation": "muy grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los usuarios sienten su Replika mas cerca que a un amigo",
+      "supported": "yes",
+      "detail": "5,18 contra 4,44 en la escala IOS; d=0,47; p Bonferroni=0,00087; n=101",
+      "certainty_tier": "T1",
+      "abstract_verb": "reported",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.47,
+        "interpretation": "pequeno-medio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los usuarios sienten su Replika mas cerca que a su familia",
+      "supported": "no",
+      "detail": "La familia queda por encima: 5,87 contra 5,18; d=-0,43. El paper dice «vinculos humanos comunes», y la familia no entra ahi",
+      "certainty_tier": "T1",
+      "abstract_verb": "reported",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -0.43,
+        "interpretation": "pequeno-medio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Perder la Replika se lamentaria mas que perder otras tecnologias",
+      "supported": "yes",
+      "detail": "Por encima de las cinco: marca 46,6, carro 52,4, asistente de voz 53,0, app 54,4, videojuego 54,7, contra 64,0; d entre 0,32 y 0,57; n=120",
+      "certainty_tier": "T1",
+      "abstract_verb": "reported",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.57,
+        "interpretation": "medio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Perder la Replika se lamentaria mas que perder una mascota",
+      "supported": "no",
+      "detail": "La mascota gana: 74,8 contra 64,0; d=-0,45; p=3x10-6",
+      "certainty_tier": "T1",
+      "abstract_verb": "reported",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": -0.45,
+        "interpretation": "pequeno-medio"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "El pico de Replika queda fuera de la variacion del mes previo",
+      "supported": "yes",
+      "detail": "53,6% contra un maximo previo de 27,7%; 0 de 30 dias previos lo alcanzan",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La actualizacion causo la angustia",
+      "supported": "partial",
+      "detail": "No hay asignacion al azar ni grupo control. El paper escribe «se asocia con»: la fecha del cambio parte la serie, pero no aisla otras causas",
+      "certainty_tier": "T2",
+      "abstract_verb": "associated with",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 24.7,
+      "unit": "puntos porcentuales",
+      "context": "subida de posts negativos en Replika tras retirar el rol erotico (13,1% -> 37,8%), IC95 20,1-29,2, d=2,84",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 13.0,
+      "unit": "puntos porcentuales",
+      "context": "subida de posts negativos en ChatGPT tras el despliegue de GPT-5 (19,6% -> 32,6%), IC95 10,8-15,2, d=3,07",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.67,
+      "unit": "Cohen's d",
+      "context": "tamano del efecto de la tristeza en Replika, contra 1,41 en ChatGPT (+10,2 vs +2,1 puntos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.72,
+      "unit": "Cohen's d",
+      "context": "tamano del efecto de las menciones a la propia salud mental en Replika, contra 0,63 en ChatGPT",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.47,
+      "unit": "Cohen's d",
+      "context": "cercania percibida de Replika (5,18) frente a un amigo (4,44) en la escala IOS, n=101, p Bonferroni=0,00087",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 53.6,
+      "unit": "por ciento",
+      "context": "dia pico de posts negativos en Replika (2023-02-12, dia +9), contra un maximo previo de 27,7%: 0 de 30 dias previos lo alcanzan",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 13.3,
+      "unit": "puntos porcentuales",
+      "context": "subida del enojo en Replika contra +9,9 en ChatGPT: la senal donde mas se parecen, y en tamano del efecto ChatGPT queda por encima (d 3,66 vs 2,90)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 64.0,
+      "unit": "sobre 100",
+      "context": "duelo anticipado por Replika (n=120), por encima de las cinco tecnologias (46,6-54,7; d 0,32-0,57) y por debajo de la mascota (74,8; d=-0,45)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa sobre lo medido"
+    },
+    {
+      "abstract_verb": "reported",
+      "tier": "T1",
+      "cam_attenuator": "es autorreporte, decirlo asi"
+    },
+    {
+      "abstract_verb": "associated with",
+      "tier": "T2",
+      "cam_attenuator": "«se asocia con» — el hedge es del paper, respetarlo"
+    },
+    {
+      "abstract_verb": "inform",
+      "tier": "T2",
+      "cam_attenuator": "«alimentan el debate regulatorio», NO «obligan a regular»"
+    }
+  ],
+  "narrative_hooks": [
+    "Nueve dias despues de que Replika retirara una funcion, el 53,6% de los posts de su subreddit eran negativos. El mes anterior el promedio era 13,1%.",
+    "El enojo no distingue a las dos comunidades: casi se igualan. Lo que las separa es la tristeza, que sube casi cinco veces mas en Replika.",
+    "Los usuarios sienten a su Replika mas cerca que a un amigo — pero no mas que a su familia.",
+    "Lamentarian perderla mas que a cualquier otra tecnologia, y menos que a una mascota."
+  ],
+  "limitations": [
+    "Cuasi-experimental: la empresa cambio el producto para todos a la vez. No hay grupo control ni asignacion al azar.",
+    "La unidad de analisis es el dia (60 por app), no el post. Los 54.861 posts son el material clasificado.",
+    "Las emociones las etiqueto un modelo de lenguaje, no personas.",
+    "Los subreddits son una muestra autoseleccionada: quien postea tras un cambio es quien se molesto lo suficiente para escribir.",
+    "Cercania y duelo son autoinforme de usuarios activos reclutados en linea (n=101 y n=120), no medidas de conducta.",
+    "El duelo es anticipado, no vivido: se pidio imaginar la perdida y puntuarla.",
+    "ChatGPT no es un control, es un segundo caso: su actualizacion tambien subio la negatividad.",
+    "Las series diarias no son normales (Shapiro-Wilk rechaza en 11 de 24 grupos); con Mann-Whitney los 12 contrastes siguen siendo significativos, el mas flojo p=0,041."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados como yes y 8 numeros clave: script denso"
+  },
+  "notebook_slug": "2026-09-04-duelo-companeros-ia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-04-duelo-companeros-ia/notebook.html",
+  "generated_at": "2026-09-04T11:16:48-05:00"
+}

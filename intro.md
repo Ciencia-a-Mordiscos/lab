@@ -14,6 +14,22 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### El duelo por un compañero de IA
+
+**Psicología** · *Nature Human Behaviour* · Cuando Replika retiró el rol erótico, los posts negativos de su subreddit pasaron
+de 13,1% a 37,8% (+24,7 puntos, d = 2,84). El despliegue de GPT-5 también movió a
+su comunidad, pero menos (+13,0 puntos). Lo que separa a las dos no es el enojo
+—ahí se parecen— sino la tristeza (+10,2 contra +2,1 puntos) y las menciones a la
+propia salud mental. Los usuarios sitúan a su Replika más cerca que a un amigo
+(5,18 contra 4,44 en la escala IOS) ⚠️ pero no más que a la familia, y lamentarían
+perderla más que cualquier otra tecnología ⚠️ aunque menos que a una mascota.
+⚠️ Es cuasi-experimental: la empresa cambió el producto para todos a la vez, así
+que se observa qué pasó, no se prueba la causa.
+
+[Ver notebook](papers/2026-09-04-duelo-companeros-ia/notebook) · [Leer más](papers/2026-09-04-duelo-companeros-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-04-duelo-companeros-ia/notebook.ipynb)
+
+---
+
 ### La semaglutida alargó la vida de ratonas viejas un 12%
 
 **Medicina** · *Nature* · Ratonas de 20 meses tratadas con semaglutida vivieron 92 días más de mediana

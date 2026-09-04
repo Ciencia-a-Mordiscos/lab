@@ -1,0 +1,39 @@
+titulo: "El duelo por un compañero de IA"
+titulo_corto: "Duelo por compañeros de IA"
+card_descripcion: |
+  Cuando Replika retiró el rol erótico, los posts negativos de su subreddit pasaron
+  de 13,1% a 37,8% (+24,7 puntos, d = 2,84). El despliegue de GPT-5 también movió a
+  su comunidad, pero menos (+13,0 puntos). Lo que separa a las dos no es el enojo
+  —ahí se parecen— sino la tristeza (+10,2 contra +2,1 puntos) y las menciones a la
+  propia salud mental. Los usuarios sitúan a su Replika más cerca que a un amigo
+  (5,18 contra 4,44 en la escala IOS) ⚠️ pero no más que a la familia, y lamentarían
+  perderla más que cualquier otra tecnología ⚠️ aunque menos que a una mascota.
+  ⚠️ Es cuasi-experimental: la empresa cambió el producto para todos a la vez, así
+  que se observa qué pasó, no se prueba la causa.
+fecha: 2026-09-04
+categoria: psicologia
+tags: [inteligencia-artificial, apego, replika, chatgpt, redes-sociales, bienestar, experimento-natural]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41562-026-02569-3"
+    titulo: "Mourning the loss of AI companions"
+    journal: Nature Human Behaviour
+    autores: "De Freitas et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "serie_diaria_sentimiento.csv"
+    descripcion: "Serie diaria por app (60 días cada una, ±30 del cambio): % de posts negativos, tristeza, enojo, pérdida por apego, salud mental y deseo de restauración. Agregado desde los 54.861 posts."
+    fuente: "GitHub — Ethical-Intelligence-Lab/ai_loss"
+  - nombre: "efectos_antes_despues.csv"
+    descripcion: "Antes/después por app y señal: medias, diferencia en puntos porcentuales, IC95 (t de Welch sobre los porcentajes diarios) y Cohen's d."
+    fuente: "GitHub — Ethical-Intelligence-Lab/ai_loss"
+  - nombre: "cercania_por_vinculo.csv"
+    descripcion: "Estudio 3 (n=101): cercanía percibida en la escala IOS (1-7) hacia 8 vínculos, con Cohen's d frente a Replika y p con corrección de Bonferroni."
+    fuente: "GitHub — Ethical-Intelligence-Lab/ai_loss"
+  - nombre: "duelo_anticipado.csv"
+    descripcion: "Estudio 2 (n=120): duelo anticipado (0-100) ante la pérdida de 7 entidades, con Cohen's d y diferencia media con IC95 frente a Replika."
+    fuente: "GitHub — Ethical-Intelligence-Lab/ai_loss"
+estado: publicado
