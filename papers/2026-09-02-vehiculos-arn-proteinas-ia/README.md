@@ -37,6 +37,6 @@ Las señales del cribado son **relativas a HE0902**, no eficiencias absolutas. L
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/PulONd8Q60Q)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10952-3](https://doi.org/10.1038/s41586-026-10952-3)
 - **Datos originales:** [Source Data (MOESM4)](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10952-3/MediaObjects/41586_2026_10952_MOESM4_ESM.xlsx)

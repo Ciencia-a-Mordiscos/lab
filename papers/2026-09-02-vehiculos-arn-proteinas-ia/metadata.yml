@@ -15,7 +15,7 @@ fecha: 2026-09-02
 categoria: biologia
 tags: [proteinas, inteligencia-artificial, arn, diseno-de-proteinas, virus, terapia-genica]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/PulONd8Q60Q"
 fuentes:
   - doi: "10.1038/s41586-026-10952-3"
     titulo: "Creating bottom-up RNA transfer vehicles from synthetic protein assemblies"
