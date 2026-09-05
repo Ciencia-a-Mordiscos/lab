@@ -73,6 +73,19 @@ y la dieta ninguna. ⚠️ Solo ratonas hembra, una sola dosis, sin datos humano
 
 ---
 
+### El tumor fabrica su propio antioxidante
+
+**Medicina** · *Science* · La peroxirredoxina 1 está al menos 211 veces más concentrada en el fluido del tumor
+que en la sangre, y frena el programa de ataque de las células T solo cuando están
+activadas (Ifng −0,97 en log2, padj = 6,5 × 10⁻⁹; en reposo, +0,02 y no significativo).
+⚠️ Ratón, no humanos. ⚠️ El 211x es cota inferior: PRDX1 está en el piso de detección
+del ensayo, igual que 373 de las 490 proteínas — por eso el "82% enriquecido" del
+archivo es en buena parte artefacto del diseño.
+
+[Ver notebook](papers/2026-09-03-antioxidantes-tumor-celulas-t/notebook) · [Leer más](papers/2026-09-03-antioxidantes-tumor-celulas-t/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-03-antioxidantes-tumor-celulas-t/notebook.ipynb)
+
+---
+
 ### Una IA diseñó un envase para ARN que ningún virus inventó
 
 **Biología** · *Nature* · Los virus llevan miles de millones de años metiendo material genético en

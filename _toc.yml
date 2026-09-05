@@ -452,6 +452,11 @@ parts:
     sections:
     - file: papers/2026-09-03-semaglutida-envejecimiento-ratones/notebook
       title: Notebook
+  - file: papers/2026-09-03-antioxidantes-tumor-celulas-t/README
+    title: "Antioxidantes que apagan células T"
+    sections:
+    - file: papers/2026-09-03-antioxidantes-tumor-celulas-t/notebook
+      title: Notebook
   - file: papers/2026-08-12-probioticos-glucosa-diabetes/README
     title: "Un probiótico que solo trabaja cuando el azúcar sube"
     sections:

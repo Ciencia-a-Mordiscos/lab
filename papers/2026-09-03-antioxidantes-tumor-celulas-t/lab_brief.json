@@ -1,0 +1,194 @@
+{
+  "version": "1.0",
+  "paper_id": 2967,
+  "doi": "10.1126/science.adz8203",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "PRDX1 se acumula en el fluido del tumor: log2FC = 7,72, es decir 211 veces más que en la sangre",
+      "supported": "yes",
+      "detail": "Puesto 40 de 490 en el proteoma (percentil 92). Cota inferior: su valor en sangre es el piso de detección",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "PRDX1 es el antioxidante más enriquecido del fluido tumoral",
+      "supported": "yes",
+      "detail": "De los 9 antioxidantes anotados es el primero: 211x frente a 65x de PRDX2 y 27,7x de SOD1",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "PRDX1 no es la proteína más enriquecida del fluido: 39 proteínas están por encima",
+      "supported": "no",
+      "detail": "Ubc 13,24; Copa 12,84; Cct3 12,49 en log2 frente a 7,72 de PRDX1",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los antioxidantes como clase no se distinguen del resto del proteoma",
+      "supported": "no",
+      "detail": "Mediana 3,98 frente a 3,89; Mann-Whitney U = 2116, p = 0,909, Cohen's d = −0,12; n = 9 sin poder estadístico. Dos están depletados",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El 82% de proteínas enriquecidas es en parte artefacto del piso de imputación",
+      "supported": "partial",
+      "detail": "373 de 490 (76,1%) comparten el valor mínimo en suero. Entre las 117 medidas en ambos fluidos solo el 25,6% está enriquecida y la mediana es −3,06",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "PRDX1 frena el programa efector de las células T CD8+",
+      "supported": "yes",
+      "detail": "Los 7 genes efectores bajan con estímulo, 7/7 con padj < 0,05: Ifng −0,97 (padj 6,5e-09), Gzmb −0,48, Prf1 −0,29",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El efecto de PRDX1 depende de que la célula T esté activada",
+      "supported": "yes",
+      "detail": "Media −0,417 activadas frente a −0,032 en reposo; 7/7 significativos frente a 1/7. Wilcoxon pareado W = 0, p = 0,016, d pareado = −1,42, n = 7 genes",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "PRDX1 no apaga la célula T por completo: su efecto es selectivo",
+      "supported": "no",
+      "detail": "Efecto máximo en todo el transcriptoma |log2FC| = 1,04 (2,1 veces, gen Col11a2), sd = 0,144, sobre 11.935 genes",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "NAC y PRDX1 no son comparables en magnitud",
+      "supported": "partial",
+      "detail": "NAC a 60 mM mueve el 74,2% del transcriptoma (sd 0,825); PRDX1 a 50 µg/ml el 32,0% (sd 0,144), 5,7 veces menos dispersión",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El fluido tumoral completo baja los genes efectores más que PRDX1 aislada",
+      "supported": "partial",
+      "detail": "Ifng −2,23 a 2 h con el fluido entero frente a −0,97 con PRDX1; Il2 −4,59. Comparadores distintos: la dirección se sostiene, las magnitudes no se restan",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los resultados son en ratón y la aplicación terapéutica es hipotética",
+      "supported": "yes",
+      "detail": "Símbolos génicos murinos y UniProt _MOUSE. El abstract cierra con 'potentially amenable to therapeutic intervention'",
+      "certainty_tier": "T3",
+      "abstract_verb": "potentially",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 211,
+      "unit": "veces",
+      "context": "concentración de PRDX1 en el fluido tumoral frente a la sangre (cota inferior)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 7.72,
+      "unit": "log2",
+      "context": "enriquecimiento de PRDX1 en el fluido intersticial del tumor",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 490,
+      "unit": "proteínas",
+      "context": "tamaño del proteoma comparado entre fluido tumoral y suero",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 76.1,
+      "unit": "por ciento",
+      "context": "proteínas ancladas al piso de detección en suero (373 de 490)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 25.6,
+      "unit": "por ciento",
+      "context": "proteínas enriquecidas entre las 117 medidas de verdad en ambos fluidos",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -0.966,
+      "unit": "log2",
+      "context": "caída de Ifng en células T activadas tratadas con PRDX1 (padj 6,5e-09)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.023,
+      "unit": "log2",
+      "context": "cambio de Ifng en células T en reposo tratadas con PRDX1 (padj 0,79, no significativo)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 74.2,
+      "unit": "por ciento",
+      "context": "transcriptoma movido por NAC a 60 mM, frente al 32,0% de PRDX1",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "todo apunta a que (aplica al trabajo previo, no a este paper)"
+    },
+    {
+      "abstract_verb": "potentially",
+      "tier": "T3",
+      "cam_attenuator": "podría llegar a / abre la puerta a"
+    }
+  ],
+  "narrative_hooks": [
+    "Los suplementos antioxidantes contra el cáncer fallaron, y en varios ensayos empeoraron los resultados: el tumor ya estaba usando ese truco",
+    "PRDX1 no apaga la célula T, apaga su respuesta: baja Ifng un −0,97 en células activadas y nada (+0,02) en reposo",
+    "El antioxidante está 211 veces más concentrado en el líquido del tumor que en la sangre, y eso es una cota inferior"
+  ],
+  "limitations": [
+    "Especie ratón: símbolos génicos murinos y UniProt _MOUSE, no extrapolable a pacientes",
+    "Piso de imputación: 373 de 490 proteínas comparten el valor mínimo en suero, PRDX1 incluida, así que su 211x es cota inferior",
+    "La clase antioxidante tiene n = 9: el p = 0,909 dice 'no distinguimos', no 'son iguales'",
+    "PRDX1 en reposo mueve 2.757 genes (23,1%): el efecto condicional está soportado para el programa efector, no para el transcriptoma entero",
+    "Los datos son de expresión génica, no de proteína secretada",
+    "Cuatro réplicas por condición según los métodos del paper; los archivos no traen columna de réplica"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "5 claims verificados como yes, 3 parciales y 3 refutaciones; 8 números clave"
+  },
+  "notebook_slug": "2026-09-03-antioxidantes-tumor-celulas-t",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-03-antioxidantes-tumor-celulas-t/notebook.html",
+  "generated_at": "2026-09-05T11:21:38.123834-05:00"
+}

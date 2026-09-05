@@ -1,0 +1,33 @@
+titulo: "El tumor fabrica su propio antioxidante"
+titulo_corto: "Antioxidantes que apagan células T"
+card_descripcion: |
+  La peroxirredoxina 1 está al menos 211 veces más concentrada en el fluido del tumor
+  que en la sangre, y frena el programa de ataque de las células T solo cuando están
+  activadas (Ifng −0,97 en log2, padj = 6,5 × 10⁻⁹; en reposo, +0,02 y no significativo).
+  ⚠️ Ratón, no humanos. ⚠️ El 211x es cota inferior: PRDX1 está en el piso de detección
+  del ensayo, igual que 373 de las 490 proteínas — por eso el "82% enriquecido" del
+  archivo es en buena parte artefacto del diseño.
+fecha: 2026-09-03
+categoria: medicina
+tags: [cancer, inmunologia, celulas-t, antioxidantes, proteomica, rna-seq, raton]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "%s"
+    titulo: "Tumor-derived antioxidants suppress immunity by depriving T cells of reactive oxygen species"
+    journal: Science
+    autores: "Wesolowski et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "proteoma_tif_vs_suero.csv"
+    descripcion: "Proteómica TMT del fluido intersticial tumoral frente a suero, 490 proteínas"
+    fuente: "Supplementary Data S3"
+  - nombre: "degs_celulas_t.csv"
+    descripcion: "Expresión diferencial en células T CD8+ bajo PRDX1 o NAC, con y sin estímulo"
+    fuente: "Supplementary Data S5"
+  - nombre: "expresion_tif_vs_suero_celulas_t.csv"
+    descripcion: "Los 3.827 genes diferenciales en células T expuestas al fluido tumoral completo"
+    fuente: "Supplementary Data S2"
+estado: publicado
