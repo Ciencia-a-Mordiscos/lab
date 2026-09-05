@@ -1,0 +1,7 @@
+formulacion,etapa,diametro_dls_nm,diametro_tem_nm,dif_nm,dif_pct
+S-1,nucleo,164.5,159,5.5,3.5
+S-1,coraza,223.0,189,34.0,18.0
+S-2,nucleo,173.1,171,2.1,1.2
+S-2,coraza,243.0,203,40.0,19.7
+S-3,nucleo,211.7,203,8.7,4.3
+S-3,coraza,282.1,240,42.1,17.5

@@ -952,6 +952,11 @@ parts:
       title: Notebook
 - caption: Química
   chapters:
+  - file: papers/2026-09-04-peliculas-fotonicas-industriales/README
+    title: "Película de color sin pigmento"
+    sections:
+    - file: papers/2026-09-04-peliculas-fotonicas-industriales/notebook
+      title: Notebook
   - file: papers/2026-08-06-pvc-lubricantes-vpao/README
     title: "Convirtieron tuberías de PVC en aceite de motor"
     sections:

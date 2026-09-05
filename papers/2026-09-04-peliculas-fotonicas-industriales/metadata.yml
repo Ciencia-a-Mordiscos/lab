@@ -1,0 +1,41 @@
+titulo: "Hasta cuatro kilómetros de película que tiene color sin llevar pigmento"
+titulo_corto: "Película de color sin pigmento"
+card_descripcion: |
+  El color de esta película lo pone la geometría, no un tinte: partículas de plástico
+  casi idénticas (PDI 0,01–0,05) ordenadas en una rejilla. Meter monómeros comunes como
+  mediadores baja la barrera de ensamblado y deja que el simple cizallamiento la ordene,
+  a 25 °C y en segundos — hasta 4.000 metros de largo por 1,3 de ancho, a 25 m/min.
+  ⚠️ Pero 3 de los 7 métodos previos de la Tabla S2 ya fabricaban a 25 °C: lo diferencial
+  no es la temperatura, es la escala a esa temperatura. Y al abrir el suplementario
+  aparece algo que el paper no comenta: DLS y microscopía concuerdan en el núcleo
+  (3,0 % de diferencia) y se separan seis veces más al añadir la coraza (18,4 %) —
+  33,1 nm medidos en agua contra 16,5 nm medidos en seco. ⚠️ La lectura de la coraza
+  hinchada es nuestra, no del paper. ⚠️ n = 3 formulaciones sin réplicas: ningún test
+  estadístico es apropiado, y no hay ninguno.
+fecha: 2026-09-04
+categoria: quimica
+tags: [color-estructural, cristales-fotonicos, coloides, manufactura, roll-to-roll, materiales, mecanocromismo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aed8723"
+    titulo: "Monomer-biased manufacture of industrial-scale colloidal photonic films"
+    journal: Science
+    autores: "Li et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "particulas_dls.csv"
+    descripcion: "Tabla S1: diámetro z-average, PDI e incremento radial por etapa (semilla, núcleo, coraza) de las 3 formulaciones industriales S-1/S-2/S-3, que difieren en el SDS de la síntesis de semilla. 9 medidas."
+    fuente: "Supplementary Materials (Science, mismo DOI)"
+  - nombre: "dls_vs_tem.csv"
+    descripcion: "Tabla S1 + fig. S24: el mismo objeto medido por dos técnicas — diámetro hidrodinámico (DLS, en agua) contra diámetro de imagen (en seco), para núcleo y núcleo+coraza. 6 filas."
+    fuente: "Supplementary Materials (Science, mismo DOI)"
+  - nombre: "comparacion_metodos.csv"
+    descripcion: "Tabla S2: temperatura de fabricación y escala (orden de magnitud, largo × ancho) de 8 métodos de películas de color estructural. Se excluyeron las filas de continuidad y propiedades ópticas/mecánicas: son calificaciones 1-3 asignadas por los propios autores."
+    fuente: "Supplementary Materials (Science, mismo DOI)"
+  - nombre: "mecanocromismo.csv"
+    descripcion: "fig. S54B: longitud de onda central del pico de reflexión en tres estados de esfuerzo (reposo, presión, levantamiento) de la prenda con parches de cristal fotónico."
+    fuente: "Supplementary Materials (Science, mismo DOI)"
+estado: publicado

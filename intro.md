@@ -14,6 +14,24 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Hasta cuatro kilómetros de película que tiene color sin llevar pigmento
+
+**Química** · *Science* · El color de esta película lo pone la geometría, no un tinte: partículas de plástico
+casi idénticas (PDI 0,01–0,05) ordenadas en una rejilla. Meter monómeros comunes como
+mediadores baja la barrera de ensamblado y deja que el simple cizallamiento la ordene,
+a 25 °C y en segundos — hasta 4.000 metros de largo por 1,3 de ancho, a 25 m/min.
+⚠️ Pero 3 de los 7 métodos previos de la Tabla S2 ya fabricaban a 25 °C: lo diferencial
+no es la temperatura, es la escala a esa temperatura. Y al abrir el suplementario
+aparece algo que el paper no comenta: DLS y microscopía concuerdan en el núcleo
+(3,0 % de diferencia) y se separan seis veces más al añadir la coraza (18,4 %) —
+33,1 nm medidos en agua contra 16,5 nm medidos en seco. ⚠️ La lectura de la coraza
+hinchada es nuestra, no del paper. ⚠️ n = 3 formulaciones sin réplicas: ningún test
+estadístico es apropiado, y no hay ninguno.
+
+[Ver notebook](papers/2026-09-04-peliculas-fotonicas-industriales/notebook) · [Leer más](papers/2026-09-04-peliculas-fotonicas-industriales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-04-peliculas-fotonicas-industriales/notebook.ipynb)
+
+---
+
 ### El duelo por un compañero de IA
 
 **Psicología** · *Nature Human Behaviour* · Cuando Replika retiró el rol erótico, los posts negativos de su subreddit pasaron

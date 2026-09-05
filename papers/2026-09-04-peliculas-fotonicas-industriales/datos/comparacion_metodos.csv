@@ -1,0 +1,9 @@
+metodo,temperatura_c,largo_escala,ancho_escala,orden_largo,orden_ancho,es_este_trabajo,referencia
+LCC,140,m,dm,3,2,0,21
+BIOS,120,m,dm,3,2,0,23
+BIST,25,m,dm,3,2,0,32
+OM,70,dm,dm,2,2,0,39
+CN,60,m,dm,3,2,0,40
+CLC,25,cm,cm,1,1,0,41
+SSAT,25,cm,cm,1,1,0,42
+Este trabajo,25,km,m,4,3,1,

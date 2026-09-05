@@ -1,0 +1,10 @@
+formulacion,sds_wt_pct,etapa,diametro_z_nm,pdi,incremento_radio_nm
+S-1,0.073,semilla,40.6,0.05,
+S-1,0.073,nucleo,164.5,0.02,61.95
+S-1,0.073,coraza,223.0,0.02,29.25
+S-2,0.06,semilla,46.0,0.04,
+S-2,0.06,nucleo,173.1,0.01,63.55
+S-2,0.06,coraza,243.0,0.03,34.95
+S-3,0.044,semilla,44.0,0.02,
+S-3,0.044,nucleo,211.7,0.03,83.85
+S-3,0.044,coraza,282.1,0.02,35.2
