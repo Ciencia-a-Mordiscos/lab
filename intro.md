@@ -73,6 +73,22 @@ y la dieta ninguna. ⚠️ Solo ratonas hembra, una sola dosis, sin datos humano
 
 ---
 
+### Dos dosis antes de la quimio, y la neuropatía no apareció
+
+**Medicina** · *Science* · Dos dosis de 1 mg/kg de psilocibina antes del cisplatino y la hipersensibilidad
+de la pata se queda en 1,39 frente a 3,63 de la quimio sola — indistinguible de
+no haber recibido quimio (p = 0,80) a lo largo de 126 días. Con una sola dosis
+hay mitigación (2,57), no prevención. Bloquear el receptor 5HT2A en todo el
+cuerpo anula el escudo del tacto; bloquearlo solo en el cerebro, no — aunque en
+la hipersensibilidad mecánica el componente central también pesa.
+⚠️ Todo lo in vivo es en ratones y ningún paciente recibió
+psilocibina. ⚠️ La protección no dura sola: si la quimio se reinicia sin
+re-dosificar, los ratones protegidos se deterioran como los controles.
+
+[Ver notebook](papers/2026-09-03-psilocibina-neuropatia-quimio/notebook) · [Leer más](papers/2026-09-03-psilocibina-neuropatia-quimio/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-03-psilocibina-neuropatia-quimio/notebook.ipynb)
+
+---
+
 ### El tumor fabrica su propio antioxidante
 
 **Medicina** · *Science* · La peroxirredoxina 1 está al menos 211 veces más concentrada en el fluido del tumor

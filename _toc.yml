@@ -452,6 +452,11 @@ parts:
     sections:
     - file: papers/2026-09-03-semaglutida-envejecimiento-ratones/notebook
       title: Notebook
+  - file: papers/2026-09-03-psilocibina-neuropatia-quimio/README
+    title: "Psilocibina y neuropatía por quimio"
+    sections:
+    - file: papers/2026-09-03-psilocibina-neuropatia-quimio/notebook
+      title: Notebook
   - file: papers/2026-09-03-antioxidantes-tumor-celulas-t/README
     title: "Antioxidantes que apagan células T"
     sections:

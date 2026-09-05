@@ -1,0 +1,42 @@
+titulo: "Dos dosis antes de la quimio, y la neuropatía no apareció"
+titulo_corto: "Psilocibina y neuropatía por quimio"
+card_descripcion: |
+  Dos dosis de 1 mg/kg de psilocibina antes del cisplatino y la hipersensibilidad
+  de la pata se queda en 1,39 frente a 3,63 de la quimio sola — indistinguible de
+  no haber recibido quimio (p = 0,80) a lo largo de 126 días. Con una sola dosis
+  hay mitigación (2,57), no prevención. Bloquear el receptor 5HT2A en todo el
+  cuerpo anula el escudo del tacto; bloquearlo solo en el cerebro, no — aunque en
+  la hipersensibilidad mecánica el componente central también pesa.
+  ⚠️ Todo lo in vivo es en ratones y ningún paciente recibió
+  psilocibina. ⚠️ La protección no dura sola: si la quimio se reinicia sin
+  re-dosificar, los ratones protegidos se deterioran como los controles.
+fecha: 2026-09-03
+categoria: medicina
+tags: [psilocibina, neuropatía, quimioterapia, cisplatino, mitocondria, dolor, ratones]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec6116"
+    titulo: "Psilocybin prevents chemotherapy-induced peripheral neuropathy through mitochondrial trafficking preservation"
+    journal: Science
+    autores: "Heles et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "von_frey_dias.csv"
+    descripcion: "Hipersensibilidad mecánica por ratón y día, 4 grupos, 126 días de seguimiento"
+    fuente: "Tabla suplementaria S6 (figura 1A)"
+  - nombre: "tape_test_pre_post.csv"
+    descripcion: "Agudeza táctil pareada pre/post, 7 brazos con ketanserina sistémica frente a intracerebroventricular"
+    fuente: "Tabla suplementaria S8 (figura 3B)"
+  - nombre: "ienfd_por_grupo.csv"
+    descripcion: "Densidad de fibras nerviosas intraepidérmicas en dos condiciones: 1 semana con 7 mg/kg y 4 semanas con 23 mg/kg"
+    fuente: "Tabla suplementaria S8 (figuras 3D y 3F)"
+  - nombre: "vdac_axonal.csv"
+    descripcion: "Área de VDAC axonal en neuronas sensoriales humanas derivadas de iPSC, 100 axones"
+    fuente: "Tabla suplementaria S9 (figura 4I)"
+  - nombre: "acetona_frio.csv"
+    descripcion: "Alodinia al frío por evaporación de acetona, 4 grupos de n=6"
+    fuente: "Tabla suplementaria S6 (figura 1E)"
+estado: publicado

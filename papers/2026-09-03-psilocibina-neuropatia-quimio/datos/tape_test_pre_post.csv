@@ -1,0 +1,43 @@
+grupo,muestra,att_pct_pre,att_pct_post
+Vehicle,27,73.3745,154.153
+Vehicle,28,63.4489,178.738
+Vehicle,29,128.28,70.7641
+Vehicle,13,112.889,73.0897
+Vehicle,14,147.943,60.1329
+Vehicle,15,74.0655,63.1229
+Cisplatin,32,107.8,175.748
+Cisplatin,33,118.228,257.475
+Cisplatin,34,110.062,264.784
+Cisplatin,1,86.3156,232.89
+Cisplatin,2,148.131,301.329
+Cisplatin,3,45.7963,197.674
+Psi + Cis,30,117.977,107.309
+Psi + Cis,31,78.5258,163.787
+Psi + Cis,26,112.575,132.226
+Psi + Cis,7,58.4232,75.0831
+Psi + Cis,5,102.712,
+Psi + Cis,9,94.231,125.249
+ICV-Ket + Cis,35,136.823,262.126
+ICV-Ket + Cis,36,67.4694,290.365
+ICV-Ket + Cis,25,130.918,197.01
+ICV-Ket + Cis,4,88.5771,146.179
+ICV-Ket + Cis,8,134.185,282.06
+ICV-Ket + Cis,6,121.558,259.801
+ICV-Ket + Psi + Cis,37,96.1156,117.276
+ICV-Ket + Psi + Cis,38,89.8335,123.588
+ICV-Ket + Psi + Cis,39,138.331,152.492
+ICV-Ket + Psi + Cis,19,68.7886,118.937
+ICV-Ket + Psi + Cis,20,111.946,151.495
+ICV-Ket + Psi + Cis,21,70.1078,265.449
+Ket + Cis,22,137.954,397.342
+Ket + Cis,23,182.682,326.578
+Ket + Cis,24,100.89,255.482
+Ket + Cis,10,75.5732,290.365
+Ket + Cis,11,71.9925,
+Ket + Cis,12,112.889,201.993
+Ket + Psi + Cis,40,135.19,121.927
+Ket + Psi + Cis,41,85.9386,231.894
+Ket + Psi + Cis,42,103.026,382.392
+Ket + Psi + Cis,16,61.0617,151.495
+Ket + Psi + Cis,17,68.9771,318.937
+Ket + Psi + Cis,18,66.3386,226.246

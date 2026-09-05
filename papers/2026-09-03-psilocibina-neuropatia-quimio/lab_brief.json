@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "paper_id": 2961,
+  "doi": "10.1126/science.aec6116",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "Dos dosis previas de psilocibina evitan la hipersensibilidad mecánica durante 126 días en ratón",
+      "supported": "yes",
+      "detail": "Media post-basal 1,39 vs 3,63 del cisplatino solo (d=4,36, p=0,0001). Frente a los ratones sin quimio, p=0,44 con n=4-5: no se distinguen, pero eso es ausencia de evidencia, no equivalencia probada",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.36,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Una sola dosis mitiga la hipersensibilidad pero no la previene",
+      "supported": "partial",
+      "detail": "2,57 vs 3,63 (d=1,56, p=0,039); sigue por encima del grupo sin quimio. Coincide con el 'significantly mitigated' del pie de la figura 1A",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.56,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La protección de la agudeza táctil depende del receptor 5HT2A periférico, no del cerebral",
+      "supported": "partial",
+      "detail": "Con ketanserina sistémica el escudo desaparece (238,8 vs 238,3 del cisplatino solo, p=0,99); con ketanserina intracerebroventricular aguanta (154,9; p=0,26 frente a psilocibina + cisplatino)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.54,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "A 4 semanas y dosis acumulada alta el cisplatino borra fibras nerviosas de la piel y la psilocibina previa las preserva",
+      "supported": "yes",
+      "detail": "-35,5% (33,3 a 21,5 fibras/mm, d=2,37, p=0,0003); con psilocibina 29,0, que recupera el 63% de la brecha (d=1,51, p=0,009). ANOVA F=8,04, p=0,0005",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.37,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "A 1 semana con dosis estándar todavía no hay pérdida de fibras por cisplatino",
+      "supported": "partial",
+      "detail": "El cisplatino (35,7) no está por debajo del vehículo (28,0). El ANOVA global de ese panel sí sale p=0,014, pero lo empuja el grupo de psilocibina sola (21,7): no es correcto decir que no hubo diferencias entre grupos",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En neuronas sensoriales humanas el cisplatino vacía el axón de mitocondrias y la psilocibina previa lo evita",
+      "supported": "yes",
+      "detail": "Mediana 253,5 a 126,5 um2/celula (-50%, p=0,003) y de vuelta a 244,0 (p=0,0009 vs cisplatino; p=1,00 vs vehículo). n=22-28 axones por grupo, Mann-Whitney por el sesgo de la distribución",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La psilocibina previa también previene la alodinia al frío",
+      "supported": "yes",
+      "detail": "Acetona: 1,46 con psilocibina previa vs 2,27 con cisplatino solo (d=3,17, p=0,0003), n=6 por grupo",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 3.17,
+        "interpretation": "grande"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La protección NO se mantiene sola si la quimio se reinicia sin volver a dosificar",
+      "supported": "no",
+      "detail": "Al reiniciar el cisplatino sin re-dosificar, los ratones protegidos desarrollan hipersensibilidad como los controles (figura 1D). Hay que re-dosificar antes de cada exposición",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La psilocibina NO mejora la función respiratoria mitocondrial",
+      "supported": "no",
+      "detail": "En respirometría Seahorse no la altera (figura 4E). Lo que cambia es el transporte y la distribución de mitocondrias, no la capacidad de producir energía",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La psilocibina NO apaga el dolor ya instalado",
+      "supported": "no",
+      "detail": "No revierte la hiperexcitabilidad del ganglio raquídeo ni la activación de c-Fos en el asta dorsal (figura 2). Es prevención, no analgesia",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": false
+    },
+    {
+      "claim": "'Primer agente profiláctico de su clase' y 'justifica evaluación clínica' son afirmaciones de los autores, no resultados medidos",
+      "supported": "partial",
+      "detail": "El estudio no trató a ninguna persona con psilocibina: lo in vivo es en ratones y lo humano son neuronas derivadas de iPSC y tejido ex vivo",
+      "certainty_tier": "T2",
+      "abstract_verb": "support",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 2,
+      "unit": "dosis",
+      "context": "dosis de 1 mg/kg de psilocibina antes de la quimio que previenen la hipersensibilidad en ratón",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.39,
+      "unit": "score von Frey",
+      "context": "media post-basal con dos dosis previas, frente a 3,63 del cisplatino solo y 1,60 sin quimio",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "completely prevented",
+        "our_calculation": "1,39 vs 1,60 sin quimio, p=0,44",
+        "discrepancy_pct": 0,
+        "reason": "replica la gradación del pie de la figura 1A"
+      }
+    },
+    {
+      "value": 126,
+      "unit": "días",
+      "context": "seguimiento conductual en el que se mantiene la protección",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 35.5,
+      "unit": "por ciento",
+      "context": "caída de fibras nerviosas de la piel por cisplatino a 4 semanas con dosis acumulada alta (33,3 a 21,5 fibras/mm)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 63,
+      "unit": "por ciento",
+      "context": "de esa brecha de fibras que recupera la psilocibina previa (28,96 fibras/mm)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 50.1,
+      "unit": "por ciento",
+      "context": "caída de la mediana de mitocondria axonal (VDAC) por cisplatino en neuronas humanas iSN: 253,5 a 126,5 um2/celula",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 238.8,
+      "unit": "por ciento del control",
+      "context": "agudeza táctil con ketanserina sistémica + psilocibina + cisplatino, idéntica al cisplatino solo (238,3; p=0,99)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, pero solo sobre lo medido: 'en ratones, dos dosis previas evitaron...'"
+    },
+    {
+      "abstract_verb": "durably prevented",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con su alcance: 126 días y 6 ciclos, en ratón; se pierde si no se re-dosifica"
+    },
+    {
+      "abstract_verb": "establishes ... as first-in-class",
+      "tier": "T2",
+      "cam_attenuator": "'los autores lo plantean como el primer agente de su tipo' — nunca 'cura', 'hito' ni 'revolución'"
+    },
+    {
+      "abstract_verb": "support (clinical evaluation)",
+      "tier": "T2",
+      "cam_attenuator": "'los autores sostienen que justifica evaluarlo en clínica' — no es recomendación clínica"
+    }
+  ],
+  "narrative_hooks": [
+    "Dos dosis de 1 mg/kg antes de la quimio y, 126 días después, esos ratones tenían la pata tan sensible como los que nunca recibieron cisplatino",
+    "El escudo no está en la cabeza: bloquear el receptor solo en el cerebro no lo tumba; bloquearlo en el cuerpo entero sí",
+    "El cisplatino no rompe la mitocondria, la deja sin llegar a la punta del axón: la mediana cae a la mitad y con psilocibina previa vuelve al nivel del control",
+    "Con una sola dosis hay mitigación; la prevención completa necesita dos"
+  ],
+  "limitations": [
+    "Todo lo in vivo es en ratones; lo humano son neuronas sensoriales derivadas de iPSC y tejido ex vivo. Cero pacientes tratados con psilocibina",
+    "Muestras pequeñas: entre 4 y 8 animales por grupo en casi todos los paneles",
+    "La protección no es permanente: hay que re-dosificar antes de cada exposición a la quimio (figura 1D)",
+    "No es analgésico: no revierte el dolor ya instalado ni la hiperexcitabilidad del ganglio raquídeo",
+    "El panel de 1 semana (7 mg/kg) y el de 4 semanas (23 mg/kg acumulados) no son intercambiables",
+    "Desviación metodológica del notebook: en VDAC usamos mediana y Mann-Whitney por el sesgo de la distribución; el paper no especifica el test de esa figura",
+    "Los contrastes por pares del notebook son t-tests sin corregir; el paper usa ANOVA con corrección de Tukey",
+    "La psilocibina es sustancia controlada: el notebook reporta lo que el estudio midió en un protocolo experimental, no recomienda nada"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims 'yes' verificados y 7 números clave"
+  },
+  "notebook_slug": "2026-09-03-psilocibina-neuropatia-quimio",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-03-psilocibina-neuropatia-quimio/notebook.html",
+  "generated_at": "2026-09-05T10:55:55.035438-05:00"
+}
