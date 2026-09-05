@@ -1,0 +1,16 @@
+plataforma,topico,tipo_modelo,termino,estimado,ic_bajo,ic_alto,valor_p
+8Chan,All topics,Mediator model,Moral density,-6.611,-6.776,-6.446,< 0.001
+8Chan,All topics,Mediator model,Moral loading,11.565,11.435,11.694,< 0.001
+8Chan,All topics,Outcome model,Mediator (log CogMech),0.343,0.33,0.356,< 0.001
+8Chan,All topics,Outcome model,Moral density,-0.747,-0.985,-0.509,< 0.001
+8Chan,All topics,Outcome model,Moral loading,2.217,1.988,2.446,< 0.001
+Reddit,All topics,Mediator model,Moral density,-1.925,-1.937,-1.913,< 0.001
+Reddit,All topics,Mediator model,Moral loading,4.654,4.64,4.669,< 0.001
+Reddit,All topics,Outcome model,Mediator (log CogMech),0.16,0.157,0.164,< 0.001
+Reddit,All topics,Outcome model,Moral density,-0.434,-0.458,-0.41,< 0.001
+Reddit,All topics,Outcome model,Moral loading,0.708,0.676,0.741,< 0.001
+Twitter,All topics,Mediator model,Moral density,-1.624,-1.645,-1.603,< 0.001
+Twitter,All topics,Mediator model,Moral loading,3.634,3.613,3.654,< 0.001
+Twitter,All topics,Outcome model,Mediator (log CogMech),-0.016,-0.02,-0.012,< 0.001
+Twitter,All topics,Outcome model,Moral density,-0.415,-0.449,-0.381,< 0.001
+Twitter,All topics,Outcome model,Moral loading,0.284,0.247,0.321,< 0.001

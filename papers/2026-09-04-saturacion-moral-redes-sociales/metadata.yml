@@ -1,0 +1,42 @@
+titulo: "Cuando la moral satura el mensaje"
+titulo_corto: "Saturación moral en redes"
+card_descripcion: |
+  1.621.147 mensajes de Twitter, Reddit y 8chan. Más relevancia moral va con más alcance;
+  la misma moral más concentrada, con menos: negativo en las 9 combinaciones de plataforma
+  por tercil de carga, hasta 4,32x menos respuestas en 8chan. ⚠️ Es observacional y el
+  efecto solo aparece al separar carga de densidad, que suben juntas. ⚠️ Un solo subreddit
+  aporta el 52,7% de la muestra, y apenas el 1-6% de los mensajes llega a la densidad
+  donde el modelo del paper sitúa la penalización.
+fecha: 2026-09-04
+categoria: psicología
+tags: [redes-sociales, lenguaje-moral, engagement, nlp, observacional, twitter, reddit]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41562-026-02560-y"
+    titulo: "Saturation of moral language predicts lower content engagement on social media"
+    journal: Nature Human Behaviour
+    autores: "Candia et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "curva_densidad_plataforma.csv"
+    descripcion: "Curva cruda de interacción contra densidad moral, 9 bandas por plataforma"
+    fuente: "Agregado desde el paquete público de OSF"
+  - nombre: "densidad_por_carga_moral.csv"
+    descripcion: "Interacción por banda de densidad dentro de cada tercil de carga moral"
+    fuente: "Agregado desde el paquete público de OSF"
+  - nombre: "aic_penalizacion_vs_difusion.csv"
+    descripcion: "Tabla 1 del paper: comparación de AIC entre los dos modelos, por canal"
+    fuente: "Paquete público de OSF"
+  - nombre: "mediacion_ddr.csv"
+    descripcion: "Tabla 2 del paper: mediación con la carga cognitiva del texto"
+    fuente: "Paquete público de OSF"
+  - nombre: "comparacion_medidas_morales.csv"
+    descripcion: "Submuestras puntuadas con cuatro medidas distintas de moralidad"
+    fuente: "Paquete público de OSF"
+  - nombre: "muestra_por_canal.csv"
+    descripcion: "Cascada de muestra por canal: brutas, de modelo y excluidas"
+    fuente: "Paquete público de OSF"
+estado: publicado

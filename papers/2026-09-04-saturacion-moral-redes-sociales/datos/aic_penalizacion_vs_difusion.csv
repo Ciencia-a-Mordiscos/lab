@@ -1,0 +1,14 @@
+plataforma,canal,aic_modelo_penalizacion,aic_modelo_difusion,diferencia_aic,gana_penalizacion
+8 Chan,TV,161374.46,162254.76,-880.3,True
+8 Chan,POL,209124.24,209771.73,-647.49,True
+8 Chan,Leftypol,114793.14,115054.13,-260.99,True
+Twitter,Gun Control,109210.54,109242.79,-32.25,True
+Twitter,Climate Change,500740.99,500797.57,-56.58,True
+Twitter,Same-sex Marriage,51108.27,51166.2,-57.93,True
+Twitter,Mueller Report,123341.39,123275.2,66.19,False
+Twitter,MeToo,576269.92,577184.12,-914.2,True
+Twitter,Post Brexit,75335.81,75351.03,-15.23,True
+Reddit,The Donald,5578992.55,5581492.77,-2500.22,True
+Reddit,Conservative,894142.46,894309.51,-167.05,True
+Reddit,Communism,96021.14,96741.3,-720.16,True
+Reddit,Liberal,29595.51,29720.94,-125.43,True

@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "paper_id": 2952,
+  "doi": "10.1038/s41562-026-02560-y",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "A igual carga moral, más densidad moral va de la mano de menos interacción",
+      "supported": "yes",
+      "detail": "Correlación de Spearman negativa en las 9 combinaciones de plataforma por tercil, de -0,21 (Twitter, carga baja) a -1,00 (8chan, carga alta). 6 de las 9 bajan de p 0,05, y con 5-9 bandas por línea ese p es una aproximación optimista. Calculado sobre bandas agregadas de al menos 200 observaciones, no sobre observaciones individuales.",
+      "certainty_tier": "T2",
+      "abstract_verb": "associated with",
+      "supported_by_data": true
+    },
+    {
+      "claim": "A igual densidad moral, más carga moral va de la mano de más interacción",
+      "supported": "partial",
+      "detail": "Medido dentro de una sola banda de densidad (0,05-0,10) la dirección se sostiene en las tres redes (8chan 3,09x, Reddit 1,45x, Twitter 1,13x), pero Twitter no es monotónico y fuera de esa banda el orden se invierte varias veces. En Twitter la media va montada en la cola: con la media del logaritmo, el tercil alto queda por debajo del bajo.",
+      "certainty_tier": "T2",
+      "abstract_verb": "associated with",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El modelo con penalización por saturación ajusta mejor que el de pura difusión",
+      "supported": "yes",
+      "detail": "Gana en 12 de 13 canales por AIC (Tabla 1 del paper). Única excepción: Mueller Report en Twitter (+66,19). Una diferencia de AIC compara ajuste relativo, no es un p-valor ni un tamaño de efecto: en Post Brexit son 15 puntos sobre un AIC de más de 75.000.",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La interacción hace cresta en una densidad moral de 0,30",
+      "supported": "partial",
+      "detail": "Es el punto de inflexión de un modelo binomial negativo ajustado por carga moral, canal, longitud del post y otras covariables. La curva cruda del notebook es marginal y hace cresta en 0,075 (Reddit) y 0,125 (Twitter y 8chan). Son dos objetos distintos, no un desmentido: el código del paper corre en R (MASS::glm.nb) y aquí no hay statsmodels para replicarlo.",
+      "certainty_tier": "T1",
+      "abstract_verb": "peaked",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los mensajes saturados de moral son una franja marginal del total",
+      "supported": "yes",
+      "detail": "Solo el 2,42% de las observaciones de Twitter, el 5,56% de las de Reddit y el 0,96% de las de 8chan llegan a densidad 0,30 o más. La penalización existe, pero casi ningún mensaje real cae en la zona penalizada.",
+      "certainty_tier": "T1",
+      "abstract_verb": "measured",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Medir cuánta moral hay en un texto es un problema resuelto",
+      "supported": "no",
+      "detail": "Las cuatro medidas del propio chequeo de los autores coinciden poco: de 0,71 (diccionario ~ DDR-Word2Vec en 8chan) a -0,11 (diccionario ~ DDR-transformer en Reddit). El resultado depende de qué medida se elija. Es un límite del campo que los autores publican, no un fallo que se les encontró.",
+      "certainty_tier": "T2",
+      "abstract_verb": "measured",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1621147,
+      "unit": "observaciones",
+      "context": "total analizado en 13 canales de tres plataformas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1,621,147",
+        "our_calculation": "1.621.147",
+        "discrepancy_pct": 0.0,
+        "reason": "suma exacta de complete cases"
+      }
+    },
+    {
+      "value": 9,
+      "unit": "de 9 combinaciones",
+      "context": "plataforma por tercil de carga con correlación negativa entre densidad e interacción",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 4.32,
+      "unit": "veces menos",
+      "context": "caída de interacción en 8chan con carga alta, de densidad 0,075 a 0,275 (260,6 a 60,3 respuestas)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "de 13 canales",
+      "context": "donde el modelo con penalización ajusta mejor por AIC; la excepción es Mueller Report",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.42,
+      "unit": "por ciento",
+      "context": "de las observaciones de Twitter llegan a densidad moral 0,30 o más (5,56% en Reddit, 0,96% en 8chan)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 52.7,
+      "unit": "por ciento",
+      "context": "de toda la muestra sale de un solo subreddit, The_Donald (854.936 observaciones)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.125,
+      "unit": "de densidad moral",
+      "context": "cresta de la curva cruda en Twitter y 8chan (0,075 en Reddit), sin ajustar por covariables",
+      "source": "notebook",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.30",
+        "our_calculation": "0,125",
+        "discrepancy_pct": 140.0,
+        "reason": "crudo vs ajustado: el 0,30 es el punto de inflexión de un modelo binomial negativo condicional a la carga moral y a las covariables; la curva del notebook es marginal"
+      }
+    },
+    {
+      "value": 3.09,
+      "unit": "veces más",
+      "context": "interacción del tercil de carga alta frente al bajo en 8chan, dentro de la banda de densidad 0,05-0,10 (Reddit 1,45x, Twitter 1,13x)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.71,
+      "unit": "de correlación de rangos",
+      "context": "acuerdo más alto entre dos formas de medir moralidad (diccionario ~ DDR-Word2Vec en 8chan); el más bajo es -0,11",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "showed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'los modelos mostraron'"
+    },
+    {
+      "abstract_verb": "measured",
+      "tier": "T1",
+      "cam_attenuator": "'midieron'"
+    },
+    {
+      "abstract_verb": "associated with",
+      "tier": "T2",
+      "cam_attenuator": "'va de la mano de' / 'está asociado a'"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' / 'encaja con'"
+    },
+    {
+      "abstract_verb": "predicts (título)",
+      "tier": "T2",
+      "cam_attenuator": "'predice estadísticamente' / 'anticipa'"
+    },
+    {
+      "abstract_verb": "peaked",
+      "tier": "T1",
+      "cam_attenuator": "'el engagement hizo cresta en' — pero SIEMPRE atribuido al modelo ajustado, no a los datos crudos"
+    }
+  ],
+  "narrative_hooks": [
+    "Más moral en un mensaje va con más alcance. La misma moral más concentrada, con menos. Las dos cosas conviven en los mismos datos.",
+    "El efecto solo existe al separar dos cosas que suben juntas: cuánta moral hay y qué tan apretada está.",
+    "La zona donde el paper sitúa la penalización casi no existe: entre el 1% y el 6% de los mensajes llega hasta ahí.",
+    "Cuatro formas distintas de medir cuánta moral tiene un texto y coinciden poco entre sí — de 0,71 a -0,11."
+  ],
+  "limitations": [
+    "Es observacional: no hay manipulación ni asignación aleatoria. Nada soporta que concentrar la moral cause menos interacción.",
+    "La interacción no es la misma variable entre plataformas: retweets en Twitter, respuestas en Reddit y 8chan. Los niveles no se comparan, solo las formas de curva.",
+    "La unidad de 8chan no es un mensaje: es un agregado de tablón-día-tema que junta varios hilos (mediana de 2).",
+    "Carga y densidad moral están correlacionadas (0,49-0,76 según el paper). El hallazgo solo existe al separarlas.",
+    "La densidad extrema aparece sobre todo en textos muy cortos: el paper controla la longitud, la curva cruda del notebook no.",
+    "The_Donald aporta el 52,7% de la muestra: cualquier lectura global está inclinada hacia un subreddit político estadounidense ya cerrado.",
+    "Reddit viene del archivo Pushshift recolectado en 2020 y 8chan cubre de febrero de 2016 a agosto de 2019.",
+    "El paquete de OSF publica variables derivadas y excluye el texto de los mensajes: no se puede leer ni uno solo.",
+    "El cuerpo del paper está tras muro de pago: se verificó contra el resumen público y contra los datos de OSF.",
+    "Los CSV vienen agregados por banda sin desviación: no se puede calcular tamaño de efecto ni intervalos de confianza."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados como yes, 2 parciales y 1 refutado, con 9 números clave"
+  },
+  "notebook_slug": "2026-09-04-saturacion-moral-redes-sociales",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-04-saturacion-moral-redes-sociales/notebook.html",
+  "generated_at": "2026-09-04T19:49:56.583212-05:00"
+}

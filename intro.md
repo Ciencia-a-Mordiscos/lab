@@ -14,6 +14,19 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Cuando la moral satura el mensaje
+
+**Psicología** · *Nature Human Behaviour* · 1.621.147 mensajes de Twitter, Reddit y 8chan. Más relevancia moral va con más alcance;
+la misma moral más concentrada, con menos: negativo en las 9 combinaciones de plataforma
+por tercil de carga, hasta 4,32x menos respuestas en 8chan. ⚠️ Es observacional y el
+efecto solo aparece al separar carga de densidad, que suben juntas. ⚠️ Un solo subreddit
+aporta el 52,7% de la muestra, y apenas el 1-6% de los mensajes llega a la densidad
+donde el modelo del paper sitúa la penalización.
+
+[Ver notebook](papers/2026-09-04-saturacion-moral-redes-sociales/notebook) · [Leer más](papers/2026-09-04-saturacion-moral-redes-sociales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-04-saturacion-moral-redes-sociales/notebook.ipynb)
+
+---
+
 ### Hasta cuatro kilómetros de película que tiene color sin llevar pigmento
 
 **Química** · *Science* · El color de esta película lo pone la geometría, no un tinte: partículas de plástico
