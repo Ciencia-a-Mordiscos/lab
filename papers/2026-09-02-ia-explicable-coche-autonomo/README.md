@@ -29,6 +29,6 @@ Los tres derivan del repositorio público del paper aplicando su propio preproce
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/noYpw9PRbxI)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10950-5](https://doi.org/10.1038/s41586-026-10950-5)
 - **Datos originales:** [EoinKenny/CW-Net-Autonomous-Driving](https://github.com/EoinKenny/CW-Net-Autonomous-Driving)
