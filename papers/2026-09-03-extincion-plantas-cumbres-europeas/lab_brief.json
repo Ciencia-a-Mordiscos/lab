@@ -1,0 +1,178 @@
+{
+  "version": "1.0",
+  "paper_id": 2962,
+  "doi": "10.1126/science.aed2974",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "vascular_plants",
+  "verification_table": [
+    {
+      "claim": "Las extinciones locales aumentaron en los 21 años",
+      "supported": "yes",
+      "detail": "A nivel parcela, de 11,1% a 15,7% de las observaciones: +4,6 puntos porcentuales, +41% relativo. Extinción ~ tiempo da p < 0,001 en los tres niveles (Tablas S1 y S2)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las colonizaciones no siguen la misma trayectoria",
+      "supported": "yes",
+      "detail": "1.391 → 1.284 → 1.401 a nivel parcela. Ningún modelo de colonización alcanza significación: p = 0,17 / 0,92 / 0,31 frente al tiempo y 0,51 / 0,61 / 0,21 frente al calentamiento (Tablas S9-S11)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El calentamiento acompaña la extinción mejor que el paso del tiempo",
+      "supported": "partial",
+      "detail": "R² marginal 0,14 / 0,27 / 0,36 contra 0,03 / 0,09 / 0,17 (Tablas S2 y S5). El calentamiento se midió, no se asignó, y son dos ajustes por separado, no una comparación formal de modelos",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Cada 0,1 °C más de calentamiento va acompañado de 1,6 / 1,1 / 1,0 puntos porcentuales más de extinciones",
+      "supported": "partial",
+      "detail": "Cifra citada del texto del paper para parcela / cumbre / región; no está en los CSVs. Es una pendiente de modelo sobre datos observacionales",
+      "certainty_tier": "T2",
+      "abstract_verb": "likely",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El declive previo de cobertura anticipa la extinción",
+      "supported": "yes",
+      "detail": "Ventana de 14 años: coeficiente −1,50 y R² marginal 0,60; con tramo de altitud y termofilización, 0,75 ± 0,042 (Tabla S7). El 57,6% de las extinciones de 2022 venía de cobertura en declive",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las trayectorias de declive continuo son 2,5 veces más de las que daría el azar",
+      "supported": "partial",
+      "detail": "112,8 ± 2,7 observadas contra 44,5 ± 6,5 esperadas (t de Student, gl = 1.333.209, P < 0,001), unas 10,5 desviaciones nulas. La gráfica reconstruye la nula de forma paramétrica, no son los remuestreos originales",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La riqueza de especies no ha bajado en las cumbres",
+      "supported": "partial",
+      "detail": "Tabla S3: a nivel parcela +0,01 con p = 0,008; a nivel región p = 0,168, no significativo. Cifras citadas del PDF, no reproducibles con estos CSVs. El saldo llegadas − salidas (+411, +18, −50 a nivel parcela) es cálculo nuestro",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": false
+    },
+    {
+      "claim": "La extinción local no significa que la especie se haya acabado",
+      "supported": "yes",
+      "detail": "Es una ausencia local: no reobservada en el censo siguiente en ese nivel. El 34,2% ± 0,2 de las extinciones a nivel parcela fue seguido de reaparición",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 15.7,
+      "unit": "por ciento",
+      "context": "extinciones locales del intervalo 2015-2022 a nivel parcela, sobre las observaciones de especies",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.1,
+      "unit": "por ciento",
+      "context": "extinciones locales del intervalo 2001-2008 a nivel parcela",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.6,
+      "unit": "puntos porcentuales",
+      "context": "subida de la extinción a nivel parcela entre el primer y el último intervalo (+41% relativo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 896,
+      "unit": "parcelas",
+      "context": "parcelas permanentes de 1 m x 1 m censadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 62,
+      "unit": "cumbres",
+      "context": "cumbres europeas de 16 regiones y 10 paises",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 21,
+      "unit": "años",
+      "context": "periodo cubierto, 2001-2022, con cuatro censos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.6,
+      "unit": "puntos porcentuales",
+      "context": "mas de extinciones a nivel parcela por cada 0,1 grados C mas de calentamiento",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 57.6,
+      "unit": "por ciento",
+      "context": "de las extinciones de 2022 venia de una trayectoria de cobertura en declive",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 34.2,
+      "unit": "por ciento",
+      "context": "de las extinciones a nivel parcela fue seguido de una reaparicion posterior",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "los datos sugieren / todo apunta a"
+    },
+    {
+      "abstract_verb": "likely",
+      "tier": "T2",
+      "cam_attenuator": "es más probable que"
+    }
+  ],
+  "narrative_hooks": [
+    "En las cumbres de Europa la lista de plantas no se ha acortado, y cada censo encuentra más huecos.",
+    "Las llegadas llevan 21 años planas; las salidas suben en cada intervalo.",
+    "El 57,6% de las plantas que desaparecieron llevaba años menguando: hay aviso previo."
+  ],
+  "limitations": [
+    "Diseño observacional: remuestreo de parcelas permanentes, sin manipulación ni asignación. Prohibidos los verbos causales.",
+    "Extinción local no es extinción de la especie: el 34,2% de las de nivel parcela fue seguido de reaparición.",
+    "La cuenta aparente (15,7%) y la conservadora (6,5%) no comparten conjunto de referencia: los denominadores implícitos no coinciden.",
+    "17 de las 62 cumbres se salen del calendario nominal; los huecos reales entre censos van de 5 a 10 años.",
+    "El depósito Dryad del paper (10.5061/dryad.vmcvdnd6v) no está publicado (corrección de Science, 2026-09-04): todo sale del texto y del Supplementary PDF.",
+    "El saldo llegadas − salidas es cálculo nuestro; el paper modela riqueza (Tabla S3), no ese balance.",
+    "La fila S10 de colonización ~ tiempo a nivel región duplica los R² de la fila S2 de extinción: sospecha de error de extracción, acotada a los R²."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims verificados como yes y 9 números clave"
+  },
+  "notebook_slug": "2026-09-03-extincion-plantas-cumbres-europeas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-03-extincion-plantas-cumbres-europeas/notebook.html",
+  "generated_at": "2026-09-06T10:59:31.084821-05:00"
+}

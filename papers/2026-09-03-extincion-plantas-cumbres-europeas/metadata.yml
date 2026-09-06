@@ -1,0 +1,50 @@
+titulo: "Suben las extinciones de plantas en las cumbres de Europa"
+titulo_corto: "Extinciones en cumbres europeas"
+card_descripcion: |
+  896 parcelas fijas de 1 m × 1 m en 62 cumbres europeas, cuatro censos entre 2001 y 2022.
+  La proporción de plantas que desaparecen entre censo y censo pasó de 11,1% a 15,7% a nivel
+  parcela (+4,6 puntos porcentuales, +41% relativo), mientras las colonizaciones se quedaron
+  planas (p = 0,17 / 0,92 / 0,31). El 57,6% de las extinciones de 2022 venía de una cobertura
+  en declive: hay aviso previo. ⚠️ Diseño observacional, sin manipulación. ⚠️ "Extinción" aquí
+  es ausencia local, y el 34,2% de las de nivel parcela fue seguido de una reaparición.
+  ⚠️ El depósito Dryad del paper no está publicado (corrección de Science, 2026-09-04): los
+  datos salen del texto y del Supplementary PDF.
+fecha: 2026-09-03
+categoria: ecología
+tags: [extinción, plantas alpinas, cambio climático, montaña, GLORIA, remuestreo, Europa]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aed2974"
+    titulo: "Rising plant extinction rates on European mountain summits"
+    journal: Science
+    autores: "Wessely et al."
+    verificado: true
+reproducible: true
+datos_publicos: false
+datasets:
+  - nombre: "cumbres_gloria.csv"
+    descripcion: "Las 62 cumbres GLORIA: región, país, elevación, latitud/longitud, parcelas y los cuatro años de censo"
+    fuente: "Materiales Suplementarios (Tabla S8)"
+  - nombre: "extinciones_por_intervalo.csv"
+    descripcion: "Extinciones locales por intervalo × nivel de agregación, con conteo y % de observaciones"
+    fuente: "Materiales Suplementarios (Tabla S1)"
+  - nombre: "colonizaciones_por_intervalo.csv"
+    descripcion: "Colonizaciones por intervalo × nivel — contraparte simétrica de las extinciones"
+    fuente: "Materiales Suplementarios (Tabla S9)"
+  - nombre: "modelos_extincion_vs_colonizacion.csv"
+    descripcion: "Coeficientes GLMM de los cuatro modelos, con estimate, error estándar, p y R² marginal/condicional"
+    fuente: "Materiales Suplementarios (Tablas S2, S5, S10, S11)"
+  - nombre: "extincion_geografia.csv"
+    descripcion: "GLMM de extinción ~ calentamiento + latitud + longitud en los tres niveles"
+    fuente: "Materiales Suplementarios (Tabla S6)"
+  - nombre: "cobertura_predice_extincion.csv"
+    descripcion: "El declive previo de cobertura como señal de aviso temprano, en ventanas de 7 y 14 años"
+    fuente: "Materiales Suplementarios (Tabla S7)"
+  - nombre: "trayectoria_previa_extincion.csv"
+    descripcion: "Reparto de las extinciones de 2022 según la trayectoria de cobertura previa"
+    fuente: "Texto del paper (resultados)"
+  - nombre: "conteo_aparente_vs_conservador.csv"
+    descripcion: "Cuenta aparente frente a cuenta conservadora del intervalo 2015-2022, por nivel"
+    fuente: "Texto del paper (resultados)"
+estado: publicado

@@ -89,6 +89,21 @@ re-dosificar, los ratones protegidos se deterioran como los controles.
 
 ---
 
+### Suben las extinciones de plantas en las cumbres de Europa
+
+**Ecología** · *Science* · 896 parcelas fijas de 1 m × 1 m en 62 cumbres europeas, cuatro censos entre 2001 y 2022.
+La proporción de plantas que desaparecen entre censo y censo pasó de 11,1% a 15,7% a nivel
+parcela (+4,6 puntos porcentuales, +41% relativo), mientras las colonizaciones se quedaron
+planas (p = 0,17 / 0,92 / 0,31). El 57,6% de las extinciones de 2022 venía de una cobertura
+en declive: hay aviso previo. ⚠️ Diseño observacional, sin manipulación. ⚠️ "Extinción" aquí
+es ausencia local, y el 34,2% de las de nivel parcela fue seguido de una reaparición.
+⚠️ El depósito Dryad del paper no está publicado (corrección de Science, 2026-09-04): los
+datos salen del texto y del Supplementary PDF.
+
+[Ver notebook](papers/2026-09-03-extincion-plantas-cumbres-europeas/notebook) · [Leer más](papers/2026-09-03-extincion-plantas-cumbres-europeas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-03-extincion-plantas-cumbres-europeas/notebook.ipynb)
+
+---
+
 ### El tumor fabrica su propio antioxidante
 
 **Medicina** · *Science* · La peroxirredoxina 1 está al menos 211 veces más concentrada en el fluido del tumor

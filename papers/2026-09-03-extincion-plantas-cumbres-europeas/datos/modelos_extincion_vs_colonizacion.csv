@@ -1,0 +1,13 @@
+tabla_sm,respuesta,predictor_modelo,nivel_agregacion,predictor,estimate,estimate_sd,std_error,p_value,r2_marginal,r2_marginal_sd,r2_condicional,r2_condicional_sd
+S2,extincion,tiempo,parcela,Tiempo,0.17,0.003,0.02,<0.001,0.03,0.001,0.65,0.004
+S2,extincion,tiempo,cumbre,Tiempo,0.19,0.01,0.05,<0.001,0.09,0.008,0.73,0.011
+S2,extincion,tiempo,region,Tiempo,0.21,0.013,0.04,<0.001,0.17,0.018,0.81,0.01
+S5,extincion,calentamiento,parcela,Calentamiento,0.38,0.005,0.03,<0.001,0.14,0.004,0.68,0.004
+S5,extincion,calentamiento,cumbre,Calentamiento,0.37,0.015,0.08,<0.001,0.27,0.014,0.78,0.009
+S5,extincion,calentamiento,region,Calentamiento,0.39,0.02,0.06,<0.001,0.36,0.018,0.89,0.008
+S10,colonizacion,tiempo,parcela,Tiempo,0.02,0.002,0.02,0.17,0.0,0.0,0.25,0.003
+S10,colonizacion,tiempo,cumbre,Tiempo,-0.0,0.006,0.05,0.92,0.0,0.0,0.34,0.007
+S10,colonizacion,tiempo,region,Tiempo,-0.03,0.007,0.03,0.31,0.17,0.018,0.81,0.01
+S11,colonizacion,calentamiento,parcela,Calentamiento,0.02,0.003,0.03,0.51,0.0,0.0,0.25,0.003
+S11,colonizacion,calentamiento,cumbre,Calentamiento,0.04,0.007,0.08,0.61,0.0,0.001,0.33,0.008
+S11,colonizacion,calentamiento,region,Calentamiento,-0.07,0.013,0.06,0.21,0.01,0.003,0.72,0.025

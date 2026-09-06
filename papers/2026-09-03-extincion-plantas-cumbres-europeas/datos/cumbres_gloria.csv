@@ -1,0 +1,63 @@
+region_montanosa,pais,cumbre,elevacion_m,latitud,longitud,n_parcelas,anio_encuesta1,anio_encuesta2,anio_encuesta3,anio_encuesta4
+Dovrefjell (S-Scandes),NO,Vesle Armodshokollen,1161,62.2621,9.66582,16,2001,2008,2015,2022
+Dovrefjell (S-Scandes),NO,Veslekolla,1418,62.30665,9.4573,16,2001,2008,2015,2022
+Dovrefjell (S-Scandes),NO,Kolla,1651,62.29214,9.48661,8,2001,2008,2015,2022
+Dovrefjell (S-Scandes),NO,Storkinn,1845,62.34667,9.44069,3,2001,2008,2015,2022
+Cairngorms (Scotland),UK,Creag Mhigeachaidh,742,57.09862,-3.86096,16,2002,2008,2015,2022
+Cairngorms (Scotland),UK,Camp Cairn,904,57.09029,-3.84285,15,2001,2008,2015,2022
+Cairngorms (Scotland),UK,Unknown Hillock,978,57.07944,-3.83,16,2001,2008,2015,2022
+Cairngorms (Scotland),UK,Sgoran Dubh Mor,1111,57.07972,-3.80944,16,2001,2008,2015,2022
+W-Carpathians / High Tatra,SK,Krížna,1919,49.18083,19.94972,16,2002,2008,2015,2022
+W-Carpathians / High Tatra,SK,Velká kopa,2052,49.20056,19.97361,16,2002,2008,2015,2022
+W-Carpathians / High Tatra,SK,Sedielková kopa,2061,49.14972,20.02056,16,2001,2008,2015,2022
+W-Carpathians / High Tatra,SK,Krátka,2336,49.16306,20.01444,16,2002,2008,2015,2022
+NE-Alps / Hochschwab,AT,Zinken-NW- summit,1910,47.59826,15.09152,16,1998/2002,2008,2015,2022
+NE-Alps / Hochschwab,AT,Weihbrunnkogel,2065,47.62474,15.16285,16,2001,2008,2015,2022
+NE-Alps / Hochschwab,AT,G´hacktkogel,2214,47.61389,15.13152,16,2001,2008,2015,2022
+NE-Alps / Hochschwab,AT,Zagelkogel-NW- summit,2255,47.61076,15.12332,16,2001,2008,2015,2022
+E-Carpathians / Rodnei Mts.,RO,Gropile,2063,47.57253,24.61761,16,2001,2008,2015,2022
+E-Carpathians / Rodnei Mts.,RO,Golgota,2116,47.60049,24.62521,16,2001,2008,2015,2022
+E-Carpathians / Rodnei Mts.,RO,Buhaiescu,2221,47.58266,24.63246,16,2001,2008,2015,2022
+E-Carpathians / Rodnei Mts.,RO,Rebra,2268,47.58563,24.63577,16,2001,2008,2015,2022
+Central Alps / Swiss National Park - siliceous,CH,Mot sper Chamana Sesvenna,2424,46.73565,10.4286,16,2003,2010,2015,2022
+Central Alps / Swiss National Park - siliceous,CH,Minschuns,2519,46.64543,10.33792,16,2002,2010,2015,2022
+Central Alps / Swiss National Park - siliceous,CH,Mot dal Gajer,2797,46.69434,10.3311,16,2002,2010,2015,2022
+Central Alps / Swiss National Park - siliceous,CH,Piz Plazer,3104,46.70862,10.388,7,2002,2010,2015,2022
+Central Alps / Swiss National Park - carbonatic,CH,Munt Buffalora,2438,46.63856,10.24364,16,2003,2009,2015,2022
+Central Alps / Swiss National Park - carbonatic,CH,Munt Chavagl,2542,46.64419,10.23407,12,2002,2009,2015,2022
+Central Alps / Swiss National Park - carbonatic,CH,Piz Murtèr,2836,46.64578,10.14171,14,2002,2009,2015,2022
+Central Alps / Swiss National Park - carbonatic,CH,Piz Foraz,3092,46.69075,10.27672,11,2002,2009,2015,2022
+S-Alps / Dolomites,IT,Grasmugl,2199,46.33082,11.56248,16,2001,2008,2015,2022
+S-Alps / Dolomites,IT,Do Peniola,2463,46.38282,11.60545,14,2001,2008,2015,2022
+S-Alps / Dolomites,IT,Ragnaroek,2757,46.38368,11.59267,15,2001,2008,2015,2022
+S-Alps / Dolomites,IT,Monte Schutto,2893,46.5247,11.81478,15,2001,2008,2015,2022
+W-Alps / Alps of Valais-Entremont,CH,La Ly,2360,46.03076,7.24917,16,2001,2008,2015,2022
+W-Alps / Alps of Valais-Entremont,CH,Mont Brûlé,2550,46.02057,7.20137,16,2001,2008,2015,2022
+W-Alps / Alps of Valais-Entremont,CH,Pointe du Parc,2989,45.99798,7.23227,7,2001,2008,2015,2022
+W-Alps / Alps of Valais-Entremont,CH,Pointe de Boveire,3212,45.99452,7.24003,4,2001,2008,2015,2022
+W-Alps / Mont Avic,IT,Colle Lago Bianco,2340,45.64639,7.59499,16,2002,2012,2017,2022
+W-Alps / Mont Avic,IT,Lago Balena,2584,45.64026,7.5516,16,2002,2012,2017,2022
+W-Alps / Mont Avic,IT,Pra Pelat,2790,45.65891,7.54782,15,2002,2012,2017,2022
+W-Alps / Mont Avic,IT,Cime Bianche,3014,45.91941,7.69407,16,2002,2012,2017,2022
+Northern Apennines,IT,Cima di Foce a Giovo,1722,44.11833,10.61083,16,2001,2008,2015,2022
+Northern Apennines,IT,Cima di Pian Cavallaro,1815,44.2025,10.6925,16,2001,2008,2015,2022
+Northern Apennines,IT,Alpe di Mommio,1854,44.27583,10.24472,16,2001,2008,2015,2022
+Northern Apennines,IT,Monte Casarola,1978,44.33167,10.2075,12,2001,2008,2015,2022
+Central Pyrenees / Ordesa,ES,Punta Acuta,2242,42.63758,-0.06232,16,2001,2008,2015,2022
+Central Pyrenees / Ordesa,ES,Sierra Custodia,2519,42.65004,0.03266,16,2001,2008,2015,2022
+Central Pyrenees / Ordesa,ES,Punta Tobacor,2779,42.65514,-0.01309,12,2001,2008,2015,2022
+Central Pyrenees / Ordesa,ES,Punta de las Olas,3022,42.66227,0.05394,7,2001,2008,2015,2022
+Central Caucasus / Kazbegi region,GE,Cross Pass 1,2240,42.53944,44.49306,16,2001,2008,2015,2022
+Central Caucasus / Kazbegi region,GE,Cross Pass 2,2477,42.49917,44.45639,16,2001,2008,2015,2022
+Central Caucasus / Kazbegi region,GE,Cross Pass 4 - Kudebi,3024,42.49694,44.51,16,2001,2008,2015,2022
+Central Apennines / Majella,IT,Femmina Morta,2405,42.03321,14.09924,16,2001,2008,2015,2022
+Central Apennines / Majella,IT,Monte Macellaro,2635,42.05804,14.10121,16,2001,2008,2015,2022
+Central Apennines / Majella,IT,Monte Mammoccio,2737,42.10354,14.12095,16,2001,2008,2015,2022
+Sierra Nevada - West,ES,Pulpitito,2778,37.03667,-3.34528,16,2001,2008,2015,2022
+Sierra Nevada - West,ES,Cúpula,2968,37.04583,-3.35222,16,2001,2008,2015,2022
+Sierra Nevada - West,ES,Pico del Tosal Cartujo,3150,37.03972,-3.405,16,2001,2008,2015,2022
+Sierra Nevada - West,ES,Cerro de los Machos,3327,37.05722,-3.3575,11,2001,2008,2015,2022
+Crete / Lefka Ori,GR,low summit,1664,35.26861,24.08722,16,2001,2008,2015,2022
+Crete / Lefka Ori,GR,Chorafas,1965,35.27333,24.08111,16,2001,2008,2015,2022
+Crete / Lefka Ori,GR,South-East of Kakovoli,2160,35.28444,24.09083,16,2001,2008,2015,2022
+Crete / Lefka Ori,GR,Sternes,2339,35.29667,24.05667,10,2001,2008,2015,2022

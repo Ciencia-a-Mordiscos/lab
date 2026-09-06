@@ -1,0 +1,10 @@
+intervalo,nivel_agregacion,n_extinciones,n_extinciones_sd,pct_observaciones,pct_observaciones_sd
+2001-2008,parcela,980,0.0,11.1,0.0
+2001-2008,cumbre,118,0.0,6.7,0.0
+2001-2008,region,57,0.0,5.5,0.0
+2008-2015,parcela,1266,9.81,13.7,0.1
+2008-2015,cumbre,154,3.66,8.4,0.2
+2008-2015,region,77,2.5,7.1,0.2
+2015-2022,parcela,1451,8.91,15.7,0.1
+2015-2022,cumbre,185,3.62,9.9,0.2
+2015-2022,region,99,2.4,8.9,0.2

@@ -1,0 +1,10 @@
+intervalo,nivel_agregacion,n_colonizaciones,n_colonizaciones_sd
+2001-2008,parcela,1391,0.0
+2001-2008,cumbre,194,0.0
+2001-2008,region,102,0.0
+2008-2015,parcela,1284,0.0
+2008-2015,cumbre,189,0.0
+2008-2015,region,99,0.0
+2015-2022,parcela,1401,5.57
+2015-2022,cumbre,191,1.83
+2015-2022,region,95,1.45

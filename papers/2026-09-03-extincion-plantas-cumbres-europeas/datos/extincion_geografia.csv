@@ -1,0 +1,10 @@
+nivel_agregacion,predictor,estimate,estimate_sd,std_error,p_value,r2_marginal,r2_marginal_sd,r2_condicional,r2_condicional_sd
+parcela,Calentamiento,0.38,0.005,0.03,<0.001,0.35,0.007,0.67,0.004
+parcela,Latitud,-0.42,0.009,0.11,<0.001,0.35,0.007,0.67,0.004
+parcela,Longitud,0.15,0.005,0.1,0.16,0.35,0.007,0.67,0.004
+cumbre,Calentamiento,0.38,0.015,0.08,<0.001,0.33,0.021,0.78,0.009
+cumbre,Latitud,-0.17,0.021,0.14,0.21,0.33,0.021,0.78,0.009
+cumbre,Longitud,0.05,0.009,0.12,0.65,0.33,0.021,0.78,0.009
+region,Calentamiento,0.4,0.021,0.06,<0.001,0.35,0.022,0.88,0.008
+region,Latitud,-0.07,0.023,0.13,0.61,0.35,0.022,0.88,0.008
+region,Longitud,0.12,0.015,0.12,0.33,0.35,0.022,0.88,0.008

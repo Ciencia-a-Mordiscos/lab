@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-09-03-extincion-plantas-cumbres-europeas/README
+    title: "Extinciones en cumbres europeas"
+    sections:
+    - file: papers/2026-09-03-extincion-plantas-cumbres-europeas/notebook
+      title: Notebook
   - file: papers/2026-08-25-bosques-perturbados-calor-europa/README
     title: "Una década para soltar el calor"
     sections:
