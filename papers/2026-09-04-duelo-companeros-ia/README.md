@@ -38,6 +38,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/mqXluIBuD80)
 - **Paper:** [Nature Human Behaviour — DOI: 10.1038/s41562-026-02569-3](https://doi.org/10.1038/s41562-026-02569-3)
 - **Datos originales:** [Ethical-Intelligence-Lab/ai_loss](https://github.com/Ethical-Intelligence-Lab/ai_loss)
