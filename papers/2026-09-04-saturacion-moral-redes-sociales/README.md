@@ -44,6 +44,6 @@ features originales pesan 461 MB; aquí van ya agregados.
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/flycuTvNeho)
 - **Paper:** [Nature Human Behaviour — DOI: 10.1038/s41562-026-02560-y](https://doi.org/10.1038/s41562-026-02560-y)
 - **Datos originales:** [Repositorio público en OSF](https://osf.io/wzymh/)
