@@ -46,6 +46,6 @@ el mismo DOI.
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/Dpy_d_mTa5A)
 - **Paper:** [Science — DOI: 10.1126/science.aed8723](https://doi.org/10.1126/science.aed8723)
 - **Datos originales:** [Supplementary Materials](https://www.science.org/doi/suppl/10.1126/science.aed8723/suppl_file/science.aed8723_sm.pdf)

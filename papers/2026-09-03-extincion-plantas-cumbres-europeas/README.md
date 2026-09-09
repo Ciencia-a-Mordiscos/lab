@@ -36,7 +36,7 @@ Ocho tablas resumen extraídas del texto del paper y de su PDF de Materiales Sup
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/RmkczL3VXBk)
 - **Paper:** [Science — DOI: 10.1126/science.aed2974](https://doi.org/10.1126/science.aed2974)
 - **Datos originales:** [Materiales Suplementarios del mismo DOI](https://www.science.org/doi/suppl/10.1126/science.aed2974/suppl_file/science.aed2974_sm.pdf)
 - **Red de monitoreo:** [GLORIA](https://gloria.ac.at/)
