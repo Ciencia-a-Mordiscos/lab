@@ -11,7 +11,7 @@ fecha: 2026-09-03
 categoria: medicina
 tags: [cancer, inmunologia, celulas-t, antioxidantes, proteomica, rna-seq, raton]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/QEYvgOoJ5GQ"
 fuentes:
   - doi: "%s"
     titulo: "Tumor-derived antioxidants suppress immunity by depriving T cells of reactive oxygen species"
