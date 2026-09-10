@@ -14,6 +14,19 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Once dólares, un teléfono de teclas y cinco países
+
+**Psicología** · *Nature* · Cinco ensayos aleatorizados a la vez —India, Kenia, Nepal, Filipinas y Uganda— para
+enseñar matemáticas por llamada telefónica cuando la escuela cierra. La llamada rinde
+0,321 desviaciones estándar contra 0,078 del mensaje de texto solo (4,1 veces más), a
+US$11 por niño. ⚠️ Pero el efecto NO se parece entre países: de 0,092 operaciones
+ganadas en Kenia a 1,196 en Uganda, trece veces de diferencia, con un I² del 98,0%.
+⚠️ El repositorio de replicación está vacío: todo sale de las tablas publicadas.
+
+[Ver notebook](papers/2026-09-09-tutorias-telefono-cinco-paises/notebook) · [Leer más](papers/2026-09-09-tutorias-telefono-cinco-paises/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-09-tutorias-telefono-cinco-paises/notebook.ipynb)
+
+---
+
 ### Cuando la moral satura el mensaje
 
 **Psicología** · *Nature Human Behaviour* · 1.621.147 mensajes de Twitter, Reddit y 8chan. Más relevancia moral va con más alcance;

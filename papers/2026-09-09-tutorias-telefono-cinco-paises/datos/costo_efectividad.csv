@@ -1,0 +1,4 @@
+intervencion,lays_por_100_usd,costo_usd_por_nino,efecto_sd,fuente
+Llamada + SMS (este estudio),3.6,11.0,0.321,"Angrist et al. 2026, este estudio"
+Solo SMS (donde funciona),41.1,,0.078,"Angrist et al. 2026, este estudio"
+Tutoría presencial intensiva (referencia),,2500.0,0.25,"Programa de tutoría citado en el paper; rango 0,19–0,31 s.d."

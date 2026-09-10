@@ -1,0 +1,42 @@
+titulo: "Once dólares, un teléfono de teclas y cinco países"
+titulo_corto: "Tutorías por teléfono en cinco países"
+card_descripcion: |
+  Cinco ensayos aleatorizados a la vez —India, Kenia, Nepal, Filipinas y Uganda— para
+  enseñar matemáticas por llamada telefónica cuando la escuela cierra. La llamada rinde
+  0,321 desviaciones estándar contra 0,078 del mensaje de texto solo (4,1 veces más), a
+  US$11 por niño. ⚠️ Pero el efecto NO se parece entre países: de 0,092 operaciones
+  ganadas en Kenia a 1,196 en Uganda, trece veces de diferencia, con un I² del 98,0%.
+  ⚠️ El repositorio de replicación está vacío: todo sale de las tablas publicadas.
+fecha: 2026-09-09
+categoria: Psicología
+tags: [educación, ensayos-aleatorizados, meta-análisis, heterogeneidad, costo-efectividad, política-pública]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-10990-x"
+    titulo: "Mobile education builds resilience during shocks in five countries"
+    journal: Nature
+    autores: "Angrist et al."
+    verificado: true
+reproducible: true
+datos_publicos: false
+datasets:
+  - nombre: "efectos_por_pais.csv"
+    descripcion: "Efecto de cada brazo en cada país, con y sin controles (9 filas)"
+    fuente: "Nature — Extended Data Table 1"
+  - nombre: "efectos_agrupados_sd.csv"
+    descripcion: "Efecto agrupado en desviaciones estándar, 4 especificaciones × 2 brazos (8 filas)"
+    fuente: "Nature — Extended Data Table 2"
+  - nombre: "gobierno_vs_ong.csv"
+    descripcion: "Entrega por docentes de gobierno frente a instructores de ONG (9 filas)"
+    fuente: "Nature — Table 1"
+  - nombre: "descripcion_ensayos.csv"
+    descripcion: "Los cinco ensayos: muestra, grados, unidad de aleatorización, fechas, implementador (5 filas)"
+    fuente: "Nature — Table 4"
+  - nombre: "creencias_docentes.csv"
+    descripcion: "Prácticas y creencias de los 290 docentes que hicieron las llamadas (4 filas)"
+    fuente: "Nature — Table 3"
+  - nombre: "costo_efectividad.csv"
+    descripcion: "LAYS por US$100 y costo por niño, con el comparador presencial (3 filas)"
+    fuente: "Nature — texto principal (Discussion)"
+estado: publicado

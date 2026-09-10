@@ -1,0 +1,10 @@
+muestra,brazo,efecto_ops,se,p_valor,n_observaciones,media_control_ops,p_ong_vs_gobierno
+Todos los brazos de gobierno,Solo SMS,0.048,0.049,0.326,5147,1.527,0.11
+Todos los brazos de gobierno,Llamada + SMS: ONG,0.296,0.057,0.0,5147,1.527,0.11
+Todos los brazos de gobierno,Llamada + SMS: gobierno,0.399,0.061,0.0,5147,1.527,0.11
+Nepal,Solo SMS,0.072,0.08,0.367,2678,1.689,0.356
+Nepal,Llamada + SMS: ONG,0.132,0.088,0.134,2678,1.689,0.356
+Nepal,Llamada + SMS: gobierno,0.213,0.087,0.015,2678,1.689,0.356
+Filipinas,Solo SMS,0.06,0.061,0.324,2469,1.388,0.209
+Filipinas,Llamada + SMS: ONG,0.51,0.073,0.0,2469,1.388,0.209
+Filipinas,Llamada + SMS: gobierno,0.629,0.086,0.0,2469,1.388,0.209

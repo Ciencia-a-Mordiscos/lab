@@ -1,0 +1,248 @@
+{
+  "version": "1.0",
+  "paper_id": 2980,
+  "doi": "10.1038/s41586-026-10990-x",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "La tutoría por llamada mejora el aprendizaje en los cinco países",
+      "supported": "yes",
+      "detail": "Los cinco efectos son positivos y distinguibles de cero (p entre 0,045 y <0,001), n=9.148",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "efectos_por_pais_llamada_con_controles"
+    },
+    {
+      "claim": "El efecto agrupado es de 0,321 desviaciones estándar y no depende de cómo se junten los ensayos",
+      "supported": "yes",
+      "detail": "Las cuatro especificaciones caen entre 0,312 y 0,341 d.e.; ese número es el tamaño del efecto estandarizado",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "efecto_agrupado_llamada_sd"
+    },
+    {
+      "claim": "El mensaje de texto por sí solo reproduce el efecto de la llamada",
+      "supported": "no",
+      "detail": "0,078 frente a 0,321 d.e. El SMS solo se separa de cero en operaciones ganadas únicamente en Uganda (1 de 4)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "efecto_agrupado_sms_sd"
+    },
+    {
+      "claim": "Los efectos son parecidos entre países",
+      "supported": "no",
+      "detail": "Van de 0,092 (Kenia) a 1,196 (Uganda), 13 veces. I²=98,0% (Q=197,1; gl=4). Cálculo del Lab: el paper no reporta este agregado",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "I2_pct"
+    },
+    {
+      "claim": "Los docentes del gobierno entregan tan bien como los instructores de ONG",
+      "supported": "partial",
+      "detail": "0,399 frente a 0,296 operaciones, p=0,110. No poder separarlas no equivale a probar que sean iguales; son dos países",
+      "certainty_tier": "T2",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "gobierno_ops"
+    },
+    {
+      "claim": "Cuesta unos 100 dólares por casi cuatro años de escolaridad de calidad",
+      "supported": "partial",
+      "detail": "El abstract redondea; el cuerpo dice 3,6 LAYS por US$100, a US$11 por niño",
+      "certainty_tier": "T1",
+      "abstract_verb": "approximately 4 years per US$100",
+      "supported_by_data": false,
+      "metric": "lays_por_100usd_llamada"
+    },
+    {
+      "claim": "Enseñar por llamada cambió cómo se sienten los docentes con su oficio",
+      "supported": "partial",
+      "detail": "«Volvería a ser docente» +0,158 sobre 0,735 (p<0,001), pero son 290 docentes y es autorreporte; 2 de 4 desenlaces no se separan de cero",
+      "certainty_tier": "T2",
+      "abstract_verb": "reveal",
+      "supported_by_data": true,
+      "metric": "volveria_a_ser_docente"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9148,
+      "unit": "niños",
+      "metric": "n_analitico_agrupado",
+      "context": "muestra analítica agrupada de los cinco ensayos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 16936,
+      "unit": "niños",
+      "metric": "total_inscrito_5_ensayos",
+      "context": "inscritos en total; solo 12.331 llegaron a la prueba final (72,8%)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.321,
+      "unit": "desviaciones estándar",
+      "metric": "efecto_agrupado_llamada_sd",
+      "context": "efecto de llamada+SMS, muestra agrupada (e.e. 0,026; p<0,001)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.078,
+      "unit": "desviaciones estándar",
+      "metric": "efecto_agrupado_sms_sd",
+      "context": "efecto de solo-SMS, muestra agrupada (e.e. 0,028; p=0,006)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.1,
+      "unit": "veces",
+      "metric": "razon_llamada_sobre_sms",
+      "context": "lo que rinde la llamada frente al SMS solo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.196,
+      "unit": "operaciones ganadas",
+      "metric": "rango_llamada_ops",
+      "context": "efecto máximo, Uganda; el mínimo es 0,092 en Kenia, 13 veces menos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.21,
+      "unit": "operaciones ganadas",
+      "metric": "mediana_llamada_ops",
+      "context": "mediana entre países; RIC 0,147-0,560",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.7,
+      "unit": "por ciento",
+      "metric": "mediana_ganancia_pct",
+      "context": "ganancia mediana sobre la media del control; RIC 7,7%-40,3%",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 98.0,
+      "unit": "por ciento",
+      "metric": "I2_pct",
+      "context": "heterogeneidad I² entre los cinco países (Q=197,1; gl=4)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.374,
+      "unit": "operaciones ganadas",
+      "metric": "meta_llamada_ops",
+      "context": "meta-análisis de efectos fijos del Lab (e.e. 0,028); con efectos aleatorios sube a 0,441 con e.e. 0,203",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.399,
+      "unit": "operaciones ganadas",
+      "metric": "gobierno_ops",
+      "context": "entrega por docentes de gobierno frente a 0,296 de ONG; p de la diferencia 0,110",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.6,
+      "unit": "LAYS por US$100",
+      "metric": "lays_por_100usd_llamada",
+      "context": "cifra del cuerpo del paper; el abstract la redondea a «aproximadamente 4 años»",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11,
+      "unit": "dólares por niño",
+      "metric": "costo_usd_por_nino",
+      "context": "costo de la tutoría por llamada; 9,1 niños por cada US$100",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 227,
+      "unit": "veces",
+      "metric": "comparador_tutoria_presencial",
+      "context": "lo que cuesta de más la tutoría presencial intensiva (US$2.500 por niño)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.158,
+      "unit": "puntos",
+      "metric": "volveria_a_ser_docente",
+      "context": "alza en «volvería a ser docente» sobre una base de 0,735 (p<0,001; n=290)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "«presentan» / «hicieron» — afirmación directa; NO descalar a «proponen»"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa; el diseño es experimental (ECA), así que el verbo causal es válido"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "«revelan» — afirmación directa"
+    },
+    {
+      "abstract_verb": "enabling",
+      "tier": "T2",
+      "cam_attenuator": "«permitiendo» / «habilitando» — preserva la agencia de docentes y gobiernos, no es automatización"
+    },
+    {
+      "abstract_verb": "strengthen the resilience of education systems",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de política de los autores: «los autores plantean que…». NUNCA escalar a «arregla la educación» ni «cambia el paradigma»"
+    },
+    {
+      "abstract_verb": "approximately 4 years per US$100",
+      "tier": "T1",
+      "cam_attenuator": "cifra del paper redondeada: el cuerpo dice 3,6 LAYS. Decir «casi 4 años», no «4 años»"
+    }
+  ],
+  "narrative_hooks": [
+    "Once dólares por niño y una llamada de veinte minutos a la semana movieron el aprendizaje en cinco países a la vez",
+    "La llamada rinde 4,1 veces lo del mensaje de texto — y el SMS solo se separó de cero en 1 de los 4 países donde se probó",
+    "El mismo programa ganó 1,196 operaciones en Uganda y 0,092 en Kenia: trece veces de diferencia, I² del 98%",
+    "Los docentes del ministerio no rindieron peor que los instructores de ONG (0,399 frente a 0,296; p=0,110)"
+  ],
+  "limitations": [
+    "No hay microdatos: el repositorio de replicación que anuncia el paper está vacío, así que solo se pueden recalcular agregados",
+    "Los cinco ensayos no son réplicas: difieren en grados, implementador y unidad de aleatorización. Kenia midió grados 1-2 con un techo de prueba más bajo",
+    "La validez se limita a hogares alcanzables por teléfono",
+    "Al cierre se evaluó a 12.331 de 16.936 inscritos (72,8%); la muestra analítica es 9.148, el 54% de los inscritos. Kenia retuvo solo el 52,9%",
+    "La comparación gobierno frente a ONG solo existe en Nepal y Filipinas, con 5.147 niños"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes y 3 partial, 15 números clave"
+  },
+  "notebook_slug": "2026-09-09-tutorias-telefono-cinco-paises",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-09-tutorias-telefono-cinco-paises/notebook.html",
+  "generated_at": "2026-09-10T10:54:54.497064-05:00"
+}

@@ -1,0 +1,5 @@
+tipo,resultado,efecto,se,p_valor,n_observaciones,media_control
+Práctica,Involucrar a las familias,0.088,0.05,0.076,290,0.721
+Práctica,Ajustar al nivel del estudiante,0.093,0.046,0.043,290,0.769
+Creencia,Volvería a ser docente,0.158,0.045,0.0,290,0.735
+Creencia,Ayudó al aprendizaje de sus estudiantes,0.106,0.058,0.067,290,0.408

@@ -1,0 +1,9 @@
+tratamiento,especificacion,efecto_sd,se,p_valor,n_observaciones,media_control_ops,efectos_fijos_grado
+Solo SMS,Muestra agrupada,0.078,0.028,0.006,9148,1.726,No
+Solo SMS,Muestra agrupada,0.069,0.027,0.01,9148,1.726,Sí
+Solo SMS,Ponderado por país,0.073,0.028,0.01,9148,1.726,No
+Solo SMS,Ponderado por país,0.069,0.027,0.011,9148,1.726,Sí
+Llamada + SMS,Muestra agrupada,0.321,0.026,0.0,9148,1.726,No
+Llamada + SMS,Muestra agrupada,0.312,0.025,0.0,9148,1.726,Sí
+Llamada + SMS,Ponderado por país,0.341,0.028,0.0,9148,1.726,No
+Llamada + SMS,Ponderado por país,0.336,0.027,0.0,9148,1.726,Sí
