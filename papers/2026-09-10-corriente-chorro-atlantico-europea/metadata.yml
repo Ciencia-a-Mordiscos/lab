@@ -1,0 +1,37 @@
+titulo: "El chorro del Atlántico se fortaleció por su lado débil"
+titulo_corto: "Chorro atlántico en 300 años"
+card_descripcion: |
+  Cuatro barómetros europeos llevan anotando la presión desde 1725, y con eso se
+  reconstruye día a día la corriente en chorro del Atlántico. La mediana de su fuerza
+  subió +0,125 SD desde el período preindustrial, pero no creció por arriba: el
+  percentil 2 subió +0,162 SD y el 98 apenas +0,048. Los días de chorro parado son hoy
+  los más raros del registro (1,27% contra 2,00%). ⚠️ El efecto es pequeño (Cohen's d
+  = 0,10) y el desplazamiento hacia el polo no se distingue de cero en esta mitad de
+  los datos. ⚠️ Las proyecciones a 2100 del paper no se reproducen aquí.
+fecha: 2026-09-10
+categoria: clima
+tags: [clima, corriente en chorro, europa, series historicas, extremos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-02069-z"
+    titulo: "A strengthening yet less extreme Atlantic–European jet during winter"
+    journal: Nature Geoscience
+    autores: "Brönnimann et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "indices_diarios_temporada_fria.csv"
+    descripcion: "Índices diarios de fuerza, inclinación y latitud del chorro, temporada fría 1725-2024"
+    fuente: "Figshare 10.6084/m9.figshare.29445245"
+  - nombre: "serie_anual_temporada_fria.csv"
+    descripcion: "Media de cada temporada fría por año, 1725-2024"
+    fuente: "Figshare 10.6084/m9.figshare.29445245"
+  - nombre: "distribucion_por_periodo.csv"
+    descripcion: "Percentiles, media y std de los tres índices por período de 30 años"
+    fuente: "Figshare 10.6084/m9.figshare.29445245"
+  - nombre: "extremos_por_periodo.csv"
+    descripcion: "Porcentaje de días fuera de ±2 SD por período, separando cola débil y cola fuerte"
+    fuente: "Figshare 10.6084/m9.figshare.29445245"
+estado: publicado

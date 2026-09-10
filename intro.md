@@ -14,6 +14,20 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### El chorro del Atlántico se fortaleció por su lado débil
+
+**Ecología** · *Nature Geoscience* · Cuatro barómetros europeos llevan anotando la presión desde 1725, y con eso se
+reconstruye día a día la corriente en chorro del Atlántico. La mediana de su fuerza
+subió +0,125 SD desde el período preindustrial, pero no creció por arriba: el
+percentil 2 subió +0,162 SD y el 98 apenas +0,048. Los días de chorro parado son hoy
+los más raros del registro (1,27% contra 2,00%). ⚠️ El efecto es pequeño (Cohen's d
+= 0,10) y el desplazamiento hacia el polo no se distingue de cero en esta mitad de
+los datos. ⚠️ Las proyecciones a 2100 del paper no se reproducen aquí.
+
+[Ver notebook](papers/2026-09-10-corriente-chorro-atlantico-europea/notebook) · [Leer más](papers/2026-09-10-corriente-chorro-atlantico-europea/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-10-corriente-chorro-atlantico-europea/notebook.ipynb)
+
+---
+
 ### Once dólares, un teléfono de teclas y cinco países
 
 **Psicología** · *Nature* · Cinco ensayos aleatorizados a la vez —India, Kenia, Nepal, Filipinas y Uganda— para

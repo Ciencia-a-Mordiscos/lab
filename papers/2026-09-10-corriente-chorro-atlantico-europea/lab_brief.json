@@ -1,0 +1,265 @@
+{
+  "version": "1.0",
+  "paper_id": 2986,
+  "doi": "10.1038/s41561-026-02069-z",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La mediana de la fuerza del chorro en temporada fría subió +0,125 SD entre 1725-1754 y 1995-2024",
+      "supported": "yes",
+      "detail": "El paper reporta 0,13 SD; nuestra reproducción da 0,125 (diferencia 4,2%). Métrica: mediana de los días de temporada fría, normalizada por la SD diaria de 1851-1950",
+      "certainty_tier": "T1",
+      "abstract_verb": "has strengthened",
+      "metric": "delta_mediana_fuerza_sd",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El percentil 2 subió más que la mediana (+0,162 vs +0,125 SD)",
+      "supported": "yes",
+      "detail": "El paper también lo reporta: 'the increase of the 2nd percentile is even stronger (0.16 standard deviations)'",
+      "certainty_tier": "T1",
+      "abstract_verb": "has strengthened",
+      "metric": "delta_p2_fuerza_sd",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El percentil 98 apenas se movió (+0,048 SD)",
+      "supported": "yes",
+      "detail": "Calculado por nosotros sobre distribucion_por_periodo.csv. Sostiene la lectura de 'creció por abajo, no por arriba'",
+      "certainty_tier": "T1",
+      "abstract_verb": "has strengthened",
+      "metric": "delta_p98_fuerza_sd",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los días de chorro excepcionalmente débil son hoy los más raros del registro (1,27%)",
+      "supported": "yes",
+      "detail": "Mínimo de los diez períodos, contra 2,00% en 1725-1754. Umbral: -2 SD con la SD diaria de temporada fría 1851-1950",
+      "certainty_tier": "T1",
+      "abstract_verb": "has strengthened",
+      "metric": "pct_extremos_debiles_1995_2024",
+      "supported_by_data": true
+    },
+    {
+      "claim": "No hay escalada en los días de chorro muy fuerte",
+      "supported": "partial",
+      "detail": "El último período (2,24%) queda por debajo de 1965-1994 (2,41%), pero por encima de 1725-1754 (1,97%). En ventanas de 60 años los últimos son el máximo del registro: 2,32% contra 2,12% de la mejor ventana anterior. El crecimiento de la cola fuerte es real, tres veces menor que el adelgazamiento de la cola débil",
+      "certainty_tier": "T1",
+      "abstract_verb": "become less frequent",
+      "metric": "pct_extremos_fuertes_1995_2024",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El cambio es grande",
+      "supported": "no",
+      "detail": "Cohen's d = 0,10 entre el primer y el último período: efecto pequeño. Con 10.875 días, Mann-Whitney da p < 0,0001 — significativo no es sinónimo de grande",
+      "certainty_tier": "T1",
+      "abstract_verb": "has strengthened",
+      "metric": "cohens_d_primero_vs_ultimo",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.1,
+        "interpretation": "pequeño"
+      }
+    },
+    {
+      "claim": "El chorro se desplazó hacia el polo",
+      "supported": "partial",
+      "detail": "Débil en nuestra reproducción: la mediana de latitud sube +0,011 SD del primer al último período; la tendencia sobre los diez períodos no es significativa (p = 0,37) y el contraste día a día da Cohen's d = 0,01 con Mann-Whitney p = 0,63",
+      "certainty_tier": "T1",
+      "abstract_verb": "shifted poleward",
+      "metric": "delta_mediana_latitud_sd",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.01,
+        "interpretation": "nulo"
+      }
+    },
+    {
+      "claim": "Los índices explican hasta un 40% de la variabilidad diaria de temperatura en Europa occidental",
+      "supported": "partial",
+      "detail": "Resultado del paper, no del notebook: requiere campos de temperatura en rejilla ausentes del depósito. El cuerpo lo precisa como 'in some locations, up to 40%'",
+      "certainty_tier": "T1",
+      "abstract_verb": "explain",
+      "metric": "pct_variabilidad_temperatura",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El chorro será menos extremo en el futuro",
+      "supported": "partial",
+      "detail": "El 'less extreme' del título descansa sobre proyecciones CMIP6 hasta 2100 que no reproducimos. El paper lo enmarca como una posible reducción ('suggesting a potential reduction')",
+      "certainty_tier": "T3",
+      "abstract_verb": "suggesting a potential",
+      "metric": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.125,
+      "unit": "desviaciones estándar",
+      "metric": "delta_mediana_fuerza_sd",
+      "context": "subida de la mediana de fuerza del chorro entre 1725-1754 y 1995-2024",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.13",
+        "our_calculation": "0.125",
+        "discrepancy_pct": 4.2,
+        "reason": "redondeo del paper; misma métrica (mediana) y misma base de normalización"
+      }
+    },
+    {
+      "value": 0.162,
+      "unit": "desviaciones estándar",
+      "metric": "delta_p2_fuerza_sd",
+      "context": "subida del percentil 2 — la cola débil se movió más que el centro",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.16",
+        "our_calculation": "0.162",
+        "discrepancy_pct": 1.2,
+        "reason": "redondeo del paper"
+      }
+    },
+    {
+      "value": 0.048,
+      "unit": "desviaciones estándar",
+      "metric": "delta_p98_fuerza_sd",
+      "context": "subida del percentil 98 — el extremo fuerte casi no se movió",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.0,
+      "unit": "por ciento",
+      "metric": "pct_extremos_debiles_1725_1754",
+      "context": "días con chorro excepcionalmente débil (< -2 SD) en 1725-1754",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.27,
+      "unit": "por ciento",
+      "metric": "pct_extremos_debiles_1995_2024",
+      "context": "días con chorro excepcionalmente débil en 1995-2024, el valor más bajo de los diez períodos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.24,
+      "unit": "por ciento",
+      "metric": "pct_extremos_fuertes_1995_2024",
+      "context": "días de chorro muy fuerte en 1995-2024, por debajo del 2,41% de 1965-1994",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "not more positive extremes in the last period compared with the previous 30-year period",
+        "our_calculation": "2,24% vs 2,41%",
+        "discrepancy_pct": 0.0,
+        "reason": "confirma"
+      }
+    },
+    {
+      "value": 0.1,
+      "unit": "Cohen's d",
+      "metric": "cohens_d_primero_vs_ultimo",
+      "context": "tamaño del efecto entre el primer y el último período: pequeño",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 54373,
+      "unit": "días",
+      "metric": "n_dias_temporada_fria",
+      "context": "días de temporada fría (nov-abr) analizados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 300,
+      "unit": "años",
+      "metric": "n_anios",
+      "context": "años de registro diario continuo, 1725-2024",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "estaciones",
+      "metric": "n_estaciones",
+      "context": "estaciones de presión que sostienen los índices: Londres, Padua, Uppsala y Berlín",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 40,
+      "unit": "por ciento",
+      "metric": "pct_variabilidad_temperatura",
+      "context": "variabilidad diaria de temperatura en Europa occidental que explican los índices (el cuerpo del paper precisa 'up to', 'in some locations'). NO reproducible con nuestros datos",
+      "source": "paper",
+      "verified": false
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "has strengthened",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'se fortaleció' — tendencia medida sobre 300 años, NO descalar"
+    },
+    {
+      "abstract_verb": "explain",
+      "tier": "T1",
+      "cam_attenuator": "'explican hasta un 40%' — usar la versión del cuerpo ('up to', 'in some locations')"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'las proyecciones apuntan a' — NO afirmar el futuro como hecho"
+    },
+    {
+      "abstract_verb": "suggesting",
+      "tier": "T2",
+      "cam_attenuator": "'lo que sugiere' — NO 'demuestra que habrá menos extremos'"
+    },
+    {
+      "abstract_verb": "potential",
+      "tier": "T3",
+      "cam_attenuator": "'una posible reducción' — hedge obligatorio"
+    },
+    {
+      "abstract_verb": "remain poorly understood",
+      "tier": "T3",
+      "cam_attenuator": "'siguen sin entenderse bien'"
+    }
+  ],
+  "narrative_hooks": [
+    "El chorro del Atlántico no se hizo más fuerte por arriba: se hizo más fuerte por abajo. Su extremo débil subió +0,162 SD; el fuerte, apenas +0,048.",
+    "Cuatro barómetros europeos llevan 300 años anotando la presión todos los días, y con eso se reconstruye el viento que decide el invierno de Europa.",
+    "El 26 de diciembre de 1836 es el día de chorro más flojo de tres siglos, y el paper lo cita por su fecha exacta: nuestra reproducción lo devuelve idéntico.",
+    "Los inviernos de chorro parado son hoy los más raros del registro: 1,27% de los días, contra 2,00% en el siglo XVIII.",
+    "El efecto es real y es pequeño: Cohen's d = 0,10. Significativo no es sinónimo de grande."
+  ],
+  "limitations": [
+    "Los índices son la huella EN SUPERFICIE del chorro (gradientes de presión entre 4 estaciones), no una medición del viento en altura: 'our diagnostics describe the surface imprint'.",
+    "Solo se reproduce 1 de los 3 datasets del depósito: las simulaciones (180,1 MB) y los índices de modelo (386,0 MB) exceden el límite de 50 MB. Toda la mitad de modelado y proyección a 2100 queda fuera.",
+    "El 'less extreme' del título descansa en buena parte sobre las proyecciones futuras, que no reproducimos.",
+    "El 40% de variabilidad de temperatura requiere campos de temperatura en rejilla ausentes del depósito.",
+    "El archivo de Figshare arranca en 1706; el análisis publicado, en 1725. Usamos 1725-2024 para coincidir con el paper.",
+    "El propio paper advierte que las excursiones fuertes del siglo XVIII podrían reflejar errores residuales de medición de presión — y ese siglo es la línea base de toda la comparación.",
+    "Diseño observacional: describe qué hizo el chorro, no por qué. Ningún número del notebook atribuye el cambio a una causa."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados como 'yes' y 11 números clave"
+  },
+  "notebook_slug": "2026-09-10-corriente-chorro-atlantico-europea",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-10-corriente-chorro-atlantico-europea/notebook.html",
+  "generated_at": "2026-09-10T18:35:04-05:00"
+}

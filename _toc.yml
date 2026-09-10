@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-09-10-corriente-chorro-atlantico-europea/README
+    title: "Chorro atlántico en 300 años"
+    sections:
+    - file: papers/2026-09-10-corriente-chorro-atlantico-europea/notebook
+      title: Notebook
   - file: papers/2026-09-03-extincion-plantas-cumbres-europeas/README
     title: "Extinciones en cumbres europeas"
     sections:
