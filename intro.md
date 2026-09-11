@@ -14,6 +14,21 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Donde había una isla, ahora hay 850 metros de agua
+
+**Geología** · *Nature Geoscience* · Dos modelos del fondo marino, uno de 2015-2016 y otro de 2022, muestran lo que
+dejó la erupción de Hunga (Tonga): el piso de la caldera bajó de ~150 m a un piso
+plano de 2 km a más de 800 m, con un máximo de 918 m justo donde había una isla.
+Se perdieron 6,97 km³ en un radio de 4 km, al 2% de los 6,85 km³ que el paper
+atribuye al colapso. Entre 176 calderas del mundo, Hunga es pequeña pero de las
+más hondas para su tamaño (solo 12 la superan). ⚠️ El hundimiento estructural de
+~1.000 m y el vínculo con el tsunami vienen de sísmica y modelos del paper, no de
+estos datos.
+
+[Ver notebook](papers/2026-09-11-hunga-caldera-colapso-submarino/notebook) · [Leer más](papers/2026-09-11-hunga-caldera-colapso-submarino/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-11-hunga-caldera-colapso-submarino/notebook.ipynb)
+
+---
+
 ### El chorro del Atlántico se fortaleció por su lado débil
 
 **Ecología** · *Nature Geoscience* · Cuatro barómetros europeos llevan anotando la presión desde 1725, y con eso se

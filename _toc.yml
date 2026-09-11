@@ -390,6 +390,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-09-11-hunga-caldera-colapso-submarino/README
+    title: "Colapso de la caldera de Hunga"
+    sections:
+    - file: papers/2026-09-11-hunga-caldera-colapso-submarino/notebook
+      title: Notebook
   - file: papers/2026-07-01-bridgmanita-hadeana-manto/README
     title: "Una huella del Hadeano en una lava de hoy"
     sections:

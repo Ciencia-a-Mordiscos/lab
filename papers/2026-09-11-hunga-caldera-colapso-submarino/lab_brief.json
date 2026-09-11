@@ -1,0 +1,344 @@
+{
+  "version": "1.0",
+  "paper_id": 2996,
+  "doi": "10.1038/s41561-026-02099-7",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El fondo de la caldera pasó de ~150 m a ~850 m de profundidad",
+      "supported": "yes",
+      "detail": "Corte NW-SE: fondo pre hasta 156 m; post mediana 848 m (IQR 826–855), mínimo 860 m; CTD 852 m",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": true,
+      "metric": "cuenca_pre_min"
+    },
+    {
+      "claim": "El hundimiento máximo fue de 800–1.100 m, mayor en el NW",
+      "supported": "yes",
+      "detail": "918 m en el corte a 50 m; 903 m en la grilla de 100 m, cuadrante NW; media NW −400 m",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": true,
+      "metric": "subsidencia_max"
+    },
+    {
+      "claim": "El hundimiento promedio fue de ~1.000 m (estructural)",
+      "supported": "partial",
+      "detail": "Estimación con sísmica: incluye ~150 m de relleno bajo el piso actual; no medible con los modelos del fondo",
+      "certainty_tier": "T2",
+      "abstract_verb": "estimate",
+      "supported_by_data": false,
+      "metric": "subsidencia_promedio_estructural"
+    },
+    {
+      "claim": "Al colapso se atribuyen 6,85 ± 0,05 km³",
+      "supported": "yes",
+      "detail": "6,97 km³ en r ≤ 4 km (6,85 ignorando cambios < 20 m); +1,7% con método distinto",
+      "certainty_tier": "T2",
+      "abstract_verb": "attributed",
+      "supported_by_data": true,
+      "metric": "vol_r4km"
+    },
+    {
+      "claim": "El volumen total desplazado fue 8,9 ± 0,1 km³",
+      "supported": "partial",
+      "detail": "1,2 km³ del flanco sur quedan fuera de la ventana de ±5 km; en la ventana se perdieron 7,49 km³",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": false,
+      "metric": "vol_total_8p9"
+    },
+    {
+      "claim": "El diámetro creció marginalmente, de ~4,5 a 4,8 km",
+      "supported": "partial",
+      "detail": "4,8 km de borde a borde en NW-SE (4,7 E-W, 5,15 N-S); 3,55–4,05 km al contorno de 150 m; depende del criterio",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "supported_by_data": true,
+      "metric": "diam_paper_4p8"
+    },
+    {
+      "claim": "Hunga está en el ~12% inferior de 177 calderas por diámetro",
+      "supported": "yes",
+      "detail": "22 de 177 = 12,4%",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "hunga_percentil_diam"
+    },
+    {
+      "claim": "Su relación hundimiento/diámetro (0,25) es mayor que la de la mayoría, similar a Newberry, Somma-Vesuvius, Nisyros, Fantale y Miyakejima",
+      "supported": "yes",
+      "detail": "93,2% de 176 por debajo; vecinas a 0,20–0,28; Fantale figura como Fentale",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "hunga_percentil_s_d"
+    },
+    {
+      "claim": "Con relación de aspecto 0,5, Hunga está en el promedio global de las calderas < 10 km",
+      "supported": "partial",
+      "detail": "Coincide con la mediana (0,50; n = 30), no con la media (0,73)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "ar_mediana_menor_10km"
+    },
+    {
+      "claim": "El colapso ocurrió durante la erupción, como un pistón con fallas normales en los bordes",
+      "supported": "partial",
+      "detail": "Interpretación de los autores (sísmica + terrazas); el corte muestra escalones, no el orden temporal",
+      "certainty_tier": "T2",
+      "abstract_verb": "imply/interpret",
+      "supported_by_data": false,
+      "metric": "terrazas_100_150m"
+    },
+    {
+      "claim": "La velocidad del colapso amplificó el tsunami",
+      "supported": "partial",
+      "detail": "El paper lo enmarca como probably; no medido aquí",
+      "certainty_tier": "T3",
+      "abstract_verb": "probably",
+      "supported_by_data": false,
+      "metric": "tsunami_40m"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 918,
+      "unit": "m",
+      "metric": "subsidencia_max",
+      "context": "caída máxima en el corte NW-SE a 50 m: de +68 m a −851 m",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "800–1.100 m (máx.), mayor en el NW",
+        "our_calculation": "918 m (perfil 50 m); 903 m (grilla 100 m)",
+        "discrepancy_pct": 0,
+        "reason": "dentro del rango del paper"
+      }
+    },
+    {
+      "value": 848,
+      "unit": "m",
+      "metric": "piso_post_mediana",
+      "context": "mediana del piso post-eruptivo en r ≤ 1 km (IQR 826–855 m), mínimo 860 m",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~850 m",
+        "our_calculation": "848 m",
+        "discrepancy_pct": 0.2,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 156,
+      "unit": "m",
+      "metric": "cuenca_pre_min",
+      "context": "fondo pre-eruptivo más hondo dentro de ±2 km en el corte NW-SE",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~150 m",
+        "our_calculation": "156 m",
+        "discrepancy_pct": 4,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 852,
+      "unit": "m",
+      "metric": "ctd_max",
+      "context": "sondeo CTD más hondo de abril de 2022 (estación 17); tres estaciones > 800 m: 844, 845, 852",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.97,
+      "unit": "km³",
+      "metric": "vol_r4km",
+      "context": "volumen perdido sumando celdas en r ≤ 4 km (6,85 km³ ignorando cambios < 20 m)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "6.85 ± 0.05 km³",
+        "our_calculation": "6.97 km³",
+        "discrepancy_pct": 1.7,
+        "reason": "suma de celdas vs modelo armónico cilíndrico"
+      }
+    },
+    {
+      "value": 7.49,
+      "unit": "km³",
+      "metric": "vol_ventana",
+      "context": "volumen perdido en toda la ventana de 10 × 10 km (ganado 0,17 km³)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "7.7 ± 0.1 km³ dentro del borde; 8.9 total",
+        "our_calculation": "7.49 km³",
+        "discrepancy_pct": 2.7,
+        "reason": "el flanco sur (1,2 km³) queda fuera de la ventana"
+      }
+    },
+    {
+      "value": -400,
+      "unit": "m",
+      "metric": "cuadrante_nw_media",
+      "context": "cambio medio del cuadrante NW en r ≤ 2,5 km; NE −356, SW −340, SE −288",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.67,
+      "unit": "km³",
+      "metric": "cuadrante_vol",
+      "context": "volumen perdido por cuadrante: SW 1,67 > NW 1,53 > NE 1,50 > SE 1,44 km³",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.0,
+      "unit": "km",
+      "metric": "piso_plano_km",
+      "context": "ancho del piso contiguo más hondo que 800 m en el corte NW-SE",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.8,
+      "unit": "km",
+      "metric": "ancho_rim_a_rim",
+      "context": "distancia de borde a borde en el corte NW-SE (E-W 4,7; N-S 5,15)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "4.8 km (abstract)",
+        "our_calculation": "4.8 km",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 12.4,
+      "unit": "por ciento",
+      "metric": "hunga_percentil_diam",
+      "context": "22 de 177 calderas son más pequeñas que Hunga (4 km)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "lower ~12%",
+        "our_calculation": "12.4%",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 0.95,
+      "unit": "km",
+      "metric": "subsid_media_global",
+      "context": "media de hundimiento de 176 calderas (mediana 0,71; IQR 0,40–1,20); Hunga 1,0",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12,
+      "unit": "calderas",
+      "metric": "n_s_d_mayor_que_hunga",
+      "context": "calderas de 176 con relación hundimiento/diámetro mayor que 0,25 (93,2% por debajo; mediana 0,070)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.5,
+      "unit": "adimensional",
+      "metric": "ar_mediana_menor_10km",
+      "context": "mediana de la relación de aspecto en calderas < 10 km con dato (n = 30; media 0,73); Hunga 0,5",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "on the global average, within a subset of 32 calderas of <10-km diameter",
+        "our_calculation": "mediana 0,50 (n=30); media 0,73",
+        "discrepancy_pct": 0,
+        "reason": "coincide con la mediana, no con la media"
+      }
+    },
+    {
+      "value": 0.78,
+      "unit": "ρ Spearman",
+      "metric": "spearman_dre_diam",
+      "context": "correlación magma erupcionado vs diámetro (n = 127); la tendencia log-log predice 4,1 km³ para 4 km, Hunga 8",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — los cambios geomorfológicos son medidos"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "'encontraron' — 150→850 m, 4,5→4,8 km, 8,9 km³ son mediciones: NO descalar a 'sugieren'"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "'revelaron' (depósitos de deslizamiento intercalados)"
+    },
+    {
+      "abstract_verb": "attributed",
+      "tier": "T2",
+      "cam_attenuator": "'atribuido a' — el 6,85 sale de un modelo, no de medición directa"
+    },
+    {
+      "abstract_verb": "imply",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' colapso sin-eruptivo — NO 'confirma'"
+    },
+    {
+      "abstract_verb": "interpret",
+      "tier": "T2",
+      "cam_attenuator": "'los autores interpretan como' fallas normales / subsidencia en pistón"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren' ~8 km³ DRE, <30% del reservorio"
+    },
+    {
+      "abstract_verb": "probably",
+      "tier": "T3",
+      "cam_attenuator": "'probablemente' el tsunami fue amplificado por la velocidad del colapso — no medido en este paper"
+    }
+  ],
+  "narrative_hooks": [
+    "Donde había una isla, ahora hay 850 metros de agua: el punto que más se hundió cayó 918 m, de +68 m a −851 m",
+    "Un piso plano de 2 km de ancho a más de 800 m donde antes el fondo estaba a 150 m",
+    "Los bordes bajaron 42 y 14 m; el centro, 918: el hueco no se abrió hacia afuera, el centro se fue hacia abajo",
+    "Desaparecieron 6,97 km³ en un radio de 4 km — al 2% de los 6,85 km³ que el paper atribuye al colapso",
+    "Hunga es de las calderas más pequeñas del mundo (12% inferior) pero solo 12 de 176 son más hondas para su tamaño",
+    "Askja en 1875: mismo diámetro que Hunga, cuatro veces menos hundimiento"
+  ],
+  "limitations": [
+    "Modelos del fondo de campañas con instrumentos distintos: en los bordes de la ventana el 20% de las celdas difieren > 20 m sin cambio real (umbral de ruido)",
+    "El DEM pre se remuestreó (bilineal) sobre la grilla post; el mapa usa celdas de 100 m que suavizan los máximos (903 vs 918 m)",
+    "La ventana de ±5 km deja fuera la erosión del flanco sur (1,2 km³ del paper)",
+    "La base de 177 calderas la construyeron los autores y, según ellos, sus hundimientos están probablemente sesgados a la baja (geomórfico vs estructural)",
+    "El hundimiento estructural de ~1.000 m, los 8 km³ de magma, el ~26% del reservorio y la relación con el tsunami son estimaciones del paper, no cálculos del notebook"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 15 números clave"
+  },
+  "notebook_slug": "2026-09-11-hunga-caldera-colapso-submarino",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-11-hunga-caldera-colapso-submarino/notebook.html",
+  "generated_at": "2026-09-11T23:44:43+00:00"
+}

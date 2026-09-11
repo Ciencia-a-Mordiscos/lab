@@ -1,0 +1,38 @@
+titulo: "Donde había una isla, ahora hay 850 metros de agua"
+titulo_corto: "Colapso de la caldera de Hunga"
+card_descripcion: |
+  Dos modelos del fondo marino, uno de 2015-2016 y otro de 2022, muestran lo que
+  dejó la erupción de Hunga (Tonga): el piso de la caldera bajó de ~150 m a un piso
+  plano de 2 km a más de 800 m, con un máximo de 918 m justo donde había una isla.
+  Se perdieron 6,97 km³ en un radio de 4 km, al 2% de los 6,85 km³ que el paper
+  atribuye al colapso. Entre 176 calderas del mundo, Hunga es pequeña pero de las
+  más hondas para su tamaño (solo 12 la superan). ⚠️ El hundimiento estructural de
+  ~1.000 m y el vínculo con el tsunami vienen de sísmica y modelos del paper, no de
+  estos datos.
+fecha: 2026-09-11
+categoria: geología
+tags: [geología, volcanes, caldera, tonga, batimetría, tsunami]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-02099-7"
+    titulo: "Rapid submarine caldera collapse during the 2022 climactic eruption of Hunga volcano (Tonga)"
+    journal: Nature Geoscience
+    autores: "Ribó et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cambio_fondo_caldera.csv"
+    descripcion: "Cambio del fondo marino post − pre en celdas de 100 m, ventana ±5 km"
+    fuente: "Zenodo 10.5281/zenodo.7456324"
+  - nombre: "perfiles_caldera.csv"
+    descripcion: "Tres cortes por el centro de la caldera a 50 m, pre y post"
+    fuente: "Zenodo 10.5281/zenodo.7456324"
+  - nombre: "estaciones_ctd_abril2022.csv"
+    descripcion: "13 sondeos CTD dentro de la caldera, abril 2022"
+    fuente: "Source Data MOESM3"
+  - nombre: "calderas_globales.csv"
+    descripcion: "Base global de 177 calderas compilada por los autores"
+    fuente: "Source Data MOESM2"
+estado: publicado
