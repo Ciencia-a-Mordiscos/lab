@@ -43,6 +43,21 @@ confianza que se solapan; las importancias SHAP son correlacionales.
 
 ---
 
+### El Yangtsé exporta en julio 62 veces más microplástico que en enero
+
+**Ecología** · *Science* · Un modelo global entrenado con 1.386 mediciones estima que los ríos mandaron
+al mar unas 263.000 t de microplástico en 2022 (la suma del Supplementary da
+255.971 t). Con la salida mensual del modelo: 22 cuencas juntan el 50% y el
+Yangtsé solo el 16,8%; en julio el Yangtsé exporta 61,7 veces lo de enero
+porque la concentración (×7,1) y el caudal (×8,7) suben a la vez. ⚠️ El «~70%
+del caudal con enriquecimiento por pulso» del paper se define con series
+diarias que no son públicas; nuestra ρ mensual por cuenca es otra métrica y no
+lo confirma.
+
+[Ver notebook](papers/2026-09-10-microplasticos-rios-pulsos/notebook) · [Leer más](papers/2026-09-10-microplasticos-rios-pulsos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-10-microplasticos-rios-pulsos/notebook.ipynb)
+
+---
+
 ### El chorro del Atlántico se fortaleció por su lado débil
 
 **Ecología** · *Nature Geoscience* · Cuatro barómetros europeos llevan anotando la presión desde 1725, y con eso se

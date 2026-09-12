@@ -1,0 +1,44 @@
+titulo: "El Yangtsé exporta en julio 62 veces más microplástico que en enero"
+titulo_corto: "Microplástico fluvial a pulsos"
+card_descripcion: |
+  Un modelo global entrenado con 1.386 mediciones estima que los ríos mandaron
+  al mar unas 263.000 t de microplástico en 2022 (la suma del Supplementary da
+  255.971 t). Con la salida mensual del modelo: 22 cuencas juntan el 50% y el
+  Yangtsé solo el 16,8%; en julio el Yangtsé exporta 61,7 veces lo de enero
+  porque la concentración (×7,1) y el caudal (×8,7) suben a la vez. ⚠️ El «~70%
+  del caudal con enriquecimiento por pulso» del paper se define con series
+  diarias que no son públicas; nuestra ρ mensual por cuenca es otra métrica y no
+  lo confirma.
+fecha: 2026-09-10
+categoria: ecología
+tags: [ecología, microplásticos, ríos, contaminación, océano, yangtsé, modelo global, lluvias]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aeb4487"
+    titulo: "Hydroclimatic-driven pulse enrichment amplifies riverine microplastic export in developing countries"
+    journal: Science
+    autores: "Qin et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "export_mensual_cuenca.csv"
+    descripcion: "Exportación mensual de microplástico (t/mes) por cuenca Global NEWS, 2022; 5.272 cuencas"
+    fuente: "Supplementary Data S5"
+  - nombre: "concentracion_mensual_cuenca.csv"
+    descripcion: "Concentración mensual (partículas/m³) por cuenca, 2022, y fracciones de PE/PP; 5.261 cuencas"
+    fuente: "Supplementary Data S4"
+  - nombre: "observaciones_rios.csv"
+    descripcion: "1.386 observaciones de concentración cruda y armonizada, con coordenadas, año, río, malla y método"
+    fuente: "Supplementary Data S1"
+  - nombre: "cuenca_resumen.csv"
+    descripcion: "Exportación anual y ρ de Spearman (concentración vs caudal-proxy) por cuenca"
+    fuente: "Derivado por El Lab de Data S4 y S5"
+  - nombre: "perfil_vertical.csv"
+    descripcion: "11 perfiles verticales de concentración normalizada a superficie"
+    fuente: "Supplementary Data S2"
+  - nombre: "tamanos_particulas.csv"
+    descripcion: "217 registros de fracción por bin de tamaño"
+    fuente: "Supplementary Data S6"
+estado: publicado

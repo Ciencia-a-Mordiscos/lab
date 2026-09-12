@@ -1,0 +1,486 @@
+{
+  "version": "1.0",
+  "paper_id": 2993,
+  "doi": "10.1126/science.aeb4487",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los ríos exportaron unas 263.000 t de microplástico al mar en 2022",
+      "supported": "yes",
+      "detail": "Suma de Data S5 = 255.971 t: −2,7% vs ~263.000 del abstract, −1,6% vs 260.000 del SM. El redondeo no lo explica (<1 t) y el SM no dice la causa. Salida de un modelo (R² = 0,72), no medición",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "metric": "export_global_2022_t",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "diff_pct",
+        "value": -2.7,
+        "interpretation": "coincide"
+      }
+    },
+    {
+      "claim": "El Yangtsé es la mayor fuente individual",
+      "supported": "yes",
+      "detail": "43.079 t, 16,8% del total; la cuenca 11 coincide con las 43.000 t que el SM asigna al Yangtsé (+0,2%)",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "metric": "yangtze_export_t",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "share_pct",
+        "value": 16.8,
+        "interpretation": "mayor cuenca"
+      }
+    },
+    {
+      "claim": "La exportación global está dominada por pocos ríos",
+      "supported": "yes",
+      "detail": "22 cuencas suman el 50%, 152 el 80% y 350 el 90%; Gini = 0,949 sobre 4.964 cuencas con exportación > 0",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "metric": "cuencas_para_50pct",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "gini",
+        "value": 0.949,
+        "interpretation": "extremadamente concentrado"
+      }
+    },
+    {
+      "claim": "En los ríos de mayor exportación, la mayor parte sale en la temporada de lluvias",
+      "supported": "yes",
+      "detail": "Yangtsé: 78,4% en jun–ago. Top 20: mes pico mediana 16,9% (mitad central 13,2–21,6%), tres meses top 46,0% (mitad central 35,1–51,6%). Global: 35,7% en jun–ago",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "metric": "yangtze_jun_ago_share_pct",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "share_pct",
+        "value": 78.4,
+        "interpretation": "muy estacional"
+      }
+    },
+    {
+      "claim": "~70% del caudal global muestra enriquecimiento por pulso",
+      "supported": "partial",
+      "detail": "No reproducible: requiere series diarias ausentes del Supplementary. Proxy mensual: ρ > 0 en el 71,7% de las cuencas (50,3% de la exportación) — otra métrica, no confirma la cifra",
+      "certainty_tier": "T1",
+      "abstract_verb": "exhibits",
+      "metric": "paper_pulse_enrichment_pct_caudal",
+      "supported_by_data": false,
+      "effect_size": {
+        "measure": "pct_cuencas_rho_pos",
+        "value": 71.7,
+        "interpretation": "no comparable"
+      }
+    },
+    {
+      "claim": "El 96% de la exportación viene del Sur Global; Sudeste y Este de Asia aportan más de la mitad",
+      "supported": "partial",
+      "detail": "No verificable: el Supplementary no trae el mapa cuenca → país. Citado del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "metric": null,
+      "supported_by_data": false,
+      "effect_size": null
+    },
+    {
+      "claim": "Las crecidas por lluvia disparan picos de concentración",
+      "supported": "partial",
+      "detail": "Asociación del paper (regresión, Fig. S5). En el Yangtsé la concentración sube 7,1× de enero a julio junto con el caudal; sin datos diarios ni de lluvia solo vemos coincidencia estacional",
+      "certainty_tier": "T1",
+      "abstract_verb": "trigger",
+      "metric": "yangtze_conc_jul_vs_ene_x",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "ratio",
+        "value": 7.09,
+        "interpretation": "coincidencia estacional"
+      }
+    },
+    {
+      "claim": "El método de muestreo cambia la concentración medida en órdenes de magnitud",
+      "supported": "yes",
+      "detail": "1.386 obs: bomba (malla mediana 53 µm) 911,6 vs red (300 µm) 4,8 partículas/m³ crudo = 189× (d de Cohen log10 = 1,51, Mann-Whitney p = 6×10⁻¹⁰⁹); armonizado 16,8× (d = 0,74). ρ malla–log(conc) = −0,62 (n = 1.351)",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "metric": "obs_pump_net_ratio_cruda_x",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "ratio_medianas",
+        "value": 189.1,
+        "interpretation": "muy grande"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 255971,
+      "unit": "t",
+      "metric": "export_global_2022_t",
+      "context": "exportación fluvial global de microplástico en 2022, suma de Data S5",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~263.000 t",
+        "our_calculation": "255.971 t",
+        "discrepancy_pct": -2.7,
+        "reason": "el SM redondea a 260.000 (−1,6%); el redondeo de S5 no explica la diferencia y el SM no da la causa"
+      }
+    },
+    {
+      "value": 263000,
+      "unit": "t",
+      "metric": "export_global_paper_t",
+      "context": "exportación global 2022 reportada por el paper (modelo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 43079,
+      "unit": "t",
+      "metric": "yangtze_export_t",
+      "context": "exportación anual del Yangtsé (cuenca 11 de Global NEWS)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "43.000 t",
+        "our_calculation": "43.079 t",
+        "discrepancy_pct": 0.2,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 16.8,
+      "unit": "por ciento",
+      "metric": "yangtze_share_pct",
+      "context": "parte del Yangtsé en la exportación global",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 19126,
+      "unit": "t",
+      "metric": "yangtze_mensual_export_t",
+      "context": "exportación del Yangtsé en julio de 2022",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 44.4,
+      "unit": "por ciento",
+      "metric": "yangtze_jul_share_pct",
+      "context": "parte de julio en el año del Yangtsé",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 78.4,
+      "unit": "por ciento",
+      "metric": "yangtze_jun_ago_share_pct",
+      "context": "parte de junio–agosto en el año del Yangtsé",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 91.1,
+      "unit": "por ciento",
+      "metric": "yangtze_may_oct_share_pct",
+      "context": "parte de mayo–octubre en el año del Yangtsé",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 61.7,
+      "unit": "veces",
+      "metric": "yangtze_export_jul_vs_ene_x",
+      "context": "exportación del Yangtsé en julio vs enero",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.09,
+      "unit": "veces",
+      "metric": "yangtze_conc_jul_vs_ene_x",
+      "context": "concentración del Yangtsé en julio vs enero (1.808 → 12.825 partículas/m³)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.7,
+      "unit": "veces",
+      "metric": "yangtze_qproxy_jul_vs_ene_x",
+      "context": "caudal-proxy (exportación ÷ concentración) del Yangtsé en julio vs enero",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15.1,
+      "unit": "por ciento",
+      "metric": "global_mes_pico_pct",
+      "context": "parte de julio en la exportación global",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 35.7,
+      "unit": "por ciento",
+      "metric": "global_jun_ago_share_pct",
+      "context": "parte de junio–agosto en la exportación global",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 37.9,
+      "unit": "por ciento",
+      "metric": "top10_share_pct",
+      "context": "parte de las 10 cuencas que más exportan",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "cuencas",
+      "metric": "cuencas_para_50pct",
+      "context": "cuencas necesarias para el 50% de la exportación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 152,
+      "unit": "cuencas",
+      "metric": "cuencas_para_80pct",
+      "context": "cuencas necesarias para el 80%",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 350,
+      "unit": "cuencas",
+      "metric": "cuencas_para_90pct",
+      "context": "cuencas necesarias para el 90%",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4964,
+      "unit": "cuencas",
+      "metric": "n_cuencas_export_positivo",
+      "context": "cuencas con exportación > 0 (de 5.272)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.92,
+      "unit": "t",
+      "metric": "export_cuenca_mediana_t",
+      "context": "exportación anual mediana por cuenca (IQR 0,18–6,67 t), n = 4.964 positivas",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "n/a",
+        "our_calculation": "0,92 t",
+        "discrepancy_pct": 0,
+        "reason": "el Fact Sheet daba 0,74 sobre las 5.272 cuencas incluyendo ceros; el notebook usa solo las positivas"
+      }
+    },
+    {
+      "value": 0.949,
+      "unit": "índice",
+      "metric": "gini_export",
+      "context": "Gini de la exportación por cuenca (positivas)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4953,
+      "unit": "cuencas",
+      "metric": "proxy_n_cuencas_evaluables",
+      "context": "cuencas con ρ mensual evaluable",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.42,
+      "unit": "ρ",
+      "metric": "proxy_rho_mediana",
+      "context": "ρ mediana concentración–caudal mensual (IQR −0,08 a 0,65)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 71.7,
+      "unit": "por ciento",
+      "metric": "proxy_pct_cuencas_rho_pos",
+      "context": "cuencas con ρ > 0 — métrica de El Lab, NO el 70% del paper",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~70% del caudal (diario)",
+        "our_calculation": "71,7% de las cuencas (mensual)",
+        "discrepancy_pct": 0,
+        "reason": "métricas distintas, no comparables"
+      }
+    },
+    {
+      "value": 42.2,
+      "unit": "por ciento",
+      "metric": "proxy_pct_cuencas_rho_gt_05",
+      "context": "cuencas con ρ > 0,5",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.2,
+      "unit": "por ciento",
+      "metric": "proxy_pct_cuencas_rho_lt_m05",
+      "context": "cuencas con ρ < −0,5",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 50.3,
+      "unit": "por ciento",
+      "metric": "proxy_pct_export_en_cuencas_rho_pos",
+      "context": "parte de la exportación en cuencas con ρ > 0",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8,
+      "unit": "cuencas",
+      "metric": "proxy_top20_n_rho_pos",
+      "context": "cuencas del top 20 con ρ > 0 (mediana −0,15)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.218,
+      "unit": "ρ",
+      "metric": "proxy_spearman_logexport_vs_rho",
+      "context": "Spearman log(exportación) vs ρ",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.6,
+      "unit": "ρ",
+      "metric": "yangtze_rho_mensual",
+      "context": "ρ mensual del Yangtsé",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.51,
+      "unit": "ρ",
+      "metric": "amazonas_rho_mensual",
+      "context": "ρ mensual del Amazonas (cuenca 1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1386,
+      "unit": "observaciones",
+      "metric": "obs_n",
+      "context": "observaciones en Data S1 (226 ríos, 116 referencias distintas)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.386 (118 estudios)",
+        "our_calculation": "1.386 (116 referencias)",
+        "discrepancy_pct": 0,
+        "reason": "variantes tipográficas de cita"
+      }
+    },
+    {
+      "value": 189.1,
+      "unit": "veces",
+      "metric": "obs_pump_net_ratio_cruda_x",
+      "context": "mediana bomba / mediana red, concentración cruda (911,6 vs 4,8; p = 6,4×10⁻¹⁰⁹)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 16.8,
+      "unit": "veces",
+      "metric": "obs_pump_net_ratio_armonizada_x",
+      "context": "mediana bomba / mediana red, armonizada a 50–5.000 µm (p = 1,6×10⁻⁴²)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.624,
+      "unit": "ρ",
+      "metric": "obs_spearman_malla_logconc_cruda",
+      "context": "Spearman malla (µm) vs log10(concentración cruda), n = 1.351",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 70,
+      "unit": "por ciento",
+      "metric": "paper_pulse_enrichment_pct_caudal",
+      "context": "caudal global con enriquecimiento por pulso según el paper (no reproducible)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "\"presentan\" / \"construyeron\" (el dataset y el modelo)"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"encuentran que los ríos exportan mucho más de lo estimado\" — NO descalar a 'sugieren'"
+    },
+    {
+      "abstract_verb": "exhibits",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa descriptiva (\"~70% del caudal muestra pulse enrichment\") — pero como es salida de un modelo, decir 'según el modelo'"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "n/a",
+      "cam_attenuator": "OJO: 'than most previous estimates suggest' se refiere a las estimaciones PREVIAS, no es hedge del hallazgo propio. No importar como T2"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "\"podría intensificar\" — la proyección climática (más lluvia extrema → más pulsos) es T3; NUNCA 'va a empeorar'"
+    },
+    {
+      "abstract_verb": "trigger",
+      "tier": "T1",
+      "cam_attenuator": "'las crecidas por lluvia disparan picos' es la asociación del paper (regresión Fig. S5, r conc–escorrentía). Diseño observacional/modelo ⇒ 'se asocian a', 'coinciden con'; no 'la lluvia causa' como hecho nuestro"
+    }
+  ],
+  "narrative_hooks": [
+    "Un solo río, un solo mes: en julio de 2022 el Yangtsé mandó al mar 19.126 toneladas de microplástico — el 44% de su año y el 7,5% de lo que exportan los ríos del planeta en doce meses.",
+    "El Yangtsé exporta 62 veces más microplástico en julio que en enero: la concentración sube 7,1× y el caudal 8,7×, y los dos se multiplican. Las lluvias no diluyen — enriquecen.",
+    "22 cuencas juntan la mitad del microplástico fluvial del mundo; la cuenca mediana exporta menos de una tonelada al año, el Yangtsé 43.079.",
+    "El Amazonas diluye (ρ = −0,51) y el Yangtsé enriquece (ρ = 0,60): mismo planeta, signo opuesto.",
+    "Medir con bomba y filtro de 53 µm da 189 veces más partículas que con red de 300 µm: el método de muestreo decide el número."
+  ],
+  "limitations": [
+    "Todo lo mensual es salida de un modelo (R² = 0,72 en test), no medición directa.",
+    "La ρ por cuenca es una métrica de El Lab, mensual y sin ponderar por caudal — no equivale al enriquecimiento por pulso del paper (series diarias, Pearson conc–escorrentía, % del caudal). El 71,7% de cuencas NO confirma el ~70% del paper.",
+    "El Yangtsé se identifica como cuenca 11 por coincidencia de flujo con el SM (43.000 t), no por un nombre en la tabla.",
+    "11 cuencas están en Data S5 pero no en S4 (107 t, 0,04% del total) y quedan fuera de la ρ.",
+    "Data S1: 17 filas del río Aras con años 2023–2039 (autorrelleno Excel) → año vacío — las 19 filas del río siguen el patrón, 2021/2022 pueden ser el mismo artefacto; anio no entra en cálculos. 5 filas del río Suquía con lon/lat intercambiadas → corregidas.",
+    "El paper es de pago: lo citado de su cuerpo viene del Structured Abstract y del Supplementary. 96% Sur Global y 80% de casos de pulso en países en desarrollo no son verificables con los CSV.",
+    "La proyección climática (más lluvia extrema → más pulsos) es T3 (\"may\") y no se toca en el notebook."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (yes), 35 números clave"
+  },
+  "notebook_slug": "2026-09-10-microplasticos-rios-pulsos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-10-microplasticos-rios-pulsos/notebook.html",
+  "generated_at": "2026-09-12T16:24:02+00:00"
+}
