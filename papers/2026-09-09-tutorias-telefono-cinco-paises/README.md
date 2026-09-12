@@ -32,6 +32,6 @@ No hay microdatos a nivel de niño: el repositorio de replicación que anuncia e
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/rcIBsCneRZY)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-10990-x](https://doi.org/10.1038/s41586-026-10990-x)
 - **Datos originales:** [Tablas y Extended Data del propio paper](https://www.nature.com/articles/s41586-026-10990-x/tables/5)
