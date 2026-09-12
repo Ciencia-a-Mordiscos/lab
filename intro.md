@@ -29,6 +29,20 @@ estos datos.
 
 ---
 
+### El 85% de las ciudades chinas sintió un calor que solo el 52% sufrió
+
+**Ecología** · *Nature Climate Change* · En 357 ciudades chinas (2010–2024), el 52,1% pasó olas de calor físicamente
+severas pero el 84,9% sufrió un shock emocional intenso, medido en 11 millones
+de comentarios de Weibo: 1,63 veces más ciudades. En 39 ciudades, el retraso
+entre el pico de calor y la caída del ánimo crece hacia el norte (ρ = 0,68),
+de 2,0 días en Nanning a 4,0 en Tianjin. ⚠️ El «26% más rápido» con que cae la
+resiliencia emocional hasta 2050 sale de −6,3% vs −5,0% con intervalos de
+confianza que se solapan; las importancias SHAP son correlacionales.
+
+[Ver notebook](papers/2026-09-11-calor-emocional-ciudades-china/notebook) · [Leer más](papers/2026-09-11-calor-emocional-ciudades-china/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-11-calor-emocional-ciudades-china/notebook.ipynb)
+
+---
+
 ### El chorro del Atlántico se fortaleció por su lado débil
 
 **Ecología** · *Nature Geoscience* · Cuatro barómetros europeos llevan anotando la presión desde 1725, y con eso se

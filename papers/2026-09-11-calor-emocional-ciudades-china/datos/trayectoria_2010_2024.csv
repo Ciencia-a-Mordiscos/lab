@@ -1,0 +1,7 @@
+indice,anio,valor_absoluto,indice_2010_igual_100,nota
+HGI,2010,0.728,100.0,valor reportado
+HGI,2022,0.399,54.9,minimo; -45.1% reportado
+HGI,2024,0.537,73.8,"derivado de ""26.2% below 2010"""
+EGI,2010,,100.0,base
+EGI,2021,,80.1,minimo; -19.9% reportado
+EGI,2024,,86.6,-13.4% vs 2010 reportado (rebote +8.1% 2022-24)

@@ -1,0 +1,219 @@
+{
+  "version": "1.0",
+  "paper_id": 3003,
+  "doi": "10.1038/s41558-026-02732-8",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "El 84,9% de las ciudades sufrió shocks emocionales intensos y el 52,1% exposición física severa",
+      "supported": "yes",
+      "detail": "Cifras del paper (357 ciudades); cociente 1,63× cálculo del Lab. Umbral = media muestral, refleja también la asimetría de la distribución",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null,
+      "supported_by_data": true
+    },
+    {
+      "claim": "El lag emocional crece hacia el norte",
+      "supported": "yes",
+      "detail": "ρ Spearman = 0,68, p < 0,0001, n = 39. Coordenadas aproximadas añadidas por El Lab; el paper reporta el gradiente por región (2,7 vs 3,3 días)",
+      "certainty_tier": "T2",
+      "abstract_verb": "n/a (análisis del Lab)",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.68,
+        "interpretation": "fuerte"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las ciudades donde el ánimo empeora tardan más en reaccionar",
+      "supported": "no",
+      "detail": "2,90 vs 2,95 días, d = 0,10, Mann-Whitney p = 0,95 en las 39 ciudades",
+      "certainty_tier": "T3",
+      "abstract_verb": "n/a",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.1,
+        "interpretation": "nulo"
+      },
+      "supported_by_data": true
+    },
+    {
+      "claim": "La resiliencia física depende de economía y suelo; la emocional, del calor en sí",
+      "supported": "partial",
+      "detail": "Importancias SHAP del paper (37,4% + 32,0% vs 39,3%). Atribución correlacional; el paper dice 'driven by'",
+      "certainty_tier": "T2",
+      "abstract_verb": "driven by / more sensitive to",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "La resiliencia emocional cae ~26% más rápido que la física hasta 2050",
+      "supported": "partial",
+      "detail": "6,3 / 5,0 = 1,26, pero los IC 90% (−10,9 a −1,4 vs −8,3 a −3,3) se solapan; proyección",
+      "certainty_tier": "T2",
+      "abstract_verb": "projections indicate",
+      "effect_size": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "Hacia 2100 el PIB expuesto a riesgo emocional crece más que el expuesto a calor",
+      "supported": "partial",
+      "detail": "SSP5-8.5: +224% vs +144%, pero los IC 90% se solapan en los tres escenarios. Proyección",
+      "certainty_tier": "T2",
+      "abstract_verb": "projections indicate",
+      "effect_size": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 84.9,
+      "unit": "por ciento",
+      "metric": "pct_emocional_vulnerable",
+      "context": "ciudades con shock emocional de alta intensidad (357)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 52.1,
+      "unit": "por ciento",
+      "metric": "pct_fisico_vulnerable",
+      "context": "ciudades con exposición física severa (357)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.63,
+      "unit": "cociente",
+      "metric": "ratio_emocional_fisico_ciudades",
+      "context": "84,9 / 52,1 — cálculo del Lab",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.7,
+      "unit": "días",
+      "metric": "coastal_lag",
+      "context": "lag medio costa sureste (IC 2,6–2,8; p<0,001)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.3,
+      "unit": "días",
+      "metric": "inland_lag",
+      "context": "lag medio interior noroeste y meseta (IC 3,2–3,4; p<0,01)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.68,
+      "unit": "rho Spearman",
+      "metric": "spearman_lag_lat",
+      "context": "lag ~ latitud aproximada, 39 ciudades, p<0,0001 (lab_only)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.92,
+      "unit": "días",
+      "metric": "lag_media_s1",
+      "context": "lag medio en las 39 ciudades de la Supp. Table 1 (SD 0,47; Shapiro p=0,86)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 39.3,
+      "unit": "por ciento",
+      "metric": "shap_egi_hazard",
+      "context": "importancia SHAP del peligro térmico sobre EGI",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 37.4,
+      "unit": "por ciento",
+      "metric": "shap_hgi_socio",
+      "context": "importancia SHAP socioeconómica sobre HGI (cobertura de suelo 32,0%)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.5,
+      "unit": "cociente",
+      "metric": "ratio_imax_vs_gdp_egi",
+      "context": "efecto +1 SD IMAX (0,021) vs GDP (0,006) sobre EGI — cálculo del Lab",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.26,
+      "unit": "cociente",
+      "metric": "egi_vs_hgi_ratio_declive_2025_2050",
+      "context": "−6,3% / −5,0% = 'emocional cae ~26% más rápido'",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "about 26% faster",
+        "our_calculation": "1,26",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 224.3,
+      "unit": "por ciento",
+      "metric": "ege_ssp5_2100_pct",
+      "context": "PIB expuesto a riesgo emocional 2025–2100 SSP5-8.5 (calor: +144,0%)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "\"los datos sugieren\""
+    },
+    {
+      "abstract_verb": "driven by / more sensitive to",
+      "tier": "T2",
+      "cam_attenuator": "\"los datos apuntan a\" / \"según el modelo SHAP\" — atribución correlacional, NO causal"
+    },
+    {
+      "abstract_verb": "projections indicate",
+      "tier": "T2",
+      "cam_attenuator": "\"las proyecciones apuntan a\" — NO \"ocurrirá\""
+    }
+  ],
+  "narrative_hooks": [
+    "El 85% de las ciudades chinas sintió un calor que solo el 52% sufrió",
+    "El pico de calor no duele el mismo día: 2,7 días en la costa, 3,3 en el interior",
+    "El '26% más rápido' es correcto, pero sus intervalos de confianza se solapan"
+  ],
+  "limitations": [
+    "Cifras transcritas del texto del paper y de la Supplementary Table 1, no del dataset de 11 millones de comentarios",
+    "Las 39 ciudades de la tabla son un subconjunto no aleatorio de las 357 (el título dice 40)",
+    "Latitud y longitud aproximadas añadidas por El Lab",
+    "Weibo mide ánimo expresado, no estado emocional de la población",
+    "Estudio observacional; importancias SHAP no establecen causas",
+    "HGI 0,728 (19 aglomeraciones) y 0,260 (357 ciudades) no son comparables"
+  ],
+  "suggested_word_range": {
+    "min": 150,
+    "max": 190,
+    "reason": "2 claims yes, 12 números clave"
+  },
+  "notebook_slug": "2026-09-11-calor-emocional-ciudades-china",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-11-calor-emocional-ciudades-china/notebook.html",
+  "generated_at": "2026-09-12T15:49:39+00:00"
+}

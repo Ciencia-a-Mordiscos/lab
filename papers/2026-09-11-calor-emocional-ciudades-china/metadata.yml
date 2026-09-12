@@ -1,0 +1,46 @@
+titulo: "El 85% de las ciudades chinas sintió un calor que solo el 52% sufrió"
+titulo_corto: "Calor físico vs calor emocional"
+card_descripcion: |
+  En 357 ciudades chinas (2010–2024), el 52,1% pasó olas de calor físicamente
+  severas pero el 84,9% sufrió un shock emocional intenso, medido en 11 millones
+  de comentarios de Weibo: 1,63 veces más ciudades. En 39 ciudades, el retraso
+  entre el pico de calor y la caída del ánimo crece hacia el norte (ρ = 0,68),
+  de 2,0 días en Nanning a 4,0 en Tianjin. ⚠️ El «26% más rápido» con que cae la
+  resiliencia emocional hasta 2050 sale de −6,3% vs −5,0% con intervalos de
+  confianza que se solapan; las importancias SHAP son correlacionales.
+fecha: 2026-09-11
+categoria: ecología
+tags: [ecología, clima, olas de calor, china, redes sociales, resiliencia, salud mental]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41558-026-02732-8"
+    titulo: "Divergence between physical and emotional heat resilience in Chinese cities"
+    journal: Nature Climate Change
+    autores: "Zhou et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "lag_emocional_ciudades.csv"
+    descripcion: "39 ciudades: Mann-Kendall, Sen slope y mejor lag; coordenadas aproximadas de El Lab"
+    fuente: "Supplementary Table 1 (MOESM1)"
+  - nombre: "vulnerabilidad_por_cluster.csv"
+    descripcion: "% de ciudades vulnerables, nacional y por aglomeración"
+    fuente: "Texto del paper (Fig. 2)"
+  - nombre: "indices_estratificados.csv"
+    descripcion: "HGI/EGI medios nacionales, IC 90% y brechas estratificadas"
+    fuente: "Texto del paper (Fig. 1)"
+  - nombre: "lag_por_region.csv"
+    descripcion: "Lag medio por región y zona climática"
+    fuente: "Texto del paper (Fig. 3)"
+  - nombre: "importancia_shap.csv"
+    descripcion: "Importancia SHAP por grupo y efectos marginales sobre EGI"
+    fuente: "Texto del paper (Fig. 4)"
+  - nombre: "proyecciones_ssp.csv"
+    descripcion: "Cambios proyectados 2025–2050 y 2025–2100 por SSP con IC 90%"
+    fuente: "Texto del paper (Fig. 5)"
+  - nombre: "trayectoria_2010_2024.csv"
+    descripcion: "Trayectoria relativa de HGI y EGI 2010–2024"
+    fuente: "Texto del paper (Supp. Fig. 8)"
+estado: publicado

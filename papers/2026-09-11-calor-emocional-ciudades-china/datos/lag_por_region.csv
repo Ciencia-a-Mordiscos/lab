@@ -1,0 +1,6 @@
+region,mejor_lag_dias,ci90_bajo,ci90_alto,p_valor_texto,eje
+Costa urbanizada (SE),2.7,2.6,2.8,<0.001,costa-interior
+Interior noroeste y meseta,3.3,3.2,3.4,<0.01,costa-interior
+Tropical-subtropical (TSC),2.6,,,,zona climatica
+Templado frio (CTC),3.2,,,"~3.2 (""nearly"")",zona climatica
+Meseta (PC),3.2,,,"~3.2 (""nearly"")",zona climatica

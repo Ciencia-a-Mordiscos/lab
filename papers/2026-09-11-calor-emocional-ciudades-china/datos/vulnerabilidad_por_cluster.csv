@@ -1,0 +1,9 @@
+ambito,perfil,pct_ciudades,nota
+Nacional (357),fisico: alta intensidad o recuperacion lenta,52.1,umbral = media muestral
+Middle Yangtze River,fisico: alta intensidad o recuperacion lenta,76.8,
+Yangtze River Delta,fisico: alta intensidad o recuperacion lenta,71.7,
+Nacional (357),emocional: shock de alta intensidad,84.9,umbral = media muestral
+Yangtze River Delta,doble vulnerabilidad (HGI y EGI debiles),55.9,zona 3 Fig. 2e
+Middle Yangtze River,doble vulnerabilidad o vulnerable fisico con EGI relativamente fuerte,91.8,
+Beijing-Tianjin-Hebei,fisicamente resiliente pero emocionalmente vulnerable,55.0,"paper dice ""more than 55%"" — cota inferior"
+Shandong Peninsula,fisicamente resiliente pero emocionalmente vulnerable,55.0,"paper dice ""more than 55%"" — cota inferior"

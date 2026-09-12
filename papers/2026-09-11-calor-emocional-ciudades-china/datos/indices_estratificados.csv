@@ -1,0 +1,9 @@
+indice,comparacion,valor,ci90_bajo,ci90_alto,unidad,nivel
+HGI,media nacional 2010-2024,0.26,0.256,0.264,indice,357 ciudades
+EGI,media nacional 2010-2024,0.444,0.436,0.451,indice,357 ciudades
+HGI,brecha decil mas bajo vs mas alto,101.6,,,pct,357 ciudades
+EGI,brecha decil mas bajo vs mas alto,96.4,,,pct,357 ciudades
+EGI,clima de meseta vs templado calido,20.8,20.3,21.4,pct_diferencia,region climatica
+HGI,clima de meseta vs templado calido,17.8,17.1,18.5,pct_diferencia,region climatica
+EGI,nucleo megaciudad vs rural,9.4,8.7,10.1,pct_diferencia,gradiente urbano-rural
+HGI,nucleo megaciudad vs rural,12.2,11.2,13.2,pct_diferencia,gradiente urbano-rural

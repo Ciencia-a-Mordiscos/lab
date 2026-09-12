@@ -1,0 +1,23 @@
+variable,periodo,escenario,cambio_pct,ci90_bajo,ci90_alto
+EGI,2025-2050,media 3 SSP,-6.3,-10.9,-1.4
+HGI,2025-2050,media 3 SSP,-5.0,-8.3,-3.3
+EGI,2050-2100 vs 2025,SSP1-2.6,-5.9,-18.2,4.4
+EGI,2050-2100 vs 2025,SSP2-4.5,-18.2,-26.4,-10.0
+EGI,2050-2100 vs 2025,SSP5-8.5,-22.4,-31.5,-20.1
+HGI,2050-2100 vs 2025,SSP5-8.5,-28.5,-34.0,-20.4
+E_GH (GDP expuesto a calor),2025-2100,SSP1-2.6,59.2,6.0,133.9
+E_GH (GDP expuesto a calor),2025-2100,SSP2-4.5,119.3,80.5,164.7
+E_GH (GDP expuesto a calor),2025-2100,SSP5-8.5,144.0,87.4,248.0
+E_GE (GDP expuesto a riesgo emocional),2025-2100,SSP1-2.6,151.8,131.5,210.1
+E_GE (GDP expuesto a riesgo emocional),2025-2100,SSP2-4.5,145.8,103.2,182.9
+E_GE (GDP expuesto a riesgo emocional),2025-2100,SSP5-8.5,224.3,155.9,284.2
+E_PH (poblacion expuesta a calor),2025-2100,SSP1-2.6,31.2,,
+E_PH (poblacion expuesta a calor),2025-2100,SSP2-4.5,59.8,,
+E_PH (poblacion expuesta a calor),2025-2100,SSP5-8.5,122.2,,
+E_PE (poblacion expuesta a riesgo emocional),2025-2100,SSP1-2.6,23.9,,
+E_PE (poblacion expuesta a riesgo emocional),2025-2100,SSP2-4.5,51.0,,
+E_PE (poblacion expuesta a riesgo emocional),2025-2100,SSP5-8.5,86.2,,
+E_PH,2010-2024 observado,historico,28.3,,
+E_PE,2010-2024 observado,historico,29.3,,
+E_GH,2010-2024 observado,historico,36.1,,
+E_GE,2010-2024 observado,historico,51.5,,

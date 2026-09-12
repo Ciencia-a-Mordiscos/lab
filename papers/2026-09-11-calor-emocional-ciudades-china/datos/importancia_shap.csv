@@ -1,0 +1,14 @@
+modelo,feature_o_grupo,tipo,importancia_pct,efecto_egi,ci90_bajo,ci90_alto
+HGI,Socioeconomico,grupo,37.4,,,
+HGI,Cobertura de suelo,grupo,32.0,,,
+HGI,Forma urbana,grupo,15.0,,,
+HGI,Geo-ambiental,grupo,15.0,,,
+HGI,GDP,feature,27.9,,,
+HGI,DEM (elevacion),feature,16.1,,,
+HGI,NDVI (vegetacion),feature,14.7,,,
+EGI,Peligro termico (IMAX_h+RP_h+RT_h),grupo,39.3,,,
+EGI,Socioeconomico,grupo,18.7,,,
+EGI,IMAX_h (pico de calor),feature,,0.021,0.017,0.025
+EGI,RP_h (carga acumulada),feature,,0.012,0.011,0.015
+EGI,RT_h (tiempo recuperacion calor),feature,,0.006,0.004,0.009
+EGI,GDP,feature,,0.006,0.004,0.008
