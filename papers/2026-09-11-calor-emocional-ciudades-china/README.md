@@ -30,6 +30,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/PgDiWfWVC8c)
 - **Paper:** [Nature Climate Change — DOI: 10.1038/s41558-026-02732-8](https://doi.org/10.1038/s41558-026-02732-8)
 - **Datos originales:** [Figshare — Emotion Comments Dataset (11 millones de comentarios, 892 MB, no abierto aquí)](https://doi.org/10.6084/m9.figshare.31083328)
