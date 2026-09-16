@@ -14,6 +14,21 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### 4,9% de los adultos blancos. 13,5% de los hombres blancos de 18 a 29.
+
+**Psicología** · *Nature* · Tres encuestas describen al encuestado qué defiende el movimiento nacionalista
+blanco y le preguntan si lo apoya. En la muestra probabilística (n = 2.114),
+4,9% de los adultos blancos no hispanos dice que sí; entre hombres de 18 a 29,
+13,5% (n = 137, IC95 5–22%). En hombres el apoyo cae con la edad (15,2% → 3,0%
+combinando las dos encuestas); en mujeres es plano. Explicar el movimiento
+antes de preguntar duplica el apoyo en la encuesta de 2021 (3,8% → 7,6%),
+pero no en la probabilística (+1,3 pp, p = 0,25). ⚠️ Todo es asociación
+salvo ese experimento; los subgrupos pequeños tienen intervalos anchos.
+
+[Ver notebook](papers/2026-09-16-nacionalismo-blanco-predictores-eeuu/notebook) · [Leer más](papers/2026-09-16-nacionalismo-blanco-predictores-eeuu/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-16-nacionalismo-blanco-predictores-eeuu/notebook.ipynb)
+
+---
+
 ### Donde había una isla, ahora hay 850 metros de agua
 
 **Geología** · *Nature Geoscience* · Dos modelos del fondo marino, uno de 2015-2016 y otro de 2022, muestran lo que

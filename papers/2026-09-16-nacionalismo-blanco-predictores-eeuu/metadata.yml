@@ -1,0 +1,35 @@
+titulo: "4,9% de los adultos blancos. 13,5% de los hombres blancos de 18 a 29."
+titulo_corto: "Apoyo al nacionalismo blanco en EE. UU."
+card_descripcion: |
+  Tres encuestas describen al encuestado qué defiende el movimiento nacionalista
+  blanco y le preguntan si lo apoya. En la muestra probabilística (n = 2.114),
+  4,9% de los adultos blancos no hispanos dice que sí; entre hombres de 18 a 29,
+  13,5% (n = 137, IC95 5–22%). En hombres el apoyo cae con la edad (15,2% → 3,0%
+  combinando las dos encuestas); en mujeres es plano. Explicar el movimiento
+  antes de preguntar duplica el apoyo en la encuesta de 2021 (3,8% → 7,6%),
+  pero no en la probabilística (+1,3 pp, p = 0,25). ⚠️ Todo es asociación
+  salvo ese experimento; los subgrupos pequeños tienen intervalos anchos.
+fecha: 2026-09-16
+categoria: psicología
+tags: [psicología, opinión pública, encuestas, extremismo, estados unidos, ciencias sociales]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11018-0"
+    titulo: "Predictors and prevalence of support for white nationalism in the United States"
+    journal: Nature
+    autores: "Egan et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "study1_ces_2021.csv"
+    descripcion: "Microdatos Study 1 (CES/YouGov 2021), 3.227 encuestados, 28 columnas"
+    fuente: "Harvard Dataverse 10.7910/DVN/J6G51T"
+  - nombre: "study2_norc_2024.csv"
+    descripcion: "Microdatos Study 2 (NORC AmeriSpeak 2024), 2.146 filas, 18 columnas"
+    fuente: "Harvard Dataverse 10.7910/DVN/J6G51T"
+  - nombre: "fig4_edad_genero_pooled.csv"
+    descripcion: "Prevalencia ponderada por edad × género, Study 1 + 2 (124 celdas)"
+    fuente: "Source Data Fig. 4 (MOESM6)"
+estado: publicado

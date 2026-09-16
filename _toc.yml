@@ -1323,6 +1323,11 @@ parts:
       title: Notebook
 - caption: Psicología
   chapters:
+  - file: papers/2026-09-16-nacionalismo-blanco-predictores-eeuu/README
+    title: "Apoyo al nacionalismo blanco en EE. UU."
+    sections:
+    - file: papers/2026-09-16-nacionalismo-blanco-predictores-eeuu/notebook
+      title: Notebook
   - file: papers/2026-09-09-tutorias-telefono-cinco-paises/README
     title: "Tutorías por teléfono en cinco países"
     sections:

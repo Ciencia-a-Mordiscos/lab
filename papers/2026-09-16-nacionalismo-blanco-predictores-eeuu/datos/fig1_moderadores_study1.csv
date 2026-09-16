@@ -1,0 +1,29 @@
+moderator,level,treatment,mean_prop,SE,n
+Support for violence/intimidation,at least one,Control,0.1255726948643089,0.03104126847261999,155
+Support for violence/intimidation,at least one,Treatment,0.3036988325879244,0.05214413114473426,135
+Support for violence/intimidation,none,Control,0.02657251025312251,0.005713601868863913,1452
+Support for violence/intimidation,none,Treatment,0.05240908946900409,0.007920013802127241,1463
+White identity,"Lowest
+Quartile",Control,0.01109198459961628,0.01099727480276788,306
+White identity,"Lowest
+Quartile",Treatment,0.0,0.0,325
+White identity,2nd Quartile,Control,0.005596760675969846,0.004124615082078845,414
+White identity,2nd Quartile,Treatment,0.01026585819928302,0.006747995115071767,378
+White identity,3rd Quartile,Control,0.01256552946958842,0.006162355546956494,389
+White identity,3rd Quartile,Treatment,0.05491059054957229,0.0136979865741022,405
+White identity,"Highest
+Quartile",Control,0.1114308284013836,0.01929615570639614,401
+White identity,"Highest
+Quartile",Treatment,0.2187317996930815,0.02808803363324213,393
+Opposition to minority power,"Lowest
+Quartile",Control,0.005981337387752851,0.004234522204224887,440
+Opposition to minority power,"Lowest
+Quartile",Treatment,0.0,0.0,428
+Opposition to minority power,2nd Quartile,Control,0.0204324038640291,0.006035583592500639,635
+Opposition to minority power,2nd Quartile,Treatment,0.04072797486757868,0.008715328374677814,695
+Opposition to minority power,3rd Quartile,Control,0.02049247708153842,0.01075043615795888,184
+Opposition to minority power,3rd Quartile,Treatment,0.03612845657044069,0.01406633409986762,159
+Opposition to minority power,"Highest
+Quartile",Control,0.09889101961668945,0.02003892586916469,358
+Opposition to minority power,"Highest
+Quartile",Treatment,0.2336192212645815,0.03133401159202515,327

@@ -1,0 +1,357 @@
+{
+  "version": "1.0",
+  "paper_id": 3015,
+  "doi": "10.1038/s41586-026-11018-0",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "4,9% de los adultos blancos no hispanos de EE. UU. expresa apoyo al nacionalismo blanco",
+      "supported": "yes",
+      "detail": "Study 2 (probabilístico, n = 2.114), media ponderada 4,89%, IC95 3,6–6,2%. Coincide con el paper (4,9%). Sin ponderar 4,0%",
+      "certainty_tier": "T1",
+      "abstract_verb": "estimated at",
+      "supported_by_data": true,
+      "metric": "s2_prevalencia_pct"
+    },
+    {
+      "claim": "13,5% de los hombres blancos de 18 a 29 años",
+      "supported": "partial",
+      "detail": "Study 2, n = 137: 13,52%, IC95 5,0–22,0% (paper 13,5%, 6,0–21,0). 28 de 10.000 grupos aleatorios de 137 llegan ahí; Cohen h frente al resto = 0,35. Dirección sólida, decimal no",
+      "certainty_tier": "T1",
+      "abstract_verb": "estimated at",
+      "effect_size": {
+        "measure": "cohen_h",
+        "value": 0.348,
+        "interpretation": "pequeño-medio"
+      },
+      "supported_by_data": true,
+      "metric": "s2_hombres_18_29_pct"
+    },
+    {
+      "claim": "En hombres el apoyo cae con la edad; en mujeres es plano",
+      "supported": "yes",
+      "detail": "Study 1 + 2 combinados (n = 5.120): hombres 15,2% → 7,6% → 5,0% → 3,0%; mujeres 6,4% / 3,7% / 6,3% / 5,4%. Interacción edad × género p = 0,018 (paper)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "metric": "fig4_men_18_29_pct"
+    },
+    {
+      "claim": "Describir el movimiento antes de preguntar duplica el apoyo expresado",
+      "supported": "partial",
+      "detail": "Solo en Study 1: 3,8% → 7,6% (+3,9 pp, z = 3,52, p < 0,001, ratio 2,03×, Cohen h = 0,17). En Study 2: 3,0% → 4,3% (+1,3 pp, p = 0,25), no significativo",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": {
+        "measure": "cohen_h",
+        "value": 0.17,
+        "interpretation": "pequeño"
+      },
+      "supported_by_data": true,
+      "metric": "s1_efecto_descripcion_pp"
+    },
+    {
+      "claim": "Más apoyo entre quienes viven dificultades personales (strain)",
+      "supported": "partial",
+      "detail": "Study 1: 4,7% (0) → 7,1% (1) → 10,8% (2) → 8,3% (3+). No monótono; último grupo n = 228, SE 2,2 pp. Asociación, no causa",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with",
+      "supported_by_data": true,
+      "metric": "s1_por_dificultades"
+    },
+    {
+      "claim": "Sin relación clara con la composición racial del condado (status threat)",
+      "supported": "yes",
+      "detail": "Study 1, cuartiles de % blanco 2019: 6,5% / 2,8% / 8,7% / 8,9%. Spearman ρ = 0,032, p = 0,07. Resultado nulo, no refutación",
+      "certainty_tier": "T1",
+      "abstract_verb": "unrelated",
+      "supported_by_data": true,
+      "metric": "s1_por_pct_blanco_condado"
+    },
+    {
+      "claim": "Más apoyo entre quienes tienen sus amigos cercanos solo online",
+      "supported": "partial",
+      "detail": "Study 1: 6,2% (ninguno) → 6,4% → 13,1% → 19,0% (los tres). Grupos altos n = 101 y 79; 242 sin respuesta. Asociación, no causa",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with",
+      "supported_by_data": true,
+      "metric": "s1_por_amigos_online"
+    },
+    {
+      "claim": "Muchos apoyan las ideas sin conocer la etiqueta",
+      "supported": "partial",
+      "detail": "Study 1, controles: de 81 que apoyan tras la descripción, 40 (49,4%) habían dicho no sin ella. Cálculo nuestro, sin ponderar, n = 81 — ilustrativo",
+      "certainty_tier": "T2",
+      "abstract_verb": "seems to constitute",
+      "supported_by_data": true,
+      "metric": "s1_control_pct_de_apoyos_que_no_conocian"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 4.9,
+      "unit": "por ciento",
+      "metric": "s2_prevalencia_pct",
+      "context": "prevalencia ponderada de apoyo expresado, Study 2 (NORC 2024, probabilístico, n = 2.114)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "4.9%",
+        "our_calculation": "4.89%",
+        "discrepancy_pct": 0.2,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 13.5,
+      "unit": "por ciento",
+      "metric": "s2_hombres_18_29_pct",
+      "context": "hombres blancos 18-29, Study 2, n = 137, IC95 5,0–22,0",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "13.5% (6.0–21.0)",
+        "our_calculation": "13.52% (5.0–22.0)",
+        "discrepancy_pct": 0.1,
+        "reason": "IC del paper por otro método de varianza"
+      }
+    },
+    {
+      "value": 137,
+      "unit": "personas",
+      "metric": "s2_hombres_18_29_n",
+      "context": "n del subgrupo hombres 18-29 en Study 2",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15.2,
+      "unit": "por ciento",
+      "metric": "fig4_men_18_29_pct",
+      "context": "hombres 18-29, Study 1 + 2 combinados (Source Data Fig. 4), media ponderada por n_weighted",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.0,
+      "unit": "por ciento",
+      "metric": "fig4_men_60plus_pct",
+      "context": "hombres 60+, Study 1 + 2 combinados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5120,
+      "unit": "personas",
+      "metric": "fig4_n_total",
+      "context": "suma de n_unweighted de las celdas del Source Data Fig. 4 (paper: 5.088)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "5088",
+        "our_calculation": "5120",
+        "discrepancy_pct": 0.6,
+        "reason": "celdas del Source Data incluyen respuestas que el paper excluye"
+      }
+    },
+    {
+      "value": 3.8,
+      "unit": "por ciento",
+      "metric": "s1_control_pct",
+      "context": "Study 1, control sin descripción, n = 1.617",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3.8%",
+        "our_calculation": "3.76%",
+        "discrepancy_pct": 1.0,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 7.6,
+      "unit": "por ciento",
+      "metric": "s1_treated_pct",
+      "context": "Study 1, tratamiento con descripción, n = 1.610",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "7.6%",
+        "our_calculation": "7.64%",
+        "discrepancy_pct": 0.5,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 3.88,
+      "unit": "puntos porcentuales",
+      "metric": "s1_efecto_descripcion_pp",
+      "context": "efecto de la descripción, Study 1, z = 3,52, p = 4,3e-4, ratio 2,03×",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "P<0.001",
+        "our_calculation": "p = 0.00043",
+        "discrepancy_pct": 0,
+        "reason": "coincide"
+      }
+    },
+    {
+      "value": 0.17,
+      "unit": "Cohen h",
+      "metric": "s1_cohen_h_descripcion",
+      "context": "tamaño del efecto de la descripción, Study 1 (lab_only)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.31,
+      "unit": "puntos porcentuales",
+      "metric": "s2_efecto_descripcion_pp",
+      "context": "efecto de la descripción, Study 2, p = 0,25, no significativo",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "+1.3 pp, P=0.25",
+        "our_calculation": "+1.31 pp, p = 0.245",
+        "discrepancy_pct": 0.8,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 10.77,
+      "unit": "por ciento",
+      "metric": "s1_por_dificultades",
+      "context": "Study 1, dos dificultades personales, n = 516; 0 → 4,73%, 1 → 7,05%, 3+ → 8,30% (n = 228)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.032,
+      "unit": "Spearman rho",
+      "metric": "s1_por_pct_blanco_condado_spearman",
+      "context": "correlación de rangos % blanco del condado 2019 vs apoyo, Study 1, p = 0,068 (lab_only)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 19.03,
+      "unit": "por ciento",
+      "metric": "s1_por_amigos_online",
+      "context": "Study 1, los tres amigos cercanos conocidos solo online, n = 79; 0 → 6,17% (n = 2.438), 2 → 13,12% (n = 101)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 28,
+      "unit": "grupos de 10.000",
+      "metric": "bootstrap_submuestras_137",
+      "context": "submuestras aleatorias de n = 137 del Study 2 (sin reemplazo, semilla 42) con apoyo ponderado ≥ 13,52%; p95 9,49%, p99 11,97% (lab_only)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 3.34,
+      "unit": "ratio",
+      "metric": "s2_ratio_hombres_jovenes_vs_resto",
+      "context": "hombres 18-29 (13,52%) vs resto de la muestra (4,04%), Study 2 (lab_only)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.348,
+      "unit": "Cohen h",
+      "metric": "s2_cohen_h_hombres_jovenes",
+      "context": "hombres 18-29 vs resto, Study 2 (lab_only)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 49.4,
+      "unit": "por ciento",
+      "metric": "s1_control_pct_de_apoyos_que_no_conocian",
+      "context": "Study 1 controles, sin peso: 40 de 81 que apoyan tras la descripción habían dicho no antes (lab_only, ilustrativo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3227,
+      "unit": "personas",
+      "metric": "s1_n",
+      "context": "Study 1, CES/YouGov 2021, panel online opt-in",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2114,
+      "unit": "personas",
+      "metric": "s2_n",
+      "context": "Study 2, NORC AmeriSpeak 2024, probabilístico, con respuesta (2.146 en archivo)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (\"muestran con tres encuestas que…\")"
+    },
+    {
+      "abstract_verb": "introduce and validate",
+      "tier": "T1",
+      "cam_attenuator": "\"introducen y validan una medida\" — constructivo, no hedge"
+    },
+    {
+      "abstract_verb": "estimated at",
+      "tier": "T1",
+      "cam_attenuator": "\"estiman en 4,9%\" con IC — afirmación directa"
+    },
+    {
+      "abstract_verb": "consistent with (strain / online mobilization)",
+      "tier": "T2",
+      "cam_attenuator": "\"encaja con\" / \"es consistente con la teoría de\" — NO \"demuestra la teoría\""
+    },
+    {
+      "abstract_verb": "complicating (status threat)",
+      "tier": "T2",
+      "cam_attenuator": "\"complica\" / \"no encaja con\" — NO \"refuta\""
+    },
+    {
+      "abstract_verb": "unrelated",
+      "tier": "T1",
+      "cam_attenuator": "\"no encontraron relación\" (resultado nulo) — NO \"demuestra que no influye\""
+    },
+    {
+      "abstract_verb": "seems to constitute",
+      "tier": "T2",
+      "cam_attenuator": "\"parece ser una dimensión aparte\" — NO afirmar directamente"
+    }
+  ],
+  "narrative_hooks": [
+    "4,9% de los adultos blancos de EE. UU. expresa apoyo al nacionalismo blanco; entre los hombres de 18 a 29, 13,5%",
+    "En hombres el apoyo cae cinco veces de los 18-29 a los 60+; en mujeres no hay pendiente",
+    "Explicar qué es el movimiento antes de preguntar duplica el apoyo expresado en la encuesta de 2021 — y no en la probabilística",
+    "De 81 personas que apoyan tras leer la descripción, 40 habían dicho que no sin ella: apoyan las ideas sin conocer la etiqueta",
+    "Solo 28 de 10.000 grupos aleatorios de 137 personas llegan al 13,5% de los hombres jóvenes"
+  ],
+  "limitations": [
+    "Solo el experimento de la descripción es causal; edad, dificultades, condado y amistades son asociaciones transversales",
+    "Los predictores vienen del Study 1 (panel online opt-in, ponderado pero no probabilístico); la prevalencia del titular viene del Study 2 (probabilístico)",
+    "Subgrupos pequeños con intervalos anchos: hombres 18-29 en Study 2 (n = 137, IC95 5–22%), tres amigos online (n = 79), tres o más dificultades (n = 228)",
+    "Se mide apoyo expresado a una descripción del movimiento, no afiliación ni conducta",
+    "El efecto de la descripción no replica en Study 2 (+1,3 pp, p = 0,25); \"se duplica\" vale solo para Study 1",
+    "El 49,4% de \"apoyan sin conocer la etiqueta\" es cálculo propio sin ponderar sobre 81 personas, no cifra del paper",
+    "Study 3 no se reproduce; Dataverse v2 tiene geocódigos anonimizados sin efecto en las cifras usadas"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes de 8, 20 números clave"
+  },
+  "notebook_slug": "2026-09-16-nacionalismo-blanco-predictores-eeuu",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-16-nacionalismo-blanco-predictores-eeuu/notebook.html",
+  "generated_at": "2026-09-16T23:33:45+00:00"
+}
