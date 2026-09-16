@@ -1019,6 +1019,11 @@ parts:
       title: Notebook
 - caption: Física
   chapters:
+  - file: papers/2026-09-16-antiprotones-transporte/README
+    title: "Antiprotones en camión"
+    sections:
+    - file: papers/2026-09-16-antiprotones-transporte/notebook
+      title: Notebook
   - file: papers/2026-08-19-doble-rendija-atomica-silicio/README
     title: "Doble rendija atómica en silicio"
     sections:

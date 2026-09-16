@@ -1,0 +1,38 @@
+titulo: "92 antiprotones, 7,5 km por carretera, ninguno perdido"
+titulo_corto: "Antiprotones en camión"
+card_descripcion: |
+  BASE-STEP sacó 92 antiprotones del CERN en una trampa de Penning portátil:
+  7,47 km por carretera en 23 min (track GPS, máximo 40,7 km/h). La diferencia
+  de medias 24 h después − 24 h antes es de −0,16 ± 0,04 partículas, muy por
+  debajo del escalón de 1 antiprotón; la única pérdida del mes (92 → 91) llegó
+  nueve días después, en el laboratorio, y se ve como un escalón de 0,79. Con
+  8,28 años-partícula sin aniquilaciones, el vacío queda por debajo de
+  2,2×10⁻¹⁸ mbar. ⚠️ El "100× mejor" en tests CPT es proyección de los autores,
+  no medida.
+fecha: 2026-09-16
+categoria: física
+tags: [física, antimateria, CERN, trampa de Penning, vacío, instrumentación]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11019-z"
+    titulo: "Road transport of trapped antiprotons"
+    journal: Nature
+    autores: "Leonhardt et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "ruta_gps.csv"
+    descripcion: "Track GPS 1 Hz del transporte, 1.396 puntos, con distancia y velocidad derivadas"
+    fuente: "Source Data Fig. 2 (MOESM2)"
+  - nombre: "antiprotones_33_dias.csv"
+    descripcion: "Número de antiprotones vs días desde la inyección, 8.868 medidas, con campo magnético"
+    fuente: "Source Data Fig. 3 (MOESM3)"
+  - nombre: "antiprotones_por_dia.csv"
+    descripcion: "Agregado por día calendario (33 filas): media, SD, n, campo, entero"
+    fuente: "Derivado de Source Data Fig. 3"
+  - nombre: "extraccion_rendimiento.csv"
+    descripcion: "Rendimiento de extracción vs posición del centro de masa, 14 puntos"
+    fuente: "Source Data Fig. 4 (MOESM4)"
+estado: publicado

@@ -1,0 +1,271 @@
+{
+  "version": "1.0",
+  "paper_id": 3011,
+  "doi": "10.1038/s41586-026-11019-z",
+  "paper_type": "descriptive",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El transporte recorrió 7,5 km por carretera en unos 24 min",
+      "supported": "yes",
+      "detail": "Track GPS: 7,47 km de distancia acumulada en 23,4 min; velocidad máxima 40,7 km/h (paper: 40,8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "No se perdió ningún antiprotón durante el transporte",
+      "supported": "yes",
+      "detail": "Δ medias 24 h después − 24 h antes: −0,16 ± 0,04 partículas, ≪ escalón de 1 partícula (3,633 Hz); paper: −0,044 partículas",
+      "certainty_tier": "T1",
+      "abstract_verb": "without particle loss",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La trampa mantuvo 92 antiprotones durante 26,5 días y 91 después",
+      "supported": "yes",
+      "detail": "26 días calendario redondean a 92 y 6 a 91; escalón medido 0,79 partículas (día 27 excluido)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La pérdida del día 26,5 no fue una aniquilación con gas residual",
+      "supported": "partial",
+      "detail": "El paper la atribuye a rampas de voltaje (Extended Data Table 1); solo vemos el escalón, no la causa",
+      "certainty_tier": "T2",
+      "abstract_verb": "[body]",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Vida media mínima de 7,27 años y presión por debajo de 2,2×10⁻¹⁸ mbar (He) y 9,6×10⁻¹⁹ mbar (H)",
+      "supported": "yes",
+      "detail": "Replicamos Poisson n=0 en 8,280 años-partícula al 68% CL; σ Bracci (1979) para H y Langevin para He",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieve",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Esta trampa permitirá tests de simetría materia-antimateria 100 veces mejores",
+      "supported": "partial",
+      "detail": "Proyección de los autores (expected to enable), no medida; nada en estos datos la comprueba",
+      "certainty_tier": "T3",
+      "abstract_verb": "expected to enable",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 92,
+      "unit": "antiprotones",
+      "metric": "n_92",
+      "context": "cargados en la trampa y transportados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.47,
+      "unit": "km",
+      "metric": "gps_distancia_km",
+      "context": "distancia acumulada del track GPS (paper: 7,5 km)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 23.4,
+      "unit": "min",
+      "metric": "gps_duracion_min",
+      "context": "duración del track GPS (paper: 24 min)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 40.7,
+      "unit": "km/h",
+      "metric": "gps_vel_max_kmh",
+      "context": "velocidad máxima del track (paper: 40,8)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 19.2,
+      "unit": "km/h",
+      "metric": "gps_vel_media_kmh",
+      "context": "velocidad media del track",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.59,
+      "unit": "antiprotones",
+      "metric": "n_sd_global",
+      "context": "desviación estándar de las 8.868 medidas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.16,
+      "unit": "antiprotones",
+      "metric": "n_diff_transporte",
+      "context": "diferencia de medias 24 h después − 24 h antes del transporte (± 0,04)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.633,
+      "unit": "Hz",
+      "metric": "paper_dip_1p_Hz",
+      "context": "ancho de dip equivalente a 1 antiprotón",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.044,
+      "unit": "antiprotones",
+      "metric": "paper_dip_diff_en_particulas",
+      "context": "Δ del paper en hercios convertido a partículas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26,
+      "unit": "días",
+      "metric": "dias_con_92",
+      "context": "días calendario que redondean a 92",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.79,
+      "unit": "antiprotones",
+      "metric": "n_salto_perdida",
+      "context": "escalón medido en la pérdida del día 26,5 (día 27 excluido)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.28,
+      "unit": "años-partícula",
+      "metric": "T_integrado_a",
+      "context": "tiempo integrado de almacenamiento (paper: 8,28025)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.27,
+      "unit": "años",
+      "metric": "tau_lower_a_68CL",
+      "context": "vida media mínima, Poisson n=0, 68% CL",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.76,
+      "unit": "años",
+      "metric": "tau_lower_a_95CL",
+      "context": "vida media mínima al 95% CL (lab_only)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.2e-18,
+      "unit": "mbar",
+      "metric": "p_He_mbar_langevin",
+      "context": "límite de presión parcial de helio (Langevin)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.6e-19,
+      "unit": "mbar",
+      "metric": "p_H_mbar",
+      "context": "límite de presión parcial de hidrógeno (σ Bracci 1979)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.7,
+      "unit": "moléculas/cm³",
+      "metric": "moleculas_por_cm3_a_p_He",
+      "context": "densidad a 2,2×10⁻¹⁸ mbar y 4,3 K",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 46,
+      "unit": "×",
+      "metric": "factor_mejor_que_diseno",
+      "context": "límite medido vs objetivo de diseño 1×10⁻¹⁶ mbar",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "achieve",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"alcanza\" / \"logra\""
+    },
+    {
+      "abstract_verb": "expected to enable",
+      "tier": "T3",
+      "cam_attenuator": "\"se espera que permita\" / \"los autores proyectan\"",
+      "warning": "proyección a futuro, NO logro: el 100× NO se ha medido"
+    },
+    {
+      "abstract_verb": "designed to",
+      "tier": "T2",
+      "cam_attenuator": "\"diseñado para\"",
+      "warning": "objetivo de diseño, no resultado"
+    },
+    {
+      "abstract_verb": "marks the starting point",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores lo plantean como punto de partida\"",
+      "warning": "meta-claim de los autores; NO \"nueva era\" como hecho"
+    },
+    {
+      "abstract_verb": "without particle loss",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa acotada: \"sin perder ninguno\" — en la ruta de 7,5 km probada",
+      "warning": "NO generalizar a \"cualquier distancia\""
+    },
+    {
+      "abstract_verb": "limit the sensitivity",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (contexto)"
+    },
+    {
+      "abstract_verb": "[diseño]",
+      "tier": "T1",
+      "cam_attenuator": "experimental/instrumental — verbos directos OK para lo medido (transporte, conteo, presión); atenuar proyecciones (100×, 'nueva era', receptor en Düsseldorf)"
+    }
+  ],
+  "narrative_hooks": [
+    "Meter antimateria en un camión y sacarla a la calle: 92 antiprotones salieron y 92 llegaron",
+    "La única pérdida del mes fue un antiprotón, nueve días después, en el laboratorio — y el escalón de 0,79 partículas se ve a simple vista",
+    "Cada antiprotón que sobrevive es un detector de vacío: menos de 4 moléculas por cm³"
+  ],
+  "limitations": [
+    "El CSV de la Fig. 3 trae 8.868 puntos ya promediados, no los >26.000 espectros brutos, y ya incluye los factores de corrección de los primeros días",
+    "El número de antiprotones es un valor continuo calibrado del ancho de dip: desplazamientos de décimas de partícula son deriva de calibración",
+    "La ventana previa al transporte tiene un hueco de >6 h sin medidas; el error es el SE de la diferencia de medias sin corregir autocorrelación",
+    "El día 27 (52 medidas a 89,8, estudios de separación) se excluye de los promedios",
+    "Los límites de presión asumen T_gas = 4,3 K y secciones eficaces teóricas: son cotas superiores, no medidas directas",
+    "Las lat/lon del CSV GPS van redondeadas a 4 decimales; dist_km y vel_kmh se derivaron de las coordenadas originales"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados, 18 números clave"
+  },
+  "notebook_slug": "2026-09-16-antiprotones-transporte",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-16-antiprotones-transporte/notebook.html",
+  "generated_at": "2026-09-16T23:57:48+00:00"
+}

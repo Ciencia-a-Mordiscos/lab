@@ -29,6 +29,21 @@ salvo ese experimento; los subgrupos pequeños tienen intervalos anchos.
 
 ---
 
+### 92 antiprotones, 7,5 km por carretera, ninguno perdido
+
+**Física** · *Nature* · BASE-STEP sacó 92 antiprotones del CERN en una trampa de Penning portátil:
+7,47 km por carretera en 23 min (track GPS, máximo 40,7 km/h). La diferencia
+de medias 24 h después − 24 h antes es de −0,16 ± 0,04 partículas, muy por
+debajo del escalón de 1 antiprotón; la única pérdida del mes (92 → 91) llegó
+nueve días después, en el laboratorio, y se ve como un escalón de 0,79. Con
+8,28 años-partícula sin aniquilaciones, el vacío queda por debajo de
+2,2×10⁻¹⁸ mbar. ⚠️ El "100× mejor" en tests CPT es proyección de los autores,
+no medida.
+
+[Ver notebook](papers/2026-09-16-antiprotones-transporte/notebook) · [Leer más](papers/2026-09-16-antiprotones-transporte/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-16-antiprotones-transporte/notebook.ipynb)
+
+---
+
 ### Donde había una isla, ahora hay 850 metros de agua
 
 **Geología** · *Nature Geoscience* · Dos modelos del fondo marino, uno de 2015-2016 y otro de 2022, muestran lo que
