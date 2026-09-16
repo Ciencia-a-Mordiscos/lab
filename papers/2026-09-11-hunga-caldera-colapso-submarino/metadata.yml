@@ -13,7 +13,7 @@ fecha: 2026-09-11
 categoria: geología
 tags: [geología, volcanes, caldera, tonga, batimetría, tsunami]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/BJz_pMfqcZc"
 fuentes:
   - doi: "10.1038/s41561-026-02099-7"
     titulo: "Rapid submarine caldera collapse during the 2022 climactic eruption of Hunga volcano (Tonga)"
