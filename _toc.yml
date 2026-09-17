@@ -684,6 +684,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-09-16-xenocortex-organoides-humanos-raton/README
+    title: "Córtex humano en ratón"
+    sections:
+    - file: papers/2026-09-16-xenocortex-organoides-humanos-raton/notebook
+      title: Notebook
   - file: papers/2026-07-02-neuronas-migracion-dano-adn/README
     title: "Una neurona se rompe el ADN para migrar"
     sections:

@@ -1,0 +1,34 @@
+titulo: "Un ratón con el córtex casi entero de células humanas. ¿Camina igual?"
+titulo_corto: "Córtex humano en ratón"
+card_descripcion: |
+  Vaciaron el córtex de un ratón de sus neuronas excitadoras y lo rellenaron con organoides humanos: a los 3 meses el 91,9% del tejido cortical era humano y el injerto había crecido 4,7× en un mes (mediana 3,77×). La velocidad de carrera no cambia (p = 0,85) pero sí la coordinación de las patas (p = 0,0039), y los xenocorticales alternan en el laberinto por encima del azar. ⚠️ El mapa espacial MERFISH de Zenodo se descartó: anotación colapsada por bloques.
+fecha: 2026-09-16
+categoria: neurociencia
+tags: [organoides, xenotrasplante, córtex, conducta, ratón, snRNA-seq, MRI]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11032-2"
+    titulo: "Developmental xenocortication using human-derived organoids in mice"
+    journal: Nature
+    autores: "Kaganovsky et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "crecimiento_injerto_mri.csv"
+    descripcion: "Volumen del injerto por MRI a 2 y 3 meses, n=14"
+    fuente: "Source Data Fig. 2d (MOESM7)"
+  - nombre: "clusters_glun_snrnaseq.csv"
+    descripcion: "% de núcleos por cluster excitador, snRNA-seq"
+    fuente: "Source Data Fig. 2j (MOESM7)"
+  - nombre: "catwalk_velocidad.csv"
+    descripcion: "Velocidad CatWalk por ratón"
+    fuente: "Source Data Fig. 4i (MOESM7)"
+  - nombre: "ymaze.csv"
+    descripcion: "Y-maze: distancia y alternancia"
+    fuente: "Source Data Fig. 4p-q (MOESM7)"
+  - nombre: "soma_diametro_ven.csv"
+    descripcion: "Diámetro de soma tipo VEN, 1.098 células"
+    fuente: "Source Data Extended Data Fig. 7r (MOESM7)"
+estado: publicado

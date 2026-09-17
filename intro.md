@@ -14,6 +14,14 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Un ratón con el córtex casi entero de células humanas. ¿Camina igual?
+
+**Neurociencia** · *Nature* · Vaciaron el córtex de un ratón de sus neuronas excitadoras y lo rellenaron con organoides humanos: a los 3 meses el 91,9% del tejido cortical era humano y el injerto había crecido 4,7× en un mes (mediana 3,77×). La velocidad de carrera no cambia (p = 0,85) pero sí la coordinación de las patas (p = 0,0039), y los xenocorticales alternan en el laberinto por encima del azar. ⚠️ El mapa espacial MERFISH de Zenodo se descartó: anotación colapsada por bloques.
+
+[Ver notebook](papers/2026-09-16-xenocortex-organoides-humanos-raton/notebook) · [Leer más](papers/2026-09-16-xenocortex-organoides-humanos-raton/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-16-xenocortex-organoides-humanos-raton/notebook.ipynb)
+
+---
+
 ### 4,9% de los adultos blancos. 13,5% de los hombres blancos de 18 a 29.
 
 **Psicología** · *Nature* · Tres encuestas describen al encuestado qué defiende el movimiento nacionalista

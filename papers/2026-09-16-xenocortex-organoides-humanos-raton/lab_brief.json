@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "paper_id": 3008,
+  "doi": "10.1038/s41586-026-11032-2",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "El injerto humano crece ~4,7× entre los 2 y los 3 meses",
+      "supported": "yes",
+      "detail": "14 de 14 crecieron; t pareado = 8,22, p = 1,7×10⁻⁶, d pareado = 2,20. Media de ratios 4,70×, mediana 3,77×",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d_paired",
+        "value": 2.2,
+        "interpretation": "muy grande"
+      },
+      "metric": "fold_por_raton_media",
+      "supported_by_data": true
+    },
+    {
+      "claim": "A los 3 meses casi todo el córtex (91,9%) es de origen humano",
+      "supported": "yes",
+      "detail": "91,9% ± 2,7, n = 7, rango 88,6–96,2%. Idéntico al paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "occupying",
+      "effect_size": null,
+      "metric": "pct_humano_media",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El injerto genera neuronas de proyección de capa 5 (L5-ET)",
+      "supported": "yes",
+      "detail": "snRNA-seq: 3,26% ± 0,41 SEM de los núcleos, 6/6 muestras (rango 2,0–4,4%). Minoría",
+      "certainty_tier": "T1",
+      "abstract_verb": "generating",
+      "effect_size": null,
+      "metric": "l5et_pct_media",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La locomoción se conserva en términos generales",
+      "supported": "partial",
+      "detail": "Velocidad: ANOVA p = 0,85, d control-XCX = 0,26, n = 16/10/7. Sin diferencia detectable ≠ igualdad",
+      "certainty_tier": "T2",
+      "abstract_verb": "broadly preserved",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.26,
+        "interpretation": "pequeño"
+      },
+      "metric": "velocidad_anova_p",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Hay diferencias selectivas en la coordinación de las extremidades",
+      "supported": "yes",
+      "detail": "Ratio alterno/cruzado: KW p = 0,032, MWU control-XCX p = 0,0039, d = 1,38. % 3 patas es nivel grupo sin test",
+      "certainty_tier": "T1",
+      "abstract_verb": "revealed",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.38,
+        "interpretation": "grande"
+      },
+      "metric": "ratio_mwu_ctrl_xcx_p",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los ratones apaliales no superan el azar en el Y-maze; los xenocorticales sí",
+      "supported": "yes",
+      "detail": "t vs 50%: control p = 2×10⁻⁷, apalial p = 0,30, XCX p = 0,0004. Paper: \"altered organization of spontaneous behaviour\"",
+      "certainty_tier": "T2",
+      "abstract_verb": "altered organization",
+      "effect_size": null,
+      "metric": "ymaze",
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 86.2,
+      "unit": "por ciento",
+      "metric": "exito_pct",
+      "context": "trasplantes que prendieron (25 de 29 ratones)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 52.1,
+      "unit": "por ciento",
+      "metric": "reduccion_vol_pct",
+      "context": "reducción de volumen cerebral apalial vs control (MRI, n=4 vs 5)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~50%",
+        "our_calculation": "52,1%",
+        "discrepancy_pct": 4.2,
+        "reason": "paper redondea; medias de Source Data Fig 1d"
+      }
+    },
+    {
+      "value": 4.7,
+      "unit": "veces",
+      "metric": "fold_por_raton_media",
+      "context": "crecimiento del injerto 2→3 meses, media de ratios por ratón",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~4.7-fold",
+        "our_calculation": "4,70×",
+        "discrepancy_pct": 0.0,
+        "reason": "media de ratios por ratón; t pareado 8,219 idéntico"
+      }
+    },
+    {
+      "value": 3.77,
+      "unit": "veces",
+      "metric": "fold_por_raton_mediana",
+      "context": "mediana del ratio de crecimiento por ratón",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 91.9,
+      "unit": "por ciento",
+      "metric": "pct_humano_media",
+      "context": "tejido cortical de origen humano a 3 meses (n=7)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "91.9%",
+        "our_calculation": "91,9%",
+        "discrepancy_pct": 0.0,
+        "reason": "idéntico"
+      }
+    },
+    {
+      "value": 3.26,
+      "unit": "por ciento",
+      "metric": "l5et_pct_media",
+      "context": "núcleos L5-ET en snRNA-seq, media de 6 muestras",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 0.85,
+      "unit": "p-value",
+      "metric": "velocidad_anova_p",
+      "context": "velocidad CatWalk, ANOVA 3 grupos",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "P = 0.8467",
+        "our_calculation": "0,847",
+        "discrepancy_pct": 0.0,
+        "reason": "idéntico"
+      }
+    },
+    {
+      "value": 0.0039,
+      "unit": "p-value",
+      "metric": "ratio_mwu_ctrl_xcx_p",
+      "context": "ratio alterno/cruzado, Mann-Whitney control vs XCX",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "post-hoc Holm-Šidák P = 0.0406",
+        "our_calculation": "MWU p = 0,0039",
+        "discrepancy_pct": null,
+        "reason": "test distinto, misma dirección y significancia"
+      }
+    },
+    {
+      "value": 33.2,
+      "unit": "por ciento",
+      "metric": "tres_patas_pct",
+      "context": "% del tiempo con 3 patas apoyadas, XCX vs control (nivel grupo)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    },
+    {
+      "value": 55.4,
+      "unit": "por ciento",
+      "metric": "ymaze",
+      "context": "alternancia Y-maze apalial vs XCX, t contra 50%",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "t = 1.07 / 4.343",
+        "our_calculation": "t = 1,07 / 4,34",
+        "discrepancy_pct": 0.0,
+        "reason": "idéntico"
+      }
+    },
+    {
+      "value": 9.25,
+      "unit": "µm",
+      "metric": "soma",
+      "context": "mediana del diámetro de soma tipo VEN, n=1.098",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": null
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "warning": null
+    },
+    {
+      "abstract_verb": "generate",
+      "tier": "T1",
+      "cam_attenuator": "\"generó\" — afirmación directa",
+      "warning": null
+    },
+    {
+      "abstract_verb": "enabled",
+      "tier": "T2",
+      "cam_attenuator": "\"permitió\" / \"habilitó\"",
+      "warning": "preserva agencia humana"
+    },
+    {
+      "abstract_verb": "enables",
+      "tier": "T2",
+      "cam_attenuator": "\"permite\"",
+      "warning": "plataforma, no resultado clínico"
+    },
+    {
+      "abstract_verb": "envision",
+      "tier": "T3",
+      "cam_attenuator": "\"los autores prevén\" / \"esperan que\"",
+      "warning": "intención declarada, NO logro probado"
+    },
+    {
+      "abstract_verb": "resembling",
+      "tier": "T2",
+      "cam_attenuator": "\"que se asemejan a\" / \"parecidos a\"",
+      "warning": "NO decir \"circuitos humanos funcionales\""
+    },
+    {
+      "abstract_verb": "revealed",
+      "tier": "T1",
+      "cam_attenuator": "\"mostraron\" / \"revelaron\"",
+      "warning": null
+    }
+  ],
+  "narrative_hooks": [
+    "Un ratón con el 91,9% del córtex hecho de células humanas corre igual de rápido que uno normal.",
+    "Le quitaron al ratón las neuronas principales del córtex antes de nacer y le pusieron cuatro organoides humanos el día que nació.",
+    "El injerto creció 4,7 veces en un mes — pero el ratón típico creció menos de 4: unos pocos tiran de la media.",
+    "Sin córtex, el ratón elige brazos del laberinto como si tirara una moneda; con córtex humano, vuelve a alternar por encima del azar.",
+    "El mapa espacial de Zenodo salía en bloques rectangulares: la anotación estaba pegada por bloques de 228 células. Lo descartamos."
+  ],
+  "limitations": [
+    "El % de tiempo por patrón de apoyo (Fig. 4l) es nivel de grupo sin réplicas: no admite test ni d.",
+    "Las neuronas L5-ET se cuantifican solo por snRNA-seq (3 injertos, 2 líneas); sin posición en tejido.",
+    "MERFISH de Zenodo descartado: anotación de tipo celular colapsada por EntityID (452 IDs para 103.097 células).",
+    "Y-maze: distancia y alternancia emparejadas por orden de fila; válido por grupo, no por ratón.",
+    "n de conducta desbalanceada (16/10/7): \"preservada\" = sin diferencia detectable, no igualdad.",
+    "snRNA-seq: % sobre total de núcleos; los 8 clusters excitadores suman 73–82% por muestra.",
+    "Nada de lo aquí medido es una prueba de función cognitiva humana en el ratón; el paper habla de organización alterada del comportamiento espontáneo."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 11 números clave"
+  },
+  "notebook_slug": "2026-09-16-xenocortex-organoides-humanos-raton",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-16-xenocortex-organoides-humanos-raton/notebook.html",
+  "generated_at": "2026-09-17T15:54:53+00:00"
+}
