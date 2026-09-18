@@ -1,0 +1,362 @@
+{
+  "version": "1.0",
+  "paper_id": 3032,
+  "doi": "10.1126/science.adx9928",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Evitar la perturbación aporta más biodiversidad que evitar la deforestación",
+      "supported": "yes",
+      "detail": "2,28× sumando las 6.900 fincas CAR (paper: 2,45× sobre el paisaje completo; −7 % por alcance). Mismo ranking",
+      "certainty_tier": "T1",
+      "abstract_verb": "delivered the greatest benefits",
+      "metric": "ratio_biodiv_perturbacion_vs_deforestacion",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Evitar la deforestación aporta más carbono que evitar la perturbación",
+      "supported": "yes",
+      "detail": "1,44× (paper: 1,30×; +11 % por alcance). Mismo ranking",
+      "certainty_tier": "T1",
+      "abstract_verb": "delivered the greatest benefits",
+      "metric": "ratio_carbono_deforestacion_vs_perturbacion",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La restauración rinde alrededor de una cuarta parte de lo que rinde evitar la deforestación",
+      "supported": "yes",
+      "detail": "0,26× en biodiversidad y 0,27× en carbono (paper: 0,23× y 0,24×)",
+      "certainty_tier": "T1",
+      "abstract_verb": "more cost-effective than restoration",
+      "metric": "ratio_biodiv_restauracion_vs_deforestacion",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Restaurar solo supera a evitar deforestación en fincas con menos de ~43 % (biodiversidad) y ~41 % (carbono) de cobertura",
+      "supported": "yes",
+      "detail": "Cruce por interpolación entre medias de bins de 5 pp: 42,7 % y 41,1 % (paper: ~43 % y ~41 % con modelo aditivo remuestreado). Con bins de 10 pp: 43,1 % y 41,0 %. Cinco de los seis bins de 5-35 % con n < 30",
+      "certainty_tier": "T1",
+      "abstract_verb": "compare",
+      "metric": "cruce_fig3_carbono",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Un primario talado o quemado conserva unos dos tercios del carbono del intacto; el secundario menos de una quinta parte",
+      "supported": "yes",
+      "detail": "Medianas de 375 transectos: perturbado 65,5 % del intacto, secundario 17,9 %. Intacto vs perturbado: Cohen's d = 1,31, p = 5,9×10⁻⁹ (n = 30 vs 152). Cálculo nuestro, el paper no lo reporta",
+      "certainty_tier": "T1",
+      "abstract_verb": "compare",
+      "metric": "cohens_d_intacto_vs_perturbado",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Cerca de un tercio de las fincas tiene más bosque del que exige la ley",
+      "supported": "partial",
+      "detail": "31,9 % con cobertura > 80 % (paper: ~32 % con excedente). Aproximación con un umbral plano; el requisito legal varía por tamaño de finca",
+      "certainty_tier": "T2",
+      "abstract_verb": "applies to ~32%",
+      "metric": "pct_cobertura_mayor_80",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Solo combinando las tres intervenciones se revierte la pérdida de biodiversidad y carbono",
+      "supported": "partial",
+      "detail": "+22 % y +42 % sobre 2010 según el paper; los escenarios combinados no están en el repositorio y no se pueden recomputar",
+      "certainty_tier": "T1",
+      "abstract_verb": "were essential to reverse",
+      "metric": "combinado_tres_sobre_baseline_pct",
+      "supported_by_data": false
+    },
+    {
+      "claim": "Evitar es más costo-efectivo que restaurar, y el resultado se sostiene con costos de restauración un 95 % menores",
+      "supported": "partial",
+      "detail": "Cifras del paper (por R$10.000: biodiversidad 0,372 / 0,123 / 0,025; carbono 52,0 / 33,8 / 14,2 Mg C). Los costos no están en los datos abiertos",
+      "certainty_tier": "T1",
+      "abstract_verb": "robust to a range of assumptions",
+      "metric": "costo_efectividad_por_R10000",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 2.28,
+      "unit": "veces",
+      "metric": "ratio_biodiv_perturbacion_vs_deforestacion",
+      "context": "beneficio sumado de biodiversidad, evitar perturbación / evitar deforestación, 6.900 fincas CAR",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "2.45×",
+        "our_calculation": "2.28×",
+        "discrepancy_pct": -7,
+        "reason": "paper suma el paisaje completo (>3 M ha); nosotros solo las 6.900 fincas CAR (2,62 M ha)"
+      }
+    },
+    {
+      "value": 1.44,
+      "unit": "veces",
+      "metric": "ratio_carbono_deforestacion_vs_perturbacion",
+      "context": "beneficio sumado de carbono, evitar deforestación / evitar perturbación",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.30×",
+        "our_calculation": "1.44×",
+        "discrepancy_pct": 11,
+        "reason": "alcance paisaje vs fincas CAR"
+      }
+    },
+    {
+      "value": 0.26,
+      "unit": "veces",
+      "metric": "ratio_biodiv_restauracion_vs_deforestacion",
+      "context": "restauración / evitar deforestación: 0,26× biodiversidad, 0,27× carbono",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.23× / 0.24×",
+        "our_calculation": "0.26× / 0.27×",
+        "discrepancy_pct": 13,
+        "reason": "alcance paisaje vs fincas CAR"
+      }
+    },
+    {
+      "value": 64.4,
+      "unit": "por ciento",
+      "metric": "pct_biodiv_por_intervencion",
+      "context": "reparto del beneficio sumado de biodiversidad: 64,4 % evitar perturbación vs 28,2 % evitar deforestación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 42.7,
+      "unit": "por ciento de cobertura",
+      "metric": "cruce_fig3_biodiv",
+      "context": "cruce restauración < evitar deforestación (biodiversidad), medias por bin de 5 pp en 1.032 fincas medianas y grandes",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~43% / ~41%",
+        "our_calculation": "42.7% / 41.1%",
+        "discrepancy_pct": 0.7,
+        "reason": "media por bin + interpolación lineal vs GAM con 1000 bootstraps"
+      }
+    },
+    {
+      "value": 43.1,
+      "unit": "por ciento de cobertura",
+      "metric": "cruce_fig3_carbono",
+      "context": "sensibilidad del cruce con bins de 10 pp",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 210,
+      "unit": "Mg C por ha de finca",
+      "metric": "fig3",
+      "context": "beneficio medio de restauración en el bin 0-5 % de cobertura vs 2,3 de evitar deforestación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 174,
+      "unit": "fincas",
+      "metric": "fig3",
+      "context": "fincas medianas y grandes en el bin 95-100 % de cobertura; mínimo 15 en el bin 15-20 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6900,
+      "unit": "propiedades",
+      "metric": "n_propiedades",
+      "context": "propiedades rurales CAR: 5.361 Santarém + 1.539 Paragominas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2623360,
+      "unit": "ha",
+      "metric": "area_total_ha",
+      "context": "área total de las fincas CAR (el paper cubre >3 M ha)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 375,
+      "unit": "transectos",
+      "metric": "n_transectos",
+      "context": "transectos con dato de carbono en el CSV (paper: 381 transectos de campo, 38 cuencas)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "381",
+        "our_calculation": "375",
+        "discrepancy_pct": -1.6,
+        "reason": "6 transectos sin estimación de carbono en carbon.csv"
+      }
+    },
+    {
+      "value": 381,
+      "unit": "transectos",
+      "metric": "n_transectos_paper",
+      "context": "transectos de campo del paper en 38 cuencas",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 153.9,
+      "unit": "Mg C/ha",
+      "metric": "carbono_por_tipo",
+      "context": "mediana de carbono aéreo en primario intacto, n = 30",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 65.5,
+      "unit": "por ciento",
+      "metric": "carbono_perturbado_vs_primario_intacto_pct",
+      "context": "mediana del primario perturbado (n = 152) / mediana del intacto",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.31,
+      "unit": "cohen_d",
+      "metric": "cohens_d_intacto_vs_perturbado",
+      "context": "intacto vs perturbado, grupos independientes n = 30 vs 152, Mann-Whitney p = 5,9×10⁻⁹",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17.9,
+      "unit": "por ciento",
+      "metric": "carbono_secundario_vs_primario_intacto_pct",
+      "context": "mediana del secundario (n = 61) / mediana del intacto; Cohen's d = 3,44, Mann-Whitney p = 1,8×10⁻¹⁴",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 48.5,
+      "unit": "por ciento",
+      "metric": "carbono_por_tipo",
+      "context": "mediana del primario talado y quemado (n = 74) / mediana del intacto; quemado 80,7 %, talado 75,9 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 58.8,
+      "unit": "por ciento",
+      "metric": "cobertura",
+      "context": "mediana de cobertura forestal 2010 de las 6.900 fincas; IQR 19,6–86,3 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 31.9,
+      "unit": "por ciento",
+      "metric": "pct_cobertura_mayor_80",
+      "context": "fincas con cobertura > 80 % (paper: ~32 % con excedente sobre la Reserva Legal)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "~32%",
+        "our_calculation": "31.9%",
+        "discrepancy_pct": -0.3,
+        "reason": "aproximación con umbral plano de 80 %; el requisito legal varía por tamaño"
+      }
+    },
+    {
+      "value": 158980,
+      "unit": "ha",
+      "metric": "paper_numbers",
+      "context": "deforestación 2010-2020 en las dos regiones",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 273558,
+      "unit": "ha",
+      "metric": "paper_numbers",
+      "context": "bosque primario quemado o talado selectivamente 2010-2020",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 22,
+      "unit": "por ciento",
+      "metric": "combinado_tres_sobre_baseline_pct",
+      "context": "combinando las tres intervenciones: +22 % biodiversidad, +42 % carbono sobre 2010 (paper)",
+      "source": "paper",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "delivered the greatest benefits / were more cost-effective",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa PERO siempre dentro del marco: \"en los escenarios contrafactuales\" / \"según el modelo\". Los beneficios son modelados, no observados."
+    },
+    {
+      "abstract_verb": "robust to a range of assumptions",
+      "tier": "T1",
+      "cam_attenuator": "\"el resultado se sostiene incluso recortando los costos un 95 %\""
+    },
+    {
+      "abstract_verb": "were essential to reverse",
+      "tier": "T1",
+      "cam_attenuator": "\"solo combinando las tres se revierte la pérdida — en el escenario\""
+    },
+    {
+      "abstract_verb": "compare",
+      "tier": "T1",
+      "cam_attenuator": "\"compararon\""
+    },
+    {
+      "abstract_verb": "(cuerpo) \"likely because deforestation occurred near edges\"",
+      "tier": "T2",
+      "cam_attenuator": "\"probablemente porque\" — mecanismo, no demostrado"
+    },
+    {
+      "abstract_verb": "(cuerpo) \"suggest that the main conclusions will apply to most tropical forest regions\"",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores sugieren que aplica a otros trópicos\" — NO generalizar como hecho"
+    },
+    {
+      "abstract_verb": "(cuerpo) \"scenarios are not intended as literal representations ... diagnostic tools\"",
+      "tier": "T2",
+      "cam_attenuator": "caveat obligatorio en verificación: son herramientas de diagnóstico, no predicciones"
+    }
+  ],
+  "narrative_hooks": [
+    "En 6.900 fincas de la Amazonía brasileña, evitar que talen o quemen el bosque en pie aporta 2,28 veces la biodiversidad que aporta evitar la deforestación — y restaurar rinde 0,26 veces. Según el modelo.",
+    "Restaurar solo gana en fincas con menos del 41-43 % de bosque: por debajo no queda nada que proteger, por encima proteger despega y restaurar cae a casi cero.",
+    "Un bosque primario talado o quemado conserva dos tercios del carbono del intacto (65,5 %); el bosque que crece donde se restaura, menos de una quinta parte (17,9 %).",
+    "Dos rankings distintos: la perturbación evitada gana en biodiversidad (64,4 % del beneficio), la deforestación evitada gana en carbono (50,9 %). La restauración es última en ambos.",
+    "Entre 2010 y 2020 se deforestaron 158.980 ha, pero se talaron o quemaron 273.558 ha de primario — casi el doble — y eso casi nadie lo cuenta.",
+    "Solo combinando las tres intervenciones se revierte la pérdida (+22 % biodiversidad, +42 % carbono sobre 2010): dato del paper, no recomputable desde los datos abiertos."
+  ],
+  "limitations": [
+    "Los beneficios son diferencias entre escenarios modelados (random forest + contrafactuales 2010-2020), no efectos observados; los autores los llaman herramientas de diagnóstico.",
+    "Las sumas cubren solo las 6.900 fincas CAR (2.623.360 ha), no el paisaje completo del paper (>3 M ha): los ratios difieren 7-13 % del paper, mismo ranking.",
+    "El beneficio por hectárea es sobre toda la finca y en diez años: NO comparable con la Fig 2 del paper (por píxel intervenido y por año).",
+    "Cinco de los seis bins de cobertura entre 5 % y 35 % tienen 15-28 fincas; las medias de la izquierda de la curva son ruidosas.",
+    "25 fincas medianas/grandes con cobertura registrada ≥ 100 % (artefacto ráster) quedan fuera de las curvas; 236 de las 6.900 en total van al último bin del histograma.",
+    "Transectos observacionales: distintos bosques, no el mismo antes y después. Cohen's d = 1,31 es diferencia entre tipos, no efecto de talar.",
+    "26 transectos con códigos RAS sin definición (AP, REF, FRU, SHA) agrupados como 'otros usos agrícolas', no se interpretan.",
+    "Los costos y los escenarios combinados no están en el repositorio: costo-efectividad, +22 %/+42 % y robustez a −95 % de costos son cifras del paper.",
+    "El 31,9 % con cobertura > 80 % aproxima el ~32 % con excedente legal del paper con un umbral plano; el requisito real varía por tamaño de finca y APP.",
+    "El % de fincas con beneficio de restauración > 0 incluye spillover de borde: no equivale al 18 % con déficit legal del paper.",
+    "375 transectos con dato de carbono en el CSV frente a 381 del paper."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 22 números clave"
+  },
+  "notebook_slug": "2026-09-17-proteger-bosques-tropicales-vs-restaurar",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-17-proteger-bosques-tropicales-vs-restaurar/notebook.html",
+  "generated_at": "2026-09-18T23:54:29+00:00"
+}

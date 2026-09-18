@@ -3,6 +3,11 @@ root: intro
 parts:
 - caption: Ecología
   chapters:
+  - file: papers/2026-09-17-proteger-bosques-tropicales-vs-restaurar/README
+    title: "Proteger vs restaurar la Amazonía"
+    sections:
+    - file: papers/2026-09-17-proteger-bosques-tropicales-vs-restaurar/notebook
+      title: Notebook
   - file: papers/2026-09-11-calor-emocional-ciudades-china/README
     title: "Calor físico vs calor emocional"
     sections:

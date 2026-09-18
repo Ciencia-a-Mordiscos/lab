@@ -36,6 +36,14 @@ sensibilidad" de los radiólogos y el nivel experto son solo del paper.
 
 ---
 
+### ¿Sembrar árboles o cuidar los que ya están? En la Amazonía, restaurar rinde una cuarta parte
+
+**Ecología** · *Science* · En 6.900 fincas de la frontera de deforestación brasileña, un modelo contrafactual 2010-2020 dice que evitar la tala y el fuego aporta 2,28 veces la biodiversidad que aporta evitar la deforestación, y que restaurar rinde 0,26 veces. Replicamos la figura central: restaurar solo gana en fincas con menos del 42,7 % (biodiversidad) y 41,1 % (carbono) de bosque. ⚠️ Beneficios modelados, no observados; las sumas cubren solo las fincas del catastro, no el paisaje completo.
+
+[Ver notebook](papers/2026-09-17-proteger-bosques-tropicales-vs-restaurar/notebook) · [Leer más](papers/2026-09-17-proteger-bosques-tropicales-vs-restaurar/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-17-proteger-bosques-tropicales-vs-restaurar/notebook.ipynb)
+
+---
+
 ### Seis bombas nucleares bajo una montaña, y la montaña sigue temblando
 
 **Geología** · *Science* · Seis explosiones nucleares bajo el monte Mantap (2006-2017) y un catálogo de

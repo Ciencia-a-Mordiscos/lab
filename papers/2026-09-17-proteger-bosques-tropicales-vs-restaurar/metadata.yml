@@ -1,0 +1,28 @@
+titulo: "¿Sembrar árboles o cuidar los que ya están? En la Amazonía, restaurar rinde una cuarta parte"
+titulo_corto: "Proteger vs restaurar la Amazonía"
+card_descripcion: |
+  En 6.900 fincas de la frontera de deforestación brasileña, un modelo contrafactual 2010-2020 dice que evitar la tala y el fuego aporta 2,28 veces la biodiversidad que aporta evitar la deforestación, y que restaurar rinde 0,26 veces. Replicamos la figura central: restaurar solo gana en fincas con menos del 42,7 % (biodiversidad) y 41,1 % (carbono) de bosque. ⚠️ Beneficios modelados, no observados; las sumas cubren solo las fincas del catastro, no el paisaje completo.
+fecha: 2026-09-18
+categoria: ecologia
+tags: [amazonia, deforestacion, restauracion, carbono, biodiversidad, brasil, contrafactual]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.adx9928"
+    titulo: "Protecting tropical forests is more cost-effective for biodiversity and climate than restoration"
+    journal: Science
+    autores: "Miranda et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "propiedades_beneficios.csv"
+    descripcion: "Beneficio (escenario − real, 2010-2020) por propiedad CAR para 3 intervenciones × biodiversidad/carbono, n = 6.900"
+    fuente: "Zenodo 10.5281/zenodo.19221348 (car_benefits.csv)"
+  - nombre: "carbono_transectos.csv"
+    descripcion: "Carbono aéreo (Mg C/ha) y tipo de bosque en 375 transectos de campo, 2010"
+    fuente: "Zenodo 10.5281/zenodo.19221348 (carbon.csv)"
+  - nombre: "especies_modelos.csv"
+    descripcion: "1.151 especies con n de registros, AUC y método de modelado (tabla S1)"
+    fuente: "Zenodo 10.5281/zenodo.19221348 (species_summary.csv)"
+estado: publicado
