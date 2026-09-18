@@ -1056,6 +1056,11 @@ parts:
       title: Notebook
 - caption: Tecnología
   chapters:
+  - file: papers/2026-09-18-radar-ia-generalista-tc-abdominal/README
+    title: "RADAR lee TC fuera de casa"
+    sections:
+    - file: papers/2026-09-18-radar-ia-generalista-tc-abdominal/notebook
+      title: Notebook
   - file: papers/2026-09-02-ia-explicable-coche-autonomo/README
     title: "IA explicable al volante"
     sections:

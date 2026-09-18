@@ -1,0 +1,147 @@
+anatomy,finding,ctclip_auc,ctclip_sig,merlin_auc,merlin_sig,fvlm_auc,fvlm_sig,radar_auc
+Liver,Undulating contour,0.715,***,0.695,***,0.943,***,0.97
+Liver,Intrahepatic cholangiocarcinoma,0.763,***,0.93,***,0.897,***,0.967
+Liver,Cirrhosis,0.853,***,0.853,***,0.971,,0.965
+Liver,Periportal edema,0.81,***,0.589,***,0.907,***,0.955
+Liver,Steatotic liver disease,0.924,***,0.832,***,0.889,***,0.941
+Liver,Hepatocellular carcinoma,0.811,***,0.84,***,0.767,***,0.939
+Liver,Metastasis,0.569,***,0.836,***,0.79,***,0.928
+Liver,Intrahepatic bile duct dilatation,0.723,***,0.815,***,0.762,***,0.927
+Liver,Intrahepatic calcification,0.509,***,0.75,***,0.491,***,0.919
+Liver,Cyst,0.595,***,0.698,***,0.593,***,0.902
+Liver,Hypoattenuating lesion,0.522,***,0.759,***,0.601,***,0.9
+Liver,Irregular margin,0.808,***,0.801,***,0.884,**,0.9
+Liver,Hyperattenuating lesion in intrahepatic bile ducts,0.567,***,0.787,***,0.778,***,0.894
+Liver,Hepatolithiasis,0.653,***,0.786,***,0.556,***,0.888
+Liver,Abscess,0.724,***,0.818,*,0.889,,0.873
+Liver,Nodular enhancement,0.562,***,0.613,***,0.581,***,0.846
+Liver,Lobar volume disproportion,0.697,***,0.745,***,0.799,***,0.84
+Liver,Hemangioma,0.513,***,0.59,***,0.544,***,0.824
+Gallbladder,Cholangiocarcinoma,0.612,***,0.88,***,0.895,***,0.987
+Gallbladder,Gallbladder cancer,0.528,***,0.881,***,0.581,***,0.984
+Gallbladder,Pneumobilia,0.735,***,0.892,*,0.908,*,0.974
+Gallbladder,Xanthogranuloma,0.676,**,0.739,***,0.813,***,0.974
+Gallbladder,Cholecystolithiasis,0.581,***,0.761,***,0.675,***,0.972
+Gallbladder,Hyperattenuating lesion,0.6,***,0.791,***,0.68,***,0.935
+Gallbladder,Nodular stone-like hyperattenuating lesion,0.497,***,0.662,***,0.674,***,0.93
+Gallbladder,Extrahepatic bile duct dilatation,0.66,***,0.78,***,0.79,***,0.912
+Gallbladder,Cholecystitis,0.634,***,0.723,***,0.727,***,0.905
+Gallbladder,Extrahepatic bile duct stone,0.699,***,0.781,***,0.709,***,0.905
+Gallbladder,Extrahepatic bile duct wall thickening,0.764,***,0.873,,0.897,,0.902
+Gallbladder,Adenomyomatosis,0.529,***,0.536,***,0.575,***,0.897
+Gallbladder,Cholangitis,0.551,***,0.735,**,0.821,,0.892
+Gallbladder,Distention,0.703,***,0.718,***,0.807,**,0.835
+Portal vein,Thrombosis,0.88,***,0.787,***,0.944,***,0.971
+Portal vein,Dilatation,0.316,***,0.625,***,0.9,***,0.935
+Portal vein,Hypertension,0.888,,0.839,***,0.947,,0.876
+Pancreas,Pancreatic duct calculus,0.678,***,0.767,***,0.787,***,0.985
+Pancreas,Blurring of peripancreatic fat planes,0.612,***,0.914,***,0.912,***,0.962
+Pancreas,Pancreatitis,0.781,***,0.929,***,0.879,***,0.96
+Pancreas,Atrophy,0.71,***,0.777,***,0.885,***,0.947
+Pancreas,Pancreatic cancer,0.681,***,0.809,***,0.72,***,0.936
+Pancreas,Peripancreatic pseudocyst,0.723,***,0.865,*,0.86,**,0.935
+Pancreas,Pancreatic duct dilatation,0.746,***,0.733,***,0.776,***,0.933
+Pancreas,Enlargement,0.728,***,0.86,***,0.876,***,0.923
+Pancreas,Cyst,0.592,***,0.611,***,0.629,***,0.871
+Pancreas,Low-density lesion,0.606,***,0.649,***,0.617,***,0.843
+Spleen,Calcification,0.587,***,0.633,***,0.609,***,0.957
+Spleen,Infarction,0.317,***,0.677,***,0.869,***,0.952
+Spleen,Splenomegaly,0.761,***,0.862,***,0.91,***,0.947
+Spleen,Hypoattenuating lesion,0.63,***,0.583,***,0.595,***,0.934
+Spleen,Cyst,0.586,***,0.565,***,0.56,***,0.931
+Spleen,Accessory spleen,0.537,***,0.514,***,0.514,***,0.917
+Spleen,Patchy hypoattenuating lesion,0.585,***,0.523,***,0.619,***,0.911
+Spleen,Lymphoma,0.701,**,0.802,,0.732,**,0.845
+Stomach,Gastric fundal varices,0.72,***,0.566,***,0.956,***,0.982
+Stomach,Gastric cancer,0.241,***,0.875,***,0.853,***,0.947
+Stomach,Wall edema,0.797,***,0.847,***,0.906,*,0.922
+Stomach,Dilatation,0.795,***,0.687,***,0.861,*,0.904
+Stomach,Gastrointestinal stromal tumor (GIST),0.504,***,0.492,***,0.611,***,0.902
+Stomach,Ulcer,0.752,***,0.845,,0.616,***,0.869
+Duodenum,Diverticulum,0.645,***,0.364,***,0.787,***,0.969
+Duodenum,Saccular outpouching,0.643,***,0.532,***,0.784,***,0.963
+Duodenum,Ulcer,0.481,***,0.377,***,0.623,**,0.934
+Duodenum,Obstruction,0.601,***,0.496,***,0.831,**,0.896
+Duodenum,Mass,0.579,***,0.605,***,0.671,***,0.783
+Small bowel,Obstruction,0.85,***,0.8,***,0.887,***,0.941
+Small bowel,Gas and fluid accumulation,0.819,***,0.678,***,0.878,***,0.915
+Small bowel,Intussusception,0.663,***,0.573,***,0.746,**,0.896
+Small bowel,Dilatation,0.816,***,0.712,***,0.863,***,0.89
+Small bowel,Wall thickening,0.628,***,0.69,***,0.781,***,0.884
+Small bowel,Mesenteric lymphadenopathy,0.601,***,0.652,***,0.713,***,0.835
+Small bowel,Volvulus,0.584,***,0.568,**,0.836,,0.83
+Small bowel,Mesenteric panniculitis,0.617,***,0.517,***,0.71,***,0.827
+Small bowel,Crohn's disease,0.863,,0.809,,0.965,,0.806
+Small bowel,Gastrointestinal stromal tumor,0.614,***,0.534,***,0.552,***,0.804
+Small bowel,Lymphoma,0.701,,0.522,***,0.79,,0.78
+Small bowel,Lipoma,0.606,**,0.575,***,0.696,,0.748
+Small bowel,Enteritis,0.48,***,0.666,*,0.712,,0.74
+Large bowel,Rectal cancer,0.648,***,0.796,***,0.843,***,0.968
+Large bowel,Perforation,0.758,***,0.768,***,0.839,*,0.951
+Large bowel,Obstruction,0.864,***,0.706,***,0.922,,0.949
+Large bowel,Colon cancer,0.623,***,0.832,***,0.778,***,0.947
+Large bowel,Crohn's disease,0.925,,0.762,**,0.925,,0.942
+Large bowel,Intussusception,0.531,***,0.75,***,0.755,***,0.933
+Large bowel,Ulcerative colitis,0.642,***,0.589,***,0.801,,0.923
+Large bowel,Dilatation,0.806,***,0.552,***,0.896,*,0.918
+Large bowel,Mural calcification,0.639,***,0.718,***,0.771,***,0.914
+Large bowel,Wall edema,0.779,***,0.81,***,0.859,***,0.913
+Large bowel,Colitis,0.576,***,0.611,***,0.763,***,0.893
+Large bowel,Diverticulum,0.61,***,0.582,***,0.75,***,0.892
+Large bowel,Gas and fluid accumulation,0.76,***,0.677,***,0.863,***,0.891
+Large bowel,Serosal surface irregularity,0.577,***,0.612,***,0.741,***,0.882
+Large bowel,Wall irregularity,0.648,***,0.82,***,0.736,***,0.879
+Large bowel,Appendicitis,0.564,***,0.674,***,0.747,***,0.859
+Large bowel,Blurring of fat planes,0.569,***,0.651,***,0.672,***,0.768
+Large bowel,Appendicolith,0.576,***,0.555,***,0.593,***,0.735
+Adrenal gland,Metastasis,0.749,***,0.667,***,0.877,***,0.97
+Adrenal gland,Adenoma,0.575,***,0.546,***,0.582,***,0.954
+Adrenal gland,Calcification,0.51,***,0.556,***,0.599,***,0.944
+Adrenal gland,Lipoma,0.613,***,0.441,***,0.718,***,0.884
+Adrenal gland,Nodule,0.59,***,0.538,***,0.643,***,0.882
+Adrenal gland,Hyperplasia,0.644,***,0.501,***,0.602,***,0.853
+Kidney,Renal pelvic cancer,0.733,***,0.864,***,0.912,,0.988
+Kidney,Polycystic kidney disease,0.647,***,0.978,,0.998,,0.963
+Kidney,Atrophy,0.665,***,0.501,***,0.818,***,0.959
+Kidney,Nephrolithiasis,0.555,***,0.756,***,0.507,***,0.938
+Kidney,Hydronephrosis,0.62,***,0.792,***,0.817,***,0.928
+Kidney,Renal pelvic dilatation,0.5,***,0.57,***,0.813,***,0.925
+Kidney,Renal artery aneurysm,0.608,***,0.567,***,0.615,***,0.903
+Kidney,Cyst,0.65,***,0.755,***,0.699,***,0.899
+Kidney,Hypoattenuating lesion,0.632,***,0.639,***,0.616,***,0.884
+Kidney,Parenchymal thinning,0.418,***,0.76,***,0.696,***,0.869
+Kidney,Hyperattenuating lesion,0.553,***,0.554,***,0.596,***,0.868
+Kidney,Renal cell carcinoma,0.553,***,0.457,***,0.499,***,0.825
+Kidney,Angiomyolipoma,0.514,***,0.514,***,0.601,***,0.807
+Kidney,Nonenhancing cystic lesion,0.543,***,0.558,***,0.572,***,0.713
+Sacrum,Osteitis,0.48,***,0.413,***,0.638,***,0.919
+Bladder,Stone,0.586,***,0.75,***,0.758,***,0.973
+Bladder,Bladder cancer,0.408,***,0.738,***,0.641,***,0.967
+Bladder,Soft-tissue attenuation lesion,0.606,***,0.778,***,0.696,***,0.928
+Bladder,Diverticulum,0.696,***,0.684,***,0.805,***,0.884
+Bladder,Wall irregularity,0.436,***,0.645,***,0.647,***,0.87
+Bladder,Cystitis,0.549,***,0.655,***,0.749,***,0.843
+Esophagus,Varices,0.573,***,0.917,***,0.989,***,0.997
+Esophagus,Dilated and tortuous veins,0.865,***,0.928,***,0.987,***,0.995
+Esophagus,Dilated and tortuous tubular opacities,0.786,***,0.938,***,0.987,***,0.995
+Esophagus,Hiatal hernia,0.813,***,0.564,***,0.954,**,0.975
+Esophagus,Wall thickening,0.696,***,0.807,***,0.892,***,0.949
+Lung,Metastasis,0.657,***,0.732,***,0.866,***,0.992
+Lung,Atelectasis,0.049,***,0.89,***,0.913,***,0.987
+Lung,Pleural effusion,0.925,***,0.891,***,0.979,***,0.987
+Lung,Pneumothorax,0.871,,0.832,***,0.905,,0.962
+Lung,Patchy opacity,0.797,***,0.795,***,0.865,***,0.956
+Lung,Nodule,0.635,***,0.389,***,0.867,***,0.949
+Lung,Calcification,0.516,***,0.49,***,0.854,***,0.944
+Lung,Hyperattenuating opacity,0.715,***,0.767,***,0.895,***,0.941
+Lung,Mass,0.456,***,0.731,***,0.875,***,0.931
+Lung,Pulmonary collapse,0.83,***,0.914,***,0.926,***,0.989
+Heart,Cardiomegaly,0.694,***,0.673,***,0.949,*,0.968
+Heart,Pericardial effusion,0.683,***,0.584,***,0.826,***,0.956
+Aorta,Aortic aneurysm,0.572,***,0.55,***,0.879,***,0.947
+Aorta,Aortic dissection,0.288,***,0.584,***,0.891,,0.922
+Aorta,Calcification,0.27,***,0.708,***,0.861,***,0.899
+Aorta,Atherosclerosis,0.289,***,0.716,***,0.848,,0.823
+Rib,Bone destruction,0.366,***,0.537,***,0.938,**,0.986
+Rib,Metastasis,0.536,***,0.77,***,0.596,***,0.967
+Rib,Fracture,0.68,***,0.634,***,0.83,***,0.935

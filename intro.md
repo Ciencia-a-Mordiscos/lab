@@ -14,6 +14,20 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Una IA que nunca vio un hospital de Stanford lee sus tomografías mejor que la IA entrenada allí
+
+**Tecnología** · *Science* · RADAR, un modelo visión-lenguaje entrenado con 424.911 TC abdominales y sus
+informes, clasifica 21 hallazgos en las 5.125 TC del test set de Merlin
+(Stanford) con AUC medio 0,883 sin haber visto ninguna; Merlin, entrenado
+allí, da 0,812. Gana en 17 de 21 (d = 0,73, p = 0,006, n = 21). En casa:
+0,913 en 146 hallazgos, mejor de cuatro modelos en 138. ⚠️ Los AUC en
+Stanford son de la Tabla S8 (etiquetas bajo acuerdo de uso); el "+10 % de
+sensibilidad" de los radiólogos y el nivel experto son solo del paper.
+
+[Ver notebook](papers/2026-09-18-radar-ia-generalista-tc-abdominal/notebook) · [Leer más](papers/2026-09-18-radar-ia-generalista-tc-abdominal/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-18-radar-ia-generalista-tc-abdominal/notebook.ipynb)
+
+---
+
 ### Seis bombas nucleares bajo una montaña, y la montaña sigue temblando
 
 **Geología** · *Science* · Seis explosiones nucleares bajo el monte Mantap (2006-2017) y un catálogo de

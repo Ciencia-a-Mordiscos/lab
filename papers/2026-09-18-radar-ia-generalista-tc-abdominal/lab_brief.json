@@ -1,0 +1,298 @@
+{
+  "version": "1.0",
+  "paper_id": 3029,
+  "doi": "10.1126/science.aec6129",
+  "paper_type": "computational",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "RADAR supera a Merlin en 17 de los 21 hallazgos del test set de Merlin sin haber visto sus datos de entrenamiento",
+      "supported": "yes",
+      "detail": "Tabla S8, pareado n=21: +0,071, d=0,73, Wilcoxon p=0,006. AUC del paper, no recomputados (DUA)",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "metric": "radar_wins_vs_merlin",
+      "effect_size": {
+        "measure": "cohen_d_paired",
+        "value": 0.73,
+        "interpretation": "medio"
+      }
+    },
+    {
+      "claim": "AUC medio de 0,883 en el test set de Merlin sin ningún ajuste",
+      "supported": "yes",
+      "detail": "Recomputado desde S8: 0,8833; abstract 0,883",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "metric": "mean_auc_merlin_21"
+    },
+    {
+      "claim": "AUC medio de 0,913 en 146 hallazgos de la cohorte interna",
+      "supported": "yes",
+      "detail": "Recomputado desde S2: 0,9128 (mediana 0,926, IQR 0,884–0,956); paper 0,913 (IC 95 % 0,911–0,915)",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "metric": "mean_auc_internal_146"
+    },
+    {
+      "claim": "RADAR es el mejor de cuatro modelos en 138 de 146 hallazgos internos",
+      "supported": "yes",
+      "detail": "Tabla S2; fVLM gana en 8. Estrellas de significancia del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "metric": "best_model_per_finding"
+    },
+    {
+      "claim": "AUC de 0,874 a 0,912 en los ocho centros externos",
+      "supported": "yes",
+      "detail": "Media por centro de S7; 96/818 celdas < 0,8; 46 hallazgos en los 8 centros",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "metric": "external_center_range"
+    },
+    {
+      "claim": "La asistencia de RADAR aumentó la sensibilidad de 26 radiólogos en un 10 % aproximadamente",
+      "supported": "partial",
+      "detail": "Solo paper; S9 trae demografía, no sensibilidades",
+      "certainty_tier": "T1",
+      "abstract_verb": "increased",
+      "metric": "reader_sensitivity_gain_10pct"
+    },
+    {
+      "claim": "RADAR está al nivel de expertos humanos en TC abdominal",
+      "supported": "partial",
+      "detail": "Reader study sin datos por lector; en 9 hallazgos fuera de alcance RADAR+ pierde con Merlin (0,779 vs 0,826)",
+      "certainty_tier": "T2",
+      "abstract_verb": "can match human experts",
+      "metric": "out_of_scope_means"
+    },
+    {
+      "claim": "AUC de 0,891 a 0,984 en cuatro cánceres con confirmación patológica",
+      "supported": "partial",
+      "detail": "Solo paper; sin tabla suplementaria",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "metric": "cancer_auc"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 424911,
+      "unit": "exámenes",
+      "metric": "n_train_exams_424911",
+      "context": "entrenamiento RAD-CT",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 15,
+      "unit": "millones de pares imagen-texto",
+      "metric": "n_pairs_15M",
+      "context": "entrenamiento",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 146,
+      "unit": "hallazgos / 18 estructuras",
+      "metric": "n_findings_anatomies",
+      "context": "alcance del modelo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 39160,
+      "unit": "exámenes",
+      "metric": "n_internal_cohort_39160",
+      "context": "cohorte interna",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 5125,
+      "unit": "TC",
+      "metric": "n_merlin_test_scans",
+      "context": "test set de Merlin (repo GitHub)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.893,
+      "unit": "AUC (mediana)",
+      "metric": "radar_median_iqr_merlin",
+      "context": "RADAR vs Merlin, test set de Merlin, 21 hallazgos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.071,
+      "unit": "AUC (diferencia pareada media)",
+      "metric": "paired_radar_minus_merlin",
+      "context": "n = 21, d pareado 0,73, Wilcoxon p = 0,006",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.252,
+      "unit": "AUC (ganancia)",
+      "metric": "largest_gains_vs_merlin",
+      "context": "mayores ganancias RADAR−Merlin",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3,
+      "unit": "de 21 hallazgos < 0,8",
+      "metric": "radar_lt_0_8_merlin",
+      "context": "test set de Merlin",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1,
+      "unit": "de 63 celdas ≥ 0,8",
+      "metric": "radar_wins_vs_baselines",
+      "context": "baselines generalistas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.918,
+      "unit": "AUC (media RADAR+)",
+      "metric": "radar_plus_wins",
+      "context": "RADAR+ afinado con Merlin-train",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.779,
+      "unit": "AUC (media 9 fuera de alcance)",
+      "metric": "out_of_scope_means",
+      "context": "RADAR+ 0,779 vs Merlin 0,826",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 46,
+      "unit": "hallazgos",
+      "metric": "findings_all_8",
+      "context": "evaluados en los 8 centros externos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 136,
+      "unit": "hallazgos por centro (máx)",
+      "metric": "findings_per_center",
+      "context": "68–136 por centro",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 44.6,
+      "unit": "por ciento en zona gris",
+      "metric": "grey_zone_frac",
+      "context": "calcificación de válvula aórtica, umbral didáctico",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 55.1,
+      "unit": "por ciento < 0,1",
+      "metric": "pooled_score_dist",
+      "context": "102.500 scores crudos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.36,
+      "unit": "ρ de Spearman",
+      "metric": "spearman_grey_vs_auc",
+      "context": "n = 20, no significativo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.999,
+      "unit": "ρ de Spearman",
+      "metric": "top_cooccurrence",
+      "context": "hipodensidad renal vs quiste renal (propiedad del modelo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.5,
+      "unit": "años (mediana de experiencia)",
+      "metric": "readers_demographics",
+      "context": "26 radiólogos, Tabla S9",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "developed",
+      "tier": "T1",
+      "cam_attenuator": "'desarrollaron' / 'construyeron' — afirmación directa (constructivo)"
+    },
+    {
+      "abstract_verb": "achieved",
+      "tier": "T1",
+      "cam_attenuator": "'alcanzó un AUC de…' — afirmación directa con número del paper"
+    },
+    {
+      "abstract_verb": "increased",
+      "tier": "T1",
+      "cam_attenuator": "'aumentó la sensibilidad ~10 %' — solo con el número del paper; NO inflar; dato no verificable por nosotros"
+    },
+    {
+      "abstract_verb": "demonstrating",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, pero acotada a 'en las cohortes evaluadas'"
+    },
+    {
+      "abstract_verb": "offers",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que ofrece' — meta-claim de utilidad"
+    },
+    {
+      "abstract_verb": "can match human experts",
+      "tier": "T2",
+      "cam_attenuator": "'según el reader study, iguala a la mayoría de los 26 lectores' — NO 'supera a los médicos'"
+    },
+    {
+      "abstract_verb": "suggests (conclusion)",
+      "tier": "T2",
+      "cam_attenuator": "'este trabajo sugiere que…' para la generalización del enfoque"
+    },
+    {
+      "abstract_verb": "may provide (conclusion)",
+      "tier": "T3",
+      "cam_attenuator": "'podría ser un camino práctico' — falta confirmar"
+    }
+  ],
+  "narrative_hooks": [
+    "Una IA que nunca vio un hospital de Stanford lee sus tomografías mejor que la IA entrenada allí: AUC 0,883 vs 0,812 en 21 hallazgos",
+    "Los tres modelos generalistas (BiomedCLIP, MedGemma 1.5, Lingshu) rondan 0,55–0,58 de AUC: casi azar. Un modelo de todo no lee TC abdominal",
+    "RADAR es mayoritariamente un modelo que dice no: 55,1 % de sus 102.500 scores por debajo de 0,1; 14,7 % en zona gris",
+    "En 9 hallazgos sin anatomía asociada RADAR no aplica y la versión afinada pierde con Merlin (0,779 vs 0,826)"
+  ],
+  "limitations": [
+    "Sin etiquetas del test set de Merlin (DUA de Stanford): los AUC en Stanford se leen de la Tabla S8, no se recomputan",
+    "Los scores del CSV no están calibrados: el umbral 0,5 y la zona gris 0,3–0,7 son elecciones didácticas del notebook",
+    "n = 21 hallazgos en la comparación pareada RADAR vs Merlin",
+    "Comparación zero-shot (RADAR) vs modelo entrenado in-domain (Merlin), no China vs EE. UU.",
+    "Rendimiento de clasificación retrospectiva: sin datos de impacto en pacientes; AUC ≠ diagnóstico",
+    "La ganancia de sensibilidad (~10 %) y el nivel experto se apoyan en el reader study, cuyos datos por lector no están publicados",
+    "Los 8 centros externos evaluaron subconjuntos distintos de hallazgos (68–136 por centro)"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados, 19 números clave"
+  },
+  "notebook_slug": "2026-09-18-radar-ia-generalista-tc-abdominal",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-18-radar-ia-generalista-tc-abdominal/notebook.html",
+  "generated_at": "2026-09-18T16:30:20+00:00"
+}

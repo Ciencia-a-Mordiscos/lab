@@ -1,0 +1,147 @@
+anatomy,finding,internal,external_a,external_b,external_c,external_d,external_e,external_f,external_g,external_h,emergency,reader_study
+Liver,Hypoattenuating lesion,22111,2214,436,2607,336,362,865,3734,948,0,0
+Liver,Cyst,16738,1606,275,1826,189,209,644,2897,569,0,89
+Liver,Nodular enhancement,5517,497,121,720,104,100,231,967,309,0,0
+Liver,Intrahepatic calcification,4673,266,110,405,25,29,303,713,240,0,0
+Liver,Steatotic liver disease,3531,508,83,590,78,16,206,808,182,0,22
+Liver,Lobar volume disproportion,3484,404,33,488,38,127,99,401,173,0,48
+Liver,Hemangioma,3458,303,72,469,77,59,160,555,193,0,21
+Liver,Intrahepatic bile duct dilatation,2933,170,53,336,48,29,100,682,106,0,38
+Liver,Metastasis,2024,103,27,177,18,56,45,321,121,0,26
+Liver,Irregular margin,1254,152,33,167,22,55,43,184,61,0,0
+Liver,Cirrhosis,958,117,20,174,13,50,26,203,47,0,33
+Liver,Undulating contour,731,9,17,16,5,31,8,114,15,0,0
+Liver,Periportal edema,562,7,0,17,0,0,13,52,0,0,0
+Liver,Hepatocellular carcinoma,173,20,12,46,15,14,14,70,32,0,16
+Liver,Intrahepatic cholangiocarcinoma,131,12,0,25,0,0,6,30,5,0,14
+Liver,Hepatolithiasis,109,26,0,24,0,6,8,55,0,0,16
+Liver,Hyperattenuating lesion in intrahepatic bile ducts,94,25,0,24,0,0,0,59,0,0,0
+Liver,Abscess,73,18,0,20,0,9,5,28,13,356,0
+Gallbladder,Hyperattenuating lesion,5240,615,111,677,101,71,193,1019,239,0,0
+Gallbladder,Cholecystolithiasis,4931,570,109,654,88,66,184,983,213,3729,28
+Gallbladder,Cholecystitis,3117,324,119,165,37,113,130,778,273,3151,31
+Gallbladder,Nodular stone-like hyperattenuating lesion,1833,165,55,260,20,13,66,204,15,0,7
+Gallbladder,Adenomyomatosis,1821,30,17,181,6,0,85,106,0,0,0
+Gallbladder,Extrahepatic bile duct dilatation,815,196,30,169,35,61,103,316,61,0,15
+Gallbladder,Distention,700,256,59,164,51,63,94,402,0,0,0
+Gallbladder,Extrahepatic bile duct stone,183,60,14,37,19,0,19,116,9,493,12
+Gallbladder,Extrahepatic bile duct wall thickening,129,11,6,22,0,0,15,28,6,0,0
+Gallbladder,Gallbladder cancer,48,0,0,18,0,0,0,6,0,0,10
+Gallbladder,Cholangiocarcinoma,40,7,0,12,0,0,0,10,0,0,2
+Gallbladder,Pneumobilia,33,0,0,14,0,0,9,28,0,0,0
+Gallbladder,Cholangitis,22,5,0,0,0,0,0,7,5,92,0
+Gallbladder,Xanthogranuloma,12,0,0,0,0,0,0,0,0,0,0
+Portal vein,Dilatation,544,43,11,82,0,0,24,68,36,0,0
+Portal vein,Hypertension,523,61,0,86,6,6,23,87,27,0,14
+Portal vein,Thrombosis,242,17,6,35,0,6,7,40,12,0,16
+Pancreas,Low-density lesion,2393,170,57,340,36,27,113,393,81,0,28
+Pancreas,Cyst,1234,70,16,211,20,10,44,230,24,0,0
+Pancreas,Pancreatic duct dilatation,980,120,24,210,23,38,75,295,41,0,16
+Pancreas,Pancreatitis,664,168,37,180,26,0,101,210,38,1736,14
+Pancreas,Enlargement,615,168,31,142,11,17,85,178,44,0,0
+Pancreas,Blurring of peripancreatic fat planes,529,128,41,106,8,7,80,155,44,0,14
+Pancreas,Atrophy,432,47,9,73,5,7,20,67,15,0,10
+Pancreas,Pancreatic cancer,416,47,13,104,8,23,33,83,20,0,8
+Pancreas,Pancreatic duct calculus,45,0,0,0,0,0,0,6,0,48,0
+Pancreas,Peripancreatic pseudocyst,39,0,0,8,0,0,5,6,0,0,0
+Spleen,Splenomegaly,3643,201,30,207,29,58,53,427,69,0,42
+Spleen,Hypoattenuating lesion,1831,151,33,220,18,38,82,297,113,0,0
+Spleen,Patchy hypoattenuating lesion,1768,152,34,205,21,38,81,297,105,0,0
+Spleen,Accessory spleen,788,69,14,37,0,11,48,282,166,0,0
+Spleen,Calcification,697,65,10,100,5,0,57,100,73,0,0
+Spleen,Infarction,224,11,0,17,0,0,11,15,6,0,14
+Spleen,Cyst,141,25,5,36,0,18,7,19,21,0,0
+Spleen,Lymphoma,45,0,0,5,0,0,0,0,0,0,0
+Stomach,Gastric cancer,832,16,14,59,12,5,16,109,83,0,5
+Stomach,Gastric fundal varices,706,63,11,58,0,0,11,91,21,0,22
+Stomach,Wall edema,317,7,0,34,0,0,63,31,0,0,0
+Stomach,Gastrointestinal stromal tumor (GIST),214,7,7,14,0,0,8,39,7,0,0
+Stomach,Ulcer,80,0,6,18,0,0,6,29,0,0,0
+Stomach,Dilatation,69,0,0,13,0,0,0,22,6,0,0
+Duodenum,Diverticulum,1942,59,35,153,19,0,47,315,10,0,13
+Duodenum,Saccular outpouching,1871,59,35,148,18,0,46,286,9,0,12
+Duodenum,Mass,223,0,0,27,0,0,6,26,6,0,0
+Duodenum,Obstruction,68,0,0,0,0,0,0,12,0,0,0
+Duodenum,Ulcer,10,0,0,0,0,0,0,0,0,0,0
+Small bowel,Mesenteric lymphadenopathy,1423,12,7,61,0,0,28,208,0,0,0
+Small bowel,Mesenteric panniculitis,812,31,15,77,8,0,21,124,0,0,0
+Small bowel,Gas and fluid accumulation,675,143,22,226,39,10,89,190,45,0,0
+Small bowel,Dilatation,483,148,18,209,37,13,49,150,45,0,19
+Small bowel,Wall thickening,462,46,18,177,6,10,84,111,27,0,11
+Small bowel,Obstruction,178,84,10,158,29,6,39,101,17,1962,13
+Small bowel,Gastrointestinal stromal tumor,90,0,0,11,0,0,0,18,0,0,0
+Small bowel,Enteritis,73,12,0,23,0,5,35,30,0,0,0
+Small bowel,Lipoma,62,0,0,5,0,0,7,24,0,0,0
+Small bowel,Lymphoma,42,0,0,0,0,0,0,0,0,0,0
+Small bowel,Intussusception,22,0,0,0,0,0,0,7,0,100,0
+Small bowel,Crohn's disease,21,0,0,28,0,0,0,0,0,0,0
+Small bowel,Volvulus,16,6,0,7,0,0,0,19,10,247,0
+Large bowel,Diverticulum,1148,53,28,224,30,0,95,309,10,0,0
+Large bowel,Serosal surface irregularity,771,7,15,28,0,0,32,103,39,0,0
+Large bowel,Colon cancer,771,37,8,106,15,10,35,123,36,0,19
+Large bowel,Wall irregularity,745,12,14,24,0,0,30,99,30,0,0
+Large bowel,Rectal cancer,693,27,7,30,15,8,25,78,36,0,16
+Large bowel,Appendicolith,608,49,0,45,0,0,141,147,0,0,0
+Large bowel,Wall edema,501,25,13,219,19,6,59,79,10,0,0
+Large bowel,Gas and fluid accumulation,350,34,8,51,23,0,18,108,26,0,0
+Large bowel,Blurring of fat planes,335,52,37,92,18,0,35,154,0,0,0
+Large bowel,Dilatation,279,46,6,84,15,12,14,101,33,0,19
+Large bowel,Mural calcification,165,29,0,56,0,0,6,42,0,0,0
+Large bowel,Appendicitis,112,38,13,25,15,0,21,56,10,503,16
+Large bowel,Obstruction,76,48,0,47,20,6,8,60,14,703,13
+Large bowel,Colitis,71,12,8,28,13,0,23,25,0,0,0
+Large bowel,Intussusception,35,7,0,7,0,0,0,17,0,90,3
+Large bowel,Perforation,27,7,9,13,0,0,7,23,0,366,4
+Large bowel,Ulcerative colitis,18,0,0,0,0,0,0,0,0,0,0
+Large bowel,Crohn's disease,10,0,0,10,0,0,0,0,0,0,0
+Adrenal gland,Hyperplasia,3279,114,19,126,0,6,172,363,0,0,0
+Adrenal gland,Nodule,2036,64,16,151,0,8,72,274,112,0,16
+Adrenal gland,Adenoma,737,27,9,97,0,5,33,59,34,0,4
+Adrenal gland,Metastasis,352,15,0,20,0,0,15,69,46,0,6
+Adrenal gland,Calcification,249,7,0,13,0,0,13,30,0,0,0
+Adrenal gland,Lipoma,81,0,0,10,0,0,0,5,0,0,0
+Kidney,Hypoattenuating lesion,21501,1551,360,2022,179,211,664,3245,763,0,0
+Kidney,Cyst,21374,1824,340,2049,175,202,685,3594,732,0,140
+Kidney,Hyperattenuating lesion,6201,557,130,623,94,85,244,923,0,0,0
+Kidney,Nephrolithiasis,5401,576,121,546,83,68,207,834,162,3715,40
+Kidney,Nonenhancing cystic lesion,1970,312,12,884,82,14,162,587,0,0,0
+Kidney,Renal pelvic dilatation,1134,59,31,76,21,28,21,147,66,0,0
+Kidney,Hydronephrosis,1088,70,29,80,21,30,18,157,51,0,14
+Kidney,Atrophy,571,54,14,47,11,6,10,62,32,0,0
+Kidney,Angiomyolipoma,356,42,12,62,0,6,18,53,0,0,0
+Kidney,Parenchymal thinning,206,7,0,0,0,0,0,17,5,0,0
+Kidney,Renal cell carcinoma,104,10,0,20,5,6,7,20,5,0,0
+Kidney,Polycystic kidney disease,38,5,0,0,0,0,0,12,0,0,0
+Kidney,Renal artery aneurysm,33,0,0,5,0,0,0,11,0,0,0
+Kidney,Renal pelvic cancer,15,0,0,0,0,0,0,0,0,0,0
+Sacrum,Osteitis,193,7,0,14,0,0,11,18,0,0,0
+Bladder,Stone,323,29,7,51,0,6,13,97,8,319,13
+Bladder,Wall irregularity,319,0,0,20,0,0,25,47,0,0,0
+Bladder,Diverticulum,274,9,6,33,12,5,9,78,12,0,0
+Bladder,Cystitis,172,0,0,26,16,0,52,33,0,0,0
+Bladder,Bladder cancer,88,5,0,6,16,0,0,0,0,0,16
+Bladder,Soft-tissue attenuation lesion,53,0,0,0,0,0,0,7,0,0,0
+Esophagus,Dilated and tortuous tubular opacities,612,42,6,57,0,0,6,67,21,0,20
+Esophagus,Dilated and tortuous veins,607,41,6,57,0,0,6,67,19,0,19
+Esophagus,Varices,595,41,6,56,0,0,6,67,18,0,19
+Esophagus,Hiatal hernia,175,10,0,19,0,0,11,39,19,0,13
+Esophagus,Wall thickening,168,9,0,17,0,5,10,63,56,0,0
+Lung,Hyperattenuating opacity,3419,58,67,232,10,30,173,2139,0,0,0
+Lung,Pleural effusion,2465,85,41,245,9,60,76,934,203,90,26
+Lung,Pulmonary collapse,1086,6,0,52,0,0,12,355,124,0,0
+Lung,Atelectasis,1082,5,0,54,0,0,11,357,164,0,12
+Lung,Nodule,1062,26,23,56,0,17,37,1515,1055,0,17
+Lung,Patchy opacity,1031,23,39,62,0,9,88,1236,0,0,0
+Lung,Mass,813,22,6,39,0,15,17,1076,0,0,18
+Lung,Metastasis,309,9,0,15,0,6,0,132,58,0,12
+Lung,Calcification,82,0,0,7,0,0,13,406,0,0,0
+Lung,Pneumothorax,13,0,0,0,0,0,0,95,32,0,0
+Heart,Pericardial effusion,506,17,6,52,0,25,24,329,137,0,16
+Heart,Cardiomegaly,96,6,0,56,0,43,16,505,50,0,0
+Aorta,Calcification,3126,82,11,28,16,5,58,240,237,0,0
+Aorta,Atherosclerosis,1752,34,0,35,28,0,58,0,0,0,0
+Aorta,Aortic aneurysm,128,10,0,9,0,0,0,66,15,0,9
+Aorta,Aortic dissection,68,7,0,6,0,0,0,33,0,0,8
+Rib,Metastasis,72,0,0,0,0,0,0,35,15,0,0
+Rib,Bone destruction,47,0,0,0,0,0,0,60,15,0,0
+Rib,Fracture,45,17,0,17,0,0,8,393,0,0,0

@@ -1,0 +1,31 @@
+finding,scope,out_of_scope_reason,biomedclip_auc,medgemma15_auc,lingshu_auc,radar_auc,merlin_auc,radar_plus_auc
+renal hypodensities,in_scope,,0.484,0.523,0.506,0.912,0.76,0.906
+renal cyst,in_scope,,0.523,0.644,0.548,0.942,0.81,0.944
+abdominal aortic aneurysm,in_scope,,0.575,0.5,0.552,0.99,0.771,0.996
+hiatal hernia,in_scope,,0.584,0.506,0.559,0.86,0.789,0.886
+cardiomegaly,in_scope,,0.776,0.574,0.603,0.876,0.832,0.903
+splenomegaly,in_scope,,0.573,0.7,0.511,0.968,0.925,0.979
+pleural effusion,in_scope,,0.808,0.577,0.746,0.958,0.905,0.981
+hepatic steatosis,in_scope,,0.458,0.595,0.575,0.893,0.641,0.902
+appendicitis,in_scope,,0.456,0.5,0.461,0.761,0.694,0.839
+gallstones,in_scope,,0.525,0.511,0.552,0.918,0.752,0.947
+pancreatic atrophy,in_scope,,0.505,0.505,0.458,0.934,0.782,0.94
+bowel obstruction,in_scope,,0.613,0.537,0.68,0.97,0.857,0.977
+atelectasis,in_scope,,0.472,0.479,0.496,0.709,0.838,0.861
+biliary ductal dilation,in_scope,,0.644,0.54,0.634,0.87,0.772,0.95
+hepatomegaly,in_scope,,0.494,0.623,0.624,0.901,0.843,0.863
+surgically absent gallbladder,in_scope,,0.483,0.502,0.5,0.923,0.981,0.938
+hydronephrosis,in_scope,,0.702,0.552,0.642,0.879,0.736,0.939
+submucosal edema,in_scope,,0.592,0.5,0.612,0.888,0.869,0.884
+atherosclerosis,in_scope,,0.587,0.672,0.62,0.872,0.946,0.891
+fracture,in_scope,,0.621,0.615,0.687,0.683,0.671,0.774
+aortic valve calcification,in_scope,,0.584,0.499,0.628,0.843,0.889,0.975
+thrombosis,out_of_scope,Lack a clear anatomy association (n = 7),0.667,0.525,0.568,,0.643,0.592
+metastatic disease,out_of_scope,Lack a clear anatomy association (n = 7),0.719,0.676,0.826,,0.786,0.956
+osteopenia,out_of_scope,Lack a clear anatomy association (n = 7),0.726,0.505,0.617,,0.949,0.852
+anasarca,out_of_scope,Lack a clear anatomy association (n = 7),0.779,0.508,0.82,,0.954,0.893
+lymphadenopathy,out_of_scope,Lack a clear anatomy association (n = 7),0.583,0.585,0.733,,0.78,0.648
+ascites,out_of_scope,Lack a clear anatomy association (n = 7),0.818,0.698,0.59,,0.887,0.895
+free air,out_of_scope,Lack a clear anatomy association (n = 7),0.644,0.497,0.443,,0.84,0.758
+coronary calcification,out_of_scope,Absence of anatomy segmentation capability (n = 2),0.53,0.598,0.685,,0.828,0.831
+prostatomegaly,out_of_scope,Absence of anatomy segmentation capability (n = 2),0.521,0.509,0.748,,0.765,0.583
