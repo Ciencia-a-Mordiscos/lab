@@ -1,0 +1,329 @@
+{
+  "version": "1.0",
+  "paper_id": 3023,
+  "doi": "10.1126/science.adx5917",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La sismicidad persistió y se intensificó durante años tras el 6.º test (2017): 60 sismos antes vs 1.339 después, 6,6 → 174,9 sismos/año (×26,7); 2018 → 2023: 54 → 263 (×4,9)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "ratio_tasa_post_pre",
+      "certainty_tier": "T1",
+      "abstract_verb": "persisted and intensified",
+      "detail": "Catálogo inicial (Data S1). Tasa pre depende del pool de plantillas; se sostiene por encima de Mc 1,3 (33 → 205, ×6,2)"
+    },
+    {
+      "claim": "No es una secuencia de réplicas breve: la actividad sostenida empezó 20 días después del 6.º test (3 sismos aislados el 3-sep-2017, luego nada hasta el 23-sep-2017)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "dias_test6_a_sismicidad_sostenida",
+      "certainty_tier": "T1",
+      "abstract_verb": "delayed",
+      "detail": "Coincide con el suplementario ('about 20 days'). Data S2 tiene exactamente 1 relocalizado entre el test y el 23-sep"
+    },
+    {
+      "claim": "Antes de 2017 la actividad era intermitente, ligada a cada explosión: 12 sismos relocalizados tras el 3.º test, 18 tras el 4.º, 2 tras el 5.º; el primero 14,9 semanas tras el 3.º test",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "reloc_tras_test3",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveals",
+      "detail": "Exacto vs suplementario (12/18/2; ~15 weeks). Data S2"
+    },
+    {
+      "claim": "Los sismos crecieron en magnitud: máximo pre-test M 2,3, post-test M 3,4; los 9 sismos M ≥ 3 ocurren entre 2022-02-11 y 2024-11-09",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "mag_max_post_test6",
+      "certainty_tier": "T1",
+      "abstract_verb": "intensified",
+      "detail": "Data S1. ×44,7 en energía entre M 2,3 y M 3,4"
+    },
+    {
+      "claim": "El aumento no se debe a mejor detección: la tendencia se mantiene por encima del umbral de completitud (Mc 1,3 del paper; 1,2 por máxima curvatura) y el sesgo nocturno se concentra en M < 1,3 (65,1% de noche vs 33,9% en M > 1,3)",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "por_anio_M_ge_1p3",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveals",
+      "detail": "Suplementario: 'not driven by improved detection'; fig. S12 sesgo diurno solo en pequeños"
+    },
+    {
+      "claim": "Los sismos siguen la ley de Gutenberg-Richter con b = 1,11 ± 0,04 (Aki MLE, M ≥ 1,3, n = 814); el paper reporta 1,14",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "b_value_mle",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "detail": "Diferencia 2,8%. 90,5% de los sismos son M < 2; mediana 1,3 (IQR 1,1-1,6)"
+    },
+    {
+      "claim": "La sismicidad se organiza en dos lineaciones NNW controladas por fallas",
+      "supported": "partial",
+      "supported_by_data": true,
+      "metric": "pca_azimut_post2017_grados",
+      "certainty_tier": "T1",
+      "abstract_verb": "evolving from diffuse activity to spatially organized distribution",
+      "detail": "Nube post-2017: mediana 9,9 km del test, 52,0% a ≤ 10 km, 15,2% a ≤ 5 km. PCA global da eje mayor 144-161° (NNW-SSE) con elongación 1,4-1,8: compatible en orientación, no separa dos lineaciones"
+    },
+    {
+      "claim": "Las fallas son someras y se agrupan bajo topografía asimétrica, indicando redistribución de esfuerzos",
+      "supported": "partial",
+      "supported_by_data": false,
+      "metric": null,
+      "certainty_tier": "T2",
+      "abstract_verb": "indicating",
+      "detail": "Profundidades no restringidas (65,7% del catálogo inicial con profundidad fija −2,1 km). Sin DEM ni modelo de esfuerzos: interpretación del paper"
+    },
+    {
+      "claim": "Las explosiones causaron la reactivación de fallas",
+      "supported": "partial",
+      "supported_by_data": false,
+      "metric": null,
+      "certainty_tier": "T2",
+      "abstract_verb": "can drive",
+      "detail": "Asociación temporal fuerte, no mecanismo. El paper: 'can drive, under specific geological conditions'. 25 sismos históricos 1424-1810 en 200 km (máx M 6,7 en 1810; 5 de M ≥ 5): la corteza ya rompía sola"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 1399,
+      "unit": "sismos",
+      "metric": "n_total_inicial",
+      "context": "catálogo inicial matched-filter, 2008-07-08 → 2025-05-01",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1399 (SM); 'about 1400' (Editor's summary)",
+        "our_calculation": "1399",
+        "discrepancy_pct": 0.0,
+        "reason": "transcripción del SM"
+      }
+    },
+    {
+      "value": 955,
+      "unit": "sismos",
+      "metric": "n_relocalizados",
+      "context": "relocalizados con hypoDD (Data S2)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "955 (SM)",
+        "our_calculation": "955",
+        "discrepancy_pct": 0.0,
+        "reason": "transcripción del SM"
+      }
+    },
+    {
+      "value": 60,
+      "unit": "sismos",
+      "metric": "n_pre_test6",
+      "context": "antes del 6.º test (2017-09-03 03:30 UTC)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1339,
+      "unit": "sismos",
+      "metric": "n_post_test6",
+      "context": "después del 6.º test",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 95.7,
+      "unit": "por ciento",
+      "metric": "pct_post_test6",
+      "context": "fracción del catálogo posterior al 6.º test",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.6,
+      "unit": "sismos por año",
+      "metric": "tasa_pre_por_anio",
+      "context": "tasa antes del 6.º test (9,15 años)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 174.9,
+      "unit": "sismos por año",
+      "metric": "tasa_post_por_anio",
+      "context": "tasa después del 6.º test (7,66 años)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26.7,
+      "unit": "veces",
+      "metric": "ratio_tasa_post_pre",
+      "context": "ratio de tasas después/antes (sin redondeo intermedio)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.9,
+      "unit": "veces",
+      "metric": "ratio_2023_2018",
+      "context": "sismos 2018 (54) → 2023 (263)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 20,
+      "unit": "días",
+      "metric": "dias_test6_a_sismicidad_sostenida",
+      "context": "del 6.º test al inicio de la sismicidad sostenida (23-sep-2017)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "about 20 days (SM)",
+        "our_calculation": "20",
+        "discrepancy_pct": 0.0,
+        "reason": "transcripción del SM"
+      }
+    },
+    {
+      "value": 1.11,
+      "unit": "valor b",
+      "metric": "b_value_mle",
+      "context": "Gutenberg-Richter, Aki MLE, M ≥ 1,3, n = 814, ± 0,04",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.14 (ZMAP)",
+        "our_calculation": "1.11",
+        "discrepancy_pct": 2.8,
+        "reason": "Aki MLE vs ZMAP"
+      }
+    },
+    {
+      "value": 90.5,
+      "unit": "por ciento",
+      "metric": "pct_M_lt_2",
+      "context": "sismos con M < 2",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "primarily <2.0 (SM)",
+        "our_calculation": "90.5",
+        "discrepancy_pct": 0.0,
+        "reason": "transcripción del SM"
+      }
+    },
+    {
+      "value": 9,
+      "unit": "sismos",
+      "metric": "n_M_ge_3",
+      "context": "sismos M ≥ 3, todos entre 2022-02-11 y 2024-11-09",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.4,
+      "unit": "magnitud local",
+      "metric": "mag_max_post_test6",
+      "context": "mayor sismo tras el 6.º test (2024-11-09); antes del test: 2,3",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.9,
+      "unit": "km",
+      "metric": "dist_test6_mediana_km",
+      "context": "distancia mediana al 6.º test, relocalizados post-2017 (n = 923), IQR 6,9-13,1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 65.1,
+      "unit": "por ciento",
+      "metric": "pct_noche_M_lt_1p3",
+      "context": "sismos M < 1,3 detectados 22:00-06:00 KST (esperado 33,3%); M > 1,3: 33,9%",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "SM fig. S12: sesgo diurno solo en pequeños",
+        "our_calculation": "65.1",
+        "discrepancy_pct": 0.0,
+        "reason": "transcripción del SM"
+      }
+    },
+    {
+      "value": 25,
+      "unit": "sismos históricos",
+      "metric": "n_historicos",
+      "context": "1424-1810 en 200 km (Table S1); máximo M 6,7 en 1810, 5 de M ≥ 5",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "25 (Table S1)",
+        "our_calculation": "25",
+        "discrepancy_pct": 0.0,
+        "reason": "transcripción del SM"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: \"revela\""
+    },
+    {
+      "abstract_verb": "challenge",
+      "tier": "T2",
+      "cam_attenuator": "\"desafía la expectativa\" — meta-claim de los autores",
+      "warning": "NO \"derriba\"/\"refuta\""
+    },
+    {
+      "abstract_verb": "can",
+      "tier": "T2",
+      "cam_attenuator": "\"puede\" — condicional al contexto geológico",
+      "warning": "conservar \"under specific geological conditions\""
+    },
+    {
+      "abstract_verb": "indicating",
+      "tier": "T2",
+      "cam_attenuator": "\"lo que indica\" / \"los autores interpretan como\" redistribución de esfuerzos",
+      "warning": "la redistribución de esfuerzos es INTERPRETACIÓN, no medición del catálogo"
+    },
+    {
+      "abstract_verb": "persisted and intensified",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — es lo que el catálogo muestra"
+    }
+  ],
+  "narrative_hooks": [
+    "Seis bombas nucleares bajo una montaña. La última fue en 2017. La montaña sigue temblando.",
+    "1.399 sismos en 17 años; el 95,7% después de la última explosión.",
+    "No es una réplica: la sismicidad sostenida empezó 20 días después y en 2023 hubo casi cinco veces más sismos que en 2018.",
+    "Los 9 sismos de magnitud 3 o más llegaron todos entre 2022 y 2024, cinco a siete años después del último test.",
+    "La montaña no tiembla más de noche: la oímos mejor (65% de los sismos pequeños se detectan de noche)."
+  ],
+  "limitations": [
+    "Paper de acceso restringido: cross-checks contra material suplementario y resumen editorial, no contra el texto principal",
+    "La tasa 'antes' depende del pool de plantillas del detector; tasas pre-2013 muy inciertas",
+    "Profundidades del catálogo no restringidas (65,7% fijas): no usar",
+    "Lineaciones NNW: PCA global solo compatible en orientación; no verificadas de forma independiente",
+    "Sismos históricos 1424-1810 vienen de crónicas (intensidad → magnitud) con incertidumbre grande",
+    "Observacional: asociación temporal, no mecanismo causal; sin sitio de control"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "6 claims verificados, 17 números clave"
+  },
+  "notebook_slug": "2026-09-17-mt-mantap-pruebas-nucleares-fallas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-17-mt-mantap-pruebas-nucleares-fallas/notebook.html",
+  "generated_at": "2026-09-18T15:59:06.923753+00:00"
+}

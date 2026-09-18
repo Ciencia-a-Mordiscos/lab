@@ -400,6 +400,11 @@ parts:
       title: Notebook
 - caption: Geología
   chapters:
+  - file: papers/2026-09-17-mt-mantap-pruebas-nucleares-fallas/README
+    title: "Monte Mantap sigue temblando"
+    sections:
+    - file: papers/2026-09-17-mt-mantap-pruebas-nucleares-fallas/notebook
+      title: Notebook
   - file: papers/2026-09-11-hunga-caldera-colapso-submarino/README
     title: "Colapso de la caldera de Hunga"
     sections:

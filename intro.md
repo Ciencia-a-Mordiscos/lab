@@ -14,6 +14,20 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Seis bombas nucleares bajo una montaña, y la montaña sigue temblando
+
+**Geología** · *Science* · Seis explosiones nucleares bajo el monte Mantap (2006-2017) y un catálogo de
+17 años con 1.399 sismos locales: el 95,7% ocurrió después de la última. La
+tasa pasa de 6,6 a 174,9 sismos/año (×26,7) y sigue subiendo: 54 en 2018,
+263 en 2023, también por encima del umbral de completitud. Los 9 sismos M ≥ 3
+llegaron entre 2022 y 2024; valor b = 1,11, sismos tectónicos de manual.
+⚠️ Las lineaciones NNW y la causalidad son lectura de los autores; el
+catálogo muestra asociación temporal.
+
+[Ver notebook](papers/2026-09-17-mt-mantap-pruebas-nucleares-fallas/notebook) · [Leer más](papers/2026-09-17-mt-mantap-pruebas-nucleares-fallas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-17-mt-mantap-pruebas-nucleares-fallas/notebook.ipynb)
+
+---
+
 ### Un ratón con el córtex casi entero de células humanas. ¿Camina igual?
 
 **Neurociencia** · *Nature* · Vaciaron el córtex de un ratón de sus neuronas excitadoras y lo rellenaron con organoides humanos: a los 3 meses el 91,9% del tejido cortical era humano y el injerto había crecido 4,7× en un mes (mediana 3,77×). La velocidad de carrera no cambia (p = 0,85) pero sí la coordinación de las patas (p = 0,0039), y los xenocorticales alternan en el laberinto por encima del azar. ⚠️ El mapa espacial MERFISH de Zenodo se descartó: anotación colapsada por bloques.
