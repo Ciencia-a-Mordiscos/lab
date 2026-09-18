@@ -1,0 +1,3501 @@
+condado,estado,ibd_medio_cm,grupo_ancestria
+Dade,Georgia,0.306801482439152,All
+Winston,Alabama,0.284744503605847,All
+Lee,Alabama,0.283566490802081,All
+Clay,Alabama,0.280220789313318,All
+Jackson,Colorado,0.27721903959039,All
+Clay,Kentucky,0.276452580377889,All
+Jackson,Alabama,0.275614327873932,All
+Yancey,North Carolina,0.27061533340827,All
+Etowah,Alabama,0.269189325672732,All
+King,Texas,0.266763306038225,All
+Leslie,Kentucky,0.263295568425701,All
+Cherokee,Alabama,0.260175067514733,All
+Forsyth,Georgia,0.257114011190358,All
+Glasscock,Texas,0.249010439943084,All
+Lauderdale,Alabama,0.248284343980104,All
+Grainger,Tennessee,0.2482372530259,All
+Stokes,North Carolina,0.248162783068929,All
+Ozark,Missouri,0.247866367796883,All
+Granville,North Carolina,0.246587514726078,All
+Elbert,Georgia,0.245293408797985,All
+Latimer,Oklahoma,0.243874902416904,All
+Halifax,Virginia,0.24143732080643,All
+Roberts,Texas,0.238393470041781,All
+Howell,Missouri,0.237899919448267,All
+Morgan,Tennessee,0.236803738271511,All
+Clay,North Carolina,0.236723278109205,All
+Macon,North Carolina,0.23575945796451,All
+Patrick,Virginia,0.235122122038973,All
+Lanier,Georgia,0.23507903589949,All
+Newton,Arkansas,0.235048421929789,All
+Cullman,Alabama,0.23376121725402,All
+Fentress,Tennessee,0.233680438076575,All
+McCreary,Kentucky,0.232157188193251,All
+Kent,Texas,0.231954741485683,All
+Pickens,Georgia,0.231901912122856,All
+Perry,Arkansas,0.2295761585714,All
+Barrow,Georgia,0.229005548925135,All
+Faulkner,Arkansas,0.227728746459539,All
+Prentiss,Mississippi,0.22716166734066,All
+Crane,Texas,0.227016883563618,All
+Magoffin,Kentucky,0.225724233735412,All
+Hickman,Tennessee,0.225684385517894,All
+Trinity,Texas,0.224997233281378,All
+Rabun,Georgia,0.224408477870553,All
+Laclede,Missouri,0.224356247317691,All
+Franklin,Tennessee,0.224029826780763,All
+Dallas,Arkansas,0.223235938051078,All
+Stone,Arkansas,0.222851212233398,All
+Coryell,Texas,0.222518693646137,All
+Glades,Florida,0.222353922089407,All
+Sterling,Texas,0.222131181534158,All
+Walthall,Mississippi,0.221745496242691,All
+George,Mississippi,0.221677857084238,All
+Hall,Georgia,0.221439856995188,All
+Perry,Kentucky,0.22068283749035,All
+Knox,Kentucky,0.220443226467113,All
+Breathitt,Kentucky,0.219843285866313,All
+Cottle,Texas,0.219577482116791,All
+Allen,Kentucky,0.21898650851634,All
+Morgan,Alabama,0.218828206746104,All
+Ward,Texas,0.218609245436837,All
+Madison,North Carolina,0.218582918473807,All
+Scott,Arkansas,0.218493123400032,All
+Pontotoc,Mississippi,0.217420873279236,All
+Titus,Texas,0.217011535212876,All
+Alleghany,North Carolina,0.216902266758754,All
+Marion,Tennessee,0.215962258444539,All
+Murray,Georgia,0.215518520375042,All
+Jefferson,Alabama,0.215281943993992,All
+Monroe,Mississippi,0.214565842084715,All
+Garland,Arkansas,0.214229650507679,All
+Citrus,Florida,0.21421232915144,All
+Izard,Arkansas,0.213925961351529,All
+Echols,Georgia,0.213746164481476,All
+Henderson,Tennessee,0.213633357689486,All
+Transylvania,North Carolina,0.213408232615539,All
+Iron,Missouri,0.213357846635226,All
+Union,Tennessee,0.212996449720524,All
+Bedford,Virginia,0.212597405963825,All
+Lincoln,Tennessee,0.212250184614993,All
+Jackson,Kentucky,0.211951429799044,All
+Morgan,Kentucky,0.211879824935449,All
+McMinn,Tennessee,0.211573764777797,All
+Blount,Alabama,0.211317342367718,All
+Ashe,North Carolina,0.210957462263908,All
+Dixie,Florida,0.210704674243554,All
+Casey,Kentucky,0.210384212012176,All
+Forrest,Mississippi,0.21037193285754,All
+McCulloch,Texas,0.210297764724995,All
+Cocke,Tennessee,0.210203678835934,All
+Calloway,Kentucky,0.209973119460974,All
+Hardin,Tennessee,0.209836791834291,All
+Nacogdoches,Texas,0.209806023037833,All
+Henderson,North Carolina,0.208690579466491,All
+Webster,Mississippi,0.208686929854873,All
+Decatur,Tennessee,0.208024555611024,All
+Madison,Virginia,0.20703252296885,All
+Concho,Texas,0.206899553525918,All
+Cannon,Tennessee,0.206689974428422,All
+Coahoma,Mississippi,0.20624326140725,All
+Carroll,Tennessee,0.206089504366108,All
+Meriwether,Georgia,0.205881135879236,All
+Charlton,Georgia,0.205290655006863,All
+Edwards,Texas,0.20448213950452,All
+Montgomery,Arkansas,0.204117516050942,All
+Bradley,Tennessee,0.203801605592854,All
+Laurel,Kentucky,0.203751484285364,All
+Oldham,Kentucky,0.203493734710951,All
+Whitfield,Georgia,0.203198170043252,All
+Calhoun,Florida,0.202820486243431,All
+Henry,Tennessee,0.202717708279257,All
+Poinsett,Arkansas,0.202690592189984,All
+Wayne,Kentucky,0.202610523095231,All
+Pushmataha,Oklahoma,0.202116111317959,All
+Walker,Georgia,0.201968545052512,All
+Pulaski,Kentucky,0.201931216153211,All
+Gordon,Georgia,0.201612847234599,All
+Surry,North Carolina,0.201597042699809,All
+Franklin,Georgia,0.201498249049621,All
+Greenville,South Carolina,0.201320093994136,All
+Claiborne,Tennessee,0.20128393092002,All
+Catoosa,Georgia,0.201231364168373,All
+Habersham,Georgia,0.20104709517904,All
+Cotton,Oklahoma,0.200899655001429,All
+Childress,Texas,0.20085847638849,All
+Burleigh,North Dakota,0.200706172253382,All
+Jeff Davis,Georgia,0.200566948393035,All
+Union,Georgia,0.200323394640705,All
+Cherokee,North Carolina,0.200169888580806,All
+Warren,Kentucky,0.20002193282751,All
+Fayette,Alabama,0.199957311347527,All
+Caldwell,North Carolina,0.199888397220072,All
+Adair,Kentucky,0.199736433290379,All
+Tishomingo,Mississippi,0.19875194545394,All
+Fayette,Georgia,0.198579512794351,All
+Wilkes,North Carolina,0.198492070569043,All
+Rutherford,Tennessee,0.198198654125238,All
+Buchanan,Virginia,0.19799508515991,All
+Watauga,North Carolina,0.197988875549308,All
+Colbert,Alabama,0.197891813850221,All
+Wolfe,Kentucky,0.197780557685696,All
+Carroll,Georgia,0.1977208925919,All
+Lea,New Mexico,0.197421877119117,All
+Pittsylvania,Virginia,0.197314679880001,All
+Tuscaloosa,Alabama,0.197268317960608,All
+Whitley,Kentucky,0.197261785967123,All
+Wayne,West Virginia,0.197098704071445,All
+Lee,Kentucky,0.197076104865925,All
+Randolph,Alabama,0.197057398507988,All
+Campbell,Virginia,0.196674074620432,All
+Cleveland,Arkansas,0.19640154990025,All
+Boyle,Kentucky,0.196105230833918,All
+Van Buren,Arkansas,0.195972973443665,All
+DeKalb,Alabama,0.195734983344462,All
+Cumberland,Tennessee,0.195594317095552,All
+Yell,Arkansas,0.195281407804945,All
+Gilmer,Georgia,0.195248818623975,All
+Pike,Georgia,0.195137164127046,All
+Oconee,South Carolina,0.195087066048593,All
+Hot Spring,Arkansas,0.194953585395812,All
+Trigg,Kentucky,0.194929634687186,All
+Hockley,Texas,0.194917780226735,All
+Russell,Kentucky,0.194896204165146,All
+Clark,Arkansas,0.194715576782573,All
+Hartley,Texas,0.194518773933317,All
+Polk,North Carolina,0.193615727884256,All
+Rockcastle,Kentucky,0.192664356786092,All
+Parker,Texas,0.192578829303828,All
+Union,Mississippi,0.19245697043231,All
+Person,North Carolina,0.192435131808644,All
+Madison,Georgia,0.19218319940628,All
+Giles,Tennessee,0.192182115193652,All
+Cumberland,Kentucky,0.192077254616693,All
+Fulton,Arkansas,0.192070855866648,All
+Knott,Kentucky,0.191948206031757,All
+Coffee,Georgia,0.191772182219403,All
+Stephens,Georgia,0.191761209957533,All
+Scott,Virginia,0.191485787356064,All
+Haywood,North Carolina,0.191431911715528,All
+Smith,Tennessee,0.191007262620446,All
+Ralls,Missouri,0.19099582341532,All
+Bell,Kentucky,0.190950076343699,All
+Paulding,Georgia,0.190786493744879,All
+Kerr,Texas,0.190785632780818,All
+McDowell,North Carolina,0.190328796309067,All
+Throckmorton,Texas,0.190056259440212,All
+Irwin,Georgia,0.189949237999012,All
+Unicoi,Tennessee,0.189903408590439,All
+Lawrence,Tennessee,0.189825408765905,All
+Cherokee,Georgia,0.18969235983784,All
+Cleburne,Arkansas,0.189582164049639,All
+Charlotte,Virginia,0.189564581720445,All
+Scott,Tennessee,0.189380255243946,All
+Crenshaw,Alabama,0.189168465610531,All
+Meade,Kentucky,0.189056128524848,All
+Monroe,Georgia,0.189054156169727,All
+Todd,Kentucky,0.188970812066814,All
+Irion,Texas,0.188575901113033,All
+St. Clair,Alabama,0.187987500914475,All
+Coosa,Alabama,0.187769313628396,All
+Webster,Georgia,0.18776738842332,All
+Cleburne,Alabama,0.187727065258434,All
+Cimarron,Oklahoma,0.187698986436042,All
+Saline,Arkansas,0.187697921018264,All
+Lamar,Mississippi,0.18766119794444,All
+Warren,Tennessee,0.187405075670381,All
+Campbell,Tennessee,0.187085338451054,All
+Anderson,Texas,0.187072771108524,All
+Benton,Tennessee,0.186998176472193,All
+Houston,Texas,0.186973233138197,All
+Stonewall,Texas,0.186914769649357,All
+Calhoun,Mississippi,0.186896754513484,All
+Washington,Georgia,0.186890438896149,All
+Marshall,Oklahoma,0.18685844006267,All
+Boone,Missouri,0.186835649583278,All
+Marshall,Kentucky,0.186477063093154,All
+Humphreys,Tennessee,0.186473545665965,All
+Logan,West Virginia,0.186415434484005,All
+Nelson,Virginia,0.186207956659079,All
+Greene,Mississippi,0.186151135732781,All
+Monroe,Tennessee,0.18599628592193,All
+Grayson,Texas,0.185952989515397,All
+Palo Pinto,Texas,0.185839676963019,All
+Pike,Kentucky,0.185815335070078,All
+Limestone,Alabama,0.185754795866854,All
+Dickens,Texas,0.185713297546434,All
+Sequatchie,Tennessee,0.185573913290796,All
+Santa Rosa,Florida,0.185490324372875,All
+Houston,Alabama,0.185465628857865,All
+Pontotoc,Oklahoma,0.185358633466786,All
+Bartow,Georgia,0.185124931070114,All
+Independence,Arkansas,0.185115109274217,All
+Floyd,Kentucky,0.184795052461599,All
+Bay,Florida,0.184785974263911,All
+Howard,Arkansas,0.18471942010812,All
+White,Arkansas,0.184680556530531,All
+Bland,Virginia,0.184388221959838,All
+Bacon,Georgia,0.18417559317699,All
+Polk,Arkansas,0.184065703053927,All
+Roger Mills,Oklahoma,0.18393963867435,All
+Dent,Missouri,0.183788212905988,All
+McCurtain,Oklahoma,0.183769618450747,All
+Gilchrist,Florida,0.183744302982433,All
+Potter,Texas,0.183656611110641,All
+Coleman,Texas,0.183627590515938,All
+Towns,Georgia,0.183615560345037,All
+Montgomery,North Carolina,0.183363642808407,All
+Union,South Carolina,0.183340777912935,All
+Jackson,Georgia,0.183261094364806,All
+Jones,Mississippi,0.183260641234268,All
+Lee,Florida,0.183227563568645,All
+Overton,Tennessee,0.183121576310982,All
+Denton,Texas,0.183096113247264,All
+Cooke,Texas,0.183077953562153,All
+Terry,Texas,0.183065366643282,All
+Butler,Kentucky,0.183056171262669,All
+Elliott,Kentucky,0.182930630246318,All
+Lewis,Tennessee,0.182572525184246,All
+Wayne,Mississippi,0.182468216146059,All
+Hopkins,Texas,0.182400504479394,All
+Carson,Texas,0.182381267203072,All
+Franklin,Alabama,0.182143874149416,All
+Muscogee,Georgia,0.182104407395636,All
+Carroll,Virginia,0.182100215034803,All
+Collingsworth,Texas,0.181959964967597,All
+Tate,Mississippi,0.181910904394624,All
+Oldham,Texas,0.181865287538153,All
+Clay,Texas,0.181633352844182,All
+Oglethorpe,Georgia,0.181574377960754,All
+Marshall,Alabama,0.181545483775504,All
+Motley,Texas,0.181479317275885,All
+Cherokee,Oklahoma,0.181460306513065,All
+Comanche,Texas,0.181444403672325,All
+Caswell,North Carolina,0.181433748373887,All
+Lawrence,Alabama,0.181380601040795,All
+Hanover,Virginia,0.181299207346763,All
+Roosevelt,New Mexico,0.181224064556085,All
+Okeechobee,Florida,0.181090092225869,All
+Shelby,Texas,0.18104562679883,All
+Stone,Missouri,0.180820760286397,All
+Oregon,Missouri,0.1808070265382,All
+Hawkins,Tennessee,0.180797206181605,All
+Owsley,Kentucky,0.180576619336806,All
+Lauderdale,Mississippi,0.179914820709271,All
+Bosque,Texas,0.179887320965194,All
+Alcorn,Mississippi,0.179882369610813,All
+Jack,Texas,0.179840536390082,All
+Franklin,North Carolina,0.179792471806878,All
+Stewart,Tennessee,0.179587263264524,All
+Stanly,North Carolina,0.179453883828601,All
+Neshoba,Mississippi,0.179383760122637,All
+Pickett,Tennessee,0.179355744554892,All
+Heard,Georgia,0.179278048481638,All
+Ripley,Missouri,0.17903450096786,All
+Craighead,Arkansas,0.178877742984622,All
+Clay,Mississippi,0.178711658913417,All
+Franklin,Texas,0.178704822629475,All
+Hopkins,Kentucky,0.178680069645444,All
+Durham,North Carolina,0.178672005631276,All
+Taney,Missouri,0.178631110869007,All
+Tallapoosa,Alabama,0.178579559806248,All
+Dawson,Texas,0.178446858498186,All
+Walton,Florida,0.178401431313986,All
+Mitchell,North Carolina,0.178393977132403,All
+Coke,Texas,0.178250980342013,All
+Chambers,Alabama,0.178178681384751,All
+Shelby,Alabama,0.177963159276151,All
+Jackson,North Carolina,0.177954700427808,All
+Real,Texas,0.177906903550022,All
+Lyon,Kentucky,0.177698686263754,All
+Clay,Arkansas,0.177501852308263,All
+Navarro,Texas,0.177342361368187,All
+Colquitt,Georgia,0.177321072536825,All
+Blount,Tennessee,0.177068803310903,All
+Marion,Arkansas,0.176849317139849,All
+Dyer,Tennessee,0.176841396823451,All
+Marshall,Tennessee,0.176771506111848,All
+Donley,Texas,0.176651252969384,All
+Greene,Arkansas,0.176566515114268,All
+Polk,Tennessee,0.176566189914731,All
+Craig,Virginia,0.176531704575708,All
+Stone,Mississippi,0.176525546551411,All
+Graves,Kentucky,0.176280693824348,All
+Monroe,Kentucky,0.176269705583255,All
+Washington,Alabama,0.176253701360041,All
+Baylor,Texas,0.176209907181701,All
+Christian,Missouri,0.176041729299772,All
+Escambia,Florida,0.175949389188864,All
+Greene,North Carolina,0.175946298945418,All
+Hutchinson,Texas,0.175889777091304,All
+Graham,North Carolina,0.175745290628488,All
+Lamar,Texas,0.175681094205844,All
+Cherokee,Texas,0.175614520825515,All
+Roane,Tennessee,0.175351983216024,All
+Leake,Mississippi,0.175272867854317,All
+Madison,Kentucky,0.175258862224653,All
+Oconee,Georgia,0.175170508461812,All
+Washington,Virginia,0.175164872648099,All
+Curry,New Mexico,0.175158733783372,All
+Haskell,Oklahoma,0.175032674706098,All
+Love,Oklahoma,0.175021473357524,All
+Garrard,Kentucky,0.174917719999669,All
+Rutherford,North Carolina,0.174873368676193,All
+Johnston,North Carolina,0.174815645326218,All
+Mecklenburg,Virginia,0.174801424903311,All
+Coffee,Tennessee,0.174716205037679,All
+Henry,Kentucky,0.174570705272036,All
+Guilford,North Carolina,0.174537474533593,All
+Reagan,Texas,0.174529031964506,All
+Harlan,Kentucky,0.174519068290939,All
+Long,Georgia,0.174516448028897,All
+Tippah,Mississippi,0.174487283607191,All
+Searcy,Arkansas,0.174486764685794,All
+Lawrence,Kentucky,0.174381052887497,All
+Elmore,Alabama,0.174285362586759,All
+Lincoln,North Carolina,0.174243877402979,All
+DeKalb,Tennessee,0.174141213662753,All
+Summers,West Virginia,0.17406899187043,All
+Floyd,Virginia,0.174061551741994,All
+Sharp,Arkansas,0.173915386118466,All
+Cleveland,North Carolina,0.173671510972826,All
+Lafayette,Mississippi,0.173557685044012,All
+Chester,Tennessee,0.173523388872899,All
+Haywood,Tennessee,0.173487685911301,All
+Anderson,Tennessee,0.173253457872595,All
+Lincoln,Georgia,0.173210786148232,All
+Sequoyah,Oklahoma,0.173188449089175,All
+Carter,Oklahoma,0.173099070918036,All
+Randolph,Arkansas,0.173015883511104,All
+Bryan,Oklahoma,0.172949588232485,All
+Banks,Georgia,0.172895930284476,All
+Robertson,Tennessee,0.172839096901418,All
+Johnston,Oklahoma,0.172607678100573,All
+Grayson,Virginia,0.172486444958173,All
+Meigs,Tennessee,0.1724604703513,All
+Perry,Tennessee,0.172400089569162,All
+Henderson,Texas,0.172398747674476,All
+Greene,Georgia,0.172363853438902,All
+Llano,Texas,0.172354552285279,All
+Clinton,Kentucky,0.172316918903716,All
+Walton,Georgia,0.172313627769354,All
+Walker,Alabama,0.172110989513296,All
+Liberty,Florida,0.172106878525661,All
+Muhlenberg,Kentucky,0.172103700579819,All
+Newton,Mississippi,0.172083235361374,All
+Boone,West Virginia,0.172026896029291,All
+Marion,Georgia,0.171887359912993,All
+Mason,Texas,0.17182940117147,All
+Lynn,Texas,0.171768441163743,All
+Lawrence,Arkansas,0.171717155864407,All
+Brunswick,Virginia,0.171699855714705,All
+Chatham,North Carolina,0.171684204683083,All
+Nash,North Carolina,0.171632697015605,All
+Yalobusha,Mississippi,0.171464375767992,All
+Anderson,South Carolina,0.171444714099699,All
+Mingo,West Virginia,0.171302525563712,All
+Beckham,Oklahoma,0.171281772777412,All
+Delaware,Oklahoma,0.171214283607122,All
+Bedford,Tennessee,0.170996635351709,All
+Texas,Missouri,0.170951190563428,All
+Albemarle,Virginia,0.170920860603323,All
+Williamson,Tennessee,0.170913615572453,All
+Pike,Arkansas,0.170796104434393,All
+Chattooga,Georgia,0.170781115193511,All
+Bradley,Arkansas,0.170753311931369,All
+Livingston,Kentucky,0.170552608549855,All
+Jackson,Arkansas,0.170526246077652,All
+Clay,Tennessee,0.170444301571666,All
+Foard,Texas,0.170443866969673,All
+Bibb,Georgia,0.170389106989427,All
+Little River,Arkansas,0.170279484454053,All
+Martin,Kentucky,0.170197033321112,All
+Washita,Oklahoma,0.170012464728379,All
+Raleigh,West Virginia,0.170003925858846,All
+Gaines,Texas,0.169882977137042,All
+Wilbarger,Texas,0.169846865040957,All
+Kemper,Mississippi,0.169795810873321,All
+Trousdale,Tennessee,0.169707393494374,All
+Choctaw,Alabama,0.169559008212364,All
+McCracken,Kentucky,0.169519076703991,All
+Chesterfield,Virginia,0.169411786755965,All
+Lincoln,West Virginia,0.169369818055394,All
+Randolph,North Carolina,0.169281078831431,All
+Polk,Texas,0.169221313668652,All
+Brown,Texas,0.169139411760576,All
+Floyd,Georgia,0.169097600700514,All
+Wyoming,West Virginia,0.168905470835444,All
+Monroe,Indiana,0.168903937415376,All
+Beauregard,Louisiana,0.168678974130915,All
+Young,Texas,0.168571915217345,All
+Buncombe,North Carolina,0.168494415296963,All
+Dinwiddie,Virginia,0.168393654747941,All
+Callahan,Texas,0.168343812989437,All
+Erath,Texas,0.168321955812255,All
+Wayne,North Carolina,0.16831137800452,All
+Angelina,Texas,0.168298336828511,All
+Armstrong,Texas,0.168289254675078,All
+Jackson,Oklahoma,0.168219554363977,All
+Douglas,Missouri,0.168217400538259,All
+Madison,Arkansas,0.168201013684767,All
+Grady,Oklahoma,0.168129038036718,All
+Tazewell,Virginia,0.167887310489593,All
+Union,Louisiana,0.16780361937782,All
+Jefferson Davis,Mississippi,0.167615875071669,All
+Knox,Tennessee,0.167571003151728,All
+Lee,Virginia,0.167446541806815,All
+Hood,Texas,0.167412764429045,All
+Choctaw,Mississippi,0.167364784288079,All
+Hardeman,Tennessee,0.167198181187186,All
+Wythe,Virginia,0.166975272270166,All
+Galveston,Texas,0.166913186486663,All
+Washington,Arkansas,0.166848396928043,All
+Martin,Texas,0.166796585094402,All
+Rains,Texas,0.166773075946654,All
+Emanuel,Georgia,0.166681438070728,All
+Smyth,Virginia,0.166656619949074,All
+Catahoula,Louisiana,0.166529866452105,All
+Boone,Arkansas,0.166450493222374,All
+Warrick,Indiana,0.166385484715482,All
+San Saba,Texas,0.166383862638871,All
+Dickenson,Virginia,0.166307647589734,All
+Panola,Texas,0.166217113671354,All
+Yadkin,North Carolina,0.166215693546661,All
+Gibson,Tennessee,0.166174506999114,All
+McMullen,Texas,0.166116076835619,All
+Lake,Tennessee,0.166048537655998,All
+Union,Arkansas,0.165834864554389,All
+Sevier,Tennessee,0.165816015075649,All
+Garza,Texas,0.165761813957268,All
+Polk,Georgia,0.165682969093008,All
+Jefferson,Oklahoma,0.165492153495339,All
+Mayes,Oklahoma,0.165119128760614,All
+Taylor,Kentucky,0.164838829507417,All
+Bowie,Texas,0.164727307070676,All
+Cass,Texas,0.164643920573394,All
+Wilson,Tennessee,0.164531462290508,All
+Wheeler,Texas,0.164427522146133,All
+Lewis,Kentucky,0.164424237685956,All
+Taylor,Texas,0.164383605470291,All
+Wise,Texas,0.164332614531748,All
+Washington,Tennessee,0.164267122383731,All
+Hardee,Florida,0.16412953659643,All
+Rusk,Texas,0.164012245824824,All
+Le Flore,Oklahoma,0.163929330153623,All
+Montague,Texas,0.163805651320771,All
+Aiken,South Carolina,0.16369045639786,All
+Benton,Mississippi,0.163435543109699,All
+Pickens,South Carolina,0.163199952876946,All
+Flagler,Florida,0.1631933271018,All
+Calhoun,Alabama,0.163088333902231,All
+Houston,Tennessee,0.163005010739164,All
+Crawford,Missouri,0.163004420978323,All
+Collin,Texas,0.162814449836257,All
+Goochland,Virginia,0.162698345836808,All
+Conway,Arkansas,0.162660171559606,All
+Parmer,Texas,0.162585810829991,All
+Grant,Louisiana,0.162566470671584,All
+Menard,Texas,0.162548111255378,All
+Archer,Texas,0.162506476416452,All
+McLean,Kentucky,0.162423275053967,All
+Matagorda,Texas,0.0246152143411311,African American
+Madison,Virginia,0.022977013949223,African American
+Coahoma,Mississippi,0.0207360904757244,African American
+Amite,Mississippi,0.0195439727701026,African American
+Greene,Georgia,0.0181175466479864,African American
+Vance,North Carolina,0.0177049071957049,African American
+Clarke,Georgia,0.0176351997853283,African American
+Wayne,North Carolina,0.0176129784318938,African American
+Halifax,Virginia,0.0175660287160091,African American
+Lee,Alabama,0.0175227452650926,African American
+Kinney,Texas,0.0167506467152627,African American
+Greensville,Virginia,0.0167192714778208,African American
+Elbert,Georgia,0.0165590787405028,African American
+Goochland,Virginia,0.015553908847988,African American
+Pittsylvania,Virginia,0.0153349505936718,African American
+Warren,North Carolina,0.0152836028538652,African American
+Mecklenburg,Virginia,0.0147750674844633,African American
+Halifax,North Carolina,0.0145078173504873,African American
+Granville,North Carolina,0.0143099582572026,African American
+Sabine,Louisiana,0.0141902700806283,African American
+Pulaski,Illinois,0.0141231249276456,African American
+Russell,Alabama,0.0136838675821235,African American
+Castro,Texas,0.0136251860274322,African American
+Charlotte,Virginia,0.0134314847110278,African American
+Madison,Mississippi,0.0134144978071242,African American
+Bullock,Alabama,0.0133705886612651,African American
+Cumberland,Virginia,0.0133029715061185,African American
+Trinity,Texas,0.0129167379465698,African American
+Clay,Kentucky,0.0128098226411886,African American
+Brunswick,Virginia,0.0127144440371191,African American
+Lowndes,Alabama,0.0127103246235517,African American
+Southampton,Virginia,0.0126865501821883,African American
+George,Mississippi,0.0125650975710518,African American
+Tunica,Mississippi,0.0123746903984052,African American
+Franklin,North Carolina,0.0123070006909278,African American
+Sussex,Virginia,0.0122815927628378,African American
+Stafford,Virginia,0.0122288375208711,African American
+Powhatan,Virginia,0.0120298446665032,African American
+Grenada,Mississippi,0.012005687597169,African American
+Issaquena,Mississippi,0.0119860518024317,African American
+Crittenden,Arkansas,0.0119045754825223,African American
+Humphreys,Mississippi,0.011893291497457,African American
+Troup,Georgia,0.0118333697324662,African American
+Sumter,Alabama,0.0118215206025399,African American
+Dade,Georgia,0.0117938555502122,African American
+Jasper,Georgia,0.0117455755867057,African American
+Clay,Georgia,0.011660356302088,African American
+Prince Edward,Virginia,0.0116174845537634,African American
+Harris,Georgia,0.0116127970337866,African American
+Choctaw,Alabama,0.0116008958938004,African American
+Dinwiddie,Virginia,0.0115993244222018,African American
+Charles City,Virginia,0.011586133025814,African American
+Meriwether,Georgia,0.0115270486813944,African American
+Chattahoochee,Georgia,0.011484126552194,African American
+Leflore,Mississippi,0.0113022227935743,African American
+Spotsylvania,Virginia,0.0112732621818792,African American
+Lee,South Carolina,0.0112536779884982,African American
+Stewart,Georgia,0.0111948046752374,African American
+Northampton,North Carolina,0.0111047218747655,African American
+Hanover,Virginia,0.0110635635708902,African American
+Fayette,Tennessee,0.0109193121988307,African American
+Caswell,North Carolina,0.0109070481757374,African American
+Anson,North Carolina,0.0108165507438137,African American
+Union,Mississippi,0.0107907801509977,African American
+Washington,Mississippi,0.010776478313693,African American
+Holmes,Mississippi,0.0107645934190735,African American
+Wagoner,Oklahoma,0.0107532631091364,African American
+East Carroll,Louisiana,0.0107244862721673,African American
+Henry,Alabama,0.010720667698725,African American
+Gates,North Carolina,0.0106916905163116,African American
+Greene,North Carolina,0.0106793193381902,African American
+Jones,Georgia,0.0106377286695558,African American
+Union,Arkansas,0.0106356134300915,African American
+Henrico,Virginia,0.0106324331170835,African American
+Haywood,Tennessee,0.0105577204497633,African American
+Essex,Virginia,0.0105340718166826,African American
+Jefferson,Arkansas,0.0105332280779255,African American
+Harrison,Texas,0.0105193181299923,African American
+Amherst,Virginia,0.0105179090212225,African American
+Hale,Alabama,0.0104976319255068,African American
+Danville,Virginia,0.0104812907608611,African American
+Falls,Texas,0.0104670372936315,African American
+Iron,Missouri,0.0104221670053661,African American
+Allendale,South Carolina,0.010396382255005,African American
+Oglethorpe,Georgia,0.0103818151843572,African American
+Durham,North Carolina,0.0103629834149175,African American
+Buckingham,Virginia,0.0103484212040749,African American
+Lowndes,Mississippi,0.0103448009816141,African American
+Lunenburg,Virginia,0.0103424902675909,African American
+Jackson,Alabama,0.0103419030999738,African American
+Macon,Alabama,0.0103222291185042,African American
+Macon,Georgia,0.0102866265254881,African American
+DeKalb,Tennessee,0.0102843356517638,African American
+Marengo,Alabama,0.0102766537194879,African American
+Bertie,North Carolina,0.010253818771147,African American
+Jefferson,Mississippi,0.0102188578783229,African American
+Quitman,Georgia,0.0102037018327456,African American
+Pickens,Alabama,0.0101920671322135,African American
+Winston,Alabama,0.0101900226732598,African American
+Archer,Texas,0.0101857878534614,African American
+Madison,Georgia,0.010169743453933,African American
+Bolivar,Mississippi,0.0101518030179629,African American
+Randolph,Georgia,0.0101457640442419,African American
+Wilcox,Alabama,0.0101413842990172,African American
+Warren,Mississippi,0.0101062065756819,African American
+Marion,Georgia,0.0100945087181613,African American
+Dallas,Arkansas,0.0100772707165697,African American
+Fluvanna,Virginia,0.0100722749179194,African American
+Wilkinson,Mississippi,0.0100134731022824,African American
+Rockdale,Georgia,0.0100090754354641,African American
+Adams,Mississippi,0.0099846322987358,African American
+Franklin,Virginia,0.00998076636622607,African American
+Newton,Mississippi,0.00995902404837141,African American
+Grady,Georgia,0.00993425171913386,African American
+Sunflower,Mississippi,0.00991682249392215,African American
+Chattooga,Georgia,0.00990677906816237,African American
+Sharkey,Mississippi,0.00989106840138693,African American
+Clay,Mississippi,0.00988457829751583,African American
+Baldwin,Georgia,0.00986364943023495,African American
+Seminole,Florida,0.00985246311911322,African American
+Dillon,South Carolina,0.00985028822950305,African American
+Warren,Georgia,0.0098299739414068,African American
+Terrell,Georgia,0.00982176012073747,African American
+Campbell,Virginia,0.00981542208360098,African American
+Williamson,Tennessee,0.00981203532957153,African American
+Prince George,Virginia,0.00980206851756447,African American
+Albemarle,Virginia,0.00977777879477461,African American
+Polk,North Carolina,0.00977222324435676,African American
+Gadsden,Florida,0.0097609218382864,African American
+Edgecombe,North Carolina,0.00973340919450905,African American
+King George,Virginia,0.00972328551235672,African American
+Putnam,Georgia,0.0096968627766478,African American
+Howell,Missouri,0.00969676180613761,African American
+Sumter,South Carolina,0.00968449678007995,African American
+Taliaferro,Georgia,0.0096299397849388,African American
+Montgomery,Alabama,0.00962453175809924,African American
+Sumter,Georgia,0.0096114665474032,African American
+Taylor,Georgia,0.00960208978221496,African American
+Caroline,Virginia,0.00959342952786356,African American
+Montgomery,North Carolina,0.00955015551751998,African American
+Hinds,Mississippi,0.00952984862519758,African American
+Desha,Arkansas,0.00952041902531653,African American
+Bladen,North Carolina,0.00949689894755059,African American
+Kershaw,South Carolina,0.00949659419726967,African American
+Wilkes,Georgia,0.0094883751775663,African American
+Tippah,Mississippi,0.00947039002942437,African American
+Monroe,Alabama,0.00944954355414355,African American
+Clarke,Mississippi,0.0094434383479212,African American
+Nelson,Virginia,0.0094218024308774,African American
+Bradley,Arkansas,0.00940422233891558,African American
+Bienville,Louisiana,0.00939884710695632,African American
+Panola,Texas,0.00937890947938747,African American
+Appomattox,Virginia,0.00937345354276266,African American
+Fairfield,South Carolina,0.00934498162334493,African American
+Scotland,North Carolina,0.00934344806785436,African American
+Morgan,Georgia,0.00934317121951565,African American
+Quitman,Mississippi,0.00934010360833395,African American
+Yazoo,Mississippi,0.00933961054215768,African American
+Greene,Alabama,0.00933476847763562,African American
+Talbot,Georgia,0.0093316625539545,African American
+Dallas,Alabama,0.00932347196461371,African American
+Person,North Carolina,0.00932263868053166,African American
+McCormick,South Carolina,0.0093175174898024,African American
+Carroll,Tennessee,0.0093161389773487,African American
+Etowah,Alabama,0.00931239582614641,African American
+Union,Louisiana,0.00930827251486638,African American
+Haralson,Georgia,0.0093055229661555,African American
+Jenkins,Georgia,0.00930269632264613,African American
+Jefferson,Indiana,0.0092991442215765,African American
+East Feliciana,Louisiana,0.00928460421521242,African American
+Claiborne,Mississippi,0.0092817152454074,African American
+DeSoto,Mississippi,0.00927080281252046,African American
+Ouachita,Louisiana,0.0092576734122012,African American
+Shelby,Texas,0.00925617482461278,African American
+Clarke,Alabama,0.00925372769443824,African American
+Lauderdale,Mississippi,0.00923495870361066,African American
+Pike,Georgia,0.00923149348782757,African American
+Monroe,Mississippi,0.00921911610041866,African American
+West Feliciana,Louisiana,0.00921784972096825,African American
+Caddo,Louisiana,0.00921352986506659,African American
+Ashley,Arkansas,0.00919969298559885,African American
+Waller,Texas,0.00918577618030282,African American
+Nottoway,Virginia,0.00917838567738687,African American
+Twiggs,Georgia,0.00907144795551966,African American
+Stephens,Georgia,0.00905877958836267,African American
+Louisa,Virginia,0.00903135001096985,African American
+Pitt,North Carolina,0.00902947999980297,African American
+King William,Virginia,0.00902906364043125,African American
+Noxubee,Mississippi,0.00901912641495346,African American
+Clay,Alabama,0.00899963177929786,African American
+Bay,Florida,0.00897037242339636,African American
+Butler,Alabama,0.00895953160048498,African American
+Chickasaw,Mississippi,0.00895735541468502,African American
+Dougherty,Georgia,0.00895311477194995,African American
+Chatham,North Carolina,0.00895180109312671,African American
+Westmoreland,Virginia,0.00894970979343045,African American
+St. Francis,Arkansas,0.00892502012491326,African American
+Boyle,Kentucky,0.00890425970399516,African American
+Latimer,Oklahoma,0.00890175858054681,African American
+Jefferson,Georgia,0.0088892031897936,African American
+Calhoun,Georgia,0.00888510488805235,African American
+Burke,Georgia,0.00888444500689252,African American
+Lincoln,Georgia,0.00886598872089396,African American
+Columbia,Arkansas,0.008833843511369,African American
+Robeson,North Carolina,0.00883319457414543,African American
+Yalobusha,Mississippi,0.0088133669238065,African American
+Laurens,Georgia,0.008799848286355,African American
+Bibb,Alabama,0.00879702997623108,African American
+Tallapoosa,Alabama,0.00879364055129693,African American
+Lauderdale,Tennessee,0.00878916151662682,African American
+Chesterfield,South Carolina,0.00878620423616043,African American
+Marlboro,South Carolina,0.00877143788191995,African American
+Worth,Georgia,0.00876553211450452,African American
+Hancock,Georgia,0.00876040612985755,African American
+Newton,Georgia,0.00875345464550686,African American
+Perry,Alabama,0.00875038668305327,African American
+Lincoln,Arkansas,0.00872516566976442,African American
+Wake,North Carolina,0.00871146221063573,African American
+Craven,North Carolina,0.00870002211707995,African American
+Madison,Florida,0.00869840889693035,African American
+Columbus,North Carolina,0.00869590797177479,African American
+Patrick,Virginia,0.00868758217124667,African American
+Concho,Texas,0.00864684581011523,African American
+Morehouse,Louisiana,0.00864167103494368,African American
+Amelia,Virginia,0.0086309344257839,African American
+Phillips,Arkansas,0.00862283248384336,African American
+Franklin,Mississippi,0.00861974126555634,African American
+Barbour,Alabama,0.00861344151468336,African American
+Chicot,Arkansas,0.0086029703793984,African American
+Camp,Texas,0.0085984307777614,African American
+Echols,Georgia,0.00859431114561366,African American
+Wilkinson,Georgia,0.00857463834138905,African American
+Citrus,Florida,0.00856170029090551,African American
+Houston,Georgia,0.00855983678627378,African American
+Autauga,Alabama,0.00855905784981924,African American
+Orange,North Carolina,0.0085549151926181,African American
+Glascock,Georgia,0.0085506011835209,African American
+Georgetown,South Carolina,0.00854053428962203,African American
+Chambers,Alabama,0.00853773669855762,African American
+Harnett,North Carolina,0.00853043236837371,African American
+Grainger,Tennessee,0.00852678316570482,African American
+Jasper,Mississippi,0.00851982846414905,African American
+Lafayette,Arkansas,0.00849626867139036,African American
+Lee,Georgia,0.00848030251689602,African American
+Elmore,Alabama,0.00847499947560675,African American
+Suffolk,Virginia,0.008463977089335,African American
+Pender,North Carolina,0.00846296479493988,African American
+Cass,Texas,0.00846183860629185,African American
+Lauderdale,Alabama,0.00846183441071782,African American
+Upson,Georgia,0.0084608917325534,African American
+Surry,Virginia,0.00844715602068945,African American
+Anderson,South Carolina,0.00844385397791498,African American
+Petersburg,Virginia,0.008441782752649,African American
+Rutherford,Tennessee,0.00842021634150563,African American
+Marshall,Alabama,0.00842011942501731,African American
+De Soto,Louisiana,0.00839482740183286,African American
+Tyrrell,North Carolina,0.00838793614161667,African American
+Henry,Georgia,0.00838418644024515,African American
+Nash,North Carolina,0.00837061092391218,African American
+Telfair,Georgia,0.00836640907314717,African American
+Monroe,Georgia,0.0083598736050435,African American
+Isle of Wight,Virginia,0.00834680082552754,African American
+Decatur,Georgia,0.00833057902016876,African American
+Conecuh,Alabama,0.00832298520159061,African American
+Henry,Tennessee,0.00831398538142657,African American
+Maury,Tennessee,0.0083112055780643,African American
+Holmes,Florida,0.00830717419054502,African American
+Warren,Kentucky,0.00829751340182912,African American
+Scott,Mississippi,0.00828805389782752,African American
+Heard,Georgia,0.00828073336240095,African American
+Oconee,Georgia,0.00827750188631593,African American
+Nevada,Arkansas,0.00826830497534818,African American
+Wayne,Mississippi,0.008261214834974,African American
+Lincoln,Louisiana,0.00824976077112968,African American
+Lee,Arkansas,0.00824407920718862,African American
+Lawrence,Alabama,0.00823508889676423,African American
+Dooly,Georgia,0.00823027292149605,African American
+Tallahatchie,Mississippi,0.00822149254889632,African American
+Richmond,Virginia,0.00819431496042413,African American
+Jackson,Georgia,0.0081928610390091,African American
+Limestone,Alabama,0.00818191613098242,African American
+Walton,Georgia,0.008179719109472,African American
+Chester,South Carolina,0.00817843555974638,African American
+Jefferson,Alabama,0.00816835409762013,African American
+Marion,Tennessee,0.0081533624440438,African American
+Madison,Louisiana,0.00815044094511435,African American
+Prentiss,Mississippi,0.00814070588932185,African American
+Clark,Arkansas,0.00813735025110285,African American
+Bedford,Virginia,0.00811962575590574,African American
+Chesterfield,Virginia,0.0081105971531839,African American
+Allen,Kentucky,0.0081105722145217,African American
+Henry,Kentucky,0.0081105459313587,African American
+Berkeley,South Carolina,0.00810713638454547,African American
+Crawford,Georgia,0.00809687816261004,African American
+Chambers,Texas,0.00808467348294643,African American
+Ouachita,Arkansas,0.00808145202358482,African American
+Gregg,Texas,0.0080737838397632,African American
+Hart,Kentucky,0.008066435161437,African American
+Dent,Missouri,0.00806227925713197,African American
+Morgan,Alabama,0.00805991661673166,African American
+Gordon,Georgia,0.00805527327419237,African American
+Perry,Arkansas,0.00804790387010555,African American
+Tuscaloosa,Alabama,0.00804125224780649,African American
+Wilson,North Carolina,0.00804076673403245,African American
+Webster,Mississippi,0.00803363719142932,African American
+Seminole,Georgia,0.00802941970438023,African American
+Smith,Tennessee,0.00802307362840806,African American
+Rockingham,North Carolina,0.00801662837314786,African American
+York,South Carolina,0.00801202357634831,African American
+Washington,Alabama,0.00800788051117503,African American
+Peach,Georgia,0.0080016554917235,African American
+Franklin,Alabama,0.00799956396926505,African American
+Pulaski,Georgia,0.0079988683089955,African American
+Richland,South Carolina,0.00799109547013952,African American
+Alleghany,Virginia,0.00798282907949756,African American
+Laurens,South Carolina,0.0079808918569128,African American
+Rusk,Texas,0.00796643099492165,African American
+Panola,Mississippi,0.00796528703059468,African American
+Adair,Kentucky,0.00795697330407292,African American
+Lee,Mississippi,0.00794808440828046,African American
+Monroe,Arkansas,0.00794333045637295,African American
+Metcalfe,Kentucky,0.00794018792057423,African American
+Giles,Tennessee,0.00793725674325119,African American
+Paulding,Georgia,0.0079369033027199,African American
+Hale,Texas,0.0079324196298572,African American
+Colbert,Alabama,0.00791289348519662,African American
+Roanoke,Virginia,0.00791049167799547,African American
+Early,Georgia,0.00790518561133018,African American
+Garland,Arkansas,0.0079038288808159,African American
+Wilson,Tennessee,0.00790112821930287,African American
+Russell,Kentucky,0.00789981762589326,African American
+Lamar,Georgia,0.0078951327101601,African American
+Talladega,Alabama,0.00788913214701556,African American
+Webster,Louisiana,0.00788750881819402,African American
+Mercer,Kentucky,0.0078855443524657,African American
+Walker,Georgia,0.0078804795473056,African American
+Aiken,South Carolina,0.00786824034739043,African American
+Cleveland,Arkansas,0.007867162460073,African American
+Duplin,North Carolina,0.00785504700717946,African American
+Hertford,North Carolina,0.00785202632702832,African American
+Sabine,Texas,0.00785117309918681,African American
+McDuffie,Georgia,0.00784449360336466,African American
+Montgomery,Mississippi,0.00784180481508812,African American
+Attala,Mississippi,0.0078316369526771,African American
+Cobb,Georgia,0.00781928156516964,African American
+Fauquier,Virginia,0.00781655827859986,African American
+Hickman,Kentucky,0.007808028681343,African American
+Fayette,Georgia,0.00780101020959121,African American
+Fleming,Kentucky,0.00779490853738942,African American
+York,Virginia,0.00779462932157033,African American
+Marion,Mississippi,0.00778933767498222,African American
+Cleveland,North Carolina,0.00777905196304137,African American
+Nacogdoches,Texas,0.00776469566088281,African American
+Lancaster,South Carolina,0.00776039063652895,African American
+Jasper,South Carolina,0.00775771620213785,African American
+Barrow,Georgia,0.0077567774088284,African American
+Columbia,Georgia,0.00775413595334627,African American
+Bowie,Texas,0.00774967097570892,African American
+Upshur,Texas,0.00773031290840722,African American
+Marion,South Carolina,0.00772289476503538,African American
+Wayne,Georgia,0.0077081138741114,African American
+Polk,Tennessee,0.0077077015266195,African American
+Johnston,North Carolina,0.00770537117526952,African American
+McDowell,North Carolina,0.0076982961094713,African American
+Thomas,Georgia,0.00769153227291642,African American
+Union,South Carolina,0.0076901272886456,African American
+Union,North Carolina,0.00768540989452911,African American
+Lawrence,Mississippi,0.00768314202911281,African American
+Greenville,South Carolina,0.00767867264990562,African American
+Bleckley,Georgia,0.0076764007290889,African American
+Putnam,West Virginia,0.00767510725594352,African American
+Miller,Georgia,0.0076672827917993,African American
+Lowndes,Georgia,0.00766131827134656,African American
+Crisp,Georgia,0.00765315830932895,African American
+Liberty,Texas,0.00765104481992614,African American
+King and Queen,Virginia,0.0076447356126253,African American
+Cherokee,North Carolina,0.00764347512610452,African American
+Bossier,Louisiana,0.0076402585542959,African American
+Cherokee,Georgia,0.00762668860157863,African American
+Pickens,Georgia,0.00762504689702986,African American
+Woodruff,Arkansas,0.007619094247702,African American
+Jefferson Davis,Mississippi,0.00761590164476972,African American
+Martin,North Carolina,0.00761293226428241,African American
+Cabell,West Virginia,0.00760943087113986,African American
+Gibson,Tennessee,0.00760683685927762,African American
+Treutlen,Georgia,0.00760374074309434,African American
+Charlton,Georgia,0.00760198551443023,African American
+Coweta,Georgia,0.00759184362878514,African American
+Oktibbeha,Mississippi,0.00759178568252329,African American
+Hot Spring,Arkansas,0.00758544984941805,African American
+St. Helena,Louisiana,0.00758442060658463,African American
+Red River,Louisiana,0.00758082312302792,African American
+Franklin,Louisiana,0.00757585607663401,African American
+Carroll,Virginia,0.00757289670341223,African American
+Bradley,Tennessee,0.00756639729467163,African American
+Cherokee,South Carolina,0.00756592396986413,African American
+Morris,Texas,0.00755730914805972,African American
+Madison,Tennessee,0.00754769901432777,African American
+Washington,North Carolina,0.0075403623835397,African American
+Henderson,Tennessee,0.00752728553167916,African American
+Hernando,Florida,0.00752198010434339,African American
+Johnson,Georgia,0.0075202370456173,African American
+Tipton,Tennessee,0.00751833985090331,African American
+Caldwell,Louisiana,0.00751641099788356,African American
+Howard,Arkansas,0.00751640800207798,African American
+Alachua,Florida,0.00750687980886082,African American
+Stokes,North Carolina,0.00750362164200261,African American
+Irwin,Georgia,0.00749176788647334,African American
+Spartanburg,South Carolina,0.00749067330021244,African American
+Marshall,Mississippi,0.00749043423673119,African American
+Cherokee,Alabama,0.00748943761085194,African American
+Bulloch,Georgia,0.00748749563029607,African American
+Hoke,North Carolina,0.0074729632786579,African American
+Escambia,Alabama,0.00746638151210308,African American
+Orange,Virginia,0.00745220430969156,African American
+Moore,Tennessee,0.0074519443347501,African American
+Murray,Georgia,0.00744667349395985,African American
+Emanuel,Georgia,0.00744085855431418,African American
+Hardin,Tennessee,0.00743507891532925,African American
+Greene,Mississippi,0.00742864990213837,African American
+Leake,Mississippi,0.00742762392963934,African American
+Mingo,West Virginia,0.00742385164848446,African American
+Calhoun,Arkansas,0.007419290683585,African American
+Sumner,Tennessee,0.00741061740590801,African American
+Calhoun,Alabama,0.007409310517461,African American
+Covington,Mississippi,0.00739712421157883,African American
+Drew,Arkansas,0.00739551361965246,African American
+Polk,Texas,0.00739274998127773,African American
+Carroll,Georgia,0.00738096790803697,African American
+Greenwood,South Carolina,0.0073789414492286,African American
+Leon,Texas,0.00737800997913297,African American
+Newport News,Virginia,0.0073638587099848,African American
+Claiborne,Louisiana,0.00736086250231188,African American
+Jones,North Carolina,0.00735994037086585,African American
+Choctaw,Mississippi,0.00735253013343532,African American
+Neshoba,Mississippi,0.00733889585278976,African American
+Webster,Georgia,0.00733808298933399,African American
+Pulaski,Arkansas,0.00733197543237946,African American
+Coffee,Tennessee,0.00732510825628917,African American
+Franklin,Tennessee,0.0073216945713279,African American
+Newton,Texas,0.00731890251992583,African American
+Pontotoc,Mississippi,0.0073170387455695,African American
+Okfuskee,Oklahoma,0.00730920261016873,African American
+Mitchell,Georgia,0.0073091367017816,African American
+Henry,Virginia,0.00730613027246608,African American
+Green,Kentucky,0.0073010533937121,African American
+Clinton,Kentucky,0.0073006759128607,African American
+Appling,Georgia,0.0072974166676784,African American
+Richmond,Georgia,0.00729721576376683,African American
+Delta,Texas,0.0072966709134596,African American
+Trousdale,Tennessee,0.0072961809698529,African American
+Barnwell,South Carolina,0.00728953316090352,African American
+Clay,Arkansas,0.00728689109032892,African American
+Union,Tennessee,0.0072860769467179,African American
+Dawson,Georgia,0.0072827552385622,African American
+Knott,Kentucky,0.00728098260711704,African American
+Newberry,South Carolina,0.00727917065563192,African American
+Guilford,North Carolina,0.00727779923683407,African American
+Rankin,Mississippi,0.00727494385625031,African American
+Richland,Louisiana,0.00727437542676303,African American
+Wilcox,Georgia,0.00727168109504077,African American
+Hardeman,Tennessee,0.00726338221530786,African American
+Calvert,Maryland,0.0072623887224858,African American
+Collier,Florida,0.0072618237363971,African American
+Mississippi,Arkansas,0.00724512161149088,African American
+Bibb,Georgia,0.00724502590817786,African American
+Beauregard,Louisiana,0.00724441321844443,African American
+DeKalb,Georgia,0.00723939759554457,African American
+Pasquotank,North Carolina,0.00723903911249556,African American
+Florence,South Carolina,0.00723402391695676,African American
+Shelby,Tennessee,0.00723056817422234,African American
+Brooks,Georgia,0.00722126703557615,African American
+Brazoria,Texas,0.00721619459887366,African American
+Pulaski,Virginia,0.00721293542819828,African American
+Portsmouth,Virginia,0.0072013517323698,African American
+Martin,Florida,0.0072000514938145,African American
+Henderson,Texas,0.00719458982746477,African American
+Tate,Mississippi,0.00719255939331835,African American
+Concordia,Louisiana,0.00719054498623281,African American
+Jackson,Kentucky,0.00718884271574442,African American
+Monroe,Tennessee,0.00718269150074273,African American
+Jefferson,Florida,0.00717339045024148,African American
+Gwinnett,Georgia,0.00717290108432101,African American
+Foard,Texas,0.0071723157607173,African American
+Rutherford,North Carolina,0.00715720785551162,African American
+Montgomery,Georgia,0.00715368579361585,African American
+Lafayette,Mississippi,0.00715150738145292,African American
+Calhoun,Florida,0.00714199326690637,African American
+Edgefield,South Carolina,0.00714015887522416,African American
+Spalding,Georgia,0.00713692726716815,African American
+Childress,Texas,0.00713669735902596,African American
+Hardin,Texas,0.00712973569422136,African American
+Moore,North Carolina,0.00712799075778484,African American
+Cook,Georgia,0.00712546887468502,African American
+Alamance,North Carolina,0.00712497128679991,African American
+Clarendon,South Carolina,0.00712384958915652,African American
+Smith,Texas,0.00712244215506404,African American
+Logan,Oklahoma,0.00711306439165768,African American
+Cross,Arkansas,0.00708581525584318,African American
+Forrest,Mississippi,0.0070797717230878,African American
+Burleigh,North Dakota,0.0335253510453648,British Isles
+Lawrence,Tennessee,0.031804532766337,British Isles
+Johnson,Illinois,0.0311781991534455,British Isles
+Dade,Georgia,0.0296200494229451,British Isles
+Pickens,Georgia,0.0287527609442653,British Isles
+Grainger,Tennessee,0.0286269145811943,British Isles
+Magoffin,Kentucky,0.0277632265479198,British Isles
+Clay,Kentucky,0.0274676058680486,British Isles
+Winston,Alabama,0.025582010577408,British Isles
+Lauderdale,Alabama,0.0255198544870255,British Isles
+Elbert,Georgia,0.0253246878588931,British Isles
+Randolph,Alabama,0.0250052817325804,British Isles
+Claiborne,Tennessee,0.0242987131319252,British Isles
+Boyle,Kentucky,0.024230538212858,British Isles
+Floyd,Kentucky,0.0239533167468722,British Isles
+Jackson,Alabama,0.0237883233166546,British Isles
+Dallas,Arkansas,0.0232106155891532,British Isles
+Franklin,Georgia,0.0232051595132705,British Isles
+Leslie,Kentucky,0.0231768404965019,British Isles
+Clay,Alabama,0.0231587331314978,British Isles
+Simpson,Mississippi,0.0226147832438942,British Isles
+Humphreys,Tennessee,0.0224818277760586,British Isles
+Laurel,Kentucky,0.0223707612882772,British Isles
+Neshoba,Mississippi,0.022358102557162,British Isles
+Forsyth,Georgia,0.0222390483683717,British Isles
+Polk,Georgia,0.0222356845925895,British Isles
+Trinity,Texas,0.0222214668993644,British Isles
+Cherokee,Georgia,0.022070754100063,British Isles
+Decatur,Tennessee,0.0219941221140698,British Isles
+Paulding,Georgia,0.0219078228448717,British Isles
+Itawamba,Mississippi,0.0217127579516082,British Isles
+Lincoln,Tennessee,0.0217100711936713,British Isles
+Dent,Missouri,0.0217057953007745,British Isles
+Hancock,Tennessee,0.0215928290979102,British Isles
+Todd,Kentucky,0.0215888155910436,British Isles
+Lumpkin,Georgia,0.0213648483493105,British Isles
+DeKalb,Alabama,0.0213168828699891,British Isles
+Transylvania,North Carolina,0.021260793672483,British Isles
+Smith,Mississippi,0.0209715404012575,British Isles
+Oconee,Georgia,0.020960873024954,British Isles
+Perry,Kentucky,0.0209060671773646,British Isles
+Johnson,Kentucky,0.0208177794167219,British Isles
+Jones,Mississippi,0.0207928370602281,British Isles
+Knox,Kentucky,0.0206845798670952,British Isles
+Habersham,Georgia,0.0206058448192052,British Isles
+Faulkner,Arkansas,0.0205516509136584,British Isles
+Wayne,Tennessee,0.0205020012646873,British Isles
+Barrow,Georgia,0.0204528956107413,British Isles
+Halifax,Virginia,0.020434549099567,British Isles
+Rabun,Georgia,0.0204189843271993,British Isles
+Bell,Kentucky,0.0203638718780987,British Isles
+San Saba,Texas,0.0203400543706431,British Isles
+Bacon,Georgia,0.0203313497839278,British Isles
+Knox,Tennessee,0.0203013428905036,British Isles
+Marion,Tennessee,0.0202884778784302,British Isles
+Union,Tennessee,0.0202569331745747,British Isles
+Poinsett,Arkansas,0.0202175204247275,British Isles
+Cottle,Texas,0.0202084179823117,British Isles
+Brown,Texas,0.0201826138447326,British Isles
+Breathitt,Kentucky,0.0201523695247756,British Isles
+Tishomingo,Mississippi,0.0201165291445332,British Isles
+Knott,Kentucky,0.0200267508478204,British Isles
+Roberts,Texas,0.0200222170347809,British Isles
+Perry,Tennessee,0.0199882491914287,British Isles
+Macon,North Carolina,0.0199597705132793,British Isles
+Spartanburg,South Carolina,0.0199476209654062,British Isles
+Coryell,Texas,0.0199302748449178,British Isles
+Cleburne,Arkansas,0.0199237065329148,British Isles
+Letcher,Kentucky,0.0198876148868961,British Isles
+Robertson,Kentucky,0.0198699047945196,British Isles
+Cullman,Alabama,0.0198217817233934,British Isles
+Randall,Texas,0.0197980396055269,British Isles
+Howell,Missouri,0.0197794983100767,British Isles
+White,Georgia,0.0197681975543244,British Isles
+Walthall,Mississippi,0.0197339468184164,British Isles
+Glasscock,Texas,0.0197259200681214,British Isles
+Smith,Tennessee,0.0196712129054737,British Isles
+Allen,Kentucky,0.0196699224728476,British Isles
+Pickens,South Carolina,0.0196595062941941,British Isles
+Jackson,Kentucky,0.0196258300934989,British Isles
+Banks,Georgia,0.0196189163430819,British Isles
+Franklin,Alabama,0.0195775147087602,British Isles
+Marion,Alabama,0.019569282699858,British Isles
+Clark,Arkansas,0.0195443749383603,British Isles
+Cleveland,Arkansas,0.019491900922786,British Isles
+Oconee,South Carolina,0.0194016502465519,British Isles
+Collingsworth,Texas,0.0193971345618054,British Isles
+Blount,Alabama,0.0193956210548538,British Isles
+George,Mississippi,0.0193927898120056,British Isles
+Mingo,West Virginia,0.0193824938935972,British Isles
+Columbia,Florida,0.0193642895981499,British Isles
+Polk,North Carolina,0.0193121258480887,British Isles
+Cobb,Georgia,0.0192868894381328,British Isles
+Hall,Georgia,0.0192726030353892,British Isles
+Monroe,Tennessee,0.0192612017712679,British Isles
+Wayne,Kentucky,0.0192270254293492,British Isles
+Etowah,Alabama,0.0191374161489516,British Isles
+King,Texas,0.0191248802555571,British Isles
+Franklin,Florida,0.0191076028809228,British Isles
+Lamar,Mississippi,0.0190810885157847,British Isles
+Stone,Arkansas,0.0190642168296625,British Isles
+Charlton,Georgia,0.0190531429750679,British Isles
+Warren,Tennessee,0.0190393398252435,British Isles
+Attala,Mississippi,0.0190388901790402,British Isles
+Anderson,South Carolina,0.0190105085086117,British Isles
+Forrest,Mississippi,0.0190013141063953,British Isles
+Walker,Georgia,0.0189718632420981,British Isles
+Saline,Arkansas,0.0189638128073642,British Isles
+Pittsylvania,Virginia,0.018937230086818,British Isles
+Polk,Tennessee,0.0189305334636528,British Isles
+Clay,Tennessee,0.018910440193719,British Isles
+Rutherford,Tennessee,0.018879788712237,British Isles
+Throckmorton,Texas,0.0188312465923981,British Isles
+Benton,Tennessee,0.0187826946232429,British Isles
+Chattooga,Georgia,0.0187739608293009,British Isles
+Jackson,Tennessee,0.0187710215702504,British Isles
+Hot Spring,Arkansas,0.0187670697624067,British Isles
+Catoosa,Georgia,0.0187643207076044,British Isles
+Franklin,Tennessee,0.0187447303712549,British Isles
+Bedford,Tennessee,0.0187234343472389,British Isles
+Lee,North Carolina,0.0187106887892162,British Isles
+Gordon,Georgia,0.0186460246602164,British Isles
+Anderson,Texas,0.0186390624373538,British Isles
+Perry,Arkansas,0.018589679262577,British Isles
+Colbert,Alabama,0.0185739982700266,British Isles
+Bledsoe,Tennessee,0.0185474509807807,British Isles
+Scott,Virginia,0.0185425900290136,British Isles
+Campbell,Tennessee,0.0185293539876812,British Isles
+Latimer,Oklahoma,0.0185248838665682,British Isles
+Angelina,Texas,0.0184941486189361,British Isles
+Chester,Tennessee,0.01846192804989,British Isles
+Hardin,Tennessee,0.0184453510131203,British Isles
+Titus,Texas,0.0184313003134205,British Isles
+Alcorn,Mississippi,0.0184220366445237,British Isles
+Elliott,Kentucky,0.0184118680599308,British Isles
+Jackson,Georgia,0.0183929555016869,British Isles
+Towns,Georgia,0.0183741330741716,British Isles
+Cleburne,Alabama,0.0183727579202909,British Isles
+Roane,Tennessee,0.0183564187562883,British Isles
+Garza,Texas,0.018336635529907,British Isles
+Stafford,Virginia,0.018318207931657,British Isles
+Polk,Texas,0.0183132450386242,British Isles
+Pontotoc,Oklahoma,0.0183018518145953,British Isles
+Bedford,Virginia,0.01828822357431,British Isles
+Carroll,Georgia,0.018281245153337,British Isles
+Okeechobee,Florida,0.0182262681771963,British Isles
+Dawson,Georgia,0.0182009319680895,British Isles
+Alleghany,North Carolina,0.0181852593823344,British Isles
+Sumner,Tennessee,0.0181832723899517,British Isles
+Rockcastle,Kentucky,0.0181794108033018,British Isles
+Whitfield,Georgia,0.0181699534891206,British Isles
+Pickett,Tennessee,0.0181629833429362,British Isles
+Webster,Mississippi,0.0181604882706135,British Isles
+Polk,Arkansas,0.018099548505232,British Isles
+Van Zandt,Texas,0.0180930364179272,British Isles
+Walker,Alabama,0.018069388339421,British Isles
+Putnam,Tennessee,0.0180678271623762,British Isles
+Lee,Kentucky,0.0180631255555697,British Isles
+Owsley,Kentucky,0.0180455936843413,British Isles
+Pike,Kentucky,0.0180435023573367,British Isles
+Harlan,Kentucky,0.0180017577126908,British Isles
+Gaston,North Carolina,0.0179932457099226,British Isles
+Comanche,Texas,0.017969661833584,British Isles
+Sharp,Arkansas,0.0179349407440869,British Isles
+McCreary,Kentucky,0.017910192531591,British Isles
+Ashe,North Carolina,0.0179087362342164,British Isles
+Monroe,Mississippi,0.0178948452460069,British Isles
+Clay,North Carolina,0.0178943695269565,British Isles
+Cherokee,North Carolina,0.0178867989166094,British Isles
+Madison,North Carolina,0.0178776128569572,British Isles
+Lamar,Texas,0.0178640129794967,British Isles
+Cherokee,Alabama,0.0178622727321867,British Isles
+Calhoun,Mississippi,0.0178575399673561,British Isles
+Wise,Texas,0.0178543140232602,British Isles
+McNairy,Tennessee,0.0178415173713156,British Isles
+Scott,Tennessee,0.0178375869470844,British Isles
+Briscoe,Texas,0.0178310131622712,British Isles
+Fayette,Alabama,0.0178236607386908,British Isles
+Logan,Kentucky,0.0178183091217175,British Isles
+Calhoun,Alabama,0.0178130873829912,British Isles
+Roosevelt,New Mexico,0.0178118578983647,British Isles
+Unicoi,Tennessee,0.0178012890885267,British Isles
+Searcy,Arkansas,0.0177571376310913,British Isles
+Casey,Kentucky,0.0177569843209592,British Isles
+Caldwell,North Carolina,0.01774834183514,British Isles
+Gaines,Texas,0.0177384729206166,British Isles
+Lewis,Tennessee,0.017719112480242,British Isles
+Parker,Texas,0.0177172955625558,British Isles
+Calhoun,Florida,0.0177103067277265,British Isles
+Newton,Mississippi,0.0177049884311117,British Isles
+Greenville,South Carolina,0.0177032548986541,British Isles
+Stewart,Tennessee,0.0176935909173879,British Isles
+Lee,Florida,0.0176922926941814,British Isles
+DeKalb,Tennessee,0.0176482078038783,British Isles
+Marshall,Alabama,0.0176344371340696,British Isles
+Anderson,Tennessee,0.0176340502162904,British Isles
+Dickson,Tennessee,0.0176295251711886,British Isles
+Somervell,Texas,0.0176109034226683,British Isles
+Fannin,Georgia,0.0176078678230669,British Isles
+Pontotoc,Mississippi,0.0175895998594981,British Isles
+Patrick,Virginia,0.0175885274762749,British Isles
+Wolfe,Kentucky,0.0175764197283813,British Isles
+Young,Texas,0.0175685672729867,British Isles
+Lake,Tennessee,0.0175188252631915,British Isles
+Monroe,Kentucky,0.0175174519143129,British Isles
+Wayne,West Virginia,0.0175162250274448,British Isles
+Delta,Texas,0.0174961077673542,British Isles
+Cannon,Tennessee,0.0174931112542743,British Isles
+Floyd,Virginia,0.0174833130057505,British Isles
+Wilkes,North Carolina,0.0174811838971056,British Isles
+Coosa,Alabama,0.0174520596816176,British Isles
+Shelby,Alabama,0.0174443463007404,British Isles
+Bradley,Arkansas,0.0174352724478251,British Isles
+Cocke,Tennessee,0.0174170056014781,British Isles
+Sequoyah,Oklahoma,0.0174027582943675,British Isles
+Trigg,Kentucky,0.0173674655522207,British Isles
+Granville,North Carolina,0.0173660611489084,British Isles
+Buncombe,North Carolina,0.0173523604473571,British Isles
+Madison,Alabama,0.0173452673333747,British Isles
+Hood,Texas,0.0173407705116683,British Isles
+Lincoln,Kentucky,0.0173316728182044,British Isles
+Maury,Tennessee,0.0173312503110012,British Isles
+Toombs,Georgia,0.017328891927053,British Isles
+Lee,Mississippi,0.0173172969508163,British Isles
+Person,North Carolina,0.0173003489758528,British Isles
+Franklin,Mississippi,0.0172825836839206,British Isles
+Motley,Texas,0.0172682849889423,British Isles
+Henry,Tennessee,0.0172644316053776,British Isles
+Coahoma,Mississippi,0.0172449415792527,British Isles
+Marion,Arkansas,0.0172339130461007,British Isles
+Heard,Georgia,0.0172299369110514,British Isles
+Russell,Kentucky,0.0172185245287977,British Isles
+Union,Georgia,0.0172164409608234,British Isles
+Coffee,Tennessee,0.0172135116639883,British Isles
+Trousdale,Tennessee,0.0171883321287508,British Isles
+Jackson,North Carolina,0.0171825461077079,British Isles
+Coffee,Alabama,0.0171817092790465,British Isles
+Sebastian,Arkansas,0.0171642325002886,British Isles
+Carroll,Virginia,0.0171634939278654,British Isles
+Hale,Texas,0.0171575550648922,British Isles
+Jefferson Davis,Mississippi,0.0171519047292683,British Isles
+Covington,Mississippi,0.0171318872725184,British Isles
+Johnston,North Carolina,0.0171168979521746,British Isles
+Jeff Davis,Georgia,0.017096452450371,British Isles
+Robertson,Tennessee,0.0170864177253985,British Isles
+Lawrence,Kentucky,0.0170639269660537,British Isles
+Caldwell,Kentucky,0.0170573797349998,British Isles
+Jack,Texas,0.0170559765036624,British Isles
+Newton,Arkansas,0.0170504487754093,British Isles
+Henderson,North Carolina,0.0170492106690104,British Isles
+Gwinnett,Georgia,0.0170283856926037,British Isles
+Lawrence,Alabama,0.0170268992825223,British Isles
+Morgan,Kentucky,0.0170034308447017,British Isles
+Clayton,Georgia,0.0170014823225883,British Isles
+McCurtain,Oklahoma,0.0170012552815582,British Isles
+Rutherford,North Carolina,0.0169814909011206,British Isles
+Estill,Kentucky,0.0169810281846689,British Isles
+Wayne,Georgia,0.0169717635333643,British Isles
+Moore,Texas,0.0169649932985094,British Isles
+Cleveland,North Carolina,0.0169587465138032,British Isles
+Hart,Georgia,0.0169491408141731,British Isles
+Craighead,Arkansas,0.0169444669659386,British Isles
+Hamblen,Tennessee,0.0169317804113346,British Isles
+Baxter,Arkansas,0.0169173812906903,British Isles
+Johnson,Tennessee,0.0169089073493697,British Isles
+Mecklenburg,Virginia,0.0169005414070779,British Isles
+Watauga,North Carolina,0.0168968208425926,British Isles
+Morgan,Tennessee,0.0168827378846407,British Isles
+Grundy,Tennessee,0.0168783964426264,British Isles
+Mitchell,North Carolina,0.0168516521162209,British Isles
+Covington,Alabama,0.0168461369663961,British Isles
+Martin,Kentucky,0.0168315715917278,British Isles
+Garland,Arkansas,0.0168310686657907,British Isles
+Crenshaw,Alabama,0.0168255814551787,British Isles
+McClain,Oklahoma,0.0168248304289236,British Isles
+Bryan,Oklahoma,0.0168177496746012,British Isles
+Lyon,Kentucky,0.0168058488378118,British Isles
+Chilton,Alabama,0.0167976824209988,British Isles
+Nacogdoches,Texas,0.0167865849139539,British Isles
+Pike,Arkansas,0.0167846388009475,British Isles
+Whitley,Kentucky,0.016770261272408,British Isles
+Hickman,Tennessee,0.0167462296502319,British Isles
+Giles,Tennessee,0.0167363079207852,British Isles
+Hamilton,Tennessee,0.016729237849257,British Isles
+Owen,Kentucky,0.0167201391834647,British Isles
+Morgan,Georgia,0.0167106511719483,British Isles
+Marion,Georgia,0.0167095058562129,British Isles
+Cotton,Oklahoma,0.0167031716088862,British Isles
+Calhoun,Arkansas,0.0166730596473693,British Isles
+Douglas,Georgia,0.0166591255981293,British Isles
+St. Clair,Alabama,0.0166564801661413,British Isles
+Lamar,Alabama,0.016630809360541,British Isles
+Henderson,Tennessee,0.0166267474317358,British Isles
+Marshall,Tennessee,0.0166253712457171,British Isles
+Boyd,Kentucky,0.0166226510446912,British Isles
+Lawrence,Arkansas,0.0166152004978833,British Isles
+Jefferson,Alabama,0.0166117283321943,British Isles
+Harnett,North Carolina,0.016603320314141,British Isles
+Oregon,Missouri,0.0165872411229347,British Isles
+Darlington,South Carolina,0.0165829391052569,British Isles
+Johnson,Arkansas,0.0165800455939984,British Isles
+Graves,Kentucky,0.0165731599169516,British Isles
+Brunswick,Virginia,0.016570631651313,British Isles
+Haywood,North Carolina,0.0165645458181667,British Isles
+Navarro,Texas,0.0165405541171668,British Isles
+Wayne,North Carolina,0.0165391539730136,British Isles
+Callahan,Texas,0.0165280162845867,British Isles
+Tuscaloosa,Alabama,0.0165200526843477,British Isles
+Dougherty,Georgia,0.0165143393405074,British Isles
+Rhea,Tennessee,0.0165103226789962,British Isles
+Sabine,Texas,0.0165094623718895,British Isles
+Loudon,Tennessee,0.0165052667687,British Isles
+Jessamine,Kentucky,0.016500551283109,British Isles
+Webster,Georgia,0.016500396134315,British Isles
+Morgan,Alabama,0.0164979936525507,British Isles
+Yalobusha,Mississippi,0.0164851338347062,British Isles
+Crawford,Arkansas,0.0164661363982153,British Isles
+Collin,Texas,0.0164616633143685,British Isles
+Wilson,Tennessee,0.0164592954715688,British Isles
+Haskell,Texas,0.0164542414496348,British Isles
+Union,Mississippi,0.0164485860402556,British Isles
+Sevier,Arkansas,0.0164462427785185,British Isles
+Troup,Georgia,0.0164396567478067,British Isles
+Prentiss,Mississippi,0.0164387545290403,British Isles
+Meigs,Tennessee,0.0164144861024057,British Isles
+Jasper,Mississippi,0.0164099391649936,British Isles
+Winn,Louisiana,0.0164053702211698,British Isles
+Franklin,Texas,0.0164045981164201,British Isles
+Conway,Arkansas,0.0163979564068022,British Isles
+Amherst,Virginia,0.0163909791057542,British Isles
+Stokes,North Carolina,0.0163901345475723,British Isles
+Floyd,Texas,0.0163893757249735,British Isles
+Palo Pinto,Texas,0.0163891653428129,British Isles
+Choctaw,Alabama,0.01638721574168,British Isles
+Lee,Virginia,0.0163574426971961,British Isles
+Sevier,Tennessee,0.0163266885954775,British Isles
+Gilmer,Georgia,0.0163216754964706,British Isles
+Jackson,Louisiana,0.0163192559553858,British Isles
+Appling,Georgia,0.016315855688814,British Isles
+Haskell,Oklahoma,0.0162972243865033,British Isles
+Wyoming,West Virginia,0.0162827839605404,British Isles
+Montague,Texas,0.0162776297629198,British Isles
+Haralson,Georgia,0.0162667239477885,British Isles
+Thomas,Nebraska,0.0162439102197503,British Isles
+Johnson,Georgia,0.0162363187075255,British Isles
+Lee,Alabama,0.0162221720113873,British Isles
+Surry,North Carolina,0.0161929033811964,British Isles
+Floyd,Georgia,0.0161902845148282,British Isles
+Murray,Georgia,0.0161701699830811,British Isles
+Greenwood,South Carolina,0.0161612292238161,British Isles
+McMinn,Tennessee,0.0161578299729627,British Isles
+Cumberland,Tennessee,0.0161518478749511,British Isles
+Berrien,Georgia,0.0161500594502811,British Isles
+Sequatchie,Tennessee,0.0161431877339703,British Isles
+Wood,Texas,0.0161297720328569,British Isles
+Hopkins,Kentucky,0.0161186090358962,British Isles
+Liberty,Florida,0.016115195128329,British Isles
+Clinton,Kentucky,0.0161048771810288,British Isles
+Brantley,Georgia,0.01609181136855,British Isles
+Gulf,Florida,0.0160862443127982,British Isles
+Buckingham,Virginia,0.0160786816116254,British Isles
+White,Arkansas,0.0160710849943877,British Isles
+Clark,Kentucky,0.0160658332691105,British Isles
+Powell,Kentucky,0.0160535625156139,British Isles
+Catahoula,Louisiana,0.0160524656234426,British Isles
+Coke,Texas,0.0160311983181109,British Isles
+Hill,Texas,0.0160310646343582,British Isles
+Montgomery,North Carolina,0.0160259019327049,British Isles
+Lawrence,Ohio,0.0160186289567383,British Isles
+Bartow,Georgia,0.0160169407113941,British Isles
+Garvin,Oklahoma,0.0160151375696041,British Isles
+Fayette,Georgia,0.0160134081814437,British Isles
+Crittenden,Kentucky,0.0159747666085272,British Isles
+Scott,Arkansas,0.0159692852105828,British Isles
+Cheatham,Tennessee,0.0159579711056797,British Isles
+Cook,Georgia,0.01594366009388,British Isles
+Union,South Carolina,0.0159340210025771,British Isles
+Calhoun,West Virginia,0.0159330744928601,British Isles
+Stephens,Georgia,0.0159324050433416,British Isles
+Walton,Florida,0.0159306865113267,British Isles
+Erath,Texas,0.0159290213123433,British Isles
+Holmes,Florida,0.0159279570496798,British Isles
+Swisher,Texas,0.0159225628556681,British Isles
+Adair,Oklahoma,0.0159177785281574,British Isles
+Escambia,Alabama,0.0159047706992069,British Isles
+Childress,Texas,0.0158988848385506,British Isles
+Meade,Kentucky,0.0158981449638369,British Isles
+Madison,Georgia,0.0158964613118623,British Isles
+Henderson,Texas,0.0158957772306722,British Isles
+Florence,Wisconsin,0.0158848875520271,British Isles
+Reynolds,Missouri,0.015877586242291,British Isles
+Stephens,Texas,0.0158744762571853,British Isles
+Newton,Georgia,0.0158669979900382,British Isles
+Iron,Missouri,0.0158626800651697,British Isles
+Obion,Tennessee,0.0158604411179362,British Isles
+Miller,Georgia,0.0158118243811632,British Isles
+Houston,Alabama,0.0158077989586334,British Isles
+Yell,Arkansas,0.0158068123856714,British Isles
+Hopkins,Texas,0.0158034045491065,British Isles
+Dyer,Tennessee,0.0158002413363877,British Isles
+Colquitt,Georgia,0.0157914617868201,British Isles
+Lafayette,Florida,0.0157905698375683,British Isles
+Wake,North Carolina,0.0157852221536582,British Isles
+Bradley,Tennessee,0.0157810545227737,British Isles
+Bay,Florida,0.0157805114383478,British Isles
+Bland,Virginia,0.0157781928219753,British Isles
+Dickens,Texas,0.0157565402514864,British Isles
+Carroll,Tennessee,0.0157452352948197,British Isles
+Spalding,Georgia,0.0157389657244653,British Isles
+Hunt,Texas,0.0157351001265952,British Isles
+Leake,Mississippi,0.0157234355269217,British Isles
+Atoka,Oklahoma,0.0157155748750241,British Isles
+Stone,Missouri,0.0157053868620031,British Isles
+Hawkins,Tennessee,0.0157046438877264,British Isles
+Louisa,Virginia,0.0157012379230632,British Isles
+Union,North Carolina,0.0156958628075306,British Isles
+Fannin,Texas,0.015694002481931,British Isles
+Cass,Texas,0.0156840838528893,British Isles
+Marlboro,South Carolina,0.0156778218265222,British Isles
+Washington,Virginia,0.01567336884876,British Isles
+Madison,Kentucky,0.015653328433816,British Isles
+Borden,Texas,0.0156511293105446,British Isles
+Izard,Arkansas,0.015648782466404,British Isles
+Coweta,Georgia,0.0156434535456374,British Isles
+Rockdale,Georgia,0.0156372136276261,British Isles
+Buchanan,Virginia,0.0156318852805744,British Isles
+Franklin,Arkansas,0.0156311293393174,British Isles
+Nevada,Arkansas,0.015625020482927,British Isles
+Weakley,Tennessee,0.0156233831261177,British Isles
+Gilchrist,Florida,0.0156168625601475,British Isles
+Glascock,Georgia,0.0156130538269833,British Isles
+Bosque,Texas,0.0156122019476653,British Isles
+Hamilton,Texas,0.015606961617231,British Isles
+Geneva,Alabama,0.0155976512695977,British Isles
+Okaloosa,Florida,0.015592931183958,British Isles
+Jefferson,Tennessee,0.0155922895598386,British Isles
+Iredell,North Carolina,0.015579103846556,British Isles
+Suwannee,Florida,0.0155721612170578,British Isles
+Union,Florida,0.0155552815480588,British Isles
+Webster,Kentucky,0.0155443944156383,British Isles
+Hardeman,Tennessee,0.0155403739959272,British Isles
+Alleghany,Virginia,0.0155386341919543,British Isles
+Shackelford,Texas,0.0155324559146131,British Isles
+Carter,Tennessee,0.0155109955634982,British Isles
+Van Buren,Arkansas,0.0155087678546809,British Isles
+Moore,Tennessee,0.0154980573799287,British Isles
+Bailey,Texas,0.0154965400447624,British Isles
+McLennan,Texas,0.0154883344017353,British Isles
+Independence,Arkansas,0.0154876835512494,British Isles
+Garrard,Kentucky,0.0154811085716547,British Isles
+Lincoln,Georgia,0.0154807740750427,British Isles
+Marshall,Kentucky,0.0154621711755588,British Isles
+Rains,Texas,0.0154583604165599,British Isles
+Tattnall,Georgia,0.015452561240398,British Isles
+Clarke,Georgia,0.0154518665665248,British Isles
+Fulton,Arkansas,0.0154439029911675,British Isles
+Crockett,Tennessee,0.0154331525504185,British Isles
+Chatham,North Carolina,0.0154305662250074,British Isles
+Bowie,Texas,0.0154152864064992,British Isles
+Stonewall,Texas,0.0154142156659148,British Isles
+Ozark,Missouri,0.0154130612672563,British Isles
+San Augustine,Texas,0.0154010324559324,British Isles
+Cherokee,South Carolina,0.0153954553735855,British Isles
+Tipton,Tennessee,0.0153915143219516,British Isles
+Summers,West Virginia,0.0153784550197533,British Isles
+LaSalle,Louisiana,0.015370987757209,British Isles
+Denton,Texas,0.0153664439034937,British Isles
+West Carroll,Louisiana,0.0153615397467492,British Isles
+Foard,Texas,0.0153573426431928,British Isles
+Cherokee,Texas,0.0153464623572573,British Isles
+Fentress,Tennessee,0.0153404044573805,British Isles
+Nash,North Carolina,0.0153339562367581,British Isles
+Hughes,Oklahoma,0.0153293192139161,British Isles
+Charlotte,Virginia,0.01532862143778,British Isles
+Stanly,North Carolina,0.0153265085844029,British Isles
+Hardin,Illinois,0.0153214151732115,British Isles
+Pike,Alabama,0.015316911287468,British Isles
+Stephens,Oklahoma,0.0153159747050202,British Isles
+Adair,Kentucky,0.0153152730937787,British Isles
+Warren,Mississippi,0.0153021500345496,British Isles
+Davidson,Tennessee,0.0153005766474543,British Isles
+Kaufman,Texas,0.0152892987838706,British Isles
+Livingston,Kentucky,0.0152875706883762,British Isles
+Grady,Oklahoma,0.0152840500283833,British Isles
+Yancey,North Carolina,0.015264192277636,British Isles
+Dale,Alabama,0.0152603735397743,British Isles
+Lafayette,Mississippi,0.0152560180175316,British Isles
+Montgomery,Arkansas,0.0152557939106944,British Isles
+Swain,North Carolina,0.0152455993345184,British Isles
+Butler,Kentucky,0.0152313902573223,British Isles
+Columbia,Georgia,0.0152276627146972,British Isles
+Logan,Arkansas,0.0152228484369191,British Isles
+Andrews,Texas,0.0152145066885794,British Isles
+Rankin,Mississippi,0.0152110226630376,British Isles
+Nelson,Virginia,0.015210165035106,British Isles
+Campbell,Virginia,0.0152099097997055,British Isles
+Christian,Kentucky,0.0152090156407215,British Isles
+Coleman,Texas,0.0152089338859794,British Isles
+Tippah,Mississippi,0.0152083354021829,British Isles
+Graham,North Carolina,0.0152064105535842,British Isles
+Valencia,New Mexico,0.0805362749404129,Indigenous American
+Socorro,New Mexico,0.0714616675199377,Indigenous American
+Taos,New Mexico,0.070496215273313,Indigenous American
+Rio Arriba,New Mexico,0.068749824650396,Indigenous American
+Lee,Alabama,0.065345371485535,Indigenous American
+Mora,New Mexico,0.0651960228180009,Indigenous American
+Jim Hogg,Texas,0.0645582815112316,Indigenous American
+Santa Fe,New Mexico,0.0627574706470636,Indigenous American
+San Miguel,New Mexico,0.0620876968840118,Indigenous American
+Brooks,Texas,0.0608739629324922,Indigenous American
+Sandoval,New Mexico,0.0605563121794869,Indigenous American
+Zapata,Texas,0.0602662719499074,Indigenous American
+Starr,Texas,0.0588826695630923,Indigenous American
+Costilla,Colorado,0.0580297460125238,Indigenous American
+Guadalupe,New Mexico,0.0546542896154192,Indigenous American
+Bernalillo,New Mexico,0.054538814587842,Indigenous American
+Cibola,New Mexico,0.0540498092285635,Indigenous American
+Duval,Texas,0.0484516216825653,Indigenous American
+Sierra,New Mexico,0.0483138004763525,Indigenous American
+Conejos,Colorado,0.0470327990519656,Indigenous American
+Harding,New Mexico,0.0463448202648846,Indigenous American
+Torrance,New Mexico,0.0458463022067624,Indigenous American
+Saguache,Colorado,0.0445230267605981,Indigenous American
+Colfax,New Mexico,0.0441549745537481,Indigenous American
+Lincoln,New Mexico,0.0426247511473509,Indigenous American
+Huerfano,Colorado,0.0425861307727445,Indigenous American
+Jim Wells,Texas,0.0417635457381468,Indigenous American
+Archuleta,Colorado,0.0414726126585688,Indigenous American
+Nacogdoches,Texas,0.0413833656834408,Indigenous American
+Las Animas,Colorado,0.0407363212182067,Indigenous American
+Rio Grande,Colorado,0.0388569636080251,Indigenous American
+Webb,Texas,0.038683950994658,Indigenous American
+Union,New Mexico,0.0367687167250409,Indigenous American
+Kenedy,Texas,0.0355120527373553,Indigenous American
+Hidalgo,Texas,0.035488257430366,Indigenous American
+De Baca,New Mexico,0.0330717049161805,Indigenous American
+Cameron,Texas,0.0319698318934646,Indigenous American
+Catron,New Mexico,0.0307107700288713,Indigenous American
+Los Alamos,New Mexico,0.0299742509016526,Indigenous American
+Willacy,Texas,0.0295304741931393,Indigenous American
+DoÃ±a Ana,New Mexico,0.0293368755837514,Indigenous American
+San Juan,New Mexico,0.0265445575867868,Indigenous American
+Otero,New Mexico,0.0263674289054219,Indigenous American
+San Patricio,Texas,0.0250350844841153,Indigenous American
+Alamosa,Colorado,0.0246017093344308,Indigenous American
+Dimmit,Texas,0.0238687285075932,Indigenous American
+Bee,Texas,0.0237128171458274,Indigenous American
+Maverick,Texas,0.023181055199942,Indigenous American
+Kleberg,Texas,0.0226919705349092,Indigenous American
+Summit,Colorado,0.0223437244134135,Indigenous American
+Douglas,Colorado,0.0222156327128887,Indigenous American
+McKinley,New Mexico,0.022112473075096,Indigenous American
+Victoria,Texas,0.0220522804433274,Indigenous American
+Apache,Arizona,0.0209713213868759,Indigenous American
+Murray,Georgia,0.0208308374397933,Indigenous American
+Val Verde,Texas,0.0206703801555074,Indigenous American
+Nueces,Texas,0.020493860938404,Indigenous American
+El Paso,Texas,0.0204879225995729,Indigenous American
+Grant,New Mexico,0.0200721683861534,Indigenous American
+La Plata,Colorado,0.0199450304045251,Indigenous American
+Atascosa,Texas,0.0197420759239001,Indigenous American
+Coconino,Arizona,0.0195469587816974,Indigenous American
+Zavala,Texas,0.0194603912812955,Indigenous American
+Quay,New Mexico,0.0194566702614816,Indigenous American
+Hudspeth,Texas,0.0192128442599465,Indigenous American
+Luna,New Mexico,0.0190717626975979,Indigenous American
+Refugio,Texas,0.0189327050466067,Indigenous American
+Effingham,Georgia,0.0180623001977722,Indigenous American
+Frio,Texas,0.0179468173804588,Indigenous American
+San Juan,Utah,0.0179061870310212,Indigenous American
+Pueblo,Colorado,0.0176114905681066,Indigenous American
+Presidio,Texas,0.0173571464501449,Indigenous American
+McMullen,Texas,0.0170396079962922,Indigenous American
+Karnes,Texas,0.016948404676871,Indigenous American
+Bexar,Texas,0.0168148532815748,Indigenous American
+Otero,Colorado,0.0163098135397262,Indigenous American
+Navajo,Arizona,0.0163007683231,Indigenous American
+Jeff Davis,Texas,0.0162727091842968,Indigenous American
+San Miguel,Colorado,0.0161825026403416,Indigenous American
+Culberson,Texas,0.0160603576635946,Indigenous American
+Chaves,New Mexico,0.0158485550719075,Indigenous American
+Natchitoches,Louisiana,0.0158351509894163,Indigenous American
+Santa Cruz,Arizona,0.0157519828484787,Indigenous American
+Terrell,Texas,0.0155133251716056,Indigenous American
+La Salle,Texas,0.0150037250817838,Indigenous American
+Montezuma,Colorado,0.0149836944048634,Indigenous American
+Jackson,Texas,0.014899977880377,Indigenous American
+Goliad,Texas,0.0148798144070805,Indigenous American
+Wilson,Texas,0.014680799771875,Indigenous American
+DeWitt,Texas,0.0145620337920723,Indigenous American
+Eddy,New Mexico,0.0142318315662333,Indigenous American
+Brewster,Texas,0.0141968191859018,Indigenous American
+Medina,Texas,0.0139413177391058,Indigenous American
+Irion,Texas,0.0138102600662191,Indigenous American
+Kinney,Texas,0.0136694796100111,Indigenous American
+Bent,Colorado,0.0136064388705048,Indigenous American
+Ward,Texas,0.0135369120709703,Indigenous American
+Uvalde,Texas,0.0135214838583366,Indigenous American
+Pima,Arizona,0.0135017231467334,Indigenous American
+Live Oak,Texas,0.0134569703480737,Indigenous American
+Cimarron,Oklahoma,0.0134401247249611,Indigenous American
+Reeves,Texas,0.0131552850913272,Indigenous American
+Eagle,Colorado,0.012992589467519,Indigenous American
+Calhoun,Texas,0.0128995402176498,Indigenous American
+Yuma,Arizona,0.0126345516892263,Indigenous American
+Maricopa,Arizona,0.0125634712736398,Indigenous American
+Weld,Colorado,0.0121880825099115,Indigenous American
+Adams,Colorado,0.0121491133980289,Indigenous American
+Aleutians East,Alaska,0.0121315372962585,Indigenous American
+Sabine,Louisiana,0.0120473643412301,Indigenous American
+Guadalupe,Texas,0.0119280860070315,Indigenous American
+Comal,Texas,0.0117807927151171,Indigenous American
+Menard,Texas,0.0117730805930384,Indigenous American
+Pinal,Arizona,0.0117353098277524,Indigenous American
+Jackson,South Dakota,0.0117249525237363,Indigenous American
+San Augustine,Texas,0.0115122423991588,Indigenous American
+Caldwell,Texas,0.0114772544345917,Indigenous American
+Sutton,Texas,0.0113566223142226,Indigenous American
+Upton,Texas,0.0112737917793528,Indigenous American
+Jackson,Kentucky,0.0110843248756298,Indigenous American
+Vermilion,Louisiana,0.011057663380922,Indigenous American
+Crockett,Texas,0.0110438722526907,Indigenous American
+McCulloch,Texas,0.01104236402442,Indigenous American
+Tom Green,Texas,0.0109131586258554,Indigenous American
+Imperial,California,0.0108798519080455,Indigenous American
+Cochise,Arizona,0.0108475613661039,Indigenous American
+Pecos,Texas,0.0108259692074607,Indigenous American
+Parmer,Texas,0.0107647106445153,Indigenous American
+Matagorda,Texas,0.0107365527733347,Indigenous American
+Castro,Texas,0.010734514080749,Indigenous American
+Hidalgo,New Mexico,0.0107185893473342,Indigenous American
+Real,Texas,0.0106224411336435,Indigenous American
+Gonzales,Texas,0.0106139215113365,Indigenous American
+Greenlee,Arizona,0.0106030685328052,Indigenous American
+George,Mississippi,0.0105903420049887,Indigenous American
+Montrose,Colorado,0.0105548532081985,Indigenous American
+Hardin,Texas,0.0105527839798147,Indigenous American
+Elbert,Georgia,0.0104655289759491,Indigenous American
+Deaf Smith,Texas,0.0104121349342464,Indigenous American
+Clay,Missouri,0.0103676502341758,Indigenous American
+Marion,Texas,0.0103514417759977,Indigenous American
+Travis,Texas,0.0103297664340619,Indigenous American
+Grant,Oregon,0.0102600449761111,Indigenous American
+Curry,New Mexico,0.0102572638586708,Indigenous American
+Mineral,Colorado,0.010220775001541,Indigenous American
+Kent,Texas,0.0101264438602528,Indigenous American
+Hale,Texas,0.00996215073721387,Indigenous American
+Aransas,Texas,0.00996086124650715,Indigenous American
+Winston,Alabama,0.00990216685889025,Indigenous American
+Grainger,Tennessee,0.00970692807880431,Indigenous American
+Throckmorton,Texas,0.00966884719769153,Indigenous American
+Hays,Texas,0.00964581402446876,Indigenous American
+Butts,Georgia,0.0096222939208595,Indigenous American
+Rapides,Louisiana,0.00961272854580633,Indigenous American
+Anderson,Texas,0.00953370081135381,Indigenous American
+Lubbock,Texas,0.00950754195969245,Indigenous American
+Burleson,Texas,0.00945052108273662,Indigenous American
+Allen,Louisiana,0.00943686431180003,Indigenous American
+Marshall,Tennessee,0.00942097070778513,Indigenous American
+Motley,Texas,0.0094187158051499,Indigenous American
+Trinity,Texas,0.00940356847956492,Indigenous American
+Thomas,Nebraska,0.0093638643460946,Indigenous American
+Galveston,Texas,0.00934189899735505,Indigenous American
+Chambers,Texas,0.00934110016903955,Indigenous American
+Edwards,Texas,0.0093285436262672,Indigenous American
+Orange,Texas,0.0092961596250859,Indigenous American
+Fremont,Wyoming,0.0092902753089725,Indigenous American
+Kimble,Texas,0.0092883694996369,Indigenous American
+Terry,Texas,0.00921596874214383,Indigenous American
+Garza,Texas,0.00921526060545289,Indigenous American
+Midland,Texas,0.0091984608127457,Indigenous American
+Shelby,Texas,0.0091486418478319,Indigenous American
+Newton,Arkansas,0.00908794661532508,Indigenous American
+Taylor,Texas,0.009070887986087,Indigenous American
+Gila,Arizona,0.00902598707933773,Indigenous American
+Williamson,Tennessee,0.00899317675025404,Indigenous American
+Meigs,Tennessee,0.00897763820497723,Indigenous American
+Sterling,Texas,0.0089326144699587,Indigenous American
+Calhoun,Florida,0.00889108975974956,Indigenous American
+Wharton,Texas,0.00888807324244858,Indigenous American
+Crowley,Colorado,0.00887808721121789,Indigenous American
+Briscoe,Texas,0.00885131127736025,Indigenous American
+Grant,Louisiana,0.00884772499315433,Indigenous American
+Lander,Nevada,0.0088360018768437,Indigenous American
+Pulaski,Kentucky,0.00883384436160591,Indigenous American
+Lewis,Tennessee,0.00882919607138635,Indigenous American
+Kendall,Texas,0.00881023818328695,Indigenous American
+Callahan,Texas,0.00877095369723876,Indigenous American
+Dade,Georgia,0.00876622753606785,Indigenous American
+West Carroll,Louisiana,0.00875820403655258,Indigenous American
+Coahoma,Mississippi,0.00874266083580788,Indigenous American
+Yavapai,Arizona,0.00872304502637212,Indigenous American
+Mineral,Nevada,0.0086849020163132,Indigenous American
+Ventura,California,0.0086554499901226,Indigenous American
+Poinsett,Arkansas,0.008655301675379,Indigenous American
+Sheridan,Wyoming,0.0086121922429152,Indigenous American
+Routt,Colorado,0.0086109007469959,Indigenous American
+Faulkner,Arkansas,0.00860413826484887,Indigenous American
+Perry,Arkansas,0.00860043899382368,Indigenous American
+Dawson,Texas,0.0085732469552324,Indigenous American
+Prentiss,Mississippi,0.00856486505434235,Indigenous American
+Catahoula,Louisiana,0.00855615857599908,Indigenous American
+Morgan,Alabama,0.00852390385048374,Indigenous American
+Franklin,Tennessee,0.00851185391814311,Indigenous American
+Riverside,California,0.00851028621721147,Indigenous American
+Oglala Lakota,South Dakota,0.0084917897625493,Indigenous American
+Vernon,Louisiana,0.00848113445836877,Indigenous American
+Chattooga,Georgia,0.0084437435308822,Indigenous American
+Fort Bend,Texas,0.00844340152635355,Indigenous American
+Haskell,Texas,0.00844265002039262,Indigenous American
+Knox,Texas,0.00843769115424167,Indigenous American
+Bay,Florida,0.0084374979202341,Indigenous American
+Dallam,Texas,0.0084371374468993,Indigenous American
+Breathitt,Kentucky,0.00843180710087967,Indigenous American
+Irwin,Georgia,0.0084311346191895,Indigenous American
+Schleicher,Texas,0.0084086843428591,Indigenous American
+Hickman,Tennessee,0.00840098375323287,Indigenous American
+Denver,Colorado,0.0083875683184124,Indigenous American
+Knott,Kentucky,0.00838693109586522,Indigenous American
+Lawrence,Kentucky,0.00838597912752335,Indigenous American
+Wilbarger,Texas,0.00838102071250329,Indigenous American
+Acadia,Louisiana,0.00837573781253464,Indigenous American
+Mitchell,Texas,0.00836773356816305,Indigenous American
+Crenshaw,Alabama,0.00834413942408304,Indigenous American
+Macon,North Carolina,0.00834077913118851,Indigenous American
+Howard,Texas,0.00832696646954527,Indigenous American
+Franklin,North Carolina,0.0083240989852427,Indigenous American
+McCreary,Kentucky,0.00829721323667421,Indigenous American
+Roosevelt,New Mexico,0.00828107642030085,Indigenous American
+Lea,New Mexico,0.0082073590365199,Indigenous American
+Lincoln,Georgia,0.0081686313888147,Indigenous American
+Lawrence,Alabama,0.00816633406749584,Indigenous American
+Concho,Texas,0.00815388164269265,Indigenous American
+LaSalle,Louisiana,0.00815117764435386,Indigenous American
+Baca,Colorado,0.0081094393337133,Indigenous American
+Cullman,Alabama,0.00805866697329654,Indigenous American
+Knox,Kentucky,0.00805331691928158,Indigenous American
+Ware,Georgia,0.00804132312097395,Indigenous American
+Scurry,Texas,0.0080381107110762,Indigenous American
+Floyd,Kentucky,0.00803349290941209,Indigenous American
+Henderson,Tennessee,0.00803234330843584,Indigenous American
+Bastrop,Texas,0.00802594415693176,Indigenous American
+Donley,Texas,0.00801486537100743,Indigenous American
+Goshen,Wyoming,0.0080002263984947,Indigenous American
+Johnson,Kentucky,0.00798918147914421,Indigenous American
+Yoakum,Texas,0.00796745851731505,Indigenous American
+Nash,North Carolina,0.00795200232602577,Indigenous American
+Oldham,Texas,0.0079453428523088,Indigenous American
+Dundy,Nebraska,0.0079453407154262,Indigenous American
+Stephens,Georgia,0.00793241023686496,Indigenous American
+Young,Texas,0.0079191038359894,Indigenous American
+Martin,Kentucky,0.00790384810911822,Indigenous American
+Armstrong,Texas,0.00790009660966425,Indigenous American
+Scott,Arkansas,0.00789923178045515,Indigenous American
+Lamar,Alabama,0.00788850469764521,Indigenous American
+Lamar,Mississippi,0.00788575799937625,Indigenous American
+Mesa,Colorado,0.00786459027260045,Indigenous American
+Wilkes,North Carolina,0.00786186307879064,Indigenous American
+Sabine,Texas,0.00785124386369712,Indigenous American
+Fannin,Georgia,0.00784973742152045,Indigenous American
+Goochland,Virginia,0.00781190503803086,Indigenous American
+Bandera,Texas,0.00780844597466327,Indigenous American
+Neshoba,Mississippi,0.007788840533276,Indigenous American
+Wheeler,Texas,0.0077642002902518,Indigenous American
+Andrews,Texas,0.0077439473202093,Indigenous American
+Montgomery,Texas,0.00771985789913907,Indigenous American
+Montgomery,Tennessee,0.00770441143261988,Indigenous American
+Crawford,Georgia,0.0077025699921934,Indigenous American
+Wallace,Kansas,0.007698456619348,Indigenous American
+Wise,Texas,0.00769760628036241,Indigenous American
+Gray,Texas,0.00768999956961472,Indigenous American
+Lauderdale,Alabama,0.00768885335742361,Indigenous American
+Leslie,Kentucky,0.0076887863653075,Indigenous American
+Lake,Colorado,0.0076855433914605,Indigenous American
+Mohave,Arizona,0.0076836689083729,Indigenous American
+Carroll,Virginia,0.00766820524990405,Indigenous American
+Appling,Georgia,0.00765799643804272,Indigenous American
+Lake,Tennessee,0.00765642031432853,Indigenous American
+Calloway,Kentucky,0.00764107165526313,Indigenous American
+Floyd,Georgia,0.00763406218333072,Indigenous American
+Magoffin,Kentucky,0.00763365598182225,Indigenous American
+Pike,Georgia,0.00762969689193392,Indigenous American
+Milam,Texas,0.00762231416304375,Indigenous American
+Wise,Virginia,0.00761021448779724,Indigenous American
+Limestone,Texas,0.00760141680993467,Indigenous American
+Hockley,Texas,0.00758893916847525,Indigenous American
+Marshall,Oklahoma,0.00758869324575965,Indigenous American
+Chaffee,Colorado,0.00758446030605875,Indigenous American
+Buchanan,Virginia,0.00757721666395869,Indigenous American
+Archer,Texas,0.00757407646072381,Indigenous American
+Dickenson,Virginia,0.00757350914062076,Indigenous American
+McCracken,Kentucky,0.00757128452274423,Indigenous American
+Hendry,Florida,0.0075700341746477,Indigenous American
+Marshall,South Dakota,0.00756978465956566,Indigenous American
+Titus,Texas,0.00756968040891976,Indigenous American
+Walla Walla,Washington,0.00755924513795743,Indigenous American
+Lynn,Texas,0.00755893712821147,Indigenous American
+Williamson,Texas,0.00755157827142714,Indigenous American
+Burnet,Texas,0.0075474993842018,Indigenous American
+Forsyth,Georgia,0.0075322746303709,Indigenous American
+Scott,Virginia,0.00752604112008587,Indigenous American
+Sampson,North Carolina,0.0075197178452894,Indigenous American
+Choctaw,Alabama,0.00751965436847037,Indigenous American
+Reagan,Texas,0.0075187299853166,Indigenous American
+Mason,Texas,0.00750465512711943,Indigenous American
+Glascock,Georgia,0.00750301190094035,Indigenous American
+Wilson,Tennessee,0.00750270630868515,Indigenous American
+Camden,Missouri,0.00749319126213912,Indigenous American
+Walker,Texas,0.00749246270094915,Indigenous American
+Liberty,Florida,0.0074894454870041,Indigenous American
+Blanco,Texas,0.00748045713434747,Indigenous American
+Marshall,Alabama,0.00747046209163205,Indigenous American
+Garfield,Utah,0.00746643654544903,Indigenous American
+Carroll,Georgia,0.00744560624374016,Indigenous American
+Calcasieu,Louisiana,0.00743777802167721,Indigenous American
+Leon,Texas,0.00743723174809827,Indigenous American
+Lamb,Texas,0.00742313443325526,Indigenous American
+Dickens,Texas,0.00741829884904877,Indigenous American
+Kerr,Texas,0.00741339830395847,Indigenous American
+Letcher,Kentucky,0.00740717612262856,Indigenous American
+Jackson,Colorado,0.0074071397754011,Indigenous American
+Gaines,Texas,0.00740331006413445,Indigenous American
+El Paso,Colorado,0.00740166038701993,Indigenous American
+Newton,Georgia,0.00739381232330427,Indigenous American
+Dodge,Georgia,0.00738884732818496,Indigenous American
+Cottle,Texas,0.0073878367532853,Indigenous American
+Claiborne,Tennessee,0.00738183307515787,Indigenous American
+Clay,Alabama,0.0073756714952886,Indigenous American
+Ozark,Missouri,0.0073735362848723,Indigenous American
+Monroe,Mississippi,0.00736803403195268,Indigenous American
+Haskell,Oklahoma,0.00736716195662555,Indigenous American
+Floyd,Texas,0.007366779300586,Indigenous American
+Denton,Texas,0.00736182530545673,Indigenous American
+Osage,Oklahoma,0.00735325060036273,Indigenous American
+Morton,Kansas,0.00735104754303164,Indigenous American
+Stone,Arkansas,0.00734824725274179,Indigenous American
+DeKalb,Tennessee,0.00734492500200544,Indigenous American
+Clay,Florida,0.00734314256144743,Indigenous American
+Stonewall,Texas,0.0073412384002987,Indigenous American
+Bleckley,Georgia,0.0073359281719093,Indigenous American
+Rabun,Georgia,0.00733164097730285,Indigenous American
+Pierce,Georgia,0.00733163865542243,Indigenous American
+Freestone,Texas,0.00732994856181898,Indigenous American
+San Bernardino,California,0.00732806697048344,Indigenous American
+Martin,Texas,0.00732768757706593,Indigenous American
+Jackson,Alabama,0.00732583240681912,Indigenous American
+Rutherford,Tennessee,0.00732491936060253,Indigenous American
+Yell,Arkansas,0.00731680820632328,Indigenous American
+Hardeman,Texas,0.00731217022151857,Indigenous American
+Evans,Georgia,0.0073023088723255,Indigenous American
+Van Buren,Arkansas,0.0072957638886679,Indigenous American
+Orange,California,0.00729487676035564,Indigenous American
+San Saba,Texas,0.00728326670758926,Indigenous American
+Montgomery,Arkansas,0.00728213314338191,Indigenous American
+Spartanburg,South Carolina,0.00728118224586251,Indigenous American
+Fresno,California,0.00727323663731825,Indigenous American
+Van Buren,Tennessee,0.0072632281768846,Indigenous American
+Newton,Texas,0.0072505181069056,Indigenous American
+Union,Mississippi,0.0072491539297256,Indigenous American
+Lincoln,Tennessee,0.0072389854071034,Indigenous American
+Bell,Kentucky,0.00723512287444674,Indigenous American
+Ector,Texas,0.0072287589355249,Indigenous American
+Hardin,Tennessee,0.00722669596618511,Indigenous American
+Adair,Kentucky,0.00722459307683607,Indigenous American
+Carroll,Tennessee,0.00721543507231905,Indigenous American
+Perry,Kentucky,0.0072142853844558,Indigenous American
+Macon,Tennessee,0.00720927517884306,Indigenous American
+Montgomery,Georgia,0.00719731636902167,Indigenous American
+Hansford,Texas,0.00719614547995735,Indigenous American
+Polk,Texas,0.00718410029112403,Indigenous American
+Coleman,Texas,0.0071814875751204,Indigenous American
+Graves,Kentucky,0.00716775510555406,Indigenous American
+Clay,Kentucky,0.0071637221191337,Indigenous American
+Trousdale,Tennessee,0.00716174767446274,Indigenous American
+Wayne,Tennessee,0.00716034799336403,Indigenous American
+Jeff Davis,Georgia,0.00715575778496579,Indigenous American
+Bartow,Georgia,0.00715533146338474,Indigenous American
+Foard,Texas,0.0071534033503378,Indigenous American
+Cocke,Tennessee,0.0071529597915426,Indigenous American
+Angelina,Texas,0.00715069605885945,Indigenous American
+McCurtain,Oklahoma,0.00714983833791696,Indigenous American
+Taylor,Georgia,0.0071495621586896,Indigenous American
+Potter,Texas,0.00714280620421265,Indigenous American
+Fulton,Arkansas,0.00714204171246482,Indigenous American
+Garland,Arkansas,0.00713695609049945,Indigenous American
+Carson,Texas,0.00713029216824926,Indigenous American
+Lee,North Carolina,0.00711823923550173,Indigenous American
+Hopkins,Texas,0.00711206736077002,Indigenous American
+Gordon,Georgia,0.00710246340743622,Indigenous American
+Cheatham,Tennessee,0.00709787789739286,Indigenous American
+Fisher,Texas,0.00708952349531127,Indigenous American
+Harris,Texas,0.00708844595924232,Indigenous American
+Charlotte,Virginia,0.0070877598090466,Indigenous American
+Tillman,Oklahoma,0.00708608772063164,Indigenous American
+Coffee,Tennessee,0.00708367069845672,Indigenous American
+Massac,Illinois,0.00706120910467629,Indigenous American
+Wayne,Kentucky,0.007060387006917,Indigenous American
+Cleburne,Alabama,0.00705866354155525,Indigenous American
+Comanche,Oklahoma,0.0070568276658592,Indigenous American
+Bosque,Texas,0.00705536737289996,Indigenous American
+Polk,Tennessee,0.00705156886999538,Indigenous American
+Roane,Tennessee,0.00704867509754167,Indigenous American
+Blount,Alabama,0.00704444349950804,Indigenous American
+Coal,Oklahoma,0.00703606292594435,Indigenous American
+Carbon,Wyoming,0.00703327895489672,Indigenous American
+Geneva,Alabama,0.00703316446619228,Indigenous American
+Surry,North Carolina,0.00703296455700205,Indigenous American
+Lincoln,West Virginia,0.0070314041214306,Indigenous American
+Weakley,Tennessee,0.00703088948445785,Indigenous American
+Caldwell,Louisiana,0.00703006077089456,Indigenous American
+Boyle,Kentucky,0.0070290532292765,Indigenous American
+Brantley,Georgia,0.00702451354287807,Indigenous American
+Obion,Tennessee,0.00702265007755614,Indigenous American
+Tulare,California,0.00702168456791983,Indigenous American
+Patrick,Virginia,0.00700935217307825,Indigenous American
+Hood,Texas,0.00700906416768677,Indigenous American
+Uintah,Utah,0.00700254889041602,Indigenous American
+Perry,Tennessee,0.0070013111489702,Indigenous American
+Johnson,Texas,0.0069889754352104,Indigenous American
+Webster,Mississippi,0.00698785010803463,Indigenous American
+Unicoi,Tennessee,0.00698688057259802,Indigenous American
+Giles,Tennessee,0.00698591919225041,Indigenous American
+Johnston,North Carolina,0.00698333349180261,Indigenous American
+Columbia,Florida,0.00697445898755436,Indigenous American
+Logan,Kansas,0.0069709644134269,Indigenous American
+Somervell,Texas,0.0069692351874347,Indigenous American
+Boone,Arkansas,0.00696918222414094,Indigenous American
+Tyler,Texas,0.00696706849628777,Indigenous American
+Lampasas,Texas,0.00696686284254496,Indigenous American
+Pulaski,Missouri,0.0069660498500704,Indigenous American
+Fayette,Alabama,0.00696231296009767,Indigenous American
+Gillespie,Texas,0.00695674827529783,Indigenous American
+Walker,Georgia,0.0069543103575357,Indigenous American
+Marion,Alabama,0.00695251515669164,Indigenous American
+Laramie,Wyoming,0.0069352677843851,Indigenous American
+Smith,Mississippi,0.00692804126945216,Indigenous American
+Durham,North Carolina,0.00692040788266275,Indigenous American
+San Diego,California,0.00691627090272777,Indigenous American
+Union,Arkansas,0.00691562985078375,Indigenous American
+Warren,Kentucky,0.0069156263885935,Indigenous American
+Santa Rosa,Florida,0.00691515554768354,Indigenous American
+Echols,Georgia,0.00691023643321964,Indigenous American
+Hartley,Texas,0.0069088524844058,Indigenous American
+Granville,North Carolina,0.00690633706701866,Indigenous American
+Walton,Georgia,0.00690403156671441,Indigenous American
+Sumner,Tennessee,0.006899529901947,Indigenous American
+Grayson,Texas,0.00689917374353273,Indigenous American
+Pike,Kentucky,0.00688974614300784,Indigenous American
+Dickson,Tennessee,0.00688548972745327,Indigenous American
+Iron,Missouri,0.00688233710352055,Indigenous American
+Colquitt,Georgia,0.00688099844516936,Indigenous American
+Mingo,West Virginia,0.00687798802505565,Indigenous American
+Van Zandt,Texas,0.00687238521289707,Indigenous American
+Cameron,Louisiana,0.00687138952936323,Indigenous American
+Alcorn,Mississippi,0.00687130397769035,Indigenous American
+Erath,Texas,0.00686573138870255,Indigenous American
+Clark,Arkansas,0.0068655330141891,Indigenous American
+DeKalb,Alabama,0.00686199198427431,Indigenous American
+Banks,Georgia,0.00686079467334243,Indigenous American
+Pickens,South Carolina,0.0068599972636646,Indigenous American
+Leake,Mississippi,0.00685906535416409,Indigenous American
+Lafayette,Louisiana,0.00685805483396391,Indigenous American
+Graham,Arizona,0.00684738031756898,Indigenous American
+McMinn,Tennessee,0.00684037493897903,Indigenous American
+Franklin,Georgia,0.00683937052671466,Indigenous American
+Henderson,Texas,0.00683745367021236,Indigenous American
+Polk,Arkansas,0.00683687711841786,Indigenous American
+Putnam,Missouri,0.0068305981966374,Indigenous American
+Jackson,Tennessee,0.0068239231683958,Indigenous American
+Randolph,Alabama,0.00682226433364955,Indigenous American
+Chambers,Alabama,0.00681655539241976,Indigenous American
+Dyer,Tennessee,0.0068143099351784,Indigenous American
+Robertson,Tennessee,0.00680713612511263,Indigenous American
+Rhea,Tennessee,0.00679870682283993,Indigenous American
+Jefferson Davis,Louisiana,0.00679451902061224,Indigenous American
+Kaufman,Texas,0.0067869236483447,Indigenous American
+Overton,Tennessee,0.00678386010532532,Indigenous American
+Bacon,Georgia,0.0067820616029869,Indigenous American
+Jackson,North Carolina,0.00678152323264446,Indigenous American
+Maury,Tennessee,0.00677615645746,Indigenous American
+Clay,North Carolina,0.00677595981356135,Indigenous American
+Falls,Texas,0.00677413445647585,Indigenous American
+Jefferson,Tennessee,0.00677248763631004,Indigenous American
+Fremont,Colorado,0.00677214106466926,Indigenous American
+Beauregard,Louisiana,0.00677018769878803,Indigenous American
+Franklin,Arkansas,0.00676691804154387,Indigenous American
+McLennan,Texas,0.00676388091351204,Indigenous American
+Union,Kentucky,0.00676010546855548,Indigenous American
+Runnels,Texas,0.0067585107115726,Indigenous American
+Moore,Texas,0.0067566739250488,Indigenous American
+Childress,Texas,0.0067497447306103,Indigenous American
+San Juan,Colorado,0.006747584359965,Indigenous American
+Oconee,Georgia,0.00674445669006396,Indigenous American
+Johnson,Arkansas,0.00674416434073351,Indigenous American
+Gwinnett,Georgia,0.00674369340871847,Indigenous American
+Tallapoosa,Alabama,0.00673879554968353,Indigenous American
+Scott,Tennessee,0.00673233200053722,Indigenous American
+Clay,Tennessee,0.00672995548540684,Indigenous American
+Palo Pinto,Texas,0.00672845332287876,Indigenous American
+Ouachita,Arkansas,0.00672823128885441,Indigenous American
+Wayne,Mississippi,0.0405110914015275,Northern Colonial
+Vermilion,Louisiana,0.0326592153576814,Northern Colonial
+Assumption,Louisiana,0.032262026046282,Northern Colonial
+Macon,Missouri,0.0290337656931252,Northern Colonial
+St. Martin,Louisiana,0.0269862529039714,Northern Colonial
+Lafayette,Louisiana,0.0260797105582992,Northern Colonial
+Iberia,Louisiana,0.0247086842939295,Northern Colonial
+Terrebonne,Louisiana,0.0242734925141693,Northern Colonial
+Etowah,Alabama,0.0242672071011437,Northern Colonial
+McMinn,Tennessee,0.0241100015452092,Northern Colonial
+Acadia,Louisiana,0.0234421522618875,Northern Colonial
+Cameron,Louisiana,0.0231010328705698,Northern Colonial
+Lafourche,Louisiana,0.022901261603885,Northern Colonial
+Jefferson Davis,Louisiana,0.0217471562900949,Northern Colonial
+St. Mary,Louisiana,0.0211135529266376,Northern Colonial
+Magoffin,Kentucky,0.0192044108846775,Northern Colonial
+Ascension,Louisiana,0.0191486861221209,Northern Colonial
+Jackson,West Virginia,0.0190103071136449,Northern Colonial
+Reagan,Texas,0.018611278097896,Northern Colonial
+Evangeline,Louisiana,0.0182798608998163,Northern Colonial
+Cabell,West Virginia,0.0180309920465007,Northern Colonial
+Calcasieu,Louisiana,0.0178167818921333,Northern Colonial
+Aroostook,Maine,0.0175991091073179,Northern Colonial
+Perry,Mississippi,0.017195767005998,Northern Colonial
+Kendall,Texas,0.0171167841613641,Northern Colonial
+Essex,Vermont,0.017112624907334,Northern Colonial
+Crenshaw,Alabama,0.0168367746042029,Northern Colonial
+Irion,Texas,0.0168352542782743,Northern Colonial
+Elbert,Georgia,0.0165974052069643,Northern Colonial
+Charlton,Georgia,0.0163862972969273,Northern Colonial
+Leslie,Kentucky,0.0159774598148736,Northern Colonial
+Cumberland,Kentucky,0.0158110144836655,Northern Colonial
+Clay,Kentucky,0.0156575886487402,Northern Colonial
+Grand Isle,Vermont,0.0155878131014349,Northern Colonial
+Orange,Texas,0.0155044207426643,Northern Colonial
+Greene,Mississippi,0.0154801494383404,Northern Colonial
+Franklin,Texas,0.0154278609374706,Northern Colonial
+Chambers,Texas,0.01529253220691,Northern Colonial
+Laclede,Missouri,0.015204339478227,Northern Colonial
+Hartley,Texas,0.0151449776697306,Northern Colonial
+St. Charles,Louisiana,0.0148552590821304,Northern Colonial
+George,Mississippi,0.0148152272686466,Northern Colonial
+Beauregard,Louisiana,0.0147522851859937,Northern Colonial
+Santa Rosa,Florida,0.0146915051289008,Northern Colonial
+Russell,Virginia,0.0144626325571892,Northern Colonial
+Jefferson,Texas,0.0142630440928777,Northern Colonial
+Winston,Alabama,0.0142504108816513,Northern Colonial
+Poinsett,Arkansas,0.0141010283124298,Northern Colonial
+St. Landry,Louisiana,0.0140799085042693,Northern Colonial
+Smith,Mississippi,0.0140692746568172,Northern Colonial
+Jones,Mississippi,0.0140661704992272,Northern Colonial
+Macon,North Carolina,0.0140659796649307,Northern Colonial
+Franklin,Vermont,0.0140658566857699,Northern Colonial
+Allen,Louisiana,0.0140255072303772,Northern Colonial
+Trinity,Texas,0.0139956054864565,Northern Colonial
+Neshoba,Mississippi,0.0139040143700404,Northern Colonial
+Lee,Alabama,0.0138867794661954,Northern Colonial
+Habersham,Georgia,0.0138740181574743,Northern Colonial
+Lawrence,Alabama,0.0137550374965287,Northern Colonial
+Cannon,Tennessee,0.0137056053731893,Northern Colonial
+Howell,Missouri,0.0136306839726532,Northern Colonial
+Latimer,Oklahoma,0.0136171340456373,Northern Colonial
+Iberville,Louisiana,0.013558991283878,Northern Colonial
+Tazewell,Virginia,0.0135488236555827,Northern Colonial
+Armstrong,Texas,0.0134905219928998,Northern Colonial
+Kent,Rhode Island,0.013484461586082,Northern Colonial
+Lampasas,Texas,0.013458727251003,Northern Colonial
+Colbert,Alabama,0.0134053993411348,Northern Colonial
+Cleburne,Alabama,0.0133715778480273,Northern Colonial
+Buchanan,Virginia,0.0132712411767828,Northern Colonial
+Clay,North Carolina,0.0132243013965925,Northern Colonial
+Sullivan,New Hampshire,0.0132126707643657,Northern Colonial
+Glasscock,Texas,0.0131800031979199,Northern Colonial
+Sterling,Texas,0.0131171860684732,Northern Colonial
+Lauderdale,Alabama,0.01307588321374,Northern Colonial
+Meigs,Tennessee,0.013040124942463,Northern Colonial
+Hawkins,Tennessee,0.0130261114720445,Northern Colonial
+Greene,Indiana,0.0130220862564339,Northern Colonial
+West Baton Rouge,Louisiana,0.0129497967386816,Northern Colonial
+Caledonia,Vermont,0.012882077520971,Northern Colonial
+Benton,Oregon,0.0128454809608232,Northern Colonial
+Tishomingo,Mississippi,0.0128388409254028,Northern Colonial
+Cherokee,Alabama,0.0128366660362387,Northern Colonial
+Morgan,Alabama,0.0128143488326125,Northern Colonial
+Coos,New Hampshire,0.0128067585324474,Northern Colonial
+Bacon,Georgia,0.012755076352718,Northern Colonial
+Hood,Texas,0.0127464617261205,Northern Colonial
+Kerr,Texas,0.0127381625503468,Northern Colonial
+Trigg,Kentucky,0.0127041439684545,Northern Colonial
+Franklin,Georgia,0.0126977984177666,Northern Colonial
+Collin,Texas,0.0126656058905981,Northern Colonial
+Wayne,Kentucky,0.0126324378736354,Northern Colonial
+Rains,Texas,0.012628468920263,Northern Colonial
+Dade,Georgia,0.0126256498018856,Northern Colonial
+Jeff Davis,Georgia,0.0126201556928224,Northern Colonial
+Decatur,Georgia,0.0126060046261642,Northern Colonial
+Washington,Alabama,0.0125814435419504,Northern Colonial
+Putnam,West Virginia,0.0125688178221049,Northern Colonial
+Chittenden,Vermont,0.0125553329921374,Northern Colonial
+Terrell,Texas,0.0125150015676698,Northern Colonial
+Lafayette,Florida,0.0125138468110862,Northern Colonial
+Terry,Texas,0.0125077738059813,Northern Colonial
+Chester,Tennessee,0.0125012908231481,Northern Colonial
+Ashe,North Carolina,0.0124966936747621,Northern Colonial
+Fayette,Georgia,0.0124802686595908,Northern Colonial
+Lamar,Mississippi,0.0124522856056563,Northern Colonial
+Avoyelles,Louisiana,0.0124448947785275,Northern Colonial
+Callahan,Texas,0.0124339200796761,Northern Colonial
+Throckmorton,Texas,0.0124158575205444,Northern Colonial
+DeKalb,Alabama,0.0124100894220285,Northern Colonial
+Bristol Bay,Alaska,0.0123963790974402,Northern Colonial
+Tippah,Mississippi,0.0123733900832205,Northern Colonial
+Perry,Arkansas,0.0123673559658148,Northern Colonial
+King,Texas,0.0123559341258034,Northern Colonial
+Coryell,Texas,0.0123508026466986,Northern Colonial
+Wolfe,Kentucky,0.0123397436410914,Northern Colonial
+Mason,West Virginia,0.0123383589601177,Northern Colonial
+Jackson,North Carolina,0.0123369817572654,Northern Colonial
+Lamoille,Vermont,0.0123285608304377,Northern Colonial
+Pulaski,Kentucky,0.0123105850985866,Northern Colonial
+Scott,Virginia,0.0123065947714846,Northern Colonial
+Liberty,Georgia,0.0122470082743717,Northern Colonial
+Hall,Georgia,0.0122410338367034,Northern Colonial
+Murray,Georgia,0.0122320240025315,Northern Colonial
+Floyd,Texas,0.012221507131443,Northern Colonial
+Vernon,Louisiana,0.01221789307362,Northern Colonial
+Scott,Arkansas,0.0122173110749895,Northern Colonial
+Cottle,Texas,0.0122100514429791,Northern Colonial
+Brown,Texas,0.0122017289428827,Northern Colonial
+Forrest,Mississippi,0.0121963739235496,Northern Colonial
+Grainger,Tennessee,0.01218914908556,Northern Colonial
+Covington,Mississippi,0.0121785246726075,Northern Colonial
+Okeechobee,Florida,0.012177027330629,Northern Colonial
+Emanuel,Georgia,0.0121745665449755,Northern Colonial
+Harlan,Kentucky,0.0121455272380793,Northern Colonial
+Haralson,Georgia,0.0121330375588244,Northern Colonial
+Conecuh,Alabama,0.0121236920429504,Northern Colonial
+Union,Mississippi,0.0121117114910601,Northern Colonial
+Bay,Florida,0.0121084349204906,Northern Colonial
+York,Maine,0.0120980782284711,Northern Colonial
+Cleburne,Arkansas,0.0120935301578229,Northern Colonial
+Hillsborough,New Hampshire,0.0120817473024275,Northern Colonial
+Baker,Florida,0.012065547565316,Northern Colonial
+Jefferson,Louisiana,0.0120540581036237,Northern Colonial
+Franklin,Tennessee,0.0120322898651033,Northern Colonial
+Madison,North Carolina,0.0120299401624113,Northern Colonial
+Elliott,Kentucky,0.0120148020894538,Northern Colonial
+Banks,Georgia,0.0119839885113232,Northern Colonial
+Monroe,Indiana,0.011963128906691,Northern Colonial
+Benewah,Idaho,0.011946669707231,Northern Colonial
+Dickens,Texas,0.0119093772441425,Northern Colonial
+Prentiss,Mississippi,0.0118897987048614,Northern Colonial
+Shelby,Texas,0.0118893640301865,Northern Colonial
+Franklin,Arkansas,0.0118733469836827,Northern Colonial
+Stonewall,Texas,0.0118652962231594,Northern Colonial
+Ozark,Missouri,0.0118641762414803,Northern Colonial
+Jasper,Mississippi,0.0118453637111106,Northern Colonial
+Boone,Arkansas,0.0118445273602018,Northern Colonial
+Douglas,Missouri,0.0118419792402343,Northern Colonial
+Rabun,Georgia,0.0118346055371878,Northern Colonial
+Roger Mills,Oklahoma,0.0118295218855709,Northern Colonial
+Wheeler,Texas,0.0118238783970018,Northern Colonial
+Jackson,Alabama,0.0118170114145494,Northern Colonial
+Clay,Alabama,0.011814917379716,Northern Colonial
+Powell,Kentucky,0.011807001594472,Northern Colonial
+Jackson,Louisiana,0.0117964591183411,Northern Colonial
+LaSalle,Louisiana,0.0117909271339294,Northern Colonial
+Martin,Kentucky,0.0117580007862642,Northern Colonial
+Anderson,Texas,0.0117550057233499,Northern Colonial
+Beckham,Oklahoma,0.0117252051191887,Northern Colonial
+Pushmataha,Oklahoma,0.0117190237134144,Northern Colonial
+Wayne,Georgia,0.0117181033249477,Northern Colonial
+Union,Florida,0.0117079039904778,Northern Colonial
+Orleans,Vermont,0.0116868335331145,Northern Colonial
+Patrick,Virginia,0.0116745262645487,Northern Colonial
+Franklin,Alabama,0.0116698956317137,Northern Colonial
+Mercer,Kentucky,0.0116695728702805,Northern Colonial
+Leake,Mississippi,0.0116688861431923,Northern Colonial
+Van Buren,Arkansas,0.0116552987536562,Northern Colonial
+Hancock,Tennessee,0.0116312437209837,Northern Colonial
+Grant,West Virginia,0.01161926858484,Northern Colonial
+Stewart,Tennessee,0.0115669880144908,Northern Colonial
+Garland,Arkansas,0.0115597509037288,Northern Colonial
+Washington,Vermont,0.0115529534206009,Northern Colonial
+Clinton,New York,0.0115401287344613,Northern Colonial
+Fannin,Georgia,0.0115343757454115,Northern Colonial
+Irwin,Georgia,0.011506786605924,Northern Colonial
+Owsley,Kentucky,0.0115052516820588,Northern Colonial
+Bell,Kentucky,0.0114980284242903,Northern Colonial
+Livingston,Louisiana,0.0114979846511319,Northern Colonial
+Grayson,Kentucky,0.0114918428585021,Northern Colonial
+Dyer,Tennessee,0.0114862476071014,Northern Colonial
+Anderson,Kentucky,0.0114839392948219,Northern Colonial
+Giles,Virginia,0.0114778686780904,Northern Colonial
+Whitfield,Georgia,0.0114646614539901,Northern Colonial
+Hickman,Tennessee,0.011463079329123,Northern Colonial
+Montgomery,North Carolina,0.0114433352264476,Northern Colonial
+McDowell,West Virginia,0.0114413560814505,Northern Colonial
+Caldwell,Kentucky,0.011435535785327,Northern Colonial
+Christian,Missouri,0.0114128096067948,Northern Colonial
+White,Arkansas,0.011410898166294,Northern Colonial
+Madison,Georgia,0.0114026466703774,Northern Colonial
+Cimarron,Oklahoma,0.0113965814410161,Northern Colonial
+Bradley,Tennessee,0.0113960750171507,Northern Colonial
+Dickenson,Virginia,0.011384985825067,Northern Colonial
+Independence,Arkansas,0.0113835405121632,Northern Colonial
+Faulkner,Arkansas,0.0113807743778963,Northern Colonial
+Mitchell,North Carolina,0.0113613080973858,Northern Colonial
+Atkinson,Georgia,0.0113335595205143,Northern Colonial
+Lincoln,West Virginia,0.0113272641439317,Northern Colonial
+Cleveland,Arkansas,0.011322529481789,Northern Colonial
+Claiborne,Tennessee,0.011320026660556,Northern Colonial
+Polk,Arkansas,0.0113179339801463,Northern Colonial
+Casey,Kentucky,0.0113056693828817,Northern Colonial
+Montgomery,Arkansas,0.0112950040807879,Northern Colonial
+Lumpkin,Georgia,0.0112925535198426,Northern Colonial
+Jackson,Kentucky,0.0112801449293765,Northern Colonial
+Lee,South Carolina,0.0112778567289375,Northern Colonial
+Fleming,Kentucky,0.0112710409072032,Northern Colonial
+Breathitt,Kentucky,0.0112699617887966,Northern Colonial
+Pulaski,Virginia,0.0112676342941706,Northern Colonial
+Calloway,Kentucky,0.0112497255550768,Northern Colonial
+Cochran,Texas,0.0112482842275956,Northern Colonial
+Wilcox,Georgia,0.0112192375610068,Northern Colonial
+Boyle,Kentucky,0.0112146260582805,Northern Colonial
+Dawson,Georgia,0.0112135350888251,Northern Colonial
+Coleman,Texas,0.0112126225798271,Northern Colonial
+Escambia,Florida,0.0112067862651855,Northern Colonial
+Beaverhead,Montana,0.0112054569434967,Northern Colonial
+Wayne,West Virginia,0.0112053128337275,Northern Colonial
+Eastland,Texas,0.0111926616441096,Northern Colonial
+Freestone,Texas,0.0111882574646755,Northern Colonial
+Cheshire,New Hampshire,0.0111829710453193,Northern Colonial
+Iron,Missouri,0.0111815680420891,Northern Colonial
+Webster,West Virginia,0.0111746054576501,Northern Colonial
+Monroe,Tennessee,0.0111731375063508,Northern Colonial
+Robertson,Kentucky,0.0111713888346224,Northern Colonial
+Butler,Kentucky,0.011164322323245,Northern Colonial
+Lee,Virginia,0.0111616703112945,Northern Colonial
+Fulton,Kentucky,0.0111567425541855,Northern Colonial
+Newton,Mississippi,0.0111565645170809,Northern Colonial
+McPherson,Nebraska,0.0111530281687519,Northern Colonial
+Vance,North Carolina,0.0111516660561037,Northern Colonial
+Greenup,Kentucky,0.011136346797249,Northern Colonial
+Alcorn,Mississippi,0.0111326473018773,Northern Colonial
+McDonald,Missouri,0.0111318870189302,Northern Colonial
+Harmon,Oklahoma,0.0111284607365635,Northern Colonial
+Windsor,Vermont,0.0111264535948778,Northern Colonial
+Union,Tennessee,0.0111205585204501,Northern Colonial
+Haskell,Texas,0.0111182015840846,Northern Colonial
+Bryan,Oklahoma,0.0111171253489931,Northern Colonial
+Oconee,South Carolina,0.0111078985720951,Northern Colonial
+Grant,Louisiana,0.0111025413433884,Northern Colonial
+Screven,Georgia,0.0111020682387471,Northern Colonial
+Grafton,New Hampshire,0.0110984418639909,Northern Colonial
+Rockcastle,Kentucky,0.0110932022856864,Northern Colonial
+Saline,Arkansas,0.0110905273306826,Northern Colonial
+Edmonson,Kentucky,0.0110852394571946,Northern Colonial
+Benton,Arkansas,0.0110816057441745,Northern Colonial
+Estill,Kentucky,0.0110788097208342,Northern Colonial
+Jackson,Mississippi,0.0110692929836984,Northern Colonial
+Dent,Missouri,0.0110692424774868,Northern Colonial
+Chattooga,Georgia,0.0110686735169071,Northern Colonial
+Stephens,Oklahoma,0.0110582908056556,Northern Colonial
+Unicoi,Tennessee,0.0110532692367712,Northern Colonial
+Lincoln,Tennessee,0.0110412127867114,Northern Colonial
+Concho,Texas,0.0110386915196525,Northern Colonial
+Spencer,Kentucky,0.0110368510288783,Northern Colonial
+Hall,Texas,0.011033598273912,Northern Colonial
+Fentress,Tennessee,0.0110318016280834,Northern Colonial
+Halifax,Virginia,0.0110293703498628,Northern Colonial
+Clinton,Kentucky,0.0110265988144607,Northern Colonial
+Somerset,Maine,0.0110204364838928,Northern Colonial
+Dixie,Florida,0.0110181188485327,Northern Colonial
+Rapides,Louisiana,0.0110136176620679,Northern Colonial
+Winston,Mississippi,0.010990152555672,Northern Colonial
+Walton,Florida,0.0109888600350406,Northern Colonial
+Gadsden,Florida,0.0109870504407229,Northern Colonial
+McClain,Oklahoma,0.0109846335680005,Northern Colonial
+Sevier,Tennessee,0.0109798575416121,Northern Colonial
+Greenville,South Carolina,0.0109770366040146,Northern Colonial
+Washington,Louisiana,0.0109720774384807,Northern Colonial
+Madison,Kentucky,0.0109635654064218,Northern Colonial
+Nacogdoches,Texas,0.0109635569447021,Northern Colonial
+Taylor,Florida,0.0109635101384176,Northern Colonial
+Hardin,Tennessee,0.010963416965136,Northern Colonial
+Houston,Texas,0.010963233812568,Northern Colonial
+Jack,Texas,0.0109533789415787,Northern Colonial
+Franklin,New York,0.0109509522111686,Northern Colonial
+Pendleton,Kentucky,0.0109365265171885,Northern Colonial
+Merrimack,New Hampshire,0.0109348537503141,Northern Colonial
+Caldwell,North Carolina,0.0109323374964925,Northern Colonial
+Cocke,Tennessee,0.0109309081886516,Northern Colonial
+Campbell,Tennessee,0.0109301794498324,Northern Colonial
+San Augustine,Texas,0.010924426028733,Northern Colonial
+Barrow,Georgia,0.0109116590583388,Northern Colonial
+Pickett,Tennessee,0.0109067170313363,Northern Colonial
+Smith,Tennessee,0.0109008503328535,Northern Colonial
+Dallas,Arkansas,0.0108959530899493,Northern Colonial
+St. James,Louisiana,0.010894375198409,Northern Colonial
+Wise,Virginia,0.0108909659494683,Northern Colonial
+Limestone,Alabama,0.0108868337026098,Northern Colonial
+Stone,Arkansas,0.0108809250283932,Northern Colonial
+Garrard,Kentucky,0.0108761380024239,Northern Colonial
+Meade,Kentucky,0.0108740689568055,Northern Colonial
+Forsyth,Georgia,0.0108494637823894,Northern Colonial
+Swain,North Carolina,0.0108472800355865,Northern Colonial
+Putnam,Tennessee,0.0108402340296439,Northern Colonial
+Clark,Arkansas,0.0108336106882254,Northern Colonial
+Washington,Kentucky,0.0108331836835081,Northern Colonial
+Johnston,Oklahoma,0.0108176055216039,Northern Colonial
+Worcester,Massachusetts,0.0108164556636923,Northern Colonial
+Catoosa,Georgia,0.0108163553835556,Northern Colonial
+Madison,Alabama,0.0108094763442716,Northern Colonial
+Hillsborough,Florida,0.0108071213688591,Northern Colonial
+Barren,Kentucky,0.0108020877686164,Northern Colonial
+Garza,Texas,0.0107942887410062,Northern Colonial
+Beaver,Oklahoma,0.0107922299382158,Northern Colonial
+Comanche,Texas,0.0107898562037998,Northern Colonial
+Denton,Texas,0.0107806552390209,Northern Colonial
+Carter,Kentucky,0.0107728021833514,Northern Colonial
+Jefferson,Tennessee,0.0107667043724858,Northern Colonial
+Motley,Texas,0.0107590343504126,Northern Colonial
+Fauquier,Virginia,0.0107480371778069,Northern Colonial
+Titus,Texas,0.010743636078498,Northern Colonial
+Blount,Alabama,0.0107411096028944,Northern Colonial
+Bulloch,Georgia,0.0107410975337424,Northern Colonial
+Itawamba,Mississippi,0.0107401189526461,Northern Colonial
+Liberty,Texas,0.0107328766072842,Northern Colonial
+Maries,Missouri,0.0107257799772134,Northern Colonial
+Bibb,Georgia,0.010721898270444,Northern Colonial
+Kent,Texas,0.0107210900788633,Northern Colonial
+Hale,Texas,0.0107203154378303,Northern Colonial
+Grayson,Virginia,0.0107201333945671,Northern Colonial
+Belknap,New Hampshire,0.0107171400304592,Northern Colonial
+Windham,Connecticut,0.0107141179178792,Northern Colonial
+Berrien,Georgia,0.0107106532831597,Northern Colonial
+Lea,New Mexico,0.0107068732407347,Northern Colonial
+Calhoun,Mississippi,0.0107056226224435,Northern Colonial
+Sequatchie,Tennessee,0.0106988262657194,Northern Colonial
+Buckingham,Virginia,0.0106975033223385,Northern Colonial
+Collingsworth,Texas,0.0106961630811539,Northern Colonial
+Lawrence,Kentucky,0.0106943126139187,Northern Colonial
+Baldwin,Alabama,0.0106933486133103,Northern Colonial
+Perry,Kentucky,0.0106900092198431,Northern Colonial
+Marshall,Tennessee,0.0106891568093601,Northern Colonial
+Logan,West Virginia,0.0106857402814196,Northern Colonial
+Searcy,Arkansas,0.010678940787239,Northern Colonial
+Pittsylvania,Virginia,0.0106750904794955,Northern Colonial
+Mitchell,Texas,0.0106733258346938,Northern Colonial
+Marion,Alabama,0.0106666237505946,Northern Colonial
+Oconee,Georgia,0.0106641006052605,Northern Colonial
+Escambia,Alabama,0.0106492720861139,Northern Colonial
+Gordon,Georgia,0.0106468213065883,Northern Colonial
+Davidson,North Carolina,0.0106460661256928,Northern Colonial
+Rockwall,Texas,0.0106408314590654,Northern Colonial
+Washington,Virginia,0.0106305084635837,Northern Colonial
+Clinch,Georgia,0.0106299219297351,Northern Colonial
+Wise,Texas,0.0106273572084584,Northern Colonial
+Wallowa,Oregon,0.0106222995370988,Northern Colonial
+Amherst,Virginia,0.0106208360783131,Northern Colonial
+Franklin,Maine,0.0106177073079117,Northern Colonial
+Morgan,Kentucky,0.0106068464534484,Northern Colonial
+Cheatham,Tennessee,0.0106027073271062,Northern Colonial
+Borden,Texas,0.010595821670377,Northern Colonial
+Haakon,South Dakota,0.0105850810117584,Northern Colonial
+Newton,Arkansas,0.0105848378903594,Northern Colonial
+San Saba,Texas,0.010582649733058,Northern Colonial
+Yadkin,North Carolina,0.0105826063332337,Northern Colonial
+Pike,Arkansas,0.0105747236649746,Northern Colonial
+White,Georgia,0.0105745085652834,Northern Colonial
+Gilmer,West Virginia,0.0105691842517944,Northern Colonial
+Cullman,Alabama,0.0105594286512245,Northern Colonial
+Calhoun,Florida,0.0105529380908464,Northern Colonial
+Jackson,Arkansas,0.0105505417019004,Northern Colonial
+Pickens,Georgia,0.010549302236894,Northern Colonial
+Blount,Tennessee,0.010536843688905,Northern Colonial
+Prairie,Arkansas,0.0105343408239486,Northern Colonial
+Polk,North Carolina,0.0105340613337366,Northern Colonial
+Cedar,Missouri,0.0105334822047501,Northern Colonial
+Pointe Coupee,Louisiana,0.0105317196601591,Northern Colonial
+Jackson,Tennessee,0.0105270102986272,Northern Colonial
+Cherokee,Oklahoma,0.0105214314479106,Northern Colonial
+Rutland,Vermont,0.0105132200919981,Northern Colonial
+Mayes,Oklahoma,0.0105070779562732,Northern Colonial
+Franklin,Mississippi,0.010505941229857,Northern Colonial
+Walton,Georgia,0.0104992433401026,Northern Colonial
+Lauderdale,Mississippi,0.0104968930474828,Northern Colonial
+Somervell,Texas,0.0104803921431789,Northern Colonial
+Benton,Tennessee,0.0104778321083458,Northern Colonial
+Liberty,Florida,0.0104727472278489,Northern Colonial
+Androscoggin,Maine,0.0104620242522772,Northern Colonial
+Boyd,Kentucky,0.010461301187792,Northern Colonial
+Stanly,North Carolina,0.0104586055331107,Northern Colonial
+Moffat,Colorado,0.0104578139269663,Northern Colonial
+Glascock,Georgia,0.010455594201927,Northern Colonial
+Brooks,Georgia,0.0104517443605569,Northern Colonial
+Schoolcraft,Michigan,0.010449321940842,Northern Colonial
+East Baton Rouge,Louisiana,0.0104409937830671,Northern Colonial
+Martin,Texas,0.0104338177780541,Northern Colonial
+Walker,Georgia,0.0104269881223119,Northern Colonial
+Roosevelt,New Mexico,0.0104199413043132,Northern Colonial
+Taylor,Texas,0.0104199008873023,Northern Colonial
+Miller,Georgia,0.0104143056255114,Northern Colonial
+Hart,Georgia,0.0104073143749739,Northern Colonial
+Cumberland,Tennessee,0.0103939758310398,Northern Colonial
+Webster,Mississippi,0.0103922381170292,Northern Colonial
+Taney,Missouri,0.0103902041404665,Northern Colonial
+Owen,Kentucky,0.0103821677129204,Northern Colonial
+Caldwell,Louisiana,0.0103762652925427,Northern Colonial
+Knott,Kentucky,0.0103708522656832,Northern Colonial
+Laurel,Kentucky,0.0103689293361572,Northern Colonial
+Butler,Missouri,0.0103652920686135,Northern Colonial
+McCulloch,Texas,0.0103632607535989,Northern Colonial
+Stone,Mississippi,0.0103540211122492,Northern Colonial
+Coosa,Alabama,0.0103504320726464,Northern Colonial
+Laurens,South Carolina,0.0103295385703408,Northern Colonial
+Carroll,Kentucky,0.0103287715950845,Northern Colonial
+Franklin,Louisiana,0.0103227273440223,Northern Colonial
+Bracken,Kentucky,0.0103222556138699,Northern Colonial
+Parker,Texas,0.0103213757797866,Northern Colonial
+Lyon,Kentucky,0.0103210715980565,Northern Colonial
+Monroe,Alabama,0.0103138726581709,Northern Colonial
+Van Buren,Tennessee,0.0103028886184862,Northern Colonial
+Marion,Tennessee,0.0102953661082746,Northern Colonial
+Clarke,Mississippi,0.0102859826537628,Northern Colonial
+Ohio,Kentucky,0.0102780351842377,Northern Colonial
+Sharp,Arkansas,0.0102743693948255,Northern Colonial
+Angelina,Texas,0.0102687134642481,Northern Colonial
+Giles,Tennessee,0.010268537363014,Northern Colonial
+Hunt,Texas,0.0102623189568849,Northern Colonial
+Morgan,Georgia,0.0102604552149711,Northern Colonial
+Henderson,Tennessee,0.0102536614890265,Northern Colonial
+Rhea,Tennessee,0.0102527005726597,Northern Colonial
+Grant,Arkansas,0.0102505458955822,Northern Colonial
+Loup,Nebraska,0.0102457238380079,Northern Colonial
+Thomas,Georgia,0.0102443456600199,Northern Colonial
+Franklin,North Carolina,0.010243858204888,Northern Colonial
+Yell,Arkansas,0.010241742462717,Northern Colonial
+Rooks,Kansas,0.0102396372449264,Northern Colonial
+Johnston,North Carolina,0.0102361481411169,Northern Colonial
+Macon,Tennessee,0.0102344121101757,Northern Colonial
+Pierce,Georgia,0.0102290481423843,Northern Colonial
+Wood,West Virginia,0.0102188736713084,Northern Colonial
+Grundy,Missouri,0.0102159816016622,Northern Colonial
+Wilkes,North Carolina,0.0102111370999174,Northern Colonial
+Charlotte,Florida,0.0102071987012949,Northern Colonial
+Lamar,Texas,0.010197933283626,Northern Colonial
+Granville,North Carolina,0.0101943674225727,Northern Colonial
+Erath,Texas,0.0101863753273705,Northern Colonial
+Grayson,Texas,0.0101825712602999,Northern Colonial
+Suwannee,Florida,0.0101784281989171,Northern Colonial
+Upshur,West Virginia,0.0101745512369266,Northern Colonial
+Arkansas,Arkansas,0.0101639484063687,Northern Colonial
+Walthall,Mississippi,0.0101614139564848,Northern Colonial
+Nolan,Texas,0.0101574549028114,Northern Colonial
+Navarro,Texas,0.0101563595469091,Northern Colonial
+Towns,Georgia,0.0101506778133248,Northern Colonial
+Russell,Kentucky,0.0101468109516238,Northern Colonial
+Hockley,Texas,0.0101422703490138,Northern Colonial
+Washington,Idaho,0.0101403814247384,Northern Colonial
+Garvin,Oklahoma,0.0101370484290307,Northern Colonial
+Jefferson,Oklahoma,0.010135830076973,Northern Colonial
+Jefferson,Illinois,0.0101345335136584,Northern Colonial
+Union,Louisiana,0.0101340125092743,Northern Colonial
+Columbia,Florida,0.0101312218242813,Northern Colonial
+Pike,Kentucky,0.0101311974596501,Northern Colonial
+Nelson,Virginia,0.0101155412645578,Northern Colonial
+Hardin,Kentucky,0.0101154203579466,Northern Colonial
+Henry,Kentucky,0.010114648674969,Northern Colonial
+Glades,Florida,0.0101137606051734,Northern Colonial
+Conway,Arkansas,0.0101107264915687,Northern Colonial
+Tompkins,New York,0.0101088244688651,Northern Colonial
+Andrews,Texas,0.0101077495646383,Northern Colonial
+Graham,North Carolina,0.010105140314386,Northern Colonial
+Panola,Texas,0.0100989882455143,Northern Colonial
+Monroe,Missouri,0.0100950588244173,Northern Colonial
+Jackson,Georgia,0.0100918101698746,Northern Colonial
+Jasper,Texas,0.0100887360898524,Northern Colonial
+Van Zandt,Texas,0.0100873521230586,Northern Colonial
+Monroe,Mississippi,0.0100841754035127,Northern Colonial
+Houston,Tennessee,0.0100792355545396,Northern Colonial
+Jefferson,Alabama,0.010071322095811,Northern Colonial
+Coffee,Tennessee,0.0100701133581079,Northern Colonial
+Bedford,Tennessee,0.0100555046664543,Northern Colonial
+Perry,Tennessee,0.0100547344328274,Northern Colonial
+Highland,Virginia,0.0100524493061937,Northern Colonial
+Hardin,Texas,0.0100500075247728,Northern Colonial
+Stephens,Georgia,0.0100499907517753,Northern Colonial
+St. Tammany,Louisiana,0.0100498800974904,Northern Colonial
+Alpena,Michigan,0.0100407771972733,Northern Colonial
+Bourbon,Kansas,0.010038808785584,Northern Colonial
+Greer,Oklahoma,0.0100375329706729,Northern Colonial
+DeKalb,Tennessee,0.0100330356341812,Northern Colonial
+Sabine,Louisiana,0.0100317358864486,Northern Colonial
+Carter,Oklahoma,0.0100305378887,Northern Colonial
+Hardeman,Texas,0.0100289598108997,Northern Colonial
+Logan,Kentucky,0.01002836701375,Northern Colonial
+Little River,Arkansas,0.0100235849740152,Northern Colonial
+Anderson,South Carolina,0.0100211960159009,Northern Colonial
+Montgomery,Iowa,0.0153755229776034,Scandinavian American
+Sheridan,Montana,0.0106683367890726,Scandinavian American
+Howell,Missouri,0.0100441258944295,Scandinavian American
+Clearwater,Minnesota,0.00717529593393416,Scandinavian American
+Norman,Minnesota,0.00667209292884768,Scandinavian American
+Griggs,North Dakota,0.0058081333855472,Scandinavian American
+Page,Iowa,0.00563036199487542,Scandinavian American
+Fillmore,Nebraska,0.0053728725877943,Scandinavian American
+Story,Iowa,0.00488232034697773,Scandinavian American
+Steele,North Dakota,0.00420468921880207,Scandinavian American
+Meade,Kentucky,0.00419360964331326,Scandinavian American
+Traill,North Dakota,0.0041424350896762,Scandinavian American
+Grand Forks,North Dakota,0.00402749566716902,Scandinavian American
+Williams,North Dakota,0.00397957961251195,Scandinavian American
+Cavalier,North Dakota,0.0039776823266638,Scandinavian American
+Citrus,Florida,0.0039221304473293,Scandinavian American
+Pope,Minnesota,0.0039102962097493,Scandinavian American
+Ziebach,South Dakota,0.0038673627086478,Scandinavian American
+Worth,Iowa,0.0038219018382516,Scandinavian American
+Yankton,South Dakota,0.00369912363902815,Scandinavian American
+Isanti,Minnesota,0.00356709412366983,Scandinavian American
+Kiowa,Kansas,0.0034334373455637,Scandinavian American
+Stewart,Tennessee,0.00338928374948265,Scandinavian American
+Benson,North Dakota,0.00334880268042366,Scandinavian American
+Catron,New Mexico,0.0033100380775302,Scandinavian American
+Colfax,New Mexico,0.0032997368477408,Scandinavian American
+Jackson,South Dakota,0.003283439510755,Scandinavian American
+Chippewa,Minnesota,0.00324814444915703,Scandinavian American
+Humboldt,Iowa,0.00323092592856646,Scandinavian American
+Ralls,Missouri,0.0032033037591152,Scandinavian American
+Freeborn,Minnesota,0.00318342555018493,Scandinavian American
+Vernon,Missouri,0.0031702908645642,Scandinavian American
+Nelson,North Dakota,0.00316509158197876,Scandinavian American
+Richland,North Dakota,0.00314896270575286,Scandinavian American
+Hickory,Missouri,0.0031455486241891,Scandinavian American
+Adams,North Dakota,0.0031265154903694,Scandinavian American
+Andrews,Texas,0.0031017233781933,Scandinavian American
+Shackelford,Texas,0.0030787011710526,Scandinavian American
+Polk,Minnesota,0.00305494445670709,Scandinavian American
+Garland,Arkansas,0.00303650737069364,Scandinavian American
+Adams,Wisconsin,0.0030357960117199,Scandinavian American
+Dade,Georgia,0.0030282645398855,Scandinavian American
+Sargent,North Dakota,0.0030276699314119,Scandinavian American
+Yellow Medicine,Minnesota,0.00302440456628405,Scandinavian American
+Jefferson,Montana,0.00298684515669515,Scandinavian American
+Renville,North Dakota,0.0029832462500633,Scandinavian American
+Bowman,North Dakota,0.0029695699603475,Scandinavian American
+Grant,Minnesota,0.00294093874402787,Scandinavian American
+Elk,Kansas,0.0029254989588345,Scandinavian American
+Marshall,South Dakota,0.0028984841433858,Scandinavian American
+Orange,Florida,0.0028791883215592,Scandinavian American
+Moody,South Dakota,0.00285304361641765,Scandinavian American
+Lawrence,Indiana,0.00283528302871045,Scandinavian American
+Haakon,South Dakota,0.0028231039342907,Scandinavian American
+Day,South Dakota,0.00278185168141493,Scandinavian American
+Walsh,North Dakota,0.00277019432736271,Scandinavian American
+Valley,Idaho,0.0027661280190272,Scandinavian American
+Casey,Kentucky,0.00273991140440243,Scandinavian American
+Clay,Minnesota,0.00271517201115472,Scandinavian American
+Marshall,Minnesota,0.00266743018220836,Scandinavian American
+Van Buren,Iowa,0.0026625600698249,Scandinavian American
+Mower,Minnesota,0.00263616323430337,Scandinavian American
+Mecklenburg,Virginia,0.00261604356792868,Scandinavian American
+Becker,Minnesota,0.00258637928082864,Scandinavian American
+Perry,Arkansas,0.0025818978800939,Scandinavian American
+Calloway,Kentucky,0.0025617271265251,Scandinavian American
+Phillips,Montana,0.0025490812629737,Scandinavian American
+Grainger,Tennessee,0.00253726306998095,Scandinavian American
+Valley,Montana,0.00252604002115705,Scandinavian American
+Goodhue,Minnesota,0.00251585496789077,Scandinavian American
+Wilkin,Minnesota,0.0025103477778055,Scandinavian American
+Yell,Arkansas,0.00249787727823978,Scandinavian American
+Ward,North Dakota,0.002495193629726,Scandinavian American
+Douglas,Wisconsin,0.00249477191028609,Scandinavian American
+Kingsbury,South Dakota,0.0024942905797749,Scandinavian American
+Winneshiek,Iowa,0.00249165889191854,Scandinavian American
+Faribault,Minnesota,0.00248989462667524,Scandinavian American
+Rock,Minnesota,0.00246671202660924,Scandinavian American
+Chariton,Missouri,0.00245864286369845,Scandinavian American
+Collingsworth,Texas,0.0024540276954012,Scandinavian American
+Dallas,Arkansas,0.00244803626341135,Scandinavian American
+Hubbard,Minnesota,0.00243748401049885,Scandinavian American
+Jones,South Dakota,0.0024333297366294,Scandinavian American
+Adams,Iowa,0.00241582663398443,Scandinavian American
+Spink,South Dakota,0.00241094576379455,Scandinavian American
+Deuel,South Dakota,0.0023981858502892,Scandinavian American
+Ozark,Missouri,0.0023773955261538,Scandinavian American
+Macon,North Carolina,0.00237151968748253,Scandinavian American
+Mercer,Kentucky,0.00236712558363354,Scandinavian American
+Mahnomen,Minnesota,0.0023576679718943,Scandinavian American
+Rockwall,Texas,0.0023549892289261,Scandinavian American
+Washington,Nebraska,0.0023440705171204,Scandinavian American
+McCreary,Kentucky,0.00233077632437965,Scandinavian American
+Ramsey,North Dakota,0.00232231754452763,Scandinavian American
+Dallam,Texas,0.0023118423514972,Scandinavian American
+Olmsted,Minnesota,0.00230706579280008,Scandinavian American
+Douglas,Minnesota,0.00229404110865105,Scandinavian American
+Kittson,Minnesota,0.00228085456230843,Scandinavian American
+Jackson,Wisconsin,0.00228052173734675,Scandinavian American
+Lincoln,Tennessee,0.002273882757902,Scandinavian American
+Crow Wing,Minnesota,0.00227129248855892,Scandinavian American
+Redwood,Minnesota,0.00226377388510767,Scandinavian American
+Houston,Minnesota,0.00225749620981188,Scandinavian American
+Hopkins,Texas,0.00225621950681657,Scandinavian American
+Martin,Minnesota,0.00225572020329504,Scandinavian American
+Dixon,Nebraska,0.002249388728446,Scandinavian American
+Brookings,South Dakota,0.00224767016015422,Scandinavian American
+Burke,North Dakota,0.0022434991382971,Scandinavian American
+Middlesex,Virginia,0.0022421366955291,Scandinavian American
+Genesee,New York,0.00224133995833464,Scandinavian American
+Hardin,Iowa,0.00223524938001435,Scandinavian American
+Idaho,Idaho,0.00223366972588455,Scandinavian American
+Swisher,Texas,0.00222832546805263,Scandinavian American
+Plumas,California,0.0022141959311825,Scandinavian American
+Adams,Idaho,0.0022088675140242,Scandinavian American
+Pierce,North Dakota,0.0021728697495961,Scandinavian American
+Oconee,South Carolina,0.00217125881708167,Scandinavian American
+Lake of the Woods,Minnesota,0.0021661701527899,Scandinavian American
+Craig,Virginia,0.0021651107108762,Scandinavian American
+Divide,North Dakota,0.00215571606437905,Scandinavian American
+Tishomingo,Mississippi,0.00213296169136289,Scandinavian American
+O'Brien,Iowa,0.00212630359586126,Scandinavian American
+Franklin,Missouri,0.00210989046946383,Scandinavian American
+Winnebago,Iowa,0.002105663604909,Scandinavian American
+Lac qui Parle,Minnesota,0.00209352372070857,Scandinavian American
+Elbert,Georgia,0.0020925643516007,Scandinavian American
+Stark,Illinois,0.0020903291252175,Scandinavian American
+Sarpy,Nebraska,0.0020890023294687,Scandinavian American
+Perry,Kentucky,0.00208077807831046,Scandinavian American
+Custer,Oklahoma,0.00207961283993349,Scandinavian American
+Gilchrist,Florida,0.00207688268841539,Scandinavian American
+Kandiyohi,Minnesota,0.0020767384871847,Scandinavian American
+Nemaha,Nebraska,0.00207184793017465,Scandinavian American
+Decatur,Iowa,0.00205677319484568,Scandinavian American
+Union,Indiana,0.0020523208418316,Scandinavian American
+Swift,Minnesota,0.00204521527914265,Scandinavian American
+Mille Lacs,Minnesota,0.00203813273703417,Scandinavian American
+Archer,Texas,0.0020369606052155,Scandinavian American
+Stillwater,Montana,0.0020357877282719,Scandinavian American
+Sublette,Wyoming,0.002032765151898,Scandinavian American
+Stone,Missouri,0.00201020688125606,Scandinavian American
+Union,Oregon,0.00200363040036727,Scandinavian American
+Pennington,Minnesota,0.0020030724688491,Scandinavian American
+McHenry,North Dakota,0.00200149094781346,Scandinavian American
+Montgomery,Missouri,0.00200003455354495,Scandinavian American
+Ransom,North Dakota,0.00199715480740876,Scandinavian American
+Missaukee,Michigan,0.0019966258241092,Scandinavian American
+Cabarrus,North Carolina,0.0019890432481082,Scandinavian American
+Nicollet,Minnesota,0.0019844088587199,Scandinavian American
+Doniphan,Kansas,0.0019832636546933,Scandinavian American
+Minnehaha,South Dakota,0.00198166272833357,Scandinavian American
+Keokuk,Iowa,0.00197644665757623,Scandinavian American
+Roseau,Minnesota,0.0019748387628511,Scandinavian American
+Fremont,Iowa,0.0019746850010311,Scandinavian American
+Madison,Georgia,0.0019632997189385,Scandinavian American
+Jackson,Kentucky,0.0019602438608331,Scandinavian American
+Republic,Kansas,0.00195936050869895,Scandinavian American
+Dodge,Minnesota,0.00195812067128832,Scandinavian American
+Lawrence,Tennessee,0.0019477519379979,Scandinavian American
+Knox,Missouri,0.0019426041163591,Scandinavian American
+Overton,Tennessee,0.0019418686081103,Scandinavian American
+Lincoln,Arkansas,0.0019417517001933,Scandinavian American
+Washington,Missouri,0.001937392486038,Scandinavian American
+McMinn,Tennessee,0.00193710003703822,Scandinavian American
+McKenzie,North Dakota,0.00193168341118283,Scandinavian American
+Trigg,Kentucky,0.00193075158617015,Scandinavian American
+Bottineau,North Dakota,0.00192394883561914,Scandinavian American
+Dent,Missouri,0.0019137143273351,Scandinavian American
+Stokes,North Carolina,0.00190097226231493,Scandinavian American
+Yamhill,Oregon,0.00190090591012737,Scandinavian American
+Buffalo,Nebraska,0.00190023242482646,Scandinavian American
+Lampasas,Texas,0.00189824990240736,Scandinavian American
+Aitkin,Minnesota,0.00189385945031765,Scandinavian American
+Chisago,Minnesota,0.00188819104936232,Scandinavian American
+Mountrail,North Dakota,0.0018872584271923,Scandinavian American
+Hardee,Florida,0.00188475995706105,Scandinavian American
+Frontier,Nebraska,0.0018772466257621,Scandinavian American
+Stutsman,North Dakota,0.00187286752830894,Scandinavian American
+Claiborne,Tennessee,0.0018690858241221,Scandinavian American
+Titus,Texas,0.0018642205842199,Scandinavian American
+Boyle,Kentucky,0.00186404265528379,Scandinavian American
+Fayette,Iowa,0.00185653343850167,Scandinavian American
+LaMoure,North Dakota,0.00185461276593505,Scandinavian American
+Henderson,Texas,0.00184698006924308,Scandinavian American
+Dewey,Oklahoma,0.0018357408809721,Scandinavian American
+Osage,Oklahoma,0.00182947373664963,Scandinavian American
+Henderson,Tennessee,0.00182798265729765,Scandinavian American
+Barnes,North Dakota,0.0018224601870145,Scandinavian American
+Cass,North Dakota,0.00181788278329423,Scandinavian American
+Johnson,Illinois,0.00180941018950443,Scandinavian American
+Cheyenne,Colorado,0.00180798569569389,Scandinavian American
+Woodward,Oklahoma,0.00180669911385975,Scandinavian American
+Jefferson,Alabama,0.00180149896706221,Scandinavian American
+Wright,Iowa,0.00179199991710948,Scandinavian American
+Hamilton,New York,0.0017812016175836,Scandinavian American
+Ballard,Kentucky,0.0017788923720668,Scandinavian American
+Wayne,Tennessee,0.00177568931498053,Scandinavian American
+DeKalb,Alabama,0.0017738187729162,Scandinavian American
+Lauderdale,Alabama,0.00177258793669302,Scandinavian American
+Hunterdon,New Jersey,0.00177002080492665,Scandinavian American
+Otter Tail,Minnesota,0.00176766717984884,Scandinavian American
+Logan,Ohio,0.00176757609958102,Scandinavian American
+Cumberland,Tennessee,0.00176473153109136,Scandinavian American
+Falls,Texas,0.00176023204316914,Scandinavian American
+Putnam,Indiana,0.00175685042428896,Scandinavian American
+Henrico,Virginia,0.0017552907278638,Scandinavian American
+Coleman,Texas,0.00175117881015606,Scandinavian American
+Izard,Arkansas,0.00174869276747572,Scandinavian American
+Okanogan,Washington,0.001748545507121,Scandinavian American
+Warren,Tennessee,0.0017478834093471,Scandinavian American
+Warren,North Carolina,0.00174382733270325,Scandinavian American
+Coffee,Tennessee,0.00173972428668833,Scandinavian American
+Meigs,Tennessee,0.0017396464138446,Scandinavian American
+Meade,Kansas,0.0017354531959131,Scandinavian American
+Lyon,Iowa,0.00173424062578105,Scandinavian American
+Dunn,Wisconsin,0.00173167157548386,Scandinavian American
+Lyman,South Dakota,0.00173042978642166,Scandinavian American
+Boone,West Virginia,0.00172976683583387,Scandinavian American
+Cocke,Tennessee,0.0017275344542162,Scandinavian American
+Vernon,Louisiana,0.00172741060434944,Scandinavian American
+Schleicher,Texas,0.0017268884209984,Scandinavian American
+Fillmore,Minnesota,0.00172209166954081,Scandinavian American
+Throckmorton,Texas,0.0017202146054212,Scandinavian American
+Orange,Texas,0.0017192615770095,Scandinavian American
+Toole,Montana,0.0017172427232337,Scandinavian American
+Brown,Nebraska,0.0017060273507693,Scandinavian American
+Washington,Arkansas,0.0017045466653276,Scandinavian American
+Red Lake,Minnesota,0.001704264720095,Scandinavian American
+Vernon,Wisconsin,0.00170359209397032,Scandinavian American
+Cook,Minnesota,0.0016965179089202,Scandinavian American
+Monroe,Kentucky,0.0016954027871014,Scandinavian American
+Antrim,Michigan,0.00169483925015996,Scandinavian American
+Todd,Kentucky,0.0016903593279756,Scandinavian American
+Shelby,Iowa,0.0016885888445861,Scandinavian American
+Franklin,Nebraska,0.0016870018717861,Scandinavian American
+Estill,Kentucky,0.0016849300960988,Scandinavian American
+Adair,Kentucky,0.0016847866787293,Scandinavian American
+Shelby,Kentucky,0.0016824825311404,Scandinavian American
+Washita,Oklahoma,0.0016798606151046,Scandinavian American
+Woodbury,Iowa,0.00167985159248678,Scandinavian American
+Taney,Missouri,0.00167565323425383,Scandinavian American
+Lyon,Kentucky,0.0016731599344477,Scandinavian American
+Kanabec,Minnesota,0.0016707949180044,Scandinavian American
+LaSalle,Illinois,0.00166921814268204,Scandinavian American
+Harris,Georgia,0.0016684259762316,Scandinavian American
+Burnett,Wisconsin,0.0016643725220832,Scandinavian American
+Renville,Minnesota,0.00166431681048912,Scandinavian American
+Calhoun,Florida,0.001663766351943,Scandinavian American
+Carson,Texas,0.0016605263352006,Scandinavian American
+Sullivan,Pennsylvania,0.0016601016790879,Scandinavian American
+Tallapoosa,Alabama,0.0016585240100047,Scandinavian American
+McPherson,Kansas,0.00165791156171626,Scandinavian American
+Winston,Alabama,0.00165784086951803,Scandinavian American
+Houston,Tennessee,0.0016550546670587,Scandinavian American
+Howard,Missouri,0.00165388981356253,Scandinavian American
+Foster,North Dakota,0.0016515940861764,Scandinavian American
+Ringgold,Iowa,0.00165110055540606,Scandinavian American
+Carlisle,Kentucky,0.00165080207526135,Scandinavian American
+Crawford,Missouri,0.00165022026362216,Scandinavian American
+Lincoln,Minnesota,0.00164780629366755,Scandinavian American
+Pocahontas,Iowa,0.00164761613772385,Scandinavian American
+Bayfield,Wisconsin,0.00164687031716415,Scandinavian American
+Scott,Indiana,0.0016451239364152,Scandinavian American
+Giles,Tennessee,0.00164506045255013,Scandinavian American
+Benton,Mississippi,0.00163984306129945,Scandinavian American
+Chautauqua,Kansas,0.00163984171324604,Scandinavian American
+Breckinridge,Kentucky,0.0016375619302315,Scandinavian American
+Pike,Arkansas,0.00163690648215847,Scandinavian American
+Mills,Iowa,0.00163592495415896,Scandinavian American
+Van Buren,Tennessee,0.0016347514827962,Scandinavian American
+Kerr,Texas,0.0016335414357223,Scandinavian American
+Calhoun,Arkansas,0.00163294801031885,Scandinavian American
+Allen,Kentucky,0.00163240978407875,Scandinavian American
+Berrien,Georgia,0.00162848825036505,Scandinavian American
+Stone,Arkansas,0.0016282219802117,Scandinavian American
+Maury,Tennessee,0.00162750149674595,Scandinavian American
+Fayette,Georgia,0.0016268092378545,Scandinavian American
+Phelps,Nebraska,0.00162594796336245,Scandinavian American
+Coffey,Kansas,0.0016255429728382,Scandinavian American
+Lewis,Kentucky,0.0016231194366391,Scandinavian American
+Waseca,Minnesota,0.00162283367685706,Scandinavian American
+Catoosa,Georgia,0.0016222530654261,Scandinavian American
+Arkansas,Arkansas,0.00161931760646276,Scandinavian American
+Johnston,Oklahoma,0.00161583433896806,Scandinavian American
+Monona,Iowa,0.00161229593320317,Scandinavian American
+Lincoln,North Carolina,0.00161064422493386,Scandinavian American
+Richland,Montana,0.00160872454640655,Scandinavian American
+Jackson,Alabama,0.00160849127104426,Scandinavian American
+Boone,Iowa,0.00160516943906395,Scandinavian American
+Navarro,Texas,0.0016044952401314,Scandinavian American
+Tippah,Mississippi,0.00160428703733045,Scandinavian American
+Conway,Arkansas,0.00160172773497757,Scandinavian American
+Wayne,Illinois,0.00159718961593026,Scandinavian American
+Parker,Texas,0.00159467381219019,Scandinavian American
+Highland,Ohio,0.00159450572266906,Scandinavian American
+Henderson,North Carolina,0.0015911313604679,Scandinavian American
+Adams,Illinois,0.00158820100762193,Scandinavian American
+Marshall,Tennessee,0.00158798059966223,Scandinavian American
+Dallas,Missouri,0.00158700969971115,Scandinavian American
+Gray,Kansas,0.0015856011708853,Scandinavian American
+Okaloosa,Florida,0.0015849910556312,Scandinavian American
+Pierce,Nebraska,0.00158475109602236,Scandinavian American
+Washington,Kentucky,0.00158461929589945,Scandinavian American
+Pottawattamie,Iowa,0.00158303642184598,Scandinavian American
+Stearns,Minnesota,0.00158258076300255,Scandinavian American
+Big Stone,Minnesota,0.00157912008427435,Scandinavian American
+Morris,Texas,0.0015782138507224,Scandinavian American
+Avery,North Carolina,0.00157577756782233,Scandinavian American
+Price,Wisconsin,0.00157482913912436,Scandinavian American
+Knox,Tennessee,0.00157345571804189,Scandinavian American
+Worth,Georgia,0.0015720551097024,Scandinavian American
+Carroll,Arkansas,0.00157082913426885,Scandinavian American
+Jackson,North Carolina,0.0015680094683486,Scandinavian American
+Kossuth,Iowa,0.00156728455287316,Scandinavian American
+McLean,North Dakota,0.0015672618523871,Scandinavian American
+Limestone,Alabama,0.00156715479315786,Scandinavian American
+Clark,Kentucky,0.00155985539684185,Scandinavian American
+Clay,Alabama,0.00155612472245175,Scandinavian American
+Harrison,Kentucky,0.001555574210393,Scandinavian American
+Pickett,Tennessee,0.0015546680395378,Scandinavian American
+Cullman,Alabama,0.00155418865334563,Scandinavian American
+Saunders,Nebraska,0.00155404035545207,Scandinavian American
+Meeker,Minnesota,0.00155230388045162,Scandinavian American
+Craig,Oklahoma,0.0015522404166954,Scandinavian American
+Jackson,Minnesota,0.00155133769956946,Scandinavian American
+Taylor,Texas,0.00154990523201072,Scandinavian American
+Crittenden,Kentucky,0.00154910926208373,Scandinavian American
+Bonner,Idaho,0.00154686120445149,Scandinavian American
+Knott,Kentucky,0.00154578186741843,Scandinavian American
+Pembina,North Dakota,0.00154482244497462,Scandinavian American
+Newton,Indiana,0.0015433593249633,Scandinavian American
+Childress,Texas,0.0015426585690845,Scandinavian American
+Grundy,Tennessee,0.00153872040384043,Scandinavian American
+Cerro Gordo,Iowa,0.0015382138311669,Scandinavian American
+Transylvania,North Carolina,0.00153732881684355,Scandinavian American
+Curry,Oregon,0.0015367260688464,Scandinavian American
+Skagit,Washington,0.00153350274746805,Scandinavian American
+Holt,Missouri,0.00153214998879253,Scandinavian American
+Clark,Arkansas,0.00153159188492976,Scandinavian American
+Newton,Arkansas,0.001531517866884,Scandinavian American
+Boone,Illinois,0.0015281573199526,Scandinavian American
+La Crosse,Wisconsin,0.00152544463097382,Scandinavian American
+Woods,Oklahoma,0.0015218982532424,Scandinavian American
+Miner,South Dakota,0.0015218130934804,Scandinavian American
+Sangamon,Illinois,0.00152100249445866,Scandinavian American
+Cass,Nebraska,0.0015208149568205,Scandinavian American
+Allamakee,Iowa,0.00151952896230592,Scandinavian American
+Russell,Kentucky,0.00151801972148465,Scandinavian American
+Scott,Virginia,0.00151601726622324,Scandinavian American
+Turner,Georgia,0.00151500470286986,Scandinavian American
+Greene,Tennessee,0.00151420217857053,Scandinavian American
+Hot Spring,Arkansas,0.00151337334932126,Scandinavian American
+Union,South Dakota,0.0015122016617363,Scandinavian American
+Deaf Smith,Texas,0.0015095945912355,Scandinavian American
+Banks,Georgia,0.0015068485953586,Scandinavian American
+Grayson,Virginia,0.00150661867956533,Scandinavian American
+Burt,Nebraska,0.00150638655395677,Scandinavian American
+Saline,Arkansas,0.00150499022951974,Scandinavian American
+Lake,South Dakota,0.001504459194107,Scandinavian American
+Athens,Ohio,0.00150438948446023,Scandinavian American
+Carlton,Minnesota,0.00150424822423132,Scandinavian American
+Greene,Arkansas,0.00150270164716515,Scandinavian American
+Schuyler,Missouri,0.0015022051271084,Scandinavian American
+Jackson,Arkansas,0.00150091104399227,Scandinavian American
+Clark,Indiana,0.00149985138862024,Scandinavian American
+Logan,Arkansas,0.00149887742748903,Scandinavian American
+Hardeman,Tennessee,0.0014987054762665,Scandinavian American
+Webster,Missouri,0.001497942196726,Scandinavian American
+Atoka,Oklahoma,0.0014974089626053,Scandinavian American
+Hampshire,West Virginia,0.00149720389201163,Scandinavian American
+Franklin,Georgia,0.00149592257960345,Scandinavian American
+Ottawa,Kansas,0.0014951314453951,Scandinavian American
+Lyon,Minnesota,0.00149486577683666,Scandinavian American
+Leslie,Kentucky,0.00149417103432775,Scandinavian American
+Hancock,Illinois,0.00149398576606822,Scandinavian American
+Beaverhead,Montana,0.0014935628818391,Scandinavian American
+Oldham,Kentucky,0.0014916583066011,Scandinavian American
+Lewis,Tennessee,0.0014912028538906,Scandinavian American
+Howard,Arkansas,0.00149117728490955,Scandinavian American
+Clearwater,Idaho,0.0014910847709782,Scandinavian American
+Franklin,Alabama,0.0014905675539587,Scandinavian American
+Taylor,Georgia,0.0014904258847825,Scandinavian American
+Boundary,Idaho,0.0014880240370523,Scandinavian American
+White,Georgia,0.00148692807148214,Scandinavian American
+Clarke,Iowa,0.0014866501926516,Scandinavian American
+Perry,Missouri,0.0014858831906981,Scandinavian American
+Teton,Montana,0.0014849406132654,Scandinavian American
+Robertson,Tennessee,0.001484664892989,Scandinavian American
+Montgomery,North Carolina,0.00148417190352355,Scandinavian American
+Hale,Texas,0.0014840167534905,Scandinavian American
+Beltrami,Minnesota,0.00148382827864487,Scandinavian American
+Linn,Oregon,0.00148320245274306,Scandinavian American
+Moniteau,Missouri,0.0014818726219848,Scandinavian American
+Sharp,Arkansas,0.00148078060660126,Scandinavian American
+Fremont,Wyoming,0.0014804790550578,Scandinavian American
+Floyd,Texas,0.0014791377618218,Scandinavian American
+Briscoe,Texas,0.0014789345236344,Scandinavian American
+Cass,Illinois,0.00147886634259305,Scandinavian American
+Iredell,North Carolina,0.00147874778547496,Scandinavian American
+Cottonwood,Minnesota,0.00147761075455406,Scandinavian American
+Carroll,Missouri,0.001472548459042,Scandinavian American
+Sullivan,Missouri,0.0014711921835881,Scandinavian American
+Ontonagon,Michigan,0.00147089621404429,Scandinavian American
+Laurel,Kentucky,0.00146900480153783,Scandinavian American
+Quitman,Mississippi,0.001468921171033,Scandinavian American
+Clay,Tennessee,0.0014655943372128,Scandinavian American
+Texas,Missouri,0.00146523376611202,Scandinavian American
+Lyon,Kansas,0.00146522856697945,Scandinavian American
+St. Clair,Alabama,0.00146395971302043,Scandinavian American
+Sheridan,Nebraska,0.0014627930964089,Scandinavian American
+Harrison,Indiana,0.0014623173022023,Scandinavian American
+Louisa,Iowa,0.00146081416907115,Scandinavian American
+Murray,Georgia,0.00146070722268575,Scandinavian American
+Hickman,Kentucky,0.0014574332299341,Scandinavian American
+Trempealeau,Wisconsin,0.00145730932622971,Scandinavian American
+Woodruff,Arkansas,0.0014569910186313,Scandinavian American
+Patrick,Virginia,0.00145540503458223,Scandinavian American
+Spencer,Indiana,0.00145184631403716,Scandinavian American
+Webster,Kentucky,0.00145006440344432,Scandinavian American
+Hamilton,Iowa,0.00144983024811656,Scandinavian American
+Buchanan,Virginia,0.00144907006341042,Scandinavian American
+Gilmer,Georgia,0.0014490685139627,Scandinavian American
+Benzie,Michigan,0.00144760870918775,Scandinavian American
+Pope,Arkansas,0.0014467480156098,Scandinavian American
+Madison,Arkansas,0.00144616954908918,Scandinavian American
+Middlesex,New Jersey,0.00144472902219643,Scandinavian American
+Buena Vista,Iowa,0.00144336778528742,Scandinavian American
+Wood,Texas,0.00144331484740364,Scandinavian American
+Edmonson,Kentucky,0.0014425542994292,Scandinavian American
+Rabun,Georgia,0.0014414907249476,Scandinavian American
+Kendall,Illinois,0.0014412736223517,Scandinavian American
+Lake,Florida,0.00144018205096675,Scandinavian American
+Sheridan,Kansas,0.0014401562757768,Scandinavian American
+Meriwether,Georgia,0.00143994915977686,Scandinavian American
+Dane,Wisconsin,0.00143918229013048,Scandinavian American
+Roberts,South Dakota,0.0014391024514051,Scandinavian American
+Snohomish,Washington,0.00143797877941827,Scandinavian American
+Kingman,Kansas,0.0014355720203309,Scandinavian American
+Franklin,Tennessee,0.00143548494290376,Scandinavian American
+Wibaux,Montana,0.0014350217194359,Scandinavian American
+Wayne,Missouri,0.00143464923774059,Scandinavian American
+Clear Creek,Colorado,0.0014326954567704,Scandinavian American
+Howard,Iowa,0.00143207144894543,Scandinavian American
+El Paso,Colorado,0.00143186102918315,Scandinavian American
+Daviess,Missouri,0.00143067133333506,Scandinavian American
+Henry,Virginia,0.00142935023977092,Scandinavian American
+Hood River,Oregon,0.0014293181877648,Scandinavian American
+Clinton,Kentucky,0.0014284243075796,Scandinavian American
+Fulton,Arkansas,0.0014279833132794,Scandinavian American
+Macon,Illinois,0.00142665587674328,Scandinavian American
+Deuel,Nebraska,0.0014263726080822,Scandinavian American
+Anderson,Kentucky,0.00142538976100335,Scandinavian American
+Van Wert,Ohio,0.00142421717457839,Scandinavian American
+Dickey,North Dakota,0.0014233094894825,Scandinavian American
+Bureau,Illinois,0.00142058279827765,Scandinavian American
+Putnam,New York,0.0014160910660725,Scandinavian American
+Nacogdoches,Texas,0.00141546202662912,Scandinavian American
+Lewis,Washington,0.00141429626504603,Scandinavian American
+Grant,Kentucky,0.00141422043506635,Scandinavian American
+Pulaski,Arkansas,0.00141324435423918,Scandinavian American
+Pierce,Wisconsin,0.00141273670810667,Scandinavian American
+Glascock,Georgia,0.0014126083699781,Scandinavian American
+Steele,Minnesota,0.0014122058361384,Scandinavian American
+Lincoln,Nebraska,0.0014111737017022,Scandinavian American
+Lafayette,Wisconsin,0.00140986716901896,Scandinavian American
+Emmet,Iowa,0.0014096612684373,Scandinavian American
+Pittsburg,Oklahoma,0.00140926761066572,Scandinavian American
+Marion,Tennessee,0.0014091292374967,Scandinavian American
+Montgomery,Texas,0.0014077477139424,Scandinavian American
+Madison,Kentucky,0.00140645567591113,Scandinavian American
+Oceana,Michigan,0.00140602238882246,Scandinavian American
+Alleghany,North Carolina,0.0014041531305172,Scandinavian American
+Wayne,Kentucky,0.00140388872658639,Scandinavian American
+Colquitt,Georgia,0.00140192666068853,Scandinavian American
+Hendricks,Indiana,0.00140145760839905,Scandinavian American
+Lincoln,Louisiana,0.0013993668986111,Scandinavian American
+Polk,Wisconsin,0.00139845952164696,Scandinavian American
+Lincoln,Washington,0.0013979642076532,Scandinavian American
+Webster,Nebraska,0.00139769469204705,Scandinavian American
+Washington,Colorado,0.0013969138714928,Scandinavian American
+Logan,Kentucky,0.0013964088888502,Scandinavian American
+Hamilton,Nebraska,0.0013952743263949,Scandinavian American
+Union,North Carolina,0.00139431782048942,Scandinavian American
+Butler,Missouri,0.00139405818115205,Scandinavian American
+Tift,Georgia,0.0013938650645768,Scandinavian American
+Allegan,Michigan,0.00139352901376642,Scandinavian American
+Jackson,Tennessee,0.0013932833133524,Scandinavian American
+Hyde,South Dakota,0.001393002585377,Scandinavian American
+Hunt,Texas,0.00139088732513658,Scandinavian American
+Harrison,Iowa,0.00139058871205809,Scandinavian American
+Hansford,Texas,0.001389035041394,Scandinavian American
+Pike,Illinois,0.00138585758796036,Scandinavian American
+Brule,South Dakota,0.0013852405487437,Scandinavian American
+Hart,Kentucky,0.0013848020624492,Scandinavian American
+Magoffin,Kentucky,0.0013842152397087,Scandinavian American
+Aurora,South Dakota,0.0013830708476019,Scandinavian American
+San Augustine,Texas,0.00138286586183895,Scandinavian American
+Payne,Oklahoma,0.00138157876940385,Scandinavian American
+Red River,Texas,0.00138065320594804,Scandinavian American
+Bollinger,Missouri,0.0013794685741983,Scandinavian American
+Dade,Georgia,0.310089377162318,Southern Colonial
+Clay,Kentucky,0.309535305671781,Southern Colonial
+Winston,Alabama,0.290747447249536,Southern Colonial
+Elbert,Georgia,0.27916158367548,Southern Colonial
+Leslie,Kentucky,0.276127074381088,Southern Colonial
+Union,Georgia,0.272391023183578,Southern Colonial
+Forsyth,Georgia,0.271241190985067,Southern Colonial
+Jackson,Alabama,0.27100844161539,Southern Colonial
+Pickens,Georgia,0.264101170889731,Southern Colonial
+Hall,Georgia,0.263704214864548,Southern Colonial
+Yancey,North Carolina,0.261678093305844,Southern Colonial
+Grainger,Tennessee,0.258158906098762,Southern Colonial
+Lauderdale,Alabama,0.25136469905893,Southern Colonial
+DeKalb,Alabama,0.25040988819923,Southern Colonial
+Paulding,Georgia,0.248677055713599,Southern Colonial
+White,Georgia,0.248618609360778,Southern Colonial
+Perry,Kentucky,0.248596426634743,Southern Colonial
+Tishomingo,Mississippi,0.245349472707515,Southern Colonial
+Clay,Alabama,0.243524325361751,Southern Colonial
+Mitchell,North Carolina,0.243444161865423,Southern Colonial
+Ward,Texas,0.242946744107772,Southern Colonial
+Knox,Kentucky,0.242729248629437,Southern Colonial
+Morgan,Tennessee,0.241951997817078,Southern Colonial
+Monroe,Tennessee,0.241797064989256,Southern Colonial
+Whitfield,Georgia,0.240556453046576,Southern Colonial
+Scott,Tennessee,0.239957119345112,Southern Colonial
+Van Buren,Tennessee,0.23870869703841,Southern Colonial
+Murray,Georgia,0.238417824349824,Southern Colonial
+Etowah,Alabama,0.236209843791208,Southern Colonial
+Marion,Tennessee,0.235400995445457,Southern Colonial
+Laurel,Kentucky,0.235345040551342,Southern Colonial
+Dawson,Georgia,0.235231335892704,Southern Colonial
+Granville,North Carolina,0.235034877670493,Southern Colonial
+Franklin,Alabama,0.234911675602685,Southern Colonial
+Polk,North Carolina,0.23455250940393,Southern Colonial
+Bell,Kentucky,0.233528972708865,Southern Colonial
+Whitley,Kentucky,0.233229984801658,Southern Colonial
+Clay,North Carolina,0.233163709844684,Southern Colonial
+Prentiss,Mississippi,0.233013783524222,Southern Colonial
+Rockcastle,Kentucky,0.232817709089327,Southern Colonial
+Jackson,Georgia,0.232503019869037,Southern Colonial
+Claiborne,Tennessee,0.232428297654022,Southern Colonial
+Hancock,Tennessee,0.232381879860979,Southern Colonial
+Habersham,Georgia,0.232268774041676,Southern Colonial
+Rabun,Georgia,0.232091194213557,Southern Colonial
+Cherokee,Georgia,0.231888441893048,Southern Colonial
+Franklin,Georgia,0.231518380007879,Southern Colonial
+Fannin,Georgia,0.230329991273099,Southern Colonial
+Buncombe,North Carolina,0.230132544248122,Southern Colonial
+Madison,North Carolina,0.22962927884468,Southern Colonial
+Macon,North Carolina,0.229495102147047,Southern Colonial
+Howell,Missouri,0.229389254853916,Southern Colonial
+Scott,Virginia,0.229058378689748,Southern Colonial
+Marion,Alabama,0.228990722657664,Southern Colonial
+Lee,Alabama,0.228319312313916,Southern Colonial
+Harlan,Kentucky,0.228018000610631,Southern Colonial
+Patrick,Virginia,0.227994204684821,Southern Colonial
+Campbell,Tennessee,0.227952331368892,Southern Colonial
+Latimer,Oklahoma,0.227889965629913,Southern Colonial
+Lumpkin,Georgia,0.226620126172316,Southern Colonial
+Martin,Kentucky,0.226557337928875,Southern Colonial
+Cherokee,Alabama,0.226238260845459,Southern Colonial
+Bledsoe,Tennessee,0.226158325644972,Southern Colonial
+Gordon,Georgia,0.22583521156306,Southern Colonial
+Clay,Tennessee,0.22560959672659,Southern Colonial
+Blount,Alabama,0.22551297271469,Southern Colonial
+Stone,Arkansas,0.225302516618348,Southern Colonial
+Randolph,Alabama,0.225216052796198,Southern Colonial
+Halifax,Virginia,0.225143570636573,Southern Colonial
+Cocke,Tennessee,0.224937073306799,Southern Colonial
+Magoffin,Kentucky,0.224677499033734,Southern Colonial
+Graham,North Carolina,0.224485334214418,Southern Colonial
+Gwinnett,Georgia,0.224361350550596,Southern Colonial
+McMinn,Tennessee,0.224228601251147,Southern Colonial
+Polk,Georgia,0.22421628047269,Southern Colonial
+Breathitt,Kentucky,0.224160953836713,Southern Colonial
+Person,North Carolina,0.223686541402875,Southern Colonial
+Barrow,Georgia,0.223537221952822,Southern Colonial
+Oconee,Georgia,0.222945809439382,Southern Colonial
+Unicoi,Tennessee,0.222890022946162,Southern Colonial
+Iron,Missouri,0.222265237962463,Southern Colonial
+Carroll,Georgia,0.222148724258817,Southern Colonial
+Walker,Georgia,0.22202684017767,Southern Colonial
+Perry,Tennessee,0.221945403096826,Southern Colonial
+Knott,Kentucky,0.22184205516824,Southern Colonial
+Itawamba,Mississippi,0.221817494444575,Southern Colonial
+St. Clair,Alabama,0.221651991556285,Southern Colonial
+Meigs,Tennessee,0.221558714779468,Southern Colonial
+Banks,Georgia,0.221554677615555,Southern Colonial
+Stanly,North Carolina,0.220916676895244,Southern Colonial
+Union,Tennessee,0.220331419273222,Southern Colonial
+Alleghany,North Carolina,0.220187286381443,Southern Colonial
+Haralson,Georgia,0.220183095621205,Southern Colonial
+Polk,Tennessee,0.219945844524441,Southern Colonial
+Marshall,Alabama,0.219804150622798,Southern Colonial
+Wayne,Tennessee,0.219617574251951,Southern Colonial
+Stokes,North Carolina,0.219492487215894,Southern Colonial
+Dickenson,Virginia,0.219435008846558,Southern Colonial
+Pickens,South Carolina,0.21937787971079,Southern Colonial
+Roane,Tennessee,0.218676852779707,Southern Colonial
+Poinsett,Arkansas,0.218662844296028,Southern Colonial
+Cullman,Alabama,0.218543291737319,Southern Colonial
+Walker,Alabama,0.217500944410119,Southern Colonial
+Cleburne,Alabama,0.217247970656907,Southern Colonial
+Owsley,Kentucky,0.216884882181651,Southern Colonial
+Faulkner,Arkansas,0.216818020996572,Southern Colonial
+Carroll,Virginia,0.216767259240498,Southern Colonial
+Throckmorton,Texas,0.216691442656188,Southern Colonial
+Alcorn,Mississippi,0.216494585590481,Southern Colonial
+Cumberland,Tennessee,0.21632834668481,Southern Colonial
+Wolfe,Kentucky,0.216271292485035,Southern Colonial
+Jackson,Kentucky,0.216215107419742,Southern Colonial
+Letcher,Kentucky,0.215513523355481,Southern Colonial
+Sequatchie,Tennessee,0.215313165308039,Southern Colonial
+Dallas,Arkansas,0.21527716496104,Southern Colonial
+Sevier,Tennessee,0.215102392376722,Southern Colonial
+Putnam,Tennessee,0.215067800963568,Southern Colonial
+Floyd,Kentucky,0.214839328669027,Southern Colonial
+Towns,Georgia,0.214646455796205,Southern Colonial
+Russell,Kentucky,0.214416606539602,Southern Colonial
+George,Mississippi,0.214387278603903,Southern Colonial
+Decatur,Tennessee,0.214158619618082,Southern Colonial
+Transylvania,North Carolina,0.213839200457468,Southern Colonial
+McCreary,Kentucky,0.213834762360491,Southern Colonial
+Elliott,Kentucky,0.213774065176324,Southern Colonial
+Cleveland,North Carolina,0.213327323891113,Southern Colonial
+Hart,Georgia,0.213247825487797,Southern Colonial
+Tippah,Mississippi,0.212927775527164,Southern Colonial
+Buchanan,Virginia,0.212911812059997,Southern Colonial
+Cherokee,North Carolina,0.212434202698834,Southern Colonial
+Ozark,Missouri,0.212136556199048,Southern Colonial
+Pontotoc,Mississippi,0.211846770627252,Southern Colonial
+Colbert,Alabama,0.211802782262547,Southern Colonial
+Rutherford,North Carolina,0.21159543744045,Southern Colonial
+Wayne,West Virginia,0.211561730382485,Southern Colonial
+Jackson,Tennessee,0.211446826842113,Southern Colonial
+Lawrence,Alabama,0.211385002209395,Southern Colonial
+Anderson,Tennessee,0.211337027262261,Southern Colonial
+Lewis,Tennessee,0.211161365197892,Southern Colonial
+Oconee,South Carolina,0.211001932231782,Southern Colonial
+Hawkins,Tennessee,0.210948434863359,Southern Colonial
+Allen,Kentucky,0.210878319847422,Southern Colonial
+Henderson,North Carolina,0.210853634126116,Southern Colonial
+Coryell,Texas,0.210852473994213,Southern Colonial
+Hamilton,Tennessee,0.210801824219241,Southern Colonial
+Bartow,Georgia,0.210261519118438,Southern Colonial
+DeKalb,Tennessee,0.210232592520658,Southern Colonial
+Lawrence,Tennessee,0.209836884530729,Southern Colonial
+Carter,Tennessee,0.209530322511727,Southern Colonial
+Surry,North Carolina,0.209424789512742,Southern Colonial
+Fentress,Tennessee,0.209266493348222,Southern Colonial
+Swain,North Carolina,0.208959793598056,Southern Colonial
+Henderson,Tennessee,0.208942523221564,Southern Colonial
+Cleveland,Arkansas,0.208787852135712,Southern Colonial
+Mingo,West Virginia,0.208729356615553,Southern Colonial
+Putnam,West Virginia,0.208686005956617,Southern Colonial
+Humphreys,Tennessee,0.208548231570685,Southern Colonial
+Franklin,Tennessee,0.208501238801435,Southern Colonial
+Giles,Tennessee,0.208424107826589,Southern Colonial
+Stephens,Georgia,0.208227122527524,Southern Colonial
+Floyd,Georgia,0.207936475790915,Southern Colonial
+Cobb,Georgia,0.207876746092329,Southern Colonial
+Jefferson,Alabama,0.207855407434209,Southern Colonial
+McDowell,North Carolina,0.207704519932154,Southern Colonial
+Coosa,Alabama,0.207660606690112,Southern Colonial
+Chatham,North Carolina,0.207628455450247,Southern Colonial
+Lamar,Alabama,0.207534037686496,Southern Colonial
+Yadkin,North Carolina,0.207427141442483,Southern Colonial
+Fayette,Georgia,0.206816609156571,Southern Colonial
+Catoosa,Georgia,0.206719889039839,Southern Colonial
+Cottle,Texas,0.206680222309932,Southern Colonial
+Perry,Arkansas,0.206596821887638,Southern Colonial
+Smith,Tennessee,0.20658870547478,Southern Colonial
+Lee,Virginia,0.20604669249763,Southern Colonial
+Stewart,Tennessee,0.205961635723538,Southern Colonial
+Walthall,Mississippi,0.205850693578729,Southern Colonial
+White,Arkansas,0.205369729477627,Southern Colonial
+Greenville,South Carolina,0.205236912321288,Southern Colonial
+Fayette,Alabama,0.204512140805494,Southern Colonial
+Clarke,Georgia,0.204413188364498,Southern Colonial
+Marshall,Tennessee,0.204009569633185,Southern Colonial
+Cheatham,Tennessee,0.203859057533656,Southern Colonial
+Laclede,Missouri,0.20382343468828,Southern Colonial
+Gilmer,Georgia,0.203753109065467,Southern Colonial
+Henry,Tennessee,0.203751800544362,Southern Colonial
+Chilton,Alabama,0.203736604419183,Southern Colonial
+Johnston,North Carolina,0.203683285721433,Southern Colonial
+White,Tennessee,0.203517404252889,Southern Colonial
+Rockdale,Georgia,0.20351339114981,Southern Colonial
+Pike,Kentucky,0.203226129319123,Southern Colonial
+Meriwether,Georgia,0.203187615469021,Southern Colonial
+Briscoe,Texas,0.20300955606623,Southern Colonial
+Spartanburg,South Carolina,0.203006663110603,Southern Colonial
+Watauga,North Carolina,0.202469271649067,Southern Colonial
+Russell,Virginia,0.20244622776415,Southern Colonial
+Pickett,Tennessee,0.202257520455272,Southern Colonial
+Tallapoosa,Alabama,0.202168846367274,Southern Colonial
+Rhea,Tennessee,0.202003365317946,Southern Colonial
+Nash,North Carolina,0.201995233670508,Southern Colonial
+Overton,Tennessee,0.201916865807186,Southern Colonial
+Crenshaw,Alabama,0.201635125235517,Southern Colonial
+Shelby,Alabama,0.2016280288262,Southern Colonial
+Boyle,Kentucky,0.201590389936308,Southern Colonial
+Walton,Georgia,0.201504456044646,Southern Colonial
+Yell,Arkansas,0.201284020505013,Southern Colonial
+Montgomery,Arkansas,0.201143631826577,Southern Colonial
+Charlotte,Virginia,0.201131287627351,Southern Colonial
+Izard,Arkansas,0.201091488215921,Southern Colonial
+Benton,Tennessee,0.201029181080047,Southern Colonial
+Knox,Tennessee,0.200890351451775,Southern Colonial
+Grayson,Virginia,0.200812233874889,Southern Colonial
+Morgan,Alabama,0.200568553333621,Southern Colonial
+Comanche,Texas,0.200383331635197,Southern Colonial
+Ashe,North Carolina,0.200368335651986,Southern Colonial
+Titus,Texas,0.200206053539478,Southern Colonial
+Anderson,South Carolina,0.200194231600682,Southern Colonial
+Hardin,Tennessee,0.200170937211622,Southern Colonial
+Cannon,Tennessee,0.200159206126049,Southern Colonial
+Haywood,North Carolina,0.199850759852432,Southern Colonial
+Brown,Texas,0.199543814178993,Southern Colonial
+Lincoln,Tennessee,0.199497663723179,Southern Colonial
+Shelby,Texas,0.199417796625028,Southern Colonial
+Sharp,Arkansas,0.199401574918543,Southern Colonial
+Saline,Arkansas,0.199353098616715,Southern Colonial
+Scott,Arkansas,0.199196748715129,Southern Colonial
+Independence,Arkansas,0.199180125539843,Southern Colonial
+Franklin,Texas,0.1990127294042,Southern Colonial
+Chester,Tennessee,0.198944869416258,Southern Colonial
+Avery,North Carolina,0.19875634826425,Southern Colonial
+Pike,Arkansas,0.198612563580406,Southern Colonial
+Carroll,Tennessee,0.198580392951548,Southern Colonial
+Calhoun,Alabama,0.198405104308219,Southern Colonial
+Grundy,Tennessee,0.198314548559214,Southern Colonial
+Troup,Georgia,0.198278223178773,Southern Colonial
+Clinton,Kentucky,0.198142674073461,Southern Colonial
+Coffee,Georgia,0.197979435531117,Southern Colonial
+King,Texas,0.197939955019937,Southern Colonial
+Clayton,Georgia,0.197930646054757,Southern Colonial
+Warren,Tennessee,0.197930458971402,Southern Colonial
+Estill,Kentucky,0.19789151260328,Southern Colonial
+Bradley,Tennessee,0.197847367322778,Southern Colonial
+Sumner,Tennessee,0.197792519237832,Southern Colonial
+Moore,Tennessee,0.197600926573611,Southern Colonial
+Ralls,Missouri,0.19758827556823,Southern Colonial
+Trinity,Texas,0.19753005494544,Southern Colonial
+Clark,Arkansas,0.197331738409175,Southern Colonial
+Jefferson,Tennessee,0.197232805757311,Southern Colonial
+Wise,Virginia,0.197211011701332,Southern Colonial
+Jackson,North Carolina,0.197033653362839,Southern Colonial
+Newton,Arkansas,0.196961635136474,Southern Colonial
+Bedford,Tennessee,0.196745603087906,Southern Colonial
+Irwin,Georgia,0.196635053249075,Southern Colonial
+Searcy,Arkansas,0.196532913564807,Southern Colonial
+Van Zandt,Texas,0.196279359256599,Southern Colonial
+Lee,Kentucky,0.196067620519727,Southern Colonial
+Fulton,Arkansas,0.196036165724102,Southern Colonial
+Hickman,Tennessee,0.196020895892734,Southern Colonial
+Harnett,North Carolina,0.19598220362235,Southern Colonial
+Fulton,Georgia,0.195960245002422,Southern Colonial
+Madison,Georgia,0.195950094820557,Southern Colonial
+Pulaski,Kentucky,0.195752579512043,Southern Colonial
+Smith,Mississippi,0.195747192607609,Southern Colonial
+Macon,Tennessee,0.195595145729074,Southern Colonial
+Lincoln,West Virginia,0.195522677421304,Southern Colonial
+Loudon,Tennessee,0.195271208146619,Southern Colonial
+Blount,Tennessee,0.195082422778288,Southern Colonial
+Jeff Davis,Georgia,0.195039541399467,Southern Colonial
+Greene,Mississippi,0.194898579500717,Southern Colonial
+Montague,Texas,0.194845011544128,Southern Colonial
+McNairy,Tennessee,0.194802463581969,Southern Colonial
+Grayson,Texas,0.194695599774135,Southern Colonial
+Rutherford,Tennessee,0.194487351122462,Southern Colonial
+Cleburne,Arkansas,0.194464026101944,Southern Colonial
+Douglas,Georgia,0.194453911326455,Southern Colonial
+Hopkins,Texas,0.194444778567385,Southern Colonial
+Dickson,Tennessee,0.194296497848781,Southern Colonial
+Garland,Arkansas,0.194270268022358,Southern Colonial
+Franklin,North Carolina,0.194236400073042,Southern Colonial
+Coweta,Georgia,0.194147962108618,Southern Colonial
+Alamance,North Carolina,0.194029978437834,Southern Colonial
+Fannin,Texas,0.193962345598079,Southern Colonial
+Wyoming,West Virginia,0.19395004449651,Southern Colonial
+Gaines,Texas,0.19388504851412,Southern Colonial
+Grant,Arkansas,0.19382214750739,Southern Colonial
+Glasscock,Texas,0.193794659641379,Southern Colonial
+Calhoun,Florida,0.193623733909347,Southern Colonial
+Caldwell,North Carolina,0.193415995324283,Southern Colonial
+Boone,Missouri,0.193023605181195,Southern Colonial
+Trousdale,Tennessee,0.192958798188143,Southern Colonial
+Polk,Texas,0.192947209216208,Southern Colonial
+Monroe,Mississippi,0.192851553215842,Southern Colonial
+Holmes,Florida,0.192795755193361,Southern Colonial
+Weakley,Tennessee,0.192110968155355,Southern Colonial
+Lawrence,Kentucky,0.192003689972655,Southern Colonial
+Wise,Texas,0.191971425392837,Southern Colonial
+Union,North Carolina,0.191595231963083,Southern Colonial
+Randolph,North Carolina,0.191512215656233,Southern Colonial
+Robertson,Tennessee,0.19136416522514,Southern Colonial
+Chattooga,Georgia,0.191352916580168,Southern Colonial
+Callahan,Texas,0.191041213612185,Southern Colonial
+Shackelford,Texas,0.190706025568852,Southern Colonial
+Borden,Texas,0.190505841253307,Southern Colonial
+Nacogdoches,Texas,0.190490635136175,Southern Colonial
+Johnson,Kentucky,0.190453113136936,Southern Colonial
+Craighead,Arkansas,0.190388922170878,Southern Colonial
+Donley,Texas,0.190325039368465,Southern Colonial
+Oregon,Missouri,0.190189132704697,Southern Colonial
+Lamar,Mississippi,0.190048633980575,Southern Colonial
+Greene,Tennessee,0.190034579759946,Southern Colonial
+Polk,Arkansas,0.189983838476457,Southern Colonial
+Potter,Texas,0.189897979180431,Southern Colonial
+San Augustine,Texas,0.189827701488506,Southern Colonial
+Somervell,Texas,0.189710394189619,Southern Colonial
+Wayne,Mississippi,0.18970121306164,Southern Colonial
+Hood,Texas,0.189690703151851,Southern Colonial
+Garrard,Kentucky,0.189441141766535,Southern Colonial
+Covington,Alabama,0.189402886057964,Southern Colonial
+Tuscaloosa,Alabama,0.189342780774582,Southern Colonial
+Wayne,North Carolina,0.189031091078911,Southern Colonial
+Lake,Tennessee,0.188954507759589,Southern Colonial
+Van Buren,Arkansas,0.188935544306606,Southern Colonial
+Wilkes,North Carolina,0.188934045329487,Southern Colonial
+Lincoln,North Carolina,0.188847076563805,Southern Colonial
+Newton,Georgia,0.188596905580234,Southern Colonial
+Sullivan,Tennessee,0.188189045748162,Southern Colonial
+Erath,Texas,0.188072123169407,Southern Colonial
+Casey,Kentucky,0.18803475102778,Southern Colonial
+Wake,North Carolina,0.18802486267246,Southern Colonial
+Pontotoc,Oklahoma,0.187974432077204,Southern Colonial
+Dyer,Tennessee,0.18777631420081,Southern Colonial
+Rains,Texas,0.187721285706466,Southern Colonial
+Morgan,Kentucky,0.187468009699586,Southern Colonial
+Lynn,Texas,0.187464131770894,Southern Colonial
+Eastland,Texas,0.18740247915264,Southern Colonial
+Wayne,Kentucky,0.187365689136129,Southern Colonial
+Hot Spring,Arkansas,0.187254922535973,Southern Colonial
+Jack,Texas,0.187222848527166,Southern Colonial
+Lanier,Georgia,0.187181851969723,Southern Colonial
+Dent,Missouri,0.187077858520535,Southern Colonial
+Perry,Mississippi,0.186924681506769,Southern Colonial
+Charlton,Georgia,0.186820435139725,Southern Colonial
+Parker,Texas,0.186550339893448,Southern Colonial
+Madison,Kentucky,0.186530503871618,Southern Colonial
+Jones,Mississippi,0.186508594541381,Southern Colonial
+Dickens,Texas,0.186360746705802,Southern Colonial
+Heard,Georgia,0.186223799163812,Southern Colonial
+Maury,Tennessee,0.186085389273679,Southern Colonial
+Johnson,Arkansas,0.186052819715971,Southern Colonial
+Denton,Texas,0.186038064392496,Southern Colonial
+Hickman,Kentucky,0.185892899592889,Southern Colonial
+Delta,Texas,0.185878004493141,Southern Colonial
+Caldwell,Kentucky,0.185854441967895,Southern Colonial
+Neshoba,Mississippi,0.185787234132062,Southern Colonial
+Green,Kentucky,0.1857214515101,Southern Colonial
+Bacon,Georgia,0.185530566471916,Southern Colonial
+Pottawatomie,Oklahoma,0.185480592673222,Southern Colonial
+Miller,Georgia,0.185440968440167,Southern Colonial
+Monroe,Kentucky,0.185395866971789,Southern Colonial
+Union,Mississippi,0.18538951201993,Southern Colonial
+Houston,Tennessee,0.185192932967687,Southern Colonial
+Calhoun,Mississippi,0.185053658256693,Southern Colonial
+Madison,Virginia,0.185000287122319,Southern Colonial
+Cherokee,Texas,0.184905291137543,Southern Colonial
+Okeechobee,Florida,0.184694019745829,Southern Colonial
+Obion,Tennessee,0.1845424491446,Southern Colonial
+Trigg,Kentucky,0.184506151612718,Southern Colonial
+Boyd,Kentucky,0.184493619128819,Southern Colonial
+McDowell,West Virginia,0.184483373350304,Southern Colonial
+Monroe,Georgia,0.184447357500091,Southern Colonial
+Concho,Texas,0.184348484317123,Southern Colonial
+Winn,Louisiana,0.184337497145049,Southern Colonial
+Motley,Texas,0.184298245136334,Southern Colonial
+Crockett,Tennessee,0.184290206609121,Southern Colonial
+Montgomery,North Carolina,0.184259647335101,Southern Colonial
+Wood,Texas,0.184192280252957,Southern Colonial
+Sebastian,Arkansas,0.184157427367777,Southern Colonial
+Geneva,Alabama,0.184132287828011,Southern Colonial
+Barren,Kentucky,0.183954434716496,Southern Colonial
+Calloway,Kentucky,0.18386305237753,Southern Colonial
+Pope,Arkansas,0.183826342532374,Southern Colonial
+Collin,Texas,0.183814061651477,Southern Colonial
+Johnson,Tennessee,0.183784985364544,Southern Colonial
+Gulf,Florida,0.183719880954555,Southern Colonial
+Stephens,Texas,0.183684955260559,Southern Colonial
+Montgomery,Tennessee,0.183683695462496,Southern Colonial
+Jackson,Colorado,0.183619482160912,Southern Colonial
+Haskell,Oklahoma,0.183564318356883,Southern Colonial
+Harmon,Oklahoma,0.183538697741863,Southern Colonial
+Pittsylvania,Virginia,0.183483970356698,Southern Colonial
+Haskell,Texas,0.183473808315782,Southern Colonial
+Coke,Texas,0.183462948880236,Southern Colonial
+Union,Louisiana,0.183460822354394,Southern Colonial
+Covington,Mississippi,0.183456482904327,Southern Colonial
+Davidson,Tennessee,0.183421148979905,Southern Colonial
+Anderson,Texas,0.183352935534841,Southern Colonial
+Marion,Arkansas,0.183327640346612,Southern Colonial
+Iredell,North Carolina,0.183271484265702,Southern Colonial
+Butler,Kentucky,0.183227921405934,Southern Colonial
+Roberts,Texas,0.183144619587396,Southern Colonial
+Caswell,North Carolina,0.183059213968648,Southern Colonial
+Webster,Mississippi,0.183015643831879,Southern Colonial
+Gaston,North Carolina,0.182938425524217,Southern Colonial
+Palo Pinto,Texas,0.18289635290257,Southern Colonial
+Turner,Georgia,0.182869710672882,Southern Colonial
+Lincoln,Kentucky,0.18275885953982,Southern Colonial
+Brantley,Georgia,0.182735186683219,Southern Colonial
+Fisher,Texas,0.182694470844682,Southern Colonial
+Wayne,Georgia,0.182622538552236,Southern Colonial
+Elmore,Alabama,0.182542664020915,Southern Colonial
+Curry,New Mexico,0.18253462994216,Southern Colonial
+Williamson,Tennessee,0.182428538296758,Southern Colonial
+Atoka,Oklahoma,0.182397762064561,Southern Colonial
+Garza,Texas,0.182367539643835,Southern Colonial
+Bland,Virginia,0.182341342593445,Southern Colonial
+Glascock,Georgia,0.182044605797686,Southern Colonial
+Lawrence,Arkansas,0.182004242360474,Southern Colonial
+Alexander,North Carolina,0.181964518318193,Southern Colonial
+Raleigh,West Virginia,0.18195315706152,Southern Colonial
+Crisp,Georgia,0.181952692484077,Southern Colonial
+Greene,Arkansas,0.18184490223891,Southern Colonial
+Lee,Mississippi,0.181787757550746,Southern Colonial
+Durham,North Carolina,0.181732416786671,Southern Colonial
+Grady,Oklahoma,0.181704962724396,Southern Colonial
+Beckham,Oklahoma,0.181596053531094,Southern Colonial
+Lee,North Carolina,0.181498669175072,Southern Colonial
+Newton,Mississippi,0.18134126968818,Southern Colonial
+Pike,Georgia,0.181339207395977,Southern Colonial
+Nolan,Texas,0.18126798604698,Southern Colonial
+Nelson,Virginia,0.181252315472301,Southern Colonial
+Bibb,Alabama,0.181059771261746,Southern Colonial
+Madison,Alabama,0.181044469128189,Southern Colonial
+Hamblen,Tennessee,0.180990258129969,Southern Colonial
+Baylor,Texas,0.180912313645052,Southern Colonial
+Chambers,Alabama,0.180904638402267,Southern Colonial
+Cabell,West Virginia,0.180860904639589,Southern Colonial
+Logan,Arkansas,0.180856101599655,Southern Colonial
+Grady,Georgia,0.180801134276454,Southern Colonial
+Santa Rosa,Florida,0.180776568385588,Southern Colonial
+Rockingham,North Carolina,0.180713807572224,Southern Colonial
+Angelina,Texas,0.180712884293193,Southern Colonial
+Emanuel,Georgia,0.180677137188344,Southern Colonial
+Madison,Arkansas,0.180631957537179,Southern Colonial
+Smyth,Virginia,0.180619560375606,Southern Colonial
+Cotton,Oklahoma,0.180588992460433,Southern Colonial
+Clinch,Georgia,0.180503715115607,Southern Colonial
+Carter,Kentucky,0.180462624186661,Southern Colonial
+Real,Texas,0.180441210179449,Southern Colonial
+Johnston,Oklahoma,0.180301424634299,Southern Colonial
+Henry,Kentucky,0.180252653631942,Southern Colonial
+Llano,Texas,0.18023312882342,Southern Colonial
+Berrien,Georgia,0.180100795099527,Southern Colonial
+Escambia,Alabama,0.180019112588519,Southern Colonial
+Marshall,Kentucky,0.17998139417834,Southern Colonial
+Boone,Arkansas,0.179953654513818,Southern Colonial
+Stephens,Oklahoma,0.17987969369342,Southern Colonial
+Cumberland,Kentucky,0.179818327762203,Southern Colonial
+Tift,Georgia,0.179818155140745,Southern Colonial
+Webster,Kentucky,0.17978103341349,Southern Colonial
+Clay,Arkansas,0.17977413725984,Southern Colonial
+Ellis,Texas,0.17969201258882,Southern Colonial
+McCurtain,Oklahoma,0.179687466082754,Southern Colonial
+Marion,Mississippi,0.179606132886623,Southern Colonial
+Johnson,Georgia,0.179585494050402,Southern Colonial
+Jessamine,Kentucky,0.17938768205713,Southern Colonial
+Bryan,Oklahoma,0.179351621630218,Southern Colonial
+Alexandria,Virginia,0.178973712014969,Southern Colonial
+Forrest,Mississippi,0.178940530241199,Southern Colonial
+Burke,North Carolina,0.17891886578564,Southern Colonial
+Summers,West Virginia,0.178895243403486,Southern Colonial
+Powell,Kentucky,0.178671837895016,Southern Colonial
+Sequoyah,Oklahoma,0.17858714536161,Southern Colonial
+Love,Oklahoma,0.178576179075447,Southern Colonial
+Young,Texas,0.178566866467185,Southern Colonial
+Limestone,Alabama,0.178561617224902,Southern Colonial
+Wilson,Tennessee,0.178553227920831,Southern Colonial
+Stone,Missouri,0.178544731357618,Southern Colonial
+DeKalb,Georgia,0.178501164073912,Southern Colonial
+Little River,Arkansas,0.178437539924116,Southern Colonial
+Hunt,Texas,0.17843210106949,Southern Colonial
+Gibson,Tennessee,0.178403672007079,Southern Colonial
+Houston,Alabama,0.178290738299712,Southern Colonial
+Logan,West Virginia,0.178164334338657,Southern Colonial
+Limestone,Texas,0.178162408023469,Southern Colonial
+Crawford,Arkansas,0.178139857965007,Southern Colonial
+Upson,Georgia,0.178064269843815,Southern Colonial
+Choctaw,Mississippi,0.178005439528214,Southern Colonial
+Dunklin,Missouri,0.177964886575523,Southern Colonial
+Kent,Texas,0.177894102712152,Southern Colonial
+Adair,Kentucky,0.177878295655441,Southern Colonial
+Jackson,Arkansas,0.177874706431825,Southern Colonial
+Lyon,Kentucky,0.177857114642365,Southern Colonial
+Crosby,Texas,0.177856698212971,Southern Colonial
+Hughes,Oklahoma,0.177757184776048,Southern Colonial
+Johnson,Texas,0.177744363347275,Southern Colonial
+Hardeman,Tennessee,0.177693996349497,Southern Colonial
+Hardeman,Texas,0.17768699608855,Southern Colonial
+Dawson,Texas,0.177682115639716,Southern Colonial
+Washington,Virginia,0.177681860506702,Southern Colonial
+Hall,Texas,0.177648284292633,Southern Colonial
+Hale,Texas,0.177451412582984,Southern Colonial

@@ -1,0 +1,370 @@
+{
+  "version": "1.0",
+  "paper_id": 3031,
+  "doi": "10.1126/science.aec0473",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Los portadores de T790M tienen unas 25 veces más probabilidades de cáncer de pulmón (OR 25,18; IC 95% 13,50–46,78)",
+      "supported": "yes",
+      "detail": "Transcrito de la tabla S2 del paper (cohorte completa, ajustado por tabaquismo; p = 1,9×10⁻²⁴). No recomputado: los datos individuales de 23andMe no son públicos",
+      "certainty_tier": "T1",
+      "abstract_verb": "is significantly associated with",
+      "metric": "or_headline_paper",
+      "supported_by_data": false
+    },
+    {
+      "claim": "El 3,784% de los portadores tenía cáncer de pulmón frente al 0,325% de los no portadores",
+      "supported": "yes",
+      "detail": "Recomputado desde los conteos de celda (14 de 370 vs 8.090 de 2.488.751). Riesgo relativo crudo 11,6 y OR crudo 12,1, coherentes con el 19,04 ajustado del paper para esa subcohorte",
+      "certainty_tier": "T1",
+      "abstract_verb": "is significantly associated with",
+      "metric": "tasa_cancer_portadores_pct",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La asociación es varias veces mayor en nunca fumadores que en fumadores (OR 61,70 frente a 10,59)",
+      "supported": "partial",
+      "detail": "El cociente es 5,8, pero los intervalos (28,90–131,73 y 2,39–47,08) se solapan. \"Varias veces\" es el techo de lo afirmable; un factor exacto no",
+      "certainty_tier": "T1",
+      "abstract_verb": "exceeds",
+      "metric": "ratio_nunca_vs_fumadores",
+      "supported_by_data": false
+    },
+    {
+      "claim": "En las 41 familias, 68 de 147 portadores genotipados tenían cáncer de pulmón y 0 de 98 no portadores",
+      "supported": "yes",
+      "detail": "Fisher p = 3,2×10⁻¹⁹, pero con sesgo de reclutamiento: los porcentajes (46,3% frente a 0,0%) no son tasas poblacionales. 83 de los 151 casos de cáncer no están genotipados",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "pct_cancer_portadores",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Entre hermanos discordantes, la variante acompaña al cáncer en 24 pares y en 0 va al revés (p = 1,19×10⁻⁷)",
+      "supported": "yes",
+      "detail": "Réplica exacta del código de los autores: 15 hermandades, 45 hermanos. Sin probandos: 10 frente a 0 (p = 1,95×10⁻³)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "mcnemar_B",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La variante se transmitió a los 29 hijos afectados de padres portadores (29 de 29, p = 3,73×10⁻⁹)",
+      "supported": "partial",
+      "detail": "13 de esos 29 hijos son probandos, aunque el material suplementario dice que se excluyen. Sin ellos: 16 de 16, p = 3,05×10⁻⁵. Misma dirección, mucha menos certeza",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "tdt_transmitido",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las 51 regiones de EE. UU. comparten el doble de genoma con los portadores que las 449 del resto del mundo (mediana 0,0778 frente a 0,0373 cM)",
+      "supported": "yes",
+      "detail": "Mann-Whitney p = 5,95×10⁻²⁰ sobre las 500 regiones con más IBD (grupo de ancestría \"All\"). Es un ranking truncado: fuera de este top 500 no sabemos nada",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "ratio_eeuu_vs_fuera",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los 9 estados del sureste apalache tienen una mediana de IBD 2,2 veces mayor que los otros 42 (0,1554 frente a 0,0701 cM)",
+      "supported": "yes",
+      "detail": "Mann-Whitney p = 2,0×10⁻⁵. Los 9 estados son una selección nuestra (Tennessee, Kentucky, Virginia Occidental, Virginia, Carolina del Norte, Georgia, Alabama, Misisipi, Carolina del Sur), no una definición del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "ratio_apalaches_vs_resto_eeuu",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El efecto fundador ocurrió hace 200 a 225 años",
+      "supported": "yes",
+      "detail": "Dato del paper (análisis de TMRCA en el cuerpo del artículo). Los archivos abiertos no lo permiten recomputar",
+      "certainty_tier": "T2",
+      "abstract_verb": "reflecting",
+      "metric": "founder_event_anios",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 25.18,
+      "unit": "odds ratio",
+      "metric": "or_headline_paper",
+      "context": "OR de cáncer de pulmón en portadores, cohorte completa 23andMe ajustada por tabaquismo (IC 95% 13,50–46,78; p = 1,9×10⁻²⁴)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 61.7,
+      "unit": "odds ratio",
+      "metric": "or_nunca_fumadores",
+      "context": "OR en nunca fumadores, cohorte completa (IC 95% 28,90–131,73)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 10.59,
+      "unit": "odds ratio",
+      "metric": "or_alguna_vez_fumadores",
+      "context": "OR en quienes fumaron alguna vez, cohorte completa (IC 95% 2,39–47,08)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 5.8,
+      "unit": "veces",
+      "metric": "ratio_nunca_vs_fumadores",
+      "context": "cociente OR nunca fumadores / alguna vez fumadores; los IC se solapan",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.784,
+      "unit": "por ciento",
+      "metric": "tasa_cancer_portadores_pct",
+      "context": "portadores con haplotipo con diagnóstico de cáncer de pulmón, 14 de 370 (subcohorte 2,50 M)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "3,784% (Table S7b)",
+        "our_calculation": "14/370 = 3,784%",
+        "discrepancy_pct": 0.0,
+        "reason": "recomputado desde conteos de celda"
+      }
+    },
+    {
+      "value": 0.325,
+      "unit": "por ciento",
+      "metric": "tasa_cancer_referencia_pct",
+      "context": "no portadores sin haplotipo con cáncer de pulmón, 8.090 de 2.488.751",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0,325% (Table S7b)",
+        "our_calculation": "8090/2488751 = 0,325%",
+        "discrepancy_pct": 0.0,
+        "reason": "recomputado desde conteos de celda"
+      }
+    },
+    {
+      "value": 11.6,
+      "unit": "veces",
+      "metric": "riesgo_relativo_celdas",
+      "context": "riesgo relativo crudo portadores vs no portadores desde conteos, sin covariables; OR crudo 12,1 vs 19,04 ajustado",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "OR ajustado 19,04 (Table S7b)",
+        "our_calculation": "RR crudo 11,6 / OR crudo 12,1",
+        "discrepancy_pct": 36.4,
+        "reason": "crudo vs ajustado por covariables (misma métrica, con/sin modelo)"
+      }
+    },
+    {
+      "value": 15850,
+      "unit": "personas",
+      "metric": "prevalencia_global_1_en",
+      "context": "prevalencia global: 1 portador de cada 15.850 (dato del paper, no derivable de los CSV)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 2078,
+      "unit": "personas",
+      "metric": "prevalencia_apalaches_1_en",
+      "context": "prevalencia en los Apalaches del sur: 1 de cada 2.078; EE. UU. 1 de cada 8.920 (paper)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 7.6,
+      "unit": "veces",
+      "metric": "ratio_apalaches_vs_global",
+      "context": "prevalencia Apalaches / global (15.850 / 2.078)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17,
+      "unit": "tipos de cáncer",
+      "metric": "n_cancers_sin_asociacion",
+      "context": "otros cánceres sin aumento de riesgo asociado a T790M (abstract)",
+      "source": "paper",
+      "verified": true
+    },
+    {
+      "value": 1145,
+      "unit": "personas",
+      "metric": "n_individuos",
+      "context": "individuos en los 41 pedigríes INHERIT",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1.145 / 41 familias (Table S5b)",
+        "our_calculation": "1.145 / 41",
+        "discrepancy_pct": 0.0,
+        "reason": "conteo directo del CSV"
+      }
+    },
+    {
+      "value": 46.3,
+      "unit": "por ciento",
+      "metric": "pct_cancer_portadores",
+      "context": "portadores genotipados con cáncer de pulmón en INHERIT, 68 de 147; sesgo de reclutamiento",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 83,
+      "unit": "casos",
+      "metric": "casos_sin_genotipar",
+      "context": "casos de cáncer de pulmón de los pedigríes sin genotipar, de 151",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 24,
+      "unit": "pares",
+      "metric": "mcnemar_B",
+      "context": "pares de hermanos discordantes con la variante en el enfermo (B) frente a 0 al revés (C); 15 hermandades, 45 hermanos; p = 1,19×10⁻⁷",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "B=24, C=0 (notebook R de los autores)",
+        "our_calculation": "B=24, C=0",
+        "discrepancy_pct": 0.0,
+        "reason": "réplica exacta"
+      }
+    },
+    {
+      "value": 29,
+      "unit": "transmisiones",
+      "metric": "tdt_transmitido",
+      "context": "TDT: transmisiones de padres portadores a hijos afectados, 29 de 29, p = 3,73×10⁻⁹",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "T=29, NT=0 (notebook R)",
+        "our_calculation": "T=29, NT=0",
+        "discrepancy_pct": 0.0,
+        "reason": "réplica exacta"
+      }
+    },
+    {
+      "value": 16,
+      "unit": "transmisiones",
+      "metric": "tdt_sin_probandos_T",
+      "context": "TDT excluyendo los 13 probandos: 16 de 16, p = 3,05×10⁻⁵",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0778,
+      "unit": "cM",
+      "metric": "ibd_mediana_estados_eeuu",
+      "context": "mediana de IBD de las 51 regiones de EE. UU. vs 0,0373 en las 449 del resto del mundo; Mann-Whitney p = 5,95×10⁻²⁰",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.1554,
+      "unit": "cM",
+      "metric": "ibd_mediana_apalaches",
+      "context": "mediana de IBD de los 9 estados del sureste apalache (selección nuestra) vs 0,0701 en los otros 42",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.7,
+      "unit": "veces",
+      "metric": "ratio_tennessee_vs_fuera",
+      "context": "Tennessee (0,1746 cM) / mediana fuera de EE. UU. (0,0373)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.7,
+      "unit": "veces",
+      "metric": "ratio_tennessee_vs_uk",
+      "context": "Tennessee (0,1746) / Conwy, Gales, la mejor región fuera de EE. UU. (0,1040)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 32,
+      "unit": "condados",
+      "metric": "pct_top50_condados_apalaches",
+      "context": "condados del sureste apalache entre los 50 con más IBD (64%); los 500 caben en 19 estados",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "is significantly associated with",
+      "tier": "T1",
+      "cam_attenuator": "'esta asociada con' / 'los portadores tienen X veces mas probabilidades' — afirmacion directa de ASOCIACION, nunca de causa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa ('los datos muestran'), pero diseño observacional: sin verbos causales"
+    },
+    {
+      "abstract_verb": "exceeds",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa con numero: 'supera al del tabaquismo' citando los OR"
+    },
+    {
+      "abstract_verb": "reflecting",
+      "tier": "T2",
+      "cam_attenuator": "'los autores lo atribuyen a' / 'todo apunta a un efecto fundador' — inferencia demografica, no observacion directa"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren' (independencia del riesgo poligenico)"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "'podria' — 'podria orientar el cribado', NUNCA 'permitira prevenir'"
+    },
+    {
+      "abstract_verb": "remains poorly understood",
+      "tier": "T2",
+      "cam_attenuator": "marco de incertidumbre previa: 'seguia sin entenderse bien'"
+    }
+  ],
+  "narrative_hooks": [
+    "1 de cada 2.078 personas en los Apalaches del sur lleva una variante heredada que multiplica por 25 las probabilidades de cáncer de pulmón — 7,6 veces más frecuente que en el resto del mundo.",
+    "Un OR de 25 no es un 25% de riesgo: el 3,784% de los portadores tenía cáncer de pulmón frente al 0,325% de los no portadores.",
+    "En 41 familias, 68 de 147 portadores tenían cáncer y 0 de 98 no portadores; entre hermanos criados juntos, 24 pares a favor de la variante y 0 en contra.",
+    "El 29 de 29 del test de transmisión tiene truco: 13 de esos hijos son los probandos por los que se reclutó a la familia. Sin ellos, 16 de 16.",
+    "La primera región no estadounidense en parentesco con los portadores es Conwy, en Gales — y Tennessee la supera por 1,7 veces, pese a que la variante es de origen británico-irlandés.",
+    "Los autores lo atribuyen a un efecto fundador hace 200 a 225 años; los datos abiertos no permiten recomputar la fecha, pero sí ver la concentración: 32 de los 50 condados con más IBD están en el sureste apalache."
+  ],
+  "limitations": [
+    "Diseño observacional: todo es asociación, nunca causa.",
+    "Los odds ratios de 23andMe están transcritos de las tablas S2/S7b del paper; el dato individual no es público y no se recomputan.",
+    "La prevalencia (1 de cada 15.850 / 8.920 / 2.078) la declara el paper; no se deriva de los conteos abiertos (otro denominador). NO derivar prevalencia de los 370 portadores de la Table S7b.",
+    "Las 41 familias INHERIT se reclutaron por tener cáncer y variante: el 46,3% vs 0,0% no es una tasa poblacional; solo los tests dentro de familia (McNemar entre hermanos, TDT) mitigan el sesgo.",
+    "El TDT con probandos (29/29, p = 3,73×10⁻⁹) y sin probandos (16/16, p = 3,05×10⁻⁵) difiere en cuatro órdenes de magnitud de p; el material suplementario dice excluirlos y el código publicado no lo hace.",
+    "Los IC del OR por tabaquismo son muy anchos (nunca fumadores 28,90–131,73; fumadores 2,39–47,08): 'varias veces mayor' es el techo, no '5,8 veces' como hecho.",
+    "83 de los 151 casos de cáncer de los pedigríes no están genotipados.",
+    "IBD en cM medios por residente: ordena regiones pero no mide parentesco absoluto; regiones con pocos participantes son ruidosas. Las tablas S13/S14 son top 500 (distribución truncada).",
+    "Los 9 estados del 'sureste apalache' son una selección del notebook, no del paper.",
+    "Sin asociación con otros 17 cánceres e independencia del riesgo poligénico: dato del paper, no verificable con los CSV."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims verificados, 22 números clave"
+  },
+  "notebook_slug": "2026-09-18-egfr-t790m-cancer-pulmon-apalaches",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-18-egfr-t790m-cancer-pulmon-apalaches/notebook.html",
+  "generated_at": "2026-09-18T23:26:25+00:00"
+}

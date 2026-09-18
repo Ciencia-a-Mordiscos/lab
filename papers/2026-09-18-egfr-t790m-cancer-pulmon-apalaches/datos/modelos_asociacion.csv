@@ -1,0 +1,9 @@
+regimen,n_participantes,modelo,estrato,odds_ratio,ic95_bajo,ic95_alto,p_valor,tabla_origen
+cohorte_completa_23andMe,3545487,Solo covariables,Todos,22.69,12.3,41.84,1.8e-12,S2
+cohorte_completa_23andMe,3372531,Modelo con tabaquismo,Todos,25.18,13.5,46.78,1.9e-24,S2
+cohorte_completa_23andMe,3372531,Interaccion tabaquismo,Nunca fumadores,61.7,28.9,131.73,1.69e-26,S2
+cohorte_completa_23andMe,3372531,Interaccion tabaquismo,Alguna vez fumadores,10.59,2.39,47.08,0.002,S2
+subcohorte_haplotipo,2496409,Solo covariables,Todos,19.04,11.24,32.25,5.74e-28,S7b
+subcohorte_haplotipo,2420073,Modelo con tabaquismo,Todos,19.09,10.79,33.76,3.84e-24,S7b
+subcohorte_haplotipo,2420073,Interaccion tabaquismo,Nunca fumadores,38.14,19.03,76.44,1.03e-24,S7b
+subcohorte_haplotipo,2420073,Interaccion tabaquismo,Alguna vez fumadores,9.33,3.68,23.67,2.57e-06,S7b

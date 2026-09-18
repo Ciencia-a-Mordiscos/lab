@@ -1,0 +1,4 @@
+grupo,controles_sin_cancer,casos_cancer_pulmon,total,tasa_cancer_pct
+"No portador, sin haplotipo",2480661,8090,2488751,0.325
+"No portador, con haplotipo",7233,21,7254,0.289
+Portador T790M (con haplotipo),356,14,370,3.784

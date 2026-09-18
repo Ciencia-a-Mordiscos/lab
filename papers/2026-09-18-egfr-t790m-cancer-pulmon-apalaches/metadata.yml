@@ -1,0 +1,34 @@
+titulo: "1 de cada 2.078. ¿Por qué una variante de cáncer de pulmón se concentra en los Apalaches?"
+titulo_corto: "T790M y los Apalaches"
+card_descripcion: |
+  Una variante heredada de EGFR que en el mundo lleva 1 de cada 15.850 personas aparece en 1 de cada 2.078 en los Apalaches del sur. En 3,37 millones de participantes de 23andMe, los portadores tienen 25 veces más probabilidades de cáncer de pulmón (OR 25,18) — en absoluto, 3,784% frente a 0,325%. En 41 familias, la variante acompaña al cáncer en 24 pares de hermanos y en 0 va al revés. ⚠️ Estudio observacional; el 29 de 29 del test de transmisión incluye 13 probandos (sin ellos, 16 de 16).
+fecha: 2026-09-18
+categoria: medicina
+tags: [genética, cáncer de pulmón, EGFR, T790M, efecto fundador, Apalaches, 23andMe, IBD]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aec0473"
+    titulo: "Germline EGFR T790M mutation and lung cancer risk"
+    journal: Science
+    autores: "LoPiccolo et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "modelos_asociacion.csv"
+    descripcion: "Odds ratios con IC 95% y p, dos regímenes (cohorte completa y subcohorte con haplotipo)"
+    fuente: "Tablas S2 y S7b del material suplementario"
+  - nombre: "conteos_por_grupo.csv"
+    descripcion: "Casos/controles de cáncer de pulmón por grupo, 2.496.375 personas"
+    fuente: "Tabla S7b del material suplementario"
+  - nombre: "pedigris_inherit.csv"
+    descripcion: "41 pedigríes INHERIT, 1.145 individuos, genotipo y fenotipo"
+    fuente: "Tabla S5b del material suplementario"
+  - nombre: "ibd_estados.csv"
+    descripcion: "IBD medio con portadores de T790M, 500 regiones del mundo × 7 grupos de ancestría"
+    fuente: "Tabla S13 del material suplementario"
+  - nombre: "ibd_condados_eeuu.csv"
+    descripcion: "IBD medio con portadores, 500 condados de EE. UU. × 7 grupos de ancestría"
+    fuente: "Tabla S14 del material suplementario"
+estado: publicado

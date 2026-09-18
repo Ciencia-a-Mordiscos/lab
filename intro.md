@@ -28,6 +28,14 @@ sensibilidad" de los radiólogos y el nivel experto son solo del paper.
 
 ---
 
+### 1 de cada 2.078. ¿Por qué una variante de cáncer de pulmón se concentra en los Apalaches?
+
+**Medicina** · *Science* · Una variante heredada de EGFR que en el mundo lleva 1 de cada 15.850 personas aparece en 1 de cada 2.078 en los Apalaches del sur. En 3,37 millones de participantes de 23andMe, los portadores tienen 25 veces más probabilidades de cáncer de pulmón (OR 25,18) — en absoluto, 3,784% frente a 0,325%. En 41 familias, la variante acompaña al cáncer en 24 pares de hermanos y en 0 va al revés. ⚠️ Estudio observacional; el 29 de 29 del test de transmisión incluye 13 probandos (sin ellos, 16 de 16).
+
+[Ver notebook](papers/2026-09-18-egfr-t790m-cancer-pulmon-apalaches/notebook) · [Leer más](papers/2026-09-18-egfr-t790m-cancer-pulmon-apalaches/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-18-egfr-t790m-cancer-pulmon-apalaches/notebook.ipynb)
+
+---
+
 ### Seis bombas nucleares bajo una montaña, y la montaña sigue temblando
 
 **Geología** · *Science* · Seis explosiones nucleares bajo el monte Mantap (2006-2017) y un catálogo de
