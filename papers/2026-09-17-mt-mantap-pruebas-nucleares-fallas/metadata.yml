@@ -12,7 +12,7 @@ fecha: 2026-09-17
 categoria: geología
 tags: [geología, sismología, pruebas nucleares, fallas, Corea del Norte, Gutenberg-Richter]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/BVUxTkv7lF4"
 fuentes:
   - doi: "10.1126/science.adx5917"
     titulo: "Nuclear tests at Mt. Mantap have reactivated intraplate faults"
