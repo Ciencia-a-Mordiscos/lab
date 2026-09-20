@@ -12,7 +12,7 @@ fecha: 2026-09-18
 categoria: tecnología
 tags: [tecnología, inteligencia artificial, radiología, tomografía, modelos visión-lenguaje, AUC, diagnóstico por imagen]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/0iJ_EqI4Q6Y"
 fuentes:
   - doi: "10.1126/science.aec6129"
     titulo: "An expert-level generalist AI for abdominal CT diagnosis"

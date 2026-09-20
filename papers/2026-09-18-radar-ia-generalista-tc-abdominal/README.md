@@ -29,6 +29,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/0iJ_EqI4Q6Y)
 - **Paper:** [Science — DOI: 10.1126/science.aec6129](https://doi.org/10.1126/science.aec6129)
 - **Datos originales:** [Supplementary Tables S1–S13](https://www.science.org/doi/suppl/10.1126/science.aec6129/suppl_file/science.aec6129_tables_s1_to_s13.zip) · [alibaba-damo-academy/damo-radar](https://github.com/alibaba-damo-academy/damo-radar)
