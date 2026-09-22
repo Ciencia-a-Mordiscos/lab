@@ -14,6 +14,22 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Le apretaron la tibia y el cerebro se recuperó
+
+**Neurociencia** · *Nature Neuroscience* · Comprimir la tibia una vez al día acorta de 8,46 s a 5,46 s lo que tarda un
+ratón con daño cerebral en bajar de un poste; los sanos tardan 5,62 s
+(d = 1,94, n = 24 por grupo). La memoria espacial va detrás (+8,96 s en el
+cuadrante diana, d = 1,38, coincide con los 8,953 s que reporta el paper), el
+beneficio se apaga si se quita PIEZO1 de los osteocitos (d de 1,26–2,46 cae a
+0,10–0,57) y el suero de un ratón comprimido lo reproduce en otro que nunca
+pisó la máquina (d = 1,34). ⚠️ Solo ratones y cerdos, cero datos humanos; a
+4 semanas quedan 3 cerdos por grupo y el Mann-Whitney no baja de p = 0,1 con
+ese n; las cuantificaciones de hipocampo no traen unidad declarada.
+
+[Ver notebook](papers/2026-09-22-compresion-tibia-cerebro/notebook) · [Leer más](papers/2026-09-22-compresion-tibia-cerebro/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-22-compresion-tibia-cerebro/notebook.ipynb)
+
+---
+
 ### Una IA que nunca vio un hospital de Stanford lee sus tomografías mejor que la IA entrenada allí
 
 **Tecnología** · *Science* · RADAR, un modelo visión-lenguaje entrenado con 424.911 TC abdominales y sus

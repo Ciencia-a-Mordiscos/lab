@@ -1,0 +1,79 @@
+grupo,momento,panel,metrica,unidad,valor
+SHAM,antes del TCE,Fig.7c,ensayo_normal,s,9.0
+SHAM,antes del TCE,Fig.7c,ensayo_normal,s,9.4
+SHAM,antes del TCE,Fig.7c,ensayo_normal,s,8.0
+TBI,antes del TCE,Fig.7c,ensayo_normal,s,4.6
+TBI,antes del TCE,Fig.7c,ensayo_normal,s,5.0
+TBI,antes del TCE,Fig.7c,ensayo_normal,s,6.2
+TBI,antes del TCE,Fig.7c,ensayo_normal,s,9.4
+TBI,antes del TCE,Fig.7c,ensayo_normal,s,10.4
+TBI,antes del TCE,Fig.7c,ensayo_normal,s,7.8
+TBI+LOAD,antes del TCE,Fig.7c,ensayo_normal,s,7.6
+TBI+LOAD,antes del TCE,Fig.7c,ensayo_normal,s,6.6
+TBI+LOAD,antes del TCE,Fig.7c,ensayo_normal,s,8.4
+TBI+LOAD,antes del TCE,Fig.7c,ensayo_normal,s,5.2
+TBI+LOAD,antes del TCE,Fig.7c,ensayo_normal,s,6.6
+TBI+LOAD,antes del TCE,Fig.7c,ensayo_normal,s,9.8
+SHAM,1 semana,Fig.7c,ensayo_normal,s,10.6
+SHAM,1 semana,Fig.7c,ensayo_normal,s,9.2
+SHAM,1 semana,Fig.7c,ensayo_normal,s,7.4
+TBI,1 semana,Fig.7c,ensayo_normal,s,12.0
+TBI,1 semana,Fig.7c,ensayo_normal,s,25.4
+TBI,1 semana,Fig.7c,ensayo_normal,s,74.6
+TBI,1 semana,Fig.7c,ensayo_normal,s,12.8
+TBI,1 semana,Fig.7c,ensayo_normal,s,19.6
+TBI,1 semana,Fig.7c,ensayo_normal,s,54.8
+TBI+LOAD,1 semana,Fig.7c,ensayo_normal,s,5.8
+TBI+LOAD,1 semana,Fig.7c,ensayo_normal,s,16.2
+TBI+LOAD,1 semana,Fig.7c,ensayo_normal,s,6.6
+TBI+LOAD,1 semana,Fig.7c,ensayo_normal,s,5.8
+TBI+LOAD,1 semana,Fig.7c,ensayo_normal,s,8.0
+TBI+LOAD,1 semana,Fig.7c,ensayo_normal,s,9.8
+SHAM,4 semanas,Fig.7c,ensayo_normal,s,8.4
+SHAM,4 semanas,Fig.7c,ensayo_normal,s,10.4
+SHAM,4 semanas,Fig.7c,ensayo_normal,s,9.0
+TBI,4 semanas,Fig.7c,ensayo_normal,s,18.8
+TBI,4 semanas,Fig.7c,ensayo_normal,s,17.4
+TBI,4 semanas,Fig.7c,ensayo_normal,s,13.4
+TBI+LOAD,4 semanas,Fig.7c,ensayo_normal,s,11.8
+TBI+LOAD,4 semanas,Fig.7c,ensayo_normal,s,9.0
+TBI+LOAD,4 semanas,Fig.7c,ensayo_normal,s,11.0
+SHAM,antes del TCE,Fig.7d,ensayo_reversal,s,16.83
+SHAM,antes del TCE,Fig.7d,ensayo_reversal,s,12.5
+SHAM,antes del TCE,Fig.7d,ensayo_reversal,s,15.17
+TBI,antes del TCE,Fig.7d,ensayo_reversal,s,11.5
+TBI,antes del TCE,Fig.7d,ensayo_reversal,s,13.67
+TBI,antes del TCE,Fig.7d,ensayo_reversal,s,16.0
+TBI,antes del TCE,Fig.7d,ensayo_reversal,s,13.0
+TBI,antes del TCE,Fig.7d,ensayo_reversal,s,12.0
+TBI,antes del TCE,Fig.7d,ensayo_reversal,s,14.33
+TBI+LOAD,antes del TCE,Fig.7d,ensayo_reversal,s,20.33
+TBI+LOAD,antes del TCE,Fig.7d,ensayo_reversal,s,13.67
+TBI+LOAD,antes del TCE,Fig.7d,ensayo_reversal,s,10.83
+TBI+LOAD,antes del TCE,Fig.7d,ensayo_reversal,s,9.833
+TBI+LOAD,antes del TCE,Fig.7d,ensayo_reversal,s,17.5
+TBI+LOAD,antes del TCE,Fig.7d,ensayo_reversal,s,15.83
+SHAM,1 semana,Fig.7d,ensayo_reversal,s,11.17
+SHAM,1 semana,Fig.7d,ensayo_reversal,s,12.33
+SHAM,1 semana,Fig.7d,ensayo_reversal,s,16.83
+TBI,1 semana,Fig.7d,ensayo_reversal,s,24.33
+TBI,1 semana,Fig.7d,ensayo_reversal,s,26.33
+TBI,1 semana,Fig.7d,ensayo_reversal,s,37.83
+TBI,1 semana,Fig.7d,ensayo_reversal,s,18.67
+TBI,1 semana,Fig.7d,ensayo_reversal,s,33.5
+TBI,1 semana,Fig.7d,ensayo_reversal,s,51.67
+TBI+LOAD,1 semana,Fig.7d,ensayo_reversal,s,11.17
+TBI+LOAD,1 semana,Fig.7d,ensayo_reversal,s,18.5
+TBI+LOAD,1 semana,Fig.7d,ensayo_reversal,s,8.167
+TBI+LOAD,1 semana,Fig.7d,ensayo_reversal,s,10.83
+TBI+LOAD,1 semana,Fig.7d,ensayo_reversal,s,9.833
+TBI+LOAD,1 semana,Fig.7d,ensayo_reversal,s,16.83
+SHAM,4 semanas,Fig.7d,ensayo_reversal,s,15.33
+SHAM,4 semanas,Fig.7d,ensayo_reversal,s,10.5
+SHAM,4 semanas,Fig.7d,ensayo_reversal,s,11.83
+TBI,4 semanas,Fig.7d,ensayo_reversal,s,37.5
+TBI,4 semanas,Fig.7d,ensayo_reversal,s,28.33
+TBI,4 semanas,Fig.7d,ensayo_reversal,s,39.5
+TBI+LOAD,4 semanas,Fig.7d,ensayo_reversal,s,12.83
+TBI+LOAD,4 semanas,Fig.7d,ensayo_reversal,s,14.17
+TBI+LOAD,4 semanas,Fig.7d,ensayo_reversal,s,14.67

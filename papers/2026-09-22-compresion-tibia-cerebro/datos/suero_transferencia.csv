@@ -1,0 +1,181 @@
+grupo,panel,metrica,unidad,valor
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,3.0
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,1.0
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,3.0
+PBS,Fig.4b,tiempo_giro,s,3.0
+PBS,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4b,tiempo_giro,s,3.0
+PBS,Fig.4b,tiempo_giro,s,3.0
+suero TBI,Fig.4b,tiempo_giro,s,3.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,1.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,3.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,3.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,2.0
+suero TBI,Fig.4b,tiempo_giro,s,4.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,2.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,2.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,2.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,1.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,2.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,2.0
+suero TBI+LOAD,Fig.4b,tiempo_giro,s,2.0
+PBS,Fig.4c,tiempo_total,s,5.0
+PBS,Fig.4c,tiempo_total,s,8.0
+PBS,Fig.4c,tiempo_total,s,16.0
+PBS,Fig.4c,tiempo_total,s,6.0
+PBS,Fig.4c,tiempo_total,s,6.0
+PBS,Fig.4c,tiempo_total,s,8.0
+PBS,Fig.4c,tiempo_total,s,6.0
+PBS,Fig.4c,tiempo_total,s,5.0
+PBS,Fig.4c,tiempo_total,s,6.0
+PBS,Fig.4c,tiempo_total,s,10.0
+PBS,Fig.4c,tiempo_total,s,13.0
+PBS,Fig.4c,tiempo_total,s,8.0
+PBS,Fig.4c,tiempo_total,s,8.0
+PBS,Fig.4c,tiempo_total,s,8.0
+suero TBI,Fig.4c,tiempo_total,s,6.0
+suero TBI,Fig.4c,tiempo_total,s,7.0
+suero TBI,Fig.4c,tiempo_total,s,6.0
+suero TBI,Fig.4c,tiempo_total,s,6.0
+suero TBI,Fig.4c,tiempo_total,s,6.0
+suero TBI,Fig.4c,tiempo_total,s,7.0
+suero TBI,Fig.4c,tiempo_total,s,7.0
+suero TBI,Fig.4c,tiempo_total,s,6.0
+suero TBI,Fig.4c,tiempo_total,s,11.0
+suero TBI,Fig.4c,tiempo_total,s,9.0
+suero TBI,Fig.4c,tiempo_total,s,7.0
+suero TBI,Fig.4c,tiempo_total,s,11.0
+suero TBI,Fig.4c,tiempo_total,s,8.0
+suero TBI,Fig.4c,tiempo_total,s,8.0
+suero TBI,Fig.4c,tiempo_total,s,11.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,5.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,5.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,3.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,5.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,4.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,4.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,4.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,1.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,8.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,6.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,6.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,8.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,6.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,7.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,6.0
+suero TBI+LOAD,Fig.4c,tiempo_total,s,6.0
+PBS,Fig.4e,cruces_plataforma,conteo,2.0
+PBS,Fig.4e,cruces_plataforma,conteo,0.0
+PBS,Fig.4e,cruces_plataforma,conteo,1.0
+PBS,Fig.4e,cruces_plataforma,conteo,1.0
+PBS,Fig.4e,cruces_plataforma,conteo,1.0
+PBS,Fig.4e,cruces_plataforma,conteo,0.0
+PBS,Fig.4e,cruces_plataforma,conteo,2.0
+PBS,Fig.4e,cruces_plataforma,conteo,1.0
+PBS,Fig.4e,cruces_plataforma,conteo,0.0
+PBS,Fig.4e,cruces_plataforma,conteo,2.0
+PBS,Fig.4e,cruces_plataforma,conteo,1.0
+PBS,Fig.4e,cruces_plataforma,conteo,0.0
+PBS,Fig.4e,cruces_plataforma,conteo,1.0
+PBS,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,4.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,2.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,1.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,3.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,1.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,1.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,1.0
+suero TBI,Fig.4e,cruces_plataforma,conteo,1.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,3.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,5.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,1.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,3.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,4.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,2.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,0.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,3.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,3.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,2.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,2.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,5.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,5.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,1.0
+suero TBI+LOAD,Fig.4e,cruces_plataforma,conteo,4.0
+PBS,Fig.4f,tiempo_cuadrante_diana,s,18.23
+PBS,Fig.4f,tiempo_cuadrante_diana,s,35.89
+PBS,Fig.4f,tiempo_cuadrante_diana,s,35.55
+PBS,Fig.4f,tiempo_cuadrante_diana,s,25.33
+PBS,Fig.4f,tiempo_cuadrante_diana,s,31.94
+PBS,Fig.4f,tiempo_cuadrante_diana,s,14.16
+PBS,Fig.4f,tiempo_cuadrante_diana,s,26.59
+PBS,Fig.4f,tiempo_cuadrante_diana,s,18.37
+PBS,Fig.4f,tiempo_cuadrante_diana,s,32.15
+PBS,Fig.4f,tiempo_cuadrante_diana,s,35.42
+PBS,Fig.4f,tiempo_cuadrante_diana,s,32.85
+PBS,Fig.4f,tiempo_cuadrante_diana,s,20.35
+PBS,Fig.4f,tiempo_cuadrante_diana,s,21.57
+PBS,Fig.4f,tiempo_cuadrante_diana,s,31.02
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,28.6
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,31.2
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,29.76
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,37.6
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,16.08
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,14.8
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,14.84
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,13.0
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,24.28
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,15.52
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,16.12
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,14.79
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,21.48
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,24.6
+suero TBI,Fig.4f,tiempo_cuadrante_diana,s,31.28
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,71.47
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,29.36
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,41.56
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,29.85
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,31.18
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,37.76
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,32.67
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,39.19
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,36.33
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,27.96
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,20.16
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,17.56
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,21.21
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,20.12
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,42.08
+suero TBI+LOAD,Fig.4f,tiempo_cuadrante_diana,s,40.05

@@ -1,0 +1,288 @@
+{
+  "version": "1.0",
+  "paper_id": 3041,
+  "doi": "10.1038/s41593-026-02422-w",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "mixed",
+  "verification_table": [
+    {
+      "claim": "Comprimir la tibia acorta el tiempo de bajada del poste tras el daño cerebral",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "pole_total_1sem_tbi_vs_load",
+      "detail": "8,46 s → 5,46 s a 1 semana; d = 1,94; Mann-Whitney p = 1,2e-08; n = 24 vs 24",
+      "certainty_tier": "T1",
+      "abstract_verb": "promoted",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.94,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El grupo con compresión queda al nivel del grupo sano en esa prueba",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "pole_total_1sem_sham",
+      "detail": "5,46 s frente a 5,62 s; d = 0,18 (n.s., p = 0,66), la diferencia es menor que la dispersión interna de cada grupo",
+      "certainty_tier": "T1",
+      "abstract_verb": "promoted",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.18,
+        "interpretation": "despreciable"
+      }
+    },
+    {
+      "claim": "La memoria espacial también mejora",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "mwm_cuadrante_1sem_tbi_vs_load",
+      "detail": "Cuadrante diana +8,96 s (d = 1,38; p = 5,5e-05); cruces 0,38 → 1,83 (d = 1,51). Nuestra diferencia de medias coincide con la del paper: 8,955 s vs 8,953 s",
+      "certainty_tier": "T1",
+      "abstract_verb": "promoted",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.38,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El beneficio desaparece sin PIEZO1 en los osteocitos",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "piezo1_reversion",
+      "detail": "Con PIEZO1: d = 1,26–2,46 en los cuatro paneles de la Fig. 3. Sin PIEZO1: d = 0,10–0,57, ninguno con p < 0,05",
+      "certainty_tier": "T1",
+      "abstract_verb": "reversed",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.57,
+        "interpretation": "medio, no significativo"
+      }
+    },
+    {
+      "claim": "El suero de un ratón comprimido reproduce el efecto en otro ratón",
+      "supported": "yes",
+      "supported_by_data": true,
+      "metric": "suero",
+      "detail": "7,73 s → 5,25 s (d = 1,34; p = 0,0012; n = 15 vs 16)",
+      "certainty_tier": "T1",
+      "abstract_verb": "recapitulated",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 1.34,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El efecto también aparece en cerdos",
+      "supported": "partial",
+      "supported_by_data": true,
+      "metric": "cerdos",
+      "detail": "A 1 semana sí: 32,05 s → 12,55 s en el ensayo invertido (d = 2,21; p = 0,0022; n = 6 vs 6). A 4 semanas quedan 3 animales por grupo y el test se queda sin resolución (p = 0,1 es su suelo); d = 4,98 pero sobre 3 cerdos",
+      "certainty_tier": "T2",
+      "abstract_verb": "as well as in pig TBI models",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.21,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La compresión preserva tejido en el hipocampo",
+      "supported": "partial",
+      "supported_by_data": true,
+      "metric": "map2_tbi_vs_load",
+      "detail": "MAP2 11,04 → 32,27 (d = 5,20, n = 26 vs 22) y neuronas Nissl+ 51,62 → 77,06 (d = 2,81, n = 20 vs 20), ambos con p < 1e-06. La leyenda del paper no declara la unidad: se comparan grupos, no se interpreta el valor absoluto",
+      "certainty_tier": "T1",
+      "abstract_verb": "reduced neuron loss",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 5.2,
+        "interpretation": "muy grande"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 8.46,
+      "unit": "segundos",
+      "metric": "pole_total_1sem_tbi",
+      "context": "prueba del poste, tiempo total, ratón con daño cerebral a 1 semana (n=24)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5.46,
+      "unit": "segundos",
+      "metric": "pole_total_1sem_load",
+      "context": "prueba del poste, tiempo total, daño cerebral + compresión tibial a 1 semana (n=24)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5.62,
+      "unit": "segundos",
+      "metric": "pole_total_1sem_sham",
+      "context": "prueba del poste, tiempo total, ratón sano sin golpe a 1 semana (n=24)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -3.0,
+      "unit": "segundos",
+      "metric": "pole_total_1sem_tbi_vs_load",
+      "context": "diferencia daño → daño + compresión en la prueba del poste, d = 1,94, p = 1,2e-08",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.89,
+      "unit": "d de Cohen",
+      "metric": "pole_giro_1sem_tbi_vs_load",
+      "context": "tiempo de giro en la prueba del poste: mejora menor que la del tiempo total",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.96,
+      "unit": "segundos",
+      "metric": "mwm_cuadrante_1sem_tbi_vs_load",
+      "context": "más tiempo en el cuadrante diana del laberinto acuático, d = 1,38",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "8,953 s (diferencia de medias de Tukey)",
+        "our_calculation": "8,955 s",
+        "discrepancy_pct": 0.02,
+        "reason": "coincide a la tercera decimal"
+      }
+    },
+    {
+      "value": 1.83,
+      "unit": "cruces",
+      "metric": "mwm_cruces_1sem_tbi_load",
+      "context": "cruces por la plataforma con compresión frente a 0,38 con daño solo (d = 1,51). Escala casi nula: se dan absolutos, no porcentajes",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.86,
+      "unit": "segundos",
+      "metric": "piezo1_total_flfl_load",
+      "context": "ratones con PIEZO1 intacto: 7,93 s con daño → 4,86 s con compresión (d = 2,46)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.77,
+      "unit": "segundos",
+      "metric": "piezo1_total_ko_load",
+      "context": "ratones sin Piezo1 en osteocitos: 7,43 s con daño → 8,77 s con compresión (d = 0,57, p = 0,063): sin beneficio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.57,
+      "unit": "d de Cohen máximo",
+      "metric": "piezo1_reversion",
+      "context": "en los cuatro paneles de la Fig. 3 la d cae de 1,26–2,46 (con PIEZO1) a 0,10–0,57 (sin PIEZO1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5.25,
+      "unit": "segundos",
+      "metric": "suero_total_load",
+      "context": "suero de ratón comprimido transferido a otro ratón: 7,73 s → 5,25 s (d = 1,34)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12.55,
+      "unit": "segundos",
+      "metric": "cerdos_reversal_1sem_load",
+      "context": "cerdos en el ensayo invertido del laberinto en T a 1 semana, frente a 32,05 s con daño solo (d = 2,21, n = 6 vs 6)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5.2,
+      "unit": "d de Cohen",
+      "metric": "map2_tbi_vs_load",
+      "context": "MAP2 en hipocampo, 11,04 → 32,27 en unidad no declarada por el paper",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.81,
+      "unit": "d de Cohen",
+      "metric": "nissl_tbi_vs_load",
+      "context": "neuronas Nissl+ en hipocampo, 51,62 → 77,06 en unidad no declarada",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 24,
+      "unit": "ratones por grupo",
+      "metric": "n_raton",
+      "context": "n declarado en la leyenda de la Fig. 1 a 1 semana; a 8 semanas 12/14/14",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "cerdos por grupo",
+      "metric": "n_cerdo",
+      "context": "n de la Fig. 7 a 1 semana (3 sanos); a 4 semanas quedan 3 por grupo",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: 'revelaron' / 'encontraron'. NO descalar a 'proponen' ni 'sugieren'."
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa: 'establecen un eje hueso-cerebro'."
+    },
+    {
+      "abstract_verb": "increased/promoted/reduced/attenuated/stimulated",
+      "tier": "T1",
+      "cam_attenuator": "verbos causales permitidos DENTRO del modelo animal (diseno experimental con KO y transferencia de suero)."
+    },
+    {
+      "abstract_verb": "in mice, as well as in pig TBI models",
+      "tier": "T2",
+      "cam_attenuator": "scope literal obligatorio: 'en ratones y cerdos'. NUNCA 'pacientes', 'tratamiento', 'terapia'."
+    }
+  ],
+  "narrative_hooks": [
+    "Un ratón con daño cerebral tarda 8,46 s en bajar de un poste; si le comprimen la tibia mientras se recupera, 5,46 s — y un ratón sano tarda 5,62.",
+    "Quítale a los osteocitos el sensor que nota la compresión y el beneficio se apaga entero: la d pasa de 1,26–2,46 a 0,10–0,57.",
+    "El suero de un ratón comprimido funciona en otro ratón que nunca pisó la máquina.",
+    "Ya se sabía que un cerebro golpeado acelera la curación del hueso. Esto es el hueso devolviéndole el favor."
+  ],
+  "limitations": [
+    "Solo ratones y cerdos: no hay ni un dato humano en el paper.",
+    "Las p del notebook son Mann-Whitney U par a par; el paper usa corrección por comparaciones múltiples. Coinciden en dirección, no en valor.",
+    "A 4 semanas quedan 3 cerdos por grupo: p = 0,1 es el suelo del test, no una ausencia de efecto.",
+    "Los cruces de plataforma promedian 0,38 en el grupo con daño; en esa escala un porcentaje es engañoso.",
+    "Las cuantificaciones de las Figs. 2c y 2d no traen unidad declarada en la leyenda.",
+    "El grupo sano (SHAM) es techo de referencia, no un brazo de tratamiento."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados como yes y 16 números clave"
+  },
+  "notebook_slug": "2026-09-22-compresion-tibia-cerebro",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-22-compresion-tibia-cerebro/notebook.html",
+  "generated_at": "2026-09-22T15:57:37.686484+00:00"
+}

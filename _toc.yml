@@ -699,6 +699,11 @@ parts:
       title: Notebook
 - caption: Neurociencia
   chapters:
+  - file: papers/2026-09-22-compresion-tibia-cerebro/README
+    title: "La tibia le habla al cerebro"
+    sections:
+    - file: papers/2026-09-22-compresion-tibia-cerebro/notebook
+      title: Notebook
   - file: papers/2026-09-16-xenocortex-organoides-humanos-raton/README
     title: "Córtex humano en ratón"
     sections:

@@ -1,0 +1,45 @@
+titulo: "Le apretaron la tibia y el cerebro se recuperó"
+titulo_corto: "La tibia le habla al cerebro"
+card_descripcion: |
+  Comprimir la tibia una vez al día acorta de 8,46 s a 5,46 s lo que tarda un
+  ratón con daño cerebral en bajar de un poste; los sanos tardan 5,62 s
+  (d = 1,94, n = 24 por grupo). La memoria espacial va detrás (+8,96 s en el
+  cuadrante diana, d = 1,38, coincide con los 8,953 s que reporta el paper), el
+  beneficio se apaga si se quita PIEZO1 de los osteocitos (d de 1,26–2,46 cae a
+  0,10–0,57) y el suero de un ratón comprimido lo reproduce en otro que nunca
+  pisó la máquina (d = 1,34). ⚠️ Solo ratones y cerdos, cero datos humanos; a
+  4 semanas quedan 3 cerdos por grupo y el Mann-Whitney no baja de p = 0,1 con
+  ese n; las cuantificaciones de hipocampo no traen unidad declarada.
+fecha: 2026-09-22
+categoria: neurociencia
+tags: [neurociencia, daño cerebral, hueso, osteocitos, PIEZO1, mecanotransducción, ratones, cerdos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41593-026-02422-w"
+    titulo: "Tibial bone compression promotes recovery after brain injury through osteocyte PIEZO1"
+    journal: Nature Neuroscience
+    autores: "Cai et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "pole_test_raton.csv"
+    descripcion: "Fig. 1c/1d: prueba del poste en ratón, tiempo de giro y tiempo total, a 1 y 8 semanas (224 filas)"
+    fuente: "Source Data del paper (MOESM8)"
+  - nombre: "mwm_raton.csv"
+    descripcion: "Fig. 1f/1g: laberinto acuático de Morris, cruces de plataforma y tiempo en el cuadrante diana (224 filas)"
+    fuente: "Source Data del paper (MOESM8)"
+  - nombre: "histologia_hipocampo.csv"
+    descripcion: "Fig. 2c/2d: MAP2 y neuronas teñidas con Nissl en hipocampo, en unidad no declarada por el paper (130 filas)"
+    fuente: "Source Data del paper (MOESM8)"
+  - nombre: "piezo1_ko.csv"
+    descripcion: "Fig. 3d-3h: ratones con Piezo1 delecionado en osteocitos frente a controles, cuatro paneles conductuales (236 filas)"
+    fuente: "Source Data del paper (MOESM8)"
+  - nombre: "suero_transferencia.csv"
+    descripcion: "Fig. 4b-4f: transferencia pasiva de suero a ratones con daño cerebral, PBS / suero TBI / suero TBI+LOAD (180 filas)"
+    fuente: "Source Data del paper (MOESM8)"
+  - nombre: "cerdos_tmaze.csv"
+    descripcion: "Fig. 7c/7d: cerdos en el laberinto en T, ensayo normal e invertido, antes del golpe y a 1 y 4 semanas (78 filas)"
+    fuente: "Source Data del paper (MOESM8)"
+estado: publicado
