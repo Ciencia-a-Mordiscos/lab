@@ -14,6 +14,20 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Un robot de cuatro patas corrió una maratón con una sola batería
+
+**Tecnología** · *Nature* · RAIBO2, un cuadrúpedo de 43 a 45 kg, completó una maratón oficial en 4 h 19 min 52 s
+con una sola carga: la telemetría muestra 1.241,6 Wh gastados de salida a meta
+(el 86 % de la batería) y un voltaje que baja de 67,0 a 57,2 V sin saltos. El
+coste de transporte recalculado, 0,251, coincide con el 0,248 del paper (+1,4 %).
+⚠️ Es menor que el de un humano caminando (0,377), no el de uno corriendo (0,467);
+la autonomía proyectada es 2,61 veces la del mejor cuadrúpedo de la tabla (B2),
+no «más de tres veces» todos; una sola carrera, sin réplicas.
+
+[Ver notebook](papers/2026-09-23-robot-cuadrupedo-maraton-una-carga/notebook) · [Leer más](papers/2026-09-23-robot-cuadrupedo-maraton-una-carga/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-23-robot-cuadrupedo-maraton-una-carga/notebook.ipynb)
+
+---
+
 ### Le apretaron la tibia y el cerebro se recuperó
 
 **Neurociencia** · *Nature Neuroscience* · Comprimir la tibia una vez al día acorta de 8,46 s a 5,46 s lo que tarda un

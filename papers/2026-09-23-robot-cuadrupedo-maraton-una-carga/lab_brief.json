@@ -1,0 +1,300 @@
+{
+  "version": "1.0",
+  "paper_id": 3060,
+  "doi": "10.1038/s41586-026-11102-5",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "RAIBO2 completó la maratón en 4 h 19 min 52 s con una sola carga de batería",
+      "supported": "yes",
+      "detail": "Tiempo oficial del paper; voltaje 67,0 → 57,2 V sin saltos a carga completa en los cortes de registro",
+      "certainty_tier": "T1",
+      "abstract_verb": "completed",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n=1 carrera, sin grupos"
+      }
+    },
+    {
+      "claim": "El robot usó el 86 % de la batería entre la salida y la meta",
+      "supported": "yes",
+      "detail": "1.241,6 de 1.447 Wh; 90 % contando antes de la salida y después de la meta",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n=1 carrera, sin grupos"
+      }
+    },
+    {
+      "claim": "Coste de transporte de 0,25 durante la maratón",
+      "supported": "yes",
+      "detail": "Recalculado 0,251 (43 kg) vs 0,248 del paper (+1,4 %); 0,240 con 45 kg; 0,265 con toda la energía registrada",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n=1 carrera, sin grupos"
+      }
+    },
+    {
+      "claim": "RAIBO2 gasta menos energía por kilo y metro que un humano",
+      "supported": "partial",
+      "detail": "Frente a humano caminando (0,377) sí; corriendo 0,467; COT humano metabólico vs eléctrico del robot",
+      "certainty_tier": "T1",
+      "abstract_verb": "surpassing",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n=1 carrera, sin grupos"
+      }
+    },
+    {
+      "claim": "RAIBO2 tiene más de tres veces la autonomía por carga que otros cuadrúpedos",
+      "supported": "partial",
+      "detail": "2,61× vs B2 (mejor cuadrúpedo eléctrico activo, 20 km), >3× vs 12 de 13; pasivos (65 y 134 km) y LS3 hidráulico (32,2 km) fuera; los 52,2 km son proyección, lo medido 42,195 km con 86 %",
+      "certainty_tier": "T1",
+      "abstract_verb": "offers more than three times",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n=1 carrera, sin grupos"
+      }
+    },
+    {
+      "claim": "RAIBO2 es el cuadrúpedo con menor coste de transporte de la tabla",
+      "supported": "partial",
+      "detail": "Menor que los 13 eléctricos activos (mediana 0,90, mejor 0,45); solo el caminante pasivo Xingzhe baja más (0,21); Ranger queda cerca (0,28)",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n=1 carrera, sin grupos"
+      }
+    },
+    {
+      "claim": "El ritmo se mantuvo parejo toda la carrera",
+      "supported": "yes",
+      "detail": "Tramos de 5 km entre 29,3 y 34,9 min (GPS); el más lento incluye la parada de 330 s",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a",
+      "effect_size": {
+        "measure": "n/a",
+        "value": null,
+        "interpretation": "n=1 carrera, sin grupos"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 15592,
+      "unit": "s",
+      "metric": "tiempo_oficial_s",
+      "context": "tiempo oficial de la maratón (4 h 19 min 52 s)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.74,
+      "unit": "km/h",
+      "metric": "vel_media_oficial_kmh",
+      "context": "velocidad media oficial = 42,195 km / 15.592 s",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1241.6,
+      "unit": "Wh",
+      "metric": "E_carrera_wh",
+      "context": "energía sacada de la batería de la salida a la meta",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 86,
+      "unit": "por ciento",
+      "metric": "frac_bateria_usada_carrera",
+      "context": "fracción de los 1.447 Wh usada en la carrera",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.251,
+      "unit": "adimensional",
+      "metric": "cot_carrera_43kg",
+      "context": "coste de transporte recalculado con 43 kg y solo la energía de carrera",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.248",
+        "our_calculation": "0.251",
+        "discrepancy_pct": 1.4,
+        "reason": "misma fórmula del SM; energía de salida a meta sumada segundo a segundo"
+      }
+    },
+    {
+      "value": 286.5,
+      "unit": "W",
+      "metric": "potencia_carrera_w",
+      "context": "potencia eléctrica media por segundo en carrera (n=15.604 s)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 92.7,
+      "unit": "W",
+      "metric": "potencia_detenido_w_media",
+      "context": "potencia media parado (odometría < 0,3 m/s, 640 s)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "29,3–34,9",
+      "unit": "min",
+      "metric": "splits_5km_min",
+      "context": "tiempo por tramo de 5 km según el GPS",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "67,0 → 57,2",
+      "unit": "V",
+      "metric": "voltaje",
+      "context": "voltaje de la batería al inicio y al final, sin saltos al alza",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 57,
+      "unit": "°C",
+      "metric": "temp_motor_max_c",
+      "context": "temperatura máxima de motor",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.377,
+      "unit": "adimensional",
+      "metric": "cot_humano_caminando",
+      "context": "COT humano caminando a 1,75 m/s (Supplementary Data 1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.467,
+      "unit": "adimensional",
+      "metric": "cot_humano_corriendo",
+      "context": "COT humano corriendo a 3,5 m/s (Supplementary Data 1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.9,
+      "unit": "adimensional",
+      "metric": "cot_elec_mediana_otros",
+      "context": "mediana de COT de 13 cuadrúpedos eléctricos activos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.61,
+      "unit": "veces",
+      "metric": "ratio_autonomia_vs_B2",
+      "context": "autonomía proyectada de RAIBO2 / B2 (20 km estimados)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "more than three times",
+        "our_calculation": "2.61× vs B2; >3× vs 12 de 13",
+        "discrepancy_pct": 13.0,
+        "reason": "con la tabla publicada (MOESM1) el mejor, B2, queda a 2,61×"
+      }
+    },
+    {
+      "value": 52.2,
+      "unit": "km",
+      "metric": "autonomia_raibo2_sm_km",
+      "context": "autonomía proyectada de RAIBO2 en el Supplementary Data 1 (no medida)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa (\"presentan RAIBO2\")"
+    },
+    {
+      "abstract_verb": "completed",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: completó la maratón en 4:19:52 con una carga"
+    },
+    {
+      "abstract_verb": "achieving",
+      "tier": "T1",
+      "cam_attenuator": "\"alcanzó un COT de 0,25\"",
+      "warning": "con número del paper"
+    },
+    {
+      "abstract_verb": "surpassing",
+      "tier": "T1",
+      "cam_attenuator": "\"por debajo del humano caminando (0,37)\"",
+      "warning": "el benchmark es humano CAMINANDO, metabólico; no decir \"más eficiente que un maratonista\""
+    },
+    {
+      "abstract_verb": "offers more than three times",
+      "tier": "T1",
+      "cam_attenuator": "atribuir: \"según los autores, más de tres veces\"",
+      "warning": "outperform-type: con el SM publicado es 2,61× vs el mejor (B2); no inflar"
+    },
+    {
+      "abstract_verb": "enhanced",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa del diseño (hardware ligero, circuito de baja resistencia, política de baja disipación)"
+    },
+    {
+      "abstract_verb": "breakthrough / paves the way",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores lo llaman un avance que abre la puerta a…\"",
+      "warning": "meta-claim de los autores; NO escalar a \"revolución\"/\"hito\""
+    },
+    {
+      "abstract_verb": "potential (rescue, disaster zones)",
+      "tier": "T3",
+      "cam_attenuator": "\"podría servir para rescates\"",
+      "warning": "aplicación no probada en el paper"
+    }
+  ],
+  "narrative_hooks": [
+    "4 horas, 19 minutos y 52 segundos: un robot de cuatro patas corrió una maratón oficial sin cambiar de batería",
+    "Al cruzar la meta le quedaba el 14 % de la batería: usó 1.241,6 de 1.447 Wh",
+    "Gasta menos por kilo y metro que un humano caminando (0,377); frente a uno corriendo (0,467) también, pero la referencia del abstract es la de caminar",
+    "Parado también gasta: 92,7 W solo por sostenerse en pie"
+  ],
+  "limitations": [
+    "Una sola carrera (n=1): sin réplicas, intervalo de confianza ni test sobre el COT",
+    "Paper con muro de pago: abstract, Extended Data Tables, Supplementary Data 1 y Zenodo",
+    "Masa ambigua (43 o 45 kg según batería): COT 0,251 o 0,240",
+    "En la tabla, el caminante pasivo Xingzhe (0,21) y el caballo (0,223) tienen menor COT que RAIBO2 (0,248)",
+    "El «más de tres veces» da 2,61× contra el mejor (B2) con la tabla publicada; los 52,2 km son proyección",
+    "El COT humano es metabólico y el del robot eléctrico; el 0,37 es humano caminando",
+    "La fila de RAIBO2 del Supplementary Data 1 trae potencia y duración que no cuadran con la telemetría",
+    "Logs del estudio de ablación (158,7 MB) no reproducidos",
+    "Causa de las paradas desconocida"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes, 15 números clave"
+  },
+  "notebook_slug": "2026-09-23-robot-cuadrupedo-maraton-una-carga",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-23-robot-cuadrupedo-maraton-una-carga/notebook.html",
+  "generated_at": "2026-09-23T23:41:18+00:00"
+}

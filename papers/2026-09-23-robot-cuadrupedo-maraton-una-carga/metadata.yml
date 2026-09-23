@@ -1,0 +1,34 @@
+titulo: "Un robot de cuatro patas corrió una maratón con una sola batería"
+titulo_corto: "Un robot corre una maratón"
+card_descripcion: |
+  RAIBO2, un cuadrúpedo de 43 a 45 kg, completó una maratón oficial en 4 h 19 min 52 s
+  con una sola carga: la telemetría muestra 1.241,6 Wh gastados de salida a meta
+  (el 86 % de la batería) y un voltaje que baja de 67,0 a 57,2 V sin saltos. El
+  coste de transporte recalculado, 0,251, coincide con el 0,248 del paper (+1,4 %).
+  ⚠️ Es menor que el de un humano caminando (0,377), no el de uno corriendo (0,467);
+  la autonomía proyectada es 2,61 veces la del mejor cuadrúpedo de la tabla (B2),
+  no «más de tres veces» todos; una sola carrera, sin réplicas.
+fecha: 2026-09-23
+categoria: tecnología
+tags: [robótica, robot cuadrúpedo, eficiencia energética, maratón, batería, coste de transporte]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11102-5"
+    titulo: "A quadruped robot designed to complete a marathon on a single battery charge"
+    journal: Nature
+    autores: "Lee et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "telemetria_robot_1hz.csv"
+    descripcion: "Telemetría del robot durante la maratón a 1 Hz: voltaje, corriente, potencia, odometría y temperaturas (17.755 filas)"
+    fuente: "Zenodo 10.5281/zenodo.14825866 (Fig4_full_marathon_logging)"
+  - nombre: "recorrido_gps.csv"
+    descripcion: "Track GPS Garmin de la carrera a 1 Hz con distancia acumulada, elevación y temperatura del aire (15.943 puntos)"
+    fuente: "Zenodo 10.5281/zenodo.14825866 (Fig4_full_marathon_logging)"
+  - nombre: "cot_comparativa.csv"
+    descripcion: "Coste de transporte, masa, batería y autonomía de robots, animales y vehículos (69 filas)"
+    fuente: "Supplementary Data 1 del paper (MOESM1)"
+estado: publicado
