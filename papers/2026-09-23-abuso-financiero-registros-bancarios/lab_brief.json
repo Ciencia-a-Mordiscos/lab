@@ -1,0 +1,225 @@
+{
+  "version": "1.0",
+  "paper_id": 3053,
+  "doi": "10.1038/s41586-026-11049-7",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Las víctimas-sobrevivientes pagan cargos por sobregiro con más frecuencia que el control en el último año",
+      "supported": "yes",
+      "detail": "74,5 % vs. 39,9 % (+34,6 pp, IC 95 % 33,2–36,0; p ajustada < 0,001); h ≈ 0,71, el mayor de los 161",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal"
+    },
+    {
+      "claim": "Tienen menos ahorro y peor puntaje de crédito",
+      "supported": "yes",
+      "detail": "Último año: ahorro −£3.501 (n = 4.149 vs. 12.181); puntaje 767 vs. 876 (−109 puntos)",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate"
+    },
+    {
+      "claim": "Más de la mitad de las diferencias ya existían entre 7 y 3,5 años antes de la revelación, y la mayoría crece después",
+      "supported": "yes",
+      "detail": "88 de 161 ya significativas entre 7 y 3,5 años; 142 de 159 con efecto mayor en 3,5–0 con el mismo signo (133 en unidades originales; 126 con signo estable)",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate"
+    },
+    {
+      "claim": "Gastan menos en autocuidado y más en transporte y servicios legales",
+      "supported": "partial",
+      "detail": "Dentista −8,8 pp, ropa de mujer −8,5, deporte −5,3; taxis +12,3, legales +5,9. Con el control por estrés financiero, taxis +2,5 y dentista −3,4",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate"
+    },
+    {
+      "claim": "El patrón se mantiene con grupos control alternativos",
+      "supported": "partial",
+      "detail": "84,5 % y 86,3 % de los 161 en la misma dirección; banca por internet se invierte; sobregiro y débito impagado se igualan o casi porque ese control se emparejó con esas variables",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate"
+    },
+    {
+      "claim": "La mayoría de las 161 diferencias son grandes",
+      "supported": "no",
+      "detail": "Mediana del tamaño de efecto 0,091 (IQR 0,064–0,154); 19 llegan a 0,2 y solo 4 pasan de 0,5",
+      "certainty_tier": "T1",
+      "abstract_verb": "reveal"
+    },
+    {
+      "claim": "El abuso financiero causa estas diferencias",
+      "supported": "no",
+      "detail": "Estudio observacional; los autores concluyen que las víctimas pierden independencia financiera, pero el diseño no aísla la causa",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 5428,
+      "unit": "personas",
+      "metric": "n_vs",
+      "context": "víctimas-sobrevivientes (mujeres que revelaron abuso financiero al banco)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 15602,
+      "unit": "personas",
+      "metric": "n_control",
+      "context": "control emparejado 7 años antes de la revelación",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 373,
+      "unit": "indicadores",
+      "metric": "n_indicadores",
+      "context": "indicadores financieros seguidos durante 7 años",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 161,
+      "unit": "indicadores",
+      "metric": "n_sig_p01_ultimo_anio",
+      "context": "con p ajustada (Benjamini-Hochberg) < 0,01 en el último año",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 34.6,
+      "unit": "puntos porcentuales",
+      "metric": "cargos_sobregiro_pp",
+      "context": "cargos por sobregiro, último año: 74,5 % vs. 39,9 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 31.9,
+      "unit": "puntos porcentuales",
+      "metric": "debito_impagado_pp",
+      "context": "débito directo impagado, último año: 62,7 % vs. 30,8 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 28.4,
+      "unit": "puntos porcentuales",
+      "metric": "credito_universal_pp",
+      "context": "cobro de Crédito Universal, último año",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -108.5,
+      "unit": "puntos (escala interna 0–1.344)",
+      "metric": "puntaje_credito_dif",
+      "context": "puntaje de crédito último año: 767 vs. 876",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -3501,
+      "unit": "libras",
+      "metric": "ahorro_saldo_dif_gbp",
+      "context": "saldo de ahorro último año (n = 4.149 / 12.181)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 88,
+      "unit": "indicadores",
+      "metric": "n_sig_ya_p01_7a3",
+      "context": "de los 161, ya significativos entre 7 y 3,5 años antes",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 142,
+      "unit": "indicadores",
+      "metric": "n_sig_crecen_7a3_vs_3a0",
+      "context": "de 159 con dato, efecto mayor en 3,5–0 que en 7–3,5 años con el signo del último año (133 en unidades originales)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.091,
+      "unit": "tamaño de efecto (|h| o |d| aproximado)",
+      "metric": "efecto_abs_mediana_sig",
+      "context": "mediana entre los 161; IQR 0,064–0,154",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "indicadores",
+      "metric": "n_sig_efecto_ge_0_5",
+      "context": "de los 161 con tamaño de efecto ≥ 0,5",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 84.5,
+      "unit": "por ciento",
+      "metric": "distress_pct_misma_direccion_sig",
+      "context": "de los 161 con la misma dirección frente al control por estrés financiero",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.5,
+      "unit": "puntos porcentuales",
+      "metric": "distress_taxis_pp",
+      "context": "taxis con el control por estrés financiero (vs. +12,3 en la principal)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "\"los datos sugieren\" / \"los resultados indican\""
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "\"los autores concluyen que\" (atribuido)"
+    },
+    {
+      "abstract_verb": "reveal",
+      "tier": "T1",
+      "cam_attenuator": "\"los registros muestran\" (descriptivo)"
+    },
+    {
+      "abstract_verb": "compared / matched",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa del diseño"
+    }
+  ],
+  "narrative_hooks": [
+    "El 74,5 % de las víctimas-sobrevivientes pagó cargos por sobregiro el año antes de contárselo al banco, frente al 39,9 % de clientas parecidas",
+    "88 de las 161 diferencias ya se veían entre 7 y 3,5 años antes de la revelación",
+    "La mayoría de las diferencias son muy pequeñas: mediana del tamaño de efecto 0,091; solo 4 de 161 pasan de 0,5"
+  ],
+  "limitations": [
+    "Observacional (casos y controles emparejados): prohibido lenguaje causal; «demonstrate how victim-survivors lose financial independence» es interpretación de los autores, atribuirla",
+    "Solo mujeres que revelaron el abuso a un banco del Reino Unido: sesgo de selección por autorrevelación",
+    "Estadísticos agregados de las Supplementary Tables; los registros individuales son confidenciales y el dataset sintético del OSF no se usó",
+    "Transaccionales = proporción con ≥1 movimiento en la ventana, no montos; no comparar niveles entre la ventana de 1 año y las de 3,5",
+    "Con el control emparejado por estrés financiero, taxis, gasolina, dentista y banca por internet se reducen o se invierten",
+    "Tamaño de efecto = cálculo nuestro aproximado (h de Cohen / d desde t); el paper no lo reporta",
+    "BH aplicado a las 1.117 pruebas de las tres ventanas; significativo = p ajustada < 0,01"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes, 15 números clave"
+  },
+  "notebook_slug": "2026-09-23-abuso-financiero-registros-bancarios",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-23-abuso-financiero-registros-bancarios/notebook.html",
+  "generated_at": "2026-09-24T10:54:33-05:00"
+}

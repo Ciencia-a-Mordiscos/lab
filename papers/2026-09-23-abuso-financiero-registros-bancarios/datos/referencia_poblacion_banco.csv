@@ -1,0 +1,777 @@
+tipo_medida,unidad,poblacion,indicador,media,ic95_inf,ic95_sup
+demographic,years,clientes_banco,Age,49.9369260639135,49.6786629155522,50.1951892122749
+demographic,years,clientas_banco,Age,50.2862205765671,50.0202722687791,50.552168884355
+demographic,rank,clientes_banco,Deprivation rank,14021.2295693277,13879.2859508869,14163.1731877686
+demographic,rank,clientas_banco,Deprivation rank,14044.3629429525,13901.6882229328,14187.0376629722
+demographic,binary,clientes_banco,Male,0.487648770166623,0.480523248332519,0.494774292000727
+demographic,binary,clientas_banco,Male,0.0,0.0,0.0
+demographic,binary,clientes_banco,region_East Midlands,0.0739806641445986,0.0703470193294897,0.0777862937395349
+demographic,binary,clientas_banco,region_East Midlands,0.0710046629927936,0.0674265668191225,0.0747574153975078
+demographic,binary,clientes_banco,region_East of England,0.0894283312316099,0.0854561893932033,0.0935662151418422
+demographic,binary,clientas_banco,region_East of England,0.0845697329376855,0.080683650877005,0.0886249420691648
+demographic,binary,clientes_banco,region_London,0.0992013451029844,0.0950345371584328,0.103529946924735
+demographic,binary,clientas_banco,region_London,0.100996184824078,0.0967776220851119,0.105377181968532
+demographic,binary,clientes_banco,region_North East,0.0473938629676335,0.0444648681210598,0.0505055989410668
+demographic,binary,clientas_banco,region_North East,0.0497562526494277,0.0467440447846063,0.0529517862011757
+demographic,binary,clientes_banco,region_North West,0.110077763766288,0.105709197470911,0.114603730759936
+demographic,binary,clientas_banco,region_North West,0.108944467994913,0.104578189192969,0.113469943533742
+demographic,binary,clientes_banco,region_Northern Ireland,0.0119798234552333,0.0105287030407224,0.0136281901515024
+demographic,binary,clientas_banco,region_Northern Ireland,0.0113395506570581,0.0099242439608222,0.0129540548717844
+demographic,binary,clientes_banco,region_Scotland,0.0947877259352669,0.0907071534216025,0.0990318752863935
+demographic,binary,clientas_banco,region_Scotland,0.0969690546841882,0.0928284249315864,0.101273759416844
+demographic,binary,clientes_banco,region_South East,0.128572929802438,0.123891927859475,0.133403863227849
+demographic,binary,clientas_banco,region_South East,0.132683340398474,0.12791776564167,0.137598443830194
+demographic,binary,clientes_banco,region_South West,0.100409836065574,0.0962198739455352,0.104761103895706
+demographic,binary,clientas_banco,region_South West,0.0998304366256889,0.0956342111366267,0.104189571411641
+demographic,binary,clientes_banco,region_Wales,0.0499159310634721,0.0469113192576173,0.0531022624542024
+demographic,binary,clientas_banco,region_Wales,0.0516108520559559,0.0485441118539245,0.0548601605783131
+demographic,binary,clientes_banco,region_West Midlands,0.105769230769231,0.101478844415528,0.110218758031278
+demographic,binary,clientas_banco,region_West Midlands,0.102373887240356,0.0981291539131511,0.106780493749459
+demographic,binary,clientes_banco,region_Yorkshire and The Humber,0.0884825556956705,0.0845299941532198,0.0926012414370891
+demographic,binary,clientas_banco,region_Yorkshire and The Humber,0.0899215769393811,0.0859227765009819,0.09408732366891
+non-transactional,count,clientes_banco,Address Change,0.0077701300745531,0.0073942658398358,0.0081459943092704
+non-transactional,count,clientas_banco,Address Change,0.0076310550763105,0.0072570393850962,0.0080050707675248
+non-transactional,count,clientes_banco,Branch,0.0804582898082032,0.0784664338016297,0.0824501458147767
+non-transactional,count,clientas_banco,Branch,0.0797293788407721,0.0777497330736293,0.0817090246079148
+non-transactional,count,clientes_banco,Complaints,0.0015359004812806,0.0013532946342658,0.0017185063282953
+non-transactional,count,clientas_banco,Complaints,0.0011684602290759,0.001008875698682,0.0013280447594698
+non-transactional,binary,clientes_banco,Credit Card,0.518127918568655,0.515988995870864,0.520266841266446
+non-transactional,binary,clientas_banco,Credit Card,0.481920121558332,0.47977255398113,0.484067689135534
+non-transactional,score,clientes_banco,Credit Score,959.557697370079,957.007388074357,962.1080066658
+non-transactional,score,clientas_banco,Credit Score,960.172867856619,957.515687612737,962.8300481005
+non-transactional,pounds,clientes_banco,Credit turnover,3852.66991423221,3771.56266672429,3933.77716174014
+non-transactional,pounds,clientas_banco,Credit turnover,3706.38005613396,3575.88804490846,3836.87206735946
+non-transactional,count,clientes_banco,Fraud,0.0039780776440622,0.0036796880398255,0.0042764672482988
+non-transactional,count,clientas_banco,Fraud,0.0042987796082051,0.0039898933155052,0.0046076659009051
+non-transactional,count,clientes_banco,Internet Banking,25.2058822126507,25.0416644295413,25.37009999576
+non-transactional,count,clientas_banco,Internet Banking,26.8133541059596,26.6408822887243,26.985825923195
+non-transactional,binary,clientes_banco,Loan,0.278045685884502,0.276127796090898,0.279963575678106
+non-transactional,binary,clientas_banco,Loan,0.244304357443044,0.242457641869103,0.246151073016984
+non-transactional,pound,clientes_banco,Loan balance,595.990014214234,583.476360086871,608.503668341598
+non-transactional,pound,clientas_banco,Loan balance,452.235531769616,440.305585396644,464.165478142589
+non-transactional,count,clientes_banco,Lost/Stolen Cards,0.0188981700545604,0.018011208341908,0.0197851317672128
+non-transactional,count,clientas_banco,Lost/Stolen Cards,0.0181080054908146,0.017242295934168,0.0189737150474611
+non-transactional,binary,clientes_banco,Mortgage,0.201169573906863,0.199453566505963,0.202885581307764
+non-transactional,binary,clientas_banco,Mortgage,0.185621688160565,0.183950642161981,0.187292734159148
+non-transactional,count,clientes_banco,PIN Reorder,0.0026652503500555,0.0023356423040345,0.0029948583960765
+non-transactional,count,clientas_banco,PIN Reorder,0.0027843492313833,0.0024370822971949,0.0031316161655716
+non-transactional,count,clientes_banco,Password Reset,0.0438447118755634,0.0424054854193527,0.0452839383317742
+non-transactional,count,clientas_banco,Password Reset,0.0466999413365646,0.0451806598154871,0.0482192228576422
+non-transactional,binary,clientes_banco,Pension,0.0205677107928013,0.0199601483820036,0.0211752732035991
+non-transactional,binary,clientas_banco,Pension,0.0140167142706019,0.0135114497157978,0.0145219788254061
+non-transactional,pound,clientes_banco,Planned Overdraft,2488.06103883555,2444.57648648893,2531.54559118216
+non-transactional,pound,clientas_banco,Planned Overdraft,2071.28599830822,2029.6006784805,2112.97131813593
+non-transactional,binary,clientes_banco,Savings,0.755806133108195,0.753967126493061,0.757645139723329
+non-transactional,binary,clientas_banco,Savings,0.779011953877076,0.777228682667097,0.780795225087055
+non-transactional,pound,clientes_banco,Savings Balance,14215.4529035048,13737.904163269,14693.0016437407
+non-transactional,pound,clientas_banco,Savings Balance,14056.2290876175,13719.6174566029,14392.840718632
+non-transactional,count,clientes_banco,Telephony,0.108819980061913,0.106138477923233,0.111501482200593
+non-transactional,count,clientas_banco,Telephony,0.121053441427926,0.118108524442963,0.123998358412889
+non-transactional,pound,clientes_banco,Unplanned Overdraft,87.6747730810386,78.2699295119369,97.0796166501403
+non-transactional,pound,clientas_banco,Unplanned Overdraft,69.1525642532914,61.8195188516427,76.4856096549401
+transactional,binary,clientes_banco,ATM Withdrawal,0.858911800199381,0.853896920238259,0.863782007502416
+transactional,binary,clientas_banco,ATM Withdrawal,0.852322014175394,0.84719292360269,0.857307939872596
+transactional,binary,clientes_banco,Benefits/Attendance Allowance/Other,0.0325305629886143,0.030104015939122,0.0351456153018426
+transactional,binary,clientas_banco,Benefits/Attendance Allowance/Other,0.0381360414683169,0.0354978804478708,0.0409619407468227
+transactional,binary,clientes_banco,Benefits/Carers Allowance/Other,0.02277139409203,0.0207470357113147,0.0249882356249936
+transactional,binary,clientas_banco,Benefits/Carers Allowance/Other,0.0292499735533693,0.0269413305552153,0.0317499925877732
+transactional,binary,clientes_banco,Benefits/Child Benefit/Other,0.135736397502492,0.130946792031658,0.140672833544271
+transactional,binary,clientas_banco,Benefits/Child Benefit/Other,0.205913466624352,0.200209185045867,0.211737245584902
+transactional,binary,clientes_banco,Benefits/Disability Living Allowance/Other,0.0907707644682302,0.0867738412024215,0.0949326533981462
+transactional,binary,clientas_banco,Benefits/Disability Living Allowance/Other,0.105522056490003,0.101222226126746,0.109982188840795
+transactional,binary,clientes_banco,Benefits/Employment and Support Allowance/Other,0.0307466288892387,0.0283881324096901,0.0332943556580892
+transactional,binary,clientas_banco,Benefits/Employment and Support Allowance/Other,0.0327409288056702,0.0302970271231541,0.0353747756227822
+transactional,binary,clientes_banco,Benefits/Housing Benefit/Other,0.0176819350438113,0.0159049154601658,0.0196535318115138
+transactional,binary,clientas_banco,Benefits/Housing Benefit/Other,0.0172432032159103,0.0154824565290867,0.0192002861570575
+transactional,binary,clientes_banco,Benefits/Income Support/Other,0.0003672805498714,0.0001751049297307,0.000770204201372
+transactional,binary,clientas_banco,Benefits/Income Support/Other,0.0009520787051729,0.0005999294794505,0.0015106215791114
+transactional,binary,clientes_banco,Benefits/Industrial Injurys Benefit/Other,0.0184164961435542,0.0166016486963566,0.0204256170820336
+transactional,binary,clientas_banco,Benefits/Industrial Injurys Benefit/Other,0.0211044112980006,0.0191500173663274,0.0232535361766808
+transactional,binary,clientes_banco,Benefits/Job Seekers Allowance/Other,0.0052468649981636,0.0043148159387999,0.0063789573382489
+transactional,binary,clientas_banco,Benefits/Job Seekers Allowance/Other,0.0048661800486618,0.0039684341762761,0.0059657990874651
+transactional,binary,clientes_banco,Benefits/Other/Other,0.16002938244399,0.154892538339996,0.165303262392698
+transactional,binary,clientas_banco,Benefits/Other/Other,0.191156246694171,0.185613915398926,0.196824072480584
+transactional,binary,clientes_banco,Benefits/Social Fund/Other,0.0071357363975024,0.0060348754973871,0.0084357081925197
+transactional,binary,clientas_banco,Benefits/Social Fund/Other,0.0096265735745266,0.0083298814461637,0.0111228545334925
+transactional,binary,clientes_banco,Benefits/State Pension/Other,0.19980061913007,0.194184376873567,0.205537863776843
+transactional,binary,clientas_banco,Benefits/State Pension/Other,0.215434253676082,0.209631778226134,0.22135235749762
+transactional,binary,clientes_banco,Benefits/Universal Credit/Other,0.0981688441156409,0.0940248540234209,0.102474815375442
+transactional,binary,clientas_banco,Benefits/Universal Credit/Other,0.119644557283402,0.11509509694338,0.124348577842575
+transactional,binary,clientes_banco,Benefits/Winter Fuel Payment/Other,0.177553911537856,0.172193528386766,0.183044265430563
+transactional,binary,clientas_banco,Benefits/Winter Fuel Payment/Other,0.189410769068021,0.183888416009344,0.195059325966449
+transactional,binary,clientes_banco,Benefits/Working Families Tax Credit/Other,0.0287003515399549,0.0264226224868014,0.0311681434539093
+transactional,binary,clientas_banco,Benefits/Working Families Tax Credit/Other,0.0423146091187983,0.0395363190809933,0.0452789307723151
+transactional,binary,clientes_banco,Communication/Audiovisual/Repair,0.0167374993441419,0.015010346294927,0.0186596210252101
+transactional,binary,clientas_banco,Communication/Audiovisual/Repair,0.0148101131915794,0.0131833252212056,0.016634258763354
+transactional,binary,clientes_banco,Communication/Internet/Other,0.0938139461671651,0.0897555850323596,0.0980360452472411
+transactional,binary,clientas_banco,Communication/Internet/Other,0.0961599492224691,0.0920388804960283,0.100445126899159
+transactional,binary,clientes_banco,Communication/Mobile Phone/Other,0.547825174458261,0.540750025228616,0.554881047349312
+transactional,binary,clientas_banco,Communication/Mobile Phone/Other,0.551941182693325,0.544842472045647,0.559018788608437
+transactional,binary,clientes_banco,Communication/Multi Media Service/Other,0.636444724277244,0.629588509391354,0.643245943706912
+transactional,binary,clientas_banco,Communication/Multi Media Service/Other,0.624986776684651,0.618060869721152,0.6318618988505
+transactional,binary,clientes_banco,Communication/Other/Other,0.183377931685818,0.177947700669686,0.188935785547712
+transactional,binary,clientas_banco,Communication/Other/Other,0.173013858034486,0.167688261002789,0.17847232264498
+transactional,binary,clientes_banco,Financial Services/Assurance/Other,0.120520489007818,0.115974317671912,0.125219626614403
+transactional,binary,clientas_banco,Financial Services/Assurance/Other,0.114143658097958,0.109688771656134,0.118755341140019
+transactional,binary,clientes_banco,Financial Services/BACS/Other,0.0104412613463456,0.0090925749855456,0.0119875759874734
+transactional,binary,clientas_banco,Financial Services/BACS/Other,0.01126626467788,0.0098569786061646,0.0128744213200961
+transactional,binary,clientes_banco,Financial Services/CHAPS/Other,0.063854347027651,0.0604699280800469,0.06741459561715
+transactional,binary,clientas_banco,Financial Services/CHAPS/Other,0.0595049190733101,0.0562209561876765,0.0629679057380767
+transactional,binary,clientes_banco,Financial Services/Cards/Balance Transfer,0.0039351487486227,0.0031392491473857,0.004931835928517
+transactional,binary,clientas_banco,Financial Services/Cards/Balance Transfer,0.0038083148206918,0.0030239043439495,0.0047952252035784
+transactional,binary,clientes_banco,Financial Services/Cards/Money Transfer,0.0538853035311401,0.0507681974205182,0.0571822669629681
+transactional,binary,clientas_banco,Financial Services/Cards/Money Transfer,0.0525230085687084,0.0494325693741468,0.0557953159483008
+transactional,binary,clientes_banco,Financial Services/Cards/Other,0.494254682827011,0.48715826227788,0.501353419073109
+transactional,binary,clientas_banco,Financial Services/Cards/Other,0.481857611340315,0.4747392826699,0.488983311618235
+transactional,binary,clientes_banco,Financial Services/Cards/Pre-Paid,0.129177816254788,0.124490449665248,0.134014658022784
+transactional,binary,clientas_banco,Financial Services/Cards/Pre-Paid,0.120385062942981,0.115823116451975,0.125101268611485
+transactional,binary,clientes_banco,Financial Services/Cards/Storecard,0.0159504695944173,0.0142660066622499,0.017830228342998
+transactional,binary,clientas_banco,Financial Services/Cards/Storecard,0.0170845234317148,0.0153321998753415,0.0190332495671739
+transactional,binary,clientes_banco,Financial Services/Current Accounts/Other Person,0.902723122934047,0.898434117360415,0.906849787529816
+transactional,binary,clientas_banco,Financial Services/Current Accounts/Other Person,0.904368983391516,0.900094039496263,0.90847960323536
+transactional,binary,clientes_banco,Financial Services/Current Accounts/Own Account,0.327351907235427,0.320725107278978,0.334048295046575
+transactional,binary,clientas_banco,Financial Services/Current Accounts/Own Account,0.333915159208717,0.327226739026765,0.340671063471961
+transactional,binary,clientes_banco,Financial Services/Foreign/POS Fee,0.0058764887979432,0.004885200517748,0.0070674973278106
+transactional,binary,clientas_banco,Financial Services/Foreign/POS Fee,0.0046017137416693,0.0037310427428358,0.0056744060908457
+transactional,binary,clientes_banco,Financial Services/Foreign/Payments,0.0332651240883572,0.0308111520039528,0.0359073030848294
+transactional,binary,clientas_banco,Financial Services/Foreign/Payments,0.0297789061673543,0.0274492239026512,0.0322997474759775
+transactional,binary,clientes_banco,Financial Services/Fraud/Dispute,0.0014691221994858,0.001014554352616,0.0021269240969619
+transactional,binary,clientas_banco,Financial Services/Fraud/Dispute,0.0016925843647519,0.0011971971615604,0.0023924664111018
+transactional,binary,clientes_banco,Financial Services/Fraud/Other,0.0383021144865943,0.0356684973930591,0.0411218950270004
+transactional,binary,clientas_banco,Financial Services/Fraud/Other,0.0411509573680313,0.0384108768451915,0.0440775445923061
+transactional,binary,clientes_banco,Financial Services/Fraud/Write Off,0.0238732357416444,0.0217993250942794,0.0261391785980679
+transactional,binary,clientas_banco,Financial Services/Fraud/Write Off,0.0264466306992489,0.0242531021261572,0.0288326867634949
+transactional,binary,clientes_banco,Financial Services/Funds Transfer/International,0.0602864788288997,0.0569946552099595,0.0637555732023442
+transactional,binary,clientas_banco,Financial Services/Funds Transfer/International,0.0530519411826933,0.0499463284064409,0.0563392065878759
+transactional,binary,clientes_banco,Financial Services/Funds Transfer/Other,0.323574164436749,0.316968097488287,0.330251341936477
+transactional,binary,clientas_banco,Financial Services/Funds Transfer/Other,0.326721675658521,0.320071698168315,0.333442060166896
+transactional,binary,clientes_banco,Financial Services/Insurance/Animal,0.0050894590482186,0.0041727694730683,0.0062062753433846
+transactional,binary,clientas_banco,Financial Services/Insurance/Animal,0.0047603935258648,0.0038733870812685,0.0058493318665777
+transactional,binary,clientes_banco,Financial Services/Insurance/Appliance,0.0966472532661735,0.0925328836207227,0.100924217876723
+transactional,binary,clientas_banco,Financial Services/Insurance/Appliance,0.103406326034063,0.099145904805687,0.107827909530344
+transactional,binary,clientes_banco,Financial Services/Insurance/Claims,0.0402959231858964,0.0375948551675486,0.0431823467038796
+transactional,binary,clientas_banco,Financial Services/Insurance/Claims,0.0415741034592193,0.0388200587897458,0.0445144820567915
+transactional,binary,clientes_banco,Financial Services/Insurance/Dental,0.0246602654913689,0.0225517041231149,0.0269605373419747
+transactional,binary,clientas_banco,Financial Services/Insurance/Dental,0.0262350576536549,0.0240504788269921,0.0286122509818991
+transactional,binary,clientes_banco,Financial Services/Insurance/Health,0.0449131643842804,0.0420627981886496,0.0479470165346129
+transactional,binary,clientas_banco,Financial Services/Insurance/Health,0.0473923622130541,0.0444539633043476,0.0505147209573477
+transactional,binary,clientes_banco,Financial Services/Insurance/Home,0.154677580145863,0.149613282301433,0.159881071534913
+transactional,binary,clientas_banco,Financial Services/Insurance/Home,0.151644980429493,0.146602740464948,0.156828772883185
+transactional,binary,clientes_banco,Financial Services/Insurance/Home emergency,0.039351487486227,0.036682130861591,0.0422065822671027
+transactional,binary,clientas_banco,Financial Services/Insurance/Home emergency,0.0439543002221517,0.041123166112596,0.0469707967150656
+transactional,binary,clientes_banco,Financial Services/Insurance/Mobile Phone,0.0215646151424524,0.0195960159250663,0.0237261922071686
+transactional,binary,clientas_banco,Financial Services/Insurance/Mobile Phone,0.0214746641277901,0.0195027225656198,0.0236411833935486
+transactional,binary,clientes_banco,Financial Services/Insurance/Motor,0.223883729471641,0.218021456156241,0.229857296982
+transactional,binary,clientas_banco,Financial Services/Insurance/Motor,0.206601079022533,0.200889544992083,0.212431831004275
+transactional,binary,clientes_banco,Financial Services/Insurance/Other,0.607219686237473,0.600265106232304,0.614131050333676
+transactional,binary,clientas_banco,Financial Services/Insurance/Other,0.593621072675341,0.5866013563721,0.600602748814681
+transactional,binary,clientes_banco,Financial Services/Insurance/Personal Accident,0.0039876173986043,0.0031858707876245,0.0049901190879793
+transactional,binary,clientas_banco,Financial Services/Insurance/Personal Accident,0.0042843541732783,0.0034472210514701,0.0053236931145041
+transactional,binary,clientes_banco,Financial Services/Insurance/Pet,0.103310771813841,0.0990689543796997,0.107712496321423
+transactional,binary,clientas_banco,Financial Services/Insurance/Pet,0.119327197715011,0.114783106039651,0.124025978628044
+transactional,binary,clientes_banco,Financial Services/Insurance/Travel,0.0312188467390734,0.0288421311544465,0.0337846006273002
+transactional,binary,clientas_banco,Financial Services/Insurance/Travel,0.0324764624986777,0.030042522770857,0.0351004556683252
+transactional,binary,clientes_banco,Financial Services/Investments/Cryptocurrency,0.0235584238417546,0.0214985442138051,0.0258104644541501
+transactional,binary,clientas_banco,Financial Services/Investments/Cryptocurrency,0.0088331746535491,0.0075944866359214,0.010271805991077
+transactional,binary,clientes_banco,Financial Services/Investments/Dividend,0.0622802875282019,0.0589363241392076,0.0658007162997668
+transactional,binary,clientas_banco,Financial Services/Investments/Dividend,0.0578652279699566,0.0546254505465166,0.0612846970103503
+transactional,binary,clientes_banco,Financial Services/Investments/Funds Received,0.0179967469437011,0.0162034164005709,0.0199845244404533
+transactional,binary,clientas_banco,Financial Services/Investments/Funds Received,0.0178250290912938,0.0160337396099899,0.0198124119186218
+transactional,binary,clientes_banco,Financial Services/Investments/ISA,0.0128023505955192,0.0113006919622489,0.0145006260656822
+transactional,binary,clientas_banco,Financial Services/Investments/ISA,0.0099439331429175,0.0086247249631802,0.0114625897943282
+transactional,binary,clientes_banco,Financial Services/Investments/NS&I,0.0766566976231702,0.0729639299164569,0.0805201263238726
+transactional,binary,clientas_banco,Financial Services/Investments/NS&I,0.0785993864381678,0.0748479672860097,0.0825220573210794
+transactional,binary,clientes_banco,Financial Services/Investments/Other,0.0850516816202319,0.0811740186320125,0.0890966177712406
+transactional,binary,clientas_banco,Financial Services/Investments/Other,0.0835713530096266,0.0797102129369315,0.0876017221189831
+transactional,binary,clientes_banco,Financial Services/Investments/Stocks & Shares,0.0770239781730416,0.0733228574170236,0.080895611685573
+transactional,binary,clientas_banco,Financial Services/Investments/Stocks & Shares,0.0615677562678515,0.0582292282830237,0.0650844679726594
+transactional,binary,clientes_banco,Financial Services/Loans/Direct,0.0347867149378247,0.0322769756427431,0.0374840434395855
+transactional,binary,clientas_banco,Financial Services/Loans/Direct,0.0343277266476251,0.0318249617200051,0.037019787143386
+transactional,binary,clientes_banco,Financial Services/Loans/Other,0.255050107560733,0.248911284111215,0.261287662156534
+transactional,binary,clientas_banco,Financial Services/Loans/Other,0.229503861208082,0.223564724457242,0.235552908902561
+transactional,binary,clientes_banco,Financial Services/Loans/Payday,0.0055616768980534,0.0045995870721537,0.0067236465262863
+transactional,binary,clientas_banco,Financial Services/Loans/Payday,0.0046546070030678,0.0037784600121603,0.0057327453366999
+transactional,binary,clientes_banco,Financial Services/Loans/Prime,0.0323206883886878,0.0299020393953706,0.0349279279082639
+transactional,binary,clientas_banco,Financial Services/Loans/Prime,0.0322119961916852,0.0297880630336762,0.0348260911128052
+transactional,binary,clientes_banco,Financial Services/Loans/Settlement,0.0352064641376777,0.0326815788501487,0.0379187682981228
+transactional,binary,clientas_banco,Financial Services/Loans/Settlement,0.0280863218026024,0.025824704161423,0.0305397931402159
+transactional,binary,clientes_banco,Financial Services/Loans/Student Loan,0.0227189254420484,0.0206969582326611,0.0249333972937782
+transactional,binary,clientas_banco,Financial Services/Loans/Student Loan,0.0306780916111287,0.0283131042811232,0.0332338692634681
+transactional,binary,clientes_banco,Financial Services/Loans/Sub Prime,0.0173146544939399,0.0155568578381458,0.0192671804233382
+transactional,binary,clientas_banco,Financial Services/Loans/Sub Prime,0.0149158997143764,0.0132830590281737,0.0167460533730201
+transactional,binary,clientes_banco,Financial Services/Merchant Services/Other,0.244766252164332,0.238713811849744,0.250921568957932
+transactional,binary,clientas_banco,Financial Services/Merchant Services/Other,0.242515603512113,0.236458540477789,0.24867729004235
+transactional,binary,clientes_banco,Financial Services/Mortgages/Other,0.21359987407524,0.207838978761683,0.219476209081928
+transactional,binary,clientas_banco,Financial Services/Mortgages/Other,0.195705067174442,0.190111505409625,0.201422274838738
+transactional,binary,clientes_banco,Financial Services/Other/Account Closure,0.0304318169893489,0.0280855515715064,0.0329674407156829
+transactional,binary,clientas_banco,Financial Services/Other/Account Closure,0.0319475298846927,0.0295336484426137,0.0345516814255694
+transactional,binary,clientes_banco,Financial Services/Other/Bad Debit Write Off,0.0039351487486227,0.0031392491473857,0.004931835928517
+transactional,binary,clientas_banco,Financial Services/Other/Bad Debit Write Off,0.0034380619909023,0.0026969694449777,0.0043819024893778
+transactional,binary,clientes_banco,Financial Services/Other/Banking,0.152368959546671,0.147336614330816,0.157541429095424
+transactional,binary,clientas_banco,Financial Services/Other/Banking,0.15809795832011,0.15296669184233,0.163368154536838
+transactional,binary,clientes_banco,Financial Services/Other/Buy Now Pay Later,0.13437221260297,0.129603552156712,0.139288253688392
+transactional,binary,clientas_banco,Financial Services/Other/Buy Now Pay Later,0.16724849254205,0.161996186111575,0.172636009687349
+transactional,binary,clientes_banco,Financial Services/Other/Charges,0.0024135578991552,0.0018082838159775,0.0032207773968496
+transactional,binary,clientas_banco,Financial Services/Other/Charges,0.0034909552523008,0.0027435372783592,0.0044410844734169
+transactional,binary,clientes_banco,Financial Services/Other/Complaints Resolution,0.0099165748465292,0.008604227137815,0.0114267794733051
+transactional,binary,clientas_banco,Financial Services/Other/Complaints Resolution,0.0093621072675341,0.0080844694934113,0.0108394514297456
+transactional,binary,clientes_banco,Financial Services/Other/Credit Union,0.0304842856393305,0.0281359769346923,0.0330219313142946
+transactional,binary,clientas_banco,Financial Services/Other/Credit Union,0.0340103670792341,0.031519252942242,0.0366909066613926
+transactional,binary,clientes_banco,Financial Services/Other/Debt Recovery,0.0691536806757962,0.0656373639092891,0.072843687205445
+transactional,binary,clientas_banco,Financial Services/Other/Debt Recovery,0.0756902570612504,0.072005106306847,0.0795478431961583
+transactional,binary,clientes_banco,Financial Services/Other/FOREX,0.066162967626843,0.0627202950602869,0.0697805375309182
+transactional,binary,clientas_banco,Financial Services/Other/FOREX,0.0653231778271448,0.0618880784214506,0.0689349319283615
+transactional,binary,clientes_banco,Financial Services/Other/Leasing,0.0431816989348864,0.0403862516178962,0.0461613330694853
+transactional,binary,clientas_banco,Financial Services/Other/Leasing,0.0369194964561515,0.0343237353693365,0.0397034930506181
+transactional,binary,clientes_banco,Financial Services/Other/OD Charge Refund,0.005614145548035,0.0046471327099107,0.0067810113416187
+transactional,binary,clientas_banco,Financial Services/Other/OD Charge Refund,0.0053422194012482,0.0043975332653964,0.0064885221482707
+transactional,binary,clientes_banco,Financial Services/Other/Other,0.136680833202162,0.131876823680686,0.14163129248107
+transactional,binary,clientas_banco,Financial Services/Other/Other,0.15423675023802,0.149158376750408,0.159455622805857
+transactional,binary,clientes_banco,Financial Services/Other/Returned Standing Order,0.0155307203945642,0.0138694750730019,0.0173874364449148
+transactional,binary,clientas_banco,Financial Services/Other/Returned Standing Order,0.0162382312493388,0.0145315376617639,0.0181416817602332
+transactional,binary,clientes_banco,Financial Services/Other/Travel Money,0.0636969410777061,0.0603165403053928,0.0672532350630028
+transactional,binary,clientas_banco,Financial Services/Other/Travel Money,0.0645297789061674,0.0611147954802063,0.0681217400298458
+transactional,binary,clientes_banco,Financial Services/Other/Visa Sales,0.479615929482135,0.472527890074519,0.486712184856548
+transactional,binary,clientas_banco,Financial Services/Other/Visa Sales,0.482703903522691,0.475584975288258,0.489829859499498
+transactional,binary,clientes_banco,Financial Services/Savings/Building Society,0.169841019990556,0.164576471521259,0.175238648640326
+transactional,binary,clientas_banco,Financial Services/Savings/Building Society,0.177509785253359,0.172128557626996,0.183022053272961
+transactional,binary,clientes_banco,Financial Services/Savings/Internet,0.020462773492838,0.0185465489751643,0.0225724283934181
+transactional,binary,clientas_banco,Financial Services/Savings/Internet,0.0217920236961811,0.0198051685443974,0.0239733252761084
+transactional,binary,clientes_banco,Financial Services/Savings/Other,0.152788708746524,0.147750523889155,0.157966848701818
+transactional,binary,clientas_banco,Financial Services/Savings/Other,0.166031947529885,0.160795393977,0.171404206226822
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/BMW,0.0133270370953355,0.0117934127508422,0.0150570563925385
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/BMW,0.012218343383053,0.0107475198499969,0.0138876268480971
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Ford,0.0056666141980166,0.0046947014012112,0.0068383532090918
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Ford,0.0051835396170527,0.0042542583033423,0.0063145217700432
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Hyundai,0.0045123038984206,0.0036540743595966,0.0055709780566403
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Hyundai,0.0050777530942557,0.0041588733241132,0.00619839054268
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Mercedes Benz,0.0064536439477412,0.0054108000137015,0.0076959239056793
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Mercedes Benz,0.0061356183222257,0.0051171423791277,0.0073553050817315
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Other,0.104097801563566,0.0998413096053644,0.108513883146756
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Other,0.0905003702528298,0.086493181803548,0.0946739693546525
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Renault,0.007922766147227,0.0067583461733216,0.0092859326217439
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Renault,0.0085687083465566,0.0073499405198766,0.0099875389797019
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Suzuki,0.0024660265491368,0.0018533205337575,0.0032806268359039
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Suzuki,0.0022744102401354,0.0016872111531372,0.0030653443733456
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Toyota,0.0093918883467128,0.0081168751645817,0.0108649890045511
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Toyota,0.0075108431185866,0.0063750615389389,0.0088471739340079
+transactional,binary,clientes_banco,Financial Services/Vehicle Finance/Volkswagen,0.0226139881420851,0.0205968121083063,0.0248237118031769
+transactional,binary,clientas_banco,Financial Services/Vehicle Finance/Volkswagen,0.0213159843435946,0.0193515434070143,0.0234750686475515
+transactional,binary,clientes_banco,Hobbies & Interests/Camping/Other,0.159976913794008,0.154840770782671,0.165250113803744
+transactional,binary,clientas_banco,Hobbies & Interests/Camping/Other,0.166931132973659,0.16168292617756,0.172314679465909
+transactional,binary,clientes_banco,Hobbies & Interests/Cinema/Other,0.280602340101789,0.274268138549876,0.287024973086389
+transactional,binary,clientas_banco,Hobbies & Interests/Cinema/Other,0.288109594837618,0.281697332268976,0.294607953892428
+transactional,binary,clientes_banco,Hobbies & Interests/Clubs & Societies/Other,0.371268167270056,0.364435287797076,0.378152933405617
+transactional,binary,clientas_banco,Hobbies & Interests/Clubs & Societies/Other,0.354279064847138,0.347491258470114,0.361126080858302
+transactional,binary,clientes_banco,Hobbies & Interests/DVD Rental/Other,0.098588593315494,0.0944364871825019,0.102902511295559
+transactional,binary,clientas_banco,Hobbies & Interests/DVD Rental/Other,0.0957368031312811,0.0916240903876575,0.100013796905907
+transactional,binary,clientes_banco,Hobbies & Interests/Gambling/Other,0.387533448764363,0.380639910792068,0.394472317459704
+transactional,binary,clientas_banco,Hobbies & Interests/Gambling/Other,0.344493811488416,0.33775204273165,0.351298765904896
+transactional,binary,clientes_banco,Hobbies & Interests/Other Hobbies & Interests/Attractions,0.316648302639173,0.310081533809572,0.323288973637086
+transactional,binary,clientas_banco,Hobbies & Interests/Other Hobbies & Interests/Attractions,0.333280440071935,0.326595340783755,0.340033281347256
+transactional,binary,clientes_banco,Hobbies & Interests/Other Hobbies & Interests/Cultural,0.301642268744425,0.295166487848521,0.308198000344829
+transactional,binary,clientas_banco,Hobbies & Interests/Other Hobbies & Interests/Cultural,0.321696815825664,0.315074749860168,0.328391330572028
+transactional,binary,clientes_banco,Hobbies & Interests/Other Hobbies & Interests/Motor,0.0069258617975759,0.005842541940932,0.0082083915341797
+transactional,binary,clientas_banco,Hobbies & Interests/Other Hobbies & Interests/Motor,0.0034909552523008,0.0027435372783592,0.0044410844734169
+transactional,binary,clientes_banco,Hobbies & Interests/Other Hobbies & Interests/Music,0.17671441313815,0.171364274022645,0.182194861433966
+transactional,binary,clientas_banco,Hobbies & Interests/Other Hobbies & Interests/Music,0.181741246165239,0.176308839981587,0.187302973060606
+transactional,binary,clientes_banco,Hobbies & Interests/Other Hobbies & Interests/Other,0.36177134162338,0.354977714029155,0.368620683715485
+transactional,binary,clientas_banco,Hobbies & Interests/Other Hobbies & Interests/Other,0.358246059452026,0.351440480636418,0.365109236003113
+transactional,binary,clientes_banco,Hobbies & Interests/Other Hobbies & Interests/Photography,0.230337373419382,0.224414142541584,0.236369297012943
+transactional,binary,clientas_banco,Hobbies & Interests/Other Hobbies & Interests/Photography,0.26621178461864,0.259959372335675,0.272559191419348
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Bowling,0.0528359305315074,0.0497486174189478,0.0561035251467725
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Bowling,0.0551676716386332,0.0520022361494643,0.0585138976575322
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Cycling,0.0489532504328664,0.0459792819015232,0.052109070403526
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Cycling,0.036337670580768,0.0337624628291883,0.039101351725389
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Fitness,0.147227031848471,0.142267329070752,0.152328932115592
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Fitness,0.137363799851899,0.132530274452498,0.142344682495209
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Football,0.0333700613883205,0.0309121987216109,0.0360160883536913
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Football,0.0269226700518354,0.0247091445314717,0.0293285273502006
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Golf,0.0808017209717194,0.0770161184417915,0.0847563116408698
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Golf,0.0654818576113403,0.0620427529058546,0.0690975524137917
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Martial Arts,0.0033579935988247,0.0026291662600042,0.0042879894827623
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Martial Arts,0.0029091293769173,0.002234156654773,0.0037872476063115
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Other,0.365339209822131,0.358530500004638,0.372202196054557
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Other,0.329789484819634,0.323122895882805,0.336525234226957
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Sailing,0.024502859541424,0.0224011804583986,0.0267963134288742
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Sailing,0.0187771077964667,0.0169369458616694,0.0208129664621823
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Snooker/Billiards,0.016002938244399,0.0143155955934678,0.0178855548688735
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Snooker/Billiards,0.011160478155083,0.0097581918740927,0.0127616808840242
+transactional,binary,clientes_banco,Hobbies & Interests/Sport/Swimming,0.0091295450968046,0.007873598212145,0.0105836955594808
+transactional,binary,clientas_banco,Hobbies & Interests/Sport/Swimming,0.0102612927113086,0.008919932583343,0.0118019616586987
+transactional,binary,clientes_banco,Household Bills/Council Tax/Other,0.492890497927488,0.485794601202864,0.499989260194948
+transactional,binary,clientas_banco,Household Bills/Council Tax/Other,0.49682640431609,0.489700486376631,0.503953611749462
+transactional,binary,clientes_banco,Household Bills/Energy/Gas & Electricity,0.563985518652605,0.556932921880739,0.571012325510456
+transactional,binary,clientas_banco,Household Bills/Energy/Gas & Electricity,0.576853908812017,0.569796257214376,0.583880333114332
+transactional,binary,clientes_banco,Household Bills/Energy/Other,0.0577155149797996,0.0544924737897407,0.0611168656135593
+transactional,binary,clientas_banco,Household Bills/Energy/Other,0.0516767163863324,0.0486107419087975,0.0549249039664618
+transactional,binary,clientes_banco,Household Bills/Rent and Property Management/Council,0.0198331496930584,0.0179475249464951,0.0219124638362287
+transactional,binary,clientas_banco,Household Bills/Rent and Property Management/Council,0.0219507034803766,0.0199564347420589,0.0241393530344277
+transactional,binary,clientes_banco,Household Bills/Rent and Property Management/Housing Association,0.0237682984416811,0.0216990537636587,0.0260296182483112
+transactional,binary,clientas_banco,Household Bills/Rent and Property Management/Housing Association,0.0270284565746324,0.0248105132321299,0.0294386882143316
+transactional,binary,clientes_banco,Household Bills/Rent and Property Management/Other,0.237158297916995,0.231172791141968,0.243249747901309
+transactional,binary,clientas_banco,Household Bills/Rent and Property Management/Other,0.236485771712684,0.230482378696551,0.242596238494708
+transactional,binary,clientes_banco,Household Bills/TV Licence/Other,0.433968203998111,0.426945617727602,0.441017404954303
+transactional,binary,clientas_banco,Household Bills/TV Licence/Other,0.453295250185126,0.446209183619251,0.460400293814338
+transactional,binary,clientes_banco,Household Bills/Water/Other,0.432446613148644,0.425427244360292,0.439493209914553
+transactional,binary,clientas_banco,Household Bills/Water/Other,0.449222469057442,0.442142914446686,0.456322655585299
+transactional,binary,clientes_banco,Income/Child Support Agency/Other,0.0040925546985676,0.0032792278979284,0.0051065724518622
+transactional,binary,clientas_banco,Income/Child Support Agency/Other,0.0075108431185866,0.0063750615389389,0.0088471739340079
+transactional,binary,clientes_banco,Income/Education/Grants & Bursaries,0.0118579148958497,0.0104155448542013,0.0134973034904015
+transactional,binary,clientas_banco,Income/Education/Grants & Bursaries,0.0136464614408124,0.012087791884273,0.0154029812048414
+transactional,binary,clientes_banco,Income/Expenses/Other,0.0141665354950417,0.0125830900871002,0.0159460224468067
+transactional,binary,clientas_banco,Income/Expenses/Other,0.0150745794985719,0.0134327013829537,0.0169137036865887
+transactional,binary,clientes_banco,Income/Gambling/Other,0.0819560312713154,0.0781451209947005,0.0859354638696251
+transactional,binary,clientas_banco,Income/Gambling/Other,0.0789167460065588,0.0751581925089562,0.0828464221169853
+transactional,binary,clientes_banco,Income/Government Support/COVID Support,0.0263392622907813,0.0241587090122824,0.0287108406056287
+transactional,binary,clientas_banco,Income/Government Support/COVID Support,0.0307309848725272,0.028363938453054,0.0332887999310018
+transactional,binary,clientes_banco,Income/Market Places/Other,0.0428668870349966,0.040081558710975,0.0458365296324773
+transactional,binary,clientas_banco,Income/Market Places/Other,0.036126097535174,0.0335584090244867,0.0388823459545978
+transactional,binary,clientes_banco,Income/Miscellaneous Credits/Other,0.238155202266646,0.232160774829611,0.24425517106399
+transactional,binary,clientas_banco,Income/Miscellaneous Credits/Other,0.233047709721781,0.227075670836079,0.239128219465258
+transactional,binary,clientes_banco,Income/Refunds/Other,0.190461199433339,0.184948809838485,0.196098356374271
+transactional,binary,clientas_banco,Income/Refunds/Other,0.210938326457209,0.205181627246038,0.21681248106455
+transactional,binary,clientes_banco,Income/Rental Income/Other,0.0078702974972454,0.0067100123722258,0.0092293531219264
+transactional,binary,clientas_banco,Income/Rental Income/Other,0.0062942981064212,0.0052616521486337,0.0075280762486227
+transactional,binary,clientes_banco,Income/Settlements/Other,0.073508578624272,0.06988846782765,0.0773006211080816
+transactional,binary,clientas_banco,Income/Settlements/Other,0.0746323918332804,0.070971737812028,0.0784659116856233
+transactional,binary,clientes_banco,Income/Tax/Other,0.02565716984102,0.0235055571993909,0.0280000858432526
+transactional,binary,clientas_banco,Income/Tax/Other,0.0313657040093092,0.028974097943885,0.033947818564535
+transactional,binary,clientes_banco,Inter-Account Transfer/Current Account/Other,0.286426360249751,0.280051283093766,0.292887521293649
+transactional,binary,clientas_banco,Inter-Account Transfer/Current Account/Other,0.285623611551888,0.279228546295027,0.292105783450792
+transactional,binary,clientes_banco,Inter-Account Transfer/Savings/Other,0.561991709953303,0.554935921627162,0.569022511988927
+transactional,binary,clientas_banco,Inter-Account Transfer/Savings/Other,0.595154977255898,0.588139151016407,0.602132140071304
+transactional,binary,clientes_banco,LBG Cash Advance,0.014271472795005,0.0126819084113161,0.0160570346710587
+transactional,binary,clientas_banco,LBG Cash Advance,0.0099439331429175,0.0086247249631802,0.0114625897943282
+transactional,binary,clientes_banco,LBG Credit Card interest,0.159347289994228,0.1542195755777,0.164612315253725
+transactional,binary,clientas_banco,LBG Credit Card interest,0.146408547551042,0.141440905496511,0.151519870451646
+transactional,binary,clientes_banco,LBG Overdraft charges,0.270843171205205,0.264580451628732,0.277198255960307
+transactional,binary,clientas_banco,LBG Overdraft charges,0.25843647519306,0.252245505418739,0.264725598969103
+transactional,binary,clientes_banco,Miscellaneous/Charity/Animal,0.0639068156776326,0.0605210586743035,0.0674683811326371
+transactional,binary,clientas_banco,Miscellaneous/Charity/Animal,0.0774886279487993,0.0737623245164748,0.0813866350359762
+transactional,binary,clientes_banco,Miscellaneous/Charity/Children,0.0618605383283488,0.0585274672584627,0.0653702443231647
+transactional,binary,clientas_banco,Miscellaneous/Charity/Children,0.0701893578758066,0.0666340382722881,0.0739193514148168
+transactional,binary,clientes_banco,Miscellaneous/Charity/Disability,0.0124875386956294,0.0110053846641955,0.0141664431148881
+transactional,binary,clientas_banco,Miscellaneous/Charity/Disability,0.0162382312493388,0.0145315376617639,0.0181416817602332
+transactional,binary,clientes_banco,Miscellaneous/Charity/Environment,0.0593420431292303,0.0560752790228307,0.062786459524252
+transactional,binary,clientas_banco,Miscellaneous/Charity/Environment,0.0659050037025283,0.0624552470776037,0.0695311781646037
+transactional,binary,clientes_banco,Miscellaneous/Charity/Humanitarian,0.008499921297025,0.007290904256078,0.0099074231750234
+transactional,binary,clientas_banco,Miscellaneous/Charity/Humanitarian,0.0092034274833386,0.0079373542322713,0.0106692779359771
+transactional,binary,clientes_banco,Miscellaneous/Charity/Medical,0.0812214701715725,0.0774266380637177,0.0851851210285188
+transactional,binary,clientas_banco,Miscellaneous/Charity/Medical,0.0929863535385592,0.0889285713665435,0.0972095353015063
+transactional,binary,clientes_banco,Miscellaneous/Charity/Other,0.501233013274569,0.494134739482073,0.508330790091006
+transactional,binary,clientas_banco,Miscellaneous/Charity/Other,0.542314609118798,0.535204866313596,0.549407158663484
+transactional,binary,clientes_banco,Miscellaneous/Charity/Politics,0.0082900466970984,0.0070970635039959,0.0096816094092483
+transactional,binary,clientas_banco,Miscellaneous/Charity/Politics,0.0079339892097746,0.0067643436513825,0.0093039876187232
+transactional,binary,clientes_banco,Miscellaneous/Charity/Religion,0.0485859698829949,0.0456229894106101,0.0517309503442579
+transactional,binary,clientas_banco,Miscellaneous/Charity/Religion,0.0529990479212948,0.0498949485056491,0.0562848215208942
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/DSS Recoveries,0.0104412613463456,0.0090925749855456,0.0119875759874734
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/DSS Recoveries,0.0099439331429175,0.0086247249631802,0.0114625897943282
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/HMRC,0.107193451912482,0.102879981159612,0.111665263695002
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/HMRC,0.101607955146514,0.09738147495755,0.105996328863502
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/HMRC Repayment,0.0217220210923973,0.0197460565592909,0.0238908988949381
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/HMRC Repayment,0.0204167988998202,0.0184954312141298,0.0225331823980442
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/National Insurance,0.0045647725484023,0.0037010794605105,0.0056288804632557
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/National Insurance,0.0048661800486618,0.0039684341762761,0.0059657990874651
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/Other,0.180544624586809,0.175148109418397,0.186069904815763
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/Other,0.192478578229134,0.186921230829989,0.198160882736132
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/PAYE,0.0380397712366861,0.0354151743548348,0.0408506379083861
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/PAYE,0.0375542155929335,0.0349362372213355,0.0403601700135825
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/Public Administration,0.016580093394197,0.0148613931734061,0.0184938276078922
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/Public Administration,0.0227969956627526,0.0207636602854698,0.0250243621913737
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/Self Assessment,0.0757647305734824,0.0720923548905112,0.0796081272642352
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/Self Assessment,0.0564900031735957,0.0532878627719382,0.059872395387565
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/Tax,0.0229288000419749,0.0208972856946024,0.0251527330807459
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/Tax,0.0193589336718502,0.0174895443325388,0.0214237778403764
+transactional,binary,clientes_banco,Miscellaneous/Government/Tax/VAT,0.0054042709481085,0.0044570917366872,0.00655141116741
+transactional,binary,clientas_banco,Miscellaneous/Government/Tax/VAT,0.0044430339574738,0.0035889823698948,0.0054991981368641
+transactional,binary,clientes_banco,Miscellaneous/Other/Child Support Agency,0.0005246864998163,0.0002823325686184,0.0009748738823539
+transactional,binary,clientas_banco,Miscellaneous/Other/Child Support Agency,0.0001057865227969,2.645712047152e-05,0.0004228777320037
+transactional,binary,clientes_banco,Miscellaneous/Other/Fines,0.0479038774332336,0.0449614313022931,0.0510285994520749
+transactional,binary,clientas_banco,Miscellaneous/Other/Fines,0.0421559293346028,0.0393828144084601,0.0451151406534001
+transactional,binary,clientes_banco,Miscellaneous/Other/Other,0.175927383388425,0.170586888964552,0.181398504279663
+transactional,binary,clientas_banco,Miscellaneous/Other/Other,0.177033745900772,0.171658346808691,0.182540378851601
+transactional,binary,clientes_banco,Miscellaneous/Trade Associations/Education,0.0062962379977963,0.0052672161073817,0.0075247724888232
+transactional,binary,clientas_banco,Miscellaneous/Trade Associations/Education,0.0087273881307521,0.0074966312995684,0.0101581359888664
+transactional,binary,clientes_banco,Miscellaneous/Trade Associations/Health,0.0271262920405058,0.0249128426696478,0.0295304455179433
+transactional,binary,clientas_banco,Miscellaneous/Trade Associations/Health,0.036760816671956,0.034170643070597,0.0395392906541156
+transactional,binary,clientes_banco,Miscellaneous/Trade Associations/Manual,0.0093394196967312,0.0080681978485608,0.0108087521944353
+transactional,binary,clientas_banco,Miscellaneous/Trade Associations/Manual,0.0105786522796996,0.0092154878032598,0.0121409865663541
+transactional,binary,clientes_banco,Miscellaneous/Trade Associations/Other,0.0506847158822604,0.0476595789000647,0.0538910041007328
+transactional,binary,clientas_banco,Miscellaneous/Trade Associations/Other,0.0508304242039564,0.0477891492697252,0.0540542571940598
+transactional,binary,clientes_banco,Miscellaneous/Trade Associations/Professional & Management,0.0137467862951886,0.012188054648863,0.0155017359597148
+transactional,binary,clientas_banco,Miscellaneous/Trade Associations/Professional & Management,0.0160795514651433,0.0143815505966303,0.0179743758196114
+transactional,binary,clientes_banco,Motor/Breakdown Insurance/Other,0.104202738863529,0.0999442961455032,0.108620728880366
+transactional,binary,clientas_banco,Motor/Breakdown Insurance/Other,0.0964244155294615,0.092298136955264,0.100714695504141
+transactional,binary,clientes_banco,Motor/Other/DVLA,0.449866204942547,0.442814022407705,0.456938594326175
+transactional,binary,clientas_banco,Motor/Other/DVLA,0.408600444303396,0.401612357009068,0.415625669109235
+transactional,binary,clientes_banco,Motor/Other/Electric Vehicle Charging,0.0167899679941235,0.0150600065677502,0.0187148762733405
+transactional,binary,clientas_banco,Motor/Other/Electric Vehicle Charging,0.0142811805775944,0.0126849982637539,0.0160749440041107
+transactional,binary,clientes_banco,Motor/Other/Other,0.008499921297025,0.007290904256078,0.0099074231750234
+transactional,binary,clientas_banco,Motor/Other/Other,0.0061885115836242,0.005165292018009,0.0074129156742043
+transactional,binary,clientes_banco,Motor/Parking/Tolls/Parking,0.559105934204313,0.55204573102256,0.566142314234525
+transactional,binary,clientas_banco,Motor/Parking/Tolls/Parking,0.54506505871152,0.537958194926401,0.552153611672978
+transactional,binary,clientes_banco,Motor/Parking/Tolls/TFL,0.0356262133375308,0.033086281677913,0.0383533935636456
+transactional,binary,clientas_banco,Motor/Parking/Tolls/TFL,0.0249127261186925,0.0227849837617924,0.0272336271962052
+transactional,binary,clientes_banco,Motor/Parking/Tolls/Tolls,0.152683771446561,0.147647045239855,0.157860495059904
+transactional,binary,clientas_banco,Motor/Parking/Tolls/Tolls,0.129535597164921,0.124823898919288,0.134397834739725
+transactional,binary,clientes_banco,Motor/Petrol/Other,0.666981478566556,0.660257192788749,0.673638460529978
+transactional,binary,clientas_banco,Motor/Petrol/Other,0.63873902464826,0.63186390640334,0.645557770199376
+transactional,binary,clientes_banco,Motor/Petrol/Supermarket,0.596935830841073,0.589952883935829,0.603879706866569
+transactional,binary,clientas_banco,Motor/Petrol/Supermarket,0.565270284565746,0.558191284908547,0.572322763600421
+transactional,binary,clientes_banco,"Motor/Purchase, Maintenance and Repair/Dealer",0.15682879479511,0.151735082940711,0.162060832877418
+transactional,binary,clientas_banco,"Motor/Purchase, Maintenance and Repair/Dealer",0.123558658626891,0.118943836310689,0.12832644996602
+transactional,binary,clientes_banco,"Motor/Purchase, Maintenance and Repair/Other",0.348601710477989,0.341867299546688,0.355397144138472
+transactional,binary,clientas_banco,"Motor/Purchase, Maintenance and Repair/Other",0.297471702105152,0.290996787327927,0.304028909179029
+transactional,binary,clientes_banco,"Motor/Purchase, Maintenance and Repair/Parts",0.289154730048796,0.282760953397994,0.295633490839989
+transactional,binary,clientas_banco,"Motor/Purchase, Maintenance and Repair/Parts",0.223209563101661,0.217330353969512,0.229201240959271
+transactional,binary,clientes_banco,"Motor/Purchase, Maintenance and Repair/Tyres",0.104412613463456,0.100150273331256,0.108834416242308
+transactional,binary,clientas_banco,"Motor/Purchase, Maintenance and Repair/Tyres",0.0804506505871152,0.0766578704736835,0.0844139292629409
+transactional,binary,clientes_banco,Overseas Transaction/Cash Withdrawl/Cash,0.0864683351697361,0.0825606511018357,0.0905427207873056
+transactional,binary,clientas_banco,Overseas Transaction/Cash Withdrawl/Cash,0.0789167460065588,0.0751581925089562,0.0828464221169853
+transactional,binary,clientes_banco,Overseas Transaction/Transaction Fee/Other,0.005614145548035,0.0046471327099107,0.0067810113416187
+transactional,binary,clientas_banco,Overseas Transaction/Transaction Fee/Other,0.0042843541732783,0.0034472210514701,0.0053236931145041
+transactional,binary,clientes_banco,Payroll/Civil Service/Council,0.103782989663676,0.0995323582178549,0.108193337713417
+transactional,binary,clientas_banco,Payroll/Civil Service/Council,0.114937057018936,0.11046832814374,0.119562259931238
+transactional,binary,clientes_banco,Payroll/Civil Service/Government,0.0123301327456845,0.0108578260436554,0.0139992567388136
+transactional,binary,clientas_banco,Payroll/Civil Service/Government,0.011583624246271,0.0101535388098899,0.0132124429384512
+transactional,binary,clientes_banco,Payroll/Finance/Insurance,0.0070307990975392,0.0059386756468154,0.0083220828281409
+transactional,binary,clientas_banco,Payroll/Finance/Insurance,0.0062414048450227,0.0052134620259814,0.0074705059790496
+transactional,binary,clientes_banco,Payroll/Finance/Other,0.0209349913426728,0.0189961421546955,0.0230670768607212
+transactional,binary,clientas_banco,Payroll/Finance/Other,0.0180894953982863,0.0162844955960401,0.020090478272288
+transactional,binary,clientes_banco,Payroll/Medical/NHS,0.0391416128863004,0.0364793610720905,0.0419896879047654
+transactional,binary,clientas_banco,Payroll/Medical/NHS,0.0518353961705279,0.0487648168353237,0.0550881239336158
+transactional,binary,clientes_banco,Payroll/Medical/Other,0.0091295450968046,0.007873598212145,0.0105836955594808
+transactional,binary,clientas_banco,Payroll/Medical/Other,0.009996826404316,0.0086739014099996,0.0115191765476748
+transactional,binary,clientes_banco,Payroll/Other/Care,0.0190985885933155,0.0172493184625315,0.0211418507413008
+transactional,binary,clientas_banco,Payroll/Other/Care,0.024119327197715,0.0220264660044128,0.0264056740095397
+transactional,binary,clientes_banco,Payroll/Other/Charity & Religion,0.0112807597460517,0.0098758238939077,0.0128829613825026
+transactional,binary,clientas_banco,Payroll/Other/Charity & Religion,0.011160478155083,0.0097581918740927,0.0127616808840242
+transactional,binary,clientes_banco,Payroll/Other/Cleaning & Refuse,0.0041450233485492,0.0033259619339278,0.0051647440681663
+transactional,binary,clientas_banco,Payroll/Other/Cleaning & Refuse,0.0050777530942557,0.0041588733241132,0.00619839054268
+transactional,binary,clientes_banco,Payroll/Other/Communication,0.0047221784983472,0.0038422804057523,0.0058024031950074
+transactional,binary,clientas_banco,Payroll/Other/Communication,0.0041256743890828,0.0033057752683224,0.0051478747725503
+transactional,binary,clientes_banco,Payroll/Other/Computing & Technology,0.0185214334435175,0.0167012471037514,0.0205358499393658
+transactional,binary,clientas_banco,Payroll/Other/Computing & Technology,0.0145985401459854,0.0129839252945279,0.0164106019284644
+transactional,binary,clientes_banco,Payroll/Other/Food & Drink,0.0195183377931686,0.0176482052080835,0.0215822894088549
+transactional,binary,clientas_banco,Payroll/Other/Food & Drink,0.0183010684438802,0.016485175904446,0.0203128558944164
+transactional,binary,clientes_banco,Payroll/Other/Industry,0.0056666141980166,0.0046947014012112,0.0068383532090918
+transactional,binary,clientas_banco,Payroll/Other/Industry,0.0051306463556542,0.0042065523817893,0.0062564695167707
+transactional,binary,clientes_banco,Payroll/Other/Leisure,0.0107560732462354,0.009386030952765,0.0123236074419975
+transactional,binary,clientas_banco,Payroll/Other/Leisure,0.0098381466201206,0.0085264024822095,0.0113493859341152
+transactional,binary,clientes_banco,Payroll/Other/Manufacturing,0.0179442782937195,0.0161536557969374,0.0199293694410293
+transactional,binary,clientas_banco,Payroll/Other/Manufacturing,0.01232412990585,0.0108466234510471,0.0140000508933805
+transactional,binary,clientes_banco,Payroll/Other/Media,0.0059289574479248,0.0049328798986842,0.0071247289924371
+transactional,binary,clientas_banco,Payroll/Other/Media,0.0068761239818047,0.0057930033015668,0.0081600941264708
+transactional,binary,clientes_banco,"Payroll/Other/Oil, Mining & Chemicals",0.0109134791961803,0.0095328789648826,0.0124915033463627
+transactional,binary,clientas_banco,"Payroll/Other/Oil, Mining & Chemicals",0.0086744948693536,0.0074477219658048,0.0101012826966114
+transactional,binary,clientes_banco,Payroll/Other/Other,0.299595991395141,0.293133250628735,0.30613950767021
+transactional,binary,clientas_banco,Payroll/Other/Other,0.292552628795092,0.286110219729494,0.299079328965996
+transactional,binary,clientes_banco,Payroll/Other/Property,0.0107560732462354,0.009386030952765,0.0123236074419975
+transactional,binary,clientas_banco,Payroll/Other/Property,0.0108960118480906,0.0095113753395265,0.0124796797444757
+transactional,binary,clientes_banco,Payroll/Other/Recruitment,0.0243979222414607,0.0223008445036022,0.0266868176714505
+transactional,binary,clientas_banco,Payroll/Other/Recruitment,0.0191473606262562,0.0172885452509549,0.0212017187562815
+transactional,binary,clientes_banco,Payroll/Other/Tourism,0.0059814260979065,0.0049805805487457,0.007181939477648
+transactional,binary,clientas_banco,Payroll/Other/Tourism,0.0064000846292182,0.0053580917465817,0.0076431576654652
+transactional,binary,clientes_banco,Payroll/Other/Utilities,0.0114381656959966,0.0100229248549494,0.0130506047482173
+transactional,binary,clientas_banco,Payroll/Other/Utilities,0.0105257590183011,0.0091662051238673,0.0120845058489657
+transactional,binary,clientes_banco,Payroll/Professional/Accountancy,0.0041450233485492,0.0033259619339278,0.0051647440681663
+transactional,binary,clientas_banco,Payroll/Professional/Accountancy,0.0041256743890828,0.0033057752683224,0.0051478747725503
+transactional,binary,clientes_banco,Payroll/Professional/Consultancy,0.0041450233485492,0.0033259619339278,0.0051647440681663
+transactional,binary,clientas_banco,Payroll/Professional/Consultancy,0.0037554215592933,0.0029770670337694,0.004736310245597
+transactional,binary,clientes_banco,Payroll/Professional/Education,0.0398761739860433,0.037189147808832,0.0427487257207002
+transactional,binary,clientas_banco,Payroll/Professional/Education,0.0492965196234,0.0463006293074321,0.052475593320044
+transactional,binary,clientes_banco,Payroll/Professional/Engineering,0.0056666141980166,0.0046947014012112,0.0068383532090918
+transactional,binary,clientas_banco,Payroll/Professional/Engineering,0.0041256743890828,0.0033057752683224,0.0051478747725503
+transactional,binary,clientes_banco,Payroll/Professional/Legal,0.0028857757489899,0.0022162163179354,0.0037568596657413
+transactional,binary,clientas_banco,Payroll/Professional/Legal,0.0034380619909023,0.0026969694449777,0.0043819024893778
+transactional,binary,clientes_banco,Payroll/Professional/Other,0.006768455847631,0.0056984686690946,0.008037727731481
+transactional,binary,clientas_banco,Payroll/Professional/Other,0.0066116576748122,0.0055512016923639,0.0078730906189735
+transactional,binary,clientes_banco,Payroll/Retail/Clothes,0.0047746471483288,0.0038894075727023,0.005860184284018
+transactional,binary,clientas_banco,Payroll/Retail/Clothes,0.0069290172432032,0.0058414167363212,0.0082174418988614
+transactional,binary,clientes_banco,Payroll/Retail/Food & Drink,0.0121202581457579,0.0106611824538575,0.0137762404731314
+transactional,binary,clientas_banco,Payroll/Retail/Food & Drink,0.0118480905532635,0.0104008948395916,0.0134939054366537
+transactional,binary,clientes_banco,Payroll/Retail/Hardware,0.0113332283960334,0.0099248493952551,0.0129388506439767
+transactional,binary,clientas_banco,Payroll/Retail/Hardware,0.0089918544377446,0.0077413597030512,0.0104422211404689
+transactional,binary,clientes_banco,Payroll/Retail/Hotel,0.0045123038984206,0.0036540743595966,0.0055709780566403
+transactional,binary,clientas_banco,Payroll/Retail/Hotel,0.0051835396170527,0.0042542583033423,0.0063145217700432
+transactional,binary,clientes_banco,Payroll/Retail/Other,0.0190985885933155,0.0172493184625315,0.0211418507413008
+transactional,binary,clientas_banco,Payroll/Retail/Other,0.0229027821855496,0.0208646180926189,0.0251349337520181
+transactional,binary,clientes_banco,Payroll/Retail/Restaurant,0.0071882050474841,0.0060829997774328,0.0084924965976673
+transactional,binary,clientas_banco,Payroll/Retail/Restaurant,0.0093621072675341,0.0080844694934113,0.0108394514297456
+transactional,binary,clientes_banco,Payroll/Retail/Supermarket,0.0214072091925075,0.0194460038568653,0.0235614569701137
+transactional,binary,clientas_banco,Payroll/Retail/Supermarket,0.0220035967417751,0.0200068631338169,0.024194689298323
+transactional,binary,clientes_banco,Payroll/Trade & Construction/Cleaning & Refuse,0.0043024292984941,0.0034663778223798,0.005339046675751
+transactional,binary,clientas_banco,Payroll/Trade & Construction/Cleaning & Refuse,0.0034909552523008,0.0027435372783592,0.0044410844734169
+transactional,binary,clientes_banco,Payroll/Trade & Construction/Construction,0.0103887926963639,0.0090436975404469,0.0119315389182821
+transactional,binary,clientas_banco,Payroll/Trade & Construction/Construction,0.0059769385380302,0.0049728183037071,0.0071823489735233
+transactional,binary,clientes_banco,Payroll/Trade & Construction/Other,0.0069258617975759,0.005842541940932,0.0082083915341797
+transactional,binary,clientas_banco,Payroll/Trade & Construction/Other,0.0041785676504813,0.0033528877231979,0.0052065167642483
+transactional,binary,clientes_banco,Payroll/Trade & Construction/Skilled,0.0045647725484023,0.0037010794605105,0.0056288804632557
+transactional,binary,clientas_banco,Payroll/Trade & Construction/Skilled,0.0027504495927218,0.0020964539307415,0.0036077237609373
+transactional,binary,clientes_banco,Payroll/Transport/Aviation,0.009654231596621,0.0083604217227938,0.0111460134077657
+transactional,binary,clientas_banco,Payroll/Transport/Aviation,0.0087273881307521,0.0074966312995684,0.0101581359888664
+transactional,binary,clientes_banco,Payroll/Transport/Motor,0.0200954929429666,0.0181970568566738,0.0221875104634708
+transactional,binary,clientas_banco,Payroll/Transport/Motor,0.0135406749180154,0.0119883446095336,0.0152909003853591
+transactional,binary,clientes_banco,Payroll/Transport/Other,0.0076604228973188,0.00651681854521,0.0090028941363673
+transactional,binary,clientas_banco,Payroll/Transport/Other,0.0062942981064212,0.0052616521486337,0.0075280762486227
+transactional,binary,clientes_banco,Payroll/Transport/Rail,0.0066110498976861,0.0055545528368698,0.0078669070318783
+transactional,binary,clientas_banco,Payroll/Transport/Rail,0.0057653654924362,0.0047806877968642,0.0069514405140559
+transactional,binary,clientes_banco,Payroll/Uniformed Services/Police,0.0061388320478514,0.0051238073935755,0.0073534465538662
+transactional,binary,clientas_banco,Payroll/Uniformed Services/Police,0.0047075002644663,0.0038259082958535,0.005791053759861
+transactional,binary,clientes_banco,Pension/Annuity/Other,0.0142190041450233,0.0126324963246385,0.0160015314802571
+transactional,binary,clientas_banco,Pension/Annuity/Other,0.0150745794985719,0.0134327013829537,0.0169137036865887
+transactional,binary,clientes_banco,Pension/Council/Other,0.0109659478461619,0.0095818456619273,0.0125474513171482
+transactional,binary,clientas_banco,Pension/Council/Other,0.0142811805775944,0.0126849982637539,0.0160749440041107
+transactional,binary,clientes_banco,Pension/Government/Other,0.0288577574898998,0.0265737065983396,0.031331807158763
+transactional,binary,clientas_banco,Pension/Government/Other,0.0282978948481963,0.0260276496698194,0.0307599068458824
+transactional,binary,clientes_banco,Pension/Other/Other,0.248281651713101,0.242199161258399,0.254465601614807
+transactional,binary,clientas_banco,Pension/Other/Other,0.24965619380091,0.243537698437973,0.255876411046106
+transactional,binary,clientes_banco,Retail/Books & Periodicals/Books,0.124403169106459,0.119792761999039,0.129164976750289
+transactional,binary,clientas_banco,Retail/Books & Periodicals/Books,0.136411721146726,0.131592718851815,0.141378467686674
+transactional,binary,clientes_banco,Retail/Books & Periodicals/Newsagents,0.437955821396715,0.430925123016985,0.445011527214948
+transactional,binary,clientas_banco,Retail/Books & Periodicals/Newsagents,0.449010896011848,0.441931692793242,0.456110817113999
+transactional,binary,clientes_banco,Retail/Books & Periodicals/Other,0.194134004932053,0.188580180099387,0.1998111165008
+transactional,binary,clientas_banco,Retail/Books & Periodicals/Other,0.2042208822596,0.198534561574306,0.210027388158117
+transactional,binary,clientes_banco,Retail/Books & Periodicals/Print & Photocopying,0.0674746838763839,0.0639994645520051,0.071124270876258
+transactional,binary,clientas_banco,Retail/Books & Periodicals/Print & Photocopying,0.0734687400825135,0.0698352860896828,0.0772755334234946
+transactional,binary,clientes_banco,Retail/Catalogues/Other,0.150847368697203,0.145836305380799,0.155999169826115
+transactional,binary,clientas_banco,Retail/Catalogues/Other,0.186131386861314,0.180647057977191,0.191743252309012
+transactional,binary,clientes_banco,Retail/Catalogues/Subscriptions,0.103520646413768,0.0992749081892028,0.107926207058485
+transactional,binary,clientas_banco,Retail/Catalogues/Subscriptions,0.106368348672379,0.102052909359524,0.110843745868038
+transactional,binary,clientes_banco,Retail/Clothing/Adult,0.598404953040558,0.591425862941478,0.605344380113348
+transactional,binary,clientas_banco,Retail/Clothing/Adult,0.683486723791389,0.676819820532802,0.690079072024805
+transactional,binary,clientes_banco,Retail/Clothing/Children,0.0950207251167427,0.0909383707799484,0.0992663305662167
+transactional,binary,clientas_banco,Retail/Clothing/Children,0.116576748122289,0.112079629752448,0.121229673907722
+transactional,binary,clientes_banco,Retail/Clothing/Family,0.603861692638648,0.596897497862748,0.610784024985407
+transactional,binary,clientas_banco,Retail/Clothing/Family,0.688934729715434,0.682297872242348,0.695494818451935
+transactional,binary,clientes_banco,Retail/Clothing/Men,0.140878325200693,0.136011232625139,0.14589017505702
+transactional,binary,clientas_banco,Retail/Clothing/Men,0.122606579921718,0.118007513151021,0.127359002757735
+transactional,binary,clientes_banco,Retail/Clothing/Other,0.548507266908023,0.541432917114057,0.555562065439946
+transactional,binary,clientas_banco,Retail/Clothing/Other,0.633714164815403,0.626819792134809,0.640554206535923
+transactional,binary,clientes_banco,Retail/Clothing/Repair,0.0316385959389265,0.0292458116352583,0.0342202479339825
+transactional,binary,clientas_banco,Retail/Clothing/Repair,0.0364963503649635,0.0339155191263085,0.0392655901141077
+transactional,binary,clientes_banco,Retail/Clothing/Shoes,0.346712839078651,0.339987384282769,0.353500077945508
+transactional,binary,clientas_banco,Retail/Clothing/Shoes,0.405691314926478,0.398711653245738,0.412709296163596
+transactional,binary,clientes_banco,Retail/Clothing/Sport,0.447557584343355,0.440509245757459,0.454627060288407
+transactional,binary,clientas_banco,Retail/Clothing/Sport,0.451443986036179,0.444360820003717,0.458546881338166
+transactional,binary,clientes_banco,Retail/Clothing/Women,0.381709428616402,0.374836667123737,0.388629868278546
+transactional,binary,clientas_banco,Retail/Clothing/Women,0.523854860890723,0.516731421724991,0.530968607359075
+transactional,binary,clientes_banco,Retail/Department/Online Stores/Online,0.668135788866152,0.661417097283836,0.67478671136704
+transactional,binary,clientas_banco,Retail/Department/Online Stores/Online,0.672061779329313,0.66533526309409,0.678718382867192
+transactional,binary,clientes_banco,Retail/Department/Online Stores/Other,0.620809066582717,0.613896920793175,0.627672519089842
+transactional,binary,clientas_banco,Retail/Department/Online Stores/Other,0.672273352374908,0.66554789886272,0.678928807220929
+transactional,binary,clientes_banco,Retail/Department/Online Stores/TV Spend,0.0174195917939031,0.0156562812691431,0.0193775881206226
+transactional,binary,clientas_banco,Retail/Department/Online Stores/TV Spend,0.02359039458373,0.0215211294785026,0.025853363409249
+transactional,binary,clientes_banco,Retail/Digital Goods/Audiovisual inc Books Movies Music,0.491631250327929,0.484535884032703,0.498729989716032
+transactional,binary,clientas_banco,Retail/Digital Goods/Audiovisual inc Books Movies Music,0.485242780069819,0.478122175817822,0.492369380468846
+transactional,binary,clientes_banco,Retail/Digital Goods/Games,0.219214019623275,0.213397122407809,0.225144093420001
+transactional,binary,clientas_banco,Retail/Digital Goods/Games,0.173384110864276,0.168053882780808,0.178847056051458
+transactional,binary,clientes_banco,Retail/Digital Goods/Multi-Category,0.295765779946482,0.289327863724042,0.302286015544414
+transactional,binary,clientas_banco,Retail/Digital Goods/Multi-Category,0.295461758172009,0.28900001554815,0.302006609809311
+transactional,binary,clientes_banco,Retail/Digital Goods/Software Apps exc Games,0.0468020357836193,0.0438931194224711,0.0498936737767869
+transactional,binary,clientas_banco,Retail/Digital Goods/Software Apps exc Games,0.0428435417327832,0.0400480802478437,0.0458248189266647
+transactional,binary,clientes_banco,Retail/Electrical/Computing,0.462616086888084,0.455545436263942,0.469701805409009
+transactional,binary,clientas_banco,Retail/Electrical/Computing,0.462287104622871,0.455188355664931,0.469401177072699
+transactional,binary,clientes_banco,Retail/Electrical/Equipment,0.0398237053360617,0.0371384402182938,0.0426945172698122
+transactional,binary,clientas_banco,Retail/Electrical/Equipment,0.0295673331217603,0.0272460419864594,0.0320798700889412
+transactional,binary,clientes_banco,Retail/Electrical/Other,0.364552180072407,0.35774676235279,0.37141219143101
+transactional,binary,clientas_banco,Retail/Electrical/Other,0.353750132233154,0.346964734141299,0.36059495487912
+transactional,binary,clientes_banco,Retail/Food & Drink/Alcohol,0.235164489217692,0.229196961417961,0.24123876392614
+transactional,binary,clientas_banco,Retail/Food & Drink/Alcohol,0.212948270390352,0.207170976923856,0.218842202463819
+transactional,binary,clientes_banco,Retail/Food & Drink/Other,0.816464662364237,0.810905013345716,0.821896751993113
+transactional,binary,clientas_banco,Retail/Food & Drink/Other,0.821432349518671,0.815907610851937,0.82682647771453
+transactional,binary,clientes_banco,Retail/Food & Drink/Tobacco,0.116008185109397,0.111538617534829,0.120632538665294
+transactional,binary,clientas_banco,Retail/Food & Drink/Tobacco,0.110652702845657,0.106259559875002,0.115204061729686
+transactional,binary,clientes_banco,Retail/Furniture/Other,0.555695471955507,0.54863036243273,0.562738132945101
+transactional,binary,clientas_banco,Retail/Furniture/Other,0.61409076483656,0.607128840720234,0.621006331474444
+transactional,binary,clientes_banco,Retail/Garden/Other,0.35248439057663,0.345731936701467,0.359296302202124
+transactional,binary,clientas_banco,Retail/Garden/Other,0.389241510631546,0.382314309824746,0.396213714933015
+transactional,binary,clientes_banco,Retail/Hardware/Building Supplies,0.0431292302849048,0.0403354665529365,0.0461072020765398
+transactional,binary,clientas_banco,Retail/Hardware/Building Supplies,0.0311541309637152,0.028770681021987,0.0337281761013859
+transactional,binary,clientes_banco,Retail/Hardware/Other,0.661734613568393,0.654985467050673,0.668418571119265
+transactional,binary,clientas_banco,Retail/Hardware/Other,0.656828520046546,0.65002949203244,0.663563825099161
+transactional,binary,clientes_banco,Retail/Health & Beauty/Beauty,0.563985518652605,0.556932921880739,0.571012325510456
+transactional,binary,clientas_banco,Retail/Health & Beauty/Beauty,0.649793716280546,0.642963824826643,0.656562743215572
+transactional,binary,clientes_banco,Retail/Health & Beauty/Health,0.739073403641324,0.732790902100881,0.745259542778085
+transactional,binary,clientas_banco,Retail/Health & Beauty/Health,0.797207235798159,0.791415425129951,0.802878280893838
+transactional,binary,clientes_banco,Retail/Other/Accessories,0.0511044650821134,0.0480670770551614,0.0543228346232556
+transactional,binary,clientas_banco,Retail/Other/Accessories,0.0680207341584682,0.064518336277464,0.0716986886404758
+transactional,binary,clientes_banco,Retail/Other/Animal,0.305105199643213,0.298607700409008,0.31168125376164
+transactional,binary,clientas_banco,Retail/Other/Animal,0.335501957050672,0.328805294448694,0.342265458969602
+transactional,binary,clientes_banco,Retail/Other/Art & Antiques,0.204837609528307,0.199167382950561,0.210626807989324
+transactional,binary,clientas_banco,Retail/Other/Art & Antiques,0.240241193271977,0.234204178702476,0.246383755559967
+transactional,binary,clientes_banco,Retail/Other/Discount,0.62762999108033,0.620741299536697,0.634467240074236
+transactional,binary,clientas_banco,Retail/Other/Discount,0.687929757748863,0.68128727813688,0.694495876979245
+transactional,binary,clientes_banco,Retail/Other/Duty Free,0.15137205519702,0.146353633173223,0.156531003488125
+transactional,binary,clientas_banco,Retail/Other/Duty Free,0.151433407383899,0.146394139835273,0.156614313414809
+transactional,binary,clientes_banco,Retail/Other/Florist,0.181279185686552,0.175873881691396,0.186812958611632
+transactional,binary,clientas_banco,Retail/Other/Florist,0.203797736168412,0.198115929985513,0.209599899522677
+transactional,binary,clientes_banco,Retail/Other/Gifts,0.0567186106301485,0.0535227308687472,0.0600932026532829
+transactional,binary,clientas_banco,Retail/Other/Gifts,0.0625727282344229,0.05920801542511,0.0661152155503828
+transactional,binary,clientes_banco,Retail/Other/Jewellery,0.262185843958235,0.255989755054822,0.268477787679299
+transactional,binary,clientas_banco,Retail/Other/Jewellery,0.300327938220671,0.293834564028812,0.30690244411331
+transactional,binary,clientes_banco,Retail/Other/Other,0.779841544677056,0.773902587071905,0.785667706409364
+transactional,binary,clientas_banco,Retail/Other/Other,0.814503332275468,0.808898643024448,0.819980227015076
+transactional,binary,clientes_banco,Retail/Other/Records,0.31848470538853,0.311907353085496,0.325135219657519
+transactional,binary,clientas_banco,Retail/Other/Records,0.322913360837829,0.316284456798193,0.32961421933642
+transactional,binary,clientes_banco,Retail/Other/Stationery,0.43522745159767,0.428202253613797,0.442278756715409
+transactional,binary,clientas_banco,Retail/Other/Stationery,0.516449804294933,0.509323613067288,0.523569311645327
+transactional,binary,clientes_banco,Retail/Other/Toys & Games,0.297287370795949,0.290839527557383,0.303816920092631
+transactional,binary,clientas_banco,Retail/Other/Toys & Games,0.315561197503438,0.308974410665769,0.322222926228039
+transactional,binary,clientes_banco,Retail/Restaurant/Bars,0.636182381027336,0.629325164000468,0.64298470833937
+transactional,binary,clientas_banco,Retail/Restaurant/Bars,0.615889135724109,0.608932901994954,0.622798281253009
+transactional,binary,clientes_banco,Retail/Restaurant/Fast food,0.785665564825017,0.779782107211257,0.791433878854925
+transactional,binary,clientas_banco,Retail/Restaurant/Fast food,0.789167460065588,0.783294352227861,0.79492306951816
+transactional,binary,clientes_banco,Retail/Restaurant/Other,0.83131329030904,0.825929876659231,0.836563158413432
+transactional,binary,clientas_banco,Retail/Restaurant/Other,0.839257378609965,0.833952662132399,0.84442424022487
+transactional,binary,clientes_banco,Retail/Supermarket/Discount,0.655595781520542,0.648818718027392,0.662310130413184
+transactional,binary,clientas_banco,Retail/Supermarket/Discount,0.68697767904369,0.680329906559168,0.693549478009037
+transactional,binary,clientes_banco,Retail/Supermarket/Mid Range,0.880791227241723,0.876113608873498,0.88531535036212
+transactional,binary,clientas_banco,Retail/Supermarket/Mid Range,0.889400190415741,0.884849756198235,0.893792387214668
+transactional,binary,clientes_banco,Retail/Supermarket/Other,0.722808122147017,0.716408665028183,0.729117773140287
+transactional,binary,clientas_banco,Retail/Supermarket/Other,0.72500793398921,0.718597706596187,0.731326734691987
+transactional,binary,clientes_banco,Retail/Supermarket/Top End,0.571541004249961,0.564501552998401,0.57855162027577
+transactional,binary,clientas_banco,Retail/Supermarket/Top End,0.62853062519835,0.621617232776007,0.635391792867165
+transactional,binary,clientes_banco,Retail/Supermarket/Value,0.681620231911433,0.674970276922516,0.688196982637136
+transactional,binary,clientas_banco,Retail/Supermarket/Value,0.693589336718502,0.686978993102143,0.700121020267154
+transactional,binary,clientes_banco,Retail/Supermarket/Wholesale,0.0344194343879532,0.0319230309220519,0.0371035761257944
+transactional,binary,clientas_banco,Retail/Supermarket/Wholesale,0.0302549455199408,0.0279065010851736,0.0327943537680031
+transactional,binary,clientes_banco,Services/Credit/Other,0.0203053675428931,0.0183967458151466,0.0224074843764176
+transactional,binary,clientas_banco,Services/Credit/Other,0.0160266582037448,0.0143315648371758,0.0179185972530226
+transactional,binary,clientes_banco,Services/Education/Business & Vocational,0.0162128128443255,0.0145140002401179,0.0181068120956762
+transactional,binary,clientas_banco,Services/Education/Business & Vocational,0.0181423886596848,0.016334659433769,0.0201460789123816
+transactional,binary,clientes_banco,Services/Education/College/University,0.0835825594207461,0.079736375699427,0.0875966091121576
+transactional,binary,clientas_banco,Services/Education/College/University,0.0931979265841532,0.0891358804982712,0.0974252862156705
+transactional,binary,clientes_banco,Services/Education/Nursery,0.0054567395980901,0.00450456625219,0.0066088467693332
+transactional,binary,clientas_banco,Services/Education/Nursery,0.0077224161641806,0.0065695850740027,0.0090756979621224
+transactional,binary,clientes_banco,Services/Education/Other,0.0141665354950417,0.0125830900871002,0.0159460224468067
+transactional,binary,clientas_banco,Services/Education/Other,0.0126943827356395,0.0111937157299272,0.0143933056942866
+transactional,binary,clientes_banco,Services/Education/School,0.209769662626581,0.204047903483544,0.215608405467171
+transactional,binary,clientas_banco,Services/Education/School,0.244790013752248,0.238713136274639,0.250970590505608
+transactional,binary,clientes_banco,Services/Health/Care,0.0141140668450601,0.0125336897306192,0.0158905075388619
+transactional,binary,clientas_banco,Services/Health/Care,0.0180894953982863,0.0162844955960401,0.020090478272288
+transactional,binary,clientes_banco,Services/Health/Chiropodist,0.0145862846948948,0.0129785020121201,0.0163899328675062
+transactional,binary,clientas_banco,Services/Health/Chiropodist,0.0170845234317148,0.0153321998753415,0.0190332495671739
+transactional,binary,clientes_banco,Services/Health/Chiropractor/Osteopath/Massage,0.033002780838449,0.0305585648414724,0.0356353102899153
+transactional,binary,clientas_banco,Services/Health/Chiropractor/Osteopath/Massage,0.0380831482069184,0.0354468148385129,0.0409072414489816
+transactional,binary,clientes_banco,Services/Health/Counselling,0.0055092082480717,0.0045520648097711,0.006666258444287
+transactional,binary,clientas_banco,Services/Health/Counselling,0.0055008991854437,0.0045410360582294,0.0066622958369613
+transactional,binary,clientes_banco,Services/Health/Dental,0.348391835878063,0.341658414287952,0.355186364790864
+transactional,binary,clientas_banco,Services/Health/Dental,0.371363588278853,0.364502843246202,0.378276601048811
+transactional,binary,clientes_banco,Services/Health/Doctor,0.0385644577365024,0.035921854896607,0.0413931176885849
+transactional,binary,clientas_banco,Services/Health/Doctor,0.0445890193589337,0.0417377307458995,0.0476254113575271
+transactional,binary,clientes_banco,Services/Health/NHS Prescriptions,0.0455952568340417,0.0427235878078029,0.048650135780496
+transactional,binary,clientas_banco,Services/Health/NHS Prescriptions,0.0509891039881519,0.0479431797496233,0.0542175216010107
+transactional,binary,clientes_banco,Services/Health/Optician,0.275880161603442,0.269580075367191,0.282270582694208
+transactional,binary,clientas_banco,Services/Health/Optician,0.306516449804295,0.299984111972843,0.313127404718604
+transactional,binary,clientes_banco,Services/Health/Other,0.187260611784459,0.181784973933629,0.192862307237835
+transactional,binary,clientas_banco,Services/Health/Other,0.208346556648683,0.202616726295011,0.214194895631001
+transactional,binary,clientes_banco,Services/Online/E-Commerce,0.0040925546985676,0.0032792278979284,0.0051065724518622
+transactional,binary,clientas_banco,Services/Online/E-Commerce,0.0028562361155188,0.0021881915169298,0.0037274697063235
+transactional,binary,clientes_banco,Services/Other/Childcare,0.0140091295450968,0.0124349067899789,0.0157794599706345
+transactional,binary,clientas_banco,Services/Other/Childcare,0.0163969110335343,0.0146815689095122,0.0183089435587421
+transactional,binary,clientes_banco,Services/Other/Courier,0.0156356576945275,0.0139685776500828,0.0174981647107671
+transactional,binary,clientas_banco,Services/Other/Courier,0.0139638210092034,0.0123862847327812,0.0157390728182463
+transactional,binary,clientes_banco,Services/Other/Dating/Personal,0.202791332179023,0.197142869450442,0.20855959168189
+transactional,binary,clientas_banco,Services/Other/Dating/Personal,0.211678832116788,0.205914521012544,0.217560297694532
+transactional,binary,clientes_banco,Services/Other/Dieting,0.0064011752977595,0.005362919641017,0.0076388924321115
+transactional,binary,clientas_banco,Services/Other/Dieting,0.0108431185866921,0.0094620382874547,0.0124232533055863
+transactional,binary,clientes_banco,Services/Other/Freight Forwarding,0.0327929062385225,0.0303565258470159,0.0354176853277773
+transactional,binary,clientas_banco,Services/Other/Freight Forwarding,0.0326880355442717,0.0302461227086142,0.0353199151748634
+transactional,binary,clientes_banco,Services/Other/Laundry Services,0.0003148118998898,0.0001414393219417,0.0007005510969138
+transactional,binary,clientas_banco,Services/Other/Laundry Services,0.0005289326139849,0.0002846175764472,0.0009827609246339
+transactional,binary,clientes_banco,Services/Other/Other,0.103887926963639,0.0996353406397048,0.108300187565117
+transactional,binary,clientas_banco,Services/Other/Other,0.0979054268486195,0.0937501510409249,0.102224101787885
+transactional,binary,clientes_banco,Services/Other/Personal,0.003882680098641,0.0030926664457883,0.0048735141377975
+transactional,binary,clientas_banco,Services/Other/Personal,0.0049719665714588,0.0040635974671429,0.0060821507835804
+transactional,binary,clientes_banco,Services/Other/Post,0.491159032478094,0.484063876702495,0.498257751677837
+transactional,binary,clientas_banco,Services/Other/Post,0.520205225854226,0.513080234531703,0.527322007397954
+transactional,binary,clientes_banco,Services/Other/Public Administration,0.411091872606118,0.404124829250938,0.418094751185793
+transactional,binary,clientas_banco,Services/Other/Public Administration,0.419126203321697,0.412109745171058,0.426175522135226
+transactional,binary,clientes_banco,Services/Other/Transport,0.0741382024240516,0.0705034057708747,0.077944676612935
+transactional,binary,clientas_banco,Services/Other/Transport,0.0644768856447689,0.0610632486249502,0.0680675218963509
+transactional,binary,clientes_banco,Services/Professional/Accountancy,0.0206201794427829,0.0186963829801011,0.0227373415850908
+transactional,binary,clientas_banco,Services/Professional/Accountancy,0.0187771077964667,0.0169369458616694,0.0208129664621823
+transactional,binary,clientes_banco,Services/Professional/Business,0.292197911747731,0.285783612207123,0.298695968789552
+transactional,binary,clientas_banco,Services/Professional/Business,0.285041785676505,0.278650779745411,0.291520134669346
+transactional,binary,clientes_banco,Services/Professional/Facilities Management,0.0152683771446561,0.0136218089798438,0.0171105255187973
+transactional,binary,clientas_banco,Services/Professional/Facilities Management,0.0168729503861208,0.0151319215531855,0.0188104702854201
+transactional,binary,clientes_banco,Services/Professional/Freight/Boats,0.0025184951991185,0.0018984346315779,0.0033404001480988
+transactional,binary,clientas_banco,Services/Professional/Freight/Boats,0.0022215169787369,0.0016421482308171,0.0030046784817665
+transactional,binary,clientes_banco,Services/Professional/Fuel and Energy,0.0053518022981268,0.0044096416086537,0.0064939512965161
+transactional,binary,clientas_banco,Services/Professional/Fuel and Energy,0.0043901406960753,0.0035416945852442,0.0054407302432529
+transactional,binary,clientes_banco,Services/Professional/IT,0.0104412613463456,0.0090925749855456,0.0119875759874734
+transactional,binary,clientas_banco,Services/Professional/IT,0.0091505342219401,0.0078883383541679,0.0106125309446971
+transactional,binary,clientes_banco,Services/Professional/Legal,0.0809066582716827,0.077118745463128,0.0848635168717165
+transactional,binary,clientas_banco,Services/Professional/Legal,0.0747381783560774,0.0710750648572746,0.0785741146400919
+transactional,binary,clientes_banco,Services/Professional/Other,0.210451755076342,0.204722970486592,0.216297248403197
+transactional,binary,clientas_banco,Services/Professional/Other,0.212472231037766,0.206699796124997,0.21836149800732
+transactional,binary,clientes_banco,Services/Professional/PR & Advertising,0.10005771551498,0.0958773880600119,0.104399262204929
+transactional,binary,clientas_banco,Services/Professional/PR & Advertising,0.0883846397968899,0.0844212423970084,0.0925153083722596
+transactional,binary,clientes_banco,Services/Professional/Property,0.0408730783356944,0.0381528364788258,0.0437784418923682
+transactional,binary,clientas_banco,Services/Professional/Property,0.0370252829789485,0.0344258043221637,0.0398129538965344
+transactional,binary,clientes_banco,Services/Professional/Publishing/Media,0.0078702974972454,0.0067100123722258,0.0092293531219264
+transactional,binary,clientas_banco,Services/Professional/Publishing/Media,0.0086744948693536,0.0074477219658048,0.0101012826966114
+transactional,binary,clientes_banco,Services/Professional/Recruitment,0.0117529775958865,0.0103173429739887,0.0133856756150041
+transactional,binary,clientas_banco,Services/Professional/Recruitment,0.0102612927113086,0.008919932583343,0.0118019616586987
+transactional,binary,clientes_banco,Services/Professional/Vet/Animal,0.216013431974395,0.210228264727421,0.221913065985372
+transactional,binary,clientas_banco,Services/Professional/Vet/Animal,0.239976726964985,0.233942058903453,0.246117050212907
+transactional,binary,clientes_banco,Services/Trade & Construction/Agriculture,0.050160029382444,0.0471502894471613,0.0533511327195218
+transactional,binary,clientas_banco,Services/Trade & Construction/Agriculture,0.0454882048027081,0.0426086420920732,0.0485525040385778
+transactional,binary,clientes_banco,Services/Trade & Construction/Catering,0.35311401437641,0.346358680937726,0.359928551785256
+transactional,binary,clientas_banco,Services/Trade & Construction/Catering,0.345551676716386,0.338804778796586,0.352361330454659
+transactional,binary,clientes_banco,Services/Trade & Construction/Cleaning & Refuse,0.10582926701296,0.101540761473293,0.110276663803972
+transactional,binary,clientas_banco,Services/Trade & Construction/Cleaning & Refuse,0.0977996403258225,0.0936464258117849,0.102116296990097
+transactional,binary,clientes_banco,Services/Trade & Construction/Construction,0.157038669395036,0.151942106249542,0.162273474152614
+transactional,binary,clientas_banco,Services/Trade & Construction/Construction,0.138633238125463,0.133780471562385,0.143632845934667
+transactional,binary,clientes_banco,Services/Trade & Construction/Manufacturing,0.0003672805498714,0.0001751049297307,0.000770204201372
+transactional,binary,clientas_banco,Services/Trade & Construction/Manufacturing,0.0004760393525864,0.0002477083512042,0.0009146472741698
+transactional,binary,clientes_banco,Services/Trade & Construction/Other,0.058659950679469,0.0554114338464986,0.0620863953713719
+transactional,binary,clientas_banco,Services/Trade & Construction/Other,0.0527874748757008,0.0496894377649802,0.0560672723917664
+transactional,binary,clientes_banco,Services/Trade & Construction/Passenger Transport,0.04265701243507,0.039878453539402,0.0456199705794854
+transactional,binary,clientas_banco,Services/Trade & Construction/Passenger Transport,0.0428964349941817,0.0400992629875771,0.0458794011204128
+transactional,binary,clientes_banco,Services/Trade & Construction/Plumbing,0.0852090875701768,0.0813280728561701,0.0892573119333342
+transactional,binary,clientas_banco,Services/Trade & Construction/Plumbing,0.0803977573257167,0.0766061504493665,0.0843598842829137
+transactional,binary,clientes_banco,Services/Trade & Construction/Security,0.0098116375465659,0.0085066745669943,0.0113145033922724
+transactional,binary,clientas_banco,Services/Trade & Construction/Security,0.0095736803131281,0.0082807774919312,0.0110661954317261
+transactional,binary,clientes_banco,Services/Trade & Construction/Storage,0.0072406736974657,0.0061311400607537,0.0085492690498484
+transactional,binary,clientas_banco,Services/Trade & Construction/Storage,0.0048661800486618,0.0039684341762761,0.0059657990874651
+transactional,binary,clientes_banco,Travel/Agencies/Other,0.267012959756546,0.260779339956783,0.273340488632696
+transactional,binary,clientas_banco,Travel/Agencies/Other,0.270496138791918,0.264210940863525,0.276874590307004
+transactional,binary,clientes_banco,Travel/Airlines/Other,0.245553281914056,0.239494066314557,0.251715056746125
+transactional,binary,clientas_banco,Travel/Airlines/Other,0.239394901089601,0.233365406608864,0.245530287186231
+transactional,binary,clientes_banco,Travel/Car Rental/Other,0.0694160239257044,0.0658933414752455,0.0731122902208201
+transactional,binary,clientas_banco,Travel/Car Rental/Other,0.04823865439543,0.0452745422491862,0.0513863812588625
+transactional,binary,clientes_banco,Travel/Coach/Other,0.221417702922504,0.215579257654311,0.227368436453173
+transactional,binary,clientas_banco,Travel/Coach/Other,0.23135512535703,0.225398726491172,0.237420682882018
+transactional,binary,clientes_banco,Travel/Commuter/Other,0.280864683351697,0.274528612205429,0.287289080185187
+transactional,binary,clientas_banco,Travel/Commuter/Other,0.280757431503226,0.274396722174519,0.287207224805356
+transactional,binary,clientes_banco,Travel/Cruise Lines/Other,0.0305367542893121,0.0281864042148267,0.0330764199966158
+transactional,binary,clientas_banco,Travel/Cruise Lines/Other,0.0280334285412039,0.0257739732766265,0.0304847592236574
+transactional,binary,clientes_banco,Travel/Hotels/Holiday Camp,0.0229812686919566,0.0209473748388634,0.0252075597526066
+transactional,binary,clientas_banco,Travel/Hotels/Holiday Camp,0.0236432878451285,0.0215716505012363,0.0259086070926932
+transactional,binary,clientes_banco,Travel/Hotels/Other,0.478304213232594,0.471217222237876,0.485399948892232
+transactional,binary,clientas_banco,Travel/Hotels/Other,0.459642441552946,0.452547181005616,0.466754100171766
+transactional,binary,clientes_banco,Travel/Other/Other,0.0649037200272837,0.0614926657834298,0.0684901801220086
+transactional,binary,clientas_banco,Travel/Other/Other,0.0677033745900772,0.0642088082059127,0.0713736267542008
+transactional,binary,clientes_banco,Travel/Rail/Other,0.354425730625951,0.347664439456966,0.361245697056579
+transactional,binary,clientas_banco,Travel/Rail/Other,0.355918755950492,0.349123541732405,0.362772513551029
+transactional,binary,clientes_banco,Travel/Taxis/Other,0.319061860538328,0.312481206463242,0.325715443944473
+transactional,binary,clientas_banco,Travel/Taxis/Other,0.315455410980641,0.308869244060121,0.322116562772744
+transactional,binary,clientes_banco,Unclassified,0.951781310666876,0.948647217784039,0.954733255003312
+transactional,binary,clientas_banco,Unclassified,0.954776261504284,0.951720136892203,0.957647541697332
+transactional,binary,clientes_banco,Unclassified/BACS Credit/Other,0.0039876173986043,0.0031858707876245,0.0049901190879793
+transactional,binary,clientas_banco,Unclassified/BACS Credit/Other,0.0036496350364963,0.002883520979569,0.0046183528754745
+transactional,binary,clientes_banco,Unclassified/Chq/Sav Acc/Other,0.541948685660318,0.534867203028637,0.54901326052405
+transactional,binary,clientas_banco,Unclassified/Chq/Sav Acc/Other,0.550407278112768,0.543306630207594,0.557487444542117
+transactional,binary,clientes_banco,Unclassified/Direct Debit/Other,0.0130646938454274,0.0115469695235159,0.0147789239574943
+transactional,binary,clientas_banco,Unclassified/Direct Debit/Other,0.0135406749180154,0.0119883446095336,0.0152909003853591
+transactional,binary,clientes_banco,Unclassified/Other/Other,0.0065585812477045,0.0055066168325187,0.007809930986316
+transactional,binary,clientas_banco,Unclassified/Other/Other,0.0049719665714588,0.0040635974671429,0.0060821507835804
+transactional,binary,clientes_banco,Unclassified/Other/Other Bank Business Customer,0.017734403693793,0.0159546551096994,0.0197087077486077
+transactional,binary,clientas_banco,Unclassified/Other/Other Bank Business Customer,0.0187771077964667,0.0169369458616694,0.0208129664621823
+transactional,binary,clientes_banco,Unpaid Cheque,0.0,0.0,0.0001935317952078
+transactional,binary,clientas_banco,Unpaid Cheque,0.0,0.0,0.0001950978311764
+transactional,binary,clientes_banco,Unpaid DD,0.165433653392098,0.160225643867976,0.170776519954819
+transactional,binary,clientas_banco,Unpaid DD,0.166031947529885,0.160795393977,0.171404206226822

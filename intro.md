@@ -42,6 +42,19 @@ no «más de tres veces» todos; una sola carrera, sin réplicas.
 
 ---
 
+### El abuso financiero, visto desde los registros del banco
+
+**Psicología** · *Nature* · 5.428 mujeres que revelaron abuso financiero a un banco británico frente a 15.602
+clientas emparejadas: el último año, el 74,5 % pagó cargos por sobregiro (vs. 39,9 %)
+y su puntaje de crédito quedó 109 puntos abajo. 161 de 373 indicadores difieren, y
+88 ya lo hacían entre 7 y 3,5 años antes. ⚠️ La mediana del tamaño de efecto es 0,091:
+solo 4 diferencias son medianas o mayores; estudio observacional con estadísticos
+agregados (los registros individuales son confidenciales).
+
+[Ver notebook](papers/2026-09-23-abuso-financiero-registros-bancarios/notebook) · [Leer más](papers/2026-09-23-abuso-financiero-registros-bancarios/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-23-abuso-financiero-registros-bancarios/notebook.ipynb)
+
+---
+
 ### Le apretaron la tibia y el cerebro se recuperó
 
 **Neurociencia** · *Nature Neuroscience* · Comprimir la tibia una vez al día acorta de 8,46 s a 5,46 s lo que tarda un

@@ -1,0 +1,36 @@
+titulo: "El abuso financiero, visto desde los registros del banco"
+titulo_corto: "Abuso financiero en el banco"
+card_descripcion: |
+  5.428 mujeres que revelaron abuso financiero a un banco británico frente a 15.602
+  clientas emparejadas: el último año, el 74,5 % pagó cargos por sobregiro (vs. 39,9 %)
+  y su puntaje de crédito quedó 109 puntos abajo. 161 de 373 indicadores difieren, y
+  88 ya lo hacían entre 7 y 3,5 años antes. ⚠️ La mediana del tamaño de efecto es 0,091:
+  solo 4 diferencias son medianas o mayores; estudio observacional con estadísticos
+  agregados (los registros individuales son confidenciales).
+fecha: 2026-09-23
+categoria: psicología
+tags: [abuso financiero, violencia doméstica, registros bancarios, desigualdad económica, crédito, estudio observacional]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11049-7"
+    titulo: "Banking records reveal characteristics of financial abuse"
+    journal: Nature
+    autores: "Trendl et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "diferencias_373_indicadores.csv"
+    descripcion: "Muestra principal: 373 indicadores × 3 ventanas con medias ponderadas, IC 95 %, diferencia, estadístico, p ajustada (Benjamini-Hochberg) y tamaño de efecto aproximado (1.119 filas)"
+    fuente: "Supplementary Tables 3 y 7 del paper (MOESM3)"
+  - nombre: "sensibilidad_tres_muestras_ultimo_anio.csv"
+    descripcion: "Último año con tres grupos control: principal, emparejado por estrés financiero y por fin de relación (1.119 filas)"
+    fuente: "Supplementary Tables 3, 5 y 6 del paper (MOESM3)"
+  - nombre: "referencia_poblacion_banco.csv"
+    descripcion: "Medias descriptivas del último año para la clientela del banco (776 filas)"
+    fuente: "Supplementary Table 4 del paper (MOESM3)"
+  - nombre: "balance_emparejamiento.csv"
+    descripcion: "Balance de 12 covariables antes y después del emparejamiento (24 filas)"
+    fuente: "Supplementary Table 8 del paper (MOESM3)"
+estado: publicado
