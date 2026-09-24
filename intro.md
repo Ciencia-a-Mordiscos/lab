@@ -14,6 +14,20 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### ¿El núcleo interno de la Tierra alarga y acorta el día?
+
+**Geología** · *Nature* · La duración del día cambió 3,1 ms en su tendencia de décadas entre 1973 y 2019.
+Con los parámetros de la Fig. 1 del paper, el torque gravitacional del núcleo
+interno calca esa tendencia (r = 0,986; error 0,215 ms), mientras los torques
+electromagnético y topográfico van en sentido contrario. El MCMC replica los
+rangos del paper: Γ = 1,35×10¹⁹ N m (0,59–2,18). ⚠️ El paper lo *sugiere* y
+depende de los modelos de rotación del núcleo interno y de flujo; series de
+menos de un ciclo de ~70 años, sin p-values.
+
+[Ver notebook](papers/2026-09-23-torque-gravitacional-duracion-dia/notebook) · [Leer más](papers/2026-09-23-torque-gravitacional-duracion-dia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-23-torque-gravitacional-duracion-dia/notebook.ipynb)
+
+---
+
 ### Un robot de cuatro patas corrió una maratón con una sola batería
 
 **Tecnología** · *Nature* · RAIBO2, un cuadrúpedo de 43 a 45 kg, completó una maratón oficial en 4 h 19 min 52 s

@@ -1,0 +1,259 @@
+{
+  "version": "1.0",
+  "paper_id": 3051,
+  "doi": "10.1038/s41586-026-10999-2",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Con los parámetros de la Fig. 1, el torque gravitacional reproduce la forma de la tendencia lenta del día (r = 0,986)",
+      "supported": "yes",
+      "detail": "RMS 0,215 ms frente a 1,06 ms de la señal; una sola combinación de parámetros; series suaves y autocorrelacionadas, sin p-value",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Los torques electromagnético y topográfico, solos, van en sentido contrario al día medido",
+      "supported": "yes",
+      "detail": "r = −0,43 y −0,55: anticorrelación moderada, no espejo; ambos fallan más que predecir «sin cambio»",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "El torque gravitacional llega a su máximo en 1998, junto al máximo del torque requerido",
+      "supported": "yes",
+      "detail": "Requerido 1997,9; gravitacional 1998,0; el paper dice «alrededor del año 2000»",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "La inversión bayesiana ubica Γ entre 0,59 y 2,18 ×10¹⁹ N m con acoplamiento electromagnético",
+      "supported": "yes",
+      "detail": "MAP 1,35×10¹⁹; coincide con 1,4×10¹⁹ [0,6–2,2] del paper; filtro prob > 0,6 (texto: χ < 0,2 ms; cambios < 2 %)",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "El producto Γτ se mantiene del mismo orden con los dos acoplamientos",
+      "supported": "yes",
+      "detail": "Medianas 30 % distintas, poco frente a la dispersión dentro de cada nube (IC 95 % EM 0,62–4,0 ×10²⁰; TOP 0,56–2,25 ×10²⁰)",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "El torque gravitacional es el motor principal de los cambios del día en escala de décadas",
+      "supported": "partial",
+      "detail": "El paper lo sugiere; depende de los modelos de rotación del núcleo interno y de flujo del núcleo, no comprobables aquí",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": false,
+      "effect_size": null
+    },
+    {
+      "claim": "Hay una capa rica en hierro, muy conductora, en la base del manto",
+      "supported": "partial",
+      "detail": "No está en los datos: el paper la considera respaldada por el valor de K; interpretación, no medición",
+      "certainty_tier": "T2",
+      "abstract_verb": "support",
+      "supported_by_data": false,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 3.09,
+      "unit": "ms",
+      "metric": "dlod_multidec_p2p_ms",
+      "context": "cambio pico a pico de la tendencia de décadas del día, 1973–2019",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.986,
+      "unit": "r",
+      "metric": "fig1_r_grav",
+      "context": "correlación predicción gravitacional vs día medido (parámetros Fig. 1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.215,
+      "unit": "ms",
+      "metric": "fig1_rms_grav_ms",
+      "context": "error RMS de la predicción gravitacional; la señal se aleja 1,06 ms de cero",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.43,
+      "unit": "r",
+      "metric": "fig1_r_em",
+      "context": "correlación predicción electromagnética vs día medido",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.55,
+      "unit": "r",
+      "metric": "fig1_r_top",
+      "context": "correlación predicción topográfica vs día medido",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.73,
+      "unit": "×10¹⁷ N m",
+      "metric": "torque_multidec_max_1e17Nm",
+      "context": "máximo del torque requerido por la tendencia de décadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1998.0,
+      "unit": "año",
+      "metric": "torque_grav_max_anio",
+      "context": "máximo del torque gravitacional (paper: around year 2000)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "around year 2000",
+        "our_calculation": "1998,0",
+        "discrepancy_pct": null,
+        "reason": "el paper lo da aproximado"
+      }
+    },
+    {
+      "value": 1.35e+19,
+      "unit": "N m",
+      "metric": "em_gamma_map_Nm",
+      "context": "Γ más probable (MAP), acoplamiento electromagnético",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1,4×10¹⁹ N m",
+        "our_calculation": "1,35×10¹⁹ N m",
+        "discrepancy_pct": 3.3,
+        "reason": "redondeo del paper a 2 cifras"
+      }
+    },
+    {
+      "value": 1.47e+19,
+      "unit": "N m",
+      "metric": "top_gamma_map_Nm",
+      "context": "Γ más probable (MAP), acoplamiento topográfico",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1,5×10¹⁹ N m",
+        "our_calculation": "1,47×10¹⁹ N m",
+        "discrepancy_pct": 1.7,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 10.2,
+      "unit": "años",
+      "metric": "em_tau_map_anios",
+      "context": "tiempo de deformación del núcleo interno (MAP), acoplamiento electromagnético",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "10,2 años [4,1–30,5]",
+        "our_calculation": "10,21 [4,05–30,47]",
+        "discrepancy_pct": 0.1,
+        "reason": null
+      }
+    },
+    {
+      "value": 1.08,
+      "unit": "adimensional (10⁸ S)",
+      "metric": "em_k_map",
+      "context": "acoplamiento electromagnético más probable",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "1,08 [0,05–2,89]",
+        "our_calculation": "1,079 [0,046–2,888]",
+        "discrepancy_pct": 0.1,
+        "reason": null
+      }
+    },
+    {
+      "value": 1.3,
+      "unit": "cociente",
+      "metric": "gamma_tau_ratio_mediana_em_top",
+      "context": "cociente de medianas de Γτ entre acoplamientos",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "NO aplica aislado: 'we show that [los datos] suggest that…' — el verbo que gobierna la conclusión es 'suggest'"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'los datos sugieren' / 'todo apunta a' que el torque gravitacional es el principal motor"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "'coincide con' simulaciones de dínamo"
+    },
+    {
+      "abstract_verb": "support",
+      "tier": "T2",
+      "cam_attenuator": "'respalda' / 'es compatible con' pilas termoquímicas, fase post-perovskita, capa rica en hierro"
+    },
+    {
+      "abstract_verb": "although tied to the accuracy of",
+      "tier": "T2",
+      "cam_attenuator": "scope: 'si los modelos de rotación del núcleo interno y de flujo son correctos'"
+    },
+    {
+      "abstract_verb": "yield an upper limit",
+      "tier": "T1",
+      "cam_attenuator": "'pone un límite superior' a la estratificación"
+    },
+    {
+      "abstract_verb": "contributes to bringing into focus",
+      "tier": "T2",
+      "cam_attenuator": "'aporta a' una imagen emergente"
+    }
+  ],
+  "narrative_hooks": [
+    "La tendencia de décadas de la duración del día cambió 3,1 ms entre 1973 y 2019",
+    "Con los parámetros de la Fig. 1 del paper, el torque gravitacional del núcleo interno calca esa tendencia (r = 0,986) y los torques del borde núcleo-manto van al revés",
+    "El paper SUGIERE (no demuestra) que el núcleo interno sería el motor principal; depende de modelos sísmicos y magnéticos"
+  ],
+  "limitations": [
+    "Ventana 1964–2019: menos de un ciclo de la oscilación de ~70 años; series autocorrelacionadas, sin p-values",
+    "La Fig. 1 usa una sola combinación de parámetros elegida por los autores; los rangos vienen del MCMC",
+    "Todo depende de la rotación del núcleo interno reconstruida con sismos (Yang y Song 2023) y del modelo de flujo del núcleo (Istas et al. 2023)",
+    "La desalineación α viene precalculada para τ = 6 años; las bandas 95 % de la Fig. 3 no se reproducen (archivos de cientos de MB)",
+    "La capa rica en hierro y la fase post-perovskita son interpretaciones del paper a partir de K y Γ, no mediciones",
+    "Filtro de alta probabilidad del código (prob > 0,6) distinto del texto (χ < 0,2 ms); cambios < 2 %"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims verificados (yes) y 12 números clave"
+  },
+  "notebook_slug": "2026-09-23-torque-gravitacional-duracion-dia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-23-torque-gravitacional-duracion-dia/notebook.html",
+  "generated_at": "2026-09-24T00:04:37+00:00"
+}
