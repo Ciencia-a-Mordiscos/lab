@@ -1,0 +1,270 @@
+{
+  "version": "1.0",
+  "paper_id": 3058,
+  "doi": "10.1038/s41586-026-11040-2",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La cal añadida entre 1900 y 2015 tenía un potencial ideal de captura de 0,44 GtCO₂",
+      "supported": "yes",
+      "detail": "0,44 ± 0,05 GtCO₂ (1 desviación estándar), igual al paper. Máximo teórico: supone que todo el carbonato acaba como bicarbonato en el río.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "potencial_cdr_2015_GtCO2",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Los registros del río sugieren que se realizó cerca del 90 % de ese potencial",
+      "supported": "partial",
+      "detail": "0,40 ± 0,09 GtCO₂ → 90 ± 21 %; con 1 desviación estándar, de 70 a 111 %. Supone que la mitad del carbono del exceso de bicarbonato viene del aire y atribuye a la cal el exceso sobre la línea base 1900-1934.",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "metric": "pct_realizado_rio",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "El modelo SCEPTER da entre el 49 y el 83 % del potencial",
+      "supported": "yes",
+      "detail": "0,22 (P−ET) a 0,37 GtCO₂ (P); 41–92 % con incertidumbre de inputs. Mismo rango que el paper.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "metric": "pct_realizado_scepter_P",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "En el modelo, la captura neta llega después de un pulso inicial de emisiones",
+      "supported": "partial",
+      "detail": "Claro en P−ET (la cal emite más sobre todo en 1936-1950, saldo acumulado negativo hasta 1971); en P el pulso es pequeño y el saldo no vuelve a ser negativo después de 1935.",
+      "certainty_tier": "T2",
+      "abstract_verb": "indicate",
+      "metric": "pulso_emisiones",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "La contabilidad por defecto del IPCC cuenta los mismos 0,44 GtCO₂ como emitidos",
+      "supported": "yes",
+      "detail": "Por construcción: el IPCC supone que todo el carbono de la cal se emite. El inventario de EE. UU. anota 0,22 (factor 0,49).",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "IPCC_emision_acum_2015_GtCO2",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "La cal superó a la acidez en solo 7 de 116 años",
+      "supported": "yes",
+      "detail": "Media de la cuenca (1946-1949 y 1959-1961). En 2015 quedaban 19,8 Tmol (49,6 %) de acidez sin neutralizar, concentrada en tierras poco encaladas según el paper.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "acidez.n_anios_cal_supera_acidez",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "El desfase entre la cal y el río es del orden de décadas",
+      "supported": "partial",
+      "detail": "El paper no da número. Nuestro ajuste didáctico (métrica no estándar) da 26 años; el cruce por niveles va de 28 a 8 años (el de 8 en el último año del registro).",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "metric": "decadal_lag_cualitativo",
+      "supported_by_data": false,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.44,
+      "unit": "GtCO₂",
+      "metric": "potencial_cdr_2015_GtCO2",
+      "context": "potencial ideal de captura de la cal añadida 1900-2015",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.444 (±0.050) GtCO2",
+        "our_calculation": "0,4436 ± 0,0501",
+        "discrepancy_pct": 0.1,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 0.4,
+      "unit": "GtCO₂",
+      "metric": "rio_cdr_2015_GtCO2",
+      "context": "captura acumulada según el bicarbonato del río (supone 50 % del C atmosférico)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.401 (±0.091) GtCO2",
+        "our_calculation": "0,4010 ± 0,0914",
+        "discrepancy_pct": 0.0,
+        "reason": "idéntico"
+      }
+    },
+    {
+      "value": 90,
+      "unit": "por ciento",
+      "metric": "pct_realizado_rio",
+      "context": "fracción del potencial realizada según el río (± 21, 1 desviación estándar)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "90 ± 21%",
+        "our_calculation": "90,4 ± 20,6 %",
+        "discrepancy_pct": 0.4,
+        "reason": "redondeo"
+      }
+    },
+    {
+      "value": 0.22,
+      "unit": "GtCO₂",
+      "metric": "scepter_PET_cdr_2015_GtCO2",
+      "context": "captura acumulada en el modelo, escenario P−ET",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.37,
+      "unit": "GtCO₂",
+      "metric": "scepter_P_cdr_2015_GtCO2",
+      "context": "captura acumulada en el modelo, escenario P",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.22,
+      "unit": "GtCO₂",
+      "metric": "EEUU_emision_acum_2015_GtCO2",
+      "context": "emisión acumulada que anota el inventario de EE. UU.",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.4,
+      "unit": "MtCO₂/año",
+      "metric": "pulso_emisiones",
+      "context": "máximo del pulso inicial en P−ET: la cal emite más que sin cal, en 1947",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "años",
+      "metric": "acidez.n_anios_cal_supera_acidez",
+      "context": "años (de 116) en que la cal superó a la acidez añadida",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 19.8,
+      "unit": "Tmol",
+      "metric": "acidez.exceso_acidez_acumulado_2015_Tmol",
+      "context": "acidez sin neutralizar acumulada a 2015 (49,6 % del total)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "≈20 Tmol, ≈50%",
+        "our_calculation": "19,85 Tmol; 49,6 %",
+        "discrepancy_pct": 0.8,
+        "reason": "el paper redondea"
+      }
+    },
+    {
+      "value": 46,
+      "unit": "por ciento",
+      "metric": "acidez.fertilizante_pct_acidez_2015",
+      "context": "fertilizante como fracción de la acidez en 2015 (31 % en 1980)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "approximately 50%",
+        "our_calculation": "45,9 %",
+        "discrepancy_pct": 8.2,
+        "reason": "el paper redondea a ~50 %"
+      }
+    },
+    {
+      "value": 28.5,
+      "unit": "mgC/L",
+      "metric": "rio.HCO3_mgC_L_2006_2015_media",
+      "context": "bicarbonato medio del río en 2006-2015 frente a 20,4 antes de 1935 (+40 %)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa — pero diseño observacional+modelo: 'los registros muestran', no verbos causales directos"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "'los registros del río sugieren' — el 90 % NO se afirma como hecho"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "'es consistente con' / 'coincide con'"
+    },
+    {
+      "abstract_verb": "indicate",
+      "tier": "T2",
+      "cam_attenuator": "'el modelo indica / sugiere'"
+    },
+    {
+      "abstract_verb": "represent",
+      "tier": "T2",
+      "cam_attenuator": "'evaluado contra el contrafactual de solo acidez, el encalado funciona como sumidero neto' — conservar SIEMPRE el 'frente a qué'"
+    },
+    {
+      "abstract_verb": "suggest + can",
+      "tier": "T3",
+      "cam_attenuator": "'podría reducir' / 'los autores plantean que'"
+    },
+    {
+      "abstract_verb": "argue (cuerpo)",
+      "tier": "T2",
+      "cam_attenuator": "'los autores argumentan'"
+    },
+    {
+      "abstract_verb": "supports the hypothesis (cuerpo)",
+      "tier": "T2",
+      "cam_attenuator": "'respalda la hipótesis'"
+    },
+    {
+      "abstract_verb": "descalación",
+      "tier": "T1",
+      "cam_attenuator": "el título y el 'we show' son afirmativos: NO escribir 'proponen que la cal podría ser' para el resultado de la MRB; el hedge va en el 90 % y en la extrapolación, no en el signo del balance"
+    }
+  ],
+  "narrative_hooks": [
+    "0,44 GtCO₂: lo que la cal podía capturar en la cuenca del Misisipi (1900-2015) es exactamente lo que la contabilidad del IPCC anota como emitido — mismo número, signo opuesto.",
+    "El río lleva su propia cuenta: su bicarbonato sugiere que se realizó cerca del 90 % de ese potencial, con décadas de retraso.",
+    "El CO₂ lo empuja el ácido (fertilizante, estiércol, lluvia ácida), no la cal: los autores argumentan que la comparación correcta es acidez con cal vs la misma acidez sin cal."
+  ],
+  "limitations": [
+    "Medias de cuenca: los mapas por celda (GeoTIFF) quedan fuera, y con ellos la diferencia entre tierras encaladas y no encaladas.",
+    "La captura del río supone que la mitad del carbono del exceso de bicarbonato viene del aire, y atribuye a la cal el exceso sobre la línea base 1900-1934 (inferencia, no medición directa).",
+    "El 90 % tiene ± 21 (1 desviación estándar): el intervalo 70-111 % no excluye el 100 %; el modelo independiente da 49-83 %.",
+    "El sumidero es relativo al contrafactual de la misma acidez sin cal y en escalas de décadas a un siglo; con cal la cuenca sigue emitiendo CO₂ por la acidez.",
+    "En el modelo P−ET hay un pulso inicial: saldo acumulado negativo hasta 1971.",
+    "El desfase no tiene número en el paper ('del orden de décadas'); el de 26 años es una métrica didáctica nuestra.",
+    "Vale para esta cuenca y las dosis históricas; no dice que encalar cualquier suelo capture CO₂. La reducción de emisiones por manejo del pH es propuesta de los autores (T3).",
+    "No cuenta las pérdidas hacia el agua subterránea (~11 % en la cuenca), que serían sumidero adicional."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes, 3 partial; 11 números clave"
+  },
+  "notebook_slug": "2026-09-23-encalado-agricola-sumidero-carbono",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-23-encalado-agricola-sumidero-carbono/notebook.html",
+  "generated_at": "2026-09-24T23:20:02+00:00"
+}

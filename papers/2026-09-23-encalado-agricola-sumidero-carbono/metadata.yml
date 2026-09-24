@@ -1,0 +1,40 @@
+titulo: "¿La cal agrícola emite CO₂ o lo captura?"
+titulo_corto: "La cal agrícola y el CO₂"
+card_descripcion: |
+  La cal echada a los cultivos de la cuenca del Misisipi entre 1900 y 2015 tenía
+  un potencial ideal de captura de 0,44 GtCO₂; la contabilidad por defecto del IPCC
+  anota esa misma cifra como emitida. El bicarbonato del río sugiere que se realizó
+  cerca del 90 % (± 21 %) y el modelo SCEPTER da entre el 49 y el 83 %, tras un
+  pulso inicial de emisiones. ⚠️ Sumidero relativo a la misma acidez sin cal; la
+  cifra del río supone que la mitad del carbono viene del aire, y el resultado vale
+  para esta cuenca.
+fecha: 2026-09-23
+categoria: ecología
+tags: [encalado, cal agrícola, ciclo del carbono, río Misisipi, acidificación del suelo, captura de carbono, contabilidad de emisiones]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11040-2"
+    titulo: "Agricultural liming is a carbon sink in the Mississippi River Basin"
+    journal: Nature
+    autores: "Suhrhoff et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "cdr_acumulado.csv"
+    descripcion: "CO₂ acumulado 1900-2015 (GtCO₂): potencial ideal, río, modelo SCEPTER P y P−ET, contabilidades IPCC y EE. UU. (116 filas)"
+    fuente: "Source Data Fig. 3 (MOESM4) + Zenodo doi:10.5281/zenodo.21823981"
+  - nombre: "emisiones_co2_anuales.csv"
+    descripcion: "Emisiones anuales del suelo (MtCO₂/año) con y sin cal en el modelo, y contabilidades oficiales (116 filas)"
+    fuente: "Source Data Fig. 3 (MOESM4)"
+  - nombre: "balance_acido_alcalino_mrb.csv"
+    descripcion: "Seis fuentes de acidez y cal añadida, media de la cuenca en mol H⁺/ha/año (116 filas)"
+    fuente: "Zenodo doi:10.5281/zenodo.21823981 (idéntico a Source Data Fig. 2a)"
+  - nombre: "rio_bicarbonato.csv"
+    descripcion: "Caudal, flujo y concentración de bicarbonato del Misisipi y exceso sobre la línea base 1900-1934 (116 filas, 100 con dato)"
+    fuente: "Zenodo doi:10.5281/zenodo.21823981 (procesado de Raymond et al. 2018)"
+  - nombre: "escenarios_scepter_MtCO2.csv"
+    descripcion: "20 escenarios del modelo SCEPTER, emisiones anuales en MtCO₂/año (116 filas)"
+    fuente: "Zenodo doi:10.5281/zenodo.21823981"
+estado: publicado

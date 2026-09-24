@@ -42,6 +42,20 @@ no «más de tres veces» todos; una sola carrera, sin réplicas.
 
 ---
 
+### ¿La cal agrícola emite CO₂ o lo captura?
+
+**Ecología** · *Nature* · La cal echada a los cultivos de la cuenca del Misisipi entre 1900 y 2015 tenía
+un potencial ideal de captura de 0,44 GtCO₂; la contabilidad por defecto del IPCC
+anota esa misma cifra como emitida. El bicarbonato del río sugiere que se realizó
+cerca del 90 % (± 21 %) y el modelo SCEPTER da entre el 49 y el 83 %, tras un
+pulso inicial de emisiones. ⚠️ Sumidero relativo a la misma acidez sin cal; la
+cifra del río supone que la mitad del carbono viene del aire, y el resultado vale
+para esta cuenca.
+
+[Ver notebook](papers/2026-09-23-encalado-agricola-sumidero-carbono/notebook) · [Leer más](papers/2026-09-23-encalado-agricola-sumidero-carbono/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-23-encalado-agricola-sumidero-carbono/notebook.ipynb)
+
+---
+
 ### El abuso financiero, visto desde los registros del banco
 
 **Psicología** · *Nature* · 5.428 mujeres que revelaron abuso financiero a un banco británico frente a 15.602
