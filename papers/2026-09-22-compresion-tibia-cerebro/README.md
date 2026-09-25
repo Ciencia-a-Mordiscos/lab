@@ -53,6 +53,6 @@ Figs. 1, 2, 3, 4 y 7.
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/G7a9B1WtqZE)
 - **Paper:** [Nature Neuroscience — DOI: 10.1038/s41593-026-02422-w](https://doi.org/10.1038/s41593-026-02422-w)
 - **Datos originales:** [Source Data (MOESM8)](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41593-026-02422-w/MediaObjects/41593_2026_2422_MOESM8_ESM.xlsx)
