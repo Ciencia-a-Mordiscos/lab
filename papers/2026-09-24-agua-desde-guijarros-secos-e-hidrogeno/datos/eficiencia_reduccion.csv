@@ -1,0 +1,11 @@
+exp_id,horno,composicion,temperatura_c,minutos_h2,metodo,n_puntos_silicato,FeO_inicial_wt,FeO_final_wt,eficiencia_pct,eficiencia_sd_pct,agua_h2_mg,masa_muestra_mg,agua_mg_por_g,agua_he_mg_por_g
+E01,ERH,MORB,1200,60,microsonda (FeO en silicato),3.0,13.55,10.8,20.3,13.6,,,,
+E02,ERH,MORB,1200,180,microsonda (FeO en silicato),5.0,13.04,10.08,22.7,21.2,,,,
+E03,ERH,MORB,1300,60,microsonda (FeO en silicato),4.0,13.27,4.33,67.4,18.3,,,,
+E04,ERH,MORB,1300,180,microsonda (FeO en silicato),6.0,13.05,3.95,69.7,12.0,,,,
+E06,IH,MORB,1200-1450,15,agua recogida (trampa),,12.76,6.23,51.2,,8.2,500.6,16.4,8.0
+E07,IH,MORB,1200-1450,15,agua recogida (trampa),,12.76,2.92,77.1,,19.8,802.1,24.7,7.1
+E08,IH,MORB,1200-1450,15,agua recogida (trampa),,12.76,4.67,63.4,,20.3,1000.7,20.3,7.3
+E09,IH,Picrobasalt,1200-1450,15,agua recogida (trampa),,11.51,9.12,20.8,,3.0,500.4,6.0,3.7
+E10,IH,Picrobasalt,1200-1450,15,agua recogida (trampa),,11.51,3.98,65.4,,15.1,800.3,18.9,4.1
+E11,IH,Picrobasalt,1200-1450,15,agua recogida (trampa),,11.51,6.52,43.3,,12.5,1000.1,12.5,3.7

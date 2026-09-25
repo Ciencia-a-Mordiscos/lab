@@ -14,6 +14,19 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### ¿Puede salir agua de una roca seca y un chorro de hidrógeno?
+
+**Geología** · *Nature Geoscience* · Fundido en H₂, un basalto sin agua suelta entre 6,0 y 24,7 mg de agua por
+gramo en 15 minutos: el hidrógeno reduce el FeO a hierro metálico. En el horno
+resistivo, pasar de 1.200 a 1.300 °C sube la fracción de FeO reducido de
+20,3 % a 67,4 %, y el metal se lleva el 91–97 % del fósforo del silicato.
+⚠️ Un solo experimento por condición, sin réplicas; los «océanos» de agua
+salen de un modelo del paper, no de estos datos.
+
+[Ver notebook](papers/2026-09-24-agua-desde-guijarros-secos-e-hidrogeno/notebook) · [Leer más](papers/2026-09-24-agua-desde-guijarros-secos-e-hidrogeno/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-24-agua-desde-guijarros-secos-e-hidrogeno/notebook.ipynb)
+
+---
+
 ### ¿El núcleo interno de la Tierra alarga y acorta el día?
 
 **Geología** · *Nature* · La duración del día cambió 3,1 ms en su tendencia de décadas entre 1973 y 2019.

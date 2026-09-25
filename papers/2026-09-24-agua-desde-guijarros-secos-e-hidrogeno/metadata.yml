@@ -1,0 +1,39 @@
+titulo: "¿Puede salir agua de una roca seca y un chorro de hidrógeno?"
+titulo_corto: "Agua desde guijarros e hidrógeno"
+card_descripcion: |
+  Fundido en H₂, un basalto sin agua suelta entre 6,0 y 24,7 mg de agua por
+  gramo en 15 minutos: el hidrógeno reduce el FeO a hierro metálico. En el horno
+  resistivo, pasar de 1.200 a 1.300 °C sube la fracción de FeO reducido de
+  20,3 % a 67,4 %, y el metal se lleva el 91–97 % del fósforo del silicato.
+  ⚠️ Un solo experimento por condición, sin réplicas; los «océanos» de agua
+  salen de un modelo del paper, no de estos datos.
+fecha: 2026-09-24
+categoria: geología
+tags: [origen del agua, formación de la Tierra, acreción de guijarros, hidrógeno, petrología experimental, fósforo]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-02118-7"
+    titulo: "Experimental simulation of water formation on Earth from dry pebble rain"
+    journal: Nature Geoscience
+    autores: "Garai et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "experimentos_tabla_s1.csv"
+    descripcion: "11 experimentos: horno, roca, temperatura, masas, pérdidas y agua en las etapas de helio y H₂"
+    fuente: "Supplementary Table S1 (MOESM2)"
+  - nombre: "microsonda_tabla_s2_largo.csv"
+    descripcion: "Cada análisis de microsonda (wt% por elemento) de vidrio de partida, silicato tras H₂ y metal"
+    fuente: "Supplementary Table S2 (MOESM2)"
+  - nombre: "microsonda_resumen_por_fase.csv"
+    descripcion: "Media, DE y n por bloque y fase para Fe, Mg, P, S, Na, Si y W (15 filas)"
+    fuente: "Derivado de la Supplementary Table S2"
+  - nombre: "eficiencia_reduccion.csv"
+    descripcion: "Eficiencia de reducción del FeO por experimento y agua por gramo (10 filas)"
+    fuente: "Derivado de las Tablas S1–S2 con la fórmula del SI §S3"
+  - nombre: "isotopos_dD_tabla_s3.csv"
+    descripcion: "δD del agua producida y del H₂ del tanque (7 filas)"
+    fuente: "Supplementary Table S3 (MOESM2)"
+estado: publicado

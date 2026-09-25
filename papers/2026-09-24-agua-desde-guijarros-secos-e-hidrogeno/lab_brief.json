@@ -1,0 +1,283 @@
+{
+  "version": "1.0",
+  "paper_id": 3065,
+  "doi": "10.1038/s41561-026-02118-7",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Fundir basalto sin agua en H₂ produjo agua en los 6 experimentos del horno de inducción",
+      "supported": "yes",
+      "detail": "3,0–20,3 mg por muestra de 0,5–1 g; 6,0–24,7 mg por gramo, entre 1,6 y 4,6 veces lo que soltó la etapa en helio",
+      "certainty_tier": "T1",
+      "abstract_verb": "Measurements show",
+      "effect_size": null
+    },
+    {
+      "claim": "A 1.300 °C se reduce el 67–70 % del FeO y a 1.200 °C, el 20–23 %",
+      "supported": "yes",
+      "detail": "Horno resistivo, recalculado desde la microsonda; un experimento por condición, sin réplicas",
+      "certainty_tier": "T1",
+      "abstract_verb": "Measurements show",
+      "effect_size": null
+    },
+    {
+      "claim": "El rango de 20–70 % que resume el paper cuadra con nuestro recálculo",
+      "supported": "partial",
+      "detail": "Sí en el horno resistivo (20,3–69,7 %); en el de inducción E07 llega a 77,1 %",
+      "certainty_tier": "T1",
+      "abstract_verb": "Measurements show",
+      "effect_size": null
+    },
+    {
+      "claim": "El metal se queda con el fósforo del silicato",
+      "supported": "partial",
+      "detail": "Fuerte a 1.300 °C (el silicato pierde el 91–97 %); débil a 1.200 °C (7–16 %)",
+      "certainty_tier": "T1",
+      "abstract_verb": "find",
+      "effect_size": null
+    },
+    {
+      "claim": "El cociente Fe/Mg del silicato baja",
+      "supported": "yes",
+      "detail": "De ~4,5 a 1,49 a 1.300 °C en 1 h (Mg casi quieto) y a 0,88 tras 3 h, donde el Mg medido además sube de 2,3 a 3,5 wt%",
+      "certainty_tier": "T1",
+      "abstract_verb": "Measurements show",
+      "effect_size": null
+    },
+    {
+      "claim": "El agua producida es más rica en deuterio que el H₂ de partida",
+      "supported": "yes",
+      "detail": "δD de −50 a −76 ‰ frente a −149,8 ‰ del tanque (+74 a +100 ‰)",
+      "certainty_tier": "T1",
+      "abstract_verb": "Measurements show",
+      "effect_size": null
+    },
+    {
+      "claim": "El agua del horno resistivo está medida",
+      "supported": "no",
+      "detail": "Es una estimación de los autores desde el FeO perdido (0,80–2,27 mg); nuestro recálculo cuadra (hasta 13 % de diferencia), pero no es evidencia independiente",
+      "certainty_tier": "T1",
+      "abstract_verb": "Measurements show",
+      "effect_size": null
+    },
+    {
+      "claim": "Estos experimentos muestran océanos de agua en la Tierra",
+      "supported": "no",
+      "detail": "El laboratorio produce miligramos; la escala de océanos sale de un modelo del paper que no se puede reproducir con estos datos",
+      "certainty_tier": "T3",
+      "abstract_verb": "show",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 20.3,
+      "unit": "por ciento",
+      "metric": "eficiencia_ERH_1200C_60min_pct",
+      "context": "FeO reducido, horno resistivo, 1.200 °C, 60 min",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "20–70% efficiency (leyenda Fig. 4)",
+        "our_calculation": "20,3 %",
+        "discrepancy_pct": 0,
+        "reason": "dentro del rango del paper"
+      }
+    },
+    {
+      "value": 67.4,
+      "unit": "por ciento",
+      "metric": "eficiencia_ERH_1300C_60min_pct",
+      "context": "FeO reducido, horno resistivo, 1.300 °C, 60 min",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.4,
+      "unit": "puntos porcentuales",
+      "metric": "efecto_temperatura_ERH",
+      "context": "lo que suma triplicar el tiempo (60 → 180 min)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 77.1,
+      "unit": "por ciento",
+      "metric": "eficiencia_IH_pct",
+      "context": "horno de inducción, 15 min: 20,8–77,1 % (máximo E07, MORB 0,8 g)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "20–70% efficiency is achieved in 15–180 min (leyenda Fig. 4)",
+        "our_calculation": "20,8–77,1 %",
+        "discrepancy_pct": 10.1,
+        "reason": "E07 supera el 70 % con cualquier variante del FeO inicial; el rango del paper es aproximado"
+      }
+    },
+    {
+      "value": 57.3,
+      "unit": "por ciento",
+      "metric": "eficiencia_todas_mediana_pct",
+      "context": "mediana de las 10 eficiencias (IQR 27,9–66,9 %); mezcla dos hornos con métodos distintos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.0,
+      "unit": "mg por g",
+      "metric": "agua_He_IH_mg_por_g",
+      "context": "agua liberada en la etapa previa en helio: 3,7–8,0 mg/g",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 24.7,
+      "unit": "mg por g",
+      "metric": "agua_IH_mg_por_g_mediana",
+      "context": "agua producida en H₂: 6,0–24,7 mg/g, mediana 17,6, IQR 13,5–19,9",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.6,
+      "unit": "veces",
+      "metric": "ratio_agua_H2_vs_He",
+      "context": "agua en H₂ / agua en helio: 1,6–4,6×",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -149.8,
+      "unit": "por mil (δD, VSMOW)",
+      "metric": "dD_tanque_H2_permil",
+      "context": "δD del agua −50 a −76 ‰ vs −149,8 ‰ del H₂ del tanque",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 97,
+      "unit": "por ciento",
+      "metric": "P_perdido_silicato_pct",
+      "context": "fósforo que pierde el silicato a 1.300 °C: 91–97 % (a 1.200 °C, 7–16 %)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "the produced metal strongly sequesters phosphorus",
+        "our_calculation": "91–97 % a 1.300 °C; 7–16 % a 1.200 °C",
+        "discrepancy_pct": null,
+        "reason": "confirma a 1.300 °C, débil a 1.200 °C"
+      }
+    },
+    {
+      "value": 2.88,
+      "unit": "wt%",
+      "metric": "P_metal_max_wt",
+      "context": "máximo de P en un punto de metal",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.88,
+      "unit": "cociente en masa",
+      "metric": "Fe_Mg_silicato",
+      "context": "Fe/Mg del silicato ~4,5 → 1,49 (1.300 °C, 1 h, Mg casi quieto) y 0,88 tras 3 h (con el Mg medido subiendo de 2,26 a 3,49 wt%)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.95,
+      "unit": "wt% FeO",
+      "metric": "FeO_silicato_ERH_wt",
+      "context": "FeO del silicato 13,05 → 3,95 wt% a 1.300 °C, 3 h",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.27,
+      "unit": "mg",
+      "metric": "agua_ERH_estimada_mg",
+      "context": "agua del horno resistivo ESTIMADA por los autores desde el FeO (0,80–2,27 mg), no medida",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0,80/0,82/2,27/2,24 mg (Tabla S1, **)",
+        "our_calculation": "0,70/0,75/2,31/2,29 mg",
+        "discrepancy_pct": 13,
+        "reason": "consistente, pero es la misma estimación, no evidencia independiente"
+      }
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa SOLO para lo medido en laboratorio (el vidrio basáltico fundido en H₂ produjo agua y metal)"
+    },
+    {
+      "abstract_verb": "Measurements show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'las mediciones muestran'"
+    },
+    {
+      "abstract_verb": "find",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa: 'encontraron que el metal secuestra el fósforo'"
+    },
+    {
+      "abstract_verb": "imply",
+      "tier": "T2",
+      "cam_attenuator": "'los resultados sugieren' / 'es consistente con'"
+    },
+    {
+      "abstract_verb": "offers an explanation",
+      "tier": "T2",
+      "cam_attenuator": "'ofrece una posible explicación' / 'los autores proponen'"
+    },
+    {
+      "abstract_verb": "represents",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que es una fuente endógena de agua'"
+    },
+    {
+      "abstract_verb": "may",
+      "tier": "T3",
+      "cam_attenuator": "'podrían heredar' / 'si se confirma'"
+    },
+    {
+      "abstract_verb": "a step towards",
+      "tier": "T2",
+      "cam_attenuator": "'un paso' — NUNCA 'hito' / 'revolución'"
+    },
+    {
+      "abstract_verb": "generated / produced",
+      "tier": "T1",
+      "cam_attenuator": "'generó' / 'produjo' en el experimento"
+    }
+  ],
+  "narrative_hooks": [
+    "Una roca volcánica secada a fondo, un chorro de hidrógeno caliente y 15 minutos: hasta 24,7 mg de agua por cada gramo de roca.",
+    "Subir de 1.200 a 1.300 °C triplica, más o menos, el FeO que se convierte en metal; alargar el experimento de 1 a 3 horas casi no cambia nada.",
+    "El metal que se forma se lleva el 91–97 % del fósforo del silicato a 1.300 °C; los autores proponen que eso ayudaría a explicar por qué el manto terrestre tiene poco fósforo comparado con el de Marte (hipótesis).",
+    "Según un modelo del paper (no los experimentos), la Tierra podría haber ganado así el equivalente a varios océanos: el laboratorio produce miligramos."
+  ],
+  "limitations": [
+    "Un solo experimento por condición: sin réplicas ni tests estadísticos; los puntos de microsonda son del mismo fundido.",
+    "El horno resistivo y el de inducción miden la eficiencia de forma distinta (microsonda vs agua recogida).",
+    "En el horno resistivo el agua no se midió: es una estimación de los autores desde el FeO perdido.",
+    "La temperatura del horno de inducción (1.200–1.450 °C) no está controlada con precisión.",
+    "La roca de partida no es naturalmente seca: se desgasifica primero en helio (3,7–8,0 mg/g de agua y volátiles).",
+    "El tungsteno del metal es contaminación del portador de la muestra.",
+    "La escala de «océanos» (>100 disueltos, <12 tras pérdidas) sale de un modelo del paper no reproducible con estos datos; no citarla como resultado experimental.",
+    "D_P ≈ 200 no se cita: el P del silicato a 1.300 °C está en el límite de detección."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "4 claims yes, 14 números clave"
+  },
+  "notebook_slug": "2026-09-24-agua-desde-guijarros-secos-e-hidrogeno",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-24-agua-desde-guijarros-secos-e-hidrogeno/notebook.html",
+  "generated_at": "2026-09-25T11:06:35-05:00"
+}
