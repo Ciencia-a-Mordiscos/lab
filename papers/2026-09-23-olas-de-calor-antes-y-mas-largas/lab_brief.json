@@ -1,0 +1,264 @@
+{
+  "version": "1.0",
+  "paper_id": 3064,
+  "doi": "10.1038/s41558-026-02762-2",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El inicio de la primera ola se adelanta 3,29 ± 0,12 días por década",
+      "supported": "yes",
+      "detail": "Replicado exacto desde las medias móviles de Figshare; el ± trata como independientes 31 ventanas solapadas (optimista)",
+      "certainty_tier": "T1",
+      "abstract_verb": "advanced",
+      "metric": "inicio_global_dias_decada",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "El final de la última ola se retrasa 5,41 ± 0,12 días por década",
+      "supported": "yes",
+      "detail": "Replicado exacto; mismo aviso sobre el ±",
+      "certainty_tier": "T1",
+      "abstract_verb": "was delayed",
+      "metric": "fin_global_dias_decada",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "La temporada se alarga 8,71 ± 0,17 días por década",
+      "supported": "yes",
+      "detail": "Replicado exacto: 33,3 → 60,7 días entre ventanas centradas en 1986 y 2016",
+      "certainty_tier": "T1",
+      "abstract_verb": "lengthened",
+      "metric": "temporada_global_dias_decada",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Inicio más temprano, final más tardío y temporada más larga en el 72,0 %, 79,6 % y 92,1 % de la tierra",
+      "supported": "yes",
+      "detail": "Leído del resumen de fracciones por punto de 0,25°, ponderado por área; coincide con el abstract",
+      "certainty_tier": "T1",
+      "abstract_verb": "covered",
+      "metric": "pct_tierra_temporada_alarga",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Tendencia significativa en el 13,4 %, 20,3 % y 34,4 % de la tierra",
+      "supported": "partial",
+      "detail": "Es p < 0,05 punto por punto; tras FDR (Tabla Suplementaria 2): 0,4 %, 4,7 % y 13,5 %",
+      "certainty_tier": "T1",
+      "abstract_verb": "statistically significant",
+      "metric": "pct_tierra_inicio_sig_local",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Las zonas secas cambian más que las húmedas",
+      "supported": "partial",
+      "detail": "Inicio: 4 de 4 zonas secas; final: solo la hiperárida; temporada: hiperárida y árida",
+      "certainty_tier": "T1",
+      "abstract_verb": "experienced",
+      "metric": "tendencias_por_zona",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Giro reciente hacia inicios más rápidos",
+      "supported": "partial",
+      "detail": "Plano en 1979–2023 (p = 0,40); desde 2001 +0,46 ± 0,19 pp/década (p = 0,026), sensible al año de corte (desde 2003 p = 0,09)",
+      "certainty_tier": "T2",
+      "abstract_verb": "was observed",
+      "metric": "rapido_pct_area_afectada_pend_2001_2023",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "La tierra con al menos una ola pasó del 52,2 % al 96,0 %",
+      "supported": "yes",
+      "detail": "Coincide con la Nota Suplementaria 1 del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "expanded",
+      "metric": "area_afectada_pct_2023",
+      "supported_by_data": true,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": -3.29,
+      "unit": "días por década",
+      "metric": "inicio_global_dias_decada",
+      "context": "adelanto del inicio de la primera ola, tierra firme 1979–2023",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5.41,
+      "unit": "días por década",
+      "metric": "fin_global_dias_decada",
+      "context": "retraso del final de la última ola",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.71,
+      "unit": "días por década",
+      "metric": "temporada_global_dias_decada",
+      "context": "alargamiento de la temporada de olas de calor",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 60.7,
+      "unit": "días",
+      "metric": "temporada_global_dias_1986",
+      "context": "duración media de la temporada: 33,3 días (ventana centrada en 1986) → 60,7 días (centrada en 2016)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.82,
+      "unit": "veces",
+      "metric": "temporada_ratio_2016_vs_1986_global",
+      "context": "temporada 2016 / temporada 1986 (medias móviles de 15 años)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -11.2,
+      "unit": "días",
+      "metric": "inicio_global_cambio_1986_2016",
+      "context": "inicio −11,2 días y fin +16,3 días entre ventanas centradas en 1986 y 2016",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.51,
+      "unit": "veces",
+      "metric": "temporada_ratio_2016_vs_1986_hiperarida",
+      "context": "zona hiperárida: temporada 25,5 → 64,1 días",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -6.02,
+      "unit": "días por década",
+      "metric": "tendencias_por_zona",
+      "context": "inicio por zona: zonas secas −3,03 a −6,02 vs húmeda −2,47 (árida lidera)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 92.1,
+      "unit": "por ciento de la tierra",
+      "metric": "pct_tierra_temporada_alarga",
+      "context": "tierra con inicio más temprano (72,0), fin más tardío (79,6) y temporada más larga (92,1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 34.4,
+      "unit": "por ciento de la tierra",
+      "metric": "pct_tierra_inicio_sig_local",
+      "context": "tendencia significativa punto a punto (p<0,05): 13,4 / 20,3 / 34,4 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 13.5,
+      "unit": "por ciento de la tierra",
+      "metric": "pct_tierra_inicio_sig_FDR",
+      "context": "significativa tras corrección FDR (Tabla Suplementaria 2): 0,4 / 4,7 / 13,5 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10.1,
+      "unit": "días por década",
+      "metric": "distribucion_tendencias_celda",
+      "context": "mediana de la tendencia de la temporada por punto (IQR +5,3 a +15,1)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7.9,
+      "unit": "por ciento de la tierra",
+      "metric": "fracciones_por_hemisferio",
+      "context": "tierra con temporada más corta",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 96.0,
+      "unit": "por ciento de la tierra",
+      "metric": "area_afectada_pct_2023",
+      "context": "tierra con al menos una ola: 52,2 % (1979) → 96,0 % (2023)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.46,
+      "unit": "puntos porcentuales por década",
+      "metric": "rapido_pct_area_afectada_pend_2001_2023",
+      "context": "inicio rápido dentro del área con olas, 2001–2023 (n = 23); plano en 1979–2023 (p = 0,40)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "advanced / was delayed / lengthened (declarativo de medición)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa del dato medido: \"se adelantó 3,3 días por década\" — con diseño observacional, sin verbo causal"
+    },
+    {
+      "abstract_verb": "was observed (\"A recent shift towards faster heatwave onset was observed\")",
+      "tier": "T2",
+      "cam_attenuator": "\"se observó un giro reciente, pequeño\" — el efecto es +0,46 pp/déc desde 2001 y plano en todo el periodo; NO \"las olas ya llegan de golpe\"",
+      "warning": "el editor summary lo escala a \"many regions see a faster onset\""
+    },
+    {
+      "abstract_verb": "experienced (\"Drylands experienced more pronounced timing shifts\")",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa SOLO para el inicio; para fin/temporada especificar qué zonas",
+      "warning": "regla 52: no generalizar a las tres métricas"
+    },
+    {
+      "abstract_verb": "highlight the need",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores plantean que hace falta incluir el calendario en las alertas\" — recomendación, no resultado"
+    },
+    {
+      "abstract_verb": "statistically significant trends across 13.4%, 20.3% and 34.4%",
+      "tier": "T1",
+      "cam_attenuator": "\"significativo en cada punto\"; nombrar que tras FDR queda 0,4/4,7/13,5 %",
+      "warning": "no presentar el 72 % como \"significativo\""
+    }
+  ],
+  "narrative_hooks": [
+    "En tierra firme, la temporada de olas de calor pasó de unos 33 días (mediados de los 80) a casi 61 (mediados de los 2010).",
+    "La primera ola llega 3,3 días antes por década, pero la última se va 5,4 días más tarde: el verano de las olas crece más por la cola.",
+    "La tendencia va en la misma dirección en el 92 % de la tierra, aunque punto por punto solo el 13,5 % se distingue del azar tras corregir por comparaciones múltiples."
+  ],
+  "limitations": [
+    "Estudio observacional sobre reanálisis ERA5: no separa el calentamiento de la variabilidad natural (nada de verbos causales).",
+    "El ± de las tendencias globales se calcula sobre 31 medias móviles de 15 años solapadas: es optimista.",
+    "Los % \"significativos\" del abstract son p<0,05 punto por punto; tras FDR quedan 0,4 / 4,7 / 13,5 %.",
+    "\"Zonas secas cambian más\" solo se sostiene completo para el inicio; en el final solo la hiperárida, en la temporada hiperárida y árida.",
+    "El giro hacia inicios más rápidos es pequeño (+0,46 pp/década desde 2001, p = 0,026) y depende del año de corte; plano en 1979–2023.",
+    "El día del año global mezcla hemisferios: no traducir a fecha del calendario.",
+    "Solo cuentan olas dentro de la ventana mayo–septiembre (norte) / noviembre–marzo (sur)."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "5 claims yes + 3 partial, 15 números clave"
+  },
+  "notebook_slug": "2026-09-23-olas-de-calor-antes-y-mas-largas",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-09-23-olas-de-calor-antes-y-mas-largas/notebook.html",
+  "generated_at": "2026-09-25T10:47:26-05:00"
+}

@@ -1,0 +1,19 @@
+metrica,region,tendencia,pct_tierra_todas,pct_tierra_sig_local_p005,pct_tierra_sig_FDR_q005,umbral_p_FDR,n_celdas_region
+inicio,Global,negativa,72.02,13.37,0.43,0.00020562349527608603,283249
+inicio,Global,positiva,27.98,1.08,0.01,0.00020562349527608603,283249
+inicio,Hemisferio norte,negativa,68.24,10.85,0.27,0.00020562349527608603,227372
+inicio,Hemisferio norte,positiva,31.76,1.3,0.01,0.00020562349527608603,227372
+inicio,Hemisferio sur,negativa,82.7,20.46,0.9,0.00020562349527608603,55877
+inicio,Hemisferio sur,positiva,17.3,0.46,0.02,0.00020562349527608603,55877
+fin,Global,negativa,20.39,0.5,0.05,0.0026550875045359135,283249
+fin,Global,positiva,79.61,20.3,4.73,0.0026550875045359135,283249
+fin,Hemisferio norte,negativa,14.67,0.49,0.07,0.0026550875045359135,227372
+fin,Hemisferio norte,positiva,85.33,24.95,6.04,0.0026550875045359135,227372
+fin,Hemisferio sur,negativa,36.53,0.52,0.01,0.0026550875045359135,55877
+fin,Hemisferio sur,positiva,63.47,7.15,1.01,0.0026550875045359135,55877
+temporada,Global,negativa,7.89,0.21,0.04,0.006945090368390083,283249
+temporada,Global,positiva,92.11,34.44,13.52,0.006945090368390083,283249
+temporada,Hemisferio norte,negativa,6.65,0.16,0.03,0.006945090368390083,227372
+temporada,Hemisferio norte,positiva,93.35,36.55,14.72,0.006945090368390083,227372
+temporada,Hemisferio sur,negativa,11.39,0.34,0.06,0.006945090368390083,55877
+temporada,Hemisferio sur,positiva,88.61,28.5,10.13,0.006945090368390083,55877

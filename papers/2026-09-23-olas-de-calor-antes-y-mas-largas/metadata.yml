@@ -1,0 +1,52 @@
+titulo: "Las olas de calor llegan antes y se van después"
+titulo_corto: "Temporada de olas de calor"
+card_descripcion: |
+  En la tierra firme, entre 1979 y 2023, la primera ola de calor del año se adelantó
+  3,29 días por década y la última se retrasó 5,41: la temporada pasó de 33,3 a 60,7
+  días entre las ventanas de 15 años centradas en 1986 y 2016. La tendencia va en esa
+  dirección en el 92,1 % de la tierra. ⚠️ Solo el 13,5 % de la tierra muestra una
+  temporada más larga que se distingue del azar tras corregir por comparaciones
+  múltiples; las zonas secas cambian más que las húmedas solo en el inicio; estudio
+  observacional sobre reanálisis ERA5.
+fecha: 2026-09-23
+categoria: ecología
+tags: [olas de calor, temporada de calor, cambio climático, ERA5, reanálisis, zonas secas, comparaciones múltiples]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41558-026-02762-2"
+    titulo: "Earlier and faster heatwave onset on land under a warming climate"
+    journal: Nature Climate Change
+    autores: "Xu et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "tendencias_15a_por_zona.csv"
+    descripcion: "Día de inicio, día de fin y duración de la temporada, medias móviles de 15 años (ventanas centradas 1986–2016), global y 5 zonas de aridez (186 filas)"
+    fuente: "Figshare doi:10.6084/m9.figshare.30843515"
+  - nombre: "resumen_fracciones_tierra.csv"
+    descripcion: "% de tierra con tendencia de cada signo, significativa punto a punto (p<0,05) y tras FDR, global y por hemisferio (18 filas)"
+    fuente: "Derivado de los 6 GeoTIFF de pendiente y p-valor de Figshare"
+  - nombre: "histograma_tendencias_celdas.csv"
+    descripcion: "Distribución ponderada por área de las tendencias por punto, bins de 1 día/década entre −40 y +40 (80 filas)"
+    fuente: "Derivado de los GeoTIFF de Figshare"
+  - nombre: "tipos_inicio_primera_ola.csv"
+    descripcion: "% de tierra y del área con olas según el tipo de inicio (rápido, moderado, lento) de la primera ola, 1979–2023 (45 filas)"
+    fuente: "Figshare doi:10.6084/m9.figshare.30843515"
+  - nombre: "tmax_diaria_estaciones_era5.csv"
+    descripcion: "Temperatura máxima diaria ERA5 en 5 estaciones de prueba, 1979–2023 (16.425 filas)"
+    fuente: "Figshare doi:10.6084/m9.figshare.30843515"
+  - nombre: "olas_por_anio_estaciones_autores.csv"
+    descripcion: "Salida del detector MATLAB de los autores por estación y año (225 filas)"
+    fuente: "Figshare doi:10.6084/m9.figshare.30843515"
+  - nombre: "estaciones.csv"
+    descripcion: "Nombre y coordenadas de las 5 estaciones de prueba"
+    fuente: "Figshare doi:10.6084/m9.figshare.30843515"
+  - nombre: "mapa_tendencias_1grado.csv"
+    descripcion: "Tendencias de inicio, fin y temporada agregadas a 1° (19.709 filas)"
+    fuente: "Derivado de los GeoTIFF de Figshare"
+  - nombre: "perfil_latitudinal.csv"
+    descripcion: "Tendencia media y % significativo punto a punto por banda de 1° de latitud (144 filas)"
+    fuente: "Derivado de los GeoTIFF de Figshare"
+estado: publicado

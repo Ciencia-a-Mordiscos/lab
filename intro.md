@@ -42,6 +42,20 @@ no «más de tres veces» todos; una sola carrera, sin réplicas.
 
 ---
 
+### Las olas de calor llegan antes y se van después
+
+**Ecología** · *Nature Climate Change* · En la tierra firme, entre 1979 y 2023, la primera ola de calor del año se adelantó
+3,29 días por década y la última se retrasó 5,41: la temporada pasó de 33,3 a 60,7
+días entre las ventanas de 15 años centradas en 1986 y 2016. La tendencia va en esa
+dirección en el 92,1 % de la tierra. ⚠️ Solo el 13,5 % de la tierra muestra una
+temporada más larga que se distingue del azar tras corregir por comparaciones
+múltiples; las zonas secas cambian más que las húmedas solo en el inicio; estudio
+observacional sobre reanálisis ERA5.
+
+[Ver notebook](papers/2026-09-23-olas-de-calor-antes-y-mas-largas/notebook) · [Leer más](papers/2026-09-23-olas-de-calor-antes-y-mas-largas/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-09-23-olas-de-calor-antes-y-mas-largas/notebook.ipynb)
+
+---
+
 ### ¿La cal agrícola emite CO₂ o lo captura?
 
 **Ecología** · *Nature* · La cal echada a los cultivos de la cuenca del Misisipi entre 1900 y 2015 tenía
