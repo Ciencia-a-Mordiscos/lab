@@ -34,6 +34,6 @@ Son estadísticos agregados de las Supplementary Tables del paper: los registros
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/N_GO8DKVEMI)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-11049-7](https://doi.org/10.1038/s41586-026-11049-7)
 - **Datos originales:** [Supplementary Tables 3–10 (MOESM3)](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-11049-7/MediaObjects/41586_2026_11049_MOESM3_ESM.zip)

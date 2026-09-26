@@ -12,7 +12,7 @@ fecha: 2026-09-23
 categoria: geología
 tags: [duración del día, núcleo interno, geofísica, rotación de la Tierra, torque gravitacional, inversión bayesiana]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/wQagnAK7fWk"
 fuentes:
   - doi: "10.1038/s41586-026-10999-2"
     titulo: "Gravitational torque drives multidecadal variations in length of day"
