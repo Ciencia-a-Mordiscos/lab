@@ -12,7 +12,7 @@ fecha: 2026-09-23
 categoria: tecnología
 tags: [robótica, robot cuadrúpedo, eficiencia energética, maratón, batería, coste de transporte]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/QFXwmh5ir8c"
 fuentes:
   - doi: "10.1038/s41586-026-11102-5"
     titulo: "A quadruped robot designed to complete a marathon on a single battery charge"

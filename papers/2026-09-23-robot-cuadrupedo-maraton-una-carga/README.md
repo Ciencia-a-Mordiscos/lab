@@ -30,6 +30,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/QFXwmh5ir8c)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-11102-5](https://doi.org/10.1038/s41586-026-11102-5)
 - **Datos originales:** [Zenodo 10.5281/zenodo.14825866](https://doi.org/10.5281/zenodo.14825866) · [Supplementary Data 1](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-11102-5/MediaObjects/41586_2026_11102_MOESM1_ESM.xlsx)
