@@ -30,6 +30,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/HJwVGCa5Zro)
 - **Paper:** [Nature Climate Change — DOI: 10.1038/s41558-026-02762-2](https://doi.org/10.1038/s41558-026-02762-2)
 - **Datos originales:** [Figshare — 10.6084/m9.figshare.30843515](https://doi.org/10.6084/m9.figshare.30843515)
