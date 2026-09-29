@@ -6,6 +6,61 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://cienciaamordiscos.com/categorias/ecologia.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/geologia.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/medicina.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/neurociencia.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/arqueologia.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/biologia.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/astronomia.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/quimica.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/fisica.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/tecnologia.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cienciaamordiscos.com/categorias/psicologia.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://cienciaamordiscos.com/papers/2026-09-24-agua-desde-guijarros-secos-e-hidrogeno/README.html</loc>
     <lastmod>2026-09-24</lastmod>
     <priority>0.8</priority>

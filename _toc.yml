@@ -1,8 +1,9 @@
 format: jb-book
 root: intro
-parts:
-- caption: Ecología
-  chapters:
+chapters:
+- file: categorias/ecologia
+  title: "Ecología"
+  sections:
   - file: papers/2026-09-23-olas-de-calor-antes-y-mas-largas/README
     title: "Temporada de olas de calor"
     sections:
@@ -413,8 +414,9 @@ parts:
     sections:
     - file: papers/2026-01-17-bosques-tropicales-liberan-carbono/notebook
       title: Notebook
-- caption: Geología
-  chapters:
+- file: categorias/geologia
+  title: "Geología"
+  sections:
   - file: papers/2026-09-24-agua-desde-guijarros-secos-e-hidrogeno/README
     title: "Agua desde guijarros e hidrógeno"
     sections:
@@ -500,8 +502,9 @@ parts:
     sections:
     - file: papers/2025-10-30-terremoto-cctv-falla-myanmar/notebook
       title: Notebook
-- caption: Medicina
-  chapters:
+- file: categorias/medicina
+  title: "Medicina"
+  sections:
   - file: papers/2026-09-18-egfr-t790m-cancer-pulmon-apalaches/README
     title: "T790M y los Apalaches"
     sections:
@@ -717,8 +720,9 @@ parts:
     sections:
     - file: papers/2025-11-26-organ-proteomic-aging-clocks/notebook
       title: Notebook
-- caption: Neurociencia
-  chapters:
+- file: categorias/neurociencia
+  title: "Neurociencia"
+  sections:
   - file: papers/2026-09-22-compresion-tibia-cerebro/README
     title: "La tibia le habla al cerebro"
     sections:
@@ -789,8 +793,9 @@ parts:
     sections:
     - file: papers/2025-10-16-brujula-cerebral-murcielagos-isla/notebook
       title: Notebook
-- caption: Arqueología
-  chapters:
+- file: categorias/arqueologia
+  title: "Arqueología"
+  sections:
   - file: papers/2026-07-23-lenguas-diversidad-holoceno/README
     title: "Antes de la agricultura, el mundo hablaba menos idiomas que hoy"
     sections:
@@ -806,8 +811,9 @@ parts:
     sections:
     - file: papers/2026-03-27-monte-verde-fecha-mal/notebook
       title: Notebook
-- caption: Biología
-  chapters:
+- file: categorias/biologia
+  title: "Biología"
+  sections:
   - file: papers/2026-09-02-vehiculos-arn-proteinas-ia/README
     title: "Vehículos de ARN diseñados por IA"
     sections:
@@ -898,8 +904,9 @@ parts:
     sections:
     - file: papers/2025-10-30-prism-64-barcodes/notebook
       title: Notebook
-- caption: Astronomía
-  chapters:
+- file: categorias/astronomia
+  title: "Astronomía"
+  sections:
   - file: papers/2026-08-22-azufre-nativo-gale-marte/README
     title: "El azufre que no debería estar suelto"
     sections:
@@ -1030,8 +1037,9 @@ parts:
     sections:
     - file: papers/2025-11-20-theia-sistema-solar-interior/notebook
       title: Notebook
-- caption: Química
-  chapters:
+- file: categorias/quimica
+  title: "Química"
+  sections:
   - file: papers/2026-09-04-peliculas-fotonicas-industriales/README
     title: "Película de color sin pigmento"
     sections:
@@ -1062,8 +1070,9 @@ parts:
     sections:
     - file: papers/2026-03-17-pfas-fabrican-baterias-litio/notebook
       title: Notebook
-- caption: Física
-  chapters:
+- file: categorias/fisica
+  title: "Física"
+  sections:
   - file: papers/2026-09-16-antiprotones-transporte/README
     title: "Antiprotones en camión"
     sections:
@@ -1089,8 +1098,9 @@ parts:
     sections:
     - file: papers/2026-03-11-diamante-hexagonal-meteoritos/notebook
       title: Notebook
-- caption: Tecnología
-  chapters:
+- file: categorias/tecnologia
+  title: "Tecnología"
+  sections:
   - file: papers/2026-09-23-robot-cuadrupedo-maraton-una-carga/README
     title: "Un robot corre una maratón"
     sections:
@@ -1381,8 +1391,9 @@ parts:
     sections:
     - file: papers/2025-10-31-ia-conceptos-humanos-sin-vivir/notebook
       title: Notebook
-- caption: Psicología
-  chapters:
+- file: categorias/psicologia
+  title: "Psicología"
+  sections:
   - file: papers/2026-09-23-abuso-financiero-registros-bancarios/README
     title: "Abuso financiero en el banco"
     sections:
