@@ -28,6 +28,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/sHENy2-UCwE)
 - **Paper:** [Nature Geoscience — DOI: 10.1038/s41561-026-02118-7](https://doi.org/10.1038/s41561-026-02118-7)
 - **Datos originales:** [Supplementary Tables S1–S4 (MOESM2)](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41561-026-02118-7/MediaObjects/41561_2026_2118_MOESM2_ESM.xlsx) · Dryad [10.5061/dryad.fttdz0980](https://doi.org/10.5061/dryad.fttdz0980) (aún sin publicar)
