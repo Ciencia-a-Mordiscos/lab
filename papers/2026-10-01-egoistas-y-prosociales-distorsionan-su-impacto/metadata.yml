@@ -1,0 +1,36 @@
+titulo: "¿El egoísta ve su decisión más generosa de lo que es?"
+titulo_corto: "Egoístas que maquillan su impacto"
+titulo_card: "Egoístas y generosos maquillan el impacto de sus decisiones"
+card_descripcion: |
+  En el Experimento 1a, quienes eligieron la opción egoísta vieron las dos
+  opciones más parecidas para el otro que los prosociales (b = 0,24; IC 95 %
+  0,14–0,34; d = 0,37). En el Experimento 6, ver a alguien con esa distorsión
+  subió la elección egoísta de 43,6 % a 55,8 %. ⚠️ La mediana es 0: el
+  promedio lo arrastra una minoría; muestras en línea, juego con puntos.
+fecha: 2026-10-01
+categoria: psicología
+tags: [egoísmo, conducta prosocial, autoengaño, ambigüedad moral, influencia social, economía conductual]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41562-026-02585-3"
+    titulo: "Selfish and prosocial individuals both distort their actions’ impact, but selfish distortions can be more contagious"
+    journal: Nature Human Behaviour
+    autores: "Vollberg y Gross"
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "exp1a_estimaciones.csv"
+    descripcion: "Experimento 1a: 981 Decisores con su tipo y estimaciones de los puntos del Receptor"
+    fuente: "OSF (ImpactDistortions.RData)"
+  - nombre: "exp6_seguidores.csv"
+    descripcion: "Experimento 6: 849 seguidores, condición del Influencer, elección y estimaciones"
+    fuente: "OSF (ImpactDistortions.RData)"
+  - nombre: "resumen_experimentos.csv"
+    descripcion: "Brecha prosociales − egoístas por experimento (diferencias de medias crudas, IC Welch)"
+    fuente: "Derivado de los 9 data frames del RData de OSF"
+  - nombre: "tipos_distorsion_exp1ab.csv"
+    descripcion: "Patrones de distorsión por tipo de decisor, Experimentos 1a y 1b (18 filas)"
+    fuente: "OSF (DistDat del análisis de los autores)"
+estado: publicado

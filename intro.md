@@ -14,6 +14,18 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Egoístas y generosos maquillan el impacto de sus decisiones
+
+**Psicología** · *Nature Human Behaviour* · En el Experimento 1a, quienes eligieron la opción egoísta vieron las dos
+opciones más parecidas para el otro que los prosociales (b = 0,24; IC 95 %
+0,14–0,34; d = 0,37). En el Experimento 6, ver a alguien con esa distorsión
+subió la elección egoísta de 43,6 % a 55,8 %. ⚠️ La mediana es 0: el
+promedio lo arrastra una minoría; muestras en línea, juego con puntos.
+
+[Ver notebook](papers/2026-10-01-egoistas-y-prosociales-distorsionan-su-impacto/notebook) · [Leer más](papers/2026-10-01-egoistas-y-prosociales-distorsionan-su-impacto/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-10-01-egoistas-y-prosociales-distorsionan-su-impacto/notebook.ipynb)
+
+---
+
 ### ¿Puede salir agua de una roca seca y un chorro de hidrógeno?
 
 **Geología** · *Nature Geoscience* · Fundido en H₂, un basalto sin agua suelta entre 6,0 y 24,7 mg de agua por

@@ -1,0 +1,284 @@
+{
+  "version": "1.0",
+  "paper_id": 3083,
+  "doi": "10.1038/s41562-026-02585-3",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "En promedio, los egoístas reportaron las dos opciones como más parecidas que los prosociales",
+      "supported": "yes",
+      "detail": "Exp 1a: b = 0,24 (IC 95 % 0,14–0,34), réplica exacta; d = 0,37 (pequeño); Mann-Whitney p = 0,0003",
+      "certainty_tier": "T1",
+      "abstract_verb": "inflated / downplaying (on average)",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.37,
+        "interpretation": "pequeño"
+      }
+    },
+    {
+      "claim": "Los egoístas inflaron su opción y rebajaron la generosa",
+      "supported": "yes",
+      "detail": "Medias +0,13 y −0,12 (n = 292; p = 0,0002 y 0,0008); es un promedio, no la conducta típica",
+      "certainty_tier": "T1",
+      "abstract_verb": "inflated / downplaying (on average)"
+    },
+    {
+      "claim": "Los prosociales inflaron las dos opciones",
+      "supported": "partial",
+      "detail": "Exp 1a: +0,11 y +0,09 (n = 375); el paper describe parte de la distorsión prosocial como menos consistente (no se replicó en Exp 1c)",
+      "certainty_tier": "T2",
+      "abstract_verb": "although less consistently"
+    },
+    {
+      "claim": "La mayoría de los egoístas no distorsiona la diferencia",
+      "supported": "yes",
+      "detail": "Exp 1a (n = 292): mediana 0; 55,8 % reporta exactamente 0; patrón completo = 14,2 % de los egoístas de 1a+1b",
+      "certainty_tier": "T1",
+      "abstract_verb": "people differed in whether and how they distorted"
+    },
+    {
+      "claim": "La brecha aparece aunque se estime antes de elegir",
+      "supported": "partial",
+      "detail": "Exp 2: brecha 0,04 (IC −0,05 a 0,13), no se replica en esta comparación; el paper reporta distorsiones con otros análisis",
+      "certainty_tier": "T1",
+      "abstract_verb": "observed"
+    },
+    {
+      "claim": "La distorsión refleja preferencias y no solo justificación",
+      "supported": "partial",
+      "detail": "Consistente con el Exp 3a (opción impuesta: brecha 0,02); el paper lo enmarca como \"consistent with\"",
+      "certainty_tier": "T2",
+      "abstract_verb": "consistent with"
+    },
+    {
+      "claim": "Ver la distorsión egoísta del Influencer aumentó la elección egoísta",
+      "supported": "yes",
+      "detail": "Exp 6 aleatorizado: 43,6 % → 55,8 % (b = 0,49; IC 95 % 0,10–0,88; n = 419); h = 0,24 (pequeño)",
+      "certainty_tier": "T2",
+      "abstract_verb": "showed evidence of contagion",
+      "effect_size": {
+        "measure": "cohen_h",
+        "value": 0.24,
+        "interpretation": "pequeño"
+      }
+    },
+    {
+      "claim": "Esto explica la polarización sobre el impacto social de nuestras acciones",
+      "supported": "no",
+      "detail": "La polarización no se midió; los autores plantean que estos datos podrían ayudar a explicarla",
+      "certainty_tier": "T3",
+      "abstract_verb": "may emerge"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 8769,
+      "unit": "adultos",
+      "metric": "n_total",
+      "context": "9 experimentos preregistrados en línea",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.24,
+      "unit": "puntos (b)",
+      "metric": "b_h1_prosocial_vs_egoista",
+      "context": "brecha prosociales − egoístas en la diferencia percibida, Exp 1a",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.24 [0.14–0.34]",
+        "our_calculation": "0.240 [0.142–0.339]",
+        "discrepancy_pct": 0.0,
+        "reason": "réplica exacta (OLS diferencia ~ tipo, ref. egoístas)"
+      }
+    },
+    {
+      "value": 0.37,
+      "unit": "d de Cohen",
+      "metric": "cohens_d_brecha_exp1a",
+      "context": "tamaño del efecto de la brecha, Exp 1a",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.13,
+      "unit": "puntos",
+      "metric": "exp1a_celdas",
+      "context": "egoístas: opción egoísta sobre el punto medio (+0,13) y generosa por debajo (−0,12), Exp 1a",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.75,
+      "unit": "puntos",
+      "metric": "exp1a_celdas",
+      "context": "ventaja percibida de la opción generosa para el Receptor entre los egoístas (real: 2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 55.8,
+      "unit": "por ciento",
+      "metric": "exp1a_celdas",
+      "context": "egoístas del Exp 1a con diferencia percibida exactamente 0 (mediana 0)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 9.0,
+      "unit": "por ciento",
+      "metric": "pct_patron_egoista_agregado_todos",
+      "context": "decisores de Exp 1a+1b con el patrón egoísta completo",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "fewer than 10%",
+        "our_calculation": "9.0% (96/1066)",
+        "discrepancy_pct": 0.0,
+        "reason": "base pooled de todos los decisores de 1a+1b"
+      }
+    },
+    {
+      "value": 14.2,
+      "unit": "por ciento",
+      "metric": "pct_patron_egoista_agregado_entre_egoistas",
+      "context": "mismo patrón entre los egoístas solamente",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 55.8,
+      "unit": "por ciento",
+      "metric": "exp6_por_condicion",
+      "context": "elección egoísta en Exp 6: 43,6 % sin distorsión → 55,8 % con Influencer egoísta",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 12.2,
+      "unit": "puntos porcentuales",
+      "metric": "exp6_dif_pp_egoista_vs_sin",
+      "context": "diferencia en elección egoísta, Exp 6",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.49,
+      "unit": "log-odds (b)",
+      "metric": "b_exp6_sin_distorsion_vs_egoista",
+      "context": "logit Influencer egoísta vs sin distorsión, Exp 6",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "0.49 [0.10–0.88]",
+        "our_calculation": "0.489 [0.103–0.875]",
+        "discrepancy_pct": 0.0,
+        "reason": "log OR de la tabla 2×2 = glm binomial con un predictor"
+      }
+    },
+    {
+      "value": 1.63,
+      "unit": "razón de momios",
+      "metric": "exp6_odds_ratio_egoista_vs_sin",
+      "context": "Exp 6, egoísta vs sin distorsión",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.1,
+      "unit": "por ciento",
+      "metric": "exp6_por_condicion",
+      "context": "seguidores que copiaron el patrón egoísta exacto (vs 2,4 % sin distorsión)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.04,
+      "unit": "puntos",
+      "metric": "n_experimentos",
+      "context": "brecha al estimar antes de elegir (Exp 2), no se replica",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.02,
+      "unit": "puntos",
+      "metric": "n_experimentos",
+      "context": "brecha con opción impuesta (Exp 3a)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "tested",
+      "tier": "T1",
+      "cam_attenuator": "\"pusieron a prueba si…\""
+    },
+    {
+      "abstract_verb": "inflated / downplaying / reporting (On average…)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa SOBRE EL PROMEDIO: \"en promedio, los egoístas inflaron…\"; NUNCA \"los egoístas inflan\" sin 'en promedio' (mediana = 0)"
+    },
+    {
+      "abstract_verb": "although less consistently",
+      "tier": "T2",
+      "cam_attenuator": "\"aunque de forma menos consistente\" para la distorsión prosocial — no igualarla a la egoísta"
+    },
+    {
+      "abstract_verb": "observed",
+      "tier": "T1",
+      "cam_attenuator": "\"observaron distorsiones incluso antes de elegir y con elección forzada\" — ⚠️ en Exp 2 la brecha H1 NO se replicó; nombrar qué componente persiste"
+    },
+    {
+      "abstract_verb": "consistent with",
+      "tier": "T2",
+      "cam_attenuator": "\"es consistente con que las distorsiones reflejen preferencias sociales\" — NO \"demuestra que no es justificación\""
+    },
+    {
+      "abstract_verb": "showed evidence of contagion",
+      "tier": "T2",
+      "cam_attenuator": "\"hubo evidencia de contagio\" / \"los datos apuntan a un contagio\" — NO \"son contagiosas\" (eso es el editor summary)"
+    },
+    {
+      "abstract_verb": "can be more contagious (título)",
+      "tier": "T3",
+      "cam_attenuator": "\"pueden ser más contagiosas\""
+    },
+    {
+      "abstract_verb": "offer a psychological foundation",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim: \"los autores plantean que esto ayuda a explicar…\""
+    },
+    {
+      "abstract_verb": "may emerge / may predictably form",
+      "tier": "T3",
+      "cam_attenuator": "\"podría\" — la polarización NO se midió"
+    }
+  ],
+  "narrative_hooks": [
+    "7 puntos para ti o 5: quienes se quedaron con 7 dijeron, en promedio, que la opción generosa ayudaba menos al otro (1,75 puntos más en vez de 2).",
+    "La mayoría no maquilla nada: el 55,8 % de los egoístas reportó exactamente la diferencia real; el promedio lo arrastra una minoría.",
+    "Ver a otra persona maquillar a favor del egoísmo subió la elección egoísta de 43,6 % a 55,8 %."
+  ],
+  "limitations": [
+    "Muestras en línea (Prolific), mayoría residentes en EE. UU.; puntos de un juego, no decisiones reales de alto costo.",
+    "En el Exp 1a el tipo de decisor es autoseleccionado: la comparación egoístas vs prosociales es observacional.",
+    "El efecto medio es pequeño (d = 0,37) y heterogéneo: mediana 0; el patrón egoísta completo es una minoría.",
+    "Al estimar antes de elegir (Exp 2) la brecha prosociales − egoístas no se replica (0,04; IC −0,05 a 0,13).",
+    "La brecha por experimento es una diferencia de medias cruda con IC Welch, no los modelos mixtos del paper.",
+    "La polarización no se midió: es una extrapolación de los autores."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims verificados (yes), 15 números clave"
+  },
+  "notebook_slug": "2026-10-01-egoistas-y-prosociales-distorsionan-su-impacto",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-10-01-egoistas-y-prosociales-distorsionan-su-impacto/notebook.html",
+  "generated_at": "2026-10-02T10:54:44-05:00"
+}
