@@ -1,0 +1,133 @@
+edad,desenlace,exposicion,actividad,tipo,dia,nivel,sexo,beta,ic_inf,ic_sup,p,p_interaccion
+9,Depression symptoms (SMFQ),Playing games,Playing games,interactivo,sin_distincion,3-6 times/week,mujeres,0.04,0.0,0.08,0.060732135035758,0.8934
+9,Depression symptoms (SMFQ),Playing games,Playing games,interactivo,sin_distincion,3-6 times/week,hombres,0.02,-0.03,0.07,0.487791059764481,0.8934
+9,Depression symptoms (SMFQ),Playing games,Playing games,interactivo,sin_distincion,Daily,mujeres,0.12,0.06,0.18,3.83853111886959e-05,0.8934
+9,Depression symptoms (SMFQ),Playing games,Playing games,interactivo,sin_distincion,Daily,hombres,0.12,0.06,0.18,2.83987366517139e-05,0.8934
+9,Depression symptoms (SMFQ),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,3-6 times/week,mujeres,-0.01,-0.06,0.04,0.778671926332903,0.7897
+9,Depression symptoms (SMFQ),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,3-6 times/week,hombres,0.02,-0.04,0.08,0.46798977416407,0.7897
+9,Depression symptoms (SMFQ),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,Daily,mujeres,0.1,0.04,0.16,0.00156026654373461,0.7897
+9,Depression symptoms (SMFQ),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,Daily,hombres,0.13,0.06,0.2,0.000466007498917478,0.7897
+9,Depression symptoms (SMFQ),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,3-6 times/week,mujeres,0.0,-0.07,0.07,0.968702953605654,0.0856
+9,Depression symptoms (SMFQ),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,3-6 times/week,hombres,0.01,-0.06,0.08,0.730875557357613,0.0856
+9,Depression symptoms (SMFQ),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,Daily,mujeres,0.03,-0.04,0.1,0.435961314389808,0.0856
+9,Depression symptoms (SMFQ),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,Daily,hombres,0.09,0.03,0.15,0.0054575604301817,0.0856
+9,Anxiety symptoms (SCARED),Playing games,Playing games,interactivo,sin_distincion,3-6 times/week,mujeres,0.01,-0.04,0.06,0.672317648879498,0.119
+9,Anxiety symptoms (SCARED),Playing games,Playing games,interactivo,sin_distincion,3-6 times/week,hombres,-0.05,-0.1,0.0,0.0393304401199188,0.119
+9,Anxiety symptoms (SCARED),Playing games,Playing games,interactivo,sin_distincion,Daily,mujeres,0.11,0.05,0.17,0.000102810108661342,0.119
+9,Anxiety symptoms (SCARED),Playing games,Playing games,interactivo,sin_distincion,Daily,hombres,0.11,0.06,0.16,0.000109829643670765,0.119
+9,Anxiety symptoms (SCARED),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,3-6 times/week,mujeres,-0.06,-0.12,0.0,0.0538804813509354,0.6053
+9,Anxiety symptoms (SCARED),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,3-6 times/week,hombres,-0.02,-0.08,0.04,0.523986955861036,0.6053
+9,Anxiety symptoms (SCARED),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,Daily,mujeres,0.09,0.02,0.16,0.00532551941728255,0.6053
+9,Anxiety symptoms (SCARED),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,Daily,hombres,0.14,0.07,0.21,0.000104446951195078,0.6053
+9,Anxiety symptoms (SCARED),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,3-6 times/week,mujeres,-0.07,-0.15,0.01,0.0697479296617727,0.5031
+9,Anxiety symptoms (SCARED),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,3-6 times/week,hombres,-0.13,-0.2,-0.06,0.000686453438816072,0.5031
+9,Anxiety symptoms (SCARED),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,Daily,mujeres,0.0,-0.07,0.07,0.949049780431792,0.5031
+9,Anxiety symptoms (SCARED),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,Daily,hombres,-0.01,-0.08,0.06,0.766024313820031,0.5031
+9,Depression symptoms (SMFQ),Playing games,Playing games,interactivo,sin_distincion,continuous,mujeres,0.02,0.01,0.03,3.24784070714582e-05,0.5031
+9,Depression symptoms (SMFQ),Playing games,Playing games,interactivo,sin_distincion,continuous,hombres,0.02,0.01,0.03,1.79177159909429e-05,0.5031
+9,Depression symptoms (SMFQ),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,continuous,mujeres,0.02,0.01,0.03,0.00460534658808387,0.5031
+9,Depression symptoms (SMFQ),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,continuous,hombres,0.02,0.01,0.03,0.000648721744717902,0.5031
+9,Depression symptoms (SMFQ),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,continuous,mujeres,0.01,0.0,0.02,0.308667240811606,0.5031
+9,Depression symptoms (SMFQ),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,continuous,hombres,0.02,0.01,0.03,0.000833104486332149,0.5031
+9,Anxiety symptoms (SCARED),Playing games,Playing games,interactivo,sin_distincion,continuous,mujeres,0.02,0.01,0.03,0.000325018605115864,0.5031
+9,Anxiety symptoms (SCARED),Playing games,Playing games,interactivo,sin_distincion,continuous,hombres,0.02,0.01,0.03,3.27860832687279e-05,0.5031
+9,Anxiety symptoms (SCARED),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,continuous,mujeres,0.01,0.0,0.02,0.0350653359762593,0.5031
+9,Anxiety symptoms (SCARED),"Chat, downloading music, surfing internet","Chat, downloading music, surfing internet",interactivo,sin_distincion,continuous,hombres,0.02,0.01,0.03,0.000603146802262688,0.5031
+9,Anxiety symptoms (SCARED),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,continuous,mujeres,0.01,0.0,0.02,0.317299234112583,0.5031
+9,Anxiety symptoms (SCARED),"Watching TV, video, DVD","Watching TV, video, DVD",pasivo,sin_distincion,continuous,hombres,0.01,0.0,0.02,0.305943447917873,0.5031
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,2-4 hours/day,mujeres,0.13,0.07,0.19,2.48215594065817e-05,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,2-4 hours/day,hombres,0.03,-0.02,0.08,0.161838362830346,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,4-6 hours/day,mujeres,0.31,0.23,0.39,1.95337281601337e-14,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,4-6 hours/day,hombres,0.12,0.06,0.18,7.0547009622443e-05,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,>6 hours/day,mujeres,0.51,0.38,0.64,1.49008210597405e-14,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,>6 hours/day,hombres,0.22,0.12,0.32,5.35298701773173e-06,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,2-4 hours/day,mujeres,0.14,0.08,0.2,2.74629989251692e-06,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,2-4 hours/day,hombres,0.06,0.0,0.12,0.0300639353600984,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,4-6 hours/day,mujeres,0.28,0.21,0.35,2.38584542799454e-15,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,4-6 hours/day,hombres,0.09,0.03,0.15,0.00275380957756622,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,>6 hours/day,mujeres,0.52,0.42,0.62,9.88906352215818e-27,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,>6 hours/day,hombres,0.22,0.16,0.28,4.66150683783854e-11,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,2-4 hours/day,mujeres,0.06,0.0,0.12,0.0330124541016572,0.0129
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,2-4 hours/day,hombres,0.04,-0.01,0.09,0.073406375169378,0.0129
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,4-6 hours/day,mujeres,0.28,0.19,0.37,4.38719856139358e-09,0.0129
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,4-6 hours/day,hombres,0.09,0.02,0.16,0.0131262170082349,0.0129
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,>6 hours/day,mujeres,0.31,0.14,0.48,0.000496495983634666,0.0129
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,>6 hours/day,hombres,0.17,0.01,0.33,0.0399712929229075,0.0129
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,2-4 hours/day,mujeres,0.08,0.02,0.14,0.00861406346634073,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,2-4 hours/day,hombres,0.04,-0.01,0.09,0.129555001938393,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,4-6 hours/day,mujeres,0.27,0.2,0.34,3.36762289503589e-13,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,4-6 hours/day,hombres,0.09,0.03,0.15,0.00268458019633188,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,>6 hours/day,mujeres,0.48,0.36,0.6,2.68381130067345e-15,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,>6 hours/day,hombres,0.16,0.07,0.25,0.000456432448373522,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,per hour increase,mujeres,0.08,0.06,0.1,5.26818478055143e-24,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,per hour increase,hombres,0.03,0.02,0.04,1.03515801074846e-07,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,per hour increase,mujeres,0.08,0.07,0.09,7.08978809387733e-32,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,per hour increase,hombres,0.03,0.02,0.04,8.58072594481691e-11,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,per hour increase,mujeres,0.05,0.03,0.07,4.0826957528459e-09,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,per hour increase,hombres,0.02,0.01,0.03,0.00221473913048661,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,per hour increase,mujeres,0.07,0.05,0.09,9.80112949748339e-21,0.0
+15,Depression/anxiety symptoms (SDQ emotion subscale),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,per hour increase,hombres,0.02,0.01,0.03,5.60906693752734e-05,0.0
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,2-4 hours/day,mujeres,0.08,0.02,0.14,0.0159892213680859,0.0088
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,2-4 hours/day,hombres,0.09,0.02,0.16,0.00653341194208309,0.0088
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,4-6 hours/day,mujeres,0.27,0.18,0.36,9.0813631600394e-10,0.0088
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,4-6 hours/day,hombres,0.17,0.09,0.25,7.40596773914741e-05,0.0088
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,>6 hours/day,mujeres,0.45,0.3,0.6,7.46306719047463e-09,0.0088
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,>6 hours/day,hombres,0.2,0.07,0.33,0.00158189404135262,0.0088
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,2-4 hours/day,mujeres,0.06,-0.01,0.13,0.0636221631813849,0.0001
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,2-4 hours/day,hombres,0.12,0.04,0.2,0.00220316888014856,0.0001
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,4-6 hours/day,mujeres,0.19,0.11,0.27,3.59653177767922e-06,0.0001
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,4-6 hours/day,hombres,0.12,0.04,0.2,0.00159413292268036,0.0001
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,>6 hours/day,mujeres,0.45,0.33,0.57,5.41884091538563e-14,0.0001
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,>6 hours/day,hombres,0.19,0.1,0.28,4.96905770228052e-05,0.0001
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,2-4 hours/day,mujeres,0.04,-0.02,0.1,0.187170415814573,0.5822
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,2-4 hours/day,hombres,0.02,-0.04,0.08,0.45607375875762,0.5822
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,4-6 hours/day,mujeres,0.2,0.1,0.3,9.1322818604987e-05,0.5822
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,4-6 hours/day,hombres,0.13,0.03,0.23,0.0127019043013829,0.5822
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,>6 hours/day,mujeres,0.33,0.08,0.58,0.00930018391341787,0.5822
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,>6 hours/day,hombres,0.18,-0.01,0.37,0.0549563178772336,0.5822
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,2-4 hours/day,mujeres,-0.02,-0.09,0.05,0.46250931991627,0.6074
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,2-4 hours/day,hombres,-0.04,-0.1,0.02,0.236232589711389,0.6074
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,4-6 hours/day,mujeres,0.09,0.01,0.17,0.0268989518059793,0.6074
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,4-6 hours/day,hombres,0.07,-0.01,0.15,0.0955856528391114,0.6074
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,>6 hours/day,mujeres,0.23,0.09,0.37,0.00100721567295307,0.6074
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,>6 hours/day,hombres,0.17,0.04,0.3,0.00717463935425546,0.6074
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,2-4 hours/day,mujeres,0.08,0.02,0.14,0.00883841654477453,0.0407
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,2-4 hours/day,hombres,0.02,-0.04,0.08,0.408047429299928,0.0407
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,4-6 hours/day,mujeres,0.25,0.17,0.33,7.84741170536134e-09,0.0407
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,4-6 hours/day,hombres,0.11,0.04,0.18,0.00414608179573264,0.0407
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,>6 hours/day,mujeres,0.37,0.23,0.51,2.74026016964292e-07,0.0407
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,>6 hours/day,hombres,0.26,0.15,0.37,7.67108608443854e-06,0.0407
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,2-4 hours/day,mujeres,0.06,0.0,0.12,0.0508093209757326,0.0005
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,2-4 hours/day,hombres,0.04,-0.03,0.11,0.311119520786897,0.0005
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,4-6 hours/day,mujeres,0.19,0.11,0.27,1.32474837110235e-06,0.0005
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,4-6 hours/day,hombres,0.07,0.0,0.14,0.0516253725486285,0.0005
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,>6 hours/day,mujeres,0.46,0.35,0.57,1.24950032794899e-16,0.0005
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,>6 hours/day,hombres,0.19,0.11,0.27,5.59061808492835e-06,0.0005
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,2-4 hours/day,mujeres,0.09,0.03,0.15,0.0033222315277147,0.083
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,2-4 hours/day,hombres,0.01,-0.05,0.07,0.844290505741355,0.083
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,4-6 hours/day,mujeres,0.24,0.14,0.34,3.51089433276307e-06,0.083
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,4-6 hours/day,hombres,0.14,0.04,0.24,0.00600209702676352,0.083
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,>6 hours/day,mujeres,0.33,0.09,0.57,0.00755889425390975,0.083
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,>6 hours/day,hombres,0.06,-0.09,0.21,0.399332018173569,0.083
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,2-4 hours/day,mujeres,0.05,-0.01,0.11,0.106331003204001,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,2-4 hours/day,hombres,0.01,-0.05,0.07,0.824234009738239,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,4-6 hours/day,mujeres,0.24,0.16,0.32,2.37744729760332e-09,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,4-6 hours/day,hombres,0.1,0.03,0.17,0.00961730396796816,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,>6 hours/day,mujeres,0.39,0.26,0.52,5.55844088337811e-09,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,>6 hours/day,hombres,0.23,0.12,0.34,4.95237084056824e-05,0.2457
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,per hour increase,mujeres,0.07,0.05,0.09,1.7124583324261e-14,0.2457
+18,Depression symptoms (CESD),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,per hour increase,hombres,0.04,0.02,0.06,8.86692081880023e-06,0.2457
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,per hour increase,mujeres,0.06,0.04,0.08,1.67677831107674e-15,0.2457
+18,Depression symptoms (CESD),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,per hour increase,hombres,0.03,0.02,0.04,0.000112696066091669,0.2457
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,per hour increase,mujeres,0.05,0.03,0.07,1.85009634762121e-05,0.2457
+18,Depression symptoms (CESD),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,per hour increase,hombres,0.03,0.01,0.05,0.00394538178899951,0.2457
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,per hour increase,mujeres,0.03,0.01,0.05,0.000355246291065281,0.2457
+18,Depression symptoms (CESD),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,per hour increase,hombres,0.02,0.0,0.04,0.00355801467568079,0.2457
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,per hour increase,mujeres,0.06,0.04,0.08,1.56070296539907e-12,0.2457
+18,Anxiety symptoms (SCARED),"Mon-Fri: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,lun-vie,per hour increase,hombres,0.04,0.03,0.05,1.09414496255891e-06,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,per hour increase,mujeres,0.07,0.05,0.09,1.42735910086415e-17,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: playing games, chat, browsing internet","playing games, chat, browsing internet",interactivo,sab-dom,per hour increase,hombres,0.03,0.02,0.04,3.0656439442585e-06,0.2457
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,per hour increase,mujeres,0.06,0.04,0.08,1.17989176501781e-07,0.2457
+18,Anxiety symptoms (SCARED),"Mon-Fri: watching TV, video, DVD","watching TV, video, DVD",pasivo,lun-vie,per hour increase,hombres,0.02,0.0,0.04,0.0204724836424247,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,per hour increase,mujeres,0.06,0.04,0.08,6.04185480438697e-14,0.2457
+18,Anxiety symptoms (SCARED),"Sat-Sun: watching TV, video, DVD","watching TV, video, DVD",pasivo,sab-dom,per hour increase,hombres,0.03,0.02,0.04,1.33271164171138e-05,0.2457

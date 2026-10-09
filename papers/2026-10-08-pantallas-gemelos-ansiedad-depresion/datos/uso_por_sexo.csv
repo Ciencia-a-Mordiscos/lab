@@ -1,0 +1,115 @@
+tabla,edad_cohorte,exposicion,tipo,dia,nivel,sexo,n
+1,9,"Screen time use frequencies on chat, downloading music, surfing internet at age 9",interactivo,sin_distincion,≤2 times/week,hombres,7858
+1,9,"Screen time use frequencies on chat, downloading music, surfing internet at age 9",interactivo,sin_distincion,3-6 times/week,hombres,1233
+1,9,"Screen time use frequencies on chat, downloading music, surfing internet at age 9",interactivo,sin_distincion,Daily,hombres,1840
+1,9,"Screen time use frequencies on chat, downloading music, surfing internet at age 9",interactivo,sin_distincion,≤2 times/week,mujeres,7300
+1,9,"Screen time use frequencies on chat, downloading music, surfing internet at age 9",interactivo,sin_distincion,3-6 times/week,mujeres,1505
+1,9,"Screen time use frequencies on chat, downloading music, surfing internet at age 9",interactivo,sin_distincion,Daily,mujeres,2061
+2,9,Screen time use frequencies on playing computer or video games at age 9,interactivo,sin_distincion,≤2 times/week,hombres,2766
+2,9,Screen time use frequencies on playing computer or video games at age 9,interactivo,sin_distincion,3-6 times/week,hombres,3966
+2,9,Screen time use frequencies on playing computer or video games at age 9,interactivo,sin_distincion,Daily,hombres,4199
+2,9,Screen time use frequencies on playing computer or video games at age 9,interactivo,sin_distincion,≤2 times/week,mujeres,5354
+2,9,Screen time use frequencies on playing computer or video games at age 9,interactivo,sin_distincion,3-6 times/week,mujeres,3013
+2,9,Screen time use frequencies on playing computer or video games at age 9,interactivo,sin_distincion,Daily,mujeres,2499
+3,9,"Screen time use frequencies on watching TV, video, DVD at age 9",pasivo,sin_distincion,≤2 times/week,hombres,1532
+3,9,"Screen time use frequencies on watching TV, video, DVD at age 9",pasivo,sin_distincion,3-6 times/week,hombres,2218
+3,9,"Screen time use frequencies on watching TV, video, DVD at age 9",pasivo,sin_distincion,Daily,hombres,7181
+3,9,"Screen time use frequencies on watching TV, video, DVD at age 9",pasivo,sin_distincion,≤2 times/week,mujeres,1382
+3,9,"Screen time use frequencies on watching TV, video, DVD at age 9",pasivo,sin_distincion,3-6 times/week,mujeres,2253
+3,9,"Screen time use frequencies on watching TV, video, DVD at age 9",pasivo,sin_distincion,Daily,mujeres,7231
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,<2 hours/day,hombres,2666
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,2-4 hours/day,hombres,2605
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,4-6 hours/day,hombres,1430
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,>6 hours/day,hombres,527
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,<2 hours/day,mujeres,4259
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,2-4 hours/day,mujeres,2592
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,4-6 hours/day,mujeres,1368
+4,15,"Mon-Fri: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,lun-vie,>6 hours/day,mujeres,580
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,<2 hours/day,hombres,1451
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,2-4 hours/day,hombres,2088
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,4-6 hours/day,hombres,2014
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,>6 hours/day,hombres,1675
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,<2 hours/day,mujeres,3338
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,2-4 hours/day,mujeres,2646
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,4-6 hours/day,mujeres,1757
+5,15,"Sat-Sun: screen time use frequencies on playing games, chat, browsing internet at age 15",interactivo,sab-dom,>6 hours/day,mujeres,1058
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,<2 hours/day,hombres,4075
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,2-4 hours/day,hombres,2147
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,4-6 hours/day,hombres,812
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,>6 hours/day,hombres,194
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,<2 hours/day,mujeres,4690
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,2-4 hours/day,mujeres,2860
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,4-6 hours/day,mujeres,992
+6,15,"Mon-Fri: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,lun-vie,>6 hours/day,mujeres,257
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,<2 hours/day,hombres,2832
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,2-4 hours/day,hombres,2486
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,4-6 hours/day,hombres,1329
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,>6 hours/day,hombres,581
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,<2 hours/day,mujeres,2835
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,2-4 hours/day,mujeres,3530
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,4-6 hours/day,mujeres,1762
+7,15,"Sat-Sun: screen time use frequencies on watching TV, video, DVD at age 15",pasivo,sab-dom,>6 hours/day,mujeres,672
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,<2 hours/day,hombres,1846
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,2-4 hours/day,hombres,1904
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,4-6 hours/day,hombres,1128
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,>6 hours/day,hombres,545
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,<2 hours/day,mujeres,3265
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,2-4 hours/day,mujeres,2493
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,4-6 hours/day,mujeres,1344
+8,18,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,>6 hours/day,mujeres,525
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,<2 hours/day,hombres,1177
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,2-4 hours/day,hombres,1532
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,4-6 hours/day,hombres,1481
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,>6 hours/day,hombres,1233
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,<2 hours/day,mujeres,2704
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,2-4 hours/day,mujeres,2470
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,4-6 hours/day,mujeres,1605
+9,18,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,>6 hours/day,mujeres,848
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,<2 hours/day,hombres,2796
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,2-4 hours/day,hombres,1784
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,4-6 hours/day,hombres,631
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,>6 hours/day,hombres,212
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,<2 hours/day,mujeres,3993
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,2-4 hours/day,mujeres,2544
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,4-6 hours/day,mujeres,884
+10,18,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,>6 hours/day,mujeres,206
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,<2 hours/day,hombres,1994
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,2-4 hours/day,hombres,1843
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,4-6 hours/day,hombres,1078
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,>6 hours/day,hombres,508
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,<2 hours/day,mujeres,2439
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,2-4 hours/day,mujeres,3001
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,4-6 hours/day,mujeres,1643
+11,18,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,>6 hours/day,mujeres,544
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,<2 hours/day,hombres,785
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,2-4 hours/day,hombres,756
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,4-6 hours/day,hombres,424
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,>6 hours/day,hombres,210
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,<2 hours/day,mujeres,1682
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,2-4 hours/day,mujeres,1161
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,4-6 hours/day,mujeres,530
+12,24,"Mon-Fri: playing games, chat, browsing internet at age 18",interactivo,lun-vie,>6 hours/day,mujeres,224
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,<2 hours/day,hombres,495
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,2-4 hours/day,hombres,631
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,4-6 hours/day,hombres,577
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,>6 hours/day,hombres,472
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,<2 hours/day,mujeres,1401
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,2-4 hours/day,mujeres,1181
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,4-6 hours/day,mujeres,658
+13,24,"Sat-Sun: playing games, chat, browsing internet at age 18",interactivo,sab-dom,>6 hours/day,mujeres,357
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,<2 hours/day,hombres,1225
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,2-4 hours/day,hombres,666
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,4-6 hours/day,hombres,212
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,>6 hours/day,hombres,72
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,<2 hours/day,mujeres,2058
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,2-4 hours/day,mujeres,1125
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,4-6 hours/day,mujeres,340
+14,24,"Mon-Fri: watching TV, video, DVD at age 18",pasivo,lun-vie,>6 hours/day,mujeres,74
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,<2 hours/day,hombres,859
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,2-4 hours/day,hombres,754
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,4-6 hours/day,hombres,391
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,>6 hours/day,hombres,171
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,<2 hours/day,mujeres,1236
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,2-4 hours/day,mujeres,1462
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,4-6 hours/day,mujeres,694
+15,24,"Sat-Sun: watching TV, video, DVD at age 18",pasivo,sab-dom,>6 hours/day,mujeres,205

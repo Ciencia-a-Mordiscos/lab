@@ -1,0 +1,42 @@
+titulo: "Pantallas, ansiedad y gemelos idénticos"
+titulo_corto: "Pantallas y gemelos idénticos"
+titulo_card: "¿Qué queda de la asociación entre pantallas y ansiedad entre gemelos idénticos?"
+card_descripcion: |
+  En 21.797 gemelos suecos, más de 6 h diarias de pantalla interactiva a los 15
+  años se asocian con síntomas 0,38 DE más altos; entre gemelos idénticos el
+  coeficiente cae a 0,02. Con pantalla interactiva intensa se encoge en 6 de 6
+  comparaciones (mediana 53 %); con la tele, solo en 2 de 6. ⚠️ Observacional:
+  2 de 12 β entre idénticos siguen significativos y los IC son más anchos.
+fecha: 2026-10-08
+categoria: psicología
+tags: [pantallas, adolescencia, ansiedad, depresión, gemelos, co-twin control, salud mental]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41562-026-02607-0"
+    titulo: "Recreational screen use and internalizing problems from preadolescence to young adulthood in a longitudinal twin cohort with co-twin comparison"
+    journal: Nature Human Behaviour
+    autores: "Gong et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "transversal_beta.csv"
+    descripcion: "β transversales por nivel de uso (9, 15 y 18 años): todos sin ajustar y ajustado, dentro de mellizos y dentro de idénticos (264 filas)"
+    fuente: "Supplementary Table 17 (MOESM4)"
+  - nombre: "transversal_por_sexo.csv"
+    descripcion: "β transversales por sexo y p de interacción (132 filas)"
+    fuente: "Supplementary Table 18 (MOESM4)"
+  - nombre: "entre_edades_beta.csv"
+    descripcion: "β de uso a una edad → síntomas a una edad posterior; todos y dentro del par (219 filas)"
+    fuente: "Supplementary Table 19 (MOESM4)"
+  - nombre: "clinico_hr.csv"
+    descripcion: "Modelos de Cox para diagnósticos clínicos: eventos, persona-año, tasas y HR (642 filas)"
+    fuente: "Supplementary Table 22 (MOESM4)"
+  - nombre: "correlaciones_gemelos.csv"
+    descripcion: "Correlaciones entre gemelos MZ y DZ por rasgo y edad (76 filas)"
+    fuente: "Supplementary Table 16 (MOESM4)"
+  - nombre: "uso_por_sexo.csv"
+    descripcion: "n por nivel de uso de pantallas y sexo (114 filas)"
+    fuente: "Supplementary Tables 1-15 (MOESM4)"
+estado: publicado

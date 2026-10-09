@@ -1,5 +1,17 @@
 # Psicología
 
+## ¿Qué queda de la asociación entre pantallas y ansiedad entre gemelos idénticos?
+
+*Nature Human Behaviour* · En 21.797 gemelos suecos, más de 6 h diarias de pantalla interactiva a los 15
+años se asocian con síntomas 0,38 DE más altos; entre gemelos idénticos el
+coeficiente cae a 0,02. Con pantalla interactiva intensa se encoge en 6 de 6
+comparaciones (mediana 53 %); con la tele, solo en 2 de 6. ⚠️ Observacional:
+2 de 12 β entre idénticos siguen significativos y los IC son más anchos.
+
+[Ver notebook](../papers/2026-10-08-pantallas-gemelos-ansiedad-depresion/notebook) · [Leer más](../papers/2026-10-08-pantallas-gemelos-ansiedad-depresion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-10-08-pantallas-gemelos-ansiedad-depresion/notebook.ipynb)
+
+---
+
 ## Egoístas y generosos maquillan el impacto de sus decisiones
 
 *Nature Human Behaviour* · En el Experimento 1a, quienes eligieron la opción egoísta vieron las dos

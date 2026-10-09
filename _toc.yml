@@ -1399,6 +1399,11 @@ chapters:
 - file: categorias/psicologia
   title: "Psicología"
   sections:
+  - file: papers/2026-10-08-pantallas-gemelos-ansiedad-depresion/README
+    title: "Pantallas y gemelos idénticos"
+    sections:
+    - file: papers/2026-10-08-pantallas-gemelos-ansiedad-depresion/notebook
+      title: Notebook
   - file: papers/2026-10-01-egoistas-y-prosociales-distorsionan-su-impacto/README
     title: "Egoístas que maquillan su impacto"
     sections:

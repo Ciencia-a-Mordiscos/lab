@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "paper_id": 3099,
+  "doi": "10.1038/s41562-026-02607-0",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "human",
+  "verification_table": [
+    {
+      "claim": "Más de 6 h diarias de pantalla se asocia con más síntomas de ansiedad y depresión",
+      "supported": "yes",
+      "detail": "Todos los gemelos (ajustado): 11 de 12 comparaciones intensas significativas tras la corrección; β 0,20–0,38 a los 15 y 18. Observacional",
+      "certainty_tier": "T2",
+      "abstract_verb": "was associated with",
+      "metric": "n_sig_by_intenso_todos_aj",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "beta_estandarizado",
+        "value": 0.38,
+        "interpretation": "β en unidades de DE de síntomas; rango 0,20–0,38 en las 12 comparaciones intensas"
+      }
+    },
+    {
+      "claim": "Entre gemelos idénticos, la asociación con pantalla interactiva intensa se encoge",
+      "supported": "yes",
+      "detail": "6 de 6 comparaciones; reducción mediana 53 % (RIC 23–70 %, rango 9–95 %)",
+      "certainty_tier": "T2",
+      "abstract_verb": "substantially attenuated",
+      "metric": "reduccion_mz_interactivo_mediana",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Con la tele el patrón no se repite",
+      "supported": "partial",
+      "detail": "β idénticos menor solo en 2 de 6; a los 18 los cuatro β de idénticos superan al de todos",
+      "certainty_tier": "T2",
+      "abstract_verb": "substantially attenuated",
+      "metric": "n_mz_menor_todos_pasivo",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Entre idénticos la asociación desaparece del todo",
+      "supported": "no",
+      "detail": "2 de 12 siguen significativas (ansiedad, 18 años, fin de semana) y los IC son 1,8–2,8 veces más anchos: no significativo no es efecto cero",
+      "certainty_tier": "T3",
+      "abstract_verb": "did not remain statistically significant",
+      "metric": "n_sig_by_intenso_mz",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "El uso intenso de pantalla interactiva va de la mano con más diagnósticos clínicos",
+      "supported": "partial",
+      "detail": "HR 3,37 (1,98–5,73) en todos; 1,65 (1,07–2,56; p = 0,025) dentro del par, que no supera la corrección",
+      "certainty_tier": "T2",
+      "abstract_verb": "was associated with",
+      "metric": "hr_int15_lunvie_dentro_par",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "hazard_ratio",
+        "value": 3.37,
+        "interpretation": "todos; 1,65 dentro del par (p = 0,025, no supera la corrección)"
+      }
+    },
+    {
+      "claim": "Las pantallas causan ansiedad o depresión",
+      "supported": "no",
+      "detail": "Ni probado ni descartado: diseño observacional. Los autores ven evidencia limitada de un efecto causal claro; sus datos sugieren que factores genéticos y ambientales compartidos explican la asociación en parte",
+      "certainty_tier": "T3",
+      "abstract_verb": "provided limited evidence for clear causal effects",
+      "metric": null,
+      "supported_by_data": false,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 21797,
+      "unit": "gemelos",
+      "metric": "n_catss9",
+      "context": "gemelos suecos de la cohorte CATSS con encuesta a los 9 años",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.38,
+      "unit": "DE (β estandarizado)",
+      "metric": "beta_int15_lunvie",
+      "context": "β en todos los gemelos (ajustado), 15 años, >6 h/día de pantalla interactiva entre semana frente a <2 h/día",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.02,
+      "unit": "DE (β estandarizado)",
+      "metric": "beta_int15_lunvie",
+      "context": "β dentro de gemelos idénticos en la misma comparación (IC 95 % −0,14 a 0,18; p = 0,79)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "6 de 6",
+      "unit": "comparaciones",
+      "metric": "n_mz_menor_todos_interactivo",
+      "context": "comparaciones de pantalla interactiva intensa (15 y 18 años) en que el β de idénticos queda por debajo del de todos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 53,
+      "unit": "por ciento",
+      "metric": "reduccion_mz_interactivo_mediana",
+      "context": "reducción mediana del β al pasar de todos los gemelos a idénticos, pantalla interactiva intensa (RIC 23–70 %, rango 9–95 %)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "2 de 6",
+      "unit": "comparaciones",
+      "metric": "n_mz_menor_todos_pasivo",
+      "context": "comparaciones de TV intensa en que el β de idénticos queda por debajo del de todos; a los 18 los cuatro lo superan",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "11 de 12",
+      "unit": "comparaciones",
+      "metric": "n_sig_by_intenso_todos_aj",
+      "context": "comparaciones intensas significativas tras la corrección por pruebas múltiples en todos los gemelos (ajustado)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "2 de 12",
+      "unit": "comparaciones",
+      "metric": "n_sig_by_intenso_mz",
+      "context": "comparaciones intensas que siguen significativas dentro de gemelos idénticos: ansiedad a los 18, fin de semana",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "0 de 16",
+      "unit": "comparaciones",
+      "metric": "n_sig_by_entre_edades_intenso",
+      "context": "comparaciones intensas entre edades significativas dentro del par (idénticos y mellizos juntos); 6 de 16 en todos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.37,
+      "unit": "HR",
+      "metric": "hr_int15_lunvie_todos",
+      "context": "razón de riesgos de diagnóstico de depresión o ansiedad, >6 h/día de pantalla interactiva entre semana a los 15, todos los gemelos (IC 1,98–5,73)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.65,
+      "unit": "HR",
+      "metric": "hr_int15_lunvie_dentro_par",
+      "context": "la misma razón de riesgos dentro del par (IC 1,07–2,56; p = 0,025), no supera la corrección",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.5,
+      "unit": "por ciento",
+      "metric": "pct_diagnostico_catss9",
+      "context": "gemelos de la cohorte de 9 años con diagnóstico de depresión o ansiedad antes de los 22 (2.523 de 21.797)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 17.7,
+      "unit": "por ciento",
+      "metric": "pct_diagnostico_catss15",
+      "context": "gemelos de la cohorte de 15 años con diagnóstico antes de los 28 (2.843 de 16.027)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.04,
+      "unit": "OR",
+      "metric": "or_inverso_sintomas15_a_uso18_finde",
+      "context": "dirección inversa: más síntomas a los 15 van de la mano con más pantalla interactiva de fin de semana a los 18",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.34,
+      "unit": "cociente",
+      "metric": "ratio_mujeres_hombres_interactivo_mediana",
+      "context": "cociente mediano del β chicas/chicos en pantalla interactiva intensa (rango 1,42–2,42)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.025,
+      "unit": "DE (β estandarizado)",
+      "metric": null,
+      "context": "mediana del cambio β idénticos − β todos en las 48 comparaciones por nivel de uso (RIC −0,113 a 0,013); la caída de −0,36 es la mayor",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "\"los datos sugieren\" / \"todo apunta a\"",
+      "warning": "NO afirmar directamente"
+    },
+    {
+      "abstract_verb": "was associated with",
+      "tier": "T2",
+      "cam_attenuator": "\"se asocia con\" / \"va de la mano con\" — nunca \"provoca/causa/aumenta\"",
+      "warning": "diseño observacional (regla 28): sin verbos causales, ni en títulos de gráficas"
+    },
+    {
+      "abstract_verb": "provided limited evidence for clear causal effects",
+      "tier": "T3",
+      "cam_attenuator": "\"la evidencia de un efecto causal es limitada\"",
+      "warning": "NO descalar a \"no hay efecto\" ni escalar a \"las pantallas causan\""
+    },
+    {
+      "abstract_verb": "partly explain",
+      "tier": "T2",
+      "cam_attenuator": "\"los factores familiares compartidos explican en parte\"",
+      "warning": "\"en parte\", no \"explican\" a secas"
+    },
+    {
+      "abstract_verb": "highlights the need",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores piden entender los mecanismos\"",
+      "warning": "meta-claim de los autores"
+    }
+  ],
+  "narrative_hooks": [
+    "0,38 → 0,02: la asociación entre más de 6 h diarias de pantalla interactiva y los síntomas a los 15 casi desaparece al comparar gemelos idénticos — pero es la caída más grande de 48",
+    "Con la tele pasa lo contrario: a los 18 años el coeficiente entre idénticos supera al de todos los gemelos",
+    "Ritmo de diagnósticos 3,37 veces mayor con uso intenso entre semana; dentro del par baja a 1,65 y no supera la corrección"
+  ],
+  "limitations": [
+    "Observacional: los autores ven evidencia limitada de un efecto causal claro",
+    "Solo tablas agregadas; los microdatos del Swedish Twin Registry no son públicos",
+    "Los modelos dentro de idénticos tienen poca potencia (4.434 a los 15, 3.318 a los 18); IC 1,8–2,8 veces más anchos",
+    "En los análisis clínicos y entre edades, dentro del par junta idénticos y mellizos",
+    "La recogida empezó en 2004, antes del teléfono inteligente masivo; uso autorreportado desde los 15 y reportado por los padres a los 9",
+    "2 de 12 β entre idénticos siguen significativos (ansiedad, 18 años, fin de semana): no se puede decir que la asociación desaparezca"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes, 2 partial, 16 números clave"
+  },
+  "notebook_slug": "2026-10-08-pantallas-gemelos-ansiedad-depresion",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-10-08-pantallas-gemelos-ansiedad-depresion/notebook.html",
+  "generated_at": "2026-10-09T11:20:11-05:00"
+}
