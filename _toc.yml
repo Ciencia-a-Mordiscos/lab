@@ -1101,6 +1101,11 @@ chapters:
 - file: categorias/tecnologia
   title: "Tecnología"
   sections:
+  - file: papers/2026-10-08-ia-busqueda-pruebas-formales-erdos/README
+    title: "IA y problemas de Erdős"
+    sections:
+    - file: papers/2026-10-08-ia-busqueda-pruebas-formales-erdos/notebook
+      title: Notebook
   - file: papers/2026-09-23-robot-cuadrupedo-maraton-una-carga/README
     title: "Un robot corre una maratón"
     sections:

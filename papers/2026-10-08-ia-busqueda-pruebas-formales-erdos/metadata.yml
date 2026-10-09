@@ -1,0 +1,36 @@
+titulo: "Una IA contra 353 problemas abiertos de Erdős"
+titulo_corto: "IA y problemas de Erdős"
+card_descripcion: |
+  Un agente que escribe pruebas en Lean, donde el compilador revisa cada paso,
+  resolvió 9 de los 353 problemas de Erdős que intentó (2,55 %) y 44 de 492
+  conjeturas de la OEIS según el paper (38 con prueba en el repositorio público).
+  Sus pruebas de Erdős son unas 3,8 veces más largas que las de la OEIS (mediana
+  764 contra 199 líneas). ⚠️ La comparación con Codex (7 de 9) y Claude Code
+  (0 de 9) es la que narra el material suplementario, no un experimento controlado.
+fecha: 2026-10-08
+categoria: tecnología
+tags: [inteligencia artificial, matemáticas, Lean, pruebas formales, problemas de Erdős, OEIS, AlphaProof]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1126/science.aej2213"
+    titulo: "Advancing mathematics research with AI-driven formal proof search"
+    journal: Science
+    autores: "Tsoukalas et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "pruebas_lean.csv"
+    descripcion: "71 archivos Lean publicados (69 pruebas completas, 2 parciales): dominio, líneas de código, lemas auxiliares, respuesta formal"
+    fuente: "Zenodo (doi:10.5281/zenodo.21477349), parseado"
+  - nombre: "tacticas_por_prueba.csv"
+    descripcion: "Conteo léxico de 30 tácticas de Lean por archivo (2.130 filas)"
+    fuente: "Zenodo (doi:10.5281/zenodo.21477349), parseado"
+  - nombre: "problemas_intentados.csv"
+    descripcion: "353 problemas de Erdős y 492 conjeturas OEIS que el agente intentó"
+    fuente: "Zenodo + GitHub google-deepmind/formal-conjectures (THEOREM_MAPPING.txt)"
+  - nombre: "comparacion_sistemas_erdos.csv"
+    descripcion: "Problemas de Erdős resueltos por otros sistemas (de los 9), transcrito del material suplementario"
+    fuente: "Supplementary Materials, pp. S10-S11"
+estado: publicado

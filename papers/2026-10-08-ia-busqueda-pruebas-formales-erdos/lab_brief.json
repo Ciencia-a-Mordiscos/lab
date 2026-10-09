@@ -1,0 +1,272 @@
+{
+  "version": "1.0",
+  "paper_id": 3102,
+  "doi": "10.1126/science.aej2213",
+  "paper_type": "computational",
+  "study_design": "descriptive",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El agente resolvió 9 de los 353 problemas de Erdős que intentó (2,55 %)",
+      "supported": "yes",
+      "detail": "9 archivos Lean en Zenodo y 353 entradas intentadas: coincide con el abstract. Los 353 son los formalizados en Formal Conjectures, no los más de 1.200 del catálogo",
+      "certainty_tier": "T1",
+      "abstract_verb": "resolved",
+      "metric": "n_erdos_resueltos",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Probó 44 de 492 conjeturas de la OEIS (8,94 %)",
+      "supported": "partial",
+      "detail": "Cifra del paper; el repositorio público trae 38 pruebas OEIS (7,72 %) y no se pueden ubicar las 6 restantes",
+      "certainty_tier": "T1",
+      "abstract_verb": "proved",
+      "metric": "n_oeis_resueltos_paper",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "Las pruebas de Erdős son mucho más largas que las de la OEIS",
+      "supported": "yes",
+      "detail": "Mediana 764 contra 199 líneas (×3,8); Mann-Whitney p = 0,00015, rank-biserial = 0,82; n = 9 contra 38",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a (análisis propio)",
+      "metric": "ratio_medianas_erdos_oeis",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "rank_biserial",
+        "value": 0.82,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "Las pruebas más largas usan más declaraciones auxiliares (lemas y definiciones)",
+      "supported": "yes",
+      "detail": "ρ de Spearman = 0,85 (p < 0,001, n = 69); en parte mecánico. Un 24 % de las declaraciones son definiciones",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a (análisis propio)",
+      "metric": "spearman_lineas_lemas_rho",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": 0.85,
+        "interpretation": "fuerte"
+      }
+    },
+    {
+      "claim": "Codex resolvió 7 de los 9; Claude Code, los agentes básicos con Gemini Flash y AlphaProof solo, ninguno",
+      "supported": "partial",
+      "detail": "Transcrito de la prosa del material suplementario; intentos, tiempos y prompts distintos: no es un experimento controlado",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a (material suplementario)",
+      "metric": "codex_resueltos_de_9",
+      "supported_by_data": false,
+      "effect_size": null
+    },
+    {
+      "claim": "Un agente básico (con Gemini 3.1 Pro) replicó los éxitos en Erdős",
+      "supported": "partial",
+      "detail": "Lo dice el abstract (el modelo sale del material suplementario); el dato está en figuras sin números. Con modelos Flash, 0 de 9",
+      "certainty_tier": "T1",
+      "abstract_verb": "replicated",
+      "metric": null,
+      "supported_by_data": false,
+      "effect_size": null
+    },
+    {
+      "claim": "El agente se está usando en combinatoria, optimización, grafos, geometría algebraica y óptica cuántica",
+      "supported": "partial",
+      "detail": "13 archivos de colaboración; los 2 de óptica cuántica son parciales (con sorry). Trabajo en curso",
+      "certainty_tier": "T3",
+      "abstract_verb": "is being deployed",
+      "metric": "n_aicollab_por_subdominio",
+      "supported_by_data": true,
+      "effect_size": null
+    },
+    {
+      "claim": "La búsqueda de pruebas formales abre la puerta al descubrimiento matemático autónomo",
+      "supported": "partial",
+      "detail": "Interpretación de los autores; los datos no pueden evaluarla. La búsqueda es autónoma, la formalización y selección de problemas no",
+      "certainty_tier": "T2",
+      "abstract_verb": "demonstrate (interpretación)",
+      "metric": null,
+      "supported_by_data": false,
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 9,
+      "unit": "problemas",
+      "metric": "n_erdos_resueltos",
+      "context": "problemas de Erdős resueltos por AlphaProof Nexus, de 353 intentados",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 353,
+      "unit": "problemas",
+      "metric": "n_erdos_intentados",
+      "context": "problemas de Erdős intentados: los formalizados en Lean en Formal Conjectures a inicios de febrero de 2026",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2.55,
+      "unit": "por ciento",
+      "metric": "tasa_erdos_pct",
+      "context": "tasa de éxito en Erdős (9 de 353)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 44,
+      "unit": "conjeturas",
+      "metric": "n_oeis_resueltos_paper",
+      "context": "[PAPER] conjeturas de la OEIS probadas, de 492",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 38,
+      "unit": "pruebas",
+      "metric": "n_oeis_pruebas_en_repo",
+      "context": "[REPO] pruebas OEIS en el repositorio público de Zenodo (7,72 % de 492)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "44",
+        "our_calculation": "38",
+        "discrepancy_pct": 13.6,
+        "reason": "el repositorio público trae 38 pruebas OEIS; no se puede ubicar el resto"
+      }
+    },
+    {
+      "value": 237,
+      "unit": "números de problema",
+      "metric": "erdos_numeros_distintos_intentados",
+      "context": "números de problema de Erdős distintos entre las 353 entradas intentadas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 5,
+      "unit": "problemas",
+      "metric": "erdos_answer_false",
+      "context": "problemas de Erdős (de 9) cuya respuesta formal probada es «no» (answer(False)); 4 son «sí»",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 71,
+      "unit": "archivos",
+      "metric": "n_archivos_lean",
+      "context": "archivos Lean publicados: 69 pruebas completas y 2 parciales con sorry",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 764,
+      "unit": "líneas",
+      "metric": "lineas_mediana_por_dominio",
+      "context": "mediana de líneas de código de las 9 pruebas de Erdős (OEIS: 199)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.84,
+      "unit": "veces",
+      "metric": "ratio_medianas_erdos_oeis",
+      "context": "cociente de medianas de longitud Erdős/OEIS; Mann-Whitney p = 0,00015, rank-biserial 0,82, n = 9 vs 38",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.85,
+      "unit": "rho de Spearman",
+      "metric": "spearman_lineas_lemas_rho",
+      "context": "correlación entre líneas y declaraciones auxiliares (n = 69, p < 0,001)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 7,
+      "unit": "problemas",
+      "metric": "codex_resueltos_de_9",
+      "context": "problemas de Erdős (de los 9) que resolvió OpenAI Codex con GPT-5.5",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0,
+      "unit": "problemas",
+      "metric": "claude_code_resueltos_de_9",
+      "context": "problemas de Erdős (de los 9) que resolvió Claude Code con Opus 4.7",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 64,
+      "unit": "horas de TPU",
+      "metric": "alphaproof_solo_tpu_h_por_problema",
+      "context": "presupuesto aproximado de AlphaProof solo por problema, con el que resolvió 0 de 9",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "\"presentan\" / \"construyeron\"",
+      "nota": "'the first demonstration' es claim de prioridad de los autores: atribuirlo ('los autores dicen que es la primera...')"
+    },
+    {
+      "abstract_verb": "built / resolved / proved",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con número: resolvió 9 de 353, probó 44 de 492",
+      "nota": "verificado por compilador Lean; NO descalar a 'propone' (regla de descalación)"
+    },
+    {
+      "abstract_verb": "replicated",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa",
+      "nota": "solo el agente básico con Gemini 3.1 Pro; con modelos Flash 0/9"
+    },
+    {
+      "abstract_verb": "is being deployed",
+      "tier": "T3",
+      "cam_attenuator": "\"se está usando en\"",
+      "nota": "en curso, no resultado cerrado; 2 de los archivos de colaboración (óptica cuántica) son parciales con sorry"
+    },
+    {
+      "abstract_verb": "demonstrate the power ... as an enabler of autonomous mathematical discovery",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores plantean que abre la puerta a\"",
+      "nota": "meta-claim de impacto: NO escalar a 'revolución'/'la IA ya hace matemáticas sola'. 'autonomous' aplica a la búsqueda de prueba; los problemas fueron formalizados y seleccionados por humanos/Gemini y las pruebas en lenguaje natural las revisaron matemáticos."
+    }
+  ],
+  "narrative_hooks": [
+    "353 problemas de Erdős sin resolver: un agente de IA los intentó todos y cerró 9.",
+    "En 5 de los 9 la respuesta que probó fue «no».",
+    "Con los mismos 9 problemas, Codex resolvió 7 y Claude Code ninguno, aunque las condiciones no fueron iguales.",
+    "Una prueba típica de Erdős es unas 3,8 veces más larga que una de la OEIS."
+  ],
+  "limitations": [
+    "El denominador 353 son los problemas ya formalizados en Lean (sesgo hacia lo formalizable), no los más de 1.200 del catálogo.",
+    "El paper reporta 44 conjeturas OEIS; el repositorio público trae 38 pruebas.",
+    "La comparación con Codex, Claude Code y otros agentes está transcrita del material suplementario y no es un experimento controlado.",
+    "«Líneas de código» y «declaraciones auxiliares» son métricas didácticas propias: miden tamaño del archivo, no dificultad; las declaraciones incluyen definiciones (24 %).",
+    "El costo en dólares de cada intento no es reproducible (solo figuras).",
+    "Solo 9 pruebas de Erdős: muestras pequeñas."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados, 14 números clave"
+  },
+  "notebook_slug": "2026-10-08-ia-busqueda-pruebas-formales-erdos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-10-08-ia-busqueda-pruebas-formales-erdos/notebook.html",
+  "generated_at": "2026-10-09T10:58:50-05:00"
+}

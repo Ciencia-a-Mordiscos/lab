@@ -1,0 +1,8 @@
+sistema,modelo,resueltos,total,fuente
+AlphaProof Nexus (agente completo D),Gemini 3.1 Pro + AlphaProof,9,9,abstract + SM S11+
+OpenAI Codex (goal mode),GPT-5.5 extra-high,7,9,SM S10
+Claude Code (goal mode),Opus 4.7 max effort,0,9,SM S10-S11
+Agente basico A,Gemini 3.0 Flash,0,9,SM S10
+Agente basico A,Gemini 3.1 Flash-Lite,0,9,SM S10
+Agente basico + AlphaProof (B),Gemini 3.0 Flash,0,9,SM S10
+"AlphaProof solo (tree search, ~64 h TPU v6e/problema)",AlphaProof,0,9,SM S10

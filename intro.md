@@ -14,6 +14,19 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Una IA contra 353 problemas abiertos de Erdős
+
+**Tecnología** · *Science* · Un agente que escribe pruebas en Lean, donde el compilador revisa cada paso,
+resolvió 9 de los 353 problemas de Erdős que intentó (2,55 %) y 44 de 492
+conjeturas de la OEIS según el paper (38 con prueba en el repositorio público).
+Sus pruebas de Erdős son unas 3,8 veces más largas que las de la OEIS (mediana
+764 contra 199 líneas). ⚠️ La comparación con Codex (7 de 9) y Claude Code
+(0 de 9) es la que narra el material suplementario, no un experimento controlado.
+
+[Ver notebook](papers/2026-10-08-ia-busqueda-pruebas-formales-erdos/notebook) · [Leer más](papers/2026-10-08-ia-busqueda-pruebas-formales-erdos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-10-08-ia-busqueda-pruebas-formales-erdos/notebook.ipynb)
+
+---
+
 ### Egoístas y generosos maquillan el impacto de sus decisiones
 
 **Psicología** · *Nature Human Behaviour* · En el Experimento 1a, quienes eligieron la opción egoísta vieron las dos
