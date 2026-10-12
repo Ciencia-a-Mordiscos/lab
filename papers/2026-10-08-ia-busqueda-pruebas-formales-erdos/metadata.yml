@@ -11,7 +11,7 @@ fecha: 2026-10-08
 categoria: tecnología
 tags: [inteligencia artificial, matemáticas, Lean, pruebas formales, problemas de Erdős, OEIS, AlphaProof]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/YULpZIMwUWo"
 fuentes:
   - doi: "10.1126/science.aej2213"
     titulo: "Advancing mathematics research with AI-driven formal proof search"

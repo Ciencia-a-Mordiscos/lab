@@ -27,6 +27,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/YULpZIMwUWo)
 - **Paper:** [Science — DOI: 10.1126/science.aej2213](https://doi.org/10.1126/science.aej2213)
 - **Datos originales:** [Zenodo — alphaproof-nexus-results](https://doi.org/10.5281/zenodo.21477349) · [Formal Conjectures (GitHub)](https://github.com/google-deepmind/formal-conjectures)

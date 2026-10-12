@@ -31,6 +31,6 @@ Todos salen de las Supplementary Tables del paper (MOESM4). Los microdatos del S
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/t5oyF0IgEMw)
 - **Paper:** [Nature Human Behaviour — DOI: 10.1038/s41562-026-02607-0](https://doi.org/10.1038/s41562-026-02607-0)
 - **Datos originales:** [Supplementary Tables (MOESM4)](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-026-02607-0/MediaObjects/41562_2026_2607_MOESM4_ESM.xlsx)
