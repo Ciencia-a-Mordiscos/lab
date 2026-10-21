@@ -1,0 +1,37 @@
+titulo: "La Amazonía, entre el fuego y la sequía"
+titulo_corto: "Amazonía, fuego y sequía"
+titulo_card: "¿Sigue siendo la Amazonía una esponja de carbono?"
+card_descripcion: |
+  Quince años de vuelos de avioneta (2010–2024): la Amazonía fue fuente neta de
+  carbono en 13 de 15 años, con el fuego (0,40 PgC/año) por encima del balance
+  medio (0,32). En 2024 el balance llegó a 0,81 PgC/año. Los años de
+  deforestación alta y los secos y cálidos emiten parecido (p = 0,56). ⚠️ Con
+  15 años no hay tendencia estadística, y los grupos salen de un k-means que
+  incluye el propio balance.
+fecha: 2026-10-21
+categoria: ecología
+tags: [amazonía, carbono, incendios, sequía, deforestación, El Niño, sumidero de carbono, CO₂]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11168-1"
+    titulo: "Amazon carbon emissions driven by human actions amplified by droughts"
+    journal: Nature
+    autores: "Gatti et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "amazonia_anual.csv"
+    descripcion: "Flujos de carbono, clima, fuego y deforestación de la Amazonía por año, 2010–2024 (15 filas)"
+    fuente: "Extended Data Table 2 (Nature)"
+  - nombre: "regiones_anual.csv"
+    descripcion: "Flujos de carbono, clima, fuego y deforestación de las 4 regiones por año (60 filas)"
+    fuente: "Extended Data Table 2 (Nature)"
+  - nombre: "perfiles_dco2.csv"
+    descripcion: "CO₂ medio sobre el fondo por perfil de avión (948 perfiles, 9.178 muestras)"
+    fuente: "PANGAEA (doi:10.1594/PANGAEA.988417)"
+  - nombre: "perfil_vertical_por_grupo.csv"
+    descripcion: "CO₂ medio sobre el fondo por banda de 500 m y grupo de años (27 filas)"
+    fuente: "PANGAEA (doi:10.1594/PANGAEA.988417)"
+estado: publicado

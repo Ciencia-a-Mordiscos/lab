@@ -1,0 +1,305 @@
+{
+  "version": "1.0",
+  "paper_id": 3123,
+  "doi": "10.1038/s41586-026-11168-1",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "La Amazonía fue fuente neta de carbono en 13 de 15 años",
+      "supported": "yes",
+      "detail": "El balance total queda por encima de cero en todos los años salvo 2011 (−0,01) y 2018 (−0,12).",
+      "certainty_tier": "T1",
+      "abstract_verb": "determine",
+      "metric": "anios_fuente_tcf_pos",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El carbono atribuido al fuego supera al balance total medio: 0,40 frente a 0,32 PgC/año",
+      "supported": "yes",
+      "detail": "El bosque absorbe neto en 10 de 15 años y compensa una parte de la quema. El fuego se deduce del CO, con su propia incertidumbre.",
+      "certainty_tier": "T1",
+      "abstract_verb": "determine",
+      "metric": "fcf_media_15a",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los años de deforestación alta y los años secos y cálidos emitieron más que los años húmedos",
+      "supported": "partial",
+      "detail": "+0,31 y +0,37 PgC/año frente al grupo 1 (d = 2,03 y 1,74; p = 0,019 y 0,030), pero con 6, 4 y 5 años, y el balance forma parte del propio agrupamiento: la diferencia es en parte circular.",
+      "certainty_tier": "T2",
+      "abstract_verb": "represents",
+      "metric": "g2_vs_g1_tcf_pct",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 2.03,
+        "interpretation": "grande (G1 vs G2); 1,74 G1 vs G3"
+      }
+    },
+    {
+      "claim": "Los años de deforestación alta y los años secos y cálidos no se distinguen en su balance",
+      "supported": "partial",
+      "detail": "Grupo 2 frente a grupo 3: p = 0,56, d = 0,29 (4 y 5 años). Con tan pocos años, no distinguirse no prueba que sean iguales, y el balance forma parte del agrupamiento. El texto del paper dice lo mismo («do not differ significantly»).",
+      "certainty_tier": "T1",
+      "abstract_verb": "identify",
+      "metric": "mw_tcf_g2_g3_p",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.29,
+        "interpretation": "pequeño"
+      }
+    },
+    {
+      "claim": "En los años con menos lluvia de agosto a octubre se quemó más área",
+      "supported": "yes",
+      "detail": "ρ = −0,72 (p = 0,002, n = 15 años). Es una asociación entre años, no un experimento.",
+      "certainty_tier": "T2",
+      "abstract_verb": "amplified",
+      "metric": "spearman",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los autores concluyen que el sumidero amazónico se está debilitando",
+      "supported": "partial",
+      "detail": "Con 15 años, ni el balance (ρ = 0,22, p = 0,44) ni el intercambio del bosque (ρ = 0,16, p = 0,58) muestran tendencia con el año. La conclusión descansa en la comparación de grupos y en estudios previos.",
+      "certainty_tier": "T2",
+      "abstract_verb": "weakening",
+      "metric": "spearman",
+      "supported_by_data": true
+    },
+    {
+      "claim": "En los años secos y cálidos el aire lleva más CO₂ sobre el fondo, sobre todo entre 1.500 y 4.000 m",
+      "supported": "partial",
+      "detail": "948 perfiles de PANGAEA: 0,81 frente a 0,28 ppm en esa franja. Perfil a perfil, el efecto es pequeño (d = 0,28); promediando por año (5 frente a 6), p = 0,052, y solo 1 de las 4 regiones llega a p < 0,05 por separado.",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "metric": "perfiles_pangaea",
+      "supported_by_data": true,
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 0.28,
+        "interpretation": "pequeño (perfil a perfil)"
+      }
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 0.32,
+      "unit": "PgC/año",
+      "metric": "tcf_media_15a",
+      "context": "balance total medio de carbono de la Amazonía 2010–2024",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.4,
+      "unit": "PgC/año",
+      "metric": "fcf_media_15a",
+      "context": "carbono atribuido al fuego, media 2010–2024",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.08,
+      "unit": "PgC/año",
+      "metric": "fcf_media_15a",
+      "context": "diferencia entre el fuego medio y el balance total medio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 13,
+      "unit": "años de 15",
+      "metric": "anios_fuente_tcf_pos",
+      "context": "años con balance total positivo (fuente neta)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10,
+      "unit": "años de 15",
+      "metric": "anios_nbe_neg",
+      "context": "años en que el bosque absorbió neto (NBE < 0)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.81,
+      "unit": "PgC/año",
+      "metric": "tcf_2024",
+      "context": "balance total de 2024, récord de la serie",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 105,
+      "unit": "por ciento",
+      "metric": "area_quemada_2024_vs_media_pct",
+      "context": "área quemada de 2024 sobre la media de 15 años",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.25,
+      "unit": "PgC/año",
+      "metric": "tcf_sd_interanual",
+      "context": "desviación estándar del balance entre años",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.58,
+      "unit": "p-valor",
+      "metric": "spearman",
+      "context": "tendencia del intercambio del bosque con el año (Spearman ρ = 0,16, n = 15)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.31,
+      "unit": "PgC/año",
+      "metric": "g2_tcf_media",
+      "context": "diferencia de balance grupo 2 − grupo 1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.37,
+      "unit": "PgC/año",
+      "metric": "g3_tcf_media",
+      "context": "diferencia de balance grupo 3 − grupo 1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.56,
+      "unit": "p-valor",
+      "metric": "mw_tcf_g2_g3_p",
+      "context": "Mann-Whitney del balance, grupo 2 frente a grupo 3",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 64,
+      "unit": "por ciento",
+      "metric": "g1_sumidero_compensa_fuego_pct",
+      "context": "parte del carbono del fuego que compensa el bosque en el grupo 1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 97,
+      "unit": "por ciento",
+      "metric": "g2_vs_g1_deforestacion_pct",
+      "context": "deforestación anual media, grupo 2 frente a grupo 1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 92,
+      "unit": "por ciento",
+      "metric": "g3_vs_g1_area_quemada_pct",
+      "context": "área quemada media, grupo 3 frente a grupo 1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 948,
+      "unit": "perfiles",
+      "metric": "perfiles_pangaea",
+      "context": "perfiles de avión en PANGAEA, 2010–2024",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.53,
+      "unit": "ppm",
+      "metric": "perfiles_pangaea",
+      "context": "diferencia de exceso medio de CO₂ entre 1.500 y 4.000 m, grupo 3 (0,81) − grupo 1 (0,28)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.052,
+      "unit": "p-valor",
+      "metric": "perfiles_pangaea",
+      "context": "perfiles promediados por año, grupo 1 frente a grupo 3 (5 y 6 años)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.28,
+      "unit": "d de Cohen",
+      "metric": "perfiles_pangaea",
+      "context": "tamaño de efecto perfil a perfil, grupo 3 frente a grupo 1",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "\"presentan\" — afirmación directa sobre el análisis"
+    },
+    {
+      "abstract_verb": "determine",
+      "tier": "T1",
+      "cam_attenuator": "\"calcularon un balance de 0,32\" — afirmación directa con su incertidumbre"
+    },
+    {
+      "abstract_verb": "identify",
+      "tier": "T1",
+      "cam_attenuator": "\"agruparon los años en tres tipos\" — es un k-means, no un descubrimiento de categorías naturales"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "\"las mediciones muestran\" — PERO diseño observacional: \"show\" ≠ causal; y la serie sola no da tendencia significativa del sumidero"
+    },
+    {
+      "abstract_verb": "represents",
+      "tier": "T2",
+      "cam_attenuator": "\"según los autores, el grupo 2 refleja la huella humana\" — atribución por agrupamiento, no medición directa de causa"
+    },
+    {
+      "abstract_verb": "driven by / drivers (título)",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores atribuyen\" / \"asociado a\""
+    },
+    {
+      "abstract_verb": "amplified / amplify (título)",
+      "tier": "T2",
+      "cam_attenuator": "\"en años secos y cálidos las emisiones fueron mayores\""
+    },
+    {
+      "abstract_verb": "weakening",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores concluyen que el sumidero se debilita\""
+    }
+  ],
+  "narrative_hooks": [
+    "810 millones de toneladas de carbono: lo que la Amazonía soltó en 2024, el peor año de 15.",
+    "El fuego aporta más carbono (0,40 PgC/año) que el balance total medio (0,32): la selva compensa una parte, no toda.",
+    "Los años de deforestación alta y los secos y cálidos no se distinguen en su balance; los húmedos emiten mucho menos."
+  ],
+  "limitations": [
+    "Flujos anuales transcritos de la Extended Data Table 2, no recalculados desde los frascos.",
+    "El fuego se deduce del CO con un cociente CO₂:CO; no es una medición directa.",
+    "Los grupos salen de un k-means que incluye el propio balance: las diferencias entre grupos son en parte circulares (n = 6, 4 y 5 años).",
+    "Con 15 años no hay tendencia estadística en el balance ni en el intercambio del bosque; el «debilitamiento» es conclusión de los autores.",
+    "El ± del abstract es incertidumbre Monte Carlo, no variación entre años (SD interanual 0,25 PgC/año).",
+    "Estudio observacional: asociaciones, no causas probadas."
+  ],
+  "notebook_slug": "2026-10-21-amazonia-emisiones-carbono-incendios-sequia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/notebook.html",
+  "generated_at": "2026-10-21T18:21:52-05:00",
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims verificados, 19 números clave"
+  }
+}

@@ -1,5 +1,18 @@
 # Ecología
 
+## ¿Sigue siendo la Amazonía una esponja de carbono?
+
+*Nature* · Quince años de vuelos de avioneta (2010–2024): la Amazonía fue fuente neta de
+carbono en 13 de 15 años, con el fuego (0,40 PgC/año) por encima del balance
+medio (0,32). En 2024 el balance llegó a 0,81 PgC/año. Los años de
+deforestación alta y los secos y cálidos emiten parecido (p = 0,56). ⚠️ Con
+15 años no hay tendencia estadística, y los grupos salen de un k-means que
+incluye el propio balance.
+
+[Ver notebook](../papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/notebook) · [Leer más](../papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/notebook.ipynb)
+
+---
+
 ## Las olas de calor llegan antes y se van después
 
 *Nature Climate Change* · En la tierra firme, entre 1979 y 2023, la primera ola de calor del año se adelantó

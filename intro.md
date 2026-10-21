@@ -14,6 +14,19 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### ¿Sigue siendo la Amazonía una esponja de carbono?
+
+**Ecología** · *Nature* · Quince años de vuelos de avioneta (2010–2024): la Amazonía fue fuente neta de
+carbono en 13 de 15 años, con el fuego (0,40 PgC/año) por encima del balance
+medio (0,32). En 2024 el balance llegó a 0,81 PgC/año. Los años de
+deforestación alta y los secos y cálidos emiten parecido (p = 0,56). ⚠️ Con
+15 años no hay tendencia estadística, y los grupos salen de un k-means que
+incluye el propio balance.
+
+[Ver notebook](papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/notebook) · [Leer más](papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/notebook.ipynb)
+
+---
+
 ### ¿Qué queda de la asociación entre pantallas y ansiedad entre gemelos idénticos?
 
 **Psicología** · *Nature Human Behaviour* · En 21.797 gemelos suecos, más de 6 h diarias de pantalla interactiva a los 15
