@@ -14,6 +14,20 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### ¿Era real el anillo del agujero negro de M87?
+
+**Astronomía** · *Nature* · Un algoritmo que no impone un anillo y usa invariantes de cierre, inmunes a la
+calibración de cada antena, reconstruye el anillo de M87* en ocho noches de
+2017, 2018 y 2021: diámetro medio de 42,2 μas, el mismo que da un anillo
+geométrico ajustado sin imagen (42,26). Con α = 11 y D = 16,8 Mpc eso son
+6.530 millones de soles, en línea con las estrellas y lejos del gas. ⚠️ La
+masa es inferida (depende de α y D) y solo hay 50 reconstrucciones por noche
+para 3 de las 8 noches.
+
+[Ver notebook](papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/notebook) · [Leer más](papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/notebook.ipynb)
+
+---
+
 ### ¿Sigue siendo la Amazonía una esponja de carbono?
 
 **Ecología** · *Nature* · Quince años de vuelos de avioneta (2010–2024): la Amazonía fue fuente neta de

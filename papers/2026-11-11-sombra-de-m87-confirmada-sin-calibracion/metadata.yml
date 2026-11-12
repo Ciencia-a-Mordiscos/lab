@@ -1,0 +1,38 @@
+titulo: "La sombra de M87*, a prueba de errores de calibración"
+titulo_corto: "M87*: el anillo, otra vez"
+titulo_card: "¿Era real el anillo del agujero negro de M87?"
+card_descripcion: |
+  Un algoritmo que no impone un anillo y usa invariantes de cierre, inmunes a la
+  calibración de cada antena, reconstruye el anillo de M87* en ocho noches de
+  2017, 2018 y 2021: diámetro medio de 42,2 μas, el mismo que da un anillo
+  geométrico ajustado sin imagen (42,26). Con α = 11 y D = 16,8 Mpc eso son
+  6.530 millones de soles, en línea con las estrellas y lejos del gas. ⚠️ La
+  masa es inferida (depende de α y D) y solo hay 50 reconstrucciones por noche
+  para 3 de las 8 noches.
+fecha: 2026-11-11
+categoria: astronomía
+tags: [agujero negro, M87*, Event Horizon Telescope, interferometría, invariantes de cierre, sombra, masa]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11241-9"
+    titulo: "Independent interferometric observable confirms black hole shadow in M87*"
+    journal: Nature
+    autores: "Lai et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "anillo_por_fecha_imagen.csv"
+    descripcion: "Diámetro, ancho, orientación, asimetría y brillo central del anillo por noche, medidos sobre las imágenes (8 filas)"
+    fuente: "Table 1 (Nature)"
+  - nombre: "anillo_por_fecha_geometrico.csv"
+    descripcion: "Las mismas propiedades por noche con un anillo geométrico ajustado a los invariantes de cierre (8 filas)"
+    fuente: "Extended Data Table 1 (Nature)"
+  - nombre: "M87_2017_101_225_muestras.npy · M87_2018_111_225_muestras.npy · M87_2021_108_225_muestras.npy"
+    descripcion: "50 reconstrucciones GenDIReCT de 64×64 píxeles (campo de 225 μas) por noche: 11/04/2017, 21/04/2018 y 18/04/2021"
+    fuente: "Zenodo (doi:10.5281/zenodo.22764433)"
+  - nombre: "diametro_por_muestra_fov225.csv"
+    descripcion: "Diámetro del anillo re-medido en cada una de las 150 reconstrucciones (150 filas)"
+    fuente: "Derivado de Zenodo (doi:10.5281/zenodo.22764433)"
+estado: publicado

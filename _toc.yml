@@ -912,6 +912,11 @@ chapters:
 - file: categorias/astronomia
   title: "Astronomía"
   sections:
+  - file: papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/README
+    title: "M87*: el anillo, otra vez"
+    sections:
+    - file: papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/notebook
+      title: Notebook
   - file: papers/2026-08-22-azufre-nativo-gale-marte/README
     title: "El azufre que no debería estar suelto"
     sections:

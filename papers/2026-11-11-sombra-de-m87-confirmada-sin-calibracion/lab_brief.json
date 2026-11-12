@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "paper_id": 3180,
+  "doi": "10.1038/s41586-026-11241-9",
+  "paper_type": "observational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "El anillo reaparece en las tres noches que podemos abrir",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Medianas de 50 reconstrucciones por noche (11/04/2017, 21/04/2018, 18/04/2021): anillo con hueco central en las tres",
+      "certainty_tier": "T1",
+      "abstract_verb": "reconstruct / unequivocally reproduce"
+    },
+    {
+      "claim": "El diámetro medio de las ocho noches es 42,2 μas",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "Media de Table 1: 42,25 (n = 8); dispersión entre noches 1,38 vs ± 1,5 del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "reconstruct",
+      "metric": "diametro_media_8_fechas_imagen"
+    },
+    {
+      "claim": "El anillo geométrico da el mismo tamaño medio",
+      "supported": "yes",
+      "supported_by_data": true,
+      "detail": "42,26 vs 42,25; por noche difieren hasta 3,5 μas y no ordenan igual (ρ = −0,41, p = 0,31, n = 8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a (cuerpo)",
+      "metric": "diametro_media_8_fechas_geometrico"
+    },
+    {
+      "claim": "La masa inferida es de unos 6.500 millones de soles",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Recalculada 6,53 × 10⁹ (α = 11, D = 16,8 Mpc); 5,95–6,73 con α 10,67–12,06. Depende de α (simulaciones) y D",
+      "certainty_tier": "T2",
+      "abstract_verb": "corresponding to ... assuming nominal scaling parameters",
+      "metric": "masa"
+    },
+    {
+      "claim": "La masa encaja con la de las estrellas y no con la del gas",
+      "supported": "partial",
+      "supported_by_data": true,
+      "detail": "Hereda los supuestos de la masa. Estrellas 6,6 ± 0,4; gas 3,5. Con α 10,67–12,06 la masa va de 5,95 a 6,73; para la del gas haría falta α ≈ 20,5",
+      "certainty_tier": "T2",
+      "abstract_verb": "n/a (cuerpo: excellent agreement)",
+      "metric": "masa"
+    },
+    {
+      "claim": "La imagen encaja con una inclinación de unos 20°",
+      "supported": "partial",
+      "supported_by_data": false,
+      "detail": "Lo dice el paper comparando con simulaciones GRMHD; no reproducible con estos datos",
+      "certainty_tier": "T2",
+      "abstract_verb": "approximately",
+      "metric": "inclinacion"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "42,25 μas sobre la imagen y 42,26 con el anillo geométrico",
+      "unit": "μas",
+      "metric": "diametro_media_8_fechas_imagen",
+      "context": "media de las 8 noches, Table 1 vs Extended Data Table 1",
+      "cross_check": {
+        "paper_reported": "42.2 ± 1.5 / 42.3 ± 1.1",
+        "our_calculation": "42.25 / 42.26",
+        "discrepancy_pct": 0.1,
+        "reason": "redondeo"
+      },
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "el paper da 42,2 ± 1,5 y 42,3 ± 1,1",
+      "unit": "μas",
+      "metric": "contexto_paper",
+      "context": "cifras del paper",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "la dispersión entre las ocho noches que calculamos es 1,38 μas",
+      "unit": "μas",
+      "metric": "diametro_media_8_fechas_imagen",
+      "context": "desviación estándar (ddof=1) de los 8 diámetros de Table 1; el paper da ± 1,5 sin detallar el cálculo",
+      "cross_check": {
+        "paper_reported": "1.5",
+        "our_calculation": "1.38",
+        "discrepancy_pct": -8,
+        "reason": "el paper no detalla cómo combina incertidumbres"
+      },
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "el 13 de abril de 2021 la imagen da 40,4 μas y el anillo geométrico 43,9, una diferencia de 3,5",
+      "unit": "μas",
+      "metric": "max_abs_diferencia_por_fecha_uas",
+      "context": "mayor diferencia entre métodos en una noche",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "el anillo da 44,5 μas en 2017, 43,7 en 2018 y 41,5 en 2021",
+      "unit": "μas",
+      "metric": "diametro_imagen_mediana_pixelwise",
+      "context": "re-medido por nosotros sobre la mediana de 50 reconstrucciones (FOV 225)",
+      "cross_check": {
+        "paper_reported": "43.3 / 42.7 / 39.9 (Table 1)",
+        "our_calculation": "44.5 / 43.7 / 41.5",
+        "discrepancy_pct": 4.0,
+        "reason": "1 FOV y 50 reconstrucciones vs 3 FOV y ~300; ajuste simplificado"
+      },
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "205° el 21 de abril de 2018 y 197° el 18 de abril de 2021",
+      "unit": "grados",
+      "metric": "orientacion_rango_imagen_deg",
+      "context": "ángulo de posición del lado brillante, Table 1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "el anillo de 42,2 μas se traduce en 6,53 mil millones de soles",
+      "unit": "×10⁹ M☉",
+      "metric": "masa",
+      "context": "recálculo con α = 11 y D = 16,8 Mpc",
+      "cross_check": {
+        "paper_reported": "6.5 ± 0.5",
+        "our_calculation": "6.53",
+        "discrepancy_pct": 0.4,
+        "reason": "redondeo"
+      },
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "la masa va de 5,95 a 6,73",
+      "unit": "×10⁹ M☉",
+      "metric": "M_alpha_12.06",
+      "context": "α de 10,67 a 12,06",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "el anillo tendría que medir unos 22,6 μas",
+      "unit": "μas",
+      "metric": "contexto_paper",
+      "context": "diámetro esperado con la masa del gas (3,5 × 10⁹)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "Encaja con la estimación de las estrellas (6,6 ± 0,4) y queda lejos de la del gas (3,5)",
+      "unit": "×10⁹ M☉",
+      "metric": "contexto_paper",
+      "context": "masas dinámicas previas citadas por el paper",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "El 84 % de las reconstrucciones cae entre 38 y 46 μas, con mediana de 43,0 (IQR 41,4–44,7)",
+      "unit": "μas",
+      "metric": "pooled",
+      "context": "150 reconstrucciones, FOV 225; no son observaciones independientes",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "4 de las 150 quedan más cerca de los 22,6 μas del gas que de los 42,2 del paper",
+      "unit": "reconstrucciones",
+      "metric": "pooled",
+      "context": "las 4 son manchas o fragmentos sin anillo cerrado; el paper dice que las no-anillo son escasas y ajustan peor",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": "16,8 megapársecs (unos 55 millones de años luz)",
+      "unit": "Mpc",
+      "metric": "contexto_paper",
+      "context": "distancia a M87",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "confirms (título)",
+      "tier": "T1",
+      "cam_attenuator": "'confirma' de forma independiente — pero lo que confirma es la MORFOLOGÍA de anillo y su tamaño, no 'que existe el agujero negro'"
+    },
+    {
+      "abstract_verb": "develop / apply",
+      "tier": "T1",
+      "cam_attenuator": "'desarrollaron y aplicaron' — afirmación directa"
+    },
+    {
+      "abstract_verb": "reconstruct / unequivocally reproduce",
+      "tier": "T1",
+      "cam_attenuator": "'reconstruyen el anillo; reaparece en todas las fechas'"
+    },
+    {
+      "abstract_verb": "corresponding to ... assuming nominal scaling parameters",
+      "tier": "T2",
+      "cam_attenuator": "'equivale a unos 6.500 millones de soles si se asume la calibración estándar (α=11, D=16,8 Mpc)'"
+    },
+    {
+      "abstract_verb": "approximately (20° inclinación)",
+      "tier": "T2",
+      "cam_attenuator": "'es más consistente con una inclinación de unos 20°'"
+    },
+    {
+      "abstract_verb": "free from prescriptive morphological priors / immune to calibration errors",
+      "tier": "T2",
+      "cam_attenuator": "'no parte de suponer un anillo' / 'usa medidas que no dependen de la calibración de cada antena'"
+    }
+  ],
+  "narrative_hooks": [
+    "El anillo de M87* reaparece en 2017, 2018 y 2021 con un algoritmo que no lo impone y no depende de calibrar cada antena: 42,2 μas de diámetro medio.",
+    "Dos maneras de medir, sobre la imagen y con un anillo geométrico sin imagen, coinciden en el promedio al centésimo (42,25 vs 42,26 μas).",
+    "Ese tamaño equivale a unos 6.500 millones de soles si se asume α = 11 y D = 16,8 Mpc: en línea con las estrellas (6,6) y lejos del gas (3,5), que pediría un anillo de la mitad."
+  ],
+  "limitations": [
+    "Solo 50 reconstrucciones por noche para 3 de las 8 noches y un campo de visión (225 μas); el paper usa unas 300 por noche y tres campos.",
+    "El ajuste de anillo del notebook es una simplificación y da diámetros 2-4 % mayores que la Table 1.",
+    "La masa es inferida: depende de α (calibrado con simulaciones) y de la distancia; no es una medición directa.",
+    "La inclinación ~20° sale de comparar con simulaciones (según el paper) y no se reproduce aquí.",
+    "Por noche, los dos métodos difieren hasta 3,5 μas y no ordenan las noches igual; lo robusto es el promedio.",
+    "Las 150 reconstrucciones no son observaciones independientes (50 por noche del mismo algoritmo); 4 no muestran anillo cerrado.",
+    "Ancho del anillo y brillo central dependen del método; no se usan. La Extended Data Table 1 está transcrita de imagen."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "3 claims yes, 13 números clave"
+  },
+  "notebook_slug": "2026-11-11-sombra-de-m87-confirmada-sin-calibracion",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/notebook.html",
+  "generated_at": "2026-11-12T18:23:06-05:00"
+}

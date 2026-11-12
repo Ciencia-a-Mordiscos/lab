@@ -1,5 +1,19 @@
 # Astronomía
 
+## ¿Era real el anillo del agujero negro de M87?
+
+*Nature* · Un algoritmo que no impone un anillo y usa invariantes de cierre, inmunes a la
+calibración de cada antena, reconstruye el anillo de M87* en ocho noches de
+2017, 2018 y 2021: diámetro medio de 42,2 μas, el mismo que da un anillo
+geométrico ajustado sin imagen (42,26). Con α = 11 y D = 16,8 Mpc eso son
+6.530 millones de soles, en línea con las estrellas y lejos del gas. ⚠️ La
+masa es inferida (depende de α y D) y solo hay 50 reconstrucciones por noche
+para 3 de las 8 noches.
+
+[Ver notebook](../papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/notebook) · [Leer más](../papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-11-sombra-de-m87-confirmada-sin-calibracion/notebook.ipynb)
+
+---
+
 ## El azufre que en Marte no debería estar suelto
 
 *Science* · En Marte el azufre siempre viene agarrado a otra cosa. En el valle de Gediz, Curiosity le apuntó el espectrómetro a un parche de **2.100 m²** de piedras claras y una rueda del rover partió una. **El hallazgo:** en 10 análisis sobre cinco piedras el azufre llega a **83,28 wt%** de media contra **16,39** en las rocas vecinas (**5,08x**, d = 18,87) — y falta todo lo demás: hierro a **0,07** de su valor vecino, calcio a **0,18**. Los cationes que un sulfato necesitaría no están, y la razón Compton/Rayleigh (**1,39 vs 1,83**) lo confirma por una vía independiente. ⚠️ La columna del CSV se llama `SO3_pct` y **eso no quiere decir sulfato**: el APXS reporta el azufre *como si fuera* SO₃ por convención de calibración. ⚠️ El origen —vapor magmático atrapado en la criosfera— es lo que los autores **proponen**, no lo que el rover midió.
