@@ -6,7 +6,7 @@ fecha: 2026-09-18
 categoria: medicina
 tags: [genética, cáncer de pulmón, EGFR, T790M, efecto fundador, Apalaches, 23andMe, IBD]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/3qqrmoAuabE"
 fuentes:
   - doi: "10.1126/science.aec0473"
     titulo: "Germline EGFR T790M mutation and lung cancer risk"

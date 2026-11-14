@@ -28,6 +28,6 @@ jupyter execute notebook.ipynb
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/3qqrmoAuabE)
 - **Paper:** [Science — DOI: 10.1126/science.aec0473](https://doi.org/10.1126/science.aec0473)
 - **Datos originales:** [Material suplementario del paper](https://www.science.org/doi/suppl/10.1126/science.aec0473) · [código de los autores](https://github.com/sashagusev/egfr-t790m)
