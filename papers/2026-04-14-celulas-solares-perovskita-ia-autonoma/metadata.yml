@@ -21,3 +21,11 @@ titulo_card: "☀️ Celdas solares de perovskita: cuando la IA fabrica mejor qu
 card_descripcion: |
   756 celdas solares fabricadas por una plataforma autónoma de IA (optimización bayesiana + ML) vs. 36 controles manuales. Las 20 condiciones automatizadas superan al control: +2,9 pp de eficiencia (22,4% → 25,3%), Cohen's d = 6,54. La ganancia viene del voltaje (VOC) y el factor de llenado (FF), no de la corriente.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/celdas_solares.csv (22,4% a 25,3%)"
+  falta: null
+  corto_id: 2342
+  corto_video: "https://youtube.com/shorts/InqFt0ezQos"

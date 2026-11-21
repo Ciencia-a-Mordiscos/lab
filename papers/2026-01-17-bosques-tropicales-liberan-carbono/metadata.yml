@@ -30,3 +30,11 @@ titulo_card: "🌿 Los Bosques Tropicales Ahora Liberan Carbono"
 card_descripcion: |
   Carle et al. (2025), 48 años de censos forestales en 20 parcelas de Queensland, Australia — los bosques pasaron de absorber +0,62 Mg C ha⁻¹ yr⁻¹ a liberar −0,93, impulsados por mortalidad extrema sin evidencia de fertilización por CO₂
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "agb_plotwise.csv (+0,62 → −0,93 Mg C/ha/año)"
+  falta: null
+  corto_id: 29
+  corto_video: "https://youtube.com/shorts/PzrTo36okmQ"

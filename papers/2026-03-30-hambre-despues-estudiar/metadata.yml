@@ -34,3 +34,11 @@ titulo_card: "🧠 Hambre después de estudiar"
 card_descripcion: |
   Memoria en *Drosophila* por tipo de entrenamiento, silenciamiento Gr43a, preferencia por sucrosa post-aprendizaje
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/memoria_tipo_entrenamiento.csv (índice 41 vs 18)"
+  falta: null
+  corto_id: 2266
+  corto_video: "https://youtube.com/shorts/e14oe0wa2bY"

@@ -30,3 +30,11 @@ titulo_card: "🧫 Cáncer despierta armas contra tu cerebro"
 card_descripcion: |
   Tumores TNBC expresan receptores NMDA del cerebro, anticuerpos anti-tumor causan encefalitis autoinmune — trade-off inmunidad vs neurotoxicidad
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/tumor_veh_vs_dox.csv (volumen tumoral, -85%)"
+  falta: null
+  corto_id: 2263
+  corto_video: "https://youtube.com/shorts/20DRfz2D5Bg"

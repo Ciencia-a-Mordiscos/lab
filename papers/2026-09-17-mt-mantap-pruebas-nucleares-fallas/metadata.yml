@@ -35,3 +35,11 @@ datasets:
     descripcion: "25 sismos históricos 1424-1810 dentro de 200 km"
     fuente: "Supplementary Table S1"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "sismos_catalogo_inicial.csv"
+  falta: null
+  corto_id: 3023
+  corto_video: "https://youtube.com/shorts/BVUxTkv7lF4"

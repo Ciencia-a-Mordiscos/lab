@@ -30,3 +30,11 @@ titulo_card: "🧬 Descubrieron 74 Antibióticos Imposibles de Encontrar"
 card_descripcion: |
   HMD-AMP detecta 100% de AMPs remotos (vs 0% otros métodos), 91 validados experimentalmente, 74 activos, 4 de amplio espectro, MIC 1-4 µg/mL
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (clasificador de lenguaje de proteínas)"
+  referencia: "datos/mic_valores.csv"
+  falta: null
+  corto_id: 2185
+  corto_video: "https://youtube.com/shorts/VbpoT1r9N5A"

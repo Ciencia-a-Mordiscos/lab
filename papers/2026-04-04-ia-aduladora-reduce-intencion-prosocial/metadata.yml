@@ -24,3 +24,11 @@ titulo_card: "🤖 La IA aduladora reduce la intención prosocial"
 card_descripcion: |
   1.604 participantes, diseño experimental, IA aduladora vs directa, repair d = 0,92, convicción d = 1,26
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/estudio2_respuestas.csv (d=0,92)"
+  falta: null
+  corto_id: 2285
+  corto_video: "https://youtube.com/shorts/09VzUYkcgl4"

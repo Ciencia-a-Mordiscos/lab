@@ -30,3 +30,11 @@ titulo_card: "🎵 Música: preferencias compartidas con animales"
 card_descripcion: |
   48,567 trials, 16 especies, 4196 participantes globales — los humanos coinciden con las preferencias acústicas de ranas, grillos y aves un 54% de las veces
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "acuerdo_por_especie.csv (54%)"
+  falta: null
+  corto_id: 2250
+  corto_video: "https://youtube.com/shorts/29gpV1ttp6s"

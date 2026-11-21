@@ -34,3 +34,11 @@ datasets:
     descripcion: "Patrones de distorsión por tipo de decisor, Experimentos 1a y 1b (18 filas)"
     fuente: "OSF (DistDat del análisis de los autores)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "exp1a_estimaciones.csv"
+  falta: null
+  corto_id: 3083
+  corto_video: "https://youtube.com/shorts/OS0Poz1Qqzg"

@@ -24,3 +24,11 @@ titulo_card: "⌚ Tu reloj ya predice diabetes tipo 2"
 card_descripcion: |
   1.165 participantes WEAR-ME, wearables + biomarcadores sanguíneos, HOMA-IR, redes neuronales profundas, AUROC 0,80
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "participantes.csv (AUROC 0,80)"
+  falta: null
+  corto_id: 2226
+  corto_video: "https://youtube.com/shorts/vB7xqNB999g"

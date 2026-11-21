@@ -27,3 +27,11 @@ titulo_card: "El pronóstico de huracanes ganó 23 horas en una década"
 card_descripcion: |
   Google DeepMind dice que su modelo de IA adelanta el aviso de un ciclón un día o más. Reconstruimos la vara: una década entera de progreso del centro de huracanes de EE. UU. compró 22,9 horas.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "nhc_error_anual.csv; ibtracs_tormentas_2023_2025.csv"
+  falta: null
+  corto_id: 2844
+  corto_video: "https://youtube.com/shorts/N_MrgrSR2ec"

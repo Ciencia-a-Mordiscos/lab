@@ -34,3 +34,11 @@ datasets:
     descripcion: "Problemas de Erdős resueltos por otros sistemas (de los 9), transcrito del material suplementario"
     fuente: "Supplementary Materials, pp. S10-S11"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "pruebas_lean.csv"
+  falta: null
+  corto_id: 3102
+  corto_video: "https://youtube.com/shorts/YULpZIMwUWo"

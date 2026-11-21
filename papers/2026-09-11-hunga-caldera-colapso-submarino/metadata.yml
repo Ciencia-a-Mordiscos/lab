@@ -36,3 +36,11 @@ datasets:
     descripcion: "Base global de 177 calderas compilada por los autores"
     fuente: "Source Data MOESM2"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "cambio_fondo_caldera.csv (batimetría pre/post)"
+  falta: null
+  corto_id: 2996
+  corto_video: "https://youtube.com/shorts/BJz_pMfqcZc"

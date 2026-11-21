@@ -43,3 +43,11 @@ datasets:
     descripcion: "Fig. 7c/7d: cerdos en el laberinto en T, ensayo normal e invertido, antes del golpe y a 1 y 4 semanas (78 filas)"
     fuente: "Source Data del paper (MOESM8)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "pole_test_raton.csv"
+  falta: null
+  corto_id: 3041
+  corto_video: "https://youtube.com/shorts/G7a9B1WtqZE"

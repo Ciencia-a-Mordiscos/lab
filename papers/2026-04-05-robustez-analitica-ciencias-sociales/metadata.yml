@@ -27,3 +27,11 @@ titulo_card: "📊 ¿Se puede confiar en un solo análisis?"
 card_descripcion: |
   Kovács et al. (2025), 504 reanálisis de 100 estudios sociales, solo 34% coinciden en tamaño del efecto (±0,05 d), 74% llegan a la misma conclusión
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/efectos_original_vs_reanalisis.csv (34% dentro de ±0,05 d)"
+  falta: null
+  corto_id: 2296
+  corto_video: "https://youtube.com/shorts/oVx8bTC7jZs"

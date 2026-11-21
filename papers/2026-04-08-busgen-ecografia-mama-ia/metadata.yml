@@ -30,3 +30,11 @@ titulo_card: "🤖 ¿Puede una IA Entrenada con Imágenes Inventadas Superar a 9
 card_descripcion: |
   Chen et al. (2026), BUSGen — primer modelo generativo fundacional para ecografía mamaria, pre-entrenado con 3,5 millones de imágenes. A partir de 25K imágenes sintéticas, el modelo supera a los entrenados con datos reales (AUC 0,932 vs 0,925). Evaluado contra 9 radiólogos certificados: +15,9 pp de sensibilidad
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (modelo generativo de imágenes)"
+  referencia: "datos/scaling_auc.csv (AUC 0,953)"
+  falta: null
+  corto_id: 2316
+  corto_video: "https://youtube.com/shorts/4xRH8vPwLtc"

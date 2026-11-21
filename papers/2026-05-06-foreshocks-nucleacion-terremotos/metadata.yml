@@ -20,3 +20,11 @@ titulo_corto: "Cómo se decide un terremoto en 15 milisegundos"
 card_descripcion: |
   Fryer et al. (2026) midieron **64 eventos de nucleación** en una falla artificial bajo cinco presiones (100-300 bar). Una sola variable —**Vmin**, la velocidad del pulso transitorio que aparece al inicio de la nucleación— explica el **78 por ciento** de la varianza en la duración del evento (tc), con correlación de Spearman **r = -0,91** sobre 47 eventos. El rango de Vmin cubre **5.224 veces** y aun así el ajuste se sostiene: tc ∝ Vmin⁻⁰⋅⁵⁴. La pendiente es del mismo orden que la predicción del modelo de fricción que el paper deriva (rate-and-state). **Uno de cada cuatro eventos arresta sin completar la nucleación** (17/64 = 26,6 %) — coincide con la predicción del modelo para impulsos por debajo del umbral. La medición da una distancia característica de slip de 0,3–3,0 mm — órdenes de magnitud menor que las inferidas para rotura dinámica. ⚠️ Las columnas de slip del CSV están en metros aunque el header dice [micron] — hubo que verificar dimensionalmente. ⚠️ La extensión a terremotos tectónicos reales el paper la enmarca como "seem to follow the same scaling" — consistente, no demostrada con los datos del CSV.
 estado: publicado
+modelo_simulable:
+  clase: "S"
+  nivel: "medido"
+  modelo: "Ecuación de movimiento de una grieta de nucleación con fricción de debilitamiento (Dc 0,3-3 mm), impulsada por el deslizamiento del precursor"
+  referencia: "Laboratory_Results_Summary.csv: tc, Lc, Vmin, slip y esfuerzos de 64 eventos (tc ∝ Vmin^-0,54)"
+  falta: null
+  corto_id: 2438
+  corto_video: "https://youtube.com/shorts/lvgNtmgpUq4"

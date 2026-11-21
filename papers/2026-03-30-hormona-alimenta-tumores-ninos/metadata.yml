@@ -34,3 +34,11 @@ titulo_card: "🧬 Hormona alimenta tumores en niños"
 card_descripcion: |
   Respuesta dosis-efecto de testosterona en 6 líneas PFA, comparación de hormonas, control en otros tumores cerebrales
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/testosterone_dosis_pfa.csv (+60% a 25 nM)"
+  falta: null
+  corto_id: 2267
+  corto_video: "https://youtube.com/shorts/fSOCN38a_v8"

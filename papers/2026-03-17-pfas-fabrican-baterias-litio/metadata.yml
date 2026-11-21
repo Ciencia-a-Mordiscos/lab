@@ -36,3 +36,11 @@ titulo_card: "🧪 Los \"forever chemicals\" fabrican baterías"
 card_descripcion: |
   10 tipos de PFAS degradados >99,8%, fluorinación electrotérmica, recuperación de litio ~82% yield, ΔG de 5 cloruros metálicos, solubilidad 275× LiF vs NaCl
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (ΔG de fluorinación calculado por tablas termodinámicas)"
+  referencia: "degradacion_pfas.csv (>99,8%)"
+  falta: null
+  corto_id: 2217
+  corto_video: "https://youtube.com/shorts/jJeBEpjSmww"

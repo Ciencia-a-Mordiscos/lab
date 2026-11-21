@@ -27,3 +27,11 @@ titulo_card: "🏔️ Las cumbres cambian 5 veces más rápido"
 card_descripcion: |
   6,067 parcelas europeas re-visitadas (12-78 años), termofilización 4.8x mayor en cumbres alpinas que bosques, deuda climática acumulada de 0.37°C
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "parcelas.csv (4,8× cumbres vs bosques)"
+  falta: null
+  corto_id: 2241
+  corto_video: "https://youtube.com/shorts/eKxXV4bGJzY"

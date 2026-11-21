@@ -26,3 +26,11 @@ titulo_corto: "Doble rendija atómica en silicio"
 card_descripcion: |
   Un haz de electrones enfocado cubre a la vez dos columnas vecinas de átomos de silicio, separadas 1,36 Å, y sale con franjas de interferencia. A 900 K cada átomo se mueve un 62,5% más que a 300 K y las franjas siguen ahí: las dos columnas no tiemblan por separado.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Interferencia de onda electrónica en dos columnas de Si separadas 1,36 Å con vibración térmica correlacionada (ρx, ρy)"
+  referencia: "cbed_exp_300k/500k/900k.npy (patrones medidos 182×182)"
+  falta: null
+  corto_id: 2882
+  corto_video: "https://youtube.com/shorts/TRGSfrMh43A"

@@ -38,3 +38,11 @@ datasets:
     descripcion: "Muestras del MCMC con acoplamiento topográfico y probabilidad > 0,3 (28.058 de 90.000)"
     fuente: "Borealis doi:10.5683/SP3/RA3KHX (output/TOP/GJI2023)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Torque gravitacional Γ·α(t) del núcleo interno (Γ=1,3e19 N m, τ=6 años) convertido a ΔLOD con la ecuación 3"
+  referencia: "dlod_1964_2019.csv (r=0,986, RMS 0,215 ms)"
+  falta: null
+  corto_id: 3051
+  corto_video: "https://youtube.com/shorts/wQagnAK7fWk"

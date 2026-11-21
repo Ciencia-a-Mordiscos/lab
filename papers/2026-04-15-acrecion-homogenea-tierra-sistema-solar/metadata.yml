@@ -24,3 +24,11 @@ titulo_card: "🌍 ¿De qué está hecha la Tierra? De nada que conozcamos"
 card_descripcion: |
   Render et al. (2026), 10 anomalías isotópicas nucleosintéticas en 17 cuerpos del Sistema Solar. La Tierra es el endmember del array no-carbonáceo: z₀ = −2,37, más extremo que cualquier meteorito conocido. 0% de material del Sistema Solar exterior. Mercurio y Venus serían aún más extremos.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno dinámico (mezcla lineal y regresión de anomalías isotópicas)"
+  referencia: "datos/input_mlr.csv (10 anomalías en 17 cuerpos)"
+  falta: null
+  corto_id: 2287
+  corto_video: "https://youtube.com/shorts/S0LfDVhHtkA"

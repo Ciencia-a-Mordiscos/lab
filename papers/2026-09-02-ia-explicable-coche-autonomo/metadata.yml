@@ -32,3 +32,11 @@ datasets:
     descripcion: "Cambio antes/después en modelo mental y predicción (117 observaciones)"
     fuente: "Repositorio público del paper (GitHub)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "sagat_efectos.csv"
+  falta: null
+  corto_id: 2948
+  corto_video: "https://youtube.com/shorts/noYpw9PRbxI"

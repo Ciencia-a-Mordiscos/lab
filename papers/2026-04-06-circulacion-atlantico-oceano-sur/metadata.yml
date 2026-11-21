@@ -27,3 +27,11 @@ titulo_card: "🌊 La circulación oceánica más débil en 1.300 años"
 card_descripcion: |
   Thresher et al. (2026), corales bambú del Pacífico suroeste revelan que la circulación del Océano Sur y del Atlántico Norte están en mínimos del último milenio — y el Sur se mueve primero, con 20-50 años de ventaja
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (proxy Mg/Ca y correlaciones)"
+  referencia: "datos/aaiw_proxy_mgca.csv (percentil 8 en 1.313 años)"
+  falta: null
+  corto_id: 2303
+  corto_video: "https://youtube.com/shorts/kuBd3sup5Yc"

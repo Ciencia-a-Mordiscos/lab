@@ -27,3 +27,11 @@ titulo_card: "🔬 ¿Se puede replicar la ciencia social?"
 card_descripcion: |
   Protzko et al. (2025), 274 claims de 164 papers replicados, 55,1% se replica, efecto mediano se reduce a la mitad
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/efecto_original_vs_replica.csv (55,1% replica)"
+  falta: null
+  corto_id: 2295
+  corto_video: "https://youtube.com/shorts/Ba7hqigdLeo"

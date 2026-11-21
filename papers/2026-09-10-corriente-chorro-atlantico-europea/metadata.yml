@@ -35,3 +35,11 @@ datasets:
     descripcion: "Porcentaje de días fuera de ±2 SD por período, separando cola débil y cola fuerte"
     fuente: "Figshare 10.6084/m9.figshare.29445245"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "indices_diarios_temporada_fria.csv"
+  falta: null
+  corto_id: 2986
+  corto_video: "https://youtube.com/shorts/t4VR1ABKlJ0"

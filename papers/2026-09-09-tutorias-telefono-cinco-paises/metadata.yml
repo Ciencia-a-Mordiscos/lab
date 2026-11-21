@@ -40,3 +40,11 @@ datasets:
     descripcion: "LAYS por US$100 y costo por niño, con el comparador presencial (3 filas)"
     fuente: "Nature — texto principal (Discussion)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "efectos_por_pais.csv"
+  falta: null
+  corto_id: 2980
+  corto_video: "https://youtube.com/shorts/rcIBsCneRZY"

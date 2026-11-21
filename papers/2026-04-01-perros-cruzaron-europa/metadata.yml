@@ -27,3 +27,11 @@ titulo_card: "🐕 Los mismos perros cruzaron toda Europa"
 card_descripcion: |
   148 cánidos antiguos (74 perros, 73 lobos) de 25 países, genomas nucleares y mitocondriales, isótopos estables δ¹³C/δ¹⁵N
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/muestras.csv (148 genomas con coordenadas y edad)"
+  falta: null
+  corto_id: 2269
+  corto_video: "https://youtube.com/shorts/62WFFzEFzNM"

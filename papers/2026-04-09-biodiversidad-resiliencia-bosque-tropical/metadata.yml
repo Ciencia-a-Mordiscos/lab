@@ -26,3 +26,11 @@ titulo_corto: "Biodiversidad resiliente en bosque tropical"
 card_descripcion: |
   ¿Cuánto tarda un bosque tropical en volver a la vida? 16 grupos taxonómicos en Ecuador — desde bacterias hasta murciélagos. La abundancia recupera >90% en 30 años, pero la composición de especies se queda en ~75%.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Curva de recuperación por taxón con resistencia inicial y tasa de retorno λ hacia el bosque viejo"
+  referencia: "datos/recuperacion_taxa.csv (recuperación relativa a 30 años, Resistance, Lambda)"
+  falta: null
+  corto_id: 2317
+  corto_video: "https://youtube.com/shorts/rT1sOoEHrSw"

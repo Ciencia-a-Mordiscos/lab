@@ -27,3 +27,11 @@ titulo_card: "💎 Crearon el diamante imposible que solo existía en meteoritos
 card_descripcion: |
   Diamante hexagonal (lonsdaleíta) puro a escala milimétrica, dureza Vickers 280 GPa, XRD con 9 picos hexagonales, TGA estabilidad térmica
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Ley de Bragg sobre red hexagonal de carbono → picos de difracción calculados"
+  referencia: "xrd_patrones.csv (9 picos HD medidos)"
+  falta: null
+  corto_id: 2197
+  corto_video: "https://youtube.com/shorts/EXoqWqt_aeo"

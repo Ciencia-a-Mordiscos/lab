@@ -30,3 +30,11 @@ titulo_card: "🌊 Las Olas de Calor Cambian 176% la Vida en el Océano"
 card_descripcion: |
   Blowes et al. (2026), 702.037 estimaciones de biomasa en 1.566 especies de peces — las olas de calor crean ganadores (+176%) en el borde frío y perdedores (-43,4%) en el borde cálido
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "biomasa_por_posicion_termica.csv"
+  falta: null
+  corto_id: 2159
+  corto_video: "https://youtube.com/shorts/Pzn_RTumA3k"

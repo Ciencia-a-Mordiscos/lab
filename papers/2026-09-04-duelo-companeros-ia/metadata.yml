@@ -37,3 +37,11 @@ datasets:
     descripcion: "Estudio 2 (n=120): duelo anticipado (0-100) ante la pérdida de 7 entidades, con Cohen's d y diferencia media con IC95 frente a Replika."
     fuente: "GitHub — Ethical-Intelligence-Lab/ai_loss"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "serie_diaria_sentimiento.csv"
+  falta: null
+  corto_id: 2956
+  corto_video: "https://youtube.com/shorts/mqXluIBuD80"

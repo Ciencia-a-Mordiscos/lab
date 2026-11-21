@@ -27,3 +27,11 @@ titulo_card: "🐠 2.795 arrecifes: ¿sirve protegerlos?"
 card_descripcion: |
   2.795 arrecifes tropicales, 22 contribuciones de peces, modelo bayesiano contrafactual, MPAs compensan ~5% de degradación, Cohen's d = 0,33 (protección total vs sin)
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "sitios_arrecifes.csv (d=0,33)"
+  falta: null
+  corto_id: 2213
+  corto_video: "https://youtube.com/shorts/pT8m2PGyfwI"

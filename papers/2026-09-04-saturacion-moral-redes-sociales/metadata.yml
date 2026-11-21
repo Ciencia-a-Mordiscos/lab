@@ -40,3 +40,11 @@ datasets:
     descripcion: "Cascada de muestra por canal: brutas, de modelo y excluidas"
     fuente: "Paquete público de OSF"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "curva_densidad_plataforma.csv"
+  falta: null
+  corto_id: 2952
+  corto_video: "https://youtube.com/shorts/flycuTvNeho"

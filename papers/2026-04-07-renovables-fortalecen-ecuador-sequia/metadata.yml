@@ -30,3 +30,11 @@ titulo_card: "⚡ Renovables Fortalecen a Ecuador Contra la Sequía"
 card_descripcion: |
   Sterl et al. (2026), 14 años de datos hidrológicos y factores de capacidad renovable — el río Paute cayó 42,4% en 2024 pero solar y eólica habrían seguido generando, revelando una "sinergia de año extremo"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno dinámico (contabilidad caudal × factor de capacidad solar/eólico)"
+  referencia: "datos/caudal_mensual_paute.csv (-42,4% en 2024)"
+  falta: null
+  corto_id: 2312
+  corto_video: "https://youtube.com/shorts/loejw0_HURE"

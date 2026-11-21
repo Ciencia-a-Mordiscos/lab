@@ -36,3 +36,11 @@ datasets:
     descripcion: "Diámetro del anillo re-medido en cada una de las 150 reconstrucciones (150 filas)"
     fuente: "Derivado de Zenodo (doi:10.5281/zenodo.22764433)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Diámetro del anillo = α·GM/(c²D), con α=11 calibrado por GRMHD externo y D=16,8 Mpc"
+  referencia: "anillo_por_fecha_imagen.csv (42,2 μas) y .npy de 3 noches"
+  falta: null
+  corto_id: 3180
+  corto_video: "https://youtube.com/shorts/_u75DXheNKo"

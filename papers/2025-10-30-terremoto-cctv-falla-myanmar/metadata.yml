@@ -29,3 +29,11 @@ titulo_corto: "Una cámara grabó un terremoto desde la falla"
 card_descripcion: |
   Una cámara CCTV a metros de la falla de Sagaing grabó la ruptura superficial durante el terremoto Mw 7,7 de Mandalay (Myanmar, 28 de marzo de 2025). Del video extrajeron la primera medición directa de la velocidad de deslizamiento: un pulso de 1,4 s, velocidad pico de 3,5 m/s y ~3 m de desplazamiento acumulado. Dos modelos con distinta velocidad de ruptura ajustan los datos igual de bien, pero implican un stress drop 5× diferente.
 estado: publicado
+modelo_simulable:
+  clase: "S"
+  nivel: "medido"
+  modelo: "Pulso de ruptura auto-similar con cohesive zone: velocidad de ruptura 0,75/0,90 cs, slip crítico 2,94 m, stress drop"
+  referencia: "slip_vs_time.csv y sliprate_vs_time.csv (pico 3,52 m/s, 3,09 m)"
+  falta: null
+  corto_id: 426
+  corto_video: "https://youtube.com/shorts/FA2IZR8w6J8"

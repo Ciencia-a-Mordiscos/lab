@@ -32,3 +32,11 @@ titulo_corto: "Más vegetación, ¿menos caudal? Los datos dicen lo contrario en
 card_descripcion: |
   47,4% de las cuencas con verdor + E↑ tienen también caudal subiendo. El patrón se invierte donde la teoría decía que sería peor: en zonas semiáridas. Tian et al. (2026), *Nature Water*.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno reproducible (simulaciones acopladas WRF del paper)"
+  referencia: "cuencas_lai_q_e.csv"
+  falta: null
+  corto_id: 2365
+  corto_video: "https://youtube.com/shorts/9WzkC7zhACk"

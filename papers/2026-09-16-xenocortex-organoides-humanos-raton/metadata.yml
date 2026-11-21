@@ -32,3 +32,11 @@ datasets:
     descripcion: "Diámetro de soma tipo VEN, 1.098 células"
     fuente: "Source Data Extended Data Fig. 7r (MOESM7)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "crecimiento_injerto_mri.csv"
+  falta: null
+  corto_id: 3008
+  corto_video: "https://youtube.com/shorts/KyQT0suegWA"

@@ -32,3 +32,11 @@ titulo_card: "🌊 Océano dispara olas de calor"
 card_descripcion: |
   42 años de olas de calor húmedo, mapa global de tendencias, comparación por décadas
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "heatwave_annual_global.csv (+46%)"
+  falta: null
+  corto_id: 2259
+  corto_video: "https://youtube.com/shorts/47ZWz1uCVsk"

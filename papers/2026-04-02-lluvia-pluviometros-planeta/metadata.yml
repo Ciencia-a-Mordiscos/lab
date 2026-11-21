@@ -24,3 +24,11 @@ titulo_card: "🌧️ Nadie sabe cuánto llueve en casi todo el planeta"
 card_descripcion: |
   221.483 pluviómetros, 15.386 tiles globales, 68,7% sin cobertura, solo 13,4% cumple WMO
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/densidad_grid.csv (68,7% sin pluviómetro)"
+  falta: null
+  corto_id: 2275
+  corto_video: "https://youtube.com/shorts/MqWTVSmBuVI"

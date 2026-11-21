@@ -41,3 +41,11 @@ datasets:
     descripcion: "Scores crudos de RADAR en 5.125 TC del test set de Merlin, 20 hallazgos"
     fuente: "GitHub alibaba-damo-academy/damo-radar"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "auc_interno_146_hallazgos.csv"
+  falta: null
+  corto_id: 3029
+  corto_video: "https://youtube.com/shorts/0iJ_EqI4Q6Y"

@@ -53,3 +53,11 @@ datasets:
     descripcion: "Entrega de ARN tras pretratar el vehículo con PBS, suero o sangre completa humana (n=6)"
     fuente: "Source Data del artículo (Fig. 3l)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "curva_dosis_egfp.csv"
+  falta: null
+  corto_id: 2942
+  corto_video: "https://youtube.com/shorts/PulONd8Q60Q"

@@ -39,3 +39,11 @@ titulo_card: "🌊 Agricultura Circular con Agua de Mar y Sol"
 card_descripcion: |
   Sun et al. (2026), ensayo de campo de 3 meses en Hainan — desalinización solar + agricultura circular: las sojas crecen +134% vs evaporación natural, +49% más semilla que con ósmosis inversa industrial, el sistema elimina 99,99% del sodio y alimenta a 47 personas por 0,6 ha
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/altura_plantas.csv (+134% soja)"
+  falta: null
+  corto_id: 2315
+  corto_video: "https://youtube.com/shorts/751vCh7OeAk"

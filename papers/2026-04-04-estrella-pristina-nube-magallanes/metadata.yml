@@ -27,3 +27,11 @@ titulo_card: "⭐ Una estrella casi prístina de la Nube de Magallanes"
 card_descripcion: |
   Ezzeddine et al. (2026), J0715−7334 tiene 20.000× menos hierro que el Sol — la única estrella ultra metal-poor que NO tiene exceso de carbono, huella de una supernova primordial de 30 M☉
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (ajuste de abundancias a rendimientos de supernova)"
+  referencia: "datos/abundancias_j0715.csv ([Fe/H] -4,31)"
+  falta: null
+  corto_id: 2311
+  corto_video: "https://youtube.com/shorts/3VOPXP8tW5g"

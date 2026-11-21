@@ -30,3 +30,11 @@ titulo_card: "🧊 Rocas atrapadas en el hielo de Groenlandia"
 card_descripcion: |
   4,946 ubicaciones de escombros rocosos en el manto de hielo, 11 modelos de extensión durante el último interglacial, radar 3D aerotransportado
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (mapeo por radar; 11 extensiones de hielo MIS 5e son salidas de modelos ajenos)"
+  referencia: "datos/trenes_escombros.csv (4.946 ubicaciones)"
+  falta: null
+  corto_id: 2260
+  corto_video: "https://youtube.com/shorts/7RyzExZhEUs"

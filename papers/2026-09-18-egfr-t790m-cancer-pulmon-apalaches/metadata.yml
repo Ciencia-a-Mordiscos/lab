@@ -32,3 +32,11 @@ datasets:
     descripcion: "IBD medio con portadores, 500 condados de EE. UU. × 7 grupos de ancestría"
     fuente: "Tabla S14 del material suplementario"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "conteos_por_grupo.csv"
+  falta: null
+  corto_id: 3031
+  corto_video: "https://youtube.com/shorts/3qqrmoAuabE"

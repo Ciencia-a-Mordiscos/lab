@@ -27,3 +27,11 @@ titulo_card: "🐒 Conflicto letal tras la fisión de chimpancés salvajes"
 card_descripcion: |
   Sandel et al. (2026), 30 años de datos del grupo de chimpancés más grande conocido (~200 individuos) en Ngogo, Uganda. La conectividad social cayó 67,7% (de 35,8 a 11,5 conexiones/individuo) tras la fisión de 2015-2018. Los machos Western lanzaron 24 ataques letales contra el grupo Central: ≥7 machos adultos y 17 crías muertos (2018-2024).
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/red_social.csv (conectividad -67,7%)"
+  falta: null
+  corto_id: 2334
+  corto_video: "https://youtube.com/shorts/PBsecCsjTMg"

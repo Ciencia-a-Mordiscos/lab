@@ -27,3 +27,11 @@ titulo_card: "🧪 248 químicos sintéticos en el océano"
 card_descripcion: |
   2,315 muestras de agua de mar, 21 datasets, 248 xenobióticos — ftalatos, protector solar, fármacos y pesticidas desde arrecifes hasta mar abierto
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "contribucion_por_muestra.csv (hasta 21,7%)"
+  falta: null
+  corto_id: 2231
+  corto_video: "https://youtube.com/shorts/zbwjncU6ECs"

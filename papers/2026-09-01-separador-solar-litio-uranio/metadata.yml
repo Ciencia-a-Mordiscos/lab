@@ -52,3 +52,11 @@ datasets:
     descripcion: "Huella de carbono y su reducción según la vida útil de la mecha"
     fuente: "Source Data (MOESM2), Fig. 5j"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "ac_vs_irradiancia.csv, camaras_agua_natural.csv"
+  falta: null
+  corto_id: 2922
+  corto_video: "https://youtube.com/shorts/0M1k80kh0UE"

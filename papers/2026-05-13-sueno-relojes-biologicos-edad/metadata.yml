@@ -24,3 +24,11 @@ titulo_card: "¿Cuántas horas debe dormir tu cuerpo? 23 relojes biológicos con
 card_descripcion: |
   Wen et al. (2026) cruzan **23 relojes biológicos** (MRI estructural, proteómica plasmática y metabolómica) con duración de sueño auto-reportada en la cohorte UK Biobank (37–84 años) y modelan la relación con GAMs. Aparece una **U** sistemática: dormir poco y dormir mucho se asocian con un mayor *gap* de edad biológica. Sobre los 37 relojes con óptimo interior, la mediana cae en **6,91 h** (IQR 6,48–7,64 h) — el mismo cerebro tiene óptimos distintos según se mida por MRI (**6,4 h**) o por proteínas en plasma (**7,8 h**). **Solo 2 de los 37 relojes** alcanzan o pasan las **8 h** del consejo popular. La penalización por dormir 10 h es **12 % mayor** que por dormir 4 h (ratio 0,88) — la U no es simétrica. ⚠️ Asociación, no causa: el paper explícitamente **no descarta** causalidad inversa con Mendelian randomization. ⚠️ Sueño auto-reportado. ⚠️ Las curvas son predicciones GAM sobre la cohorte, no trayectorias individuales.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "curvas_u_sueno_edad.csv"
+  falta: null
+  corto_id: null
+  corto_video: null

@@ -32,3 +32,11 @@ titulo_corto: "LEDs de superretículas de quantum dots pixeladas"
 card_descripcion: |
   Quantum dots de perovskita (CsPbBr₃) organizados en superretículas hexagonales: 30,9% EQE, 117.144 cd/m², 5.080 PPI. Vida media extrapolada de 12.411 horas (~1,4 años), 1.460× más que el mejor LED pixelado de perovskita anterior. La clave: un ligando (BHOA+F) que permite transporte de banda con movilidad 17× mayor a temperatura ambiente.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "t50_benchmark.csv, mobility_vs_temperature.csv"
+  falta: null
+  corto_id: 2350
+  corto_video: "https://youtube.com/shorts/yOJ-lwDdSyg"

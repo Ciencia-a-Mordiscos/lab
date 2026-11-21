@@ -24,3 +24,11 @@ titulo_card: "🌊 El océano profundo y la promesa de emisiones cero"
 card_descripcion: |
   14 modelos CMIP6, 300 años de simulación — 12/14 muestran rebound de temperatura post net-zero por calor devuelto del océano profundo
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Balance de energía de 2 capas (superficie–océano profundo, intercambio γ) forzado con CO₂ SSP1-2.6"
+  referencia: "ninguno medido: solo salidas CMIP6 (rebote medio +0,26 °C)"
+  falta: null
+  corto_id: 2230
+  corto_video: "https://youtube.com/shorts/dVfrDJzvF_Y"

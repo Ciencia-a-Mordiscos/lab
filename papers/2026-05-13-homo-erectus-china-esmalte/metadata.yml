@@ -32,3 +32,11 @@ titulo_corto: "Proteínas de esmalte de 6 Homo erectus chinos revelan una varian
 card_descripcion: |
   Bai et al. (2026) extrajeron **proteínas dentales fosilizadas** de 85 fósiles de tres sitios chinos (Zhoukoudian, Hexian, Sunjiadong) y obtuvieron **proteomas completos para 6 *Homo erectus*** de ~400 mil años — un 7% de éxito desde el screening inicial. Lo que encontraron en la ameloblastina (AMBN) reordena el árbol: los **6/6 chinos comparten A253G**, una variante que **no aparece en ningún otro linaje humano** conocido (Dmanisi, Atapuerca, Denisovanos, Neandertales, modernos). Y **4/4 determinados comparten M273V** con Denisovanos — un puente molecular sugerente. En el cromosoma 4 analizado, **Neandertal está MÁS cerca de *H. erectus* que Denisovano** en **99 de 127 ventanas** (Wilcoxon pareado p ≈ 2,6e-12, Cohen's d ≈ -0,75) — pero esa es UNA región del genoma, el paper la presenta como ejemplo de señal heterogénea. ⚠️ Cobertura proteómica modesta (mediana 18%, media 27% en los chinos); 2 de 6 chinos no preservaron la posición 273 — el respaldo directo de M273V es 4/6. ⚠️ Las afirmaciones sobre introgresión y coexistencia con Denisovanos están en T2 ("likely", "may have coexisted") — el notebook las atenúa. ⚠️ Datos crudos de espectrometría (PRIDE PXD068897) no descargados — confiamos en el procesamiento del paper para las identificaciones de variantes.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "variantes_ambn.csv"
+  falta: null
+  corto_id: 2479
+  corto_video: "https://youtube.com/shorts/2djWqDJeymk"

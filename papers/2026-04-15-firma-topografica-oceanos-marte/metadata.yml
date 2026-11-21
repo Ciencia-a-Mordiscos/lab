@@ -27,3 +27,11 @@ titulo_card: "🌊 ¿Tuvo Marte un océano? La firma que dejó en el suelo"
 card_descripcion: |
   Benjamin et al. (2026), análisis topográfico de 408.690 puntos de elevación en Marte. Las shorelines propuestas varían hasta 6,7 km — demasiado para ser playas reales. La verdadera firma de un océano es una zona plana circunglobal entre −3.800 m y −1.800 m: una plataforma costera 5× más ancha que la terrestre. El 77% de los deltas convergen ahí.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/shelf_elevacion_hist.csv (77% de deltas en la plataforma)"
+  falta: null
+  corto_id: 2345
+  corto_video: "https://youtube.com/shorts/TkQL8_dJw9Y"

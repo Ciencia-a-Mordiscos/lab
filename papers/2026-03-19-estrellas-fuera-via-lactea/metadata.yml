@@ -36,3 +36,11 @@ titulo_card: "⭐ Estrellas naciendo fuera de la Vía Láctea"
 card_descripcion: |
   32 estrellas en 2 cúmulos abiertos (Emei-1 y Emei-2) dentro del Complejo H, Gaia DR3, isócronas PARSEC 11,2 Myr, metalicidad 0,05 Z⊙, distancia 13,8 kpc
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (isócronas PARSEC precalculadas)"
+  referencia: "miembros_emei1/2.csv, gradiente_velocidad.csv"
+  falta: null
+  corto_id: 2219
+  corto_video: "https://youtube.com/shorts/nlptNKxW4Xg"

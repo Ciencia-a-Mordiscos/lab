@@ -33,3 +33,11 @@ titulo_card: "🏔️ El agua que sostiene los ríos de Colorado tiene 15 años"
 card_descripcion: |
   Siirila-Woodburn et al. (2026), modelo hidrogeológico de alta resolución (ParFlow-CLM + EcoSLIM) en la cuenca del East River. Con +4 °C, el pico de nieve cae 21%, la edad media del agua subterránea sube y el sistema empieza a consumir reservas de décadas. 114 años de datos USGS confirman que el caudal ya lleva décadas bajando (p = 0,009).
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Hidrología de cuenca (ParFlow-CLM + EcoSLIM): acumulación y deshielo, recarga y edad del agua subterránea"
+  referencia: "datos/discharge_annual.csv (caudal USGS Almont 1911-2024, tendencia p=0,009)"
+  falta: null
+  corto_id: 2327
+  corto_video: "https://youtube.com/shorts/T0YAFbn4idU"

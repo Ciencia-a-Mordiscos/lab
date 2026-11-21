@@ -37,3 +37,11 @@ datasets:
     descripcion: "δD del agua producida y del H₂ del tanque (7 filas)"
     fuente: "Supplementary Table S3 (MOESM2)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "eficiencia_reduccion.csv"
+  falta: null
+  corto_id: 3065
+  corto_video: "https://youtube.com/shorts/sHENy2-UCwE"

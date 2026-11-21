@@ -38,3 +38,11 @@ datasets:
     descripcion: "20 escenarios del modelo SCEPTER, emisiones anuales en MtCO₂/año (116 filas)"
     fuente: "Zenodo doi:10.5281/zenodo.21823981"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Estequiometría cal + acidez → bicarbonato acumulada por año (balance ácido-alcalino); SCEPTER, transporte reactivo, no viene en la carpeta"
+  referencia: "rio_bicarbonato.csv (exceso de HCO₃ del Misisipi)"
+  falta: null
+  corto_id: 3058
+  corto_video: "https://youtube.com/shorts/5I3yzXw9VeI"

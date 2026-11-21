@@ -30,3 +30,11 @@ titulo_card: "Jet de Cygnus X-1 doblado por viento estelar"
 card_descripcion: |
   Miller-Jones et al. (2026), 18 años de observaciones VLBI revelan que el viento estelar dobla el jet de Cygnus X-1. Mediante inferencia bayesiana, miden por primera vez la potencia cinética instantánea del jet: log₁₀(L_jet) = 37,28 erg/s — comparable a la luminosidad en rayos X. El jet viaja a ~68% de la velocidad de la luz con un desalineamiento de ~5° respecto al eje orbital.
 estado: publicado
+modelo_simulable:
+  clase: "S-"
+  nivel: "medido"
+  modelo: "Jet relativista doblado por la presión de ram del viento estelar en una binaria de 5,6 días (modelo bayesiano del paper)"
+  referencia: "jet_components.csv (posiciones VLBI de núcleo y 4 nudos); posteriors_all_cases.csv"
+  falta: "Parámetros del viento de la estrella O (pérdida de masa, velocidad), con cita; solo hay posiciones VLBI de una época."
+  corto_id: 2354
+  corto_video: "https://youtube.com/shorts/tw-sWkeloBU"

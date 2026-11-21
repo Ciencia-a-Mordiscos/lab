@@ -24,3 +24,11 @@ titulo_card: "🤖 ¿Puede una IA revisar papers como un humano?"
 card_descripcion: |
   500 papers ICLR 2024, Claude-3.5-Sonnet vs GPT-4o vs revisores humanos, confusion matrix, Spearman ρ = 0,323
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/revisiones_comparadas.csv (500 papers)"
+  falta: null
+  corto_id: 2273
+  corto_video: "https://youtube.com/shorts/U1Tzpx5wbtM"

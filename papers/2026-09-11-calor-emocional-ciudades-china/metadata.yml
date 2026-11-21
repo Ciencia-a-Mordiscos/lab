@@ -44,3 +44,11 @@ datasets:
     descripcion: "Trayectoria relativa de HGI y EGI 2010–2024"
     fuente: "Texto del paper (Supp. Fig. 8)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "lag_emocional_ciudades.csv"
+  falta: null
+  corto_id: 3003
+  corto_video: "https://youtube.com/shorts/PgDiWfWVC8c"

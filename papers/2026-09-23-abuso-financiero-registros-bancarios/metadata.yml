@@ -34,3 +34,11 @@ datasets:
     descripcion: "Balance de 12 covariables antes y después del emparejamiento (24 filas)"
     fuente: "Supplementary Table 8 del paper (MOESM3)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "diferencias_373_indicadores.csv"
+  falta: null
+  corto_id: 3053
+  corto_video: "https://youtube.com/shorts/N_GO8DKVEMI"

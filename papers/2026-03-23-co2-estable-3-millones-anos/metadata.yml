@@ -32,3 +32,11 @@ titulo_card: "🧊 CO₂ estable 3 millones de años"
 card_descripcion: |
   Hielo antártico de 3 Ma, ciclos glaciales, correlación CO₂-CH₄, histograma de anomalía
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "allan_hills_co2_ch4.csv (~250 ppm)"
+  falta: null
+  corto_id: 2238
+  corto_video: "https://youtube.com/shorts/OXIDk92qBKc"

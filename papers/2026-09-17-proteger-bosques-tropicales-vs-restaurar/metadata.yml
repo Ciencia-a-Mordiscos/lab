@@ -26,3 +26,11 @@ datasets:
     descripcion: "1.151 especies con n de registros, AUC y método de modelado (tabla S1)"
     fuente: "Zenodo 10.5281/zenodo.19221348 (species_summary.csv)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "propiedades_beneficios.csv"
+  falta: null
+  corto_id: 3032
+  corto_video: "https://youtube.com/shorts/Y6Z2z_l8RiA"

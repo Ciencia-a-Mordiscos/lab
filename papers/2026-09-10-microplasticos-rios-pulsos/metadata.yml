@@ -42,3 +42,11 @@ datasets:
     descripcion: "217 registros de fracción por bin de tamaño"
     fuente: "Supplementary Data S6"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "observaciones_rios.csv"
+  falta: null
+  corto_id: 2993
+  corto_video: "https://youtube.com/shorts/t90Hjo0PNq4"

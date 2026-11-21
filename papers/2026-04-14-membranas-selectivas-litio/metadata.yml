@@ -33,3 +33,11 @@ titulo_card: "⚗️ Membranas selectivas de litio: 60 veces más que la compete
 card_descripcion: |
   Chen et al. (2026), membrana ISGC (polímero + ZIF-8 30%) logra selectividad K⁺/Li⁺ = 410,1 en salmueras multi-iónicas — 60× la mediana de los 10 competidores comparados. Poro óptimo a 2,686 Å (entre Li⁺ hidratado y K⁺ hidratado). Consumo energético: 1,02 kWh/kg, el menor entre 6 métodos de extracción. CAPEX total: 2.528 USD.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/selectividad_membranas.csv (K⁺/Li⁺ = 410)"
+  falta: null
+  corto_id: 2339
+  corto_video: "https://youtube.com/shorts/BRMjeoQQbBg"

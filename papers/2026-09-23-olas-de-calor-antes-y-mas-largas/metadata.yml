@@ -50,3 +50,11 @@ datasets:
     descripcion: "Tendencia media y % significativo punto a punto por banda de 1° de latitud (144 filas)"
     fuente: "Derivado de los GeoTIFF de Figshare"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "tendencias_15a_por_zona.csv"
+  falta: null
+  corto_id: 3064
+  corto_video: "https://youtube.com/shorts/HJwVGCa5Zro"

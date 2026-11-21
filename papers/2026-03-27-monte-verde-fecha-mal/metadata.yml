@@ -24,3 +24,11 @@ titulo_card: "🏛️ Monte Verde: la fecha estaba mal"
 card_descripcion: |
   23 dataciones ¹⁴C + 6 de luminiscencia, tefra volcánica debajo de la capa arqueológica, re-datación del sitio pre-Clovis más icónico de Sudamérica
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno (decaimiento ¹⁴C solo como método de datación)"
+  referencia: "dataciones_c14.csv (23 fechas)"
+  falta: null
+  corto_id: 2253
+  corto_video: "https://youtube.com/shorts/04c87eYoTV4"

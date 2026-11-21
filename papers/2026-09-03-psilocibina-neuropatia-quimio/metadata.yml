@@ -40,3 +40,11 @@ datasets:
     descripcion: "Alodinia al frío por evaporación de acetona, 4 grupos de n=6"
     fuente: "Tabla suplementaria S6 (figura 1E)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "von_frey_dias.csv"
+  falta: null
+  corto_id: 2961
+  corto_video: "https://youtube.com/shorts/HbxWcggDHxE"

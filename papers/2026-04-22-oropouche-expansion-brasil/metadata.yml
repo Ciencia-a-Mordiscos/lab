@@ -29,3 +29,11 @@ titulo_corto: "Oropouche en Brasil: 9× más casos en un año"
 card_descripcion: |
   Giovanetti et al. (2026) reconstruyeron la dinámica del brote de fiebre Oropouche en Brasil con filogeografía bayesiana sobre tres segmentos del genoma viral (L, M, S, **100 muestras posteriores cada uno**) y modelado de nicho ecológico. Los datos del Ministerio de Salud confirman **8.762 casos individuales** entre 2023 y 2024: pasamos de **831 casos en 11 estados** a **7.931 en 27 estados** (9.5×), con 16 estados nuevos incluyendo costa atlántica (BA, CE) y Sudeste/Centro-Oeste. La mediana global de velocidad de dispersión es **2.162 km/año** (n=300), y **el 66% de las muestras posteriores supera el techo del vuelo natural de Culicoides paraensis** (~1.825 km/año en línea recta). ⚠️ Es un estudio observacional: el paper enmarca el rol del transporte humano como *probable* (no causación) en saltos largos.
 estado: publicado
+modelo_simulable:
+  clase: "S-"
+  nivel: "medido"
+  modelo: "Difusión filogeográfica (paseo aleatorio relajado) con velocidad de dispersión ~2.162 km/año"
+  referencia: "occurrence_geographic.csv (pre/post 2023), casos_por_estado_anio.csv, dispersal_velocities_by_segment.csv"
+  falta: "Difusión homogénea a ~2.162 km/año sobre el mapa; el paseo aleatorio relajado del paper varía por rama. Riesgo de ilustración."
+  corto_id: null
+  corto_video: null

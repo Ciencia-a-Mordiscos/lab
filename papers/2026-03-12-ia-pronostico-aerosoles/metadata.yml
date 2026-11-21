@@ -30,3 +30,11 @@ titulo_card: "🌫️ En 1 minuto esta IA destruye décadas de pronósticos del 
 card_descripcion: |
   AI-GAMFS vs CAMS y GEOS-FP, 289 estaciones AERONET, 42 años MERRA-2, Vision Transformer + U-Net, AOD r = 0,978
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "rendimiento_aeronet.csv (r=0,978 a 3 h)"
+  falta: null
+  corto_id: 2200
+  corto_video: "https://youtube.com/shorts/vhKIxzk-eJo"

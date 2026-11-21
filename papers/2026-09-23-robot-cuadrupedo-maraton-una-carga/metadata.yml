@@ -32,3 +32,11 @@ datasets:
     descripcion: "Coste de transporte, masa, batería y autonomía de robots, animales y vehículos (69 filas)"
     fuente: "Supplementary Data 1 del paper (MOESM1)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "telemetria_robot_1hz.csv"
+  falta: null
+  corto_id: 3060
+  corto_video: "https://youtube.com/shorts/QFXwmh5ir8c"

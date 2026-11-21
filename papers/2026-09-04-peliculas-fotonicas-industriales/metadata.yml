@@ -39,3 +39,11 @@ datasets:
     descripcion: "fig. S54B: longitud de onda central del pico de reflexión en tres estados de esfuerzo (reposo, presión, levantamiento) de la prenda con parches de cristal fotónico."
     fuente: "Supplementary Materials (Science, mismo DOI)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Reflexión de Bragg en cristal coloidal núcleo-coraza: el pico se corre al deformar la película"
+  referencia: "mecanocromismo.csv (650/590/550 nm en 3 estados)"
+  falta: null
+  corto_id: 2965
+  corto_video: "https://youtube.com/shorts/Dpy_d_mTa5A"

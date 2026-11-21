@@ -33,3 +33,11 @@ titulo_card: "🦴 Discontinuidad Genética en la Cuenca de París al Final del 
 card_descripcion: |
   Tallman et al. (2026), 132 genomas antiguos de una tumba colectiva cerca de París — dos fases de entierro separadas por ~316 años revelan un recambio poblacional completo: de un grupo diverso a uno casi clonal con más ancestría agrícola, evidencia de *Yersinia pestis* y *Borrelia recurrentis*
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "datos/ancestria_distal.csv (66,4% vs 71,0% agricultor)"
+  falta: null
+  corto_id: 2309
+  corto_video: "https://youtube.com/shorts/2X5nz7_mMVg"

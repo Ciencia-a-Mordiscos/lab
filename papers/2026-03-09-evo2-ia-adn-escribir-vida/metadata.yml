@@ -21,3 +21,11 @@ titulo_card: "🧬 9 Billones de Bases de ADN Enseñaron a una IA a Escribir Vid
 card_descripcion: |
   Nguyen et al. (2026), 705 benchmarks de predicción de variantes genéticas — Evo 2 (40B parámetros) compite con modelos especializados sin entrenamiento específico y lidera en BRCA1 (AUROC 0,901)
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "benchmarks_variantes.csv (AUROC 0,893 mediana)"
+  falta: null
+  corto_id: 2191
+  corto_video: "https://youtube.com/shorts/i-yFdSiK6m4"

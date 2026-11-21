@@ -29,3 +29,11 @@ titulo_corto: "La Antártida occidental se derritió antes — y dejó su firma 
 card_descripcion: |
   22 muestras Sr/Nd de un núcleo en Allan Hills (Antártida) muestran que el polvo cambió de fuente entre el último glacial y el último interglacial: 67% de muestras MIS 5e con firma volcánica antártica local vs solo 10% en MIS 6.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "alhic1903_srnd.csv (εNd)"
+  falta: null
+  corto_id: 2545
+  corto_video: "https://youtube.com/shorts/A7lJOVGykP0"

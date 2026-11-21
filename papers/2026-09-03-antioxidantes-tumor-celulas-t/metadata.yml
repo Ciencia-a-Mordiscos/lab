@@ -31,3 +31,11 @@ datasets:
     descripcion: "Los 3.827 genes diferenciales en células T expuestas al fluido tumoral completo"
     fuente: "Supplementary Data S2"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "proteoma_tif_vs_suero.csv"
+  falta: null
+  corto_id: 2967
+  corto_video: "https://youtube.com/shorts/QEYvgOoJ5GQ"

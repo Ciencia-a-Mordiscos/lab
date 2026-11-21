@@ -35,3 +35,11 @@ datasets:
     descripcion: "CO₂ medio sobre el fondo por banda de 500 m y grupo de años (27 filas)"
     fuente: "PANGAEA (doi:10.1594/PANGAEA.988417)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "amazonia_anual.csv"
+  falta: null
+  corto_id: 3123
+  corto_video: "https://youtube.com/shorts/qfPTTW2gv2A"

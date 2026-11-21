@@ -48,3 +48,11 @@ datasets:
     descripcion: "Cuenta aparente frente a cuenta conservadora del intervalo 2015-2022, por nivel"
     fuente: "Texto del paper (resultados)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "extinciones_por_intervalo.csv"
+  falta: null
+  corto_id: 2962
+  corto_video: "https://youtube.com/shorts/RmkczL3VXBk"

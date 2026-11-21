@@ -33,3 +33,11 @@ datasets:
     descripcion: "Prevalencia ponderada por edad × género, Study 1 + 2 (124 celdas)"
     fuente: "Source Data Fig. 4 (MOESM6)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "study2_norc_2024.csv"
+  falta: null
+  corto_id: 3015
+  corto_video: "https://youtube.com/shorts/D5TZfg9y_DE"

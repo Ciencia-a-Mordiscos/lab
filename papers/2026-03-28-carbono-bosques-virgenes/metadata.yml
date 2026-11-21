@@ -24,3 +24,11 @@ titulo_card: "🌲 Carbono de los bosques vírgenes de Suecia"
 card_descripcion: |
   324 parcelas primarias vs 28,580 secundarias, carbono en vegetación + madera muerta + suelo, análisis pareado por humedad
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "vegetacion_pareado.csv (+72% carbono)"
+  falta: null
+  corto_id: 2255
+  corto_video: "https://youtube.com/shorts/ZspFSOCVxio"

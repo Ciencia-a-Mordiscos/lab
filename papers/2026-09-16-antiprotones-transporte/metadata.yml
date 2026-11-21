@@ -36,3 +36,11 @@ datasets:
     descripcion: "Rendimiento de extracción vs posición del centro de masa, 14 puntos"
     fuente: "Source Data Fig. 4 (MOESM4)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "antiprotones_33_dias.csv"
+  falta: null
+  corto_id: 3011
+  corto_video: "https://youtube.com/shorts/eJAKC-92BEk"

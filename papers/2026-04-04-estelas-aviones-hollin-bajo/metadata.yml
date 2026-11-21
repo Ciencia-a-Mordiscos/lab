@@ -27,3 +27,11 @@ titulo_card: "✈️ Las estelas de los aviones limpios siguen calentando el pla
 card_descripcion: |
   Voigt et al. (2026), motores lean-burn con bajo hollín forman estelas masivas, datos de mediciones in-flight y modelo ACM (Zenodo)
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Microfísica de formación de estelas (modelo ACM): nucleación de hielo sobre hollín y volátiles según azufre y temperatura"
+  referencia: "datos/mediciones_vuelo.csv (EI_ice 1,6e15 kg⁻¹ lean-burn)"
+  falta: null
+  corto_id: 2293
+  corto_video: "https://youtube.com/shorts/yzinYL0B_SA"

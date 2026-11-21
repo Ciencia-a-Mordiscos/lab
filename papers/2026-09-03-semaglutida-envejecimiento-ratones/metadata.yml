@@ -42,3 +42,11 @@ datasets:
     descripcion: "Contrastes pareados entre grupos con p ajustado y diferencia de pendientes"
     fuente: "Source Data Fig. 5 (MOESM9)"
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "supervivencia_ratones.csv"
+  falta: null
+  corto_id: 2943
+  corto_video: "https://youtube.com/shorts/iUNVxT6idF0"

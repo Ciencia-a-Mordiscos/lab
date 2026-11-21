@@ -30,3 +30,11 @@ titulo_card: "🌊 165,000 km de ríos donde el océano manda"
 card_descripcion: |
   41,910 tramos SWORD, satélite SWOT — 49.9% tidal, amplitud mediana 0.78 m, 3 tipos de marea (semidiurna/mixta/diurna)
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "rios_mareas.csv (amplitud mediana 0,78 m)"
+  falta: null
+  corto_id: 2236
+  corto_video: "https://youtube.com/shorts/wLwm8P0S1LY"

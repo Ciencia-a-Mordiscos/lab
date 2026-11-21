@@ -23,3 +23,11 @@ titulo_corto: "TRAPPIST-1 b y c: rocas desnudas"
 card_descripcion: |
   El JWST observó 52 horas continuas los dos planetas más cercanos a TRAPPIST-1. Resultado: rocas desnudas sin atmósfera. 490 K de día, cero de noche.
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "Balance radiativo de roca desnuda (T_día, T_noche) más geometría orbital, que da la curva de fase de b y c"
+  referencia: "datos/curva_fase_obs.csv (207 puntos) y T_día b 490±17 K"
+  falta: null
+  corto_id: 2310
+  corto_video: "https://youtube.com/shorts/G2VQo2nsyzE"

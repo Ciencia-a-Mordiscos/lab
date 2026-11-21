@@ -30,3 +30,11 @@ titulo_card: "🛰️ 126.674 ríos: SWOT mide el agua del mundo"
 card_descripcion: |
   126.674 tramos fluviales medidos por SWOT, ΔRSA global 313,1 ± 129,5 km³, 28% menos que modelos, Amazon 55% de variabilidad, Nilo −91% vs predicho
 estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "cuencas_rsa.csv (313,1 km³)"
+  falta: null
+  corto_id: 2202
+  corto_video: "https://youtube.com/shorts/_oyYJWis70w"
