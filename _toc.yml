@@ -1050,6 +1050,11 @@ chapters:
 - file: categorias/quimica
   title: "Química"
   sections:
+  - file: papers/2026-11-23-sintesis-continua-peptidos-n-a-c/README
+    title: "Péptidos sin proteger nada"
+    sections:
+    - file: papers/2026-11-23-sintesis-continua-peptidos-n-a-c/notebook
+      title: Notebook
   - file: papers/2026-09-04-peliculas-fotonicas-industriales/README
     title: "Película de color sin pigmento"
     sections:

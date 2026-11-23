@@ -1,5 +1,19 @@
 # Química
 
+## Copiar al ribosoma: péptidos de la cabeza a la cola, sin proteger nada
+
+*Nature* · El ribosoma ensambla péptidos de la cabeza a la cola sin proteger un solo aminoácido; la química de
+laboratorio lleva décadas haciéndolo al revés. Este equipo montó la versión continua del camino del
+ribosoma, y el cuello de botella tiene nombre: la oxazolona, el anillo que gira el carbono y arruina
+la quiralidad. Exploramos sus tablas de cribado: 47 aditivos probados, de los que solo 13 mejoran el
+control; con 2,6-lutidina el producto sube de 79,8 % a 94,1 % de área HPLC y la oxazolona cae 3,33
+veces. ⚠️ Todo el cribado se hizo sobre un único modelo de reacción y las cifras son pureza relativa
+por HPLC, no rendimiento aislado.
+
+[Ver notebook](../papers/2026-11-23-sintesis-continua-peptidos-n-a-c/notebook) · [Leer más](../papers/2026-11-23-sintesis-continua-peptidos-n-a-c/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-23-sintesis-continua-peptidos-n-a-c/notebook.ipynb)
+
+---
+
 ## Hasta cuatro kilómetros de película que tiene color sin llevar pigmento
 
 *Science* · El color de esta película lo pone la geometría, no un tinte: partículas de plástico

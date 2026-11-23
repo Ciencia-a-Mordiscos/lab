@@ -1,0 +1,51 @@
+titulo: "Copiar al ribosoma: péptidos de la cabeza a la cola, sin proteger nada"
+titulo_corto: "Péptidos sin proteger nada"
+card_descripcion: |
+  El ribosoma ensambla péptidos de la cabeza a la cola sin proteger un solo aminoácido; la química de
+  laboratorio lleva décadas haciéndolo al revés. Este equipo montó la versión continua del camino del
+  ribosoma, y el cuello de botella tiene nombre: la oxazolona, el anillo que gira el carbono y arruina
+  la quiralidad. Exploramos sus tablas de cribado: 47 aditivos probados, de los que solo 13 mejoran el
+  control; con 2,6-lutidina el producto sube de 79,8 % a 94,1 % de área HPLC y la oxazolona cae 3,33
+  veces. ⚠️ Todo el cribado se hizo sobre un único modelo de reacción y las cifras son pureza relativa
+  por HPLC, no rendimiento aislado.
+fecha: 2026-11-23
+categoria: quimica
+tags: [peptidos, sintesis-quimica, epimerizacion, catalisis, quimica-de-procesos]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11448-w"
+    titulo: "Continuous N-to-C Peptide Synthesis"
+    journal: Nature
+    autores: "Yin et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "aditivos_screening.csv"
+    descripcion: "Supplementary Table 2: 47 aditivos y el control, en dos disolventes (96 ensayos)"
+    fuente: "Supplementary Materials"
+  - nombre: "reagentes_activacion.csv"
+    descripcion: "Supplementary Table 1: 8 reactivos de acoplamiento y activación a 16 h"
+    fuente: "Supplementary Materials"
+  - nombre: "lutidina_dosis.csv"
+    descripcion: "Supplementary Table 5: dosis-respuesta de 2,6-lutidina (0 a 2,0 equiv.) a 5 h"
+    fuente: "Supplementary Materials"
+  - nombre: "lutidina_momento.csv"
+    descripcion: "Supplementary Table 4: efecto del momento de adición de la lutidina a 20 h"
+    fuente: "Supplementary Materials"
+  - nombre: "cinetica_activacion.csv"
+    descripcion: "Supplementary Table 7: cinética de activación, 4 condiciones de base x 8 tiempos"
+    fuente: "Supplementary Materials"
+  - nombre: "agua_tolerancia.csv"
+    descripcion: "Supplementary Table 10: tolerancia al agua (0 a 15 equiv.) con y sin lutidina"
+    fuente: "Supplementary Materials"
+estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "tablas de cribado por HPLC (producto, oxazolona, epímero y anhídrido mixto por condición)"
+  falta: null
+  corto_id: null
+  corto_video: null

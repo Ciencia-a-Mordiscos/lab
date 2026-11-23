@@ -1,0 +1,278 @@
+{
+  "version": "1.0",
+  "paper_id": 3209,
+  "doi": "10.1038/s41586-026-11448-w",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Sin aditivo, el acoplamiento deja 79,8 % de producto 5 y 14,3 % de oxazolona total",
+      "supported": "yes",
+      "detail": "Control del bloque DMAc:MeCN (1:1) de la Suppl. Table 2, a las 16 h",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "metric": "sin_aditivo_producto5",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La 2,6-lutidina sube el producto a 94,1 % y baja la oxazolona a 4,3 %",
+      "supported": "yes",
+      "detail": "+14,3 puntos de producto, oxazolona 3,33 veces menor y epi-5 de 2,2 % a 0,6 %",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "metric": "lutidina_producto5",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Las piridinas sustituidas rinden más producto que las sales metálicas",
+      "supported": "yes",
+      "detail": "Mediana 91,8 % (n=5) frente a 61,6 % (n=35); Mann-Whitney p = 2,1e-5, Cohen d = 1,53. n=5 es poco y la familia es clasificación nuestra",
+      "certainty_tier": "T2",
+      "abstract_verb": "lab_only",
+      "metric": "piridinas_vs_lewis_cohens_d",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La 2,6-lutidina es el aditivo que más producto da",
+      "supported": "no",
+      "detail": "La 2,4,6-colidina da 94,7 % frente a 94,1 %, pero con casi el doble de oxazolona total (8,1 % frente a 4,3 %)",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "metric": "top1_producto5",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Más lutidina, menos oxazolona, con meseta a partir de 1,2 equivalentes",
+      "supported": "yes",
+      "detail": "Spearman rho = -0,976 (n=8, p = 3,4e-5); la oxazolona baja de 4,1 % a 1,4 % con 1,0 equiv. y se queda en 1,2 %",
+      "certainty_tier": "T1",
+      "abstract_verb": "lab_only",
+      "metric": "lutidina_dosis_spearman_rho",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Añadir la lutidina desde el inicio importa",
+      "supported": "yes",
+      "detail": "Suppl. Table 4, 20 h: nunca 75,7 % de producto y 15,6 % de oxazolona; desde el inicio 97,7 % y 1,2 %",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "metric": "momento_inicio_producto5",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Con lutidina y piridina, la activación está lista en 10 minutos",
+      "supported": "yes",
+      "detail": "98,6 % de anhídrido mixto a los 10 min frente a 38,7 % con solo DIPEA 1,2 equiv.",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "metric": "cinetica_10min_anh_lut_pir",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La lutidina protege de la oxazolona en todo momento",
+      "supported": "no",
+      "detail": "A 20 h la lutidina sola deja 8,2 % de oxazolona, por encima del 6,3 % del DIPEA 1,2 equiv.; la ventaja medida es de velocidad",
+      "certainty_tier": "T2",
+      "abstract_verb": "lab_only",
+      "metric": "cinetica_20h_ox_lut",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El método tolera hasta 15 equivalentes de agua",
+      "supported": "yes",
+      "detail": "Con lutidina el producto baja 4,1 puntos y el epímero queda en 0,7 %; sin ella la caída es de 14,1 puntos y el epímero sube a 3,1 %",
+      "certainty_tier": "T1",
+      "abstract_verb": "report",
+      "metric": "agua15_con_producto5",
+      "supported_by_data": true
+    },
+    {
+      "claim": "≥95 % de rendimiento medio por acoplamiento y ≤1,0 % de epimerización",
+      "supported": "yes",
+      "detail": "Cifras del abstract; el cross-check del 73,0 % de ensayo en 7 acoplamientos da 95,6 % por acoplamiento",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieving",
+      "metric": "siete_acoplamientos_media_por_acoplamiento",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El disolvente cambia el resultado del cribado",
+      "supported": "partial",
+      "detail": "Pareado sobre 48 entradas: d = 0,21 y Wilcoxon p = 0,037; sin el control, p = 0,052. El paper no plantea la comparación",
+      "certainty_tier": "T4",
+      "abstract_verb": "lab_only",
+      "metric": "solvente_cohens_d_pareado",
+      "supported_by_data": true
+    },
+    {
+      "claim": "El método podría transformar la fabricación de péptidos",
+      "supported": "partial",
+      "detail": "El abstract dice \"has the potential to transform\"; los 10x menos aislamientos y hasta 100x menos residuos son cifras suyas, no de estos datos",
+      "certainty_tier": "T3",
+      "abstract_verb": "has the potential to",
+      "metric": null,
+      "supported_by_data": true
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 79.8,
+      "unit": "por ciento de área HPLC",
+      "metric": "sin_aditivo_producto5",
+      "context": "control sin aditivo, bloque DMAc:MeCN (1:1), 16 h",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 94.1,
+      "unit": "por ciento de área HPLC",
+      "metric": "lutidina_producto5",
+      "context": "con 2,6-lutidina, mismo bloque y tiempo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14.3,
+      "unit": "puntos porcentuales",
+      "metric": "lutidina_vs_sin_delta_pp",
+      "context": "diferencia de producto 5 entre lutidina y control",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.33,
+      "unit": "veces",
+      "metric": "lutidina_vs_sin_oxazolona_ratio",
+      "context": "oxazolona total del control frente a la de la lutidina",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.6,
+      "unit": "por ciento de área HPLC",
+      "metric": "lutidina_epi5",
+      "context": "epímero epi-5 con lutidina frente al 2,2 % del control",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 94.7,
+      "unit": "por ciento de área HPLC",
+      "metric": "top1_producto5",
+      "context": "máximo de producto del cribado, con más oxazolona que la lutidina",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 91.8,
+      "unit": "por ciento de área HPLC",
+      "metric": "piridinas_mediana_producto5",
+      "context": "mediana de las 5 piridinas sustituidas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.53,
+      "unit": "Cohen d",
+      "metric": "piridinas_vs_lewis_cohens_d",
+      "context": "piridinas (n=5) frente a sales metálicas (n=35)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.976,
+      "unit": "rho de Spearman",
+      "metric": "lutidina_dosis_spearman_rho",
+      "context": "equivalentes de lutidina frente a oxazolona, n=8",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 98.6,
+      "unit": "por ciento de área HPLC",
+      "metric": "cinetica_10min_anh_lut_pir",
+      "context": "anhídrido mixto a los 10 min con lutidina y piridina",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 97.7,
+      "unit": "por ciento de área HPLC",
+      "metric": "momento_inicio_producto5",
+      "context": "lutidina añadida desde el inicio, 20 h",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 93.5,
+      "unit": "por ciento de área HPLC",
+      "metric": "agua15_con_producto5",
+      "context": "producto 5 con 15 equivalentes de agua y lutidina",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 95.6,
+      "unit": "por ciento",
+      "metric": "siete_acoplamientos_media_por_acoplamiento",
+      "context": "media geométrica por acoplamiento desde el 73,0 % de ensayo",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "we developed",
+      "tier": "T1",
+      "cam_atenuador": "«desarrollaron» / afirmación directa — NO descalar a «proponen», «sugieren» o «plantean»: lo ejecutaron y lo midieron"
+    },
+    {
+      "abstract_verb": "achieving (≥95% yield, ≤1.0% epimerization)",
+      "tier": "T1",
+      "cam_atenuador": "«alcanza» / «logra» con la cifra del paper; no inflar ni redondear hacia arriba"
+    },
+    {
+      "abstract_verb": "enabled (seven consecutive couplings / the synthesis of ...)",
+      "tier": "T2",
+      "cam_atenuador": "«permitió» / «habilitó» — no «automatiza» ni «fabrica»"
+    },
+    {
+      "abstract_verb": "has the potential to transform",
+      "tier": "T3",
+      "cam_atenuador": "«podría transformar» / «abre la puerta a» — NUNCA «transforma», «revoluciona» ni «cambia la fabricación de medicamentos»"
+    },
+    {
+      "abstract_verb": "reduces isolations by ~10-fold / waste by up to ~100-fold",
+      "tier": "T1",
+      "cam_atenuador": "citar con el «hasta» del original para el 100× (es una cota superior, no el caso típico)"
+    },
+    {
+      "abstract_verb": "can be readily assembled (longer peptides)",
+      "tier": "T1",
+      "cam_atenuador": "«se ensamblan» con el alcance literal: los ejemplos del paper (fragmento de tirzepatida, degarelix, macrociclo de 14 residuos, semaglutida), no «cualquier péptido»"
+    }
+  ],
+  "narrative_hooks": [
+    "El ribosoma ensambla péptidos sin proteger un solo aminoácido, y la química de laboratorio lleva décadas haciéndolo al revés",
+    "De 47 aditivos probados, solo 13 mejoran el control: la mayoría estorba",
+    "El enemigo tiene nombre: la oxazolona, el anillo que gira el carbono y arruina la quiralidad",
+    "Con lutidina y piridina, la activación está lista en 10 minutos (98,6 %) frente al 38,7 % con solo DIPEA"
+  ],
+  "limitations": [
+    "Todas las cifras de los seis CSV son % de área por HPLC a 210 nm (pureza relativa), no rendimiento aislado",
+    "Todo el cribado se hizo sobre un solo modelo de reacción: un dipéptido más un aminoácido",
+    "Las familias químicas (piridinas, sales metálicas, otros) son clasificación nuestra, no del paper",
+    "Las entradas 47 y 48 (DMAP y NMI) calculan su oxazolona con otra fórmula y quedan fuera de las comparaciones de oxazolona",
+    "El SI no reporta réplicas: hay un dato por condición, sin dispersión que medir",
+    "El cuerpo del paper está tras un muro de pago; solo el resumen y el material suplementario son accesibles"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "9 claims verificados y 13 números clave: script denso"
+  },
+  "notebook_slug": "2026-11-23-sintesis-continua-peptidos-n-a-c",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-11-23-sintesis-continua-peptidos-n-a-c/notebook.html",
+  "generated_at": "2026-11-23T18:36:23-05:00"
+}

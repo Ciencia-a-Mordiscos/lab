@@ -1,0 +1,9 @@
+entry,reagente,base,temp_c,sm3_pct,anhidrido_mixto_pct,producto5_pct,epi5_pct,oxazolona_pct,sobreadicion6_pct
+1,HATU (1.1 equiv.),DIPEA,-20.0,0.2,3.0,45.6,33.8,3.6,6.5
+2,EDCI (1.1 equiv.) HOBt (1.1 equiv.),DIPEA (2.2 equiv.),-20.0,11.0,3.5,19.2,13.3,32.1,2.7
+3,COMU (1.1 equiv.),DIPEA,-20.0,9.4,0.0,51.0,8.2,16.1,1.1
+4,DIC (1.1 equiv.) + oxyma (1.2 equiv.),NA,-20.0,31.3,0.0,40.2,1.5,1.5,14.6
+5,DCC (1.1 equiv.) + HOSu (1.1 equiv.),DIPEA,0.0,30.4,3.2,45.2,2.6,1.6,3.8
+6,IBCF (1.1 equiv.),DIPEA,-20.0,0.8,0.0,39.9,10.0,45.5,0.6
+7,PivCl (1.1 equiv.),DIPEA,-20.0,5.6,0.0,89.3,0.4,2.6,0.3
+8,DMBCl (1.1 equiv.),DIPEA,-20.0,1.2,0.1,93.8,0.6,3.5,0.4
