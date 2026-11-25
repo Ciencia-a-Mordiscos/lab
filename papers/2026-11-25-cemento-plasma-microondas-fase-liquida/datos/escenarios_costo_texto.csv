@@ -1,0 +1,13 @@
+escenario,precio_usd_kwh,costo_usd_t,fuente
+base (precio industrial medio EE. UU.),0.07,78.0,SI p.27 / Peer Review R11
+"electricidad barata (Texas, Ohio)",0.04,45.5,SI p.27 / Peer Review R11
+electricidad renovable muy barata,0.02,38.5,Peer Review R11
+planta pequeña,,83.7,SI p.27
+planta grande (5 Mt/año),,72.0,SI p.27
+eficiencia de calentamiento 90%,,73.6,Peer Review R12
+eficiencia de calentamiento 65%,,93.7,Peer Review R12
+residuo a costo cero (base 10 USD/t),,71.5,Peer Review R12
+8 puestos por turno,,75.5,Peer Review R12
+16 puestos por turno,,85.8,Peer Review R12
+base revisada (precio industrial medio EE. UU.),0.07,83.7,Peer Review File (frase revisada de la línea 233)
+electricidad barata (versión revisada),0.04,51.2,Peer Review File (frase revisada de la línea 233)

@@ -1,0 +1,260 @@
+{
+  "version": "1.0",
+  "paper_id": 3215,
+  "doi": "10.1038/s41586-026-11313-w",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Los tres clínkeres superan el 70 % de alita + belita que pide la norma",
+      "supported": "yes",
+      "detail": "COMM 79,3 %, NEW 81,4 %, RCL 78,2 %; una refinación Rietveld por clínker",
+      "certainty_tier": "T1",
+      "abstract_verb": "show",
+      "effect_size": null
+    },
+    {
+      "claim": "El clínker de plasma tiene más alita que el comercial",
+      "supported": "partial",
+      "detail": "+8,6 pp de alita y −6,5 de belita con n = 1 por clínker; sin prueba estadística posible",
+      "certainty_tier": "T1",
+      "abstract_verb": "producing",
+      "effect_size": null
+    },
+    {
+      "claim": "El clínker hecho con residuo de cemento se parece al comercial",
+      "supported": "partial",
+      "detail": "−1,2 pp de alita; alita + belita 78,2 % frente a 79,3 %; n = 1",
+      "certainty_tier": "T1",
+      "abstract_verb": "meeting specifications",
+      "effect_size": null
+    },
+    {
+      "claim": "A 0,07 USD/kWh la tonelada cuesta 78 USD, con la energía cerca del 72 %",
+      "supported": "partial",
+      "detail": "Versión revisada del expediente: 83,7 USD/t y 83 %; la figura R6 da 83,6 y una participación de 68,6 %",
+      "certainty_tier": "T2",
+      "abstract_verb": "enables",
+      "effect_size": null
+    },
+    {
+      "claim": "Con luz a 0,04 USD/kWh el costo baja a 45,5 USD/t",
+      "supported": "no",
+      "detail": "R6 marca 59,1; desde el 78 saldrían 53,9; 45,5 corresponde a ≈0,0295 USD/kWh; la versión revisada dice 51,2",
+      "certainty_tier": "T2",
+      "abstract_verb": "enables",
+      "effect_size": null
+    },
+    {
+      "claim": "Con luz a 0,02 USD/kWh el costo baja a 38,5 USD/t",
+      "supported": "partial",
+      "detail": "Desde el 78 sale 37,9; la figura R6 marca 42,8 a 0,02 USD/kWh",
+      "certainty_tier": "T2",
+      "abstract_verb": "enables",
+      "effect_size": null
+    },
+    {
+      "claim": "Con la red de EE. UU., el CO₂ queda en torno al 40 % del convencional",
+      "supported": "yes",
+      "detail": "41,9 % con 819 kWh/t y 37,6 % con 710 kWh/t; reconstrucción nuestra",
+      "certainty_tier": "T2",
+      "abstract_verb": "enables",
+      "effect_size": null
+    },
+    {
+      "claim": "Con electricidad renovable quedan unos 86 kg de CO₂ por tonelada",
+      "supported": "yes",
+      "detail": "32,8 + 53 = 85,8 kg, 9,3 % del convencional; unidades clínker vs. cemento",
+      "certainty_tier": "T2",
+      "abstract_verb": "enables",
+      "effect_size": null
+    },
+    {
+      "claim": "El método permitiría producir cemento barato a escala",
+      "supported": "partial",
+      "detail": "Salida de un modelo; a 0,07 USD/kWh sale entre 24,3 y 30,0 USD/t más caro que el convencional (53,7), bajo el mercado de 120–150",
+      "certainty_tier": "T2",
+      "abstract_verb": "enables",
+      "effect_size": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 79.3,
+      "unit": "%",
+      "metric": "silicatos_COMM",
+      "context": "alita + belita del clínker comercial",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 81.4,
+      "unit": "%",
+      "metric": "silicatos_NEW",
+      "context": "alita + belita del clínker de plasma con materia prima tradicional",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 78.2,
+      "unit": "%",
+      "metric": "silicatos_RCL",
+      "context": "alita + belita del clínker de plasma con residuo de cemento",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.6,
+      "unit": "puntos porcentuales",
+      "metric": "alita_NEW_menos_COMM_pp",
+      "context": "alita extra del NEW frente al comercial (n = 1 por clínker)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 819,
+      "unit": "kWh por tonelada",
+      "metric": "r6_pendiente_kwh_t",
+      "context": "pendiente del ajuste lineal a la figura R6 (R² = 0,99998, 15 puntos)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 59.1,
+      "unit": "USD por tonelada",
+      "metric": "r6_costo_a_0.04",
+      "context": "figura R6 a 0,04 USD/kWh",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 68.6,
+      "unit": "por ciento",
+      "metric": "r6_participacion_energia_0_07_pct",
+      "context": "participación de la electricidad en el costo a 0,07 USD/kWh según la pendiente de R6",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 53.9,
+      "unit": "USD por tonelada",
+      "metric": "costo_esperado_0_04_desde_78",
+      "context": "costo esperado a 0,04 USD/kWh desde 78 USD/t con 72 % de energía (texto: 45,5)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 53.7,
+      "unit": "USD por tonelada",
+      "metric": "conv_suma_componentes_usd_t",
+      "context": "costo del cemento convencional, suma de componentes del SI",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14.0,
+      "unit": "por ciento",
+      "metric": "capacidad_baja_pct",
+      "context": "bajada de costo de 0,5 a 5 Mt/año (83,7 → 72,0 USD/t), curva S21",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 927,
+      "unit": "kg CO₂ por tonelada de clínker",
+      "metric": "co2_conv_suma_kg_t",
+      "context": "CO₂ del cemento convencional: 509 + 365 + 53",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 93.6,
+      "unit": "por ciento",
+      "metric": "co2_materia_reduccion_pct",
+      "context": "reducción del CO₂ de materia prima con residuo de cemento (509 → 32,8 kg)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 85.8,
+      "unit": "kg CO₂ por tonelada de clínker",
+      "metric": "co2_renovable_recalc_kg_t",
+      "context": "plasma con residuo y electricidad renovable, reconstrucción 32,8 + 53",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 41.9,
+      "unit": "por ciento del convencional",
+      "metric": "co2_red_E819_pct_conv",
+      "context": "plasma con red de EE. UU. (0,37 kg/kWh) y 819 kWh/t",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "generate",
+      "tier": "T1",
+      "cam_attenuator": "\"generó\" — afirmación directa"
+    },
+    {
+      "abstract_verb": "show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "producing",
+      "tier": "T1",
+      "cam_attenuator": "\"produjo\" — afirmación directa",
+      "evidence": "producing reactive clinker phases"
+    },
+    {
+      "abstract_verb": "report",
+      "tier": "T1",
+      "cam_attenuator": "\"presentan\" / \"construyeron\" una ruta (constructivo)",
+      "evidence": "we report a route that creates sustainable cement"
+    },
+    {
+      "abstract_verb": "revealing",
+      "tier": "T1",
+      "cam_attenuator": "\"las imágenes muestran\"; el mecanismo (\"surface disorder accelerates\") es interpretación de TEM in situ, no lo reproduce el notebook",
+      "evidence": "revealing that surface disorder accelerates clinker reactivity"
+    },
+    {
+      "abstract_verb": "enables",
+      "tier": "T2",
+      "cam_attenuator": "\"los autores plantean que permitiría\" — \"a escala\" y \"bajo costo\" vienen de un modelo TEA, no de producción industrial demostrada",
+      "warning": "meta-claim: NO escribir \"ya produce cemento barato a escala\"; reactor industrial = lotes de hasta 100 kg (Extended Data Fig. 10), el resto es proyección",
+      "evidence": "our approach enables sustainable, low-cost cement production at scale"
+    },
+    {
+      "abstract_verb": "meeting ordinary Portland cement specifications",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, pero el notebook solo verifica el criterio de silicatos >70% en una refinación Rietveld por clínker (n=1)",
+      "evidence": "meeting ordinary Portland cement specifications"
+    }
+  ],
+  "narrative_hooks": [
+    "El clínker de plasma pasa de horas a segundos de cocción y aun así cumple la norma: 81,4 % de alita + belita, por encima del 70 % exigido",
+    "Más de la mitad del CO₂ del cemento (509 de 927 kg por tonelada de clínker) sale de la caliza, no del fuego: usar residuo de cemento la baja un 93,6 %",
+    "El expediente de revisión trae dos versiones del costo (78 y 83,7 USD/t a 0,07 USD/kWh) y ninguna cuadra del todo con la figura del propio modelo"
+  ],
+  "limitations": [
+    "Cuerpo del paper con muro de pago: se trabajó con el SI y el Peer Review File",
+    "Una refinación Rietveld por clínker (n = 1), sin barras de error",
+    "Curvas de costo R6 y S21 digitalizadas de imágenes (residuo máx. de calibración 0,40 USD/t)",
+    "Costos y CO₂ salen del modelo tecnoeconómico de los autores, no de una planta",
+    "Resistencia, calor de hidratación y microscopía in situ solo en imágenes: no reproducidos",
+    "Unidades de CO₂ mezcladas: por tonelada de clínker en las cuentas, por tonelada de cemento en el texto de 86 kg"
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "3 claims yes, 14 números clave"
+  },
+  "notebook_slug": "2026-11-25-cemento-plasma-microondas-fase-liquida",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-11-25-cemento-plasma-microondas-fase-liquida/notebook.html",
+  "generated_at": "2026-11-25T18:48:18-05:00"
+}

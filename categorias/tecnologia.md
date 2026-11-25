@@ -1,5 +1,19 @@
 # Tecnología
 
+## Cemento en segundos con plasma: ¿cumple la norma, cuánto cuesta y cuánto CO₂ ahorra?
+
+*Nature* · Un plasma de carbono encendido con microondas cuece el clínker en segundos en vez de horas. Con el
+material suplementario comprobamos que los tres clínkeres superan el 70 % de alita + belita que pide la
+norma (comercial 79,3 %, plasma 81,4 %, plasma con residuo de cemento 78,2 %), y reconstruimos el CO₂:
+de 927 kg por tonelada de clínker a 85,8 kg con electricidad renovable. ⚠️ Una sola medición por
+clínker. ⚠️ Los costos salen de un modelo, y el expediente de revisión trae dos versiones de la misma
+cifra (78 y 83,7 USD/t a 0,07 USD/kWh): ninguna cuadra del todo con la figura del propio modelo. A ese
+precio, la tonelada sale entre 24,3 y 30,0 USD más cara que la convencional.
+
+[Ver notebook](../papers/2026-11-25-cemento-plasma-microondas-fase-liquida/notebook) · [Leer más](../papers/2026-11-25-cemento-plasma-microondas-fase-liquida/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-25-cemento-plasma-microondas-fase-liquida/notebook.ipynb)
+
+---
+
 ## Una IA contra 353 problemas abiertos de Erdős
 
 *Science* · Un agente que escribe pruebas en Lean, donde el compilador revisa cada paso,

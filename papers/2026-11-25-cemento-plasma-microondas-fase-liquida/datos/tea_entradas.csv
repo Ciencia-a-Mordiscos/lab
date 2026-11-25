@@ -1,0 +1,21 @@
+parametro,valor_min,valor_max,unidad,nota
+capacidad_sistema,500000,500000,t cemento/año,caso base
+puestos_por_turno,12,12,puestos,
+tasa_descuento,10,10,%,
+periodo_recuperacion_capital,5,5,años,
+optimizador_en_mezcla,10,10,% masa,
+fraccion_offgas_precalcinacion,5,5,% masa,
+rendimiento_molienda_cruda,90,90,%,
+rendimiento_molienda_final,95,95,%,
+perdida_fibra,0.2,0.2,%,
+electricidad_sinterizado_plasma,710,710,kWh/t,"solo el paso de plasma, sin molienda"
+factor_emision_electricidad,0,0.37,kg CO2/kWh,"0 = renovable; 0,37 = red promedio EE. UU."
+distancia_transporte_residuo,65,65,millas,piloto
+emisiones_transporte,0.17,0.17,kg CO2/t/milla,
+valor_cemento,140,140,USD/t,
+precio_electricidad,0.03,0.15,USD/kWh,según región
+costo_residuo_concreto,0,20,USD/t,según región
+costo_fibra_o_biochar,0,200,USD/t,
+costo_optimizador,15,15,USD/t,
+costo_yeso,40,40,USD/t,
+costo_mano_obra,38.2,38.2,USD/h,

@@ -1121,6 +1121,11 @@ chapters:
 - file: categorias/tecnologia
   title: "Tecnología"
   sections:
+  - file: papers/2026-11-25-cemento-plasma-microondas-fase-liquida/README
+    title: "Cemento en segundos con plasma"
+    sections:
+    - file: papers/2026-11-25-cemento-plasma-microondas-fase-liquida/notebook
+      title: Notebook
   - file: papers/2026-10-08-ia-busqueda-pruebas-formales-erdos/README
     title: "IA y problemas de Erdős"
     sections:
