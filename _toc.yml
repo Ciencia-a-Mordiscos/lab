@@ -819,6 +819,11 @@ chapters:
 - file: categorias/biologia
   title: "Biología"
   sections:
+  - file: papers/2026-11-25-gen-extremofilo-sequia-cereales/README
+    title: "Un gen de liquen contra la sequía"
+    sections:
+    - file: papers/2026-11-25-gen-extremofilo-sequia-cereales/notebook
+      title: Notebook
   - file: papers/2026-09-02-vehiculos-arn-proteinas-ia/README
     title: "Vehículos de ARN diseñados por IA"
     sections:

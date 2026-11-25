@@ -1,0 +1,745 @@
+cultivo,sitio,anio,panel,condicion,linea,genotipo,rend_planta_g
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,25.98
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,24.86
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,28.01
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,26.78
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,18.59
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,19.86
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,22.87
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,21.44
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,25.04
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,26.17
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,28.34
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,28.98
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,19.41
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,23.4
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,23.14
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,23.25
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,22.28
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,25.67
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,26.5
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,25.47
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,16.5
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,19.07
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,18.35
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,24.46
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,21.23
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,25.0
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,25.6
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,25.22
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,15.7
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,19.34
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,21.44
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,21.52
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,22.23
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,25.92
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,22.68
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,24.39
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,15.71
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,19.28
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,19.32
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,20.67
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,25.1
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,26.48
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,25.06
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,25.9
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,16.37
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,18.73
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,20.45
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,18.25
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,23.47
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,24.02
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,25.14
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,25.1
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,17.43
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,19.18
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,20.88
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,22.43
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,23.55
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,25.36
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,25.19
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,23.95
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,17.5
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,20.28
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,20.56
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,19.12
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,22.77
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,26.35
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,26.77
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,25.97
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,19.19
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,21.08
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,21.85
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,20.77
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,24.27
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,26.64
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,26.55
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,27.75
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,19.58
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,21.33
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,20.03
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,22.24
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,23.12
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,29.0
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,24.5
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,27.47
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,20.24
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,23.26
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,24.09
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,22.01
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,24.47
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,29.1
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,28.54
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,27.49
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,16.65
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,24.97
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,25.51
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,22.02
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,Nip,silvestre,23.12
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL9,transgenico,26.94
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL16,transgenico,30.17
+arroz,Hanzhong,2024,Fig. 5g,riego_completo,TL25,transgenico,24.83
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,Nip,silvestre,17.16
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL9,transgenico,25.67
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL16,transgenico,25.46
+arroz,Hanzhong,2024,Fig. 5g,deficit_hidrico,TL25,transgenico,24.76
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,130.76
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,133.68
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,133.2
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,153.0
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,15.4
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,20.09
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,22.93
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,21.96
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,132.39
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,135.92
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,134.78
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,149.7
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,16.14
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,20.48
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,23.41
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,24.16
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,135.08
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,139.44
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,138.41
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,142.57
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,17.06
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,22.6
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,24.17
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,24.9
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,136.75
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,142.06
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,141.22
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,143.15
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,17.89
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,22.97
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,24.8
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,25.44
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,139.37
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,142.62
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,144.83
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,149.25
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,18.45
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,24.07
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,24.95
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,25.76
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,142.35
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,146.05
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,147.61
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,148.14
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,19.28
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,25.55
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,26.4
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,27.31
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,144.52
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,146.84
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,150.84
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,148.77
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,19.55
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,25.67
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,27.86
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,27.9
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,144.04
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,147.92
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,149.93
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,147.78
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,19.27
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,25.68
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,28.07
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,27.64
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,144.15
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,148.85
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,140.52
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,147.79
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,20.41
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,26.77
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,28.04
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,27.68
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,146.3
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,149.64
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,140.51
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,147.67
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,20.44
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,26.86
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,28.28
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,29.24
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,144.71
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,148.07
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,149.92
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,150.7
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,20.39
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,26.35
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,27.81
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,28.7
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,146.45
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,149.91
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,153.07
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,140.15
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,20.87
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,27.52
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,28.33
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,29.61
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,146.19
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,149.03
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,144.52
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,148.41
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,20.53
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,28.41
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,28.01
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,30.04
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,145.96
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,147.86
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,153.04
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,156.53
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,20.22
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,28.33
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,27.97
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,29.53
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,145.91
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,149.05
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,155.36
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,159.31
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,20.18
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,28.18
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,28.26
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,30.29
+maiz,Changji,2024,Fig. 5h,riego_completo,B73,silvestre,146.56
+maiz,Changji,2024,Fig. 5h,riego_completo,TL23,transgenico,147.74
+maiz,Changji,2024,Fig. 5h,riego_completo,TL41,transgenico,154.23
+maiz,Changji,2024,Fig. 5h,riego_completo,TL43,transgenico,153.28
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,B73,silvestre,22.92
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL23,transgenico,28.05
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL41,transgenico,29.51
+maiz,Changji,2024,Fig. 5h,deficit_hidrico,TL43,transgenico,29.84
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,24.57
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,24.37
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,27.46
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,26.75
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,18.02
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,18.48
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,18.57
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,19.43
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,25.47
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,27.88
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,28.06
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,28.19
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,16.22
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,18.71
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,25.46
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,23.52
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,21.43
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,22.01
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,21.84
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,30.18
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,19.22
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,20.78
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,19.01
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,22.31
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,20.71
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,22.55
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,22.16
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,22.29
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,15.55
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,19.98
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,22.92
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,21.88
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,21.22
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,22.69
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,23.45
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,23.66
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,15.39
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,23.67
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,20.85
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,18.98
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,21.74
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,23.8
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,24.33
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,21.73
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,15.89
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,21.41
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,20.35
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,21.52
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,23.01
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,23.55
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,22.69
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,23.65
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,16.82
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,19.31
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,21.71
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,18.66
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,23.02
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,25.11
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,24.94
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,23.31
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,17.08
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,24.75
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,19.63
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,18.22
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,25.02
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,25.58
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,25.99
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,25.76
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,20.04
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,20.97
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,18.31
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,20.66
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,25.66
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,26.12
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,24.07
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,26.75
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,19.19
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,18.69
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,24.35
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,24.25
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,26.65
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,28.71
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,29.21
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,27.73
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,18.63
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,25.56
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,20.14
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,22.3
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,21.72
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,30.19
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,30.33
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,27.39
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,16.17
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,18.04
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,25.27
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,24.78
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,Nip,silvestre,22.67
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL9,transgenico,31.31
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL16,transgenico,30.56
+arroz,Hanzhong,2023,Extended Data Fig. 12e,riego_completo,TL25,transgenico,29.23
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,Nip,silvestre,17.32
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL9,transgenico,23.53
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL16,transgenico,23.41
+arroz,Hanzhong,2023,Extended Data Fig. 12e,deficit_hidrico,TL25,transgenico,18.57
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,145.44
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,153.93
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,146.42
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,159.16
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,21.76
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,25.06
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,32.38
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,27.12
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,148.93
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,159.77
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,149.67
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,162.78
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,21.01
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,30.79
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,32.26
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,34.81
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,156.23
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,159.49
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,149.67
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,165.51
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,24.06
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,34.49
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,34.1
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,29.9
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,158.58
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,148.24
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,144.11
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,159.61
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,28.66
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,34.01
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,28.24
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,31.17
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,151.61
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,149.06
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,165.15
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,153.35
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,25.15
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,30.64
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,32.42
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,36.51
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,147.76
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,142.99
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,160.99
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,150.97
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,24.13
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,33.07
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,28.57
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,36.35
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,151.99
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,150.02
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,141.79
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,151.76
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,19.85
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,26.9
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,31.93
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,29.05
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,140.28
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,155.01
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,154.77
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,142.11
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,22.42
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,25.05
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,31.13
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,34.88
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,142.97
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,154.91
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,154.64
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,152.63
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,24.51
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,28.13
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,36.14
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,33.25
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,151.53
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,156.19
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,157.74
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,158.79
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,24.65
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,30.83
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,32.65
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,31.49
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,141.84
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,143.89
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,153.1
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,155.3
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,24.7
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,31.57
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,29.6
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,29.34
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,153.29
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,155.4
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,141.6
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,149.18
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,22.24
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,29.46
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,29.04
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,30.52
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,149.19
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,152.81
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,155.92
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,152.18
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,22.84
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,33.57
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,28.2
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,31.58
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,154.65
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,156.58
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,165.7
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,153.44
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,22.73
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,28.91
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,29.05
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,29.69
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,145.22
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,148.31
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,160.87
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,152.44
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,24.77
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,27.11
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,33.19
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,33.75
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,B73,silvestre,140.52
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL23,transgenico,146.1
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL41,transgenico,153.87
+maiz,Zhangye,2023,Extended Data Fig. 12f,riego_completo,TL43,transgenico,152.61
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,B73,silvestre,20.35
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL23,transgenico,28.74
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL41,transgenico,31.95
+maiz,Zhangye,2023,Extended Data Fig. 12f,deficit_hidrico,TL43,transgenico,33.32
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,141.8
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,123.78
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,152.24
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,115.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,14.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,10.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,26.4
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,19.1
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,112.78
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,172.36
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,129.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,116.82
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,10.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,25.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,17.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,20.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,158.28
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,127.54
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,127.74
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,136.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,13.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,23.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,25.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,26.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,178.56
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,125.22
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,175.02
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,107.18
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,12.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,17.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,29.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,25.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,159.02
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,170.54
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,151.36
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,180.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,17.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,23.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,21.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,30.1
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,147.12
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,154.74
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,162.42
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,162.54
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,18.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,18.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,18.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,18.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,105.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,126.28
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,111.5
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,164.54
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,21.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,23.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,23.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,23.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,144.42
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,185.48
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,112.48
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,104.54
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,18.4
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,25.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,16.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,25.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,141.42
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,131.96
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,159.22
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,149.52
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,17.1
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,18.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,26.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,20.0
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,168.46
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,168.52
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,123.28
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,154.82
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,15.4
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,17.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,16.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,23.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,152.5
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,163.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,146.42
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,115.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,14.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,22.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,23.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,22.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,108.1
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,121.24
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,117.1
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,136.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,14.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,25.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,23.4
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,26.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,121.88
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,188.82
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,123.52
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,180.22
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,17.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,24.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,14.1
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,18.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,130.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,165.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,151.02
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,109.92
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,25.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,18.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,30.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,15.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,163.22
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,158.8
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,189.06
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,156.42
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,17.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,25.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,26.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,23.0
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,171.02
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,191.68
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,154.16
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,167.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,16.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,22.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,16.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,21.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,186.08
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,188.5
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,152.98
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,190.18
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,10.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,21.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,20.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,14.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,138.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,170.26
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,168.26
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,176.72
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,12.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,14.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,35.1
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,14.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,156.42
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,117.64
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,136.26
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,170.48
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,15.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,30.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,22.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,15.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,139.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,149.16
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,115.02
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,162.26
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,19.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,25.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,14.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,20.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,154.36
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,128.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,114.5
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,191.44
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,22.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,24.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,25.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,14.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,154.88
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,126.88
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,160.82
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,153.94
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,11.1
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,24.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,17.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,14.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,151.18
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,125.66
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,148.88
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,147.38
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,10.4
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,23.1
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,15.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,12.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,159.46
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,120.58
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,139.82
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,196.88
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,18.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,15.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,27.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,19.1
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,113.9
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,144.24
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,148.9
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,122.36
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,23.4
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,25.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,32.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,24.8
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,153.12
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,128.1
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,168.24
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,147.98
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,16.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,26.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,18.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,31.9
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,116.18
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,131.16
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,161.68
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,142.66
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,18.1
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,21.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,25.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,32.5
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,120.62
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,174.52
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,168.18
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,152.56
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,19.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,20.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,30.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,38.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,104.16
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,158.96
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,190.04
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,167.48
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,20.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,17.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,16.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,14.8
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,108.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,171.86
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,189.84
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,188.34
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,20.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,27.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,11.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,28.6
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,127.58
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,143.04
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,192.42
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,103.36
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,14.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,21.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,17.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,29.4
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,148.16
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,155.48
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,154.5
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,119.74
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,12.6
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,28.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,21.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,26.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,103.72
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,123.62
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,173.28
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,149.86
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,12.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,17.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,17.7
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,18.7
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,113.3
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,143.84
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,131.62
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,122.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,16.9
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,12.5
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,31.3
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,17.9
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,B73,silvestre,124.56
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL23,transgenico,139.14
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL41,transgenico,182.06
+maiz,Aksu,2025,Extended Data Fig. 12g,riego_completo,TL43,transgenico,127.26
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,B73,silvestre,20.2
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL23,transgenico,20.0
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL41,transgenico,28.8
+maiz,Aksu,2025,Extended Data Fig. 12g,deficit_hidrico,TL43,transgenico,12.9

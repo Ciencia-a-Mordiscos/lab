@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "paper_id": 3216,
+  "doi": "10.1038/s41586-026-11151-w",
+  "paper_type": "experimental",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "Con déficit hídrico, el trigo con el gen rinde entre 19,4 % y 32,8 % más por parcela",
+      "supported": "yes",
+      "detail": "Reproducido exacto con la Source Data; mediana 21,4 % (IQR 20,6–23,3); el 32,8 % es solo XZ9104 2025; 33/33 líneas-año por encima (Welch 33/33, Mann-Whitney 32/33 con 4 vs 4 parcelas)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 4.4,
+        "interpretation": "grande, inflada por n = 4 parcelas"
+      }
+    },
+    {
+      "claim": "Con riego completo, el trigo con el gen rinde entre 7,9 % y 13,6 % más por parcela",
+      "supported": "yes",
+      "detail": "Paper 7,9–13,5 % (redondeo de 13,55 %); mediana 11,1 %; 33/33 líneas-año por encima",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 3.3,
+        "interpretation": "grande, inflada por n = 4 parcelas"
+      }
+    },
+    {
+      "claim": "Por planta, la ganancia en trigo es de 22,3 % a 38,3 % con sequía y de 7,6 % a 13,9 % con riego",
+      "supported": "yes",
+      "detail": "Mismos rangos que el paper; las plantas son submuestras de 4 parcelas: describen, no testean",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    },
+    {
+      "claim": "Con el gen, la sequía le cuesta menos al trigo",
+      "supported": "yes",
+      "detail": "15/15 cultivar-año pierden menos: mediana −26,8 % frente a −31,8 %; diferencia pareada mediana 6,2 pp; Wilcoxon pareado p = 6,1×10⁻⁵; d pareada 2,74",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_dz",
+        "value": 2.74,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "El gen desacopla solo en parte el dilema entre resistir la sequía y producir",
+      "supported": "yes",
+      "detail": "Con el gen en sequía se rinde una mediana de 16,9 % menos que el control con riego completo (15/15 por debajo); el abstract dice partially decouples",
+      "certainty_tier": "T2",
+      "abstract_verb": "partially decouples"
+    },
+    {
+      "claim": "Con sequía, el componente que más sube es el peso del grano",
+      "supported": "yes",
+      "detail": "Peso de 1.000 granos +18,7 % (15,2–21,4 % = paper); granos por espiga +9,9 %; espigas por planta +2,3 % (10 cultivar-año)",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    },
+    {
+      "claim": "Arroz: de 19,7 % a 24,1 % más por planta con sequía y de 10,2 % a 11,9 % con riego",
+      "supported": "yes",
+      "detail": "Mismos rangos que el paper; Hanzhong 2023-2024, 13 plantas por línea; d por línea 1,74–2,39 con déficit",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    },
+    {
+      "claim": "Maíz: de 28,0 % a 42,4 % más por planta con sequía",
+      "supported": "partial",
+      "detail": "Cuadra con el paper (27,9–42,4 %), pero el control pierde 84–88 % con sequía: el 42,4 % son 8,2 g sobre 19,3 g. Con riego completo solo 2,2–8,3 %; el paper dice que en maíz el rendimiento solo aumentó con déficit",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d",
+        "value": 3.77,
+        "interpretation": "por línea, planta a planta: 1,00–3,77 con déficit; 0,35–1,40 con riego"
+      }
+    },
+    {
+      "claim": "En tres sitios áridos de 2025, el trigo con el gen rindió de 10,9 % a 25,6 % más por planta",
+      "supported": "yes",
+      "detail": "Mismo rango que el paper; Heyang 15,6–25,6 %; sin tratamiento de riego; 60 plantas por línea, sin parcelas, sin test",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    },
+    {
+      "claim": "El gen actúa uniéndose a activadores de la planta, mejora la fotosíntesis y el uso del agua y retrasa el envejecimiento de la hoja",
+      "supported": "partial",
+      "detail": "Lo afirman los autores con otros experimentos (interacción de proteínas, fotosíntesis, eficiencia en el uso del agua, senescencia); esos datos no están en este notebook",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 21.4,
+      "unit": "por ciento",
+      "metric": "gan_parcela_deficit_hidrico_mediana",
+      "context": "trigo, déficit hídrico, ganancia mediana por parcela (15 cultivar-año)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.88,
+      "unit": "kg por parcela",
+      "metric": "gan_parcela_deficit_hidrico_kg_mediana",
+      "context": "trigo, déficit hídrico, kg extra por parcela (mediana) sobre 4,11 kg del control",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.1,
+      "unit": "por ciento",
+      "metric": "gan_parcela_riego_completo_mediana",
+      "context": "trigo, riego completo, ganancia mediana por parcela",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "7,9–13,5 %",
+        "our_calculation": "7,9–13,6 %",
+        "discrepancy_pct": 0.4,
+        "reason": "redondeo del máximo 13,55 %"
+      }
+    },
+    {
+      "value": -26.8,
+      "unit": "por ciento",
+      "metric": "perdida_sequia_transgenica_mediana",
+      "context": "trigo, caída mediana del rendimiento por parcela con sequía: con el gen −26,8 % frente a −31,8 % del control",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 6.2,
+      "unit": "puntos porcentuales",
+      "metric": "perdida_diferencia_pp_mediana",
+      "context": "trigo, diferencia pareada mediana de la pérdida por sequía (15 pares, Wilcoxon p = 6,1×10⁻⁵)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -16.9,
+      "unit": "por ciento",
+      "metric": "tg_deficit_sobre_wt_riego_pct_mediana",
+      "context": "trigo con el gen en sequía frente al control con riego completo (mediana; 15/15 por debajo)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 18.7,
+      "unit": "por ciento",
+      "metric": "gan_peso_1000_granos_g_deficit_hidrico_mediana",
+      "context": "trigo, déficit hídrico, peso de 1.000 granos (mediana; rango 15,2–21,4 % = paper)",
+      "source": "fact_sheet",
+      "verified": true,
+      "cross_check": {
+        "paper_reported": "15,2–21,4 %",
+        "our_calculation": "15,2–21,4 %",
+        "discrepancy_pct": 0.0,
+        "reason": "rango idéntico"
+      }
+    },
+    {
+      "value": 8.2,
+      "unit": "g por planta",
+      "metric": "maiz_silvestre_g_planta",
+      "context": "maíz Changji 2024, línea TL43: +42,4 % = +8,2 g sobre 19,3 g del control con déficit",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -86.4,
+      "unit": "por ciento",
+      "metric": "perdida_sequia_silvestre_arroz_maiz",
+      "context": "maíz control: pierde 84,3–88,1 % del rendimiento por planta con déficit (Changji 142,0 → 19,3 g)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 10.87,
+      "unit": "g por planta",
+      "metric": "trigo_planta_deficit_transgenico_mediana",
+      "context": "trigo en déficit, mediana por planta con el gen (n = 2.970) frente a 8,19 g del control (n = 1.371); 28,2 % de las plantas control superan esa mediana",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "Here we show",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa para las ganancias de rendimiento en campo (reproducidas exactas con la Source Data) — NO descalar a «sugieren»"
+    },
+    {
+      "abstract_verb": "partially decouples trade-offs",
+      "tier": "T2",
+      "cam_attenuator": "«desacopla en parte» / «reduce el costo de la sequía» — NUNCA «rompe», «elimina» ni «acaba con» el trade-off; la transgénica en sequía sigue ~17 % por debajo del silvestre regado"
+    },
+    {
+      "abstract_verb": "enhancing plot yields ... by 19.4–32.8%",
+      "tier": "T1",
+      "cam_attenuator": "«aumentó el rendimiento por parcela entre 19 % y 33 % en sequía» con la cifra; mencionar que la mediana es 21 %"
+    },
+    {
+      "abstract_verb": "per-plant yields of rice and maize by 19.7–42.4%",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa con cifra, separando arroz (20–24 %) y maíz (28–42 %)"
+    },
+    {
+      "abstract_verb": "physically interacts / synergistically enhance",
+      "tier": "T1",
+      "cam_attenuator": "«según los autores, la proteína se une a ...» — mecanismo demostrado en el paper pero NO reproducido en el notebook"
+    },
+    {
+      "abstract_verb": "simultaneously boosting photosynthetic capacity and water-use efficiency, while delaying senescence",
+      "tier": "T1",
+      "cam_attenuator": "«los autores midieron más fotosíntesis y...» — atribuido, no verificado aquí"
+    },
+    {
+      "abstract_verb": "delivers a straightforwards and broad-spectrum strategy",
+      "tier": "T2",
+      "cam_attenuator": "meta-claim de los autores: «los autores plantean que es una estrategia amplia» — NUNCA «solución», «revolución» ni «acabará con el hambre»"
+    },
+    {
+      "abstract_verb": "regardless of water availability",
+      "tier": "T2",
+      "cam_attenuator": "válido para trigo y arroz (ganan también con riego: ~11 %); en maíz con riego la ganancia es pequeña y en parte no significativa"
+    },
+    {
+      "abstract_verb": "in the greenhouse and multiple field environments (validated scope)",
+      "tier": "T2",
+      "cam_attenuator": "«probado en invernadero y en campos de China» — scope literal; no extrapolar a agricultores, otros climas ni aprobación regulatoria"
+    }
+  ],
+  "narrative_hooks": [
+    "Un gen prestado del hongo de un liquen hace que el trigo rinda entre 19,4 % y 32,8 % más por parcela con sequía (mediana 21,4 %)",
+    "Con el gen, la sequía le cuesta al trigo un 26,8 % del rendimiento en vez de un 31,8 %, pero sigue rindiendo un 16,9 % menos que el trigo original bien regado: el dilema se afloja, no se rompe",
+    "El grano extra sale sobre todo de granos más pesados (+18,7 %), no de más espigas (+2,3 %)",
+    "En maíz el +42,4 % suena enorme, pero son 8,2 g sobre una base que la sequía hundió de 142 a 19 g por planta",
+    "Según los autores (no verificado en el notebook), el gen se une a activadores de la planta y mejora la fotosíntesis y el uso del agua"
+  ],
+  "limitations": [
+    "La unidad experimental es la parcela: 4 por línea y riego; la d de Cohen sale enorme e inestable",
+    "Las 2-3 líneas con el gen de cada cultivar comparten el mismo control",
+    "Las plantas son submuestras de parcela: no sirven para valores p",
+    "Índice de cosecha en déficit: nuestro rango 2,6–15,5 % frente al 7,6–15,5 % del paper (XZ9104 2025)",
+    "En maíz con riego completo la ganancia es pequeña (2,2–8,3 %): «regardless of water availability» no vale para maíz",
+    "El mecanismo (activadores, fotosíntesis, uso del agua, senescencia) no se reproduce con estos datos: solo atribuido a los autores",
+    "Ensayos en invernadero y campos de China; el paper no trata regulación ni adopción de un transgénico"
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "8 claims yes, 2 partial, 10 números clave"
+  },
+  "species_detail": "trigo (5 cultivares), arroz (Nipponbare), maíz (B73); gen del hongo liquenizado Endocarpon pusillum",
+  "notebook_slug": "2026-11-25-gen-extremofilo-sequia-cereales",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-11-25-gen-extremofilo-sequia-cereales/notebook.html",
+  "generated_at": "2026-11-25T23:24:02+00:00"
+}

@@ -14,6 +14,19 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### Un gen prestado de un liquen: ¿cuánto grano más da el trigo en sequía?
+
+**Biología** · *Nature* · Un gen del hongo de un liquen que aguanta la sequía extrema, puesto en cinco variedades de trigo,
+en arroz y en maíz. Con la Source Data reproducimos el titular: con déficit hídrico el trigo con el
+gen rinde entre 19,4 % y 32,8 % más por parcela (mediana 21,4 %), y con riego completo un 11,1 % más.
+La sequía le cuesta menos en los 15 cultivar-año (−26,8 % frente a −31,8 %), y la pieza que más sube
+es el peso del grano. ⚠️ El desacople es parcial: en sequía sigue rindiendo un 16,9 % menos que la
+variedad original regada. ⚠️ En maíz el +42,4 % son 8,2 g sobre una base que cayó 86 %.
+
+[Ver notebook](papers/2026-11-25-gen-extremofilo-sequia-cereales/notebook) · [Leer más](papers/2026-11-25-gen-extremofilo-sequia-cereales/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-25-gen-extremofilo-sequia-cereales/notebook.ipynb)
+
+---
+
 ### Copiar al ribosoma: péptidos de la cabeza a la cola, sin proteger nada
 
 **Química** · *Nature* · El ribosoma ensambla péptidos de la cabeza a la cola sin proteger un solo aminoácido; la química de

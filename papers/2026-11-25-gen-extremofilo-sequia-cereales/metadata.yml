@@ -1,0 +1,56 @@
+titulo: "Un gen prestado de un liquen: ¿cuánto grano más da el trigo en sequía?"
+titulo_corto: "Un gen de liquen contra la sequía"
+card_descripcion: |
+  Un gen del hongo de un liquen que aguanta la sequía extrema, puesto en cinco variedades de trigo,
+  en arroz y en maíz. Con la Source Data reproducimos el titular: con déficit hídrico el trigo con el
+  gen rinde entre 19,4 % y 32,8 % más por parcela (mediana 21,4 %), y con riego completo un 11,1 % más.
+  La sequía le cuesta menos en los 15 cultivar-año (−26,8 % frente a −31,8 %), y la pieza que más sube
+  es el peso del grano. ⚠️ El desacople es parcial: en sequía sigue rindiendo un 16,9 % menos que la
+  variedad original regada. ⚠️ En maíz el +42,4 % son 8,2 g sobre una base que cayó 86 %.
+fecha: 2026-11-25
+categoria: biologia
+tags: [agricultura, sequia, trigo, arroz, maiz, transgenicos, liquenes, cambio-climatico]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11151-w"
+    titulo: "An extremophile transgene improves drought resistance and yield in cereals"
+    journal: Nature
+    autores: "Du et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "trigo_parcelas.csv"
+    descripcion: "Rendimiento por parcela (kg), 5 cultivares x 3 años x 2 riegos, 4 parcelas por línea"
+    fuente: "Source Data MOESM20 (Supplementary Tables 1-3)"
+  - nombre: "trigo_plantas.csv"
+    descripcion: "Rendimiento de grano por planta (g), Yangling 2023-2025"
+    fuente: "Source Data MOESM20 (Supplementary Tables 1-3)"
+  - nombre: "trigo_rasgos_resumen.csv"
+    descripcion: "Media, desviación estándar y n por rasgo, línea, año y riego"
+    fuente: "Source Data MOESM20 (Supplementary Tables 1-3)"
+  - nombre: "trigo_ganancia_cultivar_anio.csv"
+    descripcion: "Ganancia % de la media de líneas con el gen frente a su control, por cultivar-año y riego"
+    fuente: "Derivado de Source Data MOESM20"
+  - nombre: "trigo_perdida_por_sequia.csv"
+    descripcion: "Caída del rendimiento por parcela al pasar de riego completo a déficit hídrico, control y con el gen"
+    fuente: "Derivado de Source Data MOESM20"
+  - nombre: "trigo_lineas_efecto.csv"
+    descripcion: "Diferencia en kg, d de Cohen, Welch y Mann-Whitney por línea a nivel parcela"
+    fuente: "Derivado de Source Data MOESM20"
+  - nombre: "trigo_sitios_aridos_2025.csv"
+    descripcion: "Rendimiento por planta en tres sitios áridos de 2025 (Heyang, Linfen, Cangzhou)"
+    fuente: "Source Data MOESM20 (Supplementary Tables 4-6)"
+  - nombre: "arroz_maiz_plantas.csv"
+    descripcion: "Rendimiento por planta de arroz y maíz con y sin el gen, riego completo y déficit hídrico"
+    fuente: "Source Data MOESM25 (Fig. 5g,h) y MOESM36 (Extended Data Fig. 12e-g)"
+estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "ensayos de campo: rendimiento por parcela y por planta, con y sin el gen, en dos riegos"
+  falta: null
+  corto_id: null
+  corto_video: null
