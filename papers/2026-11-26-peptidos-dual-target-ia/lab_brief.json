@@ -1,0 +1,309 @@
+{
+  "version": "1.0",
+  "paper_id": 3219,
+  "doi": "10.1038/s41586-026-11338-1",
+  "paper_type": "metodo_nuevo",
+  "study_design": "experimental",
+  "species": "mice",
+  "verification_table": [
+    {
+      "claim": "El hit rate para dos dianas pasa de 5,5 % a 56,6 % (×10,22)",
+      "supported": "yes",
+      "detail": "35 entradas del benchmark; medias y SD del Source Data. Es un filtro computacional de afinidad predicha, no un resultado experimental",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "metric": "hit_rate_mejora",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Con una sola diana la mejora es ×1,92 (36,4 % a 69,7 %)",
+      "supported": "yes",
+      "detail": "50 entradas; régimen distinto, no se mezcla con el ×10,22",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "metric": "hit_rate_mejora",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Seis de los 20 péptidos superan a las dos hormonas naturales",
+      "supported": "yes",
+      "detail": "Potencia relativa > 1 en ambos receptores. La línea base la despejamos de las Suppl Tables 6, 7 y 10; el paper no la tabula",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "metric": "n_supera_nativo",
+      "supported_by_data": true
+    },
+    {
+      "claim": "La mayoría de los péptidos diseñados son más potentes que el GLP-1",
+      "supported": "no",
+      "detail": "Mediana ×0,49 (IQR ×0,30 a ×1,97): el seis es la cola de la distribución, no el centro",
+      "certainty_tier": "T1",
+      "abstract_verb": "present",
+      "metric": "ec50_rel_mediana_glp1r",
+      "supported_by_data": true
+    },
+    {
+      "claim": "GA-Dual.R5.S3 a 1,5 nmol/kg baja el peso 26,0 % en 21 días",
+      "supported": "yes",
+      "detail": "n=6, SD 1,05; frente al vehículo, −33,88 puntos porcentuales",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "metric": "peso_d21",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Baja más el peso que semaglutida y mazdutida a diez veces su dosis",
+      "supported": "partial",
+      "detail": "−6,90 pp frente a semaglutida (d=4,45) y −2,82 pp frente a mazdutida (d=2,29). Con 6 contra 6 el p de Mann-Whitney toca su suelo (0,0022) y no discrimina; el paper compara con ANOVA de dos vías y Tukey",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "metric": "peso_dif",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Mejora la glucosa en ayunas más que los comparadores",
+      "supported": "yes",
+      "detail": "6,14 mmol/L frente a 7,33 (semaglutida) y 6,80 (mazdutida); ANOVA de una vía F=33,3, p=5,7×10⁻⁸",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "metric": "glucosa_ayunas",
+      "supported_by_data": true
+    },
+    {
+      "claim": "No se detectó aversión al sabor ni pica",
+      "supported": "partial",
+      "detail": "Sin diferencia frente al vehículo (sacarina p=0,94; kaolín p=0,48), con controles positivos que sí mueven el ensayo. Con n=6, no se detectó no equivale a no causa náusea",
+      "certainty_tier": "T2",
+      "abstract_verb": "demonstrate",
+      "metric": "sacarina_dif",
+      "supported_by_data": true
+    },
+    {
+      "claim": "IC-Dual.P3 reduce el volumen del tumor un 94,2 %",
+      "supported": "yes",
+      "detail": "108,0 mm³ frente a 1.874,7 del control el día 24; d=4,79; p=0,0079, el mínimo posible con 5 contra 5. Coincide exacto con el abstract",
+      "certainty_tier": "T1",
+      "abstract_verb": "achieved",
+      "metric": "tumor_reduccion",
+      "supported_by_data": true
+    },
+    {
+      "claim": "Los tres péptidos superan a los anticuerpos anti-PD-1 y anti-CTLA-4",
+      "supported": "partial",
+      "detail": "85,0 a 94,2 % de reducción frente a 60,3 y 60,6 % de los anticuerpos, pero cada tratamiento recorre su propio rango de concentración en placa y los anticuerpos se probaron a una sola dosis en el animal",
+      "certainty_tier": "T2",
+      "abstract_verb": "demonstrate",
+      "metric": "tumor_reduccion",
+      "supported_by_data": true
+    },
+    {
+      "claim": "De los 15 péptidos diseñados, 8 bloquean ambos frenos",
+      "supported": "no",
+      "detail": "No verificable con estos datos: el Source Data solo trae los 3 que llegaron a animales. Se cita como dato del paper",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "metric": null,
+      "supported_by_data": false
+    },
+    {
+      "claim": "ORIDTP diseñó los péptidos contra PD-1 y CTLA-4 sin reentrenar (zero-shot)",
+      "supported": "yes",
+      "detail": "Declarado por los autores en el abstract; el notebook abre los datos de los 3 péptidos que llegaron a animales",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "metric": null,
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 56.6,
+      "unit": "por ciento",
+      "metric": "hit_rate",
+      "context": "hit rate de ORIDTP en la tercera ronda, régimen de dos dianas (35 entradas)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 5.5,
+      "unit": "por ciento",
+      "metric": "hit_rate",
+      "context": "hit rate del método de partida (PepDif), régimen de dos dianas",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 10.22,
+      "unit": "veces",
+      "metric": "hit_rate_mejora",
+      "context": "mejora del hit rate en el régimen de dos dianas (5,5 % a 56,6 %)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 1.92,
+      "unit": "veces",
+      "metric": "hit_rate_mejora",
+      "context": "mejora del hit rate con una sola diana (36,4 % a 69,7 %)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 6,
+      "unit": "peptidos",
+      "metric": "n_supera_nativo",
+      "context": "de 20 péptidos, los que superan a GLP-1 y a glucagón en potencia",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 0.49,
+      "unit": "veces",
+      "metric": "ec50_rel_mediana_glp1r",
+      "context": "mediana de la potencia relativa al GLP-1 natural de los 20 péptidos (IQR 0,30 a 1,97)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 40.8,
+      "unit": "picomolar",
+      "metric": "ec50_nativo_glp1r",
+      "context": "EC50 del GLP-1 natural despejado de las Suppl Tables 6, 7 y 10",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 5.6,
+      "unit": "picomolar",
+      "metric": "ec50_mejor_glp1r",
+      "context": "EC50 más bajo medido en GLP-1R, péptido GA-Dual.R5.S3",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 7.29,
+      "unit": "veces",
+      "metric": "ec50_rel_lead",
+      "context": "potencia del péptido líder frente al GLP-1 natural (y ×1,69 frente al glucagón)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -26.03,
+      "unit": "por ciento",
+      "metric": "peso_d21",
+      "context": "cambio de peso a 21 días de GA-Dual.R5.S3 a 1,5 nmol/kg en ratones obesos (n=6)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -6.9,
+      "unit": "puntos porcentuales",
+      "metric": "peso_dif",
+      "context": "diferencia de GA-Dual a 1,5 nmol/kg frente a semaglutida a 15,0 nmol/kg (d=4,45)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 6.14,
+      "unit": "milimoles por litro",
+      "metric": "glucosa_ayunas",
+      "context": "glucosa en ayunas con GA-Dual a 1,5 nmol/kg frente a 7,33 con semaglutida",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": -1.7,
+      "unit": "puntos porcentuales",
+      "metric": "sacarina_dif",
+      "context": "diferencia en aversión a la sacarina frente al vehículo (p=0,94; control positivo de litio -42,9 pp)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 17.7,
+      "unit": "veces",
+      "metric": "kaolin_ratio_cis",
+      "context": "kaolín comido por el grupo de cisplatino frente al vehículo, el control positivo del test de pica",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 94.2,
+      "unit": "por ciento",
+      "metric": "tumor_reduccion",
+      "context": "reducción del volumen tumoral de IC-Dual.P3 frente al control el día 24 (n=5, d=4,79)",
+      "source": "notebook",
+      "verified": true
+    },
+    {
+      "value": 108.0,
+      "unit": "milimetros cubicos",
+      "metric": "tumor_d24",
+      "context": "volumen tumoral medio de IC-Dual.P3 el día 24 frente a 1.874,7 del control",
+      "source": "notebook",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "\"presentan\" / \"construyeron\" — afirmación directa sobre el artefacto"
+    },
+    {
+      "abstract_verb": "demonstrated",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa"
+    },
+    {
+      "abstract_verb": "establish",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa; pero 'establish ORIDTP as a powerful and generalizable platform' es meta-claim de los autores → tratarlo como T2 y NO escalar a 'revolución' ni 'hito'"
+    },
+    {
+      "abstract_verb": "achieved",
+      "tier": "T1",
+      "cam_attenuator": "\"alcanzó\" / \"logró\" con el número del paper"
+    },
+    {
+      "abstract_verb": "discovery",
+      "tier": "T1",
+      "cam_attenuator": "\"descubrimiento\" al describir la plataforma generando candidatos"
+    },
+    {
+      "abstract_verb": "offer opportunities",
+      "tier": "T2",
+      "cam_attenuator": "\"abre oportunidades para\" — potencial, no resultado"
+    },
+    {
+      "abstract_verb": "[scope: in vivo en roedores]",
+      "tier": "T2",
+      "cam_attenuator": "\"demostrado [solo] en ratones y ratas\" — NUNCA extrapolar a pacientes, humanos ni práctica clínica; no hay ensayos clínicos"
+    }
+  ],
+  "narrative_hooks": [
+    "Para dos dianas a la vez el método de partida acertaba en 5,5 de cada 100 intentos; ORIDTP acierta en 56,6.",
+    "Seis de los 20 péptidos le ganan a las dos hormonas naturales — pero la mediana de los 20 es ×0,49 frente al GLP-1: el titular es la cola de la distribución.",
+    "El péptido líder baja el peso de ratones obesos un 26,0 % con diez veces menos dosis que la semaglutida del grupo comparador.",
+    "Sin reentrenar nada, la misma IA diseñó péptidos contra PD-1 y CTLA-4: uno redujo el tumor de los ratones un 94,2 %.",
+    "La ausencia de náusea no se afirma a ciegas: el cloruro de litio y el cisplatino sí mueven el ensayo, así que el test tiene sensibilidad."
+  ],
+  "limitations": [
+    "Todo ocurre en ratones, ratas y células humanas in vitro: no hay pacientes ni ensayos clínicos.",
+    "Grupos de 5 o 6 animales: el p de Mann-Whitney tiene un suelo (0,0022 con 6 contra 6; 0,0079 con 5 contra 5) y las d de Cohen enormes reflejan grupos que no se solapan, no precisión.",
+    "Ningún dato está pareado: el Source Data advierte que las medidas de un día no están ligadas al mismo animal del día anterior.",
+    "El ANOVA de una vía, el Mann-Whitney y las d de Cohen son cálculos del notebook; el paper usa ANOVA de una y dos vías con Tukey.",
+    "La línea base de las hormonas naturales (GLP-1 40,8 pM, glucagón 1,40 nM) es una derivación nuestra a partir de las Suppl Tables 6, 7 y 10.",
+    "El conteo de 8 de 15 péptidos que bloquean ambos frenos no es recomputable con los datos publicados.",
+    "Las curvas de bloqueo en placa no comparten rango de concentración entre tratamientos."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims yes verificados y 16 números clave"
+  },
+  "notebook_slug": "2026-11-26-peptidos-dual-target-ia",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-11-26-peptidos-dual-target-ia/notebook.html",
+  "generated_at": "2026-11-26T11:02:15-05:00"
+}

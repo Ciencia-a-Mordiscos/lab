@@ -1121,6 +1121,11 @@ chapters:
 - file: categorias/tecnologia
   title: "Tecnología"
   sections:
+  - file: papers/2026-11-26-peptidos-dual-target-ia/README
+    title: "Péptidos de doble diana por IA"
+    sections:
+    - file: papers/2026-11-26-peptidos-dual-target-ia/notebook
+      title: Notebook
   - file: papers/2026-11-25-cemento-plasma-microondas-fase-liquida/README
     title: "Cemento en segundos con plasma"
     sections:

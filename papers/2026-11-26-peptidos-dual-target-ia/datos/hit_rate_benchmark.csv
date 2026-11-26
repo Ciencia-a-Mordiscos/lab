@@ -1,0 +1,11 @@
+benchmark,metodo,n_entradas,hit_rate_medio,hit_rate_sd
+single-target,PepDif,50,0.364,0.096468
+single-target,PepDif+PepDRL,50,0.404,0.096214
+single-target,ORIDTP (iter1),50,0.462,0.086023
+single-target,ORIDTP (iter2),50,0.616,0.086284
+single-target,ORIDTP (iter3),50,0.6972,0.112849
+dual-target,PepDif,35,0.055429,0.040318
+dual-target,PepDif+PepDRL,35,0.158286,0.065146
+dual-target,ORIDTP (iter1),35,0.275429,0.067053
+dual-target,ORIDTP (iter2),35,0.404571,0.075004
+dual-target,ORIDTP (iter3),35,0.566286,0.076968

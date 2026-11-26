@@ -1,5 +1,20 @@
 # Tecnología
 
+## Péptidos de doble diana diseñados por IA: ¿cuántos le ganan a las hormonas naturales?
+
+*Nature* · ORIDTP, una plataforma de IA, diseña péptidos que apuntan a dos receptores a la vez: en el filtro
+computacional de dos dianas el acierto pasa de 5,5 % a 56,6 % (×10,22; con una sola diana el salto es
+×1,92). De los 20 péptidos sintetizados contra GLP-1R y GCGR, 6 superan a las dos hormonas naturales
+—la línea base (GLP-1 40,8 pM, glucagón 1,40 nM) la despejamos de las Suppl Tables 6, 7 y 10—, y el
+líder baja el peso de ratones obesos un 26,0 % a 1,5 nmol/kg, diez veces menos dosis que la semaglutida
+comparadora. Sin reentrenar, la plataforma diseñó péptidos contra PD-1 y CTLA-4: IC-Dual.P3 reduce el
+tumor un 94,2 %. ⚠️ La mediana de los 20 es ×0,49 frente al GLP-1: el titular es la cola, no el centro.
+⚠️ Grupos de 5 o 6 animales, sin datos pareados y sin ensayos clínicos: ratones, ratas y células.
+
+[Ver notebook](../papers/2026-11-26-peptidos-dual-target-ia/notebook) · [Leer más](../papers/2026-11-26-peptidos-dual-target-ia/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-26-peptidos-dual-target-ia/notebook.ipynb)
+
+---
+
 ## Cemento en segundos con plasma: ¿cumple la norma, cuánto cuesta y cuánto CO₂ ahorra?
 
 *Nature* · Un plasma de carbono encendido con microondas cuece el clínker en segundos en vez de horas. Con el

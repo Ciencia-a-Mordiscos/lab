@@ -1,0 +1,145 @@
+tratamiento,dia,cambio_peso_pct
+Vehicle,0,0.0
+Vehicle,0,0.0
+Vehicle,0,0.0
+Vehicle,0,0.0
+Vehicle,0,0.0
+Vehicle,0,0.0
+Vehicle,7,3.0
+Vehicle,7,3.6
+Vehicle,7,2.1
+Vehicle,7,2.5
+Vehicle,7,1.6
+Vehicle,7,3.9
+Vehicle,14,6.8
+Vehicle,14,6.2
+Vehicle,14,4.2
+Vehicle,14,4.8
+Vehicle,14,5.1
+Vehicle,14,4.0
+Vehicle,21,6.8
+Vehicle,21,7.7
+Vehicle,21,8.3
+Vehicle,21,6.2
+Vehicle,21,8.9
+Vehicle,21,9.2
+GA-Dual.R5.S3 (0.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (0.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (0.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (0.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (0.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (0.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (0.5 nmol/kg),7,-13.3
+GA-Dual.R5.S3 (0.5 nmol/kg),7,-8.2
+GA-Dual.R5.S3 (0.5 nmol/kg),7,-7.2
+GA-Dual.R5.S3 (0.5 nmol/kg),7,-6.4
+GA-Dual.R5.S3 (0.5 nmol/kg),7,-5.3
+GA-Dual.R5.S3 (0.5 nmol/kg),7,-11.5
+GA-Dual.R5.S3 (0.5 nmol/kg),14,-19.8
+GA-Dual.R5.S3 (0.5 nmol/kg),14,-16.8
+GA-Dual.R5.S3 (0.5 nmol/kg),14,-13.9
+GA-Dual.R5.S3 (0.5 nmol/kg),14,-9.7
+GA-Dual.R5.S3 (0.5 nmol/kg),14,-10.6
+GA-Dual.R5.S3 (0.5 nmol/kg),14,-15.8
+GA-Dual.R5.S3 (0.5 nmol/kg),21,-20.4
+GA-Dual.R5.S3 (0.5 nmol/kg),21,-20.4
+GA-Dual.R5.S3 (0.5 nmol/kg),21,-17.3
+GA-Dual.R5.S3 (0.5 nmol/kg),21,-15.8
+GA-Dual.R5.S3 (0.5 nmol/kg),21,-15.6
+GA-Dual.R5.S3 (0.5 nmol/kg),21,-16.1
+GA-Dual.R5.S3 (1.0 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.0 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.0 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.0 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.0 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.0 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.0 nmol/kg),7,-10.1
+GA-Dual.R5.S3 (1.0 nmol/kg),7,-13.0
+GA-Dual.R5.S3 (1.0 nmol/kg),7,-11.2
+GA-Dual.R5.S3 (1.0 nmol/kg),7,-10.2
+GA-Dual.R5.S3 (1.0 nmol/kg),7,-7.0
+GA-Dual.R5.S3 (1.0 nmol/kg),7,-10.7
+GA-Dual.R5.S3 (1.0 nmol/kg),14,-18.0
+GA-Dual.R5.S3 (1.0 nmol/kg),14,-18.3
+GA-Dual.R5.S3 (1.0 nmol/kg),14,-17.8
+GA-Dual.R5.S3 (1.0 nmol/kg),14,-21.2
+GA-Dual.R5.S3 (1.0 nmol/kg),14,-16.9
+GA-Dual.R5.S3 (1.0 nmol/kg),14,-13.4
+GA-Dual.R5.S3 (1.0 nmol/kg),21,-21.5
+GA-Dual.R5.S3 (1.0 nmol/kg),21,-21.3
+GA-Dual.R5.S3 (1.0 nmol/kg),21,-19.3
+GA-Dual.R5.S3 (1.0 nmol/kg),21,-22.7
+GA-Dual.R5.S3 (1.0 nmol/kg),21,-20.8
+GA-Dual.R5.S3 (1.0 nmol/kg),21,-19.4
+GA-Dual.R5.S3 (1.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.5 nmol/kg),0,0.0
+GA-Dual.R5.S3 (1.5 nmol/kg),7,-17.0
+GA-Dual.R5.S3 (1.5 nmol/kg),7,-20.6
+GA-Dual.R5.S3 (1.5 nmol/kg),7,-16.1
+GA-Dual.R5.S3 (1.5 nmol/kg),7,-19.6
+GA-Dual.R5.S3 (1.5 nmol/kg),7,-16.3
+GA-Dual.R5.S3 (1.5 nmol/kg),7,-18.6
+GA-Dual.R5.S3 (1.5 nmol/kg),14,-23.2
+GA-Dual.R5.S3 (1.5 nmol/kg),14,-21.3
+GA-Dual.R5.S3 (1.5 nmol/kg),14,-21.0
+GA-Dual.R5.S3 (1.5 nmol/kg),14,-24.6
+GA-Dual.R5.S3 (1.5 nmol/kg),14,-24.1
+GA-Dual.R5.S3 (1.5 nmol/kg),14,-23.0
+GA-Dual.R5.S3 (1.5 nmol/kg),21,-26.2
+GA-Dual.R5.S3 (1.5 nmol/kg),21,-24.9
+GA-Dual.R5.S3 (1.5 nmol/kg),21,-25.8
+GA-Dual.R5.S3 (1.5 nmol/kg),21,-27.8
+GA-Dual.R5.S3 (1.5 nmol/kg),21,-26.4
+GA-Dual.R5.S3 (1.5 nmol/kg),21,-25.1
+Semaglutide (15.0 nmol/kg),0,0.0
+Semaglutide (15.0 nmol/kg),0,0.0
+Semaglutide (15.0 nmol/kg),0,0.0
+Semaglutide (15.0 nmol/kg),0,0.0
+Semaglutide (15.0 nmol/kg),0,0.0
+Semaglutide (15.0 nmol/kg),0,0.0
+Semaglutide (15.0 nmol/kg),7,-10.7
+Semaglutide (15.0 nmol/kg),7,-8.2
+Semaglutide (15.0 nmol/kg),7,-12.8
+Semaglutide (15.0 nmol/kg),7,-12.1
+Semaglutide (15.0 nmol/kg),7,-10.0
+Semaglutide (15.0 nmol/kg),7,-11.6
+Semaglutide (15.0 nmol/kg),14,-17.0
+Semaglutide (15.0 nmol/kg),14,-15.4
+Semaglutide (15.0 nmol/kg),14,-16.7
+Semaglutide (15.0 nmol/kg),14,-20.2
+Semaglutide (15.0 nmol/kg),14,-17.8
+Semaglutide (15.0 nmol/kg),14,-13.7
+Semaglutide (15.0 nmol/kg),21,-19.6
+Semaglutide (15.0 nmol/kg),21,-19.4
+Semaglutide (15.0 nmol/kg),21,-18.0
+Semaglutide (15.0 nmol/kg),21,-22.3
+Semaglutide (15.0 nmol/kg),21,-19.0
+Semaglutide (15.0 nmol/kg),21,-16.5
+Mazdutide (15.0 nmol/kg),0,0.0
+Mazdutide (15.0 nmol/kg),0,0.0
+Mazdutide (15.0 nmol/kg),0,0.0
+Mazdutide (15.0 nmol/kg),0,0.0
+Mazdutide (15.0 nmol/kg),0,0.0
+Mazdutide (15.0 nmol/kg),0,0.0
+Mazdutide (15.0 nmol/kg),7,-15.3
+Mazdutide (15.0 nmol/kg),7,-14.6
+Mazdutide (15.0 nmol/kg),7,-13.2
+Mazdutide (15.0 nmol/kg),7,-14.7
+Mazdutide (15.0 nmol/kg),7,-13.4
+Mazdutide (15.0 nmol/kg),7,-15.8
+Mazdutide (15.0 nmol/kg),14,-20.9
+Mazdutide (15.0 nmol/kg),14,-19.0
+Mazdutide (15.0 nmol/kg),14,-17.0
+Mazdutide (15.0 nmol/kg),14,-22.4
+Mazdutide (15.0 nmol/kg),14,-20.3
+Mazdutide (15.0 nmol/kg),14,-17.7
+Mazdutide (15.0 nmol/kg),21,-23.8
+Mazdutide (15.0 nmol/kg),21,-23.7
+Mazdutide (15.0 nmol/kg),21,-22.5
+Mazdutide (15.0 nmol/kg),21,-23.4
+Mazdutide (15.0 nmol/kg),21,-25.0
+Mazdutide (15.0 nmol/kg),21,-20.9

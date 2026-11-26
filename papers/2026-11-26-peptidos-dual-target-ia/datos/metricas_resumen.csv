@@ -1,0 +1,13 @@
+benchmark,metrica,pepdif_baseline,oridtp
+single-target,Hit rate,0.364,0.697
+single-target,Diversity,0.781,0.772
+single-target,Affinity / 10,0.52,0.727
+single-target,pLDDT / 100,0.8,0.892
+single-target,ipTM,0.723,0.821
+single-target,Non-Coil,0.428,0.521
+dual-target,Hit rate,0.055,0.566
+dual-target,Diversity,0.758,0.702
+dual-target,Affinity / 10,0.42,0.69
+dual-target,pLDDT / 100,0.68,0.81
+dual-target,ipTM,0.651,0.782
+dual-target,Non-Coil,0.412,0.508

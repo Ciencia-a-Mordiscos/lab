@@ -1,0 +1,70 @@
+titulo: "Péptidos de doble diana diseñados por IA: ¿cuántos le ganan a las hormonas naturales?"
+titulo_corto: "Péptidos de doble diana por IA"
+card_descripcion: |
+  ORIDTP, una plataforma de IA, diseña péptidos que apuntan a dos receptores a la vez: en el filtro
+  computacional de dos dianas el acierto pasa de 5,5 % a 56,6 % (×10,22; con una sola diana el salto es
+  ×1,92). De los 20 péptidos sintetizados contra GLP-1R y GCGR, 6 superan a las dos hormonas naturales
+  —la línea base (GLP-1 40,8 pM, glucagón 1,40 nM) la despejamos de las Suppl Tables 6, 7 y 10—, y el
+  líder baja el peso de ratones obesos un 26,0 % a 1,5 nmol/kg, diez veces menos dosis que la semaglutida
+  comparadora. Sin reentrenar, la plataforma diseñó péptidos contra PD-1 y CTLA-4: IC-Dual.P3 reduce el
+  tumor un 94,2 %. ⚠️ La mediana de los 20 es ×0,49 frente al GLP-1: el titular es la cola, no el centro.
+  ⚠️ Grupos de 5 o 6 animales, sin datos pareados y sin ensayos clínicos: ratones, ratas y células.
+fecha: 2026-11-26
+categoria: tecnologia
+tags: [peptidos, inteligencia-artificial, diseno-de-farmacos, glp-1, glucagon, obesidad, inmunoterapia, pd-1, ctla-4]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41586-026-11338-1"
+    titulo: "De novo design of high-potency dual-target therapeutic peptides with ORIDTP"
+    journal: Nature
+    autores: "Lv et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "hit_rate_benchmark.csv"
+    descripcion: "Hit rate medio y SD de 5 métodos en los dos regímenes del benchmark (50 entradas con una diana, 35 con dos)"
+    fuente: "Source Data Fig. 1 (MOESM3)"
+  - nombre: "metricas_resumen.csv"
+    descripcion: "Diversidad, afinidad, pLDDT, ipTM y fracción no-hélice del método base frente a ORIDTP"
+    fuente: "Source Data Fig. 1 (MOESM3)"
+  - nombre: "ec50_peptidos.csv"
+    descripcion: "EC50 en GLP-1R y GCGR de los 20 péptidos, con su potencia relativa a la referencia y a la hormona natural"
+    fuente: "Supplementary Tables 6, 7 y 10 (MOESM1)"
+  - nombre: "bioactividad_rondas.csv"
+    descripcion: "Folds de bioactividad de la Fig. 2b por ronda de diseño, sin el redondeo de las tablas"
+    fuente: "Source Data Fig. 2 (MOESM3)"
+  - nombre: "peso_corporal_dio.csv"
+    descripcion: "Cambio de peso corporal (%) de 6 grupos × 6 ratones obesos en los días 0, 7, 14 y 21"
+    fuente: "Source Data Fig. 2 (MOESM3)"
+  - nombre: "ingesta_dio.csv"
+    descripcion: "Comida acumulada (g) de 6 grupos × 6 ratones obesos, mismos días"
+    fuente: "Source Data Fig. 2 (MOESM3)"
+  - nombre: "glucosa_basal_dio.csv"
+    descripcion: "Glucosa en ayunas (mmol/L) de 4 grupos × 6 ratones al final del tratamiento"
+    fuente: "Source Data Fig. 2 (MOESM3)"
+  - nombre: "homa_ir_dio.csv"
+    descripcion: "Índice HOMA-IR de 4 grupos × 6 ratones al final del tratamiento"
+    fuente: "Source Data Fig. 2 (MOESM3)"
+  - nombre: "aversion_sacarina.csv"
+    descripcion: "Reparto agua/sacarina (%) en el test de aversión condicionada, 3 grupos × 6 ratones"
+    fuente: "Source Data Fig. 3 (MOESM3)"
+  - nombre: "kaolin_pica.csv"
+    descripcion: "Kaolín ingerido (g) en el test de pica, 3 grupos × 6 ratas Sprague-Dawley"
+    fuente: "Source Data Fig. 3 (MOESM3)"
+  - nombre: "inhibicion_checkpoints.csv"
+    descripcion: "Curvas de bloqueo de PD-1/PD-L1 y CTLA-4/CD80 por concentración, 3 réplicas por punto"
+    fuente: "Source Data Fig. 5 (MOESM3)"
+  - nombre: "tumor_doble_ki.csv"
+    descripcion: "Volumen tumoral (mm³) de 6 grupos × 5 ratones doble knock-in, 9 medidas entre el día 0 y el 24"
+    fuente: "Source Data Fig. 5 (MOESM3)"
+estado: publicado
+modelo_simulable:
+  clase: "N"
+  nivel: null
+  modelo: "ninguno"
+  referencia: "benchmark de hit rate, EC50 medidos, curvas de bloqueo y series de peso y volumen tumoral; el paper no publica ecuaciones ni dinámica"
+  falta: null
+  corto_id: null
+  corto_video: null
