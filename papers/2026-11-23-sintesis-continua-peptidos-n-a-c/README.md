@@ -31,6 +31,6 @@ Todas las cifras son **% de área por HPLC a 210 nm** (pureza relativa en la mez
 
 ## Links
 
-- **Video:** [Pendiente]
+- **Video:** [Ver en YouTube](https://youtube.com/shorts/vGr5T7KNuow)
 - **Paper:** [Nature — DOI: 10.1038/s41586-026-11448-w](https://doi.org/10.1038/s41586-026-11448-w)
 - **Datos originales:** [Supplementary Information del mismo DOI (MOESM1)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-026-11448-w/MediaObjects/41586_2026_11448_MOESM1_ESM.pdf)

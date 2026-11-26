@@ -12,7 +12,7 @@ fecha: 2026-11-23
 categoria: quimica
 tags: [peptidos, sintesis-quimica, epimerizacion, catalisis, quimica-de-procesos]
 formato: corto
-video_youtube: ""
+video_youtube: "https://youtube.com/shorts/vGr5T7KNuow"
 fuentes:
   - doi: "10.1038/s41586-026-11448-w"
     titulo: "Continuous N-to-C Peptide Synthesis"
@@ -47,5 +47,5 @@ modelo_simulable:
   modelo: "ninguno"
   referencia: "tablas de cribado por HPLC (producto, oxazolona, epímero y anhídrido mixto por condición)"
   falta: null
-  corto_id: null
-  corto_video: null
+  corto_id: 3209
+  corto_video: "https://youtube.com/shorts/vGr5T7KNuow"
