@@ -28,6 +28,20 @@ publicadas por los propios autores, y todo se mide en el tubo de ensayo, no en u
 
 ---
 
+### Volcanes que pintan rayas en las nubes
+
+**Ecología** · *Nature Geoscience* · Cuatro volcanes en islas remotas y dos fuentes industriales dejan estelas de nube más
+brillante: 281 marcadas a mano en imágenes MODIS. Dentro de la estela la nube tiene más
+gotas en 22 de 22 tramos (×4,23 al inicio). En el modelo CAM6, encender la química que
+convierte el SO₂ en sulfato sube el forzamiento aerosol-nube de −7,7 a −9,9 W m⁻²
+(+28,6 %, el «29 %» del abstract). ⚠️ Es un contraste entre simulaciones y las
+desviaciones se solapan. ⚠️ Que menos SO₂ pueda acelerar el calentamiento es la
+proyección del paper; aquí no se evalúa.
+
+[Ver notebook](papers/2026-11-27-dioxido-azufre-brillo-nubes/notebook) · [Leer más](papers/2026-11-27-dioxido-azufre-brillo-nubes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-27-dioxido-azufre-brillo-nubes/notebook.ipynb)
+
+---
+
 ### Péptidos de doble diana diseñados por IA: ¿cuántos le ganan a las hormonas naturales?
 
 **Tecnología** · *Nature* · ORIDTP, una plataforma de IA, diseña péptidos que apuntan a dos receptores a la vez: en el filtro

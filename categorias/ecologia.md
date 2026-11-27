@@ -1,5 +1,19 @@
 # Ecología
 
+## Volcanes que pintan rayas en las nubes
+
+*Nature Geoscience* · Cuatro volcanes en islas remotas y dos fuentes industriales dejan estelas de nube más
+brillante: 281 marcadas a mano en imágenes MODIS. Dentro de la estela la nube tiene más
+gotas en 22 de 22 tramos (×4,23 al inicio). En el modelo CAM6, encender la química que
+convierte el SO₂ en sulfato sube el forzamiento aerosol-nube de −7,7 a −9,9 W m⁻²
+(+28,6 %, el «29 %» del abstract). ⚠️ Es un contraste entre simulaciones y las
+desviaciones se solapan. ⚠️ Que menos SO₂ pueda acelerar el calentamiento es la
+proyección del paper; aquí no se evalúa.
+
+[Ver notebook](../papers/2026-11-27-dioxido-azufre-brillo-nubes/notebook) · [Leer más](../papers/2026-11-27-dioxido-azufre-brillo-nubes/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-27-dioxido-azufre-brillo-nubes/notebook.ipynb)
+
+---
+
 ## ¿Sigue siendo la Amazonía una esponja de carbono?
 
 *Nature* · Quince años de vuelos de avioneta (2010–2024): la Amazonía fue fuente neta de

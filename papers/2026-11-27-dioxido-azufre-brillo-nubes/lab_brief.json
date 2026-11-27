@@ -1,0 +1,234 @@
+{
+  "version": "1.0",
+  "paper_id": 3233,
+  "doi": "10.1038/s41561-026-02140-9",
+  "paper_type": "computational",
+  "study_design": "observational",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "En CAM6 el forzamiento aerosol-nube es 28,6 % mayor con la química del SO₂",
+      "supported": "partial",
+      "detail": "Cociente de la ED Table 2 (−9,9 ± 3,6 vs −7,7 ± 4,3 W m⁻²); cuadra con el 29 % que el abstract llama albedo; métrica exacta no confirmable (paywall); desviaciones solapadas",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhances / increasing by 29%",
+      "supported_by_data": true,
+      "metric": "aumento_re_aci_por_quimica_pct"
+    },
+    {
+      "claim": "La nube dentro de la estela tiene más gotas que la nube vecina",
+      "supported": "yes",
+      "detail": "22/22 tramos con estelas a mano, 31/33 con HYSPLIT; ×4,23 en el primer tramo",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhances",
+      "supported_by_data": true,
+      "metric": "satelite_fig3"
+    },
+    {
+      "claim": "El número de gotas responde mucho más que el agua líquida",
+      "supported": "yes",
+      "detail": "LWP mayor en la estela en 17/22 (a mano) y 12/33 (HYSPLIT) tramos; ED Table 2: Δln LWP 0,16 vs Δln N_d 0,94 en CAM6",
+      "certainty_tier": "T1",
+      "abstract_verb": "n/a (cálculo del notebook)",
+      "supported_by_data": true
+    },
+    {
+      "claim": "CAM6 coincide con el satélite dentro de la incertidumbre",
+      "supported": "partial",
+      "detail": "Forzamiento: solapa con estelas a mano y HYSPLIT. Δln N_d: solapa con estelas a mano (0,94 ± 0,28 vs 1,11 ± 0,18), no con HYSPLIT (0,33 ± 0,10)",
+      "certainty_tier": "T2",
+      "abstract_verb": "agree, within uncertainty",
+      "supported_by_data": true,
+      "metric": "dln_nd_edtab2"
+    },
+    {
+      "claim": "En CAM6, sin la química se pierde entre el 30 % y el 74 % de la respuesta de CCN",
+      "supported": "yes",
+      "detail": "CAM6, 5 sitios, mediana 40,4 %; Norilsk excluido (sin corrida sin química); métrica didáctica (cociente de Δln)",
+      "certainty_tier": "T1",
+      "abstract_verb": "enhances",
+      "supported_by_data": true,
+      "metric": "fraccion_dln_ccn_por_quimica_5sitios"
+    },
+    {
+      "claim": "En PartMC, sin coagulación hay 8,9 veces menos CCN al 0,1 %",
+      "supported": "yes",
+      "detail": "85,5 vs 760,4 cm⁻³ a las 24 h; un solo escenario (Kīlauea, 100 ppb); respalda lo que el abstract sugiere sobre la coagulación",
+      "certainty_tier": "T2",
+      "abstract_verb": "suggest",
+      "supported_by_data": true,
+      "metric": "partmc_kilauea_100ppb"
+    },
+    {
+      "claim": "Con 6 sitios no se detecta relación entre el SO₂ emitido y la frecuencia de estelas",
+      "supported": "partial",
+      "detail": "Spearman ρ = −0,12 (p = 0,83, n = 6): no prueba ausencia de relación",
+      "certainty_tier": "T4",
+      "abstract_verb": "n/a (cálculo del notebook)",
+      "supported_by_data": true,
+      "metric": "spearman_so2_vs_frecuencia"
+    },
+    {
+      "claim": "Menos emisiones de SO₂ podrían acelerar el calentamiento",
+      "supported": "no",
+      "detail": "Proyección del paper (possibly accelerating); los datos del notebook no la evalúan",
+      "certainty_tier": "T3",
+      "abstract_verb": "suggest ... possibly",
+      "supported_by_data": false
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 281,
+      "unit": "estelas",
+      "metric": "n_tracks_total",
+      "context": "estelas de contaminación marcadas a mano en MODIS Aqua 2015-2017, 6 sitios",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 28.6,
+      "unit": "por ciento",
+      "metric": "aumento_re_aci_por_quimica_pct",
+      "context": "aumento del forzamiento aerosol-nube en CAM6 con química del SO₂ (cociente −9,9/−7,7 W m⁻², ED Table 2); el abstract lo reporta como 29 % de albedo",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -9.9,
+      "unit": "W m⁻²",
+      "metric": "re_aci_cam6_pluma_w_m2",
+      "context": "RE_aci CAM6 con química, media 4-10 h, todos los sitios",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -7.7,
+      "unit": "W m⁻²",
+      "metric": "re_aci_cam6_sin_so2_w_m2",
+      "context": "RE_aci CAM6 sin química, media 4-10 h, todos los sitios",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 36.0,
+      "unit": "por ciento",
+      "metric": "aumento_twomey_por_quimica_pct",
+      "context": "término Twomey CAM6 con vs sin química (−6,8 vs −5,0 W m⁻²)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4.23,
+      "unit": "veces",
+      "metric": "satelite_fig3",
+      "context": "N_d en la estela / nube vecina en el primer tramo, estelas a mano (325,7 vs 77,0 cm⁻³)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 53.3,
+      "unit": "por ciento",
+      "metric": "cam6_kilauea_4_10h",
+      "context": "fracción del exceso de CCN 0,1 % que aporta la química, Kīlauea CAM6, 4-10 h",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 40.4,
+      "unit": "por ciento",
+      "metric": "fraccion_dln_ccn_por_quimica_5sitios",
+      "context": "mediana en 5 sitios de la respuesta de CCN que se pierde sin química (rango 30-74 %)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 8.9,
+      "unit": "veces",
+      "metric": "partmc_kilauea_100ppb",
+      "context": "CCN 0,1 % a las 24 h, todo activo / sin coagulación (760,4 vs 85,5 cm⁻³), PartMC Kīlauea 100 ppb",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 18.4,
+      "unit": "km",
+      "metric": "error_hysplit_km",
+      "context": "mediana del desvío HYSPLIT-ERA5 frente a estelas a mano (n = 252)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.12,
+      "unit": "rho",
+      "metric": "spearman_so2_vs_frecuencia",
+      "context": "Spearman entre SO₂ emitido y frecuencia de estelas, n = 6 sitios (p = 0,83)",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "quantify",
+      "tier": "T1",
+      "cam_attenuator": "«cuantificaron» — afirmación directa sobre lo que hicieron"
+    },
+    {
+      "abstract_verb": "agree, within uncertainty",
+      "tier": "T2",
+      "cam_attenuator": "«coinciden dentro de la incertidumbre» — NO «confirman» ni «reproducen exactamente»"
+    },
+    {
+      "abstract_verb": "enhances / increasing ... by 29% (indicativo)",
+      "tier": "T1",
+      "cam_attenuator": "afirmación directa, pero SIEMPRE «en las simulaciones»: es un contraste CAM6 con/sin química, no una medición"
+    },
+    {
+      "abstract_verb": "support",
+      "tier": "T2",
+      "cam_attenuator": "«respaldan»"
+    },
+    {
+      "abstract_verb": "suggest",
+      "tier": "T2",
+      "cam_attenuator": "«los resultados sugieren» — coagulación como vía dominante de crecimiento a tamaño CCN"
+    },
+    {
+      "abstract_verb": "suggest ... will become dimmer, possibly accelerating global warming",
+      "tier": "T3",
+      "cam_attenuator": "«podría acelerar el calentamiento» — proyección especulativa, doble hedge (suggest + possibly)"
+    },
+    {
+      "abstract_verb": "represent (contexto)",
+      "tier": "contexto",
+      "cam_attenuator": "«son una de las mayores fuentes de incertidumbre» — frase de fondo, no meta-claim del paper"
+    },
+    {
+      "abstract_verb": "can produce (contexto)",
+      "tier": "contexto",
+      "cam_attenuator": "mecanismo general conocido (efecto Twomey), no hallazgo del paper"
+    }
+  ],
+  "narrative_hooks": [
+    "Un volcán en medio del océano deja una franja de nube más blanca: dentro de la estela la nube tiene 4,23 veces más gotas que la vecina al inicio.",
+    "En el modelo, la química que convierte el SO₂ en partículas sube el enfriamiento de las nubes un 28,6 % (el «29 %» del paper, que lo llama albedo): un contraste entre simulaciones, no una medición.",
+    "Mt. Michael, el volcán que menos SO₂ emite, es el que más estelas deja (38 %) y el que más depende de la química."
+  ],
+  "limitations": [
+    "El 29 % y todo el contraste con/sin química salen de simulaciones (CAM6, PartMC), no de observaciones; las desviaciones de las dos corridas se solapan.",
+    "El abstract llama «albedo» al 29 %; aquí se reproduce como cociente de forzamiento RE_aci de la ED Table 2. El cuerpo está tras paywall y no se puede confirmar la métrica exacta.",
+    "Las Extended Data Tables se transcribieron de imagen; las bandas de Fig. 3-4 son envolventes del Source Data sin confirmar si son DE o error estándar.",
+    "Norilsk no tiene corrida sin química en el Source Data; PartMC es un solo escenario (Kīlauea, 100 ppb).",
+    "Las emisiones de SO₂ de la ED Table 1 y del catálogo de la ED Fig. 1 difieren hasta 1,9 veces en tres volcanes.",
+    "Seis sitios: cualquier comparación entre sitios es descriptiva.",
+    "Que menos SO₂ pueda acelerar el calentamiento es una proyección del paper («possibly»), no evaluada aquí."
+  ],
+  "suggested_word_range": {
+    "min": 190,
+    "max": 250,
+    "reason": "4 claims yes, 11 números clave"
+  },
+  "notebook_slug": "2026-11-27-dioxido-azufre-brillo-nubes",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-11-27-dioxido-azufre-brillo-nubes/notebook.html",
+  "generated_at": "2026-11-27T23:37:14+00:00"
+}

@@ -1,0 +1,135 @@
+codigo,sitio,variable,fuente,delta_ln
+KIL,Kīlauea,SO2,CAM6 plume-baseline,3.959283
+KIL,Kīlauea,SO2,CAM6 plume-noSO2-baseline,0.034076
+KIL,Kīlauea,SO4,CAM6 plume-baseline,2.974894
+KIL,Kīlauea,SO4,CAM6 plume-noSO2-baseline,1.965519
+KIL,Kīlauea,CCN,CAM6 plume-baseline,1.540573
+KIL,Kīlauea,CCN,CAM6 plume-noSO2-baseline,0.918917
+AMB,Ambrym,SO2,CAM6 plume-baseline,5.340977
+AMB,Ambrym,SO2,CAM6 plume-noSO2-baseline,0.072269
+AMB,Ambrym,SO4,CAM6 plume-baseline,3.562078
+AMB,Ambrym,SO4,CAM6 plume-noSO2-baseline,2.518845
+AMB,Ambrym,CCN,CAM6 plume-baseline,1.99936
+AMB,Ambrym,CCN,CAM6 plume-noSO2-baseline,1.397452
+YAS,Yasur,SO2,CAM6 plume-baseline,4.072515
+YAS,Yasur,SO2,CAM6 plume-noSO2-baseline,0.058585
+YAS,Yasur,SO4,CAM6 plume-baseline,2.806403
+YAS,Yasur,SO4,CAM6 plume-noSO2-baseline,1.697188
+YAS,Yasur,CCN,CAM6 plume-baseline,1.232266
+YAS,Yasur,CCN,CAM6 plume-noSO2-baseline,0.78565
+SSI,Mt. Michael,SO2,CAM6 plume-baseline,0.779173
+SSI,Mt. Michael,SO2,CAM6 plume-noSO2-baseline,0.008604
+SSI,Mt. Michael,SO4,CAM6 plume-baseline,0.511768
+SSI,Mt. Michael,SO4,CAM6 plume-noSO2-baseline,0.104554
+SSI,Mt. Michael,CCN,CAM6 plume-baseline,0.394366
+SSI,Mt. Michael,CCN,CAM6 plume-noSO2-baseline,0.102446
+NOR,Norilsk,SO2,CAM6 plume-baseline,6.586142
+NOR,Norilsk,SO2,CAM6 plume-noSO2-baseline,0
+NOR,Norilsk,SO4,CAM6 plume-baseline,2.306489
+NOR,Norilsk,SO4,CAM6 plume-noSO2-baseline,0
+NOR,Norilsk,CCN,CAM6 plume-baseline,1.919894
+NOR,Norilsk,CCN,CAM6 plume-noSO2-baseline,0
+NAR,Come-by-Chance,SO2,CAM6 plume-baseline,0.100936
+NAR,Come-by-Chance,SO2,CAM6 plume-noSO2-baseline,0.055303
+NAR,Come-by-Chance,SO4,CAM6 plume-baseline,0.054157
+NAR,Come-by-Chance,SO4,CAM6 plume-noSO2-baseline,0.01185
+NAR,Come-by-Chance,CCN,CAM6 plume-baseline,0.009478
+NAR,Come-by-Chance,CCN,CAM6 plume-noSO2-baseline,0.005392
+PartMC,PartMC,SO2,PartMC,4.60517
+PartMC,PartMC,CCN,PartMC,1.658732
+KIL,Kīlauea,tau_c,CAM6 plume-baseline,0.473797
+KIL,Kīlauea,tau_c,CAM6 plume-noSO2-baseline,0.313787
+KIL,Kīlauea,tau_c,MODIS Tracks,0.697593
+KIL,Kīlauea,tau_c,MODIS HYSPLIT,0.343796
+KIL,Kīlauea,R_e,CAM6 plume-baseline,-0.276449
+KIL,Kīlauea,R_e,CAM6 plume-noSO2-baseline,-0.156947
+KIL,Kīlauea,R_e,MODIS Tracks,-0.257892
+KIL,Kīlauea,R_e,MODIS HYSPLIT,-0.166126
+KIL,Kīlauea,LWP,CAM6 plume-baseline,0.168561
+KIL,Kīlauea,LWP,CAM6 plume-noSO2-baseline,0.175124
+KIL,Kīlauea,LWP,MODIS Tracks,0.334067
+KIL,Kīlauea,LWP,MODIS HYSPLIT,0.169896
+KIL,Kīlauea,N_d,CAM6 plume-baseline,1.044865
+KIL,Kīlauea,N_d,CAM6 plume-noSO2-baseline,0.577176
+KIL,Kīlauea,N_d,MODIS Tracks,0.941303
+KIL,Kīlauea,N_d,MODIS HYSPLIT,0.430313
+AMB,Ambrym,tau_c,CAM6 plume-baseline,0.629072
+AMB,Ambrym,tau_c,CAM6 plume-noSO2-baseline,0.452768
+AMB,Ambrym,tau_c,MODIS Tracks,1.207856
+AMB,Ambrym,tau_c,MODIS HYSPLIT,0.050333
+AMB,Ambrym,R_e,CAM6 plume-baseline,-0.380856
+AMB,Ambrym,R_e,CAM6 plume-noSO2-baseline,-0.308103
+AMB,Ambrym,R_e,MODIS Tracks,-0.364365
+AMB,Ambrym,R_e,MODIS HYSPLIT,-0.085387
+AMB,Ambrym,LWP,CAM6 plume-baseline,0.263788
+AMB,Ambrym,LWP,CAM6 plume-noSO2-baseline,0.162369
+AMB,Ambrym,LWP,MODIS Tracks,0.792818
+AMB,Ambrym,LWP,MODIS HYSPLIT,-0.088801
+AMB,Ambrym,N_d,CAM6 plume-baseline,1.349472
+AMB,Ambrym,N_d,CAM6 plume-noSO2-baseline,1.009378
+AMB,Ambrym,N_d,MODIS Tracks,1.452474
+AMB,Ambrym,N_d,MODIS HYSPLIT,0.229805
+YAS,Yasur,tau_c,CAM6 plume-baseline,0.556334
+YAS,Yasur,tau_c,CAM6 plume-noSO2-baseline,0.418076
+YAS,Yasur,tau_c,MODIS Tracks,1.013215
+YAS,Yasur,tau_c,MODIS HYSPLIT,0.124497
+YAS,Yasur,R_e,CAM6 plume-baseline,-0.31271
+YAS,Yasur,R_e,CAM6 plume-noSO2-baseline,-0.223933
+YAS,Yasur,R_e,MODIS Tracks,-0.262716
+YAS,Yasur,R_e,MODIS HYSPLIT,-0.124259
+YAS,Yasur,LWP,CAM6 plume-baseline,0.222251
+YAS,Yasur,LWP,CAM6 plume-noSO2-baseline,0.184456
+YAS,Yasur,LWP,MODIS Tracks,0.644607
+YAS,Yasur,LWP,MODIS HYSPLIT,-0.045687
+YAS,Yasur,N_d,CAM6 plume-baseline,1.117268
+YAS,Yasur,N_d,CAM6 plume-noSO2-baseline,0.760631
+YAS,Yasur,N_d,MODIS Tracks,1.232368
+YAS,Yasur,N_d,MODIS HYSPLIT,0.392906
+SSI,Mt. Michael,tau_c,CAM6 plume-baseline,0.229533
+SSI,Mt. Michael,tau_c,CAM6 plume-noSO2-baseline,0.131785
+SSI,Mt. Michael,tau_c,MODIS Tracks,0.254891
+SSI,Mt. Michael,tau_c,MODIS HYSPLIT,0.047691
+SSI,Mt. Michael,R_e,CAM6 plume-baseline,-0.175514
+SSI,Mt. Michael,R_e,CAM6 plume-noSO2-baseline,-0.108935
+SSI,Mt. Michael,R_e,MODIS Tracks,-0.388081
+SSI,Mt. Michael,R_e,MODIS HYSPLIT,-0.088569
+SSI,Mt. Michael,LWP,CAM6 plume-baseline,0.087333
+SSI,Mt. Michael,LWP,CAM6 plume-noSO2-baseline,0.052425
+SSI,Mt. Michael,LWP,MODIS Tracks,-0.141838
+SSI,Mt. Michael,LWP,MODIS HYSPLIT,-0.058932
+SSI,Mt. Michael,N_d,CAM6 plume-baseline,0.440003
+SSI,Mt. Michael,N_d,CAM6 plume-noSO2-baseline,0.23089
+SSI,Mt. Michael,N_d,MODIS Tracks,1.075032
+SSI,Mt. Michael,N_d,MODIS HYSPLIT,0.310885
+NOR,Norilsk,tau_c,CAM6 plume-baseline,0.253548
+NOR,Norilsk,tau_c,CAM6 plume-noSO2-baseline,0
+NOR,Norilsk,tau_c,MODIS Tracks,0.28117
+NOR,Norilsk,tau_c,MODIS HYSPLIT,0.137325
+NOR,Norilsk,R_e,CAM6 plume-baseline,-0.169192
+NOR,Norilsk,R_e,CAM6 plume-noSO2-baseline,0
+NOR,Norilsk,R_e,MODIS Tracks,-0.360266
+NOR,Norilsk,R_e,MODIS HYSPLIT,-0.134035
+NOR,Norilsk,LWP,CAM6 plume-baseline,0.157316
+NOR,Norilsk,LWP,CAM6 plume-noSO2-baseline,0
+NOR,Norilsk,LWP,MODIS Tracks,-0.083151
+NOR,Norilsk,LWP,MODIS HYSPLIT,-0.040366
+NOR,Norilsk,N_d,CAM6 plume-baseline,0.584701
+NOR,Norilsk,N_d,CAM6 plume-noSO2-baseline,0
+NOR,Norilsk,N_d,MODIS Tracks,0.992562
+NOR,Norilsk,N_d,MODIS HYSPLIT,0.430378
+NAR,Come-by-Chance,tau_c,CAM6 plume-baseline,-0.018245
+NAR,Come-by-Chance,tau_c,CAM6 plume-noSO2-baseline,-0.009481
+NAR,Come-by-Chance,tau_c,MODIS Tracks,0.414056
+NAR,Come-by-Chance,tau_c,MODIS HYSPLIT,-0.00697
+NAR,Come-by-Chance,R_e,CAM6 plume-baseline,-0.006331
+NAR,Come-by-Chance,R_e,CAM6 plume-noSO2-baseline,-0.000843
+NAR,Come-by-Chance,R_e,MODIS Tracks,-0.376453
+NAR,Come-by-Chance,R_e,MODIS HYSPLIT,-0.132896
+NAR,Come-by-Chance,LWP,CAM6 plume-baseline,-0.022473
+NAR,Come-by-Chance,LWP,CAM6 plume-noSO2-baseline,-0.009793
+NAR,Come-by-Chance,LWP,MODIS Tracks,0.023734
+NAR,Come-by-Chance,LWP,MODIS HYSPLIT,-0.199747
+NAR,Come-by-Chance,N_d,CAM6 plume-baseline,0.006013
+NAR,Come-by-Chance,N_d,CAM6 plume-noSO2-baseline,-0.007121
+NAR,Come-by-Chance,N_d,MODIS Tracks,1.124473
+NAR,Come-by-Chance,N_d,MODIS HYSPLIT,0.345991

@@ -1,0 +1,57 @@
+titulo: "Volcanes que pintan rayas en las nubes"
+titulo_corto: "SO₂ y brillo de nubes"
+card_descripcion: |
+  Cuatro volcanes en islas remotas y dos fuentes industriales dejan estelas de nube más
+  brillante: 281 marcadas a mano en imágenes MODIS. Dentro de la estela la nube tiene más
+  gotas en 22 de 22 tramos (×4,23 al inicio). En el modelo CAM6, encender la química que
+  convierte el SO₂ en sulfato sube el forzamiento aerosol-nube de −7,7 a −9,9 W m⁻²
+  (+28,6 %, el «29 %» del abstract). ⚠️ Es un contraste entre simulaciones y las
+  desviaciones se solapan. ⚠️ Que menos SO₂ pueda acelerar el calentamiento es la
+  proyección del paper; aquí no se evalúa.
+fecha: 2026-11-27
+categoria: ecologia
+tags: [clima, nubes, aerosoles, dióxido de azufre, volcanes, satélite]
+formato: corto
+video_youtube: ""
+fuentes:
+  - doi: "10.1038/s41561-026-02140-9"
+    titulo: "Chemical processing of sulfur dioxide enhances cloud sensitivity to aerosols"
+    journal: Nature Geoscience
+    autores: "Christensen et al."
+    verificado: true
+reproducible: true
+datos_publicos: true
+datasets:
+  - nombre: "sitios.csv"
+    descripcion: "6 sitios: SO₂, altura y estelas de la Extended Data Table 1 + gránulos MODIS con y sin estela"
+    fuente: "Zenodo 10.5281/zenodo.20041770 + Extended Data Table 1"
+  - nombre: "efectos_radiativos_edtab2.csv"
+    descripcion: "Δln N_d, LWP, fracción de nube y forzamientos (W m⁻²), CAM6 y MODIS, media ± DE"
+    fuente: "Extended Data Table 2 (transcrita de imagen)"
+  - nombre: "satelite_nd_lwp_vs_tiempo.csv"
+    descripcion: "N_d y LWP en la estela y en nube vecina por tramo de tiempo, estelas a mano y HYSPLIT"
+    fuente: "Source Data Fig. 3"
+  - nombre: "cam6_kilauea_series.csv"
+    descripcion: "Series CAM6 de Kīlauea (SO₂, sulfato, CCN, N_d, LWP, albedo) con y sin química"
+    fuente: "Source Data Fig. 4"
+  - nombre: "respuesta_por_sitio_dln.csv"
+    descripcion: "Δln por sitio y variable, CAM6 con y sin química y MODIS"
+    fuente: "Source Data Fig. 6"
+  - nombre: "partmc_kilauea_100ppb.csv"
+    descripcion: "PartMC 24 h: CCN 0,1 %, 0,3 % y número total, con y sin coagulación o partículas nuevas"
+    fuente: "Source Data Fig. 5"
+  - nombre: "error_hysplit_km.csv"
+    descripcion: "Error de desplazamiento HYSPLIT frente a estelas a mano por reanálisis (n = 252/245/247)"
+    fuente: "Source Data Extended Data Fig. 3a"
+  - nombre: "emisiones_so2_kt_anio.csv"
+    descripcion: "Emisiones anuales de SO₂ por fuente, 2005-2022"
+    fuente: "Source Data Extended Data Fig. 1"
+estado: publicado
+modelo_simulable:
+  clase: "S-"
+  nivel: "modelo-paper"
+  modelo: "Coagulación y formación de partículas nuevas en caja (PartMC-MOSAIC) sobre un soplo de pluma con 100 ppb de SO₂"
+  referencia: "partmc_kilauea_100ppb.csv (CCN 0,1 %, CCN 0,3 % y número total, 3 escenarios, 24 h)"
+  falta: "Distribución de tamaños inicial y química MOSAIC: el Zenodo 10.5281/zenodo.20041770 trae los .spec/.dat de configuración pero el modelo es código externo no verificado"
+  corto_id: null
+  corto_video: null

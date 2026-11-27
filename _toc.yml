@@ -4,6 +4,11 @@ chapters:
 - file: categorias/ecologia
   title: "Ecología"
   sections:
+  - file: papers/2026-11-27-dioxido-azufre-brillo-nubes/README
+    title: "SO₂ y brillo de nubes"
+    sections:
+    - file: papers/2026-11-27-dioxido-azufre-brillo-nubes/notebook
+      title: Notebook
   - file: papers/2026-10-21-amazonia-emisiones-carbono-incendios-sequia/README
     title: "Amazonía, fuego y sequía"
     sections:
