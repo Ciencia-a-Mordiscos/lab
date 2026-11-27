@@ -14,6 +14,20 @@ Aquí sí. Cada notebook toma un paper de Nature, Science o revistas similares, 
 
 <!-- LAB-INDEX:START — generado por lab-reindex.py; no editar a mano -->
 
+### RFdiffusion3: colocar átomos, no fragmentos
+
+**Tecnología** · *Science* · Diseñar una enzima desde cero es un problema de sujeción: te dan el sitio activo y tienes que
+inventar la proteína que lo aguanta. En el benchmark de los autores (41 tareas, 100 esqueletos
+cada una), RFdiffusion3 acierta el 37,7 % de las veces frente al 23,5 % de RFdiffusion2, y la
+ventaja pasa de 1,50× a 3,67× cuando el sitio activo tiene cinco o más islas de residuos.
+La fosfotriesterasa diseñada pierde entre 8,7× y 985× de eficiencia al cambiar por alanina
+cualquiera de sus seis posiciones catalíticas. ⚠️ Las tasas de los métodos anteriores son las
+publicadas por los propios autores, y todo se mide en el tubo de ensayo, no en un organismo.
+
+[Ver notebook](papers/2026-11-27-rfdiffusion3-sitios-activos-atomicos/notebook) · [Leer más](papers/2026-11-27-rfdiffusion3-sitios-activos-atomicos/README) · [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ciencia-a-Mordiscos/lab/blob/main/papers/2026-11-27-rfdiffusion3-sitios-activos-atomicos/notebook.ipynb)
+
+---
+
 ### Péptidos de doble diana diseñados por IA: ¿cuántos le ganan a las hormonas naturales?
 
 **Tecnología** · *Nature* · ORIDTP, una plataforma de IA, diseña péptidos que apuntan a dos receptores a la vez: en el filtro

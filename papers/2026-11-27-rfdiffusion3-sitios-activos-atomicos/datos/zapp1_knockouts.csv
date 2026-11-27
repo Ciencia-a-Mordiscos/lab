@@ -1,0 +1,8 @@
+variante,kcat_km_M1s1,kcat_km_std,kcat_s1,kcat_std,saturacion_alcanzada
+ZAPP1,1.97,0.53,0.0153,0.002,si
+ZAPP1_H93A,0.074,0.045,0.000647,0.000197,si
+ZAPP1_H89A,0.226,0.175,,,no
+ZAPP1_K16A,0.176,0.223,0.001131,0.000669,si
+ZAPP1_H170A,0.002,0.001,,,no
+ZAPP1_H133A,0.013,0.006,4.6e-05,9e-06,si
+ZAPP1_E92A,0.047,0.018,0.000361,6.8e-05,si

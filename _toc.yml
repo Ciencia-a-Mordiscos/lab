@@ -1121,6 +1121,11 @@ chapters:
 - file: categorias/tecnologia
   title: "Tecnología"
   sections:
+  - file: papers/2026-11-27-rfdiffusion3-sitios-activos-atomicos/README
+    title: "RFdiffusion3 y los sitios activos"
+    sections:
+    - file: papers/2026-11-27-rfdiffusion3-sitios-activos-atomicos/notebook
+      title: Notebook
   - file: papers/2026-11-26-peptidos-dual-target-ia/README
     title: "Péptidos de doble diana por IA"
     sections:

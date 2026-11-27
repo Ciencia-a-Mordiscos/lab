@@ -1,0 +1,312 @@
+{
+  "version": "1.0",
+  "paper_id": 3231,
+  "doi": "10.1126/science.aeh2982",
+  "paper_type": "computational",
+  "study_design": "experimental",
+  "species": "n/a",
+  "verification_table": [
+    {
+      "claim": "RFD3 acierta más que RFD2 en el benchmark AME",
+      "supported": "yes",
+      "detail": "37,7 % frente a 23,5 % de media; gana en 37 de 41 tareas (Wilcoxon pareado p = 1,7×10⁻⁷, d pareado = 1,28). Líneas base publicadas por los autores, no reevaluadas aquí",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate",
+      "effect_size": {
+        "measure": "cohen_d_pareado",
+        "value": 1.28,
+        "interpretation": "grande"
+      }
+    },
+    {
+      "claim": "La ventaja crece con el tamaño del motivo",
+      "supported": "yes",
+      "detail": "1,50× con 1–4 islas (n = 29) y 3,67× con 5–7 (n = 12); Spearman ρ = −0,77 (RFD3) y −0,85 (RFD2). El paper lo enuncia como «más de cuatro residuos catalíticos»; la columna publicada cuenta islas de residuos contiguos",
+      "certainty_tier": "T1",
+      "abstract_verb": "excels",
+      "effect_size": {
+        "measure": "spearman_rho",
+        "value": -0.77,
+        "interpretation": "fuerte"
+      }
+    },
+    {
+      "claim": "RFD3 genera diseños más rápido",
+      "supported": "yes",
+      "detail": "25,8× más rápido que RFD1 y 43,6× que RFD2 a 50 residuos; 14,1× y 21,5× a 400. Tiempos medidos por los autores en GPUs A6000 (Table S8)",
+      "certainty_tier": "T1",
+      "abstract_verb": "more rapidly and accurately than previous methods"
+    },
+    {
+      "claim": "La ventaja en velocidad se mantiene al crecer la proteína",
+      "supported": "partial",
+      "detail": "Se estrecha: el tiempo de RFD3 se multiplica por 11,6 de 50 a 400 residuos y el de RFD1 por 6,3. Frente a BoltzGen cae de 4,4× a 1,5×",
+      "certainty_tier": "T1",
+      "abstract_verb": "more rapidly"
+    },
+    {
+      "claim": "En AME-2, RFD3 coloca el motivo bajo 1,25 Å mucho más a menudo",
+      "supported": "yes",
+      "detail": "1,88 % frente a 0,15 % sobre 64.000 diseños por método (12,7×); medianas 3,60 Å y 6,00 Å. En la glicosidasa RFD2 no logró ninguno de 16.000. El 6,7 % de RFD2 y el 2,7 % de RFD3 acaban en 20 Å o más",
+      "certainty_tier": "T1",
+      "abstract_verb": "accurately"
+    },
+    {
+      "claim": "ZAPP-1 es una fosfotriesterasa activa y su actividad viene del sitio activo diseñado",
+      "supported": "yes",
+      "detail": "kcat/Km = 1,97 ± 0,53 M⁻¹ s⁻¹ (R² = 0,990); las seis alaninas bajan la eficiencia entre 8,7× y 985× (mediana 34×). H89A y H170A no saturan; en H89A la hoja del panel da 0,226 y la Table S3 da 0,16 ± 0,02",
+      "certainty_tier": "T1",
+      "abstract_verb": "demonstrate"
+    },
+    {
+      "claim": "El bicarbonato hace falta para la catálisis",
+      "supported": "yes",
+      "detail": "Sin NaHCO₃, kcat/Km cae 3,8× y kcat 11,4×. Coherente con la lisina carbamilada del diseño, aunque el experimento por sí solo no demuestra la carbamilación",
+      "certainty_tier": "T1",
+      "abstract_verb": "incorporates"
+    },
+    {
+      "claim": "Las proteasas de zinc contra transtiretina funcionan",
+      "supported": "yes",
+      "detail": "kcat/Km de 675, 1.100 y 2.946 M⁻¹ s⁻¹, dentro de lo que reporta la Table S4 (700 ± 200, 1.100 ± 300, 2.900 ± 500)",
+      "certainty_tier": "T1",
+      "abstract_verb": "obtained"
+    },
+    {
+      "claim": "Catalizadores activos «a la primera», en campañas de 96 construcciones",
+      "supported": "partial",
+      "detail": "La primera campaña fue de 96 diseños en 6 andamios y avanzaron 4, todos del mismo andamio. La segunda (192 diseños) usó el análisis de ZAPP-1 para derivar su teozima. Las 12 enzimas con cinética completa las eligieron los autores del cribado",
+      "certainty_tier": "T1",
+      "abstract_verb": "obtained"
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": 37.7,
+      "unit": "por ciento",
+      "metric": "ame_pass_medio_rfd3",
+      "context": "tasa de acierto media de RFdiffusion3 en las 41 tareas del benchmark AME",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 23.5,
+      "unit": "por ciento",
+      "metric": "ame_pass_medio_rfd2",
+      "context": "tasa de acierto media de RFdiffusion2 en las mismas 41 tareas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 26,
+      "unit": "tareas de 41",
+      "metric": "ame_pass_medio_rfd1",
+      "context": "RFdiffusion1 no acierta ninguno de los 100 esqueletos en 26 de las 41 tareas",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.5,
+      "unit": "veces",
+      "metric": "ame_ratio_islas_1_4",
+      "context": "ventaja de RFD3 sobre RFD2 en las 29 tareas con 1 a 4 islas de residuos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.67,
+      "unit": "veces",
+      "metric": "ame_ratio_islas_5_7",
+      "context": "ventaja de RFD3 sobre RFD2 en las 12 tareas con 5 a 7 islas de residuos",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 37,
+      "unit": "tareas de 41",
+      "metric": "ame_victorias",
+      "context": "victorias de RFD3 sobre RFD2 en el benchmark pareado",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": -0.77,
+      "unit": "rho de Spearman",
+      "metric": "ame_spearman_islas",
+      "context": "correlación entre número de islas y tasa de acierto",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1,
+      "unit": "por ciento",
+      "metric": "ame_tarea_mas_dificil",
+      "context": "la única tarea de 7 islas deja a RFD3 y RFD2 igualados en el 1 %",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 25.8,
+      "unit": "veces",
+      "metric": "velocidad_ratio_50",
+      "context": "a 50 residuos, RFD3 frente a RFD1 (25,8×) y a RFD2 (43,6×)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 14.1,
+      "unit": "veces",
+      "metric": "velocidad_ratio_400",
+      "context": "a 400 residuos la ventaja se encoge a 14,1× (RFD1) y 21,5× (RFD2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 11.6,
+      "unit": "veces",
+      "metric": "velocidad_escalado",
+      "context": "crecimiento del tiempo de RFD3 de 50 a 400 residuos, frente a 6,3× de RFD1",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.88,
+      "unit": "por ciento",
+      "metric": "ame2_pct_rfd3",
+      "context": "diseños de RFD3 bajo 1,25 Å en AME-2, frente a 0,15 % de RFD2",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.6,
+      "unit": "angstroms",
+      "metric": "ame2_mediana_rmsd",
+      "context": "mediana del error de colocación del motivo: 3,60 Å (RFD3) y 6,00 Å (RFD2)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 0.0,
+      "unit": "diseños de 16.000",
+      "metric": "ame2_glicosidasa",
+      "context": "RFD2 no logró ningún diseño bajo 1,25 Å en la teozima de glicosidasa",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 4,
+      "unit": "diseños de 96",
+      "metric": "campana_hits",
+      "context": "diseños activos de la primera campaña, todos del mismo andamio",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 1.97,
+      "unit": "M⁻¹ s⁻¹",
+      "metric": "zapp1_kcat_km",
+      "context": "eficiencia catalítica de ZAPP-1 sobre paraoxón con 25 mM de bicarbonato",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 985,
+      "unit": "veces",
+      "metric": "ko_rango",
+      "context": "caída de eficiencia de los seis mutantes de alanina de ZAPP-1 (de 8,7× a 985×)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 3.8,
+      "unit": "veces",
+      "metric": "bicarbonato_ratio",
+      "context": "caída de kcat/Km de ZAPP-1 al quitar el bicarbonato (kcat cae 11,4×)",
+      "source": "fact_sheet",
+      "verified": true
+    },
+    {
+      "value": 2946,
+      "unit": "M⁻¹ s⁻¹",
+      "metric": "proteasas_kcat_km",
+      "context": "las tres proteasas de zinc contra transtiretina: 675, 1.100 y 2.946 M⁻¹ s⁻¹",
+      "source": "fact_sheet",
+      "verified": true
+    }
+  ],
+  "certeza_mapping": [
+    {
+      "abstract_verb": "describe",
+      "tier": "T1",
+      "cam_attenuator": "'describen' / afirmacion directa: presentan un metodo"
+    },
+    {
+      "abstract_verb": "demonstrate",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa ('demostraron experimentalmente')"
+    },
+    {
+      "abstract_verb": "obtained",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa ('obtuvieron catalizadores activos')"
+    },
+    {
+      "abstract_verb": "develop",
+      "tier": "T1",
+      "cam_attenuator": "'desarrollaron' / 'construyeron' — NUNCA 'proponen' ni 'sugieren' (descalar T1 tambien es error)"
+    },
+    {
+      "abstract_verb": "present",
+      "tier": "T1",
+      "cam_attenuator": "'presentan' (Editor's summary: 'now present an expanded ... program')"
+    },
+    {
+      "abstract_verb": "excels",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa CON el numero (1,50x con 1-4 islas, 3,67x con 5-7) — no inflar a 'resuelve'"
+    },
+    {
+      "abstract_verb": "opens up new possibilities",
+      "tier": "T2",
+      "cam_attenuator": "'abre la puerta a' — meta-claim de los autores sobre aptameros de ARN; NO 'revoluciona'"
+    },
+    {
+      "abstract_verb": "considerably extends",
+      "tier": "T2",
+      "cam_attenuator": "'los autores plantean que amplia bastante' — meta-claim, NO 'cambio de paradigma'"
+    },
+    {
+      "abstract_verb": "We anticipate",
+      "tier": "T3",
+      "cam_attenuator": "'esperan que' / 'el objetivo declarado es' — expectativa, no resultado"
+    },
+    {
+      "abstract_verb": "more rapidly and accurately than previous methods",
+      "tier": "T1",
+      "cam_attenuator": "afirmacion directa con cifra; decir SIEMPRE contra que linea base (RFdiffusion1/2, benchmark de los autores)"
+    }
+  ],
+  "narrative_hooks": [
+    "Una enzima trabaja con un puñado de átomos; el resto de la proteína está ahí para sujetarlos en la posición exacta.",
+    "Con pocas piezas en el sitio activo, RFdiffusion3 y su versión anterior andan cerca: 1,50×. Con cinco o más, la distancia se abre a 3,67×.",
+    "Cambiar por alanina una sola de las seis posiciones catalíticas de ZAPP-1 le quita hasta 985 veces de eficiencia: la química está donde el diseño decía.",
+    "De 16.000 diseños de glicosidasa, el método anterior no colocó ni uno con la precisión que pide el paper. RFdiffusion3 colocó el 1,41 %."
+  ],
+  "limitations": [
+    "Las tasas de acierto y los tiempos de RFdiffusion1/2 son los publicados por los propios autores: el notebook compara números, no reevalúa modelos.",
+    "AME-1 (Chai-1, RMSD < 1,5 Å y sin choques) y AME-2 (AlphaFold3, RMSD < 1,25 Å) usan criterios distintos y sus porcentajes no son intercambiables.",
+    "El histograma de AME-2 es una agregación en bins de 0,05 Å; el último bin acumula todo diseño con error ≥ 20 Å, así que la cola derecha está recortada.",
+    "H89A y H170A no alcanzan saturación: solo su kcat/Km es interpretable, y en H89A la hoja del panel (0,226) y la Table S3 (0,16 ± 0,02) no coinciden.",
+    "El factor de aceleración frente a la reacción sin enzima (~3×10⁵) usa tasas no catalizadas de la literatura, a veces a otra temperatura: es orden de magnitud.",
+    "Las 12 enzimas con cinética completa las eligieron los autores del cribado; su rango de eficiencia no es la distribución de los diseños encargados.",
+    "Nada se prueba en un organismo: son proteínas expresadas en E. coli y medidas en el tubo de ensayo."
+  ],
+  "suggested_word_range": {
+    "min": 220,
+    "max": 270,
+    "reason": "7 claims soportados y 2 parciales, con 19 números clave verificados"
+  },
+  "notebook_slug": "2026-11-27-rfdiffusion3-sitios-activos-atomicos",
+  "lab_url": "https://cienciaamordiscos.com/papers/2026-11-27-rfdiffusion3-sitios-activos-atomicos/notebook.html",
+  "generated_at": "2026-11-27T11:28:51-05:00"
+}

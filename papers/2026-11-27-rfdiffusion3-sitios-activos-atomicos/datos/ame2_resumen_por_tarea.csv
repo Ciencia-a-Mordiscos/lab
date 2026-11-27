@@ -1,0 +1,9 @@
+tarea,metodo,n_disenos,pct_motif_rmsd_lt_1p25,mediana_motif_rmsd_A
+aldolase,rfd2,16000,0.4125,5.14144324456851
+aldolase,rfd3,16000,1.98125,3.7337336287612
+decarboxylase,rfd2,16000,0.0125,9.47272257279008
+decarboxylase,rfd3,16000,0.1,5.45054818925784
+glycosidase,rfd2,16000,0,5.8857074341185
+glycosidase,rfd3,16000,1.4125,2.9169992694016
+phosphotriesterase,rfd2,16000,0.16875,4.28040253181096
+phosphotriesterase,rfd3,16000,4.0375,2.67725039374174
